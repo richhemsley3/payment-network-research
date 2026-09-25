@@ -1,0 +1,350 @@
+{
+ "network": "unionpay",
+ "seed": "https://www.unionpayintl.com/en/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": null,
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "UnionPay International",
+   "h1": "",
+   "description": "UnionPay International (UPI) is a subsidiary of China UnionPay focused on the growth and support of UnionPay's global business. In partnership with more than 2500 institutions worldwide, UnionPay International has enabled card acceptance in 180 countries and regions with issuance in more than 70 countries and regions. UnionPay International provides high quality, cost effective and secure cross-border payment services to the world's largest cardholder base and ensures convenient local services to a growing number of global UnionPay cardholders and merchants.",
+   "landmarks": {
+    "header": false,
+    "nav": 0,
+    "main": false,
+    "footer": false,
+    "search": true
+   },
+   "nav_labels": [],
+   "ctas": [],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "partner",
+    "atm"
+   ],
+   "headings": [
+    "h1: "
+   ],
+   "screenshot": "assets/unionpay/unionpay-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Global UnionPay Card",
+   "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "title": "Contact Us_UnionPay International",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": true,
+   "wall": "none",
+   "screenshot": "assets/unionpay/unionpay-s7-02-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://www.unionpayintl.com/search/serviceCenter/",
+     "count_hint": null,
+     "top": [
+      "Global UnionPay Card",
+      "Chinese Mainland",
+      "Brunei Darussalam",
+      "Chinese Mainland",
+      "Hong Kong, China"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://www.unionpayintl.com/search/serviceCenter/",
+     "count_hint": null,
+     "top": [
+      "Global UnionPay Card",
+      "Chinese Mainland",
+      "Brunei Darussalam",
+      "Chinese Mainland",
+      "Hong Kong, China"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://www.unionpayintl.com/search/serviceCenter/",
+     "count_hint": null,
+     "top": [
+      "Global UnionPay Card",
+      "Chinese Mainland",
+      "Brunei Darussalam",
+      "Chinese Mainland",
+      "Hong Kong, China"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": null,
+   "skip_link": false,
+   "landmarks": {
+    "header": false,
+    "nav": 0,
+    "main": false,
+    "footer": false,
+    "search": true
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "a: Global UnionPay Card",
+    "a: Asia",
+    "a: Europe",
+    "a: America",
+    "a: Oceania",
+    "a: Africa",
+    "a: Chinese Mainland",
+    "a: Afghanistan",
+    "a: Azerbaijan"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": true,
+   "hamburger": false,
+   "nav_visible": 0,
+   "screenshot": "assets/unionpay/unionpay-s11-03-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Data Security Compliance",
+     "href": "https://open.unionpayintl.com/#/home/guide"
+    },
+    {
+     "clicks": 1,
+     "text": "Artwork Download Center",
+     "href": "https://www.unionpayintl.com/en/mediaCenter/brandCenter/artworkDownloadCenter/identification.shtml"
+    },
+    {
+     "clicks": 1,
+     "text": "Merchant Acceptance Mark",
+     "href": "https://www.unionpayintl.com/en/mediaCenter/brandCenter/artworkDownloadCenter/identification.shtml"
+    },
+    {
+     "clicks": 1,
+     "text": "Merchant Acceptance Mark",
+     "href": "https://www.unionpayintl.com/en/mediaCenter/brandCenter/artworkDownloadCenter/identification.shtml"
+    },
+    {
+     "clicks": 1,
+     "text": "Merchant Acceptance Mark",
+     "href": "https://www.unionpayintl.com/en/mediaCenter/brandCenter/artworkDownloadCenter/identification.shtml"
+    },
+    {
+     "clicks": 1,
+     "text": "Merchant Acceptance Mark",
+     "href": "https://www.unionpayintl.com/en/mediaCenter/brandCenter/artworkDownloadCenter/identification.shtml"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Data Security Compliance",
+    "href": "https://open.unionpayintl.com/#/home/guide"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 2523,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1541,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1548,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1547,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs",
+   "final": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "status": 200,
+   "ms": 1945,
+   "why": "S7 Global UnionPay Card"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/serviceCenter",
+   "final": "https://www.unionpayintl.com/en/serviceCenter/",
+   "status": 200,
+   "ms": 1981,
+   "why": "S7 Help Center"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs",
+   "final": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "status": 200,
+   "ms": 2061,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "final": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "status": 200,
+   "ms": 1931,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1617,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1555,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1557,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1918,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1554,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1558,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.unionpayintl.com/en/",
+   "final": "https://www.unionpayintl.com/en/",
+   "status": 200,
+   "ms": 1563,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "unionpay-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.unionpayintl.com/en/",
+   "captured": "2026-09-25",
+   "file": "assets/unionpay/unionpay-s1-01-20260925.webp",
+   "kb": 52
+  },
+  {
+   "id": "unionpay-s02",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/contactUs/",
+   "captured": "2026-09-25",
+   "file": "assets/unionpay/unionpay-s7-02-20260925.webp",
+   "kb": 85
+  },
+  {
+   "id": "unionpay-s03",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.unionpayintl.com/en/",
+   "captured": "2026-09-25",
+   "file": "assets/unionpay/unionpay-s11-03-20260925.webp",
+   "kb": 20
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 15,
+  "screenshots": 3,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

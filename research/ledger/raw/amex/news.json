@@ -1,0 +1,1648 @@
+{
+  "network": "amex",
+  "dimension": "news",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "news",
+      "claim": "2024-09-30: OptBlue merchants filed Pizza Hazel v. American Express (D. Mass.), a putative class action attacking the anti-steering and non-discrimination provisions; Amex's motion to compel arbitration was denied and appealed to the First Circuit.",
+      "quote": "Plaintiffs seek, on behalf of themselves and a class of merchants that accept through the OptBlue Program, unspecified damages",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FY2025 10-K text read from the ARS PDF; the sec.gov HTML was blocked to curl (403) and only partially readable via WebFetch. Filed early 2026."
+    },
+    {
+      "dimension": "news",
+      "claim": "Amex is also appealing to the First Circuit a denial of arbitration in 5-Star General Store v. American Express (D.R.I., filed 2024-03-21), a second merchant class action over the same steering provisions.",
+      "quote": "The court rejected our motion to compel the case to arbitration; we have appealed the decision to the Court of Appeals for the First Circuit.",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same sentence appears for both the Pizza Hazel and 5-Star General Store cases."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-10-08: Amex moved the Amex Offers team out of Global Merchant and Network Services into a new Membership Portfolio Services unit under Alex Drummond in U.S. Consumer Services (memo shared September 2024).",
+      "quote": "bringing over the Amex Offers team from Global Merchant and Network Services (GMNS)",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/american-express-makes-executive-committee-reporting-changes1.html",
+      "title": "American Express Makes Executive Committee Reporting Changes",
+      "publisher": "American Express Newsroom",
+      "published": "2024-10-08",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Read via the page's AEM .model.json endpoint because the newsroom HTML is JavaScript-rendered. Amex Offers is the merchant-funded card-linked offers programme."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-10-15: Amex completed its acquisition of Tock (reservation, table and event management) from Squarespace, adding roughly 7,000 restaurants, wineries, hotels and venues to its dining platform.",
+      "quote": "completed the previously announced acquisition of Tock, a reservation, table, and event management technology provider, from Squarespace",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/american-express-completes-acquisition-of-tock.html",
+      "title": "American Express Completes Acquisition of Tock",
+      "publisher": "American Express Newsroom",
+      "published": "2024-10-15",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Venue count (approximately 7,000) is Amex's own figure."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-11-13: Amex launched a merchant-value programme for construction merchants with discounted B2B services from Levelset (Procore), Billd and BILT for Amex-accepting businesses.",
+      "quote": "partnering with a suite of business-to-business (B2B) companies – Levelset (a Procore Company), Billd, and BILT",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-backs-construction-merchants-with-a-suite-of-ne.html",
+      "title": "American Express Backs Construction Merchants with a Suite of New B2B Partners",
+      "publisher": "American Express Newsroom",
+      "published": "2024-11-13",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-12-04: Fintech Hypercard signed to issue a consumer card on the Amex network in the U.S., with Deserve as program manager and Celtic Bank as issuer.",
+      "quote": "Hypercard signed an agreement to issue cards on the American Express network in the U.S., and Deserve will act as the program manager.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/new-fintech-hypercard-launches-consumer-credit-card-on-the-ameri.html",
+      "title": "New FinTech Hypercard Launches Consumer Credit Card on the American Express Network",
+      "publisher": "American Express Newsroom",
+      "published": "2024-12-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states 'The official card issuer is Celtic Bank.' Amex later agreed to buy Hypercard (April 2026)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-16: Amex disclosed agreements with the DOJ, the U.S. Attorney (E.D.N.Y.) and an agreement in principle with Federal Reserve staff to resolve investigations of historical small-business sales practices, paying about $230 million.",
+      "quote": "approximately $230 million in total to resolve these matters",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000005/axp-20250116.htm",
+      "title": "Form 8-K, Item 8.01 (January 16, 2025)",
+      "publisher": "American Express Company / SEC",
+      "published": "2025-01-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "8-K says practices 'ended in 2021 or earlier' and costs were 'largely reserved for in prior periods'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-16: Trade press broke the $230M down as $108.7M plus interest to DOJ Civil Division and a $138.4M criminal fine and forfeiture under a non-prosecution agreement with the E.D.N.Y. U.S. Attorney.",
+      "quote": "agreed to pay a criminal fine and forfeiture that total $138.4 million",
+      "url": "https://www.paymentsdive.com/news/amex-federal-government-doj-allegations-credit-cards-small-business/737635/",
+      "title": "Amex pays $230M to resolve DOJ allegations",
+      "publisher": "Payments Dive (Patrick Cooley)",
+      "published": "2025-01-16",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-16: The criminal side of the sales-practices matter was resolved through a non-prosecution agreement rather than a plea.",
+      "quote": "Amex entered into a nonprosecution agreement with the U.S. Attorney's Office for the Eastern District of New York.",
+      "url": "https://www.bankingdive.com/news/amex-230-million-settlement-doj-credit-cards-small-business/737659/",
+      "title": "Amex pays $230M to resolve DOJ allegations",
+      "publisher": "Banking Dive (Patrick Cooley)",
+      "published": "2025-01-16",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K confirms the sales-practices investigations (including the Federal Reserve piece) were resolved by agreements entered in 2025.",
+      "quote": "in 2025 we entered into agreements to resolve governmental investigations related to historical sales practices for certain U.S. small business customers",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Risk Factors)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "No separate Federal Reserve press release was found on the Board's 2025 press-release list."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-30 (effective 2025-02-03): Anna Marrs became Group President, Global Merchant and Network Services, swapping roles with Raymond Joabar, who took Global Commercial Services.",
+      "quote": "Anna Marrs, currently Group President, GCS will lead our merchant and network businesses as Group President, GMNS.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000010/exhibit991jan302025executi.htm",
+      "title": "Exhibit 99.1 - Executive Team Changes (Form 8-K)",
+      "publisher": "American Express Company / SEC",
+      "published": "2025-01-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-30: Mohammed Badi, President of Global Network Services since 2021 and the public face of the fintech/Agile Partnership Platform strategy, moved to President, Global Servicing.",
+      "quote": "Mohammed Badi, currently President, Global Network Services (GNS), will become President, Global Servicing.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000010/exhibit991jan302025executi.htm",
+      "title": "Exhibit 99.1 - Executive Team Changes (Form 8-K)",
+      "publisher": "American Express Company / SEC",
+      "published": "2025-01-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No public announcement of a successor President, GNS was found; later releases quote SVP/GM-level GNS leaders (Will Stredwick, Stefan Olofsson, Usman Arif)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-03-06: Amex agreed to acquire Center, an expense-management software company, with closing expected in Q2 2025; terms undisclosed.",
+      "quote": "entered into an agreement to acquire Center, a software company modernizing expense management.",
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-to-Acquire-Expense-Management-Software-Company-Center/default.aspx",
+      "title": "American Express to Acquire Expense Management Software Company Center",
+      "publisher": "American Express Investor Relations",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-16: Amex completed the Center acquisition, to be integrated with corporate and small-business cards; financial terms not disclosed.",
+      "quote": "completed the previously announced acquisition of Center, a software company modernizing expense management for small to medium sized businesses.",
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-Completes-Acquisition-of-Center/default.aspx",
+      "title": "American Express Completes Acquisition of Center",
+      "publisher": "American Express Investor Relations",
+      "published": "2025-04-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025 (n.d.): Amex told OptBlue sales channels it had eliminated annual charge-volume thresholds for certain industry categories (charity, education, government, B2C healthcare, insurance, residential rent, utilities, online gambling) while the $1MM ECV ceiling still applied elsewhere.",
+      "quote": "updates to the program related to the elimination of annual CV thresholds for certain industries.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "OptBlue Program Reminders For Sales Channels (2025 OptBlue Program Updates)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "One-page PDF; still cites the $1MM threshold, so it predates the April 2026 change. Names Amex360 and the OptBlue Program Operating Regulations - PSE Edition."
+    },
+    {
+      "dimension": "news",
+      "claim": "Effective 2026-04-17: Amex raised the U.S. OptBlue merchant-acquiring threshold from $1 million to $3,000,000 in estimated annual Amex charge volume (rolling 12 months), excluding Puerto Rico and the U.S. Virgin Islands.",
+      "quote": "the merchant acquiring threshold in the U.S. has been increased to $3,000,000",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page also states 'The increased merchant acquiring threshold excludes Puerto Rico and the U.S. Virgin Islands.' First threshold change since OptBlue launched in 2014 per third-party commentary (not fetched)."
+    },
+    {
+      "dimension": "news",
+      "claim": "Under the 2026 OptBlue rules, eight industry segments carry no threshold at all, while Games of Value merchants need at least $1,000,000 ECV.",
+      "quote": "Charity, Healthcare, Education, Government, Insurance, Residential Rent, Utilities, and Online Gambling and Games of Value",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-14: Issuer-processor Lithic joined Amex's Agile Partnership Platform so fintechs can apply to issue on the Amex network; Amex's Will Stredwick (SVP and GM, GNS North America) endorsed it.",
+      "quote": "We are very pleased to welcome Lithic to our Agile Partnership Platform, which helps fintechs and other industry disruptors launch payment products",
+      "url": "https://www.lithic.com/blog/amex-announcement",
+      "title": "Lithic Expands Platform to Offer More Payment Options for Fintechs on the American Express Network",
+      "publisher": "Lithic",
+      "published": "2025-05-14",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Partner marketing post quoting an Amex executive; no launch customers named."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-06-12: Coinbase announced the Coinbase One Card on the American Express Network, offered with Cardless (an Amex Ventures portfolio company) and issued by First Electronic Bank, targeting a fall 2025 launch.",
+      "quote": "Coinbase announced that it will launch its first credit card, the Coinbase One Card, on the American Express Network.",
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/New-Coinbase-One-Card-to-Launch-on-the-American-Express-Network/default.aspx",
+      "title": "New Coinbase One Card to Launch on the American Express Network",
+      "publisher": "American Express Investor Relations",
+      "published": "2025-06-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Quoted Amex executive: Will Stredwick, SVP, Global Network Services."
+    },
+    {
+      "dimension": "news",
+      "claim": "By year-end 2025 the Coinbase One Card had launched on the Amex network, which Amex's chairman cites as the model for new fintech network partnerships.",
+      "quote": "we introduced new partnerships with fintechs like Coinbase, which launched its first credit card, the Coinbase One Card, on the American Express network.",
+      "url": "https://www.americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2026-Chairmans-Letter-to-Shareholders.pdf",
+      "title": "Built for This Moment: 2026 Chairman's Letter to Shareholders",
+      "publisher": "American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Letter covers 2025 results; published with the 2026 proxy season."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-06-26 (posted 2025-07-03): Amex signed Wizz Air for acceptance, which it says completes coverage of every major airline flying in and out of the UK.",
+      "quote": "Cardmembers can use their Amex Card with all major airlines that fly in and out of the country.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/emea/american-express-acceptance-takes-off-with-wizz-air.html",
+      "title": "American Express acceptance takes off with Wizz Air",
+      "publisher": "American Express Newsroom (UK)",
+      "published": "2025-07-03",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Dateline reads 'London, UK, 26 June'; newsroom publish date is 3 July 2025."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-08-05: Amex and Toast announced a multi-year partnership linking Resy/Tock guest data to Toast POS across U.S. restaurants, with features rolling out from 2026.",
+      "quote": "American Express (NYSE: AXP) and Toast (NYSE: TOST) today announced a strategic, multi-year partnership",
+      "url": "https://blog.resy.com/newsroom/american-express-and-toast-announce-strategic-partnership-to-help-elevate-hospitality-experiences/",
+      "title": "American Express and Toast Announce Strategic Partnership to Help Elevate Hospitality Experiences",
+      "publisher": "Resy (American Express) newsroom",
+      "published": "2025-08-05",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release also says 'Product features are anticipated to start rolling out in 2026'. Toast's own copy was behind a bot wall."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-08-28: In the Moskowitz (formerly Oliver) consumer anti-steering class action (E.D.N.Y.), the jury found for Amex on all claims except an Illinois consumer-law claim, awarding $12.5 million to Illinois non-rewards credit cardholders.",
+      "quote": "After trial in August 2025, the jury returned a verdict finding in favor of us on all claims except an Illinois consumer law claim",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K adds: 'for which the jury awarded $12.5 million in damages' and that a settlement of all claims is subject to court approval."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-08-29: Bloomberg Law characterised the verdict as a split decision: liability for unfair acts under Illinois law, no liability on the state antitrust claims.",
+      "quote": "American Express Co. was hit with a $12.5 million damages verdict by a federal jury over unfair acts under Illinois law",
+      "url": "https://news.bloomberglaw.com/banking-law/amex-tagged-with-12-5-million-jury-award-in-divided-verdict",
+      "title": "Amex Tagged With $12.5 Million Jury Award in Divided Verdict",
+      "publisher": "Bloomberg Law (Katie Arcieri)",
+      "published": "2025-08-29",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "September 2025: Antitrust counsel read the verdict as the jury rejecting the plaintiffs' market-definition and market-power case against Amex's merchant rules.",
+      "quote": "The jury here was not persuaded on market definition, market power or competitive harm, all necessary for the finding of antitrust liability.",
+      "url": "https://www.squirepattonboggs.com/insights/publications/american-express-verdict-highlights-growing-risk-of-state-competition-law-claims-in-antitrust-cases/",
+      "title": "American Express Verdict Highlights Growing Risk of State Competition Law Claims in Antitrust Cases",
+      "publisher": "Squire Patton Boggs (Michael Wise, Mary Walser)",
+      "published": "2025-09",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "Amex and the Moskowitz plaintiffs settled before final judgment; the court-authorised notice site opened claims for the Illinois non-rewards class (deadline 2026-05-19).",
+      "quote": "Amex and Plaintiffs agreed to settle the lawsuit before the Court entered a final judgment.",
+      "url": "https://amexantitrust.com/faqs/",
+      "title": "American Express Antitrust Class Action Lawsuit - FAQs (Moskowitz v. Am. Express Co., No. 19-CV-566)",
+      "publisher": "Court-authorised settlement administrator (A.B. Data)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Judge Nicholas G. Garaufis, E.D.N.Y."
+    },
+    {
+      "dimension": "news",
+      "claim": "The Moskowitz settlement's final approval hearing was scheduled for 2026-07-07 in the Eastern District of New York.",
+      "quote": "The Court will hold a Final Approval Hearing on July 7, 2026, at 11:00 a.m.",
+      "url": "https://amexantitrust.com/faqs/",
+      "title": "American Express Antitrust Class Action Lawsuit - FAQs",
+      "publisher": "Court-authorised settlement administrator (A.B. Data)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Outcome of the hearing not found in public sources read."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-02-24: The Moskowitz settlement was reported at $17.5 million, executed 2026-01-15, covering merchant anti-steering rules.",
+      "quote": "A $17,500,000 class action settlement resolves a lawsuit that alleged American Express unlawfully subjected merchants",
+      "url": "https://www.classaction.org/news/17.5m-american-express-settlement-ends-class-action-lawsuit-over-merchant-anti-steering-rules",
+      "title": "$17.5M American Express Settlement Ends Class Action Lawsuit Over Merchant Anti-Steering Rules",
+      "publisher": "ClassAction.org",
+      "published": "2026-02-24",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-09-09: Amex said its cards were accepted at an estimated 160 million merchant locations worldwide as of June 2025, nearly 5x 2017, with Anna Marrs (Group President, GMNS) quoted.",
+      "quote": "American Express Cards are accepted at an estimated 160 million Merchant locations worldwide, as of June 2025.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/american-express-is-accepted-at-160-million-merchants-around-the.html",
+      "title": "American Express is Accepted at 160 Million Merchants Around the World; Since 2017, Amex-Accepting Locations Have Increased by Nearly 5x",
+      "publisher": "American Express Newsroom",
+      "published": "2025-09-09",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Also claims 99% U.S. parity since end-2019, 700+ transit authorities, 1M+ new Japanese locations in a year."
+    },
+    {
+      "dimension": "news",
+      "claim": "At year-end 2025 Amex claimed more than 170 million merchant locations, a figure that includes an estimated 37 million China merchants reached via digital wallets and partner-acquired locations.",
+      "quote": "reaching over 170 million merchant locations worldwide that accept American Express as of year-end 2025",
+      "url": "https://www.americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2026-Chairmans-Letter-to-Shareholders.pdf",
+      "title": "Built for This Moment: 2026 Chairman's Letter to Shareholders",
+      "publisher": "American Express Company",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Footnote: 'an estimated 37 million merchants that accept American Express in China (including through digital wallets)'. LIF includes payment facilitators and digital wallets."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-09-29: Vice Chairman Doug Buckminster, formerly President of Global Network & International Card Services and architect of the country-by-country international strategy, announced retirement effective 2026-03-06.",
+      "quote": "Vice Chairman Doug Buckminster has decided to retire from American Express as of March 6, 2026.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000177/exhibit991sept292025execut.htm",
+      "title": "Exhibit 99.1 (Form 8-K, September 29, 2025)",
+      "publisher": "American Express Company / SEC",
+      "published": "2025-09-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-11-06: Amex and Emburse added Amex Virtual Card issuance and real-time transaction data inside Emburse Enterprise Expense, an example of Amex embedding issuance into partner platforms.",
+      "quote": "launch of two new features — American Express Virtual Card issuance and Real-Time Transaction Data — in Emburse Enterprise Expense",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-and-emburse-announce-expanded-partnership-and-n.html",
+      "title": "American Express and Emburse Announce Expanded Partnership and New Ways to Automate Expense Management for Emburse Enterprise Customers",
+      "publisher": "American Express Newsroom",
+      "published": "2025-11-06",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-12-01: Amex Argentina signed Nave (Grupo Galicia's acquiring platform) into OptBlue, showing the OptBlue sub-acquirer model operating outside the U.S. (launched in Argentina in 2021).",
+      "quote": "American Express Argentina firmó un acuerdo con Nave, la plataforma de cobros del Grupo Galicia, para habilitar la aceptación de American Express",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/latin-america-and-caribbean/american-express-argentina-incorpora-a-nave-en-su-programa-optbl.html",
+      "title": "American Express Argentina Incorpora a Nave en su Programa Optblue y Expande la Aceptación de sus Tarjetas en Comercios de Barrio",
+      "publisher": "American Express Newsroom (Argentina)",
+      "published": "2025-12-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Spanish-language release; quotes Ignacio Rodríguez Reimundes, VP Servicios a Establecimientos."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-13: Senators Durbin and Marshall reintroduced the Credit Card Competition Act (S.3623), requiring $100B+ issuers to enable two unaffiliated networks including one outside Visa/Mastercard.",
+      "quote": "requiring large banks with more than $100 billion in assets to enable at least two unaffiliated card networks (including one outside Visa/Mastercard)",
+      "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-marshall-reintroduce-the-credit-card-competition-act",
+      "title": "Durbin, Marshall Reintroduce The Credit Card Competition Act",
+      "publisher": "Office of U.S. Senator Dick Durbin",
+      "published": "2026-01-13",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release does not mention American Express."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-30: Law-firm analysis notes the 2026 CCCA exempts cards issued in a 3-party model where issuer and network are the same or commonly owned, i.e. Amex and Discover.",
+      "quote": "A notable exemption from the CCCA's requirements applies to credit cards issued in a '3-party payment system model,'",
+      "url": "https://ktslaw.com/kilpatrick/blog/consumer-financial-services/2026/1/credit-card-competition-act-of-2026",
+      "title": "Credit Card Competition Act of 2026: Implications for Card Issuers, Payment Networks, and Consumers",
+      "publisher": "Kilpatrick (Ross M. Speier)",
+      "published": "2026-01-30",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K: Amex warns its exemptions from network-routing and interchange regulation are not guaranteed and that bankcard fee regulation still hurts its discount revenue.",
+      "quote": "While in some cases our business is subject to exemptions related to certain of these regulations, there is no guarantee that such exemptions will continue",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Supervision and Regulation)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K: network partners in about 110 countries generated $227.2 billion of processed volume in 2025 and 66.2 million third-party cards-in-force at year-end.",
+      "quote": "worldwide processed volume (spending on American Express cards issued by third parties as well as alternative payment solutions facilitated by American Express) was $227.2 billion",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Card Network Business)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same paragraph: '66.2 million cards-in-force issued by third parties worldwide' and 'approximately 110 countries and territories'."
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K names Coinbase and Credit Saison as examples of third-party issuers using Amex network technology, marketing and brand assets.",
+      "quote": "cards issued by third-party banks, financial technology companies and other institutions on the American Express network (e.g., cards offered by Coinbase and Credit Saison)",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Partners and Relationships)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K flags the RBA's July 2025 consultation to remove surcharging on designated networks as a live regulatory risk with uncertain impact.",
+      "quote": "in Australia where the central bank released a consultation paper in July 2025 proposing to remove surcharging on designated card networks",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (Form 10-K, Supervision and Regulation)",
+      "publisher": "American Express Company / SEC",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-29: Amex said it had already completed thousands of AI-assisted transactions in pilots with AI platform partners and was helping shape agentic-payment standards.",
+      "quote": "having completed thousands of AI-assisted transactions through pilots with leading AI platform partners",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/what-sets-american-express-apart-in-the-age-of-agentic-commerce.html",
+      "title": "What sets American Express apart in the age of agentic commerce",
+      "publisher": "American Express Newsroom",
+      "published": "2026-01-29",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Quotes Luke Gebb, EVP of Global Innovation."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-30: With Q4 2025 results Amex guided to 9-10% revenue growth and EPS of $17.30-$17.90 for 2026.",
+      "quote": "For the full year 2026, we expect revenue growth of 9 to 10 percent and EPS in the range of $17.30 to $17.90.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+      "title": "Exhibit 99.1 - American Express Q4 2025 Results (Form 8-K)",
+      "publisher": "American Express Company / SEC",
+      "published": "2026-01-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Full-year 2025 billed business $1,669.8 billion per the same exhibit."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-02-24: Resy announced it would fold Tock venues into Resy in summer 2026 (25,000+ venues, 1,200+ wineries) and release upgraded third-party APIs, including for Gen AI platforms, in 2026.",
+      "quote": "In 2026, Resy plans to release an upgraded set of APIs for third-party partners, including Gen AI platforms",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-announces-next-phase-of-its-reservation-and-dining-platform.html",
+      "title": "Resy Announces Next Phase of its Reservation and Dining Platform with Plans to Bring Tock Venues Under Resy This Summer",
+      "publisher": "American Express Newsroom (Resy)",
+      "published": "2026-02-24",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Also describes the Toast integration roadmap (Local by Toast listings, Digital Chits to Resy guestbook later in 2026)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-17: Amex Virtual Cards became available inside SAP Concur Expense, extending the Amex-Concur partnership for enterprise clients.",
+      "quote": "integration of American Express Virtual Cards into Concur® Expense, expanding its partnership with SAP® Concur",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-now-offers-virtual-cards-in-concur-expense-to-s.html",
+      "title": "American Express Now Offers Virtual Cards in Concur Expense to Simplify Expense Management",
+      "publisher": "American Express Newsroom",
+      "published": "2026-03-17",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Date from the newsroom index; issuing-side product, included as partner-platform integration."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-25: Amex launched the Graphite Business Cash Unlimited Card and said 2026 would bring eight new or enhanced commercial products, including new expense-management software and AI capabilities.",
+      "quote": "This year, the company plans to release eight new or enhanced products, benefits and capabilities",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-launches-new-graphite-business-cash-unlimited-c.html",
+      "title": "American Express Launches New Graphite Business Cash Unlimited Card, Kicking Off the Most Significant Year for Commercial Product Expansion in Company History",
+      "publisher": "American Express Newsroom",
+      "published": "2026-03-25",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Issuing-side; recorded because the chairman's letter frames it as the largest commercial expansion in a year."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-31: The RBA finalised removal of surcharging on the designated eftpos, Mastercard and Visa networks from 1 October 2026; Amex is not a designated network and is not mentioned.",
+      "quote": "removing surcharging on debit, prepaid and credit cards on the designated eftpos, Mastercard and Visa card networks",
+      "url": "https://rba.gov.au/media-releases/2026/mr-26-10.html",
+      "title": "Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper (Media Release)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Foreign-card interchange cap and transparency measures follow on 1 April 2027."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-02: Amex told Australian merchants (via a June website update) it would voluntarily end surcharging on Amex from 1 October 2026 in line with the RBA reforms despite not being designated.",
+      "quote": "American Express will align with these changes from 1 October 2026.",
+      "url": "https://flighthacks.com.au/american-express-will-end-surcharges/",
+      "title": "American Express Confirms It Will End Card Surcharges From October",
+      "publisher": "Flight Hacks (Tom Goward)",
+      "published": "2026-07-02",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Article says the change was 'revealed through a quiet update to its merchant website rather than any kind of formal announcement'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-14: Amex unveiled the Agentic Commerce Experiences (ACE) Developer Kit, giving select developers agent registration, account enablement, intent intelligence, payment credentials and cart-context services on its network.",
+      "quote": "The Kit will provide select developers with access to integrated services including: Agent Registration",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html",
+      "title": "American Express Debuts Agentic Commerce Experiences (ACE) Developer Kit and Announces Industry-First Protection for Registered Agent Purchases",
+      "publisher": "American Express Newsroom",
+      "published": "2026-04-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Quotes Luke Gebb, EVP and Head of Global Innovation. Access is 'select developers', i.e. gated."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-14: Amex announced Amex Agent Purchase Protection, committing to absorb charges caused by registered AI-agent error when authenticated purchase intent is sent to Amex.",
+      "quote": "American Express will protect eligible customers from charges related to AI agent error.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html",
+      "title": "American Express Debuts Agentic Commerce Experiences (ACE) Developer Kit and Announces Industry-First Protection for Registered Agent Purchases",
+      "publisher": "American Express Newsroom",
+      "published": "2026-04-14",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Company describes it as 'industry-first'; features marked as under development."
+    },
+    {
+      "dimension": "news",
+      "claim": "Amex's agentic commerce page lists ecosystem partners for ACE including Adyen, Fiserv, Global Payments, Stripe, PayPal, Google, Microsoft and OpenAI, and frames Agent Registration as an allow-list for verified agents.",
+      "quote": "Ensure only verified AI agents are authorized to transact",
+      "url": "https://www.americanexpress.com/en-us/company/agentic-commerce/",
+      "title": "Agentic Commerce Experiences | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Partner names as listed on the page per fetch summary: Adyen, CloudFlare, Crossmint, Delta, Expedia Group, Fiserv, Forter, Global Payments, Google, Hilton, Microsoft, OpenAI, PayPal, Stripe, VGS."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-14: American Banker reported the kit's functions and that Amex had run thousands of test agentic payments; Luke Gebb said trust and security are needed to 'grease the wheels'.",
+      "quote": "agent registration and verification, account enablement for consumers to register their cards for agentic transactions, intent analysis, verification of payment credentials",
+      "url": "https://www.americanbanker.com/payments/news/amex-introduces-agentic-commerce-developers-kit",
+      "title": "Amex tries to 'grease the skids' for agentic commerce",
+      "publisher": "American Banker (John Adams)",
+      "published": "2026-04-14",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-14: Fortune quoted Amex innovation head Luke Gebb conceding agentic commerce volume was still nascent at launch of the developer kit.",
+      "quote": "To date there have probably been as many press releases [on agentic commerce] as transactions, but no doubt it will happen.",
+      "url": "https://fortune.com/2026/04/14/american-express-ai-payments-developers-purchase-protection/",
+      "title": "American Express releases tools to build AI payments—and pledges to pay the price if agents go awry",
+      "publisher": "Fortune (Jack Kubinec)",
+      "published": "2026-04-14",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-29: Amex's global network lead Stefan Olofsson pushed for cross-industry agentic standards, working with Stripe, OpenAI, EMVCo and the FIDO Alliance.",
+      "quote": "Agentic commerce only works if the ecosystem works together",
+      "url": "https://www.paymentsdive.com/news/amex-pushes-for-agentic-standards/818782/",
+      "title": "Amex pushes for agentic standards",
+      "publisher": "Payments Dive (Lynne Marek)",
+      "published": "2026-04-29",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Olofsson is described as Senior Vice President and general manager of the global network."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-16: Amex agreed to acquire Hypercard (Hyper), an agentic expense-management startup that had launched a card on the Amex network via the Agile Partner Platform in 2024; closing expected in Q2 2026.",
+      "quote": "entered into an agreement to acquire Hypercard (Hyper), an agentic expense management company",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-to-acquire-hyper--adding-to-its-ai-expertise-an.html",
+      "title": "American Express to Acquire Hyper, Adding to Its AI Expertise and Expense Management Capabilities",
+      "publisher": "American Express Newsroom",
+      "published": "2026-04-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Release: 'In 2024, American Express and Hyper partnered to launch the Hypercard Rewards American Express card with embedded AI-powered expense agents leveraging the Agile Partner Platform.' Terms not disclosed."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-17: Payments Dive reported Amex declined to disclose the Hypercard price and expected to close in the same quarter.",
+      "quote": "An Amex spokesperson declined to comment on the price paid for the business.",
+      "url": "https://www.paymentsdive.com/news/amex-to-buy-hypercard/817795/",
+      "title": "Amex to buy Hypercard",
+      "publisher": "Payments Dive (Lynne Marek)",
+      "published": "2026-04-17",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-04: Amex agreed to sell its ~30% stake in Global Business Travel Group (GBTG) to Long Lake/General Catalyst for about $1.5 billion, booking a ~$975 million pre-tax gain not in prior guidance.",
+      "quote": "it will sell its approximately 30% equity interest in GBTG.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000203/axp-20260504.htm",
+      "title": "Form 8-K, Item 7.01 (May 4, 2026)",
+      "publisher": "American Express Company / SEC",
+      "published": "2026-05-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same filing: 'proceeds of approximately $1.5 billion and to recognize a pre-tax gain of approximately $975 million.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "The GBTG divestiture leaves the Amex GBT brand licence and commercial agreements unchanged, per Amex.",
+      "quote": "The transaction does not change the companies' current brand licensing and commercial agreements",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/long-lake--backed-by-general-catalyst--to-purchase-american-expr.html",
+      "title": "Long Lake, Backed by General Catalyst, to Purchase American Express Stake in Global Business Travel Group, Inc., as GBTG Agrees to be Acquired",
+      "publisher": "American Express Newsroom",
+      "published": "2026-05-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Long Lake deal reported by others at $6.3 billion enterprise value (not fetched)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-13: Amazon relaunched its business cards with U.S. Bank on Mastercard, ending Amex's issuance of the Amazon Business co-brand; existing Amex cardholders migrate on 14 August 2026.",
+      "quote": "Current Amazon Business American Express cardholders can continue using their existing cards and earning rewards without interruption.",
+      "url": "https://ir.usbank.com/news-events/news/news-details/2026/Amazons-New-Prime-Business-and-Amazon-Business-Credit-Cards-Powered-by-U-S--Bank-and-Mastercard-Are-Now-Available-with-Enhanced-Rewards-and-Flexible-Financing/default.aspx",
+      "title": "Amazon's New Prime Business and Amazon Business Credit Cards, Powered by U.S. Bank and Mastercard, Are Now Available with Enhanced Rewards and Flexible Financing",
+      "publisher": "U.S. Bancorp Investor Relations",
+      "published": "2026-05-13",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release: 'Cardholders will receive a replacement card that they can begin using on August 14'."
+    },
+    {
+      "dimension": "news",
+      "claim": "Amex confirmed to customers that its U.S. small-business co-brand with Amazon is ending, with replacement U.S. Bank cards on 2026-08-14 — a co-brand loss moving volume to a rival network.",
+      "quote": "American Express' U.S. Small Business co-brand card relationship with Amazon is ending.",
+      "url": "https://www.americanexpress.com/us/customer-service/faq.amazon-program-update.html",
+      "title": "Notice of Important Changes to Your Amazon Business Card or Amazon Business Prime Card Account",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page: 'We expect that this will take place on August 14th, 2026 (\"Replacement Date\")' and replacement card 'issued by U.S. Bank'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-20: Amex became Official Payments Partner at select Fanatics online and retail locations and announced a Fanatics American Express Card to run on the Amex Network later in 2026.",
+      "quote": "The new Fanatics American Express® Card, designed to reward fandom in more unique ways than ever before, will run on the Amex Network",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/entertainment-and-experiences/american-express-and-fanatics-announce-exclusive-fan-experiences.html",
+      "title": "American Express and Fanatics Announce Exclusive Fan Experiences and New Fanatics American Express Card",
+      "publisher": "American Express Newsroom",
+      "published": "2026-05-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Issuer of the Fanatics card not stated in the text read; quotes Elizabeth Rutledge, CMO."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-15: Amex announced a proposed acquisition of TheFork (50,000+ restaurants, 11 European countries) from Tripadvisor to extend its dining platform into Europe.",
+      "quote": "today announced a proposed acquisition of TheFork, a leading online restaurant reservation and management platform in Europe, from Tripadvisor, Inc.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/american-express-announces-proposed-acquisition-of-thefork--a-le.html",
+      "title": "American Express Announces Proposed Acquisition of TheFork, a Leading European Restaurant Booking Platform",
+      "publisher": "American Express Newsroom",
+      "published": "2026-06-15",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Amex says the three platforms would total 75,000 bookable venues; quotes Rafa Marquez, President, International Card Services."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-15: The TheFork price was reported as $700 million in cash from Tripadvisor.",
+      "quote": "American Express wants to acquire restaurant reservation management platform TheFork from Tripadvisor for $700 million.",
+      "url": "https://www.pymnts.com/partnerships/2026/amex-looks-to-spend-700-million-to-buy-thefork-from-tripadvisor/",
+      "title": "Amex Forks Over $700 Million to Buy TheFork From Tripadvisor",
+      "publisher": "PYMNTS",
+      "published": "2026-06-15",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Tripadvisor's IR release (primary) was behind a bot wall (403)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-24: Q2 2026 results restate TheFork as pending, subject to labour consultation and regulatory approvals, and report Amex piloting its new expense-management platform with middle-market customers.",
+      "quote": "The company piloted its new expense management platform to an initial group of middle-market customers.",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_earnings/2026/q2/earnings-result/Q2-2026-Earnings-Press-Release.pdf",
+      "title": "American Express Q2 2026 Results (earnings press release)",
+      "publisher": "American Express Company",
+      "published": "2026-07-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Release also: 'Q2 REVENUE INCREASED 10% WITH CARD MEMBER SPENDING GROWTH OF 9%' and billed business $455.8 billion; FY2026 revenue guidance raised to 10%."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-06 (deal dated late June 2026): Amex Middle East partnered with Network International to add more than 85,000 UAE acceptance locations through a digital onboarding model.",
+      "quote": "The collaboration is expected to expand American Express card acceptance to more than 85,000 new locations across the country.",
+      "url": "https://thepaypers.com/payments/news/amex-network-expand-merchant-acceptance-across-the-uae",
+      "title": "Amex, Network expand merchant acceptance across the UAE",
+      "publisher": "The Paypers",
+      "published": "2026-07-06",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Network International's own release (network.ae) returned 403; AEME is the Amex Middle East licensee."
+    },
+    {
+      "dimension": "news",
+      "claim": "Network International is described as the first fintech to work with Amex Middle East on expanding in-store and online acceptance, with single-statement, single-settlement onboarding for merchants.",
+      "quote": "Network the first fintech company to work with American Express Middle East on its approach to expanding in-store and online acceptance",
+      "url": "https://thepaypers.com/payments/news/amex-network-expand-merchant-acceptance-across-the-uae",
+      "title": "Amex, Network expand merchant acceptance across the UAE",
+      "publisher": "The Paypers",
+      "published": "2026-07-06",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-21: Bottomline and Amex integrated Paymode into Amex Buyer Initiated Payments via 'BIP Connect', giving BIP customers access to Paymode's Premium ACH vendor network.",
+      "quote": "Bottomline and American Express are partnering to integrate Paymode into American Express Buyer Initiated Payments (BIP) through a new feature called BIP Connect.",
+      "url": "https://www.bottomline.com/newsroom/press-releases/bottomline-and-american-express-partner-expand-b2b-payment-connectivity-through-paymode",
+      "title": "Bottomline and American Express Partner to Expand B2B Payment Connectivity Through Paymode",
+      "publisher": "Bottomline (press release, Portsmouth NH)",
+      "published": "2026-07-21",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Partner's press release; quotes Widad Chaoui, SVP and GM, Corporate and B2B Products, Amex."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-21: Amex claimed the lowest U.S. credit card fraud rate among major card networks for the 19th consecutive year, attributing it to closed-loop visibility and AI models.",
+      "quote": "For 19 consecutive years, Amex has maintained the lowest U.S. fraud rate among major card networks",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/for-the-19th-year-in-a-row--american-express-has-the-lowest-u-s-.html",
+      "title": "For the 19th Year in a Row, American Express Has the Lowest U.S. Credit Card Fraud Rate Among Major Card Networks",
+      "publisher": "American Express Newsroom",
+      "published": "2026-07-21",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Source of the ranking (footnote 1) not visible in the text read; Nilson Report is the usual source."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-24 and 2026-08-10: Amex opened Resy's restaurant inventory to AI assistants, first in Anthropic's Claude and then with in-chat booking in ChatGPT, as new demand channels for restaurant partners.",
+      "quote": "Resy today announced the launch of Resy reservation availability and booking in ChatGPT",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-partners-with-openai-to-launch-resy-reservations-in-chatgpt.html",
+      "title": "Resy Partners with OpenAI to Launch Resy Reservations in ChatGPT",
+      "publisher": "American Express Newsroom (Resy)",
+      "published": "2026-08-10",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Claude integration (2026-04-24): 'Claude users can now explore U.S. Resy restaurants directly in their conversations when deciding where to eat.' at https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/american-express-partners-with-anthropic-to-make-u-s--resy-resta.html"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-08-12: Resy completed the absorption of Tock venues, giving restaurants and wineries one Amex-owned booking platform of 25,000+ venues.",
+      "quote": "Starting today, diners can access over 25,000 venues on Resy with the addition of Tock's restaurants, wineries and experiences.",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-welcomes-tock-restaurants--wineries-and-experiences-to-its-.html",
+      "title": "Resy Welcomes Tock Restaurants, Wineries and Experiences to Its Platform and App, Expanding Access to More Than 25,000 Venues",
+      "publisher": "American Express Newsroom (Resy)",
+      "published": "2026-08-12",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Quotes Pablo Rivero, CEO of Resy and SVP, American Express Global Dining."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-08-13: Amex extended virtual-card issuance into its @ Work corporate platform and, for Business Travel Account customers, into Conferma's virtual-payments solutions.",
+      "quote": "Amex Corporate customers can now create, manage and use Amex Virtual Cards in Amex's software platform, @ Work",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-expands-virtual-card-capabilities-to-help-busin.html",
+      "title": "American Express Expands Virtual Card Capabilities to Help Businesses Utilize Fast-Growing Commercial Payment Method",
+      "publisher": "American Express Newsroom",
+      "published": "2026-08-13",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Footnote markers removed from the quote. Quotes Eva Reda, EVP, Global Commercial Services Products."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-08-20: Amex signed KBank, Krungsri and Siam Commercial Bank as acquiring partners to expand acceptance in Thailand, announced by Usman Arif, SVP Global Network Services APAC.",
+      "quote": "new partnerships with KASIKORNBANK (KBank), Bank of Ayudhya Public Company Limited (Krungsri) and Siam Commercial Bank (SCB) to expand Card acceptance in Thailand",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/apac/american-express-expands-card-acceptance-in-thailand-through-new.html",
+      "title": "American Express Expands Card Acceptance in Thailand Through New Partnerships with Local Banks",
+      "publisher": "American Express Newsroom (APAC)",
+      "published": "2026-08-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Network-partner (acquirer) signings; scale of locations not stated in the text read."
+    },
+    {
+      "dimension": "news",
+      "claim": "As of September 2026 Amex's executive committee page lists Anna Marrs as head of Global Merchant & Network Services and Glenda McNeal as Chief Partner Officer; no President, GNS sits on the committee.",
+      "quote": "Group President, Global Merchant & Network Services",
+      "url": "https://ir.americanexpress.com/governance-and-corporate-responsibility/executive-committee-and-directors/default.aspx",
+      "title": "Executive Committee & Directors",
+      "publisher": "American Express Investor Relations",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also lists Mohammed Badi as President, Global Servicing and Ravi Radhakrishnan as CIO."
+    },
+    {
+      "dimension": "news",
+      "claim": "Outages: no press-reported Amex network outage affecting merchants or partners was found for the window; a third-party monitor logged a 52-minute account-display incident on 2026-02-09.",
+      "quote": "StatusGator last detected an outage on February 9, 2026.",
+      "url": "https://statusgator.com/services/american-express",
+      "title": "American Express Status | StatusGator",
+      "publisher": "StatusGator",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Crowd/signal-based monitor, not an Amex status page; incident described as 'Account balances and transactions not displaying or processing'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Successor to Mohammed Badi as President, Global Network Services (2025-2026)",
+      "where": "SEC 8-K Jan 30 2025 exhibit; ir.americanexpress.com executive committee page; web search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Federal Reserve Board press release or consent order finalising the American Express small-business sales-practices resolution (2025)",
+      "where": "federalreserve.gov 2025 press-release list (no Amex title); 8-K Jan 16 2025 only says agreement in principle",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ press release on the $230M American Express resolution",
+      "where": "justice.gov (guessed URL 404; site search page not renderable)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Developer Portal 'What's New' entries (API launches, deprecations, portal relaunch) Sept 2024-Sept 2026",
+      "where": "developer.americanexpress.com/documentation/whats-new (JavaScript-rendered; curl and WebFetch return only the site title)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Investor Relations press-release index for 2024-2026",
+      "where": "ir.americanexpress.com news pages (JS-rendered), RSS URLs returned 404; used the newsroom AEM model.json index instead",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "GNS partner-site news items (network.americanexpress.com/globalnetwork/v4/news/)",
+      "where": "Page returns a header only; only a 2022 i2c article was reachable",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Press-reported American Express network outage affecting merchants/acquirers, Sept 2024-Sept 2026",
+      "where": "Web search; only third-party status monitors found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Announced Amex network pricing or assessment-fee changes in the window",
+      "where": "Web search returned only third-party fee guides (Helcim, Verisave, weaudit) and Amex Canada pricing pages; none fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Merchant Financing news 2025-2026",
+      "where": "Web search budget exhausted before the query ran",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "New third-party issuers launching on the Amex network in Europe, Latin America or India in the window (beyond Coinbase, Hypercard, Fanatics, Lithic)",
+      "where": "Web search budget exhausted; 10-K names Coinbase and Credit Saison only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Punitive damages component of the Moskowitz verdict (a search snippet cited $6.5M)",
+      "where": "bklwlaw.com not fetched; 10-K cites $12.5M damages only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Tripadvisor IR release on the TheFork sale (primary)",
+      "where": "ir.tripadvisor.com returned 403 to WebFetch and curl",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Network International press release on the AEME partnership (primary)",
+      "where": "network.ae returned 403 to WebFetch and curl",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Retirements of partner-facing products (e.g., Amex Business Link, developer APIs) in the window",
+      "where": "No query run; developer portal changelog not retrievable",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Q4 2025 results newsroom boilerplate (2026-01-30): 'With over a hundred million merchant locations across our global network'",
+      "b": "2026 Chairman's Letter: 'over 170 million merchant locations worldwide ... as of year-end 2025' (incl. ~37M China wallet merchants); Sept 2025 release: 160 million as of June 2025",
+      "urls": [
+        "https://www.americanexpress.com/en-us/newsroom/articles/financial-news/american-express-reports-full-year-and-fourth-quarter-2025-finan.html",
+        "https://www.americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2026-Chairmans-Letter-to-Shareholders.pdf"
+      ]
+    },
+    {
+      "a": "Amex newsroom, 2026-04-16 Hyper release: 'leveraging the Agile Partner Platform'",
+      "b": "Lithic (quoting Amex SVP Will Stredwick), 2025-05-14: 'welcome Lithic to our Agile Partnership Platform'",
+      "urls": [
+        "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-to-acquire-hyper--adding-to-its-ai-expertise-an.html",
+        "https://www.lithic.com/blog/amex-announcement"
+      ]
+    },
+    {
+      "a": "2025 OptBlue Program Updates PDF: OptBlue for merchants 'estimated to process under $1MM in annual American Express Charge Volume'",
+      "b": "OptBlue Sales Agent page: threshold 'increased to $3,000,000' effective April 17, 2026",
+      "urls": [
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+        "https://www.americanexpress.com/en-us/business/optblue/agent/"
+      ]
+    },
+    {
+      "a": "Amex Wizz Air release dateline: 'London, UK, 26 June'",
+      "b": "Newsroom index firstPublishDate for the same release: 2025-07-03",
+      "urls": [
+        "https://www.americanexpress.com/en-us/newsroom/articles/emea/american-express-acceptance-takes-off-with-wizz-air.html",
+        "https://www.americanexpress.com/en-us/newsroom/articles/emea/american-express-acceptance-takes-off-with-wizz-air.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Amex360 (OptBlue Participant portal; hosts Prohibited industry list and Merchant Exclusion list)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+    },
+    {
+      "name": "OptBlue Program Operating Regulations - PSE Edition (Appendices A, J, K)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+    },
+    {
+      "name": "Global Network Knowledge Base (sign-in)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "Participant Directory (Global Network site)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "Amex for Developers portal (developer.americanexpress.com; sign-in, sandbox)",
+      "url": "https://developer.americanexpress.com/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/"
+    },
+    {
+      "name": "Agentic Commerce Experiences (ACE) Developer Kit ('select developers')",
+      "url": "https://www.americanexpress.com/en-us/company/agentic-commerce/",
+      "named_at": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html"
+    },
+    {
+      "name": "@ Work (Amex corporate card programme management platform)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-expands-virtual-card-capabilities-to-help-busin.html"
+    },
+    {
+      "name": "Amex Offers platform (merchant-funded card-linked offers)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/newsroom/articles/emea/american-express-acceptance-takes-off-with-wizz-air.html"
+    },
+    {
+      "name": "Resy third-party partner APIs and CRM API (2026)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-announces-next-phase-of-its-reservation-and-dining-platform.html"
+    },
+    {
+      "name": "Agile Partnership Platform / Agile Partner Platform (fintech onboarding; apply via Lithic, i2c, Cardless, Deserve)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "named_at": "https://www.lithic.com/blog/amex-announcement"
+    },
+    {
+      "name": "Amex Antitrust settlement claim portal (Moskowitz)",
+      "url": "https://amexantitrust.com/",
+      "named_at": "https://amexantitrust.com/faqs/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://ir.americanexpress.com/news-events/press-releases/default.aspx",
+      "title": "IR press releases (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/default.aspx",
+      "title": "Investor Relations News (JS-rendered list)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://ir.americanexpress.com/rss/news-releases.xml",
+      "title": "IR RSS (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network (home)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+      "title": "Global Network News (empty listing)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/i2c-article",
+      "title": "American Express Increases Speed for Fintechs to Launch Cards on the Amex Network, Powered by i2c (2022)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/documentation/whats-new",
+      "title": "American Express Developers - What's New (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express Annual Report 2025 (10-K) PDF",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "Form 10-K FY2025 (sec.gov HTML; curl 403, WebFetch partial)",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000005/axp-20250116.htm",
+      "title": "Form 8-K Jan 16 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000010/exhibit991jan302025executi.htm",
+      "title": "Exhibit 99.1 Executive Team Changes Jan 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000177/exhibit991sept292025execut.htm",
+      "title": "Exhibit 99.1 Sept 29 2025 (Buckminster retirement)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000113/axpexhibit991rkqnw.htm",
+      "title": "Exhibit 99.1 July 23 2025 (Quarles, Wallace elected to board)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+      "title": "Exhibit 99.1 Q4 2025 results",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000318/q226exhibit991.htm",
+      "title": "Exhibit 99.1 Q2 2026 results",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000203/axp-20260504.htm",
+      "title": "Form 8-K May 4 2026 (GBTG stake sale)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000322/axp-20260630.htm",
+      "title": "Form 10-Q Q2 2026 (curl 403; not read)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/en-us/newsroom/pdfs/AXP-2026-Chairmans-Letter-to-Shareholders.pdf",
+      "title": "2026 Chairman's Letter to Shareholders PDF",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s26.q4cdn.com/747928648/files/doc_earnings/2026/q2/earnings-result/Q2-2026-Earnings-Press-Release.pdf",
+      "title": "Q2 2026 earnings press release PDF",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2026/American-Express-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results/default.aspx",
+      "title": "IR: Q4 2025 results page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-to-Acquire-Expense-Management-Software-Company-Center/default.aspx",
+      "title": "IR: Amex to acquire Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/American-Express-Completes-Acquisition-of-Center/default.aspx",
+      "title": "IR: Amex completes Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news/investor-relations-news/investor-relations-news-details/2025/New-Coinbase-One-Card-to-Launch-on-the-American-Express-Network/default.aspx",
+      "title": "IR: Coinbase One Card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/governance-and-corporate-responsibility/executive-committee-and-directors/default.aspx",
+      "title": "IR: Executive Committee & Directors",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/all-news.model.json",
+      "title": "Newsroom All News index (AEM model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/american-express-makes-executive-committee-reporting-changes1.html",
+      "title": "Executive Committee Reporting Changes (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/american-express-completes-acquisition-of-tock.html",
+      "title": "Completes Acquisition of Tock (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-backs-construction-merchants-with-a-suite-of-ne.html",
+      "title": "Construction merchants B2B partners (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/new-fintech-hypercard-launches-consumer-credit-card-on-the-ameri.html",
+      "title": "Hypercard launches on Amex network (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/american-express-is-accepted-at-160-million-merchants-around-the.html",
+      "title": "160 Million Merchants (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/emea/american-express-acceptance-takes-off-with-wizz-air.html",
+      "title": "Wizz Air acceptance (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-and-emburse-announce-expanded-partnership-and-n.html",
+      "title": "Emburse expanded partnership (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/latin-america-and-caribbean/american-express-argentina-incorpora-a-nave-en-su-programa-optbl.html",
+      "title": "Amex Argentina adds Nave to OptBlue (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/what-sets-american-express-apart-in-the-age-of-agentic-commerce.html",
+      "title": "Agentic commerce strategy (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-announces-next-phase-of-its-reservation-and-dining-platform.html",
+      "title": "Resy next phase / Tock (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-now-offers-virtual-cards-in-concur-expense-to-s.html",
+      "title": "Virtual Cards in Concur (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-launches-new-graphite-business-cash-unlimited-c.html",
+      "title": "Graphite Business Cash Unlimited (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html",
+      "title": "ACE Developer Kit (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-to-acquire-hyper--adding-to-its-ai-expertise-an.html",
+      "title": "Amex to acquire Hyper (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/american-express-partners-with-anthropic-to-make-u-s--resy-resta.html",
+      "title": "Resy in Claude (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/company-statements/long-lake--backed-by-general-catalyst--to-purchase-american-expr.html",
+      "title": "GBTG stake sale statement (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/canada/american-express-expands-acceptance-across-popular-canadian-rest.html",
+      "title": "Canada restaurant acceptance (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/entertainment-and-experiences/american-express-and-fanatics-announce-exclusive-fan-experiences.html",
+      "title": "Fanatics partnership (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/american-express-announces-proposed-acquisition-of-thefork--a-le.html",
+      "title": "Proposed acquisition of TheFork (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/for-the-19th-year-in-a-row--american-express-has-the-lowest-u-s-.html",
+      "title": "Lowest fraud rate 19th year (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-partners-with-openai-to-launch-resy-reservations-in-chatgpt.html",
+      "title": "Resy in ChatGPT (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/travel-and-dining/resy-welcomes-tock-restaurants--wineries-and-experiences-to-its-.html",
+      "title": "Resy welcomes Tock (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-expands-virtual-card-capabilities-to-help-busin.html",
+      "title": "Virtual card capabilities (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/apac/american-express-expands-card-acceptance-in-thailand-through-new.html",
+      "title": "Thailand acceptance partnerships (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/financial-news/american-express-reports-full-year-and-fourth-quarter-2025-finan.html",
+      "title": "Q4 2025 results newsroom (via model.json)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "2025 OptBlue Program Updates PDF",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/customer-service/faq.amazon-program-update.html",
+      "title": "Amazon program update FAQ",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/company/agentic-commerce/",
+      "title": "Agentic Commerce Experiences page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://blog.resy.com/newsroom/american-express-and-toast-announce-strategic-partnership-to-help-elevate-hospitality-experiences/",
+      "title": "Resy newsroom: Toast partnership",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pos.toasttab.com/news/american-express-and-toast-announce-strategic-partnership",
+      "title": "Toast newsroom (bot wall)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.nasdaq.com/press-release/american-express-and-toast-announce-strategic-partnership-help-elevate-hospitality",
+      "title": "Nasdaq copy of Toast release (timeout)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.lithic.com/blog/amex-announcement",
+      "title": "Lithic: Amex network announcement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.coinbase.com/blog/earn-up-to-4-percent-bitcoin-back-on-every-purchase-with-the-new-coinbase-one-card",
+      "title": "Coinbase blog (bot wall)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2025/10/11/coinbase-s-upcoming-amex-card-with-btc-cashback-everything-we-know-so-far",
+      "title": "CoinDesk: Coinbase Amex card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/cryptocurrency/2025/coinbase-to-launch-credit-card-powered-by-american-express-network/",
+      "title": "PYMNTS: Coinbase card on Amex network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/amex-federal-government-doj-allegations-credit-cards-small-business/737635/",
+      "title": "Payments Dive: Amex pays $230M",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/amex-230-million-settlement-doj-credit-cards-small-business/737659/",
+      "title": "Banking Dive: Amex pays $230M",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/amex-settles-with-the-doj-over-deceptive-marketing-practices-shift4-fined-by-the-sec/",
+      "title": "Digital Transactions: AmEx settles with DoJ",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/2025-press.htm",
+      "title": "Federal Reserve Board 2025 press releases (no Amex item)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/news?keys=American+Express",
+      "title": "DOJ news search (not renderable)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://news.bloomberglaw.com/banking-law/amex-tagged-with-12-5-million-jury-award-in-divided-verdict",
+      "title": "Bloomberg Law: $12.5M verdict",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.squirepattonboggs.com/insights/publications/american-express-verdict-highlights-growing-risk-of-state-competition-law-claims-in-antitrust-cases/",
+      "title": "Squire Patton Boggs: Amex verdict",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://amexantitrust.com/faqs/",
+      "title": "Amex Antitrust settlement FAQs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.classaction.org/news/17.5m-american-express-settlement-ends-class-action-lawsuit-over-merchant-anti-steering-rules",
+      "title": "ClassAction.org: $17.5M settlement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-marshall-reintroduce-the-credit-card-competition-act",
+      "title": "Durbin: CCCA reintroduced",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ktslaw.com/kilpatrick/blog/consumer-financial-services/2026/1/credit-card-competition-act-of-2026",
+      "title": "Kilpatrick: CCCA of 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://rba.gov.au/media-releases/2026/mr-26-10.html",
+      "title": "RBA media release: Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://flighthacks.com.au/american-express-will-end-surcharges/",
+      "title": "Flight Hacks: Amex to end surcharges",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/amex-pushes-for-agentic-standards/818782/",
+      "title": "Payments Dive: Amex pushes for agentic standards",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbanker.com/payments/news/amex-introduces-agentic-commerce-developers-kit",
+      "title": "American Banker: agentic developers kit",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://fortune.com/2026/04/14/american-express-ai-payments-developers-purchase-protection/",
+      "title": "Fortune: Amex AI payments tools",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbanker.com/news/we-are-picky-inside-amexs-fintech-strategy",
+      "title": "American Banker: Inside Amex's fintech strategy (Jan 2024, pre-window)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/amex-to-buy-hypercard/817795/",
+      "title": "Payments Dive: Amex to buy Hypercard",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/partnerships/2026/amex-acquires-hyper-to-boost-ai-and-expense-management-offerings/",
+      "title": "PYMNTS: Amex acquires Hyper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://thepaypers.com/mergers-aquisitions-and-investments/news/american-express-acquires-agentic-expense-management-company-hypercard",
+      "title": "The Paypers: Amex acquires Hypercard",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260415433431/en/American-Express-to-Acquire-Hyper-Adding-to-Its-AI-Expertise-and-Expense-Management-Capabilities",
+      "title": "Business Wire: Hyper (bot wall)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://ibsintelligence.com/ibsi-news/hypercard-launches-consumer-credit-card-on-the-american-express-network/",
+      "title": "IBS Intelligence: Hypercard (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://glenbrook.com/payments_news/new-fintech-hypercard-launches-consumer-credit-card-on-the-american-express-network/",
+      "title": "Glenbrook: Hypercard launch",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.emarketer.com/content/amex-partners-hypercard-consumer-credit-card-corporate",
+      "title": "eMarketer: Amex-Hypercard (nav shell only)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.tripadvisor.com/news-releases/news-release-details/tripadvisor-enters-agreement-sell-thefork-american-express-700",
+      "title": "Tripadvisor IR: TheFork sale (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260614939103/en/American-Express-Announces-Proposed-Acquisition-of-TheFork-a-Leading-European-Restaurant-Booking-Platform",
+      "title": "Business Wire: TheFork (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.pymnts.com/partnerships/2026/amex-looks-to-spend-700-million-to-buy-thefork-from-tripadvisor/",
+      "title": "PYMNTS: TheFork $700M",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.skift.com/2026/06/16/why-amex-spent-700-million-on-thefork-and-whats-next-for-tripadvisor/",
+      "title": "Skift: Why Amex spent $700M on TheFork",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260520209012/en/American-Express-and-Fanatics-Announce-Exclusive-Fan-Experiences-and-New-Fanatics-American-Express-Card",
+      "title": "Business Wire: Fanatics (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.network.ae/en/about-us/press-and-media/news/american-express-middle-east-and-network-international-enter-into-a-first-of-its-kind-strategic-partnership-to-significantly-expand-merchant-acceptance-in-the-uae",
+      "title": "Network International release (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://thepaypers.com/payments/news/amex-network-expand-merchant-acceptance-across-the-uae",
+      "title": "The Paypers: Amex, Network UAE",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.arabianbusiness.com/finance/banking/american-express-middle-east-and-network-international-enter-into-a-first-of-its-kind-strategic-partnership-to-expand-merchant-acceptance-in-the-uae",
+      "title": "Arabian Business: AEME-Network (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.bottomline.com/newsroom/press-releases/bottomline-and-american-express-partner-expand-b2b-payment-connectivity-through-paymode",
+      "title": "Bottomline: Paymode/BIP Connect",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.usbank.com/news-events/news/news-details/2026/Amazons-New-Prime-Business-and-Amazon-Business-Credit-Cards-Powered-by-U-S--Bank-and-Mastercard-Are-Now-Available-with-Enhanced-Rewards-and-Flexible-Financing/default.aspx",
+      "title": "U.S. Bancorp IR: Amazon business cards",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fintechfutures.com/partnerships/us-bank-to-issue-amazon-s-new-small-business-credit-cards",
+      "title": "FinTech Futures: US Bank/Amazon (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/amex-optblue-threshold/",
+      "title": "Merchant Cost Consulting: OptBlue $3M threshold (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.restaurantbusinessonline.com/technology/reservation-services-resy-tock-are-merging",
+      "title": "Restaurant Business: Resy/Tock (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://statusgator.com/services/american-express",
+      "title": "StatusGator: American Express status",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

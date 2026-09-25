@@ -1,0 +1,1008 @@
+{
+  "network": "visa",
+  "dimension": "rules",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "rules",
+      "claim": "Visa publishes its full rulebook publicly as a single 923-page PDF, 'Visa Core Rules and Visa Product and Service Rules', current edition dated 18 April 2026.",
+      "quote": "Visa Core Rules and Visa Product and Service Rules 18 April 2026",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF is 923 pages (pypdf count); PDF metadata CreationDate 2026-04-21, ModDate 2026-04-22; marked 'Visa Public' on every page."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The public edition is redacted: Visa states it omits proprietary and competitive information and certain network-security details.",
+      "quote": "we have omitted proprietary and competitive information, as well as certain details from the rules relating to the security of the network.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page 2. Visible gaps in the public edition: Chapter 12 jumps 12.3 to 12.5, section 12.5.4 'Dispute Monitoring Fees and Non-Compliance Assessments' has a heading but no body, and 12.5.6/12.5.7 are absent."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Visa Rules are framed as a binding contract between Visa and each Member (financial institution client); merchants and agents are bound through their Member.",
+      "quote": "represent a binding contract between Visa and each Member.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Introduction, p.61. Writing convention on the same page: 'A Merchant must...' means 'An Acquirer must ensure that its Merchant...'. Rule 1.1.1.5 adds that the Rules 'do not constitute a contract, promise, or representation or confer any rights' on third parties."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Rule changes are announced through a 'Summary of Changes' section in each edition; unless a rule states an effective date, changes take effect on the publication date.",
+      "quote": "all changes are effective on the publication date.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule ID# 0020315, p.62: 'Changes ... are communicated and identified as part of the \"Summary of Changes\" for each edition.' Each rule carries a 7-digit ID, Edition and Last Updated stamp."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The rulebook is published on a semi-annual April/October cadence: the 18 April 2026 edition lists changes since the 18 October 2025 edition, and effective dates older than six months are purged each edition.",
+      "quote": "Summary of Changes since the 18 October 2025 Visa Core Rules and Visa Product and Service Rules",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "p.42; same page: 'most effective dates older than 6 months have been deleted.' Summary of Changes runs pp.42-60 and is organised by region then alphabetically."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa reserves the right to amend the Rules at any time, with changes reflected in the next edition; Members must implement Visa-required system changes and flow that obligation down to merchants and agents.",
+      "quote": "Visa may amend, modify, delete, or otherwise change the Visa Rules at any time.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.1.5 (ID# 0007428). Rule 1.1.1.7 (ID# 0029560): Member must 'Respond to and implement, as specified by Visa, the updates or system changes required by Visa' and ensure its merchant/agent agreements allow implementation."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Order of precedence when documents conflict: Visa Charter Documents, then Visa Core Rules, then Europe domestic rules, Travelers Cheque regulations, V PAY rules, Product and Service Rules, and finally Visa Supplemental Requirements.",
+      "quote": "conflicts will be resolved in the following order of precedence",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.1.1 (ID# 0007750), p.64. Visa Supplemental Requirements are 'Visa- or third-party-administered documents or websites that contain requirements beyond the content' of the rulebook (p.61)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Operational and rule communications to clients are pushed through a weekly 'Visa Business News' email to each Member's designated Primary Center Manager and Senior Officer; no public archive was found.",
+      "quote": "receives the same email communications as the Primary Center Manager, including the weekly Visa Business News.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entries 'Senior Officer' (ID# 0031042) and 'Primary Center Manager' (ID# 0031041), the latter defined as the contact who 'receives all critical corporate and operational email communications from Visa ... including the Visa Business News'. The March 2023 CE3.0 readiness doc separately references a 'Merchant Business News Digest'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The gated client portal formerly called Visa Online has been renamed 'Visa Access' in the rulebook glossary.",
+      "quote": "A password-protected website that provides Members, VisaNet Processors, and other authorized users with access to Visa information, formerly known as Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary 'Visa Access' (ID# 0025360, Last Updated Apr 2025). The assignment brief names 'Visa Online'; the current rulebook uses 'Visa Access'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A Member that cannot comply with a rule must request a Waiver through its Visa representative; each Waiver is unique, non-precedential, and an extension request incurs an assessment.",
+      "quote": "A Member that cannot comply with a rule or requirement in the Visa Rules must submit a Waiver request to Visa via its Visa representative.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.3.1 (ID# 0025926). The public text says an extension 'will incur an assessment, as specified in Section X' - the cross-reference is redacted."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Members must sanctions-screen every cardholder and merchant against the OFAC SDN list and other applicable lists at onboarding and on an ongoing basis, disable true matches, and notify Visa.",
+      "quote": "must screen each of its Cardholders and Merchants that access or utilize the Visa network",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.1.15 (ID# 0031126, Last Updated Apr 2025). Rule 1.1.1.3 makes each Member responsible for its affiliates, third-party agents and merchants complying with all applicable laws."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Members are prohibited from copying, disclosing or reverse-engineering Visa SDKs, APIs, documentation and tools except as the Rules expressly permit.",
+      "quote": "Use or make copies, in whole or in part, of any aspect of any software, software development kits, APIs, documentation, tools, or other materials",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.1.8 (ID# 0030681) lists the prohibited acts, including reverse engineering and circumventing security mechanisms."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Non-compliance is enforced through a published escalating general schedule: a USD 1,000 Compliance Case Fee at notification, then Tier 1 (Core Rules) assessments of USD 25,000, 50,000, 75,000, 100,000, 125,000, 150,000 and +USD 25,000 per month thereafter; Tier 2 (other rules) starts at USD 5,000.",
+      "quote": "Compliance Case Fee of USD 1,000 (assessed immediately) per violation",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.11.2.2 (Tables 1-13 and 1-14), pp.152-154. Tier 2 levels seen: USD 5,000, 10,000, 20,000, 30,000. Section 1.11.2.6 adds a Significant Violations Schedule (Table 1-15)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa retains full discretion over assessments: it may assess, suspend, waive, or deviate from the published schedules, and may bill both a performing Member and the Member it acts for.",
+      "quote": "Visa may assess, suspend, or waive non-compliance assessments, in whole or in part, to accommodate unique or extenuating circumstances.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.11.2.1 (ID# 0007280). Factors considered: type of violation, damage, repetition, Member history, safety and soundness."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A 'significant' violation - one presenting immediate or substantial risk, or that the Member knew or should have known was a violation - triggers a separate, higher Significant Violations Schedule.",
+      "quote": "A violation is considered “significant” where the Member’s action, error or omission, intended or unintended, known or unknown, presents immediate and/or substantial risks",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.11.2.6, p.~160 (line 5393 of extracted text)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's data-security compliance programme is the Account Information Security (AIS) Program; assessments for non-compliance are set in a separate, non-public 'AIS Program Guide'.",
+      "quote": "is subject to a non-compliance assessment as set out in the Account Information Security (AIS) Program Guide.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.1.1 (ID# 0008193). Rule 1.9.4.1 requires Members to ensure all agents and merchants comply with PCI DSS and the AIS Program and never store full track data, CVV2, PIN blocks, TAVV, DTVV or CAVV after authorisation."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers must report their own PCI DSS status to Visa and report and verify their merchants' PCI DSS compliance status at least every six months; Level 3 merchants must use PCI-compliant service providers or provide validation.",
+      "quote": "Report and verify to Visa, at least every 6 months, its Merchants’ status of PCI DSS compliance",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.1.2 (ID# 0001753, Last Updated Apr 2025). Merchant level criteria are defined in the AIS Program Guide, not the public rulebook."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Failure to notify Visa immediately of a suspected or confirmed loss of Transaction Information carries an assessment of up to USD 100,000 per incident under 'What To Do If Compromised'.",
+      "quote": "is subject to a non-compliance assessment of up to USD 100,000 per incident, as specified in the What to Do if Compromised.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.1.3 (ID# 0003524). Rule 10.9.x: Members must give Visa, its agent and any PCI Forensic Investigator access to forensic reports, network diagrams and systems."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's account-data-compromise recovery mechanism is the Global Compromised Account Recovery (GCAR) Program, which lets issuers recover part of their operating expenses from the responsible acquirer at Visa's discretion.",
+      "quote": "An Issuer may recover a portion of its operating expenses associated with an Account Data Compromise Event",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 10.9.1.1 (ID# 0026564): Visa 'has the authority and discretion to determine Account Data Compromise Event qualification, Operating Expense Recovery amounts, Issuer eligibility, and Acquirer liability' per the non-public GCAR Guide. Rule 11.12.5: PCI DSS/PIN violations enabling mag-stripe compromise are resolved through GCAR, not the Compliance process."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Third Party Agents must be registered with Visa by their sponsoring Member before performing any service, using the 'Program Request Management' application plus regional forms; Visa may reject a registration with or without cause.",
+      "quote": "Use the Program Request Management application",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.9.8.6, p.144: 'A Member must register a Third Party Agent with Visa.' Exemption for agents serving only affiliates that own at least 25% of the agent, except PFs, Marketplaces, BPSPs, CBPS providers and staged-wallet DWOs."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 24 October 2026 in the US and Canada, Members must disclose to Visa all Numeric IDs, BINs, issuing/acquiring identifiers and account ranges used by each Third Party Agent, and review them annually.",
+      "quote": "Members must disclose to Visa the Numeric IDs associated with its Third Party Agent",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.9.8.6 'Effective 24 October 2026' paragraph; listed in Summary of Changes under Canada/US 'Third Party Agent Registration Requirements'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Before registering a Third Party Agent a Member must perform an on-site inspection of the agent's business location, and TPA contracts must require PCI DSS compliance and allow termination for prohibited activities.",
+      "quote": "Before registering a Third Party Agent, a Member must perform an on-site inspection of the Third Party Agent’s business location",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rules 10.2.2.3 and 10.2.2.2 (ID# 0025902). Due diligence standard is the non-public 'Third Party Agent Due Diligence Risk Standards' (Appendix A)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Card manufacturers, personalizers, fulfillment vendors, 3-D Secure directory servers and ACS providers must be listed on the public Visa Global Registry of Service Providers.",
+      "quote": "Ensure that the Visa-approved manufacturer is posted on the Visa Global Registry of Service Providers",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rules 1.9.x (card vendors, pp.146-147) and 10.15.1.2 / 10.15.1.x (DS and ACS providers). Registry at https://www.visa.com/splisting/ renders via JavaScript; only the page title was retrievable by fetch."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Visa Acquirer Monitoring Program (VAMP) is the rulebook's acquirer dispute-and-fraud monitoring framework; identification and exit criteria live in a non-public 'Visa Acquirer Monitoring Program Guide', and Visa may evaluate at aggregated-merchant or sponsored-merchant level.",
+      "quote": "Visa will identify an Acquirer under the Visa Acquirer Monitoring Program (VAMP) if it meets requirements, as specified in the Visa Acquirer Monitoring Program Guide.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 10.4.3.1 (ID# 0029286, Last Updated Oct 2024). 'Visa Dispute Monitoring Program' has zero occurrences in the April 2026 edition; 'Visa Fraud Monitoring Program' survives only as Dispute Condition 10.5 (120-day time limit from the VFMP report)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "VAMP per-dispute fee amounts are not in the public rulebook: section 12.5.4 'Dispute Monitoring Fees and Non-Compliance Assessments' exists as a heading only.",
+      "quote": "Dispute Monitoring Fees and Non-Compliance Assessments",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "TOC p.24 lists 12.5.4 at p.808; on p.808 the heading is immediately followed by 12.5.5. Fee amounts are only available from processors and trade press (see Reported claims)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Manipulating merchant names or data to evade VAMP or the Visa Integrity Risk Program (VIRP) carries USD 25,000 per merchant per month to the acquirer and possible permanent disqualification of the merchant and its principals.",
+      "quote": "Impose a non-compliance assessment of USD 25,000 per Merchant or Sponsored Merchant, per month to the Acquirer.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.3.2 (ID# 0030702). VIRP governs illegal/brand-damaging activity; under Rule 1.9.2.2 acquirers and Agentic Payment Enablers/Providers must answer VIRP information requests within 7 business days."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Issuers have a parallel Visa Issuer Monitoring Program (VIMP) for card-absent disputes and fraud, with published assessments of USD 25,000/month (months 4-6), USD 50,000 (months 7-9) and USD 100,000 (months 10-12).",
+      "quote": "Month 4 – 6 USD 25,000 Month 7 – 9 USD 50,000 Month 10 – 12 USD 100,000",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.3.1, Table 12-5 (ID# 0030600). Thresholds themselves are in Rule 10.4.7.1."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers that fail High-Integrity Risk registration requirements face USD 100,000 per month (Tier 1-2 merchants) or USD 25,000 (Tier 3), plus USD 2,000 per unregistered high-integrity-risk merchant per month.",
+      "quote": "non-compliance assessment of USD 100,000 for Tier 1 and Tier 2 Merchants, or USD 25,000 for Tier 3 Merchants",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.5.5.1 (ID# 0026381). Continued non-compliance can bar the acquirer from acquiring High-Integrity Risk merchants."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: a new Merchant Elevated Risk Program (MERP) took effect 9 April 2026 in Asia-Pacific, with USD 25,000 on first identification and USD 50,000 on repeat identification.",
+      "quote": "Visa has introduced the Merchant Elevated Risk Program in the AP Region to identify and address deceptive Merchant risks.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.52; assessments in Rule 12.5.8.1, Table 12-6 (ID# 0031243, new). Governed by a 'Merchant Elevated Risk Program Guide' added to the Supplemental Requirements list."
+    },
+    {
+      "dimension": "rules",
+      "claim": "All dispute lifecycle actions - disputes, responses, pre-arbitration, arbitration and compliance filings and appeals - must be processed through Visa Resolve Online (VROL); the framework is organised as Dispute Categories 10 (Fraud), 11 (Authorization), 12 (Processing Errors) and 13 (Consumer Disputes).",
+      "quote": "A Member must use VisaNet or Visa Resolve Online (VROL) to process a financial message arising from a dispute",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 11.3.1, p.673; category structure at TOC 11.2.2/11.2.3. The 2018 marketing name 'Visa Claims Resolution' has zero occurrences in the current rulebook. Europe footnote: does not apply to Members using a non-Visa Scheme Processor."
+    },
+    {
+      "dimension": "rules",
+      "claim": "VROL dispute questions and documentation must be in English or carry an English translation; the prior domestic-language concession for common-language issuer/acquirer pairs ended for disputes processed after 17 April 2026.",
+      "quote": "VROL questions must be answered in English and any dispute-related documentation must be provided in English, or accompanied by an English translation.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 11.3.1: 'Effective for Disputes processed through 17 April 2026 For Domestic cases where the Issuer and the Acquirer share a common language, the English translation is only required ... at the filing of the Arbitration or Compliance case.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers may attach 'Compelling Evidence' to a pre-arbitration attempt against fraud disputes (Conditions 10.1, 10.3, 10.4); the rulebook tabulates the allowable evidence items per condition.",
+      "quote": "An Acquirer may submit Compelling Evidence with a pre-Arbitration attempt, as follows",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 11.5.1, p.677 onward. Same rule: 'An Acquirer must not process an invalid pre-Arbitration and must conduct an adequate due diligence review'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 24 October 2026 Visa expands Compelling Evidence 3.0 for Dispute Condition 10.4 (card-absent fraud) and allows multi-merchant transactions as qualifying evidence for liability protection.",
+      "quote": "Visa is expanding the availability and application of the remedy rule (commonly known as Compelling Evidence 3.0 [CE3.0]) for Dispute Condition 10.4",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.48; rules impacted 11.7.5.3 (ID# 0030254) and 11.7.5.6 (ID# 0030257)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The rulebook's Appendix A enumerates the enforceable 'Visa Supplemental Requirements', including the AIS Program Guide, VAMP Guide, VIRP Guide, GCAR Guide, What To Do If Compromised, Third Party Agent Due Diligence Risk Standards, Visa Acceptance Risk Standards, Visa Merchant Data Standards Manual and Visa Product Brand Standards - none of which except WTDIC were found publicly.",
+      "quote": "Visa Supplemental Requirements (Enforceable Documents and Websites)",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Appendix A, pp.~815-825. Also lists PCI DSS, PCI PIN, PCI PTS POI, PCI MPoC, Visa Secure Program Guide, Transaction Acceptance Device Requirements, Fraud Reporting System User's Guide, Visa Ready Tap to Phone Solution Requirements."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 18 April 2026 Visa introduced rules allowing Digital Wallets and Pass-Through Digital Wallets in 'Agentic Transactions', with new Agentic Payment Enabler and Agentic Payment Provider requirements (rules 4.1.24.1-4.1.24.5).",
+      "quote": "Visa has updated its Rules to allow Digital Wallets and Pass-Through Digital Wallets to be used in Agentic Transactions.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.44. Rule 4.1.24.1 (ID# 0031167, Apr 2026) requires Agentic Payment Enablers to comply with PCI DSS."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 18 April 2026 the Member API-usage rule (7.2.3) was expanded from regional to global scope.",
+      "quote": "Visa has expanded the application programming interface (API) usage for Members from regional to global scope.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.46; Rule 7.2.3 (ID# 0031061)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 18 April 2026 the Visa Direct AFT and OCT processing guides were retired and replaced by a single 'Visa Direct for Card Processing Guide', with several Visa Direct requirements moved into the rulebook proper, including a Program Information Form (PIF) approval requirement.",
+      "quote": "has introduced the new Visa Direct for Card Processing Guide",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes pp.49-50; Rule 8.9.1.1 'Visa Direct – Program Information Form (PIF) Submission and Approval Requirement' (ID# 0031238). Rules 8.4.1.4/8.4.1.5 also mandate VROL 'good faith collaboration' for OCT inquiries with 5-calendar-day responses, effective 18 April 2026."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 25 July 2026 Visa introduces a Visa-only authorization response code RC 83 (Fraud/Security) for STIP declines caused by high-risk conditions.",
+      "quote": "Visa is introducing a dedicated Visa-only response code (RC 83 – Fraud/Security [Visa use only])",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.47; Rule 7.3.6.3 (ID# 0030640). Same date: global acceptance-rules restructure (no intent change), AFT-for-debt-repayment in AP/CEMEA/LAC, prepaid expiry extended to 10 years."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 25 July 2026 acquirers must send accurate, real data (no dummy values) in Account Name Inquiry, AVS and Account Verification requests.",
+      "quote": "specifying that accurate and true information must be sent when these verifications are being requested (i.e., no dummy data)",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes pp.48-49; Rules 7.3.10.2, 10.11.1.5, 10.11.2.2."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: AVS issuer participation and a related disputes liability shift arrive in Australia, New Zealand, Singapore, Europe and seven LAC countries, effective 24 October 2026 and 24 April 2027.",
+      "quote": "Visa is introducing the Address Verification Service (AVS) and disputes liability shift in selected countries",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.51; Rules 7.3.10.1, 10.11.1.2, 11.7.5.3."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: effective 18 April 2026 Visa removed a block of acquirer, merchant and third-party-agent risk rules (including Europe merchant deposit monitoring and the US TPA operational review) because they are now covered by the non-public 'Visa Acceptance Risk Standards' (VARS).",
+      "quote": "removing obsolete requirements or requirements covered in the Visa Acceptance Risk Standards (VARS).",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes pp.43-44. The retired Europe rule 10.4.1.4 (effective through 17 April 2026) had carried a EUR 25,000/month assessment for acquirers identified under VAMP that failed to implement daily monitoring - the obligation migrates into VARS, which partners cannot read publicly."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: business-continuity requirements for non-Member VisaNet Processors in CEMEA take effect 24 October 2026 and 22 April 2028.",
+      "quote": "Visa is introducing business continuity requirements for non-Member VisaNet Processors",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.55; Rule 10.1.4.2 (ID# 0031241). CEMEA acquirers must also all support the ATM PIN management service (PIN change/unblock)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: from 1 August 2026 Visa stops issuing the twice-yearly Edit Package updates to Europe Members.",
+      "quote": "will no longer provide to Members updates to the Edit Package twice a year.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.56; Rule 8.1.3.1 (ID# 0029561). Europe also gets a new Norway 'Consumer Choice of Payment Scheme' Supplemental Requirement from 1 September 2026."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: Canada Code of Conduct attestation deadline moved from 31 January to 31 March from 1 January 2026, with CAD 100,000 per month for failure to attest.",
+      "quote": "will be subject to a non-compliance assessment of CAD 100,000 per month of non-compliance.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.1.1.12 (ID# 0025973, Last Updated Apr 2026) and Summary of Changes p.53; aligns with FCAC's new timeline. Canada also gets a Digital Commerce Authentication Program (DCAP) for acquirers and merchants effective 24 October 2026."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate deferrals: US Visa Installment Credential issuer requirements moved from 18 April 2026 to 24 October 2026, and Georgia (CEMEA) e-commerce SCA enforcement moved from 1 January 2026 to 1 January 2027.",
+      "quote": "The previous effective date for Issuers to comply was 18 April 2026.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes p.60 (US) and pp.55-56 (Georgia: 'Visa has updated the enforcement date to 1 January 2027 in response to evolving regulatory requirements.')."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Issuer fraud-reporting failures follow a published five-occurrence ladder: warnings for the first two, then 90-day and 180-day suspensions of fraud dispute rights with USD 25,000 minimum assessments (USD 50,000 in Europe), and an on-site audit at the fourth occurrence.",
+      "quote": "Third N/A 90 calendar days USD 25,000 N/A",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 12.2.1.1, p.801 (table extracted as a flat row). Rule 1.9.4.3 sets the underlying Issuer Fraud Activity Reporting duty."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's public rules landing page also points to separate Interlink rules for the US and Canada and routes rule questions through a gated 'Visa Rule inquiry' form on globalclient.visa.com.",
+      "quote": "The Interlink Core Rules and Interlink Product and Service Rules apply to financial institutions operating in the U.S. and Canada.",
+      "url": "https://www.visa.com/en-us/support/visa-rules",
+      "title": "Visa Rules and Policy",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "usa.visa.com/support/consumer/visa-rules.html 301-redirects here. Inquiry form: https://globalclient.visa.com/rule-inquiry (returns 200). The same page and the visa.co.uk equivalent both link the single global public PDF; no separate public Europe Operating Regulations were found."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's security-compliance page states PCI DSS is mandatory for every entity handling Visa cardholder data, merchant level is set by 12-month Visa volume, and issuers/acquirers must have service providers validate PCI DSS at least every 12 months.",
+      "quote": "PCI DSS compliance is required of all entities that store, process or transmit Visa cardholder data",
+      "url": "https://corporate.visa.com/en/resources/security-compliance.html",
+      "title": "Security & Compliance",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "usa.visa.com/support/small-business/security-compliance.html redirects here. Also: 'Issuer and acquirers must ensure all their service providers demonstrate PCI DSS compliance at least every 12 months'; 'A merchant's total Visa transaction volume over a 12-month period determines your merchant level'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's Technology Innovation Program (TIP) waives annual PCI DSS validation for merchants with at least 75% of transactions on EMV chip terminals, and the Global Registry of Service Providers is positioned as the industry's list of registered, compliant agents.",
+      "quote": "eliminating the requirement to verify compliance with the PCI DSS when at least 75% of yearly transactions originate through EMV chip-enabled terminals",
+      "url": "https://corporate.visa.com/en/resources/security-compliance.html",
+      "title": "Security & Compliance",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Registry sentence on the same page: 'The Visa Global Registry of Service Providers is the payment industry's designated source for information on registered and compliant agents'. Links to https://www.visa.com/splisting/ and to TPA registration at https://partner.visa.com/site/programs/third-party-agent-registration.html."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's account-data-compromise procedure 'What To Do If Compromised' is public (Version 10.0, effective 25 June 2026, 25 pages) and requires notification to Visa's Global Risk Investigations within three calendar days of suspecting or confirming a compromise.",
+      "quote": "Submit Notification to Visa Within Three (3) Calendar Days",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/cisp-what-to-do-if-compromised.pdf",
+      "title": "What To Do If Compromised - Visa Supplemental Requirements",
+      "publisher": "Visa",
+      "published": "2026-06-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Cover: 'Version 10.0 Effective: 25 June 2026'. Incident Report due within 3 calendar days of notification; at-risk account data via Visa's Global Investigation Management Tool (GIMT) or Compromised Account Management System (CAMS). The older URL /content/dam/VCOM/global/support-legal/documents/what-to-do-if-compromised.pdf is dead (404)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "When Visa requires a PCI Forensic Investigation, the entity must retain a PFI within five business days, deliver a preliminary report within five business days of retention, and a final report within ten business days of completion; Visa can charge USD 10,000 per month for Level 1-2 investigations not completed within four months.",
+      "quote": "Within five (5) business days, execute a contract retaining a PFI to perform a PCI forensic investigation",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/cisp-what-to-do-if-compromised.pdf",
+      "title": "What To Do If Compromised - Visa Supplemental Requirements",
+      "publisher": "Visa",
+      "published": "2026-06-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section A-5 and Section B2-8: 'A recurring monthly fee in the amount of USD 10,000 for investigations involving Level 1 and 2 Merchants, VisaNet Processors, Members'; USD 3,000 flat for Level 3/4 merchants. Failure to contain within 60 business days can trigger a mandated PFI and assessments."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa consolidated merchant PCI Levels 3 and 4 into a single Level 3 on 25 April 2024 and, effective 9 February 2025, moved compromise non-compliance assessments for Level 3 merchants to a tiered structure by account count (USD 5K, 10K, 25K, 100K).",
+      "quote": "Effective 25 April 2024, Visa consolidated merchant levels 3 and 4 into a unified level 3.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/cisp-what-to-do-if-compromised.pdf",
+      "title": "What To Do If Compromised - Visa Supplemental Requirements",
+      "publisher": "Visa",
+      "published": "2026-06-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section B2-9: 'Effective 9 February 2025, Tiered NCA’s for Level 3 Merchants'. Table shows Level 1 merchants > 6,000,000 transactions, Level 2 1,000,001-6,000,000, Level 3 tiers 1-100,000 USD 5K, 100,000-500,000 USD 10K, 500,000-1,000,000 USD 25K."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's own VAMP fact sheet (May 2025) confirms VAMP consolidated the prior VAMP, Visa Fraud Monitoring Program and Visa Dispute Monitoring Program into one global programme with new thresholds effective 1 June 2025 and an advisory period ending 30 September 2025.",
+      "quote": "Updates to the program thresholds will be effective 1 June 2025",
+      "url": "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf",
+      "title": "Visa Acquirer Monitoring Program Overview (VAMP external fact sheet 2025 v2)",
+      "publisher": "Visa",
+      "published": "2025-05-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF metadata CreationDate 2025-05-14. Footnote 2: 'Program advisory period ends 30 September 2025.' Footnote 1: 'Programs for Brazil, Chile, and India will be announced later.' Fact sheet is silent on fee amounts."
+    },
+    {
+      "dimension": "rules",
+      "claim": "VAMP's core metric is a count-based ratio of TC40 fraud plus TC15 disputes over TC05 settled card-not-present transactions, excluding disputes resolved via pre-dispute tools and TC40s that qualify for Compelling Evidence 3.0.",
+      "quote": "VAMP Ratio = Count of [Fraud (TC40) + Disputes (TC15)] ÷ Count of Settled Transactions (TC05)",
+      "url": "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf",
+      "title": "Visa Acquirer Monitoring Program Overview (VAMP external fact sheet 2025 v2)",
+      "publisher": "Visa",
+      "published": "2025-05-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Excludes disputes resolved through pre-dispute solutions, contingent on the timing of the data extract. Excludes TC 40 fraud qualified for Compelling Evidence 3.0'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "VAMP thresholds: acquirers are 'Above Standard' at a VAMP ratio of 50bps or more and 'Excessive' at 70bps or more; merchants are 'Excessive' at 220bps (150bps in LAC), falling to 150bps in AP, Canada, EU and US on 1 April 2026, with minimum monthly counts of 1,500 (150 and USD 75,000 in CEMEA).",
+      "quote": "identified as Above Standard if its VAMP ratio is ≥50bps and as Excessive if ≥70bps",
+      "url": "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf",
+      "title": "Visa Acquirer Monitoring Program Overview (VAMP external fact sheet 2025 v2)",
+      "publisher": "Visa",
+      "published": "2025-05-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footnote 5: 'Excessive Merchant threshold reduced to >=150bps in AP, Canada, EU, and U.S. regions on 1 April 2026.' Enumeration: ratio ≥ 2000 bps and count ≥ 300,000 enumerated authorizations."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa framed VAMP publicly (Paul Fabara, Chief Risk and Client Services Officer, 15 May 2025) as one programme with three goals and a formula that now counts all disputes, fraudulent and non-fraud.",
+      "quote": "reduce fraud, eliminate friction for consumers and lower the operational burden on Visa clients",
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/security-program-takes-aim-payments-fraud.html",
+      "title": "Security program takes aim at payments fraud",
+      "publisher": "Visa",
+      "published": "2025-05-15",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Article links the fact sheet. Pre-dates nothing relevant to Capital One/Discover; Visa is not affected by that transaction."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Developer access beyond the sandbox is contractually gated: Visa Developer certification and production credentials are only issued once a signed contract with Visa is in place, via an in-project 'Onboarding Dashboard'.",
+      "quote": "Credentials for certification and production will be provided once a signed relevant contract is in place between you and Visa.",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live - Visa Developer",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Named forms: Business Entity Information, Business Entity Contact, Project Information, Request to Start Next Environment, API Registration; security options X-Pay Token and/or Two-Way SSL with a CSR."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa Partner's public Third Party Agent Registration page says agents can register either through a sponsoring Visa client or directly with Visa for services not requiring sponsorship, and must supply current PCI DSS evidence (AOC or SAQ D-SP).",
+      "quote": "Agents are required to get registered to help establish trust and accountability in the payment industry.",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Third Party Agent Registration - Visa Partner",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Required inputs: sponsor name/location, TPA category, Visa service name, service description, 'Current PCI DSS certification documents (Attestation of Compliance (AOC) or Self-Assessment Questionnaire (SAQ-D-SP))'. No fee amounts shown; 'Register Now' requires a Visa Partner account."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa Ready is Visa's brand/standards certification for technology vendors (Tap to Phone, Click to Pay, tokenization tracks), run through the Visa Partner portal in six steps ending with a partner-directory listing.",
+      "quote": "The Visa Ready certification program helps technology companies build and launch payment solutions that meet Visa's global standards around security and functionality.",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready - Visa Partner",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Eligible: technology partners, issuer processors, BIN sponsors, program managers, acquirers, gateways. The rulebook makes 'Visa Ready Tap to Phone Solution Requirements' an enforceable Supplemental Requirement (Rule 5.6.x, ID# 0031002)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa publishes a 67-page merchant-facing 'Dispute Management Guidelines for Visa Merchants' (June 2024) describing monthly merchant dispute monitoring with acquirer notification and a separate 'compliance' process for rule violations that carry no dispute right.",
+      "quote": "Visa monitors all merchant dispute activity on a monthly basis and notifies acquirers when any of their merchants have excessive disputes.",
+      "url": "https://usa.visa.com/content/dam/VCOM/global/support-legal/documents/merchants-dispute-management-guidelines.pdf",
+      "title": "Dispute Management Guidelines for Visa Merchants",
+      "publisher": "Visa",
+      "published": "2024-06-29",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dated June 2024, so it predates the May 2025 VAMP consolidation and still speaks of 'Visa Dispute Monitoring Programs'. Compliance process: 'Visa has established the compliance process, which offers clients another dispute resolution option.' Linked from usa.visa.com/support/merchant.html."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Compelling Evidence 3.0 took effect 15 April 2023 for Dispute Condition 10.4; qualifying requires two prior undisputed transactions 120-365 days old from the same merchant matching on at least two of User ID, IP address, shipping address or device ID, one of which must be IP or device.",
+      "quote": "At least two of the core data elements (User ID, IP Address, Shipping Address, Device ID / Fingerprint) match",
+      "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/compelling-evidence-3.0-merchant-readiness-mar2023.pdf",
+      "title": "Compelling Evidence 3.0 Merchant Readiness",
+      "publisher": "Visa",
+      "published": "2023-03-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Doc: 'help merchants prepare for the 15 April 2023 10.4 dispute code update for compelling evidence, known as Compelling Evidence 3.0 (CE3.0)'. Pre-dispute route is Verifi's Order Insight (Visa-owned) into VROL; references FAQs 'posted on Merchant Business News Digest'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Visa's FY2025 10-K discloses that some jurisdictions (Brazil) now require government pre-approval of certain network rules, and that Visa's assessment of fees for non-compliance with its surcharge rules is the subject of US antitrust litigation.",
+      "quote": "Other countries, like Brazil, have adopted regulations that require us to seek government pre-approval for certain of our network rules",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for fiscal year ended September 30, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (Visa Inc. filing)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Legal proceedings: complaint 'based on Visa’s assessment of fees for non-compliance with its surcharge rules' (second amended complaint filed April 14, 2025; Visa moved to dismiss May 28, 2025). Risk factor: regulators reviewing 'interchange reimbursement fees, merchant discount rates, operating rules, risk management protocols'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Stripe's processor documentation republishes VAMP as monthly monitoring with a merchant 'Non-compliant' tier (0.5% ratio, count 5) and 'Excessive' tier (1.5%, or 2.2% in CEMEA), says fees apply above Excessive and may apply above Non-compliant, and states enumeration monitoring carries no fines.",
+      "quote": "Visa assesses fees to merchants that exceed the Excessive threshold and may assess fees to merchants that exceed the Non-Compliant threshold.",
+      "url": "https://docs.stripe.com/disputes/monitoring-programs",
+      "title": "Dispute and fraud card monitoring programs | Stripe Documentation",
+      "publisher": "Stripe",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Also: 'Visa doesn’t assess fines for VAMP enumeration monitoring.' Stripe's merchant 'Non-compliant 0.5%' tier does not appear in Visa's own fact sheet (see contradictions). Stripe exposes a VAMP dashboard with Visa-sourced and Stripe-estimated data per statement descriptor."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Trade press reports VAMP launched 1 April 2025, the advisory period was extended from July to 30 September 2025, enforcement began 1 October 2025, and per-item fees are USD 4 (acquirer Above Standard) and USD 8 (acquirer or merchant Excessive) per fraud or dispute item.",
+      "quote": "Visa extended the advisory period—originally set to end in July—through Sept. 30",
+      "url": "https://www.digitaltransactions.net/magazine_articles/navigating-the-visa-acquirer-monitoring-program/",
+      "title": "Navigating the Visa Acquirer Monitoring Program",
+      "publisher": "Digital Transactions",
+      "published": "2025-11-01",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Author Tim Tynan (CEO, Chargeback Gurus) - practitioner column. 'Enforcement was scheduled to begin Oct. 1'; fees 'Above Standard: $4 per fraudulent or disputed transaction', 'Excessive: $8'. Chargebacks911 (David DeCorte, 2026-05-01) concurs: 'VAMP enforcement ... officially commenced on October 1, 2025' with '$4 per each card-not-present TC40 fraud and TC15 non-fraud dispute'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "One year into VAMP (April 2026) Visa released six dispute tools - Dispute Intelligence, Dispute Doc Analyzer and Visa Dispute Case Manager for acquirers; Visa Dispute Resolution Network, Visa Dispute Recovery Manager and Order Insight for merchants - citing 106 million disputes processed in 2025.",
+      "quote": "Visa, which says it processed 106 million disputes globally in 2025, a 35% increase from 2019, issued three updates for merchants and three for acquirers.",
+      "url": "https://www.digitaltransactions.net/a-year-into-vamp-visa-issues-new-dispute-resolution-tools/",
+      "title": "A Year into VAMP, Visa Issues New Dispute Resolution Tools",
+      "publisher": "Digital Transactions",
+      "published": "2026-04-01",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Author Kevin Woodward. Article restates thresholds: merchants 1.5%, acquirers 0.7% excessive / 0.5% above standard."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The 'Visa Claims Resolution' (VCR) framework went live 15 April 2018, collapsing reason codes into four categories (fraud, authorization, processing errors, consumer disputes) and cutting the merchant response window from 45 to 30 days; those four categories are what the current rulebook still uses as Dispute Categories 10-13.",
+      "quote": "Visa is creating four dispute-reason categories—fraud, authorization, processing errors, and consumer disputes",
+      "url": "https://www.digitaltransactions.net/how-tweaks-to-visas-chargeback-program-are-expected-to-speed-up-resolutions/",
+      "title": "How Tweaks to Visa's Chargeback Program Are Expected To Speed Up Resolutions",
+      "publisher": "Digital Transactions",
+      "published": "2018-03-23",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Author Kevin Woodward. 'Merchants also will have 30 days to resolve most disputes. The timeframe had been 45 days'; 'the changes are set to go into effect April 15'. The VCR name itself does not appear in the April 2026 rulebook."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Public archive, index or release calendar for the weekly 'Visa Business News' (rule-change bulletins) or the 'Merchant Business News Digest'",
+      "where": "visa-rules-public.pdf glossary (only definitions); probed https://usa.visa.com/partner-with-us/info-for-partners/visa-business-news.html (404), https://usa.visa.com/support/merchant/merchant-business-news-digest.html (404); web search budget exhausted before a search could run",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public copies of the Visa Acquirer Monitoring Program Guide, Account Information Security (AIS) Program Guide, Visa Integrity Risk Program Guide, GCAR Guide, Third Party Agent Due Diligence Risk Standards, Visa Acceptance Risk Standards (VARS), Visa Merchant Data Standards Manual, Visa Product Brand Standards",
+      "where": "Listed as enforceable Supplemental Requirements in Appendix A of the public rulebook; no public URLs given; only What To Do If Compromised was located publicly",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "VAMP per-item fee amounts in a Visa primary document",
+      "where": "Public rulebook section 12.5.4 is heading-only; Visa VAMP fact sheet (May 2025) and Visa Perspectives article are silent on amounts; only Digital Transactions, Chargebacks911 and Stripe report USD 4 / USD 8",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Separate public Visa Europe Operating Regulations – Processing, or a Europe-specific rules PDF",
+      "where": "https://www.visa.co.uk/support/consumer/visa-rules.html links the same global public PDF; https://www.visa.co.uk/about-visa/visa-rules.html is 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "'Visa Claims Resolution' as a current programme name in Visa primary documents",
+      "where": "Zero occurrences in the 18 April 2026 rulebook; not on usa.visa.com/support/merchant.html; chargebacks911.com/visa-claims-resolution/ is 404; only 2018 Digital Transactions coverage found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public rulebook sections 12.1, 12.4, 12.5.6, 12.5.7 and the 'Section X' waiver-extension assessment cross-reference",
+      "where": "Absent from the public edition of visa-rules-public.pdf (redacted per Visa's omission statement)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Third Party Agent registration fee amounts and Payment Facilitator registration fees",
+      "where": "https://partner.visa.com/site/programs/third-party-agent-registration.html (no fees shown); rulebook 1.9.8.6 (no amounts); usa.visa.com TPA programme pages probed 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Acceptance Solutions (developer.visaacceptance.com) release-note or mandate calendar cadence",
+      "where": "https://developer.visaacceptance.com/ landing page - no release notes or certification programme referenced",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Adyen and Chargebacks911 VCR pages as additional processor/third-party republication of Visa mandates",
+      "where": "https://docs.adyen.com/risk-management/scheme-fraud-and-chargeback-monitoring-programs/ (404); https://chargebacks911.com/visa-claims-resolution/ (404)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Stripe's VAMP table lists a merchant-level 'Non-compliant' tier at a 0.5% VAMP ratio / count 5 and an 'Excessive' tier at 1.5% (2.2% CEMEA), and says Visa 'may assess fees' above Non-compliant.",
+      "b": "Visa's own VAMP fact sheet (May 2025) defines 50bps as the acquirer 'Above Standard' tier only, sets merchant 'Excessive' at 220bps (150bps LAC) falling to 150bps in AP/Canada/EU/US on 1 April 2026, and has no merchant 'Non-compliant' tier.",
+      "urls": [
+        "https://docs.stripe.com/disputes/monitoring-programs",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf"
+      ]
+    },
+    {
+      "a": "Chargebacks911 (David DeCorte, 2026-05-01) states VAMP thresholds 'became effective' April 2026 and enforcement 'officially commenced on October 1, 2025'.",
+      "b": "Visa's fact sheet says program thresholds were 'effective 1 June 2025' with an advisory period ending 30 September 2025 and only the merchant Excessive threshold changing on 1 April 2026; Digital Transactions (Tim Tynan, 2025-11-01) says the programme launched 1 April 2025.",
+      "urls": [
+        "https://chargebacks911.com/visa-acquirer-monitoring-program/",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf",
+        "https://www.digitaltransactions.net/magazine_articles/navigating-the-visa-acquirer-monitoring-program/"
+      ]
+    },
+    {
+      "a": "Visa's merchant Dispute Management Guidelines (June 2024) still describe 'Visa Dispute Monitoring Programs' and a Visa Fraud Monitoring Program as separate merchant monitoring.",
+      "b": "Visa's VAMP fact sheet (May 2025) says the Visa Fraud Monitoring Program and Visa Dispute Monitoring Program were consolidated into VAMP, and the April 2026 rulebook contains zero references to a Visa Dispute Monitoring Program.",
+      "urls": [
+        "https://usa.visa.com/content/dam/VCOM/global/support-legal/documents/merchants-dispute-management-guidelines.pdf",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf"
+      ]
+    },
+    {
+      "a": "The assignment brief and Visa's security-compliance ecosystem still refer to the gated client portal as 'Visa Online'.",
+      "b": "The April 2026 rulebook glossary defines 'Visa Access' as the password-protected client site 'formerly known as Visa Online' (entry last updated Apr 2025).",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+        "https://corporate.visa.com/en/resources/security-compliance.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Access (formerly Visa Online) - password-protected client information site",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (glossary ID# 0025360)"
+    },
+    {
+      "name": "Visa Business News - weekly client email bulletin",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (glossary ID# 0031041, 0031042)"
+    },
+    {
+      "name": "Program Request Management (PRM) application - Third Party Agent registration",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (Rule 1.9.8.6)"
+    },
+    {
+      "name": "Visa Resolve Online (VROL) - dispute processing platform",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (Rule 11.3.1)"
+    },
+    {
+      "name": "Visa Merchant Screening Service (VMSS) - terminated merchant database",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (Rule 10.10.1)"
+    },
+    {
+      "name": "Fraud Reporting System (FRS)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (Appendix A)"
+    },
+    {
+      "name": "Visa Rule inquiry form (Global Client portal)",
+      "url": "https://globalclient.visa.com/rule-inquiry",
+      "named_at": "https://www.visa.com/en-us/support/visa-rules"
+    },
+    {
+      "name": "Visa Partner portal sign-in / dashboard",
+      "url": "https://partner.visa.com/identity",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Third Party Agent Registration (Visa Partner self-service tool)",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "named_at": "https://corporate.visa.com/en/resources/security-compliance.html"
+    },
+    {
+      "name": "Visa Ready certification programme (Visa Partner)",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Visa Fintech Fast Track",
+      "url": "https://partner.visa.com/site/programs/fintech-program.html",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Visa Developer Onboarding Dashboard (certification / production credentials)",
+      "url": "https://developer.visa.com/pages/going-live",
+      "named_at": "https://developer.visa.com/pages/going-live"
+    },
+    {
+      "name": "Visa Global Registry of Service Providers (public list, JavaScript-rendered)",
+      "url": "https://www.visa.com/splisting/",
+      "named_at": "https://corporate.visa.com/en/resources/security-compliance.html"
+    },
+    {
+      "name": "Global Investigation Management Tool (GIMT) and Compromised Account Management System (CAMS)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/cisp-what-to-do-if-compromised.pdf"
+    },
+    {
+      "name": "Merchant Business News Digest",
+      "url": "",
+      "named_at": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/compelling-evidence-3.0-merchant-readiness-mar2023.pdf"
+    },
+    {
+      "name": "Verifi Order Insight (Visa-owned pre-dispute data sharing into VROL)",
+      "url": "",
+      "named_at": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/compelling-evidence-3.0-merchant-readiness-mar2023.pdf"
+    },
+    {
+      "name": "Visa Acceptance developer sandbox",
+      "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+      "named_at": "https://developer.visaacceptance.com/"
+    }
+  ],
+  "sources_read": [
+    { "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf", "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026, 923 pp.)", "ok": true, "wall": "none" },
+    { "url": "https://developer.visa.com/pages/going-live", "title": "Going Live - Visa Developer", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/support/merchant.html", "title": "Merchant Resource Library - Visa", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/partner-with-us.html", "title": "Partner with us (redirects to info-for-issuers, 404)", "ok": false, "wall": "dead" },
+    { "url": "https://partner.visa.com/", "title": "Visa Partner", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/content/dam/VCOM/global/support-legal/documents/merchants-dispute-management-guidelines.pdf", "title": "Dispute Management Guidelines for Visa Merchants (June 2024, 67 pp.)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/compelling-evidence-3.0-merchant-readiness-mar2023.pdf", "title": "Compelling Evidence 3.0 Merchant Readiness (March 2023)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/content/dam/VCOM/global/support-legal/documents/what-to-do-if-compromised.pdf", "title": "What To Do If Compromised (old path)", "ok": false, "wall": "dead" },
+    { "url": "https://usa.visa.com/dam/VCOM/download/merchants/cisp-what-to-do-if-compromised.pdf", "title": "What To Do If Compromised - Visa Supplemental Requirements v10.0 (25 pp.)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/content/dam/VCOM/global/support-legal/documents/five-important-rules-for-merchants.pdf", "title": "5 Important Rules for Merchants", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/pci-dss-validation-best-practice-review.pdf", "title": "PCI DSS Validation Best Practice Review (Sept 2018)", "ok": true, "wall": "none" },
+    { "url": "https://www.visa.com/en-us/support/visa-rules", "title": "Visa Rules and Policy", "ok": true, "wall": "none" },
+    { "url": "https://www.visa.co.uk/support/consumer/visa-rules.html", "title": "Visa Rules (UK)", "ok": true, "wall": "none" },
+    { "url": "https://corporate.visa.com/en/resources/security-compliance.html", "title": "Security & Compliance - Visa", "ok": true, "wall": "none" },
+    { "url": "https://www.visa.com/splisting/", "title": "Visa Global Registry of Service Providers (JS-rendered; title only)", "ok": true, "wall": "none" },
+    { "url": "https://www.visa.com/splisting/searchGrsp.do", "title": "Visa Global Registry of Service Providers - search (JS-rendered; title only)", "ok": true, "wall": "none" },
+    { "url": "https://corporate.visa.com/content/dam/VCOM/corporate/visa-perspectives/security-and-trust/documents/visa-acquirer-monitoring-program-fact-sheet-2025.pdf", "title": "Visa Acquirer Monitoring Program Overview fact sheet (May 2025)", "ok": true, "wall": "none" },
+    { "url": "https://corporate.visa.com/en/sites/visa-perspectives/security-trust/security-program-takes-aim-payments-fraud.html", "title": "Security program takes aim at payments fraud (Paul Fabara, 15 May 2025)", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html", "title": "Third Party Agent Registration - Visa Partner", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready.html", "title": "Visa Ready - Visa Partner", "ok": true, "wall": "none" },
+    { "url": "https://globalclient.visa.com/rule-inquiry", "title": "Visa Rule inquiry form", "ok": true, "wall": "contact" },
+    { "url": "https://developer.visaacceptance.com/", "title": "Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://docs.stripe.com/disputes/monitoring-programs", "title": "Dispute and fraud card monitoring programs | Stripe", "ok": true, "wall": "none" },
+    { "url": "https://docs.adyen.com/risk-management/scheme-fraud-and-chargeback-monitoring-programs/", "title": "Adyen scheme monitoring programs", "ok": false, "wall": "dead" },
+    { "url": "https://chargebacks911.com/visa-acquirer-monitoring-program/", "title": "Visa Acquirer Monitoring Program (David DeCorte, 2026-05-01)", "ok": true, "wall": "none" },
+    { "url": "https://chargebacks911.com/visa-claims-resolution/", "title": "Visa Claims Resolution - Chargebacks911", "ok": false, "wall": "dead" },
+    { "url": "https://www.digitaltransactions.net/?s=Visa+Acquirer+Monitoring+Program", "title": "Digital Transactions search: VAMP", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/magazine_articles/navigating-the-visa-acquirer-monitoring-program/", "title": "Navigating the Visa Acquirer Monitoring Program (Tim Tynan, 2025-11-01)", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/a-year-into-vamp-visa-issues-new-dispute-resolution-tools/", "title": "A Year into VAMP, Visa Issues New Dispute Resolution Tools (Kevin Woodward, 2026-04-01)", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/what-visas-vamp-means-for-you/", "title": "What Visa's VAMP Means for You (sponsored content, 2025-08-18)", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/?s=Visa+Claims+Resolution", "title": "Digital Transactions search: Visa Claims Resolution", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/how-tweaks-to-visas-chargeback-program-are-expected-to-speed-up-resolutions/", "title": "How Tweaks to Visa's Chargeback Program Are Expected To Speed Up Resolutions (Kevin Woodward, 2018-03-23)", "ok": true, "wall": "none" },
+    { "url": "https://data.sec.gov/submissions/CIK0001403161.json", "title": "SEC EDGAR submissions - Visa Inc. (CIK 1403161)", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm", "title": "Visa Inc. Form 10-K FY2025 (filed 2025-11-06)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/partner-with-us/info-for-partners/third-party-agent-program.html", "title": "Visa TPA programme page (probe)", "ok": false, "wall": "dead" },
+    { "url": "https://usa.visa.com/partner-with-us/info-for-partners/visa-business-news.html", "title": "Visa Business News page (probe)", "ok": false, "wall": "dead" },
+    { "url": "https://usa.visa.com/support/merchant/merchant-business-news-digest.html", "title": "Merchant Business News Digest (probe)", "ok": false, "wall": "dead" },
+    { "url": "https://www.visa.co.uk/about-visa/visa-rules.html", "title": "Visa UK rules page (probe)", "ok": false, "wall": "dead" }
+  ]
+}

@@ -1,0 +1,1670 @@
+{
+  "network": "mastercard",
+  "dimension": "rules",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "rules",
+      "claim": "Mastercard publishes its core rulebooks as freely downloadable PDFs on a public 'Mastercard rules and compliance programs' page: Mastercard Rules, Chargeback Guide (Merchant Edition), Transaction Processing Rules, Security Rules and Procedures (Merchant Edition), Quick Reference Booklet, Mastercard Switch Rules, Chargebacks Made Simple Guide, a DCC guide and subscription-billing guidance.",
+      "quote": "Feel free to download the official Mastercard Rules and other important documents below.",
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-01-03. The legacy mastercard.us rules URL now redirects to this mastercard.com page. Eleven documents are listed."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard warns that the website copies of its rules may lag the official Standards and that the official Standards prevail in any discrepancy.",
+      "quote": "it's possible that they will not always be absolutely current in all regards",
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-01-03. Full sentence continues: in the event of any discrepancy the official rules and standards will apply."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The current public edition of Mastercard Rules is dated 2 June 2026 and runs 503 pages (PDF metadata title 'Mastercard Rules').",
+      "quote": "Publication date 2 June 2026",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20 (1.8 MB). Every page footer reads 'Mastercard Rules • 2 June 2026'. The prior edition, 3 June 2025, was 484 pages and was still served at the legacy mastercard.us URL in a 2026-01-15 capture."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Rules manual states its audience as acquirers, branded processors, issuers, Network Enablement Partners, MPGS resellers and merchants, processors, and Global Vendor Certification Program vendors, i.e. the full partner set.",
+      "quote": "Audience Acquirer, Branded Processor, Issuer, Network Enablement Partner, MPGS Acquirer Reseller, MPGS Merchant, MPGS Non-Acquirer Reseller, Processor, Vendor - Global Vendor Certification Program",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; page 24 'Table 1: Details'. Type is given as 'Product or Service Guide: Legal and compliance standards'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The current public Chargeback Guide Merchant Edition is dated 19 May 2026 and runs 1,582 pages; the prior edition (13 May 2025) was 1,153 pages.",
+      "quote": "Chargeback Guide Merchant Edition • 19 May 2026",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+      "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-05-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-07-24 (5.5 MB). The 13 May 2025 edition was read from a 2025-12-21 capture of the legacy mastercard.us URL."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The current public Transaction Processing Rules edition is dated 9 December 2025 and runs 423 pages, reissued six months after the 10 June 2025 edition (399 pages).",
+      "quote": "Publication date 9 December 2025",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf",
+      "title": "Transaction Processing Rules (9 December 2025)",
+      "publisher": "Mastercard",
+      "published": "2025-12-09",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-07-24. The 10 June 2025 edition carried 'Publication date 10 June 2025' and 399 pages."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The current public Security Rules and Procedures Merchant Edition is dated 4 August 2026 and runs 236 pages (prior edition 11 February 2025, 224 pages).",
+      "quote": "Security Rules and Procedures—Merchant Edition • 4 August 2026",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19. Merchant Edition omits chapters (e.g., Chapter 12 and Appendices A-C are marked 'Omitted'), so the full Customer edition is not public."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard also publishes a 16-page 'Chargebacks Made Simple Guide' (July 2025) as a high-level overview that explicitly is not a replacement for the Chargeback Guide.",
+      "quote": "A High-Level Overview of the Chargeback and Compliance Case Processes JULY 2025",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+      "title": "Chargebacks Made Simple Guide",
+      "publisher": "Mastercard",
+      "published": "2025-07-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20. Cover disclaimer: 'This guide is not a replacement for the suite of manuals, rules, or publications provided by Mastercard.' Also public: Quick Reference Booklet (2 June 2026, 359 pp) and Mastercard Switch Rules (16 December 2025, 114 pp)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's 'Standards' are defined to include not only the manuals but also announcements and bulletins, which is how rule changes are promulgated.",
+      "quote": "including but not limited to any manuals, guides, announcements or bulletins, as may be amended from time to time",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Appendix C definition of 'Standards' (page 498)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Upcoming rule and process changes are published as Announcements in the Technical Resource Center on Mastercard Connect, a login-gated portal, rather than on the public site.",
+      "quote": "Upcoming changes to Mastercard's rules and processes are published as Announcements in the Technical Resource Center on Mastercard Connect",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+      "title": "Chargebacks Made Simple Guide",
+      "publisher": "Mastercard",
+      "published": "2025-07-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; section 1.2. The public PDFs are periodic consolidations of those announcements."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Each rulebook edition opens with a 'Summary of changes' table that maps every change to a numbered announcement with a regional prefix (GLB global, EUR, AP, LAC, MEA, CAN), showing the announcement-driven change process.",
+      "quote": "GLB 13267 Revised Standards for Illegal or Brand Damaging Transactions",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; pages 25-28 list e.g. EUR 13440 (discontinuation of the SEPA Licensing Program), GLB 12892 (new Digital Activity Customer types), GLB 12564 (Specialty Merchant Registration Program), GLB 12641 (BIN Sponsor AML/sanctions oversight)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercom API change notices on the public developer portal are dated by month, give separate MTF (test) and Production effective dates, and point to the numbered GLB announcement held on the gated Technical Resource Center.",
+      "quote": "For further information including effective dates, refer to GLB 14458.1 Mastercom API Update for credPostedAsPurchase Amount Processing",
+      "url": "https://developer.mastercard.com/mastercom/documentation/announcements/",
+      "title": "Mastercom Announcements",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown (index.md). Entries run from October 2024 to September 2026; e.g. September 2026 notice sets MTF 05 March 2027 and Production 14 March 2027."
+    },
+    {
+      "dimension": "rules",
+      "claim": "For urgent partner inquiries Mastercard directs customers to Customer Technical Services by phone, and for non-urgent ones to a Support Case Management tool reached through the Technical Resource Center.",
+      "quote": "If your inquiry is not urgent, select Create a case on the Technical Resource Center to create a case in Support Case Management.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; page 24 'Questions'. The Notices page adds that document standards are kept in the 'Rules collection of the References section' of the TRC."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's Cross-Border Services product publishes numbered bulletins roughly monthly on the public developer portal, showing a product-level bulletin cadence separate from the rulebooks.",
+      "quote": "The February 2025 bulletin No.3 contains information about:",
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/bulletin-announcements/",
+      "title": "Bulletins and Release Announcements (Cross-Border Services)",
+      "publisher": "Mastercard Developers",
+      "published": "2025-02-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown; table lists dated bulletins from 13 March 2020 through 18 February 2025, often two or three per month."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard asserts the sole right to interpret and enforce the Rules and other Standards, and regional modifications take precedence over global rules.",
+      "quote": "The Rules set forth in this manual are Standards and Mastercard has the sole right to interpret and enforce the Rules and other Standards.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; page 31 'Variations and Additions to the Rules for a Geographic Area'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Noncompliance not covered by a specific programme falls into three categories: A (payment system integrity), B (visible to customers) and C (efficiency and operational performance), each with its own assessment schedule.",
+      "quote": "Every instance of noncompliance with a Standard not addressed by such a program falls into at least one of the following three compliance categories.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 2.1.3, page 59. Categories B and C allow notice and a cure period before monetary assessments."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Category A per-violation assessments escalate from up to USD 25,000 (first) to USD 100,000 per violation (fourth and subsequent within 12 months); Category B runs 20,000/30,000/60,000/100,000 and Category C 15,000/25,000/50,000/75,000.",
+      "quote": "Up to USD 25,000 for the first violation Up to USD 50,000 for the second violation within 12 months",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 2.1.4, pages 60-62. Also per-occurrence ladders (Category A up to USD 2,500 per occurrence for the first 30 days rising to USD 20,000) and per-card assessments (A: USD 0.50, B: USD 0.30, C: USD 0.15 per Card, minimum USD 1,000 per month per Portfolio)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Violations are tracked on a rolling 12-month basis and all periods are counted in calendar days.",
+      "quote": "In the above table, all days refer to calendar days and violations of a Standard are tracked on a rolling 12-month basis.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; page 62. Mastercard 'may deviate from this schedule at any time'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A customer may ask the Chief Franchise Officer to review a noncompliance assessment by emailing franchise.appeals@mastercard.com within 30 calendar days; Mastercard may charge USD 500 to consider the request, and the resulting recommendation is final.",
+      "quote": "to franchise.appeals@mastercard.com no later than 30 calendar days after the date of the disputed assessment",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rules 2.1.6-2.1.7, page 63. The request must come from the principal contact listed in My Company Manager on Mastercard Connect."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Variances from a Standard can only be requested by a Customer or Network Enablement Partner through the Variance Manager tool on Mastercard Connect.",
+      "quote": "The request must be submitted to the Corporation using the Variance Manager tool on Mastercard Connect®, including a statement of the reason for the request.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 2.1.1, page 58."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers are made responsible to Mastercard and to other customers for their merchants' and sponsored merchants' compliance, and must not support 'load balancing' across merchant IDs to evade monitoring thresholds.",
+      "quote": "The Acquirer is responsible for ensuring that each of its Merchants and Sponsored Merchants complies with the Standards",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 5.2, pages 109-110. Merchant noncompliance may result in chargebacks, an assessment to the Acquirer and/or other disciplinary action (5.2.1)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Service providers (TPPs, payment facilitators, DSEs, token service providers, 3-DS providers etc.) must be registered through My Company Manager on Mastercard Connect and SDP-validated before use; failure to register carries assessments of up to USD 25,000 per 30-day period.",
+      "quote": "subject to noncompliance assessments of up to USD 25,000 for each 30-day period of noncompliance",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 7.10.6, page 190. Rule 7.10 (page 186) requires registration via 'the My Company Manager application on Mastercard Connect®' and PCI validation through pcireports@mastercard.com; an initial and annual renewal fee is debited via MCBS."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Site Data Protection (SDP) Program is Mastercard's named PCI compliance programme, defined as rules, guidelines, best practices and approved validation tools to drive compliance with the PCI Security Standards.",
+      "quote": "consists of Rules, guidelines, best practices, and approved compliance validation tools to foster broad compliance with the PCI Security Standards",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; section 2.2, page 22. Applies to Mastercard and Maestro transactions."
+    },
+    {
+      "dimension": "rules",
+      "claim": "PCI DSS compliance is required of all issuers, acquirers, merchants and service providers, but only Level 1 and Level 2 merchants and all service providers must validate to Mastercard; issuers and acquirers may comply with ISO/IEC 27001 instead of PCI DSS.",
+      "quote": "Only Level 1 and Level 2 Merchants and all Service Providers must validate their compliance to Mastercard",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; page 23: 'Issuers and Acquirers may alternatively comply with ISO/IEC 27001 instead of the PCI DSS.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Level 1 merchants are those with more than six million combined Mastercard and Maestro transactions a year, any merchant meeting Visa's Level 1 criteria, or any merchant Mastercard designates (including after a confirmed ADC event); Level 2 is one to six million, Level 3 is 20,000 to one million e-commerce transactions.",
+      "quote": "Any Merchant having greater than six million total combined Mastercard and Maestro Transactions annually",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; section 2.2.2, pages 25-26. Level 1 requires an annual ROC by a QSA or ISA; Level 2 an annual SAQ (with QSA/ISA involvement for SAQ A, A-EP or D)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "SDP noncompliance assessments for Level 1/2 merchants and Level 1/2 service providers escalate from up to USD 25,000 to USD 200,000 per calendar year of violations; Level 3 merchants from USD 10,000 to USD 80,000; noncompliance can also mean deregistration or delisting from the SDP Compliant Registered Service Provider List.",
+      "quote": "Level 1 and Level 2 Merchants Up to USD 25,000 for the first violation Up to USD 50,000 for the second violation",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; Table 2.2, page 32. Late semiannual SDP Acquirer Submission and Compliance Status Forms may draw Category A assessments under Rule 2.1.4."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers must report Level 1 and Level 2 merchant PCI status to Mastercard semiannually (periods ending 31 March and 30 September) by emailing the SDP Acquirer Submission and Compliance Status Form to sdp@mastercard.com.",
+      "quote": "for each Level 1 and Level 2 Merchant semiannually by email message to sdp@mastercard.com",
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (11 February 2025)",
+      "publisher": "Mastercard",
+      "published": "2025-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2025-07-10 of the legacy mastercard.us URL; section 2.2.1, pages 22-23. Predates the 4 August 2026 edition."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard operates a Cybersecurity Incentive Program (CSIP) with a PCI DSS Compliance Validation Exemption Program for merchants that, for example, process 75 percent of volume through EMV hybrid terminals, P2PE, or tokenised credentials; acquirers must keep merchant eligibility certifications for five years.",
+      "quote": "An Acquirer must retain all Merchant certifications of eligibility for the Exemption Program for a minimum of five (5) years.",
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (11 February 2025)",
+      "publisher": "Mastercard",
+      "published": "2025-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2025-07-10; section 2.2.4, pages 26-28. Predates the 4 August 2026 edition, whose table of contents retains section 2.2.4 CSIP."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A customer must notify Mastercard within 24 hours of becoming aware of an Account Data Compromise (ADC) event or potential event, preserve evidence within 24 hours, and deliver affected PANs within 72 hours.",
+      "quote": "A Customer must notify Mastercard within 24 hours of becoming aware of an ADC Event or Potential ADC Event",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; section 10.3.1, page 134: 'As soon as possible and at the latest within seventy-two (72) hours, provide to Mastercard... all primary account numbers'. Procedures are 'as set forth in the Account Data Compromise Program User Guide' (gated)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "ADC procedural noncompliance can be assessed at up to USD 25,000 per day and can disqualify the customer from ADC Operational Reimbursement; financial-responsibility determinations may be appealed within 30 days for a non-refundable USD 5,000 fee.",
+      "quote": "Mastercard may impose an assessment of up to USD 25,000 a day for each day that the Customer is noncompliant",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; sections 10.7-10.8, pages 144-145. 'The Mastercard decision with respect to an appeal is final and there are no additional internal appeal rights.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Security and Safety Net contacts registered in My Company Manager must respond to critical messages from Mastercard or another customer within 24 hours, seven days a week.",
+      "quote": "must respond to a critical message sent by another Customer within 24 hours, seven days a week",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; section 1.3, pages 12-13. Critical messages include confirmed fraud attacks, card testing and identified vulnerabilities."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's public SDP page offers downloadable partner artefacts: the SDP Acquirer Submission and Compliance Status Form, PCI DSS and PCI 3DS action plans for service providers, a Terminal Servicer QIR validation form, and the SDP Compliant Registered Service Provider List.",
+      "quote": "SDP Acquirer Submission and Compliance Status Form",
+      "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/site-data-protection-pci.html",
+      "title": "Mastercard Site Data Protection (SDP) Program & PCI",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2025-12-01. Page also names a 'Mastercard PCI 360 Education Program' and the pcireports@mastercard.com mailbox."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Brand standards are a partner obligation: the Rules require the Marks to be displayed per the standards posted on the Mastercard Brand Center (brand.mastercard.com), whose public home page lists dated updates to branding requirements.",
+      "quote": "The Marks must be displayed as set forth in the Standards, including those posted on the Mastercard Brand Center.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Rule 4.4, display of the Marks. The 3 June 2025 edition of the same rule read '...posted on the Mastercard Brand Center website at brand.mastercard.com'; the 2 June 2026 edition drops the URL. The Brand Center is public but brand.mastercard.com returned 403 to curl."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's public rules page names four 'Global Compliance Programs' explained by video modules: Business Risk Assessment and Mitigation (BRAM), Excessive Chargeback Program (ECP), Excessive Fraud Merchant (EFM) Program and Questionable Merchant Audit Program (QMAP).",
+      "quote": "The following modules help explain our Global Compliance Programs and how they help us achieve this goal:",
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-01-03. The module links are YouTube videos."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Security Rules define the Excessive Chargeback Program (ECP) as acquirer-level monitoring of merchant chargeback performance, but the actual ECM/HECM thresholds and assessments are held in the gated Data Integrity Monitoring Program manual and the Pricing and Billing Resource Center on Mastercard Connect.",
+      "quote": "Refer to the Acquirer Chargeback Monitoring Program chapter of the Data Integrity Monitoring Program manual and the Pricing and Billing Resource Center on Mastercard Connect®",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; section 8.3, page 87. ECM and HECM are defined only by reference to 'Edit 2' of that manual."
+    },
+    {
+      "dimension": "rules",
+      "claim": "ECP basis points are computed as chargebacks received in a calendar month divided by the merchant's Mastercard transactions in the preceding month, times 10,000; after six months in ECM/HECM status Mastercard may require a Franchise Management Program Customer Risk Review at the acquirer's expense.",
+      "quote": "chargebacks received by the Acquirer for a Merchant in a calendar month divided by the number of Mastercard Transactions in the preceding month",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; sections 8.3.1-8.3.4, pages 88-89. Issuer recovery fees are remitted through MCBS with a USD 20 minimum."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A practitioner source states the public-record ECP thresholds: Excessive Chargeback Merchant at 100+ monthly chargebacks and a ratio above 1.5% for two consecutive months, High Excessive Chargeback Merchant at 300+ and 3%, with escalating monthly fines and acquirer consequences after 6 and 12 months.",
+      "quote": "A merchant is categorized as an ECM when they receive 100 or more monthly chargebacks and their ratio exceeds 1.5% for two consecutive months.",
+      "url": "https://www.chargebackgurus.com/blog/mastercard-excessive-chargeback-program",
+      "title": "Understanding the Mastercard Excessive Chargeback Program",
+      "publisher": "Chargeback Gurus",
+      "published": "2025-10-21",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "No named author on page. Thresholds are not stated in Mastercard's public Security Rules (deferred to the gated Data Integrity Monitoring Program manual)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Beyond ECP the Security Rules codify a family of named merchant-risk programmes: Global Merchant Audit Program, Questionable Merchant Audit Program, Coercion Program, BRAM, Merchant Monitoring Program, the Specialty Merchant Registration Program, the MATCH Pro system and the Franchise Management Program.",
+      "quote": "The Questionable Merchant Audit Program (QMAP) establishes minimum standards of acceptable Merchant behavior",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-19; Chapters 8 (8.2-8.9), 9, 11 and 13 per the table of contents; QMAP text at page 89. Questionable Merchants are identified 'in a Mastercard Announcement available on the Technical Resource Center on Mastercard Connect'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers must register high-risk-MCC and previously ECP-reported sponsored merchants in a registration system on Mastercard Connect before accepting their transactions (named 'Mastercard Registration Program (MRP)' in the 2025 Rules; the 2026 Rules and GLB 12564 call it the Specialty Merchant Registration Program).",
+      "quote": "must register such Sponsored Merchant in the Mastercard Registration Program (MRP) system using Mastercard Connect®",
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+      "title": "Mastercard Rules (3 June 2025)",
+      "publisher": "Mastercard",
+      "published": "2025-06-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-01-15 of the legacy mastercard.us URL; Rule 7.6.5 area, page 169. Predates the 2 June 2026 edition, which no longer uses the '(MRP) system' wording."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercom is the mandatory dispute channel: the Transaction Processing Rules state that chargeback and compliance processing requires access to the Mastercom application on Mastercard Connect, and disputes must be raised in good faith after reviewing the Standards.",
+      "quote": "Chargeback and compliance processing requires access to the Mastercom application on Mastercard Connect.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf",
+      "title": "Transaction Processing Rules (9 December 2025)",
+      "publisher": "Mastercard",
+      "published": "2025-12-09",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-07-24; Rule 2.18.2 'Compliance with Dispute Procedures', page 65. The Chargeback Guide (19 May 2026, page 33) repeats the requirement and refers users to the gated Mastercom User Guide."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's dispute framework has two tracks: chargeback cycles (first chargeback, second presentment, pre-arbitration/arbitration case filing, where Mastercard rules) and compliance cases for rule violations where no chargeback right exists.",
+      "quote": "A compliance case may be filed by either an issuer or an acquirer when: • A chargeback doesn't exist to address the dispute",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+      "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-05-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-07-24; Chapter 1, pages 34-37. Third-party-processed EEA/UK/Gibraltar disputes are handled only if the issuer opted into 'Mastercom Claims Manager'. Hardship variances lift GCMS time-frame edits after natural disasters."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercom manages every dispute event under a single 'claim' whether or not it becomes a network-level dispute transaction, and the API supports Collaboration, chargebacks, second presentments, pre-arbitration/arbitration, pre-compliance/compliance cases and fee collections.",
+      "quote": "Dispute events in Mastercom are managed as \"claims\", regardless of whether they advance to network-level dispute transactions.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/",
+      "title": "Mastercom",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown (index.md). Single Message System disputes are handled by the separate Mastercom Extended API."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercom Collaboration is a pre-chargeback step: the system alerts acquirers to pending disputes (or an issuer initiates via Ethoca) so merchants can resolve before a first chargeback is processed; acquirer inclusion is governed by announcements AN 4655 and AN 4720 held on the gated TRC.",
+      "quote": "The Collaboration process attempts to resolve disputes prior to processing of first chargebacks by alerting acquirers to pending disputes using Collaboration requests.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/",
+      "title": "Dispute Resolution Cycle (Mastercom)",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown. U.S. healthcare-related claims are the stated exception to system-generated Collaboration requests."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A trade blog reports that acquirers were brought into the Mastercom Collaboration process in July 2022 and that a merchant reached through its acquirer has 72 hours to respond to a Collaboration inquiry.",
+      "quote": "In July 2022, Mastercard began involving acquiring banks in the Mastercom Collaboration process.",
+      "url": "https://www.chargebackgurus.com/blog/mastercom-collaboration",
+      "title": "Avoiding Chargebacks with Mastercom Collaboration",
+      "publisher": "Chargeback Gurus",
+      "published": "2022-11-22",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "No named author. Mastercard's own docs cite AN 4655 for acquirer inclusion but the announcement date is not visible publicly."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Rules relieve issuers of the obligation to process a chargeback when the cardholder has already been reimbursed through Mastercom Collaboration, Ethoca or an equivalent procedure, embedding the pre-dispute tools in the rulebook.",
+      "quote": "The Cardholder is reimbursed for the disputed amount either through an Issuer statement credit or through successful Mastercom Collaboration, Ethoca, or equivalent resolution procedure",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; Chapter 6 cardholder right of dispute, page 139."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercom Extended is the next-generation dispute API and, once it covers the full lifecycle, will replace the existing Mastercom API, a migration partners will eventually have to make.",
+      "quote": "As Mastercom Extended expands to cover the full lifecycle, it will replace the existing Mastercom API.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt (product catalogue)",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Product overview text for Mastercom Extended in the developer portal's machine-readable catalogue; the Mastercom support FAQ says the Extended API currently serves Single Message System disputes."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2024): Mastercom API versions 2, 3, 4 and 5 were decommissioned in October 2024 and issuers and acquirers had to move to version 6 to keep processing disputes.",
+      "quote": "Mastercom decommissioned versions 2, 3, 4 and 5 of the Mastercom API in 2024. Issuers and acquirers must update their systems to version 6",
+      "url": "https://developer.mastercard.com/mastercom/documentation/change-logs/",
+      "title": "Release History (Mastercom)",
+      "publisher": "Mastercard Developers",
+      "published": "2024-10-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown. The Announcements page dates the decommissioning notice 'October 2024'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2025): Mastercom and Mastercom Extended API clients were required to switch from Entrust to DigiCert CA certificates before 24 March 2025 in production.",
+      "quote": "You are required to switch to DigiCert CA before March 24, 2025 in production",
+      "url": "https://developer.mastercard.com/mastercom-extended/documentation/announcements/",
+      "title": "Announcements (Mastercom Extended)",
+      "publisher": "Mastercard Developers",
+      "published": "2025-02-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown; dated 'February 2025'. Same notice appears on the Mastercom announcements page."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2027): from 14 March 2027 in production Mastercard will automatically double the chargeback amount when credPostedAsPurchase=true, and issuers and acquirers coded to the current specification must change their integrations.",
+      "quote": "When `credPostedAsPurchase=true`, Mastercard automatically doubles the amount of the chargeback.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/announcements/",
+      "title": "Mastercom Announcements",
+      "publisher": "Mastercard Developers",
+      "published": "2026-09-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dated 'September 2026'; MTF 05 March 2027, Production 14 March 2027; governed by GLB 14458.1 on the TRC."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Ethoca Consumer Clarity call-centre data is being integrated into Mastercom claims for Dual Message System issuers during 2026 (region-specific availability 13 July to 1 November 2026, excluding India, Indonesia, Nepal, Jordan and Tunisia).",
+      "quote": "provide Dual Message System issuers with enriched transaction data from Ethoca Consumer Clarity Call Center at the time of claim creation",
+      "url": "https://developer.mastercard.com/mastercom/documentation/announcements/",
+      "title": "Mastercom Announcements",
+      "publisher": "Mastercard Developers",
+      "published": "2026-04-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dated 'April 2026'; Release History gives availability 'July 13, 2026 to November 1, 2026' under GLB 12896.4."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Production access to the Mastercom API is gated on a signed Mastercard License Agreement (5-7 business day SLA), MTF validation by the Customer Implementation Service team, BIN/ARID entitlement in Access Manager within Mastercard Connect, and a 3-business-day key promotion SLA.",
+      "quote": "A user must have the correct Mastercom API BIN or ARID access in Access Manager within Mastercard Connect",
+      "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/",
+      "title": "Onboarding Checklist (Mastercom)",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown. Sandbox is open on self-service sign-up; 'Service providers are provisioned by acquirers.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Operational obligations for Mastercom integrators include rotating API keys, which expire every 13 months, and a throttling limit of 150 requests per second.",
+      "quote": "Mastercom API keys expire every 13 months, and expired keys can cause unexpected failures if they are not rotated in time.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/",
+      "title": "Support (Mastercom)",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched as markdown; FAQ also states 'all of our APIs are PCI compliant' and 'The throttling policy is as follows: 150 requests per second.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2024-2026): the First-Party Trust programme rejects No Cardholder Authorization chargebacks (reason code 5002 'First-Party Trust Reject') for U.S. domestic transactions effective 27 October 2024, expanding to Canada and Latin America/Caribbean from 21 January 2026 and to Asia Pacific (excluding Mainland China domestic, India and Nepal) from 19 April 2026.",
+      "quote": "Effective 27 October 2024: Both of the following occurred: The card was issued under a BIN or BIN range assigned to the United States.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+      "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+      "publisher": "Mastercard",
+      "published": "2026-05-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-07-24; 'First-Party Trust' section, pages 564-565. Issuers can only re-chargeback with a notarised First-Party Trust Cardholder Exception Affidavit (Form 0830) or an attestation from the Chargeback contact in My Company Manager."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Trade press reported in March 2024 that Mastercard's First-Party Trust programme, first outlined in October 2023, would launch in the United States first during 2024, with Forter and Kount among early participants and participation optional for merchants.",
+      "quote": "Announced Monday, the Mastercard initiative is a new push for a program the network originally outlined in October.",
+      "url": "https://www.digitaltransactions.net/first-party-fraud-continues-to-bedevil-merchants-mastercard-says/",
+      "title": "First-Party Fraud Continues to Bedevil Merchants, Mastercard Says",
+      "publisher": "Digital Transactions",
+      "published": "2024-03-19",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Author Kevin Woodward. Predates the 27 October 2024 effective date shown in the Chargeback Guide."
+    },
+    {
+      "dimension": "rules",
+      "claim": "In its FY2025 10-K Mastercard describes its 'franchise' as defining the technical, operational and financial standards all network participants must uphold, monitoring adherence, and operating a framework to resolve disputes between participants.",
+      "quote": "Operating Standards. We define the technical, operational and financial standards that all network participants are required to uphold",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated (SEC EDGAR)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filing accession 0001141391-26-000013. Same passage: 'Issue Resolution. We operate a framework to address disputes between our network participants'. Text was read from a copy downloaded to the shared scratchpad; SEC.gov blocked this session's direct requests as an undeclared automated tool."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The 10-K's risk factors state Mastercard routinely encounters account data compromise events at merchants and third-party processors, the operational reality behind its ADC rules.",
+      "quote": "we also routinely encounter account data compromise events involving merchants and third-party payment processors that process, store or transmit payment transaction data",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated (SEC EDGAR)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1A Risk Factors."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard Connect, the portal on which Mastercom, the Technical Resource Center, My Company Manager, Variance Manager and other rule-related tools live, presents only a sign-in page to the public.",
+      "quote": "Mastercard Connect",
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect (sign-in)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Root URL 302-redirects to /-/sign-in?referral_path=%2F; the only visible text is the page title. trc-techresource.mastercard.com serves a JavaScript shell reading 'Loading application...'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard Engage, the partner programme referenced from the rules page navigation, is login-gated on the developer portal and returns an authorisation error to unauthenticated requests.",
+      "quote": "Session expired.",
+      "url": "https://developer.mastercard.com/engage/",
+      "title": "Mastercard Engage (login redirect)",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "HTTP 401 with JSON {\"code\":\"DP10005\",\"message\":\"Session expired.\"} after redirect to /devzone/api/user/login?...referral_path=%2Fengage%2F."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Rules training is routed to Mastercard Academy, which the rules page links as the venue for training sessions; the Academy site itself is a JavaScript-only application unreadable to non-browser clients.",
+      "quote": "Explore training sessions via the Mastercard Academy.",
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-01-03. academy.mastercard.com returned 'You need to enable javascript to view this website.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard's Dispute Resolution Management (DRM) team offers training for issuers, acquirers and processors on the chargeback and compliance processes.",
+      "quote": "The Dispute Resolution Management (DRM) team offers convenient, flexible training options for issuers, acquirers, and processors.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+      "title": "Chargebacks Made Simple Guide",
+      "publisher": "Mastercard",
+      "published": "2025-07-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Retrieved from the Internet Archive Wayback Machine capture because mastercard.com/mastercard.us return HTTP 403 to non-browser clients; capture 2026-09-20; section 1.3."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A processor's public release guide states that most network operating-rule changes, Mastercard's included, arrive in two release periods a year, Spring and Fall, and republishes each Mastercard item with its effective date.",
+      "quote": "Most of the changes come during two release periods – Spring and Fall.",
+      "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2026",
+      "title": "April 2026 Release Guide (Spring 2026 Updates)",
+      "publisher": "Braintree, a PayPal service",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Page states 'The information in this document is accurate as of March 2026'. Its Mastercard table lists: Not Reversed or Cleared Preauthorization TPE criteria 4/1/26; Digital Enablement Fee US 4/6/26; Specialty Merchant Registration Program fees (varies); TPE pricing EU 10/1/26; Authorization Acquirer Exemption Indicator Fee EU 10/12/26."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (1 April 2026): under revised Not Reversed or Cleared Preauthorization TPE criteria, acquirers must submit a full reversal within 30 days of the original authorization for any preauthorization that is never cleared.",
+      "quote": "for preauthorizations where no clearing message is submitted, acquirers must ensure a full reversal is submitted within 30 days from original auth date",
+      "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2026",
+      "title": "April 2026 Release Guide (Spring 2026 Updates)",
+      "publisher": "Braintree, a PayPal service",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Regions AP/CAN/LAC/MEA/US. Same page: 'any preauthorization request that is subsequently followed by one or more incremental preauthorization will be excluded from the Not Reversed or Cleared Preauthorization TPE program.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "An issuer processor (SoFi Tech Solutions, formerly Galileo) states that networks communicate mandates through technical newsletters four times a year, and it republishes every Mastercard bulletin it must support by GLB number with effective date.",
+      "quote": "Card networks communicate these mandates through technical newsletters four times a year.",
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction",
+      "publisher": "SoFi Tech Solutions (formerly Galileo Financial Technologies)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "docs.galileo-ft.com/pro/docs/card-network-mandates now 301-redirects here. Page groups Mastercard bulletins by year and half (H1/H2) with 'Impact to SoFi Tech Solutions' for each, e.g. GLB 8701.1, GLB 11738.1, GLB 12516.1, GLB 13264.2, CAN/EUR/MEA/US 13437.2."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (17 October 2025): Mastercard bulletin GLB 8701.1 introduced Transaction Link Identifier (TLID) subelements and subfields for lifecycle linking; a later revision, GLB 8701.3, extends TLID effective 2 June 2026.",
+      "quote": "Effective 17 Oct 2025, Mastercard introduced subelements and subfields to support multiuse transaction identification data",
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction",
+      "publisher": "SoFi Tech Solutions (formerly Galileo Financial Technologies)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'GLB 8701.3 — Enhancing Mastercard Transaction Link Identifier Effective June 2, 2026'. The TLID field 'contains DE105SF1'. Corroborated by MAG Insights (2025-04-15): 'Starting October 17, 2025, this TLID needs to stick with the transaction all the way through its lifecycle.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2 June 2026): GLB 11738.1 introduced near-real-time age verification, requiring acquirers to carry merchant age-threshold requests and issuers to return results.",
+      "quote": "GLB 11738.1 — Introducing age verification capability Effective June 2, 2026, Mastercard is introducing near real-time age verification",
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction",
+      "publisher": "SoFi Tech Solutions (formerly Galileo Financial Technologies)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Rivero AG (2026-08-13) describes the same change as part of 'Mastercard's 2nd June network processing release' and says 'Mastercard mandates testing for this release'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (2 June 2026): GLB 12516.1 has Mastercard populate a Transaction Type Identifier on the acquirer's behalf for transactions from merchants registered in the Specialty Merchant Registration Program, exposing high-risk registration status to issuers.",
+      "quote": "Effective June 2, 2026, Mastercard is populating a new Transaction Type Identifier (TTI) value on behalf of an acquirer in authorization request and clearing messages",
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction",
+      "publisher": "SoFi Tech Solutions (formerly Galileo Financial Technologies)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: the identifier 'signifies that the acquirer and, if applicable, the payment facilitator sponsoring the specialty merchant are held to high standards and controls'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (23 October 2026): bulletin CAN/EUR/MEA/US 13437.2 introduces a card-level Spend Auth Score (001-100) in authorization; issuers are only required to be able to receive it.",
+      "quote": "The mandate requires only that issuers be able to receive the score",
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction",
+      "publisher": "SoFi Tech Solutions (formerly Galileo Financial Technologies)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page lists other 23 October 2026 items: GLB 13261.2 (AAV leading indicators kD/kV), GLB 13264.2 (P2P TTIs C09/F09), GLB 13386.2 (MDES digital payment data)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard network releases are named by year and quarter and land in April and October: an issuer processor reports certification against Release 26.Q2 (effective 17 April 2026) and Release 26.Q4 (effective 23 October 2026).",
+      "quote": "The Marqeta platform is certified with the April 2026 Mastercard Release 26.Q2, effective 17 April 2026.",
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+      "title": "Card Network Certifications 2026",
+      "publisher": "Marqeta",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'Marqeta is certified with the October 2026 Mastercard Release 26.Q4, effective 23 October 2026.' Visa's parallel April 2026 VisaNet Business Enhancements are also dated 17 April 2026."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (17 April 2026): GLB 12192.1 adds Transaction Type Identifier P76 for fiat-backed stablecoins and CBDCs alongside P70 for floating cryptocurrencies, so processors must distinguish crypto purchase types.",
+      "quote": "Effective 17 April 2026, Mastercard is enhancing indicators to distinguish between different types of cryptocurrency used for purchases.",
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+      "title": "Card Network Certifications 2026",
+      "publisher": "Marqeta",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Marqeta maps P76 'to the existing CRYPTOCURRENCY_PURCHASE special condition indicator'. Mastercard bulletin AP/LAC/MEA/US 12568.1 uses the same TTIs (P70/P76 crypto, P71 high-risk securities, P72 other specialty) to bill Specialty Merchant fees."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Rules changes ship as a numbered Global Operations Bulletin paired with a 'System Release' technical annex (e.g. the 26.Q2 Combined Dual and Single Message Annex) that issuers and acquirers must test against.",
+      "quote": "refer to Mastercard Global Operations Bulletin 11738.1 and the System Release 26.Q2 Combined Dual and Single Message Annex",
+      "url": "https://rivero.tech/blog/mastercard-age-verification-mandate-live-issuers-acquirers",
+      "title": "Mastercard's age verification mandate: What card issuers and acquirers must do",
+      "publisher": "Rivero AG",
+      "published": "2026-08-13",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "No individual byline (Rivero AG, Zurich, a scheme-compliance vendor). Also: 'the QA team must utilise the System Release 26.Q2 v1 Combined Dual and Single Message Annex.'"
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (17 June 2025): Mastercard stopped accepting 'undefined' authorizations; every authorization must be flagged as a preauthorization or a final authorization, with a renamed processing-integrity fee applied to approved undefined authorizations from 1 July 2025.",
+      "quote": "you'll no longer be able to submit transactions without clearly identifying them as either a pre-authorization or a final authorization",
+      "url": "https://www.merchantadvisorygroup.org/news/mag-insights/article/2025/04/15/everything-you-need-to-know--brand-release-updates",
+      "title": "Everything You Need to Know: Brand Release Updates",
+      "publisher": "Merchant Advisory Group (MAG Insights)",
+      "published": "2025-04-15",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Authors Joe Vasterling and Monica Gullickson (Best Buy). Same article: 'Then, on July 1, 2025, Mastercard will: Rename and update the PIF Fee ... Increase this fee every January for the next two years.' Opens with 'like clockwork—updates from the payment card networks' tied to April 11, 2025 effective dates."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard bulletin AP/LAC/MEA/US 12568.1 (published 28 October 2025) restructures Specialty Merchant Registration Program pricing with staggered effective dates of 1 May 2026, 3 June 2026 and first billing 14 June 2026.",
+      "quote": "Published: 28 October 2025 Effective: 1 May 2026 3 June 2026 14 June 2026",
+      "url": "https://paymentcloudinc.com/blog/wp-content/uploads/2026/05/mastercard-high-risk-registration-2026.pdf",
+      "title": "AP/LAC/MEA/US 12568.1 New and Updated Specialty Merchant Registration Program Fees for the United States, Middle East/Africa Regions, and Select Countries in the Asia/Pacific and Latin America and the Caribbean Regions",
+      "publisher": "Mastercard (bulletin copy hosted by PaymentCloud)",
+      "published": "2025-10-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Third-party-hosted copy of a Mastercard Connect bulletin (PDF metadata title matches; '© 2025 Mastercard. Proprietary.'); authenticity cannot be checked against the portal. Header: Type Bulletin announcement; Category Pricing/Fees; Audience Acquirer, Processor; Action indicator Financial. Billing table: Specialty Merchant Registration Program SC USD 1,000 annual per merchant registration; Specialty Merchant Transaction Fee 0.02; Braintree's release guide lists the same fees with CA 6/1/26, EU 10/1/26, JP 1/1/29."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquiring for specialty (high-risk) merchants requires a Mastercard supplemental licence: new acquirers must file the High-Risk License Addendum (Form 637) and be approved, and a USD 50,000 annual High-Risk Acquirer License Fee applies from 1 May 2026.",
+      "quote": "New acquirers that would like to acquire and register specialty merchants must submit the High-Risk License Addendum (Form 637) and be approved by Mastercard",
+      "url": "https://paymentcloudinc.com/blog/wp-content/uploads/2026/05/mastercard-high-risk-registration-2026.pdf",
+      "title": "AP/LAC/MEA/US 12568.1 New and Updated Specialty Merchant Registration Program Fees for the United States, Middle East/Africa Regions, and Select Countries in the Asia/Pacific and Latin America and the Caribbean Regions",
+      "publisher": "Mastercard (bulletin copy hosted by PaymentCloud)",
+      "published": "2025-10-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Billing table row: 'High-Risk Acquirer License Fee MA 50,000 Annual' (billing event 2MA1002). Existing specialty acquirers are granted the supplemental licence automatically but still billed; acquirers that opt out 'must unregister and terminate their relationships with all specialty merchants'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mastercard announcements carry a structured header (Type, Category, Audience, Region, Brand, Action Indicator, Published, Effective) plus a version history, with 'Brand mandate' as an action indicator; AN 6977 (11 October 2022) is a publicly mirrored example.",
+      "quote": "Type: Bulletin announcement Category: Operations Rules/Standards Audience: Acquirer Merchant Processor Network enablement partner Region: Global Brand: Mastercard® Action Indicator: Brand mandate",
+      "url": "https://raisely-images.imgix.net/www/uploads/m-an-6977-en-us-pdf-e986c1.pdf",
+      "title": "AN 6977 Revised Standards for Merchants Utilizing a Subscription/Recurring Payments Model or Negative Option Billing Model",
+      "publisher": "Mastercard (bulletin copy hosted on raisely-images.imgix.net)",
+      "published": "2022-10-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Predates the 24-month window; included for announcement format. Third-party-hosted copy; authenticity not checkable against Mastercard Connect. Body ties programme identification to sanctions: a merchant flagged four-plus months in the ACMP that has not implemented the receipt requirement 'may be subject to Category A noncompliance assessments each month, which will be in addition to the assessments applicable under the ACMP'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (1 April 2027): per practitioner reporting of bulletin GLB 14127.1 (published 28 July 2026 on Mastercard Connect), the Acquirer Chargeback Monitoring Program is replaced by a Global Merchant Audit Program that scores acquirers as well as merchants on a combined fraud-plus-chargeback ratio.",
+      "quote": "Mastercard is retiring the Acquirer Chargeback Monitoring Program and replacing it with a single framework: the Global Merchant Audit Program, or GMAP.",
+      "url": "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/",
+      "title": "Mastercard GMAP Explained: What Acquirers Need to Know Before April 2027",
+      "publisher": "SLYCE360",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "No byline or dateline; text references the 28 July 2026 bulletin. Bulletin title quoted as 'Revised Standards for the Acquirer Chargeback Monitoring Program (ACMP), the Global Merchant Audit Program (GMAP), and the Questionable Merchant Audit Program (QMAP)'. New categories: High Dispute Merchant (HDM), Excessive Dispute Merchant (EDM), High Dispute Acquirer (HDA), Excessive Dispute Acquirer (EDA); ratio '(FLD fraud reports + non-fraud chargebacks) ÷ prior month's sales'. Site's own sourcing note says figures are 'corroborated across multiple independent payments-compliance sources' and the bulletin 'is not publicly posted'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Practitioner source confirms Mastercard's rule-change bulletins are distributed only to member institutions through Mastercard Connect and are not published on the open web, which is why programme changes such as GMAP have no public press release.",
+      "quote": "network bulletins go straight to the member institutions they govern, not the open web",
+      "url": "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/",
+      "title": "Mastercard GMAP Explained: What Acquirers Need to Know Before April 2027",
+      "publisher": "SLYCE360",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Consistent with Mastercard's own Chargebacks Made Simple Guide, which locates Announcements in the Technical Resource Center on Mastercard Connect."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (1 April 2027): EFM, ECM and HECM monitoring moves from the merchant ID to the sub-merchant ID wherever one is populated, removing payment facilitators' ability to dilute one sub-merchant inside an aggregate MID.",
+      "quote": "starting April 1, 2027, EFM, ECM, and HECM monitoring shifts from the Merchant ID (MID) to the sub-merchant ID wherever one is populated",
+      "url": "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/",
+      "title": "Mastercard GMAP Explained: What Acquirers Need to Know Before April 2027",
+      "publisher": "SLYCE360",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same source: ECM ratio thresholds 'hold steady through 2028, then step down each January from 2029 through 2031'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (enforcement 23 October 2026; assessments from 31 January 2027): under GLB 12940.1 merchants must pass the retained TLID on subsequent merchant-initiated transactions, with reported non-compliance assessments of USD 2,500-5,000 per month capped at USD 25,000 under the Data Integrity Monitoring Program.",
+      "quote": "reportedly ranging from $2,500 to $5,000 per month, capped at $25,000 and assessed under the Data Integrity Monitoring Program (DIMP)",
+      "url": "https://www.verygoodsecurity.com/blog/posts/mastercard-tlid-and-subscriptions-are-you-ready",
+      "title": "Mastercard TLID and Subscriptions: Are you ready?",
+      "publisher": "Very Good Security (VGS)",
+      "published": "2026-08-26",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Author Melissa Shields, Head of Payments Strategy. Timeline on page: 17 Oct 2025 issuers/processors pass TLID (lifecycle); Dec 2025 GLB 8701 update; Jan 2026 GLB 12940.1 released with CIT-MIT 'Economic Linking'; 2 June 2026 merchants/acquirers must retain TLID from initial CITs; 23 Oct 2026 'Enforcement begins'. Amounts are flagged 'reportedly' by the author."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (4 January 2027): Mastercard will decommission Acquirer Collaboration in the US and Canada under bulletin CAN/US 14059.1, closing new enrolment on 21 July 2026 when the bulletin published, without naming a replacement platform.",
+      "quote": "Mastercard will decommission Acquirer Collaboration in the US and Canada on January 4, 2027, per bulletin CAN/US 14059.1.",
+      "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+      "title": "Mastercard Acquirer Collaboration Ends in January 2027",
+      "publisher": "ChargebackHelp",
+      "published": "2026-08-18",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Page HTML served only a JavaScript shell to curl; quote is as returned by WebFetch and matched the search-engine snippet. Also per WebFetch: 'New enrollment closed on July 21, 2026, the day the bulletin published' and 'direct Ethoca registration is the available path today'. Compare Chargeback Gurus (2022) reporting acquirers were added to Mastercom Collaboration in July 2022."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate (1 January 2026): revised standards for Mastercard's Merchant Monitoring Program (MMP) took effect, per a merchant-monitoring vendor that pairs it with Visa's VAMP enforcement date of 1 October 2025.",
+      "quote": "Mastercard’s Merchant Monitoring Program (MMP) revised standards take effect",
+      "url": "https://www.legitscript.com/regulatory-and-card-brand-compliance/the-next-6-months-will-redefine-merchant-risk-management/",
+      "title": "Why the Next 6 Months Will Redefine Merchant Risk Management",
+      "publisher": "LegitScript",
+      "published": "2025-09-03",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Byline 'by LegitScript Folks' (no named author); vendor page. Full sentence: 'Just three months later, on January 1, 2026, Mastercard's Merchant Monitoring Program (MMP) revised standards take effect.' MMP is not named in the public Security Rules Merchant Edition."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Mastercard's own public release calendar or bulletin index (e.g. a mastercard.com page listing Release 26.Q2/26.Q4 dates or GLB numbers)",
+      "where": "mastercard.com rules page (Wayback), Rules/TPR/Chargeback Guide/Security Rules PDF text, developer.mastercard.com llms.txt. Cadence and bulletin numbers were recovered only from processor pages (SoFi/Galileo, Marqeta, Braintree) and two third-party-hosted bulletin PDFs.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "ECP thresholds (basis points, chargeback counts, assessment amounts) in Mastercard's own public documents",
+      "where": "Security Rules and Procedures Merchant Edition 11 Feb 2025 and 4 Aug 2026 (section 8.3 defers to the gated Data Integrity Monitoring Program manual and Pricing and Billing Resource Center)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Excessive Fraud Merchant (EFM) programme rules text",
+      "where": "Security Rules and Procedures Merchant Edition 4 August 2026 (zero hits for 'Excessive Fraud Merchant'; programme is only named on the rules page video list)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "'Summary of Changes' section in the 19 May 2026 Chargeback Guide",
+      "where": "Chargeback Guide Merchant Edition 19 May 2026 PDF text (the 13 May 2025 edition had one on page 23; the 2026 table of contents starts at Chapter 1)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Account Data Compromise and service-provider 'need to know' pages on mastercard.us",
+      "where": "Direct fetch (HTTP 403) and Wayback Machine (not archived)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercom User Guide, Data Integrity Monitoring Program manual, Account Data Compromise Program User Guide, GLB/AN announcement texts",
+      "where": "All are referenced as living in the Technical Resource Center on Mastercard Connect (login); not available publicly",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Named-author trade-press coverage (Digital Transactions, Payments Dive, American Banker) of GLB 14127.1 (GMAP, effective 1 April 2027) or CAN/US 14059.1 (Acquirer Collaboration decommission, 4 January 2027)",
+      "where": "WebSearch budget for the session was exhausted (200/200) immediately after the processor and practitioner pages were found; only vendor/practitioner sources (SLYCE360, ChargebackHelp, VGS, Rivero, LegitScript) and one association piece (MAG Insights) were read.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Academy public course catalogue for rules/compliance training",
+      "where": "academy.mastercard.com (JavaScript-only application; no server-rendered content)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Original text of GLB 14127.1, CAN/US 14059.1, GLB 12940.1, GLB 11738.1 or any 2025-2026 Mastercard bulletin on a public Mastercard property",
+      "where": "developer.mastercard.com announcement pages link every GLB to trc-techresource.mastercard.com (login); mastercard.com returns 403; only mirrored copies of AN 6977 (2022) and AP/LAC/MEA/US 12568.1 (2025) were found on third-party hosts",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Mastercard Rules 3 June 2025 (page 169) requires registration in the 'Mastercard Registration Program (MRP) system using Mastercard Connect'",
+      "b": "Mastercard Rules 2 June 2026 contains no '(MRP) system' wording and its summary of changes cites 'GLB 12564 Revised Standards for the Specialty Merchant Registration Program' (7.8.3)",
+      "urls": [
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+      ]
+    },
+    {
+      "a": "Security Rules and Procedures 11 February 2025 (8.3.2) says ECP merchants are monitored 'through the Data Integrity Online application on Mastercard Connect'",
+      "b": "Security Rules and Procedures 4 August 2026 (8.3.2) says 'through the Data Integrity application on Mastercard Connect'",
+      "urls": [
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+      ]
+    },
+    {
+      "a": "A Wayback capture of the legacy mastercard.us Mastercard Rules URL dated 2026-01-15 serves the 3 June 2025 edition (484 pages)",
+      "b": "The mastercard.com rules-pdfs path served the 2 June 2026 edition (503 pages) by 2026-09-20, so the same document title carried two edition dates and page counts depending on URL",
+      "urls": [
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+      ]
+    },
+    {
+      "a": "Chargeback Gurus (2025-10-21) states ECM = 100+ chargebacks and >1.5% for two consecutive months, HECM = 300+ and 3%, with a fine table from USD 1,000 to 200,000",
+      "b": "Mastercard's public Security Rules (4 August 2026, 8.3) give no thresholds or amounts, deferring to 'Edit 2' of the gated Data Integrity Monitoring Program manual",
+      "urls": [
+        "https://www.chargebackgurus.com/blog/mastercard-excessive-chargeback-program",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+      ]
+    },
+    {
+      "a": "Mastercard Rules 3 June 2025 metadata labels the document 'Type Brand-related standards'",
+      "b": "Mastercard Rules 2 June 2026 metadata labels it 'Type Product or Service Guide: Legal and compliance standards'",
+      "urls": [
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+      ]
+    },
+    {
+      "a": "SoFi Tech Solutions lists the issuer-initiated P2P transaction-type bulletin as 'GLB 13264.2 — Issuer-Initiated Person-to-Person (P2P) Transactions', effective October 23, 2026",
+      "b": "Marqeta lists the same change as 'GLB 13264.1 - Identifying issuer-initiated person-to-person payment and funding transactions', effective 23 October 2026 (different revision suffix)",
+      "urls": [
+        "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+        "https://www.marqeta.com/docs/developer-guides/card-network-certifications"
+      ]
+    },
+    {
+      "a": "Marqeta states the 'April 2026 Mastercard Release 26.Q2' is effective 17 April 2026",
+      "b": "Rivero AG attributes age verification (GLB 11738.1, effective 2 June 2026 per SoFi) to 'Mastercard's 2nd June network processing release' while citing the 'System Release 26.Q2' annex, so the same release label is tied to two effective dates",
+      "urls": [
+        "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+        "https://rivero.tech/blog/mastercard-age-verification-mandate-live-issuers-acquirers",
+        "https://docs.tech.sofi.com/pro/docs/card-network-mandates"
+      ]
+    },
+    {
+      "a": "Chargeback Gurus (2025-10-21) presents ECP thresholds as stable (ECM 100+/1.5%, HECM 300+/3%)",
+      "b": "SLYCE360 reports that under GLB 14127.1 the ECM ratio thresholds 'hold steady through 2028, then step down each January from 2029 through 2031' and monitoring moves to sub-merchant ID from 1 April 2027",
+      "urls": [
+        "https://www.chargebackgurus.com/blog/mastercard-excessive-chargeback-program",
+        "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (client portal)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf"
+    },
+    {
+      "name": "Technical Resource Center (TRC) on Mastercard Connect (rules collection, Announcements, Support Case Management)",
+      "url": "https://trc-techresource.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/announcements/"
+    },
+    {
+      "name": "Mastercom (dispute application on Mastercard Connect)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf"
+    },
+    {
+      "name": "Mastercom Claims Manager",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf"
+    },
+    {
+      "name": "Mastercom User Guide (TRC)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf"
+    },
+    {
+      "name": "Chargeback Guide online edition (TRC bundle m_cbg_en-us)",
+      "url": "https://trc-techresource.mastercard.com/r/bundle/m_cbg_en-us/page/d/en-US/",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/"
+    },
+    {
+      "name": "GLB announcements on TRC (e.g. GLB 14458.1, GLB 13504.2, GLB 12896.4)",
+      "url": "https://trc-techresource.mastercard.com/r/bundle/m_an14458_en-us/page/d/en-US",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/announcements/"
+    },
+    {
+      "name": "Mastercard Network Processing Dual Message Clearing System Guide (TRC)",
+      "url": "https://trc-techresource.mastercard.com/r/bundle/m_DMC_guide_en-us/page/d/en-US/",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/"
+    },
+    {
+      "name": "Data Integrity Monitoring Program manual",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "Data Integrity application on Mastercard Connect",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "Pricing and Billing Resource Center on Mastercard Connect",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "My Company Manager application on Mastercard Connect (contacts, service provider registration)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Variance Manager tool on Mastercard Connect",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Location Administration Tool (LAT) on Mastercard Connect (ATM terminal data)",
+      "url": "",
+      "named_at": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf"
+    },
+    {
+      "name": "Access Manager within Mastercard Connect (Mastercom BIN/ARID entitlement)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/"
+    },
+    {
+      "name": "Support Case Management (via TRC)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Specialty Merchant Registration Program / Mastercard Registration Program (MRP) system on Mastercard Connect",
+      "url": "",
+      "named_at": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf"
+    },
+    {
+      "name": "MATCH Pro system",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "Account Data Compromise Program User Guide",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "Mastercard Subprocessor Information document (TRC)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Mastercard Test Facility (MTF) and Customer Implementation Service (CIS) validation",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/"
+    },
+    {
+      "name": "Fraud and Loss Database",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercom-extended/documentation/announcements/"
+    },
+    {
+      "name": "Mastercard Developers projects dashboard (account required; sandbox open)",
+      "url": "https://developer.mastercard.com/dashboard",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/"
+    },
+    {
+      "name": "Mastercard Engage (partner programme)",
+      "url": "https://developer.mastercard.com/engage/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Academy (training)",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Brand Center (public but bot-walled at brand.mastercard.com)",
+      "url": "https://www.mastercard.com/brandcenter/us/en/home.html",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "SDP Program website acquirer and service provider pages (forms and compliant service provider list)",
+      "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/site-data-protection-pci.html",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf"
+    },
+    {
+      "name": "High-Risk License Addendum (Form 637) - acquirer supplemental licence for specialty merchants",
+      "url": "",
+      "named_at": "https://paymentcloudinc.com/blog/wp-content/uploads/2026/05/mastercard-high-risk-registration-2026.pdf"
+    },
+    {
+      "name": "Global Operations Bulletin 11738.1 and System Release 26.Q2 Combined Dual and Single Message Annex (Mastercard Connect)",
+      "url": "",
+      "named_at": "https://rivero.tech/blog/mastercard-age-verification-mandate-live-issuers-acquirers"
+    },
+    {
+      "name": "GLB 14127.1 Revised Standards for ACMP, GMAP and QMAP (bulletin on Mastercard Connect, published 28 July 2026)",
+      "url": "",
+      "named_at": "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/"
+    },
+    {
+      "name": "CAN/US 14059.1 Acquirer Collaboration decommission bulletin (Mastercard Connect, published 21 July 2026)",
+      "url": "",
+      "named_at": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/"
+    },
+    {
+      "name": "GLB 12940.1 Transaction Link Identifier economic-linking announcement (Mastercard Connect)",
+      "url": "",
+      "named_at": "https://www.verygoodsecurity.com/blog/posts/mastercard-tlid-and-subscriptions-are-you-ready"
+    },
+    {
+      "name": "Data Integrity Monitoring Program (DIMP) assessment schedule for TLID non-compliance",
+      "url": "",
+      "named_at": "https://www.verygoodsecurity.com/blog/posts/mastercard-tlid-and-subscriptions-are-you-ready"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "title": "Mastercard rules page (legacy mastercard.us URL) - HTTP 403 Akamai block to WebFetch and curl",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "title": "Mastercard interchange page (legacy URL) - HTTP 403",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program (Wayback 2026-01-03)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained (Wayback 2026-01-13; links merchant-rates-2025-2026.pdf)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/site-data-protection-pci.html",
+      "title": "Mastercard Site Data Protection (SDP) Program & PCI (Wayback 2025-12-01)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/safety-and-security/security-recommendations/account-data-compromise-events.html",
+      "title": "Account data compromise events page - direct 403, not archived",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/safety-and-security/security-recommendations/service-providers-need-to-know.html",
+      "title": "Service providers need to know page - direct 403, not archived",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+      "title": "Mastercard Rules 3 June 2025, 484 pp (Wayback 2026-01-15; direct fetch 403)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/chargeback-guide.pdf",
+      "title": "Chargeback Guide Merchant Edition 13 May 2025, 1,153 pp (Wayback 2025-12-21)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/transaction-processing-rules.pdf",
+      "title": "Transaction Processing Rules 10 June 2025, 399 pp (Wayback 2025-12-16)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition 11 February 2025, 224 pp (Wayback 2025-07-10)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules 2 June 2026, 503 pp (Wayback 2026-09-20)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+      "title": "Chargeback Guide Merchant Edition 19 May 2026, 1,582 pp (Wayback 2026-07-24)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf",
+      "title": "Transaction Processing Rules 9 December 2025, 423 pp (Wayback 2026-07-24)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+      "title": "Security Rules and Procedures Merchant Edition 4 August 2026, 236 pp (Wayback 2026-09-19)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-quick-reference-booklet-merchant.pdf",
+      "title": "Quick Reference Booklet 2 June 2026, 359 pp (Wayback 2026-09-20)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules 16 December 2025, 114 pp (Wayback 2026-09-20)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+      "title": "Chargebacks Made Simple Guide, July 2025, 16 pp (Wayback 2026-09-20)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/brandcenter/us/en/home.html",
+      "title": "Mastercard Brand Center home (Wayback 2026-01-01)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://brand.mastercard.com/brandcenter/mastercard-brand-mark.html",
+      "title": "brand.mastercard.com - HTTP 403 to curl",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt product catalogue",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/",
+      "title": "Mastercom documentation index (WebFetch got JS shell; read as index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/announcements/",
+      "title": "Mastercom Announcements (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/",
+      "title": "Mastercom Dispute Resolution Cycle (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/change-logs/",
+      "title": "Mastercom Release History (change-logs/index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/release-history/index.md",
+      "title": "Mastercom release-history path - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/additional-resources/list-of-violation-codes/",
+      "title": "Mastercom List of Violation Codes (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/",
+      "title": "Mastercom Support FAQ (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/",
+      "title": "Mastercom Quick Start Guide (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/",
+      "title": "Mastercom Onboarding Checklist (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom-extended/documentation/",
+      "title": "Mastercom Extended documentation index (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom-extended/documentation/announcements/",
+      "title": "Mastercom Extended Announcements (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/bulletin-announcements/",
+      "title": "Cross-Border Services Bulletins and Release Announcements (index.md)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/engage/",
+      "title": "Mastercard Engage - HTTP 401 login redirect",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect - redirects to sign-in",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://trc-techresource.mastercard.com/",
+      "title": "Technical Resource Center - JavaScript shell 'Loading application...'; documented as on Mastercard Connect",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy - JavaScript-only application, no readable content",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Form 10-K FY2025 (accession 0001141391-26-000013; text read from shared scratchpad copy)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391&type=10-K",
+      "title": "SEC EDGAR company browse - 'Your Request Originates from an Undeclared Automated Tool' block",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://chargebacks911.com/mastercard-chargeback-guide/",
+      "title": "Chargebacks911 guessed URL - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://chargebacks911.com/chargeback-reason-codes/mastercard/",
+      "title": "Mastercard Reason Codes: Complete 2026 Dispute Code List (Chargebacks911)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://chargebacks911.com/prevent-chargebacks/prevent-mastercard-disputes/mastercom-collaboration/",
+      "title": "Mastercom | What Is it? How Does Collaboration Work? (Chargebacks911, Louise O'Neill, 2025-01-13)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://chargebacks911.com/prevent-chargebacks/prevent-mastercard-disputes/mastercard-first-party-trust-program/",
+      "title": "Stops Chargebacks With Mastercard First-Party Trust Program (Chargebacks911, Tracy Cray, 2024-05-29)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://chargebacks911.com/excessive-chargeback-program/",
+      "title": "Excessive Chargeback Programs (Chargebacks911, 2022-06-08)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.chargebackgurus.com/blog/mastercom-collaboration",
+      "title": "Avoiding Chargebacks with Mastercom Collaboration (Chargeback Gurus, 2022-11-22)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.chargebackgurus.com/blog/mastercard-excessive-chargeback-program",
+      "title": "Understanding the Mastercard Excessive Chargeback Program (Chargeback Gurus, 2025-10-21)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/first-party-fraud-continues-to-bedevil-merchants-mastercard-says/",
+      "title": "First-Party Fraud Continues to Bedevil Merchants, Mastercard Says (Digital Transactions, Kevin Woodward, 2024-03-19)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/can-new-tech-and-new-rules-finally-stop-the-plague-of-mounting-chargebacks/",
+      "title": "Can New Tech And New Rules Finally Stop the Plague of Mounting Chargebacks? (Digital Transactions, Peter Lucas, 2019-07-09; context only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=mastercard+mandate",
+      "title": "Digital Transactions site search results",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=mastercard+mandate",
+      "title": "Payments Dive site search - no parseable results",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/news/press/2024/october/mastercard-first-party-trust/",
+      "title": "Guessed press URL - HTTP 403",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.chargebackgurus.com/blog/mastercard-chargeback-reason-codes",
+      "title": "Guessed URL - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://docs.adyen.com/risk-management/chargebacks/mastercard-chargeback-reason-codes/",
+      "title": "Guessed URL - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.checkout.com/docs/risk-management/disputes/mastercard-collaboration",
+      "title": "Guessed URL - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/mastercard",
+      "title": "Guessed URL - HTTP 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard rules page - live fetch retried 2026-09-25: HTTP 403 to curl and WebFetch (Wayback copy used)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules PDF - live fetch retried 2026-09-25: HTTP 403 (Wayback copy used)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.merchantadvisorygroup.org/news/mag-insights/article/2025/04/15/everything-you-need-to-know--brand-release-updates",
+      "title": "Everything You Need to Know: Brand Release Updates (MAG Insights, Vasterling & Gullickson, 2025-04-15)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pagos.ai/blog/mastercard-bi-annual-rules-june-2022-release",
+      "title": "Mastercard Bi-Annual Rules June 2022 Release (Pagos, Shelli Garcia, 2022-07-07) - read via WebFetch, not used for claims (dated)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2026",
+      "title": "April 2026 Release Guide / Spring 2026 Updates (Braintree)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://docs.galileo-ft.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates (Galileo) - 301 redirect to docs.tech.sofi.com",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+      "title": "Card Network Mandates - Introduction (SoFi Tech Solutions)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+      "title": "Card Network Certifications 2026 (Marqeta)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.slyce360.com/mastercard-gmap-explained-what-acquirers-need-to-know-before-april-2027/",
+      "title": "Mastercard GMAP Explained: What Acquirers Need to Know Before April 2027 (SLYCE360)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://rivero.tech/blog/mastercard-age-verification-mandate-live-issuers-acquirers",
+      "title": "Mastercard's age verification mandate: What card issuers and acquirers must do (Rivero AG, 2026-08-13)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.verygoodsecurity.com/blog/posts/mastercard-tlid-and-subscriptions-are-you-ready",
+      "title": "Mastercard TLID and Subscriptions: Are you ready? (VGS, Melissa Shields, 2026-08-26)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+      "title": "Mastercard Acquirer Collaboration Ends in January 2027 (ChargebackHelp, 2026-08-18) - curl got JS shell; read via WebFetch",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.legitscript.com/regulatory-and-card-brand-compliance/the-next-6-months-will-redefine-merchant-risk-management/",
+      "title": "Why the Next 6 Months Will Redefine Merchant Risk Management (LegitScript, 2025-09-03)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raisely-images.imgix.net/www/uploads/m-an-6977-en-us-pdf-e986c1.pdf",
+      "title": "AN 6977 Revised Standards for Merchants Utilizing a Subscription/Recurring Payments Model (Mastercard bulletin, 2022-10-11; third-party mirror, 3 pp)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://paymentcloudinc.com/blog/wp-content/uploads/2026/05/mastercard-high-risk-registration-2026.pdf",
+      "title": "AP/LAC/MEA/US 12568.1 New and Updated Specialty Merchant Registration Program Fees (Mastercard bulletin, 2025-10-28; PaymentCloud mirror, 4 pp)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

@@ -1,0 +1,1063 @@
+{
+ "network": "visa",
+ "seed": "https://developer.visa.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.visa.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": "declined: Reject all",
+   "wall": "none",
+   "lang": null,
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Visa Developer Center",
+   "h1": "",
+   "description": "The power of the Visa network. Delivered through APIs. Check out various use cases and examples to see how our APIs can solve your problems.",
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Sign In"
+   ],
+   "ctas": [
+    {
+     "text": "Products",
+     "href": null
+    },
+    {
+     "text": "Resources",
+     "href": null
+    },
+    {
+     "text": "Guides",
+     "href": null
+    },
+    {
+     "text": "Support",
+     "href": null
+    },
+    {
+     "text": "Ask AI",
+     "href": null
+    },
+    {
+     "text": "search",
+     "href": null
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.visa.com/pages/going-live"
+    },
+    {
+     "text": "Read More",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/x-pay-token"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.visa.com/site/release_notes"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis"
+    },
+    {
+     "text": "1",
+     "href": null
+    },
+    {
+     "text": "2",
+     "href": null
+    },
+    {
+     "text": "3",
+     "href": null
+    },
+    {
+     "text": "4",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Sign In",
+     "href": "https://developer.visa.com/identity",
+     "top": 25
+    },
+    {
+     "text": "Register",
+     "href": "https://developer.visa.com/identity/user/register",
+     "top": 1303
+    }
+   ],
+   "audience_words": [
+    "issuer",
+    "acquirer",
+    "merchant",
+    "developer",
+    "partner",
+    "bank"
+   ],
+   "headings": [
+    "h2: Working with Visa APIs",
+    "h2: Action Required: VDP Root, Intermediate, Leaf Certificates Will Be Renewed",
+    "h2: Visa Developer Onboarding",
+    "h2: New Shared Secret Encryption Requirements for X-Pay Token",
+    "h2: Visa Developer Release Notes",
+    "h2: Working with Visa APIs",
+    "h2: Action Required: VDP Root, Intermediate, Leaf Certificates Will Be Renewed",
+    "h2: APIs",
+    "h2: Use Cases",
+    "h2: Learning Hub",
+    "h2: About Visa Developer",
+    "h2: Get Started",
+    "h3: Find your ideal solution",
+    "h3: Videos and learning materials",
+    "h3: Build and launch resources"
+   ],
+   "screenshot": "assets/visa/visa-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Sign In",
+     "url": "https://developer.visa.com/login/",
+     "status": 200,
+     "result": "login",
+     "words": 97,
+     "title": "Log In"
+    },
+    {
+     "nav": "Regional Availability",
+     "url": "https://developer.visa.com/availability",
+     "status": 200,
+     "result": "readable",
+     "words": 453,
+     "title": "Availability Matrix | Visa Developer Center"
+    },
+    {
+     "nav": "Working with Visa APIs",
+     "url": "https://developer.visa.com/pages/working-with-visa-apis",
+     "status": 200,
+     "result": "readable",
+     "words": 275,
+     "title": "Working with Visa APIs"
+    },
+    {
+     "nav": "Use Cases & Blogs",
+     "url": "https://developer.visa.com/use-cases",
+     "status": 200,
+     "result": "readable",
+     "words": 753,
+     "title": "Use Cases & Blogs"
+    },
+    {
+     "nav": "Browse All Products",
+     "url": "https://developer.visa.com/apibrowser",
+     "status": 200,
+     "result": "readable",
+     "words": 2000,
+     "title": "Browse Products | Visa Developer Center"
+    },
+    {
+     "nav": "Request and Response Codes",
+     "url": "https://developer.visa.com/request_response_codes",
+     "status": 200,
+     "result": "readable",
+     "words": 8536,
+     "title": "Request and Response Codes"
+    },
+    {
+     "nav": "Error Codes",
+     "url": "https://developer.visa.com/pages/visa-developer-error-codes",
+     "status": 200,
+     "result": "readable",
+     "words": 972,
+     "title": "Visa Developer Error Codes"
+    },
+    {
+     "nav": "Visa Developer Center Playground",
+     "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+     "status": 200,
+     "result": "readable",
+     "words": 808,
+     "title": "Visa Developer Center Playground"
+    },
+    {
+     "nav": "Visa Product Design System",
+     "url": "https://developer.visa.com/pages/product-design-system",
+     "status": 200,
+     "result": "readable",
+     "words": 477,
+     "title": "Visa Product Design System"
+    },
+    {
+     "nav": "Release Notes",
+     "url": "https://developer.visa.com/site/release_notes",
+     "status": 200,
+     "result": "readable",
+     "words": 2085,
+     "title": "Release Notes"
+    },
+    {
+     "nav": "Certificates",
+     "url": "https://developer.visa.com/pages/encryption_guide",
+     "status": 200,
+     "result": "readable",
+     "words": 3688,
+     "title": "Message Level Encryption"
+    },
+    {
+     "nav": "Developer Quick Start Guide",
+     "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+     "status": 200,
+     "result": "readable",
+     "words": 2283,
+     "title": "Visa Developer Quick Start for Developers"
+    },
+    {
+     "nav": "Business Quick Start Guide",
+     "url": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users",
+     "status": 200,
+     "result": "readable",
+     "words": 1215,
+     "title": "Quick Start Guide for Business Users"
+    },
+    {
+     "nav": "Global Accessibility Requirements",
+     "url": "https://developer.visa.com/pages/accessibility",
+     "status": 200,
+     "result": "readable",
+     "words": 862,
+     "title": "Visa Accessibility - Visa Global Accessibility Requirements"
+    },
+    {
+     "nav": "Learning Hub (tutorials)",
+     "url": "https://developer.visa.com/pages/learning-hub",
+     "status": 200,
+     "result": "contact",
+     "words": 141,
+     "title": "Visa Learning Hub"
+    },
+    {
+     "nav": "About",
+     "url": "https://developer.visa.com/developer_program",
+     "status": 200,
+     "result": "readable",
+     "words": 383,
+     "title": "Visa Developer - About Visa Developer"
+    }
+   ],
+   "walls": 2,
+   "readable": 14
+  },
+  "S3": {
+   "from": "Browse All Products",
+   "url": "https://developer.visa.com/apibrowser",
+   "title": "Browse Products | Visa Developer Center",
+   "headings": [
+    "h2: SDKs & Tools",
+    "h2: Filter By",
+    "h3: Available for use by",
+    "h3: Capabilities",
+    "h1: Browse All Product Documentation",
+    "h2: Accept payments",
+    "h3: Click to Pay",
+    "h3: Installment Management Service",
+    "h3: Installment Transaction Service",
+    "h3: Kernel in the Cloud",
+    "h3: Visa Accept",
+    "h3: Visa Accounts Receivable Manager",
+    "h3: Visa Mobile",
+    "h3: Visa Pay",
+    "h3: Visa Tap",
+    "h3: VisaNet Connect - Acceptance",
+    "h2: Analytics",
+    "h2: Analyze and share data",
+    "h3: Foreign Exchange Rates",
+    "h3: Merchant Search"
+   ],
+   "links": 80,
+   "sample": [
+    {
+     "text": "Regional Availability",
+     "href": "https://developer.visa.com/availability"
+    },
+    {
+     "text": "Working with Visa APIs",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis"
+    },
+    {
+     "text": "Use Cases & Blogs",
+     "href": "https://developer.visa.com/use-cases"
+    },
+    {
+     "text": "Browse All Products",
+     "href": "https://developer.visa.com/apibrowser"
+    },
+    {
+     "text": "Request and Response Codes",
+     "href": "https://developer.visa.com/request_response_codes"
+    },
+    {
+     "text": "Error Codes",
+     "href": "https://developer.visa.com/pages/visa-developer-error-codes"
+    },
+    {
+     "text": "Visa Developer Center Playground",
+     "href": "https://developer.visa.com/pages/visa-developer-center-playground"
+    },
+    {
+     "text": "Visa Product Design System",
+     "href": "https://developer.visa.com/pages/product-design-system"
+    },
+    {
+     "text": "Release Notes",
+     "href": "https://developer.visa.com/site/release_notes"
+    },
+    {
+     "text": "Certificates",
+     "href": "https://developer.visa.com/pages/encryption_guide"
+    },
+    {
+     "text": "Developer Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+     "text": "Business Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users"
+    },
+    {
+     "text": "Global Accessibility Requirements",
+     "href": "https://developer.visa.com/pages/accessibility"
+    },
+    {
+     "text": "Learning Hub (tutorials)",
+     "href": "https://developer.visa.com/pages/learning-hub"
+    },
+    {
+     "text": "About",
+     "href": "https://developer.visa.com/developer_program"
+    },
+    {
+     "text": "FAQs",
+     "href": "https://developer.visa.com/pages/support"
+    },
+    {
+     "text": "Sign In",
+     "href": "https://developer.visa.com/identity"
+    },
+    {
+     "text": "Visa Sensory Branding",
+     "href": "https://developer.visa.com/pages/visa-sensory-branding"
+    },
+    {
+     "text": "Visa Chart Components",
+     "href": "https://developer.visa.com/pages/chart-components"
+    },
+    {
+     "text": "pricing",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing"
+    },
+    {
+     "text": "commercial",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-commercialization"
+    },
+    {
+     "text": "Overview",
+     "href": "https://developer.visa.com/capabilities/visa-secure-remote-commerce"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.visa.com/capabilities/visa-secure-remote-commerce/docs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://developer.visa.com/capabilities/installment-management-service"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.visa.com/capabilities/installment-management-service/docs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://developer.visa.com/capabilities/installment-transaction-service"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.visa.com/capabilities/installment-transaction-service/docs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://developer.visa.com/capabilities/kernel-in-the-cloud"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.visa.com/capabilities/kernel-in-the-cloud/docs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://developer.visa.com/capabilities/visa-accept"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/visa/visa-dev-s3-04-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": 2,
+   "reference": {
+    "url": "https://developer.visa.com/pages/encryption_guide",
+    "title": "Message Level Encryption",
+    "depth": 2,
+    "code_blocks": 28,
+    "endpoints_seen": 0,
+    "login_wall": false
+   },
+   "sample_languages": [
+    "java",
+    "node.js",
+    "python",
+    "c#"
+   ],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 6
+  },
+  "S5": {
+   "entry": {
+    "text": "Register",
+    "href": "https://developer.visa.com/identity/user/register"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Register",
+     "url": "https://developer.visa.com/identity/user/register",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": 1,
+   "wall": "login",
+   "fields_asked": [
+    "firstName",
+    "lastName",
+    "email",
+    "organization",
+    "website",
+    "vdp-combobox--0-input",
+    "vdp-text-field--5",
+    "vdp-text-field--6",
+    "vdp-checkbox-0",
+    "vdp-checkbox-1"
+   ],
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [
+    {
+     "from": "Certificates",
+     "url": "https://developer.visa.com/pages/encryption_guide",
+     "title": "Message Level Encryption",
+     "words": 3688,
+     "steps_mentioned": 0,
+     "tools_named": [
+      "sandbox"
+     ],
+     "timelines": [],
+     "wall": "none"
+    },
+    {
+     "from": "Project Launch Guide",
+     "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+     "title": "Visa Developer Onboarding",
+     "words": 969,
+     "steps_mentioned": 0,
+     "tools_named": [
+      "sandbox"
+     ],
+     "timelines": [],
+     "wall": "none"
+    }
+   ],
+   "rung": "steps and named tools"
+  },
+  "S7": {
+   "from": "FAQs",
+   "url": "https://developer.visa.com/pages/support",
+   "title": "Frequently Asked Questions",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/visa/visa-dev-s7-08-20260925.webp"
+  },
+  "S8": {
+   "pages": [
+    {
+     "from": "Release Notes",
+     "url": "https://developer.visa.com/site/release_notes",
+     "title": "Release Notes",
+     "dates_seen": [],
+     "kind": "change"
+    }
+   ],
+   "status_page": false,
+   "changelog": true
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://developer.visa.com/",
+     "count_hint": "10",
+     "top": [
+      "Regional Availability",
+      "Working with Visa APIs",
+      "Use Cases & Blogs",
+      "Browse All Products",
+      "Request and Response Codes"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://developer.visa.com/",
+     "count_hint": "10",
+     "top": [
+      "Regional Availability",
+      "Working with Visa APIs",
+      "Use Cases & Blogs",
+      "Browse All Products",
+      "Request and Response Codes"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://developer.visa.com/",
+     "count_hint": "10",
+     "top": [
+      "Regional Availability",
+      "Working with Visa APIs",
+      "Use Cases & Blogs",
+      "Browse All Products",
+      "Request and Response Codes"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": null,
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 0,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "button: Products",
+    "button: Resources",
+    "button: Guides",
+    "button: Support",
+    "a: Sign In",
+    "button: Ask AI",
+    "button: search",
+    "div: Working with Visa APIs Learn about end-t",
+    "button"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 1,
+   "screenshot": "assets/visa/visa-dev-s11-09-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Certificates",
+     "href": "https://developer.visa.com/pages/encryption_guide"
+    },
+    {
+     "clicks": 1,
+     "text": "Developer Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+     "clicks": 1,
+     "text": "Business Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users"
+    },
+    {
+     "clicks": 1,
+     "text": "Business Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users"
+    },
+    {
+     "clicks": 1,
+     "text": "Pricing Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing"
+    },
+    {
+     "clicks": 1,
+     "text": "Availability Guide",
+     "href": "https://developer.visa.com/availability"
+    },
+    {
+     "clicks": 1,
+     "text": "Developer Quick Start Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+     "clicks": 1,
+     "text": "Project Launch Guide",
+     "href": "https://developer.visa.com/pages/working-with-visa-apis/onboarding"
+    },
+    {
+     "clicks": 1,
+     "text": "Cookie Preferences",
+     "href": "https://policy.cookiereports.com/58ca76cf_panel-en-gb.js"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Certificates",
+    "href": "https://developer.visa.com/pages/encryption_guide"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 2250,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://developer.visa.com/identity",
+   "final": "https://developer.visa.com/login/",
+   "status": 200,
+   "ms": 1682,
+   "why": "S2 Sign In"
+  },
+  {
+   "url": "https://developer.visa.com/availability",
+   "final": "https://developer.visa.com/availability",
+   "status": 200,
+   "ms": 1845,
+   "why": "S2 Regional Availability"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis",
+   "status": 200,
+   "ms": 1958,
+   "why": "S2 Working with Visa APIs"
+  },
+  {
+   "url": "https://developer.visa.com/use-cases",
+   "final": "https://developer.visa.com/use-cases",
+   "status": 200,
+   "ms": 1681,
+   "why": "S2 Use Cases & Blogs"
+  },
+  {
+   "url": "https://developer.visa.com/apibrowser",
+   "final": "https://developer.visa.com/apibrowser",
+   "status": 200,
+   "ms": 2103,
+   "why": "S2 Browse All Products"
+  },
+  {
+   "url": "https://developer.visa.com/request_response_codes",
+   "final": "https://developer.visa.com/request_response_codes",
+   "status": 200,
+   "ms": 1768,
+   "why": "S2 Request and Response Codes"
+  },
+  {
+   "url": "https://developer.visa.com/pages/visa-developer-error-codes",
+   "final": "https://developer.visa.com/pages/visa-developer-error-codes",
+   "status": 200,
+   "ms": 1673,
+   "why": "S2 Error Codes"
+  },
+  {
+   "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+   "final": "https://developer.visa.com/pages/visa-developer-center-playground",
+   "status": 200,
+   "ms": 1692,
+   "why": "S2 Visa Developer Center Playground"
+  },
+  {
+   "url": "https://developer.visa.com/pages/product-design-system",
+   "final": "https://developer.visa.com/pages/product-design-system",
+   "status": 200,
+   "ms": 1662,
+   "why": "S2 Visa Product Design System"
+  },
+  {
+   "url": "https://developer.visa.com/site/release_notes",
+   "final": "https://developer.visa.com/site/release_notes",
+   "status": 200,
+   "ms": 1665,
+   "why": "S2 Release Notes"
+  },
+  {
+   "url": "https://developer.visa.com/pages/encryption_guide",
+   "final": "https://developer.visa.com/pages/encryption_guide",
+   "status": 200,
+   "ms": 1748,
+   "why": "S2 Certificates"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+   "status": 200,
+   "ms": 1677,
+   "why": "S2 Developer Quick Start Guide"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users",
+   "status": 200,
+   "ms": 1704,
+   "why": "S2 Business Quick Start Guide"
+  },
+  {
+   "url": "https://developer.visa.com/pages/accessibility",
+   "final": "https://developer.visa.com/pages/accessibility",
+   "status": 200,
+   "ms": 1675,
+   "why": "S2 Global Accessibility Requirements"
+  },
+  {
+   "url": "https://developer.visa.com/pages/learning-hub",
+   "final": "https://developer.visa.com/pages/learning-hub",
+   "status": 200,
+   "ms": 1675,
+   "why": "S2 Learning Hub (tutorials)"
+  },
+  {
+   "url": "https://developer.visa.com/developer_program",
+   "final": "https://developer.visa.com/developer_program",
+   "status": 200,
+   "ms": 1705,
+   "why": "S2 About"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis",
+   "status": 200,
+   "ms": 1708,
+   "why": "S3 Working with Visa APIs"
+  },
+  {
+   "url": "https://developer.visa.com/apibrowser",
+   "final": "https://developer.visa.com/apibrowser",
+   "status": 200,
+   "ms": 2124,
+   "why": "S3 Browse All Products"
+  },
+  {
+   "url": "https://developer.visa.com/pages/product-design-system",
+   "final": "https://developer.visa.com/pages/product-design-system",
+   "status": 200,
+   "ms": 1702,
+   "why": "S3 Visa Product Design System"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+   "status": 200,
+   "ms": 1699,
+   "why": "S3 Developer Quick Start Guide"
+  },
+  {
+   "url": "https://developer.visa.com/apibrowser",
+   "final": "https://developer.visa.com/apibrowser",
+   "status": 200,
+   "ms": 2089,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://developer.visa.com/identity",
+   "final": "https://developer.visa.com/login/",
+   "status": 200,
+   "ms": 1585,
+   "why": "S4 Sign In"
+  },
+  {
+   "url": "https://developer.visa.com/availability",
+   "final": "https://developer.visa.com/availability",
+   "status": 200,
+   "ms": 1710,
+   "why": "S4 Regional Availability"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis",
+   "status": 200,
+   "ms": 1701,
+   "why": "S4 Working with Visa APIs"
+  },
+  {
+   "url": "https://developer.visa.com/use-cases",
+   "final": "https://developer.visa.com/use-cases",
+   "status": 200,
+   "ms": 1695,
+   "why": "S4 Use Cases & Blogs"
+  },
+  {
+   "url": "https://developer.visa.com/apibrowser",
+   "final": "https://developer.visa.com/apibrowser",
+   "status": 200,
+   "ms": 2107,
+   "why": "S4 Browse All Products"
+  },
+  {
+   "url": "https://developer.visa.com/pages/encryption_guide",
+   "final": "https://developer.visa.com/pages/encryption_guide",
+   "status": 200,
+   "ms": 1727,
+   "why": "S4 Certificates"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1706,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://developer.visa.com/identity/user/register",
+   "final": "https://developer.visa.com/identity/user/register",
+   "status": 200,
+   "ms": 1896,
+   "why": "S5 Register"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1726,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://developer.visa.com/pages/encryption_guide",
+   "final": "https://developer.visa.com/pages/encryption_guide",
+   "status": 200,
+   "ms": 1735,
+   "why": "S6 Certificates"
+  },
+  {
+   "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+   "final": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+   "status": 200,
+   "ms": 1695,
+   "why": "S6 Project Launch Guide"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1712,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://developer.visa.com/pages/support",
+   "final": "https://developer.visa.com/pages/support",
+   "status": 200,
+   "ms": 1667,
+   "why": "S7 FAQs"
+  },
+  {
+   "url": "https://developer.visa.com/pages/support",
+   "final": "https://developer.visa.com/pages/support",
+   "status": 200,
+   "ms": 1683,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1701,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://developer.visa.com/site/release_notes",
+   "final": "https://developer.visa.com/site/release_notes",
+   "status": 200,
+   "ms": 1700,
+   "why": "S8 Release Notes"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1688,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1690,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1719,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1703,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1726,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://developer.visa.com/",
+   "final": "https://developer.visa.com/",
+   "status": 200,
+   "ms": 1753,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "visa-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://developer.visa.com/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s1-01-20260925.webp",
+   "kb": 47
+  },
+  {
+   "id": "visa-dev-s02",
+   "station": "S2",
+   "note": "wall: Sign In",
+   "url": "https://developer.visa.com/login/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s2-02-20260925.webp",
+   "kb": 21
+  },
+  {
+   "id": "visa-dev-s03",
+   "station": "S2",
+   "note": "wall: Learning Hub (tutorials)",
+   "url": "https://developer.visa.com/pages/learning-hub",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s2-03-20260925.webp",
+   "kb": 43
+  },
+  {
+   "id": "visa-dev-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://developer.visa.com/apibrowser",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s3-04-20260925.webp",
+   "kb": 85
+  },
+  {
+   "id": "visa-dev-s05",
+   "station": "S4",
+   "note": "reference page",
+   "url": "https://developer.visa.com/pages/encryption_guide",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s4-05-20260925.webp",
+   "kb": 77
+  },
+  {
+   "id": "visa-dev-s06",
+   "station": "S5",
+   "note": "first wall",
+   "url": "https://developer.visa.com/identity/user/register",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s5-06-20260925.webp",
+   "kb": 25
+  },
+  {
+   "id": "visa-dev-s07",
+   "station": "S6",
+   "note": "certification",
+   "url": "https://developer.visa.com/pages/encryption_guide",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s6-07-20260925.webp",
+   "kb": 77
+  },
+  {
+   "id": "visa-dev-s08",
+   "station": "S7",
+   "note": "support",
+   "url": "https://developer.visa.com/pages/support",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s7-08-20260925.webp",
+   "kb": 39
+  },
+  {
+   "id": "visa-dev-s09",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://developer.visa.com/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-dev-s11-09-20260925.webp",
+   "kb": 42
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://developer.visa.com/",
+   "banner": "declined: Reject all"
+  }
+ ],
+ "summary": {
+  "pages_visited": 44,
+  "screenshots": 9,
+  "errors": 0,
+  "walls_in_nav": 2,
+  "clicks_to_docs": 2,
+  "clicks_to_wall": 1,
+  "sandbox_wall": "login"
+ }
+}

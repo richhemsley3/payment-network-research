@@ -1,0 +1,916 @@
+{
+ "network": "visa",
+ "seed": "https://developer.visaacceptance.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "contact",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Developer Center | Visa Acceptance Developer Portal",
+   "h1": "",
+   "description": "Get the developer tools you need to integrate frictionless, global payment solutions.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": false,
+    "footer": false,
+    "search": true
+   },
+   "nav_labels": [
+    "APIs",
+    "Accept payments",
+    "Technology partners",
+    "Intelligent Commerce",
+    "API Reference",
+    "SDKs",
+    "Documentation hub",
+    "Sandbox",
+    "Testing guide",
+    "Response codes",
+    "Frequently asked questions",
+    "Contact us",
+    "Merchant Sandbox"
+   ],
+   "ctas": [
+    {
+     "text": "Getting started",
+     "href": null
+    },
+    {
+     "text": "Products",
+     "href": null
+    },
+    {
+     "text": "Resources",
+     "href": null
+    },
+    {
+     "text": "Testing",
+     "href": null
+    },
+    {
+     "text": "Support",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "developer",
+    "partner",
+    "processor"
+   ],
+   "headings": [],
+   "screenshot": "assets/visa/visa-acceptance-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "APIs",
+     "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+     "status": 200,
+     "result": "readable",
+     "words": 466,
+     "title": "Visa Acceptance API Documentation | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Accept payments",
+     "url": "https://developer.visaacceptance.com/accept-payments.html",
+     "status": 200,
+     "result": "readable",
+     "words": 414,
+     "title": "Accept Payments | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Technology partners",
+     "url": "https://developer.visaacceptance.com/technology-partners.html",
+     "status": 200,
+     "result": "readable",
+     "words": 1234,
+     "title": "Technology partners | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Intelligent Commerce",
+     "url": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+     "status": 200,
+     "result": "readable",
+     "words": 443,
+     "title": "Intelligent Commerce | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "SDKs",
+     "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+     "status": 200,
+     "result": "readable",
+     "words": 742,
+     "title": "REST API SDKs | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Documentation hub",
+     "url": "https://developer.visaacceptance.com/docs.html",
+     "status": 200,
+     "result": "readable",
+     "words": 471,
+     "title": "Documentation hub | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Sandbox",
+     "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+     "status": 200,
+     "result": "readable",
+     "words": 752,
+     "title": "Sandbox signup | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Testing guide",
+     "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+     "status": 200,
+     "result": "readable",
+     "words": 320,
+     "title": "Testing Guide | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Response codes",
+     "url": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+     "status": 200,
+     "result": "readable",
+     "words": 507,
+     "title": "Transaction response codes | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Frequently asked questions",
+     "url": "https://developer.visaacceptance.com/support/faqs.html",
+     "status": 200,
+     "result": "readable",
+     "words": 380,
+     "title": "FAQs | Visa Acceptance Developer Portal"
+    },
+    {
+     "nav": "Contact us",
+     "url": "https://developer.visaacceptance.com/support/contact-us.html",
+     "status": 200,
+     "result": "readable",
+     "words": 454,
+     "title": "Contact Us | Visa Acceptance Developer Portal"
+    }
+   ],
+   "walls": 0,
+   "readable": 11
+  },
+  "S3": {
+   "from": "SDKs",
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "title": "REST API SDKs | Visa Acceptance Developer Portal",
+   "headings": [
+    "h2: Product Overview",
+    "h2: Product Editions",
+    "h2: Getting Started",
+    "h2: Account Setup",
+    "h2: About Us",
+    "h2: ",
+    "h2: "
+   ],
+   "links": 20,
+   "sample": [
+    {
+     "text": "Resources",
+     "href": "https://developer.visaacceptance.com/resources.html"
+    },
+    {
+     "text": "REST API SDKs",
+     "href": "https://developer.visaacceptance.com/resources/rest-api-sdks.html"
+    },
+    {
+     "text": "Product Overview",
+     "href": "https://developer.visaacceptance.com/resources/rest-api-sdks.html#product-overview"
+    },
+    {
+     "text": "Product Editions",
+     "href": "https://developer.visaacceptance.com/resources/rest-api-sdks.html#product-editions"
+    },
+    {
+     "text": "Getting Started",
+     "href": "https://developer.visaacceptance.com/resources/rest-api-sdks.html#getting-started"
+    },
+    {
+     "text": "REST Client SDK",
+     "href": "https://github.com/Cybersource?q=%22rest-client%22&type=all&language=&sort="
+    },
+    {
+     "text": "REST Samples",
+     "href": "https://github.com/Cybersource?q=%22rest-samples%22&type=all&language=&sort="
+    },
+    {
+     "text": "Java",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-java"
+    },
+    {
+     "text": ".NET",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-dotnet"
+    },
+    {
+     "text": "PHP",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-php"
+    },
+    {
+     "text": "Node.js",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-node"
+    },
+    {
+     "text": "Python",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-python"
+    },
+    {
+     "text": "Ruby",
+     "href": "https://github.com/CyberSource/cybersource-rest-client-ruby"
+    },
+    {
+     "text": "Developer Forum",
+     "href": "https://community.developer.cybersource.com/t5/cybersource-Developer-Blog/bg-p/CyberSourceBlog"
+    },
+    {
+     "text": "here",
+     "href": "https://developer.visaacceptance.com/hello-world/sandbox.html"
+    },
+    {
+     "text": "here",
+     "href": "https://github.com/CyberSource/cybersource-rest-samples-java"
+    },
+    {
+     "text": "here",
+     "href": "https://github.com/CyberSource/cybersource-rest-samples-java/blob/master/src/main/java/Data/Configuration.java#L11"
+    },
+    {
+     "text": "here",
+     "href": "https://github.com/CyberSource/cybersource-rest-samples-java/blob/master/src/main/java/Data/Configuration.java#L28"
+    },
+    {
+     "text": "here",
+     "href": "https://github.com/CyberSource/cybersource-rest-samples-java/blob/master/src/main/java/Data/Configuration.java#L29"
+    },
+    {
+     "text": "SimpleAuthorizationInternet.java",
+     "href": "https://github.com/CyberSource/cybersource-rest-samples-java/blob/master/src/main/java/samples/Payments/Payments/SimpleAuthorizationInternet.java#L31"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/visa/visa-acceptance-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": 2,
+   "reference": {
+    "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-message-intro/restgs-mle-intro.html",
+    "title": "Set Up JWT Message Using P12 Certificate - Enable Message-Level Encryption",
+    "depth": 2,
+    "code_blocks": 10,
+    "endpoints_seen": 1,
+    "login_wall": false
+   },
+   "sample_languages": [
+    "java .net ruby php python node follow the steps to make your first test transaction using sample code pre-requisites: upto and including java 19 step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in java language from here update 3 configurations to run test transaction for your merchant in configuration.java file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.java class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! follow the steps to make your first test transaction using sample code pre-requisites : .net framework v4.6.1, v4.7.2, v4.8, v4.8.1 .net standard & .net core .net standard : v2.1 .net core 3.1, .net 5, .net 6, .net 7 step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in .net language from here update 3 configurations to run test transaction for your merchant in configuration.cs file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.cs class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! #cw-545333639 { display: block; background-color:white; text-align: initial; } @media (max-width: 1367px) { #cw-545333639 { display: block; background-color:white; text-align: initial; } } @media (max-width: 1024px) { #cw-545333639 { display: block; background-color:white; text-align: initial; } } @media (max-width: 768px) { #cw-545333639 { display: block; background-color:white; text-align: initial; } } @media (max-width: 376px) { #cw-545333639 { display: block; background-color:white; text-align: initial; } } follow the steps to make your first test transaction using sample code pre-requisites : .ruby version 2.5.0+ step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in ruby language from here update 3 configurations to run test transaction for your merchant in configuration.rb file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.rb class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! #cw1672424314 { display: block; background-color:white; text-align: initial; } @media (max-width: 1367px) { #cw1672424314 { display: block; background-color:white; text-align: initial; } } @media (max-width: 1024px) { #cw1672424314 { display: block; background-color:white; text-align: initial; } } @media (max-width: 768px) { #cw1672424314 { display: block; background-color:white; text-align: initial; } } @media (max-width: 376px) { #cw1672424314 { display: block; background-color:white; text-align: initial; } } follow the steps to make your first test transaction using sample code pre-requisites : .php version 8.0.0+ step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in php language from here update 3 configurations to run test transaction for your merchant in configuration.php file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.php class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! #cw-404785029 { display: block; background-color:white; text-align: initial; } @media (max-width: 1367px) { #cw-404785029 { display: block; background-color:white; text-align: initial; } } @media (max-width: 1024px) { #cw-404785029 { display: block; background-color:white; text-align: initial; } } @media (max-width: 768px) { #cw-404785029 { display: block; background-color:white; text-align: initial; } } @media (max-width: 376px) { #cw-404785029 { display: block; background-color:white; text-align: initial; } } follow the steps to make your first test transaction using sample code pre-requisites : python version 3.6+ step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in python language from here update 3 configurations to run test transaction for your merchant in configuration.py file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.py class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! #cw1812972924 { display: block; background-color:white; text-align: initial; } @media (max-width: 1367px) { #cw1812972924 { display: block; background-color:white; text-align: initial; } } @media (max-width: 1024px) { #cw1812972924 { display: block; background-color:white; text-align: initial; } } @media (max-width: 768px) { #cw1812972924 { display: block; background-color:white; text-align: initial; } } @media (max-width: 376px) { #cw1812972924 { display: block; background-color:white; text-align: initial; } } follow the steps to make your first test transaction using sample code pre-requisites : node.js version 6.17.1+ step 1: sign up for sandbox account here important: save the keys displayed after sign up to use in the next step step 2: download the sample code in node language from here update 3 configurations to run test transaction for your merchant in configuration.js file your test organizationid from the signup email should be used to update merchantid property here the keyid from step 1 should be updated here the shared secret from step 1 should be updated here run your first test transaction using simpleauthorizationinternet.js class step 3: create the business center sandbox environment login credentials using the email received after successful sign up after login, select transaction management from left navigation menu look up the transaction performed in step 2 validate your test transaction details and settle the transaction using the button on transaction details screen congratulations! you have successfully completed your first transaction on sandbox environment! #cw-264236419 { display: block; background-color:white; text-align: initial; } @media (max-width: 1367px) { #cw-264236419 { display: block; background-color:white; text-align: initial; } } @media (max-width: 1024px) { #cw-264236419 { display: block; background-color:white; text-align: initial; } } @media (max-width: 768px) { #cw-264236419 { display: block; background-color:white; text-align: initial; } } @media (max-width: 376px) { #cw-264236419 { display: block; background-color:white; text-align: initial; } }",
+    "java",
+    ".net",
+    "ruby",
+    "php",
+    "python",
+    "node"
+   ],
+   "openapi_or_postman": [
+    "https://developer.visaacceptance.com/content/dam/cybsdeveloper2021/responsecode.json",
+    "https://developer.visaacceptance.com/content/dam/cybsdeveloper2021/responsecode.json"
+   ],
+   "auth_docs": [
+    {
+     "text": "API Endpoints & Authentication",
+     "href": "https://developer.visaacceptance.com/api-reference-assets/static-api-endpoints-section"
+    }
+   ],
+   "public_test_data_mentioned": true,
+   "pages_tried": 15
+  },
+  "S5": {
+   "entry": {
+    "text": "Sandbox",
+    "href": "https://developer.visaacceptance.com/hello-world/sandbox.html"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Sandbox",
+     "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": 1,
+   "wall": "account form",
+   "fields_asked": [
+    "merchantId",
+    "organization",
+    "firstName",
+    "lastName",
+    "country",
+    "city",
+    "zipCode",
+    "emailAddress",
+    "phone",
+    "tAndC"
+   ],
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [
+    {
+     "from": "Testing guide",
+     "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+     "title": "Testing Guide | Visa Acceptance Developer Portal",
+     "words": 320,
+     "steps_mentioned": 0,
+     "tools_named": [
+      "sandbox"
+     ],
+     "timelines": [],
+     "wall": "none"
+    }
+   ],
+   "rung": "steps and named tools"
+  },
+  "S7": {
+   "from": "Contact us",
+   "url": "https://developer.visaacceptance.com/support/contact-us.html",
+   "title": "Contact Us | Visa Acceptance Developer Portal",
+   "phones": [],
+   "mailto": [
+    "developer@cybersource.com"
+   ],
+   "form": true,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/visa/visa-acceptance-s7-06-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://developer.visaacceptance.com/search.html#q=authorization",
+     "count_hint": null,
+     "top": []
+    },
+    {
+     "query": "test cards",
+     "url": "https://developer.visaacceptance.com/search.html#q=test%20cards",
+     "count_hint": null,
+     "top": []
+    },
+    {
+     "query": "certification",
+     "url": "https://developer.visaacceptance.com/search.html#q=certification",
+     "count_hint": null,
+     "top": []
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: Skip to login",
+    "a: Skip to content",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": true,
+   "hamburger": true,
+   "nav_visible": 12,
+   "screenshot": "assets/visa/visa-acceptance-s11-07-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "APIs",
+     "href": "https://developer.visaacceptance.com/api-reference-assets/index.html"
+    },
+    {
+     "clicks": 1,
+     "text": "API Reference",
+     "href": "https://developer.visaacceptance.com/api-reference-assets/index.html"
+    },
+    {
+     "clicks": 1,
+     "text": "SDKs",
+     "href": "https://developer.visaacceptance.com/resources/rest-api-sdks.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Testing guide",
+     "href": "https://developer.visaacceptance.com/hello-world/testing-guide.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Response codes",
+     "href": "https://developer.visaacceptance.com/api/reference/response-codes.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Explore REST APIs",
+     "href": "https://developer.visaacceptance.com/api-reference-assets/index.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Developer guides",
+     "href": "https://developer.visaacceptance.com/docs.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Response codes",
+     "href": "https://developer.visaacceptance.com/api/reference/response-codes.html"
+    },
+    {
+     "clicks": 1,
+     "text": "Test card numbers",
+     "href": "https://developer.visaacceptance.com/hello-world/testing-guide.html"
+    },
+    {
+     "clicks": 1,
+     "text": "09/16/2026",
+     "href": "https://community.developer.cybersource.com/t5/cybersource-APIs/Microform-v2-JS-SDK-RSA-Key-token-generation-timeout-on-external/m-p/95990#M4516"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "APIs",
+    "href": "https://developer.visaacceptance.com/api-reference-assets/index.html"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1754,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "status": 200,
+   "ms": 1922,
+   "why": "S2 APIs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/accept-payments.html",
+   "final": "https://developer.visaacceptance.com/accept-payments.html",
+   "status": 200,
+   "ms": 1598,
+   "why": "S2 Accept payments"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/technology-partners.html",
+   "final": "https://developer.visaacceptance.com/technology-partners.html",
+   "status": 200,
+   "ms": 3025,
+   "why": "S2 Technology partners"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "final": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "status": 200,
+   "ms": 1607,
+   "why": "S2 Intelligent Commerce"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "final": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "status": 200,
+   "ms": 1597,
+   "why": "S2 SDKs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/docs.html",
+   "final": "https://developer.visaacceptance.com/docs.html",
+   "status": 200,
+   "ms": 1915,
+   "why": "S2 Documentation hub"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+   "final": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+   "status": 200,
+   "ms": 1933,
+   "why": "S2 Sandbox"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "final": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "status": 200,
+   "ms": 1587,
+   "why": "S2 Testing guide"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "final": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "status": 200,
+   "ms": 1681,
+   "why": "S2 Response codes"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/support/faqs.html",
+   "final": "https://developer.visaacceptance.com/support/faqs.html",
+   "status": 200,
+   "ms": 1580,
+   "why": "S2 Frequently asked questions"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/support/contact-us.html",
+   "final": "https://developer.visaacceptance.com/support/contact-us.html",
+   "status": 200,
+   "ms": 1676,
+   "why": "S2 Contact us"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "status": 200,
+   "ms": 1744,
+   "why": "S3 APIs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "final": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "status": 200,
+   "ms": 1584,
+   "why": "S3 Intelligent Commerce"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "final": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "status": 200,
+   "ms": 1583,
+   "why": "S3 SDKs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "final": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "status": 200,
+   "ms": 1590,
+   "why": "S3 Response codes"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "final": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "status": 200,
+   "ms": 1591,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "status": 200,
+   "ms": 1728,
+   "why": "S4 APIs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/accept-payments.html",
+   "final": "https://developer.visaacceptance.com/accept-payments.html",
+   "status": 200,
+   "ms": 1583,
+   "why": "S4 Accept payments"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/technology-partners.html",
+   "final": "https://developer.visaacceptance.com/technology-partners.html",
+   "status": 200,
+   "ms": 2763,
+   "why": "S4 Technology partners"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "final": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "status": 200,
+   "ms": 1585,
+   "why": "S4 Intelligent Commerce"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "final": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "status": 200,
+   "ms": 1589,
+   "why": "S4 SDKs"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html#login",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/index.html#",
+   "status": 200,
+   "ms": 1746,
+   "why": "S4 Skip to login"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html#main",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/index.html#main",
+   "status": null,
+   "ms": 1507,
+   "why": "S4 Skip to content"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api/developer-guides.html",
+   "final": "https://developer.visaacceptance.com/api/developer-guides.html",
+   "status": 200,
+   "ms": 1628,
+   "why": "S4 Documentation hub"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "final": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "status": 200,
+   "ms": 1574,
+   "why": "S4 Testing guide"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "final": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+   "status": 200,
+   "ms": 1580,
+   "why": "S4 Response codes"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/static-home-section",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/static-home-section",
+   "status": 404,
+   "ms": 1595,
+   "why": "S4 Home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/static-api-endpoints-section",
+   "final": "https://developer.visaacceptance.com/api-reference-assets/static-api-endpoints-section",
+   "status": 404,
+   "ms": 1597,
+   "why": "S4 API Endpoints & Authentication"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-setup-workflow.html",
+   "final": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-setup-workflow.html",
+   "status": 200,
+   "ms": 2087,
+   "why": "S4 here"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-shared-secret-intro.html",
+   "final": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-shared-secret-intro.html",
+   "status": 200,
+   "ms": 1876,
+   "why": "S4 Read our guide"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-message-intro/restgs-mle-intro.html",
+   "final": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-message-intro/restgs-mle-intro.html",
+   "status": 200,
+   "ms": 1598,
+   "why": "S4 here"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+   "final": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+   "status": 200,
+   "ms": 1942,
+   "why": "S5 Sandbox"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "final": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "status": 200,
+   "ms": 1569,
+   "why": "S6 Testing guide"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1599,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/support/faqs.html",
+   "final": "https://developer.visaacceptance.com/support/faqs.html",
+   "status": 200,
+   "ms": 1576,
+   "why": "S7 Frequently asked questions"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/support/contact-us.html",
+   "final": "https://developer.visaacceptance.com/support/contact-us.html",
+   "status": 200,
+   "ms": 1586,
+   "why": "S7 Contact us"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/support/contact-us.html",
+   "final": "https://developer.visaacceptance.com/support/contact-us.html",
+   "status": 200,
+   "ms": 1574,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1590,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1586,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1592,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1611,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "final": "https://developer.visaacceptance.com/",
+   "status": 200,
+   "ms": 1608,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "visa-acceptance-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://developer.visaacceptance.com/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s1-01-20260925.webp",
+   "kb": 11
+  },
+  {
+   "id": "visa-acceptance-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s3-02-20260925.webp",
+   "kb": 91
+  },
+  {
+   "id": "visa-acceptance-s03",
+   "station": "S4",
+   "note": "reference page",
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-message-intro/restgs-mle-intro.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s4-03-20260925.webp",
+   "kb": 109
+  },
+  {
+   "id": "visa-acceptance-s04",
+   "station": "S5",
+   "note": "first wall",
+   "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s5-04-20260925.webp",
+   "kb": 62
+  },
+  {
+   "id": "visa-acceptance-s05",
+   "station": "S6",
+   "note": "certification",
+   "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s6-05-20260925.webp",
+   "kb": 34
+  },
+  {
+   "id": "visa-acceptance-s06",
+   "station": "S7",
+   "note": "support",
+   "url": "https://developer.visaacceptance.com/support/contact-us.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s7-06-20260925.webp",
+   "kb": 85
+  },
+  {
+   "id": "visa-acceptance-s07",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://developer.visaacceptance.com/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-acceptance-s11-07-20260925.webp",
+   "kb": 32
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://developer.visaacceptance.com/",
+   "banner": "declined: Reject all"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/accept-payments.html",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/technology-partners.html",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/products/intelligent_commerce.html",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 47,
+  "screenshots": 7,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": 2,
+  "clicks_to_wall": 1,
+  "sandbox_wall": "account form"
+ }
+}

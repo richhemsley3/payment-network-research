@@ -1,0 +1,489 @@
+{
+ "network": "elo",
+ "seed": "https://www.elo.com.br/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.elo.com.br/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "pt-BR",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Elo | O cartão do brasileiro",
+   "h1": "Com Elo,você tem mais",
+   "description": "Só uma bandeira 100% brasileira entende o seu ritmo, os seus sonhos e o seu jeito único de fazer acontecer.",
+   "landmarks": {
+    "header": true,
+    "nav": 6,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Institucional",
+    "Trabalhe Conosco",
+    "Imprensa",
+    "Inovação",
+    "Emissores",
+    "Elo Internacional",
+    "Política de privacidade",
+    "Participantes do arranjo",
+    "Irregularidades - uso indevido do cartão",
+    "Consultoria",
+    "Dev.Elo"
+   ],
+   "ctas": [
+    {
+     "text": "Cadastrar",
+     "href": null
+    },
+    {
+     "text": "Entrar",
+     "href": null
+    },
+    {
+     "text": "Conhecer",
+     "href": null
+    },
+    {
+     "text": "Pedir cartão",
+     "href": null
+    },
+    {
+     "text": "Participe",
+     "href": null
+    },
+    {
+     "text": "Votar na Elo",
+     "href": null
+    },
+    {
+     "text": "Assistir vídeo",
+     "href": null
+    },
+    {
+     "text": "Baixar App",
+     "href": null
+    },
+    {
+     "text": "Central de ajuda",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [],
+   "headings": [
+    "h3: Mais com Elo",
+    "h1: Com Elo,você tem mais",
+    "h2: A bandeira 100% brasileira que conecta você a mais motivos para viajar, economiz",
+    "h1: Pague com Elo e ganhe mais",
+    "h2: Maispontos",
+    "h3: Ganhe pontos e troque por produtos, viagens, experiências e mais.",
+    "h2: Conhecer",
+    "h2: Maiscashback",
+    "h3: Vantagens e descontos em moda, beleza, eletro e seguros, tudo em um só lugar.",
+    "h2: Conhecer",
+    "h2: Maisdescontos",
+    "h3: Experiências gastronômicas para celebrar a diversidade da culinária brasileira.",
+    "h2: Conhecer",
+    "h2: Maisofertas",
+    "h3: Para curtir o gingado brasileiro: pré-vendas e vantagens exclusivas pra celebrar"
+   ],
+   "screenshot": "assets/elo/elo-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Institucional",
+     "url": "https://www.elo.com.br/sobre-elo/",
+     "status": 200,
+     "result": "readable",
+     "words": 464,
+     "title": "Elo | O cartão do brasileiro"
+    },
+    {
+     "nav": "Trabalhe Conosco",
+     "url": "https://www.elo.com.br/carreiras/",
+     "status": 200,
+     "result": "readable",
+     "words": 477,
+     "title": "Carreiras | Elo"
+    },
+    {
+     "nav": "Imprensa",
+     "url": "https://www.elo.com.br/imprensa/",
+     "status": 200,
+     "result": "readable",
+     "words": 365,
+     "title": "Imprensa | Elo"
+    },
+    {
+     "nav": "Inovação",
+     "url": "https://www.elo.com.br/inovacao/",
+     "status": 200,
+     "result": "readable",
+     "words": 423,
+     "title": "Inovação | Elo"
+    },
+    {
+     "nav": "Emissores",
+     "url": "https://www.elo.com.br/institucional/canais-de-contato/",
+     "status": 200,
+     "result": "readable",
+     "words": 76,
+     "title": "Canais de Contato Elo | ELO"
+    },
+    {
+     "nav": "Elo Internacional",
+     "url": "https://www.elo.com.br/aceitacao-internacional-elo/",
+     "status": 200,
+     "result": "readable",
+     "words": 340,
+     "title": "Elo Internacional | ELO"
+    },
+    {
+     "nav": "Política de privacidade",
+     "url": "https://www.elo.com.br/termos-e-regulamentos/aviso-de-privacidade/",
+     "status": 200,
+     "result": "readable",
+     "words": 96,
+     "title": "Aviso de Privacidade e Proteção de Dados Pessoais | Elo"
+    },
+    {
+     "nav": "Participantes do arranjo",
+     "url": "https://www.elo.com.br/participantes-arranjo/",
+     "status": 200,
+     "result": "readable",
+     "words": 220,
+     "title": "Participantes do Arranjo Elo | ELO"
+    },
+    {
+     "nav": "Consultoria",
+     "url": "https://www.elo.com.br/consultoria/",
+     "status": 200,
+     "result": "readable",
+     "words": 443,
+     "title": "Elo"
+    }
+   ],
+   "walls": 0,
+   "readable": 9
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "pt-BR",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 6,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 5,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "button: Cadastrar",
+    "button: Entrar",
+    "a: Conhecer",
+    "button: Conhecer",
+    "a: Pedir cartão",
+    "button: Pedir cartão",
+    "a: Conhecer",
+    "a: Conhecer",
+    "a: Conhecer",
+    "a: Conhecer"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": false,
+   "nav_visible": 15,
+   "screenshot": "assets/elo/elo-s11-02-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 2,
+     "via": "Trabalhe Conosco",
+     "text": "Acessar documento",
+     "href": "https://media.elo.com.br/strapi-hml/assets/2_Relatorio_Transparencia_Salarial_Set_2025_f2fcd97168.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 2,
+    "via": "Trabalhe Conosco",
+    "text": "Acessar documento",
+    "href": "https://media.elo.com.br/strapi-hml/assets/2_Relatorio_Transparencia_Salarial_Set_2025_f2fcd97168.pdf"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 2906,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.elo.com.br/sobre-elo/",
+   "final": "https://www.elo.com.br/sobre-elo/",
+   "status": 200,
+   "ms": 1984,
+   "why": "S2 Institucional"
+  },
+  {
+   "url": "https://www.elo.com.br/carreiras/",
+   "final": "https://www.elo.com.br/carreiras/",
+   "status": 200,
+   "ms": 1966,
+   "why": "S2 Trabalhe Conosco"
+  },
+  {
+   "url": "https://www.elo.com.br/imprensa/",
+   "final": "https://www.elo.com.br/imprensa/",
+   "status": 200,
+   "ms": 2272,
+   "why": "S2 Imprensa"
+  },
+  {
+   "url": "https://www.elo.com.br/inovacao/",
+   "final": "https://www.elo.com.br/inovacao/",
+   "status": 200,
+   "ms": 1901,
+   "why": "S2 Inovação"
+  },
+  {
+   "url": "https://www.elo.com.br/institucional/canais-de-contato/",
+   "final": "https://www.elo.com.br/institucional/canais-de-contato/",
+   "status": 200,
+   "ms": 1887,
+   "why": "S2 Emissores"
+  },
+  {
+   "url": "https://www.elo.com.br/aceitacao-internacional-elo/",
+   "final": "https://www.elo.com.br/aceitacao-internacional-elo/",
+   "status": 200,
+   "ms": 1916,
+   "why": "S2 Elo Internacional"
+  },
+  {
+   "url": "https://www.elo.com.br/termos-e-regulamentos/aviso-de-privacidade/",
+   "final": "https://www.elo.com.br/termos-e-regulamentos/aviso-de-privacidade/",
+   "status": 200,
+   "ms": 1883,
+   "why": "S2 Política de privacidade"
+  },
+  {
+   "url": "https://www.elo.com.br/participantes-arranjo/",
+   "final": "https://www.elo.com.br/participantes-arranjo/",
+   "status": 200,
+   "ms": 1924,
+   "why": "S2 Participantes do arranjo"
+  },
+  {
+   "url": "https://www.elo.com.br/consultoria/",
+   "final": "https://www.elo.com.br/consultoria/",
+   "status": 200,
+   "ms": 1950,
+   "why": "S2 Consultoria"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1971,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1930,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1888,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1913,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1888,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1924,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1922,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1901,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1913,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.elo.com.br/",
+   "final": "https://www.elo.com.br/",
+   "status": 200,
+   "ms": 1948,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.elo.com.br/sobre-elo/",
+   "final": "https://www.elo.com.br/sobre-elo/",
+   "status": 200,
+   "ms": 1920,
+   "why": "S12 Institucional"
+  },
+  {
+   "url": "https://www.elo.com.br/carreiras/",
+   "final": "https://www.elo.com.br/carreiras/",
+   "status": 200,
+   "ms": 1903,
+   "why": "S12 Trabalhe Conosco"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "elo-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.elo.com.br/",
+   "captured": "2026-09-25",
+   "file": "assets/elo/elo-s1-01-20260925.webp",
+   "kb": 83
+  },
+  {
+   "id": "elo-s02",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.elo.com.br/",
+   "captured": "2026-09-25",
+   "file": "assets/elo/elo-s11-02-20260925.webp",
+   "kb": 44
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.elo.com.br/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.elo.com.br/sobre-elo/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.elo.com.br/carreiras/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.elo.com.br/imprensa/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.elo.com.br/inovacao/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.elo.com.br/institucional/canais-de-contato/",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 22,
+  "screenshots": 2,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

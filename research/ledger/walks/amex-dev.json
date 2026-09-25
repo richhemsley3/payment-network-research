@@ -1,0 +1,881 @@
+{
+ "network": "amex",
+ "seed": "https://developer.americanexpress.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.americanexpress.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "American Express Developers",
+   "h1": "",
+   "description": "A single point of access to American Express APIs and developer resources in categories including fraud prevention, payment services, personalized services, data intelligence and more.",
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Products",
+    "Support",
+    "Log In",
+    "Sign Up",
+    "Frequently Asked Questions",
+    "Create Support Ticket",
+    "American Express Developers Portal Terms of Use",
+    "American Express Website Terms of Service",
+    "Careers",
+    "Amex Tech Blog",
+    "Amex Open Source",
+    "Privacy Statement",
+    "Portal Terms of Use",
+    "Website Terms of Service"
+   ],
+   "ctas": [
+    {
+     "text": "Products",
+     "href": "https://developer.americanexpress.com/products"
+    },
+    {
+     "text": "Support",
+     "href": "https://developer.americanexpress.com/support"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview"
+    },
+    {
+     "text": "Sign Up",
+     "href": "https://developer.americanexpress.com/signup"
+    },
+    {
+     "text": "Give Feedback",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Log In",
+     "href": "https://www.americanexpress.com/en-us/account/aed/login?target=https://developer.americanexpress.com/login?redirect%3Dfalse",
+     "top": 1
+    },
+    {
+     "text": "Sign Up",
+     "href": "https://developer.americanexpress.com/signup",
+     "top": 1
+    },
+    {
+     "text": "Sign Up",
+     "href": "https://developer.americanexpress.com/signup",
+     "top": 2402
+    }
+   ],
+   "audience_words": [
+    "developer"
+   ],
+   "headings": [
+    "h3: Payment Services",
+    "h3: Open Banking",
+    "h2: Support",
+    "h2: Company Information",
+    "h2: Tech Resources"
+   ],
+   "screenshot": "assets/amex/amex-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Products",
+     "url": "https://developer.americanexpress.com/products",
+     "status": 200,
+     "result": "readable",
+     "words": 568,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Support",
+     "url": "https://developer.americanexpress.com/support",
+     "status": 200,
+     "result": "readable",
+     "words": 213,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Sign Up",
+     "url": "https://developer.americanexpress.com/signup",
+     "status": 200,
+     "result": "readable",
+     "words": 8,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Frequently Asked Questions",
+     "url": "https://developer.americanexpress.com/faq",
+     "status": 200,
+     "result": "readable",
+     "words": 200,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "American Express Developers Portal Terms of Use",
+     "url": "https://developer.americanexpress.com/terms",
+     "status": 200,
+     "result": "readable",
+     "words": 84,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Privacy Statement",
+     "url": "https://developer.americanexpress.com/online-privacy#introduction",
+     "status": 200,
+     "result": "readable",
+     "words": 1480,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Amex Token Service",
+     "url": "https://developer.americanexpress.com/products/amex-token-service/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 531,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Enhanced Authorization v2",
+     "url": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 449,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Issuer Charge Verification",
+     "url": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 387,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Account and Transaction API",
+     "url": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 597,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Confirmation of Funds",
+     "url": "https://developer.americanexpress.com/products/confirmation-of-funds/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 368,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Consumer Data RightNewNew",
+     "url": "https://developer.americanexpress.com/products/nextgen-consumer-data-right/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 303,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "@ Work APIs",
+     "url": "https://developer.americanexpress.com/products/at-work-apis-public/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 759,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Amex Agentic Commerce ExperiencesNewNew",
+     "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 956,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Card on-demand",
+     "url": "https://developer.americanexpress.com/products/nextgen-card-on-demand/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 622,
+     "title": "American Express Developers"
+    },
+    {
+     "nav": "Global Pay with Points v2",
+     "url": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview",
+     "status": 200,
+     "result": "readable",
+     "words": 306,
+     "title": "American Express Developers"
+    }
+   ],
+   "walls": 0,
+   "readable": 16
+  },
+  "S3": {
+   "from": "Products",
+   "url": "https://developer.americanexpress.com/products",
+   "title": "American Express Developers",
+   "headings": [
+    "h3: Welcome to American Express Developers.",
+    "h2: Support",
+    "h2: Company Information",
+    "h2: Tech Resources"
+   ],
+   "links": 35,
+   "sample": [
+    {
+     "text": "Products",
+     "href": "https://developer.americanexpress.com/products"
+    },
+    {
+     "text": "Amex Token Service",
+     "href": "https://developer.americanexpress.com/products/amex-token-service/overview"
+    },
+    {
+     "text": "Enhanced Authorization v2",
+     "href": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview"
+    },
+    {
+     "text": "Issuer Charge Verification",
+     "href": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview"
+    },
+    {
+     "text": "Account and Transaction API",
+     "href": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview"
+    },
+    {
+     "text": "Confirmation of Funds",
+     "href": "https://developer.americanexpress.com/products/confirmation-of-funds/overview"
+    },
+    {
+     "text": "Consumer Data RightNewNew",
+     "href": "https://developer.americanexpress.com/products/nextgen-consumer-data-right/overview"
+    },
+    {
+     "text": "@ Work APIs",
+     "href": "https://developer.americanexpress.com/products/at-work-apis-public/overview"
+    },
+    {
+     "text": "Amex Agentic Commerce ExperiencesNewNew",
+     "href": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview"
+    },
+    {
+     "text": "Card on-demand",
+     "href": "https://developer.americanexpress.com/products/nextgen-card-on-demand/overview"
+    },
+    {
+     "text": "Global Pay with Points v2",
+     "href": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview"
+    },
+    {
+     "text": "Pay with Bank transfer",
+     "href": "https://developer.americanexpress.com/products/pay-with-bank-transfer-public/overview"
+    },
+    {
+     "text": "Payment Account Reference",
+     "href": "https://developer.americanexpress.com/products/payment-account-reference-public/overview"
+    },
+    {
+     "text": "DotAmexNewNew",
+     "href": "https://developer.americanexpress.com/products/nextgen-dotamex/overview"
+    },
+    {
+     "text": "Smart Offers Partnerships",
+     "href": "https://developer.americanexpress.com/products/smart-offer-partnerships-public/overview"
+    },
+    {
+     "text": "Amex Account Connect",
+     "href": "https://developer.americanexpress.com/products/nextgen-amex-account-connect/overview"
+    },
+    {
+     "text": "Network Loyalty",
+     "href": "https://developer.americanexpress.com/products/network-loyalty/overview"
+    },
+    {
+     "text": "Support",
+     "href": "https://developer.americanexpress.com/support"
+    },
+    {
+     "text": "Documentation",
+     "href": "https://developer.americanexpress.com/documentation"
+    },
+    {
+     "text": "FAQs",
+     "href": "https://developer.americanexpress.com/faq"
+    },
+    {
+     "text": "Log In",
+     "href": "https://www.americanexpress.com/en-us/account/aed/login?target=https://developer.americanexpress.com/login?redirect%3Dfalse"
+    },
+    {
+     "text": "Sign Up",
+     "href": "https://developer.americanexpress.com/signup"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/amex-token-service/resources"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/enhanced-authorization-v2/resources"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/resources"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://developer.americanexpress.com/open-banking"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/nextgen-consumer-data-right/resources"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/nextgen-card-on-demand/resources"
+    },
+    {
+     "text": "Docs",
+     "href": "https://developer.americanexpress.com/products/network-loyalty/resources"
+    },
+    {
+     "text": "American Express Developers Portal Terms of Use",
+     "href": "https://developer.americanexpress.com/terms"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/amex/amex-dev-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": 2,
+   "reference": {
+    "url": "https://developer.americanexpress.com/products/amex-token-service/resources#readme",
+    "title": "American Express Developers",
+    "depth": 2,
+    "code_blocks": 33,
+    "endpoints_seen": 12,
+    "login_wall": false
+   },
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": [
+    {
+     "text": "Enhanced Authorization v2",
+     "href": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview"
+    }
+   ],
+   "public_test_data_mentioned": false,
+   "pages_tried": 10
+  },
+  "S5": {
+   "entry": {
+    "text": "Sign Up",
+    "href": "https://developer.americanexpress.com/signup"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Sign Up",
+     "url": "https://developer.americanexpress.com/signup",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Support",
+   "url": "https://developer.americanexpress.com/support",
+   "title": "American Express Developers",
+   "phones": [],
+   "mailto": [],
+   "form": true,
+   "chat": false,
+   "hours": "12:01 AM to 4:30 PM U",
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/amex/amex-dev-s7-04-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 0,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "a: Products",
+    "a: Support",
+    "a: Log In",
+    "a: Sign Up",
+    "a: Learn More",
+    "a: Learn More",
+    "a: See all APIs",
+    "a: Sign Up",
+    "a: Frequently Asked Questions"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": false,
+   "nav_visible": 24,
+   "screenshot": "assets/amex/amex-dev-s11-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Payment Account Reference",
+     "href": "https://developer.americanexpress.com/products/payment-account-reference-public/overview"
+    },
+    {
+     "clicks": 1,
+     "text": "American Express Website Terms of Service",
+     "href": "https://www.americanexpress.com/us/legal-disclosures/website-rules-and-regulations.html?inav=footer_Terms_of_Use"
+    },
+    {
+     "clicks": 1,
+     "text": "Website Terms of Service",
+     "href": "https://www.americanexpress.com/us/legal-disclosures/website-rules-and-regulations.html?inav=footer_Terms_of_Use"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Payment Account Reference",
+    "href": "https://developer.americanexpress.com/products/payment-account-reference-public/overview"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 3829,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products",
+   "final": "https://developer.americanexpress.com/products",
+   "status": 200,
+   "ms": 1903,
+   "why": "S2 Products"
+  },
+  {
+   "url": "https://developer.americanexpress.com/support",
+   "final": "https://developer.americanexpress.com/support",
+   "status": 200,
+   "ms": 1863,
+   "why": "S2 Support"
+  },
+  {
+   "url": "https://developer.americanexpress.com/signup",
+   "final": "https://developer.americanexpress.com/signup",
+   "status": 200,
+   "ms": 1910,
+   "why": "S2 Sign Up"
+  },
+  {
+   "url": "https://developer.americanexpress.com/faq",
+   "final": "https://developer.americanexpress.com/faq",
+   "status": 200,
+   "ms": 1952,
+   "why": "S2 Frequently Asked Questions"
+  },
+  {
+   "url": "https://developer.americanexpress.com/terms",
+   "final": "https://developer.americanexpress.com/terms",
+   "status": 200,
+   "ms": 1921,
+   "why": "S2 American Express Developers Portal Terms of Use"
+  },
+  {
+   "url": "https://developer.americanexpress.com/online-privacy",
+   "final": "https://developer.americanexpress.com/online-privacy#introduction",
+   "status": 200,
+   "ms": 1952,
+   "why": "S2 Privacy Statement"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/amex-token-service/overview",
+   "final": "https://developer.americanexpress.com/products/amex-token-service/overview",
+   "status": 200,
+   "ms": 2069,
+   "why": "S2 Amex Token Service"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+   "final": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+   "status": 200,
+   "ms": 1916,
+   "why": "S2 Enhanced Authorization v2"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview",
+   "status": 200,
+   "ms": 1916,
+   "why": "S2 Issuer Charge Verification"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+   "final": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+   "status": 200,
+   "ms": 2137,
+   "why": "S2 Account and Transaction API"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/confirmation-of-funds/overview",
+   "final": "https://developer.americanexpress.com/products/confirmation-of-funds/overview",
+   "status": 200,
+   "ms": 2106,
+   "why": "S2 Confirmation of Funds"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-consumer-data-right/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-consumer-data-right/overview",
+   "status": 200,
+   "ms": 2043,
+   "why": "S2 Consumer Data RightNewNew"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/at-work-apis-public/overview",
+   "final": "https://developer.americanexpress.com/products/at-work-apis-public/overview",
+   "status": 200,
+   "ms": 2053,
+   "why": "S2 @ Work APIs"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+   "status": 200,
+   "ms": 1929,
+   "why": "S2 Amex Agentic Commerce ExperiencesNewNew"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-card-on-demand/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-card-on-demand/overview",
+   "status": 200,
+   "ms": 1915,
+   "why": "S2 Card on-demand"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview",
+   "status": 200,
+   "ms": 2060,
+   "why": "S2 Global Pay with Points v2"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products",
+   "final": "https://developer.americanexpress.com/products",
+   "status": 200,
+   "ms": 1945,
+   "why": "S3 Products"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/amex-token-service/overview",
+   "final": "https://developer.americanexpress.com/products/amex-token-service/overview",
+   "status": 200,
+   "ms": 2167,
+   "why": "S3 Amex Token Service"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+   "final": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+   "status": 200,
+   "ms": 2042,
+   "why": "S3 Enhanced Authorization v2"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview",
+   "final": "https://developer.americanexpress.com/products/nextgen-issuer-charge-verification/overview",
+   "status": 200,
+   "ms": 2202,
+   "why": "S3 Issuer Charge Verification"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products",
+   "final": "https://developer.americanexpress.com/products",
+   "status": 200,
+   "ms": 2004,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products",
+   "final": "https://developer.americanexpress.com/products",
+   "status": 200,
+   "ms": 2077,
+   "why": "S4 Products"
+  },
+  {
+   "url": "https://developer.americanexpress.com/support",
+   "final": "https://developer.americanexpress.com/support",
+   "status": 200,
+   "ms": 1905,
+   "why": "S4 Support"
+  },
+  {
+   "url": "https://developer.americanexpress.com/signup",
+   "final": "https://developer.americanexpress.com/signup",
+   "status": 200,
+   "ms": 2154,
+   "why": "S4 Sign Up"
+  },
+  {
+   "url": "https://developer.americanexpress.com/faq",
+   "final": "https://developer.americanexpress.com/faq",
+   "status": 200,
+   "ms": 2284,
+   "why": "S4 Frequently Asked Questions"
+  },
+  {
+   "url": "https://developer.americanexpress.com/terms",
+   "final": "https://developer.americanexpress.com/terms",
+   "status": 200,
+   "ms": 2344,
+   "why": "S4 American Express Developers Portal Terms of Use"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+   "final": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+   "status": 200,
+   "ms": 2221,
+   "why": "S4 Account and Transaction API"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/at-work-apis-public/overview",
+   "final": "https://developer.americanexpress.com/products/at-work-apis-public/overview",
+   "status": 200,
+   "ms": 2173,
+   "why": "S4 @ Work APIs"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/payment-account-reference-public/overview",
+   "final": "https://developer.americanexpress.com/products/payment-account-reference-public/overview",
+   "status": 200,
+   "ms": 2367,
+   "why": "S4 Payment Account Reference"
+  },
+  {
+   "url": "https://developer.americanexpress.com/documentation",
+   "final": "https://developer.americanexpress.com/documentation/how-it-works",
+   "status": 200,
+   "ms": 2428,
+   "why": "S4 Documentation"
+  },
+  {
+   "url": "https://developer.americanexpress.com/products/amex-token-service/resources",
+   "final": "https://developer.americanexpress.com/products/amex-token-service/resources#readme",
+   "status": 200,
+   "ms": 2043,
+   "why": "S4 Docs"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2152,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/signup",
+   "final": "https://developer.americanexpress.com/signup",
+   "status": 200,
+   "ms": 2080,
+   "why": "S5 Sign Up"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2123,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2034,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/support",
+   "final": "https://developer.americanexpress.com/support",
+   "status": 200,
+   "ms": 2042,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://developer.americanexpress.com/support",
+   "final": "https://developer.americanexpress.com/support",
+   "status": 200,
+   "ms": 1924,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2113,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2546,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2221,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2006,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2016,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 2115,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://developer.americanexpress.com/",
+   "final": "https://developer.americanexpress.com/",
+   "status": 200,
+   "ms": 1932,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "amex-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://developer.americanexpress.com/",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-dev-s1-01-20260925.webp",
+   "kb": 70
+  },
+  {
+   "id": "amex-dev-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://developer.americanexpress.com/products",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-dev-s3-02-20260925.webp",
+   "kb": 62
+  },
+  {
+   "id": "amex-dev-s03",
+   "station": "S4",
+   "note": "reference page",
+   "url": "https://developer.americanexpress.com/products/amex-token-service/resources#readme",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-dev-s4-03-20260925.webp",
+   "kb": 96
+  },
+  {
+   "id": "amex-dev-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://developer.americanexpress.com/support",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-dev-s7-04-20260925.webp",
+   "kb": 44
+  },
+  {
+   "id": "amex-dev-s05",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://developer.americanexpress.com/",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-dev-s11-05-20260925.webp",
+   "kb": 20
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 45,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": 2,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "network": "rupay",
+ "seed": "https://www.npci.org.in/product/rupay/about-rupay",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.npci.org.in/product/rupay/about-rupay",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "National Payments Corporation of India (NPCI) - Enabling digital payments in India",
+   "h1": "",
+   "description": "National Payments Corporation of India is an Umbrella Organisation that facilitates services like UPI Payment, Bharat Bill Pay, RuPay Card, FASTag, NACH, UPI & Adhaar Based Digital Payments in India. Know More.",
+   "landmarks": {
+    "header": false,
+    "nav": 0,
+    "main": false,
+    "footer": false,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [],
+   "signin": [],
+   "audience_words": [],
+   "headings": [],
+   "screenshot": "assets/rupay/rupay-npci-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.npci.org.in/product/rupay/about-rupay",
+   "final": "https://www.npci.org.in/product/rupay/about-rupay",
+   "status": 200,
+   "ms": 2733,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.npci.org.in/product/rupay/about-rupay",
+   "final": "https://www.npci.org.in/product/rupay/about-rupay",
+   "status": 200,
+   "ms": 1590,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.npci.org.in/product/rupay/about-rupay",
+   "final": "https://www.npci.org.in/product/rupay/about-rupay",
+   "status": 200,
+   "ms": 1576,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "rupay-npci-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.npci.org.in/product/rupay/about-rupay",
+   "captured": "2026-09-25",
+   "file": "assets/rupay/rupay-npci-s1-01-20260925.webp",
+   "kb": 2
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 3,
+  "screenshots": 1,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

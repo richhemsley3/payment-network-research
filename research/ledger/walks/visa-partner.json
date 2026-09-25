@@ -1,0 +1,483 @@
+{
+ "network": "visa",
+ "seed": "https://partner.visa.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://partner.visa.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": "declined: Reject all",
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Visa Partner",
+   "h1": "Visa Partner is your expert guide to payment",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Learn",
+    "Partners",
+    "Build",
+    "Sign In"
+   ],
+   "ctas": [
+    {
+     "text": "Explore",
+     "href": null
+    },
+    {
+     "text": "Programs",
+     "href": null
+    },
+    {
+     "text": "Get Started",
+     "href": null
+    },
+    {
+     "text": "Accept",
+     "href": "https://partner.visa.com/#"
+    },
+    {
+     "text": "Reject all",
+     "href": "https://partner.visa.com/#"
+    },
+    {
+     "text": "Review choices",
+     "href": "https://partner.visa.com/#"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Sign In",
+     "href": "https://partner.visa.com/identity",
+     "top": 21
+    }
+   ],
+   "audience_words": [
+    "developer",
+    "partner",
+    "fintech",
+    "bank"
+   ],
+   "headings": [
+    "h1: Visa Partner is your expert guide to payment",
+    "h2: We can help you navigate the world of payments.",
+    "h2: Learn from Us",
+    "h2: Find a Partner",
+    "h2: Become a Partner",
+    "h2: Visa programs",
+    "h3: Solution program",
+    "h3: Fintech program",
+    "h3: Licensing program",
+    "h1: Let's build the future of payments together",
+    "h2: Digital Wallets",
+    "h2: Digital Banking",
+    "h2: Disbursements",
+    "h2: Alternative Lending",
+    "h2: Vendor Payments"
+   ],
+   "screenshot": "assets/visa/visa-partner-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Learn",
+     "url": "https://partner.visa.com/site/learn.html",
+     "status": 200,
+     "result": "readable",
+     "words": 363,
+     "title": "Visa Partner | Learn"
+    },
+    {
+     "nav": "Partners",
+     "url": "https://partner.visa.com/site/partner-directory.html",
+     "status": 200,
+     "result": "readable",
+     "words": 372,
+     "title": ""
+    },
+    {
+     "nav": "Build",
+     "url": "https://partner.visa.com/site/build.html",
+     "status": 200,
+     "result": "readable",
+     "words": 433,
+     "title": "Visa Partner | Build"
+    },
+    {
+     "nav": "Sign In",
+     "url": "https://partner.visa.com/login/",
+     "status": 200,
+     "result": "login",
+     "words": 91,
+     "title": "Log In"
+    },
+    {
+     "nav": "Digital Wallets",
+     "url": "https://partner.visa.com/site/explore/digital-wallets.html",
+     "status": 200,
+     "result": "readable",
+     "words": 663,
+     "title": "Visa Partner | Digital Wallets"
+    },
+    {
+     "nav": "Digital Banking",
+     "url": "https://partner.visa.com/site/explore/digital-banking.html",
+     "status": 200,
+     "result": "readable",
+     "words": 612,
+     "title": "Visa Partner | Digital Banking"
+    },
+    {
+     "nav": "Alternative Lending",
+     "url": "https://partner.visa.com/site/explore/alternative-lending.html",
+     "status": 200,
+     "result": "readable",
+     "words": 729,
+     "title": "Visa Partner | Alternative Lending"
+    },
+    {
+     "nav": "Vendor Payments",
+     "url": "https://partner.visa.com/site/explore/vendor-payments.html",
+     "status": 200,
+     "result": "readable",
+     "words": 696,
+     "title": "Visa Partner | Vendor Payments"
+    },
+    {
+     "nav": "Disbursements",
+     "url": "https://partner.visa.com/site/explore/disbursements.html",
+     "status": 200,
+     "result": "readable",
+     "words": 574,
+     "title": "Visa Partner | Disbursements"
+    },
+    {
+     "nav": "Fintech Fast Track",
+     "url": "https://partner.visa.com/site/programs/fintech-program.html",
+     "status": 200,
+     "result": "readable",
+     "words": 408,
+     "title": "Visa Partner | Fintech Fast Track Program"
+    },
+    {
+     "nav": "Third Party Agent Registration",
+     "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+     "status": 200,
+     "result": "readable",
+     "words": 703,
+     "title": "Visa Partner | Third Party Agent Registration"
+    },
+    {
+     "nav": "Visa Licensing Program",
+     "url": "https://partner.visa.com/site/programs/licensing-program.html",
+     "status": 200,
+     "result": "readable",
+     "words": 611,
+     "title": "Visa's Licensing Program"
+    },
+    {
+     "nav": "Visa Ready Certification",
+     "url": "https://partner.visa.com/site/programs/visa-ready.html",
+     "status": 200,
+     "result": "readable",
+     "words": 537,
+     "title": "Visa Ready Program"
+    },
+    {
+     "nav": "Visa Sensory Branding",
+     "url": "https://partner.visa.com/site/programs/sensory-branding.html",
+     "status": 200,
+     "result": "readable",
+     "words": 512,
+     "title": "Visa Partner | Sensory Branding Guidelines"
+    },
+    {
+     "nav": "View All Programs",
+     "url": "https://partner.visa.com/site/programs/partner-programs.html",
+     "status": 200,
+     "result": "readable",
+     "words": 422,
+     "title": "Visa Partner Programs"
+    },
+    {
+     "nav": "Dashboard",
+     "url": "https://partner.visa.com/login/?realm=vol&goto=https:%2F%2Fpartner.visa.com:443%2Fagent%2Fcustom-login-response%3Fstate%3Dk72ISMeFUBsgb7ZuJgOUVZ2r5zY%26realm%3Dvol%26loginsource%3DGPP&original_request_url=https:%2F%2Fpartner.visa.com:443%2Fportal%2Fdashboard.html",
+     "status": 200,
+     "result": "login",
+     "words": 91,
+     "title": "Log In"
+    }
+   ],
+   "walls": 2,
+   "readable": 14
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "from": "Find a Partner Find a certified partner to help you issue cards, and e",
+   "url": "https://partner.visa.com/site/partner-directory.html",
+   "title": "",
+   "phones": [],
+   "mailto": [
+    "theteam@b-yond.co",
+    "info@asl.com.au",
+    "support.prepaid@cfsb.com",
+    "scheme.communication@credorax.com",
+    "fintechconnect@paywithextend.com"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/visa/visa-partner-s7-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Cookie Preferences",
+     "href": "https://policy.cookiereports.com/75166a60-en-gb.html"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Cookie Preferences",
+    "href": "https://policy.cookiereports.com/75166a60-en-gb.html"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://partner.visa.com/",
+   "final": "https://partner.visa.com/",
+   "status": 200,
+   "ms": 1991,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/learn.html",
+   "final": "https://partner.visa.com/site/learn.html",
+   "status": 200,
+   "ms": 1941,
+   "why": "S2 Learn"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+   "final": "https://partner.visa.com/site/partner-directory.html",
+   "status": 200,
+   "ms": 2351,
+   "why": "S2 Partners"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/build.html",
+   "final": "https://partner.visa.com/site/build.html",
+   "status": 200,
+   "ms": 5182,
+   "why": "S2 Build"
+  },
+  {
+   "url": "https://partner.visa.com/identity",
+   "final": "https://partner.visa.com/login/",
+   "status": 200,
+   "ms": 1737,
+   "why": "S2 Sign In"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/explore/digital-wallets.html",
+   "final": "https://partner.visa.com/site/explore/digital-wallets.html",
+   "status": 200,
+   "ms": 1803,
+   "why": "S2 Digital Wallets"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/explore/digital-banking.html",
+   "final": "https://partner.visa.com/site/explore/digital-banking.html",
+   "status": 200,
+   "ms": 1844,
+   "why": "S2 Digital Banking"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/explore/alternative-lending.html",
+   "final": "https://partner.visa.com/site/explore/alternative-lending.html",
+   "status": 200,
+   "ms": 1825,
+   "why": "S2 Alternative Lending"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/explore/vendor-payments.html",
+   "final": "https://partner.visa.com/site/explore/vendor-payments.html",
+   "status": 200,
+   "ms": 1830,
+   "why": "S2 Vendor Payments"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/explore/disbursements.html",
+   "final": "https://partner.visa.com/site/explore/disbursements.html",
+   "status": 200,
+   "ms": 1828,
+   "why": "S2 Disbursements"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+   "final": "https://partner.visa.com/site/programs/fintech-program.html",
+   "status": 200,
+   "ms": 1824,
+   "why": "S2 Fintech Fast Track"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/third-party-agent-registration.html",
+   "final": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+   "status": 200,
+   "ms": 1783,
+   "why": "S2 Third Party Agent Registration"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+   "final": "https://partner.visa.com/site/programs/licensing-program.html",
+   "status": 200,
+   "ms": 1798,
+   "why": "S2 Visa Licensing Program"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/visa-ready.html",
+   "final": "https://partner.visa.com/site/programs/visa-ready.html",
+   "status": 200,
+   "ms": 1866,
+   "why": "S2 Visa Ready Certification"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/sensory-branding.html",
+   "final": "https://partner.visa.com/site/programs/sensory-branding.html",
+   "status": 200,
+   "ms": 1928,
+   "why": "S2 Visa Sensory Branding"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/programs/partner-programs.html",
+   "final": "https://partner.visa.com/site/programs/partner-programs.html",
+   "status": 200,
+   "ms": 1847,
+   "why": "S2 View All Programs"
+  },
+  {
+   "url": "https://partner.visa.com/portal/dashboard.html",
+   "final": "https://partner.visa.com/login/?realm=vol&goto=https:%2F%2Fpartner.visa.com:443%2Fagent%2Fcustom-login-response%3Fstate%3Dk72ISMeFUBsgb7ZuJgOUVZ2r5zY%26realm%3Dvol%26loginsource%3DGPP&original_request_url=https:%2F%2Fpartner.visa.com:443%2Fportal%2Fdashboard.html",
+   "status": 200,
+   "ms": 1815,
+   "why": "S2 Dashboard"
+  },
+  {
+   "url": "https://partner.visa.com/",
+   "final": "https://partner.visa.com/",
+   "status": 200,
+   "ms": 1848,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/learn.html",
+   "final": "https://partner.visa.com/site/learn.html",
+   "status": 200,
+   "ms": 1834,
+   "why": "S7 Learn from Us Our curriculum is designed to help you learn the ins and"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+   "final": "https://partner.visa.com/site/partner-directory.html",
+   "status": 200,
+   "ms": 2813,
+   "why": "S7 Find a Partner Find a certified partner to help you issue cards, and e"
+  },
+  {
+   "url": "https://partner.visa.com/content/gpp/support-faq.html",
+   "final": "https://partner.visa.com/site/support-faq.html",
+   "status": 200,
+   "ms": 5037,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://partner.visa.com/site/partner-directory.html",
+   "final": "https://partner.visa.com/site/partner-directory.html",
+   "status": 200,
+   "ms": 3100,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://partner.visa.com/",
+   "final": "https://partner.visa.com/",
+   "status": 200,
+   "ms": 3857,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "visa-partner-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://partner.visa.com/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-partner-s1-01-20260925.webp",
+   "kb": 46
+  },
+  {
+   "id": "visa-partner-s02",
+   "station": "S2",
+   "note": "wall: Sign In",
+   "url": "https://partner.visa.com/login/",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-partner-s2-02-20260925.webp",
+   "kb": 22
+  },
+  {
+   "id": "visa-partner-s03",
+   "station": "S2",
+   "note": "wall: Dashboard",
+   "url": "https://partner.visa.com/login/?realm=vol&goto=https:%2F%2Fpartner.visa.com:443%2Fagent%2Fcustom-login-response%3Fstate%3Dk72ISMeFUBsgb7ZuJgOUVZ2r5zY%26realm%3Dvol%26loginsource%3DGPP&original_request_url=https:%2F%2Fpartner.visa.com:443%2Fportal%2Fdashboard.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-partner-s2-03-20260925.webp",
+   "kb": 22
+  },
+  {
+   "id": "visa-partner-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://partner.visa.com/site/partner-directory.html",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-partner-s7-04-20260925.webp",
+   "kb": 51
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://partner.visa.com/",
+   "banner": "declined: Reject all"
+  }
+ ],
+ "summary": {
+  "pages_visited": 23,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 2,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

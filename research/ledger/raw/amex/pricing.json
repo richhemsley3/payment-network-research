@@ -1,0 +1,978 @@
+{
+  "network": "amex",
+  "dimension": "pricing",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "pricing",
+      "claim": "Amex Canada publishes an OptBlue Participant and Payment Facilitator Wholesale Discount Rate, defined as a per-charge fee on the acquirer/PayFac computed on the face value of each charge.",
+      "quote": "a fee assessed to the OptBlue Participant or Payment Facilitator on each Charge, by multiplying the face value of the Charge",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "This Canadian page is the only Amex-published, interchange-like rate schedule found on any Amex site. No equivalent US, UK, EU or AU schedule was located."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada wholesale discount rates are tiered by industry and ticket size: Restaurant 1.60% at or under $200 and 2.40% above; Retail 1.60% at or under $500 and 2.00% above.",
+      "quote": "Restaurant ≤ $200 > $200 1.60% 2.40% Retail ≤ $500 > $500 1.60% 2.00%",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Other tiers on the page: Services/Prof Service and B2B/Wholesale and Other and Mail Order & Internet 1.60%/2.00%; Travel & Entertainment 1.60% (≤$1000) / 2.40% (>$1000); Emerging Markets 1.18%; Prepaid Cards 1.60%/2.00%."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada wholesale schedule includes flat and per-transaction pricing for low-margin verticals: Healthcare 1.34%, Residential Rent 1.08%, Utilities $0.68 per transaction up to $1,000 and 1.88% above.",
+      "quote": "Residential Rent (Include Long Term Care) All Transaction Amounts 1.08% Utilities ≤ $1,000 > $1,000 $0.68/txn 1.88%",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Healthcare is listed at 1.34% for all transaction amounts. USD Settlement rate 2.20%; Foreign Issued Debit Cards 1.28% (CAD settlement) and 1.78% (USD settlement), effective April 16, 2021."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex Canada charges OptBlue participants a Program Participation Fee of 0.12% on all charges plus a 0.30% Card Not Present (non-swiped) fee, disclosed as Network Assessment Fees.",
+      "quote": "Program Participation Fee A fee assessed to payment processors on all American Express Charges. 0.12% of the face amount of each Charge",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Card Not Present fee text: 'Card Not Present fees do not apply to any Foreign Issued Debit Cards. 0.30% of the face amount of each non-swiped Charge'. These are the Amex analogue of Visa/Mastercard network assessment fees, charged to the acquirer not the merchant."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex Canada charges acquirers a 0.60% Inbound Fee on cards issued outside Canada and an Existing Merchant Conversion Fee from 0.30% on charges from merchants that previously contracted directly with Amex.",
+      "quote": "excluding any Foreign Issued Debit Cards. 0.60% of the face amount of the Charge",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Conversion fee text: 'A fee assessed to payment processors on each Charge submitted by a Merchant that previously obtained services directly from American Express.' Amount: 'From 0.30% of the face amount of the Charge'. JCB-issued cards are excluded from the Inbound Fee."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Canadian wholesale rate and network assessment fee schedule is stated as current as of October 30, 2024 and subject to change.",
+      "quote": "The fees set out above are current as of October 30, 2024 and are subject to change from time to time.",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In Canada the OptBlue Participant or Payment Facilitator, not Amex, sets the total price the merchant pays; Amex publishes only the wholesale components it charges the acquirer.",
+      "quote": "the OptBlue Participant or Payment Facilitator sets the total pricing (rate and fees) that the merchant will pay for accepting American Express Cards.",
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate and Network Assessment Fees",
+      "publisher": "American Express (Amex Bank of Canada)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Direct-acceptance merchants in Canada instead pay 'a single Discount Rate (a percentage of the purchase price) for all American Express credit and charge cards' (Card Acceptance Pricing page, https://www.americanexpress.com/ca/en/merchant/card-acceptance-pricing.html); no direct-merchant rate figures are published."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In the US, OptBlue merchant pricing is set by the merchant's processor, not by Amex.",
+      "quote": "Your provider sets your American Express Rate—just like they do for the other card brands you accept.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Marketing page. Corroborated by the FY2025 10-K statement that OptBlue third parties 'determine merchant pricing'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "US OptBlue eligibility is capped at less than $3MM in Estimated Annual Charge Volume (ECV) on Amex.",
+      "quote": "U.S. businesses that have American Express Estimated Annual Charge Volume (ECV) of less than $3MM per year* may be eligible to accept through OptBlue.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page also states: 'If your business is not eligible for OptBlue or is interested in accepting American Express Cards directly with American Express, please call 1-866-847-0890.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex raised the US OptBlue merchant-acquiring ECV threshold to $3,000,000 (rolling 12 months) effective April 17, 2026.",
+      "quote": "Effective April 17, 2026, the merchant acquiring threshold in the U.S. has been increased to $3,000,000.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf?v=0",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF read with pypdf; whitespace normalised. Document marked 'Rev. April 2026'. Also: 'The increased merchant acquiring threshold excludes Puerto Rico and the U.S. Virgin Islands.' Linked from the OptBlue Sales Agent page https://www.americanexpress.com/en-us/business/optblue/agent/"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Until the 2026 change the US OptBlue programme was for small businesses estimated to process under $1MM in annual Amex charge volume, with select categories approved above $1MM.",
+      "quote": "Small Businesses who are estimated to process under $1MM in annual American Express Charge Volume",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "OptBlue Program Reminders for Sales Channels (2025 OptBlue Program Updates)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF metadata dated January 2025. Names the 'OptBlue Program Operating Regulations - PSE Edition' (Appendix A, J, K) as 'Accessible via enrollment in Amex360'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Eight industry categories have no ECV threshold for OptBlue acquisition; Games of Value merchants must have at least $1,000,000 ECV and only approved, certified participants may acquire in some online gambling segments.",
+      "quote": "The following industry categories continue to have no threshold: Charity, Healthcare, Education, Government, Insurance, Residential Rent, Utilities, and Online Gambling and Games of Value2 categories.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf?v=0",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'Value2' carries a footnote marker in the extracted text. Footnote 2: 'Games of Value Merchants must have a minimum ECV of $1,000,000.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex's FY2025 10-K states that OptBlue acquirers, processors and payment facilitators contract directly with small merchants and determine merchant pricing.",
+      "quote": "these third parties contract directly with small merchants for card acceptance on our network and determine merchant pricing.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filed with the SEC in early 2026 (accession 0000004962-26-000080); filing date not captured. Postdates Capital One's May 18, 2025 acquisition of Discover."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex discloses that the merchant discount varies by industry, the merchant's Amex volume, method of payment, settlement terms, submission method, geographic scope of the agreement and transaction amount, with possible flat per-transaction and CNP or inbound add-on fees.",
+      "quote": "varies with, among other factors, the industry in which the merchant conducts business, the merchant’s overall American Express-related transaction volume, the method of payment",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same passage: 'In some instances, an additional flat transaction fee is assessed as part of the merchant discount, and additional fees may be charged such as a variable fee for card-not-present transactions or for transactions using cards issued outside the United States at merchants located in the United States'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discount revenue was $37,401 million in 2025 (up 6%), with Amex noting lower average merchant discount rates from geographic and merchant mix; no numeric average discount rate is disclosed.",
+      "quote": "Discount revenue $ 37,401 $ 35,192 $ 33,416 $ 2,209 6 %",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "MD&A: 'Discount revenue increased, primarily driven by an increase in billed business of 8 percent, partially offset by lower average merchant discount rates due to shifts in geographic and merchant spend mix.' Neither the FY2025 nor FY2024 10-K contains an 'average discount rate' figure."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Network partnership revenue from GNS partners comprises royalties, fees and amounts earned for facilitating transactions on partner-issued cards; Amex deducts the acceptance fee from what it pays merchants or third-party acquirers.",
+      "quote": "comprising royalties, fees and amounts earned for facilitating transactions on cards issued by network partners",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same section: 'The amount of fees charged for accepting American Express-branded cards is generally deducted from the payment to the merchant or third-party merchant acquirer and recorded as network partnership revenue'. In Q1 2025 'Processed revenue' was renamed network partnership revenue and folded into Service fees and other revenue ($7,471m in 2025); no standalone figure is disclosed."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The issuer rate paid to each GNS card-issuing partner is individually negotiated and is not published.",
+      "quote": "Our network card issuing partners receive an issuer rate that is individually negotiated between that issuer and us",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "The issuer rate is recorded as contra-revenue within network partnership revenue, with any excess recorded as Business development expense. This is the explicit statement that GNS partner economics are bilateral and non-public."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex's small and mid-sized merchant contracts have no fixed term, while large-merchant card acceptance agreements (which set the discount) typically run three to seven years.",
+      "quote": "those with large merchants are generally for fixed periods, which typically range from three to seven years in duration",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Preceding text: 'Card acceptance agreements, which include the agreed-upon terms for charging the merchant discount fee, vary in duration.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex says regulation of bankcard interchange has pushed its own discount rates down via competitor pricing, and that it exited its network (GNS) business in the EU and Australia because of regulation.",
+      "quote": "we exited our network business in the EU and Australia as a result of regulation in those jurisdictions.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same passage: 'regulation of bankcard fees has negatively impacted, and may continue to negatively impact, the discount revenue we earn, including as a result of downward pressure on our merchant discount rates from decreases in competitor pricing in connection with caps on interchange fees.' Also notes US states passing laws 'prohibiting interchange from being charged on all or certain components of transactions, such as sales tax and gratuities'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Two pending US antitrust class actions by OptBlue merchants (Pizza Hazel, D. Mass., filed Sept 30, 2024; 5-Star General Store, D.R.I., filed March 21, 2024) challenge Amex's anti-steering and non-discrimination provisions; Amex's motions to compel arbitration were denied and appealed.",
+      "quote": "on behalf of themselves and a class of merchants that accept through the OptBlue Program, unspecified damages and an injunction",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Legal Proceedings: 'The court rejected our motion to compel the case to arbitration; we have appealed the decision to the Court of Appeals for the First Circuit.' No settlement of these merchant cases is disclosed."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex disclosed that the CJEU Advocate General advised in March 2025 that Amex's payments to its KLM cobrand partner can be subject to the EU interchange fee caps.",
+      "quote": "advising the CJEU that our payments to the cobrand partner can be subject to the interchange fee caps",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Context: administrative proceeding by the Netherlands Authority for Consumers and Markets; questions referred by the Dutch Trade and Industry Appeals Tribunal; CJEU hearing in 2024."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "On 16 April 2026 the CJEU (C-549/23, American Express Europe and Others v ACM) held that net payments, rebates or incentives a three-party scheme pays a co-branding partner can count as interchange-equivalent compensation subject to the IFR caps and anti-circumvention rule.",
+      "quote": "the total net amount of payments, rebates or incentives received by a co-branding partner",
+      "url": "https://eur-lex.europa.eu/eli/C/2026/3132/oj/eng",
+      "title": "Case C-549/23 American Express Europe and Others, Judgment of 16 April 2026 (Official Journal notice)",
+      "publisher": "Court of Justice of the European Union via EUR-Lex",
+      "published": "2026-04-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Parties: American Express Europe SA, American Express Carte France SA, Visa Europe Ltd, Mastercard Europe SA, KLM v Autoriteit Consument en Markt. Ruling also: remuneration with 'an object or effect equivalent to an interchange fee' is caught; merchant service charges cannot be deducted in computing net compensation. Full HTML judgment on EUR-Lex returned empty to both WebFetch and curl."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The European Commission's 2020 IFR review confirms the interchange caps do not apply to three-party schemes like Amex unless the scheme licenses issuers or acquirers, or issues via a co-branding partner or agent, in which case it is treated as four-party.",
+      "quote": "The IFR caps do not apply to three party schemes (3PS) 39 except where the scheme is considered to be a 4PS",
+      "url": "https://competition-policy.ec.europa.eu/system/files/2021-10/IFR_report_card_payment.pdf",
+      "title": "Commission Staff Working Document SWD(2020) 118 final: Report on the application of Regulation (EU) 2015/751 on interchange fees",
+      "publisher": "European Commission (DG COMP)",
+      "published": "2020-06-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'39' is a footnote marker in the extracted PDF. Report also states three-party schemes 'in particular American Express and Diners Club' have 'a stable but limited presence' and flags 3PS co-branding/agent cap application as an area needing enhanced monitoring. Predates Capital One-Discover."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex told investors in its FY2017 10-K that the EU Interchange Fee Regulation plus PSD2 rendered its GNS licensing business in the EU no longer viable, so it terminated existing EU GNS licences.",
+      "quote": "The combined impact of the Interchange Fee Regulation and the PSD2 imposes a regulatory burden on our GNS business that renders it no longer viable.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496218000032/axp201710k.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2017",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filed February 2018. Same passage: 'we have terminated the licenses with our existing GNS partners in the EU and are in the process of winding down those operations.' Also: IFR caps 'generally at 20 basis points for debit and prepaid cards and 30 basis points for credit and charge cards'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Under RBA regulation adopted in 2016, Amex's payments to Australian GNS issuing partners were capped like interchange: a 0.50% weighted-average benchmark with a 0.80% per-transaction ceiling, which Amex said undermined its ability to attract GNS partners in Australia.",
+      "quote": "the payments we make to GNS partners must not exceed a weighted-average benchmark of 0.50 percent across all transactions",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496218000032/axp201710k.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2017",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same passage: 'with a maximum interchange fee cap of 0.80 percent for each individual credit card transaction' and 'While the discount rates we agree to with merchants are not capped'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex last disclosed a numeric worldwide average discount rate in its FY2017 10-K: 2.43% (2017), 2.45% (2016), 2.46% (2015); the metric is absent from the FY2024 and FY2025 10-Ks.",
+      "quote": "Average discount rate 2.43 % 2.45 % 2.46 %",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496218000032/axp201710k.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2017",
+      "publisher": "American Express Company (SEC EDGAR)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Definition in that filing: 'It represents the percentage of billed business (generated from both proprietary and GNS Card Member spending) retained by us from merchants we acquire'. 'Last disclosed' is relative to the filings checked (FY2017, FY2024, FY2025); intermediate years were not checked."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA's March 2026 Conclusions Paper records that Amex, as a non-designated network, has a voluntary agreement with the RBA not to impose no-surcharge rules, and that designated networks' interchange regulation does not apply to it.",
+      "quote": "American Express (a non-designated network) entered into a voluntary agreement with the RBA to not impose ‘no-surcharge’ rules.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging: Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF read with pypdf. Paper updated 19 June 2026. It says merchant concern about losing the ability to surcharge Amex 'will be considered as part of the next RBA review planned for mid-2026'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA states the cost to Australian merchants of accepting foreign-issued Amex cards is around 1.65%, versus 2.6 to 2.75% for foreign-issued Visa and Mastercard credit.",
+      "quote": "The cost for merchants to accept foreign-issued American Express card transactions in Australia is around 1.65 per cent",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging: Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Footnote 45 (the passage corrected on 19 June 2026): 'the merchant service fees for foreign-issued Visa and Mastercard credit transactions in Australia has been between 2.6 and 2.75 per cent.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA kept a separate, higher interchange cap for commercial credit cards partly to avoid advantaging Amex, which it calls the largest commercial card issuer whose cards cost merchants more than Visa/Mastercard credit, and will consider designating three-party networks in a mid-2026 review.",
+      "quote": "American Express is the largest issuer of commercial cards and on average these cards cost more for merchants to accept",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging: Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'The next review, planned for mid-2026, will also consider the public interest case to designate and regulate three-party card networks.' and 'The 2025 amendments to the PSRA brought three-party card networks and BNPL services clearly within the RBA's regulatory perimeter.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "RBA statistical table C3 reports total merchant fees on Amex credit transactions of 1.36% for the June 2026 quarter (series CMFCAET), versus 1.00% for Visa credit and 0.99% for Mastercard credit in the same quarter.",
+      "quote": "Total merchant fees charged by acquirers on American Express credit transactions",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/c3-data.csv",
+      "title": "C3 Average Merchant Fees for Debit, Credit and Charge Cards (CSV)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-08-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Row 30/06/2026: Amex credit total 1.36; Amex credit domestic 1.35; Amex credit international 1.65; Amex merchant service fee only 1.33; Visa credit 1.00; Mastercard credit 0.99; eftpos debit 0.43. Units: per cent. Amex domestic device-present 1.37 vs device-not-present 1.35. December 2024 quarter Amex credit total was 1.35."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Since 2013 Amex Australia has voluntarily complied with the surcharging paragraphs of the RBA's Merchant Pricing Standard in exchange for the RBA not designating the Amex system, replacing a 2004 undertaking.",
+      "quote": "American Express will voluntarily comply with paragraphs 4, 6,7,9 and 10 (and only those paragraphs) of the Surcharging Standards",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/payments-system-regulation/undertakings/pdf/2013-03-18-amex-undertaking.pdf",
+      "title": "Undertaking by American Express Australia Limited to the Reserve Bank of Australia (18 March 2013)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2013-03-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "OCR text of a scanned PDF; spacing as extracted. Amex may withdraw on six months' notice and the RBA reserves the right to designate. Predates the 2025 PSRA amendments."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex does not appear in the Federal Reserve's Regulation II average debit interchange fee tables (2024 data), which cover only networks defined as payment card networks under Reg II.",
+      "quote": "Networks listed are defined as payment card networks under the Board's Regulation II.",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Networks listed: Discover, MasterCard, Visa, ACCEL, AFFN, ATH, Culiance, Interlink, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR, UnionPay and Presto!. 2024 averages reported: dual-message covered $0.22, exempt $0.61; single-message covered $0.24, exempt $0.26 (as summarised by the fetch tool). Absence of Amex is the finding."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The UK PSR's March 2025 scheme and processing fee market review engaged Amex and used its transaction data, but treated three-party schemes as outside the Mastercard/Visa issuing competition analysis; its fee-increase findings and remedies concern Mastercard and Visa only.",
+      "quote": "three-party card schemes such as American Express are typically not an alternative, as they do not rely on third-party issuers.",
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: Final report",
+      "publisher": "Payment Systems Regulator",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dated March 2025. Headline finding on the four-party schemes: 'average core fees (as a proportion of transaction value) have increased in real terms by at least 25% between 2017 and 2023' and UK businesses pay 'at least £170 million more, annually'. Also: 'We received data from Mastercard, Visa, American Express, Discover and JCB'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The DOJ's September 2024 debit monopolisation complaint against Visa does not address Amex pricing; it mentions Amex only as a marginal debit front-of-card brand and as a network historically foreclosed by Visa/Mastercard issuer exclusivity.",
+      "quote": "with American Express and Discover comprising the front-of-card brand on a much smaller number of debit cards",
+      "url": "https://www.justice.gov/atr/media/1370481/dl",
+      "title": "Complaint: United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Two Amex mentions in 71 pages. Predates Capital One-Discover closing (May 18, 2025)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The US Supreme Court held in Ohio v. American Express (June 25, 2018) that Amex's anti-steering provisions do not violate the Sherman Act, accepting that Amex funds rewards by charging merchants higher fees than rivals and that plaintiffs failed to show above-competitive two-sided prices.",
+      "quote": "Held: Amex’s antisteering provisions do not violate federal antitrust law.",
+      "url": "https://www.supremecourt.gov/opinions/17pdf/16-1454_5h26.pdf",
+      "title": "Ohio et al. v. American Express Co. et al., 585 U.S. ___ (2018), No. 16-1454",
+      "publisher": "Supreme Court of the United States",
+      "published": "2018-06-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Syllabus: 'to fund those investments, it must charge merchants higher fees than its rivals' and 'Amex's increased merchant fees reflect increases in the value of its services and the cost of its transactions, not an ability to charge above a competitive price.' 5-4 decision, Thomas J."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex's US Merchant Reference Guide (Oct 2021) lists a 1.00% Inbound fee on charges made with cards issued outside the United States for charges submitted on or after April 1, 2022.",
+      "quote": "issued outside the United States* . 1.00% of the face amount of the Charge**",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide - U.S., October 2021",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footnote: 'For Charges submitted on or after April 1, 2022, the fee will be 1.00% of the face amount of the Charge.' The PDF is marked 'sensitive, confidential, and trade secret information' yet is publicly hosted; it is four years old and may be superseded."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The same guide lists direct-merchant ancillary fees: Non-Swiped (Card/Device Not Present) fee up to 0.30%, Voice Authorization $0.65 per charge, Paper Statement up to $7.95, Check fee $1.50, Technical Specifications Non-Compliance 0.75%, Monthly Gross Pay fee 0.03%.",
+      "quote": "Up to 0.30% of the face amount of each non- swiped Charge",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide - U.S., October 2021",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also an Authorization Integrity fee of '0.10% of amount of the Approved Authorization dollar volume plus $0.05 for each Approved Charge' once un-submitted authorizations exceed 10% for three months, and a pass-through Gateway fee for authorizations routed via Visa/Mastercard gateways. Discount itself is listed as 'Varies'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex's US data-security regime carries tiered Data Incident non-compliance fees by merchant level: USD $25,000 (Level 1), $5,000 (Level 2), $1,000 (Level 3/4) at 45 days, rising to $35,000/$10,000/$2,500 at 90 days.",
+      "quote": "Non-compliance fee assessed when TAP obligations are not satisfied within 45 days from the date of notification. USD $25,000 USD $5,000 USD $1,000",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide - U.S., October 2021",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Excessive Chargeback fee: '$25 per Chargeback (less Chargeback Reversals) over the 1 percent ratio' after three consecutive months over 1%. Non-validation fees for PCI documentation: $25,000/$5,000/$50 at first deadline."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex's Merchant Regulations International (April 2026) list the Discount Rate amount only as 'Varies' and direct merchants to their Amex representative, confirming direct-merchant pricing is negotiated and unpublished.",
+      "quote": "To determine the Discount that you pay, contact your American Express representative. Varies",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations - International, April 2026",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table 8-6 Card Acceptance Discount Fees. Effective April 17, 2026 with changes effective October 16, 2026. The OptBlue Merchant Operating Guide (All Regions, April 2026, https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf) likewise lists no amounts, saying only 'There may be a fee assessed for Approved Charges which you do not reverse or submit or for which you submit late.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Payment facilitators and indirect acceptors on the Amex network face escalating non-compliance fees of up to USD $10,000 for a second violation and up to $20,000 for third and subsequent violations within 12 months.",
+      "quote": "Up to USD $10,000 for second violation of the same regulation within a 12-month period after notification of the first violation.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations - International, April 2026",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table 8-7 Payment Facilitator and Indirect Acceptor Fees; same amounts apply to Sponsored Merchant / End Beneficiary reporting non-compliance."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Registration for the AMEX Enabled service-provider certification programme carries no fee.",
+      "quote": "There are no fees charged to register for the AMEX Enabled Program.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.2022-11-03-01-26-00.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions (June 2022)",
+      "publisher": "American Express Global Network Services",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Linked from https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/ . The GNS site says '1200+ Service Providers' have certified through AMEX Enabled. No testing-lab or per-product fee is stated."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex markets its network to fintech partners on 'premium economics' but publishes no figures, rebates or incentive schedules for issuers, acquirers or fintechs.",
+      "quote": "Your growth, backed by premium economics, assets and insights from American Express.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs | American Express Global Network",
+      "publisher": "American Express Global Network Services",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "The GNS site pages for issuers, acquirers, fintechs, service providers and the Integrated Payments Providers Program contain no fee, pricing, rebate or incentive figures; detail sits behind the Knowledge Base login."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "At OptBlue's 2014 launch, Digital Transactions reported the programme covered merchants with $1 million or less in annual Amex volume, with acquirers setting merchant pricing off Amex-provided wholesale rates by MCC and ticket size.",
+      "quote": "OptBlue is for merchants that do $1 million or less in annual AmEx volume.",
+      "url": "https://www.digitaltransactions.net/amex-ramps-up-effort-to-sign-small-merchants-with-its-optblue-program/",
+      "title": "AmEx Ramps Up Effort To Sign Small Merchants With Its OptBlue Program",
+      "publisher": "Digital Transactions (Jim Daly)",
+      "published": "2014-02-10",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Also reported: acquirers 'set pricing based on wholesale rates provided by AmEx' and Amex expected 'a small decrease in our global discount rate'. Six announced launch acquirers: Heartland, Global Payments, Vantiv, WorldPay, TransFirst, JetPay."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex Merchant Financing is priced as a fixed fee by term (6, 12 or 24 months) rather than an APR, with fee ranges reported as 1.75-7%, 3.5-14% and 7-28% and early-repayment rebates of 25% or 10% of the fee.",
+      "quote": "Fixed fees range from 1.75-7% (6-Month Term), 3.5-14% (12-Month Term), and 7-28% (24-Month Term).",
+      "url": "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+      "title": "Apply for Merchant Financing Loans from American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": "The host merchantfinancing.americanexpress.com did not resolve (DNS failure) from WebFetch or curl, so this is a search snippet only. A second snippet for the same page gave 1.75-8%, 3.5-12% and 7-20% (see contradictions). Loan sizes reported $5,000 to $2,000,000."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Amex UK publishes no merchant rate card; the Discount Rate is disclosed only in the individual application form, Terms and Conditions or confirmation letter, and Amex deducts it before settling within five business days.",
+      "quote": "Your Discount Rate can be found in the application form accompanying your Terms and Conditions for Card Acceptance, or alternatively in your agreement confirmation letter.",
+      "url": "https://www.americanexpress.com/uk/merchant/get-started.html",
+      "title": "Get Started | American Express Merchant UK",
+      "publisher": "American Express (UK)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Contact/FAQ page: 'We pay most Merchants within five business days, from the date we receive the charges.' Australia likewise: 'Log in to your Account to confirm the details of your Merchant Service Fee' (https://www.americanexpress.com/en-au/business/merchant/manage-account.html)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Amex-published US OptBlue wholesale discount rate or network assessment fee schedule (Program Participation, CNP, Inbound fees) for the United States",
+      "where": "americanexpress.com/us/merchant/optblue.html, en-us/business/optblue/agent/ and agent-resources PDFs, web search; only the Canadian schedule (ca/en/merchant/wholesale-discount-rate.html) is published",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Numeric average merchant discount rate for 2025 or 2024",
+      "where": "FY2025 10-K, FY2024 10-K, Q4 2025 earnings press release (s26.q4cdn.com), Q1 2026 8-K exhibit 99.1; metric last seen in FY2017 10-K (2.43%)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "API or developer pricing on the Amex Developer Portal (developer.americanexpress.com)",
+      "where": "developer.americanexpress.com (JavaScript shell with no text via WebFetch or curl) and network.americanexpress.com/globalnetwork/v4/partners/developers/; no pricing, free-tier or sandbox-fee statement found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "GNS licensing, membership, royalty or issuer-rate amounts for third-party issuers and acquirers",
+      "where": "network.americanexpress.com GNS partner pages, FY2025 10-K (states issuer rate is 'individually negotiated'); Knowledge Base is behind login",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published incentive, rebate or volume-tier programmes for acquirers, OptBlue participants, issuers or fintechs",
+      "where": "GNS partner pages (issuers, acquirers, fintechs, IPP programme), OptBlue agent site, 10-K; none published",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published direct-merchant discount rate schedule for the UK, EU, Australia, Canada or US",
+      "where": "uk/merchant/get-started.html, uk/merchant/payment-terms.html, en-au/business/merchant/manage-account.html, ca/en/merchant/card-acceptance-pricing.html, Merchant Regulations International Table 8-6 ('Varies'); pricing is individually agreed",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Merchant Financing pricing page (fixed-fee table) fetched directly",
+      "where": "merchantfinancing.americanexpress.com (DNS failure via WebFetch and curl); candidate americanexpress.com paths returned 404; only search snippets available",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "American Express in the Federal Reserve Regulation II average debit interchange tables",
+      "where": "federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm; Amex not among the listed networks",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press article with named author covering the April 2026 OptBlue $3MM threshold increase",
+      "where": "Web search (Digital Transactions, Payments Dive, PYMNTS); only consultant blogs surfaced (merchantcostconsulting.com, globalpaymentsconsultants.com); search budget exhausted before a second pass",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ 2010 press release on US v. American Express, MasterCard and Visa anti-steering suit",
+      "where": "justice.gov/archives/opa/pr/... returned empty body to WebFetch and curl; the 2018 Supreme Court opinion was used instead",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Litigation settlement amounts shaping Amex merchant fees (class settlements)",
+      "where": "FY2025 10-K Legal Proceedings: OptBlue merchant anti-steering cases pending, no settlement; a $12.5m Illinois consumer-class jury award is cardholder-side and out of scope",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "UK PSR or EU IFR findings specific to Amex scheme fees",
+      "where": "PSR MR22/1.10 final report (Amex engaged, out of remedy scope); EC SWD(2020)118 (Amex referenced only as a three-party scheme with limited presence)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Search snippet for Amex Merchant Financing: 'Fixed fees range from 1.75-7% (6-Month Term), 3.5-14% (12-Month Term), and 7-28% (24-Month Term).'",
+      "b": "Second search snippet for the same page: 'Fixed fees range from 1.75-8% (6-Month Term), 3.5-12% (12-Month Term), and 7-20% (24-Month Term).' Page could not be fetched to resolve.",
+      "urls": [
+        "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+        "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm?extlink=GCP_MerFi2017_PS_G_BR_MerchantFinancing_Exact"
+      ]
+    },
+    {
+      "a": "2025 OptBlue Program Updates PDF: OptBlue is for 'Small Businesses who are estimated to process under $1MM in annual American Express Charge Volume'",
+      "b": "OptBlue Program Update Rev. April 2026: 'Effective April 17, 2026, the merchant acquiring threshold in the U.S. has been increased to $3,000,000.' (a dated change rather than a conflict; both documents remain live on the agent site)",
+      "urls": [
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf?v=0"
+      ]
+    },
+    {
+      "a": "FY2017 10-K discloses a worldwide 'Average discount rate 2.43 %' with a definition",
+      "b": "FY2024 and FY2025 10-Ks and the Q4 2025 earnings release disclose no average discount rate figure, only directional commentary ('lower average merchant discount rates')",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496218000032/axp201710k.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Amex Global Network Knowledge Base (GNS partner extranet; sign-in via americanexpress.com enterprise login)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "Amex360 (OptBlue participant portal hosting the OptBlue Program Operating Regulations - PSE Edition, Appendices A, J, K)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+    },
+    {
+      "name": "OptBlue Program Operating Regulations - PSE Edition (Appendix A eligibility, J prohibited industries, K merchant exclusion list)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+    },
+    {
+      "name": "Amex for Developers portal (products: fraud prevention, open banking, payment services, personalized services)",
+      "url": "https://developer.americanexpress.com/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/"
+    },
+    {
+      "name": "Merchant Harbor (international merchant regulations site; redirected to the public regulation page when fetched)",
+      "url": "https://merchantharbor.americanexpress.com/internationalregulations/en",
+      "named_at": "https://www.americanexpress.com/en-us/business/merchant/regulation/"
+    },
+    {
+      "name": "Amex Merchant Technical Specifications / Technical Mandates (www.americanexpress.com/merchantspecs)",
+      "url": "https://www.americanexpress.com/merchantspecs",
+      "named_at": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf"
+    },
+    {
+      "name": "Amex UK online merchant account (statements and Discount Rate)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/uk/merchant/get-started.html"
+    },
+    {
+      "name": "Amex Australia merchant account e-statements (Merchant Service Fee)",
+      "url": "https://www.americanexpress.com/en-au/business/merchant/manage-account.html",
+      "named_at": "https://www.americanexpress.com/en-au/business/merchant/manage-account.html"
+    },
+    {
+      "name": "OptBlue Sales Agent resources (Merchant Activation Guide WRQ-944, Objection Handling WRQ-952)",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/",
+      "title": "American Express US merchant home (seed)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (JS shell, no readable content)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/ca/en/merchant/wholesale-discount-rate.html",
+      "title": "Network Assessment Fees | OptBlue Participant & Payment Facilitator Wholesale Discount Rate (Canada)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/ca/en/merchant/card-acceptance-pricing.html",
+      "title": "American Express Card Acceptance Pricing (Canada)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K FY2024",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496218000032/axp201710k.htm",
+      "title": "American Express Company Form 10-K FY2017",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000188/q126exhibit991.htm",
+      "title": "American Express Q1 2026 8-K Exhibit 99.1",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s26.q4cdn.com/747928648/files/doc_earnings/2025/q4/earnings-result/Q4-2025-Earnings-Press-Release.pdf",
+      "title": "American Express FY & Q4 2025 Results press release",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "2025 OptBlue Program Updates / Reminders for Sales Channels (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf?v=0",
+      "title": "OptBlue Program Update Rev. April 2026 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62023CJ0549",
+      "title": "CJEU C-549/23 judgment HTML (EUR-Lex)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/C/2026/3132/oj/eng",
+      "title": "CJEU C-549/23 Official Journal notice (EUR-Lex)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://eulawlive.com/payment-services-co-branding-incentives-considered-interchange-fees-that-must-comply-with-the-fee-caps-in-the-eu-interchange-fee-regulation/",
+      "title": "EU Law Live: Co-branding incentives considered interchange fees (partly paywalled)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "RBA Review of Merchant Card Payment Costs and Surcharging: Conclusions Paper (March 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/statistics/tables/csv/c3-data.csv",
+      "title": "RBA Table C3 Average Merchant Fees (CSV)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/credit-cards/amex-undertaking.html",
+      "title": "RBA: Merchant Pricing – American Express Undertaking",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/payments-system-regulation/undertakings/pdf/2013-03-18-amex-undertaking.pdf",
+      "title": "American Express undertaking to the RBA, 18 March 2013 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://competition-policy.ec.europa.eu/system/files/2021-10/IFR_report_card_payment.pdf",
+      "title": "European Commission SWD(2020) 118 IFR report (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide - U.S., October 2021 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations - International, April 2026 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide All Regions, April 2026 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/",
+      "title": "American Express Merchant Regulations page (JS-rendered, no text captured)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+      "title": "Apply for Merchant Financing Loans from American Express",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-review-into-card-scheme-and-processing-fees/",
+      "title": "PSR market review landing page (old URL)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "PSR MR22/1.10 Market review of card scheme and processing fees: final report (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Federal Reserve: Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/atr/media/1370481/dl",
+      "title": "DOJ Complaint: United States v. Visa Inc. (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-american-express-mastercard-and-visa-eliminate-rules-restricting",
+      "title": "DOJ 2010 press release on anti-steering suit",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.supremecourt.gov/opinions/17pdf/16-1454_5h26.pdf",
+      "title": "Ohio v. American Express Co., No. 16-1454 (2018) opinion (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/uk/merchant/payment-terms.html",
+      "title": "Payment Terms | Merchant Services | American Express UK",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/uk/merchant/get-started.html",
+      "title": "Get Started | American Express Merchant UK",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/uk/merchant/contact-us.html",
+      "title": "Contact Us & Merchant Services FAQs | American Express Merchant UK",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/au/merchant/doing-business-with-amex.html",
+      "title": "Doing Business with Amex (AU) – redirects via go.amex to manage-account page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-au/business/merchant/manage-account.html",
+      "title": "Manage Your Account | AMEX Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "GNS Partners: Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/merchant-acquirers/",
+      "title": "GNS Partners: merchant-acquirers (guessed URL)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/card-issuers/",
+      "title": "GNS Partners: card-issuers (guessed URL)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/",
+      "title": "GNS Partners: Acquirers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/",
+      "title": "GNS Partners: Issuers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "GNS Partners: Fintechs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "GNS Partners: Service Providers (AMEX Enabled)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "GNS Partners: Integrated Payments Providers Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.2022-11-03-01-26-00.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions, June 2022 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/amex-ramps-up-effort-to-sign-small-merchants-with-its-optblue-program/",
+      "title": "Digital Transactions: AmEx Ramps Up Effort To Sign Small Merchants With Its OptBlue Program (2014)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/amex-optblue-rates/",
+      "title": "Merchant Cost Consulting: Amex OptBlue Rates (third party)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

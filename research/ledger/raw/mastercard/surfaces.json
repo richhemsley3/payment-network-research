@@ -1,0 +1,744 @@
+{
+  "network": "mastercard",
+  "dimension": "surfaces",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Developers (developer.mastercard.com) is the public developer centre; integrations are organised as self-service 'projects' that bundle one or more APIs, with open Sandbox credentials generated in the portal.",
+      "quote": "All Mastercard API integrations start with a project. A project represents one application or business use case and may include multiple APIs.",
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in the browser pane; the site is a JS single-page app and returns only the header 'Mastercard Developers' to plain HTTP clients. Guide also names Postman/Insomnia collections and SDKs as test paths."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Production access on Mastercard Developers is gated by company verification and a 'commercial countries' declaration on the project Summary page; production credentials are issued instantly but only activated on approval.",
+      "quote": "First you need to verify your company. This ensures your company is registered to do business with Mastercard.",
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page: 'Keys generated on Mastercard Developers are valid for 13 months.' with reminders at 60/30/15/5/1 days; private or documentation-only services do not appear in the API picker until access is requested; some Sandbox requests show 'Under Review'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Company verification can be completed instantly by linking a Mastercard Developers profile to an existing Mastercard Connect profile, or by entering a Mastercard Company ID (CID), tying the developer centre to the gated customer portal.",
+      "quote": "Link your Mastercard Developers profile with an existing Mastercard Connect profile. This results in instant self-verification.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md",
+      "title": "Company Verification - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states a CID 'is a 6-10 digit ID that Mastercard assigns to a business'. Linking requires the same email on both accounts and an 'active' Connect account with fully verified company details."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Developers supports federated single sign-on (SAML 2.0) for customer organisations, requested through a Mastercard representative or a support ticket, with an estimated five weeks to enable.",
+      "quote": "Mastercard Developers supports the SAML 2.0 authentication protocol for FSSO.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/enable-sso-for-your-company/index.md",
+      "title": "Single Sign-On Client Onboarding - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "SSO login screen at https://developer.mastercard.com/account/log-in?login=sso; SSO users are auto-verified under the organisation; request must include the Mastercard-assigned company ID (CID)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The public developer Support page offers guides, forum and Engage links, but direct support (ticketing via 'Get Help') sits behind sign-in; account creation is open but some services refuse Production requests from non-business email domains.",
+      "quote": "If you’d like to contact our support team directly, please sign in to your account:",
+      "url": "https://developer.mastercard.com/support",
+      "title": "Support at Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. Account Management doc (curl) adds: accounts lock for 30 minutes after ten failed logins, passwords expire every 365 days, support email APIsupport@mastercard.com, and 'Some of our services do not allow Production Requests from account registered under non-business email domains.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A public Developer Forum (Salesforce Experience Cloud at forum.developer.mastercard.com) is readable without login, organised into General Questions, Technical API Questions, Finding the Right API and Partner Programs, with region filters.",
+      "quote": "we're here to help answer your questions about anything on Mastercard Developers.",
+      "url": "https://forum.developer.mastercard.com/s/",
+      "title": "Home - Mastercard Developers Forum",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. Recent public threads dated Sept 17th, 2026 ('Steps for going Developer Portal Production release') and Sept 7th, 2026 ('Who can we contact for Mastercard BIN File'). The /forum path on developer.mastercard.com itself redirects to login."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A public API Status page at developer.mastercard.com/api-status lists Sandbox and Production health for roughly 100 named services (including Mastercom, Mastercard Send, MDES, Mastercard Gateway regions, Mastercard Processing), polled about once a minute.",
+      "quote": "Mastercard Developers performs health checks approximately once per minute.",
+      "url": "https://developer.mastercard.com/api-status",
+      "title": "API Status - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. The footer 'Status' link resolves to /api-status; the bare /status path redirects to login. Page states 'Status of this API is available on the details page.' for Open Finance US/AU and offers 'Contact support' for unreflected incidents."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A separate Atlassian Statuspage at mastercard.statuspage.io titled 'Mastercard Status' exists with email, Slack, Teams, Atom and RSS subscriptions, but its listed components are labelled '(example)', suggesting an unconfigured template rather than a live partner status page.",
+      "quote": "Get email notifications whenever Mastercard creates , updates or resolves an incident.",
+      "url": "https://mastercard.statuspage.io/",
+      "title": "Mastercard Status",
+      "publisher": "Atlassian Statuspage (mastercard subdomain)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Components shown: 'API (example)' and 'Management Portal (example)', 'All Systems Operational', no incidents Sep 11-25, 2026. Ownership and the product it covers could not be confirmed from the page."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The developer portal publishes a public llms.txt index that states its audience and lists every product and documentation page, and serves each documentation page as Markdown at .../index.md URLs readable without JavaScript or login.",
+      "quote": "Mastercard Developers is a comprehensive API platform that provides issuers, acquirers, financial services companies, fintech, and developers with access to Mastercard products and services.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "llms.txt - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "527 KB file listing ~70 products under '## Products' and per-service documentation trees. The fuller export llms-full.txt returns HTTP 401 with JSON {\"code\":\"DP10005\",\"message\":\"Session expired.\"} and a redirect to login."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A 'Mastercard Developers API' lets customers automate the portal itself (onboarding, managing customers, creating and managing keys and credentials), mirroring the Developers Dashboard.",
+      "quote": "Any task you perform on the Dashboard can also be done via the API, and changes are reflected in both.",
+      "url": "https://developer.mastercard.com/platform/documentation/index.md",
+      "title": "Platform Overview - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Mastercard Developers API' also appears as a monitored service on the public API Status page."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard runs a remote Model Context Protocol (MCP) server for its developer documentation (developer.mcp.mastercard.com) plus an open-source Agent Toolkit SDK, so AI assistants and IDEs can query product docs, API specs and guides.",
+      "quote": "The Mastercard Developers Agent Toolkit connects AI assistants and IDEs to Mastercard Developers via the Model Context Protocol (MCP).",
+      "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/index.md",
+      "title": "Mastercard Developers Agent Toolkit - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Prebuilt install snippets for Claude Code, VS Code, Cursor and ChatGPT; an /ai/ landing page is linked from the portal nav; GitHub repo Mastercard/developers-agent-toolkit (55 stars, TypeScript) exposes services, documentation and API-operation tools."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard's public GitHub organisation holds 139 repositories, including OAuth 1.0a signers and client-encryption libraries in Java, Node, C#, Python, Go, Ruby, PHP and Swift, OAuth2/FAPI clients, an Insomnia plugin, and reference apps for Send, Mastercom, Open Banking and others.",
+      "quote": "Showing 10 of 139 repositories",
+      "url": "https://github.com/Mastercard",
+      "title": "Mastercard · GitHub",
+      "publisher": "Mastercard (GitHub organisation)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "GitHub API confirms public_repos 139 and org created 2012-04-17. Repos named connect-web-sdk, connect-android-sdk etc. belong to the Open Finance 'Connect' widget, not the Mastercard Connect customer portal; open-banking-us-openapi and oauth1-signer-java were pushed in September 2026."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Mastercard Developers blog is the portal's public release channel, announcing features such as a Project History audit trail (Jul 8, 2026), automatic Production mTLS certificates (Jun 18, 2026), OAuth 2.0 with FAPI 2.0 (May 13, 2026) and a Metrics Dashboard (Oct 28, 2025).",
+      "quote": "Track changes, team actions, access requests, and configuration updates with a built-in audit trail.",
+      "url": "https://developer.mastercard.com/blog",
+      "title": "Blog - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "2026-07-08",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; self-announcements of portal features, no outside check. Other posts: 'Easily Transfer Project Ownership' (Dec 11, 2025), 'Intent-Based Search' (Nov 5, 2025), 'Take Full Control of your integration with Mastercard Developers API' (Oct 10, 2025)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Connect (mastercardconnect.com) is the gated customer portal; the public landing shows only a sign-in (User ID plus Password / RSA SecurID token), a sign-up link, and footer links to the Brand Center, Data & Services and Developers.",
+      "quote": "Where you connect with Mastercard to grow your business",
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; HTML meta description reads 'Where you connect with Mastercard to grow your business.' Links: Forgot password/PIN, Replace RSA SecurID token, Sign up (/sign-up), Support (/faq, which redirects to /-/sign-in). A language chooser lists 18 UI languages. The 'Explore' button produced no visible public content."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Connect self-registration is a three-step flow that starts by finding the applicant's company and ends with approval by a Customer System Administrator at that company, not by Mastercard.",
+      "quote": "We’ll collect some information about your company, yourself, and your job, and then we’ll pass your account request over to an administrator at your company.",
+      "url": "https://www.mastercardconnect.com/-/sign-up",
+      "title": "Mastercard Connect - Sign Up",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; no form was filled. Page text: 'Connect helps you handle your day-to-day business needs with Mastercard.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The public Mastercard Connect Terms of Use (effective April 2026) define the platform as the access point to Mastercard content, products and services, with fees invoiced through the Mastercard Consolidated Billing System (MCBS), plus Beta and Pilot programmes offered inside the platform.",
+      "quote": "Any such fees will be invoiced, and must be paid by you, via the Mastercard Consolidated Billing System (\"MCBS\")",
+      "url": "https://www.mastercardconnect.com/-/terms-of-use-public",
+      "title": "Mastercard Connect Terms of Use",
+      "publisher": "Mastercard International Incorporated",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; 'EFFECTIVE DATE: April 2026'. Also: 'From time to time, certain portions of the Platform may be made available in a beta or non-released form', and Mastercard may invite new users to products 'including, e.g., Mastercard Market Trends' without Customer System Administrator approval."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Connect has an application 'Store' from which customers request specific applications; the Mastercard Move application (with MTF and production versions) hosting the Send Customer Portal is obtained this way.",
+      "quote": "The Customer Portal is part of the Mastercard Move application, which is accessed from Store in Mastercard Connect.",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/customer-site/index.md",
+      "title": "Customer Portal - Mastercard Send - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Change history: enhanced portal launched June 2025; non-financial search added November 2025 and July 2026. Links a public PDF user guide (updated July 2026)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Access to a Connect application is requested in-portal and may trigger issuance of an RSA software token by Mastercard's Information Security team; the Send Customer Portal lets Originating Institutions and Transaction Initiators search 90 days of transactions and download three years of reconciliation reports.",
+      "quote": "a separate request may be automatically initiated within Mastercard’s Information Security Team to issue an RSA Software Token.",
+      "url": "https://static.developer.mastercard.com/content/mastercard-send/uploads/Send_Customer_Portal_user_guide.pdf",
+      "title": "Mastercard Move: Send Customer Portal User Guide (July 2026)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "28-page PDF read with pypdf; cover dated July 2026. Also: 'Download the daily reconciliation reports for your Mastercard Send transaction activity within the last 3 years.'; portal UI languages English, Spanish, Canadian French, Portuguese; positioned as a self-help tool to reduce dependence on Mastercard Support."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Bulletins and release announcements for network participants are published in the Technical Resource Center on Mastercard Connect (trc-techresource.mastercard.com), which returns a 404 page to unauthenticated visitors; Send publishes a public monthly spreadsheet digest of its announcements as a workaround.",
+      "quote": "These are published to the Technical Resource Center on Mastercard Connect®.",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/announcements/index.md",
+      "title": "Announcements - Mastercard Send - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'the following spreadsheet lists all non-pricing Mastercard Send announcements published since January 2022.' (Announcements_Spreadsheet.xlsx, updated through August 2026). Mastercom docs cite bulletins by number, e.g. 'GLB 14458.1 Mastercom API Update for credPostedAsPurchase Amount Processing'. trc-techresource.mastercard.com root showed '404 We are fixing the problem.' in the browser."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Customer support cases for network products are raised in a 'Support Case Management' application on Mastercard Connect (mastercardconnect.com/case-mgmt/).",
+      "quote": "please create a case in Support Case Management on Mastercard Connect.",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/send-release-notes/index.md",
+      "title": "Release Notes and Dates - Mastercard Send - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Link target given as https://www.mastercardconnect.com/case-mgmt/ (gated)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Send publishes a public release calendar: quarterly API releases deployed to the Mastercard Test Facility (MTF) before Production, release notes first published about three months ahead, and a peak-season change freeze (23 Nov 2026 to 1 Jan 2027).",
+      "quote": "The main Mastercard Send API releases are quarterly, with each release delivered to the Mastercard Test Facility (MTF) environment before Production.",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/send-release-notes/index.md",
+      "title": "Release Notes and Dates - Mastercard Send - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Schedule shown: 26.2 MTF 21 July 2026 / Production 25 August 2026; 26.3 MTF 13 October 2026 / Production 10 November 2026; 26.4 January/February 2027. Deployments 10:00-22:00 CST."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Send registration is not self-service: prospective participants must contact a Mastercard regional representative (or use the product page 'Contact sales' form), and MTF/Production are opened only after a Mastercard Delivery Manager implements the approved programme.",
+      "quote": "To start registration and get more information about Mastercard Send, please contact your Mastercard regional representative.",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md",
+      "title": "Registration and Eligibility - Mastercard Send - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sandbox APIs are available before registration. Eligible participants listed: financial institutions, licensed money transmitters, service providers and digital players with sponsors, businesses, governments and humanitarian organisations."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Going live on the Mastercom API requires entitlements in 'Access Manager' within Mastercard Connect, and each Production client ID is bound to a single Mastercard Connect User ID, so the developer portal and the customer portal are coupled at go-live.",
+      "quote": "A user must have the correct Mastercom API BIN or ARID access in Access Manager within Mastercard Connect",
+      "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md",
+      "title": "Onboarding Checklist - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'A Production client ID is associated with one Mastercard Connect User ID.' and 'Service providers are provisioned by acquirers.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercom onboarding publishes SLAs: the Mastercard License Agreement is loaded 5-7 business days after artefacts are submitted, MTF tests are verified by the Customer Implementation Service (CIS) team, and production keys are approved within 3 business days.",
+      "quote": "Technical promotion and approval of production keys takes 3 business days upon submission of the correct artifacts.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md",
+      "title": "Onboarding Checklist - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Escalation: 'Get Help' on the Support page, then the assigned Mastercard representative. Mastercom overview (public Markdown) describes it as 'an end-to-end dispute management system that enables tracking of disputes throughout the entire dispute lifecycle'; support FAQ states a throttling policy of 150 requests per second and 13-month key expiry."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Fraud and Loss Database offers issuers three submission channels besides the API: Global File Transfer batch, manual online search and submission in Mastercard Connect, and file upload through Mastercard Connect.",
+      "quote": "Manual online search and submission by users through Mastercard Connect™.",
+      "url": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md",
+      "title": "Confirmed Fraud - Fraud and Loss Database - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Evidence that Connect hosts GUI equivalents of API products."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard's public rules library for processors and merchants is a single page listing downloadable PDFs: Mastercard Rules, Transaction Processing Rules, Security Rules and Procedures (Merchant Edition), Quick Reference Booklet, Mastercard Switch Rules, Chargebacks Made Simple, DCC Performance Guide and subscription-billing guides, plus compliance programme modules (BRAM, ECP, EFM, QMAP).",
+      "quote": "Feel free to download the official Mastercard Rules and other important documents below.",
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Seed URL mastercard.us/en-us/business/overview/support/rules.html redirects here; the page and its PDFs return HTTP 403 (Akamai) to curl and WebFetch but render in the browser pane. Disclaimer: documents 'will not always be absolutely current in all regards' and official standards prevail. PDF base path https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/. Page links Mastercard Academy for training."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard publishes US merchant interchange rates on a public page with a downloadable rate PDF, states rates are set by Mastercard and typically updated semiannually, and directs merchants to their acquirer for questions.",
+      "quote": "Mastercard interchange rates are typically updated semiannually, and we will publish interchange rates and related criteria on this Web site",
+      "url": "https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Current PDF linked: https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf (403 to curl, not read). Seed URL on mastercard.us redirects here."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Network Enablement Partner (NEP) programme gives service providers a direct relationship with Mastercard in Core, Acceptance and Processing Add-On, Platinum and Acceptance-Lite tiers, with an enrolment form, a digital logo, a contact mailbox and a public regional registry of registered NEPs; a parallel public registry lists registered payment facilitators.",
+      "quote": "A Network Enablement Partner (NEP) is a Service Provider that directly engages with Mastercard instead of leveraging the relationship of a Mastercard-Licensed Customer.",
+      "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+      "title": "Network enablement partners | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Benefits 'range from access to Mastercard tools and information, ICAs and BINs for testing purposes'; contact network_enablement_partner@mastercard.com; list 'Last updated July 28, 2026'. Payment facilitator registry at https://www.mastercard.com/us/en/business/support/payment-facilitators.html: 'An acquirer must register a service provider as a payment facilitator with Mastercard.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "BIN data for partners is distributed two ways: the BIN Lookup API on Mastercard Developers, and a Simplified BIN Account Range Table (SBART) file for approved customers requested through an access form on Mastercard Developers.",
+      "quote": "To request access to the SBART file, please visit Mastercard Developers; sign in or create an account; and complete the access request form.",
+      "url": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html",
+      "title": "Mastercard BIN Data | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "SBART request link https://developer.mastercard.com/sbart-bin/documentation/data/; questions to DBN.BinTableResource.Support@mastercard.com. llms.txt states BIN Lookup partners 'are required to request and download the complete dataset at least every 6 days'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Engage is a global partner programme and marketplace connecting customers with qualified fintech enablers, offered at no additional charge, claiming 170+ qualified partners and 500+ connected customers.",
+      "quote": "The Engage program is being offered to customers and partners at no additional charge.",
+      "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. Stats on page: '170+ qualified financial technology partners', '500+ customers connected to fintech partners' (footnoted 'Mastercard internal data'); 'Over 65 solutions'. The developer Support page links here as 'Visit Engage'; the seed https://developer.mastercard.com/engage returns a 404 in the SPA and HTTP 401 to curl."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Engage partner onboarding runs through an online application on the Engage portal, product qualification, Mastercard franchise screening, obtaining IDs and signing a programme agreement; partners receive promotion on the portal, access to Mastercard assets and education through Mastercard Academy.",
+      "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+      "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "FAQ: 'Partners enjoy global exposure, brand endorsement and promotion on the Engage portal, access to Mastercard assets, education through Mastercard Academy, and lead generation opportunities.' Regional leads in NA, LAC, Europe, APAC, MEA."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Engage partner directory at engagepartners.mastercard.com is public and filterable by country, region, solution area and target audience (Acquirers, Issuers, Payment Facilitators, Merchants, Fintechs and others); its nav also exposes a 'Partner portal' (app titled 'Mastercard Partner Hub') and an 'Engage solutions marketplace'.",
+      "quote": "Leverage our network of qualified partners to bring your innovation to market.",
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "title": "Mastercard Engage Partner Program | Directory",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Named on the Engage page: 'Customers can search the Engage directory online, filter by product, region, and solutions, and connect directly with partners in just a few clicks.' Partner portal link /english renders an Angular shell titled 'Mastercard Partner Hub' (gating not confirmed); marketplace at /english/solutions/."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Academy (academy.mastercard.com) is the training property for customers and partners, with a public landing page split by six regions, a public support/FAQ page, and a learning portal behind email-and-password sign-in.",
+      "quote": "On-demand and instructor-led training from Mastercard experts.",
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. Regions: Asia Pacific; Europe; Eastern Europe, Middle East & Africa; Latin America & Caribbean; Brazil; North America. 'Sign In' goes to /learn/ which redirects to /learn/sign_in (Email Address, Password). Linked from the rules page ('Explore training sessions via the Mastercard Academy') and from Engage partner benefits."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard.com's footer lists a fixed set of partner-facing 'Mastercard Sites': Mastercard Business Intelligence (mbi.mastercardservices.com), Mastercard Developers, Mastercard Marketing Center (mastercard.com/marketingcenter) and Priceless.com.",
+      "quote": "MASTERCARD SITES Priceless.com Mastercard Business Intelligence Mastercard Developers Mastercard Marketing Center Center for Inclusive Growth",
+      "url": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html",
+      "title": "Mastercard BIN Data | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Footer link for Business Intelligence carries utm_medium=loginbanner, indicating a login surface; Marketing Center and Business Intelligence were not fetched. The Connect footer additionally names Mastercard Brand Center and Mastercard Data & Services."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Mastercard Services site (mastercardservices.com, now served from mastercard.com) markets value-added services to customers and announces a 'Mastercard Partner Advantage Program', a Circle of Honor customer recognition programme and a webinar library.",
+      "quote": "Whether you're seeking the right partner or ready to become one, our network helps you connect, grow and scale faster.",
+      "url": "https://www.mastercardservices.com/en",
+      "title": "Mastercard Services for Business Growth | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; HTTP 403 to curl. Headline 'Announcing the Mastercard Partner Advantage Program'. Named as 'Mastercard Data & Services' in the Connect footer."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Mastercard Brand Center (brand.mastercard.com) is a public library of logo artwork, branding requirements, card artwork and decal ordering for issuers and merchants, last updated December 2023 by its own change log.",
+      "quote": "Access downloadable logo artwork, brand guidelines, and useful information",
+      "url": "https://brand.mastercard.com/brandcenter.html",
+      "title": "Mastercard Brand Center",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; HTTP 403 to curl. Nav: Download Artwork, Branding Requirements, Order Decals, Card Artwork; 'LATEST UPDATES' entries all '(Updated December 2023)'; footer copyright '© 1994-2025 Mastercard.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard Gateway, the acquirer-and-merchant payment gateway, has a separate public integration-guide site per region (e.g. na.gateway.mastercard.com) covering Hosted Checkout, Hosted Session, Direct Payment and Hosted Batch, with downloads, glossary and FAQs.",
+      "quote": "Thank you for choosing Mastercard Gateway. Choose the payment solution(s) that are most suitable for your business needs.",
+      "url": "https://na.gateway.mastercard.com/api/documentation/integrationGuidelines/index.html",
+      "title": "Integration Guide - Mastercard Gateway",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane (curl returns only the nav shell). The public API Status page tracks 'Mastercard Gateway - America / Asia Pacific / Europe / India / KSA'; llms.txt lists a Mastercard Gateway product 'to merchants and banks'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Merchant Cloud is listed on Mastercard Developers as a documentation-only product (no API authentication) whose content is a set of agentic-commerce tutorials and a developer playbook for merchants.",
+      "quote": "With Merchant Cloud, we’re powering tomorrow’s growth by connecting the dots today, bringing industry-leading commerce solutions onto a single, open platform.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "llms.txt - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "llms.txt entry: serviceId merchant-cloud, authType NONE, product page https://developer.mastercard.com/product/merchant-cloud/; pages include 'Developer Playbook on Preparing for Agentic Commerce' and Level 1-3 agentic commerce guides."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Mastercard's FY2025 Form 10-K names the Mastercard Developers platform as the way customers and partners access its digital assets, and describes Mastercard's role in defining the standards network participants must uphold; it does not mention Mastercard Connect, Engage, Academy or Mastercom by name.",
+      "quote": "Our Mastercard Developers platform makes it easy for customers and partners to leverage our many digital assets and services.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also quoted: 'We define the technical, operational and financial standards that all network participants are required to uphold' and 'Maestro (our PIN-based solution that operates globally) and Cirrus (our primary global cash access solution).' WebFetch summarised the document; absence of the other tool names is per that summary, not a full-text grep (direct download blocked pending a declared user agent)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Job postings naming internal tools: careers.mastercard.com search for \"Mastercard Connect\" returned 'Showing 0 results'",
+      "where": "https://careers.mastercard.com/us/en/search-results?keywords=%22Mastercard%20Connect%22",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Job postings naming Mastercom: careers.mastercard.com search for \"Mastercom\" returned 'Showing 0 results'",
+      "where": "https://careers.mastercard.com/us/en/search-results?keywords=Mastercom",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Text of the Mastercard Rules PDF and Transaction Processing Rules PDF (which name Global Operations/Security Bulletins and customer support channels)",
+      "where": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf (HTTP 403 to curl/WebFetch; not opened in browser)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Text of the US merchant interchange rate PDF",
+      "where": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf (HTTP 403 to curl)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Processor or acquirer documentation telling clients where to log in to Mastercard Connect (e.g. Fiserv, Worldpay, Elavon)",
+      "where": "Not searched: session web-search budget was exhausted before this task started; no direct URL known",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press or practitioner reviews of the Mastercard Connect or Mastercard Developers experience",
+      "where": "Not searched: session web-search budget exhausted; only primary properties fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mobile apps for partners (Mastercard Connect or Developers app in iOS/Android stores)",
+      "where": "No mention on developer.mastercard.com, mastercardconnect.com, academy.mastercard.com or mastercard.com business pages visited",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Partner events calendar (customer forums, developer conferences) on Mastercard properties",
+      "where": "None found on developer.mastercard.com, Engage, Academy landing or mastercard.com business support pages; investor.mastercard.com events are investor-only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Connect FAQ / help content (what applications Connect holds, who can register)",
+      "where": "https://www.mastercardconnect.com/faq and /-/faq redirect to /-/sign-in",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public content of the Technical Resource Center (bulletins, announcements, manuals)",
+      "where": "https://trc-techresource.mastercard.com/ returns a '404 We are fixing the problem.' page without login; deep links are cited from Send and Mastercom docs",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Maestro retirement statement in the FY2025 10-K",
+      "where": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm (WebFetch summary reported no mention)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Marketing Center and Mastercard Business Intelligence: audience and gating",
+      "where": "https://www.mastercard.com/marketingcenter and https://mbi.mastercardservices.com/ not fetched (only named in footers)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Seed https://developer.mastercard.com/engage",
+      "where": "Returns 404 'Page not found' in the SPA and HTTP 401 to curl; Engage lives at mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html and engagepartners.mastercard.com",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "developer.mastercard.com/api-status is a live per-service status page ('Mastercard Developers performs health checks approximately once per minute.') listing ~100 services",
+      "b": "mastercard.statuspage.io, titled 'Mastercard Status', shows 'All Systems Operational' but only placeholder components 'API (example)' and 'Management Portal (example)'",
+      "urls": ["https://developer.mastercard.com/api-status", "https://mastercard.statuspage.io/"]
+    },
+    {
+      "a": "Mastercard Developers Support page describes Engage as 'a directory of approved specialists that can implement and build your next solution'",
+      "b": "The Engage page defines participants as 'qualified partners' who 'completed Mastercard's product qualification process' and describes a marketplace and portal, not only a directory",
+      "urls": ["https://developer.mastercard.com/support", "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html"]
+    },
+    {
+      "a": "Brand Center footer reads '© 1994-2025 Mastercard.' and its latest-updates entries are dated December 2023",
+      "b": "Every other Mastercard property fetched (developer portal, mastercard.com business pages, Connect) shows '© 1994-2026'",
+      "urls": ["https://brand.mastercard.com/brandcenter.html", "https://www.mastercard.com/us/en/business/support/rules.html"]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (customer portal; sign-in with User ID and Password / RSA SecurID token)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md"
+    },
+    {
+      "name": "Mastercard Connect Store (in-portal application catalogue)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/customer-site/index.md"
+    },
+    {
+      "name": "Mastercard Move and Mastercard Move - MTF applications (Send Customer Portal)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://static.developer.mastercard.com/content/mastercard-send/uploads/Send_Customer_Portal_user_guide.pdf"
+    },
+    {
+      "name": "Technical Resource Center (bulletins, release announcements, manuals) on Mastercard Connect",
+      "url": "https://trc-techresource.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/announcements/index.md"
+    },
+    {
+      "name": "Support Case Management on Mastercard Connect",
+      "url": "https://www.mastercardconnect.com/case-mgmt/",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-release-notes/index.md"
+    },
+    {
+      "name": "Access Manager within Mastercard Connect (BIN/ARID entitlements)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md"
+    },
+    {
+      "name": "Mastercard Connect Support/FAQ (redirects to sign-in)",
+      "url": "https://www.mastercardconnect.com/faq",
+      "named_at": "https://www.mastercardconnect.com/"
+    },
+    {
+      "name": "Mastercard Consolidated Billing System (MCBS) (invoicing for platform fees)",
+      "url": "",
+      "named_at": "https://www.mastercardconnect.com/-/terms-of-use-public"
+    },
+    {
+      "name": "Mastercard Market Trends (product accessed via the Connect platform by invitation)",
+      "url": "",
+      "named_at": "https://www.mastercardconnect.com/-/terms-of-use-public"
+    },
+    {
+      "name": "Global File Transfer (GFT) batch channel",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md"
+    },
+    {
+      "name": "Mastercard Test Facility (MTF) environment (opened after programme approval)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Mastercard Developers dashboard / My Projects (login)",
+      "url": "https://developer.mastercard.com/dashboard",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/index.md"
+    },
+    {
+      "name": "Mastercard Developers support ticketing ('Get Help', sign-in required)",
+      "url": "https://developer.mastercard.com/support",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Mastercard Developers llms-full.txt, /status and /forum paths (redirect to login)",
+      "url": "https://developer.mastercard.com/llms-full.txt",
+      "named_at": "https://developer.mastercard.com/platform/documentation/quick-start-guide/"
+    },
+    {
+      "name": "Mastercard Developers SSO login",
+      "url": "https://developer.mastercard.com/account/log-in?login=sso",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/enable-sso-for-your-company/index.md"
+    },
+    {
+      "name": "SBART (Simplified BIN Account Range Table) access request form on Mastercard Developers",
+      "url": "https://developer.mastercard.com/sbart-bin/documentation/data/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html"
+    },
+    {
+      "name": "Mastercard Academy learning portal (email/password sign-in)",
+      "url": "https://academy.mastercard.com/learn/",
+      "named_at": "https://academy.mastercard.com/"
+    },
+    {
+      "name": "Mastercard Engage partner portal ('Mastercard Partner Hub'; application and partner onboarding)",
+      "url": "https://engagepartners.mastercard.com/english",
+      "named_at": "https://engagepartners.mastercard.com/english/directory/"
+    },
+    {
+      "name": "Mastercard Engage solutions marketplace",
+      "url": "https://engagepartners.mastercard.com/english/solutions/",
+      "named_at": "https://engagepartners.mastercard.com/english/directory/"
+    },
+    {
+      "name": "Network Enablement Partner enrolment form",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html"
+    },
+    {
+      "name": "Mastercard Business Intelligence (footer link tagged utm_medium=loginbanner)",
+      "url": "https://mbi.mastercardservices.com/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html"
+    },
+    {
+      "name": "Mastercard Marketing Center (gating not verified)",
+      "url": "https://www.mastercard.com/marketingcenter",
+      "named_at": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html"
+    }
+  ],
+  "sources_read": [
+    { "url": "https://developer.mastercard.com/", "title": "Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/", "title": "Quick Start Guide - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/support", "title": "Support at Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/", "title": "Platform Overview - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/index.md", "title": "Platform Overview (Markdown)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/index.md", "title": "Account Management", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md", "title": "Company Verification", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/enable-sso-for-your-company/index.md", "title": "Single Sign-On Client Onboarding", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/index.md", "title": "Mastercard Developers Agent Toolkit", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/developer-tools/index.md", "title": "Developer Tools", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/llms.txt", "title": "llms.txt - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/llms-full.txt", "title": "llms-full.txt", "ok": false, "wall": "login" },
+    { "url": "https://developer.mastercard.com/robots.txt", "title": "robots.txt", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/api-status", "title": "API Status - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/status", "title": "(redirect to login)", "ok": false, "wall": "login" },
+    { "url": "https://developer.mastercard.com/forum", "title": "(redirect to login)", "ok": false, "wall": "login" },
+    { "url": "https://forum.developer.mastercard.com/s/", "title": "Home - Mastercard Developers Forum", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/blog", "title": "Blog - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/engage", "title": "404 Error: Page not found", "ok": false, "wall": "dead" },
+    { "url": "https://developer.mastercard.com/apis", "title": "Mastercard Developers (SPA shell)", "ok": false, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/", "title": "Mastercom - Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/index.md", "title": "Mastercom (Markdown)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md", "title": "Mastercom Support", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/announcements/index.md", "title": "Mastercom Announcements", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/change-logs/index.md", "title": "Mastercom Release History", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/index.md", "title": "Mastercom Quick Start Guide", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md", "title": "Mastercom Onboarding Checklist", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/customer-site/index.md", "title": "Mastercard Send Customer Portal", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md", "title": "Mastercard Send Registration and Eligibility", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/announcements/index.md", "title": "Mastercard Send Announcements", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/send-release-notes/index.md", "title": "Mastercard Send Release Notes and Dates", "ok": true, "wall": "none" },
+    { "url": "https://static.developer.mastercard.com/content/mastercard-send/uploads/Send_Customer_Portal_user_guide.pdf", "title": "Mastercard Move: Send Customer Portal User Guide (July 2026)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md", "title": "Confirmed Fraud - Fraud and Loss Database", "ok": true, "wall": "none" },
+    { "url": "https://github.com/Mastercard", "title": "Mastercard · GitHub", "ok": true, "wall": "none" },
+    { "url": "https://github.com/Mastercard/developers-agent-toolkit", "title": "developers-agent-toolkit README", "ok": true, "wall": "none" },
+    { "url": "https://api.github.com/orgs/Mastercard", "title": "GitHub API: Mastercard org", "ok": true, "wall": "none" },
+    { "url": "https://api.github.com/orgs/Mastercard/repos?per_page=100", "title": "GitHub API: Mastercard repos (139)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercardconnect.com/", "title": "Mastercard Connect", "ok": true, "wall": "login" },
+    { "url": "https://www.mastercardconnect.com/faq", "title": "(redirects to /-/sign-in)", "ok": false, "wall": "login" },
+    { "url": "https://www.mastercardconnect.com/-/sign-up", "title": "Mastercard Connect - Sign Up (step 1 of 3)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercardconnect.com/-/terms-of-use-public", "title": "Mastercard Connect Terms of Use", "ok": true, "wall": "none" },
+    { "url": "https://trc-techresource.mastercard.com/", "title": "Not Found (404 without login)", "ok": false, "wall": "dead" },
+    { "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html", "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US (redirects to mastercard.com/us/en/business/support/rules.html)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html", "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US (redirects to mastercard.com)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf", "title": "Mastercard Rules PDF", "ok": false, "wall": "bot" },
+    { "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf", "title": "US merchant interchange rates PDF", "ok": false, "wall": "bot" },
+    { "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html", "title": "Network enablement partners | Mastercard US", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/us/en/business/support/payment-facilitators.html", "title": "Find a payment facilitator | Mastercard US", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html", "title": "Mastercard BIN Data | Mastercard US", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/us/en/business/support.html", "title": "404 Not Found", "ok": false, "wall": "dead" },
+    { "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html", "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global", "ok": true, "wall": "none" },
+    { "url": "https://engagepartners.mastercard.com/english/directory/", "title": "Mastercard Engage Partner Program | Directory", "ok": true, "wall": "none" },
+    { "url": "https://engagepartners.mastercard.com/english", "title": "Mastercard Partner Hub (Angular shell; gating not confirmed)", "ok": false, "wall": "none" },
+    { "url": "https://academy.mastercard.com/", "title": "Mastercard Academy", "ok": true, "wall": "none" },
+    { "url": "https://academy.mastercard.com/support", "title": "Support - Mastercard Academy", "ok": true, "wall": "none" },
+    { "url": "https://academy.mastercard.com/learn/", "title": "Sign In (redirects to /learn/sign_in)", "ok": false, "wall": "login" },
+    { "url": "https://www.mastercardservices.com/en", "title": "Mastercard Services for Business Growth | Mastercard US", "ok": true, "wall": "none" },
+    { "url": "https://brand.mastercard.com/brandcenter.html", "title": "Mastercard Brand Center", "ok": true, "wall": "none" },
+    { "url": "https://na.gateway.mastercard.com/api/documentation/integrationGuidelines/index.html", "title": "Integration Guide - Mastercard Gateway", "ok": true, "wall": "none" },
+    { "url": "https://na.gateway.mastercard.com/api/documentation/integrationGuidelines/hostedBatch/accessPaymentGateway.html?locale=en_US", "title": "Access the Mastercard Gateway (JS shell only)", "ok": false, "wall": "none" },
+    { "url": "https://mastercard.statuspage.io/", "title": "Mastercard Status", "ok": true, "wall": "none" },
+    { "url": "https://careers.mastercard.com/us/en/search-results?keywords=%22Mastercard%20Connect%22", "title": "Search and Apply for Jobs at Mastercard (0 results)", "ok": true, "wall": "none" },
+    { "url": "https://careers.mastercard.com/us/en/search-results?keywords=Mastercom", "title": "Search and Apply for Jobs at Mastercard (0 results)", "ok": true, "wall": "none" },
+    { "url": "https://investor.mastercard.com/", "title": "Mastercard Investor Relations", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1141391&type=10-K", "title": "EDGAR 10-K filing list for Mastercard Inc. (CIK 1141391)", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.htm", "title": "Form 10-K filing index, period 2025-12-31, filed 2026-02-11", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm", "title": "Mastercard Incorporated Form 10-K (FY2025)", "ok": true, "wall": "none" },
+    { "url": "https://status.developer.mastercard.com/", "title": "(no such host)", "ok": false, "wall": "dead" },
+    { "url": "https://trc.mastercard.com/", "title": "(no such host)", "ok": false, "wall": "dead" },
+    { "url": "https://engage.mastercard.com/", "title": "(no such host)", "ok": false, "wall": "dead" },
+    { "url": "https://www.mastercardmarketingcenter.com/", "title": "(no such host)", "ok": false, "wall": "dead" }
+  ]
+}

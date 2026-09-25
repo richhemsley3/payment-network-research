@@ -1,0 +1,250 @@
+{
+ "network": "unionpay",
+ "seed": "https://open.unionpayintl.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://open.unionpayintl.com/#/home",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "login",
+   "lang": null,
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "UnionPay International Open Platform",
+   "h1": "",
+   "description": null,
+   "landmarks": {
+    "header": false,
+    "nav": 1,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [
+    {
+     "text": "Login",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Login",
+     "href": null,
+     "top": 24
+    }
+   ],
+   "audience_words": [
+    "partner",
+    "atm"
+   ],
+   "headings": [],
+   "screenshot": "assets/unionpay/unionpay-open-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": null,
+   "skip_link": false,
+   "landmarks": {
+    "header": false,
+    "nav": 1,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 0,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "button: Login",
+    "button",
+    "button",
+    "button",
+    "button",
+    "button",
+    "button",
+    "button",
+    "button",
+    "a: UnionPay Open Platform"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": true,
+   "hamburger": false,
+   "nav_visible": 0,
+   "screenshot": "assets/unionpay/unionpay-open-s11-02-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://open.unionpayintl.com/",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": 200,
+   "ms": 3507,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1504,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1503,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1504,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1505,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1507,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1506,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1503,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1504,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1503,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://open.unionpayintl.com/#/home",
+   "final": "https://open.unionpayintl.com/#/home",
+   "status": null,
+   "ms": 1505,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "unionpay-open-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://open.unionpayintl.com/#/home",
+   "captured": "2026-09-25",
+   "file": "assets/unionpay/unionpay-open-s1-01-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "unionpay-open-s02",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://open.unionpayintl.com/#/home",
+   "captured": "2026-09-25",
+   "file": "assets/unionpay/unionpay-open-s11-02-20260925.webp",
+   "kb": 26
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 11,
+  "screenshots": 2,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

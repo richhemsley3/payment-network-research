@@ -1,0 +1,9 @@
+# developer and partner portals found during the pane pass, walked with the full script
+eftpos|https://www.developers.auspayplus.com.au/|A|dev
+elo|https://dev.elo.com.br/|A|dev
+unionpay|https://open.unionpayintl.com/|A|open
+interac|https://innovation.interac.ca/|A|hub
+nyce|https://www.fisglobal.com/products/nyce-payments-network|B|fis
+star|https://www.fiserv.com/en/solutions/card-and-digital-payment-solutions/debit-networks/star-network.html|B|fiserv
+accel|https://www.fiserv.com/en/solutions/card-and-digital-payment-solutions/debit-networks/accel-network.html|B|fiserv
+rupay|https://www.npci.org.in/what-we-do/rupay/product-overview|B|npci

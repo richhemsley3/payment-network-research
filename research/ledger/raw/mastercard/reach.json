@@ -1,0 +1,1083 @@
+{
+  "network": "mastercard",
+  "dimension": "reach",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "Mastercard Incorporated is a Delaware corporation formed in May 2001; there has been no change of legal owner since 2020 (it remains an independent NYSE-listed company).",
+      "quote": "Mastercard Incorporated was incorporated as a Delaware corporation in May 2001.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); 10-K filed 2026-02-11; Class A common stock trades on NYSE under 'MA'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The operating network entity is Mastercard International Incorporated, a Delaware non-stock membership corporation formed in November 1966 (the licensing/membership vehicle for customers).",
+      "quote": "our principal operating subsidiary, Mastercard International Incorporated, a Delaware non-stock (or membership) corporation that was formed in November 1966",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); "
+    },
+    {
+      "dimension": "reach",
+      "claim": "Headquarters (principal executive offices) are at 2000 Purchase Street, Purchase, NY 10577.",
+      "quote": "2000 Purchase Street Purchase, NY 10577 (Address of principal executive offices)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); cover page."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard's Operations Center is in O'Fallon, Missouri (listed as 'St. Louis'), separate from the Purchase NY global headquarters.",
+      "quote": "St. Louis 2200 Mastercard Blvd O'Fallon, MO 63368+7263 U.S.A Telephone: 636.722.6100",
+      "url": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html",
+      "title": "Global Locations | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); page lists Global Headquarters (Purchase), Operations Center (O'Fallon) and Regional Headquarters."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Regional headquarters are Dubai (Middle East & Africa), Miami (Latin America/Caribbean), Purchase (North America), Singapore (Asia/Pacific) and Waterloo, Belgium (Europe).",
+      "quote": "Waterloo (EUROPE) Chaussée de Tervuren 198A B-1410, Waterloo, Belgium",
+      "url": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html",
+      "title": "Global Locations | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); other regional entries on the same page: 'Dubai (MIDDLE EAST & AFRICA)', 'Miami (LATIN AMERICA/CARIBBEAN)', 'Purchase (NORTH AMERICA)', 'Singapore (ASIA/PACIFIC)'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Share structure: 885.2 million voting Class A shares and 6.6 million non-voting Class B shares outstanding as of February 6, 2026.",
+      "quote": "there were 885,216,386 shares outstanding of the registrant's Class A common stock and 6,595,925 shares outstanding of the registrant's Class B",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); 10-K describes Class A as voting stock and Class B as non-voting stock."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Largest beneficial holders as of April 21, 2026 were Vanguard (8.6%) and BlackRock (7.7%); ownership percentages are based on 877,780,670 Class A shares outstanding.",
+      "quote": "The Vanguard Group, Inc.1 75,250,260 8.6% 100 Vanguard Blvd. Malvern, PA 19355 BlackRock, Inc.2 50 Hudson Yards 67,825,777 7.7%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm",
+      "title": "Mastercard Incorporated 2026 Proxy Statement (DEF 14A)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-04-27",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); table text extracted from the proxy; superscript footnote numerals appear inline. Proxy notes Vanguard filed a 13G/A on March 27, 2026 disaggregating its holdings."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard Foundation (via Mastercard Foundation Asset Management Corporation, Toronto) held 65,234,702 Class A shares, 7.4%, per a Schedule 13G/A of April 16, 2026.",
+      "quote": "Mastercard Foundation Asset Management Corporation3 250 Yonge Street, Suite 2400 65,234,702 7.4%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm",
+      "title": "Mastercard Incorporated 2026 Proxy Statement (DEF 14A)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-04-27",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); footnote: MFAM is a wholly owned subsidiary of Mastercard Foundation and became investment manager for the Foundation's directly held shares on February 1, 2024. Proxy also bars directors with Foundation affiliations."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Brand family: primary brand Mastercard plus the Maestro and Cirrus sub-brands, all owned through affiliates.",
+      "quote": "our family of well-known and trusted brands, including our primary brand Mastercard®, as well as our Maestro® and Cirrus® brands.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); Intellectual Property section adds: 'We own a number of valuable trademarks that are essential to our business, including Mastercard, Maestro and Cirrus, through one or more affiliates.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Roles of the sub-brands: Maestro is the PIN-based (single-message style) debit solution and Cirrus is the global ATM/cash-access brand.",
+      "quote": "Maestro (our PIN-based solution that operates globally) and Cirrus (our primary global cash access solution)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); same wording appears in the FY2024 10-K."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Maestro is being retired in Europe: from July 1, 2023 issuers replace expired or lost Maestro cards, typically with Debit Mastercard, and no new Maestro cards are issued in Europe after that date.",
+      "quote": "starting July 1, 2023, banks and other card issuers will begin replacing expired or lost Maestro cards - for instance with a Debit Mastercard",
+      "url": "https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/",
+      "title": "Blog from Valerie Nowak: Why this Maestro is retiring after 30 years | Mastercard Newsroom",
+      "publisher": "Mastercard Newsroom (Europe)",
+      "published": "2021-10-19",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); network's own announcement; Europe-scoped. Page also states: 'no new Maestro cards will be issued in Europe after that date.' Predates the 2025 Capital One/Discover deal (not relevant to Mastercard ownership)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard said in October 2021 that more than 400 million Maestro cards were in circulation worldwide (own figure, no outside check).",
+      "quote": "There are now more than 400 million in circulation worldwide.",
+      "url": "https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/",
+      "title": "Blog from Valerie Nowak: Why this Maestro is retiring after 30 years | Mastercard Newsroom",
+      "publisher": "Mastercard Newsroom (Europe)",
+      "published": "2021-10-19",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); figure as of 2021; the 10-K card table excludes Maestro and Cirrus cards so no current Maestro count is published."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard owns the UK real-time account-based network Vocalink, designated by the Bank of England as a specified service provider; Mastercard itself is a recognised payment system in the UK.",
+      "quote": "the Bank of England designated Vocalink™, our real-time account-based payments network platform, as a \"specified service provider\", and Mastercard as a \"recognized payment system\"",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); "
+    },
+    {
+      "dimension": "reach",
+      "claim": "In the EU Mastercard is designated a systemically important payment system (SIPS) and is subject to the ECB's systemic-importance regulation.",
+      "quote": "In the European Union (the \"EU\"), Mastercard has been designated as a systemically important payment system (SIPS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); 10-K also notes EU rules require separation of scheme activities from switching/processing, and formal oversight in Australia, Brazil, India, Mexico, South Africa and Canada."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Recorded Future (cyber threat intelligence) is part of the Mastercard group as of 2025 and was combined into a new Mastercard Threat Intelligence service.",
+      "quote": "we launched Mastercard Threat Intelligence, which combines Mastercard's payment expertise and global network visibility with Recorded Future's leading cyber threat intelligence capabilities",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); 10-K risk factors describe Mastercard as 'a provider of global threat intelligence services through Recorded Future'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Network reach: transactions enabled in more than 150 currencies and more than 220 countries and territories (FY2025 10-K).",
+      "quote": "We enable transactions for our customers through our payment network in more than 150 currencies and in more than 220 countries and territories.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); identical wording in FY2024 10-K. Contradicts mastercard.com About page ('more than 210') and newsroom boilerplate ('200+')."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard's own About page states reach of 'more than 210 countries and territories', a lower figure than the 10-K's 'more than 220'.",
+      "quote": "By connecting individuals and organizations in more than 210 countries and territories today",
+      "url": "https://www.mastercard.com/global/en/for-the-world/about-us.html",
+      "title": "About Mastercard | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); see contradictions."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Acceptance footprint (FY2025 10-K) is stated only as 'hundreds of millions' of acceptance locations and digital access points; the FY2024 10-K gave 'approximately 150 million acceptance locations and over 250 million digital access points'.",
+      "quote": "permitting account holders to use our products at hundreds of millions of acceptance locations and digital access points worldwide",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); see contradictions for the FY2024 figures."
+    },
+    {
+      "dimension": "reach",
+      "claim": "FY2024 10-K quantified acceptance as approximately 150 million acceptance locations and over 250 million digital access points worldwide.",
+      "quote": "at approximately 150 million acceptance locations and over 250 million digital access points worldwide",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2025-02-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); FY2025 10-K dropped the specific numbers."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Gross dollar volume in 2025 was $10.6 trillion and switched transactions 175.5 billion (10-K infographic).",
+      "quote": "Switched transactions $10.6T up 15% 175.5B up 9% up 10%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); infographic text extraction: GDV $10.6T (up 9% local currency), cross-border volume up 15%, switched transactions 175.5B (up 10%). FY2024 10-K: '$9.8T up 18% 159.4B up 11% up 11%' i.e. GDV $9.8T, switched transactions 159.4B."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Full-year 2025 GDV grew 9% and cross-border volume 15% on a local-currency basis (proxy letter to stockholders).",
+      "quote": "our gross dollar volume grew by 9%, with cross-border volume growth up 15% year-over-year on a local currency basis",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm",
+      "title": "Mastercard Incorporated 2026 Proxy Statement (DEF 14A)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-04-27",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); proxy also says 'We facilitated more than 175 billion transactions'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The Q4/FY2025 earnings release (Jan 29, 2026) states GDV growth of 9% and switched transactions growth of 10% for full-year 2025.",
+      "quote": "Gross dollar volume growth of 9%, on a local currency basis",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm",
+      "title": "Mastercard Incorporated Reports Fourth Quarter and Full Year 2025 Financial Results (8-K Exhibit 99.1)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-01-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "also: 'Switched transactions growth of 10%'; full-year net revenue $32.8 billion."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Cards in force: 3.7 billion Mastercard and Maestro-branded cards issued by customers as of December 31, 2025.",
+      "quote": "As of December 31, 2025, the company's customers had issued 3.7 billion Mastercard and Maestro-branded cards.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm",
+      "title": "Mastercard Incorporated Reports Fourth Quarter and Full Year 2025 Financial Results (8-K Exhibit 99.1)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-01-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Cards in force were still 3.7 billion Mastercard and Maestro-branded cards as of June 30, 2026 (latest public figure).",
+      "quote": "As of June 30, 2026, the company's customers had issued 3.7 billion Mastercard and Maestro-branded cards",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+      "title": "Mastercard Incorporated Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Q2 2026: 'Gross dollar volume up 8%', 'Switched transactions growth of 9%', 'Cross-border volume growth of 12%', net revenue $9.3 billion."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard-branded cards excluding Maestro and Cirrus: 1,083m consumer credit, 2,134m consumer debit/prepaid and 174m commercial (total 3,391m) as of Dec 31, 2025, with GDV split $3,878bn / $5,349bn / $1,405bn.",
+      "quote": "Consumer Credit $ 3,878 8 % 37 % 1,083 3 % Consumer Debit and Prepaid 2 5,349 9 % 50 % 2,134 11 %",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); table continues 'Commercial Credit and Debit 1,405 11 % 13 % 174 14 %'; footnote: '1Excludes Maestro and Cirrus cards and volume generated by those cards.' FY2024 table: 1,070m / 1,935m / 153m cards."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard switches more than 70% of transactions on Mastercard and Maestro cards including nearly all cross-border transactions; the remainder is switched domestically by others.",
+      "quote": "We switch more than 70% of all transactions for Mastercard and Maestro-branded cards, including nearly all cross-border transactions.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); FY2024 10-K said 'We switch approximately 70% of all transactions for Mastercard and Maestro-branded cards'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard operates a four-party (open-loop) model and does not issue cards, extend credit or set acquirer pricing.",
+      "quote": "We do not issue cards, extend credit, determine or receive revenue from interest rates or other fees charged to account holders by issuers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); preceded by: 'Our payment network supports what is often referred to as a \"four-party\" payments network'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard is dual-message AND single-message capable: its network comprises the Mastercard ATM Network, the Dual Message System, GCMS clearing and SAM settlement, and a Single Message System also generates financial advices.",
+      "quote": "the Mastercard ATM Network, the Dual Message System, the Global Clearing Management System (GCMS), and the Settlement Account Management (SAM) system",
+      "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules, 16 December 2025 (MCSR)",
+      "publisher": "Mastercard",
+      "published": "2025-12-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); PDF retrieved through the browser session (direct curl/WebFetch return 403) and parsed with pypdf. Same document: 'a Mastercard Single Message System-generated Financial Transaction Advice/0220 message'. Manual is scoped to intra-EEA/UK/Gibraltar and intracountry EEA/UK/Gibraltar transactions."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercom Extended API handles Single Message System disputes while the base Mastercom API covers dual-message transactions, confirming both message models are live on the network.",
+      "quote": "The Mastercom Extended API consists of endpoints used by issuers and acquirers for Single Message System dispute processing.",
+      "url": "https://developer.mastercard.com/product/mastercom",
+      "title": "Mastercom | Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); same page: Mastercom API 'used to create and manage disputes for cleared dual message original transactions'; Mastercom Extended regions: US, Canada, LAC, MEA, AP."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Federal Reserve Regulation II data: dual-message networks carried 71.4% of US debit transactions by volume in 2023 (context for Mastercard's dual-message debit; the Fed does not break out networks by name).",
+      "quote": "Dual-message networks, which traditionally processed mainly signature-authenticated transactions, accounted for 71.4 and 72.9 percent of the total by volume and value, respectively, in 2023.",
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "The Fed - 2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer and Merchant Fraud Losses Related to Debit Card Transactions",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "not Mastercard-specific; the Fed report does not name Mastercard."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Network participants are defined as financial institutions or other entities using the network as issuer or acquirer; participant categories addressed by the Switch Rules include Principal Issuer, Principal Acquirer, Principal Affiliate, Processor, Branded Processor and Network Enablement Partner.",
+      "quote": "Audience Internal; Branded Processor; Principal Acquirer; Principal Issuer; Principal Affiliate; Processor; Network Enablement Partner",
+      "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules, 16 December 2025 (MCSR)",
+      "publisher": "Mastercard",
+      "published": "2025-12-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); definition in same doc: 'Network Participant A financial institution or other entity that uses the Network for Network Activity. An Issuer or an Acquirer are Network Participants.' No participant counts are published."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard's China domestic switching alliance: JV 'Mastercard NUCC Information Technology (Beijing) Co. Ltd.' with NetsUnion Clearing Corp received in-principle PBOC approval in February 2020.",
+      "quote": "Mastercard NUCC Information Technology (Beijing) Co. Ltd.",
+      "url": "https://www.digitaltransactions.net/mastercard-forms-a-joint-venture-to-clear-domestic-chinese-card-transactions/",
+      "title": "Mastercard Forms a Joint Venture To Clear Domestic Chinese Card Transactions",
+      "publisher": "Digital Transactions (Kevin Woodward)",
+      "published": "2020-02-11",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "article: 'in-principle approval from the People's Bank of China'; ownership split not disclosed in the article."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Domestic processing in China through the NetsUnion JV went live in May 2024.",
+      "quote": "Mastercard Inc. has started processing card payments domestically in China, working with its partner NetsUnion Clearing Corp. (NUCC), China's nationwide processing platform.",
+      "url": "https://www.digitaltransactions.net/mastercard-begins-domestic-china-processing-and-other-digital-transactions-news-briefs-from-5-10-24/",
+      "title": "Mastercard Begins Domestic China Processing and other Digital Transactions News briefs from 5/10/24",
+      "publisher": "Digital Transactions",
+      "published": "2024-05-10",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard's FY2024 10-K confirms domestic transaction processing in China began in 2024 through its joint venture.",
+      "quote": "In 2024, we began processing domestic transactions in China through our joint venture. Mastercard-branded cards are now accepted for both domestic and cross-border purchases.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2025-02-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); the 10-K does not name NetsUnion."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In many countries local debit schemes are the main domestic brands and Mastercard's brands ride mainly on cross-border traffic (co-badged arrangements), and Mastercard competes with ATM and POS debit networks.",
+      "quote": "In various countries, local debit brands serve as the main domestic brands, while our brands are used mostly to enable cross-border transactions",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); preceded by 'Debit and Local Networks. We compete with ATM and point-of-sale debit networks.' No reciprocal-acceptance agreements are disclosed."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard names Visa, American Express, JCB, China UnionPay and Discover as its general-purpose network competitors (10-K filed Feb 2026, after Capital One's May 18, 2025 acquisition of Discover).",
+      "quote": "We compete worldwide with payments networks such as Visa, American Express, JCB, China UnionPay and Discover, among others.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); also: 'a number of our customers issue American Express-, China UnionPay- and/or Discover-branded payment cards in a manner consistent with a four-party system.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Reach reduction: Mastercard suspended its network services in Russia on March 5, 2022 after more than 25 years there; Russian-issued cards and foreign cards at Russian merchants/ATMs are no longer supported.",
+      "quote": "we have decided to suspend our network services in Russia.",
+      "url": "https://www.mastercard.com/news/press/2022/march/mastercard-statement-on-suspension-of-russian-operations/",
+      "title": "Mastercard Statement on Suspension of Russian Operations | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "2022-03-05",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); statement adds: 'Mastercard has operated in Russia for more than 25 years' and that Russian domestic transactions run over the central bank switch; Mir is described as a competitor with 'no connection between our brands'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard Move (disbursements/remittances) reaches more than 17 billion endpoints in 60+ originating and 155 receiving countries.",
+      "quote": "with a payout reach of more than 17 billion endpoints globally across multiple channels, and in more than 60 originating countries and 155 receiving countries",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); Mastercard Send is a component of Mastercard Move (developer site cites Allstate using Mastercard Send)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Headcount: about 39,800 employees at end-2025 (35,300 at end-2024), 70% outside the US across more than 90 countries.",
+      "quote": "As of December 31, 2025, we employed approximately 39,800 persons globally, of which approximately 70% were employed outside of the U.S. in more than 90 countries.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); FY2024 10-K: 'approximately 35,300 persons globally, of which approximately 69% were employed outside of the U.S.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "UK regulator finding: over 95% of transactions on UK-issued cards run on Mastercard or Visa rails; other schemes are a very small share.",
+      "quote": "Mastercard and Visa are central to this; over 95% of transactions using UK- issued cards are made on their rails.",
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF saved by WebFetch and parsed with pypdf. Also: 'In 2021, Mastercard and Visa together accounted for over 95% of all UK debit and credit card payments by value.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Australia: the RBA designates Debit MasterCard, MasterCard prepaid and MasterCard credit as regulated card systems alongside eftpos and Visa; Mastercard debit is one side of Australian dual-network debit cards.",
+      "quote": "The RBA regulates the following designated debit card systems: eftpos, Debit MasterCard and Visa debit.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging - Conclusions Paper, 31 March 2026",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF read from a copy in the session scratchpad (rba-conclusions.pdf, title page '31 March 2026'); URL taken from the RBA 2026-03 review page. Same doc: 'DNDCs are debit cards that can have transactions routed via more than one card network.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard Engage partner programme claims 170+ qualified fintech partners and 500+ customers connected (own figures), while its public directory lists 202 partners.",
+      "quote": "170+ qualified financial technology partners [2] 500+ customers connected to fintech partners [2]",
+      "url": "https://www.mastercard.com/engage",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); footnote [2] 'Mastercard internal data'. Directory page shows '(1-48 of 202)'. FAQ says the programme is offered 'at no additional charge'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mastercard Developers is positioned in the 10-K as the single access point for customers and partners to its APIs and digital assets.",
+      "quote": "Our Mastercard Developers platform makes it easy for customers and partners to leverage our many digital assets and services.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); developer homepage shows 'Log in' / 'Sign up', a forum, status page and llms.txt."
+    },
+    {
+      "dimension": "reach",
+      "claim": "About 130 crypto co-brand card programmes ran on the Mastercard acceptance network in 2025 and roughly 40% of transactions were tokenised.",
+      "quote": "Enabling the spending of crypto and stablecoin assets across Mastercard's acceptance network through approximately 130 crypto co-brand card programs",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "read via Claude browser pane (get_page_text); also: 'In 2025, approximately 40% of all Mastercard transactions are now tokenized'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Nilson Report figures for Mastercard purchase volume, cards or market share (2024-2026) re-published in trade press",
+      "where": "nilsonreport.com/research, nilsonreport.com/newsletters, digitaltransactions.net/?s=Nilson, pymnts.com/?s=nilson+mastercard, prnewswire.com search 'Nilson Report' (only a generic $51.920 trillion global card volume citation found)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Number of ATMs on the Mastercard/Cirrus ATM Network",
+      "where": "FY2025 10-K (no ATM count), mastercard.us ATM locator page, Mastercard Switch Rules PDF",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Count of customers, licensees, issuers or acquirers (membership/participant counts)",
+      "where": "FY2025 10-K, 2026 proxy, Mastercard Switch Rules; only Engage partner counts published",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Reciprocal acceptance or network alliance agreements with other card networks (terms 'reciprocal', 'network alliance', 'co-badg')",
+      "where": "FY2025 10-K full text (0 hits); only the NetsUnion China JV found via Digital Transactions and FY2024 10-K",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Rules (mastercard-rules.pdf) definitions of Customer, Principal, Affiliate, Association and Licensee",
+      "where": "mastercard.us rules page: PDF returns 403 to WebFetch and curl; 1.8MB file not retrieved through the browser in this pass",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Federal Reserve Regulation II network-level data naming Mastercard (debit volumes by network)",
+      "where": "federalreserve.gov 2023 interchange fee report HTML (networks not named)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current worldwide Maestro card count after the 2023 European phase-out",
+      "where": "FY2025 10-K (card table excludes Maestro and Cirrus), Q4 2025 and Q2 2026 earnings releases (combined Mastercard and Maestro figure only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press report of the October 2021 Maestro retirement announcement",
+      "where": "finextra.com (Cloudflare block; guessed article ID wrong), pymnts.com, paymentsdive.com, digitaltransactions.net, americanbanker.com, thepaypers.com, paymentsindustryintelligence.com searches; only the Mastercard newsroom blog was reachable",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "FY2025 and FY2024 10-K: 'more than 150 currencies and in more than 220 countries and territories'",
+      "b": "mastercard.com About page: 'more than 210 countries and territories today'; newsroom boilerplate (2021, 2022): '200+ countries and territories worldwide'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "https://www.mastercard.com/global/en/for-the-world/about-us.html",
+        "https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/"
+      ]
+    },
+    {
+      "a": "FY2024 10-K: 'approximately 150 million acceptance locations and over 250 million digital access points worldwide'",
+      "b": "FY2025 10-K: 'hundreds of millions of acceptance locations and digital access points worldwide' (specific figures dropped)",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+      ]
+    },
+    {
+      "a": "Mastercard Engage page: '170+ qualified financial technology partners'",
+      "b": "Engage partner directory pagination: '(1-48 of 202)' partners listed",
+      "urls": [
+        "https://www.mastercard.com/engage",
+        "https://engagepartners.mastercard.com/english/directory/"
+      ]
+    },
+    {
+      "a": "FY2024 10-K: 'We switch approximately 70% of all transactions for Mastercard and Maestro-branded cards'",
+      "b": "FY2025 10-K: 'We switch more than 70% of all transactions for Mastercard and Maestro-branded cards' (year-on-year change in wording, not necessarily an error)",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+      ]
+    },
+    {
+      "a": "FY2025 10-K card table totals 3,391 million cards (1,083 + 2,134 + 174) 'Excludes Maestro and Cirrus cards'",
+      "b": "Q4 2025 earnings release: '3.7 billion Mastercard and Maestro-branded cards' as of December 31, 2025 (different scope: includes Maestro)",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (client portal; redirects to sign-in)",
+      "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+      "named_at": "https://www.mastercardconnect.com/"
+    },
+    {
+      "name": "Mastercard Developers account (Log in / Sign up; projects and sandbox)",
+      "url": "https://developer.mastercard.com/account/sign-up",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "Mastercom (dispute system; API access via developer project; Mastercom Extended for Single Message System)",
+      "url": "https://developer.mastercard.com/product/mastercom",
+      "named_at": "https://developer.mastercard.com/product/mastercom"
+    },
+    {
+      "name": "Fraud & Loss Database (issuer fraud reporting via Mastercom)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/product/mastercom"
+    },
+    {
+      "name": "Mastercard Engage partner programme (apply online; programme agreement)",
+      "url": "https://www.mastercard.com/engage",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "Mastercard Engage partner directory (public, no login; 202 partners)",
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "named_at": "https://www.mastercard.com/engage"
+    },
+    {
+      "name": "Mastercard Academy (training; region selector; used for Engage partner education)",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://www.mastercard.us/en-us/business/overview/support/rules.html"
+    },
+    {
+      "name": "Mastercard Business Intelligence (public content with Sign-up/Sign-in)",
+      "url": "https://mbi.mastercardservices.com/",
+      "named_at": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html"
+    },
+    {
+      "name": "Mastercard Marketing Center (page rendered only a cookie banner; wall type undetermined)",
+      "url": "https://www.mastercard.com/marketingcenter",
+      "named_at": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html"
+    },
+    {
+      "name": "Mastercard Brand Center (page rendered blank in browser; 403 to WebFetch)",
+      "url": "https://brand.mastercard.com/",
+      "named_at": "https://www.mastercardconnect.com/"
+    },
+    {
+      "name": "Mastercard Data & Services (redirects to public services page)",
+      "url": "https://www.mastercardservices.com/",
+      "named_at": "https://www.mastercardconnect.com/"
+    },
+    {
+      "name": "Mastercard Partner Advantage Program (services partner programme)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/services.html"
+    },
+    {
+      "name": "Mastercard Developers forum and Status page",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "Mastercard Send (money movement API; part of Mastercard Move)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "Network Enablement Partner (participant category named in Switch Rules audience)",
+      "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "named_at": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1141391&type=10-K&dateb=&owner=include&count=10",
+      "title": "EDGAR 10-K filing list, Mastercard Inc",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.htm",
+      "title": "EDGAR filing index, 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000011/ma-20241231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2024",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/exb21-12312025.htm",
+      "title": "Exhibit 21 Subsidiaries, FY2025 10-K",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001141391.json",
+      "title": "EDGAR submissions JSON, CIK 1141391",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391&type=DEF%2014A&dateb=&owner=include&count=10",
+      "title": "EDGAR DEF 14A filing list",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/0001141391-26-000021-index.htm",
+      "title": "EDGAR filing index, DEF 14A 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000021/ma-20260427.htm",
+      "title": "Mastercard Incorporated 2026 Proxy Statement (DEF 14A)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1141391&type=8-K&dateb=&owner=include&count=20",
+      "title": "EDGAR 8-K filing list",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/0001141391-26-000081-index.htm",
+      "title": "EDGAR filing index, 8-K 2026-07-30",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+      "title": "Mastercard Q2 2026 earnings release (EX-99.1)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/",
+      "title": "EDGAR directory, 8-K 2026-01-29 (index page returned 503 twice)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm",
+      "title": "Mastercard Q4/FY2025 earnings release (EX-99.1)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.mastercard.com/",
+      "title": "Mastercard Investor Relations home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+      "title": "Quarterly Results (content JS-rendered; no data returned)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.mastercard.com/investor-news/default.aspx",
+      "title": "Investor News (content JS-rendered; no data returned)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/company/who-we-are.html",
+      "title": "who-we-are (404 / Access Denied to scripted fetch)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/for-the-world/about-us.html",
+      "title": "About Mastercard | Mastercard Global",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html",
+      "title": "Global Locations | Mastercard Global",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/engage",
+      "title": "Mastercard Engage | Mastercard Global",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules, 16 December 2025 (PDF, via browser session)",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules PDF (403 to WebFetch and curl; 1.8MB; not retrieved)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/",
+      "title": "Blog from Valerie Nowak: Why this Maestro is retiring after 30 years",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/news/press/2022/march/mastercard-statement-on-suspension-of-russian-operations/",
+      "title": "Mastercard Statement on Suspension of Russian Operations",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/news/search/?q=maestro",
+      "title": "Mastercard Newsroom search (returned 0 results)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/personal/get-support/find-nearest-atm.html",
+      "title": "Mastercard ATM locator (no ATM count)",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/services.html",
+      "title": "Mastercard Services for Business Growth | Mastercard US",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect (sign-in wall; not entered)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://developer.mastercard.com/",
+      "title": "Mastercard Developers homepage",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.mastercard.com/product/mastercom",
+      "title": "Mastercom | Mastercard Developers",
+      "ok": true,
+      "wall": "bot"
+    },
+    {
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "title": "Mastercard Engage partner directory",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy (region selector landing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://mbi.mastercardservices.com/",
+      "title": "Homepage | Mastercard Business Intelligence",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/marketingcenter",
+      "title": "Mastercard Marketing Center (only cookie banner rendered)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://brand.mastercard.com/",
+      "title": "Mastercard Brand Center (blank render; 403 to WebFetch)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://github.com/Mastercard",
+      "title": "GitHub Mastercard (not fetched in this pass)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Regulation II Reports and Data Collections",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "The Fed - 2023 Interchange Fee Revenue... Debit Card Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "PSR market review into card scheme and processing fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "PSR MR22/1.10 final report landing page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "PSR MR22/1.10 final report PDF",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/media-releases/2026/",
+      "title": "RBA media releases 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-10.html",
+      "title": "RBA media release 2026-10 Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "RBA Review of Retail Payments Regulation 2026-03",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "RBA Conclusions Paper PDF (read from scratchpad copy)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/mastercard-forms-a-joint-venture-to-clear-domestic-chinese-card-transactions/",
+      "title": "Mastercard Forms a Joint Venture To Clear Domestic Chinese Card Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/mastercard-begins-domestic-china-processing-and-other-digital-transactions-news-briefs-from-5-10-24/",
+      "title": "Mastercard Begins Domestic China Processing... 5/10/24",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=NetsUnion",
+      "title": "Digital Transactions search: NetsUnion",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Maestro",
+      "title": "Digital Transactions search: Maestro (only 2017 article)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Nilson",
+      "title": "Digital Transactions search: Nilson (nothing relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://nilsonreport.com/research/",
+      "title": "Nilson Report research page (paywalled publications)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://nilsonreport.com/newsletters/",
+      "title": "Nilson Report newsletter index (no content)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.prnewswire.com/search/news/?keyword=%22Nilson%20Report%22",
+      "title": "PR Newswire search: Nilson Report",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/?s=maestro+retire",
+      "title": "PYMNTS search: maestro retire (nothing relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/?s=netsunion",
+      "title": "PYMNTS search: netsunion (nothing relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.finextra.com/newsarticle/39051/mastercard-to-phase-out-maestro-brand",
+      "title": "Finextra (wrong article ID; Cloudflare JS challenge to curl)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=maestro",
+      "title": "Payments Dive search: maestro (nothing relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbanker.com/search?q=maestro%20mastercard%20retire",
+      "title": "American Banker search (no results rendered)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://thepaypers.com/search?q=maestro",
+      "title": "The Paypers search (no content rendered)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "http://paymentsindustryintelligence.com/?s=maestro",
+      "title": "Payments Industry Intelligence search (only 2017 items)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.nfcw.com/?s=maestro",
+      "title": "NFCW search (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maestro_(debit_card)",
+      "title": "Wikipedia Maestro (used only to locate the Mastercard newsroom URL; not cited)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

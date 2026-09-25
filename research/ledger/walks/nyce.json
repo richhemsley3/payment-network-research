@@ -1,0 +1,356 @@
+{
+ "network": "nyce",
+ "seed": "https://www.nyce.net/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.nyce.net/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "NYCE® Payments Network — Your Debit Card at 90%+ of U.S. ATMs",
+   "h1": "Your debit card works at over 90% of ATMs in the U.S. thanks to the NYCE® Payments Network",
+   "description": "The NYCE Payments Network connects your debit card to over 90% of ATMs in the U.S., 2 million retail locations, and surcharge-free cash through the SUM® program.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Home",
+    "ATM Locator",
+    "SUM ATM Locator",
+    "Financial Institutions",
+    "FAQs"
+   ],
+   "ctas": [
+    {
+     "text": "Find an ATM",
+     "href": "https://www.nyce.net/atmlocator/nyce.html"
+    },
+    {
+     "text": "Find an ATM",
+     "href": "https://www.nyce.net/atmlocator/sum.html"
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "atm",
+    "bank",
+    "financial institution"
+   ],
+   "headings": [
+    "h1: Your debit card works at over 90% of ATMs in the U.S. thanks to the NYCE® Paymen",
+    "h2: The power of your debit card and the NYCE Payments Network",
+    "h3: 90%+ ATM Coverage",
+    "h3: 2M+ Retail Locations",
+    "h3: Online Shopping",
+    "h3: Built-In Security",
+    "h2: Looking for a NYCE ATM?",
+    "h2: ATM Locator",
+    "h2: Looking for surcharge-free cash?",
+    "h2: SUM ATM Locator"
+   ],
+   "screenshot": "assets/nyce/nyce-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Home",
+     "url": "https://www.nyce.net/index.html",
+     "status": 200,
+     "result": "readable",
+     "words": 246,
+     "title": "NYCE® Payments Network — Your Debit Card at 90%+ of U.S. ATMs"
+    },
+    {
+     "nav": "ATM Locator",
+     "url": "https://www.nyce.net/atmlocator/nyce.html",
+     "status": 200,
+     "result": "readable",
+     "words": 53,
+     "title": "NYCE ATM Locator — NYCE® Payments Network"
+    },
+    {
+     "nav": "SUM ATM Locator",
+     "url": "https://www.nyce.net/atmlocator/sum.html",
+     "status": 200,
+     "result": "readable",
+     "words": 53,
+     "title": "SUM ATM Locator — NYCE® Payments Network"
+    },
+    {
+     "nav": "FAQs",
+     "url": "https://www.nyce.net/faqs.html",
+     "status": 200,
+     "result": "readable",
+     "words": 185,
+     "title": "FAQs — NYCE® Payments Network"
+    }
+   ],
+   "walls": 0,
+   "readable": 4
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "a: Home",
+    "a: ATM Locator",
+    "a: SUM ATM Locator",
+    "a: Financial Institutions",
+    "a: FAQs",
+    "a: Find an ATM",
+    "a: Find an ATM",
+    "a: Home",
+    "a: ATM Locator"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 1,
+   "screenshot": "assets/nyce/nyce-s11-02-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1749,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.nyce.net/index.html",
+   "final": "https://www.nyce.net/index.html",
+   "status": 200,
+   "ms": 1652,
+   "why": "S2 Home"
+  },
+  {
+   "url": "https://www.nyce.net/atmlocator/nyce.html",
+   "final": "https://www.nyce.net/atmlocator/nyce.html",
+   "status": 200,
+   "ms": 2366,
+   "why": "S2 ATM Locator"
+  },
+  {
+   "url": "https://www.nyce.net/atmlocator/sum.html",
+   "final": "https://www.nyce.net/atmlocator/sum.html",
+   "status": 200,
+   "ms": 2008,
+   "why": "S2 SUM ATM Locator"
+  },
+  {
+   "url": "https://www.nyce.net/faqs.html",
+   "final": "https://www.nyce.net/faqs.html",
+   "status": 200,
+   "ms": 1669,
+   "why": "S2 FAQs"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1598,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1597,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1652,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1603,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1797,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1643,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1601,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1614,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1625,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.nyce.net/",
+   "final": "https://www.nyce.net/",
+   "status": 200,
+   "ms": 1669,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.nyce.net/index.html",
+   "final": "https://www.nyce.net/index.html",
+   "status": 200,
+   "ms": 1636,
+   "why": "S12 Home"
+  },
+  {
+   "url": "https://www.nyce.net/atmlocator/nyce.html",
+   "final": "https://www.nyce.net/atmlocator/nyce.html",
+   "status": 200,
+   "ms": 2003,
+   "why": "S12 ATM Locator"
+  },
+  {
+   "url": "https://www.nyce.net/atmlocator/sum.html",
+   "final": "https://www.nyce.net/atmlocator/sum.html",
+   "status": 200,
+   "ms": 1916,
+   "why": "S12 SUM ATM Locator"
+  },
+  {
+   "url": "https://www.nyce.net/faqs.html",
+   "final": "https://www.nyce.net/faqs.html",
+   "status": 200,
+   "ms": 1674,
+   "why": "S12 FAQs"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "nyce-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.nyce.net/",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-s1-01-20260925.webp",
+   "kb": 66
+  },
+  {
+   "id": "nyce-s02",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.nyce.net/",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-s11-02-20260925.webp",
+   "kb": 34
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 19,
+  "screenshots": 2,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

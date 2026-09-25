@@ -1,0 +1,541 @@
+{
+ "network": "affn",
+ "seed": "https://www.affn.org/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.affn.org/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "contact",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "",
+   "h1": "",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 0,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Contact Us",
+    "Services",
+    "Resources",
+    "VOB Support",
+    "About Us"
+   ],
+   "ctas": [],
+   "signin": [],
+   "audience_words": [
+    "atm",
+    "bank"
+   ],
+   "headings": [
+    "h2: Armed Forces Financial Network®",
+    "h2: Congratulations",
+    "h3: Ann Morsch",
+    "h2: Armed Forces Financial Network®Salutes our Veterans & Military Families",
+    "h2: Congratulations",
+    "h3: Karmelita Sewell",
+    "h2: Armed Forces Financial Network ®"
+   ],
+   "screenshot": "assets/affn/affn-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Contact Us",
+     "url": "https://www.affn.org/contact-us",
+     "status": 200,
+     "result": "readable",
+     "words": 362,
+     "title": ""
+    },
+    {
+     "nav": "Services",
+     "url": "https://www.affn.org/services",
+     "status": 200,
+     "result": "contact",
+     "words": 152,
+     "title": ""
+    },
+    {
+     "nav": "Resources",
+     "url": "https://www.affn.org/resources",
+     "status": 200,
+     "result": "contact",
+     "words": 194,
+     "title": ""
+    },
+    {
+     "nav": "VOB Support",
+     "url": "https://www.affn.org/veteran-owned-business-support",
+     "status": 200,
+     "result": "contact",
+     "words": 170,
+     "title": ""
+    },
+    {
+     "nav": "About Us",
+     "url": "https://www.affn.org/about-us",
+     "status": 200,
+     "result": "readable",
+     "words": 340,
+     "title": ""
+    },
+    {
+     "nav": "AFFN Matching Grant Program",
+     "url": "https://www.affn.org/services/affn-matching-grant-program",
+     "status": 200,
+     "result": "readable",
+     "words": 521,
+     "title": ""
+    },
+    {
+     "nav": "AFFN Partner Annual Meetings",
+     "url": "https://www.affn.org/services/affn-partner-annual-meetings",
+     "status": 200,
+     "result": "contact",
+     "words": 100,
+     "title": ""
+    },
+    {
+     "nav": "Debit Point of Sale",
+     "url": "https://www.affn.org/services/debit-point-of-sale",
+     "status": 200,
+     "result": "readable",
+     "words": 304,
+     "title": ""
+    },
+    {
+     "nav": "AFFN Videos & Member Testimonials",
+     "url": "https://www.affn.org/resources/affn-videos-and-member-testimonials",
+     "status": 200,
+     "result": "readable",
+     "words": 272,
+     "title": ""
+    },
+    {
+     "nav": "VBBP",
+     "url": "https://www.affn.org/resources/vbbp",
+     "status": 200,
+     "result": "readable",
+     "words": 626,
+     "title": ""
+    },
+    {
+     "nav": "AFFN Graphic Standards",
+     "url": "https://www.affn.org/resources/affn-graphic-standards",
+     "status": 200,
+     "result": "readable",
+     "words": 269,
+     "title": ""
+    },
+    {
+     "nav": "Other Links",
+     "url": "https://www.affn.org/resources/other-links",
+     "status": 200,
+     "result": "contact",
+     "words": 115,
+     "title": ""
+    },
+    {
+     "nav": "Military Services",
+     "url": "https://www.affn.org/resources/military-services",
+     "status": 200,
+     "result": "contact",
+     "words": 48,
+     "title": ""
+    },
+    {
+     "nav": "Important Dates",
+     "url": "https://www.affn.org/resources/important-dates",
+     "status": 200,
+     "result": "contact",
+     "words": 224,
+     "title": ""
+    },
+    {
+     "nav": "Assault Forward",
+     "url": "https://www.affn.org/veteran-owned-business-support/assault-forward",
+     "status": 200,
+     "result": "contact",
+     "words": 208,
+     "title": ""
+    },
+    {
+     "nav": "Dog Tag Bakery",
+     "url": "https://www.affn.org/veteran-owned-business-support/dog-tag-bakery",
+     "status": 200,
+     "result": "contact",
+     "words": 207,
+     "title": ""
+    }
+   ],
+   "walls": 9,
+   "readable": 7
+  },
+  "S3": {
+   "from": "Services",
+   "url": "https://www.affn.org/services",
+   "title": "",
+   "headings": [
+    "h1: Services"
+   ],
+   "links": 5,
+   "sample": [
+    {
+     "text": "Home",
+     "href": "https://www.affn.org/en"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.affn.org/en/services/affn-matching-grant-program"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.affn.org/en/services/affn-partner-annual-meetings"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.affn.org/en/services/debit-point-of-sale"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.affn.org/en/veteran-owned-business-support"
+    }
+   ],
+   "wall": "contact",
+   "screenshot": "assets/affn/affn-s3-04-20260925.webp"
+  },
+  "S7": {
+   "from": "Contact Us",
+   "url": "https://www.affn.org/contact-us",
+   "title": "",
+   "phones": [
+    "727.227.2880",
+    "727.227.5773",
+    "540-347-3305",
+    "202.734.5007"
+   ],
+   "mailto": [
+    "info@affn.org",
+    "Rhonda.Wilson@affn.org",
+    "Ann.Morsch@affn.org",
+    "Scott.Duszynski@affn.org",
+    "Christopher.Kelly@affn.org"
+   ],
+   "form": true,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/affn/affn-s7-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.affn.org/",
+   "final": "https://www.affn.org/",
+   "status": 200,
+   "ms": 2194,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.affn.org/contact-us",
+   "final": "https://www.affn.org/contact-us",
+   "status": 200,
+   "ms": 1786,
+   "why": "S2 Contact Us"
+  },
+  {
+   "url": "https://www.affn.org/services",
+   "final": "https://www.affn.org/services",
+   "status": 200,
+   "ms": 1743,
+   "why": "S2 Services"
+  },
+  {
+   "url": "https://www.affn.org/resources",
+   "final": "https://www.affn.org/resources",
+   "status": 200,
+   "ms": 1784,
+   "why": "S2 Resources"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support",
+   "final": "https://www.affn.org/veteran-owned-business-support",
+   "status": 200,
+   "ms": 1814,
+   "why": "S2 VOB Support"
+  },
+  {
+   "url": "https://www.affn.org/about-us",
+   "final": "https://www.affn.org/about-us",
+   "status": 200,
+   "ms": 2000,
+   "why": "S2 About Us"
+  },
+  {
+   "url": "https://www.affn.org/services/affn-matching-grant-program",
+   "final": "https://www.affn.org/services/affn-matching-grant-program",
+   "status": 200,
+   "ms": 1762,
+   "why": "S2 AFFN Matching Grant Program"
+  },
+  {
+   "url": "https://www.affn.org/services/affn-partner-annual-meetings",
+   "final": "https://www.affn.org/services/affn-partner-annual-meetings",
+   "status": 200,
+   "ms": 1886,
+   "why": "S2 AFFN Partner Annual Meetings"
+  },
+  {
+   "url": "https://www.affn.org/services/debit-point-of-sale",
+   "final": "https://www.affn.org/services/debit-point-of-sale",
+   "status": 200,
+   "ms": 1714,
+   "why": "S2 Debit Point of Sale"
+  },
+  {
+   "url": "https://www.affn.org/resources/affn-videos-and-member-testimonials",
+   "final": "https://www.affn.org/resources/affn-videos-and-member-testimonials",
+   "status": 200,
+   "ms": 2531,
+   "why": "S2 AFFN Videos & Member Testimonials"
+  },
+  {
+   "url": "https://www.affn.org/resources/vbbp",
+   "final": "https://www.affn.org/resources/vbbp",
+   "status": 200,
+   "ms": 2262,
+   "why": "S2 VBBP"
+  },
+  {
+   "url": "https://www.affn.org/resources/affn-graphic-standards",
+   "final": "https://www.affn.org/resources/affn-graphic-standards",
+   "status": 200,
+   "ms": 1878,
+   "why": "S2 AFFN Graphic Standards"
+  },
+  {
+   "url": "https://www.affn.org/resources/other-links",
+   "final": "https://www.affn.org/resources/other-links",
+   "status": 200,
+   "ms": 1830,
+   "why": "S2 Other Links"
+  },
+  {
+   "url": "https://www.affn.org/resources/military-services",
+   "final": "https://www.affn.org/resources/military-services",
+   "status": 200,
+   "ms": 1787,
+   "why": "S2 Military Services"
+  },
+  {
+   "url": "https://www.affn.org/resources/important-dates",
+   "final": "https://www.affn.org/resources/important-dates",
+   "status": 200,
+   "ms": 1795,
+   "why": "S2 Important Dates"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support/assault-forward",
+   "final": "https://www.affn.org/veteran-owned-business-support/assault-forward",
+   "status": 200,
+   "ms": 1932,
+   "why": "S2 Assault Forward"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support/dog-tag-bakery",
+   "final": "https://www.affn.org/veteran-owned-business-support/dog-tag-bakery",
+   "status": 200,
+   "ms": 1737,
+   "why": "S2 Dog Tag Bakery"
+  },
+  {
+   "url": "https://www.affn.org/services",
+   "final": "https://www.affn.org/services",
+   "status": 200,
+   "ms": 1766,
+   "why": "S3 Services"
+  },
+  {
+   "url": "https://www.affn.org/services/affn-matching-grant-program",
+   "final": "https://www.affn.org/services/affn-matching-grant-program",
+   "status": 200,
+   "ms": 1721,
+   "why": "S3 AFFN Matching Grant Program"
+  },
+  {
+   "url": "https://www.affn.org/services/affn-partner-annual-meetings",
+   "final": "https://www.affn.org/services/affn-partner-annual-meetings",
+   "status": 200,
+   "ms": 1726,
+   "why": "S3 AFFN Partner Annual Meetings"
+  },
+  {
+   "url": "https://www.affn.org/services/debit-point-of-sale",
+   "final": "https://www.affn.org/services/debit-point-of-sale",
+   "status": 200,
+   "ms": 1710,
+   "why": "S3 Debit Point of Sale"
+  },
+  {
+   "url": "https://www.affn.org/services",
+   "final": "https://www.affn.org/services",
+   "status": 200,
+   "ms": 1789,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.affn.org/",
+   "final": "https://www.affn.org/",
+   "status": 200,
+   "ms": 2202,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.affn.org/contact-us",
+   "final": "https://www.affn.org/contact-us",
+   "status": 200,
+   "ms": 1762,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support",
+   "final": "https://www.affn.org/veteran-owned-business-support",
+   "status": 200,
+   "ms": 1834,
+   "why": "S7 VOB Support"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support/assault-forward",
+   "final": "https://www.affn.org/veteran-owned-business-support/assault-forward",
+   "status": 200,
+   "ms": 1718,
+   "why": "S7 Assault Forward"
+  },
+  {
+   "url": "https://www.affn.org/contact-us",
+   "final": "https://www.affn.org/contact-us",
+   "status": 200,
+   "ms": 1771,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.affn.org/",
+   "final": "https://www.affn.org/",
+   "status": 200,
+   "ms": 1815,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.affn.org/contact-us",
+   "final": "https://www.affn.org/contact-us",
+   "status": 200,
+   "ms": 1758,
+   "why": "S12 Contact Us"
+  },
+  {
+   "url": "https://www.affn.org/services",
+   "final": "https://www.affn.org/services",
+   "status": 200,
+   "ms": 1785,
+   "why": "S12 Services"
+  },
+  {
+   "url": "https://www.affn.org/resources",
+   "final": "https://www.affn.org/resources",
+   "status": 200,
+   "ms": 1816,
+   "why": "S12 Resources"
+  },
+  {
+   "url": "https://www.affn.org/veteran-owned-business-support",
+   "final": "https://www.affn.org/veteran-owned-business-support",
+   "status": 200,
+   "ms": 1711,
+   "why": "S12 VOB Support"
+  },
+  {
+   "url": "https://www.affn.org/about-us",
+   "final": "https://www.affn.org/about-us",
+   "status": 200,
+   "ms": 1957,
+   "why": "S12 About Us"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "affn-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.affn.org/",
+   "captured": "2026-09-25",
+   "file": "assets/affn/affn-s1-01-20260925.webp",
+   "kb": 90
+  },
+  {
+   "id": "affn-s02",
+   "station": "S2",
+   "note": "wall: Services",
+   "url": "https://www.affn.org/services",
+   "captured": "2026-09-25",
+   "file": "assets/affn/affn-s2-02-20260925.webp",
+   "kb": 100
+  },
+  {
+   "id": "affn-s03",
+   "station": "S2",
+   "note": "wall: Resources",
+   "url": "https://www.affn.org/resources",
+   "captured": "2026-09-25",
+   "file": "assets/affn/affn-s2-03-20260925.webp",
+   "kb": 84
+  },
+  {
+   "id": "affn-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.affn.org/services",
+   "captured": "2026-09-25",
+   "file": "assets/affn/affn-s3-04-20260925.webp",
+   "kb": 100
+  },
+  {
+   "id": "affn-s05",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.affn.org/contact-us",
+   "captured": "2026-09-25",
+   "file": "assets/affn/affn-s7-05-20260925.webp",
+   "kb": 32
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 33,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 9,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

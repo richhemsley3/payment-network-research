@@ -1,0 +1,98 @@
+{
+ "network": "cb",
+ "seed": "https://www.cartes-bancaires.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.cartes-bancaires.com/",
+   "status": 403,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "bot",
+   "lang": null,
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Page not found",
+   "h1": "",
+   "description": null,
+   "landmarks": {
+    "header": false,
+    "nav": 0,
+    "main": true,
+    "footer": false,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [],
+   "signin": [],
+   "audience_words": [],
+   "headings": [
+    "h2: Page not found"
+   ],
+   "screenshot": "assets/cb/cb-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.cartes-bancaires.com/",
+   "final": "https://www.cartes-bancaires.com/",
+   "status": 403,
+   "ms": 1609,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.cartes-bancaires.com/",
+   "final": "https://www.cartes-bancaires.com/",
+   "status": 403,
+   "ms": 1533,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.cartes-bancaires.com/",
+   "final": "https://www.cartes-bancaires.com/",
+   "status": 403,
+   "ms": 1543,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "cb-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.cartes-bancaires.com/",
+   "captured": "2026-09-25",
+   "file": "assets/cb/cb-s1-01-20260925.webp",
+   "kb": 8
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 3,
+  "screenshots": 1,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

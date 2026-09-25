@@ -1,0 +1,34 @@
+{
+ "network": "dgn",
+ "seed": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+ "tier": "shot",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do"
+  },
+  "S1": {
+   "title": "Fraud and Risk Center log in with the other client portals"
+  }
+ },
+ "visited": [
+  {
+   "url": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+   "why": "extra shot"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "dgn-fraudrisk-s01",
+   "station": "S1",
+   "note": "Fraud and Risk Center log in with the other client portals",
+   "url": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-fraudrisk-s1-01-20260925.webp",
+   "kb": 42
+  }
+ ],
+ "errors": []
+}

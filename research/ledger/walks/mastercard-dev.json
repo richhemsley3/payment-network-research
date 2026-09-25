@@ -1,0 +1,771 @@
+{
+ "network": "mastercard",
+ "seed": "https://developer.mastercard.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.mastercard.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": "declined: Reject All",
+   "wall": "none",
+   "lang": "en-US",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Mastercard Developers",
+   "h1": "APIs built by developers, for developers",
+   "description": null,
+   "landmarks": {
+    "header": false,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Products",
+    "Solutions",
+    "Resources",
+    "AI",
+    "Log in",
+    "Sign up"
+   ],
+   "ctas": [
+    {
+     "text": "Products",
+     "href": null
+    },
+    {
+     "text": "Solutions",
+     "href": "https://developer.mastercard.com/solutions"
+    },
+    {
+     "text": "Resources",
+     "href": null
+    },
+    {
+     "text": "AI",
+     "href": "https://developer.mastercard.com/ai"
+    },
+    {
+     "text": "Log in",
+     "href": "https://developer.mastercard.com/account/log-in"
+    },
+    {
+     "text": "Sign up",
+     "href": "https://developer.mastercard.com/account/sign-up"
+    },
+    {
+     "text": "Search⌘K",
+     "href": null
+    },
+    {
+     "text": "Learn more",
+     "href": null
+    },
+    {
+     "text": "View documentation",
+     "href": null
+    },
+    {
+     "text": "View the toolkit",
+     "href": null
+    },
+    {
+     "text": "Explore our MCP",
+     "href": null
+    },
+    {
+     "text": "Learn more",
+     "href": null
+    },
+    {
+     "text": "View documentation",
+     "href": null
+    },
+    {
+     "text": "Learn more",
+     "href": null
+    },
+    {
+     "text": "View documentation",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Log in",
+     "href": "https://developer.mastercard.com/account/log-in",
+     "top": 22
+    },
+    {
+     "text": "Sign up",
+     "href": "https://developer.mastercard.com/account/sign-up",
+     "top": 22
+    }
+   ],
+   "audience_words": [
+    "developer",
+    "partner",
+    "bank"
+   ],
+   "headings": [
+    "h1: APIs built by developers, for developers",
+    "h1: Installments",
+    "h1: Bill Pay",
+    "h1: Customer success stories",
+    "h1: Read the latest from our Developer Community",
+    "h2: How we use cookies and your consent"
+   ],
+   "screenshot": "assets/mastercard/mastercard-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Solutions",
+     "url": "https://developer.mastercard.com/solutions/",
+     "status": 200,
+     "result": "readable",
+     "words": 258,
+     "title": "Solutions | Mastercard Developers"
+    },
+    {
+     "nav": "AI",
+     "url": "https://developer.mastercard.com/ai/",
+     "status": 200,
+     "result": "readable",
+     "words": 335,
+     "title": "AI | Mastercard Developers"
+    },
+    {
+     "nav": "Log in",
+     "url": "https://developer.mastercard.com/account/log-in",
+     "status": 200,
+     "result": "login",
+     "words": 67,
+     "title": "Log in to your account | Mastercard Developers"
+    },
+    {
+     "nav": "Sign up",
+     "url": "https://developer.mastercard.com/account/sign-up",
+     "status": 200,
+     "result": "login",
+     "words": 177,
+     "title": "Sign up | Mastercard Developers"
+    }
+   ],
+   "walls": 2,
+   "readable": 2
+  },
+  "S3": {
+   "from": "Solutions",
+   "url": "https://developer.mastercard.com/solutions/",
+   "title": "Solutions | Mastercard Developers",
+   "headings": [
+    "h1: Solutions",
+    "h2: The tools you need"
+   ],
+   "links": 17,
+   "sample": [
+    {
+     "text": "Solutions",
+     "href": "https://developer.mastercard.com/solutions"
+    },
+    {
+     "text": "Log in",
+     "href": "https://developer.mastercard.com/account/log-in"
+    },
+    {
+     "text": "Sign up",
+     "href": "https://developer.mastercard.com/account/sign-up"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/installments/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/payment-gateway-services/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/consulting-analytics/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/digital-first/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/digital-debit-mastercard/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/pay-by-account/"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://developer.mastercard.com/solutions/online-marketplaces/"
+    },
+    {
+     "text": "Get help",
+     "href": "https://developer.mastercard.com/support"
+    },
+    {
+     "text": "Visit forum",
+     "href": "https://forum.developer.mastercard.com/s/"
+    },
+    {
+     "text": "Find a partneropens in a new tab",
+     "href": "https://www.mastercard.com/engage"
+    },
+    {
+     "text": "Statusopens in a new tab",
+     "href": "https://developer.mastercard.com/api-status"
+    },
+    {
+     "text": "llms.txtopens in a new tab",
+     "href": "https://developer.mastercard.com/llms.txt"
+    },
+    {
+     "text": "Privacyopens in a new tab",
+     "href": "https://www.mastercard.us/en-us/about-mastercard/what-we-do/privacy.html"
+    },
+    {
+     "text": "Terms",
+     "href": "https://developer.mastercard.com/terms-of-use"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/mastercard/mastercard-dev-s3-04-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": 2,
+   "reference": {
+    "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/",
+    "title": "Mastercard Developers Agent Toolkit | Platform Overview | Mastercard Developers",
+    "depth": 2,
+    "code_blocks": 20,
+    "endpoints_seen": 0,
+    "login_wall": false
+   },
+   "sample_languages": [],
+   "openapi_or_postman": [
+    "https://developer.mastercard.com/platform/documentation/developer-tools/postman-collection/"
+   ],
+   "auth_docs": [
+    {
+     "text": "Using OAuth 1.0a to Access Mastercard APIs",
+     "href": "https://developer.mastercard.com/platform/documentation/authentication/using-oauth-1a-to-access-mastercard-apis/"
+    },
+    {
+     "text": "Using OAuth 2.0 to Access Mastercard APIs",
+     "href": "https://developer.mastercard.com/platform/documentation/authentication/using-oauth-2-to-access-mastercard-apis/"
+    },
+    {
+     "text": "Using mTLS to Access Mastercard APIs",
+     "href": "https://developer.mastercard.com/platform/documentation/authentication/using-mtls-to-access-mastercard-apis/"
+    },
+    {
+     "text": "OAuth Keys",
+     "href": "https://developer.mastercard.com/platform/documentation/credential-management/oauth-key-management/"
+    },
+    {
+     "text": "mTLS Certificates",
+     "href": "https://developer.mastercard.com/platform/documentation/credential-management/mtls-certificate-management/"
+    }
+   ],
+   "public_test_data_mentioned": true,
+   "pages_tried": 6
+  },
+  "S5": {
+   "entry": {
+    "text": "Sign up",
+    "href": "https://developer.mastercard.com/account/sign-up"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Sign up",
+     "url": "https://developer.mastercard.com/account/sign-up",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": 1,
+   "wall": "login",
+   "fields_asked": [
+    "emailAddress",
+    "password",
+    "firstName",
+    "lastName",
+    "companyName",
+    "react-select-2-input",
+    "20350330-c772-489c-91c1-5c4271a911dd",
+    "marketingOptIn"
+   ],
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [
+    {
+     "from": "Automatically Obtain Production mTLS Certificates on Mastercard Develo",
+     "url": "https://developer.mastercard.com/blog/mtls-cert-automation/",
+     "title": "Automatically Obtain Production mTLS Certificates on Mastercard Developers | Blog | Mastercard Developers",
+     "words": 606,
+     "steps_mentioned": 0,
+     "tools_named": [
+      "sandbox"
+     ],
+     "timelines": [],
+     "wall": "none"
+    }
+   ],
+   "rung": "steps and named tools"
+  },
+  "S7": {
+   "from": "Get help",
+   "url": "https://developer.mastercard.com/support/",
+   "title": "Support | Mastercard Developers",
+   "phones": [],
+   "mailto": [
+    " privacyanddataprotection@mastercard.com"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [
+    "https://forum.developer.mastercard.com/s/"
+   ],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/mastercard/mastercard-dev-s7-08-20260925.webp"
+  },
+  "S8": {
+   "pages": [
+    {
+     "from": "Statusopens in a new tab",
+     "url": "https://developer.mastercard.com/api-status",
+     "title": "API Status | Mastercard Developers",
+     "dates_seen": [],
+     "kind": "status"
+    }
+   ],
+   "status_page": true,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://developer.mastercard.com/",
+     "count_hint": null,
+     "top": [
+      "View documentation",
+      "View the toolkit",
+      "Explore our MCP",
+      "View documentation",
+      "View documentation"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://developer.mastercard.com/",
+     "count_hint": null,
+     "top": [
+      "View documentation",
+      "View the toolkit",
+      "Explore our MCP",
+      "View documentation",
+      "View documentation"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://developer.mastercard.com/",
+     "count_hint": null,
+     "top": [
+      "View documentation",
+      "View the toolkit",
+      "Explore our MCP",
+      "View documentation",
+      "View documentation"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en-US",
+   "skip_link": false,
+   "landmarks": {
+    "header": false,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 5,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "a: Products",
+    "a: Solutions",
+    "a: Resources",
+    "a: AI",
+    "a: Log in",
+    "a: Sign up",
+    "button: Search⌘K",
+    "button: Learn more",
+    "button: View documentation"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 1,
+   "screenshot": "assets/mastercard/mastercard-dev-s11-09-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 2326,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://developer.mastercard.com/solutions",
+   "final": "https://developer.mastercard.com/solutions/",
+   "status": 200,
+   "ms": 1574,
+   "why": "S2 Solutions"
+  },
+  {
+   "url": "https://developer.mastercard.com/ai",
+   "final": "https://developer.mastercard.com/ai/",
+   "status": 200,
+   "ms": 1582,
+   "why": "S2 AI"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/log-in",
+   "final": "https://developer.mastercard.com/account/log-in",
+   "status": 200,
+   "ms": 1573,
+   "why": "S2 Log in"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "final": "https://developer.mastercard.com/account/sign-up",
+   "status": 200,
+   "ms": 1597,
+   "why": "S2 Sign up"
+  },
+  {
+   "url": "https://developer.mastercard.com/solutions",
+   "final": "https://developer.mastercard.com/solutions/",
+   "status": 200,
+   "ms": 1523,
+   "why": "S3 Solutions"
+  },
+  {
+   "url": "https://developer.mastercard.com/solutions/",
+   "final": "https://developer.mastercard.com/solutions/",
+   "status": 200,
+   "ms": 1572,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://developer.mastercard.com/solutions",
+   "final": "https://developer.mastercard.com/solutions/",
+   "status": 200,
+   "ms": 1522,
+   "why": "S4 Solutions"
+  },
+  {
+   "url": "https://developer.mastercard.com/ai",
+   "final": "https://developer.mastercard.com/ai/",
+   "status": 200,
+   "ms": 1521,
+   "why": "S4 AI"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/log-in",
+   "final": "https://developer.mastercard.com/account/log-in",
+   "status": 200,
+   "ms": 1522,
+   "why": "S4 Log in"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "final": "https://developer.mastercard.com/account/sign-up",
+   "status": 200,
+   "ms": 1529,
+   "why": "S4 Sign up"
+  },
+  {
+   "url": "https://developer.mastercard.com/api-status",
+   "final": "https://developer.mastercard.com/api-status",
+   "status": 200,
+   "ms": 1589,
+   "why": "S4 Statusopens in a new tab"
+  },
+  {
+   "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/",
+   "final": "https://developer.mastercard.com/platform/documentation/agent-toolkit/",
+   "status": 200,
+   "ms": 1576,
+   "why": "S4 View the toolkit"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1520,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "final": "https://developer.mastercard.com/account/sign-up",
+   "status": 200,
+   "ms": 1523,
+   "why": "S5 Sign up"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1524,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/blog/mtls-cert-automation/",
+   "final": "https://developer.mastercard.com/blog/mtls-cert-automation/",
+   "status": 200,
+   "ms": 1576,
+   "why": "S6 Automatically Obtain Production mTLS Certificates on Mastercard Develo"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1521,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/support",
+   "final": "https://developer.mastercard.com/support/",
+   "status": 200,
+   "ms": 1580,
+   "why": "S7 Get help"
+  },
+  {
+   "url": "https://developer.mastercard.com/support",
+   "final": "https://developer.mastercard.com/support/",
+   "status": 200,
+   "ms": 1526,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://developer.mastercard.com/support/",
+   "final": "https://developer.mastercard.com/support/",
+   "status": 200,
+   "ms": 1577,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1521,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/api-status",
+   "final": "https://developer.mastercard.com/api-status",
+   "status": 200,
+   "ms": 1525,
+   "why": "S8 Statusopens in a new tab"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1524,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1525,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1524,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1528,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1526,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/",
+   "final": "https://developer.mastercard.com/",
+   "status": 200,
+   "ms": 1521,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://developer.mastercard.com/solutions",
+   "final": "https://developer.mastercard.com/solutions/",
+   "status": 200,
+   "ms": 1522,
+   "why": "S12 Solutions"
+  },
+  {
+   "url": "https://developer.mastercard.com/ai",
+   "final": "https://developer.mastercard.com/ai/",
+   "status": 200,
+   "ms": 1523,
+   "why": "S12 AI"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/log-in",
+   "final": "https://developer.mastercard.com/account/log-in",
+   "status": 200,
+   "ms": 1525,
+   "why": "S12 Log in"
+  },
+  {
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "final": "https://developer.mastercard.com/account/sign-up",
+   "status": 200,
+   "ms": 1534,
+   "why": "S12 Sign up"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "mastercard-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://developer.mastercard.com/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s1-01-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "mastercard-dev-s02",
+   "station": "S2",
+   "note": "wall: Log in",
+   "url": "https://developer.mastercard.com/account/log-in",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s2-02-20260925.webp",
+   "kb": 21
+  },
+  {
+   "id": "mastercard-dev-s03",
+   "station": "S2",
+   "note": "wall: Sign up",
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s2-03-20260925.webp",
+   "kb": 38
+  },
+  {
+   "id": "mastercard-dev-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://developer.mastercard.com/solutions/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s3-04-20260925.webp",
+   "kb": 50
+  },
+  {
+   "id": "mastercard-dev-s05",
+   "station": "S4",
+   "note": "reference page",
+   "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s4-05-20260925.webp",
+   "kb": 84
+  },
+  {
+   "id": "mastercard-dev-s06",
+   "station": "S5",
+   "note": "first wall",
+   "url": "https://developer.mastercard.com/account/sign-up",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s5-06-20260925.webp",
+   "kb": 38
+  },
+  {
+   "id": "mastercard-dev-s07",
+   "station": "S6",
+   "note": "certification",
+   "url": "https://developer.mastercard.com/blog/mtls-cert-automation/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s6-07-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "mastercard-dev-s08",
+   "station": "S7",
+   "note": "support",
+   "url": "https://developer.mastercard.com/support/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s7-08-20260925.webp",
+   "kb": 38
+  },
+  {
+   "id": "mastercard-dev-s09",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://developer.mastercard.com/",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-dev-s11-09-20260925.webp",
+   "kb": 15
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://developer.mastercard.com/",
+   "banner": "declined: Reject All"
+  }
+ ],
+ "summary": {
+  "pages_visited": 33,
+  "screenshots": 9,
+  "errors": 0,
+  "walls_in_nav": 2,
+  "clicks_to_docs": 2,
+  "clicks_to_wall": 1,
+  "sandbox_wall": "login"
+ }
+}

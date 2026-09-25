@@ -1,0 +1,638 @@
+{
+ "network": "eftpos",
+ "seed": "https://www.eftposaustralia.com.au/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en-AU",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "eftpos Australia",
+   "h1": "Keeping Australia moving",
+   "description": "Whatever you’re selling, we're all over it. Australia’s domestic debit network providing choice and competition that benefits business owners and consumers.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Solutions",
+    "Latest news",
+    "About AP+",
+    "About us",
+    "Australian Payment Plus Board",
+    "Executive Leadership Team",
+    "Governance",
+    "Scheme members",
+    "AP+ roadmap",
+    "Stakeholder engagement",
+    "New Payments Platform (NPP)",
+    "Osko",
+    "PayID",
+    "PayTo",
+    "Confirmation of Payee",
+    "ConnectID",
+    "BPAY",
+    "eftpos",
+    "Member portal",
+    "Brand portal",
+    "Developer portal",
+    "News & updates",
+    "Podcast",
+    "Help Centre",
+    "Careers",
+    "LinkedIn"
+   ],
+   "ctas": [
+    {
+     "text": "Solutions",
+     "href": null
+    },
+    {
+     "text": "Latest news",
+     "href": null
+    },
+    {
+     "text": "About AP+",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "partner",
+    "bank"
+   ],
+   "headings": [
+    "h1: Keeping Australia moving",
+    "h2: Upcoming card surcharging changes",
+    "h2: Committed to security",
+    "h2: eftpos vs EFTPOS: What’s the difference?",
+    "h3: Latest eftposupdates"
+   ],
+   "screenshot": "assets/eftpos/eftpos-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "New Payments Platform (NPP)",
+     "url": "https://www.auspayplus.com.au/solutions/npp",
+     "status": 200,
+     "result": "readable",
+     "words": 4865,
+     "title": "NPP/Australia's Payment Future - Australian Payments Plus"
+    },
+    {
+     "nav": "Osko",
+     "url": "https://www.auspayplus.com.au/solutions/osko",
+     "status": 200,
+     "result": "readable",
+     "words": 843,
+     "title": "Osko"
+    },
+    {
+     "nav": "PayID",
+     "url": "https://www.auspayplus.com.au/solutions/payid",
+     "status": 200,
+     "result": "readable",
+     "words": 1354,
+     "title": "PayID - Australian Payments Plus"
+    },
+    {
+     "nav": "PayTo",
+     "url": "https://www.auspayplus.com.au/solutions/payto",
+     "status": 200,
+     "result": "readable",
+     "words": 701,
+     "title": "PayTo - Australian Payments Plus"
+    },
+    {
+     "nav": "Confirmation of Payee",
+     "url": "https://www.auspayplus.com.au/solutions/confirmation-payee",
+     "status": 200,
+     "result": "readable",
+     "words": 1753,
+     "title": "Confirmation of Payee - Australian Payments Plus"
+    },
+    {
+     "nav": "ConnectID",
+     "url": "https://www.auspayplus.com.au/solutions/connectid",
+     "status": 200,
+     "result": "readable",
+     "words": 1947,
+     "title": "ConnectID - Home - Australian Payments Plus"
+    },
+    {
+     "nav": "BPAY",
+     "url": "https://www.auspayplus.com.au/solutions/bpay",
+     "status": 200,
+     "result": "readable",
+     "words": 542,
+     "title": "BPAY - Australian Payments Plus"
+    },
+    {
+     "nav": "View all solutions",
+     "url": "https://www.auspayplus.com.au/solutions",
+     "status": 200,
+     "result": "readable",
+     "words": 398,
+     "title": "Australian Payments Plus - Solutions"
+    },
+    {
+     "nav": "Sign me up",
+     "url": "https://www.auspayplus.com.au/opt-in",
+     "status": 200,
+     "result": "readable",
+     "words": 233,
+     "title": "Australian Payments Plus - News"
+    },
+    {
+     "nav": "About us",
+     "url": "https://www.auspayplus.com.au/about-us",
+     "status": 200,
+     "result": "readable",
+     "words": 626,
+     "title": "Australian Payments Plus - About us"
+    }
+   ],
+   "walls": 0,
+   "readable": 10
+  },
+  "S3": {
+   "from": "New Payments Platform (NPP)",
+   "url": "https://www.auspayplus.com.au/solutions/npp",
+   "title": "NPP/Australia's Payment Future - Australian Payments Plus",
+   "headings": [
+    "h2: Revolutionising the flow of money",
+    "h3: Unlocking value for Australianbusinesses",
+    "h3: NPP adoption is gaining momentum",
+    "h3: Discover NPP product solutions",
+    "h3: What’s next?",
+    "h3: Stay in the know",
+    "h3: Ready to transform your business payments?",
+    "h3: Latest NPP updates"
+   ],
+   "links": 80,
+   "sample": [
+    {
+     "text": "The NPP",
+     "href": "https://www.auspayplus.com.au/solutions/npp-the-platform"
+    },
+    {
+     "text": "PricingPricing",
+     "href": "https://www.auspayplus.com.au/solutions/npp-fees-and-pricing"
+    },
+    {
+     "text": "Updates",
+     "href": "https://www.auspayplus.com.au/solutions/npp-updates"
+    },
+    {
+     "text": "Resources",
+     "href": "https://www.auspayplus.com.au/solutions/npp-resources"
+    },
+    {
+     "text": "Find an institution",
+     "href": "https://www.auspayplus.com.au/solutions/npp-find-an-institution"
+    },
+    {
+     "text": "Solutions > NPP",
+     "href": "https://www.auspayplus.com.au/solutions"
+    },
+    {
+     "text": "Read the whitepaper",
+     "href": "https://www.auspayplus.com.au/unlocking-business-opportunities-with-real-time-payments"
+    },
+    {
+     "text": "Explore Payday super",
+     "href": "https://www.auspayplus.com.au/solutions/npp-resources-paydaysuper"
+    },
+    {
+     "text": "Osko",
+     "href": "https://www.auspayplus.com.au/solutions/osko"
+    },
+    {
+     "text": "PayID",
+     "href": "https://www.auspayplus.com.au/solutions/payid"
+    },
+    {
+     "text": "Confirmation of Payee",
+     "href": "https://www.auspayplus.com.au/confirmation-payee"
+    },
+    {
+     "text": "PayTo",
+     "href": "https://payto.com.au/"
+    },
+    {
+     "text": "Subscribe to latest news",
+     "href": "https://www.auspayplus.com.au/opt-in"
+    },
+    {
+     "text": "Real-time payments: the benefits go well beyond speed",
+     "href": "https://www.auspayplus.com.au/real-time-payments-the-benefits-go-well-beyond-speed"
+    },
+    {
+     "text": "Australian businesses embrace always-on, real-time payments",
+     "href": "https://www.auspayplus.com.au/australian-businesses-embrace-always-on-real-time-payments"
+    },
+    {
+     "text": "Payday super accelerating focus on real-time payments",
+     "href": "https://www.auspayplus.com.au/payday-super-accelerating-focus-on-real-time-payments"
+    },
+    {
+     "text": "Account-to-Account Payments Roundtable",
+     "href": "https://www.auspayplus.com.au/account-to-account-payments-roundtable"
+    },
+    {
+     "text": "Roundtable opens public consultation on draft vision for account-to-ac",
+     "href": "https://www.auspayplus.com.au/roundtable-opens-public-consultation-on-draft-vision-for-account-to-account-payments-in-australia"
+    },
+    {
+     "text": "An update on the move to NPP",
+     "href": "https://www.auspayplus.com.au/an-update-on-the-move-to-npp-3"
+    },
+    {
+     "text": "AP+ seeks feedback on proposed bulk solution and participation model",
+     "href": "https://www.auspayplus.com.au/ap-seeks-feedback-on-proposed-bulk-solution-and-participation-model"
+    },
+    {
+     "text": "AP+ welcomes the RBA's Risk Assessment Update on the Decommissioning o",
+     "href": "https://www.auspayplus.com.au/ap-welcomes-rba-update-on-a2a-payments-modernisation-progress"
+    },
+    {
+     "text": "Guide to real-time superannuation payments",
+     "href": "https://www.auspayplus.com.au/guide-to-real-time-superannuation-payments"
+    },
+    {
+     "text": "NPP adoption climbs as Australia shifts to real-time payments",
+     "href": "https://www.auspayplus.com.au/npp-adoption-climbs-as-australia-shifts-to-real-time-payments"
+    },
+    {
+     "text": "The shift to payday super – why early preparation pays off",
+     "href": "https://www.auspayplus.com.au/the-shift-to-payday-super-why-early-preparation-pays-off"
+    },
+    {
+     "text": "Webinar recording: Preparing for payday super with real-time payments",
+     "href": "https://www.auspayplus.com.au/preparing-for-payday-super-with-real-time-payments"
+    },
+    {
+     "text": "An update on the Move to NPP",
+     "href": "https://www.auspayplus.com.au/an-update-on-the-move-to-npp-2"
+    },
+    {
+     "text": "​​AP+ releases findings on NPP capabilities consultation",
+     "href": "https://www.auspayplus.com.au/ap-releases-findings-on-npp-capabilities-consultation"
+    },
+    {
+     "text": "Consultation feedback highlights priorities for Australia’s future acc",
+     "href": "https://www.auspayplus.com.au/consultation-feedback-highlights-priorities-for-australias-future-account-to-account-payments"
+    },
+    {
+     "text": "Payday super to deliver stronger retirement outcomes for Australians",
+     "href": "https://www.auspayplus.com.au/payday-super-to-deliver-stronger-retirement-outcomes-for-australians"
+    },
+    {
+     "text": "Case study: Red Energy modernises bill payments",
+     "href": "https://www.auspayplus.com.au/red-energy-modernises-energy-bill-payments"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/eftpos/eftpos-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en-AU",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: Skip to main content",
+    "a",
+    "a: Solutions",
+    "a: Latest news",
+    "a: About AP+",
+    "a",
+    "a: For businesses",
+    "a: For consumers",
+    "a: Interchange fees",
+    "a: Support"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 23,
+   "screenshot": "assets/eftpos/eftpos-s11-03-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Interchange fees",
+     "href": "https://www.auspayplus.com.au/solutions/eftpos-interchange-fees"
+    },
+    {
+     "clicks": 1,
+     "text": "Explore Pricing and fees",
+     "href": "https://www.auspayplus.com.au/solutions/eftpos-interchange-fees"
+    },
+    {
+     "clicks": 1,
+     "text": "View our Reconciliation Action Plan",
+     "href": "https://www.auspayplus.com.au/wp-content/uploads/2024/03/APP-RAP-2024.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Interchange fees",
+    "href": "https://www.auspayplus.com.au/solutions/eftpos-interchange-fees"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.eftposaustralia.com.au/",
+   "final": "http://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 2752,
+   "why": "S0 seed"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/npp",
+   "final": "https://www.auspayplus.com.au/solutions/npp",
+   "status": 200,
+   "ms": 1953,
+   "why": "S2 New Payments Platform (NPP)"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/osko",
+   "final": "https://www.auspayplus.com.au/solutions/osko",
+   "status": 200,
+   "ms": 1875,
+   "why": "S2 Osko"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/payid",
+   "final": "https://www.auspayplus.com.au/solutions/payid",
+   "status": 200,
+   "ms": 1832,
+   "why": "S2 PayID"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/payto",
+   "final": "https://www.auspayplus.com.au/solutions/payto",
+   "status": 200,
+   "ms": 1822,
+   "why": "S2 PayTo"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/confirmation-payee",
+   "final": "https://www.auspayplus.com.au/solutions/confirmation-payee",
+   "status": 200,
+   "ms": 1879,
+   "why": "S2 Confirmation of Payee"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/connectid",
+   "final": "https://www.auspayplus.com.au/solutions/connectid",
+   "status": 200,
+   "ms": 1825,
+   "why": "S2 ConnectID"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/bpay",
+   "final": "https://www.auspayplus.com.au/solutions/bpay",
+   "status": 200,
+   "ms": 1795,
+   "why": "S2 BPAY"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions",
+   "final": "https://www.auspayplus.com.au/solutions",
+   "status": 200,
+   "ms": 1907,
+   "why": "S2 View all solutions"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/opt-in",
+   "final": "https://www.auspayplus.com.au/opt-in",
+   "status": 200,
+   "ms": 2187,
+   "why": "S2 Sign me up"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/about-us",
+   "final": "https://www.auspayplus.com.au/about-us",
+   "status": 200,
+   "ms": 1845,
+   "why": "S2 About us"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/npp",
+   "final": "https://www.auspayplus.com.au/solutions/npp",
+   "status": 200,
+   "ms": 1840,
+   "why": "S3 New Payments Platform (NPP)"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/osko",
+   "final": "https://www.auspayplus.com.au/solutions/osko",
+   "status": 200,
+   "ms": 1577,
+   "why": "S3 Osko"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/payid",
+   "final": "https://www.auspayplus.com.au/solutions/payid",
+   "status": 200,
+   "ms": 1835,
+   "why": "S3 PayID"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/payto",
+   "final": "https://www.auspayplus.com.au/solutions/payto",
+   "status": 200,
+   "ms": 1812,
+   "why": "S3 PayTo"
+  },
+  {
+   "url": "https://www.auspayplus.com.au/solutions/npp",
+   "final": "https://www.auspayplus.com.au/solutions/npp",
+   "status": 200,
+   "ms": 1821,
+   "why": "S3 best"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1902,
+   "why": "S5 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1834,
+   "why": "S6 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1813,
+   "why": "S7 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1841,
+   "why": "S8 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1836,
+   "why": "S9 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1857,
+   "why": "S9 reset"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1826,
+   "why": "S9 reset"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1811,
+   "why": "S9 reset"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1827,
+   "why": "S10 home"
+  },
+  {
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "final": "https://www.auspayplus.com.au/solutions/eftpos",
+   "status": 200,
+   "ms": 1834,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "eftpos-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "http://www.auspayplus.com.au/solutions/eftpos",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-s1-01-20260925.webp",
+   "kb": 32
+  },
+  {
+   "id": "eftpos-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.auspayplus.com.au/solutions/npp",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-s3-02-20260925.webp",
+   "kb": 48
+  },
+  {
+   "id": "eftpos-s03",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.auspayplus.com.au/solutions/eftpos",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-s11-03-20260925.webp",
+   "kb": 19
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 26,
+  "screenshots": 3,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

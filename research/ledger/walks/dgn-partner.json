@@ -1,0 +1,422 @@
+{
+ "network": "dgn",
+ "seed": "https://partner.discoverglobalnetwork.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://partner.discoverglobalnetwork.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "contact",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Discover Partner Product Portal",
+   "h1": "",
+   "description": "Discover Partner Product Portal",
+   "landmarks": {
+    "header": false,
+    "nav": 1,
+    "main": true,
+    "footer": false,
+    "search": false
+   },
+   "nav_labels": [
+    "Explore our APIs",
+    "Going Live with Discover",
+    "Partner Resources"
+   ],
+   "ctas": [],
+   "signin": [],
+   "audience_words": [
+    "developer",
+    "partner"
+   ],
+   "headings": [
+    "h3: Coming Soon!"
+   ],
+   "screenshot": "assets/dgn/dgn-partner-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Explore our APIs",
+     "url": "https://partner.discoverglobalnetwork.com/products",
+     "status": 200,
+     "result": "readable",
+     "words": 299,
+     "title": "Discover Partner Product Portal"
+    },
+    {
+     "nav": "Going Live with Discover",
+     "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+     "status": 200,
+     "result": "readable",
+     "words": 380,
+     "title": "Going Live with Discover | Discover Partner Product Portal"
+    },
+    {
+     "nav": "Partner Resources",
+     "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+     "status": 200,
+     "result": "contact",
+     "words": 62,
+     "title": "Discover Partner Product Portal"
+    }
+   ],
+   "walls": 1,
+   "readable": 2
+  },
+  "S3": {
+   "from": "Explore our APIs",
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "title": "Discover Partner Product Portal",
+   "headings": [
+    "h1: Digital Payment Solutions",
+    "h1: Diners Club Member Benefits",
+    "h1: Fraud and Security",
+    "h1: Travel Tools",
+    "h1: Data Services",
+    "h1: Card Account Services"
+   ],
+   "links": 32,
+   "sample": [
+    {
+     "text": "Explore our APIs",
+     "href": "https://partner.discoverglobalnetwork.com/products"
+    },
+    {
+     "text": "Going Live with Discover",
+     "href": "https://partner.discoverglobalnetwork.com/going-live-with-discover"
+    },
+    {
+     "text": "Partner Resources",
+     "href": "https://partner.discoverglobalnetwork.com/partner-resources"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/payment-account-reference?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/payment-account-reference?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/airport-lounge-locator?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/airport-lounge-locator?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/diners-club-international-customer-service?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/diners-club-international-customer-service?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/fraud-alerts?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/fraud-alerts?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/country-acceptance?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/country-acceptance?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/currency-converter?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/currency-converter?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/tip-etiquette?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/tip-etiquette?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/travel-guides?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/travel-guides?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/iin-data-lookup?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/iin-data-lookup?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/discover-network-account-updater?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/discover-network-account-updater?tab=api-specs"
+    },
+    {
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/issuer-card-account-services?tab=overview"
+    },
+    {
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/issuer-card-account-services?tab=api-specs"
+    },
+    {
+     "text": "FAQ",
+     "href": "https://partner.discoverglobalnetwork.com/faq"
+    },
+    {
+     "text": "Contact Us",
+     "href": "https://partner.discoverglobalnetwork.com/contact-us"
+    },
+    {
+     "text": "About Discover",
+     "href": "https://www.discover.com/company/?ICMPGN=PUB_FTR_ABOUT_ABTDISC"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/dgn/dgn-partner-s3-03-20260925.webp"
+  },
+  "S7": {
+   "from": "Contact Us",
+   "url": "https://partner.discoverglobalnetwork.com/contact-us",
+   "title": "Contact Us | Discover Partner Product Portal",
+   "phones": [],
+   "mailto": [],
+   "form": true,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "contact",
+   "screenshot": "assets/dgn/dgn-partner-s7-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 2,
+     "via": "Explore our APIs",
+     "text": "Overview",
+     "href": "https://partner.discoverglobalnetwork.com/products/payment-account-reference?tab=overview"
+    },
+    {
+     "clicks": 2,
+     "via": "Explore our APIs",
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/payment-account-reference?tab=api-specs"
+    },
+    {
+     "clicks": 2,
+     "via": "Explore our APIs",
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=api-specs"
+    },
+    {
+     "clicks": 2,
+     "via": "Explore our APIs",
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/airport-lounge-locator?tab=api-specs"
+    },
+    {
+     "clicks": 2,
+     "via": "Explore our APIs",
+     "text": "API Spec",
+     "href": "https://partner.discoverglobalnetwork.com/products/diners-club-international-customer-service?tab=api-specs"
+    }
+   ],
+   "first": {
+    "clicks": 2,
+    "via": "Explore our APIs",
+    "text": "Overview",
+    "href": "https://partner.discoverglobalnetwork.com/products/payment-account-reference?tab=overview"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "final": "https://partner.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1882,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "final": "https://partner.discoverglobalnetwork.com/products",
+   "status": 200,
+   "ms": 1893,
+   "why": "S2 Explore our APIs"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "final": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "status": 200,
+   "ms": 1630,
+   "why": "S2 Going Live with Discover"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+   "final": "https://partner.discoverglobalnetwork.com/partner-resources",
+   "status": 200,
+   "ms": 1622,
+   "why": "S2 Partner Resources"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "final": "https://partner.discoverglobalnetwork.com/products",
+   "status": 200,
+   "ms": 1909,
+   "why": "S3 Explore our APIs"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "final": "https://partner.discoverglobalnetwork.com/products",
+   "status": 200,
+   "ms": 1857,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "final": "https://partner.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1632,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/contact-us",
+   "final": "https://partner.discoverglobalnetwork.com/contact-us",
+   "status": 200,
+   "ms": 1813,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/contact-us",
+   "final": "https://partner.discoverglobalnetwork.com/contact-us",
+   "status": 200,
+   "ms": 1804,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "final": "https://partner.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1644,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "final": "https://partner.discoverglobalnetwork.com/products",
+   "status": 200,
+   "ms": 1855,
+   "why": "S12 Explore our APIs"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "dgn-partner-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-partner-s1-01-20260925.webp",
+   "kb": 65
+  },
+  {
+   "id": "dgn-partner-s02",
+   "station": "S2",
+   "note": "wall: Partner Resources",
+   "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-partner-s2-02-20260925.webp",
+   "kb": 28
+  },
+  {
+   "id": "dgn-partner-s03",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-partner-s3-03-20260925.webp",
+   "kb": 56
+  },
+  {
+   "id": "dgn-partner-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://partner.discoverglobalnetwork.com/contact-us",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-partner-s7-04-20260925.webp",
+   "kb": 26
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://partner.discoverglobalnetwork.com/products",
+   "banner": "declined: Decline"
+  }
+ ],
+ "summary": {
+  "pages_visited": 11,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 1,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

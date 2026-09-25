@@ -1,0 +1,870 @@
+{
+ "network": "shazam",
+ "seed": "https://www.shazam.net/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.shazam.net/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Financial Services Technology & Payments Partner | SHAZAM",
+   "h1": "Your trusted payment solutions partner",
+   "description": "SHAZAM provides robust payment solutions & infrastructure for community financial institutions, fintechs and more.",
+   "landmarks": {
+    "header": true,
+    "nav": 16,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "ATM Locator",
+    "Careers",
+    "Login",
+    "Shazam Logo . Link to homepage",
+    "Who We Serve",
+    "Products",
+    "Resources",
+    "Who We Are",
+    "Contact",
+    "Explore our products",
+    "Explore opportunities",
+    "Get to know SHAZAM",
+    "Explore our solutions",
+    "See who we serve",
+    "Careers at SHAZAM",
+    "Join our team",
+    "View more"
+   ],
+   "ctas": [
+    {
+     "text": "Explore our products",
+     "href": "https://www.shazam.net/products"
+    },
+    {
+     "text": "Explore opportunities",
+     "href": "https://www.shazam.net/who-we-serve/banks-and-credit-unions"
+    },
+    {
+     "text": "Explore opportunities",
+     "href": "https://www.shazam.net/who-we-serve/fintechs"
+    },
+    {
+     "text": "Explore opportunities",
+     "href": "https://www.shazam.net/who-we-serve/insurance"
+    },
+    {
+     "text": "Explore opportunities",
+     "href": "https://www.shazam.net/who-we-serve/healthcare"
+    },
+    {
+     "text": "Explore opportunities",
+     "href": "https://www.shazam.net/who-we-serve/merchants"
+    },
+    {
+     "text": "Explore Peregrine™",
+     "href": "https://www.shazam.net/products/processing-solutions"
+    },
+    {
+     "text": "Optimize your routing",
+     "href": "https://www.shazam.net/products/payments-network"
+    },
+    {
+     "text": "Discover DigiHive™",
+     "href": "https://www.shazam.net/products/digital-banking"
+    },
+    {
+     "text": "Get to know KinetiCore™",
+     "href": "https://www.shazam.net/products/core-banking"
+    },
+    {
+     "text": "Manage documents smarter",
+     "href": "https://www.shazam.net/products/information-management"
+    },
+    {
+     "text": "Strengthen your security",
+     "href": "https://www.shazam.net/products/security-and-compliance"
+    },
+    {
+     "text": "Get to know SHAZAM",
+     "href": "https://www.shazam.net/who-we-are/our-story"
+    },
+    {
+     "text": "Explore our solutions",
+     "href": "https://www.shazam.net/products"
+    },
+    {
+     "text": "See who we serve",
+     "href": "https://www.shazam.net/who-we-serve"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Login",
+     "href": "https://www.shazam.net/#",
+     "top": 0
+    }
+   ],
+   "audience_words": [
+    "merchant",
+    "partner",
+    "fintech",
+    "atm",
+    "bank",
+    "financial institution"
+   ],
+   "headings": [
+    "h1: Your trusted payment solutions partner",
+    "h2: Powering how money moves across every industry",
+    "h2: solutions",
+    "h2: They come for the payment solutions but stay for the partnership",
+    "h2: What our clients are saying",
+    "h2: Small company. Big impact. Real purpose.",
+    "h2: Innovation & expertise driving the payments industry forward"
+   ],
+   "screenshot": "assets/shazam/shazam-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "ATM Locator",
+     "url": "https://www.shazam.net/atm-locator",
+     "status": 200,
+     "result": "readable",
+     "words": 436,
+     "title": "Find ATMs Near You With SHAZAM ATM Locator"
+    },
+    {
+     "nav": "Careers",
+     "url": "https://www.shazam.net/who-we-are/careers",
+     "status": 200,
+     "result": "readable",
+     "words": 840,
+     "title": "Careers with SHAZAM | Build Your Future at SHAZAM"
+    },
+    {
+     "nav": "Who We Serve",
+     "url": "https://www.shazam.net/who-we-serve",
+     "status": 200,
+     "result": "readable",
+     "words": 997,
+     "title": "Real‑Time Payments Infrastructure Provider | SHAZAM"
+    },
+    {
+     "nav": "Products",
+     "url": "https://www.shazam.net/products",
+     "status": 200,
+     "result": "readable",
+     "words": 767,
+     "title": "Financial Services Technology & Payment Solutions | SHAZAM"
+    },
+    {
+     "nav": "Resources",
+     "url": "https://www.shazam.net/resources",
+     "status": 200,
+     "result": "readable",
+     "words": 439,
+     "title": "Explore SHAZAM Resources & Content Library"
+    },
+    {
+     "nav": "Who We Are",
+     "url": "https://www.shazam.net/who-we-are",
+     "status": 200,
+     "result": "readable",
+     "words": 806,
+     "title": "Member‑Owned Network for Banks & Credit Unions | SHAZAM"
+    },
+    {
+     "nav": "Contact",
+     "url": "https://www.shazam.net/contact",
+     "status": 200,
+     "result": "readable",
+     "words": 606,
+     "title": "Contact SHAZAM for Support, Sales & Inquiries"
+    },
+    {
+     "nav": "Explore opportunities",
+     "url": "https://www.shazam.net/who-we-serve/banks-and-credit-unions",
+     "status": 200,
+     "result": "readable",
+     "words": 1505,
+     "title": "Bank & Credit Union Financial Technology Solutions | SHAZAM"
+    },
+    {
+     "nav": "Explore opportunities",
+     "url": "https://www.shazam.net/who-we-serve/fintechs",
+     "status": 200,
+     "result": "readable",
+     "words": 1252,
+     "title": "Payments Infrastructure for Fintechs | SHAZAM"
+    },
+    {
+     "nav": "Explore opportunities",
+     "url": "https://www.shazam.net/who-we-serve/insurance",
+     "status": 200,
+     "result": "readable",
+     "words": 890,
+     "title": "Insurance Payment Solutions & Real-Time Claims | SHAZAM"
+    },
+    {
+     "nav": "Explore opportunities",
+     "url": "https://www.shazam.net/who-we-serve/healthcare",
+     "status": 200,
+     "result": "readable",
+     "words": 1043,
+     "title": "Faster Payments & Disbursements For Healthcare | SHAZAM"
+    },
+    {
+     "nav": "Explore opportunities",
+     "url": "https://www.shazam.net/who-we-serve/merchants",
+     "status": 200,
+     "result": "readable",
+     "words": 1009,
+     "title": "Merchant Debit Routing & Lower Fees | SHAZAM"
+    },
+    {
+     "nav": "Get to know SHAZAM",
+     "url": "https://www.shazam.net/who-we-are/our-story",
+     "status": 200,
+     "result": "readable",
+     "words": 1220,
+     "title": "Our Story: Supporting Financial Institutions | SHAZAM"
+    },
+    {
+     "nav": "Join our team",
+     "url": "https://www.shazam.net/who-we-are/careers/current-openings",
+     "status": 200,
+     "result": "readable",
+     "words": 696,
+     "title": "Explore New Career Opportunities At SHAZAM"
+    },
+    {
+     "nav": "View more",
+     "url": "https://www.shazam.net/resources/news",
+     "status": 200,
+     "result": "readable",
+     "words": 726,
+     "title": "Blog & Company News | Insights and Updates | SHAZAM"
+    },
+    {
+     "nav": "PEREGRINE™Processing Solutions",
+     "url": "https://www.shazam.net/products/processing-solutions",
+     "status": 200,
+     "result": "readable",
+     "words": 1110,
+     "title": "Peregrine™ Payment Processing Solutions | SHAZAM"
+    }
+   ],
+   "walls": 0,
+   "readable": 16
+  },
+  "S3": {
+   "from": "PEREGRINE™Processing Solutions",
+   "url": "https://www.shazam.net/products/processing-solutions",
+   "title": "Peregrine™ Payment Processing Solutions | SHAZAM",
+   "headings": [
+    "h1: The power behind modern debit card processing",
+    "h2: An $85K win for our debit program",
+    "h2: Smarter debit starts with unified processing & network power",
+    "h2: Proven expertise in the payments industry",
+    "h2: Processing power designed for your growth",
+    "h2: Related Resources",
+    "h2: Related Articles",
+    "h2: Explore more solutions from SHAZAM"
+   ],
+   "links": 26,
+   "sample": [
+    {
+     "text": "Debit processing solutions",
+     "href": "https://www.shazam.net/products/processing-solutions#"
+    },
+    {
+     "text": "Explore debit processing solutions",
+     "href": "https://www.shazam.net/products/processing-solutions/debit"
+    },
+    {
+     "text": "Debit card issuance",
+     "href": "https://www.shazam.net/products/processing-solutions/debit/debit-card-issuance"
+    },
+    {
+     "text": "Card controls",
+     "href": "https://www.shazam.net/products/processing-solutions/debit/card-controls"
+    },
+    {
+     "text": "Fraud management",
+     "href": "https://www.shazam.net/products/processing-solutions/debit/fraud-management"
+    },
+    {
+     "text": "Dispute resolution",
+     "href": "https://www.shazam.net/products/processing-solutions/debit/dispute-resolution"
+    },
+    {
+     "text": "Data & analytics",
+     "href": "https://www.shazam.net/products/processing-solutions/debit/data-analytics"
+    },
+    {
+     "text": "Explore ATM services",
+     "href": "https://www.shazam.net/products/processing-solutions/atm-services"
+    },
+    {
+     "text": "Explore acquiring solutions",
+     "href": "https://www.shazam.net/products/processing-solutions/acquirer"
+    },
+    {
+     "text": "Request a debit program optimization review",
+     "href": "https://www.shazam.net/contact/lets-connect"
+    },
+    {
+     "text": "Banks & credit unions",
+     "href": "https://www.shazam.net/who-we-serve/banks-and-credit-unions"
+    },
+    {
+     "text": "Fintechs",
+     "href": "https://www.shazam.net/who-we-serve/fintechs"
+    },
+    {
+     "text": "Healthcare",
+     "href": "https://www.shazam.net/who-we-serve/healthcare"
+    },
+    {
+     "text": "Insurance",
+     "href": "https://www.shazam.net/who-we-serve/insurance"
+    },
+    {
+     "text": "Merchants",
+     "href": "https://www.shazam.net/who-we-serve/merchants"
+    },
+    {
+     "text": "View Details White paper: Navigating regulatory uncertainty while gear",
+     "href": "https://www.shazam.net/products/resources/gated-resource?id=dacf61a2-24b4-4397-92d5-387ae0fc3fcc"
+    },
+    {
+     "text": "View Details Testimonial: From red to black: How SHAZAM's debit progra",
+     "href": "https://www.shazam.net/DownloadFile.ashx?id=8d76a9be-0727-40fc-9d5c-8b8fa1273230"
+    },
+    {
+     "text": "View Details White paper: The evolution of instant payments: How to na",
+     "href": "https://www.shazam.net/products/resources/gated-resource?id=7bbd641c-70ef-41ac-9567-edcbcb766a8d"
+    },
+    {
+     "text": "View All",
+     "href": "https://www.shazam.net/products/resources?solution=Processing+Solutions"
+    },
+    {
+     "text": "Company News Independent Bankers Association of Texas Selects SHAZAM a",
+     "href": "https://www.shazam.net/resources/news/ibat-selects-shazam-as-endorsed-service-provider"
+    },
+    {
+     "text": "Blog How financial institution sponsorship powers fintech real-time pa",
+     "href": "https://www.shazam.net/resources/news/how-financial-institution-sponsorship-powers-fintech-real-time-payments"
+    },
+    {
+     "text": "Company News SHAZAM launches real-time debit card bill-pay solution Th",
+     "href": "https://www.shazam.net/resources/news/shazam-launches-real-time-debit-card-bill-pay-solution-for-organizations"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.shazam.net/products/payments-network"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.shazam.net/products/security-and-compliance"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.shazam.net/products/digital-banking"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.shazam.net/products/core-banking"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/shazam/shazam-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": {
+    "text": "Join our team",
+    "href": "https://www.shazam.net/who-we-are/careers/current-openings"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Join our team",
+     "url": "https://www.shazam.net/who-we-are/careers/current-openings",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Contact",
+   "url": "https://www.shazam.net/contact",
+   "title": "Contact SHAZAM for Support, Sales & Inquiries",
+   "phones": [
+    "800-537-5427",
+    "800-383-8000",
+    "855-219-5399",
+    "515-288-2828",
+    "31 (515) 288-2828"
+   ],
+   "mailto": [
+    "NBSDSSupport@shazam.net",
+    "pr@shazam.net",
+    "marketing@shazam.net"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [
+    "https://www.shazam.net/who-we-serve/banks-and-credit-unions"
+   ],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/shazam/shazam-s7-03-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://www.shazam.net/search-results?q=authorization",
+     "count_hint": null,
+     "top": [
+      "Trademark & Usage Guidelines | SHAZAM",
+      "Peregrine™ Debit Card Fraud Management | SHAZAM",
+      "SHAZAM Payments Network & Debit Infrastructure",
+      "SHAZAM Payments Network & Debit Infrastructure",
+      "Peregrine™ Debit Card Issuance Solutions | SHAZAM"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://www.shazam.net/search-results?q=test%20cards",
+     "count_hint": null,
+     "top": [
+      "Peregrine™ Debit Card Issuance Solutions | SHAZAM",
+      "Peregrine™ Debit Processing Solutions for Banks | SHAZAM",
+      "SHAZAM Debit Rewards Official Rules & Regulations",
+      "Peregrine™ Acquiring Solutions & Gateway | SHAZAM",
+      "Payments Infrastructure for Fintechs | SHAZAM"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://www.shazam.net/search-results?q=certification",
+     "count_hint": null,
+     "top": [
+      "Omniwire Earns SHAZAM Certification | SHAZAM News",
+      "SHAZAM Payments Association & ACH Training",
+      "Jackie Rolow, Chief Executive VP & Chief HR Officer | SHAZAM"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 16,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: ATM Locator",
+    "a: Careers",
+    "a: Login",
+    "a: SHAZAM Access",
+    "a: SHAZAM Files",
+    "a: ATM Monitor Plus",
+    "a: SHAZAM SystemChek",
+    "a: Business Intelligence Services",
+    "a: Shazam Logo . Link to homepage",
+    "a: Who We Serve"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 15,
+   "screenshot": "assets/shazam/shazam-s11-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 2245,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.shazam.net/atm-locator",
+   "final": "https://www.shazam.net/atm-locator",
+   "status": 200,
+   "ms": 1876,
+   "why": "S2 ATM Locator"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are/careers",
+   "final": "https://www.shazam.net/who-we-are/careers",
+   "status": 200,
+   "ms": 1901,
+   "why": "S2 Careers"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve",
+   "final": "https://www.shazam.net/who-we-serve",
+   "status": 200,
+   "ms": 1856,
+   "why": "S2 Who We Serve"
+  },
+  {
+   "url": "https://www.shazam.net/products",
+   "final": "https://www.shazam.net/products",
+   "status": 200,
+   "ms": 1774,
+   "why": "S2 Products"
+  },
+  {
+   "url": "https://www.shazam.net/resources",
+   "final": "https://www.shazam.net/resources",
+   "status": 200,
+   "ms": 1904,
+   "why": "S2 Resources"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are",
+   "final": "https://www.shazam.net/who-we-are",
+   "status": 200,
+   "ms": 2082,
+   "why": "S2 Who We Are"
+  },
+  {
+   "url": "https://www.shazam.net/contact",
+   "final": "https://www.shazam.net/contact",
+   "status": 200,
+   "ms": 1819,
+   "why": "S2 Contact"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve/banks-and-credit-unions",
+   "final": "https://www.shazam.net/who-we-serve/banks-and-credit-unions",
+   "status": 200,
+   "ms": 1826,
+   "why": "S2 Explore opportunities"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve/fintechs",
+   "final": "https://www.shazam.net/who-we-serve/fintechs",
+   "status": 200,
+   "ms": 1838,
+   "why": "S2 Explore opportunities"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve/insurance",
+   "final": "https://www.shazam.net/who-we-serve/insurance",
+   "status": 200,
+   "ms": 1790,
+   "why": "S2 Explore opportunities"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve/healthcare",
+   "final": "https://www.shazam.net/who-we-serve/healthcare",
+   "status": 200,
+   "ms": 1799,
+   "why": "S2 Explore opportunities"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve/merchants",
+   "final": "https://www.shazam.net/who-we-serve/merchants",
+   "status": 200,
+   "ms": 1817,
+   "why": "S2 Explore opportunities"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are/our-story",
+   "final": "https://www.shazam.net/who-we-are/our-story",
+   "status": 200,
+   "ms": 1880,
+   "why": "S2 Get to know SHAZAM"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are/careers/current-openings",
+   "final": "https://www.shazam.net/who-we-are/careers/current-openings",
+   "status": 200,
+   "ms": 2096,
+   "why": "S2 Join our team"
+  },
+  {
+   "url": "https://www.shazam.net/resources/news",
+   "final": "https://www.shazam.net/resources/news",
+   "status": 200,
+   "ms": 1832,
+   "why": "S2 View more"
+  },
+  {
+   "url": "https://www.shazam.net/products/processing-solutions",
+   "final": "https://www.shazam.net/products/processing-solutions",
+   "status": 200,
+   "ms": 2199,
+   "why": "S2 PEREGRINE™Processing Solutions"
+  },
+  {
+   "url": "https://www.shazam.net/products",
+   "final": "https://www.shazam.net/products",
+   "status": 200,
+   "ms": 1783,
+   "why": "S3 Products"
+  },
+  {
+   "url": "https://www.shazam.net/products/processing-solutions",
+   "final": "https://www.shazam.net/products/processing-solutions",
+   "status": 200,
+   "ms": 2098,
+   "why": "S3 PEREGRINE™Processing Solutions"
+  },
+  {
+   "url": "https://www.shazam.net/products/payments-network",
+   "final": "https://www.shazam.net/products/payments-network",
+   "status": 200,
+   "ms": 2064,
+   "why": "S3 SHAZAMPayments Network"
+  },
+  {
+   "url": "https://www.shazam.net/products/digital-banking",
+   "final": "https://www.shazam.net/products/digital-banking",
+   "status": 200,
+   "ms": 2023,
+   "why": "S3 DigiHive™Digital Banking"
+  },
+  {
+   "url": "https://www.shazam.net/products/processing-solutions",
+   "final": "https://www.shazam.net/products/processing-solutions",
+   "status": 200,
+   "ms": 1930,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1928,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are/careers/current-openings",
+   "final": "https://www.shazam.net/who-we-are/careers/current-openings",
+   "status": 200,
+   "ms": 1886,
+   "why": "S5 Join our team"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1929,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1824,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.shazam.net/contact",
+   "final": "https://www.shazam.net/contact",
+   "status": 200,
+   "ms": 1826,
+   "why": "S7 Contact"
+  },
+  {
+   "url": "https://www.shazam.net/contact",
+   "final": "https://www.shazam.net/contact",
+   "status": 200,
+   "ms": 1839,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 2002,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1853,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1870,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1860,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1828,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1865,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1877,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.shazam.net/atm-locator",
+   "final": "https://www.shazam.net/atm-locator",
+   "status": 200,
+   "ms": 1794,
+   "why": "S12 ATM Locator"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-are/careers",
+   "final": "https://www.shazam.net/who-we-are/careers",
+   "status": 200,
+   "ms": 1889,
+   "why": "S12 Careers"
+  },
+  {
+   "url": "https://www.shazam.net/#",
+   "final": "https://www.shazam.net/#",
+   "status": 200,
+   "ms": 1839,
+   "why": "S12 Login"
+  },
+  {
+   "url": "https://www.shazam.net/",
+   "final": "https://www.shazam.net/",
+   "status": 200,
+   "ms": 1930,
+   "why": "S12 Shazam Logo . Link to homepage"
+  },
+  {
+   "url": "https://www.shazam.net/who-we-serve",
+   "final": "https://www.shazam.net/who-we-serve",
+   "status": 200,
+   "ms": 1884,
+   "why": "S12 Who We Serve"
+  },
+  {
+   "url": "https://www.shazam.net/products",
+   "final": "https://www.shazam.net/products",
+   "status": 200,
+   "ms": 1960,
+   "why": "S12 Products"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "shazam-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.shazam.net/",
+   "captured": "2026-09-25",
+   "file": "assets/shazam/shazam-s1-01-20260925.webp",
+   "kb": 82
+  },
+  {
+   "id": "shazam-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.shazam.net/products/processing-solutions",
+   "captured": "2026-09-25",
+   "file": "assets/shazam/shazam-s3-02-20260925.webp",
+   "kb": 64
+  },
+  {
+   "id": "shazam-s03",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.shazam.net/contact",
+   "captured": "2026-09-25",
+   "file": "assets/shazam/shazam-s7-03-20260925.webp",
+   "kb": 89
+  },
+  {
+   "id": "shazam-s04",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.shazam.net/",
+   "captured": "2026-09-25",
+   "file": "assets/shazam/shazam-s11-04-20260925.webp",
+   "kb": 47
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 41,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

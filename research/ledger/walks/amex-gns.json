@@ -1,0 +1,438 @@
+{
+ "network": "amex",
+ "seed": "https://network.americanexpress.com/globalnetwork/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://network.americanexpress.com/globalnetwork/v4",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "American Express Global Network",
+   "h1": "American Express Network",
+   "description": null,
+   "landmarks": {
+    "header": false,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Network",
+    "Partners",
+    "Merchants",
+    "Cardmembers",
+    "News",
+    "Knowledge Base",
+    "Sign in"
+   ],
+   "ctas": [
+    {
+     "text": "Partners",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Merchants",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Cardmembers",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "News",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/news/"
+    },
+    {
+     "text": "Knowledge Base",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/secure/"
+    },
+    {
+     "text": "Sign in",
+     "href": null
+    },
+    {
+     "text": "Issuers Help grow your business by tapping into best-in-clas",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Acquirers Scale your business and onboard Merchants to the A",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Service Providers Join 1200+ Service Providers who have cert",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Developers Connect to American Express services that power t",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "See an overview of all our payment solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/overview-payments/"
+    },
+    {
+     "text": "Website Rules & Regulations",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Trademark",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "text": "Privacy Statement",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Sign in",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/",
+     "top": 13
+    },
+    {
+     "text": "Sign in",
+     "href": null,
+     "top": 15
+    }
+   ],
+   "audience_words": [
+    "issuer",
+    "acquirer",
+    "merchant",
+    "developer",
+    "partner",
+    "fintech"
+   ],
+   "headings": [
+    "h1: American Express Network",
+    "h3: The network that backs you.",
+    "h3: Whether you are a Card Issuer, Merchant Acquirer or Fintech, American Express ha",
+    "h2: Partners",
+    "h3: Issuers",
+    "h3: Acquirers",
+    "h2: Service Providers",
+    "h2: Developers",
+    "h2: Merchants",
+    "h2: Cardmembers"
+   ],
+   "screenshot": "assets/amex/amex-gns-s1-01-20260925.webp"
+  },
+  "S3": {
+   "from": "Payment Solutions",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "title": "Partners | Issuers | Payment Solutions | American Express",
+   "headings": [
+    "h1: Payment Solutions",
+    "h2: Digital Solutions",
+    "h3: Enabling safer, touch-free digital payments.",
+    "h2: Security Solutions",
+    "h3: A protected payment network for everyone.",
+    "h2: Acceptance Solutions",
+    "h3: Enabling worldwide acceptance of more secure, touch-free payments."
+   ],
+   "links": 31,
+   "sample": [
+    {
+     "text": "Skip to main content",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/#mainContent"
+    },
+    {
+     "text": "Network",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/"
+    },
+    {
+     "text": "Partners",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/#!"
+    },
+    {
+     "text": "News",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/news/"
+    },
+    {
+     "text": "Knowledge Base",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/secure/"
+    },
+    {
+     "text": "Sign in",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/"
+    },
+    {
+     "text": "Issuers",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/"
+    },
+    {
+     "text": "Power of the Network",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/power-of-the-network/"
+    },
+    {
+     "text": "Marketing Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/"
+    },
+    {
+     "text": "Payment Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/"
+    },
+    {
+     "text": "Backing Our Partners",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/backing-our-partners/"
+    },
+    {
+     "text": "Digital Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/#5061fa7e-4a93-4e77-aeda-ca04c5b3ff2b"
+    },
+    {
+     "text": "Security Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/#485e0104-29b2-46cf-b6eb-3aa98226c3aa"
+    },
+    {
+     "text": "Acceptance Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/#0e4e175a-599a-4521-ad96-dbee36beae2a"
+    },
+    {
+     "text": "Apple Pay",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/apple-pay"
+    },
+    {
+     "text": "Google Pay",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/google-pay"
+    },
+    {
+     "text": "Mobile HCE",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/mobile-hce"
+    },
+    {
+     "text": "Mobile NFC",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/mobile-nfc"
+    },
+    {
+     "text": "Samsung Pay",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/samsung-pay"
+    },
+    {
+     "text": "The 2025 Amex Trendex Digital Payment Edition",
+     "href": "https://network.americanexpress.com/globalnetwork/dam/jcr:5bc44240-62c7-4fca-9b13-2a210f2bf453/The-2025-Amex-Trendex-Digital-Payment-Edition.PDF"
+    },
+    {
+     "text": "EMV Chip Card Payments",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/emv-chip"
+    },
+    {
+     "text": "Online PIN",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/online-pin"
+    },
+    {
+     "text": "Card-On-File Tokenization",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/card-on-file-tokenization"
+    },
+    {
+     "text": "SafeKey ®",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/safekey"
+    },
+    {
+     "text": "The 2024 Amex Trendex Payment Security Edition",
+     "href": "https://network.americanexpress.com/globalnetwork/dam/jcr:11d6bdd7-ead1-40ae-8309-ef4508c6fc8e/The-2024-Amex-Trendex-Payment-Security-Edition.pdf"
+    },
+    {
+     "text": "Contactless Payments",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/contactless-payments"
+    },
+    {
+     "text": "Contactless In Transit",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/contactless-in-transit"
+    },
+    {
+     "text": "Mobile POS",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/mobile-pos"
+    },
+    {
+     "text": "American Express QR Code Payment Solutions",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/qr-code"
+    },
+    {
+     "text": "Click to Pay - with American Express",
+     "href": "https://network.americanexpress.com/globalnetwork/v4/products/click-to-pay-with-american-express"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/amex/amex-gns-s3-02-20260925.webp"
+  },
+  "S7": {
+   "from": "Issuers Help grow your business by tapping into best-in-clas",
+   "url": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "title": "American Express Global Network",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/amex/amex-gns-s7-03-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Website Rules & Regulations",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    },
+    {
+     "clicks": 1,
+     "text": "Interactive Guide",
+     "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Website Rules & Regulations",
+    "href": "https://network.americanexpress.com/globalnetwork/v4#!"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4",
+   "status": 200,
+   "ms": 2822,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/",
+   "status": 200,
+   "ms": 2145,
+   "why": "S2 Network"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/news/",
+   "status": 200,
+   "ms": 2038,
+   "why": "S2 News"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/secure/",
+   "final": "https://www.americanexpress.com/en-us/account/enterprise/login?target=https://network.americanexpress.com/globalnetwork/v4/secure/",
+   "status": 200,
+   "ms": 2039,
+   "why": "S2 Knowledge Base"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/",
+   "status": 200,
+   "ms": 2070,
+   "why": "S3 Marketing Solutions"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "status": 200,
+   "ms": 2074,
+   "why": "S3 Payment Solutions"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/marketing-solutions/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/marketing-solutions/",
+   "status": 200,
+   "ms": 2061,
+   "why": "S3 Marketing Solutions"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/payment-solutions/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/payment-solutions/",
+   "status": 200,
+   "ms": 2128,
+   "why": "S3 Payment Solutions"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "final": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "status": 200,
+   "ms": 2282,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4",
+   "final": "https://network.americanexpress.com/globalnetwork/v4",
+   "status": 200,
+   "ms": 2085,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "final": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "status": null,
+   "ms": 1504,
+   "why": "S7 Issuers Help grow your business by tapping into best-in-clas"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "final": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "status": null,
+   "ms": 1505,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://network.americanexpress.com/globalnetwork/v4",
+   "final": "https://network.americanexpress.com/globalnetwork/v4",
+   "status": 200,
+   "ms": 2107,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "amex-gns-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://network.americanexpress.com/globalnetwork/v4",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-gns-s1-01-20260925.webp",
+   "kb": 79
+  },
+  {
+   "id": "amex-gns-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-gns-s3-02-20260925.webp",
+   "kb": 109
+  },
+  {
+   "id": "amex-gns-s03",
+   "station": "S7",
+   "note": "support",
+   "url": "https://network.americanexpress.com/globalnetwork/v4#!",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-gns-s7-03-20260925.webp",
+   "kb": 79
+  }
+ ],
+ "errors": [
+  "S2 page.evaluate: Error: eval is disabled\n    at monkeypatchedEval (https://www.aexp-static.com/cdaas/one/app/6.14.2-a742bedc/app.js:1:112690)\n    at UtilityScript.evaluate (<anonymous>:311:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+ ],
+ "summary": {
+  "pages_visited": 13,
+  "screenshots": 3,
+  "errors": 1,
+  "walls_in_nav": null,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

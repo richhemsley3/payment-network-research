@@ -1,0 +1,34 @@
+{
+ "network": "visa",
+ "seed": "https://developer.visa.com/site/release_notes",
+ "tier": "shot",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.visa.com/site/release_notes"
+  },
+  "S1": {
+   "title": "release notes"
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.visa.com/site/release_notes",
+   "why": "extra shot"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "visa-notes-s01",
+   "station": "S1",
+   "note": "release notes",
+   "url": "https://developer.visa.com/site/release_notes",
+   "captured": "2026-09-25",
+   "file": "assets/visa/visa-notes-s1-01-20260925.webp",
+   "kb": 64
+  }
+ ],
+ "errors": []
+}

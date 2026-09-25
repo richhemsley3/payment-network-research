@@ -1,0 +1,955 @@
+{
+  "network": "mastercard",
+  "dimension": "pricing",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard publishes its U.S. interchange rates and qualifying criteria on its website and says rates are typically updated semiannually.",
+      "quote": "Mastercard interchange rates are typically updated semiannually, and we will publish interchange rates and related criteria on this Web site",
+      "url": "https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Seed URL https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html redirects here. Same page also states: 'Mastercard has no involvement in acquirer and merchant pricing policies or agreements.' Akamai returns HTTP 403 to WebFetch and curl for mastercard.com/mastercard.us; page read in the browser pane."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The current published U.S. schedule is the 2026-2027 U.S. Region Interchange Programs and Rates, an 11-page PDF effective April 17, 2026, covering consumer credit, regulated and unregulated debit/prepaid, commercial, PIN debit and ATM rates.",
+      "quote": "U.S. Region Interchange Programs and Rates Effective April 17, 2026",
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard 2026-2027 U.S. Region Interchange Programs and Rates",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Effective date taken from the cover page; document publication date not shown. Linked from the U.S. interchange page as 'Download current Mastercard interchange rates'. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "U.S. consumer credit Merit III Base interchange (retail/restaurant, card present) ranges from 1.65% + USD 0.10 on Core cards to 2.30% + USD 0.10 on World High Value and World Elite cards.",
+      "quote": "Merit III Base 1.65% + 0.10 1.80% + 0.10 1.90% + 0.10 2.30% + 0.10 2.30% + 0.10",
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard 2026-2027 U.S. Region Interchange Programs and Rates",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Columns in order: Core, Enhanced Value, World, World High Value, World Elite (USD). Same table: Standard (non-qualified) 3.15% + 0.10 for all tiers; Merit III volume tiers require USD 1.80 billion (Tier 1), 1.25 billion (Tier 2), 750 million (Tier 3) annual qualifying consumer credit volume. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "For Regulation II covered (regulated) issuers, Mastercard's U.S. POS debit interchange is 0.05% + USD 0.21, or 0.05% + USD 0.22 with the fraud-prevention adjustment; refunds carry 0.00% + 0.00.",
+      "quote": "Regulated POS Debit 0.05% + 0.21 0.05% + 0.21 Regulated POS Debit with Fraud Adjustment 0.05% + 0.22 0.05% + 0.22",
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard 2026-2027 U.S. Region Interchange Programs and Rates",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page 6, 'U.S. Region Mastercard Regulated Consumer/Commercial Debit and Prepaid Rates'; these track the Reg II cap of $0.21 + 5 bps + $0.01 fraud adjustment. Unregulated consumer debit examples on page 4: Merit III Tier 1 0.70% + 0.15; Standard 1.90% + 0.25. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard's published U.S. ATM interchange (paid to the ATM acquirer) is tiered by the issuer's quarterly ATM volume: USD 0.35 for issuers with 7.5 million quarterly transactions, USD 0.45 at 5.0 million, with base, non-financial and shared-deposit rates also listed.",
+      "quote": "ATM Financial Tier 1 7.5 million 0.00% + 0.35 ATM Financial Tier 2 5.0 million 0.00% + 0.45",
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard 2026-2027 U.S. Region Interchange Programs and Rates",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page 11, 'U.S. Region Mastercard ATM Rates'. Remaining rows read in column order as ATM Financial Base 0.00% + 0.50, ATM Financial Nebraska 0.00% + 0.45, ATM Non-Financial 0.00% + 0.28, ATM Shared Deposit 0.00% + 2.00 (mapping inferred from extraction order). Text also says tier qualification is reviewed quarterly on the issuer's prior-quarter settled ATM transactions. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In Canada Mastercard publishes its acquirer network assessment fees: an Acquirer Volume Assessment of 0.090% (9.0 bps) on all gross acquiring volume, effective July 20, 2026.",
+      "quote": "The Acquirer Volume Assessment Fee is 0.090% or 9.0 basis points on assessable volume.",
+      "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-as-of-july20-2026-english.pdf",
+      "title": "Mastercard Acquiring Network Assessment Fees effective July 20, 2026 (Canada)",
+      "publisher": "Mastercard Canada",
+      "published": "2026-06-19",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'Document Last Updated - June 19, 2026'. Assessment is invoiced on volume reported in the Quarterly Member Reporting (QMR) questionnaire, on domestic and international volume, Mastercard-processed and on-us. This is the only public Mastercard scheme-fee (assessment) schedule found; no U.S. equivalent was located. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada's published Acquirer Cross-Border Assessment is 1.00% (100 bps) of volume whenever merchant and cardholder country codes differ, for both CAD and non-CAD transaction currencies; utilities are assessed at USD 0.02 and domestic debit contactless at USD 0.004 per transaction with the 9 bps volume assessment rebated.",
+      "quote": "The assessment is 1.00% or 100 basis points charged on volume when the transaction currency is Canadian Dollars (CAD)",
+      "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-as-of-july20-2026-english.pdf",
+      "title": "Mastercard Acquiring Network Assessment Fees effective July 20, 2026 (Canada)",
+      "publisher": "Mastercard Canada",
+      "published": "2026-06-19",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also verbatim: 'Mastercard charges a transaction-based Assessment Fee of USD 0.004 + 0.00% on Domestic Debit Contactless transactions.' PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada domestic consumer credit interchange effective August 1, 2026: Card Present EMV is 0.92% (Core), 1.22% (World), 1.56% (World Elite) and 1.95% (World Legend); Standard is 1.96% to 2.53%; domestic debit Supermarket/Petroleum is 0.15% + CAD 0.05.",
+      "quote": "Card Present EMV 0.92% 1.22% 1.56% 1.95%",
+      "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/support/documents/interchange-criteria-rates-aug12026-upcoming-rates-en.pdf",
+      "title": "Mastercard Canada Interchange Programs (Domestic Consumer Credit Interchange Rates Effective August 1, 2026)",
+      "publisher": "Mastercard Canada",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "14-page PDF linked as 'Current interchange rates' from https://www.mastercard.com/ca/en/business/support/merchant-interchange-rates.html. Columns: Core, World, World Elite, World Legend. Debit table: 'Supermarket 0.15% + $.05 (CAD) Petroleum 0.15% + $.05 (CAD) Electronic 0.25% + $.05 (CAD)'; debit Standard 1.15%. The Canada page also states 'Mastercard does not earn revenue from interchange.' PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard publishes EEA inbound inter-regional consumer interchange at the EC-commitment caps: 0.30% credit and 0.20% debit card present, 1.50% credit and 1.15% debit card not present, valid from 19 October 2019.",
+      "quote": "EEA Credit Card Not Present Rates 1.50% EEA Debit Card Not Present Rates 1.15%",
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/MC2__rates.pdf",
+      "title": "EEA inbound cross-border consumer transactions Interchange Fees (Valid From 19/10/19)",
+      "publisher": "Mastercard Europe",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Linked from the Mastercard Europe interchange hub https://www.mastercard.com/gb/en/business/support/merchant-interchange-rates.html as 'EEA inbound interregional cross-border interchange fees'. Card present rows: 'EEA Credit Card Present Rates 0.30%', 'EEA Debit Card Present Rates 0.20%'. A separate 'Undertaking to the European Commission' PDF (https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Mastercard_Europe_SA-Undertaking_inter-regional_Interchange_Fees.pdf) states the commitments expire 1 November 2024 and that 'Mastercard Europe undertakes in good faith to continue to apply the IIFs caps set out in the Commitments'. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard's published UK domestic interchange (valid from 23 April 2022) sets consumer credit at 0.30% and consumer debit at 0.20% (capped at GBP 1.00 for government and personal-payment MCCs), while UK commercial cards are uncapped at 1.30% to 1.90%.",
+      "quote": "Mastercard Consumer Debit Contactless (1) 0.20% 0.20% (Max GBP1.00)",
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Website_UK_Intracountry_Interchange_Fees_10_05_22.pdf",
+      "title": "UK - Domestic Interchange Fees (Consumer Card Interchange Fees valid from 23-Apr-22; Commercial valid from 22-Jan-21)",
+      "publisher": "Mastercard Europe",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Selected from the 'European fees by location' drop-down on https://www.mastercard.com/gb/en/business/support/merchant-interchange-rates.html. Commercial page verbatim: 'Mastercard Corporate Contactless 1.50% 1.50% 0.20% (Max GBP1.50)' and 'Large Ticket Level 2 (2)(4) 0.75% + GBP 27.00'. The hub states 'the UK's version of the Regulation caps interchange fees only on UK domestic consumer debit and credit transactions'. Intra-EEA fallback consumer fees PDF (https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Website_Intra_EEA_Fallback_Interchange_Fees_220121.pdf) shows 0.30%/0.20% valid from 09-Dec-15. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Australia domestic Mastercard credit interchange effective 17 April 2026 (ex-GST): Base rate is 0.19% for Consumer Standard, 0.27% Consumer Premium, 0.70% Consumer Elite and 0.59% Commercial; Strategic Merchants 1 pays 0.18% on most products.",
+      "quote": "Base 0.59% 0.80% 0.19% 0.27% 0.61% 0.76% 0.67% 0.70% 0.80% 0.50% 0.80% 0.80% 0.80%",
+      "url": "https://www.mastercard.com/content/dam/mccom/aus/data-source/merchant-interchange-rates/Australia-Intracountry-CREDIT-POS-Interchange-Rates.pdf",
+      "title": "Australia Intracountry Mastercard Credit POS Interchange Rates (Effective 17 April 2026)",
+      "publisher": "Mastercard Australia",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Columns in order: Commercial, Commercial Executive, Consumer Standard, Consumer Premium, Consumer Premium (High Spend), Consumer Super Premium, Consumer Super Premium Rewards, Consumer Elite, Commercial Charge, Consumer Charge Premium, Consumer Charge Elite, Installments Card Consumer, Installments Card Business. Linked from https://www.mastercard.com/au/en/business/support/merchant-interchange-rates.html which also links the Mastercard-RBA Undertaking No. 1 of 2023. Predates the RBA March 2026 decision to cap consumer credit at 0.3% (see RBA claims). PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Mastercard Rules (2 June 2026 edition) publish a noncompliance assessment schedule: Category A violations carry up to USD 25,000 for a first violation, USD 50,000 for a second, USD 75,000 for a third and USD 100,000 per violation thereafter within 12 months.",
+      "quote": "A Per violation Up to USD 25,000 for the first violation Up to USD 50,000 for the second violation within 12 months",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules, 2 June 2026",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 2.1.4, p.60 of 503. Category B: up to USD 20,000 / 30,000 / 60,000 / 100,000; Category C: up to USD 15,000 / 25,000 / 50,000 / 75,000 (pp.61-62). Rule 2.1.6 (p.63): 'The Corporation may assess a USD 500 fee to consider and act on a request for review of a noncompliance assessment.' Linked from https://www.mastercard.com/us/en/business/support/rules.html. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Customers that fail to register Service Providers are subject to noncompliance assessments of up to USD 25,000 per 30-day period; the same chapter defines Network Enablement Partners (Rule 7.11) and underpayment of QMR-based assessments carries interest of the lower of 2% per month or the legal maximum.",
+      "quote": "subject to noncompliance assessments of up to USD 25,000 for each 30-day period of noncompliance",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules, 2 June 2026",
+      "publisher": "Mastercard",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 7.10.7, p.190; Rule 7.11 'Network Enablement Partners' follows. p.84 verbatim: 'impose an interest penalty of the lower of two percent per month or the highest rate permitted by law'. p.173 names the 'Specialty Merchant Registration application within My Company Performance on Mastercard Connect'. Keyword scan covered pages 1-194 only. PDF returns HTTP 403 to scripted clients and triggers a download dialog in the browser; text extracted in-browser with pdf.js from the mastercard.com origin, whitespace normalised."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard's 10-K defines its four payment-network fee streams: domestic assessments (volume-based, same country), cross-border assessments (volume-based, different countries), transaction processing assessments (per switched transaction plus connectivity) and other network assessments (licensing, implementation and franchise fees).",
+      "quote": "Transaction processing assessments are charges primarily driven by the number of switched transactions on our payment network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 7 key metrics. Also verbatim: 'Other network assessments are charges for licensing, implementation and other franchise fees.' and 'Assessments do not represent our net revenue.' No fee amounts are given; licence and franchise fee levels are not public."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Gross payment-network assessments in 2025 were USD 11,029 million domestic (+8%), USD 12,021 million cross-border (+18%), USD 15,930 million transaction processing (+17%) and USD 1,018 million other network assessments (+9%), before rebates and incentives.",
+      "quote": "Domestic assessments $ 11,029 $ 10,245 $ 9,566 8% 8% 7% 9% Cross-border assessments 12,021 10,181 8,409 18% 17% 21% 22%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table columns: 2025, 2024, 2023, then as-reported and currency-neutral growth for 2025 and 2024. Same table: 'Transaction processing assessments 15,930 13,602 12,067 17% 16% 13% 14% Other network assessments 1,018 936 963 9% 8% (3)% (3)%'. Total net revenue 2025 USD 32,791 million (+16%)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard paid USD 20,522 million of rebates and incentives to customers within payment-network net revenue in 2025, up 16%, driven by volume growth and new and renewed deals; the 10-K flags ongoing pressure to increase incentives and pricing discounts.",
+      "quote": "Net revenue from our payment network included $20,522 million of rebates and incentives provided to customers, which increased 16%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rebates and incentives are 'either fixed or variable' and tied to 'volume thresholds or other incentives tied to customer performance'. Risk factor verbatim: 'In order to stay competitive, we may have to increase the amount of these incentives and pricing discounts'. Individual customer deal terms are not disclosed."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard (or financial institutions) sets default interchange fees that apply only when an issuer and acquirer have no bilateral settlement terms; Mastercard collects and remits interchange through settlement but the fee flows from acquirer to issuer.",
+      "quote": "establish \"default interchange fees\" that apply when there are no other established settlement terms in place between an issuer and an acquirer",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1 'Interchange Fees'. Also: 'We administer the collection and remittance of interchange fees through the settlement process.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In August and September 2025 two U.S. district courts issued conflicting rulings on the Regulation II debit interchange cap, one vacating it and one upholding it; the cap remains in effect pending litigation, and New Zealand caps on cross-border interchange take effect May 2026.",
+      "quote": "One court vacated the interchange cap while the other upheld it. The interchange cap remains in effect while the litigation continues.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1 'Key 2025 Developments'. Also verbatim: 'The New Zealand Commerce Commission approved the implementation of caps on cross-border interchange for most types of card transactions, effective May 2026.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard's accrued liability for the U.S. merchant interchange MDL 1720 cases was USD 637 million at December 31, 2025 (USD 559 million in 2024); it pays 12% of any global settlement under its judgment-sharing agreement, and settlements now cover over 90% of its U.S. interchange volume.",
+      "quote": "As of December 31, 2025 and 2024, Mastercard accrued a liability of $ 637 million and $ 559 million, respectively",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note 19. Verbatim: 'Mastercard would pay 12 % of the monetary portion of the settlement' (global settlement) and 36% for a Mastercard-only settlement; 'The opt-out merchant settlements, along with the Damages Class settlement, represent over 90 % of Mastercard's U.S. interchange volume.' Remaining opt-outs (seven merchants incl. Circle K, plus Block and Intuit) seek over USD 1 billion; trials scheduled April and September 2026. Provision for litigation: USD 504 million in 2025, 680 in 2024, 539 in 2023."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The 2024 Rules Relief Class settlement (interchange reductions and rule changes) was denied by the court; in November 2025 the parties reached a revised settlement that awaits a preliminary-approval decision.",
+      "quote": "In November 2025, the parties reached a revised settlement agreement that, if approved by the court, would resolve the litigation.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note 19. Terms of the November 2025 revised settlement are not described in the 10-K and no Mastercard press release was found in the newsroom listing; see not_found."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard paid GBP 200 million (USD 263 million) in 2025 to settle the UK consumer collective action over interchange pass-through, and about GBP 0.3 billion of UK and pan-European merchant damages claims remain unresolved after a June 2025 liability ruling against it.",
+      "quote": "Mastercard paid the previously agreed upon settlement amount of £ 200 million ($ 263 million as of the date of payment)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note 19 'Europe'. Also: 'approximately £ 0.3 billion (approximately $ 0.4 billion as of December 31, 2025) of unresolved damages claims remain' and 'In June 2025, the trial court in the U.K. merchant action decided against Mastercard on certain liability issues.' A UK commercial-card collective action claims over GBP 1 billion; Portugal (EUR 0.4bn) and Netherlands (EUR 0.3bn) collective actions are pending."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "ATM pricing rules are in litigation: Mastercard accrued USD 93 million (bank ATM consumer class, approved June 2025) and USD 79 million (non-bank ATM consumer class, August 2025 agreement) to settle claims over its ATM non-discrimination surcharge rule, while the independent ATM operators' class continues, alleging over USD 1 billion in single damages.",
+      "quote": "recorded an accrual of $ 93 million in connection with this matter. In June 2025, the court issued a decision approving the settlement.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated / U.S. SEC",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note 19 'ATM Non-Discrimination Rule Surcharge Complaints' (D.D.C., filed 2011). Also verbatim: 'During the second quarter of 2025, Mastercard recorded an accrual of $ 79 million in connection with this matter.' and 'The plaintiffs in this class complaint allege over $ 1 billion in single damages against all of the defendants.' The rule requires ATM surcharges on Mastercard/Visa transactions not to exceed those on other networks."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Federal Reserve Reg II data for 2023: the average interchange fee on covered debit transactions was USD 0.24 over single-message (PIN) networks and USD 0.22 over dual-message (signature) networks, versus USD 0.52 for exempt transactions.",
+      "quote": "the average interchange fee for covered transactions processed over single-message networks was $0.24, while that for covered transactions processed over dual-message networks was $0.22",
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer and Merchant Fraud Losses Related to Debit Card Transactions",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also verbatim: 'The average interchange fee for transactions exempt from Regulation II was $0.52 in 2023.' and the base cap of '$0.21 plus 5 basis points multiplied by the value of a transaction' 'exceeded the average per-transaction ACS costs, including issuer fraud losses, for 80.1 percent of covered issuers and for 99.2 percent of covered transactions'. Total debit interchange 2023: $34.12 billion on 100.7 billion transactions."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Board's per-network table for 2024 shows Mastercard's average covered debit interchange at USD 0.24 (0.49% of value) and exempt at USD 0.63 (1.30%); Maestro (single-message) covered USD 0.24 (0.55%) and exempt USD 0.21 (0.54%).",
+      "quote": "MasterCard $0.24 0.49%",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Row values as rendered by the fetch tool from the 2024 table (covered transactions). Exempt row: MasterCard $0.63 1.30%; Maestro covered $0.24 0.55%, exempt $0.21 0.54%. Comparators covered: Visa $0.22 0.44%, Interlink $0.25 0.48%, STAR $0.24 0.51%, PULSE $0.24 0.51%, NYCE $0.24 0.48%, ACCEL $0.24 0.49%, SHAZAM $0.21 0.43%, Discover $0.23 0.72%."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Federal Reserve's October 2023 proposal would lower the Reg II debit cap so that the cap on an average USD 50 transaction falls from 24.5 cents to 17.7 cents, which would directly reduce Mastercard's regulated debit interchange rates.",
+      "quote": "the cap on an average-sized $50 debit card transaction would decline from 24.5 cents under the current rule to 17.7 cents under the proposal",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20231025a.htm",
+      "title": "Federal Reserve Board requests comment on proposal to lower the maximum interchange fee that a large debit card issuer can receive for a debit card transaction",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2023-10-25",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Proposal not finalised as of the sources read; the 10-K notes conflicting 2025 court rulings on the existing cap."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The UK PSR's March 2025 final report found Mastercard and Visa raised average core scheme and processing fees to acquirers by at least 25% in real terms between 2017 and 2023, with little evidence of links to cost, costing UK businesses at least GBP 170 million more per year.",
+      "quote": "average core fees (as a proportion of transaction value) have increased in real terms by at least 25% between 2017 and 2023",
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also verbatim: 'we estimate that UK businesses pay at least £170 million more, annually, for scheme and processing fees than they did seven years ago' and 'We have seen little evidence that fee increases are linked directly to any changes in relevant costs'. Remedies per https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/: ITC remedy (Specific Direction 22), 'Pricing Governance remedy - Final Specific Direction 23', and regulatory financial reporting under consultation (CP26/1)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The PSR found that after Brexit removed the IFR cap, Mastercard and Visa raised UK-EEA card-not-present consumer interchange fivefold, from 0.2% to 1.15% (debit) and 0.3% to 1.5% (credit); Mastercard's increase took effect April 2022, costing UK businesses GBP 150-200 million a year.",
+      "quote": "Mastercard and Visa increased their IF levels for UK-EEA CNP transactions fivefold – from 0.2% to 1.15% for consumer debit cards",
+      "url": "https://www.psr.org.uk/media/vrcimoxw/mr22-27-xbif-final-report-dec-2024-v3.pdf",
+      "title": "MR22/2.7 Market review of UK-EEA consumer cross-border interchange fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2024-12-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also verbatim: 'Mastercard followed suit and increased the same IFs in April 2022.' and 'The increases are costing service users approximately [redacted] £150 million to £200 million per year'. Credit: 'from 0.3% to 1.5% for consumer credit cards'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In October 2025 the PSR decided not to impose an interim cap on UK-EEA cross-border interchange after Mastercard, Visa and Revolut sought judicial review of the proposed price cap, and will instead develop a methodology for a longer-term cap.",
+      "quote": "Mastercard, Visa and Revolut were seeking judicial review of our proposal to impose a price cap",
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr2229-decision-not-to-proceed-with-interim-cap-on-cross-border-interchange-fees-statement-of-reasons/",
+      "title": "MR22/2.9 Decision not to proceed with interim cap on cross-border interchange fees: statement of reasons",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-10-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'it would be more effective to proceed with a cap only after we have developed a robust methodology'. Methodology consultation is MR22/2.8."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Reserve Bank of Australia's March 2026 conclusions lower the cap on domestic consumer credit interchange to 0.3% (from 0.8%) and abolish the 0.5% weighted-average benchmark; commercial credit stays capped at 0.8%.",
+      "quote": "lower the cap on domestic-issued consumer credit card interchange to 0.3 per cent and abolish the benchmark",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging - Conclusions Paper (31 March 2026)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Prior regime (Table 2): 'Caps 0.8 per cent 10 cents (fixed fee) or 0.2 per cent (ad-valorem fee) Benchmarks 0.5 per cent 8 cents'. Also verbatim: 'introduce interchange caps for all foreign-issued card transactions at 1.0 per cent' (effective 1 April 2027 per the RBA page). Conclusions paper first published 31 March 2026, updated 19 June 2026."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA keeps the domestic debit and prepaid interchange benchmark at 8 cents and lowers the debit cap to 8 cents (or 0.16% ad valorem), noting the weighted-average debit interchange is already close to 6 cents.",
+      "quote": "lower the cap to 8 cents (or 0.16 per cent on an ad-valorem basis)",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging - Conclusions Paper (31 March 2026)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PSB decision item 1. The July 2025 consultation page (https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2025-07/) stated: 'Our proposals could save businesses around $1.2 billion in interchange fees a year and make 90 per cent of businesses better off.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Australian card surcharging on debit and credit ends 1 October 2026, and eftpos, Mastercard, Visa and large acquirers must publish the fees they charge, with most reforms effective 1 October 2026 and the foreign-card cap from 1 April 2027.",
+      "quote": "Surcharging on debit and credit cards should end from 1 October 2026",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "Review of Merchant Card Payment Costs and Surcharging - Conclusions (March 2026)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also verbatim: 'eftpos, Mastercard, Visa and large acquirers will have to publish the fees they charge' and 'The introduction of an interchange cap on foreign cards and some changes to payment cost transparency will come into effect later, on 1 April 2027.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In April 2019 the European Commission made binding Mastercard's commitments to cap inter-regional consumer interchange in the EEA at 0.2% debit / 0.3% credit card-present and 1.15% / 1.50% card-not-present for five years and six months, cutting those fees by about 40% and requiring publication on its website.",
+      "quote": "0.2% of the value of the transaction for debit cards; 0.3% of the value of the transaction for credit cards",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_19_2311",
+      "title": "Antitrust: Commission accepts commitments by Mastercard and Visa to cut inter-regional interchange fees",
+      "publisher": "European Commission",
+      "published": "2019-04-29",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched via the presscorner API (reference IP/19/2311); page itself is JavaScript-rendered. CNP verbatim: '1.15% of the value of the transaction for debit cards; 1.50% of the value of the transaction for credit cards'. Also: 'Publish all inter-regional interchange fees covered by the commitments in a clearly visible manner on their respective websites.' Decision date 29 April 2019 per Mastercard's Undertaking PDF. Mastercard's published EEA inbound rates match these caps."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The European Commission fined Mastercard EUR 570,566,000 in January 2019 for cross-border acquiring rules that forced acquirers to apply the merchant-country interchange fee, preventing merchants from using lower interchange available from acquirers in other EEA states before the IFR caps of 0.2% debit and 0.3% credit took effect on 9 December 2015.",
+      "quote": "has fined the card scheme Mastercard €570 566 000 for limiting the possibility for merchants to benefit from better conditions",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_19_582",
+      "title": "Antitrust: Commission fines Mastercard €570 million for obstructing merchants' access to cross-border card payment services",
+      "publisher": "European Commission",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fetched via presscorner API (IP/19/582); date not returned by the API, IP/19/2311 refers to it as 'our January 2019 decision'. Also verbatim: 'capped interchange fees in the European Economic Area (EEA) to a maximum of 0.2% of the transaction's value for debit cards'. Case AT.40049; 10% fine reduction for cooperation."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The DOJ's September 2024 debit monopolisation complaint against Visa describes the debit pricing structures Mastercard competes against: volume commitments priced so that disloyalty penalties apply to all Visa transactions unless nearly all debit volume runs on Visa, plus payments to would-be competitors; Visa is said to charge roughly USD 8 billion a year in U.S. debit network fees.",
+      "quote": "unless all or nearly all debit volume runs over Visa's payment rails, large disloyalty penalties can be imposed on all Visa transactions",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "publisher": "U.S. Department of Justice, Office of Public Affairs",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Archived press release (updated February 6, 2025); read in the browser pane after WebFetch and curl returned empty bodies. The press release does not mention Mastercard; the complaint text itself was not read (see not_found)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In March 2024 Mastercard announced a class settlement to reduce and cap its U.S. consumer and commercial credit interchange for at least five years and simplify surcharging rules; the court later denied approval and a revised agreement reached in November 2025 is pending.",
+      "quote": "has reached an agreement to reduce its U.S. credit card interchange rates for at least a five-year period",
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html",
+      "title": "Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community",
+      "publisher": "Mastercard",
+      "published": "2024-03-26",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also verbatim: 'The interchange reduction will effectively serve as a cap for a period of five years and will apply to all U.S.-issued credit programs'. Superseded: the FY2025 10-K states the 2024 Rules Relief settlement 'was subsequently denied by the court' and a revised November 2025 agreement awaits preliminary approval. Newsroom listing showed no Mastercard release on the November 2025 revision. Akamai returns HTTP 403 to WebFetch and curl for mastercard.com/mastercard.us; page read in the browser pane."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Mastercard Developers' Terms of Use describe paid API subscriptions billed monthly, quarterly or yearly at the rate selected when purchasing, with the option of custom plans and prorated refunds on cancellation; no public price list per API was found.",
+      "quote": "You will be billed at the rate you select and that rate will not change while you are enrolled in that particular plan.",
+      "url": "https://developer.mastercard.com/terms-of-use",
+      "title": "Mastercard Developers Terms of Use (Last updated: August 2026)",
+      "publisher": "Mastercard International Incorporated",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'Subscriptions' section. Also verbatim: 'All cancellations will trigger a prorated refund, except for custom subscription plans.' and 'You will also have the option to create custom plans that may be handled outside of our standard subscription processing model.' The Quick Start Guide (https://developer.mastercard.com/platform/documentation/quick-start-guide/) describes free self-service Sandbox projects and a 'Request Production access' flow with company verification but states no prices; keys are 'valid for 13 months'. Client SDKs on github.com/Mastercard are open source (Apache-2.0 and MIT licences shown). Page is JavaScript-rendered; read in the browser pane."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The court-authorised MDL 1720 settlement site confirms the Rule 23(b)(3) damages class (merchants accepting Visa or Mastercard January 1, 2004 to January 25, 2019), final approval December 16, 2019, Second Circuit affirmance March 15, 2023, and a second partial distribution approved June 15, 2026 with payments from September 2026.",
+      "quote": "The lawsuit is about claims that merchants paid excessive fees to accept Visa and Mastercard cards",
+      "url": "https://www.paymentcardsettlement.com/en",
+      "title": "Payment Card Settlement | Official Court-Authorized Website - Home",
+      "publisher": "Epiq (court-authorised settlement administrator), In re Payment Card Interchange Fee and Merchant Discount Antitrust Litigation, E.D.N.Y. MDL 1720",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'On June 15, 2026, the Court approved the motion.' and 'Payments will be issued on a rolling basis in September 2026'. Cloudflare blocks curl (HTTP 403); read in the browser pane. The site names a login-only 'Merchant Portal'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Mastercard U.S. (or global) scheme fee / assessment fee schedule: domestic assessment, cross-border assessment, transaction processing (authorization, clearing, settlement) fee amounts",
+      "where": "mastercard.com US interchange and rules pages, Mastercard Rules PDF keyword scan, 10-K (defines categories, gives no rates); only Canada publishes an acquirer network assessment schedule",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Send pricing or fee schedule (cross-border, disbursements)",
+      "where": "developer.mastercard.com quick start, support and terms pages; no product price page located; WebSearch budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercom dispute, chargeback and pre-arbitration fee schedule",
+      "where": "Mastercard rules page (Chargebacks Made Simple guide named, not read), Mastercard Rules scan; not public",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Per-API price list or subscription rates on Mastercard Developers",
+      "where": "developer.mastercard.com Terms of Use (subscriptions exist), quick start guide, support page; no rates displayed without login",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Engage partner programme fees, tiers or certification costs",
+      "where": "https://developer.mastercard.com/engage returns HTTP 401 and redirects to login",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Academy course pricing (free vs paid, certification fees)",
+      "where": "https://academy.mastercard.com/ landing shows only regional selection; not entered",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Issuer/acquirer licence, membership or franchise fee amounts (principal, affiliate, ICA)",
+      "where": "10-K 'Other network assessments' defines but does not quantify; Mastercard Rules pages 1-194 keyword scan for 'license fee'/'licensing fee' found no amounts",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Terms of the November 2025 revised U.S. Rules Relief (injunctive) class settlement (interchange reduction size, caps, duration)",
+      "where": "Mastercard newsroom press listing 2024-2026 (no release found), 10-K Note 19 (states agreement reached, no terms); WebSearch unavailable",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "European Commission 2020 report on the application of the Interchange Fee Regulation (COM(2020) 323) - findings on interchange reductions and scheme fee increases",
+      "where": "EUR-Lex CELEX:52020DC0323 HTML and PDF (bot wall / 'requested document does not exist'), competition-policy.ec.europa.eu interchange-fees page (404), finance.ec.europa.eu payment services page (passing mention only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Merchant Cloud pricing or product page",
+      "where": "Not named on any Mastercard page read (US/GB/CA/AU business support, developer portal, rules)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Network Enablement Partner registration or programme fees",
+      "where": "Mastercard Rules Rule 7.11 read (eligibility only); no fee amounts",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ v. Visa complaint passages referring to Mastercard's debit pricing or share",
+      "where": "Only the DOJ press release was read; complaint PDF not located without search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Rules pages 195-503: noncompliance amounts for Excessive Chargeback / Excessive Fraud Merchant programmes",
+      "where": "In-browser pdf.js keyword scan stopped at page 194 after hit cap; Security Rules and Procedures PDF not read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Negotiated issuer and acquirer pricing (deal-level rebates, incentives, volume tiers)",
+      "where": "10-K discloses only aggregate rebates and incentives (USD 20,522 million 2025); individual contract terms are not public",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Mastercard's March 26, 2024 press release says the Rules Relief class settlement would reduce and cap U.S. credit interchange for five years with rule changes 'most likely in late 2024 or early 2025'.",
+      "b": "Mastercard's FY2025 10-K (Note 19) says that 2024 settlement 'was subsequently denied by the court' and that a revised November 2025 agreement awaits preliminary approval.",
+      "urls": [
+        "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html",
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+      ]
+    },
+    {
+      "a": "The Federal Reserve Reg II data-collections page presents the calendar-year 2023 report as the latest interchange fee data release.",
+      "b": "The Board's 'Average Debit Card Interchange Fee by Payment Card Network' page shows 2024 per-network figures (e.g. Mastercard covered $0.24 / 0.49%).",
+      "urls": [
+        "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+        "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (client portal; User ID + password / RSA SecurID token; 'My Company Performance' and Specialty Merchant Registration live here)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Mastercard Engage (partner/technology-specialist directory)",
+      "url": "https://developer.mastercard.com/engage",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Mastercard Developers account: My Projects, Sandbox credentials, 'Request Production access', API subscriptions",
+      "url": "https://developer.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/platform/documentation/quick-start-guide/"
+    },
+    {
+      "name": "Mastercard Academy (regional training portals, 'skills and certifications')",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Partner Advantage Program 'Partner portal'",
+      "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Business Intelligence (login banner)",
+      "url": "https://mbi.mastercardservices.com/",
+      "named_at": "https://www.mastercard.com/gb/en/business/support/merchant-interchange-rates.html"
+    },
+    {
+      "name": "Mastercard Marketing Center",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Developers API Support contact ('please sign in to your account')",
+      "url": "https://developer.mastercard.com/support",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Payment Card Settlement Merchant Portal (claim, authorization and payment status)",
+      "url": "https://www.paymentcardsettlement.com/en",
+      "named_at": "https://www.paymentcardsettlement.com/en"
+    },
+    {
+      "name": "Mastercard Wholesale Programme (B2B travel virtual-card programme; named on the Europe interchange hub)",
+      "url": "https://www.mastercard.com/global/en/business/large-enterprise/mastercard-enterprise-partnerships/b2b-travel-solutions/wholesale-program.html",
+      "named_at": "https://www.mastercard.com/gb/en/business/support/merchant-interchange-rates.html"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "title": "Mastercard US interchange page (seed; Akamai 403 to WebFetch/curl, redirects to mastercard.com/us/en)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard 2026-2027 U.S. Region Interchange Programs and Rates (PDF, 11 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "title": "Mastercard US rules page (seed; Akamai 403 to WebFetch/curl)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules, 2 June 2026 (PDF, 503 pages; keyword scan pp.1-194)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/business/issuers/interchange.html",
+      "title": "Mastercard global interchange page",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/gb/en/business/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained | Mastercard in Europe | Mastercard UK",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/MC2__rates.pdf",
+      "title": "EEA inbound cross-border consumer transactions Interchange Fees (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Website_Intra_EEA_Fallback_Interchange_Fees_220121.pdf",
+      "title": "Intra-EEA Intercountry Interchange Fees (fallback) (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Mastercard_Europe_SA-Undertaking_inter-regional_Interchange_Fees.pdf",
+      "title": "Mastercard Europe SA Undertaking to the European Commission (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Website_UK_Intracountry_Interchange_Fees_10_05_22.pdf",
+      "title": "UK - Domestic Interchange Fees (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/ca/en/business/support/merchant-interchange-rates.html",
+      "title": "Interchange rates & fees | Mastercard | Mastercard Canada",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-as-of-july20-2026-english.pdf",
+      "title": "Mastercard Acquiring Network Assessment Fees effective July 20, 2026 (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/support/documents/interchange-criteria-rates-aug12026-upcoming-rates-en.pdf",
+      "title": "Mastercard Canada Interchange Programs (PDF, 14 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.ca/en-ca/business.html",
+      "title": "Mastercard Canada business page (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.com/au/en/business/support/merchant-interchange-rates.html",
+      "title": "Merchant Interchange Rates | Mastercard Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/aus/data-source/merchant-interchange-rates/Australia-Intracountry-CREDIT-POS-Interchange-Rates.pdf",
+      "title": "Australia Intracountry Mastercard Credit POS Interchange Rates (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.co.uk/en-gb/business.html",
+      "title": "Mastercard UK business page (link discovery)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html",
+      "title": "Mastercard Partner Advantage Program | Mastercard US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/news/press-room.html",
+      "title": "mastercard.com/news/press-room.html (empty page)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.com/news/",
+      "title": "Mastercard Newsroom | Mastercard US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press.html",
+      "title": "Mastercard Press Release | Mastercard US (listing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html",
+      "title": "Mastercard commits to lowering U.S. interchange for small businesses and broader merchant community",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.mastercard.com/",
+      "title": "Mastercard Investor Relations (navigation only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391&type=10-K&dateb=&owner=include&count=10",
+      "title": "EDGAR 10-K listing, Mastercard Inc (CIK 1141391)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/0001141391-26-000013-index.htm",
+      "title": "Mastercard 10-K filing index, filed 2026-02-11",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Mastercard Developers - Quick Start Guide (JS-rendered; read in browser)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/support",
+      "title": "Support at Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/terms-of-use",
+      "title": "Mastercard Developers Terms of Use (Last updated: August 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/engage",
+      "title": "Mastercard Engage (HTTP 401, redirects to login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://github.com/Mastercard",
+      "title": "Mastercard on GitHub (139 repositories)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect sign-in",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy (regional selector)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing) data collections",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer and Merchant Fraud Losses Related to Debit Card Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20231025a.htm",
+      "title": "Federal Reserve Board press release, October 25, 2023 (debit interchange proposal)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "PSR - Market review into card scheme and processing fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "PSR MR22/1.10 final report publication page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report (PDF, 156 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/",
+      "title": "PSR market reviews index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-of-cross-border-interchange-fees/",
+      "title": "PSR cross-border review (wrong slug, 404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-cross-border-interchange-fees/",
+      "title": "PSR - Market review into cross-border interchange fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/mr22-2-7-cross-border-interchange-fees-final-report",
+      "title": "PSR MR22/2.7 final report publication page",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/media/vrcimoxw/mr22-27-xbif-final-report-dec-2024-v3.pdf",
+      "title": "MR22/2.7 Market review of UK-EEA consumer cross-border interchange fees: final report (PDF, 231 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr2229-decision-not-to-proceed-with-interim-cap-on-cross-border-interchange-fees-statement-of-reasons/",
+      "title": "MR22/2.9 Decision not to proceed with interim cap on cross-border interchange fees: statement of reasons",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-merchant-card-payment-costs-and-surcharging/",
+      "title": "RBA review (old URL, 404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/about.html",
+      "title": "RBA - Review of Merchant Card Payment Costs and Surcharging (about)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2025-07/",
+      "title": "RBA - Consultation Paper, July 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "RBA - Conclusions, March 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "RBA Review of Merchant Card Payment Costs and Surcharging - Conclusions Paper (PDF, 202 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_19_2311",
+      "title": "EC press release IP/19/2311 (via presscorner API)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_19_582",
+      "title": "EC press release IP/19/582 (via presscorner API)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52020DC0323",
+      "title": "EUR-Lex COM(2020) 323 IFR application report",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://competition-policy.ec.europa.eu/sectors/financial-services/interchange-fees_en",
+      "title": "EC competition policy interchange fees page (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://finance.ec.europa.eu/consumer-finance-and-payments/payment-services/payment-services_en",
+      "title": "EC payment services page (passing IFR mention)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets (archived press release)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentcardsettlement.com/en",
+      "title": "Payment Card Settlement | Official Court-Authorized Website - Home",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

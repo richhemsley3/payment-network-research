@@ -1,0 +1,283 @@
+{
+ "network": "elo",
+ "seed": "https://dev.elo.com.br/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://dev.elo.com.br/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "pt-BR",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "ELO - Desenvolvedores",
+   "h1": "",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [
+    {
+     "text": "Pagamentos Digitais",
+     "href": null
+    },
+    {
+     "text": "Ações Promocionais",
+     "href": null
+    },
+    {
+     "text": "Regras do arranjos Elo",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [],
+   "headings": [
+    "h3: Sobre a Elo",
+    "h3: Soluções",
+    "h3: Pagamentos Digitais",
+    "h3: Transparência",
+    "h3: Ações Promocionais",
+    "h3: Regras do arranjos Elo",
+    "h3: Serviços"
+   ],
+   "screenshot": "assets/elo/elo-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "pt-BR",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 0,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "button: Soluções",
+    "button: APIs",
+    "button: Tutoriais",
+    "a: Tutoriais",
+    "button: Central de Ajuda",
+    "a: Central de Ajuda",
+    "a: Entrar",
+    "a: Cadastrar",
+    "a: Criar conta"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 1,
+   "screenshot": "assets/elo/elo-dev-s11-02-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://dev.elo.com.br/",
+   "final": "https://dev.elo.com.br/",
+   "status": 200,
+   "ms": 2412,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 3037,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 3933,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2167,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 3128,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2073,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2180,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2160,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2108,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 3088,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "final": "https://dev.elo.com.br/portal-dev",
+   "status": 200,
+   "ms": 2104,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "elo-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://dev.elo.com.br/portal-dev",
+   "captured": "2026-09-25",
+   "file": "assets/elo/elo-dev-s1-01-20260925.webp",
+   "kb": 30
+  },
+  {
+   "id": "elo-dev-s02",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://dev.elo.com.br/portal-dev",
+   "captured": "2026-09-25",
+   "file": "assets/elo/elo-dev-s11-02-20260925.webp",
+   "kb": 18
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://dev.elo.com.br/portal-dev",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 11,
+  "screenshots": 2,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

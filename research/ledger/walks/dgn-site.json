@@ -1,0 +1,803 @@
+{
+ "network": "dgn",
+ "seed": "https://www.discoverglobalnetwork.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Discover Network - A Payments Network With Global Scale",
+   "h1": "Connecting the world through payments",
+   "description": "Expand reach, explore solutions, and create enhanced commerce experiences with Discover® Network, your payments network partner.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Skip to main content",
+    "Our Network",
+    "Solutions",
+    "Resources",
+    "Insights",
+    "Contact Us",
+    "Search",
+    "Log In"
+   ],
+   "ctas": [
+    {
+     "text": "Search",
+     "href": "https://www.discoverglobalnetwork.com/#"
+    },
+    {
+     "text": "Log In",
+     "href": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://www.discoverglobalnetwork.com/solutions/issuing-commerce-collaboration/powering-innovation/"
+    },
+    {
+     "text": "Explore All",
+     "href": "https://insights.discoverglobalnetwork.com/"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Log In",
+     "href": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+     "top": 0
+    },
+    {
+     "text": "Log In",
+     "href": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+     "top": 3109
+    }
+   ],
+   "audience_words": [
+    "merchant",
+    "partner",
+    "atm"
+   ],
+   "headings": [
+    "h1: Connecting the world through payments",
+    "h3: Three payments leaders, one powerful network",
+    "h3: Access the reach and scale of our network",
+    "h3: Advance your payments innovation",
+    "h3: Tap into the latest payments topics",
+    "h1: The Role of Fraud Risk Prevention in Reputation Management",
+    "h1: Optimize eCommerce on Mobile for a Winning Omnichannel Experience",
+    "h1: JCB and Discover® Network Mark 20 Years of Collaboration"
+   ],
+   "screenshot": "assets/dgn/dgn-site-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Our Unique Network",
+     "url": "https://www.discoverglobalnetwork.com/our-network/our-unique-network/",
+     "status": 200,
+     "result": "readable",
+     "words": 276,
+     "title": "Our Unique Payments Network | Discover Network"
+    },
+    {
+     "nav": "Global Cardholders",
+     "url": "https://www.discoverglobalnetwork.com/our-network/global-cardholders/",
+     "status": 200,
+     "result": "readable",
+     "words": 348,
+     "title": "Accept Global Cardholders | Discover Network"
+    },
+    {
+     "nav": "Reach and Acceptance",
+     "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+     "status": 200,
+     "result": "readable",
+     "words": 953,
+     "title": "Reach and Acceptance | Discover Network"
+    },
+    {
+     "nav": "How We Partner",
+     "url": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+     "status": 200,
+     "result": "readable",
+     "words": 540,
+     "title": "How We Partner | Discover Network"
+    },
+    {
+     "nav": "Our Leadership",
+     "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+     "status": 200,
+     "result": "contact",
+     "words": 182,
+     "title": "Discover Global Payment Network Leadership Team | Discover Network"
+    },
+    {
+     "nav": "Accept Our Network",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+     "status": 200,
+     "result": "readable",
+     "words": 481,
+     "title": "Accept Our Network | Discover Network"
+    },
+    {
+     "nav": "Grow Debit Acceptance",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/",
+     "status": 200,
+     "result": "readable",
+     "words": 591,
+     "title": "Grow Debit Card Acceptance | Discover Network"
+    },
+    {
+     "nav": "Contactless Payments",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 358,
+     "title": "Contactless Payment Solutions | Discover Network"
+    },
+    {
+     "nav": "E-Commerce",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/e-commerce-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 324,
+     "title": "E-Commerce Payment Solutions: Online Payments & E-Commerce Payment Methods | Discover Network"
+    },
+    {
+     "nav": "Secure Remote Commerce",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/secure-remote-commerce/",
+     "status": 200,
+     "result": "readable",
+     "words": 366,
+     "title": "Secure Remote Commerce (SRC) | Discover Network"
+    },
+    {
+     "nav": "Transit & Mobility Solutions",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/transit-solutions/",
+     "status": 200,
+     "result": "readable",
+     "words": 471,
+     "title": "Transit & Mobility Solutions | Discover Network"
+    },
+    {
+     "nav": "Tap on Mobile",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/tap-on-mobile-payment-solution/",
+     "status": 200,
+     "result": "readable",
+     "words": 613,
+     "title": "Tap on Mobile Payments | Discover Network"
+    },
+    {
+     "nav": "Chip Cards (EMV®)",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/chip-cards/",
+     "status": 200,
+     "result": "readable",
+     "words": 405,
+     "title": "Chip Cards (EMV®) Solutions | Discover Network"
+    },
+    {
+     "nav": "Restricted Access Network",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/restricted-access-network-ran/",
+     "status": 200,
+     "result": "readable",
+     "words": 347,
+     "title": "Restricted Access Network (RAN) | Discover Network"
+    },
+    {
+     "nav": "Discover® Deliver",
+     "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/discover-deliver-push-payments-solution/",
+     "status": 200,
+     "result": "readable",
+     "words": 412,
+     "title": "Discover Deliver | Discover Network"
+    },
+    {
+     "nav": "Fraud Management Tools",
+     "url": "https://www.discoverglobalnetwork.com/solutions/fraud-security/fraud-management-tools/",
+     "status": 200,
+     "result": "readable",
+     "words": 505,
+     "title": "Fraud Management Tools | Discover Network"
+    }
+   ],
+   "walls": 1,
+   "readable": 15
+  },
+  "S3": {
+   "from": "Accept Our Network",
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "title": "Accept Our Network | Discover Network",
+   "headings": [
+    "h1: Accept Our Network",
+    "h2: Bring in more transactions from millions of shoppers",
+    "h3: Grow your business with acceptance",
+    "h3: Improve your checkout experience",
+    "h3: Start accepting",
+    "h3: Tap into the latest payments topics",
+    "h1: The Role of Fraud Risk Prevention in Reputation Management",
+    "h1: Optimize eCommerce on Mobile for a Winning Omnichannel Experience",
+    "h1: JCB and Discover® Network Mark 20 Years of Collaboration"
+   ],
+   "links": 16,
+   "sample": [
+    {
+     "text": "Home",
+     "href": "https://www.discoverglobalnetwork.com/"
+    },
+    {
+     "text": "Start Accepting",
+     "href": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/#startaccept"
+    },
+    {
+     "text": "Explore Our Cardholders",
+     "href": "https://www.discoverglobalnetwork.com/our-network/global-cardholders/"
+    },
+    {
+     "text": "Extend Your Reach",
+     "href": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/"
+    },
+    {
+     "text": "Connect to Our Network",
+     "href": "https://www.discoverglobalnetwork.com/our-network/our-unique-network/"
+    },
+    {
+     "text": "free signage",
+     "href": "https://www.discoverglobalnetwork.com/resources/businesses/signage/"
+    },
+    {
+     "text": "Welcome debit",
+     "href": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/"
+    },
+    {
+     "text": "power your success",
+     "href": "https://www.discoverglobalnetwork.com/solutions/issuing-commerce-collaboration/powering-innovation/"
+    },
+    {
+     "text": "identify and prevent fraud",
+     "href": "https://www.discoverglobalnetwork.com/resources/businesses/fraud-prevention-practices/"
+    },
+    {
+     "text": "Get Started",
+     "href": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+     "text": "Access signage and logos",
+     "href": "https://www.discoversignage.com/"
+    },
+    {
+     "text": "BIN ranges & other enablement resources",
+     "href": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/"
+    },
+    {
+     "text": "9 days ago The Role of Fraud Risk Prevention in Reputation Management ",
+     "href": "https://insights.discoverglobalnetwork.com/insights/fraud-risk-prevention-in-reputation-management"
+    },
+    {
+     "text": "about 1 month ago Optimize eCommerce on Mobile for a Winning Omnichann",
+     "href": "https://insights.discoverglobalnetwork.com/insights/mobile-ecommerce-optimization-omnichannel-strategies/"
+    },
+    {
+     "text": "4 months ago JCB and Discover® Network Mark 20 Years of Collaboration ",
+     "href": "https://insights.discoverglobalnetwork.com/insights/jcb-discover-network-twenty-year-collaboration"
+    },
+    {
+     "text": "Explore All",
+     "href": "https://insights.discoverglobalnetwork.com/"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/dgn/dgn-site-s3-03-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": {
+    "text": "Get Started",
+    "href": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Get Started",
+     "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [
+    {
+     "from": "Validation and Reporting Requirements",
+     "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+     "title": "Validation and Reporting Requirements | Discover Network",
+     "words": 884,
+     "steps_mentioned": 0,
+     "tools_named": [],
+     "timelines": [
+      "12 months"
+     ],
+     "wall": "none"
+    }
+   ],
+   "rung": "prose"
+  },
+  "S7": {
+   "from": "Contactless Payments",
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "title": "Contactless Payment Solutions | Discover Network",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/dgn/dgn-site-s7-05-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://www.discoverglobalnetwork.com/search/?q=authorization",
+     "count_hint": "10",
+     "top": [
+      "Fraud Prevention Tips and Best Practices | Discover Network",
+      "Discover® Commerce Xchange (DCX) | Discover Network",
+      "Discover Enhanced Decisioning: Payment Fraud Management Tools | Discover Network",
+      "ProtectBuy: Three Domain Secure (3DS) Customer Authentication Solution | Discove",
+      "Fraud Management Tools | Discover Network"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://www.discoverglobalnetwork.com/search/?q=test+cards",
+     "count_hint": "10",
+     "top": [
+      "Chip Cards (EMV®) Solutions | Discover Network",
+      "Grow Debit Card Acceptance | Discover Network",
+      "Find an Acquirer | Discover Network",
+      "Check Your POS System | Discover Network",
+      "Get Free Signage and Logos | Discover Network"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://www.discoverglobalnetwork.com/search/?q=certification",
+     "count_hint": "7",
+     "top": [
+      "D-PAS Payments Technology | Discover Network",
+      "Discover Enhanced Decisioning: Payment Fraud Management Tools | Discover Network",
+      "PCI Compliance Training | Discover Network",
+      "Discover® Information Security and Compliance | Discover Network",
+      "Chip Cards (EMV®) Solutions | Discover Network"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 4,
+   "heading_level_skips": true,
+   "first_ten_tabs": [
+    "a: Skip to main content",
+    "a",
+    "a: Our Network",
+    "a: Solutions",
+    "a: Resources",
+    "a: Insights",
+    "a: Contact Us",
+    "a: Search",
+    "a: Log In",
+    "a: Discover® Network"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 0,
+   "screenshot": "assets/dgn/dgn-site-s11-06-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "BIN Ranges",
+     "href": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "BIN Ranges",
+    "href": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1817,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/our-unique-network/",
+   "final": "https://www.discoverglobalnetwork.com/our-network/our-unique-network/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S2 Our Unique Network"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/global-cardholders/",
+   "final": "https://www.discoverglobalnetwork.com/our-network/global-cardholders/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S2 Global Cardholders"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+   "final": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+   "status": 200,
+   "ms": 1598,
+   "why": "S2 Reach and Acceptance"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+   "final": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+   "status": 200,
+   "ms": 1587,
+   "why": "S2 How We Partner"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+   "final": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+   "status": 200,
+   "ms": 1596,
+   "why": "S2 Our Leadership"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S2 Accept Our Network"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/",
+   "status": 200,
+   "ms": 1611,
+   "why": "S2 Grow Debit Acceptance"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "status": 200,
+   "ms": 1588,
+   "why": "S2 Contactless Payments"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/e-commerce-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/e-commerce-payments/",
+   "status": 200,
+   "ms": 1607,
+   "why": "S2 E-Commerce"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/secure-remote-commerce/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/secure-remote-commerce/",
+   "status": 200,
+   "ms": 1600,
+   "why": "S2 Secure Remote Commerce"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/transit-solutions/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/transit-solutions/",
+   "status": 200,
+   "ms": 1597,
+   "why": "S2 Transit & Mobility Solutions"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/tap-on-mobile-payment-solution/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/tap-on-mobile-payment-solution/",
+   "status": 200,
+   "ms": 1585,
+   "why": "S2 Tap on Mobile"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/chip-cards/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/chip-cards/",
+   "status": 200,
+   "ms": 1605,
+   "why": "S2 Chip Cards (EMV®)"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/restricted-access-network-ran/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/restricted-access-network-ran/",
+   "status": 200,
+   "ms": 1592,
+   "why": "S2 Restricted Access Network"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/discover-deliver-push-payments-solution/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/discover-deliver-push-payments-solution/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S2 Discover® Deliver"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/fraud-security/fraud-management-tools/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/fraud-security/fraud-management-tools/",
+   "status": 200,
+   "ms": 1590,
+   "why": "S2 Fraud Management Tools"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S3 Accept Our Network"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/grow-debit-acceptance/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S3 Grow Debit Acceptance"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S3 Contactless Payments"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/e-commerce-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/e-commerce-payments/",
+   "status": 200,
+   "ms": 1581,
+   "why": "S3 E-Commerce"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "status": 200,
+   "ms": 1603,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1581,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+   "final": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+   "status": 200,
+   "ms": 1583,
+   "why": "S5 Get Started"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1578,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "status": 200,
+   "ms": 1581,
+   "why": "S6 Validation and Reporting Requirements"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1590,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S7 Contactless Payments"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "final": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "status": 200,
+   "ms": 1588,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1616,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1580,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1590,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1580,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "final": "https://www.discoverglobalnetwork.com/",
+   "status": 200,
+   "ms": 1587,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "dgn-site-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.discoverglobalnetwork.com/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s1-01-20260925.webp",
+   "kb": 66
+  },
+  {
+   "id": "dgn-site-s02",
+   "station": "S2",
+   "note": "wall: Our Leadership",
+   "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s2-02-20260925.webp",
+   "kb": 37
+  },
+  {
+   "id": "dgn-site-s03",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/accept-discover-network/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s3-03-20260925.webp",
+   "kb": 85
+  },
+  {
+   "id": "dgn-site-s04",
+   "station": "S6",
+   "note": "certification",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s6-04-20260925.webp",
+   "kb": 56
+  },
+  {
+   "id": "dgn-site-s05",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.discoverglobalnetwork.com/solutions/enable-payments/contactless-payments/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s7-05-20260925.webp",
+   "kb": 72
+  },
+  {
+   "id": "dgn-site-s06",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.discoverglobalnetwork.com/",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-site-s11-06-20260925.webp",
+   "kb": 38
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.discoverglobalnetwork.com/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/our-unique-network/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/global-cardholders/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+   "banner": "declined: Decline"
+  }
+ ],
+ "summary": {
+  "pages_visited": 36,
+  "screenshots": 6,
+  "errors": 0,
+  "walls_in_nav": 1,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

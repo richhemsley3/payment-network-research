@@ -1,0 +1,185 @@
+{
+ "network": "culiance",
+ "seed": "https://www.culiance.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.culiance.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "CULIANCE Network — Surcharge-Free ATMs for Credit Union Members",
+   "h1": "The CULIANCE® Network connects your debit card to over 80,000 surcharge-free ATMs nationwide.",
+   "description": "The CULIANCE Network connects your debit card to over 80,000 surcharge-free ATMs and 2 million retail locations nationwide.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Home",
+    "ATM Locator",
+    "Credit Unions",
+    "FAQs"
+   ],
+   "ctas": [
+    {
+     "text": "Find an ATM",
+     "href": "https://www.culiance.com/atmlocator/index.html"
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "atm"
+   ],
+   "headings": [
+    "h1: The CULIANCE® Network connects your debit card to over 80,000 surcharge-free ATM",
+    "h2: The power of your debit card and the CULIANCE Network",
+    "h3: Surcharge-Free ATMs",
+    "h3: 2M+ Retail Locations",
+    "h3: Online Shopping",
+    "h3: Built-In Security",
+    "h2: Looking for surcharge-free ATMs?",
+    "h2: ATM Locator"
+   ],
+   "screenshot": "assets/culiance/culiance-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Home",
+     "url": "https://www.culiance.com/index.html",
+     "status": 200,
+     "result": "readable",
+     "words": 190,
+     "title": "CULIANCE Network — Surcharge-Free ATMs for Credit Union Members"
+    },
+    {
+     "nav": "ATM Locator",
+     "url": "https://www.culiance.com/atmlocator/index.html",
+     "status": 200,
+     "result": "readable",
+     "words": 45,
+     "title": "ATM Locator — CULIANCE® Network"
+    },
+    {
+     "nav": "FAQs",
+     "url": "https://www.culiance.com/faqs.html",
+     "status": 200,
+     "result": "readable",
+     "words": 152,
+     "title": "FAQs — CULIANCE Network"
+    }
+   ],
+   "walls": 0,
+   "readable": 3
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.culiance.com/",
+   "final": "https://www.culiance.com/",
+   "status": 200,
+   "ms": 1695,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.culiance.com/index.html",
+   "final": "https://www.culiance.com/index.html",
+   "status": 200,
+   "ms": 1611,
+   "why": "S2 Home"
+  },
+  {
+   "url": "https://www.culiance.com/atmlocator/index.html",
+   "final": "https://www.culiance.com/atmlocator/index.html",
+   "status": 200,
+   "ms": 1780,
+   "why": "S2 ATM Locator"
+  },
+  {
+   "url": "https://www.culiance.com/faqs.html",
+   "final": "https://www.culiance.com/faqs.html",
+   "status": 200,
+   "ms": 1618,
+   "why": "S2 FAQs"
+  },
+  {
+   "url": "https://www.culiance.com/",
+   "final": "https://www.culiance.com/",
+   "status": 200,
+   "ms": 1601,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.culiance.com/",
+   "final": "https://www.culiance.com/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.culiance.com/index.html",
+   "final": "https://www.culiance.com/index.html",
+   "status": 200,
+   "ms": 1604,
+   "why": "S12 Home"
+  },
+  {
+   "url": "https://www.culiance.com/atmlocator/index.html",
+   "final": "https://www.culiance.com/atmlocator/index.html",
+   "status": 200,
+   "ms": 1846,
+   "why": "S12 ATM Locator"
+  },
+  {
+   "url": "https://www.culiance.com/faqs.html",
+   "final": "https://www.culiance.com/faqs.html",
+   "status": 200,
+   "ms": 1651,
+   "why": "S12 FAQs"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "culiance-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.culiance.com/",
+   "captured": "2026-09-25",
+   "file": "assets/culiance/culiance-s1-01-20260925.webp",
+   "kb": 72
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 9,
+  "screenshots": 1,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

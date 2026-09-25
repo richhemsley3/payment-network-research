@@ -1,0 +1,639 @@
+{
+  "network": "visa",
+  "dimension": "join",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "join",
+      "claim": "Visa's public licensing programme offers two client types, Principal and Associate, for entities that want to become a licensed Visa issuer or merchant acquirer.",
+      "quote": "The licensing program is built to accommodate two types of clients:",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page lists Principal Clients (may issue, disburse cash, acquire, hold settlement risk, host own processing, sponsor others, directly license a BIN, register third party agents) and Associate Clients. Page copyright 2026."
+    },
+    {
+      "dimension": "join",
+      "claim": "Principal clients pay ongoing service fees, work directly with Visa, may sponsor others and are fully responsible for their assigned BIN; the fee amounts are not published.",
+      "quote": "While there are service fees that are required, these clients have the most flexibility for the capabilities they are able to manage",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: Principal capabilities list includes 'Pays ongoing fees (and sponsorees)' and 'May sponsor others'. No fee schedule or amounts appear anywhere on the page."
+    },
+    {
+      "dimension": "join",
+      "claim": "Associate clients (typically smaller credit unions and startups) hold their own licence and BIN but rely on a Principal client's sponsorship for settlement, reporting and fee payment.",
+      "quote": "These clients have full ownership of their licensing program, with the sponsorship of a principal client.",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Associate capabilities listed: may issue cards, disburse cash, acquire merchants, directly license a BIN, comply with Visa rules, register third party agents. Settlement risk, own processing and sponsoring others are absent from the Associate list."
+    },
+    {
+      "dimension": "join",
+      "claim": "The licence application has moved to Visa Access: after a regional licensing team confirms eligibility the applicant receives Visa Access credentials, completes the application in the Client Lifecycle Management Tool, gets a temporary organisation ID (UVID) during review and a final Business ID on approval.",
+      "quote": "Complete your application in the Visa Client Lifecyle Management Tool, found in Visa Access.",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Lifecyle' is sic on the page. Page also says 'The process for obtaining a Visa license has changed and now lives on Visa Access. If you have an existing application in VPP, you can continue working on it as usual.' Four steps: Contact Visa, Access Visa systems, Submit application, Approval. No timeline given."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa's regional teams review licence applications on four axes: regulatory permissions, financial compliance (AML/ATF programmes plus a compliance questionnaire), credit and settlement risk, and risk management; the settlement review is repeated annually.",
+      "quote": "We will assess your ability to meet settlement obligations through a review of your business plan and financial information, conducted before licensing and annually.",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Regional licensing contact mailboxes are listed for North America, LAC, Asia Pacific, CEMEA and Europe (addresses obfuscated in the fetched HTML)."
+    },
+    {
+      "dimension": "join",
+      "claim": "The Visa Rules recognise three membership tiers for BIN licensing: Principal-Type Members license and use their own BIN; Associate-Type Members either license their own BIN or use their sponsoring Principal's; Participant-Type Members cannot license a BIN at all.",
+      "quote": "A Participant-Type Member does not have the right to license a BIN or an Acquiring Identifier, and must use only a BIN",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 2.2.1.1 Sponsor and Licensee Responsibilities for BINs and Acquiring Identifiers, p.164. Same section: 'A BIN or an Acquiring Identifier licensed to an Associate-Type Member on or after 22 July 2017 must have only one Sponsor.' Glossary defines Sponsored Member as 'A Member of Visa whose right to participate in Visa is dependent upon another Member' (ID# 0025118). Public licensing page uses 'Principal/Associate clients'; the Rules use 'Principal-Type/Associate-Type/Participant-Type Member'."
+    },
+    {
+      "dimension": "join",
+      "claim": "The public rulebook does not contain the membership eligibility requirements themselves; it defers them to the Visa Charter Documents (for example the Visa U.S.A. Inc. Certificate of Incorporation and By-Laws), which are not part of the public PDF.",
+      "quote": "Requirements for membership are defined in the applicable Visa Charter Documents.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entry 'Member' (ID# 0027531). The Principal-Type Member glossary entry likewise points to 'Principal Member, as defined in the Visa Charter Documents'. Absence finding: the public 923-page rulebook has no membership application procedure."
+    },
+    {
+      "dimension": "join",
+      "claim": "A Member must register every Third Party Agent with Visa through the Program Request Management application plus regional forms, and registration must be completed before the agent performs any contracted services; Visa may reject a registration at any time.",
+      "quote": "A Member must register a Third Party Agent with Visa. The Member must both: Use the Program Request Management application Complete the appropriate regional forms",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 1.9.8.6 Third Party Agent Registration Requirements (ID# 0025893), p.144. Same rule: 'Visa may deny or reject a Third Party Agent's registration at any time with or without cause.' Section 1.9.8.5 requires a direct written contract between the agent and the Member. Exemption for agents serving only affiliates that own at least 25% of the agent."
+    },
+    {
+      "dimension": "join",
+      "claim": "Third Party Agent registration is per acquirer: an agent serving several acquirers must be registered separately by each, and in the LAC region per acquirer, per country and per agent.",
+      "quote": "Registration of a Third Party Agent is specific to each Acquirer, and requires a separate registration by each Acquirer",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 1.9.8.7 Merchant Third Party Agent Registration Requirements (ID# 0025894), p.145: acquirers must also register agents engaged by their merchants before those agents perform services."
+    },
+    {
+      "dimension": "join",
+      "claim": "Before contracting with a Third Party Agent a senior officer of the Member must review all documentation and perform financial and background checks; Visa states that registration is not a confirmation of the agent's compliance with anything.",
+      "quote": "Registration of a Third Party Agent does not represent confirmation by Visa of the Third Party Agent's compliance with any specific requirement.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 10.2.2.1 Member Risk Management and Approval for Third Party Agents (ID# 0025906), pp.612-613. Also: 'Before contracting with a Third Party Agent, a senior officer of a Member must review all documentation.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Processor onboarding is rule-driven: a Member that uses a VisaNet Processor must first file a regional client information questionnaire, and a non-Member processor must sign a VisaNet Letter of Agreement before being used.",
+      "quote": "must submit to Visa the applicable regional client information questionnaire before using the VisaNet Processor",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 1.9.8.1 VisaNet Processor and Visa Scheme Processor Registration (ID# 0025870), p.142. Glossary: VisaNet Processor is 'A Member, or Visa-approved non-Member, that is directly connected to VisaNet'. Europe Region adds a 5-business-day change notification and PCI DSS requirement."
+    },
+    {
+      "dimension": "join",
+      "claim": "A forthcoming rule change effective 24 October 2026 (Canada and US) will require Members to supply all numerical identifiers associated with each Third Party Agent at registration.",
+      "quote": "provide Visa with all numerical identifiers associated with each of its Third Party Agents",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Summary of Changes, p.51, 'Third Party Agent Registration Requirements Effective 24 October 2026'; rule impacted is Section 1.9.8.6."
+    },
+    {
+      "dimension": "join",
+      "claim": "The client extranet formerly called Visa Online has been renamed Visa Access in the Rules glossary (entry updated April 2025), while several Visa partner pages still refer to Visa Online.",
+      "quote": "A password-protected website that provides Members, VisaNet Processors, and other authorized users with access to Visa information, formerly known as Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entry 'Visa Access' (ID# 0025360, Last Updated Apr 2025), p.904. See contradictions: Visa Partner FAQ and Visa Developer pricing page still say 'Visa Online'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa published Third Party Agent registration fees in 2016: USD 5,000 initial and annual renewal for ISO, Payment Facilitator, High-Risk Internet PF and Distribution Channel Vendor agents, USD 1,000 for ESO and TPS, and no fee for ICPIA, MS, DCC or CFS agents; fees are charged to the registering client.",
+      "quote": "$5,000 USD for registration and annual renewal for ISO, PF, HRIPF and DCV",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+      "title": "Third Party Agent Registration Program Frequently Asked Questions",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document footer dated May 2016; covers U.S., Canada and LAC. Same FAQ: 'The fine for using an unregistered third party agent starts at $10,000 per agent.' Fees are 'non-refundable once Visa approves the initial registration'. No newer public fee schedule was found; current amounts may differ."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa's 2016 FAQ gives the only published processing timeline for agent registration: cases are processed within five to seven business days, and PCI DSS validation submissions within two weeks.",
+      "quote": "Agent registration cases are processed within 5-7 business days of receipt.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+      "title": "Third Party Agent Registration Program Frequently Asked Questions",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document dated May 2016. In 2016 the process was: client enrols on Visa Online (www.visaonline.com), requests access to Visa Membership Management (VMM), registers the agent with PCI DSS and DBA documents uploaded. 'Only Visa clients can register agents. Agents cannot register themselves.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Partner now offers a self-service Third Party Agent registration tool with three paths: register with an existing Visa Client sponsor, be connected to an acquirer sponsor through the tool, or register directly with Visa for products that do not require sponsorship; registered agents receive a TPA Business ID.",
+      "quote": "A new option available to agents is to register directly with Visa.",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Visa Partner | Third Party Agent Registration",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Most agents need a Visa Client sponsor to get registered.' and 'By getting registered with Visa, agents are provided a TPA Business ID (BID)'. Required inputs: sponsor name and location, TPA category, Visa service being enrolled, service description, PCI DSS AOC or SAQ-D-SP. Contradicts the 2016 FAQ statement that agents cannot register themselves."
+    },
+    {
+      "dimension": "join",
+      "claim": "ATM deployers join as ISO-ATM agents registered by a Visa or Plus client, and an ATM must be owned or sponsored by a valid Visa/Plus client to be 'qualified'; vendors that inject keys into ATMs or PIN pads must register as Encryption Support Organizations.",
+      "quote": "A \"qualified\" ATM is an ATM owned by or sponsored by a valid Visa or Plus client.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-types-functional-descriptions.pdf",
+      "title": "Third Party Agent Registration Program - TPA Types and Functional Descriptions",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document dated December 2021, Visa Public. ESO description: 'Entities using vendor supplied Remote Key Distribution techniques must ensure that such vendors are registered with Visa as ESOs'. Other TPA categories: ISO-M, ISO-C, ISO-PP, ISO-HR, TPS, MS, PF, HRIPF, DCC, CFS, DCV, ICPIA."
+    },
+    {
+      "dimension": "join",
+      "claim": "Fintech Fast Track eligibility on the programme page is: a registered corporation, in good financial standing, not an existing Visa member, new to card issuance and at least USD 3 million raised; both Visa and the enablement partner review the application against their own criteria.",
+      "quote": "Not an existing Visa member New to card issuance Have raised at least $3M in funding",
+      "url": "https://partner.visa.com/site/programs/fintech-program.html",
+      "title": "Visa Partner | Fintech Fast Track Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Four stages: Apply, Review, Approval, Go to Market. 'Your enablement partner will also review your application according to their criteria.' Benefits page text (Vendor): 'Leverage Visa's relationships with enablement partners (e.g., BIN sponsors, processors, and/or program managers) for accelerated program review and ramp.' Visa Direct Fast Track is US-only. Contradiction: the Partner Programs page states 'Series A or USD$1M+' instead of $3M."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Partner describes the sponsor-bank model for launching a card programme: a BIN sponsor (issuing bank that owns the BIN), an issuer processor and usually a program manager, or an end-to-end partner bundling all three.",
+      "quote": "A BIN sponsor is the issuing bank that owns the Bank Identification Number (BIN), which is necessary to access the Visa network.",
+      "url": "https://partner.visa.com/site/partner-types.html",
+      "title": "Visa Partner Types",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'To launch a card program, you'll need a banking relationship, an issuer processor and likely a program manager.' End-to-end partners 'Not available in all regions.' Partner directory filters by BIN Sponsor, Issuer Processor, Program Manager, End-to-End, Visa Direct, Visa Ready."
+    },
+    {
+      "dimension": "join",
+      "claim": "Non-financial-institution and crypto clients that intend to issue Visa debit or credit cards must file a Core Product Program Information Form through Visa Partner (member info, program info, participants, co-brand) and obtain Visa's written approval before issuing; the rule dates from April 2025.",
+      "quote": "Visa's express and written approval is required to issue Visa Debit or Credit cards.",
+      "url": "https://partner.visa.com/site/programs/core-product-pif-program.html",
+      "title": "Visa Partner | Core Product PIF",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Visa requires any Non-Financial Institution or Crypto client to complete either a Debit or Credit PIF if they intend to issue either Debit or Credit cards. This is pursuant to the Visa Rules, effective April 2025'. Government disbursement debit programmes need a separate PIF. Five steps: Register, Start, Finish, Review, Approval."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa launched Fintech Fast Track in the United States on 31 July 2019 with named enablement partners (Alloy, BBVA Open Platform, Cross River Bank, Galileo, Green Dot, Marqeta, Netspend, Stripe, TabaPay, TSYS, Q2, Very Good Security) and automatic qualification for portfolio companies of participating venture firms.",
+      "quote": "Visa is working with leading venture capital firms to automatically qualify their portfolio companies into the U.S. Fast Track program.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.16516.html",
+      "title": "Visa's Fintech Fast Track Program Goes Global with Launch in U.S.",
+      "publisher": "Visa",
+      "published": "2019-07-31",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Press release; Fast Track was already live in Europe, Africa, Middle East, LAC and Asia Pacific. VC partners named: Andreessen Horowitz, Nyca Partners, Ribbit Capital, Trinity Ventures. A November 2020 release (releaseId.17396) added a Partner Toolkit and 'Visa Ready for Fintech Enablers' certification and claimed 'Fast Track participation has grown 360% year-over-year'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Digital Transactions reported in December 2023 that Visa extended Fintech Fast Track beyond card issuing to Visa Direct and had signed 42 new Fast Track clients in the prior year.",
+      "quote": "Visa has signed 42 new clients in the past year for Fintech Fast Track, which offers various Visa payment technologies to non-bank payments providers.",
+      "url": "https://www.digitaltransactions.net/visas-fast-track-expands-and-other-digital-transactions-news-briefs-from-12-18-23/",
+      "title": "Visa's Fast Track Expands And Other Digital Transactions News briefs from 12/18/23",
+      "publisher": "Digital Transactions",
+      "published": "2023-12-18",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Byline 'Digital Transactions News staff'. The 2026 programme page confirms Visa Direct Fast Track is 'currently only available in the United States'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Ready is the certification route for technology partners, issuer processors, BIN sponsors, program managers, acquirers and gateways; the published path is six steps from choosing a programme and creating a Visa Partner account through certification approval to a partner-directory listing.",
+      "quote": "Technology partners, issuer processors, BIN sponsors, program managers, acquirers, and gateways are eligible to apply to the Visa Ready program.",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready Program",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Steps: 'Step 1 Find a Visa Ready program for your solution Step 2 Create an account on Visa Partner Register Step 3 Apply for a Visa Ready program Step 4 Get certification approved Step 5 Access Visa Ready resources Step 6 Get your company listed in the partner directory'. Marketing figures on the page (Vendor): '500+ partners 11+ product verticals 160+ solutions 20+ countries'. No fees stated."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa publishes an explicit timeline and cost for one certification track: Visa Ready Tap to Phone certification typically takes 6 to 12 months and mandatory independent laboratory testing can cost USD 50,000 or more, which Visa uses to steer smaller players toward already-approved partners.",
+      "quote": "The Visa Ready Tap to Phone certification process typically requires 6 - 12 months to complete. Required independent laboratory testing can cost $50,000 or more.",
+      "url": "https://partner.visa.com/site/programs/visa-ready/becoming-a-partner.html",
+      "title": "Tap to Phone - Becoming a Partner",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Interstitial page titled 'Becoming a partner requires significant investment'. The Tap to Phone programme page lists the certification steps: create Visa Partner account, application, access specifications, build, 'Testing for launch Engage with Visa Approval Services and perform required testing', approval decision and programme agreement, certify, directory listing. This is the only Visa page found that states a certification duration or cost."
+    },
+    {
+      "dimension": "join",
+      "claim": "Chip card and terminal manufacturers seeking Visa approval must first register as a Visa Technology Partner, license Visa software where required and execute Approval Services agreements; the approval process then runs product submission, testing authorisation, lab testing, report review and product approval, ending in an Approval Letter and listing.",
+      "quote": "Chip card product or terminal manufacturers seeking Visa certification of their products need to register as a technology partner, license Visa's technology and software",
+      "url": "https://technologypartner.visa.com/ProductTesting/ProductTestingOverview",
+      "title": "ProductTestingOverview - Digital Partner Services",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Stages as listed: 'Registration, Licensing and Agreement Execution (one-time) Product Submission Testing Authorization Laboratory Scheduling and Testing Test Reports Review Product Approval'. Wearables and IoT are handled by Visa Ready rather than Approval Services. The library and some pages require sign-in."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa's terminal approval relies on EMVCo Level 1 and Level 2 certification (and GlobalPlatform for cards/secure elements) rather than duplicating tests; Visa accredits named labs for its own functional and security tests and does not accept vendor self-testing.",
+      "quote": "Terminals supporting contact chip must have the contact level 1 interface and contact level 2 kernel tested and approved by EMVCo.",
+      "url": "https://technologypartner.visa.com/ProductTesting/ProductTestingOverview",
+      "title": "ProductTestingOverview - Digital Partner Services",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Self-testing results are not accepted as proof of specification compliance.' Accredited Test Laboratories page (technologypartner.visa.com/ProductTesting/AccreditedTestLabs) lists labs including Applus, BCTC, BQ Technologies, BV ICTK, CEA LETI, CETECOM and Fime with per-lab test availability."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Global Level 3 testing of acquirer-configured terminals is mandatory and separate from vendor L1/L2 approval; the Level 3 guidelines and FAQ sit in the log-in library.",
+      "quote": "Visa Global L3 Testing is a mandatory phase of terminal testing.",
+      "url": "https://technologypartner.visa.com/ProductTesting/Testing",
+      "title": "ProductTestingOverview - Digital Partner Services",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page path /ProductTesting/Testing carries the same HTML title as the overview page. Text continues: 'It helps to ensure that chip terminals that have been configured for deployment by acquirers are correctly integrated into the Visa payment acceptance environment'. The dedicated Level 3 page (/Portal/VtpPublic/VtpL3Testing) rendered empty without JavaScript. mPOS certification is referred to Visa Ready."
+    },
+    {
+      "dimension": "join",
+      "claim": "On Visa Developer the path is sandbox to certification to production, and certification and production credentials are only issued once a signed contract with Visa is in place; the Onboarding Dashboard collects business entity, contact, project, environment request, API registration, users and credential/CSR steps.",
+      "quote": "Credentials for certification and production will be provided once a signed relevant contract is in place between you and Visa.",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page is 'Updated to reflect the new onboarding experience available as of September 2025'. Also: 'If an API requires certification prior to going live in the production environment, you will follow this process twice.' Endpoints: cert.api.visa.com and api.visa.com. Restricted products show a lock icon and need a 'Request Access' approval (Quick Start Guide). VDC Playground is 'a tool designed exclusively for testing and troubleshooting Visa APIs'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa states that Developer Platform onboarding can take as little as two weeks or multiple months, driven by sandbox readiness, API product complexity and completion of the commercial VDP Agreement; a firm estimate is only given after Visa reviews the design.",
+      "quote": "While some projects can move to production in as little as two weeks, others may take multiple months.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+      "title": "Visa Developer Onboarding",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Certification varies by product: 'some simple products follow a client self-service path to integration, while others require our Global Testing Team to execute pre-defined test cases'. A PCI DSS attestation is requested for products that handle PAN. An Implementation Manager guides certification after the VDP Agreement and Going Live Request."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Developer pricing is unpublished: the sandbox is free, a contract is required at certification, a flat setup fee applies, most production pricing is usage-based with monthly minimums, and some APIs are free to clients that already subscribe through Visa Online.",
+      "quote": "There's also a flat setup fees to cover the support costs and any other required additional compliance checks.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'Innovating in our Sandbox - No fees charged' and 'APIs for certain capabilities are available for no additional fee if the client has a subscription for the capability through Visa Online.' No amounts anywhere; quotes are by email or account manager."
+    },
+    {
+      "dimension": "join",
+      "claim": "One Visa Partner account spans Visa Developer APIs, Visa Partner programmes and Visa Online services, but Visa Online access needs additional validation; the platforms moved to Visa's Universal Login on 5 November 2025 and mandatory MFA from February 2026.",
+      "quote": "An account on Visa Partner also gets you access to Visa Developer APIs, Visa Partner programs, and Visa Online services.",
+      "url": "https://partner.visa.com/site/support-faq.html",
+      "title": "Visa Partner Support and FAQ",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Please note, Visa Online does require additional validation before access is granted.' Users arriving via Visa Access SSO skip MFA. Forgot-password flow changes to OTP from 28 April 2026."
+    },
+    {
+      "dimension": "join",
+      "claim": "To sponsor Payment Facilitators an acquirer must be in good standing in all Visa risk programmes, meet Visa's minimum risk rating and equity requirements, and register each PF via the Program Request Management application after a risk and financial review.",
+      "quote": "Must meet the minimum risk rating standards and minimum equity requirements, as determined by Visa.",
+      "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-payment-facilitator-model.pdf",
+      "title": "Visa's Payment Facilitator Model",
+      "publisher": "Visa",
+      "published": "2024-02-21",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Acquirers must provide all registration materials using the Program Request Management online application, or as otherwise specified by Visa. Information is available on Visa Online in the Third Party Agent Risk section.' A PF cannot sponsor another PF. The companion paper 'Beyond the Acquirer' (2024-02-15) adds that acquiring-side BIN sponsorship is registered under the Third Party Servicer category."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa's FY2025 10-K frames client access as agreements with issuers and acquirers that authorise use of Visa's trademarks, and counts nearly 14,500 financial institution clients; the filing does not describe licensing steps, sponsorship tiers, Fast Track or Visa Ready.",
+      "quote": "agreements with our issuers and acquirers, which authorize the use of our trademarks in connection with their participation in our payments network",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. (SEC EDGAR)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Accession 0001403161-25-000089. Also: 'our clients, including nearly 14,500 financial institutions'. curl to sec.gov returned 403; read via WebFetch, which reported 'Fast Track' and licensing-procedure sentences as NOT PRESENT in the Business section."
+    },
+    {
+      "dimension": "join",
+      "claim": "Visa Acceptance Solutions (formerly CyberSource) runs a separate self-serve join path: a public web form creates a sandbox account with test-only credentials, production needs separate credentials and a go-live handled through support, and technology partners choose Referral, Enablement or Reseller models before validating and signing partner agreements.",
+      "quote": "After completing the evaluation registration process, you will be able to send test transactions.",
+      "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+      "title": "Sandbox signup | Visa Acceptance Developer Portal",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer Center Terms of Use (last updated July 10, 2025): 'You may not use the Products for production use.' Testing guide: 'The sandbox environment is completely separate from the live production environment, and it requires separate credentials.' Technology partners page: 'Launch Validate your solution, finalize partner agreements, and go live.' Sandbox users are directed to the Test Enterprise Business Center (businesscentertest.visaacceptance.com)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Published licence or membership fee amounts for Principal or Associate clients",
+      "where": "https://partner.visa.com/site/programs/licensing-program.html and the public Visa Rules PDF; page says 'service fees that are required' but gives no figures",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published elapsed-time for a Visa licence application (issuer or acquirer)",
+      "where": "https://partner.visa.com/site/programs/licensing-program.html; four steps listed, no duration",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Ready certification fees or standard duration (other than Tap to Phone)",
+      "where": "https://partner.visa.com/site/programs/visa-ready.html and /visa-ready/digital-payments.html; none stated",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer setup fee, per-call prices or minimum monthly fee amounts",
+      "where": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing; framework only, quotes by email",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Membership eligibility requirements (Visa Charter Documents / Visa U.S.A. By-Laws)",
+      "where": "Referenced in the Visa Rules glossary but not included in https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current (post-2016) Third Party Agent registration fee schedule",
+      "where": "Only the May 2016 FAQ PDF publishes amounts; no newer public schedule found on usa.visa.com or partner.visa.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Global Registry of Service Providers learn-more text",
+      "where": "https://www.visa.com/splisting/LearnMore.html (redirect from usa.visa.com/splisting/splistinglearnmore.html) renders only a title without JavaScript",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Ready Issuer Processor programme page",
+      "where": "https://partner.visa.com/site/programs/visa-ready/issuer-processor.html returns Page Not Found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer community forum content on certification experience",
+      "where": "https://community.developer.visa.com/ failed TLS handshake on every attempt",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press coverage (Payments Dive, American Banker, PYMNTS) of Fast Track onboarding times and US Payments Forum / EMVCo papers on Visa certification",
+      "where": "WebSearch budget exhausted before these could be run; Payments Dive on-site search for 'Visa Fast Track fintech' returned no Fast Track articles; only Digital Transactions was reachable by direct URL",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Global Level 3 Testing Guidelines and FAQ",
+      "where": "Named at https://technologypartner.visa.com/ProductTesting/Testing as being 'in the library', which requires sign-in",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Fintech Fast Track page lists eligibility as 'Have raised at least $3M in funding'",
+      "b": "Visa Partner Programs page describes Fast Track eligibility as 'raised at least a Series A or USD$1M+ in funding (regional variances apply)'",
+      "urls": [
+        "https://partner.visa.com/site/programs/fintech-program.html",
+        "https://partner.visa.com/site/programs/partner-programs.html"
+      ]
+    },
+    {
+      "a": "2016 TPA FAQ: 'Only Visa clients can register agents. Agents cannot register themselves.' Registration is via Visa Membership Management on Visa Online.",
+      "b": "2026 Visa Partner TPA page: 'A new option available to agents is to register directly with Visa.' via a self-service tool on Visa Partner; the April 2026 Rules name the 'Program Request Management application' as the Member's registration tool.",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+        "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+      ]
+    },
+    {
+      "a": "Visa Rules glossary (April 2026) defines Visa Access as the client extranet 'formerly known as Visa Online'",
+      "b": "Visa Partner FAQ and Visa Developer pricing page (both live September 2026) still refer to 'Visa Online' services and 'Visa Online Subscriptions'; the 2024 payfac paper points to 'Visa Online'",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+        "https://partner.visa.com/site/support-faq.html",
+        "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing"
+      ]
+    },
+    {
+      "a": "Licensing page names two client types: Principal Clients and Associate Clients",
+      "b": "Visa Rules section 2.2.1.1 and glossary name three: Principal-Type, Associate-Type and Participant-Type Members (Participants cannot license a BIN)",
+      "urls": [
+        "https://partner.visa.com/site/programs/licensing-program.html",
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Online (VOL)",
+      "url": "https://www.visaonline.com/",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf"
+    },
+    {
+      "name": "Visa Access (client extranet, formerly Visa Online; hosts licensing application)",
+      "url": "",
+      "named_at": "https://partner.visa.com/site/programs/licensing-program.html"
+    },
+    {
+      "name": "Visa Client Lifecycle Management Tool (inside Visa Access)",
+      "url": "",
+      "named_at": "https://partner.visa.com/site/programs/licensing-program.html"
+    },
+    {
+      "name": "Visa Membership Management (VMM)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf"
+    },
+    {
+      "name": "Program Request Management application",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Merchant Servicer Self-Identification Program (MSSIP) website",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf"
+    },
+    {
+      "name": "Visa Partner Platform (VPP) dashboard and programme applications",
+      "url": "https://partner.visa.com/portal/dashboard.html",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Visa Developer Platform project dashboard / Onboarding Dashboard",
+      "url": "https://developer.visa.com/",
+      "named_at": "https://developer.visa.com/pages/going-live"
+    },
+    {
+      "name": "Visa Developer Center Playground (VDC Playground)",
+      "url": "",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+      "name": "Approval Services Portal (chip product testing and approval)",
+      "url": "https://technologypartner.visa.com/",
+      "named_at": "https://technologypartner.visa.com/"
+    },
+    {
+      "name": "Tap to Phone Certification Portal",
+      "url": "https://technologypartner.visa.com/TtpAuthentication/Authenticate",
+      "named_at": "https://technologypartner.visa.com/"
+    },
+    {
+      "name": "Visa Technology Partner (Digital Partner Services, specifications and applet licensing)",
+      "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpHome",
+      "named_at": "https://partner.visa.com/site/programs/partner-programs.html"
+    },
+    {
+      "name": "Technology Partner library (Chip Bulletins, Level 3 guidelines; 'requires log in')",
+      "url": "https://technologypartner.visa.com/Document",
+      "named_at": "https://technologypartner.visa.com/ProductTesting/ProductTestingOverview"
+    },
+    {
+      "name": "Visa Acceptance Test Enterprise Business Center (sandbox portal)",
+      "url": "https://businesscentertest.visaacceptance.com/ebc2/",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Visa Acceptance Portal (Business Center)",
+      "url": "",
+      "named_at": "https://developer.visaacceptance.com/hello-world/testing-guide.html"
+    }
+  ],
+  "sources_read": [
+    { "url": "https://developer.visa.com/pages/going-live", "title": "Going Live", "ok": true, "wall": "none" },
+    { "url": "https://developer.visa.com/", "title": "Visa Developer Center", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/", "title": "Visa Partner", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/partner-with-us.html", "title": "(404 Not Found)", "ok": false, "wall": "dead" },
+    { "url": "https://usa.visa.com/support/merchant.html", "title": "Merchant Resource Library", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/", "title": "Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/licensing-program.html", "title": "Visa's Licensing Program", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf", "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/fintech-program.html", "title": "Visa Partner | Fintech Fast Track Program", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready.html", "title": "Visa Ready Program", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready/becoming-a-partner.html", "title": "Tap to Phone - Becoming a Partner", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/partner-programs.html", "title": "Visa Partner Programs", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/partner-types.html", "title": "Visa Partner Types", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf", "title": "Third Party Agent Registration Program Frequently Asked Questions (May 2016)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-types-functional-descriptions.pdf", "title": "Third Party Agent Registration Program - TPA Types and Functional Descriptions (December 2021)", "ok": true, "wall": "none" },
+    { "url": "https://data.sec.gov/submissions/CIK0001403161.json", "title": "SEC EDGAR submissions for Visa Inc. CIK 1403161", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm", "title": "Visa Inc. Form 10-K FY2025", "ok": true, "wall": "bot" },
+    { "url": "https://community.developer.visa.com/", "title": "Visa Developer Community", "ok": false, "wall": "dead" },
+    { "url": "https://github.com/visa", "title": "Visa · GitHub", "ok": true, "wall": "none" },
+    { "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide", "title": "Visa Developer Quick Start for Developers", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/partner-with-us/info-for-partners/info-for-fintechs.html", "title": "Supporting Innovative Fintechs | Visa", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/acceptance-fast-track.html", "title": "(Page Not Found)", "ok": false, "wall": "dead" },
+    { "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html", "title": "Visa Partner | Third Party Agent Registration", "ok": true, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/", "title": "Home - Digital Partner Services", "ok": true, "wall": "none" },
+    { "url": "https://www.visaonline.com/", "title": "Index", "ok": false, "wall": "login" },
+    { "url": "https://www.visaonline.com/login/LoginMain.aspx", "title": "Index", "ok": false, "wall": "login" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready/tap-to-phone.html", "title": "Visa Ready Tap to Phone Program", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready/issuer-processor.html", "title": "(Page Not Found)", "ok": false, "wall": "dead" },
+    { "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.16516.html", "title": "Visa's Fintech Fast Track Program Goes Global with Launch in U.S.", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17396.html", "title": "Visa Expands Fast Track Program to Enable Next Generation of Fintechs to Rebuild the Global Economy", "ok": true, "wall": "none" },
+    { "url": "https://www.visa.com/splisting/LearnMore.html", "title": "Visa Global Registry of Service Providers", "ok": false, "wall": "none" },
+    { "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-payment-facilitator-model.pdf", "title": "Visa's Payment Facilitator Model (21 Feb 2024)", "ok": true, "wall": "none" },
+    { "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-acceptance-entities.pdf", "title": "Beyond the Acquirer: Additional Visa Acceptance Entities (15 Feb 2024)", "ok": true, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/Portal/VtpPublic/VtpL3Testing", "title": "Digital Partner Services (Level 3 Testing; empty without JavaScript)", "ok": false, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/ProductTesting/ProductTestingOverview", "title": "ProductTestingOverview - Digital Partner Services", "ok": true, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/ProductTesting/AccreditedTestLabs", "title": "Accredited Test Laboratories - Digital Partner Services", "ok": true, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/ProductTesting/Testing", "title": "Chip Product Testing - Digital Partner Services", "ok": true, "wall": "none" },
+    { "url": "https://technologypartner.visa.com/Portal/VtpPublic/VtpHome", "title": "Digital Partner Services (Technology Partner; empty without JavaScript)", "ok": false, "wall": "none" },
+    { "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding", "title": "Visa Developer Onboarding", "ok": true, "wall": "none" },
+    { "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing", "title": "Pricing on Visa Developer", "ok": true, "wall": "none" },
+    { "url": "https://developer.visa.com/pages/support", "title": "Frequently Asked Questions (Visa Developer)", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/core-product-pif-program.html", "title": "Visa Partner | Core Product PIF", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/support-faq.html", "title": "Visa Partner Support and FAQ", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/hello-world/sandbox.html", "title": "Sandbox signup | Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html", "title": "Testing Guide | Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/acceptance-providers.html", "title": "Acceptance providers | Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/technology-partners.html", "title": "Technology partners | Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://developer.visaacceptance.com/support/faqs.html", "title": "FAQs | Visa Acceptance Developer Portal", "ok": true, "wall": "none" },
+    { "url": "https://partner.visa.com/site/programs/visa-ready/digital-payments.html", "title": "Visa Ready Digital Payments Programs", "ok": true, "wall": "none" },
+    { "url": "https://www.paymentsdive.com/search/?q=Visa+Fast+Track+fintech", "title": "Search | Payments Dive", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/?s=Visa+Fast+Track", "title": "Search Results for 'Visa Fast Track' - Digital Transactions", "ok": true, "wall": "none" },
+    { "url": "https://www.digitaltransactions.net/visas-fast-track-expands-and-other-digital-transactions-news-briefs-from-12-18-23/", "title": "Visa's Fast Track Expands And Other Digital Transactions News briefs from 12/18/23", "ok": true, "wall": "none" }
+  ]
+}

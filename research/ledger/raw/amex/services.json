@@ -1,0 +1,1711 @@
+{
+  "network": "amex",
+  "dimension": "services",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "services",
+      "claim": "Core network service to issuers: Global Network Services licenses third-party banks and institutions to issue American Express-branded cards and/or acquire merchants on the network (direct licensing, no sponsor).",
+      "quote": "licensed to issue American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FY2025 10-K, Item 1 'Card Network Business'. Filing date not captured; accession 0000004962-26-000080 (2026)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Scale of the licensing programme: network partners in approximately 110 countries and territories; 66.2 million third-party-issued cards-in-force; $227.2 billion processed volume in 2025.",
+      "quote": "worldwide processed volume (spending on American Express cards issued by third parties as well as alternative payment solutions facilitated by American Express) was $227.2 billion",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same passage: 'approximately 110 countries and territories' and '66.2 million cards-in-force issued by third parties worldwide' as of 2025-12-31. See contradiction vs FY2024 (120 countries)."
+    },
+    {
+      "dimension": "services",
+      "claim": "The GMNS segment is the organisational home for all partner-facing network services: it manages third-party card issuers, merchant acquirers and one prepaid/gift card program manager under brand licences.",
+      "quote": "GMNS manages our partnership relationships with third-party card issuers, merchant acquirers and a prepaid reloadable and gift card program manager, licensing the American Express brand",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "GMNS = Global Merchant and Network Services. Network volumes $1,897.0bn in 2025."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer licensing is monetised as 'network partnership revenue' (royalties, fees and per-transaction amounts), reported inside Service fees and other revenue from Q1 2025.",
+      "quote": "revenues related to network partnership agreements (comprising royalties, fees and amounts earned for facilitating transactions on cards issued by network partners)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K notes 'Processed revenue' was renamed 'network partnership revenue' beginning Q1 2025."
+    },
+    {
+      "dimension": "services",
+      "claim": "Value-added bundle for licensed issuers and fintech issuers: payment technologies, marketing solutions and brand assets, with Coinbase and Credit Saison named as third-party issuers on the network.",
+      "quote": "cards issued by third-party banks, financial technology companies and other institutions on the American Express network (e.g., cards offered by Coinbase and Credit Saison)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1 'Partners and Relationships'. The 2025 Annual Report shareholder letter adds Coinbase 'launched its first credit card, the Coinbase One Card, on the American Express network'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer marketing solution: a proprietary card-linked offers platform with one-click enrolment and automatic statement credits is offered to issuer partners (value-added, direct).",
+      "quote": "One-Click offer enrollment powered by American Express' proprietary Card linked offers platform with automatic statement credit delivery.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/",
+      "title": "Marketing Solutions | Partners | Issuers | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page also lists Personal Cards, Corporate Payments, Small & Medium Enterprise Cards, Benefits & Loyalty Solutions and Shop Small as issuer offerings."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer product design: customisable card product lines (personal, corporate, SME) built to the partner's specification, plus access to Amex travel and lifestyle benefits.",
+      "quote": "Create targeted, locally relevant Card products with access to our global travel and lifestyle benefits.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/",
+      "title": "Marketing Solutions | Partners | Issuers | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Benefit claim on the network's own site."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer risk and fraud service: network risk solutions to optimise authorisations and protect high-value customers; plus data and analytics with benchmarking for issuing portfolios (value-added).",
+      "quote": "leverage our risk solutions to optimize authorizations, protect high value customers",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/power-of-the-network/",
+      "title": "Partners | Issuers | Power of the Network | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page: Data & Analytics 'robust data-driven strategies for Issuing portfolios through analytical insights, benchmarking'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer and acquirer partner education: Compliance Training Module (six modules, 50+ network policies), Operations & Services Training and Chargeback & Disputes Training are provided to Network Participants.",
+      "quote": "Key Business and Operational Policies in six modules covering more than fifty Network policies.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/backing-our-partners/",
+      "title": "Partners | Issuers | Backing Our Partners | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Registration via PartnerLearning@aexp.com; identical catalogue on the acquirers' Backing Our Partners page."
+    },
+    {
+      "dimension": "services",
+      "claim": "Digital wallet enablement for issuers is delivered through the network's Token Service: Apple Pay, Google Pay, Samsung Pay, Mobile HCE and Mobile NFC are listed as partner payment solutions.",
+      "quote": "we offer our partners a variety of solutions to enable digital and mobile payments to happen securely, through our Token Service",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/overview-payments/",
+      "title": "Partners | Overview of all our Payment Solutions | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page lists Digital, Security and Acceptance solution families with product links (apple-pay, google-pay, samsung-pay, mobile-hce, mobile-nfc, emv-chip, online-pin, card-on-file-tokenization, safekey, verify-it, contactless-payments, contactless-in-transit, mobile-pos, qr-code, click-to-pay)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Online PIN is a network cardholder-verification service carried between acquirer and issuer for EMV contact and contactless payments.",
+      "quote": "Online Personal Identification Number (PIN) validation is a Cardholder Verification Method (CVM) used to authenticate the Cardmember performing EMV contact and contactless payments.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/online-pin/",
+      "title": "Online Pin | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page describes flow: terminal/acquirer sends PIN to Network, Network carries encrypted data, Issuer validates. Overview PDF dated 2026-01-14."
+    },
+    {
+      "dimension": "services",
+      "claim": "A Network Loyalty Platform (R42) exposes real-time APIs to issuers and concierge providers for elite-tier benefit enrolment and points transfers (third-party catalogue of the developer portal).",
+      "quote": "Real-time APIs to Issuers and Concierge Service Providers for elite tier benefits enrollment and loyalty point transfers",
+      "url": "https://github.com/api-evangelist/american-express",
+      "title": "GitHub - api-evangelist/american-express: American Express — independent third-party profile of a public API surface",
+      "publisher": "API Evangelist (GitHub)",
+      "published": "2026-04-19",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Cites developer.americanexpress.com/products/network-loyalty/overview, which could not be rendered (SPA)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer certification is a mandatory network service: issuers must complete host and payment product certification to operate on the network.",
+      "quote": "Certification is required in order to maintain the quality, efficiency, and financial soundness of the American Express Global Network.",
+      "url": "https://network.americanexpress.com/globalnetwork/certification/",
+      "title": "American Express Certification",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Three tracks: Issuers (host and payment product), Acquirers (host and POS), Payment Technologies (EMV chip, contactless, mobile). Specifications sit behind Knowledge Base login."
+    },
+    {
+      "dimension": "services",
+      "claim": "Core acquirer programme OptBlue: acquirers, processors and payment facilitators contract directly with small merchants and set merchant pricing on the Amex network (sold direct to the acquirer).",
+      "quote": "through our OptBlue ® merchant-acquiring program, these third parties contract directly with small merchants for card acceptance on our network and determine merchant pricing",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FY2025 wording adds 'payment facilitators'; FY2024 10-K said 'third-party processors'."
+    },
+    {
+      "dimension": "services",
+      "claim": "OptBlue eligibility threshold: from April 17, 2026 OptBlue Participants may acquire U.S. merchants with rolling-12-month estimated annual charge volume up to $3,000,000 (excluding Puerto Rico and USVI).",
+      "quote": "$3,000,000 for all eligible industry categories (excluding those listed below)",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF also states 'Threshold effective April 17, 2026 in USD (rolling 12)'. Compare 2014 launch threshold of $1 million (Digital Transactions)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Eight industry categories have no OptBlue volume threshold (Charity, Healthcare, Education, Government, Insurance, Residential Rent, Utilities, Online Gambling/Games of Value); Games of Value merchants need at least $1,000,000 ECV.",
+      "quote": "Games of Value Merchants must have a minimum ECV of $1,000,000.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Only approved and certified OptBlue Participants may acquire certain Online Gambling and Games of Value segments."
+    },
+    {
+      "dimension": "services",
+      "claim": "Payment facilitators are sold OptBlue through a sponsor: PayFacs under $250M annual Amex volume register through a certified OptBlue Participant and receive single-source statement, servicing and settlement.",
+      "quote": "Payment Facilitators with less than $250M in annual American Express charge volume can work with a certified* OptBlue Participant(s) to offer American Express Card acceptance",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "title": "Payments Facilitator Acceptance of American Express Cards (fact sheet)",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Requirements include registering as a PayFac with Amex via an OptBlue Participant and 'Do not sponsor individual merchants with greater than $1MM in annual American Express charge volume'. No registration fee."
+    },
+    {
+      "dimension": "services",
+      "claim": "OptBlue is a wholesale model: American Express does not charge wholesale discount rates or fees to merchants; the OptBlue Participant or Payment Facilitator sets total merchant pricing.",
+      "quote": "American Express does not charge Wholesale Discount Rates and fees directly to merchants",
+      "url": "https://www.americanexpress.com/ca/en/merchant/card-acceptance-pricing.html",
+      "title": "American Express Card Acceptance Pricing in Canada",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Canada page names OptBlue Participants/PayFacs incl. Adyen, Chase Paymentech, Elavon, Fiserv, Global Payments, Moneris, PayPal, Stripe, Square, TD Merchant Services, Worldpay, confirming OptBlue operates in Canada."
+    },
+    {
+      "dimension": "services",
+      "claim": "Named U.S. OptBlue participants (30+) include Adyen, Bank of America, Braintree, Chase, Checkout.com, Elavon, Fiserv, Global Payments, Heartland, PayPal, Square, Stripe, TSYS, Wells Fargo, Worldpay; merchants get one statement and one deposit across brands.",
+      "quote": "one statement, one deposit and one servicing contact for all the major card brands you accept",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express®",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Full list on page also includes BlueSnap, Clearent, Electronic Payments, EPX, EVO, Finix, Deluxe, Intuit, MerchantE, Moov, NCR Voyix, North, Nuvei, Paynetworx, Repay, RS2, Windcave."
+    },
+    {
+      "dimension": "services",
+      "claim": "OptBlue Sales Agent programme gives ISOs and sales agents training, programme updates, a Merchant Activation Guide, Objection Handling guide, disputes guide, welcome kit and a bulk signage ordering portal.",
+      "quote": "Your one-stop shop for training resources, program updates, and tools to support your merchants.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express®",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Value proposition to merchants restated as 'One Convenient Payment', 'One Combined Statement', 'One Point of Contact', 'Pricing Set By Processor'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Rulebook definition: under OptBlue the 'Merchant Services Provider' is the entity authorised to accept charges from a merchant, and its services may span processing, authorisation, chargebacks, fraud detection, POS equipment and customer service.",
+      "quote": "An Entity authorized under the American Express OptBlue® Program to accept Charges from a Merchant pursuant to an Agreement",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide - All Regions, April 2026",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary continues: services 'may include ... processing transactions, facilitating authorizations ... merchant accounting, backroom operations (e.g., chargebacks and detecting fraud), provision of point of sale equipment'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Dispute tooling for OptBlue merchants is intermediated: all dispute interactions with Amex run through the Merchant Services Provider, which relays inquiries and chargebacks to the merchant.",
+      "quote": "All interactions with American Express related to disputes will be conducted by your Merchant Services Provider.",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide - All Regions, April 2026",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Amex's TPP 'Guide to Managing Disputes' flowchart (2025) shows Inquiry vs Upfront Chargeback paths and that cardmembers 'are limited to just 2 disputes per charge in most cases'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Card-not-present fraud tools available to OptBlue merchants via their provider: CID verification, Automated Name and Address Verification, Email Verification, Billing Phone Number Verification and Enhanced Authorization.",
+      "quote": "Table 8-1: Card Not Present Fraud Tools Card Identification (CID) Verification Tool Automated Name and Address Verification Email Verification Billing Phone Number Verification Enhanced Authorization",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide - All Regions, April 2026",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 8.9.1. These are issuer-side verification responses returned in the authorisation message."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirer value-added: fraud prevention capabilities built on closed-loop data, data and analytics for acquiring portfolios, and implementation/servicing support are marketed to acquirer partners.",
+      "quote": "Robust data-driven strategies for acquiring portfolios with detailed reporting and predictive models",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/power-of-the-network/",
+      "title": "Partners | Acquirers | Power of the Network | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Fraud claim on the acquirers landing page is marketing: 'Predict and prevent fraud with our best-in-class capabilities which leverage exclusive closed-loop data.' (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirer marketing solutions: Offers & Bonusing (card-linked offers), Shop Small, lifecycle marketing campaigns and merchant-acquisition sales support.",
+      "quote": "Reach the right customers and drive spend with card-linked offers for American Express Cardmembers.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/marketing-solutions/",
+      "title": "Partners | Acquirers | Marketing Solutions | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Merchant Acquisition item: 'Helping your business understand and deliver the American Express value proposition for Merchants.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirer/POS certification: Amex certifies POS devices end-to-end from device to the network entry point, and acquirer hosts, as a mandatory network service.",
+      "quote": "The American Express Point of Sale (POS) device certification tests the end-to-end processing of American Express payment transactions from POS device to the entry point",
+      "url": "https://network.americanexpress.com/globalnetwork/certification/",
+      "title": "American Express Certification",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Payment-facilitator designation outside the U.S. is at Amex's discretion and carries data-submission and authorisation duties for sponsored merchants (International Merchant Regulations).",
+      "quote": "We have the right, in our sole discretion, whether or not to approve and/or designate you as a Payment Facilitator on the American Express network.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2025-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 8.2.6; section 8.4.3 sets PayFac/Indirect Acceptor non-compliance fees 'Up to USD $10,000 for second violation'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Network-to-network acquiring: Amex acts as JCB's merchant acquirer in Canada and Australia, so merchants there accept JCB on the same merchant number and terminal at the same discount rate.",
+      "quote": "we act as JCB's merchant acquirer in Canada and Australia",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide - All Regions, April 2026",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Historical context: OptBlue was announced February 2014 with a $1 million annual Amex volume cap; by January 2015 at least a dozen acquirers/processors and hundreds of ISOs offered it, replacing the OnePoint programme.",
+      "quote": "At least a dozen major bank card acquirers and merchant processors now offer OptBlue, up from six when AmEx announced the program in February 2014",
+      "url": "https://www.digitaltransactions.net/amex-claims-400000-small-merchants-through-its-iso-driven-optblue-program/",
+      "title": "AmEx Claims 400,000 Small Merchants Through Its ISO-Driven OptBlue Program",
+      "publisher": "Digital Transactions (Jim Daly)",
+      "published": "2015-01-21",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Article says Amex set wholesale rates with 27 price points vs 'more than 100 for other networks'. Predates 2025 Capital One/Discover deal (irrelevant to Amex)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Two acceptance routes for U.S. merchants: sign directly with American Express, or through an OptBlue provider that signs the contract and sets the rate.",
+      "quote": "third-party providers sign a contract directly with eligible businesses to enable American Express® Card acceptance",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express®",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Direct route phone 1-866-847-0890; OptBlue route 1-833-213-0511 (accept-the-card.html)."
+    },
+    {
+      "dimension": "services",
+      "claim": "GMNS sells merchants a bundle beyond acceptance: fraud-prevention tools, marketing solutions and data analytics that leverage the closed-loop platform.",
+      "quote": "GMNS also provides fraud-prevention tools, marketing solutions, data analytics and other programs and services to merchants and other partners",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K also flags expansion 'through debit and B2B capabilities' on the network."
+    },
+    {
+      "dimension": "services",
+      "claim": "Direct merchants get an Online Merchant Account (free self-service portal) for settlements, submissions, transactions, adjustments, eStatements (MFAS) and custom report templates in PDF/Excel/CSV.",
+      "quote": "Keep track of settlements, submissions, transactions, adjustments, and generate statements and reports",
+      "url": "https://www.americanexpress.com/us/merchant/support-center/payments.html",
+      "title": "Manage Payments Online | Payments Support Center | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Merchant home describes it as a 'Free hub offering easy access to the information you need to manage your American Express account.' Login at /en-us/business/merchant/dashboard/."
+    },
+    {
+      "dimension": "services",
+      "claim": "Dispute tooling for direct merchants: the Online Merchant Account lets merchants upload documents, track cases, receive email updates, filter a disputes summary table and download case reports.",
+      "quote": "upload documents to respond to new disputes, track open dispute cases throughout the entire process",
+      "url": "https://www.americanexpress.com/us/merchant/support-center/disputes.html",
+      "title": "Disputes Support Center for Merchants | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Dispute rules: merchants have 20 days to answer an inquiry or a chargeback, chargeback processing window was reduced to 120 days, and a transaction can be disputed at most twice.",
+      "quote": "You'll have 20 days to respond with the requested information",
+      "url": "https://www.americanexpress.com/us/merchant/manage-disputes.html",
+      "title": "Manage Merchant Disputes & Chargebacks | Amex Merchants",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page: 'Reduced the timeframe for processing a Chargeback to 120 days' and 'Disputes on the same transaction can only be raised twice'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Dispute-avoidance products: Substitute Receipts, Digital Receipts (shown in the Amex app), Authorization on Credit (pending refunds in near-real time) and Accelerated Dispute Resolution are offered to merchants.",
+      "quote": "Merchants who implemented American Express Digital Receipts saw 15-20% fewer non-fraud disputes than merchants who did not",
+      "url": "https://www.americanexpress.com/us/merchant/manage-disputes.html",
+      "title": "Manage Merchant Disputes & Chargebacks | Amex Merchants",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also claims Substitute Receipts helped resolve '83% of disputes raised by US Card Members as a does not recognize transaction' without merchant contact."
+    },
+    {
+      "dimension": "services",
+      "claim": "Direct-merchant processing products: Click to Pay, SmartBill Pro (card-on-file continuity), Multi-Currency (MCCY) Payment Processing, AMEX Raw Data (financial and dispute data feeds) and Contactless Payments.",
+      "quote": "SmartBill Pro Help reduce payment decline and maintain continuity of billing for recurring or card-on-file payments.",
+      "url": "https://www.americanexpress.com/us/merchant/payment-processing.html",
+      "title": "Payment and Credit Card Processing Solutions | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'AMEX Raw Data Automatically get customizable financial and dispute data directly into your systems.' and 'Multi-Currency (MCCY) Payment Processing Give international customers the convenience to pay in their local currency.' Page notes products may not be available to all merchants."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant fraud-tool catalogue: Enhanced Authorization (real-time identity signals), SafeKey (3-D Secure with liability shift), Tokenization Service and EMV Chip Card Payments.",
+      "quote": "Help identify who is on the other side of a transaction in real-time",
+      "url": "https://www.americanexpress.com/us/merchant/fraud-solutions.html",
+      "title": "Merchant Fraud Protection Solutions | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "SafeKey: 'Receive fraud liability shift by providing an extra layer of security for online purchases'; Tokenization: 'Eliminate the need to store real card account numbers'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Verify-It is a browser-based billing name and address validation tool offered to partners and merchants.",
+      "quote": "Verify-It is an easy-to-use browser-based tool that quickly validates billing name and address information",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/overview-payments/",
+      "title": "Partners | Overview of all our Payment Solutions | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Dedicated product page /globalnetwork/v4/products/verify-it returned 404 on 2026-09-25."
+    },
+    {
+      "dimension": "services",
+      "claim": "SafeKey fraud liability shift terms: Amex waives CNP fraud chargebacks on authenticated (ECI 5) or attempted (ECI 6) SafeKey charges if the merchant stays under a 0.9% fraud ratio and $25,000 monthly fraud.",
+      "quote": "Do not exceed a fraud ratio of 0.9% and fraud Charges of USD $25,000 calculated monthly",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2025-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 7.1.1. Does not apply to goods/services disputes."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fraud Full Recourse Programme: merchants in high-risk industries or above fraud thresholds can be placed in a programme where Amex charges back any fraud dispute with no reversal right.",
+      "quote": "allows us to Chargeback any time a Cardmember disputes a Transaction based on actual or alleged fraud without the right to request a reversal",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2025-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 5.11; Low Tier and High Tier thresholds in Table 5-37."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant marketing: Amex Offers (card-linked statement credits/Membership Rewards) and Amex Ads (first-party-data advertising platform) are sold to merchants and advertisers, with performance reporting.",
+      "quote": "Amex Ads is a digital advertising platform designed to help brands connect with American Express® Card Members",
+      "url": "https://www.americanexpress.com/en-us/merchant/digital-media/",
+      "title": "Amex Offers & Ads for Merchants | American Express",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Reached via redirect from /us/merchant/amex-offers/ and go.amex/BsvvV2. Enquiries by email (amexoffersinfo@aexp.com, amexads_inquiries@aexp.com); 'Amex Offers may not be available to all Merchants.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex Offers scale claims for merchants: $24B global spend driven in 2025 ($21B U.S.) and 464M U.S. cardmember enrolments.",
+      "quote": "464M enrollments in Amex Offers by U.S. Card Members",
+      "url": "https://www.americanexpress.com/en-us/merchant/digital-media/",
+      "title": "Amex Offers & Ads for Merchants | American Express",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also '$24B in 2025' and '58% higher' average transaction size claims."
+    },
+    {
+      "dimension": "services",
+      "claim": "Loyalty rail for merchants: Pay with Points lets cardmembers redeem Membership Rewards at merchant checkout (Amazon.com is the 10-K example); exposed to partners as the Global Pay with Points API.",
+      "quote": "offering innovative ways for our Card Members to earn and use points with our merchants (e.g., Pay with Points at Amazon.com)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "API listed by API Evangelist as developer.americanexpress.com/products/global-pay-with-points/resources: 'Cardholders use Membership Rewards points to make purchases at participating merchants' (Reported)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant perks bundle: Business Savings Suite (partner discounts from Dell, QuickBooks, UPS, LinkedIn), free signage and supplies, Shop Small Resource Hub and Business Class for Merchants content.",
+      "quote": "Unlock the potential for over $4,800 in savings with the Business Savings Suite when you take advantage of all eligible offers.",
+      "url": "https://www.americanexpress.com/us/merchant/offers.html",
+      "title": "Business Savings Suite: Business Owner Offers | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page distinguishes: 'Amex Offers is a program for American Express® Card Members and the Business Savings Suite features offers intended for American Express Merchants.' See contradiction ($4,400 on accept-the-card.html)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Data security as a mandatory service: merchants must comply with the Data Security Operating Policy (PCI DSS, PCI-approved devices, compliance reporting via SecureTrust) and report data incidents within 72 hours.",
+      "quote": "Notify American Express of a Data Incident within 72 hours",
+      "url": "https://www.americanexpress.com/us/merchant/us-data-security.html",
+      "title": "Payment Processing: PCI Compliance and Data Security | Amex Merchant",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Four merchant levels (Level 1 ≥2.5M transactions ... Level 4 <10K); Targeted Analysis Program 'provides early identification of potential Card data losses impacting your business'; STEP lets qualified merchants file only an annual attestation."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant Regulations U.S. are published twice yearly (April, October) and are login-gated; the public Merchant Reference Guide U.S. last seen is October 2021.",
+      "quote": "published twice a year, in April and October",
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures | Amex US",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Login: /en-us/business/merchant/regulation/secure/. The Oct 2021 Reference Guide (US-Reference-Guide.pdf) describes SafeKey, verification services and the DSOP/TAP obligations."
+    },
+    {
+      "dimension": "services",
+      "claim": "BIN file distribution is a gated merchant/partner service: Amex BIN files are requested at americanexpress.com/merchantspecs under BIN terms and conditions with a user ID and password.",
+      "quote": "Requests for American Express BIN files are available at www.americanexpress.com/merchantspecs and can be accessed by entering your user ID and password.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2025-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 1.5."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant Financing: fixed-fee loans of $5,000 to $2,000,000 for businesses that accept American Express, repaid over 6, 12 or 24 months (site unreachable; search evidence only).",
+      "quote": "fixed fee business loans between $5,000 and $2,000,000 for businesses that accept American Express Cards",
+      "url": "https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+      "title": "Business Line of Credit | American Express Business Blueprint (search result summary)",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": "merchantfinancing.americanexpress.com failed DNS on 2026-09-25 and the Blueprint page rendered only a template stub; Blueprint 'Small Business Loans' page instead documents a Business Line of Credit 'ranging from $2,000 to $250,000'. Treat product status as unconfirmed."
+    },
+    {
+      "dimension": "services",
+      "claim": "B2B for suppliers: Amex markets card acceptance for B2B receivables and refers merchants to AR-automation partners; vPayment (virtual card) and Automated Payments sit on the buyer side.",
+      "quote": "AR partners can help transform payment data into real-time insights. Discover faster reconciliation and cleaner payments management.",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/amex-for-b2b-payments/",
+      "title": "AMEX for B2B Payments | American Express®",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Business Class for Merchants carries PYMNTS-produced AR automation and virtual card content; Payments Dive (2025) names Billtrust, Versapay, Boost as AR/B2B partners."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex Business Link is a B2B payments ecosystem that Amex's issuing and acquiring network partners can offer their business clients, accepting card and non-card payments domestically and cross-border.",
+      "quote": "modernises how businesses buy and sell from one another with the flexibility to choose in real-time how they want to pay or be paid",
+      "url": "https://thepaypers.com/payments/news/american-express-rolls-out-a-new-digital-b2b-payments-ecosystem",
+      "title": "American Express rolls out a new digital B2B payments ecosystem",
+      "publisher": "The Paypers (Paul Mart)",
+      "published": "2022-12-02",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Article: 500+ businesses in 5 countries at launch; ERP/CRM integration via APIs. No Amex-hosted Business Link page found on 2026-09-25 (guessed URLs 404)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex is building a multi-rail B2B network (card and non-card) with partners such as Boost and Versapay, positioned as a one-stop shop for business buyers and sellers.",
+      "quote": "building out a global, multi-rail B2B network to act as a digital, one-stop shop where any business can buy and sell easily",
+      "url": "https://www.paymentsdive.com/news/amex-leans-into-b2b-payments/749914/",
+      "title": "Amex leans into B2B payments",
+      "publisher": "Payments Dive (Patrick Cooley)",
+      "published": "2025-06-06",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "CEO Squeri: 'We can do a better job of making more B2B payments viable'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Push/ACH rail partnership: Bottomline's Paymode network connects Amex Buyer Initiated Payments (BIP) customers to authenticated vendors via 'BIP Connect', with Premium ACH as the vendor payout.",
+      "quote": "participating vendors that are enrolled, authenticated, and accept digital payments",
+      "url": "https://www.bottomline.com/newsroom/press-releases/bottomline-and-american-express-partner-expand-b2b-payment-connectivity-through-paymode",
+      "title": "Bottomline and American Express Partner to Expand B2B Payment Connectivity Through Paymode",
+      "publisher": "Bottomline (press release)",
+      "published": "2026-07-21",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Virtual cards not referenced in the release."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fintech proposition on the GNS site: customisable product lines, speed to market, offers and bonusing with one-click enrolment and automatic statement credits, brand, and predictive data analytics.",
+      "quote": "Your Cardmembers can enroll in offers with one click and receive automatic statement credits.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline is marketing: 'Your growth, backed by premium economics, assets and insights from American Express.' (Vendor). Page does not name the Agile Partnership programme."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer-processor route for fintechs: Lithic joined Amex's Agile Partnership Platform so U.S. fintechs on Lithic can issue cards on the Amex network (sold through the processor).",
+      "quote": "fintechs and other industry disruptors launch payment products and capabilities quickly and easily on the Amex network",
+      "url": "https://www.lithic.com/blog/amex-announcement",
+      "title": "Lithic Expands Platform to Offer More Payment Options for Fintechs on the American Express Network",
+      "publisher": "Lithic (blog)",
+      "published": "2025-05-14",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Amex SVP Will Stredwick quoted: 'Working with Lithic is aligned to our continued strategy of delivering seamless, scalable and innovative payment solutions'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Trade press adds that Lithic fintechs can issue debit, credit and prepaid cards on the Amex network, and that Marqeta signed an equivalent agreement in February 2025.",
+      "quote": "By empowering FinTechs to issue cards on the American Express network, our customers now have a differentiated product choice",
+      "url": "https://www.pymnts.com/credit-cards/2025/lithic-expands-card-issuing-platform-to-include-american-express-network/",
+      "title": "Lithic Expands Card Issuing Platform to Include American Express Network",
+      "publisher": "PYMNTS",
+      "published": "2025-05-14",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "PYMNTS calls the programme 'Agile Partnership Network'; Lithic's own post says 'Agile Partnership Platform' (see contradictions)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Marqeta: Amex becomes 'a new option for credit and debit card programs' on Marqeta from later in 2025 via the Agile Partnership platform; Marqeta positions itself as helping Amex grow debit.",
+      "quote": "American Express Agile Partnership platform, which enables FinTechs and other partners to launch cards on the American Express network",
+      "url": "https://www.pymnts.com/earnings/2025/marqeta-announces-transactpay-acquisition-and-ceo-transition-as-processing-volumes-leap-29/",
+      "title": "Marqeta Announces TransactPay Acquisition, CEO Transition",
+      "publisher": "PYMNTS",
+      "published": "2025-02-26",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Milotich: 'Amex wants to continually expand their debit business'. Marqeta's own release could not be fetched (blocked)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex names i2c (issuer processor) and PayPal as digital partners for developing new network capabilities in its FY2024 10-K.",
+      "quote": "developing new capabilities and features with our digital partners (e.g., PayPal and i2c)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2024 (axp-20241231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "This example was dropped from the FY2025 10-K partner list."
+    },
+    {
+      "dimension": "services",
+      "claim": "Program-manager model exists but is thin: Amex's prepaid reloadable and gift card business is run under operational rights owned by a single business partner, and it has had disruptions.",
+      "quote": "the operational rights relating to our prepaid reloadable and gift card business are owned by a business partner",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2024 (axp-20241231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Risk-factor disclosure; partner not named."
+    },
+    {
+      "dimension": "services",
+      "claim": "AMEX Enabled is the certification programme for third-party service providers (terminals, cards, HCE, 3DS, tokenisation, platforms, labs); 1,200+ providers have certified products.",
+      "quote": "Register for the AMEX Enabled Program and join over 1200 Service Providers who have developed, certified and deployed their products.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Categories listed: 3D-Secure (SafeKey), Click to Pay, Tokenization (AETS), Card-Issuing (Personalization, Card Manufacturing), Mobile Issuing (Secure Elements, HCE), Contactless Terminals (Level 2 Expresspay), Acquiring/Issuing Platforms, Test Labs, Test Tools, QR, Transit. Contacts: paymentproductscertification@aexp.com, Transit@aexp.com."
+    },
+    {
+      "dimension": "services",
+      "claim": "AMEX Enabled tooling: approved providers get an AMEX Enabled Dashboard with step-by-step certification journey, document library and DocuSign contracting; no programme fees.",
+      "quote": "Approved Service Providers will gain access to the AMEX Enabled Dashboard",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+      "title": "AMEX Enabled Service Provider Program (Overview 7.1)",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "2022-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FAQ PDF (June 2022) answers 'ARE THERE ANY COSTS' with 'There are no fees' (text truncated in extraction). 2015 product sheet says approved products appear on 'AMEX Enabled Solution Provider Lists'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Test laboratories can be accredited under AMEX Enabled for chip card, mobile, HCE and POS products, with EMVCo accreditation as a prerequisite.",
+      "quote": "Valid EMVCo Accreditation for L1 Contact and Contactless Type Approval",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:25b1e9eb-cc86-4c15-a0aa-0319bcf17246/GNW_AMEX-Enabled-Test-Labs%20Pre-Requisites-for-Registration.2018-02-01-04-42-38.pdf",
+      "title": "AMEX Enabled Test Laboratory Accreditation Program – pre-requisites",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "2018-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "SafeKey (EMV 3-D Secure) certification for ACS/3DS Server providers runs through AMEX Enabled; versions 2.0, 2.2 and 2.3 (2.3 adds Secure Payment Confirmation and headless devices).",
+      "quote": "Existing providers wishing to uplift to a newer version of SafeKey should log into AMEX Enabled, complete the Uplift Questionnaire and email it to safekey.certification@aexp.com.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/safekey",
+      "title": "Safe Key | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Merchants: 'Transfers liability for fraud chargebacks on SafeKey authenticated transactions from the Merchant to the Issuer'. Issuers/acquirers certify via their Amex representative; SDK providers must show EMVCo certification."
+    },
+    {
+      "dimension": "services",
+      "claim": "Integrated Payments Providers Program serves ISOs, ISVs, VARs, iPOS, ESOs, mPOS/SoftPOS and PSP/processor aggregators with specifications, relationship managers and certification under NDA.",
+      "quote": "Designed to help third-party solution vendors develop, certify, and market their products or services that are compatible with American Express requirements.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "Partners | Integrated Payments Providers Program | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Registration: company details, contact, accept NDA and T&Cs. Test cards and certification via PaymentVendorRelations@aexp.com."
+    },
+    {
+      "dimension": "services",
+      "claim": "Click to Pay (EMV SRC) is delivered to merchants through an SRC Initiator; SRCis register at amexenabled.com and issuers enrol cardmember data through Amex interfaces.",
+      "quote": "Click to Pay enables Merchants to offer multiple card types in an easy, online checkout experience across websites, mobile apps, and other digital channels.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/click-to-pay-with-american-express",
+      "title": "Click to Pay | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Merchants make 'No changes required to authorization and settlement processes'."
+    },
+    {
+      "dimension": "services",
+      "claim": "American Express Token Service (AETS) is the network tokenisation platform (vault, provisioning, lifecycle, risk) available to issuers, acquirers and merchants, covering card-on-file, wallets, Click to Pay and consumer-presented QR.",
+      "quote": "The American Express Token Service is available for Card Issuers, Acquirers, and Merchants on the American Express Network.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/card-on-file-tokenization/tokenization-services.html",
+      "title": "Tokenization Services | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'a suite of solutions that includes a token vault, payment token issuing and provisioning, token lifecycle management, and risk services'. Token aggregators register via the Amex Enabled Portal; direct merchants use an 'American Express Token Service Developer Portal'; country availability via tokenapprovals@aexp.com. Resource PDFs dated 2025-09-19 and 2026-01-30."
+    },
+    {
+      "dimension": "services",
+      "claim": "Payment Account Reference (PAR) is generated by Amex and can be used by acquirers and merchants to link a PAN to its tokens; also exposed as a developer API.",
+      "quote": "PAR can be utilized by Acquirers and their Merchants to link the PAN and associated Tokens.",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide - All Regions, April 2026",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "API Evangelist lists 'Payment Account Reference (PAR)' at developer.americanexpress.com/products/payment-account-reference-public/overview (Reported)."
+    },
+    {
+      "dimension": "services",
+      "claim": "QR code acceptance: Amex offers merchant-presented and consumer-presented QR payment solutions to issuers, acquirers and merchants.",
+      "quote": "Cardmembers generate a QR Code from their mobile wallet or banking app and the Merchant scans the QR Code as a form of payment.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/qr-code",
+      "title": "QR Code® Payments | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Transit: Amex markets contactless/NFC open-loop fare payment to transit operators and their acquirers, with a certification pathway and a Transit@aexp.com contact.",
+      "quote": "Contactless and mobile NFC payments in transit offer a tremendous opportunity to streamline fare gate operations",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/contactless-in-transit",
+      "title": "Contactless In Transit | Products | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Merchant Operating Guide April 2026 Table 11-2 sets 'Contactless Transit Authorization and Submission Requirements'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex for Developers groups its APIs into Fraud Prevention, Open Banking, Payment Services and Personalized Services, accessed from developer.americanexpress.com.",
+      "quote": "Get access to Fraud Prevention, Open banking, Payment Services and Personalized Services",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express",
+      "publisher": "American Express Global Network (network.americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Fraud Prevention blurb: 'Help your business reduce fraud exposure, strengthen security, and manage chargebacks'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Developer portal front page currently headlines 'Amex Agentic Commerce Experiences' (verified agents, intent and risk signals, authentication) and the PSD2 Account and Transaction API.",
+      "quote": "Amex Agentic Commerce Experiences enables Agentic Commerce powered by verified agents, real-time intent and risk signals, and robust authentication.",
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Text read from the site's own JS bundle (/assets/index-CKDoS6PK.js) because the SPA does not render for non-browser fetches; product routes /products/nextgen-agentic-payments/overview and /products/nextgen-card-on-demand/resources."
+    },
+    {
+      "dimension": "services",
+      "claim": "Developer access model: partners create 'Projects' to request API products and get keys; help-desk tickets are typed as API Product Information, API Access Request, API Certificate, API Integration; API security uses OAuth 2 (client credentials and authorization code), HMAC and Amex-signed certificates.",
+      "quote": "Projects are a new way to request and manage your American Express API products",
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "From the JS bundle: documentation routes /documentation/api-security/oauth-2, /oauth-client-credentials-flow, /oauth-authorization-code-flow, /hmac, /certificates, /amex-signed-certificates; 'Get API Keys' routes to /app-mgmt/projects/new."
+    },
+    {
+      "dimension": "services",
+      "claim": "Open Banking APIs are gated to regulated third-party providers: the portal refuses access to organisations that are not regulated TPPs, and the Account and Transaction API covers all Amex proprietary cards under PSD2.",
+      "quote": "Your organization is currently not eligible to proceed because it is not a regulated Third Party Provider.",
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle text for the Account and Transaction API: 'Customer-authorized, account-specific data for all American Express® proprietary Card products including Personal, Small Business and Corporate Cards' for parties certified under PSD2."
+    },
+    {
+      "dimension": "services",
+      "claim": "Third-party catalogue of the developer portal lists 12 products: AETS, Enhanced Authorization, Account and Transaction API, Confirmation of Funds (PSD2), @ Work B2B API, Card On-Demand, Pay with Points, Pay with Bank Transfer, PAR, Smart Offer Partnership, Amex Account Connect, Network Loyalty Platform.",
+      "quote": "Registered partners access American Express data for card-linked offer and loyalty programs via API and SFTP",
+      "url": "https://github.com/api-evangelist/american-express",
+      "title": "GitHub - api-evangelist/american-express: American Express — independent third-party profile of a public API surface",
+      "publisher": "API Evangelist (GitHub)",
+      "published": "2026-04-19",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Enhanced Authorization described as 'Fraud prevention tool that uses advanced algorithms and machine learning technology to analyze transaction patterns'; Pay with Bank Transfer as 'an American Express Payment Initiation Service'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex Sync is the partner programme for B2B software (AP automation, expense, procurement) to embed Amex virtual cards via the Card On-Demand API, with sandbox, integration specialist and alliance manager.",
+      "quote": "A program designed for B2B software companies to embed American Express capabilities into their solutions.",
+      "url": "https://www.americanexpress.com/en-us/business/sync/",
+      "title": "Amex Sync | Commercial Payments Partner Program | American Express US",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Card On-Demand: 'Generate and fund virtual Cards for business payments with visibility into billing and efficient reconciliation.' Application via amexsync@aexp.com then amex.my.site.com/amexsync/s/signup (gated). US only."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex Sync partner directory lists integrations in two tiers, 'VCARD + DATA' (e.g., Amex GBT, Extend, Fyle, Navan, PayEm, Payhawk, Paylocity, Pivot Payables, Topkey) and 'Virtual Card on Demand' (BlueBean, MineralTree, Tradeshift).",
+      "quote": "virtual cards on-demand and expense workflows to help finance managers control spending",
+      "url": "https://www.americanexpress.com/en-us/business/sync/partner-directory/",
+      "title": "Partnership Directory | American Express Sync Commercial Payments",
+      "publisher": "American Express (americanexpress.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Quote is the Extend listing."
+    },
+    {
+      "dimension": "services",
+      "claim": "Amex publishes an open-source SDK for its Targeted Offers API, which returns instant pre-qualified card offers for partner applicants using OAuth, mutual TLS and JWE encryption.",
+      "quote": "This JavaScript implementation allows Amex partners to integrate seamlessly to Targeted Offers",
+      "url": "https://github.com/americanexpress/targeted-offers-client",
+      "title": "GitHub - americanexpress/targeted-offers-client: SDK for AMEX targeted offers API",
+      "publisher": "American Express (GitHub)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "README: 'request instant pre-qualified, prescreened Card offer(s) for the applicants, if eligible'; portal link developer.americanexpress.com/products/targeted-offers/overview."
+    },
+    {
+      "dimension": "services",
+      "claim": "The americanexpress GitHub organisation (88 repositories, 504 followers) is mostly general engineering tooling (one-app, jest-image-snapshot, earlybird, nodes) rather than payment APIs; contact opensource@aexp.com.",
+      "quote": "A fresh, modular take on web application development",
+      "url": "https://github.com/americanexpress",
+      "title": "American Express · GitHub",
+      "publisher": "American Express (GitHub)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Quote is the one-app description. simplemli ('Message Length Indicators for TCP/IP socket based protocols') is the only payments-adjacent utility seen."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant fraud-tool footprint shrank in 2024: Amex sold Accertify (e-commerce fraud, chargeback management, gateway) to Accel-KKR, booking a $0.66/share gain, while keeping proprietary fraud programmes.",
+      "quote": "a $0.66 per share gain from the sale of Accertify Inc. (Accertify)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR) / American Express Company",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Payments Dive (2024-01-16): Amex spokesperson said 'American Express continues to leverage its own proprietary and sophisticated fraud programs'; Accertify 'has always operated as a wholly owned subsidiary, offering supplementary fraud monitoring services to key merchants'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "ATM operator / ATM deployer services or programmes on the American Express Global Network or merchant sites",
+      "where": "network.americanexpress.com/globalnetwork/v4/partners/, /issuers/, /acquirers/, /fintechs/, /overview-payments/ (0 'ATM' mentions); Merchant Operating Guide April 2026 (ATM appears only in the Clearing Record glossary)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex-hosted page describing Amex Business Link for issuing/acquiring partners",
+      "where": "network.americanexpress.com/globalnetwork/v4/products/business-link/ (404), /products/amex-business-link/ (404), americanexpress.com/en-us/business/business-link/ (404), about.americanexpress.com newsroom URL (redirected to newsroom index); 0 mentions on GNS partner pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex-hosted page naming the 'Agile Partnership Platform/Network' for fintech issuing",
+      "where": "network.americanexpress.com/globalnetwork/v4/partners/fintechs/ (no mention), /partners/fintechs/agile-partnership/ (404); FY2025 10-K and 2025 Annual Report (0 hits for 'Agile')",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Rendered product catalogue of developer.americanexpress.com/products and individual product overview pages (AETS, Enhanced Authorization, Pay with Points, Card On-Demand, Agentic Payments)",
+      "where": "WebFetch returned SPA shell only; curl with browser and Googlebot UAs returned Akamai 'Access Denied' for /products/*; Claude Browser navigation to the domain was denied",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Merchant Financing product page and current terms",
+      "where": "merchantfinancing.americanexpress.com (DNS ENOTFOUND); americanexpress.com/us/business/business-funding/merchant-financing/ rendered only a template stub",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current (2024-2026) Merchant Reference Guide U.S. or Merchant Regulations U.S. as public documents",
+      "where": "americanexpress.com/us/merchant/merchant-regulations.html (login required); latest Amex-hosted public Reference Guide is October 2021",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Investor Day or investor presentation covering GNS/OptBlue/partner services",
+      "where": "ir.americanexpress.com landing page (no direct links); web-search budget exhausted before a targeted query could be run",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Processor documentation (Fiserv, Worldpay, Adyen, Braintree) describing OptBlue integration or Amex-direct vs OptBlue settlement",
+      "where": "docs.adyen.com/payment-methods/cards (navigation only; 'Enhanced scheme data for American Express' link not followed), developer.paypal.com/braintree credit-cards overview (no Amex specifics), docs.adyen.com/payment-methods/cards/american-express (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Marqeta primary announcement of the American Express agreement",
+      "where": "investors.marqeta.com news release (timeout) and static-files PDF (returned HTML, blocked)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current count of OptBlue participants and of GNS partner institutions",
+      "where": "optblue.html (list without count); FY2025 10-K (countries and cards only)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "FY2025 10-K: network partners in 'approximately 110 countries and territories through our card network business'",
+      "b": "FY2024 10-K: 'third-party banks and other institutions in approximately 120 countries and territories'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm"
+      ]
+    },
+    {
+      "a": "Business Savings Suite worth 'over $4,800 in savings' (offers.html)",
+      "b": "'offer savings worth over $4,400' through Business Savings Suite (accept-the-card.html)",
+      "urls": [
+        "https://www.americanexpress.com/us/merchant/offers.html",
+        "https://www.americanexpress.com/us/merchant/accept-the-card.html"
+      ]
+    },
+    {
+      "a": "Lithic blog and PYMNTS/Marqeta coverage name the programme 'Agile Partnership Platform'",
+      "b": "PYMNTS Lithic article names it 'Agile Partnership Network'",
+      "urls": [
+        "https://www.lithic.com/blog/amex-announcement",
+        "https://www.pymnts.com/credit-cards/2025/lithic-expands-card-issuing-platform-to-include-american-express-network/"
+      ]
+    },
+    {
+      "a": "OptBlue Participants may acquire merchants up to $3,000,000 ECV from April 17, 2026",
+      "b": "Undated Payment Facilitator fact sheet: PayFacs must 'not sponsor individual merchants with greater than $1MM in annual American Express charge volume' (and 2015 press: $1 million cap)",
+      "urls": [
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+        "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf"
+      ]
+    },
+    {
+      "a": "FY2025 10-K describes OptBlue third parties as 'merchant acquirers, processors and payment facilitators'",
+      "b": "FY2024 10-K described them as 'merchant acquirers, aggregators and processors' / 'third-party processors'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Global Network Knowledge Base (partner extranet: specifications, training, Participant Directory)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "AMEX Enabled Dashboard / Portal (service-provider certification)",
+      "url": "https://www.amexenabled.com",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/products/safekey"
+    },
+    {
+      "name": "Amex for Developers account, Projects and API keys (/app-mgmt/projects/new)",
+      "url": "https://developer.americanexpress.com/",
+      "named_at": "https://developer.americanexpress.com/ (JS bundle /assets/index-CKDoS6PK.js)"
+    },
+    {
+      "name": "American Express Token Service Developer Portal (direct merchants)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/products/card-on-file-tokenization/tokenization-services.html"
+    },
+    {
+      "name": "Online Merchant Account dashboard",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/dashboard/",
+      "named_at": "https://www.americanexpress.com/us/merchant/support-center.html"
+    },
+    {
+      "name": "Online Merchant Account registration",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/registration",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-home.html"
+    },
+    {
+      "name": "Merchant Regulations U.S. and Card Acceptance Terms (secure)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/secure/",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-regulations.html"
+    },
+    {
+      "name": "Merchant technical specifications and BIN file requests",
+      "url": "https://www.americanexpress.com/merchantspecs",
+      "named_at": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf"
+    },
+    {
+      "name": "Amex Sync partner application",
+      "url": "https://amex.my.site.com/amexsync/s/signup",
+      "named_at": "https://www.americanexpress.com/en-us/business/sync/"
+    },
+    {
+      "name": "Marketing Corner bulk signage and supplies ordering (OptBlue agents)",
+      "url": "https://marketingcorner.americanexpress.com/POPBulkOrder",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/"
+    },
+    {
+      "name": "SecureTrust PCI Manager (Amex PCI compliance reporting portal)",
+      "url": "https://portal.securetrust.com",
+      "named_at": "https://www.americanexpress.com/us/merchant/us-data-security.html"
+    },
+    {
+      "name": "Integrated Payments Providers Program registration (NDA and T&Cs)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/"
+    },
+    {
+      "name": "Merchant Financing application portal",
+      "url": "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+      "named_at": "search results (site unreachable 2026-09-25)"
+    },
+    {
+      "name": "Amex Offers / Amex Ads enquiry (email-only contact wall)",
+      "url": "mailto:amexoffersinfo@aexp.com",
+      "named_at": "https://www.americanexpress.com/en-us/merchant/digital-media/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (SPA shell only; product text read from /assets/index-CKDoS6PK.js)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products",
+      "title": "American Express Developers – products",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products/amex-token-service/overview",
+      "title": "Amex Token Service Overview",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products/enhanced-authorization-v2/resources",
+      "title": "Enhanced Authorization v2 resources",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+      "title": "Account and Transaction API Overview",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products/oauth-security/overview",
+      "title": "OAuth security overview",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "Developer portal JS bundle",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/",
+      "title": "Partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/",
+      "title": "Partners | Issuers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/power-of-the-network/",
+      "title": "Partners | Issuers | Power of the Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/marketing-solutions/",
+      "title": "Marketing Solutions | Partners | Issuers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/payment-solutions/",
+      "title": "Payment Solutions | Partners | Issuers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/backing-our-partners/",
+      "title": "Partners | Issuers | Backing Our Partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/",
+      "title": "Partners | Acquirers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/power-of-the-network/",
+      "title": "Partners | Acquirers | Power of the Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/marketing-solutions/",
+      "title": "Partners | Acquirers | Marketing Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/payment-solutions/",
+      "title": "Partners | Acquirers | Payment Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/backing-our-partners/",
+      "title": "Partners | Acquirers | Backing Our Partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "Partners | Integrated Payments Providers Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/overview-payments/",
+      "title": "Partners | Overview of all our Payment Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/merchants/payment-solutions/",
+      "title": "Merchants | Payment Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/merchants/accept-amex/",
+      "title": "Merchants | AcceptAmex",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/card-on-file-tokenization/",
+      "title": "Tokenization Services | Products (Card-on-File)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/card-on-file-tokenization/tokenization-services.html",
+      "title": "Tokenization Services | Products (AETS)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/qr-code",
+      "title": "QR Code Payments | Products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/safekey",
+      "title": "Safe Key | Products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/security/safekey/",
+      "title": "Safe Key | Products (legacy path)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/online-pin/",
+      "title": "Online Pin | Products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/click-to-pay-with-american-express",
+      "title": "Click to Pay | Products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/contactless-in-transit",
+      "title": "Contactless In Transit | Products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/products/verify-it",
+      "title": "Verify-It product page",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/certification/",
+      "title": "American Express Certification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+      "title": "News | Insights | American Express (no items rendered)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+      "title": "AMEX Enabled Service Provider Program Overview 7.1 (June 2022)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf",
+      "title": "AMEX Enabled FAQs 5.3 (June 2022)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:db470765-a617-4afd-b51d-45fb9db2a62e/AMEX-Enabled-Product-Overview.pdf",
+      "title": "The AMEX Enabled Program product overview (Feb 2015)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:25b1e9eb-cc86-4c15-a0aa-0319bcf17246/GNW_AMEX-Enabled-Test-Labs%20Pre-Requisites-for-Registration.2018-02-01-04-42-38.pdf",
+      "title": "AMEX Enabled Test Laboratory Accreditation Program pre-requisites",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:9451d664-2d8f-4605-9b90-b6ee6308b599/SafeKey%20Provider%20Enrollment%20Instructions%20Sept%202023.2023-09-10-12-23-12.pdf",
+      "title": "SafeKey Provider Enrollment Instructions (Sept 2023)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/",
+      "title": "Amex merchant root",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/Understanding_the_Disputes_Process_TPP.pdf",
+      "title": "Guide to Managing Disputes (TPP, 2025)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "title": "Payments Facilitator Acceptance of American Express Cards",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/tpp/manage-disputes/Amex-TPP-Disputes-Reference-Guide_2023.pdf",
+      "title": "How to Manage and Help Prevent Disputes (TPP, 2023)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/online-fraud-flyer-optblue.pdf",
+      "title": "Preventing Card-Not-Present Fraud (OptBlue flyer, 2023)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide All Regions April 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide U.S. October 2021",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+      "title": "Accept Credit Card Payments | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/accept-direct.html",
+      "title": "Benefits of Welcoming AMEX Cards",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-home.html",
+      "title": "American Express Merchant Services: Account Login",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/payment-processing.html",
+      "title": "Payment and Credit Card Processing Solutions | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/fraud-solutions.html",
+      "title": "Merchant Fraud Protection Solutions | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/manage-disputes.html",
+      "title": "Manage Merchant Disputes & Chargebacks | Amex Merchants",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/tpp/manage-disputes.html",
+      "title": "Managing Disputes as Merchants | TPP",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center.html",
+      "title": "Merchant Help & Support Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center/payments.html",
+      "title": "Manage Payments Online | Payments Support Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center/disputes.html",
+      "title": "Disputes Support Center for Merchants",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/offers.html",
+      "title": "Business Savings Suite: Business Owner Offers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/amex-offers/",
+      "title": "Amex Offers (redirects via go.amex/BsvvV2 to /en-us/merchant/digital-media/)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/merchant/digital-media/",
+      "title": "Amex Offers & Ads for Merchants",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/member-benefits.html",
+      "title": "Merchant Member Benefits",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/business-class-for-merchants.html",
+      "title": "Merchant Tools: Small Business Owner Resources & Tips",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/us-data-security.html",
+      "title": "Payment Processing: PCI Compliance and Data Security",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/faqs-contact-us.html/1-888-732-3750/",
+      "title": "Merchant FAQs and Contact Us",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/amex-for-b2b-payments/",
+      "title": "AMEX for B2B Payments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/sync/",
+      "title": "Amex Sync | Commercial Payments Partner Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/sync/partner-directory/",
+      "title": "Partnership Directory | American Express Sync",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/ca/en/merchant/card-acceptance-pricing.html",
+      "title": "American Express Card Acceptance Pricing in Canada",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+      "title": "Business Line of Credit | Blueprint (template stub only)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/blueprint/small-business-loans/",
+      "title": "Small Business Loans | American Express US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+      "title": "Merchant Financing portal",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://ir.americanexpress.com/",
+      "title": "American Express Investor Relations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 (axp-20251231)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2024 (axp-20241231)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000110465926034161/tm265890d2_ars.pdf",
+      "title": "American Express Company 2025 Annual Report (ARS)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress",
+      "title": "American Express · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/targeted-offers-client",
+      "title": "targeted-offers-client: SDK for AMEX targeted offers API",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/api-evangelist/american-express",
+      "title": "API Evangelist profile of American Express APIs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.lithic.com/blog/amex-announcement",
+      "title": "Lithic Expands Platform ... on the American Express Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/credit-cards/2025/lithic-expands-card-issuing-platform-to-include-american-express-network/",
+      "title": "Lithic Expands Card Issuing Platform to Include American Express Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/earnings/2025/marqeta-announces-transactpay-acquisition-and-ceo-transition-as-processing-volumes-leap-29/",
+      "title": "Marqeta Announces TransactPay Acquisition, CEO Transition",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investors.marqeta.com/news-releases/news-release-details/marqeta-reports-fourth-quarter-and-full-year-2024-financial/",
+      "title": "Marqeta Q4 2024 results release",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investors.marqeta.com/static-files/05e01c2a-3a69-44d3-ad3f-0e387754b4d6",
+      "title": "Marqeta Q4 2024 results PDF",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/amex-leans-into-b2b-payments/749914/",
+      "title": "Amex leans into B2B payments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/amex-sells-accertify-pe-firm-accel-kkr-fraud-prevention-acquisition-divestiture-payments/704653/",
+      "title": "Amex to sell fraud prevention firm Accertify",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://thepaypers.com/payments/news/american-express-rolls-out-a-new-digital-b2b-payments-ecosystem",
+      "title": "American Express rolls out a new digital B2B payments ecosystem",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.bottomline.com/newsroom/press-releases/bottomline-and-american-express-partner-expand-b2b-payment-connectivity-through-paymode",
+      "title": "Bottomline and American Express Partner ... Through Paymode",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/amex-claims-400000-small-merchants-through-its-iso-driven-optblue-program/",
+      "title": "AmEx Claims 400,000 Small Merchants Through Its ISO-Driven OptBlue Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbanker.com/payments/news/american-express-adds-acquirers-to-optblue",
+      "title": "American Express Adds Acquirers to OptBlue (2014)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://about.americanexpress.com/newsroom/press-releases/news-details/2022/American-Express-Introduces-Amex-Business-Link-a-Digital-B2B-Payments-Ecosystem/default.aspx",
+      "title": "Guessed Business Link press release URL (redirected to newsroom index)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://docs.adyen.com/payment-methods/cards",
+      "title": "Cards | Adyen Docs (navigation only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://docs.adyen.com/payment-methods/cards/american-express",
+      "title": "Adyen American Express doc",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.paypal.com/braintree/docs/guides/credit-cards/overview",
+      "title": "Credit Cards - Overview | Braintree SDK Docs (no Amex specifics)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

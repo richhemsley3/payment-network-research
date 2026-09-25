@@ -1,0 +1,263 @@
+{
+ "network": "mastercard",
+ "seed": "https://www.mastercardconnect.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": "declined: Reject all",
+   "wall": "login",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Mastercard Connect",
+   "h1": "Welcome to Mastercard Connect",
+   "description": "Where you connect with Mastercard to grow your business.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Sign Up",
+    "Support"
+   ],
+   "ctas": [
+    {
+     "text": "Explore",
+     "href": null
+    },
+    {
+     "text": "Sign in",
+     "href": null
+    },
+    {
+     "text": "English",
+     "href": null
+    },
+    {
+     "text": "Manage cookies",
+     "href": null
+    },
+    {
+     "text": "Save",
+     "href": null
+    },
+    {
+     "text": "Manage cookies",
+     "href": null
+    },
+    {
+     "text": "Reject all",
+     "href": null
+    },
+    {
+     "text": "Accept cookies",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Sign Up",
+     "href": "https://www.mastercardconnect.com/sign-up",
+     "top": 0
+    },
+    {
+     "text": "Sign in",
+     "href": null,
+     "top": 492
+    },
+    {
+     "text": "Sign up",
+     "href": "https://www.mastercardconnect.com/sign-up",
+     "top": 646
+    }
+   ],
+   "audience_words": [
+    "developer"
+   ],
+   "headings": [
+    "h1: Welcome to Mastercard Connect",
+    "h2: Sign in",
+    "h2: Need help? We're always here when you need us.",
+    "h3: Helpful sites",
+    "h2: Select your language",
+    "h2: How we use cookies and your consent"
+   ],
+   "screenshot": "assets/mastercard/mastercard-connect-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Sign Up",
+     "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Fsign-up",
+     "status": 200,
+     "result": "login",
+     "words": 116,
+     "title": "Mastercard Connect"
+    },
+    {
+     "nav": "Support",
+     "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+     "status": 200,
+     "result": "login",
+     "words": 116,
+     "title": "Mastercard Connect"
+    }
+   ],
+   "walls": 2,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "from": "Support",
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "title": "Mastercard Connect",
+   "phones": [],
+   "mailto": [
+    " privacyanddataprotection@mastercard.com"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": true,
+   "wall": "login",
+   "screenshot": "assets/mastercard/mastercard-connect-s7-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.mastercardconnect.com/",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "status": 200,
+   "ms": 1830,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/sign-up",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Fsign-up",
+   "status": 200,
+   "ms": 1668,
+   "why": "S2 Sign Up"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/faq",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "status": 200,
+   "ms": 1706,
+   "why": "S2 Support"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "status": 200,
+   "ms": 1580,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/faq",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "status": 200,
+   "ms": 1696,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "status": 200,
+   "ms": 1562,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "status": 200,
+   "ms": 1572,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/sign-up",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Fsign-up",
+   "status": 200,
+   "ms": 1668,
+   "why": "S12 Sign Up"
+  },
+  {
+   "url": "https://www.mastercardconnect.com/faq",
+   "final": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "status": 200,
+   "ms": 1695,
+   "why": "S12 Support"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "mastercard-connect-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-connect-s1-01-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "mastercard-connect-s02",
+   "station": "S2",
+   "note": "wall: Sign Up",
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Fsign-up",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-connect-s2-02-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "mastercard-connect-s03",
+   "station": "S2",
+   "note": "wall: Support",
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-connect-s2-03-20260925.webp",
+   "kb": 42
+  },
+  {
+   "id": "mastercard-connect-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2Ffaq",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-connect-s7-04-20260925.webp",
+   "kb": 42
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.mastercardconnect.com/-/sign-in?referral_path=%2F",
+   "banner": "declined: Reject all"
+  }
+ ],
+ "summary": {
+  "pages_visited": 9,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 2,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

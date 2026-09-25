@@ -1,0 +1,34 @@
+{
+ "network": "mastercard",
+ "seed": "https://developer.mastercard.com/api-status",
+ "tier": "shot",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.mastercard.com/api-status"
+  },
+  "S1": {
+   "title": "API status"
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.mastercard.com/api-status",
+   "why": "extra shot"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "mastercard-status-s01",
+   "station": "S1",
+   "note": "API status",
+   "url": "https://developer.mastercard.com/api-status",
+   "captured": "2026-09-25",
+   "file": "assets/mastercard/mastercard-status-s1-01-20260925.webp",
+   "kb": 43
+  }
+ ],
+ "errors": []
+}

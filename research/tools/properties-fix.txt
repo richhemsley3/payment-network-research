@@ -1,0 +1,4 @@
+amex|https://www.americanexpress.com/us/merchant/accept-the-card.html|B|merchant
+star|https://www.fiserv.com/en/solutions/payments/payments-network/star.html|B|fiserv
+accel|https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html|B|fiserv
+rupay|https://www.npci.org.in/product/rupay/about-rupay|B|npci

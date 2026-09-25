@@ -1,0 +1,975 @@
+{
+  "accessed": "2026-09-25",
+  "seeds": [
+    {
+      "url": "https://developer.visa.com/",
+      "final": "https://developer.visa.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Visa Developer Center",
+      "wall": "none",
+      "excerpt": "Visa Developer Center Action Required: VDP Root, Intermediate, Leaf Certificates Will Be Renewed Note : Production environment changes for api.visa.com have changed from February 5, 2026 to February 1",
+      "for": "Developers integrating Visa APIs via the Visa Developer Platform; public landing with a certificate-renewal notice."
+    },
+    {
+      "url": "https://developer.visa.com/pages/going-live",
+      "final": "https://developer.visa.com/pages/going-live",
+      "status_chain": [
+        405
+      ],
+      "get_status": 200,
+      "title": "Going Live",
+      "wall": "none",
+      "excerpt": "Going Live Going Live Going Live Navigate to... keyboard_arrow_down Updated to reflect the new onboarding experience available as of September 2025. Onboarding Dashboard The \"Onboarding Dashboard\" in ",
+      "for": "Developers moving a Visa Developer project from sandbox to production; onboarding steps updated September 2025.",
+      "note": "HEAD returns 405; GET returns 200."
+    },
+    {
+      "url": "https://partner.visa.com/",
+      "final": "https://partner.visa.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Visa Partner",
+      "wall": "none",
+      "excerpt": "Visa Partner Explore Digital Wallets Digital Banking Alternative Lending Vendor Payments Disbursements Learn Programs Fintech Fast Track Third Party Agent Registration Visa Licensing Program Visa Read",
+      "for": "Fintechs and prospective partners exploring Visa programs (Fintech Fast Track, Third Party Agent registration); public, with sign-in for enrolled partners."
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us.html",
+      "final": "https://usa.visa.com/partner-with-us/info-for-partners/info-for-issuers.html",
+      "status_chain": [
+        301,
+        404
+      ],
+      "get_status": 404,
+      "title": "",
+      "wall": "dead",
+      "excerpt": "Try one of these popular Visa pages instead: Find a Card Explore Offers Get Help",
+      "for": "Was intended for prospective Visa partners; now 301s to an info-for-issuers page that returns 404."
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "final": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "(PDF, no HTML title)",
+      "wall": "none",
+      "excerpt": "PDF, 7204678 bytes",
+      "for": "Anyone needing the public Visa Core Rules and Product and Service Rules; direct PDF download.",
+      "note": "Binary PDF, 7,204,678 bytes; no HTML title."
+    },
+    {
+      "url": "https://usa.visa.com/support/merchant.html",
+      "final": "https://usa.visa.com/support/merchant/library.html",
+      "status_chain": [
+        301,
+        200
+      ],
+      "get_status": 200,
+      "title": "Merchant Resource Library | Visa",
+      "wall": "none",
+      "excerpt": "Merchant Resource Library | Visa Merchant Resource Library These documents contain in-depth information designed to help Visa merchants navigate acceptance, fraud, data security, authorization and mor",
+      "for": "Visa merchants seeking acceptance, fraud and dispute guidance documents; redirects to the Merchant Resource Library."
+    },
+    {
+      "url": "https://community.developer.visa.com/",
+      "final": "https://community.developer.visa.com/",
+      "status_chain": [],
+      "get_status": 0,
+      "title": "",
+      "wall": "dead",
+      "excerpt": "(no response: TLS handshake failure, no certificate served for this hostname)",
+      "for": "Former Visa Developer community forum; hostname resolves (Cloudflare, CNAME to developer.visa.com) but TLS handshake fails, so no page is served.",
+      "note": "curl: SSL alert handshake failure; no HTTP response."
+    },
+    {
+      "url": "https://developer.visaacceptance.com/",
+      "final": "https://developer.visaacceptance.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Developer Center | Visa Acceptance Developer Portal",
+      "wall": "none",
+      "excerpt": "Developer Center | Visa Acceptance Developer Portal Skip to login Skip to content Getting started Products Resources Testing Support Getting started Getting started Find tailored resources to help you",
+      "for": "Developers integrating Visa Acceptance (formerly Cybersource) payment APIs; public docs with optional login."
+    },
+    {
+      "url": "https://github.com/visa",
+      "final": "https://github.com/visa",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Visa · GitHub",
+      "wall": "none",
+      "excerpt": "Visa · GitHub Skip to content Navigation Menu Sign in Appearance settings visa Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge M",
+      "for": "Developers browsing Visa's public GitHub organisation."
+    },
+    {
+      "url": "https://investor.visa.com/",
+      "final": "https://investor.visa.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Just a moment...",
+      "wall": "bot",
+      "excerpt": "Just a moment...",
+      "for": "Investors seeking Visa filings, results and events; Cloudflare 'Just a moment' challenge blocks non-browser clients.",
+      "note": "Cloudflare challenge page, 403."
+    },
+    {
+      "url": "https://developer.mastercard.com/",
+      "final": "https://developer.mastercard.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Mastercard Developers",
+      "wall": "none",
+      "excerpt": "Mastercard Developers",
+      "for": "Developers using Mastercard APIs; JS-rendered landing page (curl sees only the title).",
+      "note": "SPA shell; 21 chars of visible text without JS."
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "final": "https://developer.mastercard.com/devzone/api/user/login?heracles_operation=AUTHORIZATION&heracles_result_code=11001&referral_path=%2Fplatform%2Fdocumentation%2Fquick-start-guide%2F&heracles_correlation_id=fadf9b30ca77ae22b246ab2ca4a18f39",
+      "status_chain": [
+        302,
+        401
+      ],
+      "get_status": 401,
+      "title": "",
+      "wall": "login",
+      "excerpt": "{\"code\":\"DP10005\",\"message\":\"Session expired.\",\"requestId\":\"c49744c653cc517e7371f59ef6d9d5dc\"}",
+      "for": "Developers onboarding to Mastercard Developers; unauthenticated clients are 302'd to the devzone sign-in endpoint, which returns 401 'Session expired'.",
+      "note": "Final URL is a login API endpoint returning JSON."
+    },
+    {
+      "url": "https://developer.mastercard.com/support",
+      "final": "https://developer.mastercard.com/devzone/api/user/login?heracles_operation=AUTHORIZATION&heracles_result_code=11001&referral_path=%2Fsupport&heracles_correlation_id=85f4caf0387e90766c2c1974222c6845",
+      "status_chain": [
+        302,
+        401
+      ],
+      "get_status": 401,
+      "title": "",
+      "wall": "login",
+      "excerpt": "{\"code\":\"DP10005\",\"message\":\"Session expired.\",\"requestId\":\"0d201ad00745446c1268f4932d1babce\"}",
+      "for": "Developers seeking Mastercard Developers support; unauthenticated clients are 302'd to the devzone sign-in endpoint, which returns 401.",
+      "note": "Final URL is a login API endpoint returning JSON."
+    },
+    {
+      "url": "https://github.com/Mastercard",
+      "final": "https://github.com/Mastercard",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Mastercard · GitHub",
+      "wall": "none",
+      "excerpt": "Mastercard · GitHub Skip to content Navigation Menu Sign in Appearance settings Mastercard Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issu",
+      "for": "Developers browsing Mastercard's public GitHub organisation."
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "final": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://www.mastercard.us/en-us/business/overview/support/rules.html\" on this server. Reference #18.15623417.1790354393.23eb823a https:/",
+      "for": "Merchants, acquirers and issuers seeking Mastercard Rules; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "final": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html\" on this server. Reference #18.15623417.179035",
+      "for": "Merchants and acquirers seeking Mastercard US interchange rate schedules; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.mastercardconnect.com/",
+      "final": "https://www.mastercardconnect.com/mccsignin/users/auth-actions?heracles_operation=AUTHORIZATION&heracles_result_code=11001&referral_path=%2F&heracles_correlation_id=5dab700037ac15ae583f41edced77d08",
+      "status_chain": [
+        302,
+        401
+      ],
+      "get_status": 200,
+      "title": "Mastercard Connect",
+      "wall": "login",
+      "excerpt": "Mastercard Connect",
+      "for": "Mastercard customers (issuers, acquirers, processors) using the Mastercard Connect business portal; sign-in only.",
+      "note": "302 to mccsignin; HEAD 401, GET 200 on the sign-in shell."
+    },
+    {
+      "url": "https://developer.mastercard.com/engage",
+      "final": "https://developer.mastercard.com/engage",
+      "status_chain": [
+        200
+      ],
+      "get_status": 401,
+      "title": "",
+      "wall": "login",
+      "excerpt": "{\"code\":\"DP10005\",\"message\":\"Session expired.\",\"requestId\":\"2d686cc7e46a8dae0a2ea4fc988202db\"}",
+      "for": "Developers visiting the Mastercard Developers Engage community; HEAD 200 but GET returns 401 'Session expired' JSON to unauthenticated clients.",
+      "note": "HEAD 200, GET 401."
+    },
+    {
+      "url": "https://investor.mastercard.com/",
+      "final": "https://investor.mastercard.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Just a moment...",
+      "wall": "bot",
+      "excerpt": "Just a moment...",
+      "for": "Investors seeking Mastercard filings and results; Cloudflare 'Just a moment' challenge blocks non-browser clients.",
+      "note": "Cloudflare challenge page, 403."
+    },
+    {
+      "url": "https://developer.americanexpress.com/",
+      "final": "https://developer.americanexpress.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "American Express Developers",
+      "wall": "none",
+      "excerpt": "American Express Developers American Express Developers",
+      "for": "Developers exploring American Express APIs; JS-rendered app (curl sees only the title).",
+      "note": "SPA shell; 55 chars of visible text without JS."
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "final": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "Partners | Developers | American Express",
+      "wall": "none",
+      "excerpt": "Partners | Developers | American Express Skip to main content Network Network Partners Issuers Power of the Network Marketing Solutions Payment Solutions Backing Our Partners Acquirers Power of the Ne",
+      "for": "Prospective Amex Global Network partners and developers; public marketing page with partner sign-in link.",
+      "note": "HEAD 503, GET 200."
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "final": "https://network.americanexpress.com/globalnetwork/v4",
+      "status_chain": [
+        301,
+        503
+      ],
+      "get_status": 200,
+      "title": "American Express Global Network",
+      "wall": "none",
+      "excerpt": "American Express Global Network Skip to main content Network Network Partners Issuers Power of the Network Marketing Solutions Payment Solutions Backing Our Partners Acquirers Power of the Network Mar",
+      "for": "Issuers, acquirers and partners of American Express Global Network Services; public marketing hub.",
+      "note": "HEAD 301 then 503; GET 200 at /globalnetwork/v4."
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/",
+      "final": "https://www.americanexpress.com/us/merchant/",
+      "status_chain": [
+        404
+      ],
+      "get_status": 404,
+      "title": "Page Not Found | American Express US",
+      "wall": "dead",
+      "excerpt": "Page Not Found | American Express US Skip to main Menu Menu My Account Manage Your Account Account Home Statements & Activity Make a Payment Account Services Rewards & Benefits Card Benefits Account S",
+      "for": "Was intended for US merchants accepting Amex; returns a 404 'Page Not Found'."
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "final": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express®",
+      "wall": "none",
+      "excerpt": "Credit Card Processing for Small Businesses | OptBlue American Express® Skip to main Menu Menu My Account Manage Your Account Account Home Statements & Activity Make a Payment Account Services Rewards",
+      "for": "Small businesses wanting to accept American Express through a processor via OptBlue."
+    },
+    {
+      "url": "https://ir.americanexpress.com/",
+      "final": "https://ir.americanexpress.com/investor-relations/default.aspx",
+      "status_chain": [
+        301,
+        200
+      ],
+      "get_status": 200,
+      "title": "American Express Company - Investor Relations",
+      "wall": "none",
+      "excerpt": "American Express Company - Investor Relations Skip to main content Skip to main content This presentation contains certain forward-looking statements that are subject to risks and uncertainties and sp",
+      "for": "Investors seeking American Express filings, earnings and events."
+    },
+    {
+      "url": "https://github.com/americanexpress",
+      "final": "https://github.com/americanexpress",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "American Express · GitHub",
+      "wall": "none",
+      "excerpt": "American Express · GitHub Skip to content Navigation Menu Sign in Appearance settings americanexpress Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agent",
+      "for": "Developers browsing American Express's public GitHub organisation."
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/",
+      "final": "https://www.discoverglobalnetwork.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Discover Network - A Payments Network With Global Scale",
+      "wall": "none",
+      "excerpt": "Discover Network - A Payments Network With Global Scale Skip to main content Our Network Main Menu Our Network Get to know our network Close Learn what our reach and collaborative approach can bring t",
+      "for": "Issuers, acquirers, merchants and partners learning about Discover Global Network."
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+      "final": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "How We Partner | Discover Network",
+      "wall": "none",
+      "excerpt": "How We Partner | Discover Network Skip to main content Our Network Main Menu Our Network Get to know our network Close Learn what our reach and collaborative approach can bring to your business. Our U",
+      "for": "Prospective network partners (issuers, acquirers, other networks) exploring Discover partnership models."
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/",
+      "final": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "BIN Ranges | Discover Network",
+      "wall": "none",
+      "excerpt": "BIN Ranges | Discover Network Skip to main content Our Network Main Menu Our Network Get to know our network Close Learn what our reach and collaborative approach can bring to your business. Our Uniqu",
+      "for": "Payments providers and merchants needing Discover Global Network BIN ranges for acceptance."
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/solutions/debit-network-atm-solutions/",
+      "final": "https://www.discoverglobalnetwork.com/solutions/debit-network-atm-solutions/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Debit Network & ATM Solutions | Discover Network",
+      "wall": "none",
+      "excerpt": "Debit Network & ATM Solutions | Discover Network Skip to main content Our Network Main Menu Our Network Get to know our network Close Learn what our reach and collaborative approach can bring to your ",
+      "for": "Financial institutions and ATM operators evaluating Discover Debit and PULSE debit/ATM solutions."
+    },
+    {
+      "url": "https://developer.discover.com/",
+      "final": "https://developer.discover.com/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "Discover Developer Center",
+      "wall": "none",
+      "excerpt": "Discover Developer Center Menu Contact Us FAQ Log In Account Locked Welcome to the Discover® Developer Center API solutions for every need For more information on our API products, explore our Enablem",
+      "for": "Developers seeking Discover API solutions; public landing with Log In / Contact Us and an embedded sign-in form (password field present, but public content shown).",
+      "note": "HEAD 503, GET 200; password field present alongside public content."
+    },
+    {
+      "url": "https://developer.discover.com/faq",
+      "final": "https://developer.discover.com/faq",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "FAQs | Discover Developer Center",
+      "wall": "none",
+      "excerpt": "FAQs | Discover Developer Center Menu Contact Us FAQ Log In Account Locked Frequently Asked Questions Home Support FAQs Log in and registration How do I change or reset my password? If you need to cha",
+      "for": "Developers with registration and login questions about the Discover Developer Center; public FAQ.",
+      "note": "HEAD 503, GET 200; password field present alongside public content."
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/",
+      "final": "https://partner.discoverglobalnetwork.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Discover Partner Product Portal",
+      "wall": "none",
+      "excerpt": "Discover Partner Product Portal",
+      "for": "Discover network partners browsing the Partner Product Portal; JS-rendered app (curl sees only the title), so a sign-in requirement could not be confirmed without a browser.",
+      "note": "SPA shell; 31 chars of visible text without JS."
+    },
+    {
+      "url": "https://www.discovereasi.com/",
+      "final": "https://www.discovereasi.com/easi/loginpage",
+      "status_chain": [
+        301,
+        503
+      ],
+      "get_status": 200,
+      "title": "Discover EASI Portal Login | Discover Global Network",
+      "wall": "login",
+      "excerpt": "Discover EASI Portal Login | Discover Global Network We use cookies on this site to provide you with an optimal experience and relevant information. By using this site, you accept the use of cookies. ",
+      "for": "Acquirers and processors using Discover EASI; root redirects straight to the EASI login page.",
+      "note": "301 then HEAD 503; GET 200 on the login page."
+    },
+    {
+      "url": "https://www.dinersclub.com/",
+      "final": "https://www.dinersclub.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Diners Club International | Exclusive Travel Rewards & VIP Lounge Access",
+      "wall": "none",
+      "excerpt": "Diners Club International | Exclusive Travel Rewards & VIP Lounge Access Skip to content For Cardmembers For Cardmembers Cardmembers Overview Airport Lounges Featured Destinations Giving Back For Busi",
+      "for": "Diners Club cardmembers, merchants and prospective franchise partners."
+    },
+    {
+      "url": "https://www.dinersclubinternational.com/",
+      "final": "https://www.dinersclubinternational.com/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "Diners Club International | Exclusive Travel Rewards & VIP Lounge Access",
+      "wall": "none",
+      "excerpt": "Diners Club International | Exclusive Travel Rewards & VIP Lounge Access Skip to content For Cardmembers For Cardmembers Cardmembers Overview Airport Lounges Featured Destinations Giving Back For Busi",
+      "for": "Diners Club cardmembers, merchants and prospective franchise partners; same site as dinersclub.com.",
+      "note": "HEAD 503, GET 200."
+    },
+    {
+      "url": "https://www.pulsenetwork.com/",
+      "final": "https://www.pulsenetwork.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Home | PULSE Network",
+      "wall": "none",
+      "excerpt": "Home | PULSE Network Skip to main content Log In / Register | Client Support | Find ATMs | Search Search Now Please enter your search terms in the input box. When autocomplete results are available us",
+      "for": "PULSE participants (issuers, acquirers, processors) and cardholders; public site with Log In / Register for clients."
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/about-pulse/",
+      "final": "https://www.pulsenetwork.com/public/about-pulse/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "About PULSE | PULSE Network",
+      "wall": "none",
+      "excerpt": "About PULSE | PULSE Network Skip to main content Log In / Register | Client Support | Find ATMs | Search Search Now Please enter your search terms in the input box. When autocomplete results are avail",
+      "for": "Prospective participants and press learning about the PULSE debit/ATM network."
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+      "final": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Debit Processing and Gateways | PULSE Network",
+      "wall": "none",
+      "excerpt": "Debit Processing and Gateways | PULSE Network Skip to main content Log In / Register | Client Support | Find ATMs | Search Search Now Please enter your search terms in the input box. When autocomplete",
+      "for": "Issuers and processors evaluating PULSE debit processing and gateway services."
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/atm-network/",
+      "final": "https://www.pulsenetwork.com/public/atm-network/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "ATM Network | PULSE Network",
+      "wall": "none",
+      "excerpt": "ATM Network | PULSE Network Skip to main content Log In / Register | Client Support | Find ATMs | Search Search Now Please enter your search terms in the input box. When autocomplete results are avail",
+      "for": "ATM deployers and issuers learning about the PULSE ATM network."
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/discover-debit/",
+      "final": "https://www.pulsenetwork.com/public/discover-debit/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Discover Debit | PULSE Network",
+      "wall": "none",
+      "excerpt": "Discover Debit | PULSE Network Skip to main content Log In / Register | Client Support | Find ATMs | Search Search Now Please enter your search terms in the input box. When autocomplete results are av",
+      "for": "Issuers evaluating Discover Debit as a signature debit brand via PULSE."
+    },
+    {
+      "url": "https://investor.capitalone.com/",
+      "final": "https://investor.capitalone.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://investor.capitalone.com/\" on this server. Reference #18.8f04d217.1790354394.41189e8 https://errors.edgesuite.net/18.8f04d217.179",
+      "for": "Investors seeking Capital One (Discover's parent) filings; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.fiserv.com/",
+      "final": "https://www.fiserv.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Financial Services Technology, Mobile Banking, Payments | Fiserv",
+      "wall": "none",
+      "excerpt": "Financial Services Technology, Mobile Banking, Payments | Fiserv Who We Serve Who We Serve Business and Merchant Business and Merchant Enterprise Omnichannel commerce, billing and payments solutions f",
+      "for": "Financial institutions, merchants and businesses evaluating Fiserv products (owner of the STAR and Accel networks)."
+    },
+    {
+      "url": "https://investors.fiserv.com/",
+      "final": "https://investors.fiserv.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://investors.fiserv.com/\" on this server. Reference #18.28593a17.1790354394.345e8 https://errors.edgesuite.net/18.28593a17.17903543",
+      "for": "Investors seeking Fiserv filings; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.nyce.net/",
+      "final": "https://www.nyce.net/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "NYCE® Payments Network — Your Debit Card at 90%+ of U.S. ATMs",
+      "wall": "none",
+      "excerpt": "NYCE® Payments Network — Your Debit Card at 90%+ of U.S. ATMs Home ATM Locator SUM ATM Locator Financial Institutions FAQs Your debit card works at over 90% of ATMs in the U.S. thanks to the NYCE ® Pa",
+      "for": "Cardholders and financial institutions of the NYCE debit/ATM network (FIS).",
+      "note": "HEAD 503, GET 200."
+    },
+    {
+      "url": "https://www.nyce.net/financial/productsandservices/gateway-services",
+      "final": "https://www.nyce.net/financial/productsandservices/gateway-services",
+      "status_chain": [
+        503
+      ],
+      "get_status": 404,
+      "title": "404 - Not found",
+      "wall": "dead",
+      "excerpt": "404 - Not found 404 - Not found We searched the space, but we couldn't find the page you're looking for.",
+      "for": "Was intended for financial institutions evaluating NYCE gateway services; returns 404.",
+      "note": "HEAD 503, GET 404."
+    },
+    {
+      "url": "https://investor.fisglobal.com/",
+      "final": "https://investor.fisglobal.com/",
+      "status_chain": [],
+      "get_status": 0,
+      "title": "",
+      "wall": "dead",
+      "excerpt": "(no response: hostname does not resolve)",
+      "for": "Was intended for FIS investors; hostname does not resolve in DNS.",
+      "note": "curl: Could not resolve host."
+    },
+    {
+      "url": "https://www.shazam.net/",
+      "final": "https://www.shazam.net/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Financial Services Technology & Payments Partner | SHAZAM",
+      "wall": "none",
+      "excerpt": "Financial Services Technology & Payments Partner | SHAZAM ATM Locator Careers Login To log into a SHAZAM application, click the appropriate link below: SHAZAM Access SHAZAM Files ATM Monitor Plus SHAZ",
+      "for": "Community financial institutions using the SHAZAM network and processing; public site with application logins."
+    },
+    {
+      "url": "https://www.culiance.com/",
+      "final": "https://www.culiance.com/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "CULIANCE Network — Surcharge-Free ATMs for Credit Union Members",
+      "wall": "none",
+      "excerpt": "CULIANCE Network — Surcharge-Free ATMs for Credit Union Members Home ATM Locator Credit Unions FAQs The CULIANCE ® Network connects your debit card to over 80,000 surcharge-free ATMs nationwide. Your ",
+      "for": "Credit union members and credit unions using the CULIANCE surcharge-free ATM network.",
+      "note": "HEAD 503, GET 200."
+    },
+    {
+      "url": "https://www.velera.com/",
+      "final": "https://www.velera.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Velera | Credit Union Solutions for Growth & Engagement",
+      "wall": "none",
+      "excerpt": "Velera | Credit Union Solutions for Growth & Engagement Skip to main content Solutions Member Experience Engage and serve members anywhere in their financial journey with robust solutions that deliver",
+      "for": "Credit unions evaluating Velera (formerly PSCU and Co-op Solutions) payments, processing and the CO-OP ATM network."
+    },
+    {
+      "url": "https://www.affn.org/",
+      "final": "https://www.affn.org/",
+      "status_chain": [
+        503
+      ],
+      "get_status": 200,
+      "title": "Tertiary Play",
+      "wall": "none",
+      "excerpt": "Contact Us Services AFFN Matching Grant Program AFFN Partner Annual Meetings Debit Point of Sale Resources AFFN Videos & Member Testimonials VBBP AFFN Graphic Standards Other Links Military Services I",
+      "for": "Military-affiliated banks and credit unions in the Armed Forces Financial Network; site title is the Wix default 'Tertiary Play'.",
+      "note": "HEAD 503, GET 200."
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "final": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Federal Reserve Board - Regulation II (Debit Card Interchange Fees and Routing)",
+      "wall": "none",
+      "excerpt": "﻿ Federal Reserve Board - Regulation II (Debit Card Interchange Fees and Routing) Skip to main content An official website of the United States Government Here's how you know Official websites use .go",
+      "for": "Regulators, networks, issuers and researchers on Regulation II debit interchange fees and routing."
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "final": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Federal Reserve Board - Regulation II - Reports and Data Collections",
+      "wall": "none",
+      "excerpt": "﻿ Federal Reserve Board - Regulation II - Reports and Data Collections Skip to main content An official website of the United States Government Here's how you know Official websites use .gov A .gov we",
+      "for": "Researchers and compliance staff seeking Regulation II reports and debit card data collections."
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "final": "https://www.justice.gov/archives/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "status_chain": [
+        301,
+        200
+      ],
+      "get_status": 200,
+      "title": "",
+      "wall": "bot",
+      "excerpt": "(no visible text: Akamai bot-manager interstitial with bm-verify challenge and meta-refresh)",
+      "for": "Public and press seeking DOJ's 2024 Visa debit antitrust press release; original URL 301s to /archives/, where an Akamai bot-manager interstitial (bm-verify, meta-refresh) blocks non-browser clients.",
+      "note": "Final URL returns 200 but only an interstitial challenge page."
+    },
+    {
+      "url": "https://www.atmia.com/",
+      "final": "https://www.atmia.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Attention Required! | Cloudflare",
+      "wall": "bot",
+      "excerpt": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access atmia.com Why have I been blocked? This website is using a security service to protect its",
+      "for": "ATM industry members of the ATM Industry Association; Cloudflare 'Attention Required' block page.",
+      "note": "Cloudflare block, 403."
+    },
+    {
+      "url": "https://www.atmmarketplace.com/",
+      "final": "https://www.atmmarketplace.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "ATM / Automated Teller Machine Business News, Research, And More | ATM Marketplace",
+      "wall": "none",
+      "excerpt": "ATM / Automated Teller Machine Business News, Research, And More | ATM Marketplace Test Link CONTINUE TO SITE » or wait 15 seconds News Events Vendors Products | Subscribe News & Media Market Commenta",
+      "for": "ATM industry professionals reading trade news; a 15-second ad interstitial precedes content."
+    },
+    {
+      "url": "https://www.natmc.org/",
+      "final": "https://www.natmc.org/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Home | NAC Conference & Exp",
+      "wall": "none",
+      "excerpt": "Home | NAC Conference & Exp top of page Report an ATM Crime Incident DONATE Home About Join NAC NAC Membership Application Pay Dues Vendor Directory News & Resources NAC2026 Attendee Registration Educ",
+      "for": "Independent ATM deployers who are members of the National ATM Council."
+    },
+    {
+      "url": "https://merchantspaymentscoalition.com/",
+      "final": "https://merchantspaymentscoalition.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Home | Merchants Payments Coalition",
+      "wall": "none",
+      "excerpt": "Home | Merchants Payments Coalition Skip to main content Main navigation Our Issues Press Releases In The News Resources About Us/FAQ Credit Card Competition Act: Myths & Facts Alert: Visa & Mastercar",
+      "for": "Merchants and policymakers following swipe-fee advocacy and the Credit Card Competition Act."
+    },
+    {
+      "url": "https://nrf.com/",
+      "final": "https://nrf.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "National Retail Federation | NRF",
+      "wall": "none",
+      "excerpt": "National Retail Federation | NRF NRF. com NRF Foundation NRF Events NRF Sponsorship About NRF Membership Login About Advocacy Events Research & Insights Resources News & Media About Us Who We Are Boar",
+      "for": "Retailers and members of the National Retail Federation."
+    },
+    {
+      "url": "https://www.convenience.org/",
+      "final": "https://www.convenience.org/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Home | NACS",
+      "wall": "none",
+      "excerpt": "Home | NACS Subscribe to NACS Daily NACS Show NACS Magazine NACS Foundation Search Log In Subscribe to NACS Daily My NACS My Profile My Subscriptions My Purchases My Invoices Search Stay Current Conne",
+      "for": "Convenience and fuel retailers who are NACS members."
+    },
+    {
+      "url": "https://www.rila.org/",
+      "final": "https://www.rila.org/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Retail Industry Leaders Association (RILA) | Advancing Leadership Across Retail",
+      "wall": "none",
+      "excerpt": "Retail Industry Leaders Association (RILA) | Advancing Leadership Across Retail Skip to Content RILA Retail Litigation Center Retail Compliance Center RILA Communities Foundation About RILA About Boar",
+      "for": "Large retailers who are members of the Retail Industry Leaders Association."
+    },
+    {
+      "url": "https://www.global.jcb/en/",
+      "final": "https://www.global.jcb/en/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "JCB Global Website",
+      "wall": "none",
+      "excerpt": "JCB Global Website Global Website Select Language English 日本語 Consumers Consumers Top Promotions Travel Platinum Members On Card Usage Businesses Businesses Top Card Issuing Merchant Acquiring Merchan",
+      "for": "Consumers, merchants and partners of JCB outside Japan."
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/",
+      "final": "https://www.unionpayintl.com/en/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "UnionPay International",
+      "wall": "none",
+      "excerpt": "﻿ UnionPay International UnionPay International Global UnionPay Card UnionPay cards can be smoothly used at 183 countries and regions worldwide. Safe Convenient Preferential Asia Europe America Oceani",
+      "for": "Consumers, merchants and partners of UnionPay International."
+    },
+    {
+      "url": "https://open.unionpayintl.com/",
+      "final": "https://open.unionpayintl.com/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "UnionPay International Open Platform",
+      "wall": "none",
+      "excerpt": "UnionPay International Open Platform",
+      "for": "Developers using the UnionPay International Open Platform; JS-rendered app (curl sees only the title).",
+      "note": "SPA shell; 36 chars of visible text without JS."
+    },
+    {
+      "url": "https://developer.unionpayintl.com/",
+      "final": "https://developer.unionpayintl.com/",
+      "status_chain": [],
+      "get_status": 0,
+      "title": "",
+      "wall": "dead",
+      "excerpt": "(no response: hostname does not resolve)",
+      "for": "Was intended for UnionPay International developers; hostname does not resolve in DNS.",
+      "note": "curl: Could not resolve host."
+    },
+    {
+      "url": "https://www.interac.ca/",
+      "final": "https://www.interac.ca/en/",
+      "status_chain": [
+        302,
+        200
+      ],
+      "get_status": 200,
+      "title": "Home - Interac Corp.",
+      "wall": "none",
+      "excerpt": "Home - Interac Corp. Skip to main content fr Payments Personal Tap Canadian – Support Small Business Pay with Interac Debit Send & receive money with Interac e-Transfer Pay for transit New: Interac e-",
+      "for": "Canadian consumers and businesses using Interac Debit and e-Transfer; a password field is present in an embedded widget, but public content is shown.",
+      "note": "302 to /en/; password field present alongside public content."
+    },
+    {
+      "url": "https://www.eftposaustralia.com.au/",
+      "final": "http://www.auspayplus.com.au/solutions/eftpos",
+      "status_chain": [
+        302,
+        301,
+        301,
+        200
+      ],
+      "get_status": 200,
+      "title": "eftpos Australia",
+      "wall": "none",
+      "excerpt": "eftpos Australia Skip to main content Solutions Explore our solutions View all solutions Fast payments infrastructure New Payments Platform (NPP) Osko PayID PayTo Digital trust Confirmation of Payee C",
+      "for": "Merchants, issuers and acquirers learning about eftpos, now a solution of Australian Payments Plus; note the final hop lands on plain http.",
+      "note": "302, 301, 301 chain; final URL is http, not https."
+    },
+    {
+      "url": "https://www.auspayplus.com.au/",
+      "final": "https://www.auspayplus.com.au/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Australian Payments Plus - Home",
+      "wall": "none",
+      "excerpt": "Australian Payments Plus - Home Skip to main content Solutions Explore our solutions View all solutions Fast payments infrastructure New Payments Platform (NPP) Osko PayID PayTo Digital trust Confirma",
+      "for": "Australian payments participants learning about AP+ (eftpos, BPAY, NPP)."
+    },
+    {
+      "url": "https://www.rupay.co.in/",
+      "final": "https://www.rupay.co.in/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://www.rupay.co.in/\" on this server. Reference #18.21593a17.1790354396.2175a4b https://errors.edgesuite.net/18.21593a17.1790354396.",
+      "for": "Indian consumers, issuers and merchants of RuPay; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.npci.org.in/",
+      "final": "https://www.npci.org.in/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Access Denied",
+      "wall": "bot",
+      "excerpt": "Access Denied Access Denied You don't have permission to access \"http://www.npci.org.in/\" on this server. Reference #18.21593a17.1790354395.21758d7 https://errors.edgesuite.net/18.21593a17.1790354395.",
+      "for": "Indian payments participants and public seeking NPCI information; Akamai 'Access Denied' 403 blocks non-browser clients.",
+      "note": "Akamai edge block."
+    },
+    {
+      "url": "https://www.cartes-bancaires.com/",
+      "final": "https://www.cartes-bancaires.com/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Page not found",
+      "wall": "bot",
+      "excerpt": "Page not found Page not found This page is not found Reference ID 7d748573f785401a6ae889f99f80b997 IP address 2600:4041:5120:7d00:cc4b:1c03:26cb:b9ad Date and time 09/25/2026 04:39 PM UTC",
+      "for": "French issuers, acquirers and merchants of the CB scheme; a 403 'Page not found' block page with Reference ID, IP address and timestamp (Imperva-style) is served to non-browser clients.",
+      "note": "403 block page, not a real 404."
+    },
+    {
+      "url": "https://www.girocard.eu/",
+      "final": "https://www.girocard.eu/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "girocard: die praktische, zuverlässige Zahlungslösung",
+      "wall": "none",
+      "excerpt": "girocard: die praktische, zuverlässige Zahlungslösung Für Unternehmen Schließe Für Unternehmen Öffne Für Unternehmen Für Unternehmen Systempartner Kreditwirtschaft Handel Filialisten KMU Netzbetrieb giro",
+      "for": "German consumers and businesses using girocard; page is served gzip-compressed regardless of Accept-Encoding.",
+      "note": "Fetched with --compressed to read the body."
+    },
+    {
+      "url": "https://die-dk.de/",
+      "final": "https://die-dk.de/",
+      "status_chain": [
+        403
+      ],
+      "get_status": 403,
+      "title": "Just a moment...",
+      "wall": "bot",
+      "excerpt": "Just a moment...",
+      "for": "German banking industry (Deutsche Kreditwirtschaft) publications; Cloudflare 'Just a moment' challenge blocks non-browser clients.",
+      "note": "Cloudflare challenge page, 403."
+    },
+    {
+      "url": "https://www.elo.com.br/",
+      "final": "https://www.elo.com.br/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Elo | O cartão do brasileiro",
+      "wall": "none",
+      "excerpt": "Elo | O cartão do brasileiro Mais com Elo Com Elo, você tem mais A bandeira 100% brasileira que conecta você a mais motivos para viajar, economizar, viver experiências e aproveitar o que importa. Conh",
+      "for": "Brazilian consumers and merchants of the Elo card brand."
+    },
+    {
+      "url": "https://dev.elo.com.br/",
+      "final": "https://dev.elo.com.br/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "ELO - Desenvolvedores",
+      "wall": "none",
+      "excerpt": "ELO - Desenvolvedores Carregando...",
+      "for": "Developers integrating with Elo; JS-rendered app (curl sees only 'Carregando...').",
+      "note": "SPA shell; 35 chars of visible text without JS."
+    },
+    {
+      "url": "https://www.psr.org.uk/",
+      "final": "https://www.psr.org.uk/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Home | Payment Systems Regulator",
+      "wall": "none",
+      "excerpt": "Home | Payment Systems Regulator Skip to main content About us Toggle navigation sub-links The PSR Strategy Annual Plans and Budgets Annual Report and Accounts Contact us Toggle navigation sub-links G",
+      "for": "UK payments participants and public following the Payment Systems Regulator."
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/",
+      "final": "https://www.rba.gov.au/payments-and-infrastructure/",
+      "status_chain": [
+        200
+      ],
+      "get_status": 200,
+      "title": "Payments & Infrastructure | RBA",
+      "wall": "none",
+      "excerpt": "Payments & Infrastructure | RBA Skip to content Reserve Bank of Australia Menu What are you looking for? Search Monetary Policy Market Operations Payments & Infrastructure Financial Stability Banknote",
+      "for": "Australian payments participants and public following RBA payments policy and card regulation."
+    }
+  ]
+}

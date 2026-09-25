@@ -1,0 +1,709 @@
+{
+  "network": "amex",
+  "dimension": "rules",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "rules",
+      "claim": "The Merchant Regulations – International (April 2026 edition, 136 pages) is a public PDF, published April 17, 2026 with some changes effective October 16, 2026.",
+      "quote": "This document was published on April 17, 2026 and is in full force and effect as of such date",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF saved by WebFetch and text-extracted with pypdf (136 pages). Chapters: Introduction; Transaction Processing; Authorisation; Submission; Chargebacks and Inquiries; Indirect Acceptors; Fraud Prevention; Regulations for Specific Industries; Glossary; Data Security Operating Policy; Notification of Changes; Previous Versions (April/October editions back to 2020). Substantive changes are marked with change bars and a trash-can icon for deletions; a Summary of Changes table opens the document."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Merchant Operating Guide – All Regions (April 2026, 120 pages) is the public rulebook for merchants signed by third-party Merchant Services Providers (OptBlue and equivalent programmes) in the US, Canada, EEA/UK, Australia, Mexico and Argentina.",
+      "quote": "This guide is intended for use by Merchants that have entered into a legally binding Agreement with a Merchant Services Provider",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide – All Regions, April 2026",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Published April 17, 2026; changes effective October 16, 2026 flagged. Chapters include Card Acceptance, Transaction Processing, Authorizations, Submissions, Settlement, Fraud Prevention, Risk Evaluation (incl. the U.S. Consumer Protection Monitoring Program at 9.2.2.1), Chargebacks and Inquiries, Regulations for Specific Industries, Dispute Resolution (arbitration agreements for U.S. and Canada), Data Security Requirements. April 2026 summary of changes lists clearing-record retention, car-rental estimated authorisation, and a clarifying statement in the U.S. arbitration agreement."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex publishes the U.S. Merchant Regulations twice a year, in April and October; the full U.S. edition is only available to logged-in merchants.",
+      "quote": "The Merchant Regulations- U.S. are published twice a year, in April and October.",
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures | Amex US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page directs merchants to a login (https://www.americanexpress.com/en-us/business/merchant/regulation/secure/) to view the complete Terms and Conditions and Merchant Regulations. The Regs_EN_US.pdf link cited by third parties returned HTTP 404 on 2026-09-25. A public copy of the October 2024 U.S. edition (239 pages) is hosted by RealPage at https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf."
+    },
+    {
+      "dimension": "rules",
+      "claim": "On October 23, 2026 Amex will publish a single consolidated 'American Express Merchant Rules' replacing the Canada Merchant Operating Manual, the International and the U.S. Merchant Regulations, effective April 24, 2027.",
+      "quote": "the Merchant Rules will become effective on April 24, 2027. Prior to that date, the applicable regional documents referenced above will continue to be effective.",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/",
+      "title": "American Express Merchant Regulations – Merchant Rules Update notice",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page is JavaScript-rendered; notice text extracted from the page bundle with curl. Full English notice: 'On October 23, 2026, American Express will publish the American Express Merchant Rules and accompanying Summary of Changes. The Merchant Rules consolidate and restate the Merchant Operating Manual - Canada, the Merchant Regulations - International, and the Merchant Regulations - U.S. into a single set of rules...' Notice is also carried in FR, DE, NL, IT, SV, ES and JA. No trade-press coverage found."
+    },
+    {
+      "dimension": "rules",
+      "claim": "From May 18, 2026 the International Merchant Regulations require at least 30 days' notice before any rule change takes effect, and treat continued card acceptance after the effective date as acceptance of the change.",
+      "quote": "No changes shall be effective less than thirty (30) days from the date of notice",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026 (Section 1.2 and Notification of Changes)",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Section 1.2: revised versions published April and October at www.americanexpress.com/InternationalRegs; out-of-cycle changes notified 'in accordance with your Agreement'; a merchant that does not accept a change must terminate acceptance before the effective date. The Notification of Changes lists this provision with effective date May 18, 2026, announced April 2026."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The U.S. Merchant Regulations (October 2024 edition) allow unscheduled rule changes to take effect only ten days after notice, alongside the scheduled April/October releases.",
+      "quote": "which shall take effect ten (10) days after notice to you unless another effective date is specified in the notice",
+      "url": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf",
+      "title": "Merchant Regulations – U.S., October 2024",
+      "publisher": "American Express (PDF mirrored on RealPage legal page)",
+      "published": "2024-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Subsection 1.4.2 'Unscheduled Changes'. Subsection 1.4.1: April release changes take effect the following October and October release changes the following April unless the Notification of Changes states otherwise. Latest version is said to be at www.americanexpress.com/merchantpolicy. This is a third-party mirror of Amex's own document; the current U.S. edition sits behind the merchant login."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Rule changes are announced through a separate 'Notification of Changes' document released with each April and October edition, listing each change's overview, effective date, merchant implications and the updated text.",
+      "quote": "The Notification of Changes is published twice a year, in April and October, in accordance with the release of the Merchant Regulations.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOC_EN_US.pdf",
+      "title": "Notification of Changes – U.S., April 2024",
+      "publisher": "American Express",
+      "published": "2024-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "23 pages. Contains a 'Summary of Changes – Merchant Policy' table (e.g., CID Mismatch and Compelling Evidence effective April 12, 2024; Variable Authorizations effective October 11, 2024). Changes published in April take effect the following October and vice versa; mid-cycle changes are included in the covering edition with a change icon. This is the newest U.S. NOC found publicly; the file name at this URL is the April 2024 edition."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The network-side rulebook for licensed issuers and acquirers, the Business and Operational Policies (BOP) manual, is published twice a year in April and October; the October 2023 edition (572 pages) is publicly hosted on the GNS site.",
+      "quote": "The Business and Operational Policies manual will be published twice each year, in April and October.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Global Network Services",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Marked 'Confidential and Trade Secret Materials' but served without login. Chapters: 1 Introduction; 2 Business Policies and Rules; 3 Product Features and Specifications; 4 (issuing); 5 Authorizations; 6 Clearing and Settlement; 7 Chargeback Policies; 8 Security and Fraud; 9 AEGNS Service Performance Program; 10 Network Fees; 11 AEGNS Systems Access and Interface Requirements; 12 Exhibits; 13 Abbreviations; 14 Definitions. Section 1.3.1: the manual and NPUs are posted to Knowledge Base (https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base). No later public edition found."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Interim network rule changes for issuers and acquirers are announced in monthly Network Participant Updates (NPU); BOP policy is effective on publication, with up to a three-month extension available on written justification.",
+      "quote": "The Network Participant Updates (NPU) will be published on the second Friday of the second full business week of each month",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Section 1.3 Procedures for Revisions",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Change types: Policy change (P) effective at publication unless stated, with 'an extension of up to three (3) months from the publication date' on written documentation of impact; Legally required change (L) per legal timing; Information only (I). The October 2023 Summary of Changes attributes each revision to the NPU article that first announced it (e.g., 'originally announced in the May 2023 Network Participant Updates article Cash Advances Update')."
+    },
+    {
+      "dimension": "rules",
+      "claim": "GNS's public Network Policy page names the BOP manual, Network Specifications manuals and Codes Reference Guide (all bi-annual, April/October), the monthly NPU and as-needed Special Bulletins, and warns that non-compliance can bring financial liability and legal action.",
+      "quote": "Failure to comply with policies and specifications may result in financial liabilities and legal action.",
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/",
+      "title": "American Express Global Network Policy",
+      "publisher": "American Express Global Network Services",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page states the BOP is 'an integral part of agreements executed between the American Express Global Network and Issuers and Acquirers', is provided to licensed participants on signing, and is English-only. NPU described as 'published on the second Friday of every month' and as having replaced Network News and the Policy and Technical Release Announcement (PTRA) from October 12, 2018. Access is via Knowledge Base login (https://network.americanexpress.com/en/globalnetwork/gnsweb/)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Technical-specification mandates are announced six months ahead in a bi-annual Notification of Specification Changes (NOSC), with Technical Bulletins for out-of-cycle changes; April NOSC items land in the October specifications and October items in April.",
+      "quote": "The NOSC is published twice each year, in April and October.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_EN_US.pdf",
+      "title": "Notification of Specification Changes (NOSC) – Effective in the American Express Global Technical Specifications October 2024 (Publication Date: April 2024)",
+      "publisher": "American Express",
+      "published": "2024-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "30 pages. Covers GCAG, GFSG, XML GFSG, GEDC, GHDC and Global Codes & Information Guide changes for merchants, processors, terminal providers and vendors. 'American Express will publish any changes occurring outside of the April and October publication schedule in Technical Bulletins.' Intl Merchant Regulations 1.4 states technical changes, certification requirements and compliance dates 'will be communicated six (6) months prior to publication'. Specifications themselves sit behind www.americanexpress.com/merchantspecs (login). A companion October 2023 NOSC (48 pages, effective April 2024) is at NOSC_ES_US.pdf."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The U.S. Data Security Operating Policy (DSOP), April 2026 edition (19 pages), is public and carried no changes in that release.",
+      "quote": "There are no changes for this release.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf",
+      "title": "Data Security Operating Policy (DSOP) – United States, April 2026",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF metadata title US_DSOP_Apr2026.pdf. Sections: 1 Introduction and Standards for Protection; 2 PCI DSS Compliance Program (Actions 1–4); 3 Data Incident Management Obligations; 4 Indemnity Obligations for a Data Incident; 5 Targeted Analysis Program (TAP); 6 Confidentiality; 7 Disclaimer; 8 Glossary; 9 Useful Websites. The same DSOP text is annexed inside the International Merchant Regulations (pp. 112–130)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "DSOP sets four merchant levels and two service-provider levels by annual Amex transaction count; Level 1 and 2 merchants and all service providers must enrol in the portal of Amex's appointed Program Administrator.",
+      "quote": "Level 1 Merchant 2.5 million American Express Card Transactions or more per year",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf",
+      "title": "Data Security Operating Policy (DSOP) – United States, April 2026, Table 2-1",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF spacing artefact ('T ransactions') normalised. Level 2: 50,000 to <2.5M; Level 3: 10,000 to <50,000; Level 4: <10,000; Service Provider Level 1 ≥2.5M, Level 2 <2.5M. Level 1 requires ROC AOC; Level 2 SAQ AOC plus quarterly ASV scan; Levels 3/4 only if Amex requires. 'must enroll in the Portal provided by the Program Administrator selected by American Express'. The Amex U.S. data-security page names SecureTrust PCI Manager (portal.securetrust.com) as that portal. Eligible merchants may substitute a STEP (Security Technology Enhancement Program) attestation when 75% of transactions use EMV/contactless, P2PE or tokenisation."
+    },
+    {
+      "dimension": "rules",
+      "claim": "PCI non-validation fees are tiered by level: USD 25,000 / 5,000 / 50 at the first missed deadline and 35,000 / 10,000 / 100 at the second, with a third-deadline tier of 45,000 / 15,000 / 250 in the U.S. Regulations.",
+      "quote": "A non-compliance fee will be assessed if the Validation documentation is not received by the first deadline.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf",
+      "title": "Data Security Operating Policy (DSOP) – United States, April 2026, Table 2-4 Non-Compliance Fee",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Columns: Level 1 Merchant or Level 1 Service Provider; Level 2; Level 3 or 4 Merchant. Fees may be imposed cumulatively with withholding of payments and termination. The October 2024 U.S. Merchant Regulations Table 14-6 'Non-Validation Fee' adds the third-deadline tier (USD $45,000 / $15,000 / $250) and states fees continue until documentation is submitted. Non-compliant merchants must file a PCI Prioritized Approach Tool summary with a remediation date no more than 12 months out."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Merchants and service providers must report a data incident within 72 hours; incidents of 10,000+ card numbers require a PCI Forensic Investigator within five days, indemnity of USD 5 per account number applies, and a data-incident non-compliance fee is capped at USD 100,000 per incident.",
+      "quote": "notify American Express immediately and in no case later than seventy-two (72) hours after discovery of a Data Incident",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf",
+      "title": "Data Security Operating Policy (DSOP) – United States, April 2026, Sections 3–4",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Report to the Enterprise Incident Response Program (EIRP): 1.888.732.3750 / +1.602.537.3021 / EIRP@aexp.com. Section 4: 'compensate American Express at the rate of $5 USD per account number' for incidents involving 10,000+ card numbers with sensitive authentication data or expiry; no indemnity if under 10,000 or if notified, PCI-compliant at the time and not caused by wrongful conduct. Standard 50% and Enhanced 75–100% indemnity reductions for chip/P2PE/tokenisation use. Fee 'not to exceed USD $100,000 per Data Incident'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Targeted Analysis Program (TAP) is Amex's named account-data-compromise programme; missed TAP deadlines carry fees of USD 25,000 / 5,000 / 1,000 by level, rising to 45,000 / 15,000 / 5,000 at a third deadline.",
+      "quote": "TAP is designed to identify potential Cardholder Data compromises.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf",
+      "title": "Data Security Operating Policy (DSOP) – United States, April 2026, Section 5",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Triggers: Common Point of Purchase reports, card data found online, suspected malware. Obligations on notice: review and remediate the CDE, report actions taken, provide updated PCI validation, engage a PFI where applicable. Fee amounts from Table A-7 'TAP Non-Compliance Fee' in the DSOP annex of the International Merchant Regulations (Regs_EN.pdf p.126) and Table 14-4 of the October 2024 U.S. Merchant Regulations."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex's dispute framework uses an Inquiry (request for information) that may precede a Chargeback; merchants must answer either within 20 days, with shorter windows in Argentina (5 days), India (10 days) and for certain EEA/UK claims (5 days).",
+      "quote": "You must respond in writing to our Chargeback and Inquiry within twenty (20) days.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Section 5.5 Chargebacks and Inquiries Response Timeframe",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF spacing artefact ('Y ou') normalised. The October 2024 U.S. Merchant Regulations carry the same 20-day rule. Amex's U.S. merchant disputes page also states 'you'll have 20 days to respond' to an Inquiry and 20 days to reverse an upfront Chargeback. Unlike Visa/Mastercard there is no separately branded merchant-facing dispute platform; the sections are simply 'Chargebacks and Inquiries'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex first tries to resolve a disputed transaction from its own information, then sends either a Chargeback or an Inquiry; an unanswered Inquiry becomes a 'No Reply' Chargeback, and reason codes are grouped into Authorisation, Cardmember Disputes, Fraud, Inquiry/Miscellaneous, Processing Error and Fraud Full Recourse.",
+      "quote": "If you choose not to respond to our Inquiry, we will debit your Merchant Account with a \"No Reply\" Chargeback",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Sections 5.4–5.8",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Codes are dual-labelled ISO plus alpha code, e.g. Card Not Present fraud 'ISO 4540/F29', goods not received 'ISO 4554/C08', Fraud Full Recourse 'ISO 4763 / FR2'. Section 5.7 defines Compelling Evidence for C08 and F29. Section 5.9 'Chargeback and Inquiry Monitoring' allows placement in the Fraud Full Recourse Programme for disproportionate disputes or excessive No Reply/Insufficient chargebacks."
+    },
+    {
+      "dimension": "rules",
+      "claim": "At network level the issuer–acquirer dispute cycle runs Presentment, Retrieval Request, Fulfillment, First Chargeback, Second Presentment and Final Chargeback, with Pre-Arbitration/Arbitration and Pre-Compliance/Compliance, processed through the licensed Network Disputes Manager (NDM) tool.",
+      "quote": "Participants must be licensed by AEGNS to use Network Disputes Manager (NDM). A fee of $100 will be assessed monthly to each Participant.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Chapter 7 Chargeback Policies and Section 10.2 Disputes Fees",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 7.3.2.4: 'Issuers must file a First Chargeback within 120 days from the Network Processing Date of the First Presentment'. Fees: $10 pre-Arbitration/pre-Compliance administrative fee per participant; $10 Good Faith processing fee; $5 Dispute Message Reject Fee (issuer or acquirer); arbitration filing and review fees via the AEGNS Arbitration Committee. Section 7.9.5.3 'Fraud Chargeback Restriction': after the second fraud First Chargeback on the same payment credential/account, ISO 4527, 4534, 4540, 4798 and 4799 fraud chargebacks are no longer valid. Section 7.10.3 covers ATM Chargebacks."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Global Disputes Monitoring Program (GDMP) holds each issuer/acquirer participant to regional monthly First Chargeback and Retrieval Request thresholds (0.20% US/Canada, 0.60% EMEA and APAC, 0.75% LAC), with non-compliance fees for failure to reduce rates.",
+      "quote": "ensure that Participants monitor their dispute rates and do not exceed acceptable levels of disputes",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Section 2.2.19 Global Disputes Monitoring Program",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Tables 2-1 and 2-2. Rate = First Chargebacks (or Retrieval Requests) divided by First Presentments in the month. Exceeding thresholds 'may be subject to Compliance action, including the assessment of non-compliance fees' under Section 10.7.1."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Merchants enter the Fraud Full Recourse (FFR) Program, losing all fraud-chargeback reversal rights and SafeKey liability shift, when monthly fraud-to-gross reaches 0.9% with USD 25,000 fraud (Low Tier) or 1.8% with USD 50,000 (High Tier).",
+      "quote": "The monthly fraud to gross* Charges ratio at an Establishment equals or exceeds 0.9% and",
+      "url": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf",
+      "title": "Merchant Regulations – U.S., October 2024, Table 10-42 FTG Performance Tiers",
+      "publisher": "American Express (PDF mirrored on RealPage legal page)",
+      "published": "2024-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Low Tier: three consecutive months to remediate after notice; High Tier: FFR applies from notice. Exit (10.11.2) when fraud-to-gross is below 0.9% or fraud below USD 25,000 per month for three consecutive months. International Merchant Regulations 5.11 mirrors this, extends it to 'qualifying End Beneficiary' of indirect acceptors, and applies FFR to disputes up to one year before placement. FFR also applies to High Risk Merchants and to fraudulent/deceptive practices."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex operates opt-in Immediate Chargeback (FR4) and Partial Immediate Chargeback (FR6) programmes under which non-fraud disputes are charged back without a prior Inquiry, the partial variant applying only below a merchant-set dollar threshold.",
+      "quote": "If you are enrolled in this program, you will receive a Chargeback without first receiving an Inquiry any time a Cardmember disputes a Charge",
+      "url": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf",
+      "title": "Merchant Regulations – U.S., October 2024, Table 10-41 Immediate Chargeback Programs",
+      "publisher": "American Express (PDF mirrored on RealPage legal page)",
+      "published": "2024-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'You may choose to enroll in this program to avoid receiving Inquiries or Disputes.' Reason code tables 10-35 (FR4) and 10-36 (FR6). Practitioner sites (Chargeback Gurus, Chargebacks911) describe the same programmes and list the partial threshold options as $20/$25/$50/$100/$250; those amounts are not in the public text I read."
+    },
+    {
+      "dimension": "rules",
+      "claim": "An Excessive Chargeback Fee of USD 25 per chargeback above a 1% ratio applies each month after a merchant's chargeback-to-gross-charges ratio exceeds 1% for three consecutive months.",
+      "quote": "$25 per Chargeback (less Chargeback Reversals) over the 1 percent ratio.",
+      "url": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf",
+      "title": "Merchant Regulations – U.S., October 2024, Table 14-8 Excessive Chargeback Fee",
+      "publisher": "American Express (PDF mirrored on RealPage legal page)",
+      "published": "2024-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Chapter 14 'Merchant Fees' also lists a Data Pass Violation Fee (Table 14-7) scaled by charge volume: <$1M $2,500 then $5,000; $1M–$10M $5,000 then $10,000; >$10M $25,000 then $50,000, with possible suspension or termination; and Technical Specifications non-compliance fees plus a 'POS System Non-Compliance Program' (2.6.2) for terminals that fail 'technical mandates' listed at merchantspecs."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Network-level sanctions on issuers and acquirers follow an escalating General Non-Compliance Fee schedule from USD 5,000 per first violation to USD 50,000 monthly at the fifth, after a formal determination-of-violation, notification and Action Plan process.",
+      "quote": "First violation of policy regulation Up to $5,000 (USD)",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Sections 2.13 and 10.7.1, Table 10-19 General Non-Compliance Fees",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Schedule within a 12-month period: 2nd up to $5,000; 3rd up to $10,000; 4th up to $25,000; 5th up to $50,000 assessed each month uncorrected. Section 2.13.2 lists detection methods (participant responses, monitoring of network data, audits, questionnaires); 2.13.5 requires Action Plans. Separate schedules: Data Security Policy non-compliance up to $50,000 first incident and $100,000 subsequent (Table 10-18); failure to notify a data compromise up to $100,000 per incident (10.6.2); Fraud Non-Compliance Fee Schedule A $1,000 / $5,000 / $10,000 / $25,000 then discretionary (Table 10-6)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Acquirers are subject to a Brand Protection regime with a paid Brand Protection Assessment (USD 20,000 initial, 10,000 supplemental) and non-compliance fees for illegal or brand-damaging merchant activity rising to USD 100,000.",
+      "quote": "Illegal or Brand Damaging Activity 1st violation within a 12 month period: Up to $20,000 (USD).",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Section 10.7.2 Brand Protection Fees, Tables 10-20 and 10-21",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "2nd violation up to $50,000; 3rd and subsequent up to $100,000. Fees for illegal/brand-damaging activity are waived if the acquirer self-reports in writing before AEGNS notifies it and corrects per Section 2.9.5.4. Related document named: 'Brand Protection Guide for Acquirers'. The assessment letter can also approve an acquirer to sign restricted-industry merchants (Section 2.9.4.2)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The Cardholder Data Compromise Recovery Process (CDCRP) is the issuer's sole route to recover incremental fraud losses and operational costs from an acquirer after a qualifying data compromise event (10,000+ accounts, PAN plus sensitive data or expiry, US/Canada acquirer relationship).",
+      "quote": "the exclusive remedy for Issuers to recover from an Acquirer the incremental fraud losses and operational costs",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Section 2.4.12 Cardholder Data Compromise Recovery Process",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "AEGNS informs the issuer of claim eligibility no later than 45 days after the final forensic report. Section 2.4 'Participant Data Security Policy' incorporates PCI DSS, PA-DSS, PIN Security, PTS POI, P2PE, Secure SLC, Secure Software and SPoC standards and requires acquirer and issuer validation (2.4.2–2.4.4). The October 2023 edition removed the Data Compromise Event Window definition, announced in the August 2023 NPU."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Instead of a public third-party-agent registry, Amex requires each issuer/acquirer to confirm its service providers' PCI DSS compliance to GNS, keep due-diligence files and bind them contractually to the Data Security Policy; use of Authorized Processors needs GNS's prior written consent.",
+      "quote": "unless the Participant has confirmed to AEGNS that such Service Providers are PCI DSS compliant",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Sections 2.7 Service Provider and 2.8 Authorized Processors",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 2.8.1: 'Participants may outsource to Authorized Processors any processing functions... with the prior written consent of AEGNS'; acquirers may not delegate anything that would let a processor be party to an S/E contract or set discount rates; issuers may not delegate card issuance or receivables ownership. Section 2.7.1.2 'Non-Compliance' exists but was not extracted. No Amex equivalent of the Visa Third Party Agent or Mastercard TPP registry was found in public sources."
+    },
+    {
+      "dimension": "rules",
+      "claim": "GNS issuers must give cardmembers access to the Amex Shared ATM Network and route ATM transactions through it first, with an exception (added October 2023) for portfolios issued primarily as digital cards.",
+      "quote": "Issuers must use the Amex Shared ATM Network as the first choice to route their Cardmembers' ATM Transactions",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023 – Section 1.6.1 Access to the Amex Shared ATM Network",
+      "publisher": "American Express Global Network Services",
+      "published": "2023-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF spacing artefact ('T ransactions') normalised. Table 1-1 lists AEGNS services including ATM Transaction Routing, Chargeback Routing and Processing, BIN Blocking, Stand-In Authorization and Recurring Billing Cancellation Service. The digital-card exception was 'originally announced in the May 2023 Network Participant Updates article Cash Advances Update'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Third-party technology and service providers certify against Amex specifications through the AMEX Enabled programme, which charges no registration fee and requires click-through NDA and terms; certified solutions may use the AMEX Enabled badge.",
+      "quote": "There are no fees charged to register for the AMEX Enabled Program.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions (June 2022)",
+      "publisher": "American Express Global Network Services",
+      "published": "2022-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Registration at www.amexenabled.com; the AMEX Enabled Dashboard is reached through a Knowledge Base user ID. The GNS Service Providers page says the programme has 'over 1200 Service Providers', 17 product portfolios and 45+ products, and names a 'Messaging Center' for document exchange with Amex product specialists. The GNS Certification page states 'American Express acquirers must be certified to submit American Express transactions to the American Express Global Network' and lists host, payment-product, point-of-sale and payment-technologies certification."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Effective April 17, 2026 the OptBlue merchant-acquiring ceiling in the U.S. rose from USD 1,000,000 to USD 3,000,000 estimated annual charge volume (excluding Puerto Rico and the U.S. Virgin Islands), with no ceiling for charity, healthcare, education, government, insurance, residential rent, utilities and online gambling/games of value.",
+      "quote": "Effective April 17, 2026, the merchant acquiring threshold in the U.S. has been increased to $3,000,000.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+      "title": "OptBlue Program Update (Rev. April 2026)",
+      "publisher": "American Express",
+      "published": "2026-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF spacing artefacts normalised. Threshold measured on a rolling 12 months per the 'Operating Regulations'. Games of Value merchants need minimum ECV of $1,000,000 and only certified OptBlue Participants may acquire in certain gambling segments. The OptBlue Sales Agent page carries the same statement. The Amex FY2025 10-K describes OptBlue as the programme through which acquirers, processors and payment facilitators 'contract directly with small merchants for card acceptance on our network and determine merchant pricing'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Payment facilitators with under USD 250 million annual Amex volume accept Amex only under a certified OptBlue Participant, must register through that participant, submit transaction data to Amex specifications, link sub-merchant agreements to Amex acceptance rules, and may not sponsor another payment facilitator.",
+      "quote": "Register as a Payment Facilitator with American Express through an OptBlue Participant",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "title": "Payments Facilitator Acceptance of American Express Cards (Global Merchant and Network Services, October 2024)",
+      "publisher": "American Express",
+      "published": "2024-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Predates the April 2026 threshold change: it says 'Do not sponsor individual merchants with greater than $1MM in annual American Express charge volume'. No registration fee. Higher-ECV industry categories (charity, education, government, B2C healthcare, insurance, residential rent, utilities, online gambling) already exempt in this edition."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Payment facilitators and indirect acceptors face specific network non-compliance fees of up to USD 10,000 for a second and USD 20,000 for third and later violations of the same rule within 12 months, including failure to supply sponsored-merchant or end-beneficiary data.",
+      "quote": "Up to USD $10,000 for second violation of the same regulation within a 12-month period after notification of the first violation",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Table 8-7 Payment Facilitator and Indirect Acceptor Fees",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Two fee lines: general non-compliance fee and 'Sponsored Merchant or End Beneficiary reporting non-Compliance fee'. Same schedule appears as Table 14-9 in the October 2024 U.S. Merchant Regulations. Section 8.2.6 requires payment facilitators to submit Sponsored Merchant Data via the Sponsored Merchant Information Interface per the Technical Specifications and bars non-EEA/UK payment facilitators from recruiting travel, telecom, other payment facilitators/ISVs/SaaS, and indirect acceptors other than marketplaces."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Indirect acceptors (bill payment providers, marketplaces, instalment providers, digital wallet operators) are fully liable for their end beneficiaries, must screen them for KYC/AML and sanctions, and must send mandatory end-beneficiary data elements and an indirect-model indicator in every authorisation and submission.",
+      "quote": "Provide the mandatory data elements as required in the Technical Specifications",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Chapter 6 Indirect Acceptors (Section 6.3)",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF spacing artefact ('T echnical') normalised. Section 6.3(b): indirect acceptors 'may be placed in one of our Chargeback programmes'. April 2026 edition expanded excluded MCCs (airlines, car rentals) for bill payment providers, instalment transactions and indirect acceptors (Tables 6-3, 6-4, 6-5). The corresponding NOSC of October 2023 introduced 'Data Field 60, Subfield 10 - Indirect Model Type' and 'Additional Indirect Acceptor Models' in the April 2024 specifications."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandate: from October 16, 2026 an MCC mismatch between authorisation and submission can itself be charged back under ISO 4521 / A08 'Invalid Authorisation', announced in the October 2025 edition.",
+      "quote": "October 16, 2026 MCC Mismatch • Updated policy to state that an MCC Mismatch may lead to a Chargeback.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Notification of Changes",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'Date announced in Merchant Regulations: October 2025'. Updated 1.4.1 text: 'Failure to correctly utilise the MCC in the Submission could expose the Merchant to Chargebacks.' Issuer must show it would have declined with the submitted MCC. The Merchant Operating Guide (2.4.1) already states MCC data failures 'may result in the assessment of non-compliance fees'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Mandates in the last 24 months include Variable Authorizations and EV-charging authorisation guidance (October 18, 2024), an Invalid Chargeback Code documentation change (April 11, 2025) and a standardised 30-day authorisation validity period for car rental, lodging and cruise lines (April 17, 2026).",
+      "quote": "Authorisation Validity Period for Car Rental, Lodging, and Steamships & Cruise Lines Authorisations from the duration of the stay or the agreement to 30 days",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Notification of Changes – Travel Authorisations",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Travel Authorisations change announced October 2024 (18-month lead). The October 2024 U.S. Merchant Regulations Notification of Changes lists: 'October 18, 2024 Electric Vehicle Charging', 'October 18, 2024 Variable Authorizations', 'April 11, 2025 Chargeback Codes Update – Invalid Chargeback Code' and 'April 17, 2026 Travel Authorizations'. The April 2024 U.S. NOC lists CID Mismatch and Compelling Evidence changes effective April 12, 2024."
+    },
+    {
+      "dimension": "rules",
+      "claim": "SafeKey (Amex's EMV 3-D Secure programme) shifts card-not-present fraud liability to the issuer only for ECI 5/6 authenticated or attempted transactions from merchants below a 0.9% / USD 25,000 monthly fraud ratio, and only where the acquirer is SafeKey-certified.",
+      "quote": "Do not exceed a fraud ratio of 0.9% and fraud Charges of USD $25,000 calculated monthly",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+      "title": "Merchant Regulations – International, April 2026, Section 7.1.1 American Express SafeKey Fraud Liability Shift",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "SafeKey Implementation Guide, Protocol Guide and Logo Guidelines sit behind www.americanexpress.com/merchantspecs. The GNS SafeKey FAQ (July 2025, https://network.americanexpress.com/globalnetwork/dam/jcr:42519e28-196e-40b2-8ca9-dc2c7f2ce70c/SafeKey%20FAQs.2025-07-30-02-14-04.pdf) states 'For a Merchant to benefit from FLS, its Acquirer must be certified for SafeKey' and that ACS and 3DS Server providers 'need to recertify to the latest version' of EMV 3DS (2.2.0, 2.3.1). Section 7.3 addresses Strong Customer Authentication."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex's FY2025 10-K describes the network side as licensing third-party banks in about 110 countries to issue Amex cards and/or acquire merchants, with USD 227.2 billion processed volume and 66.2 million third-party cards-in-force at December 31, 2025.",
+      "quote": "These network partners are licensed to issue American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "U.S. Securities and Exchange Commission / American Express Company",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filed 2026-02-06 (accession 0000004962-26-000080). The 10-K does not use the phrase 'Global Network Services' or name the BOP; it refers to the 'card network business' and 'GMNS' segment. It notes the Central Bank of Brazil's November 2025 resolution requiring revised network rules by May 2026 and lists Discover and Diners Club International as Capital One-owned competitors."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex's merchant contracts contain anti-steering, non-discrimination and honor-all-cards provisions, which are under antitrust challenge on behalf of OptBlue merchants in Pizza Hazel, Inc. v. American Express (D. Mass., filed September 30, 2024), including the arbitration clause.",
+      "quote": "plaintiffs allege that the anti-steering and non-discrimination provisions in our merchant agreements violate federal antitrust law",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for the fiscal year ended December 31, 2025 – Legal Proceedings",
+      "publisher": "U.S. Securities and Exchange Commission / American Express Company",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'The court rejected our motion to compel the case to arbitration; we have appealed the decision to the Court of Appeals for the First Circuit.' The 10-K also states Amex 'generally do[es] not prohibit surcharging in our agreements with merchants so long as it is permitted by law and a merchant does not discriminate against American Express cards by engaging in differential surcharging'. The April 2026 Merchant Operating Guide added a clarifying statement to its U.S. Arbitration Agreement (Section 12.1)."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Practitioner coverage confirms the 1%-for-three-months excessive chargeback trigger and USD 25 per-chargeback fee, the 20-day Inquiry window, and the Fraud Full Recourse and Immediate Chargeback programmes.",
+      "quote": "If your chargeback-to-transaction ratio exceeds 1% for three consecutive months, Amex imposes a $25 fee for every chargeback above that threshold.",
+      "url": "https://chargebacks911.com/chargeback-types/american-express-chargeback/american-express-chargeback-rules/",
+      "title": "American Express Chargeback Rules for 2026",
+      "publisher": "Chargebacks911 (author Ben Scrancher)",
+      "published": "2026-03-24",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Describes FFR as stripping 'all fraud chargeback representment rights' and the Immediate Chargeback Program as bypassing inquiries. Consistent with the October 2024 U.S. Merchant Regulations Table 14-8."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Chargeback Gurus reports the FFR thresholds as Low 0.90% / USD 25,000 and High 1.80% / USD 50,000 and the three-month exit rule, citing Amex's U.S. Merchant Regulations.",
+      "quote": "revokes the right to request reversals of fraud-related chargeback for merchants",
+      "url": "https://www.chargebackgurus.com/blog/amex-excessive-chargeback-fees-and-fraud-full-recourse-program",
+      "title": "Amex Excessive Chargeback Fees and Fraud Full Recourse Program",
+      "publisher": "Chargeback Gurus",
+      "published": "2025-08-14",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "No named author. Cites https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN_US.pdf, which returned 404 on 2026-09-25. Figures match Table 10-42 of the October 2024 U.S. Merchant Regulations."
+    },
+    {
+      "dimension": "rules",
+      "claim": "A KYB vendor's analysis says the October 2025 Amex merchant rules added portfolio-level accountability, escalating non-compliance fees and end-beneficiary data requirements for payment facilitators, ISOs, bill-payment and instalment providers.",
+      "quote": "Portfolio-Level Accountability",
+      "url": "https://ballerine.com/blog/american-express-october-2025-updates-what-payment-intermediaries-must-know-about-the-october-2025-rules",
+      "title": "American Express 2025 Updates: What Payment Intermediaries Must Know About the October 2025 Rules",
+      "publisher": "Ballerine",
+      "published": "2025-12-17",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Last updated 2026-05-04; disclaims Amex affiliation; quotes no regulation text directly. I could not retrieve the October 2025 International edition to verify (the Regs_EN_AU.pdf URL now serves the April 2026 file). The April 2026 International edition does contain the PayFac/Indirect Acceptor fee table and End Beneficiary data requirement, and its NOC dates the MCC Mismatch announcement to October 2025."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Amex markets to OptBlue prospects that fewer than 0.03% of U.S. Card Member transactions became disputes reaching merchants in 2025, and that most 'does not recognize' disputes are resolved with substitute receipts without contacting the merchant.",
+      "quote": "In 2025, less than 0.030% of US Card Member transactions turned into disputes that reached merchants.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Marketing claim, not independently checked. Amex's two disputes pages give different substitute-receipt resolution rates (83% on the direct-merchant page, 81.4% on the third-party-processor page); see contradictions. The OptBlue page also states 'With OptBlue, third-party providers sign a contract directly with eligible businesses to enable American Express® Card acceptance' and lists 30+ participating acquirers/processors."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Current (2025/2026) U.S. Merchant Regulations PDF on americanexpress.com (Regs_EN_US.pdf)",
+      "where": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN_US.pdf returned HTTP 404; merchant-regulations pages require login for the complete document",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current American Express Merchant Reference Guide – U.S. (Reference-Guide_EN_US.pdf)",
+      "where": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Reference-Guide_EN_US.pdf returned HTTP 404; only 2015–2021 editions surfaced in search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Merchant Regulations – International, October 2025 edition text",
+      "where": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN_AU.pdf now serves the April 2026 edition (identical file); October 2025 changes known only via the April 2026 NOC and third-party commentary",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Business and Operational Policies manual edition later than October 2023",
+      "where": "network.americanexpress.com public DAM; only the October 2023 PDF is publicly served; current editions are on Knowledge Base (login)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press coverage (Digital Transactions, Payments Dive, American Banker, PYMNTS, Finextra) of the 2027 consolidated American Express Merchant Rules",
+      "where": "Web searches on 'American Express Merchant Rules 2027' and 'October 23, 2026'; only Amex's own notice and Wikipedia/aggregator results",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Processor bulletins or release calendars republishing Amex mandates (Fiserv, Worldpay, Global Payments, Elavon, TSYS)",
+      "where": "Web search; results returned SEC filings and generic industry pages only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public Amex third-party agent / service-provider registry equivalent to Visa TPA or Mastercard TPP registration",
+      "where": "network.americanexpress.com and BOP Section 2.7; only AMEX Enabled certification and participant attestation obligations found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Developer Portal terms, API rules or certification requirements",
+      "where": "https://developer.americanexpress.com/ returned only a JavaScript shell with the heading 'American Express Developers'; no rule text retrievable",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Merchant Financing operating rules or partner obligations",
+      "where": "Not encountered in any rules document or GNS page read; product appears to be a lending offer, not a rules topic",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Immediate/Partial Immediate Chargeback Program dollar thresholds in Amex primary text",
+      "where": "October 2024 U.S. Merchant Regulations Table 10-41 refers to 'a predetermined amount' without figures; the $20–$250 options appear only on practitioner sites",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "GNS Network Policy page: NPU 'published on the second Friday of every month'",
+      "b": "BOP manual October 2023 Section 1.3: NPU 'published on the second Friday of the second full business week of each month'",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/",
+        "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf"
+      ]
+    },
+    {
+      "a": "Payment Facilitator fact sheet (October 2024): 'Do not sponsor individual merchants with greater than $1MM in annual American Express charge volume'",
+      "b": "OptBlue Program Update (Rev. April 2026): 'Effective April 17, 2026, the merchant acquiring threshold in the U.S. has been increased to $3,000,000' (supersedes; fact sheet not updated)",
+      "urls": [
+        "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf"
+      ]
+    },
+    {
+      "a": "Merchant Regulations – International April 2026 (Section 1.2, effective May 18, 2026): no change effective less than 30 days from notice",
+      "b": "Merchant Regulations – U.S. October 2024 (Subsection 1.4.2): unscheduled changes take effect 10 days after notice unless otherwise specified (regional difference; the 2027 Merchant Rules may harmonise)",
+      "urls": [
+        "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf",
+        "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf"
+      ]
+    },
+    {
+      "a": "Amex direct-merchant disputes page: resolved 83% of 'does not recognize' disputes via Substitute Receipts without contacting merchants",
+      "b": "Amex third-party-processor disputes page: resolved 81.4% of 'does not recognize' disputes alone",
+      "urls": [
+        "https://www.americanexpress.com/us/merchant/manage-disputes.html",
+        "https://www.americanexpress.com/us/merchant/tpp/manage-disputes.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Merchant Regulations secure login (complete U.S. Merchant Regulations and Card Acceptance Terms)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/secure/?intlink=merchant-regulations-login",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-regulations.html"
+    },
+    {
+      "name": "Knowledge Base (GNS partner portal: BOP manual, NPUs, Network Specifications, Participant Directory)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base",
+      "named_at": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf"
+    },
+    {
+      "name": "Knowledge Base login (gnsweb)",
+      "url": "https://network.americanexpress.com/en/globalnetwork/gnsweb/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/"
+    },
+    {
+      "name": "GNS sign-in (redirects to americanexpress.com enterprise login)",
+      "url": "https://network.americanexpress.com/globalnetwork/sign-in/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/dam/jcr:42519e28-196e-40b2-8ca9-dc2c7f2ce70c/SafeKey%20FAQs.2025-07-30-02-14-04.pdf"
+    },
+    {
+      "name": "Merchant Specifications portal (Technical Specifications, BIN files, SafeKey guides, payment product T&Cs; user ID and password)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/specifications/merchant-login/",
+      "named_at": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf"
+    },
+    {
+      "name": "AMEX Enabled Dashboard / amexenabled.com registration",
+      "url": "http://www.amexenabled.com",
+      "named_at": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf"
+    },
+    {
+      "name": "AMEX Enabled Messaging Center",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+    },
+    {
+      "name": "SecureTrust PCI Manager (Amex PCI Program Administrator portal)",
+      "url": "https://portal.securetrust.com",
+      "named_at": "https://www.americanexpress.com/us/merchant/us-data-security.html"
+    },
+    {
+      "name": "Network Disputes Manager (NDM) and NDM Disputes Online",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf"
+    },
+    {
+      "name": "GNS FraudNet",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf"
+    },
+    {
+      "name": "Merchant Account online (chargeback and inquiry exchange)",
+      "url": "",
+      "named_at": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf"
+    },
+    {
+      "name": "GNS secure FAQ",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/faq/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/certification/"
+    },
+    {
+      "name": "Amex for Developers portal",
+      "url": "https://developer.americanexpress.com/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/"
+    }
+  ],
+  "sources_read": [
+    { "url": "https://www.americanexpress.com/us/merchant/", "title": "Amex US Merchant (seed)", "ok": false, "wall": "dead" },
+    { "url": "https://network.americanexpress.com/globalnetwork/", "title": "American Express Global Network Services", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/us/merchant/optblue.html", "title": "Credit Card Processing for Small Businesses | OptBlue American Express", "ok": true, "wall": "none" },
+    { "url": "https://developer.americanexpress.com/", "title": "American Express Developers (JavaScript shell, no content)", "ok": true, "wall": "none" },
+    { "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/", "title": "Partners | Developers | American Express", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html", "title": "American Express Merchant Policies & Procedures | Amex US", "ok": true, "wall": "login" },
+    { "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/", "title": "American Express Global Network Policy", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/us/merchant/us-data-security.html", "title": "Payment Processing: PCI Compliance and Data Security | Amex Merchant", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-data-security/DSOP_United_States_EN.pdf", "title": "Data Security Operating Policy – United States, April 2026", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN.pdf", "title": "Merchant Regulations – International, April 2026", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/", "title": "American Express Merchant Regulations (JS page; Merchant Rules Update notice)", "ok": true, "wall": "none" },
+    { "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf", "title": "Merchant Operating Guide – All Regions, April 2026", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/en-us/business/optblue/agent/", "title": "OptBlue Sales Agent | American Express", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/us/merchant/manage-disputes.html", "title": "Manage Disputes | Amex US Merchant", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/us/merchant/tpp/manage-disputes.html", "title": "Manage Disputes (third-party processed merchants) | Amex US", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf", "title": "Payments Facilitator Acceptance of American Express Cards (October 2024)", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/InternationalRegs", "title": "Select Country for Merchant Regulations (307 redirect to go.amex then regulation page)", "ok": true, "wall": "none" },
+    { "url": "https://go.amex/bc3fmF", "title": "go.amex short link (307 redirect to en-us/business/merchant/regulation/)", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOC_EN_US.pdf", "title": "Notification of Changes – U.S., April 2024", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/pr/en/merchant/merchant-regulations.html", "title": "U.S. Merchant Regulations (including Puerto Rico and U.S. Virgin Islands)", "ok": true, "wall": "login" },
+    { "url": "https://network.americanexpress.com/globalnetwork/certification/", "title": "American Express Certification", "ok": true, "wall": "none" },
+    { "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/", "title": "Partners | Service Providers | American Express", "ok": true, "wall": "none" },
+    { "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:db470765-a617-4afd-b51d-45fb9db2a62e/AMEX-Enabled-Product-Overview.pdf", "title": "The AMEX Enabled Program (February 2015)", "ok": true, "wall": "none" },
+    { "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:42519e28-196e-40b2-8ca9-dc2c7f2ce70c/SafeKey%20FAQs.2025-07-30-02-14-04.pdf", "title": "American Express SafeKey Frequently Asked Questions (July 2025)", "ok": true, "wall": "none" },
+    { "url": "https://ballerine.com/blog/american-express-october-2025-updates-what-payment-intermediaries-must-know-about-the-october-2025-rules", "title": "American Express 2025 Updates: What Payment Intermediaries Must Know About the October 2025 Rules", "ok": true, "wall": "none" },
+    { "url": "https://chargebacks911.com/chargeback-types/american-express-chargeback/american-express-chargeback-rules/", "title": "American Express Chargeback Rules for 2026", "ok": true, "wall": "none" },
+    { "url": "https://www.chargebackgurus.com/blog/amex-excessive-chargeback-fees-and-fraud-full-recourse-program", "title": "Amex Excessive Chargeback Fees and Fraud Full Recourse Program", "ok": true, "wall": "none" },
+    { "url": "https://data.sec.gov/submissions/CIK0000004962.json", "title": "EDGAR submissions – American Express Co (CIK 4962)", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm", "title": "American Express Company Form 10-K FY2025", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN_US.pdf", "title": "Merchant Regulations – U.S. (current)", "ok": false, "wall": "dead" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Reference-Guide_EN_US.pdf", "title": "American Express Merchant Reference Guide – U.S.", "ok": false, "wall": "dead" },
+    { "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf", "title": "OptBlue Program Update (Rev. April 2026)", "ok": true, "wall": "none" },
+    { "url": "https://www.realpage.com/storage/files/pages/legal/pdfs/2025/05/amex-merchant-regulations.pdf", "title": "Merchant Regulations – U.S., October 2024 (RealPage mirror)", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/Regs_EN_AU.pdf", "title": "Merchant Regulations – International (serves April 2026 edition, not October 2025)", "ok": true, "wall": "none" },
+    { "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf", "title": "AMEX Enabled Frequently Asked Questions (June 2022)", "ok": true, "wall": "none" },
+    { "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/amex-optblue-threshold/", "title": "Amex's New $3M OptBlue Threshold Impact on Direct Agreements", "ok": false, "wall": "bot" },
+    { "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/", "title": "Partners | Integrated Payments Providers Program | American Express", "ok": true, "wall": "none" },
+    { "url": "https://www.chargeflow.io/chargebacks-101/amex-chargebacks", "title": "Amex Chargebacks: Reason Codes, Time Limits & Dispute Guide (2026)", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/merchantspecs", "title": "Merchant Specifications (redirects to merchant login)", "ok": true, "wall": "login" },
+    { "url": "https://network.americanexpress.com/globalnetwork/sign-in/", "title": "GNS sign-in (redirects to enterprise login)", "ok": true, "wall": "login" },
+    { "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf", "title": "Business and Operational Policies, October 2023 – Global Network Services", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_ES_US.pdf", "title": "Notification of Specification Changes – Publication Date October 2023, effective April 2024", "ok": true, "wall": "none" },
+    { "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_EN_US.pdf", "title": "Notification of Specification Changes – Publication Date April 2024, effective October 2024", "ok": true, "wall": "none" }
+  ]
+}

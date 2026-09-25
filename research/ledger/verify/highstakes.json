@@ -1,0 +1,3272 @@
+[
+ {
+  "id": "amex-002",
+  "network": "amex",
+  "claim": "Logged out, the portal's product catalogue endpoint returns 18 published products in five categories (Payment Services 6, Open Banking 4, Fraud Prevention 3, Utilities 3, Personalized Services 2); 10 of the 18 are typed DOCUMENTATION_ONLY (overview only, no spec or sandbox on the portal)."
+ },
+ {
+  "id": "amex-003",
+  "network": "amex",
+  "claim": "Five of the 18 catalogue products are flagged SEMI_PUBLIC: the overview is public but the API specification is invite-only (Account and Transaction API, Confirmation of Funds, Global Pay with Points v2, Agentic Commerce Experiences, DotAmex)."
+ },
+ {
+  "id": "amex-004",
+  "network": "amex",
+  "claim": "The 2026 Agentic Commerce Experiences (ACE) Developer Kit gates its Guide and Specifications behind a four-field access form (name, business email, business name, country) routed to agenticcommerceexperiences@aexp.com, even though the OpenAPI file itself is served from the public content host."
+ },
+ {
+  "id": "amex-008",
+  "network": "amex",
+  "claim": "Sandbox Client ID and Client Secret are shown on the Project dashboard only after access is granted; the Production client secret is additionally masked until the account is verified, and one credential set is required per API product per environment."
+ },
+ {
+  "id": "amex-009",
+  "network": "amex",
+  "claim": "Test cards are not published: for Card on-demand, partners complete integration-setup forms and then receive the sandbox configuration confirmation and the test cards by separate emails."
+ },
+ {
+  "id": "amex-010",
+  "network": "amex",
+  "claim": "The Global Pay with Points v2 OpenAPI spec (public on the content host) states that a standard Sandbox key is published in the spec's Test Data section, the only product where sandbox test data is published rather than issued."
+ },
+ {
+  "id": "amex-012",
+  "network": "amex",
+  "claim": "Published token lifetimes: 2-legged access tokens live five minutes and refresh tokens ten minutes; 3-legged (Card Member consent) refresh tokens live 90 days and the flow uses PKCE (code_verifier) plus registered brand assets and redirect URL."
+ },
+ {
+  "id": "amex-014",
+  "network": "amex",
+  "claim": "Mutual TLS with Amex-signed client certificates is required for partner applications: partners upload a CSR (CN must start AmexTrust- and end TEST-partner or PROD-partner), certificates are valid at most 398 days, RSA-2048/SHA256 or ECC P-256, with a year-end freeze from November 10 to January 10."
+ },
+ {
+  "id": "amex-017",
+  "network": "amex",
+  "claim": "The official Java SDK (americanexpress/amex-api-java-client-core) is an authentication-header helper, not a full client: no releases or tags, last code commit 2020-06-23, README still promises JCenter artifacts, nothing on Maven Central, and a 2018 issue asking for Maven Central artifacts remains open."
+ },
+ {
+  "id": "amex-018",
+  "network": "amex",
+  "claim": "The official .NET SDK (amex-api-dotnet-client-core) is likewise an auth-header library; its last commit was 2018-06-12 and the NuGet package Amex.Api.Client.Core stopped at 0.1.2 (published 2018-06-13)."
+ },
+ {
+  "id": "amex-019",
+  "network": "amex",
+  "claim": "The Node SDK for Targeted Offers (americanexpress/targeted-offers-client) documents an npm package that the npm registry does not have, last saw a code commit in 2022, and carries 28 open dependabot PRs; a JVM twin (targeted-offers-client-jvm, Java 8+) has 0 stars and was last pushed 2023-04-14; no Python, Go, PHP or Ruby SDK exists."
+ },
+ {
+  "id": "amex-020",
+  "network": "amex",
+  "claim": "Product API references are OpenAPI 3.x JSON files hosted on Amex's static content host with a per-product change-log.json that the portal renders as a version-history page; the ACE change log records a single 'Launched' entry dated April 6, 2026."
+ },
+ {
+  "id": "amex-021",
+  "network": "amex",
+  "claim": "The portal's own changelog ('What's New') stopped in May 2024 while individual documentation pages carry 2026 'Last Updated' stamps, and some product content contains unfinished placeholders."
+ },
+ {
+  "id": "amex-022",
+  "network": "amex",
+  "claim": "There is no published deprecation or notice period for portal APIs: the Terms commit only to commercially reasonable efforts to warn of breaking Updates and reserve the right to change or discontinue any aspect without notice."
+ },
+ {
+  "id": "amex-023",
+  "network": "amex",
+  "claim": "By contrast, the American Express Payment Gateway (merchant/acquirer gateway docs, public without login) has an explicit versioning policy: URI-path versions 1 to 100, backward-compatible changes within v100, new versions only for breaking changes, a public changelog, and dated deactivation of old versions."
+ },
+ {
+  "id": "amex-024",
+  "network": "amex",
+  "claim": "No numeric rate limits or quotas are published anywhere logged out; the only throttling language is the Terms' right to restrict, throttle, suspend or terminate access at Amex's discretion."
+ },
+ {
+  "id": "amex-025",
+  "network": "amex",
+  "claim": "There is no API price list: the Terms reserve the right to charge for the portal or any materials at any time, while individual products state their own terms (Enhanced Authorization is described as free; the AMEX Enabled certification programme charges no registration fee)."
+ },
+ {
+  "id": "amex-029",
+  "network": "amex",
+  "claim": "Developer support runs through an in-portal helpdesk with seven ticket categories, an unauthenticated ticket path and the mailbox support@devmail.americanexpress.com; the Terms promise only commercially reasonable efforts to respond and no SLA."
+ },
+ {
+  "id": "amex-032",
+  "network": "amex",
+  "claim": "Amex's 10-K describes its network partners as third-party banks and institutions licensed to issue Amex-branded cards and/or to acquire local merchants, in about 110 countries and territories."
+ },
+ {
+  "id": "amex-033",
+  "network": "amex",
+  "claim": "Under OptBlue, third-party acquirers and processors, not Amex, contract directly with small merchants and set merchant pricing."
+ },
+ {
+  "id": "amex-035",
+  "network": "amex",
+  "claim": "Network rulebooks are handed to licensed Issuers and Acquirers only after they sign an agreement with American Express; there is no public application form or licensing checklist."
+ },
+ {
+  "id": "amex-038",
+  "network": "amex",
+  "claim": "Network fees charged to participants are published only inside the confidential BOP manual; no public partner fee schedule exists."
+ },
+ {
+  "id": "amex-045",
+  "network": "amex",
+  "claim": "Amex provides its own host simulator (ATS) free of charge for certification testing; processors using another simulator must meet the Approved Solution Provider Program requirements at their own cost."
+ },
+ {
+  "id": "amex-047",
+  "network": "amex",
+  "claim": "There is no fee to register for AMEX Enabled."
+ },
+ {
+  "id": "amex-052",
+  "network": "amex",
+  "claim": "The IPP programme charges no dues or fees and is framed as a relationship and specification-access channel rather than a licence."
+ },
+ {
+  "id": "amex-056",
+  "network": "amex",
+  "claim": "Card, mobile and terminal products reach Amex approval only through security and functional testing at an Amex-accredited laboratory (for example Applus+), layered on EMVCo approvals."
+ },
+ {
+  "id": "amex-057",
+  "network": "amex",
+  "claim": "Payment facilitators join Amex acceptance by registering through an OptBlue Participant, not with Amex directly, and Amex charges no registration fee."
+ },
+ {
+  "id": "amex-058",
+  "network": "amex",
+  "claim": "Amex defines a payment facilitator as the merchant of record for its program merchants and caps what a PayFac may sponsor: no single merchant above $1MM Amex volume and no sub-PayFacs."
+ },
+ {
+  "id": "amex-059",
+  "network": "amex",
+  "claim": "OptBlue Participants are bound by non-public Operating Regulations that cap which merchants they may sign; the U.S. acquiring threshold rose to $3,000,000 ECV effective April 17, 2026."
+ },
+ {
+  "id": "amex-060",
+  "network": "amex",
+  "claim": "Payment facilitators and third-party service providers can only ride OptBlue under a Participant whose PayFac sales channel Amex has certified; Amex marks such Participants on its public list."
+ },
+ {
+  "id": "amex-063",
+  "network": "amex",
+  "claim": "OptBlue was launched in February 2014 with six acquirers and scaled through ISOs sponsored by those acquirers; within a year a dozen acquirers and 'hundreds' of ISOs were enrolled."
+ },
+ {
+  "id": "amex-065",
+  "network": "amex",
+  "claim": "In Amex's April 2026 Merchant Operating Guide, a 'Merchant Services Provider' is defined as an entity authorized under OptBlue, or a payment facilitator, to accept charges from a merchant, formalising the two indirect acquiring routes."
+ },
+ {
+  "id": "amex-071",
+  "network": "amex",
+  "claim": "The developer portal uses role-based access: Owners (company level) create projects and request production keys, Admins manage a project, and Developers can only request sandbox access."
+ },
+ {
+  "id": "amex-073",
+  "network": "amex",
+  "claim": "American Banker reports the Agile Partner Platform (APP) as GNS's curated fintech entry route, built on sponsor banks (Celtic, Evolve, First Electronic) and cloud processors (i2c, CoreCard), with Amex stressing selectivity."
+ },
+ {
+  "id": "amex-074",
+  "network": "amex",
+  "claim": "Card-issuing platforms (Lithic, May 2025; Marqeta, Feb 2025) have been admitted to the Agile Partnership Platform so their fintech clients can issue on the Amex network without a direct Amex licence."
+ },
+ {
+  "id": "amex-075",
+  "network": "amex",
+  "claim": "Fintech programmes on the Amex network are issued by a sponsor bank (for example First Electronic Bank for Cardless), confirming Amex requires a licensed bank issuer behind fintech cards."
+ },
+ {
+  "id": "amex-076",
+  "network": "amex",
+  "claim": "Amex's public fintech page offers only positioning ('speed to market', customisable product lines) and no application, eligibility or sponsor-bank information."
+ },
+ {
+  "id": "amex-080",
+  "network": "amex",
+  "claim": "2024-09-30: OptBlue merchants filed Pizza Hazel v. American Express (D. Mass.), a putative class action attacking the anti-steering and non-discrimination provisions; Amex's motion to compel arbitration was denied and appealed to the First Circuit."
+ },
+ {
+  "id": "amex-081",
+  "network": "amex",
+  "claim": "Amex is also appealing to the First Circuit a denial of arbitration in 5-Star General Store v. American Express (D.R.I., filed 2024-03-21), a second merchant class action over the same steering provisions."
+ },
+ {
+  "id": "amex-082",
+  "network": "amex",
+  "claim": "2024-10-08: Amex moved the Amex Offers team out of Global Merchant and Network Services into a new Membership Portfolio Services unit under Alex Drummond in U.S. Consumer Services (memo shared September 2024)."
+ },
+ {
+  "id": "amex-083",
+  "network": "amex",
+  "claim": "2024-10-15: Amex completed its acquisition of Tock (reservation, table and event management) from Squarespace, adding roughly 7,000 restaurants, wineries, hotels and venues to its dining platform."
+ },
+ {
+  "id": "amex-084",
+  "network": "amex",
+  "claim": "2024-11-13: Amex launched a merchant-value programme for construction merchants with discounted B2B services from Levelset (Procore), Billd and BILT for Amex-accepting businesses."
+ },
+ {
+  "id": "amex-085",
+  "network": "amex",
+  "claim": "2024-12-04: Fintech Hypercard signed to issue a consumer card on the Amex network in the U.S., with Deserve as program manager and Celtic Bank as issuer."
+ },
+ {
+  "id": "amex-086",
+  "network": "amex",
+  "claim": "2025-01-16: Amex disclosed agreements with the DOJ, the U.S. Attorney (E.D.N.Y.) and an agreement in principle with Federal Reserve staff to resolve investigations of historical small-business sales practices, paying about $230 million."
+ },
+ {
+  "id": "amex-087",
+  "network": "amex",
+  "claim": "2025-01-16: Trade press broke the $230M down as $108.7M plus interest to DOJ Civil Division and a $138.4M criminal fine and forfeiture under a non-prosecution agreement with the E.D.N.Y. U.S. Attorney."
+ },
+ {
+  "id": "amex-088",
+  "network": "amex",
+  "claim": "2025-01-16: The criminal side of the sales-practices matter was resolved through a non-prosecution agreement rather than a plea."
+ },
+ {
+  "id": "amex-089",
+  "network": "amex",
+  "claim": "FY2025 10-K confirms the sales-practices investigations (including the Federal Reserve piece) were resolved by agreements entered in 2025."
+ },
+ {
+  "id": "amex-090",
+  "network": "amex",
+  "claim": "2025-01-30 (effective 2025-02-03): Anna Marrs became Group President, Global Merchant and Network Services, swapping roles with Raymond Joabar, who took Global Commercial Services."
+ },
+ {
+  "id": "amex-091",
+  "network": "amex",
+  "claim": "2025-01-30: Mohammed Badi, President of Global Network Services since 2021 and the public face of the fintech/Agile Partnership Platform strategy, moved to President, Global Servicing."
+ },
+ {
+  "id": "amex-092",
+  "network": "amex",
+  "claim": "2025-03-06: Amex agreed to acquire Center, an expense-management software company, with closing expected in Q2 2025; terms undisclosed."
+ },
+ {
+  "id": "amex-093",
+  "network": "amex",
+  "claim": "2025-04-16: Amex completed the Center acquisition, to be integrated with corporate and small-business cards; financial terms not disclosed."
+ },
+ {
+  "id": "amex-094",
+  "network": "amex",
+  "claim": "2025 (n.d.): Amex told OptBlue sales channels it had eliminated annual charge-volume thresholds for certain industry categories (charity, education, government, B2C healthcare, insurance, residential rent, utilities, online gambling) while the $1MM ECV ceiling still applied elsewhere."
+ },
+ {
+  "id": "amex-095",
+  "network": "amex",
+  "claim": "Effective 2026-04-17: Amex raised the U.S. OptBlue merchant-acquiring threshold from $1 million to $3,000,000 in estimated annual Amex charge volume (rolling 12 months), excluding Puerto Rico and the U.S. Virgin Islands."
+ },
+ {
+  "id": "amex-096",
+  "network": "amex",
+  "claim": "Under the 2026 OptBlue rules, eight industry segments carry no threshold at all, while Games of Value merchants need at least $1,000,000 ECV."
+ },
+ {
+  "id": "amex-097",
+  "network": "amex",
+  "claim": "2025-05-14: Issuer-processor Lithic joined Amex's Agile Partnership Platform so fintechs can apply to issue on the Amex network; Amex's Will Stredwick (SVP and GM, GNS North America) endorsed it."
+ },
+ {
+  "id": "amex-098",
+  "network": "amex",
+  "claim": "2025-06-12: Coinbase announced the Coinbase One Card on the American Express Network, offered with Cardless (an Amex Ventures portfolio company) and issued by First Electronic Bank, targeting a fall 2025 launch."
+ },
+ {
+  "id": "amex-099",
+  "network": "amex",
+  "claim": "By year-end 2025 the Coinbase One Card had launched on the Amex network, which Amex's chairman cites as the model for new fintech network partnerships."
+ },
+ {
+  "id": "amex-100",
+  "network": "amex",
+  "claim": "2025-06-26 (posted 2025-07-03): Amex signed Wizz Air for acceptance, which it says completes coverage of every major airline flying in and out of the UK."
+ },
+ {
+  "id": "amex-101",
+  "network": "amex",
+  "claim": "2025-08-05: Amex and Toast announced a multi-year partnership linking Resy/Tock guest data to Toast POS across U.S. restaurants, with features rolling out from 2026."
+ },
+ {
+  "id": "amex-102",
+  "network": "amex",
+  "claim": "2025-08-28: In the Moskowitz (formerly Oliver) consumer anti-steering class action (E.D.N.Y.), the jury found for Amex on all claims except an Illinois consumer-law claim, awarding $12.5 million to Illinois non-rewards credit cardholders."
+ },
+ {
+  "id": "amex-103",
+  "network": "amex",
+  "claim": "2025-08-29: Bloomberg Law characterised the verdict as a split decision: liability for unfair acts under Illinois law, no liability on the state antitrust claims."
+ },
+ {
+  "id": "amex-104",
+  "network": "amex",
+  "claim": "September 2025: Antitrust counsel read the verdict as the jury rejecting the plaintiffs' market-definition and market-power case against Amex's merchant rules."
+ },
+ {
+  "id": "amex-105",
+  "network": "amex",
+  "claim": "Amex and the Moskowitz plaintiffs settled before final judgment; the court-authorised notice site opened claims for the Illinois non-rewards class (deadline 2026-05-19)."
+ },
+ {
+  "id": "amex-106",
+  "network": "amex",
+  "claim": "The Moskowitz settlement's final approval hearing was scheduled for 2026-07-07 in the Eastern District of New York."
+ },
+ {
+  "id": "amex-107",
+  "network": "amex",
+  "claim": "2026-02-24: The Moskowitz settlement was reported at $17.5 million, executed 2026-01-15, covering merchant anti-steering rules."
+ },
+ {
+  "id": "amex-108",
+  "network": "amex",
+  "claim": "2025-09-09: Amex said its cards were accepted at an estimated 160 million merchant locations worldwide as of June 2025, nearly 5x 2017, with Anna Marrs (Group President, GMNS) quoted."
+ },
+ {
+  "id": "amex-109",
+  "network": "amex",
+  "claim": "At year-end 2025 Amex claimed more than 170 million merchant locations, a figure that includes an estimated 37 million China merchants reached via digital wallets and partner-acquired locations."
+ },
+ {
+  "id": "amex-110",
+  "network": "amex",
+  "claim": "2025-09-29: Vice Chairman Doug Buckminster, formerly President of Global Network & International Card Services and architect of the country-by-country international strategy, announced retirement effective 2026-03-06."
+ },
+ {
+  "id": "amex-111",
+  "network": "amex",
+  "claim": "2025-11-06: Amex and Emburse added Amex Virtual Card issuance and real-time transaction data inside Emburse Enterprise Expense, an example of Amex embedding issuance into partner platforms."
+ },
+ {
+  "id": "amex-112",
+  "network": "amex",
+  "claim": "2025-12-01: Amex Argentina signed Nave (Grupo Galicia's acquiring platform) into OptBlue, showing the OptBlue sub-acquirer model operating outside the U.S. (launched in Argentina in 2021)."
+ },
+ {
+  "id": "amex-113",
+  "network": "amex",
+  "claim": "2026-01-13: Senators Durbin and Marshall reintroduced the Credit Card Competition Act (S.3623), requiring $100B+ issuers to enable two unaffiliated networks including one outside Visa/Mastercard."
+ },
+ {
+  "id": "amex-114",
+  "network": "amex",
+  "claim": "2026-01-30: Law-firm analysis notes the 2026 CCCA exempts cards issued in a 3-party model where issuer and network are the same or commonly owned, i.e. Amex and Discover."
+ },
+ {
+  "id": "amex-115",
+  "network": "amex",
+  "claim": "FY2025 10-K: Amex warns its exemptions from network-routing and interchange regulation are not guaranteed and that bankcard fee regulation still hurts its discount revenue."
+ },
+ {
+  "id": "amex-116",
+  "network": "amex",
+  "claim": "FY2025 10-K: network partners in about 110 countries generated $227.2 billion of processed volume in 2025 and 66.2 million third-party cards-in-force at year-end."
+ },
+ {
+  "id": "amex-118",
+  "network": "amex",
+  "claim": "FY2025 10-K flags the RBA's July 2025 consultation to remove surcharging on designated networks as a live regulatory risk with uncertain impact."
+ },
+ {
+  "id": "amex-119",
+  "network": "amex",
+  "claim": "2026-01-29: Amex said it had already completed thousands of AI-assisted transactions in pilots with AI platform partners and was helping shape agentic-payment standards."
+ },
+ {
+  "id": "amex-120",
+  "network": "amex",
+  "claim": "2026-01-30: With Q4 2025 results Amex guided to 9-10% revenue growth and EPS of $17.30-$17.90 for 2026."
+ },
+ {
+  "id": "amex-121",
+  "network": "amex",
+  "claim": "2026-02-24: Resy announced it would fold Tock venues into Resy in summer 2026 (25,000+ venues, 1,200+ wineries) and release upgraded third-party APIs, including for Gen AI platforms, in 2026."
+ },
+ {
+  "id": "amex-122",
+  "network": "amex",
+  "claim": "2026-03-17: Amex Virtual Cards became available inside SAP Concur Expense, extending the Amex-Concur partnership for enterprise clients."
+ },
+ {
+  "id": "amex-123",
+  "network": "amex",
+  "claim": "2026-03-25: Amex launched the Graphite Business Cash Unlimited Card and said 2026 would bring eight new or enhanced commercial products, including new expense-management software and AI capabilities."
+ },
+ {
+  "id": "amex-124",
+  "network": "amex",
+  "claim": "2026-03-31: The RBA finalised removal of surcharging on the designated eftpos, Mastercard and Visa networks from 1 October 2026; Amex is not a designated network and is not mentioned."
+ },
+ {
+  "id": "amex-125",
+  "network": "amex",
+  "claim": "2026-07-02: Amex told Australian merchants (via a June website update) it would voluntarily end surcharging on Amex from 1 October 2026 in line with the RBA reforms despite not being designated."
+ },
+ {
+  "id": "amex-126",
+  "network": "amex",
+  "claim": "2026-04-14: Amex unveiled the Agentic Commerce Experiences (ACE) Developer Kit, giving select developers agent registration, account enablement, intent intelligence, payment credentials and cart-context services on its network."
+ },
+ {
+  "id": "amex-127",
+  "network": "amex",
+  "claim": "2026-04-14: Amex announced Amex Agent Purchase Protection, committing to absorb charges caused by registered AI-agent error when authenticated purchase intent is sent to Amex."
+ },
+ {
+  "id": "amex-129",
+  "network": "amex",
+  "claim": "2026-04-14: American Banker reported the kit's functions and that Amex had run thousands of test agentic payments; Luke Gebb said trust and security are needed to 'grease the wheels'."
+ },
+ {
+  "id": "amex-130",
+  "network": "amex",
+  "claim": "2026-04-14: Fortune quoted Amex innovation head Luke Gebb conceding agentic commerce volume was still nascent at launch of the developer kit."
+ },
+ {
+  "id": "amex-131",
+  "network": "amex",
+  "claim": "2026-04-29: Amex's global network lead Stefan Olofsson pushed for cross-industry agentic standards, working with Stripe, OpenAI, EMVCo and the FIDO Alliance."
+ },
+ {
+  "id": "amex-132",
+  "network": "amex",
+  "claim": "2026-04-16: Amex agreed to acquire Hypercard (Hyper), an agentic expense-management startup that had launched a card on the Amex network via the Agile Partner Platform in 2024; closing expected in Q2 2026."
+ },
+ {
+  "id": "amex-133",
+  "network": "amex",
+  "claim": "2026-04-17: Payments Dive reported Amex declined to disclose the Hypercard price and expected to close in the same quarter."
+ },
+ {
+  "id": "amex-134",
+  "network": "amex",
+  "claim": "2026-05-04: Amex agreed to sell its ~30% stake in Global Business Travel Group (GBTG) to Long Lake/General Catalyst for about $1.5 billion, booking a ~$975 million pre-tax gain not in prior guidance."
+ },
+ {
+  "id": "amex-136",
+  "network": "amex",
+  "claim": "2026-05-13: Amazon relaunched its business cards with U.S. Bank on Mastercard, ending Amex's issuance of the Amazon Business co-brand; existing Amex cardholders migrate on 14 August 2026."
+ },
+ {
+  "id": "amex-137",
+  "network": "amex",
+  "claim": "Amex confirmed to customers that its U.S. small-business co-brand with Amazon is ending, with replacement U.S. Bank cards on 2026-08-14 \u2014 a co-brand loss moving volume to a rival network."
+ },
+ {
+  "id": "amex-138",
+  "network": "amex",
+  "claim": "2026-05-20: Amex became Official Payments Partner at select Fanatics online and retail locations and announced a Fanatics American Express Card to run on the Amex Network later in 2026."
+ },
+ {
+  "id": "amex-139",
+  "network": "amex",
+  "claim": "2026-06-15: Amex announced a proposed acquisition of TheFork (50,000+ restaurants, 11 European countries) from Tripadvisor to extend its dining platform into Europe."
+ },
+ {
+  "id": "amex-140",
+  "network": "amex",
+  "claim": "2026-06-15: The TheFork price was reported as $700 million in cash from Tripadvisor."
+ },
+ {
+  "id": "amex-141",
+  "network": "amex",
+  "claim": "2026-07-24: Q2 2026 results restate TheFork as pending, subject to labour consultation and regulatory approvals, and report Amex piloting its new expense-management platform with middle-market customers."
+ },
+ {
+  "id": "amex-142",
+  "network": "amex",
+  "claim": "2026-07-06 (deal dated late June 2026): Amex Middle East partnered with Network International to add more than 85,000 UAE acceptance locations through a digital onboarding model."
+ },
+ {
+  "id": "amex-143",
+  "network": "amex",
+  "claim": "Network International is described as the first fintech to work with Amex Middle East on expanding in-store and online acceptance, with single-statement, single-settlement onboarding for merchants."
+ },
+ {
+  "id": "amex-144",
+  "network": "amex",
+  "claim": "2026-07-21: Bottomline and Amex integrated Paymode into Amex Buyer Initiated Payments via 'BIP Connect', giving BIP customers access to Paymode's Premium ACH vendor network."
+ },
+ {
+  "id": "amex-145",
+  "network": "amex",
+  "claim": "2026-07-21: Amex claimed the lowest U.S. credit card fraud rate among major card networks for the 19th consecutive year, attributing it to closed-loop visibility and AI models."
+ },
+ {
+  "id": "amex-146",
+  "network": "amex",
+  "claim": "2026-04-24 and 2026-08-10: Amex opened Resy's restaurant inventory to AI assistants, first in Anthropic's Claude and then with in-chat booking in ChatGPT, as new demand channels for restaurant partners."
+ },
+ {
+  "id": "amex-147",
+  "network": "amex",
+  "claim": "2026-08-12: Resy completed the absorption of Tock venues, giving restaurants and wineries one Amex-owned booking platform of 25,000+ venues."
+ },
+ {
+  "id": "amex-148",
+  "network": "amex",
+  "claim": "2026-08-13: Amex extended virtual-card issuance into its @ Work corporate platform and, for Business Travel Account customers, into Conferma's virtual-payments solutions."
+ },
+ {
+  "id": "amex-149",
+  "network": "amex",
+  "claim": "2026-08-20: Amex signed KBank, Krungsri and Siam Commercial Bank as acquiring partners to expand acceptance in Thailand, announced by Usman Arif, SVP Global Network Services APAC."
+ },
+ {
+  "id": "amex-150",
+  "network": "amex",
+  "claim": "As of September 2026 Amex's executive committee page lists Anna Marrs as head of Global Merchant & Network Services and Glenda McNeal as Chief Partner Officer; no President, GNS sits on the committee."
+ },
+ {
+  "id": "amex-151",
+  "network": "amex",
+  "claim": "Outages: no press-reported Amex network outage affecting merchants or partners was found for the window; a third-party monitor logged a 52-minute account-display incident on 2026-02-09."
+ },
+ {
+  "id": "amex-152",
+  "network": "amex",
+  "claim": "Amex Canada publishes an OptBlue Participant and Payment Facilitator Wholesale Discount Rate, defined as a per-charge fee on the acquirer/PayFac computed on the face value of each charge."
+ },
+ {
+  "id": "amex-153",
+  "network": "amex",
+  "claim": "Canada wholesale discount rates are tiered by industry and ticket size: Restaurant 1.60% at or under $200 and 2.40% above; Retail 1.60% at or under $500 and 2.00% above."
+ },
+ {
+  "id": "amex-154",
+  "network": "amex",
+  "claim": "Canada wholesale schedule includes flat and per-transaction pricing for low-margin verticals: Healthcare 1.34%, Residential Rent 1.08%, Utilities $0.68 per transaction up to $1,000 and 1.88% above."
+ },
+ {
+  "id": "amex-155",
+  "network": "amex",
+  "claim": "Amex Canada charges OptBlue participants a Program Participation Fee of 0.12% on all charges plus a 0.30% Card Not Present (non-swiped) fee, disclosed as Network Assessment Fees."
+ },
+ {
+  "id": "amex-156",
+  "network": "amex",
+  "claim": "Amex Canada charges acquirers a 0.60% Inbound Fee on cards issued outside Canada and an Existing Merchant Conversion Fee from 0.30% on charges from merchants that previously contracted directly with Amex."
+ },
+ {
+  "id": "amex-157",
+  "network": "amex",
+  "claim": "The Canadian wholesale rate and network assessment fee schedule is stated as current as of October 30, 2024 and subject to change."
+ },
+ {
+  "id": "amex-158",
+  "network": "amex",
+  "claim": "In Canada the OptBlue Participant or Payment Facilitator, not Amex, sets the total price the merchant pays; Amex publishes only the wholesale components it charges the acquirer."
+ },
+ {
+  "id": "amex-159",
+  "network": "amex",
+  "claim": "In the US, OptBlue merchant pricing is set by the merchant's processor, not by Amex."
+ },
+ {
+  "id": "amex-160",
+  "network": "amex",
+  "claim": "US OptBlue eligibility is capped at less than $3MM in Estimated Annual Charge Volume (ECV) on Amex."
+ },
+ {
+  "id": "amex-161",
+  "network": "amex",
+  "claim": "Amex raised the US OptBlue merchant-acquiring ECV threshold to $3,000,000 (rolling 12 months) effective April 17, 2026."
+ },
+ {
+  "id": "amex-162",
+  "network": "amex",
+  "claim": "Until the 2026 change the US OptBlue programme was for small businesses estimated to process under $1MM in annual Amex charge volume, with select categories approved above $1MM."
+ },
+ {
+  "id": "amex-163",
+  "network": "amex",
+  "claim": "Eight industry categories have no ECV threshold for OptBlue acquisition; Games of Value merchants must have at least $1,000,000 ECV and only approved, certified participants may acquire in some online gambling segments."
+ },
+ {
+  "id": "amex-164",
+  "network": "amex",
+  "claim": "Amex's FY2025 10-K states that OptBlue acquirers, processors and payment facilitators contract directly with small merchants and determine merchant pricing."
+ },
+ {
+  "id": "amex-165",
+  "network": "amex",
+  "claim": "Amex discloses that the merchant discount varies by industry, the merchant's Amex volume, method of payment, settlement terms, submission method, geographic scope of the agreement and transaction amount, with possible flat per-transaction and CNP or inbound add-on fees."
+ },
+ {
+  "id": "amex-166",
+  "network": "amex",
+  "claim": "Discount revenue was $37,401 million in 2025 (up 6%), with Amex noting lower average merchant discount rates from geographic and merchant mix; no numeric average discount rate is disclosed."
+ },
+ {
+  "id": "amex-167",
+  "network": "amex",
+  "claim": "Network partnership revenue from GNS partners comprises royalties, fees and amounts earned for facilitating transactions on partner-issued cards; Amex deducts the acceptance fee from what it pays merchants or third-party acquirers."
+ },
+ {
+  "id": "amex-168",
+  "network": "amex",
+  "claim": "The issuer rate paid to each GNS card-issuing partner is individually negotiated and is not published."
+ },
+ {
+  "id": "amex-170",
+  "network": "amex",
+  "claim": "Amex says regulation of bankcard interchange has pushed its own discount rates down via competitor pricing, and that it exited its network (GNS) business in the EU and Australia because of regulation."
+ },
+ {
+  "id": "amex-171",
+  "network": "amex",
+  "claim": "Two pending US antitrust class actions by OptBlue merchants (Pizza Hazel, D. Mass., filed Sept 30, 2024; 5-Star General Store, D.R.I., filed March 21, 2024) challenge Amex's anti-steering and non-discrimination provisions; Amex's motions to compel arbitration were denied and appealed."
+ },
+ {
+  "id": "amex-172",
+  "network": "amex",
+  "claim": "Amex disclosed that the CJEU Advocate General advised in March 2025 that Amex's payments to its KLM cobrand partner can be subject to the EU interchange fee caps."
+ },
+ {
+  "id": "amex-173",
+  "network": "amex",
+  "claim": "On 16 April 2026 the CJEU (C-549/23, American Express Europe and Others v ACM) held that net payments, rebates or incentives a three-party scheme pays a co-branding partner can count as interchange-equivalent compensation subject to the IFR caps and anti-circumvention rule."
+ },
+ {
+  "id": "amex-174",
+  "network": "amex",
+  "claim": "The European Commission's 2020 IFR review confirms the interchange caps do not apply to three-party schemes like Amex unless the scheme licenses issuers or acquirers, or issues via a co-branding partner or agent, in which case it is treated as four-party."
+ },
+ {
+  "id": "amex-175",
+  "network": "amex",
+  "claim": "Amex told investors in its FY2017 10-K that the EU Interchange Fee Regulation plus PSD2 rendered its GNS licensing business in the EU no longer viable, so it terminated existing EU GNS licences."
+ },
+ {
+  "id": "amex-176",
+  "network": "amex",
+  "claim": "Under RBA regulation adopted in 2016, Amex's payments to Australian GNS issuing partners were capped like interchange: a 0.50% weighted-average benchmark with a 0.80% per-transaction ceiling, which Amex said undermined its ability to attract GNS partners in Australia."
+ },
+ {
+  "id": "amex-177",
+  "network": "amex",
+  "claim": "Amex last disclosed a numeric worldwide average discount rate in its FY2017 10-K: 2.43% (2017), 2.45% (2016), 2.46% (2015); the metric is absent from the FY2024 and FY2025 10-Ks."
+ },
+ {
+  "id": "amex-178",
+  "network": "amex",
+  "claim": "The RBA's March 2026 Conclusions Paper records that Amex, as a non-designated network, has a voluntary agreement with the RBA not to impose no-surcharge rules, and that designated networks' interchange regulation does not apply to it."
+ },
+ {
+  "id": "amex-179",
+  "network": "amex",
+  "claim": "The RBA states the cost to Australian merchants of accepting foreign-issued Amex cards is around 1.65%, versus 2.6 to 2.75% for foreign-issued Visa and Mastercard credit."
+ },
+ {
+  "id": "amex-180",
+  "network": "amex",
+  "claim": "The RBA kept a separate, higher interchange cap for commercial credit cards partly to avoid advantaging Amex, which it calls the largest commercial card issuer whose cards cost merchants more than Visa/Mastercard credit, and will consider designating three-party networks in a mid-2026 review."
+ },
+ {
+  "id": "amex-181",
+  "network": "amex",
+  "claim": "RBA statistical table C3 reports total merchant fees on Amex credit transactions of 1.36% for the June 2026 quarter (series CMFCAET), versus 1.00% for Visa credit and 0.99% for Mastercard credit in the same quarter."
+ },
+ {
+  "id": "amex-182",
+  "network": "amex",
+  "claim": "Since 2013 Amex Australia has voluntarily complied with the surcharging paragraphs of the RBA's Merchant Pricing Standard in exchange for the RBA not designating the Amex system, replacing a 2004 undertaking."
+ },
+ {
+  "id": "amex-183",
+  "network": "amex",
+  "claim": "Amex does not appear in the Federal Reserve's Regulation II average debit interchange fee tables (2024 data), which cover only networks defined as payment card networks under Reg II."
+ },
+ {
+  "id": "amex-184",
+  "network": "amex",
+  "claim": "The UK PSR's March 2025 scheme and processing fee market review engaged Amex and used its transaction data, but treated three-party schemes as outside the Mastercard/Visa issuing competition analysis; its fee-increase findings and remedies concern Mastercard and Visa only."
+ },
+ {
+  "id": "amex-185",
+  "network": "amex",
+  "claim": "The DOJ's September 2024 debit monopolisation complaint against Visa does not address Amex pricing; it mentions Amex only as a marginal debit front-of-card brand and as a network historically foreclosed by Visa/Mastercard issuer exclusivity."
+ },
+ {
+  "id": "amex-186",
+  "network": "amex",
+  "claim": "The US Supreme Court held in Ohio v. American Express (June 25, 2018) that Amex's anti-steering provisions do not violate the Sherman Act, accepting that Amex funds rewards by charging merchants higher fees than rivals and that plaintiffs failed to show above-competitive two-sided prices."
+ },
+ {
+  "id": "amex-187",
+  "network": "amex",
+  "claim": "Amex's US Merchant Reference Guide (Oct 2021) lists a 1.00% Inbound fee on charges made with cards issued outside the United States for charges submitted on or after April 1, 2022."
+ },
+ {
+  "id": "amex-188",
+  "network": "amex",
+  "claim": "The same guide lists direct-merchant ancillary fees: Non-Swiped (Card/Device Not Present) fee up to 0.30%, Voice Authorization $0.65 per charge, Paper Statement up to $7.95, Check fee $1.50, Technical Specifications Non-Compliance 0.75%, Monthly Gross Pay fee 0.03%."
+ },
+ {
+  "id": "amex-189",
+  "network": "amex",
+  "claim": "Amex's US data-security regime carries tiered Data Incident non-compliance fees by merchant level: USD $25,000 (Level 1), $5,000 (Level 2), $1,000 (Level 3/4) at 45 days, rising to $35,000/$10,000/$2,500 at 90 days."
+ },
+ {
+  "id": "amex-190",
+  "network": "amex",
+  "claim": "Amex's Merchant Regulations International (April 2026) list the Discount Rate amount only as 'Varies' and direct merchants to their Amex representative, confirming direct-merchant pricing is negotiated and unpublished."
+ },
+ {
+  "id": "amex-191",
+  "network": "amex",
+  "claim": "Payment facilitators and indirect acceptors on the Amex network face escalating non-compliance fees of up to USD $10,000 for a second violation and up to $20,000 for third and subsequent violations within 12 months."
+ },
+ {
+  "id": "amex-192",
+  "network": "amex",
+  "claim": "Registration for the AMEX Enabled service-provider certification programme carries no fee."
+ },
+ {
+  "id": "amex-194",
+  "network": "amex",
+  "claim": "At OptBlue's 2014 launch, Digital Transactions reported the programme covered merchants with $1 million or less in annual Amex volume, with acquirers setting merchant pricing off Amex-provided wholesale rates by MCC and ticket size."
+ },
+ {
+  "id": "amex-195",
+  "network": "amex",
+  "claim": "Amex Merchant Financing is priced as a fixed fee by term (6, 12 or 24 months) rather than an APR, with fee ranges reported as 1.75-7%, 3.5-14% and 7-28% and early-repayment rebates of 25% or 10% of the fee."
+ },
+ {
+  "id": "amex-196",
+  "network": "amex",
+  "claim": "Amex UK publishes no merchant rate card; the Discount Rate is disclosed only in the individual application form, Terms and Conditions or confirmation letter, and Amex deducts it before settling within five business days."
+ },
+ {
+  "id": "amex-197",
+  "network": "amex",
+  "claim": "American Express Company is the legal owner of the American Express network; it was incorporated in 1965 as a New York corporation after starting as a joint stock association."
+ },
+ {
+  "id": "amex-200",
+  "network": "amex",
+  "claim": "Largest shareholder is Berkshire Hathaway Inc. and subsidiaries with 151,610,700 shares, 22.1% of the class, as of December 31, 2025; no controlling owner."
+ },
+ {
+  "id": "amex-201",
+  "network": "amex",
+  "claim": "Amex positions itself as the fourth-largest general-purpose card network globally by purchase volume, behind Visa, China UnionPay and Mastercard."
+ },
+ {
+  "id": "amex-202",
+  "network": "amex",
+  "claim": "The FY2025 10-K names Discover and Diners Club International as network competitors and records that both are now owned by Capital One (the FY2024 10-K had said Diners Club was owned by Discover)."
+ },
+ {
+  "id": "amex-203",
+  "network": "amex",
+  "claim": "2025 network volumes were $1,897.0 billion (up 7%) and billed business (spend on Amex-issued cards) was $1,669.8 billion (up 8%), per Table 5 of the 10-K."
+ },
+ {
+  "id": "amex-204",
+  "network": "amex",
+  "claim": "Total cards-in-force were 152.8 million at 2025 year-end, of which 86.6 million were proprietary (Amex-issued); basic cards-in-force were 128.9 million."
+ },
+ {
+  "id": "amex-205",
+  "network": "amex",
+  "claim": "Worldwide processed volume (spend on third-party-issued Amex cards plus alternative payment solutions Amex facilitates) was $227.2 billion in 2025, about 12% of network volumes."
+ },
+ {
+  "id": "amex-206",
+  "network": "amex",
+  "claim": "Third-party (network partner) issued cards-in-force were 66.2 million at December 31, 2025."
+ },
+ {
+  "id": "amex-207",
+  "network": "amex",
+  "claim": "Amex's card network business maintains relationships with third-party banks and institutions in approximately 110 countries and territories (FY2025)."
+ },
+ {
+  "id": "amex-208",
+  "network": "amex",
+  "claim": "The FY2024 10-K put the network-partner footprint at approximately 120 countries and territories, ten more than the FY2025 figure."
+ },
+ {
+  "id": "amex-209",
+  "network": "amex",
+  "claim": "The FY2021 10-K put the network-partner footprint at approximately 103 countries and territories, showing the figure has moved 103 -> 120 -> 110 across filings."
+ },
+ {
+  "id": "amex-212",
+  "network": "amex",
+  "claim": "GNS participants are classified in Amex's own network policy manual as Network Card License (NCL) issuers, Independent Operators (IOs) and Joint Ventures (JVs) part-owned by an Amex entity."
+ },
+ {
+  "id": "amex-214",
+  "network": "amex",
+  "claim": "Amex says its GNS business launched in 1997 and its bank partners have extended the network into over 198 countries and territories (a different measure from the ~110 partner countries in the 10-K)."
+ },
+ {
+  "id": "amex-215",
+  "network": "amex",
+  "claim": "In July 2023 Amex said global acceptance covered more than 80 million locations, having tripled international accepting locations since 2017."
+ },
+ {
+  "id": "amex-216",
+  "network": "amex",
+  "claim": "In September 2025 Amex said its cards were accepted at an estimated 160 million merchant locations worldwide as of June 2025, nearly 5x the 2017 count."
+ },
+ {
+  "id": "amex-217",
+  "network": "amex",
+  "claim": "The 160 million June-2025 figure includes an estimated 43 million merchants reached through payment facilitators and 34 million merchants reached through digital wallets in China."
+ },
+ {
+  "id": "amex-218",
+  "network": "amex",
+  "claim": "Amex claims virtual parity in the U.S., accepted at 99% of places that take credit cards since the end of 2019 (Nilson-sourced)."
+ },
+ {
+  "id": "amex-219",
+  "network": "amex",
+  "claim": "Amex's 2025 Annual Report states acceptance reached over 170 million merchant locations worldwide as of year-end 2025."
+ },
+ {
+  "id": "amex-220",
+  "network": "amex",
+  "claim": "Amex defines locations in force (LIF) as proprietary and partner-acquired merchant locations enabled to accept Amex, including payfac and digital-wallet merchants and third-party-supplied estimates."
+ },
+ {
+  "id": "amex-221",
+  "network": "amex",
+  "claim": "The year-end 2025 LIF estimate reflects an estimated 37 million merchants accepting Amex in China, including through digital wallets."
+ },
+ {
+  "id": "amex-223",
+  "network": "amex",
+  "claim": "Amex's Q4-2025 earnings release boilerplate describes the network as having 'over a hundred million' merchant locations, a rounder and lower framing than the 160-170 million figures published elsewhere."
+ },
+ {
+  "id": "amex-224",
+  "network": "amex",
+  "claim": "Trade press (Digital Transactions) reported the 170 million figure from the 2026 shareholder letter and noted the prior-year China count was 31 million excluding certain payfac-acquired locations."
+ },
+ {
+  "id": "amex-225",
+  "network": "amex",
+  "claim": "Amex's U.S. merchant site cites Nilson Report #1,301 (February 2026) for the 99% U.S. acceptance claim and notes acceptance-location counts exclude ATMs and branches."
+ },
+ {
+  "id": "amex-226",
+  "network": "amex",
+  "claim": "Amex's merchant site advertises access to 'over 112+ Million Card Members', which does not reconcile with the 10-K's 152.8 million cards-in-force or 128.9 million basic cards-in-force."
+ },
+ {
+  "id": "amex-228",
+  "network": "amex",
+  "claim": "The 10-K describes OptBlue as the programme under which acquirers, processors and payment facilitators contract directly with small merchants and set their pricing on the Amex network."
+ },
+ {
+  "id": "amex-231",
+  "network": "amex",
+  "claim": "Amex added debit capabilities to its network and issued its first proprietary debit card in 2021, so the network carries credit, charge, prepaid and debit products."
+ },
+ {
+  "id": "amex-232",
+  "network": "amex",
+  "claim": "American Express does not appear in the Federal Reserve's Regulation II network interchange tables, which list Discover, Mastercard and Visa as dual-message networks and 13 single-message networks."
+ },
+ {
+  "id": "amex-236",
+  "network": "amex",
+  "claim": "Under a 2014 MoU Amex cards in China ran on the China UnionPay network, with working teams to explore cooperation inside and outside China (arrangement predates Amex's own China clearing licence)."
+ },
+ {
+  "id": "amex-237",
+  "network": "amex",
+  "claim": "Amex's China joint venture Express (Hangzhou) Technology Services Co., with LianLian DigiTech, received a People's Bank of China network clearing licence in June 2020, making Amex the first foreign network licensed to clear RMB card transactions in mainland China."
+ },
+ {
+  "id": "amex-238",
+  "network": "amex",
+  "claim": "Amex's network site says Card Members can access cash at more than 1.5 million ATMs worldwide through bank partnerships, with partner ATM networks in more than 150 countries."
+ },
+ {
+  "id": "amex-239",
+  "network": "amex",
+  "claim": "In the U.S., Amex checking/business customers had free cash access at over 37,000 MoneyPass ATMs before adding about 40,000 Allpoint (NCR Atleos) ATMs announced February 2024."
+ },
+ {
+  "id": "amex-240",
+  "network": "amex",
+  "claim": "Nilson ranked Amex the second-largest U.S. general-purpose credit card issuer with $1.168 trillion in 2024 purchase volume (as re-published by Nilson's own wire release)."
+ },
+ {
+  "id": "amex-241",
+  "network": "amex",
+  "claim": "The Merchant Regulations \u2013 International (April 2026 edition, 136 pages) is a public PDF, published April 17, 2026 with some changes effective October 16, 2026."
+ },
+ {
+  "id": "amex-242",
+  "network": "amex",
+  "claim": "The Merchant Operating Guide \u2013 All Regions (April 2026, 120 pages) is the public rulebook for merchants signed by third-party Merchant Services Providers (OptBlue and equivalent programmes) in the US, Canada, EEA/UK, Australia, Mexico and Argentina."
+ },
+ {
+  "id": "amex-243",
+  "network": "amex",
+  "claim": "Amex publishes the U.S. Merchant Regulations twice a year, in April and October; the full U.S. edition is only available to logged-in merchants."
+ },
+ {
+  "id": "amex-244",
+  "network": "amex",
+  "claim": "On October 23, 2026 Amex will publish a single consolidated 'American Express Merchant Rules' replacing the Canada Merchant Operating Manual, the International and the U.S. Merchant Regulations, effective April 24, 2027."
+ },
+ {
+  "id": "amex-245",
+  "network": "amex",
+  "claim": "From May 18, 2026 the International Merchant Regulations require at least 30 days' notice before any rule change takes effect, and treat continued card acceptance after the effective date as acceptance of the change."
+ },
+ {
+  "id": "amex-246",
+  "network": "amex",
+  "claim": "The U.S. Merchant Regulations (October 2024 edition) allow unscheduled rule changes to take effect only ten days after notice, alongside the scheduled April/October releases."
+ },
+ {
+  "id": "amex-248",
+  "network": "amex",
+  "claim": "The network-side rulebook for licensed issuers and acquirers, the Business and Operational Policies (BOP) manual, is published twice a year in April and October; the October 2023 edition (572 pages) is publicly hosted on the GNS site."
+ },
+ {
+  "id": "amex-252",
+  "network": "amex",
+  "claim": "The U.S. Data Security Operating Policy (DSOP), April 2026 edition (19 pages), is public and carried no changes in that release."
+ },
+ {
+  "id": "amex-253",
+  "network": "amex",
+  "claim": "DSOP sets four merchant levels and two service-provider levels by annual Amex transaction count; Level 1 and 2 merchants and all service providers must enrol in the portal of Amex's appointed Program Administrator."
+ },
+ {
+  "id": "amex-254",
+  "network": "amex",
+  "claim": "PCI non-validation fees are tiered by level: USD 25,000 / 5,000 / 50 at the first missed deadline and 35,000 / 10,000 / 100 at the second, with a third-deadline tier of 45,000 / 15,000 / 250 in the U.S. Regulations."
+ },
+ {
+  "id": "amex-255",
+  "network": "amex",
+  "claim": "Merchants and service providers must report a data incident within 72 hours; incidents of 10,000+ card numbers require a PCI Forensic Investigator within five days, indemnity of USD 5 per account number applies, and a data-incident non-compliance fee is capped at USD 100,000 per incident."
+ },
+ {
+  "id": "amex-256",
+  "network": "amex",
+  "claim": "The Targeted Analysis Program (TAP) is Amex's named account-data-compromise programme; missed TAP deadlines carry fees of USD 25,000 / 5,000 / 1,000 by level, rising to 45,000 / 15,000 / 5,000 at a third deadline."
+ },
+ {
+  "id": "amex-257",
+  "network": "amex",
+  "claim": "Amex's dispute framework uses an Inquiry (request for information) that may precede a Chargeback; merchants must answer either within 20 days, with shorter windows in Argentina (5 days), India (10 days) and for certain EEA/UK claims (5 days)."
+ },
+ {
+  "id": "amex-258",
+  "network": "amex",
+  "claim": "Amex first tries to resolve a disputed transaction from its own information, then sends either a Chargeback or an Inquiry; an unanswered Inquiry becomes a 'No Reply' Chargeback, and reason codes are grouped into Authorisation, Cardmember Disputes, Fraud, Inquiry/Miscellaneous, Processing Error and Fraud Full Recourse."
+ },
+ {
+  "id": "amex-259",
+  "network": "amex",
+  "claim": "At network level the issuer\u2013acquirer dispute cycle runs Presentment, Retrieval Request, Fulfillment, First Chargeback, Second Presentment and Final Chargeback, with Pre-Arbitration/Arbitration and Pre-Compliance/Compliance, processed through the licensed Network Disputes Manager (NDM) tool."
+ },
+ {
+  "id": "amex-260",
+  "network": "amex",
+  "claim": "The Global Disputes Monitoring Program (GDMP) holds each issuer/acquirer participant to regional monthly First Chargeback and Retrieval Request thresholds (0.20% US/Canada, 0.60% EMEA and APAC, 0.75% LAC), with non-compliance fees for failure to reduce rates."
+ },
+ {
+  "id": "amex-261",
+  "network": "amex",
+  "claim": "Merchants enter the Fraud Full Recourse (FFR) Program, losing all fraud-chargeback reversal rights and SafeKey liability shift, when monthly fraud-to-gross reaches 0.9% with USD 25,000 fraud (Low Tier) or 1.8% with USD 50,000 (High Tier)."
+ },
+ {
+  "id": "amex-262",
+  "network": "amex",
+  "claim": "Amex operates opt-in Immediate Chargeback (FR4) and Partial Immediate Chargeback (FR6) programmes under which non-fraud disputes are charged back without a prior Inquiry, the partial variant applying only below a merchant-set dollar threshold."
+ },
+ {
+  "id": "amex-263",
+  "network": "amex",
+  "claim": "An Excessive Chargeback Fee of USD 25 per chargeback above a 1% ratio applies each month after a merchant's chargeback-to-gross-charges ratio exceeds 1% for three consecutive months."
+ },
+ {
+  "id": "amex-264",
+  "network": "amex",
+  "claim": "Network-level sanctions on issuers and acquirers follow an escalating General Non-Compliance Fee schedule from USD 5,000 per first violation to USD 50,000 monthly at the fifth, after a formal determination-of-violation, notification and Action Plan process."
+ },
+ {
+  "id": "amex-265",
+  "network": "amex",
+  "claim": "Acquirers are subject to a Brand Protection regime with a paid Brand Protection Assessment (USD 20,000 initial, 10,000 supplemental) and non-compliance fees for illegal or brand-damaging merchant activity rising to USD 100,000."
+ },
+ {
+  "id": "amex-266",
+  "network": "amex",
+  "claim": "The Cardholder Data Compromise Recovery Process (CDCRP) is the issuer's sole route to recover incremental fraud losses and operational costs from an acquirer after a qualifying data compromise event (10,000+ accounts, PAN plus sensitive data or expiry, US/Canada acquirer relationship)."
+ },
+ {
+  "id": "amex-268",
+  "network": "amex",
+  "claim": "GNS issuers must give cardmembers access to the Amex Shared ATM Network and route ATM transactions through it first, with an exception (added October 2023) for portfolios issued primarily as digital cards."
+ },
+ {
+  "id": "amex-269",
+  "network": "amex",
+  "claim": "Third-party technology and service providers certify against Amex specifications through the AMEX Enabled programme, which charges no registration fee and requires click-through NDA and terms; certified solutions may use the AMEX Enabled badge."
+ },
+ {
+  "id": "amex-270",
+  "network": "amex",
+  "claim": "Effective April 17, 2026 the OptBlue merchant-acquiring ceiling in the U.S. rose from USD 1,000,000 to USD 3,000,000 estimated annual charge volume (excluding Puerto Rico and the U.S. Virgin Islands), with no ceiling for charity, healthcare, education, government, insurance, residential rent, utilities and online gambling/games of value."
+ },
+ {
+  "id": "amex-271",
+  "network": "amex",
+  "claim": "Payment facilitators with under USD 250 million annual Amex volume accept Amex only under a certified OptBlue Participant, must register through that participant, submit transaction data to Amex specifications, link sub-merchant agreements to Amex acceptance rules, and may not sponsor another payment facilitator."
+ },
+ {
+  "id": "amex-272",
+  "network": "amex",
+  "claim": "Payment facilitators and indirect acceptors face specific network non-compliance fees of up to USD 10,000 for a second and USD 20,000 for third and later violations of the same rule within 12 months, including failure to supply sponsored-merchant or end-beneficiary data."
+ },
+ {
+  "id": "amex-274",
+  "network": "amex",
+  "claim": "Mandate: from October 16, 2026 an MCC mismatch between authorisation and submission can itself be charged back under ISO 4521 / A08 'Invalid Authorisation', announced in the October 2025 edition."
+ },
+ {
+  "id": "amex-275",
+  "network": "amex",
+  "claim": "Mandates in the last 24 months include Variable Authorizations and EV-charging authorisation guidance (October 18, 2024), an Invalid Chargeback Code documentation change (April 11, 2025) and a standardised 30-day authorisation validity period for car rental, lodging and cruise lines (April 17, 2026)."
+ },
+ {
+  "id": "amex-276",
+  "network": "amex",
+  "claim": "SafeKey (Amex's EMV 3-D Secure programme) shifts card-not-present fraud liability to the issuer only for ECI 5/6 authenticated or attempted transactions from merchants below a 0.9% / USD 25,000 monthly fraud ratio, and only where the acquirer is SafeKey-certified."
+ },
+ {
+  "id": "amex-277",
+  "network": "amex",
+  "claim": "Amex's FY2025 10-K describes the network side as licensing third-party banks in about 110 countries to issue Amex cards and/or acquire merchants, with USD 227.2 billion processed volume and 66.2 million third-party cards-in-force at December 31, 2025."
+ },
+ {
+  "id": "amex-278",
+  "network": "amex",
+  "claim": "Amex's merchant contracts contain anti-steering, non-discrimination and honor-all-cards provisions, which are under antitrust challenge on behalf of OptBlue merchants in Pizza Hazel, Inc. v. American Express (D. Mass., filed September 30, 2024), including the arbitration clause."
+ },
+ {
+  "id": "amex-279",
+  "network": "amex",
+  "claim": "Practitioner coverage confirms the 1%-for-three-months excessive chargeback trigger and USD 25 per-chargeback fee, the 20-day Inquiry window, and the Fraud Full Recourse and Immediate Chargeback programmes."
+ },
+ {
+  "id": "amex-280",
+  "network": "amex",
+  "claim": "Chargeback Gurus reports the FFR thresholds as Low 0.90% / USD 25,000 and High 1.80% / USD 50,000 and the three-month exit rule, citing Amex's U.S. Merchant Regulations."
+ },
+ {
+  "id": "amex-281",
+  "network": "amex",
+  "claim": "A KYB vendor's analysis says the October 2025 Amex merchant rules added portfolio-level accountability, escalating non-compliance fees and end-beneficiary data requirements for payment facilitators, ISOs, bill-payment and instalment providers."
+ },
+ {
+  "id": "amex-282",
+  "network": "amex",
+  "claim": "Amex markets to OptBlue prospects that fewer than 0.03% of U.S. Card Member transactions became disputes reaching merchants in 2025, and that most 'does not recognize' disputes are resolved with substitute receipts without contacting the merchant."
+ },
+ {
+  "id": "amex-284",
+  "network": "amex",
+  "claim": "Scale of the licensing programme: network partners in approximately 110 countries and territories; 66.2 million third-party-issued cards-in-force; $227.2 billion processed volume in 2025."
+ },
+ {
+  "id": "amex-286",
+  "network": "amex",
+  "claim": "Issuer licensing is monetised as 'network partnership revenue' (royalties, fees and per-transaction amounts), reported inside Service fees and other revenue from Q1 2025."
+ },
+ {
+  "id": "amex-296",
+  "network": "amex",
+  "claim": "Core acquirer programme OptBlue: acquirers, processors and payment facilitators contract directly with small merchants and set merchant pricing on the Amex network (sold direct to the acquirer)."
+ },
+ {
+  "id": "amex-297",
+  "network": "amex",
+  "claim": "OptBlue eligibility threshold: from April 17, 2026 OptBlue Participants may acquire U.S. merchants with rolling-12-month estimated annual charge volume up to $3,000,000 (excluding Puerto Rico and USVI)."
+ },
+ {
+  "id": "amex-298",
+  "network": "amex",
+  "claim": "Eight industry categories have no OptBlue volume threshold (Charity, Healthcare, Education, Government, Insurance, Residential Rent, Utilities, Online Gambling/Games of Value); Games of Value merchants need at least $1,000,000 ECV."
+ },
+ {
+  "id": "amex-299",
+  "network": "amex",
+  "claim": "Payment facilitators are sold OptBlue through a sponsor: PayFacs under $250M annual Amex volume register through a certified OptBlue Participant and receive single-source statement, servicing and settlement."
+ },
+ {
+  "id": "amex-300",
+  "network": "amex",
+  "claim": "OptBlue is a wholesale model: American Express does not charge wholesale discount rates or fees to merchants; the OptBlue Participant or Payment Facilitator sets total merchant pricing."
+ },
+ {
+  "id": "amex-306",
+  "network": "amex",
+  "claim": "Acquirer value-added: fraud prevention capabilities built on closed-loop data, data and analytics for acquiring portfolios, and implementation/servicing support are marketed to acquirer partners."
+ },
+ {
+  "id": "amex-307",
+  "network": "amex",
+  "claim": "Acquirer marketing solutions: Offers & Bonusing (card-linked offers), Shop Small, lifecycle marketing campaigns and merchant-acquisition sales support."
+ },
+ {
+  "id": "amex-311",
+  "network": "amex",
+  "claim": "Historical context: OptBlue was announced February 2014 with a $1 million annual Amex volume cap; by January 2015 at least a dozen acquirers/processors and hundreds of ISOs offered it, replacing the OnePoint programme."
+ },
+ {
+  "id": "amex-313",
+  "network": "amex",
+  "claim": "GMNS sells merchants a bundle beyond acceptance: fraud-prevention tools, marketing solutions and data analytics that leverage the closed-loop platform."
+ },
+ {
+  "id": "amex-316",
+  "network": "amex",
+  "claim": "Dispute rules: merchants have 20 days to answer an inquiry or a chargeback, chargeback processing window was reduced to 120 days, and a transaction can be disputed at most twice."
+ },
+ {
+  "id": "amex-318",
+  "network": "amex",
+  "claim": "Direct-merchant processing products: Click to Pay, SmartBill Pro (card-on-file continuity), Multi-Currency (MCCY) Payment Processing, AMEX Raw Data (financial and dispute data feeds) and Contactless Payments."
+ },
+ {
+  "id": "amex-321",
+  "network": "amex",
+  "claim": "SafeKey fraud liability shift terms: Amex waives CNP fraud chargebacks on authenticated (ECI 5) or attempted (ECI 6) SafeKey charges if the merchant stays under a 0.9% fraud ratio and $25,000 monthly fraud."
+ },
+ {
+  "id": "amex-323",
+  "network": "amex",
+  "claim": "Merchant marketing: Amex Offers (card-linked statement credits/Membership Rewards) and Amex Ads (first-party-data advertising platform) are sold to merchants and advertisers, with performance reporting."
+ },
+ {
+  "id": "amex-324",
+  "network": "amex",
+  "claim": "Amex Offers scale claims for merchants: $24B global spend driven in 2025 ($21B U.S.) and 464M U.S. cardmember enrolments."
+ },
+ {
+  "id": "amex-328",
+  "network": "amex",
+  "claim": "Merchant Regulations U.S. are published twice yearly (April, October) and are login-gated; the public Merchant Reference Guide U.S. last seen is October 2021."
+ },
+ {
+  "id": "amex-330",
+  "network": "amex",
+  "claim": "Merchant Financing: fixed-fee loans of $5,000 to $2,000,000 for businesses that accept American Express, repaid over 6, 12 or 24 months (site unreachable; search evidence only)."
+ },
+ {
+  "id": "amex-337",
+  "network": "amex",
+  "claim": "Trade press adds that Lithic fintechs can issue debit, credit and prepaid cards on the Amex network, and that Marqeta signed an equivalent agreement in February 2025."
+ },
+ {
+  "id": "amex-338",
+  "network": "amex",
+  "claim": "Marqeta: Amex becomes 'a new option for credit and debit card programs' on Marqeta from later in 2025 via the Agile Partnership platform; Marqeta positions itself as helping Amex grow debit."
+ },
+ {
+  "id": "amex-340",
+  "network": "amex",
+  "claim": "Program-manager model exists but is thin: Amex's prepaid reloadable and gift card business is run under operational rights owned by a single business partner, and it has had disruptions."
+ },
+ {
+  "id": "amex-342",
+  "network": "amex",
+  "claim": "AMEX Enabled tooling: approved providers get an AMEX Enabled Dashboard with step-by-step certification journey, document library and DocuSign contracting; no programme fees."
+ },
+ {
+  "id": "amex-355",
+  "network": "amex",
+  "claim": "Third-party catalogue of the developer portal lists 12 products: AETS, Enhanced Authorization, Account and Transaction API, Confirmation of Funds (PSD2), @ Work B2B API, Card On-Demand, Pay with Points, Pay with Bank Transfer, PAR, Smart Offer Partnership, Amex Account Connect, Network Loyalty Platform."
+ },
+ {
+  "id": "amex-359",
+  "network": "amex",
+  "claim": "The americanexpress GitHub organisation (88 repositories, 504 followers) is mostly general engineering tooling (one-app, jest-image-snapshot, earlybird, nodes) rather than payment APIs; contact opensource@aexp.com."
+ },
+ {
+  "id": "amex-360",
+  "network": "amex",
+  "claim": "Merchant fraud-tool footprint shrank in 2024: Amex sold Accertify (e-commerce fraud, chargeback management, gateway) to Accel-KKR, booking a $0.66/share gain, while keeping proprietary fraud programmes."
+ },
+ {
+  "id": "amex-369",
+  "network": "amex",
+  "claim": "The public webinar list has not been updated since 2022: the newest listed item is a June 2022 chargeback session, and the Insights library's newest item is July 2022."
+ },
+ {
+  "id": "amex-370",
+  "network": "amex",
+  "claim": "A partner reporting tool named the Partner Analytics Center exists; it is referenced only through a September 2021 training replay and has no public page."
+ },
+ {
+  "id": "amex-375",
+  "network": "amex",
+  "claim": "The AMEX Enabled documents direct providers to www.amexenabled.com, but that hostname did not respond on 2026-09-25; the working entry point is the service-providers page on network.americanexpress.com."
+ },
+ {
+  "id": "amex-381",
+  "network": "amex",
+  "claim": "The network partner base that GNS services spans roughly 110 countries and territories of licensed third-party issuers and acquirers."
+ },
+ {
+  "id": "amex-383",
+  "network": "amex",
+  "claim": "Developer support is a web ticketing system (Create Support Ticket, View Support Tickets, View Ticket Details) backed by ServiceNow, available with or without login, with a Feedback/Support category and two attachments per ticket."
+ },
+ {
+  "id": "amex-390",
+  "network": "amex",
+  "claim": "U.S. merchant live chat is available only after login to the Merchant Account, Mon-Fri 8am-6:30pm ET, and the support center is built around self-service articles."
+ },
+ {
+  "id": "amex-392",
+  "network": "amex",
+  "claim": "Under OptBlue, first-line merchant servicing is outsourced to the acquirer or payment facilitator, which is the merchant's single servicing contact for all card brands."
+ },
+ {
+  "id": "amex-400",
+  "network": "amex",
+  "claim": "Knowledge Base is positioned as the single GNS information source and the gateway to all GNS services; FraudNet, OpsNet, File Tracker and the Token Requester Management Portal are only applied for after Knowledge Base access is granted."
+ },
+ {
+  "id": "amex-404",
+  "network": "amex",
+  "claim": "The partner bulletin is the Network Participant Updates (NPU), published on the second Friday of each month; it replaced the Network News and the Policy and Technical Release Announcement (PTRA) on October 12, 2018, and ad-hoc Special Bulletins cover issues immediately affecting issuers and acquirers."
+ },
+ {
+  "id": "amex-407",
+  "network": "amex",
+  "claim": "Amex claims more than 1200 registered AMEX Enabled service providers across 17 product portfolios and 45+ products; the June 2022 programme overview PDF gave 800+ providers with the same 17 portfolios and 45+ products."
+ },
+ {
+  "id": "amex-408",
+  "network": "amex",
+  "claim": "The June 2022 AMEX Enabled FAQ states there is no registration fee, names www.amexenabled.com as the entry point (it now 301-redirects to the Service Providers page), routes registration problems to AmexEnabled@aexp.com, and keeps the AMEX Enabled Brand Guidelines and press-release rules inside the Dashboard; user enrollment requires prior company registration with click-through NDA and Terms."
+ },
+ {
+  "id": "amex-412",
+  "network": "amex",
+  "claim": "The GNS News section is an empty hub: when fetched it carried only a tagline and no dated articles, and no newsletter subscription exists on the public GNS site; the contact page is a single generic enquiry form with no audience-specific desks."
+ },
+ {
+  "id": "amex-413",
+  "network": "amex",
+  "claim": "Segment landing pages for Acquirers, Issuers and Fintechs each carry Power of the Network / Marketing Solutions / Payment Solutions sub-pages; the acquirer page pitches merchant onboarding speed and closed-loop fraud tools, the fintech page custom product lines and data analytics, and each links only to Knowledge Base sign-in rather than any segment-specific portal."
+ },
+ {
+  "id": "amex-414",
+  "network": "amex",
+  "claim": "Amex for Developers (developer.americanexpress.com) is positioned as the single point of access to Amex APIs; the site is a React single-page app whose HTML shell contains only the title and this description, so text-only fetches see nothing else."
+ },
+ {
+  "id": "amex-418",
+  "network": "amex",
+  "claim": "Credentials are issued per product per environment and do not expire by default, and some products (for example @ Work APIs) carry only overview documentation on the portal because their full documentation is hosted on third-party sites."
+ },
+ {
+  "id": "amex-423",
+  "network": "amex",
+  "claim": "Amex's GitHub organisation (88 repositories, contact opensource@aexp.com, website americanexpress.io) publishes the Java and .NET client libraries that build authentication headers for Amex for Developers APIs; the org and the americanexpress.io engineering blog are the only community-style surfaces and carry no partner support function."
+ },
+ {
+  "id": "amex-425",
+  "network": "amex",
+  "claim": "Technical Specifications for merchants and processors live at www.americanexpress.com/merchantspecs, a user-ID-and-password site (it redirects to /en-us/business/merchant/specifications/merchant-login/); the rulebook says BIN files are requested there after accepting BIN terms, and the April 2026 Merchant Operating Guide sends OptBlue merchants there for payment-product terms."
+ },
+ {
+  "id": "amex-427",
+  "network": "amex",
+  "claim": "The U.S. Merchant Regulations page is public but the current Merchant Regulations \u2013 U.S. and card-acceptance Terms are behind a merchant login (/en-us/business/merchant/regulation/secure/); they publish twice yearly in April and October. The most recent Merchant Reference Guide U.S. on the open web is the October 2021 edition."
+ },
+ {
+  "id": "amex-428",
+  "network": "amex",
+  "claim": "The Merchant Operating Guide (All Regions, April 2026, 120 pages) for merchants signed by Merchant Services Providers (the OptBlue model) is openly downloadable from icm.aexp-static.com, carries a Summary of Changes with change bars, and states an October 16, 2026 effective date for some changes."
+ },
+ {
+  "id": "amex-430",
+  "network": "amex",
+  "claim": "OptBlue eligibility on the public page is under $3MM Estimated Annual Charge Volume per year, with no-threshold categories (charity, education, government, healthcare, insurance, online gambling and games of value, residential rent, utilities); OptBlue merchant support is a phone line (1-833-213-0511) and two PDFs, with no OptBlue portal."
+ },
+ {
+  "id": "amex-431",
+  "network": "amex",
+  "claim": "A public OptBlue Sales Agent site (americanexpress.com/en-us/business/optblue/agent/) serves the sales channels of OptBlue participants with no login: PDFs (Overcoming Merchant Objections, New Merchant Activation Guide, Guide to Managing Disputes, Merchant Welcome Kit, OptBlue Program Updates), bulk signage ordering, and links to the Disputes Learning Hub, Business Savings Suite and Business Class for Merchants; it announces the April 17, 2026 threshold increase to $3,000,000."
+ },
+ {
+  "id": "amex-432",
+  "network": "amex",
+  "claim": "The OptBlue rulebook for participants is named but not public: the agent-site 2025 Program Updates PDF refers participants to Appendix A of the 'OptBlue Program Operating Regulations - PSE Edition' and notes that only approved and certified participants may acquire certain online gambling segments; the PDF still states the pre-April-2026 $1MM ceiling."
+ },
+ {
+  "id": "amex-433",
+  "network": "amex",
+  "claim": "The Payment Facilitator fact sheet (Global Merchant and Network Services, October 2024) tells PayFacs under $250MM annual Amex volume to onboard sponsored merchants through a certified OptBlue Participant, states there is no OptBlue registration fee, and uses the OptBlue web page as the participant directory."
+ },
+ {
+  "id": "amex-437",
+  "network": "amex",
+  "claim": "A distinct 'TPP' (third-party processor) merchant section exists for merchants acquired via processors: disputes there flow through the Merchant Services Provider rather than Amex's online merchant account, and Amex publishes a TPP-specific disputes reference guide; Business Class for Merchants is the public no-login content hub with no newsletter mechanism."
+ },
+ {
+  "id": "amex-439",
+  "network": "amex",
+  "claim": "TabaPay's developer documentation onboards OptBlue merchants by email to TabaPay support, points to an 'American Express Network Requirements' page for data requirements, and still states the pre-April-2026 $1MM eligibility ceiling."
+ },
+ {
+  "id": "amex-440",
+  "network": "amex",
+  "claim": "A payments consultancy frames the April 17, 2026 threshold move to $3M as tripling a merchant's runway before it must sign a direct Establishment Service Agreement with Amex, which brings its own underwriting and risk review, and says OptBlue pricing is consistently below Amex Direct pricing."
+ },
+ {
+  "id": "amex-441",
+  "network": "amex",
+  "claim": "In its FY2025 10-K Amex describes OptBlue as the programme through which merchant acquirers, processors and payment facilitators contract with small merchants and set their pricing, and lists OptBlue participants among partners that manage aspects of its customer relationships."
+ },
+ {
+  "id": "amex-442",
+  "network": "amex",
+  "claim": "The 10-K describes the network partner base as third-party banks and institutions in approximately 110 countries and territories licensed to issue and/or acquire on the network, and never uses the label 'Global Network Services' or 'GNS' that the partner site's Knowledge Base uses; 'developer' and 'Amex Enabled' also do not appear."
+ },
+ {
+  "id": "amex-443",
+  "network": "amex",
+  "claim": "partnerportal.americanexpress.com, the only Amex property titled 'Partner Portal', is a Global Commercial Services referral portal for partners introducing commercial payment solutions, not a network or acquiring surface; it is login-gated and imposed mandatory authenticator-app MFA from November 1, 2025."
+ },
+ {
+  "id": "mastercard-004",
+  "network": "mastercard",
+  "claim": "Portal-issued keys expire after 13 months; the portal emails expiry reminders, although the two docs disagree on the reminder schedule."
+ },
+ {
+  "id": "mastercard-008",
+  "network": "mastercard",
+  "claim": "OAuth 1.0a mechanics: a 97-character non-secret consumer key plus a 2048-bit RSA private signing key (RSA only), signature method fixed to RSA-SHA256 with the oauth_body_hash extension; the portal can generate the key pair in the browser so Mastercard never holds the private key."
+ },
+ {
+  "id": "mastercard-010",
+  "network": "mastercard",
+  "claim": "Auth scheme by service, as tagged in llms.txt: 73 services OAuth1.0a only, 7 OAuth1.0a and OAuth2 (FAPI 2.0), 5 MTLS, 5 NONE (documentation-only), 4 OpenBanking, out of 94 serviceId entries."
+ },
+ {
+  "id": "mastercard-013",
+  "network": "mastercard",
+  "claim": "Sandbox data is mock, not published production data: BIN Lookup's sandbox returns randomly generated account ranges that are explicitly not real Mastercard BIN ranges."
+ },
+ {
+  "id": "mastercard-016",
+  "network": "mastercard",
+  "claim": "There is no portal-wide set of test cards; test PANs are product-specific and for some products a Mastercard representative must configure them."
+ },
+ {
+  "id": "mastercard-025",
+  "network": "mastercard",
+  "claim": "An official Insomnia plugin (insomnia-plugin-mastercard, npm 2.7.1, 2026-07-08) signs requests with OAuth 1.0a or OAuth 2.0 and handles payload encryption and JWS signatures; one-click importable sandbox/production workspaces are published on GitHub."
+ },
+ {
+  "id": "mastercard-026",
+  "network": "mastercard",
+  "claim": "Outbound notifications are called webhooks and are product-specific: Transaction Notifications requires an HTTPS endpoint with mutual TLS, immediate HTTP 200 acknowledgement, and retries failed deliveries for up to 24 hours before parking them for 7 days."
+ },
+ {
+  "id": "mastercard-027",
+  "network": "mastercard",
+  "claim": "Open Finance US is consolidating its webhooks into a named subsystem, the Open Banking Webhook Management System (OBWMS), with existing services migrating during 2026; partners must allow-list about 30 published Mastercard source IP ranges."
+ },
+ {
+  "id": "mastercard-029",
+  "network": "mastercard",
+  "claim": "Per-client call quotas are keyed to the first 48 characters of the consumer key and surfaced live in x-quota-current / x-quota-max / x-quota-period response headers; exceeding a quota returns HTTP 403 rather than 429."
+ },
+ {
+  "id": "mastercard-031",
+  "network": "mastercard",
+  "claim": "Change cadence is per product rather than portal-wide: Mastercard Send ships quarterly releases (26.2, 26.3, 26.4 scheduled) to MTF then Production, publishes release notes three months ahead, and freezes changes 23 Nov 2026 to 1 Jan 2027; other products keep a dated 'Release History' table."
+ },
+ {
+  "id": "mastercard-032",
+  "network": "mastercard",
+  "claim": "Logged out, the product catalogue shows 91 products with category counts (Payments 55, Data 27, Security 20, Loyalty 12, Open Finance 4, New & Experimental 2) and audience filters (Issuer 58, Other Developers 52, Merchant 42, Acquirer 38, Fintech 11, Loyalty Providers 3)."
+ },
+ {
+  "id": "mastercard-033",
+  "network": "mastercard",
+  "claim": "No API pricing is published; product pages defer pricing to the production-access request or an account manager, while sandbox access is free."
+ },
+ {
+  "id": "mastercard-041",
+  "network": "mastercard",
+  "claim": "Direct support tickets require login ('Get Help' opens only after sign-in), while the developer forum is readable logged out with four public categories and regional filters."
+ },
+ {
+  "id": "mastercard-042",
+  "network": "mastercard",
+  "claim": "Forum evidence of sandbox friction: a September 2026 developer reports every request to the Open Finance US sandbox (api.finicity.com) blocked by an Incapsula WAF from non-US networks, with no reply after two weeks."
+ },
+ {
+  "id": "mastercard-045",
+  "network": "mastercard",
+  "claim": "Mastercard advises partners not to IP-allow-list or certificate-pin api.mastercard.com, citing dynamic public infrastructure, and to connect by DNS hostname only."
+ },
+ {
+  "id": "mastercard-047",
+  "network": "mastercard",
+  "claim": "'Merchant Cloud' exists on the developer portal only as a documentation-only entry (authType NONE) carrying agentic-commerce tutorials and a 'Developer Playbook for Agentic Commerce'; it exposes no API, sandbox or credentials of its own."
+ },
+ {
+  "id": "mastercard-048",
+  "network": "mastercard",
+  "claim": "Participation is gated: an entity must be approved as a Customer, execute the applicable Licenses and pay associated fees before conducting any Activity (Rule 1.1)."
+ },
+ {
+  "id": "mastercard-051",
+  "network": "mastercard",
+  "claim": "Since 20 May 2025 a Principal must obtain Mastercard's approval before acting as BIN Sponsor for a Sponsored Program Manager (fintech/program-manager model), and that approval is revocable without notice (Rule 1.1.4)."
+ },
+ {
+  "id": "mastercard-061",
+  "network": "mastercard",
+  "claim": "Third parties are categorized as Service Providers by program service (3-DSSP, AML/Sanctions SP, BPSP, DSE, DASP, DCC SP, ISO, Installment SP, MMSP, Staged DWO, TSP, Payment Facilitator, Merchant Payment Gateway, Terminal Servicer, Co-brand Partner, Sponsored Program Manager, BIN Sponsor Partner, TPP) and may only perform the service they are registered for (Rule 7.1)."
+ },
+ {
+  "id": "mastercard-062",
+  "network": "mastercard",
+  "claim": "Mastercard stopped designating new Type I TPPs on 20 May 2025; existing Type I TPPs may remain, and Type I registration is no longer available in Europe."
+ },
+ {
+  "id": "mastercard-063",
+  "network": "mastercard",
+  "claim": "Service Provider registration is done by the sponsoring Customer (not the third party) through the My Company Manager application on Mastercard Connect, with required materials due within 30 days and an annual re-validation (Rule 7.10)."
+ },
+ {
+  "id": "mastercard-064",
+  "network": "mastercard",
+  "claim": "Registration carries an initial fee and an annual renewal fee billed to the Customer via MCBS (or directly to a Type I/Type III TPP); the amounts are not published in the Rules, which point to the Pricing and Billing Center on Mastercard Connect."
+ },
+ {
+  "id": "mastercard-066",
+  "network": "mastercard",
+  "claim": "A TPP designated Type I must register within 90 days using TPP Registration Form 919 plus an SSAE 18 or ISAE 3402 audit report and a business continuity form, emailed to tpp_registration@mastercard.com (Rule 7.10.2)."
+ },
+ {
+  "id": "mastercard-067",
+  "network": "mastercard",
+  "claim": "Network Enablement Partner (NEP) is a direct-contract tier for operationally significant Service Providers: a provider may apply, or Mastercard may designate it, after which it must sign an NEP Agreement within 30 days or Customers must stop using it within 180 days (Rules 7.11.1-7.11.2)."
+ },
+ {
+  "id": "mastercard-068",
+  "network": "mastercard",
+  "claim": "Certain roles must be NEPs: a Payment Facilitator submitting direct to the Interchange System where its Acquirer cannot see transactions, a Payment Facilitator of Specialty Merchants, and any BIN Sponsor Partner."
+ },
+ {
+  "id": "mastercard-071",
+  "network": "mastercard",
+  "claim": "A senior executive of each Principal, Affiliate Sponsoring Customer, Affiliate, NEP and Digital Activity Customer must certify compliance with any Standard in writing on request (Rule 2.1.5), the only 'certification' rule in Chapter 2."
+ },
+ {
+  "id": "mastercard-074",
+  "network": "mastercard",
+  "claim": "Mastercard Developers is self-service to Sandbox: sign up, create a project, download credentials and test; Production credentials are issued instantly but only activate after Mastercard reviews and approves the Production request."
+ },
+ {
+  "id": "mastercard-078",
+  "network": "mastercard",
+  "claim": "Mastercom (disputes API) publishes onboarding SLAs: the Mastercard License Agreement is loaded 5-7 business days after artifacts are submitted, MTF validation is signed off by the Customer Implementation Services team, and production keys are approved in 3 business days."
+ },
+ {
+  "id": "mastercard-080",
+  "network": "mastercard",
+  "claim": "Mastercard Send is only available to, or through, a licensed Mastercard acquirer or issuer acting as Originating Institution; fintechs and Transaction Initiators must partner with one and be registered by it."
+ },
+ {
+  "id": "mastercard-081",
+  "network": "mastercard",
+  "claim": "Mastercard Send publishes indicative onboarding durations: registration 2-4 weeks, MTF environment configuration 5-7 business days, production configuration 5-7 business days, and an overall lifecycle of planning 2-4 weeks, implementation 1-3 months, launch 2-4 weeks, ending with a Testing Acknowledgment Notice (TAN) letter from CIS."
+ },
+ {
+  "id": "mastercard-088",
+  "network": "mastercard",
+  "claim": "Mastercard Academy is the named training surface offering payments 'certifications', but its landing page shows only region selectors and no public course catalogue or certification list."
+ },
+ {
+  "id": "mastercard-090",
+  "network": "mastercard",
+  "claim": "Mastercard publishes its U.S. interchange rates and qualifying criteria on its website and says rates are typically updated semiannually."
+ },
+ {
+  "id": "mastercard-091",
+  "network": "mastercard",
+  "claim": "The current published U.S. schedule is the 2026-2027 U.S. Region Interchange Programs and Rates, an 11-page PDF effective April 17, 2026, covering consumer credit, regulated and unregulated debit/prepaid, commercial, PIN debit and ATM rates."
+ },
+ {
+  "id": "mastercard-092",
+  "network": "mastercard",
+  "claim": "U.S. consumer credit Merit III Base interchange (retail/restaurant, card present) ranges from 1.65% + USD 0.10 on Core cards to 2.30% + USD 0.10 on World High Value and World Elite cards."
+ },
+ {
+  "id": "mastercard-093",
+  "network": "mastercard",
+  "claim": "For Regulation II covered (regulated) issuers, Mastercard's U.S. POS debit interchange is 0.05% + USD 0.21, or 0.05% + USD 0.22 with the fraud-prevention adjustment; refunds carry 0.00% + 0.00."
+ },
+ {
+  "id": "mastercard-094",
+  "network": "mastercard",
+  "claim": "Mastercard's published U.S. ATM interchange (paid to the ATM acquirer) is tiered by the issuer's quarterly ATM volume: USD 0.35 for issuers with 7.5 million quarterly transactions, USD 0.45 at 5.0 million, with base, non-financial and shared-deposit rates also listed."
+ },
+ {
+  "id": "mastercard-095",
+  "network": "mastercard",
+  "claim": "In Canada Mastercard publishes its acquirer network assessment fees: an Acquirer Volume Assessment of 0.090% (9.0 bps) on all gross acquiring volume, effective July 20, 2026."
+ },
+ {
+  "id": "mastercard-096",
+  "network": "mastercard",
+  "claim": "Canada's published Acquirer Cross-Border Assessment is 1.00% (100 bps) of volume whenever merchant and cardholder country codes differ, for both CAD and non-CAD transaction currencies; utilities are assessed at USD 0.02 and domestic debit contactless at USD 0.004 per transaction with the 9 bps volume assessment rebated."
+ },
+ {
+  "id": "mastercard-097",
+  "network": "mastercard",
+  "claim": "Canada domestic consumer credit interchange effective August 1, 2026: Card Present EMV is 0.92% (Core), 1.22% (World), 1.56% (World Elite) and 1.95% (World Legend); Standard is 1.96% to 2.53%; domestic debit Supermarket/Petroleum is 0.15% + CAD 0.05."
+ },
+ {
+  "id": "mastercard-098",
+  "network": "mastercard",
+  "claim": "Mastercard publishes EEA inbound inter-regional consumer interchange at the EC-commitment caps: 0.30% credit and 0.20% debit card present, 1.50% credit and 1.15% debit card not present, valid from 19 October 2019."
+ },
+ {
+  "id": "mastercard-099",
+  "network": "mastercard",
+  "claim": "Mastercard's published UK domestic interchange (valid from 23 April 2022) sets consumer credit at 0.30% and consumer debit at 0.20% (capped at GBP 1.00 for government and personal-payment MCCs), while UK commercial cards are uncapped at 1.30% to 1.90%."
+ },
+ {
+  "id": "mastercard-100",
+  "network": "mastercard",
+  "claim": "Australia domestic Mastercard credit interchange effective 17 April 2026 (ex-GST): Base rate is 0.19% for Consumer Standard, 0.27% Consumer Premium, 0.70% Consumer Elite and 0.59% Commercial; Strategic Merchants 1 pays 0.18% on most products."
+ },
+ {
+  "id": "mastercard-101",
+  "network": "mastercard",
+  "claim": "The Mastercard Rules (2 June 2026 edition) publish a noncompliance assessment schedule: Category A violations carry up to USD 25,000 for a first violation, USD 50,000 for a second, USD 75,000 for a third and USD 100,000 per violation thereafter within 12 months."
+ },
+ {
+  "id": "mastercard-102",
+  "network": "mastercard",
+  "claim": "Customers that fail to register Service Providers are subject to noncompliance assessments of up to USD 25,000 per 30-day period; the same chapter defines Network Enablement Partners (Rule 7.11) and underpayment of QMR-based assessments carries interest of the lower of 2% per month or the legal maximum."
+ },
+ {
+  "id": "mastercard-103",
+  "network": "mastercard",
+  "claim": "Mastercard's 10-K defines its four payment-network fee streams: domestic assessments (volume-based, same country), cross-border assessments (volume-based, different countries), transaction processing assessments (per switched transaction plus connectivity) and other network assessments (licensing, implementation and franchise fees)."
+ },
+ {
+  "id": "mastercard-104",
+  "network": "mastercard",
+  "claim": "Gross payment-network assessments in 2025 were USD 11,029 million domestic (+8%), USD 12,021 million cross-border (+18%), USD 15,930 million transaction processing (+17%) and USD 1,018 million other network assessments (+9%), before rebates and incentives."
+ },
+ {
+  "id": "mastercard-105",
+  "network": "mastercard",
+  "claim": "Mastercard paid USD 20,522 million of rebates and incentives to customers within payment-network net revenue in 2025, up 16%, driven by volume growth and new and renewed deals; the 10-K flags ongoing pressure to increase incentives and pricing discounts."
+ },
+ {
+  "id": "mastercard-106",
+  "network": "mastercard",
+  "claim": "Mastercard (or financial institutions) sets default interchange fees that apply only when an issuer and acquirer have no bilateral settlement terms; Mastercard collects and remits interchange through settlement but the fee flows from acquirer to issuer."
+ },
+ {
+  "id": "mastercard-107",
+  "network": "mastercard",
+  "claim": "In August and September 2025 two U.S. district courts issued conflicting rulings on the Regulation II debit interchange cap, one vacating it and one upholding it; the cap remains in effect pending litigation, and New Zealand caps on cross-border interchange take effect May 2026."
+ },
+ {
+  "id": "mastercard-108",
+  "network": "mastercard",
+  "claim": "Mastercard's accrued liability for the U.S. merchant interchange MDL 1720 cases was USD 637 million at December 31, 2025 (USD 559 million in 2024); it pays 12% of any global settlement under its judgment-sharing agreement, and settlements now cover over 90% of its U.S. interchange volume."
+ },
+ {
+  "id": "mastercard-109",
+  "network": "mastercard",
+  "claim": "The 2024 Rules Relief Class settlement (interchange reductions and rule changes) was denied by the court; in November 2025 the parties reached a revised settlement that awaits a preliminary-approval decision."
+ },
+ {
+  "id": "mastercard-110",
+  "network": "mastercard",
+  "claim": "Mastercard paid GBP 200 million (USD 263 million) in 2025 to settle the UK consumer collective action over interchange pass-through, and about GBP 0.3 billion of UK and pan-European merchant damages claims remain unresolved after a June 2025 liability ruling against it."
+ },
+ {
+  "id": "mastercard-111",
+  "network": "mastercard",
+  "claim": "ATM pricing rules are in litigation: Mastercard accrued USD 93 million (bank ATM consumer class, approved June 2025) and USD 79 million (non-bank ATM consumer class, August 2025 agreement) to settle claims over its ATM non-discrimination surcharge rule, while the independent ATM operators' class continues, alleging over USD 1 billion in single damages."
+ },
+ {
+  "id": "mastercard-112",
+  "network": "mastercard",
+  "claim": "Federal Reserve Reg II data for 2023: the average interchange fee on covered debit transactions was USD 0.24 over single-message (PIN) networks and USD 0.22 over dual-message (signature) networks, versus USD 0.52 for exempt transactions."
+ },
+ {
+  "id": "mastercard-113",
+  "network": "mastercard",
+  "claim": "The Board's per-network table for 2024 shows Mastercard's average covered debit interchange at USD 0.24 (0.49% of value) and exempt at USD 0.63 (1.30%); Maestro (single-message) covered USD 0.24 (0.55%) and exempt USD 0.21 (0.54%)."
+ },
+ {
+  "id": "mastercard-114",
+  "network": "mastercard",
+  "claim": "The Federal Reserve's October 2023 proposal would lower the Reg II debit cap so that the cap on an average USD 50 transaction falls from 24.5 cents to 17.7 cents, which would directly reduce Mastercard's regulated debit interchange rates."
+ },
+ {
+  "id": "mastercard-115",
+  "network": "mastercard",
+  "claim": "The UK PSR's March 2025 final report found Mastercard and Visa raised average core scheme and processing fees to acquirers by at least 25% in real terms between 2017 and 2023, with little evidence of links to cost, costing UK businesses at least GBP 170 million more per year."
+ },
+ {
+  "id": "mastercard-116",
+  "network": "mastercard",
+  "claim": "The PSR found that after Brexit removed the IFR cap, Mastercard and Visa raised UK-EEA card-not-present consumer interchange fivefold, from 0.2% to 1.15% (debit) and 0.3% to 1.5% (credit); Mastercard's increase took effect April 2022, costing UK businesses GBP 150-200 million a year."
+ },
+ {
+  "id": "mastercard-117",
+  "network": "mastercard",
+  "claim": "In October 2025 the PSR decided not to impose an interim cap on UK-EEA cross-border interchange after Mastercard, Visa and Revolut sought judicial review of the proposed price cap, and will instead develop a methodology for a longer-term cap."
+ },
+ {
+  "id": "mastercard-118",
+  "network": "mastercard",
+  "claim": "The Reserve Bank of Australia's March 2026 conclusions lower the cap on domestic consumer credit interchange to 0.3% (from 0.8%) and abolish the 0.5% weighted-average benchmark; commercial credit stays capped at 0.8%."
+ },
+ {
+  "id": "mastercard-119",
+  "network": "mastercard",
+  "claim": "The RBA keeps the domestic debit and prepaid interchange benchmark at 8 cents and lowers the debit cap to 8 cents (or 0.16% ad valorem), noting the weighted-average debit interchange is already close to 6 cents."
+ },
+ {
+  "id": "mastercard-120",
+  "network": "mastercard",
+  "claim": "Australian card surcharging on debit and credit ends 1 October 2026, and eftpos, Mastercard, Visa and large acquirers must publish the fees they charge, with most reforms effective 1 October 2026 and the foreign-card cap from 1 April 2027."
+ },
+ {
+  "id": "mastercard-121",
+  "network": "mastercard",
+  "claim": "In April 2019 the European Commission made binding Mastercard's commitments to cap inter-regional consumer interchange in the EEA at 0.2% debit / 0.3% credit card-present and 1.15% / 1.50% card-not-present for five years and six months, cutting those fees by about 40% and requiring publication on its website."
+ },
+ {
+  "id": "mastercard-122",
+  "network": "mastercard",
+  "claim": "The European Commission fined Mastercard EUR 570,566,000 in January 2019 for cross-border acquiring rules that forced acquirers to apply the merchant-country interchange fee, preventing merchants from using lower interchange available from acquirers in other EEA states before the IFR caps of 0.2% debit and 0.3% credit took effect on 9 December 2015."
+ },
+ {
+  "id": "mastercard-123",
+  "network": "mastercard",
+  "claim": "The DOJ's September 2024 debit monopolisation complaint against Visa describes the debit pricing structures Mastercard competes against: volume commitments priced so that disloyalty penalties apply to all Visa transactions unless nearly all debit volume runs on Visa, plus payments to would-be competitors; Visa is said to charge roughly USD 8 billion a year in U.S. debit network fees."
+ },
+ {
+  "id": "mastercard-124",
+  "network": "mastercard",
+  "claim": "In March 2024 Mastercard announced a class settlement to reduce and cap its U.S. consumer and commercial credit interchange for at least five years and simplify surcharging rules; the court later denied approval and a revised agreement reached in November 2025 is pending."
+ },
+ {
+  "id": "mastercard-125",
+  "network": "mastercard",
+  "claim": "Mastercard Developers' Terms of Use describe paid API subscriptions billed monthly, quarterly or yearly at the rate selected when purchasing, with the option of custom plans and prorated refunds on cancellation; no public price list per API was found."
+ },
+ {
+  "id": "mastercard-126",
+  "network": "mastercard",
+  "claim": "The court-authorised MDL 1720 settlement site confirms the Rule 23(b)(3) damages class (merchants accepting Visa or Mastercard January 1, 2004 to January 25, 2019), final approval December 16, 2019, Second Circuit affirmance March 15, 2023, and a second partial distribution approved June 15, 2026 with payments from September 2026."
+ },
+ {
+  "id": "mastercard-127",
+  "network": "mastercard",
+  "claim": "Mastercard Incorporated is a Delaware corporation formed in May 2001; there has been no change of legal owner since 2020 (it remains an independent NYSE-listed company)."
+ },
+ {
+  "id": "mastercard-128",
+  "network": "mastercard",
+  "claim": "The operating network entity is Mastercard International Incorporated, a Delaware non-stock membership corporation formed in November 1966 (the licensing/membership vehicle for customers)."
+ },
+ {
+  "id": "mastercard-129",
+  "network": "mastercard",
+  "claim": "Headquarters (principal executive offices) are at 2000 Purchase Street, Purchase, NY 10577."
+ },
+ {
+  "id": "mastercard-132",
+  "network": "mastercard",
+  "claim": "Share structure: 885.2 million voting Class A shares and 6.6 million non-voting Class B shares outstanding as of February 6, 2026."
+ },
+ {
+  "id": "mastercard-133",
+  "network": "mastercard",
+  "claim": "Largest beneficial holders as of April 21, 2026 were Vanguard (8.6%) and BlackRock (7.7%); ownership percentages are based on 877,780,670 Class A shares outstanding."
+ },
+ {
+  "id": "mastercard-134",
+  "network": "mastercard",
+  "claim": "Mastercard Foundation (via Mastercard Foundation Asset Management Corporation, Toronto) held 65,234,702 Class A shares, 7.4%, per a Schedule 13G/A of April 16, 2026."
+ },
+ {
+  "id": "mastercard-137",
+  "network": "mastercard",
+  "claim": "Maestro is being retired in Europe: from July 1, 2023 issuers replace expired or lost Maestro cards, typically with Debit Mastercard, and no new Maestro cards are issued in Europe after that date."
+ },
+ {
+  "id": "mastercard-138",
+  "network": "mastercard",
+  "claim": "Mastercard said in October 2021 that more than 400 million Maestro cards were in circulation worldwide (own figure, no outside check)."
+ },
+ {
+  "id": "mastercard-141",
+  "network": "mastercard",
+  "claim": "Recorded Future (cyber threat intelligence) is part of the Mastercard group as of 2025 and was combined into a new Mastercard Threat Intelligence service."
+ },
+ {
+  "id": "mastercard-142",
+  "network": "mastercard",
+  "claim": "Network reach: transactions enabled in more than 150 currencies and more than 220 countries and territories (FY2025 10-K)."
+ },
+ {
+  "id": "mastercard-143",
+  "network": "mastercard",
+  "claim": "Mastercard's own About page states reach of 'more than 210 countries and territories', a lower figure than the 10-K's 'more than 220'."
+ },
+ {
+  "id": "mastercard-144",
+  "network": "mastercard",
+  "claim": "Acceptance footprint (FY2025 10-K) is stated only as 'hundreds of millions' of acceptance locations and digital access points; the FY2024 10-K gave 'approximately 150 million acceptance locations and over 250 million digital access points'."
+ },
+ {
+  "id": "mastercard-145",
+  "network": "mastercard",
+  "claim": "FY2024 10-K quantified acceptance as approximately 150 million acceptance locations and over 250 million digital access points worldwide."
+ },
+ {
+  "id": "mastercard-146",
+  "network": "mastercard",
+  "claim": "Gross dollar volume in 2025 was $10.6 trillion and switched transactions 175.5 billion (10-K infographic)."
+ },
+ {
+  "id": "mastercard-147",
+  "network": "mastercard",
+  "claim": "Full-year 2025 GDV grew 9% and cross-border volume 15% on a local-currency basis (proxy letter to stockholders)."
+ },
+ {
+  "id": "mastercard-148",
+  "network": "mastercard",
+  "claim": "The Q4/FY2025 earnings release (Jan 29, 2026) states GDV growth of 9% and switched transactions growth of 10% for full-year 2025."
+ },
+ {
+  "id": "mastercard-149",
+  "network": "mastercard",
+  "claim": "Cards in force: 3.7 billion Mastercard and Maestro-branded cards issued by customers as of December 31, 2025."
+ },
+ {
+  "id": "mastercard-150",
+  "network": "mastercard",
+  "claim": "Cards in force were still 3.7 billion Mastercard and Maestro-branded cards as of June 30, 2026 (latest public figure)."
+ },
+ {
+  "id": "mastercard-151",
+  "network": "mastercard",
+  "claim": "Mastercard-branded cards excluding Maestro and Cirrus: 1,083m consumer credit, 2,134m consumer debit/prepaid and 174m commercial (total 3,391m) as of Dec 31, 2025, with GDV split $3,878bn / $5,349bn / $1,405bn."
+ },
+ {
+  "id": "mastercard-152",
+  "network": "mastercard",
+  "claim": "Mastercard switches more than 70% of transactions on Mastercard and Maestro cards including nearly all cross-border transactions; the remainder is switched domestically by others."
+ },
+ {
+  "id": "mastercard-153",
+  "network": "mastercard",
+  "claim": "Mastercard operates a four-party (open-loop) model and does not issue cards, extend credit or set acquirer pricing."
+ },
+ {
+  "id": "mastercard-156",
+  "network": "mastercard",
+  "claim": "Federal Reserve Regulation II data: dual-message networks carried 71.4% of US debit transactions by volume in 2023 (context for Mastercard's dual-message debit; the Fed does not break out networks by name)."
+ },
+ {
+  "id": "mastercard-158",
+  "network": "mastercard",
+  "claim": "Mastercard's China domestic switching alliance: JV 'Mastercard NUCC Information Technology (Beijing) Co. Ltd.' with NetsUnion Clearing Corp received in-principle PBOC approval in February 2020."
+ },
+ {
+  "id": "mastercard-159",
+  "network": "mastercard",
+  "claim": "Domestic processing in China through the NetsUnion JV went live in May 2024."
+ },
+ {
+  "id": "mastercard-160",
+  "network": "mastercard",
+  "claim": "Mastercard's FY2024 10-K confirms domestic transaction processing in China began in 2024 through its joint venture."
+ },
+ {
+  "id": "mastercard-162",
+  "network": "mastercard",
+  "claim": "Mastercard names Visa, American Express, JCB, China UnionPay and Discover as its general-purpose network competitors (10-K filed Feb 2026, after Capital One's May 18, 2025 acquisition of Discover)."
+ },
+ {
+  "id": "mastercard-163",
+  "network": "mastercard",
+  "claim": "Reach reduction: Mastercard suspended its network services in Russia on March 5, 2022 after more than 25 years there; Russian-issued cards and foreign cards at Russian merchants/ATMs are no longer supported."
+ },
+ {
+  "id": "mastercard-164",
+  "network": "mastercard",
+  "claim": "Mastercard Move (disbursements/remittances) reaches more than 17 billion endpoints in 60+ originating and 155 receiving countries."
+ },
+ {
+  "id": "mastercard-165",
+  "network": "mastercard",
+  "claim": "Headcount: about 39,800 employees at end-2025 (35,300 at end-2024), 70% outside the US across more than 90 countries."
+ },
+ {
+  "id": "mastercard-166",
+  "network": "mastercard",
+  "claim": "UK regulator finding: over 95% of transactions on UK-issued cards run on Mastercard or Visa rails; other schemes are a very small share."
+ },
+ {
+  "id": "mastercard-170",
+  "network": "mastercard",
+  "claim": "About 130 crypto co-brand card programmes ran on the Mastercard acceptance network in 2025 and roughly 40% of transactions were tokenised."
+ },
+ {
+  "id": "mastercard-173",
+  "network": "mastercard",
+  "claim": "The current public edition of Mastercard Rules is dated 2 June 2026 and runs 503 pages (PDF metadata title 'Mastercard Rules')."
+ },
+ {
+  "id": "mastercard-175",
+  "network": "mastercard",
+  "claim": "The current public Chargeback Guide Merchant Edition is dated 19 May 2026 and runs 1,582 pages; the prior edition (13 May 2025) was 1,153 pages."
+ },
+ {
+  "id": "mastercard-176",
+  "network": "mastercard",
+  "claim": "The current public Transaction Processing Rules edition is dated 9 December 2025 and runs 423 pages, reissued six months after the 10 June 2025 edition (399 pages)."
+ },
+ {
+  "id": "mastercard-177",
+  "network": "mastercard",
+  "claim": "The current public Security Rules and Procedures Merchant Edition is dated 4 August 2026 and runs 236 pages (prior edition 11 February 2025, 224 pages)."
+ },
+ {
+  "id": "mastercard-178",
+  "network": "mastercard",
+  "claim": "Mastercard also publishes a 16-page 'Chargebacks Made Simple Guide' (July 2025) as a high-level overview that explicitly is not a replacement for the Chargeback Guide."
+ },
+ {
+  "id": "mastercard-179",
+  "network": "mastercard",
+  "claim": "Mastercard's 'Standards' are defined to include not only the manuals but also announcements and bulletins, which is how rule changes are promulgated."
+ },
+ {
+  "id": "mastercard-187",
+  "network": "mastercard",
+  "claim": "Category A per-violation assessments escalate from up to USD 25,000 (first) to USD 100,000 per violation (fourth and subsequent within 12 months); Category B runs 20,000/30,000/60,000/100,000 and Category C 15,000/25,000/50,000/75,000."
+ },
+ {
+  "id": "mastercard-190",
+  "network": "mastercard",
+  "claim": "Variances from a Standard can only be requested by a Customer or Network Enablement Partner through the Variance Manager tool on Mastercard Connect."
+ },
+ {
+  "id": "mastercard-194",
+  "network": "mastercard",
+  "claim": "PCI DSS compliance is required of all issuers, acquirers, merchants and service providers, but only Level 1 and Level 2 merchants and all service providers must validate to Mastercard; issuers and acquirers may comply with ISO/IEC 27001 instead of PCI DSS."
+ },
+ {
+  "id": "mastercard-195",
+  "network": "mastercard",
+  "claim": "Level 1 merchants are those with more than six million combined Mastercard and Maestro transactions a year, any merchant meeting Visa's Level 1 criteria, or any merchant Mastercard designates (including after a confirmed ADC event); Level 2 is one to six million, Level 3 is 20,000 to one million e-commerce transactions."
+ },
+ {
+  "id": "mastercard-196",
+  "network": "mastercard",
+  "claim": "SDP noncompliance assessments for Level 1/2 merchants and Level 1/2 service providers escalate from up to USD 25,000 to USD 200,000 per calendar year of violations; Level 3 merchants from USD 10,000 to USD 80,000; noncompliance can also mean deregistration or delisting from the SDP Compliant Registered Service Provider List."
+ },
+ {
+  "id": "mastercard-198",
+  "network": "mastercard",
+  "claim": "Mastercard operates a Cybersecurity Incentive Program (CSIP) with a PCI DSS Compliance Validation Exemption Program for merchants that, for example, process 75 percent of volume through EMV hybrid terminals, P2PE, or tokenised credentials; acquirers must keep merchant eligibility certifications for five years."
+ },
+ {
+  "id": "mastercard-200",
+  "network": "mastercard",
+  "claim": "ADC procedural noncompliance can be assessed at up to USD 25,000 per day and can disqualify the customer from ADC Operational Reimbursement; financial-responsibility determinations may be appealed within 30 days for a non-refundable USD 5,000 fee."
+ },
+ {
+  "id": "mastercard-205",
+  "network": "mastercard",
+  "claim": "The Security Rules define the Excessive Chargeback Program (ECP) as acquirer-level monitoring of merchant chargeback performance, but the actual ECM/HECM thresholds and assessments are held in the gated Data Integrity Monitoring Program manual and the Pricing and Billing Resource Center on Mastercard Connect."
+ },
+ {
+  "id": "mastercard-207",
+  "network": "mastercard",
+  "claim": "A practitioner source states the public-record ECP thresholds: Excessive Chargeback Merchant at 100+ monthly chargebacks and a ratio above 1.5% for two consecutive months, High Excessive Chargeback Merchant at 300+ and 3%, with escalating monthly fines and acquirer consequences after 6 and 12 months."
+ },
+ {
+  "id": "mastercard-209",
+  "network": "mastercard",
+  "claim": "Acquirers must register high-risk-MCC and previously ECP-reported sponsored merchants in a registration system on Mastercard Connect before accepting their transactions (named 'Mastercard Registration Program (MRP)' in the 2025 Rules; the 2026 Rules and GLB 12564 call it the Specialty Merchant Registration Program)."
+ },
+ {
+  "id": "mastercard-211",
+  "network": "mastercard",
+  "claim": "Mastercard's dispute framework has two tracks: chargeback cycles (first chargeback, second presentment, pre-arbitration/arbitration case filing, where Mastercard rules) and compliance cases for rule violations where no chargeback right exists."
+ },
+ {
+  "id": "mastercard-212",
+  "network": "mastercard",
+  "claim": "Mastercom manages every dispute event under a single 'claim' whether or not it becomes a network-level dispute transaction, and the API supports Collaboration, chargebacks, second presentments, pre-arbitration/arbitration, pre-compliance/compliance cases and fee collections."
+ },
+ {
+  "id": "mastercard-213",
+  "network": "mastercard",
+  "claim": "Mastercom Collaboration is a pre-chargeback step: the system alerts acquirers to pending disputes (or an issuer initiates via Ethoca) so merchants can resolve before a first chargeback is processed; acquirer inclusion is governed by announcements AN 4655 and AN 4720 held on the gated TRC."
+ },
+ {
+  "id": "mastercard-214",
+  "network": "mastercard",
+  "claim": "A trade blog reports that acquirers were brought into the Mastercom Collaboration process in July 2022 and that a merchant reached through its acquirer has 72 hours to respond to a Collaboration inquiry."
+ },
+ {
+  "id": "mastercard-217",
+  "network": "mastercard",
+  "claim": "Mandate (2024): Mastercom API versions 2, 3, 4 and 5 were decommissioned in October 2024 and issuers and acquirers had to move to version 6 to keep processing disputes."
+ },
+ {
+  "id": "mastercard-218",
+  "network": "mastercard",
+  "claim": "Mandate (2025): Mastercom and Mastercom Extended API clients were required to switch from Entrust to DigiCert CA certificates before 24 March 2025 in production."
+ },
+ {
+  "id": "mastercard-219",
+  "network": "mastercard",
+  "claim": "Mandate (2027): from 14 March 2027 in production Mastercard will automatically double the chargeback amount when credPostedAsPurchase=true, and issuers and acquirers coded to the current specification must change their integrations."
+ },
+ {
+  "id": "mastercard-220",
+  "network": "mastercard",
+  "claim": "Ethoca Consumer Clarity call-centre data is being integrated into Mastercom claims for Dual Message System issuers during 2026 (region-specific availability 13 July to 1 November 2026, excluding India, Indonesia, Nepal, Jordan and Tunisia)."
+ },
+ {
+  "id": "mastercard-222",
+  "network": "mastercard",
+  "claim": "Operational obligations for Mastercom integrators include rotating API keys, which expire every 13 months, and a throttling limit of 150 requests per second."
+ },
+ {
+  "id": "mastercard-223",
+  "network": "mastercard",
+  "claim": "Mandate (2024-2026): the First-Party Trust programme rejects No Cardholder Authorization chargebacks (reason code 5002 'First-Party Trust Reject') for U.S. domestic transactions effective 27 October 2024, expanding to Canada and Latin America/Caribbean from 21 January 2026 and to Asia Pacific (excluding Mainland China domestic, India and Nepal) from 19 April 2026."
+ },
+ {
+  "id": "mastercard-224",
+  "network": "mastercard",
+  "claim": "Trade press reported in March 2024 that Mastercard's First-Party Trust programme, first outlined in October 2023, would launch in the United States first during 2024, with Forter and Kount among early participants and participation optional for merchants."
+ },
+ {
+  "id": "mastercard-227",
+  "network": "mastercard",
+  "claim": "Mastercard Connect, the portal on which Mastercom, the Technical Resource Center, My Company Manager, Variance Manager and other rule-related tools live, presents only a sign-in page to the public."
+ },
+ {
+  "id": "mastercard-229",
+  "network": "mastercard",
+  "claim": "Rules training is routed to Mastercard Academy, which the rules page links as the venue for training sessions; the Academy site itself is a JavaScript-only application unreadable to non-browser clients."
+ },
+ {
+  "id": "mastercard-232",
+  "network": "mastercard",
+  "claim": "The developer catalogue holds 91 products, filterable by partner type: 58 tagged for issuers, 42 for merchants, 38 for acquirers and 11 for fintechs."
+ },
+ {
+  "id": "mastercard-235",
+  "network": "mastercard",
+  "claim": "Every developer-portal product is tied to a Business Relationship Type (BRT) on the company's Mastercard Company ID, so a partner can only take services its licence relationship authorises."
+ },
+ {
+  "id": "mastercard-236",
+  "network": "mastercard",
+  "claim": "Company verification for production can be completed instantly by linking the developer profile to an existing Mastercard Connect profile, tying the open portal to the gated client portal."
+ },
+ {
+  "id": "mastercard-246",
+  "network": "mastercard",
+  "claim": "Mastercard Safety Net is marketed as a network-level fraud backstop with $77.4b of fraud prevented to date."
+ },
+ {
+  "id": "mastercard-253",
+  "network": "mastercard",
+  "claim": "Pre-chargeback 'Collaboration' requests reach acquirers through Mastercom and can be initiated through Ethoca, linking the dispute tool to the acquired Ethoca network."
+ },
+ {
+  "id": "mastercard-255",
+  "network": "mastercard",
+  "claim": "Legacy MATCH APIs and GFT bulk files were decommissioned on January 1, 2026, and MATCH Pro adds a merchant risk score ('New Merchant Insights') from October 15, 2026."
+ },
+ {
+  "id": "mastercard-258",
+  "network": "mastercard",
+  "claim": "Merchant Cloud, launched in 2025, bundles gateway, security and data services behind one entry point for the acceptance side."
+ },
+ {
+  "id": "mastercard-260",
+  "network": "mastercard",
+  "claim": "The Network Enablement Partners (NEP) programme gives processors and other service providers a direct relationship with Mastercard instead of working only through a licensed issuer or acquirer."
+ },
+ {
+  "id": "mastercard-262",
+  "network": "mastercard",
+  "claim": "Interchange is set by Mastercard and flows acquirer-to-issuer; Mastercard disclaims any role in acquirer-merchant pricing."
+ },
+ {
+  "id": "mastercard-264",
+  "network": "mastercard",
+  "claim": "BIN Lookup is a processor/acquirer data service with a contractual refresh cadence: the full dataset must be pulled at least every 6 days."
+ },
+ {
+  "id": "mastercard-267",
+  "network": "mastercard",
+  "claim": "Ethoca Alerts (acquired) is sold to merchants as a pre-chargeback fraud/dispute data-sharing tool fed by issuers."
+ },
+ {
+  "id": "mastercard-269",
+  "network": "mastercard",
+  "claim": "First-Party Trust is a merchant service granting a liability shift on first-party-fraud disputes when compelling evidence is supplied."
+ },
+ {
+  "id": "mastercard-273",
+  "network": "mastercard",
+  "claim": "Agent Pay (agentic commerce) was launched in 2025 on top of tokenisation and disputes, with merchants able to participate without new integration."
+ },
+ {
+  "id": "mastercard-276",
+  "network": "mastercard",
+  "claim": "i2c is quoted as the first U.S. processor supporting Product Express, showing processors as the delivery channel."
+ },
+ {
+  "id": "mastercard-285",
+  "network": "mastercard",
+  "claim": "The Partner Advantage Program (2025-26) is a reseller/co-sell programme for Mastercard Services with a gated partner portal."
+ },
+ {
+  "id": "mastercard-286",
+  "network": "mastercard",
+  "claim": "Cirrus remains Mastercard's ATM cash-access brand and Maestro its PIN debit brand per the 2025 10-K; no retirement of either is stated in the filing."
+ },
+ {
+  "id": "mastercard-287",
+  "network": "mastercard",
+  "claim": "The ATM Locations API sells Mastercard's global ATM dataset (with sponsor name and accessibility attributes) to issuers, fintechs and wallets; pricing is only disclosed at production-access request."
+ },
+ {
+  "id": "mastercard-288",
+  "network": "mastercard",
+  "claim": "ATM operators' relationship with the network is shaped by litigation over the ATM non-discrimination surcharge rule, still ongoing in the 2025 10-K."
+ },
+ {
+  "id": "mastercard-289",
+  "network": "mastercard",
+  "claim": "Mastercard classifies value-added services revenue into security, consumer acquisition and engagement, business and market insights, digital and authentication, processing and gateway, and other."
+ },
+ {
+  "id": "mastercard-290",
+  "network": "mastercard",
+  "claim": "At the 2024 investor meeting Mastercard put 2024 value-added services revenue at ~$11B and targeted a high-teens services revenue CAGR for 2025-2027."
+ },
+ {
+  "id": "mastercard-292",
+  "network": "mastercard",
+  "claim": "Services are distributed indirectly through technology platforms, system integrators, acquirers/PSPs, processors, ERP systems and other networks, not only by direct sales."
+ },
+ {
+  "id": "mastercard-294",
+  "network": "mastercard",
+  "claim": "Mastercard Threat Intelligence (2025) fuses Recorded Future's cyber intelligence with network data, extending security services beyond card fraud."
+ },
+ {
+  "id": "mastercard-300",
+  "network": "mastercard",
+  "claim": "Production access on Mastercard Developers is gated by company verification and a 'commercial countries' declaration on the project Summary page; production credentials are issued instantly but only activated on approval."
+ },
+ {
+  "id": "mastercard-301",
+  "network": "mastercard",
+  "claim": "Company verification can be completed instantly by linking a Mastercard Developers profile to an existing Mastercard Connect profile, or by entering a Mastercard Company ID (CID), tying the developer centre to the gated customer portal."
+ },
+ {
+  "id": "mastercard-310",
+  "network": "mastercard",
+  "claim": "Mastercard's public GitHub organisation holds 139 repositories, including OAuth 1.0a signers and client-encryption libraries in Java, Node, C#, Python, Go, Ruby, PHP and Swift, OAuth2/FAPI clients, an Insomnia plugin, and reference apps for Send, Mastercom, Open Banking and others."
+ },
+ {
+  "id": "mastercard-311",
+  "network": "mastercard",
+  "claim": "The Mastercard Developers blog is the portal's public release channel, announcing features such as a Project History audit trail (Jul 8, 2026), automatic Production mTLS certificates (Jun 18, 2026), OAuth 2.0 with FAPI 2.0 (May 13, 2026) and a Metrics Dashboard (Oct 28, 2025)."
+ },
+ {
+  "id": "mastercard-312",
+  "network": "mastercard",
+  "claim": "Mastercard Connect (mastercardconnect.com) is the gated customer portal; the public landing shows only a sign-in (User ID plus Password / RSA SecurID token), a sign-up link, and footer links to the Brand Center, Data & Services and Developers."
+ },
+ {
+  "id": "mastercard-314",
+  "network": "mastercard",
+  "claim": "The public Mastercard Connect Terms of Use (effective April 2026) define the platform as the access point to Mastercard content, products and services, with fees invoiced through the Mastercard Consolidated Billing System (MCBS), plus Beta and Pilot programmes offered inside the platform."
+ },
+ {
+  "id": "mastercard-316",
+  "network": "mastercard",
+  "claim": "Access to a Connect application is requested in-portal and may trigger issuance of an RSA software token by Mastercard's Information Security team; the Send Customer Portal lets Originating Institutions and Transaction Initiators search 90 days of transactions and download three years of reconciliation reports."
+ },
+ {
+  "id": "mastercard-319",
+  "network": "mastercard",
+  "claim": "Mastercard Send publishes a public release calendar: quarterly API releases deployed to the Mastercard Test Facility (MTF) before Production, release notes first published about three months ahead, and a peak-season change freeze (23 Nov 2026 to 1 Jan 2027)."
+ },
+ {
+  "id": "mastercard-320",
+  "network": "mastercard",
+  "claim": "Mastercard Send registration is not self-service: prospective participants must contact a Mastercard regional representative (or use the product page 'Contact sales' form), and MTF/Production are opened only after a Mastercard Delivery Manager implements the approved programme."
+ },
+ {
+  "id": "mastercard-322",
+  "network": "mastercard",
+  "claim": "Mastercom onboarding publishes SLAs: the Mastercard License Agreement is loaded 5-7 business days after artefacts are submitted, MTF tests are verified by the Customer Implementation Service (CIS) team, and production keys are approved within 3 business days."
+ },
+ {
+  "id": "mastercard-325",
+  "network": "mastercard",
+  "claim": "Mastercard publishes US merchant interchange rates on a public page with a downloadable rate PDF, states rates are set by Mastercard and typically updated semiannually, and directs merchants to their acquirer for questions."
+ },
+ {
+  "id": "mastercard-334",
+  "network": "mastercard",
+  "claim": "The Mastercard Brand Center (brand.mastercard.com) is a public library of logo artwork, branding requirements, card artwork and decal ordering for issuers and merchants, last updated December 2023 by its own change log."
+ },
+ {
+  "id": "mastercard-336",
+  "network": "mastercard",
+  "claim": "Merchant Cloud is listed on Mastercard Developers as a documentation-only product (no API authentication) whose content is a set of agentic-commerce tutorials and a developer playbook for merchants."
+ },
+ {
+  "id": "mastercard-339",
+  "network": "mastercard",
+  "claim": "Mandate (1 April 2026): under revised Not Reversed or Cleared Preauthorization TPE criteria, acquirers must submit a full reversal within 30 days of the original authorization for any preauthorization that is never cleared."
+ },
+ {
+  "id": "mastercard-341",
+  "network": "mastercard",
+  "claim": "Mandate (17 October 2025): Mastercard bulletin GLB 8701.1 introduced Transaction Link Identifier (TLID) subelements and subfields for lifecycle linking; a later revision, GLB 8701.3, extends TLID effective 2 June 2026."
+ },
+ {
+  "id": "mastercard-342",
+  "network": "mastercard",
+  "claim": "Mandate (2 June 2026): GLB 11738.1 introduced near-real-time age verification, requiring acquirers to carry merchant age-threshold requests and issuers to return results."
+ },
+ {
+  "id": "mastercard-343",
+  "network": "mastercard",
+  "claim": "Mandate (2 June 2026): GLB 12516.1 has Mastercard populate a Transaction Type Identifier on the acquirer's behalf for transactions from merchants registered in the Specialty Merchant Registration Program, exposing high-risk registration status to issuers."
+ },
+ {
+  "id": "mastercard-344",
+  "network": "mastercard",
+  "claim": "Mandate (23 October 2026): bulletin CAN/EUR/MEA/US 13437.2 introduces a card-level Spend Auth Score (001-100) in authorization; issuers are only required to be able to receive it."
+ },
+ {
+  "id": "mastercard-345",
+  "network": "mastercard",
+  "claim": "Mastercard network releases are named by year and quarter and land in April and October: an issuer processor reports certification against Release 26.Q2 (effective 17 April 2026) and Release 26.Q4 (effective 23 October 2026)."
+ },
+ {
+  "id": "mastercard-346",
+  "network": "mastercard",
+  "claim": "Mandate (17 April 2026): GLB 12192.1 adds Transaction Type Identifier P76 for fiat-backed stablecoins and CBDCs alongside P70 for floating cryptocurrencies, so processors must distinguish crypto purchase types."
+ },
+ {
+  "id": "mastercard-348",
+  "network": "mastercard",
+  "claim": "Mandate (17 June 2025): Mastercard stopped accepting 'undefined' authorizations; every authorization must be flagged as a preauthorization or a final authorization, with a renamed processing-integrity fee applied to approved undefined authorizations from 1 July 2025."
+ },
+ {
+  "id": "mastercard-349",
+  "network": "mastercard",
+  "claim": "Mastercard bulletin AP/LAC/MEA/US 12568.1 (published 28 October 2025) restructures Specialty Merchant Registration Program pricing with staggered effective dates of 1 May 2026, 3 June 2026 and first billing 14 June 2026."
+ },
+ {
+  "id": "mastercard-350",
+  "network": "mastercard",
+  "claim": "Acquiring for specialty (high-risk) merchants requires a Mastercard supplemental licence: new acquirers must file the High-Risk License Addendum (Form 637) and be approved, and a USD 50,000 annual High-Risk Acquirer License Fee applies from 1 May 2026."
+ },
+ {
+  "id": "mastercard-351",
+  "network": "mastercard",
+  "claim": "Mastercard announcements carry a structured header (Type, Category, Audience, Region, Brand, Action Indicator, Published, Effective) plus a version history, with 'Brand mandate' as an action indicator; AN 6977 (11 October 2022) is a publicly mirrored example."
+ },
+ {
+  "id": "mastercard-352",
+  "network": "mastercard",
+  "claim": "Mandate (1 April 2027): per practitioner reporting of bulletin GLB 14127.1 (published 28 July 2026 on Mastercard Connect), the Acquirer Chargeback Monitoring Program is replaced by a Global Merchant Audit Program that scores acquirers as well as merchants on a combined fraud-plus-chargeback ratio."
+ },
+ {
+  "id": "mastercard-353",
+  "network": "mastercard",
+  "claim": "Practitioner source confirms Mastercard's rule-change bulletins are distributed only to member institutions through Mastercard Connect and are not published on the open web, which is why programme changes such as GMAP have no public press release."
+ },
+ {
+  "id": "mastercard-354",
+  "network": "mastercard",
+  "claim": "Mandate (1 April 2027): EFM, ECM and HECM monitoring moves from the merchant ID to the sub-merchant ID wherever one is populated, removing payment facilitators' ability to dilute one sub-merchant inside an aggregate MID."
+ },
+ {
+  "id": "mastercard-355",
+  "network": "mastercard",
+  "claim": "Mandate (enforcement 23 October 2026; assessments from 31 January 2027): under GLB 12940.1 merchants must pass the retained TLID on subsequent merchant-initiated transactions, with reported non-compliance assessments of USD 2,500-5,000 per month capped at USD 25,000 under the Data Integrity Monitoring Program."
+ },
+ {
+  "id": "mastercard-356",
+  "network": "mastercard",
+  "claim": "Mandate (4 January 2027): Mastercard will decommission Acquirer Collaboration in the US and Canada under bulletin CAN/US 14059.1, closing new enrolment on 21 July 2026 when the bulletin published, without naming a replacement platform."
+ },
+ {
+  "id": "mastercard-357",
+  "network": "mastercard",
+  "claim": "Mandate (1 January 2026): revised standards for Mastercard's Merchant Monitoring Program (MMP) took effect, per a merchant-monitoring vendor that pairs it with Visa's VAMP enforcement date of 1 October 2025."
+ },
+ {
+  "id": "visa-002",
+  "network": "visa",
+  "claim": "Principal clients pay ongoing service fees, work directly with Visa, may sponsor others and are fully responsible for their assigned BIN; the fee amounts are not published."
+ },
+ {
+  "id": "visa-003",
+  "network": "visa",
+  "claim": "Associate clients (typically smaller credit unions and startups) hold their own licence and BIN but rely on a Principal client's sponsorship for settlement, reporting and fee payment."
+ },
+ {
+  "id": "visa-008",
+  "network": "visa",
+  "claim": "A Member must register every Third Party Agent with Visa through the Program Request Management application plus regional forms, and registration must be completed before the agent performs any contracted services; Visa may reject a registration at any time."
+ },
+ {
+  "id": "visa-011",
+  "network": "visa",
+  "claim": "Processor onboarding is rule-driven: a Member that uses a VisaNet Processor must first file a regional client information questionnaire, and a non-Member processor must sign a VisaNet Letter of Agreement before being used."
+ },
+ {
+  "id": "visa-012",
+  "network": "visa",
+  "claim": "A forthcoming rule change effective 24 October 2026 (Canada and US) will require Members to supply all numerical identifiers associated with each Third Party Agent at registration."
+ },
+ {
+  "id": "visa-013",
+  "network": "visa",
+  "claim": "The client extranet formerly called Visa Online has been renamed Visa Access in the Rules glossary (entry updated April 2025), while several Visa partner pages still refer to Visa Online."
+ },
+ {
+  "id": "visa-014",
+  "network": "visa",
+  "claim": "Visa published Third Party Agent registration fees in 2016: USD 5,000 initial and annual renewal for ISO, Payment Facilitator, High-Risk Internet PF and Distribution Channel Vendor agents, USD 1,000 for ESO and TPS, and no fee for ICPIA, MS, DCC or CFS agents; fees are charged to the registering client."
+ },
+ {
+  "id": "visa-015",
+  "network": "visa",
+  "claim": "Visa's 2016 FAQ gives the only published processing timeline for agent registration: cases are processed within five to seven business days, and PCI DSS validation submissions within two weeks."
+ },
+ {
+  "id": "visa-018",
+  "network": "visa",
+  "claim": "Fintech Fast Track eligibility on the programme page is: a registered corporation, in good financial standing, not an existing Visa member, new to card issuance and at least USD 3 million raised; both Visa and the enablement partner review the application against their own criteria."
+ },
+ {
+  "id": "visa-020",
+  "network": "visa",
+  "claim": "Non-financial-institution and crypto clients that intend to issue Visa debit or credit cards must file a Core Product Program Information Form through Visa Partner (member info, program info, participants, co-brand) and obtain Visa's written approval before issuing; the rule dates from April 2025."
+ },
+ {
+  "id": "visa-021",
+  "network": "visa",
+  "claim": "Visa launched Fintech Fast Track in the United States on 31 July 2019 with named enablement partners (Alloy, BBVA Open Platform, Cross River Bank, Galileo, Green Dot, Marqeta, Netspend, Stripe, TabaPay, TSYS, Q2, Very Good Security) and automatic qualification for portfolio companies of participating venture firms."
+ },
+ {
+  "id": "visa-022",
+  "network": "visa",
+  "claim": "Digital Transactions reported in December 2023 that Visa extended Fintech Fast Track beyond card issuing to Visa Direct and had signed 42 new Fast Track clients in the prior year."
+ },
+ {
+  "id": "visa-024",
+  "network": "visa",
+  "claim": "Visa publishes an explicit timeline and cost for one certification track: Visa Ready Tap to Phone certification typically takes 6 to 12 months and mandatory independent laboratory testing can cost USD 50,000 or more, which Visa uses to steer smaller players toward already-approved partners."
+ },
+ {
+  "id": "visa-025",
+  "network": "visa",
+  "claim": "Chip card and terminal manufacturers seeking Visa approval must first register as a Visa Technology Partner, license Visa software where required and execute Approval Services agreements; the approval process then runs product submission, testing authorisation, lab testing, report review and product approval, ending in an Approval Letter and listing."
+ },
+ {
+  "id": "visa-028",
+  "network": "visa",
+  "claim": "On Visa Developer the path is sandbox to certification to production, and certification and production credentials are only issued once a signed contract with Visa is in place; the Onboarding Dashboard collects business entity, contact, project, environment request, API registration, users and credential/CSR steps."
+ },
+ {
+  "id": "visa-029",
+  "network": "visa",
+  "claim": "Visa states that Developer Platform onboarding can take as little as two weeks or multiple months, driven by sandbox readiness, API product complexity and completion of the commercial VDP Agreement; a firm estimate is only given after Visa reviews the design."
+ },
+ {
+  "id": "visa-030",
+  "network": "visa",
+  "claim": "Visa Developer pricing is unpublished: the sandbox is free, a contract is required at certification, a flat setup fee applies, most production pricing is usage-based with monthly minimums, and some APIs are free to clients that already subscribe through Visa Online."
+ },
+ {
+  "id": "visa-031",
+  "network": "visa",
+  "claim": "One Visa Partner account spans Visa Developer APIs, Visa Partner programmes and Visa Online services, but Visa Online access needs additional validation; the platforms moved to Visa's Universal Login on 5 November 2025 and mandatory MFA from February 2026."
+ },
+ {
+  "id": "visa-034",
+  "network": "visa",
+  "claim": "Visa Acceptance Solutions (formerly CyberSource) runs a separate self-serve join path: a public web form creates a sandbox account with test-only credentials, production needs separate credentials and a go-live handled through support, and technology partners choose Referral, Enablement or Reseller models before validating and signing partner agreements."
+ },
+ {
+  "id": "visa-035",
+  "network": "visa",
+  "claim": "Visa Inc. is a Delaware corporation (Commission file 001-33977, NYSE: V) with principal executive offices in San Francisco, California; no change of legal owner since 2020, Visa Inc. remains the listed parent."
+ },
+ {
+  "id": "visa-036",
+  "network": "visa",
+  "claim": "Visa Inc.'s significant subsidiaries as of September 30, 2025 are Visa Europe Limited (United Kingdom), Visa International Service Association (Delaware), Visa U.S.A. Inc. (Delaware) and Visa Worldwide Pte. Limited (Singapore)."
+ },
+ {
+  "id": "visa-038",
+  "network": "visa",
+  "claim": "Visa Inc.'s capital structure still carries the legacy bank-owner classes: as of October 30, 2025 there were 1,687,629,770 class A shares, 4,835,384 class B-1, 120,338,948 class B-2 and 8,938,707 class C shares outstanding; class B is held by former Visa U.S.A. members and class C by former Visa Europe members."
+ },
+ {
+  "id": "visa-039",
+  "network": "visa",
+  "claim": "In fiscal 2025 (year ended September 30, 2025) Visa's total payments and cash volume was $17 trillion and it had nearly 5 billion payment credentials (issued Visa card accounts)."
+ },
+ {
+  "id": "visa-040",
+  "network": "visa",
+  "claim": "Visa credentials could be used at more than 175 million merchant locations worldwide, per data supplied by acquirers and third parties as of June 30, 2025."
+ },
+ {
+  "id": "visa-041",
+  "network": "visa",
+  "claim": "Visa's 175M+ merchant-location figure includes an estimated 64 million locations reached through payment facilitators (not direct acquirer contracts), which explains most of the jump from the 150M+ figure Visa used in early 2025."
+ },
+ {
+  "id": "visa-042",
+  "network": "visa",
+  "claim": "In fiscal 2025, 329 billion payments and cash transactions carried Visa's brand (about 901 million per day), of which 258 billion (78%) were processed on Visa's own network and the remainder on other networks."
+ },
+ {
+  "id": "visa-044",
+  "network": "visa",
+  "claim": "VisaNet, Visa's proprietary processing network, operates across more than 200 countries and territories."
+ },
+ {
+  "id": "visa-045",
+  "network": "visa",
+  "claim": "For the twelve months ended June 30, 2025 Visa's total nominal payments volume was $13,894 billion ($6,788B U.S., $7,106B international); adding $2,489B of cash volume gives total nominal volume of $16,383 billion."
+ },
+ {
+  "id": "visa-047",
+  "network": "visa",
+  "claim": "Visa's own calendar-2024 comparison (competitor data from Nilson Report issue 1288) shows Visa at 4,805 million cards, 311 billion total transactions, $13,433 billion payments volume and $15,927 billion total volume, versus Mastercard at 3,146 million cards and 204 billion transactions."
+ },
+ {
+  "id": "visa-050",
+  "network": "visa",
+  "claim": "In 2023, dual-message networks (Visa, Mastercard, Discover) carried 71.4% of U.S. debit transactions by volume and 72.9% by value; all 13 debit networks reported to the Board."
+ },
+ {
+  "id": "visa-051",
+  "network": "visa",
+  "claim": "Interlink, Visa's U.S. PIN-debit (single-message) network, is operated as a separate entity, Interlink Network, Inc., with its own bylaws and a public rulebook (Interlink Core Rules and Product and Service Rules, 13 April 2024, v1.2)."
+ },
+ {
+  "id": "visa-053",
+  "network": "visa",
+  "claim": "Any ATM owned, leased, sponsored or controlled by a Visa member may join the Visa Global ATM Network, and an acquirer that participates must enrol all of its ATMs that sit on other regional or national ATM networks and display Visa and Plus marks within 30 days."
+ },
+ {
+  "id": "visa-054",
+  "network": "visa",
+  "claim": "Visa's only published ATM count is on its developer site: the Visa Global ATM Locator API covers over 2 million ATMs in over 200 countries; the 10-K and fact sheet publish no ATM figure."
+ },
+ {
+  "id": "visa-055",
+  "network": "visa",
+  "claim": "Visa Direct, Visa's money-movement platform, reaches more than 195 countries and territories through more than 90 domestic payment schemes and more than 60 card and wallet networks, with potential reach of about 12 billion endpoints (about 4 billion each of cards, bank accounts and wallets)."
+ },
+ {
+  "id": "visa-056",
+  "network": "visa",
+  "claim": "In fiscal 2025 Visa Direct processed more than 12.5 billion transactions for more than 650 partners (Visa's published partner count for the platform)."
+ },
+ {
+  "id": "visa-058",
+  "network": "visa",
+  "claim": "Ownership change attempted but abandoned: Visa and Plaid terminated their $5.3 billion merger agreement on January 12, 2021 after the U.S. Department of Justice sued to block it; the deal had been announced January 13, 2020."
+ },
+ {
+  "id": "visa-059",
+  "network": "visa",
+  "claim": "Visa acquired Currencycloud (The Currency Cloud Group Limited, UK) on December 20, 2021 for total consideration of $893 million, adding FX and cross-border capability to Visa Direct."
+ },
+ {
+  "id": "visa-060",
+  "network": "visa",
+  "claim": "Visa completed its acquisition of Tink (Stockholm open-banking platform) on March 10, 2022; Tink is Visa's account-to-account and open-banking arm in Europe and Latin America."
+ },
+ {
+  "id": "visa-061",
+  "network": "visa",
+  "claim": "Visa acquired Pismo Holdings (cloud-native issuer processing and core banking, Brazil-origin) in January 2024 for $929 million and Featurespace Limited (real-time AI fraud technology, UK) in December 2024 for $946 million."
+ },
+ {
+  "id": "visa-062",
+  "network": "visa",
+  "claim": "On December 15, 2023 Visa agreed to buy a majority interest in Prosa, Mexico's largest card processor (more than 10 billion transactions a year), with closing expected in the second half of 2024; the FY2025 10-K (November 2025) still listed it as pending regulatory approval."
+ },
+ {
+  "id": "visa-063",
+  "network": "visa",
+  "claim": "Mexico's new National Antitrust Commission (CNA) rejected Visa's proposed majority acquisition of Prosa in February 2026, finding Visa's remedies insufficient; the deal would have given Visa control of two of Mexico's three card brands (Visa and Prosa's Carnet) and two of four clearinghouses."
+ },
+ {
+  "id": "visa-064",
+  "network": "visa",
+  "claim": "Visa's reciprocal/co-badge model in 2025 includes a 'Jaywan-Visa' co-badging partnership (announced March 10, 2025) with Al Etihad Payments, the Central Bank of the UAE's domestic scheme: domestic transactions route over UAESWITCH and cross-border transactions outside the GCC over Visa."
+ },
+ {
+  "id": "visa-065",
+  "network": "visa",
+  "claim": "In the EEA, a card carrying Visa plus another payment scheme (co-badged) issued or reissued on or after 23 April 2022 must be issued on a BIN dedicated to that co-badged programme and licensed by Visa, and EEA merchants must display the scheme choice to the cardholder."
+ },
+ {
+  "id": "visa-066",
+  "network": "visa",
+  "claim": "Visa's client extranet has been renamed Visa Access; the rules glossary defines it as the password-protected site for Members, VisaNet Processors and other authorised users, 'formerly known as Visa Online' (entry updated April 2025)."
+ },
+ {
+  "id": "visa-067",
+  "network": "visa",
+  "claim": "Visa names domestic and regional debit networks as its main non-global competitors: NYCE, Pulse and STAR in the U.S., Interac in Canada, eftpos in Australia, plus RuPay, UnionPay and JCB; Pulse has been Capital One-owned since May 18, 2025."
+ },
+ {
+  "id": "visa-068",
+  "network": "visa",
+  "claim": "Nilson Report puts Visa's share of global-brand purchase transactions (Visa, UnionPay, Mastercard, Amex, JCB, Discover/Diners) at 38.47% for January-June 2025, the most-used global brand but down on the prior year; 2025 full-year share is paywalled (preview reads 'Visa cards held a 40.76%...')."
+ },
+ {
+  "id": "visa-069",
+  "network": "visa",
+  "claim": "In the United States, purchase volume on Visa card products was $7.028 trillion in 2025 (+6.8%), a 70.38% share of combined Visa-plus-Mastercard purchase volume; Visa credit alone was $3.412 trillion."
+ },
+ {
+  "id": "visa-071",
+  "network": "visa",
+  "claim": "VAS revenue was $10.9B in fiscal 2025, up 24%, showing value-added services are a material line sold on top of core network processing."
+ },
+ {
+  "id": "visa-080",
+  "network": "visa",
+  "claim": "Visa Token Service (VTS) is the network tokenisation service for issuers and token requestors; Visa reports more than 16 billion tokens provisioned."
+ },
+ {
+  "id": "visa-084",
+  "network": "visa",
+  "claim": "Visa Provisioning Intelligence (token-provisioning risk score) is auto-enrolled for all issuers in Europe with an opt-out only for low-fraud issuers."
+ },
+ {
+  "id": "visa-085",
+  "network": "visa",
+  "claim": "Visa Account Updater is a mandatory issuer service in most regions: issuers must enrol their BINs, with listed exceptions (commercial, prepaid, ATM-only BINs)."
+ },
+ {
+  "id": "visa-098",
+  "network": "visa",
+  "claim": "Visa Resolve Online (VROL) is the network dispute platform sold to issuers, issuer processors, acquirers and acquirer processors; merchants reach it only through acquirers."
+ },
+ {
+  "id": "visa-105",
+  "network": "visa",
+  "claim": "Visa reports over 20 million Tap to Phone transacting devices in fiscal 2025."
+ },
+ {
+  "id": "visa-108",
+  "network": "visa",
+  "claim": "Visa Extended Access is Visa's managed connectivity to VisaNet; a Member that has it must use it to transmit interchange."
+ },
+ {
+  "id": "visa-109",
+  "network": "visa",
+  "claim": "Processors integrate Visa's optional and mandated services via periodic network releases, e.g. a new VTS provisioning indicator and auto-enabled Account Screen Clearing File at $0.05 per PAN."
+ },
+ {
+  "id": "visa-110",
+  "network": "visa",
+  "claim": "Issuer processors expose Visa's three rails distinctly: Visa (credit/signature debit), Interlink (PIN debit) and Plus (ATM only)."
+ },
+ {
+  "id": "visa-118",
+  "network": "visa",
+  "claim": "Visa's ATM access-fee non-discrimination rule for ATM operators remains in active antitrust litigation; Cardtronics filed an opt-out complaint in August 2025."
+ },
+ {
+  "id": "visa-119",
+  "network": "visa",
+  "claim": "Visa Global ATM Locator is an API product (free in sandbox, production by arrangement) covering more than 2 million ATMs in 200+ countries."
+ },
+ {
+  "id": "visa-120",
+  "network": "visa",
+  "claim": "Plus Alliance is a US surcharge-free ATM programme that issuers can join; Visa only references it on a cardholder page."
+ },
+ {
+  "id": "visa-122",
+  "network": "visa",
+  "claim": "Direct licensing has two client classes: Principal (self-settling, can sponsor others) and Associate (operates under a Principal for settlement, reporting and fees)."
+ },
+ {
+  "id": "visa-133",
+  "network": "visa",
+  "claim": "VDC Playground is Visa's downloadable REST test client for Visa Developer Platform APIs, obtained from the project dashboard and Windows-only."
+ },
+ {
+  "id": "visa-139",
+  "network": "visa",
+  "claim": "Visa Managed Services is a fee-based fraud-operations team that runs or tunes Visa Risk Manager, VCAS, Risk Advisor and Decision Manager for clients."
+ },
+ {
+  "id": "visa-141",
+  "network": "visa",
+  "claim": "Visa University sells paid, login-gated payments training to client staff, e.g. a $2,000 four-day virtual Payments Fundamentals course."
+ },
+ {
+  "id": "visa-142",
+  "network": "visa",
+  "claim": "Featurespace (acquired December 2024) adds network-agnostic behavioural fraud analytics to Risk and Security Solutions; Visa Protect for A2A targets real-time non-card payments."
+ },
+ {
+  "id": "visa-145",
+  "network": "visa",
+  "claim": "The developer centre home page doubles as an operational bulletin board: it carried a mandatory-action notice on renewal of VDP root, intermediate and leaf certificates with dated cutovers for api.visa.com (12 Feb 2026), digital.visa.com (12 Mar 2026) and api.visa.co.in (17 Mar 2026)."
+ },
+ {
+  "id": "visa-146",
+  "network": "visa",
+  "claim": "Visa Developer publishes public release notes by year from 2017 to 2026, each entry tagged with an availability status (Public or Restricted)."
+ },
+ {
+  "id": "visa-148",
+  "network": "visa",
+  "claim": "SDKs, implementation and integration guides are a gated download library inside the developer portal (Project Dashboard > Assets), available only after signing in with Visa Developer credentials."
+ },
+ {
+  "id": "visa-149",
+  "network": "visa",
+  "claim": "VDC Playground is a Windows-only Java desktop tool for testing Visa Developer Platform APIs; it is downloaded from the gated Asset Management area of a logged-in project dashboard."
+ },
+ {
+  "id": "visa-150",
+  "network": "visa",
+  "claim": "Going Live runs through an Onboarding Dashboard inside the project (business entity, contact, project information, environment request, API registration, users, credentials/CSR), and certification and production credentials are released only after a signed contract with Visa is in place."
+ },
+ {
+  "id": "visa-152",
+  "network": "visa",
+  "claim": "Visa Developer pricing has three models (free to use, no additional fee where the client already subscribes via Visa Online, and usage-based with monthly minimums); the sandbox carries no fees."
+ },
+ {
+  "id": "visa-155",
+  "network": "visa",
+  "claim": "Since 5 November 2025 the Visa Developer Platform authenticates through Visa's Universal Login (B2BIAM), with MFA on every login unless a passkey is used, Visa Access SSO bypassing MFA, and a new OTP forgot-password flow from 28 April 2026; the FAQ names the Visa Partner Portal as a sibling entitlement."
+ },
+ {
+  "id": "visa-156",
+  "network": "visa",
+  "claim": "A 2022 DevPortal Awards nomination describes the Visa Developer Platform as having an integrated sandbox with OpenAPI 3.0 support and a community platform with staff-written blog posts and tutorials; it was nominated for Best Findability of Products in a Devportal."
+ },
+ {
+  "id": "visa-157",
+  "network": "visa",
+  "claim": "Visa is hiring a Senior Director to own the end-to-end Visa Developer Platform client and developer experience, with success measured on Developer NPS, time-to-first API call, time-to-production, onboarding cycle time, self-service adoption and support-ticket reduction."
+ },
+ {
+  "id": "visa-159",
+  "network": "visa",
+  "claim": "Visa Partner's programme catalogue lists Visa Ready, Visa Sensory Branding, Visa Technology Partners, Fintech Fast Track, Third Party Agent Registration, License Programs and a Core Product Program Information Form for issuers; Fast Track is scoped to fintechs that have raised a Series A or USD 1M+."
+ },
+ {
+  "id": "visa-167",
+  "network": "visa",
+  "claim": "Since 18 April 2026 the Visa Rules bind any Member using an API through the Visa Developer Center to the Visa Developer Center Terms of Use unless a bespoke agreement applies; before that date the rule applied only in the Europe Region."
+ },
+ {
+  "id": "visa-170",
+  "network": "visa",
+  "claim": "Visa Resolve Online (VROL) is Visa's dispute platform for issuers and acquirers, offered through Visa Developer with production pricing on request; optional add-ons are Order Insight (formerly VMPI), Order Insight Digital, Rapid Dispute Resolution and VRAD."
+ },
+ {
+  "id": "visa-172",
+  "network": "visa",
+  "claim": "Third parties confirm merchants never log into VROL and reach it only through acquirer or processor dispute tools: a 2026 practitioner guide says the secure.visaonline.com login is for issuer and acquirer staff, and a 2018 First Data client deck shows VMPI data flowing merchant-to-issuer through VROL."
+ },
+ {
+  "id": "visa-177",
+  "network": "visa",
+  "claim": "Visa Payments Forum Americas is described by Visa as its largest annual client and partner event, gathering financial institutions, merchants, enablers and fintechs."
+ },
+ {
+  "id": "visa-178",
+  "network": "visa",
+  "claim": "Visa Payments Forum 2026 is scheduled in person at Moscone Center, San Francisco, 9-11 June 2026, for financial institutions, merchants, fintech partners and developers; a listings site reports Visa committed in August 2025 to host VPF at Moscone through 2030."
+ },
+ {
+  "id": "visa-181",
+  "network": "visa",
+  "claim": "Visa's public GitHub organisation (16 repositories, contact developer@visa.com, no public members) and design.visa.com publish the Nova design system, Visa Chart Components, an Acceptance Devices iOS SDK and agentic-commerce tooling as open developer surfaces."
+ },
+ {
+  "id": "visa-183",
+  "network": "visa",
+  "claim": "The Interlink rulebook is published openly by Visa (18 April 2026 edition) and routes Interlink Members' critical communications through the weekly Visa Business News; no public PLUS rulebook or ATM-operator surface was found."
+ },
+ {
+  "id": "visa-189",
+  "network": "visa",
+  "claim": "Visa Acceptance's own support documentation warns that its sandbox is not performance-optimised and may be intermittently unstable (502/504 timeouts), that sandbox accounts default to Chase Paymentech, and that support cases should be opened only after two hours of instability with no incident on the status page."
+ },
+ {
+  "id": "visa-190",
+  "network": "visa",
+  "claim": "Visa Developer sandbox access is self-service: any registrant can create projects and use most products at no charge, with only a few restricted products requiring participation criteria."
+ },
+ {
+  "id": "visa-191",
+  "network": "visa",
+  "claim": "Sandbox responses are mock data, not published or replayed production data, and are limited; real data needs production credentials under an agreement."
+ },
+ {
+  "id": "visa-197",
+  "network": "visa",
+  "claim": "Message Level Encryption on VDP is JWE-based: payloads are AES-GCM encrypted (128- or 256-bit) with the content key wrapped by RSA-OAEP 2048, using separate Visa (request) and client (response) key pairs identified by a Key-ID header."
+ },
+ {
+  "id": "visa-200",
+  "network": "visa",
+  "claim": "A separate B2C sandbox host (sandbox.webapi.visa.com) exists but currently serves only the Flex API/Token endpoint."
+ },
+ {
+  "id": "visa-201",
+  "network": "visa",
+  "claim": "Certification and production credentials are not self-service: they require a separate CSR per environment and are issued only after a signed contract with Visa."
+ },
+ {
+  "id": "visa-203",
+  "network": "visa",
+  "claim": "Two-Way SSL certificates last 27 months and X-Pay tokens 24 months; renewal issues a new user ID and password, and expiry emails go out only for certification/production projects at 120/90/60/30/15/7 days."
+ },
+ {
+  "id": "visa-209",
+  "network": "visa",
+  "claim": "Visa's Tap-to-Phone (Acceptance Devices) iOS SDK is distributed as a Swift package on GitHub with tagged releases; 3.8.0 shipped 16 September 2026."
+ },
+ {
+  "id": "visa-210",
+  "network": "visa",
+  "claim": "The VDC Playground API-testing tool is a Windows-only Java .jar downloaded from the logged-in project dashboard's Asset Management, supporting Two-Way SSL, X-Pay Token and MLE."
+ },
+ {
+  "id": "visa-211",
+  "network": "visa",
+  "claim": "Outbound notifications on VDP are called 'Outbound Callback Configuration': an HTTPS POST to a client URL, supported only over mutual TLS, and each configuration stays 'Pending' until Visa approves it."
+ },
+ {
+  "id": "visa-212",
+  "network": "visa",
+  "claim": "Release notes are published monthly and label outbound events as 'New Outbound API' / 'Client Outbound Events' / 'Webhook'; the newest entry on the page was May 2026 when fetched on 25 September 2026."
+ },
+ {
+  "id": "visa-213",
+  "network": "visa",
+  "claim": "Product API references are readable logged out and are rendered by Redocly from an OpenAPI 3.1.0 document embedded in the page; the embedded spec lists only the sandbox server and no securitySchemes."
+ },
+ {
+  "id": "visa-215",
+  "network": "visa",
+  "claim": "No formal API deprecation or versioning policy is published; the Terms of Use reserve the right to limit, modify or terminate any product immediately on written notice, and versioning is visible only as coexisting /v1 and /v2 paths."
+ },
+ {
+  "id": "visa-217",
+  "network": "visa",
+  "claim": "Production API pricing is bespoke per use case and set in a VDP API Agreement; a flat setup fee applies, and capabilities fall into three models: free to use, included with a Visa Online subscription, or usage-based with monthly minimums."
+ },
+ {
+  "id": "visa-219",
+  "network": "visa",
+  "claim": "Portal sign-in moved to Visa's Universal Login (B2BIAM) on 5 November 2025, with mandatory MFA (email, SMS or authenticator OTP) unless a Passkey or Visa Access SSO is used, and an OTP-based password reset from 28 April 2026."
+ },
+ {
+  "id": "visa-220",
+  "network": "visa",
+  "claim": "A redesigned onboarding experience (the in-project Onboarding Dashboard) went live in September 2025."
+ },
+ {
+  "id": "visa-223",
+  "network": "visa",
+  "claim": "Visa Direct APIs authenticate with mutual TLS only and require Message Level Encryption in both certification and production; receive-side responses carry AES-GCM encrypted 'enc'-prefixed fields."
+ },
+ {
+  "id": "visa-225",
+  "network": "visa",
+  "claim": "Visa publishes an npm CLI package, @visa/cli (v4.0.1, 16 July 2026), described as 'AI-powered payments for Claude Code', maintained by accounts with visa.com emails."
+ },
+ {
+  "id": "visa-228",
+  "network": "visa",
+  "claim": "Visa Acceptance REST authentication is moving to JWT (signed with a P12 certificate or shared secret) with mandatory Message-Level Encryption; HTTP Signature auth is deprecating with a March 2027 cut-off."
+ },
+ {
+  "id": "visa-233",
+  "network": "visa",
+  "claim": "All six CyberSource REST client SDKs cut GitHub releases within days of each other in September 2026 (Java 0.0.94, Node 0.0.83, Python 0.0.79, PHP 0.0.76, Ruby 0.0.87 on 7 Sept; .NET 1.0.2 on 10 Sept), corroborating the monthly-update claim."
+ },
+ {
+  "id": "visa-235",
+  "network": "visa",
+  "claim": "CyberSource ships an official MCP server for AI coding assistants on PyPI (cybersource-developer-mcp 0.0.3, 4 August 2026) that serves SDK documentation and generates integration code for the six SDK languages."
+ },
+ {
+  "id": "visa-237",
+  "network": "visa",
+  "claim": "Visa's SEC 10-K filings no longer mention 'Visa Developer' at all: EDGAR full-text search returns zero 10-K hits since 1 January 2025, and 'Visa Developer Platform' appears only in the FY2017 and FY2018 10-Ks."
+ },
+ {
+  "id": "visa-238",
+  "network": "visa",
+  "claim": "Visa publishes its U.S. interchange reimbursement fee schedule as a public PDF; the current edition is dated 18 April 2026 with rates effective April 18, 2026."
+ },
+ {
+  "id": "visa-239",
+  "network": "visa",
+  "claim": "U.S. exempt (non-regulated) consumer debit CPS/Retail card-present interchange is 0.80% + $0.15; regulated debit is 0.05% + $0.21 (plus $0.01 for issuers certifying fraud-prevention compliance)."
+ },
+ {
+  "id": "visa-240",
+  "network": "visa",
+  "claim": "U.S. exempt debit CPS/Supermarket is a flat $0.30 and CPS/Small Ticket debit is 1.55% + $0.04; the default Standard debit rate is 1.90% + $0.25."
+ },
+ {
+  "id": "visa-241",
+  "network": "visa",
+  "claim": "U.S. consumer credit card-present Retail (Performance Threshold I) interchange ranges from 1.43% + $0.10 for Traditional/All Other products to 2.30% + $0.10 for Visa Infinite Spend Qualified."
+ },
+ {
+  "id": "visa-242",
+  "network": "visa",
+  "claim": "The highest published U.S. consumer credit rate is Non-Qualified Consumer Credit at 3.15% + $0.10 across all products; Restaurant card-present is 2.60% (min $0.04) for premium products and 2.10% for others."
+ },
+ {
+  "id": "visa-243",
+  "network": "visa",
+  "claim": "Visa offers published card-not-present interchange incentives of -0.05% (EMV token), -0.10% (Digital Commerce Authentication Program) and -0.15% (DCAP plus token) on qualifying consumer credit."
+ },
+ {
+  "id": "visa-244",
+  "network": "visa",
+  "claim": "Visa's U.S. Small Merchant credit interchange program applies to merchants with gross Visa consumer credit sales of no more than $280,000 (12 months ending September 30, 2024)."
+ },
+ {
+  "id": "visa-245",
+  "network": "visa",
+  "claim": "Large-merchant credit Performance Threshold I (Retail) requires at least 133.4 million transactions and $8.83 billion volume with a dispute ratio of at most 0.020% and PCI compliance."
+ },
+ {
+  "id": "visa-246",
+  "network": "visa",
+  "claim": "U.S. commercial (purchasing and corporate T&E) interchange runs from 1.75% + $0.10 (Commercial Product 3) to 2.95% + $0.10 (Non-Qualified); Commercial Product Large Ticket is 1.30% + $35.00."
+ },
+ {
+  "id": "visa-247",
+  "network": "visa",
+  "claim": "Interlink (Visa's PIN debit network) publishes its own U.S. interchange schedule; exempt consumer Retail is 0.80% + $0.15, exempt Business Interlink 1.70% + $0.10, regulated 0.05% + $0.21, with rates effective July 1, 2023."
+ },
+ {
+  "id": "visa-248",
+  "network": "visa",
+  "claim": "Visa states that merchants do not pay interchange directly; they pay a negotiated merchant discount to their acquirer, and merchants must give their acquirer 30 days' notice before surcharging credit."
+ },
+ {
+  "id": "visa-249",
+  "network": "visa",
+  "claim": "The public Visa Core Rules define an interchange reimbursement fee as a default transfer price between acquirers and issuers, with merchant pricing set independently by each acquirer."
+ },
+ {
+  "id": "visa-250",
+  "network": "visa",
+  "claim": "Visa's network (scheme) fees are set out in regional Fee Schedules that the public rulebook only names (Visa U.S.A., Canada, Asia-Pacific, CEMEA, LAC, and Visa Europe Non-EEA / Non-Regulated / Scheme); the schedules themselves are not published."
+ },
+ {
+  "id": "visa-251",
+  "network": "visa",
+  "claim": "Visa Canada publicly discloses its standard acquiring network assessment fees: an Acquirer Service Fee of 0.09% on all Canadian-acquired Visa volume, plus an International Acquirer Service Fee of 0.60% (multicurrency) or 1.00% (single-currency) on foreign-issued cards."
+ },
+ {
+  "id": "visa-252",
+  "network": "visa",
+  "claim": "Visa Canada manages domestic consumer credit interchange to an average of 1.40% under a voluntary commitment with the Canadian Department of Finance, with annual third-party validation."
+ },
+ {
+  "id": "visa-253",
+  "network": "visa",
+  "claim": "Visa Canada's published domestic consumer credit interchange for Electronic (card-present) transactions is 1.25% (Classic/Gold/Platinum), 1.57% (Infinite), 1.60% (Infinite+) and 2.08% (Infinite Privilege); Visa Debit Electronic is CA$0.03 per transaction."
+ },
+ {
+  "id": "visa-254",
+  "network": "visa",
+  "claim": "Visa Canada's international interchange table publishes Visa Direct-related and ATM economics: an Original Credit Transaction earns US$0.29 and OCT Fast Funds Delivery US$0.60; ATM cash disbursement interchange (issuer to acquirer) is $0.65 + 0.52% where no access fee is charged."
+ },
+ {
+  "id": "visa-255",
+  "network": "visa",
+  "claim": "Effective 24 October 2026, Visa Canada will raise the Small Merchant Interchange Program volume ceiling from CAD 300,000 to CAD 750,000 and introduce a Digital Commerce Authentication Program (DCAP) with lower CNP rates, e.g. 1.30% for Classic/Gold/Platinum CNP-DCAP."
+ },
+ {
+  "id": "visa-256",
+  "network": "visa",
+  "claim": "Visa Europe publishes per-country and intra-EEA interchange schedules and states that Visa itself receives none of the interchange fee; EEA consumer rates are capped by the IFR (Regulation (EU) 2015/751) since 9 December 2015."
+ },
+ {
+  "id": "visa-257",
+  "network": "visa",
+  "claim": "Intra-EEA consumer interchange is 0.20% (debit/prepaid) and 0.30% (credit/deferred debit), while uncapped commercial rates run higher, e.g. Visa Business Debit at 1.30% (EMV chip) and 1.65% (e-commerce/standard)."
+ },
+ {
+  "id": "visa-258",
+  "network": "visa",
+  "claim": "UK domestic Visa commercial interchange (Feb 2026 schedule) is 0.75% card-present and 1.20% card-not-present for Visa Business Debit, rising to 1.75%/2.00% for Visa Purchasing, with a 2.05% non-qualified rate."
+ },
+ {
+  "id": "visa-259",
+  "network": "visa",
+  "claim": "Visa Australia publishes domestic interchange with effective dates per product: consumer credit rates effective 1 June 2026 include Standard 0.220% and Super Premium (Visa Signature) 0.847% inclusive of GST; card-present standard debit is 4.4 cents."
+ },
+ {
+  "id": "visa-260",
+  "network": "visa",
+  "claim": "For foreign cards issued outside Asia Pacific used at Australian merchants, Visa publishes inter-regional interchange of 1.10% (Classic/Gold consumer credit), 1.85% (premium consumer credit) and 2.00% (all commercial); no effective date is shown."
+ },
+ {
+  "id": "visa-261",
+  "network": "visa",
+  "claim": "Visa Developer Center pricing is tiered: sandbox use is free, a few APIs are free in production, some are bundled with a Visa Online subscription, and most are priced on usage (transactions, alerts, disputes, tokens, accounts enrolled)."
+ },
+ {
+  "id": "visa-262",
+  "network": "visa",
+  "claim": "Usage-priced Visa Developer APIs usually carry a monthly minimum per product, and going live requires a contract that includes flat setup fees for support and compliance checks; specific fees are quoted case by case."
+ },
+ {
+  "id": "visa-263",
+  "network": "visa",
+  "claim": "The Visa Developer Going Live page routes developers to a general Pricing Guide and to 'Contact Us' for specific pricing and a contract; production credentials are released only once Visa approves and a signed contract is in place."
+ },
+ {
+  "id": "visa-264",
+  "network": "visa",
+  "claim": "Visa Acceptance Solutions (formerly Cybersource) offers a free sandbox but publishes no pricing; the Cybersource pricing URL resolves to a contact-sales form."
+ },
+ {
+  "id": "visa-265",
+  "network": "visa",
+  "claim": "Visa's licensing page acknowledges that Principal clients pay required service fees but publishes no amounts; prospective members are directed to regional licensing teams."
+ },
+ {
+  "id": "visa-266",
+  "network": "visa",
+  "claim": "Fintech Fast Track is marketed with cost benefits (free trials on select solutions, preferred terms with referral partners) but no fee waivers, pricing or incentive amounts are published."
+ },
+ {
+  "id": "visa-267",
+  "network": "visa",
+  "claim": "Visa Inc. reports gross revenue in four lines and nets client incentives against them; fiscal 2025 client incentives were $15,751 million against net revenue of $40,000 million."
+ },
+ {
+  "id": "visa-268",
+  "network": "visa",
+  "claim": "Visa's 10-K defines client incentives as payments to financial institutions, sellers and other partners to grow volume and acceptance, and 'Other revenue' as including license fees for the Visa brand and fees for certification and licensing."
+ },
+ {
+  "id": "visa-269",
+  "network": "visa",
+  "claim": "The 2019 Amended Settlement Agreement in the U.S. interchange MDL received final approval on December 13, 2019; the March 25, 2024 injunctive-relief settlement was denied preliminary approval on June 25, 2024."
+ },
+ {
+  "id": "visa-270",
+  "network": "visa",
+  "claim": "On November 10, 2025 Visa and Mastercard entered a superseding and amended injunctive-relief settlement with U.S. merchants; the court granted preliminary approval on June 9, 2026 and plaintiffs moved for final approval on July 15, 2026."
+ },
+ {
+  "id": "visa-271",
+  "network": "visa",
+  "claim": "As of June 30, 2026 Visa had settled with opt-out merchants representing about 95% of Visa-branded volume of merchants who opted out of the damages class, up from about 82% reported in the FY2025 10-K."
+ },
+ {
+  "id": "visa-272",
+  "network": "visa",
+  "claim": "European interchange litigation continues to shape Visa's fee exposure: on April 20, 2026 a group of merchants from across Europe sued several Visa entities in the UK High Court alleging interchange restricts competition."
+ },
+ {
+  "id": "visa-273",
+  "network": "visa",
+  "claim": "The DOJ's September 24, 2024 Sherman Act complaint alleges Visa carries more than 60% of U.S. debit transactions and charges over $7 billion a year in fees on them, with North America operating margins of 83%."
+ },
+ {
+  "id": "visa-274",
+  "network": "visa",
+  "claim": "The DOJ complaint describes Visa's acquirer-side debit pricing as per-transaction network fees plus, since 2012, a fixed monthly Fixed Acquirer Network Fee (FANF) based on merchant locations and CNP volume, which Visa has raised twice."
+ },
+ {
+  "id": "visa-275",
+  "network": "visa",
+  "claim": "The DOJ alleges Visa's debit routing contracts use 'cliff pricing' (all-unit volume commitments) under which missing a committed threshold triggers Visa's published rack rates on all transactions, and cites a $20 million exclusivity payment to one merchant in 2023."
+ },
+ {
+  "id": "visa-276",
+  "network": "visa",
+  "claim": "Under Regulation II the debit interchange cap for covered issuers is $0.21 plus 0.05% of value plus a $0.01 fraud-prevention adjustment; in 2024 the all-network average interchange was $0.23 on covered and $0.51 on exempt transactions."
+ },
+ {
+  "id": "visa-277",
+  "network": "visa",
+  "claim": "In October 2023 the Federal Reserve proposed lowering the Reg II cap so that a $50 debit transaction would carry 17.7 cents instead of 24.5 cents, with biennial updates thereafter."
+ },
+ {
+  "id": "visa-278",
+  "network": "visa",
+  "claim": "The UK PSR's final report (6 March 2025) found Mastercard and Visa raised core scheme and processing fees to acquirers by at least 25% since 2017, costing UK businesses at least \u00a3170 million a year, in a market without effective competition."
+ },
+ {
+  "id": "visa-279",
+  "network": "visa",
+  "claim": "The PSR's PS26/1 final decision (30 July 2026) imposes an Information, Transparency and Complexity Direction and a Pricing Governance Direction on Visa and Mastercard; pricing-governance duties apply from end November 2026 and ITC duties from end July 2027."
+ },
+ {
+  "id": "visa-280",
+  "network": "visa",
+  "claim": "The PSR found Visa and Mastercard raised UK-EEA card-not-present consumer cross-border interchange from 0.2%/0.3% to 1.15%/1.5% after Brexit, costing UK businesses \u00a3150-200 million a year, and in October 2025 chose not to impose an interim cap while consulting on a long-term cap methodology."
+ },
+ {
+  "id": "visa-281",
+  "network": "visa",
+  "claim": "The European Commission's 2020 IFR review found interchange fell and merchant service charges dropped after the caps, while scheme fees (outside the IFR) rose to a limited extent, mainly at international schemes; estimated consumer savings EUR 864-1,930 million a year."
+ },
+ {
+  "id": "visa-282",
+  "network": "visa",
+  "claim": "The RBA's 31 March 2026 conclusions cut Australian consumer credit interchange cap to 0.3% (from 0.8%), keep debit at 8 cents benchmark and cap, add a cap on foreign-issued cards, end surcharging from 1 October 2026, and require networks to publish interchange and scheme fees; estimated wholesale savings around $910 million a year."
+ },
+ {
+  "id": "visa-283",
+  "network": "visa",
+  "claim": "Visa Direct's product page publishes no pricing; prospective partners are sent to a sales form, and Visa Developer's pricing page indicates such capabilities are priced on usage under contract."
+ },
+ {
+  "id": "visa-284",
+  "network": "visa",
+  "claim": "Visa publishes its full rulebook publicly as a single 923-page PDF, 'Visa Core Rules and Visa Product and Service Rules', current edition dated 18 April 2026."
+ },
+ {
+  "id": "visa-288",
+  "network": "visa",
+  "claim": "The rulebook is published on a semi-annual April/October cadence: the 18 April 2026 edition lists changes since the 18 October 2025 edition, and effective dates older than six months are purged each edition."
+ },
+ {
+  "id": "visa-291",
+  "network": "visa",
+  "claim": "Operational and rule communications to clients are pushed through a weekly 'Visa Business News' email to each Member's designated Primary Center Manager and Senior Officer; no public archive was found."
+ },
+ {
+  "id": "visa-296",
+  "network": "visa",
+  "claim": "Non-compliance is enforced through a published escalating general schedule: a USD 1,000 Compliance Case Fee at notification, then Tier 1 (Core Rules) assessments of USD 25,000, 50,000, 75,000, 100,000, 125,000, 150,000 and +USD 25,000 per month thereafter; Tier 2 (other rules) starts at USD 5,000."
+ },
+ {
+  "id": "visa-300",
+  "network": "visa",
+  "claim": "Acquirers must report their own PCI DSS status to Visa and report and verify their merchants' PCI DSS compliance status at least every six months; Level 3 merchants must use PCI-compliant service providers or provide validation."
+ },
+ {
+  "id": "visa-304",
+  "network": "visa",
+  "claim": "Mandate: effective 24 October 2026 in the US and Canada, Members must disclose to Visa all Numeric IDs, BINs, issuing/acquiring identifiers and account ranges used by each Third Party Agent, and review them annually."
+ },
+ {
+  "id": "visa-308",
+  "network": "visa",
+  "claim": "VAMP per-dispute fee amounts are not in the public rulebook: section 12.5.4 'Dispute Monitoring Fees and Non-Compliance Assessments' exists as a heading only."
+ },
+ {
+  "id": "visa-311",
+  "network": "visa",
+  "claim": "Acquirers that fail High-Integrity Risk registration requirements face USD 100,000 per month (Tier 1-2 merchants) or USD 25,000 (Tier 3), plus USD 2,000 per unregistered high-integrity-risk merchant per month."
+ },
+ {
+  "id": "visa-312",
+  "network": "visa",
+  "claim": "Mandate: a new Merchant Elevated Risk Program (MERP) took effect 9 April 2026 in Asia-Pacific, with USD 25,000 on first identification and USD 50,000 on repeat identification."
+ },
+ {
+  "id": "visa-314",
+  "network": "visa",
+  "claim": "VROL dispute questions and documentation must be in English or carry an English translation; the prior domestic-language concession for common-language issuer/acquirer pairs ended for disputes processed after 17 April 2026."
+ },
+ {
+  "id": "visa-316",
+  "network": "visa",
+  "claim": "Mandate: effective 24 October 2026 Visa expands Compelling Evidence 3.0 for Dispute Condition 10.4 (card-absent fraud) and allows multi-merchant transactions as qualifying evidence for liability protection."
+ },
+ {
+  "id": "visa-318",
+  "network": "visa",
+  "claim": "Mandate: effective 18 April 2026 Visa introduced rules allowing Digital Wallets and Pass-Through Digital Wallets in 'Agentic Transactions', with new Agentic Payment Enabler and Agentic Payment Provider requirements (rules 4.1.24.1-4.1.24.5)."
+ },
+ {
+  "id": "visa-319",
+  "network": "visa",
+  "claim": "Mandate: effective 18 April 2026 the Member API-usage rule (7.2.3) was expanded from regional to global scope."
+ },
+ {
+  "id": "visa-320",
+  "network": "visa",
+  "claim": "Mandate: effective 18 April 2026 the Visa Direct AFT and OCT processing guides were retired and replaced by a single 'Visa Direct for Card Processing Guide', with several Visa Direct requirements moved into the rulebook proper, including a Program Information Form (PIF) approval requirement."
+ },
+ {
+  "id": "visa-321",
+  "network": "visa",
+  "claim": "Mandate: effective 25 July 2026 Visa introduces a Visa-only authorization response code RC 83 (Fraud/Security) for STIP declines caused by high-risk conditions."
+ },
+ {
+  "id": "visa-322",
+  "network": "visa",
+  "claim": "Mandate: effective 25 July 2026 acquirers must send accurate, real data (no dummy values) in Account Name Inquiry, AVS and Account Verification requests."
+ },
+ {
+  "id": "visa-323",
+  "network": "visa",
+  "claim": "Mandate: AVS issuer participation and a related disputes liability shift arrive in Australia, New Zealand, Singapore, Europe and seven LAC countries, effective 24 October 2026 and 24 April 2027."
+ },
+ {
+  "id": "visa-324",
+  "network": "visa",
+  "claim": "Mandate: effective 18 April 2026 Visa removed a block of acquirer, merchant and third-party-agent risk rules (including Europe merchant deposit monitoring and the US TPA operational review) because they are now covered by the non-public 'Visa Acceptance Risk Standards' (VARS)."
+ },
+ {
+  "id": "visa-325",
+  "network": "visa",
+  "claim": "Mandate: business-continuity requirements for non-Member VisaNet Processors in CEMEA take effect 24 October 2026 and 22 April 2028."
+ },
+ {
+  "id": "visa-326",
+  "network": "visa",
+  "claim": "Mandate: from 1 August 2026 Visa stops issuing the twice-yearly Edit Package updates to Europe Members."
+ },
+ {
+  "id": "visa-327",
+  "network": "visa",
+  "claim": "Mandate: Canada Code of Conduct attestation deadline moved from 31 January to 31 March from 1 January 2026, with CAD 100,000 per month for failure to attest."
+ },
+ {
+  "id": "visa-328",
+  "network": "visa",
+  "claim": "Mandate deferrals: US Visa Installment Credential issuer requirements moved from 18 April 2026 to 24 October 2026, and Georgia (CEMEA) e-commerce SCA enforcement moved from 1 January 2026 to 1 January 2027."
+ },
+ {
+  "id": "visa-329",
+  "network": "visa",
+  "claim": "Issuer fraud-reporting failures follow a published five-occurrence ladder: warnings for the first two, then 90-day and 180-day suspensions of fraud dispute rights with USD 25,000 minimum assessments (USD 50,000 in Europe), and an on-site audit at the fourth occurrence."
+ },
+ {
+  "id": "visa-331",
+  "network": "visa",
+  "claim": "Visa's security-compliance page states PCI DSS is mandatory for every entity handling Visa cardholder data, merchant level is set by 12-month Visa volume, and issuers/acquirers must have service providers validate PCI DSS at least every 12 months."
+ },
+ {
+  "id": "visa-332",
+  "network": "visa",
+  "claim": "Visa's Technology Innovation Program (TIP) waives annual PCI DSS validation for merchants with at least 75% of transactions on EMV chip terminals, and the Global Registry of Service Providers is positioned as the industry's list of registered, compliant agents."
+ },
+ {
+  "id": "visa-333",
+  "network": "visa",
+  "claim": "Visa's account-data-compromise procedure 'What To Do If Compromised' is public (Version 10.0, effective 25 June 2026, 25 pages) and requires notification to Visa's Global Risk Investigations within three calendar days of suspecting or confirming a compromise."
+ },
+ {
+  "id": "visa-334",
+  "network": "visa",
+  "claim": "When Visa requires a PCI Forensic Investigation, the entity must retain a PFI within five business days, deliver a preliminary report within five business days of retention, and a final report within ten business days of completion; Visa can charge USD 10,000 per month for Level 1-2 investigations not completed within four months."
+ },
+ {
+  "id": "visa-335",
+  "network": "visa",
+  "claim": "Visa consolidated merchant PCI Levels 3 and 4 into a single Level 3 on 25 April 2024 and, effective 9 February 2025, moved compromise non-compliance assessments for Level 3 merchants to a tiered structure by account count (USD 5K, 10K, 25K, 100K)."
+ },
+ {
+  "id": "visa-336",
+  "network": "visa",
+  "claim": "Visa's own VAMP fact sheet (May 2025) confirms VAMP consolidated the prior VAMP, Visa Fraud Monitoring Program and Visa Dispute Monitoring Program into one global programme with new thresholds effective 1 June 2025 and an advisory period ending 30 September 2025."
+ },
+ {
+  "id": "visa-338",
+  "network": "visa",
+  "claim": "VAMP thresholds: acquirers are 'Above Standard' at a VAMP ratio of 50bps or more and 'Excessive' at 70bps or more; merchants are 'Excessive' at 220bps (150bps in LAC), falling to 150bps in AP, Canada, EU and US on 1 April 2026, with minimum monthly counts of 1,500 (150 and USD 75,000 in CEMEA)."
+ },
+ {
+  "id": "visa-339",
+  "network": "visa",
+  "claim": "Visa framed VAMP publicly (Paul Fabara, Chief Risk and Client Services Officer, 15 May 2025) as one programme with three goals and a formula that now counts all disputes, fraudulent and non-fraud."
+ },
+ {
+  "id": "visa-340",
+  "network": "visa",
+  "claim": "Developer access beyond the sandbox is contractually gated: Visa Developer certification and production credentials are only issued once a signed contract with Visa is in place, via an in-project 'Onboarding Dashboard'."
+ },
+ {
+  "id": "visa-343",
+  "network": "visa",
+  "claim": "Visa publishes a 67-page merchant-facing 'Dispute Management Guidelines for Visa Merchants' (June 2024) describing monthly merchant dispute monitoring with acquirer notification and a separate 'compliance' process for rule violations that carry no dispute right."
+ },
+ {
+  "id": "visa-344",
+  "network": "visa",
+  "claim": "Compelling Evidence 3.0 took effect 15 April 2023 for Dispute Condition 10.4; qualifying requires two prior undisputed transactions 120-365 days old from the same merchant matching on at least two of User ID, IP address, shipping address or device ID, one of which must be IP or device."
+ },
+ {
+  "id": "visa-345",
+  "network": "visa",
+  "claim": "Visa's FY2025 10-K discloses that some jurisdictions (Brazil) now require government pre-approval of certain network rules, and that Visa's assessment of fees for non-compliance with its surcharge rules is the subject of US antitrust litigation."
+ },
+ {
+  "id": "visa-346",
+  "network": "visa",
+  "claim": "Stripe's processor documentation republishes VAMP as monthly monitoring with a merchant 'Non-compliant' tier (0.5% ratio, count 5) and 'Excessive' tier (1.5%, or 2.2% in CEMEA), says fees apply above Excessive and may apply above Non-compliant, and states enumeration monitoring carries no fines."
+ },
+ {
+  "id": "visa-347",
+  "network": "visa",
+  "claim": "Trade press reports VAMP launched 1 April 2025, the advisory period was extended from July to 30 September 2025, enforcement began 1 October 2025, and per-item fees are USD 4 (acquirer Above Standard) and USD 8 (acquirer or merchant Excessive) per fraud or dispute item."
+ },
+ {
+  "id": "visa-348",
+  "network": "visa",
+  "claim": "One year into VAMP (April 2026) Visa released six dispute tools - Dispute Intelligence, Dispute Doc Analyzer and Visa Dispute Case Manager for acquirers; Visa Dispute Resolution Network, Visa Dispute Recovery Manager and Order Insight for merchants - citing 106 million disputes processed in 2025."
+ },
+ {
+  "id": "visa-349",
+  "network": "visa",
+  "claim": "The 'Visa Claims Resolution' (VCR) framework went live 15 April 2018, collapsing reason codes into four categories (fraud, authorization, processing errors, consumer disputes) and cutting the merchant response window from 45 to 30 days; those four categories are what the current rulebook still uses as Dispute Categories 10-13."
+ },
+ {
+  "id": "visa-350",
+  "network": "visa",
+  "claim": "The only published support channel for the Visa Developer Center is an email address, developer@visa.com, presented under 'Reach out to our team'."
+ },
+ {
+  "id": "visa-352",
+  "network": "visa",
+  "claim": "In the April 2026 password-reset change notice the same function is called 'Visa Developer Platform Support', with no channel other than 'contact' given."
+ },
+ {
+  "id": "visa-353",
+  "network": "visa",
+  "claim": "The Visa Developer support page publishes no phone number, hours of operation, response-time commitment or ticketing system; it offers email, FAQs and a 'Contact Us' prompt only."
+ },
+ {
+  "id": "visa-360",
+  "network": "visa",
+  "claim": "Visa provides a downloadable desktop troubleshooting tool, VDC Playground, that handles all VDP authentication methods and can export details for bug reports; it is Windows-only and requires login to obtain."
+ },
+ {
+  "id": "visa-361",
+  "network": "visa",
+  "claim": "Visa Developer proactively emails project owners about expiring certificates on a fixed schedule, but only for projects promoted to certification or production, not sandbox."
+ },
+ {
+  "id": "visa-362",
+  "network": "visa",
+  "claim": "Platform changes are communicated through public monthly release notes archived by year back to 2017, each item tagged with an availability level (Public or Restricted)."
+ },
+ {
+  "id": "visa-364",
+  "network": "visa",
+  "claim": "Visa Developer Platform authentication is unified with the client portal: from November 5, 2025 it uses Visa's Universal Login, and users signing in through Visa Access SSO skip MFA."
+ },
+ {
+  "id": "visa-365",
+  "network": "visa",
+  "claim": "Visa ran a peer-support Developer Community (Khoros-style forum) with 26.1K members and topic boards including 'Visa Direct Support' and 'Go Live & Pricing'; the live host now refuses TLS connections and the last Wayback capture is 9 July 2025."
+ },
+ {
+  "id": "visa-371",
+  "network": "visa",
+  "claim": "For most third-party agents, Visa's support relationship is mediated by a sponsoring issuer or acquirer that acts as liaison; only agents enrolling in non-sponsored products register directly with Visa."
+ },
+ {
+  "id": "visa-372",
+  "network": "visa",
+  "claim": "Visa Acceptance Solutions publishes a response commitment of 1 to 2 business days for developer support requests submitted by form, with a masked phone number and peer channels on GitHub and Stack Overflow."
+ },
+ {
+  "id": "visa-373",
+  "network": "visa",
+  "claim": "Visa Acceptance's Support Center offers live chat and support-case submission, but both are behind sign-in; unauthenticated visitors get knowledge articles only."
+ },
+ {
+  "id": "visa-376",
+  "network": "visa",
+  "claim": "Incident communication for Visa Acceptance Solutions is a public Atlassian Statuspage with email and SMS subscriptions, RSS/Atom feeds and an incident history; it lists the Developer Center and Support Center as monitored components."
+ },
+ {
+  "id": "visa-377",
+  "network": "visa",
+  "claim": "The Cybersource Developer Community (still linked as 'Support & Community' from the Visa Acceptance developer portal) had 64.5K members but only 513 Cybersource discussions versus 10,964 Authorize.net discussions, and its announcements block still carries 2011-era notices; the live host bot-walls automated fetches."
+ },
+ {
+  "id": "visa-385",
+  "network": "visa",
+  "claim": "Visa's relationship-management function is organised as 'Client Services' with regional heads (e.g., Central Europe and Eurozone Operations) and a 'Client Success' team undergoing transformation, per a September 2026 job posting."
+ },
+ {
+  "id": "visa-388",
+  "network": "visa",
+  "claim": "Visa Developer launched in 2016 with roughly 155 APIs and a sandbox, per trade press at the time."
+ }
+]

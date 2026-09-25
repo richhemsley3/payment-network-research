@@ -1,0 +1,113 @@
+{
+ "network": "dgn",
+ "seed": "https://www.discovereasi.com/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.discovereasi.com/easi/loginpage",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Discover EASI Portal Login | Discover Global Network",
+   "h1": "",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 0,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [
+    {
+     "text": "Next",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [],
+   "headings": [
+    "h3: Secure Account Log In"
+   ],
+   "screenshot": "assets/dgn/dgn-easi-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [],
+   "walls": 0,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Registration Quick Guide",
+     "href": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Registration Quick Guide",
+    "href": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.discovereasi.com/",
+   "final": "https://www.discovereasi.com/easi/loginpage",
+   "status": 200,
+   "ms": 1999,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.discovereasi.com/easi/loginpage",
+   "final": "https://www.discovereasi.com/easi/loginpage",
+   "status": 200,
+   "ms": 1789,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.discovereasi.com/easi/loginpage",
+   "final": "https://www.discovereasi.com/easi/loginpage",
+   "status": 200,
+   "ms": 1803,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "dgn-easi-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.discovereasi.com/easi/loginpage",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-easi-s1-01-20260925.webp",
+   "kb": 89
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 3,
+  "screenshots": 1,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

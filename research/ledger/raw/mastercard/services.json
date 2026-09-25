@@ -1,0 +1,1538 @@
+{
+  "network": "mastercard",
+  "dimension": "services",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "services",
+      "claim": "Mastercard Developers is positioned as the single API platform for issuers, acquirers, fintechs and developers to reach Mastercard products.",
+      "quote": "Mastercard Developers is a comprehensive API platform that provides issuers, acquirers, financial services companies, fintech, and developers with access to Mastercard products and services.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Machine-readable index published by the developer portal; lists 76 products and 95 documented services."
+    },
+    {
+      "dimension": "services",
+      "claim": "The developer catalogue holds 91 products, filterable by partner type: 58 tagged for issuers, 42 for merchants, 38 for acquirers and 11 for fintechs.",
+      "quote": "USED BY View All 91 Acquirer 38 Fintech 11 Issuer 58 Loyalty Providers 3 Merchant 42 Other Developers 52",
+      "url": "https://developer.mastercard.com/products",
+      "title": "Mastercard Developers - All products",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Category counts: Payments 55, Data 27, Security 20, Loyalty 12, Open Finance 4."
+    },
+    {
+      "dimension": "services",
+      "claim": "Developer access is project-based with a self-service sandbox, but production access is gated behind company verification and 'commercial countries' declarations.",
+      "quote": "Before you can request Production access, you need to complete a few steps located in the Production access prerequisites section on your project Summary page.",
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Production credentials are generated instantly but only activated after approval."
+    },
+    {
+      "dimension": "services",
+      "claim": "Some catalogue services are private and invisible until access is granted, and some sandboxes require service-team approval ('Under Review').",
+      "quote": "A service may not appear in the APIs dropdown if it’s private and you don’t have access to it.",
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Keys are valid for 13 months with reminders at 60/30/15/5/1 days."
+    },
+    {
+      "dimension": "services",
+      "claim": "Every developer-portal product is tied to a Business Relationship Type (BRT) on the company's Mastercard Company ID, so a partner can only take services its licence relationship authorises.",
+      "quote": "Each product and service offered through Mastercard Developers is associated with a specific BRT.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md",
+      "title": "Business Relationship Type (BRT) - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Adding a BRT routes through a 'Customer Onboarding Platform' questionnaire; the doc names noreplycompanyonboarding@mastercard.com."
+    },
+    {
+      "dimension": "services",
+      "claim": "Company verification for production can be completed instantly by linking the developer profile to an existing Mastercard Connect profile, tying the open portal to the gated client portal.",
+      "quote": "Link your Mastercard Developers profile with an existing Mastercard Connect profile. This results in instant self-verification.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md",
+      "title": "Company Verification - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Alternatives: enter a 6-10 digit Mastercard Company ID (CID) or submit company details as a new customer."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard publishes an open-source agent toolkit and MCP server so AI coding agents can discover and integrate its APIs.",
+      "quote": "The Mastercard Developers Agent Toolkit allows popular agent frameworks to integrate with Mastercard Developers Platform for service discovery and integration guides.",
+      "url": "https://github.com/Mastercard",
+      "title": "Mastercard - GitHub organization",
+      "publisher": "Mastercard (GitHub)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Pinned repos also include client-encryption-java, oauth1-signer-java and mastercard-api-client-tutorial; WebFetch summary reported 139 repositories."
+    },
+    {
+      "dimension": "services",
+      "claim": "The developer portal routes implementation help to Mastercard Engage partners rather than to Mastercard itself.",
+      "quote": "Mastercard Engage connects you with trusted technology partners who can help implement Mastercard APIs and solutions",
+      "url": "https://developer.mastercard.com/",
+      "title": "Mastercard Developers (home)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. The 'Find a partner' link targets https://www.mastercard.com/engage."
+    },
+    {
+      "dimension": "services",
+      "claim": "In its 10-K Mastercard describes Mastercard Developers as a single access point for customers and partners to integrate its services.",
+      "quote": "Our Mastercard Developers platform makes it easy for customers and partners to leverage our many digital assets and services.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "MDES (Mastercard Digital Enablement Service) is the core network tokenisation service; issuers consume it for wallet provisioning and token lifecycle.",
+      "quote": "Provides services around the tokenization of Mastercard card numbers for increased payment security.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Core network service. Sub-APIs: MDES Customer Service, MDES Digital Card Art Service, MDES Digital Enablement API, MDES Pre-digitization, MDES Token Connect."
+    },
+    {
+      "dimension": "services",
+      "claim": "MDES Token Connect lets issuers push card credentials from their own banking app into wallets and merchants (issuer-initiated push provisioning).",
+      "quote": "MDES Token Connect enables Mastercard issuers to securely push payment card and account details to eligible token requestors",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (MDES Token Connect overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Direct to issuer; also exposed via processors (see Marqeta claim)."
+    },
+    {
+      "dimension": "services",
+      "claim": "MDES Customer Service APIs let issuers service their own tokens (search, suspend, delete, reset mobile PIN) from their customer-service tooling.",
+      "quote": "MDES Customer Service is a set of APIs that enable issuers onboarded to MDES to manage the lifecycle of their own tokens",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (MDES Customer Service overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard sells issuer processing directly to banks and fintechs ('Mastercard Processing') as a value-added service beyond the switch.",
+      "quote": "Mastercard Processing offers modern, scalable, and configurable card processing solutions to fintech companies and financial institutions.",
+      "url": "https://developer.mastercard.com/mastercard-processing-core/documentation/index.md",
+      "title": "Mastercard Processing Core APIs - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Product blurb: 'Powering card management for banks and fintech companies interested in prepaid, debit, and credit products.' API families: Core, Credit, Debit, Digital, Dispute, Fraud, Authentication."
+    },
+    {
+      "dimension": "services",
+      "claim": "Stand-In processing is a business-continuity service that authorises on the issuer's behalf when its host is down.",
+      "quote": "Mastercard’s Stand-In processing, which is designed to ensure transaction continuity when a card issuer’s systems are unavailable.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Listed under 'Business continuity solutions' within Security solutions."
+    },
+    {
+      "dimension": "services",
+      "claim": "Network-level fraud scoring for issuers is described in the 10-K as scanning billions of data points daily to raise approvals and cut false declines.",
+      "quote": "fraud scoring technology that scans billions of data points across millions of transactions each day while increasing approvals and reducing false declines",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "The 10-K does not use the product names Decision Intelligence or Safety Net; marketing pages do."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Safety Net is marketed as a network-level fraud backstop with $77.4b of fraud prevented to date.",
+      "quote": "in fraud prevented to date with Mastercard Safety Net",
+      "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention.html",
+      "title": "Credit Card Fraud Protection and Cybersecurity Services | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Figure shown as '$77.4b' with footnote 'Mastercard 2026 data'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuers enable Click to Pay for their cardholders via Mastercard APIs (push provisioning or auto-enablement), including issuing payment passkeys.",
+      "quote": "Using Mastercard's APIs, Issuers provision and enable cards in Click to Pay to create a consumer profile.",
+      "url": "https://developer.mastercard.com/issuer-enrollment/documentation/index.md",
+      "title": "Issuer Enablement in Click to Pay - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Automatic Billing Updater is fed by issuers and consumed by merchants and acquirers, so one service spans two partner types.",
+      "quote": "Card issuers inform ABU when an account is created, updated, or closed. Registered merchants and acquirers can subscribe to an account",
+      "url": "https://developer.mastercard.com/automatic-billing-updater/documentation/index.md",
+      "title": "Automatic Billing Updater - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Push subscription and Pull inquiry models. Adyen case study on the developer home cites a 2.5% card-on-file approval lift (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Confirmed-fraud reporting (Fraud and Loss Database) is offered through Global File Transfer batches, Mastercard Connect screens or API.",
+      "quote": "Manual online search and submission by users through Mastercard Connect™.",
+      "url": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md",
+      "title": "Confirmed Fraud (Fraud and Loss Database) - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Names two gated surfaces: Global File Transfer (GFT) and Mastercard Connect."
+    },
+    {
+      "dimension": "services",
+      "claim": "Loyalty is sold to both issuers and merchants as a value-added service integrated with the network.",
+      "quote": "Issuer and merchant loyalty services, which blend strategy, services, data and technology to deliver loyalty solutions",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer catalogue names Mastercard Loyalty Management, Mastercard Loyalty Promotions, Mastercard Redemption Services, Pay with Rewards, Offers for Publishers."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercom is the network's dispute platform for issuers, acquirers and third parties, covering the whole chargeback lifecycle under one claim ID.",
+      "quote": "Mastercom is Mastercard’s dispute resolution platform that enables issuers, acquirers, and third parties to manage the full lifecycle of payment disputes.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Mastercom overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Core network service; API on developer portal plus UI on Mastercard Connect. Events: Collaboration, chargebacks, second presentments, fee collections, case filings."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercom Extended is the replacement API suite for Mastercom, with the migration still in progress.",
+      "quote": "As Mastercom Extended expands to cover the full lifecycle, it will replace the existing Mastercom API.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Mastercom-Extended overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Current scope: issuer first chargebacks, acquirer representments, fund movement via the Mastercard Switch."
+    },
+    {
+      "dimension": "services",
+      "claim": "Pre-chargeback 'Collaboration' requests reach acquirers through Mastercom and can be initiated through Ethoca, linking the dispute tool to the acquired Ethoca network.",
+      "quote": "Acquirers receive Collaboration requests through Mastercom. The acquirers work with their merchants before creating responses to the requests.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/index.md",
+      "title": "Dispute Resolution Cycle - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "References AN 4655 and the Chargeback Guide in the Technical Resource Center on Mastercard Connect (gated)."
+    },
+    {
+      "dimension": "services",
+      "claim": "MATCH Pro (terminated-merchant database) is mandatory for acquirers before signing merchants or sponsored merchants.",
+      "quote": "MATCH Pro is a mandatory system for Mastercard Acquirers.",
+      "url": "https://developer.mastercard.com/match/documentation/index.md",
+      "title": "MATCH Pro - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Doc cites GLB 12773.1: non-migrated customers become 'Category C Noncompliant'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Legacy MATCH APIs and GFT bulk files were decommissioned on January 1, 2026, and MATCH Pro adds a merchant risk score ('New Merchant Insights') from October 15, 2026.",
+      "quote": "Effective October 15, 2026, Mastercard is introducing MATCH Pro with New Merchant Insights.",
+      "url": "https://developer.mastercard.com/match/documentation/index.md",
+      "title": "MATCH Pro - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "llms.txt overview: 'effective January 1, 2026, we will decommission legacy MATCH APIs and legacy MATCH bulk files through GFT'. UI refresh on September 18, 2026 under the 'Mastercard Connect modernization initiative'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Onboard Risk Check (merchant-onboarding risk reports) is offered both as an API and as a UI inside Mastercard Connect.",
+      "quote": "ORC UI : This is a user-friendly interface available through Mastercard Connect.",
+      "url": "https://developer.mastercard.com/onboard-risk-check/documentation/index.md",
+      "title": "Onboard Risk Check - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Value-added; can reuse a MATCH Inquiry Reference Number."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Gateway is a directly sold, multi-channel payment gateway for merchants and banks, a value-added service outside the switch.",
+      "quote": "Provides multi-channel global payment processing services and advanced fraud prevention and risk management solutions to merchants and banks.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Mastercard Gateway)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Marketing page claims 'Supporting over 35 payment methods worldwide' (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant Cloud, launched in 2025, bundles gateway, security and data services behind one entry point for the acceptance side.",
+      "quote": "In 2025, we launched Merchant Cloud, a unified platform designed to offer a single point of entry to cutting-edge payment services",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer portal lists Merchant Cloud with authType NONE (documentation-only)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Payment facilitators are not licensed by Mastercard directly; an acquirer must register them, and Mastercard publishes the registered list.",
+      "quote": "An acquirer must register a service provider as a payment facilitator with Mastercard.",
+      "url": "https://www.mastercard.com/us/en/business/support/payment-facilitators.html",
+      "title": "Find a payment facilitator | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Cites Rule 7.8 of the Mastercard Rules; list by region (Asia Pacific, Europe, Latin America, Middle East/Africa, North America)."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Network Enablement Partners (NEP) programme gives processors and other service providers a direct relationship with Mastercard instead of working only through a licensed issuer or acquirer.",
+      "quote": "A Network Enablement Partner (NEP) is a Service Provider that directly engages with Mastercard instead of leveraging the relationship of a Mastercard-Licensed Customer.",
+      "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+      "title": "Network enablement partners | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Public NEP register 'Last updated July 28, 2026' includes Stripe, PayPal, Adyen, Paytm, Pine Labs, PayU, 2C2P, NAPAS."
+    },
+    {
+      "dimension": "services",
+      "claim": "NEP is tiered (Core, Acceptance and Processing Add-Ons, Platinum) with an Acceptance-Lite package for small payfacs, and grants test ICAs and BINs.",
+      "quote": "The NEP program offers a structured suite of solutions across three levels: Core, Acceptance and Processing Add-Ons, and Platinum tiers.",
+      "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+      "title": "Network enablement partners | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Contact: network_enablement_partner@mastercard.com; enrollment form link present but target not captured."
+    },
+    {
+      "dimension": "services",
+      "claim": "Interchange is set by Mastercard and flows acquirer-to-issuer; Mastercard disclaims any role in acquirer-merchant pricing.",
+      "quote": "Mastercard interchange rates are established by Mastercard, and are generally paid by acquirers to card issuers on purchase transactions conducted on Mastercard cards.",
+      "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Rates 'typically updated semiannually'; current PDF linked as merchant-rates-2026-2027-april2026.pdf (403 to curl)."
+    },
+    {
+      "dimension": "services",
+      "claim": "The public rules page names the partner rulebooks (Mastercard Rules, Transaction Processing Rules, Switch Rules, Security Rules) and four merchant compliance programmes.",
+      "quote": "Business Risk Assessment and Mitigation (BRAM) Excessive Chargeback Program (ECP) Excessive Fraud Merchant (EFM) Program Questionable Merchant Audit Program (QMAP)",
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Also lists 'Transaction Processing Rules Mastercard Rules Security Rules and Procedures – Merchant Edition', Mastercard Switch Rules, Chargebacks Made Simple Guide, DCC Performance Guide. Rule PDFs return HTTP 403 to non-browser clients; not read."
+    },
+    {
+      "dimension": "services",
+      "claim": "BIN Lookup is a processor/acquirer data service with a contractual refresh cadence: the full dataset must be pulled at least every 6 days.",
+      "quote": "Partners are required to request and download the complete dataset at least every 6 days and deliver refreshed data to their customers daily",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (BIN Lookup overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Value-added data product; unlimited API calls."
+    },
+    {
+      "dimension": "services",
+      "claim": "Marqeta documents certification against each quarterly Mastercard release, showing processors carry the network mandate work for fintech issuers.",
+      "quote": "Marqeta is certified with the October 2026 Mastercard Release 26.Q4, effective 23 October 2026.",
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications.md",
+      "title": "Card Network Certifications 2026 - Marqeta Docs",
+      "publisher": "Marqeta",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'Effective 23 October 2026, Mastercard is introducing Token Spend Controls on individual MDES tokens.' (GLB 13877.1)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Marqeta exposes Mastercom-backed dispute management and MDES token flows to its issuer clients through its own API, i.e. network services resold via processor.",
+      "quote": "Manage Mastercard disputes by integrating your dispute cases with the Mastercard network.",
+      "url": "https://www.marqeta.com/docs/developer-guides/managing-mastercard-disputes.md",
+      "title": "Managing Mastercard Disputes - Marqeta Docs",
+      "publisher": "Marqeta",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Marqeta digital-wallets doc: 'forwards the authentication decision to Mastercard Digital Enablement Service (MDES) in real time' and 'Enroll a card to Click to Pay for Mastercard'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Ethoca Alerts (acquired) is sold to merchants as a pre-chargeback fraud/dispute data-sharing tool fed by issuers.",
+      "quote": "Ethoca Alerts is a collaborative tool that connects issuers and merchants together to share fraud and dispute data",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Ethoca Alerts overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "APIs: Alerts Push (outbound), Alerts Pull, Alerts Outcome. Sold to 'Direct Merchants / Partners' and via acquirers."
+    },
+    {
+      "dimension": "services",
+      "claim": "Ethoca Consumer Clarity lets merchants push order details and digital receipts into issuer banking apps to deflect disputes.",
+      "quote": "Share merchant details and digital receipts via cardholder banking app.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Ethoca Consumer Clarity)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Onboarding of sub-merchants via the Ethoca Merchant Self Services API."
+    },
+    {
+      "dimension": "services",
+      "claim": "First-Party Trust is a merchant service granting a liability shift on first-party-fraud disputes when compelling evidence is supplied.",
+      "quote": "A service that provides a liability shift for merchants that can supply compelling evidence of first-party fraud.",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (First-Party Trust)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Checkout Solutions (Click to Pay, Secure Card on File, Merchant Presented QR) can be integrated by a merchant, gateway, issuer or PSP.",
+      "quote": "An Integrator can be a merchant, payment gateway, issuer, eCommerce service provider or other service provider.",
+      "url": "https://developer.mastercard.com/mastercard-checkout-solutions/documentation/index.md",
+      "title": "Mastercard Checkout Solutions - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Built on EMV Secure Remote Commerce; Click to Pay is 'a guest checkout solution which gives consumers a simple, secure and consistent way to check out.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant tokenisation (MDES Digital Enablement API) is sold direct to merchants or on-behalf-of through PSPs.",
+      "quote": "supports both direct merchant integrations and “on-behalf-of” models via payment service providers",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (MDES Digital Enablement API overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Token Requestor Identifier (TRID) API onboards On-Behalf-Of Token Requestors (OBOTRs)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Tap on Phone acceptance is offered as an SDK that turns an NFC Android device into a terminal, with Mastercard Gateway as one deployment path.",
+      "quote": "Turn an off- the-shelf NFC-enabled android device, into an acceptance device",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Mastercard Contactless Reader SDK)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Marketing page claims 'markets where Tap on Phone is live' at 115+ (Vendor). Related: Mastercard Cloud Commerce, 'cloud native software-based acceptance solution'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Agent Pay (agentic commerce) was launched in 2025 on top of tokenisation and disputes, with merchants able to participate without new integration.",
+      "quote": "We launched Mastercard Agent Pay™, a new framework designed to enable secure, scalable and trusted payments in agentic commerce.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer catalogue lists 'Agent Suite for Merchants: Bring Agentic Commerce to Merchants through a single integration'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Product Express is a digital onboarding platform for fintechs, issuers, acquirers and merchants with pre-certified partners and packaged plans.",
+      "quote": "Mastercard Product Express is a digital onboarding platform that helps fintechs, issuers, acquirers, and merchants launch Mastercard solutions faster and with less complexity.",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+      "title": "Mastercard Product Express | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Portal: product-express.mastercard.com (login/register). Solutions: Card issuance, Gateway, Tokenization, Click to Pay, Tap on phone."
+    },
+    {
+      "dimension": "services",
+      "claim": "Card issuance through Product Express is explicitly sold through BIN sponsorship rather than a direct licence for the fintech.",
+      "quote": "Card issuance through BIN sponsorship",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+      "title": "Mastercard Product Express | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "FAQ also lists 'Mastercard Digital Enablement Services (MDES)' and 'Mastercard Gateway and payment acceptance capabilities'; card-issuance page claims launch 'in as fast as 15 days' (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "i2c is quoted as the first U.S. processor supporting Product Express, showing processors as the delivery channel.",
+      "quote": "i2c is proud to be the first processor to support the Product Express program in the U.S.",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+      "title": "Mastercard Product Express | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Testimonial attributed to Amir Wain, i2c CEO, on Mastercard's page; Episode Six and Foxbit also quoted."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Engage is a free partner marketplace connecting customers to qualified fintech enablers across 65+ solution types.",
+      "quote": "The Engage program is being offered to customers and partners at no additional charge.",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. 'Over 65 solutions that span card issuance, tokenization, Click-to-Pay, wallets, authentication, identity, open banking, crypto, installments, digital-first'. Claims 170+ partners and 500+ customers (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Engage partner onboarding includes product qualification and franchise screening, and partners get Mastercard Academy education and lead generation.",
+      "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Public directory at https://engagepartners.mastercard.com/english/directory/ (tile/table views; filters by geography, solution, target audience)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Start Path is Mastercard's growth-stage fintech programme, claimed to have worked with 400+ fintechs.",
+      "quote": "400+ fintechs from 54 countries have worked with Start Path, including Revolut, Razorpay and Airwallex",
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech.html",
+      "title": "Mastercard Fintech Solutions – Scale Your Ideas and Business | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Page also claims '45+ pre-certified Product Express partners'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Send is the push-payment (card-rail money movement) API family, with disbursement, P2P, funding, account-info and account-verification services.",
+      "quote": "Enables everyday commerce through fast, convenient and secure funds transfers, domestically and cross border",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Mastercard Send)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sub-services: Mastercard Send Disbursements, Person to Person, Funding, Account Information Service, Account Verification Service. Umbrella brand: Mastercard Move."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Mastercard Move Partner Program is open to banks, non-bank FIs and technology partners, in three partner types: aggregators, licensed providers, and SI/ISVs.",
+      "quote": "Available to Mastercard Move customers, including banks, non-bank financial institutions and technology partners.",
+      "url": "https://www.mastercard.com/us/en/business/payments/mastercard-move/partner-program.html",
+      "title": "Mastercard Move Partner Program | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Page names 'HomeSend APIs for Third Party Providers' and lists Backbase, Temenos, Infosys, Corpay, Ericsson collaborations."
+    },
+    {
+      "dimension": "services",
+      "claim": "Cross-Border Services is sold direct to financial institutions or to third parties acting for an FI, with FX, settlement and reporting bundled.",
+      "quote": "A financial institution or third party provider (who represents financial institution) that will connect to Cross-Border Services directly",
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/index.md",
+      "title": "Mastercard Cross-Border Services - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Transfer types P2P, B2P, B2B, P2B; 'For program details, rules and further implementation guidance, contact your Mastercard representative.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Open Finance US (Finicity lineage) is sold to fintechs and lenders as consumer-permissioned data, balance and account-validation APIs.",
+      "quote": "Open Finance US is our suite of API-based services that enables secure, consumer-permissioned access to financial data and decisioning",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (Open Finance US overview)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Named tools: Account Validation Assistant, Payment Success Indicator, Consumer Foresight. Separate Open Finance (Europe) and Open Finance Australia services."
+    },
+    {
+      "dimension": "services",
+      "claim": "In Control for Commercial Payments (virtual cards) is offered to issuers, corporates and PSPs; Track Business Payment Service adds a B2B open-loop network with buyer/supplier payment agents.",
+      "quote": "the ICCP API allows issuers, corporations, and payment service providers to perform the following processes: generating a unique card number for every transaction",
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index (In Control for Commercial Payments)",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Track BPS: 'Create an open-loop network of partners and process card payments.' Buyer Payment Agent and Supplier Payment Agent APIs; Payment Acceptance API is 'card-agnostic' and 'brand-neutral'."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Partner Advantage Program (2025-26) is a reseller/co-sell programme for Mastercard Services with a gated partner portal.",
+      "quote": "Whether you're looking for the right partner or ready to become one, our network connects you to a global ecosystem",
+      "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html",
+      "title": "Mastercard Partner Advantage Program | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Solution areas: Agentic Commerce and Services; Analytics and Insights; Credit Intelligence and Lending Solutions; Cybersecurity; Fraud Detection and Prevention; Media and Marketing; Processing and Banking Modernization; Subscription Management. Portal: partneradvantage.mastercard.com (Register/Login)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Cirrus remains Mastercard's ATM cash-access brand and Maestro its PIN debit brand per the 2025 10-K; no retirement of either is stated in the filing.",
+      "quote": "Maestro (our PIN-based solution that operates globally) and Cirrus (our primary global cash access solution).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Volume tables exclude Maestro and Cirrus cards. A Maestro phase-out announcement could not be located on mastercard.com newsroom (see not_found)."
+    },
+    {
+      "dimension": "services",
+      "claim": "The ATM Locations API sells Mastercard's global ATM dataset (with sponsor name and accessibility attributes) to issuers, fintechs and wallets; pricing is only disclosed at production-access request.",
+      "quote": "Access detailed ATM attributes such as handicap accessibility, sponsor name, location name, and more",
+      "url": "https://developer.mastercard.com/locations/documentation/index.md",
+      "title": "ATM Locations - Mastercard Developers",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Location Intelligence resources page: 'Pricing will be established when you request production access to this API'; available in 120+ countries."
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM operators' relationship with the network is shaped by litigation over the ATM non-discrimination surcharge rule, still ongoing in the 2025 10-K.",
+      "quote": "imposing rules that require ATM operators to charge non-discriminatory ATM surcharges for transactions processed over Mastercard’s and Visa’s respective networks",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bank ATM consumer class settled (court approval June 2025, $93m accrual); non-bank ATM consumer class settlement executed August 2025 ($79m accrual); ATM Operators Class Complaint ongoing with >$1bn single damages alleged."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard classifies value-added services revenue into security, consumer acquisition and engagement, business and market insights, digital and authentication, processing and gateway, and other.",
+      "quote": "Security solutions • Consumer acquisition and engagement services • Business and market insights • Digital and authentication solutions • Processing and gateway",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Other solutions' = ACH batch and real-time account-based payments, bill payments, cross-border services and open finance."
+    },
+    {
+      "dimension": "services",
+      "claim": "At the 2024 investor meeting Mastercard put 2024 value-added services revenue at ~$11B and targeted a high-teens services revenue CAGR for 2025-2027.",
+      "quote": "Deliver high-teens value-added services and solutions net revenue CAGR",
+      "url": "https://s25.q4cdn.com/479285134/files/doc_events/2024-Mastercard-Investment-Community-Presentation.pdf",
+      "title": "Mastercard Investment Community Meeting presentation, November 13, 2024",
+      "publisher": "Mastercard Incorporated (Investor Relations)",
+      "published": "2024-11-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Slide 42 footnote: 'Mastercard 2024 total value-added services and solutions net revenue forecast as of October 31, 2024' shown as ~$11B; '<7% of the serviceable market penetrated'. Predates Capital One's May 18, 2025 acquisition of Discover."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard names its services buying centres as fintechs, payfacs, acquirers, issuers, governments, small businesses and large merchants.",
+      "quote": "Fintechs Payfacs Acquirers Issuers Government Small business Large merchants",
+      "url": "https://s25.q4cdn.com/479285134/files/doc_events/2024-Mastercard-Investment-Community-Presentation.pdf",
+      "title": "Mastercard Investment Community Meeting presentation, November 13, 2024",
+      "publisher": "Mastercard Incorporated (Investor Relations)",
+      "published": "2024-11-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Slide 39 'Services also extend beyond payments to adjacent revenue opportunities'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Services are distributed indirectly through technology platforms, system integrators, acquirers/PSPs, processors, ERP systems and other networks, not only by direct sales.",
+      "quote": "Technology platforms • System integrators • Acquirers/PSPs • Processors • ERP systems • Other networks",
+      "url": "https://s25.q4cdn.com/479285134/files/doc_events/2024-Mastercard-Investment-Community-Presentation.pdf",
+      "title": "Mastercard Investment Community Meeting presentation, November 13, 2024",
+      "publisher": "Mastercard Incorporated (Investor Relations)",
+      "published": "2024-11-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Slide 45 'We are leveraging distribution at scale'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Digital enablement services are explicitly sold to channel partners (PSPs, gateways, payfacs, ISVs, orchestrators) as well as to issuers, acquirers and merchants.",
+      "quote": "channel partners (such as payment service providers, gateways, payment facilitators, independent software vendors and payment orchestrators)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Threat Intelligence (2025) fuses Recorded Future's cyber intelligence with network data, extending security services beyond card fraud.",
+      "quote": "In 2025, we launched Mastercard Threat Intelligence, which combines Mastercard’s payment expertise and global network visibility with Recorded Future’s leading cyber threat intelligence capabilities",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also 2025: Mastercard Commerce Media, Account-to-Account Protect."
+    },
+    {
+      "dimension": "services",
+      "claim": "Consulting ('Advisors') including agentic solutions is a named services line delivered by Mastercard staff, not a product.",
+      "quote": "Consulting and agentic solutions consisting of strategic advisory, rapid prototyping, technical implementation and hands-on support across the payments ecosystem",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via U.S. SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Insights page claims '4,000 consultants across the globe' (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Named data products on the Insights & Intelligence page include Test & Learn, SpendingPulse and Acquiring Optimizer, the latter aimed at acquirers.",
+      "quote": "AIK Banka found a possible 30% increase in transaction volume using Acquiring Optimizer",
+      "url": "https://www.mastercard.com/us/en/business/insights-intelligence.html",
+      "title": "Advanced Analytics and Business Intelligence Solutions - Mastercard | Mastercard US",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Also: 'Learn how Banco Azteca used Test & Learn™ to transform ideas into measurable impact.' and 'Hershey is able to make more informed business decisions with SpendingPulse™ insights'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Academy is the partner training arm, offering on-demand and instructor-led courses and certifications by region.",
+      "quote": "On-demand and instructor-led training from Mastercard experts. Obtain the skills and certifications you need to succeed in the world of payments",
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in a browser pane because the page is JavaScript-rendered or Akamai-walled to curl/WebFetch. Region gate (Asia Pacific, Europe, EEMEA, LAC, Brazil, North America); curl receives a 'browser is not supported' shell. Linked from the rules page as 'Training Opportunities'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Mastercard Connect is the gated customer portal (User ID, password or RSA SecurID) referenced by FLD, MATCH Pro, ORC and Mastercom docs as the UI channel.",
+      "quote": "Sign in User ID Password / RSA SecurID® token",
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Wall only; 'New to Mastercard Connect? Sign up'. Curl redirects to /-/sign-in. Technical Resource Center (trc-techresource.mastercard.com) sits behind it."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Maestro phase-out / retirement announcement on mastercard.com newsroom (search 'maestro' returned '0 results found'; guessed 2021 press-release URLs 404/403)",
+      "where": "https://www.mastercard.com/news/search/?q=maestro ; https://www.mastercard.com/news/europe/en/newsroom/press-releases/en/2021/october/mastercard-to-phase-out-maestro-in-europe/",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Rules, Transaction Processing Rules, Mastercard Switch Rules, Chargebacks Made Simple PDFs (mandatory vs optional service lists)",
+      "where": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/ (HTTP 403 to curl/WebFetch; Akamai bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current U.S. interchange rate PDF merchant-rates-2026-2027-april2026.pdf",
+      "where": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf (HTTP 403)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Product pages for Decision Intelligence, Brighterion, Safety Net as named products (only 'Mastercard Safety Net' and 'AI-powered decision intelligence' phrases found on marketing pages; not in 10-K or developer catalogue)",
+      "where": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention.html ; 10-K ; developer llms.txt",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Lithic documentation describing Mastercard network services it integrates",
+      "where": "https://docs.lithic.com/docs/card-network-tokenization, /network-tokenization, /card-networks, /digital-wallet-tokenization (all 404); /introduction has no Mastercard mention",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Galileo documentation for Mastercard Send / MDES",
+      "where": "https://docs.galileo-ft.com/pro/docs/mastercard-send (404, redirects to docs.tech.sofi.com)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Fiserv developer portal pages naming Mastercard services integrated",
+      "where": "https://developer.fiserv.com/ (JavaScript shell, 6 KB, unreadable without rendering)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "i2c documentation naming Mastercard services integrated",
+      "where": "https://www.i2cinc.com/what-we-do/issuer-processing/ (no Mastercard mention in rendered text)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Academy course catalogue for partners",
+      "where": "https://academy.mastercard.com/ (region gate; no catalogue visible without selection/registration)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Network Enablement Partners enrollment form and benefits detail ('Click here' target)",
+      "where": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html (link target not captured)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public pricing for any developer-portal service (Location Intelligence says pricing set at production-access request)",
+      "where": "https://developer.mastercard.com/locations-intelligence/documentation/index.md",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Marketing page for Mastercard Send / Mastercard Move product detail on mastercard.com (issuers/business pages returned 403 or 404)",
+      "where": "https://www.mastercard.com/global/en/business/issuers.html (403) ; https://www.mastercard.com/us/en/business/fintechs.html (404)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Mastercard Services page: '1.8t loyalty points managed every year', footnoted to 'Mastercard Investor Day, 2024'",
+      "b": "Consumer Acquisition & Engagement page: '1.3t loyalty points managed', footnoted to 'Mastercard Investor Day, 2024'",
+      "urls": [
+        "https://www.mastercard.com/us/en/business/services.html",
+        "https://www.mastercard.com/us/en/business/consumer-acquisition-and-engagement.html"
+      ]
+    },
+    {
+      "a": "Task context supplied to this research says Maestro 'is being retired'",
+      "b": "Mastercard 2025 Form 10-K (filed 2026-02-11) still describes Maestro as 'our PIN-based solution that operates globally' with no retirement language",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "https://www.mastercard.com/news/search/?q=maestro"
+      ]
+    },
+    {
+      "a": "Tokenization page: '4b+ Mastercard transactions worldwide are tokenized each month' sourced 'Mastercard Data, March 2023'",
+      "b": "Cybersecurity page: '4b tokenized transactions secured every month' sourced 'Mastercard 2026 data' (same figure, three years apart)",
+      "urls": [
+        "https://www.mastercard.com/us/en/business/payments/consumer-payments/network-processing/tokenization.html",
+        "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (customer portal; User ID + password or RSA SecurID)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md"
+    },
+    {
+      "name": "Technical Resource Center on Mastercard Connect (Chargeback Guide, announcements AN 4655/AN 4720, MATCH Pro publication)",
+      "url": "https://trc-techresource.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/index.md"
+    },
+    {
+      "name": "Mastercard Developers account (Log in / Sign up; My Projects; production access approval)",
+      "url": "https://developer.mastercard.com/account/log-in",
+      "named_at": "https://developer.mastercard.com/platform/documentation/quick-start-guide/"
+    },
+    {
+      "name": "Mastercard Developers support ticketing (sign-in required to contact support)",
+      "url": "https://developer.mastercard.com/support",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Mastercard Engage portal on developer.mastercard.com (401 redirect to devzone login)",
+      "url": "https://developer.mastercard.com/engage",
+      "named_at": "https://developer.mastercard.com/engage"
+    },
+    {
+      "name": "Mastercard Engage Partner Directory (public search, apply-to-join gated)",
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "named_at": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html"
+    },
+    {
+      "name": "Mastercard Partner Advantage Portal (Register / Login)",
+      "url": "https://partneradvantage.mastercard.com/landing-page",
+      "named_at": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html"
+    },
+    {
+      "name": "Product Express portal (Sign in / Create account)",
+      "url": "https://product-express.mastercard.com/user/ui/public/login",
+      "named_at": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html"
+    },
+    {
+      "name": "Mastercard Business Intelligence (Register for 'Industry and Competitive Insights')",
+      "url": "https://mbi.mastercardservices.com/",
+      "named_at": "https://www.mastercard.com/us/en/business/services.html"
+    },
+    {
+      "name": "Mastercard Marketing Center",
+      "url": "https://www.mastercard.com/marketingcenter",
+      "named_at": "https://www.mastercard.com/us/en/business/services.html"
+    },
+    {
+      "name": "Mastercard Academy (region-gated training and certification)",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://www.mastercard.us/en-us/business/overview/support/rules.html"
+    },
+    {
+      "name": "Global File Transfer (GFT) batch channel",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md"
+    },
+    {
+      "name": "MDES Manager (issuer configuration for MDES Pre-digitization)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/llms.txt"
+    },
+    {
+      "name": "Customer Onboarding Platform (BRT questionnaire; emails from noreplycompanyonboarding@mastercard.com)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md"
+    },
+    {
+      "name": "Mastercard Developers Forum (Salesforce community; JS-rendered)",
+      "url": "https://forum.developer.mastercard.com/s/",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "Mastercard Developers API status page",
+      "url": "https://developer.mastercard.com/api-status",
+      "named_at": "https://developer.mastercard.com/"
+    },
+    {
+      "name": "HomeSend APIs for Third Party Providers",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/payments/mastercard-move/partner-program.html"
+    },
+    {
+      "name": "Network Enablement Partners enrollment form",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html"
+    },
+    {
+      "name": "Mastercard rulebook PDFs (Akamai 403 to non-browser clients)",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "named_at": "https://www.mastercard.us/en-us/business/overview/support/rules.html"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.mastercard.com/",
+      "title": "Mastercard Developers (home)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/support",
+      "title": "Support at Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/engage",
+      "title": "Mastercard Engage (developer portal)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/products",
+      "title": "Mastercard Developers - All products",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/index.md",
+      "title": "Mastercom - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/dispute-resolution-cycle/index.md",
+      "title": "Dispute Resolution Cycle - Mastercom",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/match/documentation/index.md",
+      "title": "MATCH Pro - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/index.md",
+      "title": "Mastercard Send - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/automatic-billing-updater/documentation/index.md",
+      "title": "Automatic Billing Updater - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/ethoca-alerts-for-merchants/documentation/index.md",
+      "title": "Ethoca Alerts for Direct Merchants / Partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/fld-fraud-submission/documentation/index.md",
+      "title": "Confirmed Fraud (FLD) - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/locations/documentation/index.md",
+      "title": "ATM Locations - Mastercard Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/locations-intelligence/documentation/index.md",
+      "title": "Location Intelligence Resources",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/index.md",
+      "title": "Mastercard Cross-Border Services",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/onboard-risk-check/documentation/index.md",
+      "title": "Onboard Risk Check",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/merchant-cloud/documentation/index.md",
+      "title": "Merchant Cloud Tutorials and Guides",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mdes-digital-enablement/documentation/index.md",
+      "title": "MDES Digital Enablement API",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercard-processing-core/documentation/index.md",
+      "title": "Mastercard Processing Core APIs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/payment-acceptance-api/documentation/index.md",
+      "title": "Payment Acceptance API",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/issuer-enrollment/documentation/index.md",
+      "title": "Issuer Enablement in Click to Pay",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/merchant-self-services/documentation/index.md",
+      "title": "Ethoca Merchant Self Services",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercard-checkout-solutions/documentation/index.md",
+      "title": "Mastercard Checkout Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md",
+      "title": "Business Relationship Type (BRT)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md",
+      "title": "Company Verification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/platform/documentation/agent-toolkit/index.md",
+      "title": "Mastercard Developers Agent Toolkit",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mdes/documentation/index.md",
+      "title": "MDES documentation index (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercard-gateway/documentation/index.md",
+      "title": "Mastercard Gateway documentation index (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.mastercard.com/api-status",
+      "title": "Mastercard Developers API status (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://forum.developer.mastercard.com/s/",
+      "title": "Mastercard Developers Forum (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/Mastercard",
+      "title": "Mastercard - GitHub organization",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+      "title": "Mastercard Rules for Merchants - Customer Compliance Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+      "title": "Mastercard Interchange Fees and Rates Explained",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+      "title": "Mastercard U.S. merchant interchange rates April 2026 (PDF)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (PDF)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules (PDF)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+      "title": "Chargebacks Made Simple Guide (PDF)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercardconnect.com/",
+      "title": "Mastercard Connect (sign-in wall)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.mastercardservices.com/en",
+      "title": "Mastercard Data & Services (301 to services.html)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/services.html",
+      "title": "Mastercard Services for Business Growth",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+      "title": "Network enablement partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html",
+      "title": "Mastercard Partner Advantage Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program/become-a-partner.html",
+      "title": "Partner Advantage Program - Become a Member",
+      "ok": true,
+      "wall": "contact"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html",
+      "title": "Mastercard Engage - Fintech Partnerships",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/engage",
+      "title": "Mastercard Engage (global redirect)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "title": "Mastercard Engage Partner Program | Directory",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+      "title": "Mastercard Product Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express-card-issuance.html",
+      "title": "Mastercard Product Express - Card Issuance",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/acquirers-psps.html",
+      "title": "Acquirers and PSPs - Mastercard",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech.html",
+      "title": "Mastercard Fintech Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/payments/mastercard-move/partner-program.html",
+      "title": "Mastercard Move Partner Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support/payment-facilitators.html",
+      "title": "Find a payment facilitator",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention.html",
+      "title": "Cybersecurity & Fraud Prevention",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/consumer-acquisition-and-engagement.html",
+      "title": "Consumer Acquisition and Engagement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/insights-intelligence.html",
+      "title": "Insights & Intelligence",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/payments/consumer-payments/gateway-solutions.html",
+      "title": "Mastercard Gateway - Enterprise Payment Gateway Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/payments/consumer-payments/network-processing/tokenization.html",
+      "title": "Mastercard Payment Tokenization",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/payments/commercial-payments/accept-payments/mobile-point-of-sale/tap-on-phone.html",
+      "title": "Mastercard Tap on Phone",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partneradvantage.mastercard.com/landing-page",
+      "title": "Mastercard Partner Advantage Portal",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://mbi.mastercardservices.com/",
+      "title": "Mastercard Business Intelligence",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.mastercard.com/marketingcenter",
+      "title": "Mastercard Marketing Center",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/fintechs.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/business/issuers.html",
+      "title": "(403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/issuers.html",
+      "title": "(403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investor.mastercard.com/",
+      "title": "Mastercard Investor Relations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.mastercard.com/events-and-presentations/events/event-details/2024/Mastercard-Investment-Community-Meeting/default.aspx",
+      "title": "Mastercard Investment Community Meeting (event page)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s25.q4cdn.com/479285134/files/doc_events/2024-Mastercard-Investment-Community-Presentation.pdf",
+      "title": "Mastercard Investment Community Meeting presentation, November 13, 2024",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001141391.json",
+      "title": "SEC EDGAR submissions index, CIK 1141391",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for the fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/news/search/?q=maestro",
+      "title": "Mastercard Newsroom search: maestro (0 results)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/news/europe/en/newsroom/press-releases/en/2021/october/mastercard-to-phase-out-maestro-in-europe/",
+      "title": "(guessed URL, 404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://newsroom.mastercard.com/",
+      "title": "Mastercard Newsroom (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://engage.mastercard.com/",
+      "title": "(no DNS)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://b2b.mastercard.com/",
+      "title": "(no response)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/core-api/digital-wallets-management",
+      "title": "Digital Wallets Management - Marqeta Docs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/llms.txt",
+      "title": "Marqeta Docs llms.txt index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/developer-guides/managing-mastercard-disputes.md",
+      "title": "Managing Mastercard Disputes - Marqeta Docs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications.md",
+      "title": "Card Network Certifications 2026 - Marqeta Docs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/developer-guides/3ds-setup.md",
+      "title": "3D Secure Setup - Marqeta Docs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/core-api/introduction",
+      "title": "Core API Introduction - Marqeta Docs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/core-api/card-networks",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://docs.lithic.com/docs/introduction",
+      "title": "Lithic Docs - Introduction (no Mastercard content)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://docs.lithic.com/docs/card-network-tokenization",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://docs.galileo-ft.com/pro/docs/mastercard-send",
+      "title": "(404, redirects to docs.tech.sofi.com)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.fiserv.com/",
+      "title": "Fiserv Developer Studio (JS shell)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.i2cinc.com/platform/",
+      "title": "i2c Issuer Processing (redirect; no Mastercard mention)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

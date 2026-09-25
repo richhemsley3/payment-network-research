@@ -1,0 +1,716 @@
+{
+ "network": "diners",
+ "seed": "https://www.dinersclubinternational.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.dinersclub.com/",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Diners Club International | Exclusive Travel Rewards & VIP Lounge Access",
+   "h1": "Find your Local Offers",
+   "description": "Experience Diners Club International, the premium club for a life reimagined. Enjoy exclusive VIP lounge access, global benefits, and rewards. Your journey begins here.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "For Cardmembers",
+    "For Businesses",
+    "About Us",
+    "Club Connections",
+    "Help Center"
+   ],
+   "ctas": [
+    {
+     "text": "Apply",
+     "href": null
+    },
+    {
+     "text": "Find Your Club",
+     "href": null
+    },
+    {
+     "text": "Explore Clubmembership",
+     "href": "https://www.dinersclub.com/cardmembers/"
+    },
+    {
+     "text": "Our Story",
+     "href": null
+    },
+    {
+     "text": "APPLY NOW",
+     "href": "https://www.dinersclub.com/apply/"
+    },
+    {
+     "text": "FIND A LOUNGE",
+     "href": "https://www.dinersclub.com/cardmembers/airport-lounges/"
+    },
+    {
+     "text": "Previous",
+     "href": null
+    },
+    {
+     "text": "Learn More",
+     "href": "https://www.diners.co.jp/ja/lifestyle/culture/rickshaw.html"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://resources.dinersclub.com/events-and-sponsorships/2026-pro-am-classic"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://www.dciproamclassic.com/"
+    },
+    {
+     "text": "Read Featured Forbes Article",
+     "href": "https://www.forbes.com/sites/diners-club-international/2025/12/19/a-year-worth-celebrating-75-years-of-diners-club-international-uniting-a-global-community/"
+    },
+    {
+     "text": "Read featured Forbes article",
+     "href": "https://www.forbes.com/sites/diners-club-international/2025/09/11/payment-pioneer-solves-for-travel-and-expense-challenges-faced-by-businesses/"
+    },
+    {
+     "text": "Look what we did together",
+     "href": "https://resources.dinersclub.com/giving-back/diners-club-75th-anniversary-world-central-kitchen-donation"
+    },
+    {
+     "text": "Read Forbes Article",
+     "href": "https://www.forbes.com/sites/diners-club-international/2025/02/14/diners-club-international-celebrates-75-years/"
+    },
+    {
+     "text": "Next",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant"
+   ],
+   "headings": [
+    "h1: Welcome to the Club",
+    "h1: It's a Club unlike any other",
+    "h2: The Latest",
+    "h2: Tailored to every market",
+    "h2: Seize the moment",
+    "h2: Accepted globally",
+    "h2: For business and pleasure",
+    "h2: Give back",
+    "h2: Every journey begins with the right card"
+   ],
+   "screenshot": "assets/diners/diners-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Help Center",
+     "url": "https://www.dinersclub.com/help-center/",
+     "status": 200,
+     "result": "readable",
+     "words": 506,
+     "title": "Help Center, Customer Service | Diners Club International"
+    },
+    {
+     "nav": "Cardmembers Overview",
+     "url": "https://www.dinersclub.com/cardmembers/",
+     "status": 200,
+     "result": "readable",
+     "words": 453,
+     "title": "For Cardmembers | Diners Club International"
+    },
+    {
+     "nav": "Airport Lounges",
+     "url": "https://www.dinersclub.com/cardmembers/airport-lounges/",
+     "status": 200,
+     "result": "readable",
+     "words": 539,
+     "title": "Airport Lounges Access | Diners Club International"
+    },
+    {
+     "nav": "Featured Destinations",
+     "url": "https://www.dinersclub.com/cardmembers/destinations/",
+     "status": 200,
+     "result": "readable",
+     "words": 377,
+     "title": "Destinations and Travel Guides | Diners Club International"
+    },
+    {
+     "nav": "Giving Back",
+     "url": "https://www.dinersclub.com/cardmembers/giving-back/",
+     "status": 200,
+     "result": "readable",
+     "words": 317,
+     "title": "Giving Back, Community Impact & Together for Change | Diners Club International"
+    },
+    {
+     "nav": "Businesses Overview",
+     "url": "https://www.dinersclub.com/businesses/",
+     "status": 200,
+     "result": "readable",
+     "words": 299,
+     "title": "Business Payment Solutions | Diners Club International"
+    },
+    {
+     "nav": "Card Programs",
+     "url": "https://www.dinersclub.com/businesses/cardprograms/",
+     "status": 200,
+     "result": "contact",
+     "words": 232,
+     "title": "Corporate Card Programs | Diners Club International"
+    },
+    {
+     "nav": "Cardless Solutions",
+     "url": "https://www.dinersclub.com/businesses/cardless-solutions/",
+     "status": 200,
+     "result": "readable",
+     "words": 265,
+     "title": "Cardless Payment Solutions | Diners Club International"
+    },
+    {
+     "nav": "Business Travel",
+     "url": "https://www.dinersclub.com/businesses/businesstravel/",
+     "status": 200,
+     "result": "readable",
+     "words": 293,
+     "title": "Business Travel Solutions | Diners Club International"
+    },
+    {
+     "nav": "Who We Are",
+     "url": "https://www.dinersclub.com/about-us/",
+     "status": 200,
+     "result": "readable",
+     "words": 455,
+     "title": "About Diners Club | Diners Club International"
+    },
+    {
+     "nav": "Our History",
+     "url": "https://www.dinersclub.com/about-us/history/",
+     "status": 200,
+     "result": "readable",
+     "words": 750,
+     "title": "History and Legacy | Diners Club International"
+    },
+    {
+     "nav": "Press",
+     "url": "https://www.dinersclub.com/about-us/press/",
+     "status": 200,
+     "result": "readable",
+     "words": 313,
+     "title": "Press & Media | Diners Club International"
+    }
+   ],
+   "walls": 1,
+   "readable": 11
+  },
+  "S3": {
+   "from": "Explore solutions",
+   "url": "https://www.dinersclub.com/businesses/",
+   "title": "Business Payment Solutions | Diners Club International",
+   "headings": [
+    "h1: Welcome to the Club",
+    "h1: Business Overview",
+    "h2: Benefits for Business Travel",
+    "h2: Ready to explore options for your business?"
+   ],
+   "links": 5,
+   "sample": [
+    {
+     "text": "Explore Card Programs",
+     "href": "https://www.dinersclub.com/businesses/cardprograms/"
+    },
+    {
+     "text": "Explore Cardless Solutions",
+     "href": "https://www.dinersclub.com/businesses/cardless-solutions/"
+    },
+    {
+     "text": "Learn More",
+     "href": "https://www.dinersclub.com/businesses/businesstravel/"
+    },
+    {
+     "text": "VIEW PRODUCT PDF",
+     "href": "https://www.dinersclub.com/content/dam/discover/en_us/diners-club/reskin/business/DinersClubTracker_SellSheet_2026-04.pdf"
+    },
+    {
+     "text": "CONTACT US",
+     "href": "https://servicecenter.discoverglobalnetwork.com/onlineform/contact-us"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/diners/diners-s3-03-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": {
+    "text": "APPLY NOW",
+    "href": "https://www.dinersclub.com/apply/"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "APPLY NOW",
+     "url": "https://www.dinersclub.com/apply/",
+     "status": 200
+    },
+    {
+     "click": 2,
+     "text": "Skip to content",
+     "url": "https://www.dinersclub.com/apply/#maincontent",
+     "status": null
+    },
+    {
+     "click": 3,
+     "text": "For Cardmembers",
+     "url": "https://www.dinersclub.com/apply/#",
+     "status": null
+    },
+    {
+     "click": 4,
+     "text": "APPLY",
+     "url": "https://www.dinersclub.com/apply/#apply-now",
+     "status": null
+    }
+   ],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Help Center",
+   "url": "https://www.dinersclub.com/help-center/",
+   "title": "Help Center, Customer Service | Diners Club International",
+   "phones": [],
+   "mailto": [
+    "",
+    ""
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/diners/diners-s7-04-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 2,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: Skip to content",
+    "a",
+    "a: For Cardmembers",
+    "a: For Businesses",
+    "a: About Us",
+    "a: Club Connections",
+    "a: Help Center",
+    "button: Apply",
+    "button: Find Your Club",
+    "div"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 0,
+   "screenshot": "assets/diners/diners-s11-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.dinersclubinternational.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 2024,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.dinersclub.com/help-center/",
+   "final": "https://www.dinersclub.com/help-center/",
+   "status": 200,
+   "ms": 1637,
+   "why": "S2 Help Center"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/",
+   "final": "https://www.dinersclub.com/cardmembers/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S2 Cardmembers Overview"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/airport-lounges/",
+   "final": "https://www.dinersclub.com/cardmembers/airport-lounges/",
+   "status": 200,
+   "ms": 1615,
+   "why": "S2 Airport Lounges"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/destinations/",
+   "final": "https://www.dinersclub.com/cardmembers/destinations/",
+   "status": 200,
+   "ms": 1632,
+   "why": "S2 Featured Destinations"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/giving-back/",
+   "final": "https://www.dinersclub.com/cardmembers/giving-back/",
+   "status": 200,
+   "ms": 1608,
+   "why": "S2 Giving Back"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/",
+   "final": "https://www.dinersclub.com/businesses/",
+   "status": 200,
+   "ms": 1599,
+   "why": "S2 Businesses Overview"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/cardprograms/",
+   "final": "https://www.dinersclub.com/businesses/cardprograms/",
+   "status": 200,
+   "ms": 1597,
+   "why": "S2 Card Programs"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/cardless-solutions/",
+   "final": "https://www.dinersclub.com/businesses/cardless-solutions/",
+   "status": 200,
+   "ms": 1602,
+   "why": "S2 Cardless Solutions"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/businesstravel/",
+   "final": "https://www.dinersclub.com/businesses/businesstravel/",
+   "status": 200,
+   "ms": 1604,
+   "why": "S2 Business Travel"
+  },
+  {
+   "url": "https://www.dinersclub.com/about-us/",
+   "final": "https://www.dinersclub.com/about-us/",
+   "status": 200,
+   "ms": 1634,
+   "why": "S2 Who We Are"
+  },
+  {
+   "url": "https://www.dinersclub.com/about-us/history/",
+   "final": "https://www.dinersclub.com/about-us/history/",
+   "status": 200,
+   "ms": 1604,
+   "why": "S2 Our History"
+  },
+  {
+   "url": "https://www.dinersclub.com/about-us/press/",
+   "final": "https://www.dinersclub.com/about-us/press/",
+   "status": 200,
+   "ms": 1653,
+   "why": "S2 Press"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/cardless-solutions/",
+   "final": "https://www.dinersclub.com/businesses/cardless-solutions/",
+   "status": 200,
+   "ms": 1625,
+   "why": "S3 Cardless Solutions"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/",
+   "final": "https://www.dinersclub.com/businesses/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S3 Explore solutions"
+  },
+  {
+   "url": "https://www.dinersclub.com/businesses/",
+   "final": "https://www.dinersclub.com/businesses/",
+   "status": 200,
+   "ms": 1596,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1620,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/apply/",
+   "final": "https://www.dinersclub.com/apply/",
+   "status": 200,
+   "ms": 1651,
+   "why": "S5 APPLY NOW"
+  },
+  {
+   "url": "https://www.dinersclub.com/apply/#maincontent",
+   "final": "https://www.dinersclub.com/apply/#maincontent",
+   "status": null,
+   "ms": 1504,
+   "why": "S5 Skip to content"
+  },
+  {
+   "url": "https://www.dinersclub.com/apply/#",
+   "final": "https://www.dinersclub.com/apply/#",
+   "status": null,
+   "ms": 1504,
+   "why": "S5 For Cardmembers"
+  },
+  {
+   "url": "https://www.dinersclub.com/apply/#apply-now",
+   "final": "https://www.dinersclub.com/apply/#apply-now",
+   "status": null,
+   "ms": 1504,
+   "why": "S5 APPLY"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1606,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1590,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/help-center/",
+   "final": "https://www.dinersclub.com/help-center/",
+   "status": 200,
+   "ms": 1591,
+   "why": "S7 Help Center"
+  },
+  {
+   "url": "https://www.dinersclub.com/help-center/",
+   "final": "https://www.dinersclub.com/help-center/",
+   "status": 200,
+   "ms": 1578,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1641,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1582,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1584,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1602,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/",
+   "final": "https://www.dinersclub.com/",
+   "status": 200,
+   "ms": 1577,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.dinersclub.com/#",
+   "final": "https://www.dinersclub.com/#",
+   "status": null,
+   "ms": 1504,
+   "why": "S12 For Cardmembers"
+  },
+  {
+   "url": "https://www.dinersclub.com/#",
+   "final": "https://www.dinersclub.com/#",
+   "status": null,
+   "ms": 1505,
+   "why": "S12 For Businesses"
+  },
+  {
+   "url": "https://www.dinersclub.com/#",
+   "final": "https://www.dinersclub.com/#",
+   "status": null,
+   "ms": 1505,
+   "why": "S12 About Us"
+  },
+  {
+   "url": "https://www.dinersclub.com/help-center/",
+   "final": "https://www.dinersclub.com/help-center/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S12 Help Center"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "diners-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.dinersclub.com/",
+   "captured": "2026-09-25",
+   "file": "assets/diners/diners-s1-01-20260925.webp",
+   "kb": 100
+  },
+  {
+   "id": "diners-s02",
+   "station": "S2",
+   "note": "wall: Card Programs",
+   "url": "https://www.dinersclub.com/businesses/cardprograms/",
+   "captured": "2026-09-25",
+   "file": "assets/diners/diners-s2-02-20260925.webp",
+   "kb": 103
+  },
+  {
+   "id": "diners-s03",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.dinersclub.com/businesses/",
+   "captured": "2026-09-25",
+   "file": "assets/diners/diners-s3-03-20260925.webp",
+   "kb": 125
+  },
+  {
+   "id": "diners-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.dinersclub.com/help-center/",
+   "captured": "2026-09-25",
+   "file": "assets/diners/diners-s7-04-20260925.webp",
+   "kb": 83
+  },
+  {
+   "id": "diners-s05",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.dinersclub.com/",
+   "captured": "2026-09-25",
+   "file": "assets/diners/diners-s11-05-20260925.webp",
+   "kb": 47
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.dinersclub.com/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.dinersclub.com/help-center/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/airport-lounges/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/destinations/",
+   "banner": "declined: Decline"
+  },
+  {
+   "url": "https://www.dinersclub.com/cardmembers/giving-back/",
+   "banner": "declined: Decline"
+  }
+ ],
+ "summary": {
+  "pages_visited": 36,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 1,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

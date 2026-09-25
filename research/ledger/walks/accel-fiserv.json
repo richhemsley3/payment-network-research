@@ -1,0 +1,647 @@
+{
+ "network": "accel",
+ "seed": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Star and Accel | Fiserv",
+   "h1": "Star® and Accel®",
+   "description": "Provide the anytime access to funds and payments consumers want – wherever and however they choose with the Star and Accel network.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Who We Serve",
+    "Insights",
+    "About",
+    "Developers",
+    "Careers",
+    "Country Selector"
+   ],
+   "ctas": [
+    {
+     "text": "Site Search",
+     "href": null
+    },
+    {
+     "text": "Take the assessment",
+     "href": "https://www.fiserv.com/en/lp/network-risk-calculator.html"
+    },
+    {
+     "text": "‹",
+     "href": null
+    },
+    {
+     "text": "›",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "acquirer",
+    "merchant",
+    "developer",
+    "atm",
+    "financial institution"
+   ],
+   "headings": [
+    "h1: Star® and Accel®",
+    "h2: Provide the anytime access to funds and payments consumers want – wherever and h",
+    "h2: Learn about our payment network solutions",
+    "h3: MoneyPass",
+    "h3: Payment Networks",
+    "h3: Strategic Insights"
+   ],
+   "screenshot": "assets/accel/accel-fiserv-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Insights",
+     "url": "https://www.fiserv.com/en/insights.html",
+     "status": 200,
+     "result": "readable",
+     "words": 296,
+     "title": "Fiserv Insights | Fiserv"
+    },
+    {
+     "nav": "Country Selector",
+     "url": "https://www.fiserv.com/en/country-selector.html",
+     "status": 200,
+     "result": "contact",
+     "words": 191,
+     "title": "Country Selector | Fiserv"
+    },
+    {
+     "nav": "Enterprise Omnichannel commerce, billing and payments soluti",
+     "url": "https://www.fiserv.com/en/who-we-serve/enterprise.html",
+     "status": 200,
+     "result": "readable",
+     "words": 777,
+     "title": "Enterprise | Fiserv"
+    },
+    {
+     "nav": "Small Business All-in-one systems for merchants to accept pa",
+     "url": "https://www.fiserv.com/en/who-we-serve/small-business.html",
+     "status": 200,
+     "result": "readable",
+     "words": 412,
+     "title": "Small Business Solutions for Payments, POS & Growth | Fiserv"
+    },
+    {
+     "nav": "COMMERCE HUB Scale payment and embedded finance capabilities",
+     "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+     "status": 200,
+     "result": "readable",
+     "words": 477,
+     "title": "Commerce Hub for Platforms | Embedded Finance & Payments | Fiserv"
+    },
+    {
+     "nav": "Bank Platforms and integrated digital banking solutions to d",
+     "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+     "status": 200,
+     "result": "readable",
+     "words": 937,
+     "title": "Banking Technology & Data Solutions for Financial Institutions From Fiserv | Fiserv"
+    },
+    {
+     "nav": "Credit Union Platforms and integrated digital solutions to b",
+     "url": "https://www.fiserv.com/en/who-we-serve/credit-union.html",
+     "status": 200,
+     "result": "readable",
+     "words": 875,
+     "title": "Credit Union | Fiserv"
+    },
+    {
+     "nav": "Large Financial Institution Digital banking, payments and so",
+     "url": "https://www.fiserv.com/en/who-we-serve/large-financial-institution.html",
+     "status": 200,
+     "result": "readable",
+     "words": 597,
+     "title": "Large Financial Institution | Fiserv"
+    },
+    {
+     "nav": "agentOS The operating system for financial services agents L",
+     "url": "https://www.fiserv.com/en/lp/agentos-by-fiserv.html",
+     "status": 200,
+     "result": "readable",
+     "words": 566,
+     "title": "agentOS by Fiserv | Agentic AI Platform for Banking | Fiserv"
+    },
+    {
+     "nav": "Fintech Financial and payments solutions and connectivity th",
+     "url": "https://www.fiserv.com/en/who-we-serve/fintech.html",
+     "status": 200,
+     "result": "readable",
+     "words": 406,
+     "title": "Fiserv Is Creating New Opportunities With Fintech | Fiserv"
+    },
+    {
+     "nav": "INSIGHTS How embedded finance helps banks, merchants and fin",
+     "url": "https://www.fiserv.com/en/insights/articles-and-blogs/how-embedded-finance-helps.html",
+     "status": 200,
+     "result": "readable",
+     "words": 908,
+     "title": "How embedded finance helps banks, merchants and fintechs expand reach | Fiserv"
+    },
+    {
+     "nav": "Public Sector Payments and financial solutions for governmen",
+     "url": "https://www.fiserv.com/en/who-we-serve/public-sector.html",
+     "status": 200,
+     "result": "readable",
+     "words": 398,
+     "title": "Public Sector | Fiserv"
+    },
+    {
+     "nav": "INSIGHTS Meet consumer demand with better bill pay Learn mor",
+     "url": "https://www.fiserv.com/en/insights/articles-and-blogs/meeting-consumer-demand-with-better-bill-pay.html",
+     "status": 200,
+     "result": "readable",
+     "words": 685,
+     "title": "Meeting Consumer Demand With Better Bill Pay | Fiserv"
+    },
+    {
+     "nav": "Software Providers and ISVs Omnichannel payment solutions th",
+     "url": "https://www.fiserv.com/en/who-we-serve/integrated-payments-isv.html",
+     "status": 200,
+     "result": "readable",
+     "words": 1475,
+     "title": "Integrated Payment Solutions for Software Vendors | Fiserv"
+    },
+    {
+     "nav": "INTEGRATED PAYMENTS Why ISVs Choose Fiserv as Their Strategi",
+     "url": "https://www.fiserv.com/en/insights/articles-and-blogs/why-isvs-choose-fiserv-as-their-strategic-growth-partner.html",
+     "status": 200,
+     "result": "readable",
+     "words": 1479,
+     "title": "ISV Success Starts with Fiserv Payments | Fiserv"
+    },
+    {
+     "nav": "Who We Are Corporate information, values and history",
+     "url": "https://www.fiserv.com/en/about-fiserv.html",
+     "status": 200,
+     "result": "contact",
+     "words": 152,
+     "title": "About Us, Fiserv Innovation and Technology | Fiserv"
+    }
+   ],
+   "walls": 2,
+   "readable": 14
+  },
+  "S3": {
+   "from": "Bank Platforms and integrated digital banking solutions to d",
+   "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "title": "Banking Technology & Data Solutions for Financial Institutions From Fiserv | Fiserv",
+   "headings": [
+    "h1: Bank",
+    "h1: Partnering for growth and helping your bank compete",
+    "h3: FIUSD",
+    "h3: Explore our embedded finance capabilities.",
+    "h3: FIUSD",
+    "h3: Explore our embedded finance capabilities.",
+    "h3: FIUSD",
+    "h3: Explore our embedded finance capabilities.",
+    "h2: Discover solutions to help your bank thrive",
+    "h2: Increase operational efficiency",
+    "h3: Banking Core",
+    "h3: Data and Analytics",
+    "h3: Branch Experience and Strategy"
+   ],
+   "links": 34,
+   "sample": [
+    {
+     "text": "Insights",
+     "href": "https://www.fiserv.com/en/insights.html"
+    },
+    {
+     "text": "Developers",
+     "href": "https://developer.fiserv.com/"
+    },
+    {
+     "text": "Careers",
+     "href": "https://careers.fiserv.com/"
+    },
+    {
+     "text": "Country Selector",
+     "href": "https://www.fiserv.com/en/country-selector.html"
+    },
+    {
+     "text": "FIUSD A USD-backed stablecoin enabling trusted, real-time payments for",
+     "href": "https://www.fiserv.com/en/solutions/embedded-finance/fiusd-stablecoin.html"
+    },
+    {
+     "text": "Explore our embedded finance capabilities. Connect people and business",
+     "href": "https://www.fiserv.com/en/solutions/embedded-finance.html"
+    },
+    {
+     "text": "Banking Core Choose an open, flexible and scalable core as the foundat",
+     "href": "https://www.fiserv.com/en/solutions/core-platforms-for-banks.html"
+    },
+    {
+     "text": "Data and Analytics Support proactive, strategic data analysis with sol",
+     "href": "https://www.fiserv.com/en/solutions/data-analytics.html"
+    },
+    {
+     "text": "Branch Experience and Strategy Streamline processes and automate workf",
+     "href": "https://www.fiserv.com/en/solutions/branch-experience.html"
+    },
+    {
+     "text": "Watch the video",
+     "href": "https://www.fiserv.com/en/about-fiserv/resource-center/videos/bank-of-the-lowcountry-growing-into-new-markets.html"
+    },
+    {
+     "text": ".st0 { fill: #f60; } Fiserv’s ability to give us what we didn’t even k",
+     "href": "https://www.fiserv.com/en/about-fiserv/resource-center/videos/bank-of-the-lowcountry-growing-into-new-markets"
+    },
+    {
+     "text": "Watch the video",
+     "href": "https://www.fiserv.com/en/about-fiserv/resource-center/videos/capra-bank-ready-for-the-next-evolution.html"
+    },
+    {
+     "text": ".st0 { fill: #f60; } We’re able to do more with less because of the re",
+     "href": "https://www.fiserv.com/en/about-fiserv/resource-center/videos/capra-bank-ready-for-the-next-evolution"
+    },
+    {
+     "text": "Learn more",
+     "href": "https://appmarket.fiservapps.com/"
+    },
+    {
+     "text": "ARTICLE Digital Banking: Everything, everywhere, all at once Studies s",
+     "href": "https://www.fiserv.com/en/insights/articles-and-blogs/digital-banking-everything-everywhere-all-at-once.html"
+    },
+    {
+     "text": "Solution Hardware Procurement Solutions Save time and money on hardwar",
+     "href": "https://www.fiserv.com/en/solutions/core-platforms-for-banks/hardware-procurement-solutions.html"
+    },
+    {
+     "text": "Solution Secure Managed Services Secure Managed Services from Fiserv p",
+     "href": "https://www.fiserv.com/en/solutions/risk-compliance/cybersecurity-solution/secure-managed-services.html"
+    },
+    {
+     "text": "Article How open integration helps banks compete and differentiate Fle",
+     "href": "https://www.fiserv.com/en/insights/articles-and-blogs/how-open-integration-helps-banks-compete-and-differentiate.html"
+    },
+    {
+     "text": "SOLUTION Fiserv Academy Training solutions, customized guidance, netwo",
+     "href": "https://www.fiserv.com/en/solutions/fiserv-academy.html"
+    },
+    {
+     "text": "ARTICLE Building the next-generation financial institution Open data, ",
+     "href": "https://www.fiserv.com/en/insights/articles-and-blogs/building-the-next-generation-financial-institution.html"
+    },
+    {
+     "text": "Get in touch",
+     "href": "https://www.fiserv.com/en/about-fiserv/contact-us.html"
+    },
+    {
+     "text": "Who We Serve",
+     "href": "https://www.fiserv.com/en/who-we-serve.html"
+    },
+    {
+     "text": "Resource Center",
+     "href": "https://www.fiserv.com/en/about-fiserv/resource-center.html"
+    },
+    {
+     "text": "About",
+     "href": "https://www.fiserv.com/en/about-fiserv.html"
+    },
+    {
+     "text": "Newsroom",
+     "href": "https://investors.fiserv.com/newsroom"
+    },
+    {
+     "text": "Suppliers",
+     "href": "https://www.fiserv.com/en/supplier-information.html"
+    },
+    {
+     "text": "Privacy Notice",
+     "href": "https://www.fiserv.com/en/about-fiserv/privacy-notice.html"
+    },
+    {
+     "text": "U.K. Tax Strategy",
+     "href": "https://www.fiserv.com/content/dam/fiserv-com/legal-documents/uk-tax-strategy-2024.pdf"
+    },
+    {
+     "text": "Modern Slavery Statement",
+     "href": "https://www.fiserv.com/content/dam/fiserv-com/legal-documents/Fiserv-Modern-Slavery-Statement-FY2025.pdf"
+    },
+    {
+     "text": "Trademark Usage Guidelines",
+     "href": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/brand-guidelines/brand-guidelines/2023-fiserv-and-affiliates-trademark-usage%20guidelines-1222.pdf"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/accel/accel-fiserv-s3-04-20260925.webp"
+  },
+  "S7": {
+   "from": "COMMERCE HUB Scale payment and embedded finance capabilities to help d",
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "title": "Commerce Hub for Platforms | Embedded Finance & Payments | Fiserv",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/accel/accel-fiserv-s7-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "U.K. Tax Strategy",
+     "href": "https://www.fiserv.com/content/dam/fiserv-com/legal-documents/uk-tax-strategy-2024.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "Modern Slavery Statement",
+     "href": "https://www.fiserv.com/content/dam/fiserv-com/legal-documents/Fiserv-Modern-Slavery-Statement-FY2025.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "Trademark Usage Guidelines",
+     "href": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/brand-guidelines/brand-guidelines/2023-fiserv-and-affiliates-trademark-usage%20guidelines-1222.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "U.K. Tax Strategy",
+    "href": "https://www.fiserv.com/content/dam/fiserv-com/legal-documents/uk-tax-strategy-2024.pdf"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "final": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "status": 200,
+   "ms": 1760,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.fiserv.com/en/insights.html",
+   "final": "https://www.fiserv.com/en/insights.html",
+   "status": 200,
+   "ms": 1612,
+   "why": "S2 Insights"
+  },
+  {
+   "url": "https://www.fiserv.com/en/country-selector.html",
+   "final": "https://www.fiserv.com/en/country-selector.html",
+   "status": 200,
+   "ms": 1571,
+   "why": "S2 Country Selector"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/enterprise.html",
+   "status": 200,
+   "ms": 1734,
+   "why": "S2 Enterprise Omnichannel commerce, billing and payments soluti"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/small-business.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/small-business.html",
+   "status": 200,
+   "ms": 1627,
+   "why": "S2 Small Business All-in-one systems for merchants to accept pa"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "status": 200,
+   "ms": 1596,
+   "why": "S2 COMMERCE HUB Scale payment and embedded finance capabilities"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "status": 200,
+   "ms": 1537,
+   "why": "S2 Bank Platforms and integrated digital banking solutions to d"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/credit-union.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/credit-union.html",
+   "status": 200,
+   "ms": 1613,
+   "why": "S2 Credit Union Platforms and integrated digital solutions to b"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/large-financial-institution.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/large-financial-institution.html",
+   "status": 200,
+   "ms": 1588,
+   "why": "S2 Large Financial Institution Digital banking, payments and so"
+  },
+  {
+   "url": "https://www.fiserv.com/en/lp/agentos-by-fiserv.html",
+   "final": "https://www.fiserv.com/en/lp/agentos-by-fiserv.html",
+   "status": 200,
+   "ms": 1611,
+   "why": "S2 agentOS The operating system for financial services agents L"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/fintech.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/fintech.html",
+   "status": 200,
+   "ms": 1557,
+   "why": "S2 Fintech Financial and payments solutions and connectivity th"
+  },
+  {
+   "url": "https://www.fiserv.com/en/insights/articles-and-blogs/how-embedded-finance-helps.html",
+   "final": "https://www.fiserv.com/en/insights/articles-and-blogs/how-embedded-finance-helps.html",
+   "status": 200,
+   "ms": 1610,
+   "why": "S2 INSIGHTS How embedded finance helps banks, merchants and fin"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/public-sector.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/public-sector.html",
+   "status": 200,
+   "ms": 1591,
+   "why": "S2 Public Sector Payments and financial solutions for governmen"
+  },
+  {
+   "url": "https://www.fiserv.com/en/insights/articles-and-blogs/meeting-consumer-demand-with-better-bill-pay.html",
+   "final": "https://www.fiserv.com/en/insights/articles-and-blogs/meeting-consumer-demand-with-better-bill-pay.html",
+   "status": 200,
+   "ms": 1604,
+   "why": "S2 INSIGHTS Meet consumer demand with better bill pay Learn mor"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/integrated-payments-isv.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/integrated-payments-isv.html",
+   "status": 200,
+   "ms": 1596,
+   "why": "S2 Software Providers and ISVs Omnichannel payment solutions th"
+  },
+  {
+   "url": "https://www.fiserv.com/en/insights/articles-and-blogs/why-isvs-choose-fiserv-as-their-strategic-growth-partner.html",
+   "final": "https://www.fiserv.com/en/insights/articles-and-blogs/why-isvs-choose-fiserv-as-their-strategic-growth-partner.html",
+   "status": 200,
+   "ms": 1562,
+   "why": "S2 INTEGRATED PAYMENTS Why ISVs Choose Fiserv as Their Strategi"
+  },
+  {
+   "url": "https://www.fiserv.com/en/about-fiserv.html",
+   "final": "https://www.fiserv.com/en/about-fiserv.html",
+   "status": 200,
+   "ms": 1535,
+   "why": "S2 Who We Are Corporate information, values and history"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "status": 200,
+   "ms": 1515,
+   "why": "S3 COMMERCE HUB Scale payment and embedded finance capabilities"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "status": 200,
+   "ms": 1528,
+   "why": "S3 Bank Platforms and integrated digital banking solutions to d"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/credit-union.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/credit-union.html",
+   "status": 200,
+   "ms": 1530,
+   "why": "S3 Credit Union Platforms and integrated digital solutions to b"
+  },
+  {
+   "url": "https://www.fiserv.com/en/lp/agentos-by-fiserv.html",
+   "final": "https://www.fiserv.com/en/lp/agentos-by-fiserv.html",
+   "status": 200,
+   "ms": 1537,
+   "why": "S3 agentOS The operating system for financial services agents L"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "status": 200,
+   "ms": 1533,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "final": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "status": 200,
+   "ms": 1521,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "status": 200,
+   "ms": 1519,
+   "why": "S7 COMMERCE HUB Scale payment and embedded finance capabilities to help d"
+  },
+  {
+   "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks.html",
+   "final": "https://www.fiserv.com/en/solutions/card-services/payment-networks.html",
+   "status": 200,
+   "ms": 1856,
+   "why": "S7 Payment Networks Let us help you deliver extensive access and expansiv"
+  },
+  {
+   "url": "https://www.fiserv.com/en/about-fiserv/resource-center/brochures/accel-and-star-for-merchants--service-providers--and-acquirers.html",
+   "final": "https://www.fiserv.com/en/about-fiserv/resource-center/brochures/accel-and-star-for-merchants--service-providers--and-acquirers.html",
+   "status": 200,
+   "ms": 1875,
+   "why": "S7 brochure Solutions for acquirers and merchants Fiserv networks help ac"
+  },
+  {
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "final": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "status": 200,
+   "ms": 1521,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "final": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "status": 200,
+   "ms": 1521,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "accel-fiserv-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+   "captured": "2026-09-25",
+   "file": "assets/accel/accel-fiserv-s1-01-20260925.webp",
+   "kb": 2
+  },
+  {
+   "id": "accel-fiserv-s02",
+   "station": "S2",
+   "note": "wall: Country Selector",
+   "url": "https://www.fiserv.com/en/country-selector.html",
+   "captured": "2026-09-25",
+   "file": "assets/accel/accel-fiserv-s2-02-20260925.webp",
+   "kb": 2
+  },
+  {
+   "id": "accel-fiserv-s03",
+   "station": "S2",
+   "note": "wall: Who We Are Corporate information, values and history",
+   "url": "https://www.fiserv.com/en/about-fiserv.html",
+   "captured": "2026-09-25",
+   "file": "assets/accel/accel-fiserv-s2-03-20260925.webp",
+   "kb": 2
+  },
+  {
+   "id": "accel-fiserv-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.fiserv.com/en/who-we-serve/bank.html",
+   "captured": "2026-09-25",
+   "file": "assets/accel/accel-fiserv-s3-04-20260925.webp",
+   "kb": 2
+  },
+  {
+   "id": "accel-fiserv-s05",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.fiserv.com/en/who-we-serve/enterprise/commerce-hub-for-platforms.html",
+   "captured": "2026-09-25",
+   "file": "assets/accel/accel-fiserv-s7-05-20260925.webp",
+   "kb": 2
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 28,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 2,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

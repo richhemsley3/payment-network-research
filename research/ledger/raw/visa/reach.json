@@ -1,0 +1,789 @@
+{
+  "network": "visa",
+  "dimension": "reach",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "Visa Inc. is a Delaware corporation (Commission file 001-33977, NYSE: V) with principal executive offices in San Francisco, California; no change of legal owner since 2020, Visa Inc. remains the listed parent.",
+      "quote": "P.O. Box 8999 94128-8999 San Francisco, California (Address of principal executive offices)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same filing: 'Our corporate headquarters are located in the San Francisco Bay Area' and 'four global data centers located in the U.S., the United Kingdom and Singapore'. Workforce: approximately 34,100 employees in fiscal 2025 (up from 31,600), 'Visa employees are located in 86 countries and territories, with more than 60% located outside the U.S.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa Inc.'s significant subsidiaries as of September 30, 2025 are Visa Europe Limited (United Kingdom), Visa International Service Association (Delaware), Visa U.S.A. Inc. (Delaware) and Visa Worldwide Pte. Limited (Singapore).",
+      "quote": "List of Significant Subsidiaries of Visa Inc. as of September 30, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/vex211093025.htm",
+      "title": "Exhibit 21.1 to Visa Inc. 10-K FY2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Only four entities are listed as significant; CyberSource, Interlink Network Inc., Plus System Inc., Tink, Currencycloud, Pismo, Featurespace and Verifi are not named in this exhibit."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Membership ('Member') is defined against five licensing entities (Visa U.S.A., Visa International, Visa Worldwide, Visa Europe Limited, Visa International Servicios de Pago España) plus Visa Canada, which contracts by Services Agreement rather than membership.",
+      "quote": "A client of Visa U.S.A., Visa International, Visa Worldwide, Visa Europe Limited, or Visa International Servicios de Pago España, S.R.L.U.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entry 'Member' continues: 'or a customer that has entered into a Services Agreement with Visa Canada. Requirements for membership are defined in the applicable Visa Charter Documents.' Governance glossary also lists Visa Inc., Visa International, Visa U.S.A., Visa Canada, Visa Europe, Visa International Servicios de Pago España and Visa Worldwide boards of directors. Member types named in section 2.2.1.1: Principal-Type, Associate-Type and Participant-Type Members."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa Inc.'s capital structure still carries the legacy bank-owner classes: as of October 30, 2025 there were 1,687,629,770 class A shares, 4,835,384 class B-1, 120,338,948 class B-2 and 8,938,707 class C shares outstanding; class B is held by former Visa U.S.A. members and class C by former Visa Europe members.",
+      "quote": "Class A common stock 1,687,629,770 Class B-1 common stock 4,835,384 Class B-2 common stock 120,338,948 Class C common stock 8,938,707",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K: 'There is currently no established public trading market for the registrant's class B-1, B-2 or class C common stock.' The class B exchange offer programme (B-1 completed; successive offers possible) is an ownership-structure change since 2020: 'Visa may, but is under no obligation to, conduct a successive exchange offer for class B common stock'. Class B liability is tied to 'the indemnification obligations of the Visa U.S.A. Inc. (Visa U.S.A.) members'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In fiscal 2025 (year ended September 30, 2025) Visa's total payments and cash volume was $17 trillion and it had nearly 5 billion payment credentials (issued Visa card accounts).",
+      "quote": "During fiscal 2025, Visa’s total payments and cash volume was $17 trillion, and we had nearly 5 billion payment credentials",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same filing on digital credentials: 'As of September 30, 2025, Visa has provisioned more than 16 billion tokens.' The Visa fact sheet repeats the headline figures: '200+ countries and territories ~14,500 financial institutions ~5B $17T total volume 329B total transactions 175M+ merchant locations' (Vendor, https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa credentials could be used at more than 175 million merchant locations worldwide, per data supplied by acquirers and third parties as of June 30, 2025.",
+      "quote": "available to be used at more than 175 million merchant locations worldwide",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footnote (1): 'Data provided to Visa by acquiring institutions and other third parties as of June 30, 2025.' See contradictions: Visa's February 2025 Investor Day and March 2025 Jaywan release both say 150M+."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's 175M+ merchant-location figure includes an estimated 64 million locations reached through payment facilitators (not direct acquirer contracts), which explains most of the jump from the 150M+ figure Visa used in early 2025.",
+      "quote": "The number includes an estimated 64 million locations through payment facilitators",
+      "url": "https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf",
+      "title": "Visa Fact Sheet: A global payments technology company at a glance",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Fact sheet footnote 4 continues: 'which are technology providers that provide payment acceptance services to merchants on behalf of acquirers. Data provided to Visa by acquiring institutions and other third parties as of June 30, 2025.' The 64M PayFac breakdown does not appear in the 10-K text."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In fiscal 2025, 329 billion payments and cash transactions carried Visa's brand (about 901 million per day), of which 258 billion (78%) were processed on Visa's own network and the remainder on other networks.",
+      "quote": "Of the 329 billion total transactions, 258 billion were processed by Visa.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Preceding sentence: 'During fiscal 2025, 329 billion payments and cash transactions with Visa's brand were processed by Visa or other networks, equating to an average of 901 million transactions per day.' The 71 billion gap is Visa-branded volume routed over domestic or PIN-debit networks, which matters for acquirers and processors choosing routing."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's client base includes nearly 14,500 financial institutions that issue or acquire on Visa products; it also counts more than a thousand financial institutions and tech companies on the Visa Developer Platform.",
+      "quote": "our clients, including nearly 14,500 financial institutions, use to develop and offer payment solutions or services",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer-platform count from Investor Day 2025 slide 105: 'Over a thousand financial institutions and tech companies use our Visa Developer Platform for their payments needs' (https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf, 2025-02-20). Same deck: '2,900+ API endpoints' and '40B+ API calls per month' (as of December 2024)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "VisaNet, Visa's proprietary processing network, operates across more than 200 countries and territories.",
+      "quote": "facilitating money movement to multiple endpoints through various form factors and innovative technologies across more than 200 countries and territories",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Visa Rules glossary defines VisaNet as 'The platform through which Visa delivers to Members online Authorization and processing, Clearing and Settlement, and reporting services.' Visa Direct is quoted separately at more than 195 countries and territories."
+    },
+    {
+      "dimension": "reach",
+      "claim": "For the twelve months ended June 30, 2025 Visa's total nominal payments volume was $13,894 billion ($6,788B U.S., $7,106B international); adding $2,489B of cash volume gives total nominal volume of $16,383 billion.",
+      "quote": "Total nominal payments volume (4) $ 6,788 $ 6,388 $ 6,045 $ 7,106 $ 6,600 $ 6,044 $ 13,894 $ 12,988 $ 12,088",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Columns are U.S. 2025/2024/2023, International 2025/2024/2023, Visa total 2025/2024/2023, in $ billions. Visa's operational table is on a June-30 twelve-month basis, one quarter behind the fiscal year, which is why it reads $16.4T while the narrative says $17T for fiscal 2025. Consumer debit line 'Includes consumer prepaid volume and Interlink volume.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's brand family for processed transactions is Visa, Visa Electron, V PAY, Interlink and PLUS; payments volume additionally excludes Europe co-badged volume (cards carrying Visa plus a domestic scheme in Europe).",
+      "quote": "transactions using cards and other form factors carrying the Visa, Visa Electron, V PAY, Interlink and PLUS brands processed on Visa’s networks",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Payments-volume definition: 'carrying the Visa, Visa Electron, V PAY and Interlink brands and excludes Europe co-badged volume'. Other owned brands named elsewhere in the 10-K: Visa Direct, Visa+, Cybersource, Authorize.net, Tink, Currencycloud, YellowPepper, Earthport, Pismo, Featurespace, Verifi, Visa Resolve Online."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's own calendar-2024 comparison (competitor data from Nilson Report issue 1288) shows Visa at 4,805 million cards, 311 billion total transactions, $13,433 billion payments volume and $15,927 billion total volume, versus Mastercard at 3,146 million cards and 204 billion transactions.",
+      "quote": "Total Transactions (B) 311 12 4 7 204 Cards (M) 4,805 147 72 167 3,146",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Column order: Visa, American Express, Diners Club / Discover, JCB, Mastercard. Footnote: 'American Express, Diners Club / Discover, JCB and Mastercard data sourced from The Nilson Report issue 1288 (June 2025)' and 'Mastercard excludes Maestro and Cirrus figures.' Diners Club / Discover shown at 72M cards, 4B transactions."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's core network is dual-message (separate authorization and clearing messages); Visa describes itself as a pioneer of dual-message technology enabling real-time authorization.",
+      "quote": "we were a pioneer in dual-message technology, which enables real-time transaction authorization, a capability that only a few payments providers globally can provide",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Visa is therefore dual-message capable on VisaNet and single-message capable through Interlink (see Federal Reserve classification claim)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The Federal Reserve's Regulation II data classify Visa as a dual-message network (with Discover and Mastercard) and Interlink as a single-message network alongside ACCEL, AFFN, ATH, Culiance, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR and UnionPay.",
+      "quote": "ACCEL, AFFN, ATH, Culiance, Interlink, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR, UnionPay",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing): Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Dual-message list on the same table: 'Discover, MasterCard, Visa'. 2024 data: average interchange fee per covered transaction Visa $0.22, Interlink $0.25. Page is the 2024 data year; 'Previous years' data are subject to minor changes based on revisions to underlying data.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "In 2023, dual-message networks (Visa, Mastercard, Discover) carried 71.4% of U.S. debit transactions by volume and 72.9% by value; all 13 debit networks reported to the Board.",
+      "quote": "Dual-message networks, which traditionally processed mainly signature-authenticated transactions, accounted for 71.4 and 72.9 percent of the total by volume and value, respectively, in 2023.",
+      "url": "https://www.federalreserve.gov/paymentsystems/files/debitfees_costs_2023.pdf",
+      "title": "2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer Fraud Losses Related to Debit Card Transactions",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Quote joins a line-break hyphenation ('transac- tions') in the PDF text. Same report: 'All 13 card networks that processed debit card transactions in 2022 and 2023 completed the survey for each of those years.' The report does not name the networks; the average-interchange page does."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Interlink, Visa's U.S. PIN-debit (single-message) network, is operated as a separate entity, Interlink Network, Inc., with its own bylaws and a public rulebook (Interlink Core Rules and Product and Service Rules, 13 April 2024, v1.2).",
+      "quote": "All participants in the Interlink Network are subject to and bound by the Interlink Network, Inc. Bylaws and the Visa Rules",
+      "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-operating-regulations.pdf",
+      "title": "Interlink Core Rules and Interlink Product and Service Rules, 13 April 2024, Version 1.2 (4 June 2024)",
+      "publisher": "Visa",
+      "published": "2024-06-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Order of precedence lists 'V.I.P. System SMS Interlink Technical Specifications' (SMS = single message system) below the bylaws and rules. Visa Rules 2.3.1.1 grants Members a licence to 'the Visa-Owned Marks, including Interlink and Plus'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Plus, Visa's global ATM brand, sits under a separate entity, Plus System, Inc., with its own bylaws and Plus Core Rules; Visa owns the Plus Program Marks and licenses them to members that display the Plus symbol on ATMs.",
+      "quote": "subject to the Plus System, Inc. Bylaws and the Plus Core Rules and Plus Product and Service Rules",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 2.3.1.2 continues: 'A Member granted such a license acknowledges that Visa owns the Plus Program Marks.' Rule 6.1.2.2: 'A Card bearing the Plus Symbol must not bear the Marks of any entity ineligible for membership in Visa' or of American Express Company, Discover Financial Services, JCB, Mastercard Worldwide; footnote: 'In the US Region: This does not apply to Visa Cards bearing the Pulse Mark and Cards bearing the Plus Symbol.' The April 2026 edition still names 'Discover Financial Services' although Capital One completed its acquisition of Discover on May 18, 2025."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Any ATM owned, leased, sponsored or controlled by a Visa member may join the Visa Global ATM Network, and an acquirer that participates must enrol all of its ATMs that sit on other regional or national ATM networks and display Visa and Plus marks within 30 days.",
+      "quote": "Ensure that all of its ATMs that participate in other regional or national ATM networks also participate in the Visa Global ATM Network",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 6.2.3.1: 'Any ATM owned, leased, sponsored, or controlled by a Member is eligible for participation in the Visa Global ATM Network.' Non-member ATM deployers participate through a sponsoring member under Third Party Agent rules (1.9.8.5). Issuer side, 6.2.1.1: 'In the US Region: A Visa Consumer Card Issuer must participate in the Visa ATM Network.' ATMs must support cash disbursement of at least USD 200 per day per account."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's only published ATM count is on its developer site: the Visa Global ATM Locator API covers over 2 million ATMs in over 200 countries; the 10-K and fact sheet publish no ATM figure.",
+      "quote": "The Visa Global ATM Locator service lets Cardholders find a convenient ATM when they need cash from over 2 million ATMs in over 200 countries.",
+      "url": "https://developer.visa.com/capabilities/atmlocator",
+      "title": "Visa Global ATM Locator | Visa Developer",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "API is offered to 'Issuer Banks', 'Merchants' and 'Independent Developers'; 'Free to use in Sandbox. Contact for Production fees.' Visa also runs a U.S. surcharge-free programme: 'find surcharge-free ATMs with just a tap by filtering for Plus Alliance ATMs' (https://www.visa.com/en-us/personal/resources/atm-banking-services, Vendor)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa Direct, Visa's money-movement platform, reaches more than 195 countries and territories through more than 90 domestic payment schemes and more than 60 card and wallet networks, with potential reach of about 12 billion endpoints (about 4 billion each of cards, bank accounts and wallets).",
+      "quote": "across more than 195 countries and territories. Visa Direct utilizes more than 90 domestic payment schemes and more than 60 card and wallet networks",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Continues: 'with the potential to reach approximately 12 billion endpoints, through approximately 4 billion cards, bank accounts and digital wallets, respectively.' Visa calls this its 'network of networks'; Earthport (accounts), Currencycloud and YellowPepper are named as the acquired building blocks. Investor Day (Feb 2025) said '195+ countries and territories 11B+ endpoints'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In fiscal 2025 Visa Direct processed more than 12.5 billion transactions for more than 650 partners (Visa's published partner count for the platform).",
+      "quote": "In fiscal 2025, Visa Direct processed more than 12.5 billion transactions for more than 650 partners.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Investor Day (Feb 2025) cited '~10B Visa Direct transactions' for FY24. Visa+ (alias-based) 'does not require users to have a Visa card'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa Europe Limited (UK) remains Visa's European scheme entity and is separately supervised: recognised by the Bank of England, regulated by the UK Payment Systems Regulator, overseen by the ECB, and required under the EU IFR to separate scheme from processing.",
+      "quote": "In the UK, Visa Europe is designated as a Recognized Payment System, bringing it within the scope of the Bank of England’s supervisory powers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same section: 'Visa Europe is also regulated by the UK's Payment Systems Regulator (PSR)'; the IFR 'requires Visa Europe to separate its payment card scheme activities from processing activities for accounting, organization and decision-making purposes within the EEA'. Visa Europe was acquired in 2016 (pre-2020); Investor Day notes '2016 data includes Visa Europe'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Ownership change attempted but abandoned: Visa and Plaid terminated their $5.3 billion merger agreement on January 12, 2021 after the U.S. Department of Justice sued to block it; the deal had been announced January 13, 2020.",
+      "quote": "the companies have terminated their merger agreement and agreed with the Department of Justice to dismiss the litigation related to the proposed transaction",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17586.html",
+      "title": "Visa and Plaid Announce Mutual Termination of Merger Agreement",
+      "publisher": "Visa",
+      "published": "2021-01-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Press release also states 'The proposed transaction was first announced on January 13, 2020.' The $5.3B value is from press coverage, not this release."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa acquired Currencycloud (The Currency Cloud Group Limited, UK) on December 20, 2021 for total consideration of $893 million, adding FX and cross-border capability to Visa Direct.",
+      "quote": "On December 20, 2021, Visa acquired The Currency Cloud Group Limited (“Currencycloud”), a UK-based global platform",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000013/v-20211231.htm",
+      "title": "Visa Inc. Form 10-Q for the quarter ended December 31, 2021",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note 2: 'for a total purchase consideration of $ 893 million (which includes the fair value of Visa's previously held equity interest in Currencycloud)'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa completed its acquisition of Tink (Stockholm open-banking platform) on March 10, 2022; Tink is Visa's account-to-account and open-banking arm in Europe and Latin America.",
+      "quote": "Visa (NYSE: V) today announced it has completed its acquisition of Tink",
+      "url": "https://investor.visa.com/news/news-details/2022/Visa-Completes-Acquisition-of-Tink/default.aspx",
+      "title": "Visa Completes Acquisition of Tink",
+      "publisher": "Visa Inc. Investor Relations",
+      "published": "2022-03-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release adds (Vendor claim): 'Tink is integrated with more than 3,400 banks and financial institutions, reaching millions of bank customers across Europe.' FY2025 10-K: 'Since acquiring Tink in 2022, we have scaled our open banking payments network, reaching thousands of bank connections as of September 30, 2025.' No price in the release; press reported about $2 billion."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa acquired Pismo Holdings (cloud-native issuer processing and core banking, Brazil-origin) in January 2024 for $929 million and Featurespace Limited (real-time AI fraud technology, UK) in December 2024 for $946 million.",
+      "quote": "In December 2024, Visa acquired Featurespace Limited, a developer of real-time artificial intelligence payments protection technology",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same note: 'In January 2024, Visa acquired Pismo Holdings, a global cloud-native issuer processing and core banking platform, for a purchase consideration of $ 929 million.' Featurespace 'for a purchase consideration of $ 946 million'. Both extend Visa's partner-facing stack (issuer processing; risk) rather than its card brands."
+    },
+    {
+      "dimension": "reach",
+      "claim": "On December 15, 2023 Visa agreed to buy a majority interest in Prosa, Mexico's largest card processor (more than 10 billion transactions a year), with closing expected in the second half of 2024; the FY2025 10-K (November 2025) still listed it as pending regulatory approval.",
+      "quote": "expected to close during the second half of 2024",
+      "url": "https://investor.visa.com/news/news-details/2023/Visa-to-Acquire-a-Majority-Interest-in-Prosa-to-Accelerate-Digital-Payments-Adoption-in-Mexico/default.aspx",
+      "title": "Visa to Acquire a Majority Interest in Prosa to Accelerate Digital Payments Adoption in Mexico",
+      "publisher": "Visa Inc. Investor Relations",
+      "published": "2023-12-15",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release: 'Prosa will continue to operate as an independent company with its own technology infrastructure' and Prosa processes 'more than 10 billion transactions per year on their network'. 10-K FY2025: 'The Prosa acquisition is subject to customary closing conditions, including applicable regulatory approvals.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Mexico's new National Antitrust Commission (CNA) rejected Visa's proposed majority acquisition of Prosa in February 2026, finding Visa's remedies insufficient; the deal would have given Visa control of two of Mexico's three card brands (Visa and Prosa's Carnet) and two of four clearinghouses.",
+      "quote": "were not suitable or sufficient to avoid the risk to markets and consumers",
+      "url": "https://www.electronicpaymentsinternational.com/news/mexico-blocks-visa-prosa-stake/",
+      "title": "Mexico antitrust regulator blocks Visa bid for Prosa stake",
+      "publisher": "Electronic Payments International (Aninda Chakraborty)",
+      "published": "2026-02-23",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Quote is the CNA's reasoning as rendered by EPI. Postdates the FY2025 10-K; treat Prosa as not acquired. Reuters coverage was also indexed (tradingview.com mirror) but not fetched."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's reciprocal/co-badge model in 2025 includes a 'Jaywan-Visa' co-badging partnership (announced March 10, 2025) with Al Etihad Payments, the Central Bank of the UAE's domestic scheme: domestic transactions route over UAESWITCH and cross-border transactions outside the GCC over Visa.",
+      "quote": "cross border transactions outside the GCC area will be processed through Visa's global network",
+      "url": "https://www.visa.com/en-ae/newsroom/visa-al-etihad-payments-jaywan-partnership",
+      "title": "Al Etihad Payments and Visa Announce “Jaywan- Visa” Co-Badging Partnership in the UAE",
+      "publisher": "Visa (Middle East newsroom)",
+      "published": "2025-03-10",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Release also says cardholders can pay 'at Visa's more than 150 million merchant partners across 200 countries and territories' (150M, versus 175M+ in the FY2025 10-K). Al Etihad Payments is described as 'a whole owned subsidiary of the Central Bank of the UAE (CBUAE)'. AEP announced parallel co-badge deals with Mastercard, UnionPay and Discover (aep.ae, not fetched). Original URL ae.visamiddleeast.com/en_AE/about-visa/newsroom/press-releases/prl-10032025.html redirects here."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In the EEA, a card carrying Visa plus another payment scheme (co-badged) issued or reissued on or after 23 April 2022 must be issued on a BIN dedicated to that co-badged programme and licensed by Visa, and EEA merchants must display the scheme choice to the cardholder.",
+      "quote": "must be issued on a BIN specific to that co-badged program and be licensed by Visa",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule 1.2.1.2 (Europe Region, EEA). Acceptance-side rule for co-badged cards requires the merchant to 'display on the customer-facing payment screen the available choice of payment schemes and/or payment applications'. Together with the 10-K's 'excludes Europe co-badged volume', this is the documentary trace of Visa's alliances with domestic European schemes; Visa publishes no list of co-badge partners."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa's client extranet has been renamed Visa Access; the rules glossary defines it as the password-protected site for Members, VisaNet Processors and other authorised users, 'formerly known as Visa Online' (entry updated April 2025).",
+      "quote": "A password-protected website that provides Members, VisaNet Processors, and other authorized users with access to Visa information, formerly known as Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary ID# 0025360, 'Last Updated: Apr 2025'. Public Visa pages and the assignment brief still use the name Visa Online; treat Visa Online and Visa Access as the same gated surface."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Visa names domestic and regional debit networks as its main non-global competitors: NYCE, Pulse and STAR in the U.S., Interac in Canada, eftpos in Australia, plus RuPay, UnionPay and JCB; Pulse has been Capital One-owned since May 18, 2025.",
+      "quote": "Examples include NYCE, Pulse and STAR in the U.S.; Interac in Canada; and eftpos in Australia.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K text: 'Local and Regional Networks: Operated in many countries, these networks often have the support of government influence or mandate. In some cases, they are owned by financial institutions or payment processors.' The 10-K does not mention Capital One's ownership of Pulse/Discover."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Nilson Report puts Visa's share of global-brand purchase transactions (Visa, UnionPay, Mastercard, Amex, JCB, Discover/Diners) at 38.47% for January-June 2025, the most-used global brand but down on the prior year; 2025 full-year share is paywalled (preview reads 'Visa cards held a 40.76%...').",
+      "quote": "The most widely used global card brand was Visa, which held a 38.47% market share of total credit, debit and prepaid card purchase transactions.",
+      "url": "https://nilsonreport.com/articles/global-brand-cards-worldwide-midyear-2025/",
+      "title": "Global Brand Cards Worldwide — Midyear 2025 (Nilson Report Issue 1298)",
+      "publisher": "Nilson Report",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Issue 1298, December 2025. Base: 397.50 billion purchase transactions H1 2025, up 9.2%. Full-year 2025 article (Issue 1310, June 2026, https://nilsonreport.com/articles/global-network-card-results-worldwide-2025/) gives 828.10 billion global-brand purchase transactions in 2025 (+7.1%) and truncates Visa's share at 'Visa cards held a 40.76%...' before the login wall, so the base for 40.76% is unknown. 2024 article (Issue 1288) gives 772.73 billion."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In the United States, purchase volume on Visa card products was $7.028 trillion in 2025 (+6.8%), a 70.38% share of combined Visa-plus-Mastercard purchase volume; Visa credit alone was $3.412 trillion.",
+      "quote": "Purchase volume on Visa card products was $7.028 trillion, an increase of 6.8%.",
+      "url": "https://nilsonreport.com/articles/mastercard-and-visa-cards-in-the-us-2025/",
+      "title": "Mastercard and Visa Cards in the US — 2025 (Nilson Report Issue 1301)",
+      "publisher": "Nilson Report",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Issue 1301, February 2026. 'Visa's purchase volume market share for all products combined was 70.38%' is share of the two-network total, not of all U.S. cards. Companion article 'Global Brand Cards in the United States — 2025' (same issue, https://nilsonreport.com/articles/global-brand-cards-us-2025/): 'Credit card purchase volume on Visa cards increased 6.5% to $3.412 trillion' against a four-network U.S. total of $11.463 trillion. Card counts are behind the subscriber wall."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Number of ATMs on the Visa/Plus network in the 10-K, annual report or fact sheet",
+      "where": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm ; https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf ; https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa's share of U.S. debit transactions as alleged by DOJ (press release 'Justice Department Sues Visa for Monopolizing Debit Markets')",
+      "where": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets (bot wall on WebFetch and curl; 2.4 KB challenge page)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa-specific global purchase-transaction and purchase-volume share for full-year 2024 and 2025 (Nilson issues 1288, 1310)",
+      "where": "https://nilsonreport.com/articles/global-network-card-results-worldwide-2024/ ; https://nilsonreport.com/articles/global-network-card-results-worldwide-2025/ (subscriber login)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Named list of dual-message vs single-message networks inside the Fed 2023 debit report PDF",
+      "where": "https://www.federalreserve.gov/paymentsystems/files/debitfees_costs_2023.pdf (report gives shares only; list found instead on regii-average-interchange-fee.htm)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Participant counts for Visa Ready, Fintech Fast Track or Visa Partner",
+      "where": "https://partner.visa.com/ ; https://developer.visa.com/ (no counts published; Investor Day gives only '+400 Fintech Programs' on a U.S. slide with no time basis)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "A published list of Visa reciprocal acceptance or network-to-network agreements (beyond co-badging examples)",
+      "where": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf ; https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm (Visa publishes none; only the EEA co-badge rule, 'Europe co-badged volume' exclusion and the Jaywan release)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "usa.visa.com/partner-with-us.html and usa.visa.com/pay-with-visa/find-a-card/atm-locator.html seed pages",
+      "where": "both return HTTP 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "annualreport.visa.com content",
+      "where": "https://annualreport.visa.com/ (TLS 'unable to get local issuer certificate' on WebFetch; not retried, 10-K used instead)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Merchant locations: '150+ million merchant locations' (Visa Investor Day, 2025-02-20) and 'more than 150 million merchant partners' (Jaywan release, 2025-03-10)",
+      "b": "'more than 175 million merchant locations worldwide' (10-K FY2025, data as of June 30, 2025); fact sheet footnote says the 175M 'includes an estimated 64 million locations through payment facilitators', so the change is partly methodological",
+      "urls": [
+        "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+        "https://www.visa.com/en-ae/newsroom/visa-al-etihad-payments-jaywan-partnership",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf"
+      ]
+    },
+    {
+      "a": "Credentials: '4.7 billion credentials' (Investor Day, Feb 2025) and 'Cards (M) 4,805' for calendar 2024 (10-K comparison table)",
+      "b": "'nearly 5 billion payment credentials' for fiscal 2025 (10-K narrative; fact sheet '~5B' with card data at June 30, 2025) — dated figures, not an error, but three values circulate",
+      "urls": [
+        "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf"
+      ]
+    },
+    {
+      "a": "Total transactions: '300B+ total transactions' (Investor Day, Feb 2025) and 'Total Transactions (B) 311' for calendar 2024 (10-K table)",
+      "b": "'329 billion payments and cash transactions' for fiscal 2025 (10-K narrative and fact sheet) — different periods",
+      "urls": [
+        "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf"
+      ]
+    },
+    {
+      "a": "Prosa: 'subject to customary closing conditions, including applicable regulatory approvals' (10-K filed 2025-11-06) and 'expected to close during the second half of 2024' (Visa release 2023-12-15)",
+      "b": "Mexico's CNA rejected the acquisition (EPI, 2026-02-23) — status change after the filing; the deal did not close",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://investor.visa.com/news/news-details/2023/Visa-to-Acquire-a-Majority-Interest-in-Prosa-to-Accelerate-Digital-Payments-Adoption-in-Mexico/default.aspx",
+        "https://www.electronicpaymentsinternational.com/news/mexico-blocks-visa-prosa-stake/"
+      ]
+    },
+    {
+      "a": "Visa Direct endpoints: '11B+ endpoints' and '~10B Visa Direct transactions' for FY24 (Investor Day)",
+      "b": "'approximately 12 billion endpoints' and 'more than 12.5 billion transactions' for FY25 (10-K) — growth between dates",
+      "urls": [
+        "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+      ]
+    },
+    {
+      "a": "Visa Rules (18 April 2026 edition) still name 'Discover Financial Services' as a competitive entity whose marks may not appear on Plus cards",
+      "b": "Capital One completed its acquisition of Discover Financial Services on May 18, 2025 (context supplied by the study brief; not restated in the Rules)",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Access (formerly Visa Online) — client extranet for Members, VisaNet Processors and authorised users",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Partner sign-in / dashboard / registration",
+      "url": "https://partner.visa.com/identity ; https://partner.visa.com/portal/dashboard.html ; https://partner.visa.com/identity/user/register",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Visa Developer Center (VDC) — API access governed by VDC Terms of Use; sandbox needs an account",
+      "url": "https://developer.visa.com/",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf (rule 7.2.3) and https://developer.visa.com/"
+    },
+    {
+      "name": "Visa Global ATM Locator API — production access 'Contact for Production fees'",
+      "url": "https://developer.visa.com/capabilities/atmlocator",
+      "named_at": "https://developer.visa.com/capabilities/atmlocator"
+    },
+    {
+      "name": "Visa Resolve Online (VROL) — dispute platform for Members",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Fintech Fast Track, Visa Ready, License Programs, Third Party Agent Registration (programmes behind Visa Partner sign-in)",
+      "url": "https://partner.visa.com/site/programs/partner-programs.html",
+      "named_at": "https://partner.visa.com/ and https://developer.visa.com/"
+    },
+    {
+      "name": "VisaNet Manuals, Visa Supplemental Requirements, V.I.P. System SMS Interlink Technical Specifications (member-only technical documents)",
+      "url": "",
+      "named_at": "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-operating-regulations.pdf"
+    },
+    {
+      "name": "Visa Charter Documents (certificates of incorporation and bylaws defining membership classes)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Nilson Report subscriber archive (Issues 1288, 1298, 1301, 1310) — third-party data gate, not a Visa surface",
+      "url": "https://nilsonreport.com/",
+      "named_at": "https://nilsonreport.com/articles/global-brand-cards-worldwide-midyear-2025/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1403161&type=10-K&dateb=&owner=include&count=10",
+      "title": "EDGAR filing list, Visa Inc. 10-K",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.htm",
+      "title": "EDGAR filing index 0001403161-25-000089",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/vex211093025.htm",
+      "title": "Exhibit 21.1 List of Significant Subsidiaries",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316122000013/v-20211231.htm",
+      "title": "Visa Inc. 10-Q quarter ended Dec 31, 2021",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa.html",
+      "title": "About Visa (301 redirect to corporate.visa.com)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://corporate.visa.com/en/about-visa.html",
+      "title": "What we do | Unlocking opportunities for everyone | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://corporate.visa.com/content/dam/VCOM/corporate/documents/about-visa-factsheet.pdf",
+      "title": "Visa Fact Sheet (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/",
+      "title": "Visa Investor Relations (navigation hub, no figures)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://annualreport.visa.com/",
+      "title": "Visa Annual Report site",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "title": "Visa 2025 Investor Day consolidated deck (PDF, 161 pp)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/atmlocator",
+      "title": "Visa Global ATM Locator | Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/",
+      "title": "Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us.html",
+      "title": "Partner with us (seed)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Visa merchant support library",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026 (PDF, 923 pp)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-operating-regulations.pdf",
+      "title": "Interlink Core Rules and Product and Service Rules, 13 April 2024 v1.2 (PDF, 376 pp)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.17586.html",
+      "title": "Visa and Plaid Announce Mutual Termination of Merger Agreement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2022/Visa-Completes-Acquisition-of-Tink/default.aspx",
+      "title": "Visa Completes Acquisition of Tink",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2023/Visa-to-Acquire-a-Majority-Interest-in-Prosa-to-Accelerate-Digital-Payments-Adoption-in-Mexico/default.aspx",
+      "title": "Visa to Acquire a Majority Interest in Prosa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ae.visamiddleeast.com/en_AE/about-visa/newsroom/press-releases/prl-10032025.html",
+      "title": "Jaywan-Visa release (301 redirect to visa.com/en-ae)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-ae/newsroom/visa-al-etihad-payments-jaywan-partnership",
+      "title": "Al Etihad Payments and Visa Announce Jaywan-Visa Co-Badging Partnership in the UAE",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/personal/resources/atm-banking-services",
+      "title": "ATM Banking Services & Surcharge-Free ATM | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/pay-with-visa/find-a-card/atm-locator.html",
+      "title": "Visa ATM locator (seed guess)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Regulation II data collections",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer Fraud Losses (HTML)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/files/debitfees_costs_2023.pdf",
+      "title": "2023 debit report (PDF, 48 pp)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/global-network-card-results-worldwide-2025/",
+      "title": "Global Network Card Results Worldwide — 2025 (Issue 1310)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/global-brand-cards-worldwide-midyear-2025/",
+      "title": "Global Brand Cards Worldwide — Midyear 2025 (Issue 1298)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/global-network-card-results-worldwide-2024/",
+      "title": "Global Network Card Results Worldwide — 2024 (Issue 1288)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/mastercard-and-visa-cards-in-the-us-2025/",
+      "title": "Mastercard and Visa Cards in the US — 2025 (Issue 1301)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/global-brand-cards-us-2025/",
+      "title": "Global Brand Cards in the United States — 2025 (Issue 1301)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.electronicpaymentsinternational.com/news/mexico-blocks-visa-prosa-stake/",
+      "title": "Mexico antitrust regulator blocks Visa bid for Prosa stake",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

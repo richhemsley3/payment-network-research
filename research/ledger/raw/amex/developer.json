@@ -1,0 +1,1034 @@
+{
+  "network": "amex",
+  "dimension": "developer",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "developer",
+      "claim": "The developer portal's documentation (How It Works, Getting Started, How To Register, Access Guide, What's New, API Security) is readable logged out, but the API Reference and Guide pages of some products are locked and require contacting Amex, and some products are not listed at all.",
+      "quote": "For security reasons, the API documentation pages of some of our products will be locked",
+      "url": "https://developer.americanexpress.com/documentation/how-it-works",
+      "title": "High-Level Process | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-06-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Portal is a client-rendered SPA; text read from its public content host https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/how-it-works.md (navigation.json lists 5 top-level sections plus 6 API Security pages). Same page: 'Some products are not publicly listed on our website due to security reasons.' Page carries 'Last Updated: June 1, 2026'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Logged out, the portal's product catalogue endpoint returns 18 published products in five categories (Payment Services 6, Open Banking 4, Fraud Prevention 3, Utilities 3, Personalized Services 2); 10 of the 18 are typed DOCUMENTATION_ONLY (overview only, no spec or sandbox on the portal).",
+      "quote": "\"displayName\":\"Amex Agentic Commerce Experiences\",\"majorVersion\":\"1.0\",\"type\":\"api\"",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/",
+      "title": "American Express Developers product catalogue (a4d/v1/products)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Endpoint the logged-out /products page calls. Counts derived from the JSON: productType DOCUMENTATION_ONLY 10, NEXTGEN_OAUTH 4, LEGACY_HMAC 2, LEGACY_OAUTH 1, LEGACY_FAPI 1; byInvite false for all 18; 2 further products flagged deprecated are filtered out of the UI. The GNS partner page names only four categories: 'Get access to Fraud Prevention, Open banking, Payment Services and Personalized Services Products from the Amex for Developers site.' (https://network.americanexpress.com/globalnetwork/v4/partners/developers/)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Five of the 18 catalogue products are flagged SEMI_PUBLIC: the overview is public but the API specification is invite-only (Account and Transaction API, Confirmation of Funds, Global Pay with Points v2, Agentic Commerce Experiences, DotAmex).",
+      "quote": "Please request an invite to view the API specification.",
+      "url": "https://developer.americanexpress.com/products/account-and-transaction-api-public/overview",
+      "title": "Account and Transaction API Overview | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-07-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Overview JSON fetched from https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/account-and-transaction-api-public/account-and-transaction-api-public.overview.v2.json. The portal bundle also gates Open Banking enrolment with: 'Your organization is currently not eligible to proceed because it is not a regulated Third Party Provider.' The same overview publishes daily U.K. API performance metrics for download (PSD2 obligation)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The 2026 Agentic Commerce Experiences (ACE) Developer Kit gates its Guide and Specifications behind a four-field access form (name, business email, business name, country) routed to agenticcommerceexperiences@aexp.com, even though the OpenAPI file itself is served from the public content host.",
+      "quote": "Please submit this form to request access to the API Guide and Specifications.",
+      "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+      "title": "Agentic Commerce Experiences (ACE) Developer Kit | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-04-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Form definition and accessRequestSupportEmail read from the catalogue JSON (additionalData.getAccessForm). Overview text: 'Last Updated: April 10, 2026'. The 286 KB OpenAPI 3.1.0 spec was fetchable logged out at https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json (x-lastUpdated April 28, 2026). Recorded as a contradiction."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Amex states that sandbox access is automatic for some public products, but the catalogue's instantSandboxAccess flag is false for every one of the 18 listed products, and the dashboard tells users to request keys and wait for review.",
+      "quote": "For some of our public products, the Sandbox APIs are automatically accessible without reaching out to us.",
+      "url": "https://developer.americanexpress.com/documentation/how-it-works",
+      "title": "High-Level Process | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-06-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Contradiction recorded: https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/ returns instantSandboxAccess:false for all 18 products. Dashboard string in app bundle: 'Please request access to view keys for this environment. Our team will review the request and grant access.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "The dashboard describes three environments: Sandbox uses mock data and static responses, QA offers end-to-end testing with dynamic test data, and Production affects real accounts; the Terms describe sandbox use as prototyping with anonymous mock data provided AS IS.",
+      "quote": "Familiarize yourself with API functionality using mock data and static responses.",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (portal application bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same bundle: qa: 'Complete end-to-end testing (excluding purchases) with dynamic test data and full backend execution.'; production: 'Access a live environment where API calls affect real accounts.' The sandbox blurb links to github.com/americanexpress/amex-api-java-client-core 'for headers and sample code'. Terms of Use 4.4: 'The Sandbox is provided on an “AS IS” basis, and AMEX makes no promises about the uptime or availability of the Sandbox.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Getting access is a reviewed workflow, not instant: after creating a Project and completing To-Do items (certificate upload, OAuth information, questionnaire) the product sits in a Requested state until Amex approves it, and the same Requested/Approved cycle repeats when moving to Production.",
+      "quote": "Once you submit the required information, the product will be in \"Requested\" state. We will review your request and approve it.",
+      "url": "https://developer.americanexpress.com/documentation/getting-started",
+      "title": "Getting Started | American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Content from https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/getting-started.md. Step 5: 'After validation in Sandbox, you will be able to upgrade to Production.' Legal terms may be required before moving to Production."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Sandbox Client ID and Client Secret are shown on the Project dashboard only after access is granted; the Production client secret is additionally masked until the account is verified, and one credential set is required per API product per environment.",
+      "quote": "Please request access to view keys for this environment. Our team will review the request and grant access.",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (portal application bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle also renders 'Verify your account to unlock client secret.' for Production. FAQ (https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs): 'Currently, you will need a unique set of credentials for each API product, in each environment.' and 'Your credentials don't have a default expiration date.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Test cards are not published: for Card on-demand, partners complete integration-setup forms and then receive the sandbox configuration confirmation and the test cards by separate emails.",
+      "quote": "You will receive an email confirmation when the Sandbox environment is configured, and a separate email containing the test cards.",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (portal application bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Card on-demand integration-setup copy; test cards are 'test American Express Business or Corporate cards serving as funding accounts'. A separate country requires a separate project and credential set. The bundle also names a gated card-on-demand test bed at developerlab.americanexpress.com."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Global Pay with Points v2 OpenAPI spec (public on the content host) states that a standard Sandbox key is published in the spec's Test Data section, the only product where sandbox test data is published rather than issued.",
+      "quote": "A standard Sandbox key is available within the Test Data section below.",
+      "url": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview",
+      "title": "Global Pay with Points | American Express Developers (OpenAPI specification)",
+      "publisher": "American Express",
+      "published": "2026-08-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Spec fetched from https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-global-pay-with-points-v2/nextgen-global-pay-with-points-v2-openapi-specification.json; openapi 3.1.0, x-lastUpdated 'August 7, 2026', servers [https://apigwsandboxm.americanexpress.com], headers X-AMEX-API-KEY ('A unique Consumer Developer key for Enterprise Web Proxy authentication.') and Authorization Bearer."
+    },
+    {
+      "dimension": "developer",
+      "claim": "2-legged OAuth uses a JWT client assertion (RFC 7523 style) signed with the client secret using an HMAC-SHA algorithm, sent with grant_type=client_credentials and the X-AMEX-API-KEY header carrying the client_id.",
+      "quote": "The Client Assertion is a JWT signed with the Client Secret (provided via the American Express Developers Portal) using any recommended HMAC SHA algorithm",
+      "url": "https://developer.americanexpress.com/documentation/api-security/oauth-client-credentials-flow",
+      "title": "OAuth 2.0 Client Credentials Flow (2Legged) | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-06-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Required claims iss, sub, aud ([https://americanexpress.com]), exp, jti; client_assertion_type urn:ietf:params:oauth:client-assertion-type:jwt-bearer; headers X-CorrelationID (UUID), X-AMEX-API-KEY ('This is a client_id value and will be provided via the American Express Developers Portal.'), Content-Type application/x-www-form-urlencoded. The spec viewer supports four security models: oneWayTLS_AppKey, oAuth, oneWayTLS_HMAC, mTLS_HMAC (bundle)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Published token lifetimes: 2-legged access tokens live five minutes and refresh tokens ten minutes; 3-legged (Card Member consent) refresh tokens live 90 days and the flow uses PKCE (code_verifier) plus registered brand assets and redirect URL.",
+      "quote": "The access token is valid for five minutes.",
+      "url": "https://developer.americanexpress.com/documentation/api-security/oauth-client-credentials-flow",
+      "title": "OAuth 2.0 Client Credentials Flow (2Legged) | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-06-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'The refresh token is valid for 10 minutes.' 3-legged page (https://developer.americanexpress.com/documentation/api-security/oauth-authorization-code-flow): 'The refresh token (expires in 90 days after retrieval).'; code_verifier required; scope example 'ACCOUNT_READ ACCOUNTTRANSACTIONS_READ'; 'you must first provide Brand Assets (Brand Name, Redirect URL and Logo) for the Grant Access Journey.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Legacy products (Amex Token Service, Enhanced Authorization v2) use an HMAC-SHA256 MAC Authorization header built from client ID, epoch-millisecond timestamp, nonce, body hash and signature, with the client secret as the key.",
+      "quote": "The mac is generated using the HMAC SHA-256 algorithm. Your Client Secret is used in the generation of the hash or signature.",
+      "url": "https://developer.americanexpress.com/documentation/api-security/hmac",
+      "title": "Hash-Based Message Authentication Code (HMAC) | American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Header format MAC id=,ts=,nonce=,bodyhash=,mac=; HEAD uses four components, POST/PUT/DELETE/GET five. Catalogue types Amex Token Service and Enhanced Authorization v2 as LEGACY_HMAC. Java/.NET client-core repos implement HmacAuthProvider."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Mutual TLS with Amex-signed client certificates is required for partner applications: partners upload a CSR (CN must start AmexTrust- and end TEST-partner or PROD-partner), certificates are valid at most 398 days, RSA-2048/SHA256 or ECC P-256, with a year-end freeze from November 10 to January 10.",
+      "quote": "American Express requires Mutual Authentication TLS (mTLS) as a secured mechanism for identifying and authenticating Partner applications when accessing American Express APIs.",
+      "url": "https://developer.americanexpress.com/documentation/api-security/amex-signed-certificates",
+      "title": "Amex Signed Certificates - Certificate Enrollment and Lifecycle Guide | American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "CSR submitted in portal: 'Navigate to Projects → Certificates'; overlapping certificates allowed for cutover; two certificates six months apart recommended. Bundle validation strings match ('Sandbox: CN=AmexTrust-{partnerName}-TEST-partner')."
+    },
+    {
+      "dimension": "developer",
+      "claim": "For partner-CA certificates, Amex must deploy an uploaded .PEM to the environment before it works (minutes, up to 72 hours); the Production certificate must differ from the Sandbox one, may be valid at most two years, and must not expire between November and January.",
+      "quote": "This usually takes a few minutes, with a maximum wait time of 72 hours.",
+      "url": "https://developer.americanexpress.com/documentation/api-security/certificates",
+      "title": "Certificates | American Express Developers",
+      "publisher": "American Express",
+      "published": "2026-07-15",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Your Production certificate cannot be the same certificate you used in the Sandbox environment.' and 'The certificate cannot expire between November and January'. Includes a 21-check debugging table mirrored in the bundle."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Published API hosts: the ACE spec lists sandbox https://apisandboxm.americanexpress.com and production https://apigwm.americanexpress.com; the dashboard exposes OAuth token hosts for an E2 sandbox (api.qasb2s), E3 sandbox (sandbox2s / apigwsandboxm) and production (apigateway2s / apigwm), and 3-legged hosts openamex-sandbox / openamex.",
+      "quote": "\"url\": \"https://apisandboxm.americanexpress.com\", \"description\": \"sandbox\"",
+      "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+      "title": "American Express Agentic Commerce Experience - Enrollment, Intent, Payment Credential, and Notification API (OpenAPI specification)",
+      "publisher": "American Express",
+      "published": "2026-04-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Spec file: https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json (openapi 3.1.0, 7 paths under /payments/digital/v1/agentic-commerce/). Bundle verbatim: heading:\"2 Legged OAuth (E2 Sandbox)\",Sandbox:[{title:\"Retrieve\",url:\"https://api.qasb2s.americanexpress.com/oauth/v1/token/cc/js/access\"}]; 3L sandbox https://openamex-sandbox.americanexpress.com/apiplatform/v8/oauth/token/bearer; production https://openamex.americanexpress.com/apiplatform/v8/oauth/token/bearer. Public TLS/mTLS certificates downloadable for api.americanexpress.com, api-qa, apigwm, apigwm-qa, apigwsandboxm, openamex, openamex-qa (all expiring November 11, 2026) per the Certificates page: 'Use these SAN certificates for all the VIPs/URLs mentioned in VIP Name column.' DotAmex spec lists E1/E2/E3 hosts apigw-dev / apigw-qa / apigw.americanexpress.com; ICV spec lists a dev host (paymentnetwork-dev.aexp.com) with empty qa/prod placeholders."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The official Java SDK (americanexpress/amex-api-java-client-core) is an authentication-header helper, not a full client: no releases or tags, last code commit 2020-06-23, README still promises JCenter artifacts, nothing on Maven Central, and a 2018 issue asking for Maven Central artifacts remains open.",
+      "quote": "Artifacts are coming soon to JCenter. Stay tuned!",
+      "url": "https://github.com/americanexpress/amex-api-java-client-core",
+      "title": "amex-api-java-client-core | GitHub (americanexpress)",
+      "publisher": "American Express",
+      "published": "2022-11-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "GitHub API: created 2016-10-04, pushed_at 2022-11-16 (dependabot PR), last commit 2020-06-23 'Removal of JWS references', 29 stars, 21 forks, 9 open issues, Apache-2.0, releases [] tags []. Maven Central search g:io.aexp* returned 0. Issue #5 'Offer artifacts in Maven Central' open since 2018-12-06. Samples README lists: Amex ATM Locator, Amex Card Application Offers, Enhanced Authorization, Pay With Rewards, Amex B2B Payments, Amex Token Service. GNS marketing line contrasts: 'Our products are backed by a team of passionate American Express developers who are adding new code regularly.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "The official .NET SDK (amex-api-dotnet-client-core) is likewise an auth-header library; its last commit was 2018-06-12 and the NuGet package Amex.Api.Client.Core stopped at 0.1.2 (published 2018-06-13).",
+      "quote": "This library encapsulates header creation necessary to authenticate with APIs published to the Amex for Developers portal.",
+      "url": "https://github.com/americanexpress/amex-api-dotnet-client-core",
+      "title": "amex-api-dotnet-client-core | GitHub (americanexpress)",
+      "publisher": "American Express",
+      "published": "2018-06-12",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "NuGet registration index: 0.1.1 published 2016-10-12 by 'American Express Travel Related Services Company, Inc.' with projectUrl https://developer.americanexpress.com/; 0.1.2 published 2018-06-13. 9 stars, 5 forks, 0 open issues, Apache-2.0."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Node SDK for Targeted Offers (americanexpress/targeted-offers-client) documents an npm package that the npm registry does not have, last saw a code commit in 2022, and carries 28 open dependabot PRs; a JVM twin (targeted-offers-client-jvm, Java 8+) has 0 stars and was last pushed 2023-04-14; no Python, Go, PHP or Ruby SDK exists.",
+      "quote": "targeted-offers-client sdk will support Node Version 6 or higher",
+      "url": "https://github.com/americanexpress/targeted-offers-client",
+      "title": "targeted-offers-client: SDK for AMEX targeted offers API | GitHub (americanexpress)",
+      "publisher": "American Express",
+      "published": "2023-03-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "README names '@americanexpress/targeted-offers-client'; registry.npmjs.org returned {\"error\":\"Not found\"} for scoped and unscoped names (contradiction recorded). SDK needs OAuth, mutual auth and payload-encryption configuration. GitHub responsiveness signal: .NET issue #2 (2018) on calling the sandbox OAuth endpoint received one maintainer reply: 'The OAuth inputs are coordinated during the registration process for APIs that use the OAuth security model.'; Java issue #3 asking for a transaction-data API drew community follow-ups through 2023 with no Amex reply. express-checkout-tutorials is archived (2018)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Product API references are OpenAPI 3.x JSON files hosted on Amex's static content host with a per-product change-log.json that the portal renders as a version-history page; the ACE change log records a single 'Launched' entry dated April 6, 2026.",
+      "quote": "\"versionDate\": \"April 6, 2026\", \"versionNumber\": \"1.0.0\"",
+      "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+      "title": "NextGen Agentic Payments Change Log (change-log.json)",
+      "publisher": "American Express",
+      "published": "2026-04-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "File: https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/sl/change-log.json. The bundle posts specs to an OPEN_API_VALIDATOR and reads x-changesummary / x-modified. What's New (Jan 2024): 'The API Reference page now has a new version history page to track changes from previous version of the specifications.' Four specs were readable logged out (ACE 3.1.0, Global Pay with Points 3.1.0, Issuer Charge Verification 3.0.1, DotAmex 3.0.0); no Postman collection or spec download button was found."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The portal's own changelog ('What's New') stopped in May 2024 while individual documentation pages carry 2026 'Last Updated' stamps, and some product content contains unfinished placeholders.",
+      "quote": "Released a new Documentation page to provide users a comprehensive guide to the portal features and functions.",
+      "url": "https://developer.americanexpress.com/documentation/whats-new",
+      "title": "What's New | American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Entries: May 2024, Feb 2024 (Open Banking page), Jan 2024 (version history), Nov 2023 (security code at signup), Aug 2023 (Card on-demand). Docs stamped 'Last Updated: June 1, 2026' (How It Works, Access Guide, 2-legged OAuth) and 'July 15, 2026' (Certificates). Quality signal: the public ACE guide JSON header reads \"lastUpdated\": \"Monthtober 84, 3162\" and contains '{Product Name}' placeholders; DotAmex is listed publicly although described as 'an internal American Express platform'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "There is no published deprecation or notice period for portal APIs: the Terms commit only to commercially reasonable efforts to warn of breaking Updates and reserve the right to change or discontinue any aspect without notice.",
+      "quote": "AMEX will use commercially reasonable efforts to notify Developer in advance of any Update that will require Developer to modify its Developer Application",
+      "url": "https://developer.americanexpress.com/terms",
+      "title": "American Express Developers – Portal Terms of Use",
+      "publisher": "American Express",
+      "published": "2026-03-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "12-page PDF served by https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/terms/site. Section 7: 'AMEX may, with or without notice, at any time change, suspend, or discontinue any aspect of the Developer Portal, AMEX Materials, or AMEX Platforms.' Effective/Last Updated March 16, 2026; previous iteration October 23, 2023."
+    },
+    {
+      "dimension": "developer",
+      "claim": "By contrast, the American Express Payment Gateway (merchant/acquirer gateway docs, public without login) has an explicit versioning policy: URI-path versions 1 to 100, backward-compatible changes within v100, new versions only for breaking changes, a public changelog, and dated deactivation of old versions.",
+      "quote": "We will introduce a new API version only when it is not possible to maintain backward compatibility.",
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/100/versioning.html?locale=en_US",
+      "title": "Gateway API Reference Documentation - Versioning | American Express Payment Gateway",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'The Gateway API is versioned through URI paths.' Versions 2,5,6,22,25 deactivated 31 January 2025. Changelog page lists 'January 2026 Version 100' changes; landing page: 'From API version 100, integrations must be able to handle non-breaking changes.' JavaScript SDKs listed: Checkout, Click to Pay, PayPal, Risk, Rupay, Session, ThreeDS. Separate surface from developer.americanexpress.com."
+    },
+    {
+      "dimension": "developer",
+      "claim": "No numeric rate limits or quotas are published anywhere logged out; the only throttling language is the Terms' right to restrict, throttle, suspend or terminate access at Amex's discretion.",
+      "quote": "decline to issue Access Credentials, revoke Access Credentials, or restrict, throttle, suspend, or terminate Developer’s access to the Developer Portal",
+      "url": "https://developer.americanexpress.com/terms",
+      "title": "American Express Developers – Portal Terms of Use",
+      "publisher": "American Express",
+      "published": "2026-03-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Searched documentation markdown, four OpenAPI specs, FAQ and the app bundle for 'rate limit', 'throttl', 'quota'; only a generic HTTP 429 constant exists in the bundle."
+    },
+    {
+      "dimension": "developer",
+      "claim": "There is no API price list: the Terms reserve the right to charge for the portal or any materials at any time, while individual products state their own terms (Enhanced Authorization is described as free; the AMEX Enabled certification programme charges no registration fee).",
+      "quote": "AMEX reserves the right and may at its sole discretion, at any time, charge for Developer Portal, some or all of the AMEX Materials",
+      "url": "https://developer.americanexpress.com/terms",
+      "title": "American Express Developers – Portal Terms of Use",
+      "publisher": "American Express",
+      "published": "2026-03-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Enhanced Authorization overview: 'Enhanced Authorization TM is a free solution from American Express'. AMEX Enabled FAQ (June 2022 PDF): 'There are no fees charged to register for the AMEX Enabled Program.' The Terms also state the agreement 'does not authorize Developer to accept American Express cards'; acceptance needs a separate merchant agreement."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Outbound notifications are product-specific and branded 'Push Notifications': Card on-demand lets partners register webhook URLs (authenticated by OAuth2.0 or HMAC) for Account, Card User, Card, Authorization and Transaction events.",
+      "quote": "A webhook is an HTTP-based callback function that allows event-driven communication via URLs between two application programming interfaces(APIs).",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (portal application bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle PUSH_NOTIFICATIONS copy; webhook auth options [{label:\"OAuth2.0\"},{label:\"HMAC\"}]; field help: 'The secret key that Amex will use to send webhooks to the URLs provided.'; 'Receive a webhook notification when a transaction occurs.' No portal-wide webhook framework or event catalogue exists."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The ACE spec defines a partner-side notifications endpoint (tag 'Webhook') through which Amex pushes enrollment, intent and payment-credential lifecycle events with JWE-encrypted payloads.",
+      "quote": "The request payload is JWE-encrypted on the wire.",
+      "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+      "title": "American Express Agentic Commerce Experience - Enrollment, Intent, Payment Credential, and Notification API (OpenAPI specification)",
+      "publisher": "American Express",
+      "published": "2026-04-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Operation summary 'Webhooks - send notifications to partners', path /payments/digital/v1/agentic-commerce/notifications, operationId notifications. Spec lifecycle: Account → Enrollment → Intent → Token."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Registration is self-service but heavyweight: sign-up runs through Amex's OneID login with a mandatory 6-9 digit security code, emailed one-time verification code and optional passkeys, and the Access Guide defines Owner, Admin and Developer roles with production keys reserved to Owners and Admins.",
+      "quote": "You will be requested for a six-to-nine-digit Security Code to help retrieve your credentials in case you forget them.",
+      "url": "https://developer.americanexpress.com/documentation/getting-started",
+      "title": "Getting Started | American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "How To Register: 'Immediately login using the credentials you just created in this same session.' Access Guide (Last Updated June 1, 2026): 'Developers have the Project permission level, enabling them to manage Sandbox access and view documentation within the project.'; permissions table gives Production Keys and Access to Owner and Admin only. FAQ covers passkeys. Bundle login target: www.americanexpress.com/en-us/account/aed/login."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Developer support runs through an in-portal helpdesk with seven ticket categories, an unauthenticated ticket path and the mailbox support@devmail.americanexpress.com; the Terms promise only commercially reasonable efforts to respond and no SLA.",
+      "quote": "[\"General Questions\",\"Registration & Login\",\"API Product Information\",\"API Access Request\",\"API Certificate\",\"API Integration\",\"Bugs & Technical Issues\"]",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/helpdesk/categories",
+      "title": "American Express Developers helpdesk categories (a4d/v1/helpdesk/categories)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle endpoints CREATE_SUPPORT_TICKET_WITHOUT_LOGIN_ENDPOINT (helpdesk/nonLoginCreateIncident) and protected ticket list. How To Register: 'please contact us.' mailto:support@devmail.americanexpress.com. Terms 7: 'AMEX will use commercially reasonable efforts to respond to reasonable Developer inquiries'. Several overviews route access requests to mailto links or 'your Account Manager or Payment Consultant' (PAR) or 'your Client Manager' (@ Work APIs)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Terminal, EMV, mobile, tokenization and 3DS certification for service providers is not on the developer portal but in the gated AMEX Enabled programme on the GNS site, which claims over 1,200 certified service providers, 17 product portfolios and 45+ products including Test Labs and Test Tools categories.",
+      "quote": "join over 1200 Service Providers who have developed, certified and deployed their products and services for use on the American Express Network",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express (Global Network)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Marketing count on Amex's own page, no outside check (hence Vendor). Three steps: register company (NDA and T&Cs by click-through), enrol as Knowledge Base user, log into the AMEX Enabled Dashboard (www.amexenabled.com). Overview PDF (June 2022) says '800+ SERVICE PROVIDERS' versus '1200+' on the 2026 page (contradiction with dates). Dashboard features per PDF: DocuSign Contract Center, Messaging Center with Product Specialists, up to five additional users. Contacts: AmexEnabled@aexp.com, paymentproductscertification@aexp.com."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Numeric API rate limits or quotas (requests per second/day) for developer-portal products",
+      "where": "developer.americanexpress.com documentation markdown, four public OpenAPI specs, FAQ endpoint, Terms of Use PDF, app bundle",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Postman collection or downloadable OpenAPI/Swagger bundle link on the portal",
+      "where": "portal bundle strings, documentation navigation, product overview/guide JSON, github.com/americanexpress",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Command-line tool (CLI) for Amex APIs",
+      "where": "github.com/americanexpress repository search, npm scope search, developer documentation",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Official Python, Go, PHP or Ruby SDK for Amex for Developers APIs",
+      "where": "PyPI (amex-api-python-client-core, amex-api-client, amex, americanexpress all 404), GitHub org search, npm scope @americanexpress (0 packages)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "npm package @americanexpress/targeted-offers-client named in the SDK README",
+      "where": "registry.npmjs.org scoped and unscoped lookups (Not found)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Maven Central artifacts for io.aexp / amex-api-java-client-core",
+      "where": "search.maven.org g:io.aexp* and q=amex (0 results)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Publicly listed test PANs / test card numbers",
+      "where": "documentation, OpenAPI specs (Global Pay with Points references a Test Data section with a sandbox key only), Card on-demand copy (test cards emailed after setup)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published API pricing or fee schedule for developer-portal products",
+      "where": "Terms of Use, documentation, product overviews",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Stated deprecation notice period or sunset policy for developer-portal APIs",
+      "where": "Terms of Use (only 'commercially reasonable efforts'), documentation, What's New",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Sandbox or API status page / uptime dashboard",
+      "where": "portal documentation, bundle, apitracker.io profile (status page field blank)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mention of 'Amex for Developers' or 'developer portal' in American Express Company 10-K filings (CIK 0000004962)",
+      "where": "SEC EDGAR full-text search efts.sec.gov (0 hits; control query 'Global Network Services' returned 37)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Legacy OpenAPI spec files for Enhanced Authorization v2, Amex Token Service, Network Loyalty, Account Financials (FDX) (catalogue says hasSpecification true)",
+      "where": "icm.aexp-static.com content host at guessed file names (404); SPA route not renderable without JavaScript",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Rendered content of Payment Gateway 'Setting up API Credentials' and 'Downloads' pages",
+      "where": "gateway-na.americanexpress.com (pages load client-side; curl returned navigation only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Rendered developer-portal documentation via WebFetch or a JS-rendering proxy",
+      "where": "WebFetch returned SPA shell only; r.jina.ai blocked by Cloudflare challenge; in-app browser navigation denied",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "How It Works page: 'For some of our public products, the Sandbox APIs are automatically accessible without reaching out to us.'",
+      "b": "Product catalogue endpoint returns instantSandboxAccess:false for all 18 published products; dashboard says keys are granted after team review.",
+      "urls": [
+        "https://developer.americanexpress.com/documentation/how-it-works",
+        "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/"
+      ]
+    },
+    {
+      "a": "ACE overview access form: 'Please submit this form to request access to the API Guide and Specifications.'",
+      "b": "The ACE OpenAPI 3.1.0 specification (286 KB) and guide JSON are downloadable logged out from the public content host.",
+      "urls": [
+        "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+        "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json"
+      ]
+    },
+    {
+      "a": "targeted-offers-client README installs '@americanexpress/targeted-offers-client' from npm.",
+      "b": "registry.npmjs.org returns {\"error\":\"Not found\"} for that package and the @americanexpress scope has 0 packages.",
+      "urls": [
+        "https://github.com/americanexpress/targeted-offers-client",
+        "https://registry.npmjs.org/@americanexpress%2Ftargeted-offers-client"
+      ]
+    },
+    {
+      "a": "amex-api-java-client-core README (2016, unchanged): 'Artifacts are coming soon to JCenter. Stay tuned!'",
+      "b": "No artifacts on Maven Central (0 results for io.aexp) and issue #5 'Offer artifacts in Maven Central' open since 2018-12-06.",
+      "urls": [
+        "https://github.com/americanexpress/amex-api-java-client-core",
+        "https://search.maven.org/solrsearch/select?q=g:io.aexp*&rows=20&wt=json"
+      ]
+    },
+    {
+      "a": "GNS Developers page: 'Our products are backed by a team of passionate American Express developers who are adding new code regularly.'",
+      "b": "Official API client repos last received code commits in 2018 (.NET), 2020 (Java) and 2022 (Node); NuGet package last published 2018-06-13.",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+        "https://github.com/americanexpress/amex-api-dotnet-client-core"
+      ]
+    },
+    {
+      "a": "GNS Service Providers page (2026): 'join over 1200 Service Providers'",
+      "b": "AMEX Enabled Overview PDF (June 2022): '800+ SERVICE PROVIDERS' (dated difference, both Amex-published).",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+        "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.2022-11-03-01-25-20.pdf"
+      ]
+    },
+    {
+      "a": "GNS Developers page lists four product categories (Fraud prevention, Open banking, Payment services, Personalized services).",
+      "b": "Catalogue endpoint returns five categories including 'Utilities' (Amex Account Connect, Network Loyalty, OAuth Security).",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+        "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "American Express Developers portal login (OneID) and Project Dashboard / My Projects",
+      "url": "https://developer.americanexpress.com/login",
+      "named_at": "https://developer.americanexpress.com/documentation/getting-started"
+    },
+    {
+      "name": "American Express Developers sign-up",
+      "url": "https://developer.americanexpress.com/signup",
+      "named_at": "https://developer.americanexpress.com/documentation/how-to-register"
+    },
+    {
+      "name": "Manage Access page (role-based access control)",
+      "url": "",
+      "named_at": "https://developer.americanexpress.com/documentation/access-guide"
+    },
+    {
+      "name": "Projects → Certificates (CSR upload, Amex-signed certificate download)",
+      "url": "",
+      "named_at": "https://developer.americanexpress.com/documentation/api-security/amex-signed-certificates"
+    },
+    {
+      "name": "Locked product API Reference and Guide pages (request access)",
+      "url": "https://developer.americanexpress.com/products",
+      "named_at": "https://developer.americanexpress.com/documentation/how-it-works"
+    },
+    {
+      "name": "Agentic Commerce Experiences access-request form",
+      "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/overview",
+      "named_at": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/"
+    },
+    {
+      "name": "Developer Portal Support page / helpdesk tickets",
+      "url": "https://developer.americanexpress.com/support",
+      "named_at": "https://developer.americanexpress.com/documentation/api-security/amex-signed-certificates"
+    },
+    {
+      "name": "Open Banking page (regulated TPP enrolment)",
+      "url": "https://developer.americanexpress.com/open-banking",
+      "named_at": "https://developer.americanexpress.com/documentation/whats-new"
+    },
+    {
+      "name": "Card on-demand test bed (GCS AED testbed)",
+      "url": "https://developerlab.americanexpress.com/en-us/products/nextgen-card-on-demand/{clientId}/buyers",
+      "named_at": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js"
+    },
+    {
+      "name": "@ Work APIs technical documentation (via Client Manager)",
+      "url": "",
+      "named_at": "https://developer.americanexpress.com/products/at-work-apis-public/overview"
+    },
+    {
+      "name": "AMEX Enabled Dashboard (Contract Center, Messaging Center)",
+      "url": "https://www.amexenabled.com",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+    },
+    {
+      "name": "GNS Knowledge Base (enterprise login)",
+      "url": "https://www.americanexpress.com/en-us/account/enterprise/login?target=https://network.americanexpress.com/globalnetwork/v4/secure/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+    },
+    {
+      "name": "Amex Payment Gateway API credentials setup / merchant administration",
+      "url": "https://gateway-na.americanexpress.com/api/documentation/integrationGuidelines/apiReference/apiRefSettingupAPICredentials.html?locale=en_US",
+      "named_at": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/latest/api.html?locale=en_US"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (SPA shell; WebFetch and curl)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products",
+      "title": "American Express Developers - Products (SPA shell only via WebFetch)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers portal application bundle",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/navigation.json",
+      "title": "Developer portal documentation navigation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/getting-started.md",
+      "title": "Getting Started",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/how-it-works.md",
+      "title": "High-Level Process",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/how-to-register.md",
+      "title": "How to Register",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/access-guide.md",
+      "title": "Access Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/whats-new.md",
+      "title": "What's New",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/oauth-2.md",
+      "title": "OAuth 2.0",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/oauth-client-credentials-flow.md",
+      "title": "OAuth 2.0 Client Credentials Flow (2Legged)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/oauth-authorization-code-flow.md",
+      "title": "OAuth 2.0 Authorization Credentials Flow (3Legged)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/hmac.md",
+      "title": "Hash-Based Message Authentication Code (HMAC)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/certificates.md",
+      "title": "Certificates",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/documentation/content/api-security/amex-signed-certificates.md",
+      "title": "Amex Signed Certificates - Certificate Enrollment and Lifecycle Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/",
+      "title": "Product catalogue endpoint (18 products)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs",
+      "title": "FAQ endpoint",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/terms/site",
+      "title": "Portal Terms of Use (PDF, March 16, 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/helpdesk/categories",
+      "title": "Helpdesk categories",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/helpdesk/products",
+      "title": "Helpdesk products (405 Method Not Allowed)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/terms/1",
+      "title": "Product terms (401 authentication token required)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-overview.json",
+      "title": "Agentic Commerce Experiences Developer Kit overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-guide.json",
+      "title": "Agentic Payments Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json",
+      "title": "ACE OpenAPI 3.1.0 specification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/sl/change-log.json",
+      "title": "NextGen Agentic Payments Change Log",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-global-pay-with-points-v2/nextgen-global-pay-with-points-v2-openapi-specification.json",
+      "title": "Global Pay with Points OpenAPI 3.1.0 specification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-issuer-charge-verification/nextgen-issuer-charge-verification-openapi-specification.json",
+      "title": "Issuer Charge Verification API OpenAPI 3.0.1 specification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-dotamex/nextgen-dotamex-openapi-specification.json",
+      "title": "DotAmex OpenAPI 3.0.0 specification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-dotamex/nextgen-dotamex-guide.json",
+      "title": "DotAmex API Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-card-on-demand/nextgen-card-on-demand-overview.json",
+      "title": "Card on-demand overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-card-on-demand/nextgen-card-on-demand-guide.json",
+      "title": "Card on-demand Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/enhanced-authorization-v2/enhanced-authorization-v2.overview.v2.json",
+      "title": "Enhanced Authorization v2 overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/amex-token-service/amex-token-service.overview.v2.json",
+      "title": "Amex Token Service overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/account-and-transaction-api-public/account-and-transaction-api-public.overview.v2.json",
+      "title": "Account and Transaction API overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/at-work-apis-public/at-work-apis-public.overview.v2.json",
+      "title": "@ Work APIs overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/payment-account-reference-public/payment-account-reference-public.overview.v2.json",
+      "title": "Payment Account Reference overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/pay-with-bank-transfer-public/pay-with-bank-transfer-public.overview.v2.json",
+      "title": "Pay with Bank transfer overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/smart-offer-partnerships-public/smart-offer-partnerships-public.overview.v2.json",
+      "title": "Smart Offers Partnerships overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/confirmation-of-funds/confirmation-of-funds.overview.v2.json",
+      "title": "Confirmation of Funds overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/network-loyalty/network-loyalty.overview.v2.json",
+      "title": "Network Loyalty overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/oauth-security/oauth-security.overview.v2.json",
+      "title": "OAuth Security overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-consumer-data-right/nextgen-consumer-data-right-overview.json",
+      "title": "Consumer Data Right overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-issuer-charge-verification/nextgen-issuer-charge-verification-overview.json",
+      "title": "Issuer Charge Verification overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-amex-account-connect/nextgen-amex-account-connect-overview.json",
+      "title": "Amex Account Connect overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-global-pay-with-points-v2/nextgen-global-pay-with-points-v2-overview.json",
+      "title": "Global Pay with Points v2 overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-dotamex/nextgen-dotamex-overview.json",
+      "title": "DotAmex overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://r.jina.ai/https://developer.americanexpress.com/documentation/getting-started",
+      "title": "JS-rendering proxy attempt (Cloudflare challenge)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/overview-payments/",
+      "title": "Partners | Payment Solutions overview | American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.2022-11-03-01-26-00.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions (June 2022, PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.2022-11-03-01-25-20.pdf",
+      "title": "AMEX Enabled Service Provider Program overview (June 2022, PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress",
+      "title": "American Express GitHub organisation (88 repositories)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/orgs/americanexpress/repositories?q=amex-api&type=all",
+      "title": "GitHub org repository search: amex-api",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/amex-api-java-client-core",
+      "title": "amex-api-java-client-core",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/americanexpress/amex-api-java-client-core/master/README.md",
+      "title": "amex-api-java-client-core README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/americanexpress/amex-api-java-client-core/master/samples/README.md",
+      "title": "amex-api-java-client-core samples README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/amex-api-dotnet-client-core",
+      "title": "amex-api-dotnet-client-core",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/amex-api-dotnet-client-core/issues/2",
+      "title": "Issue #2: how to call apiplatform/v2/oauth/token/mac using sandbox account",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/targeted-offers-client",
+      "title": "targeted-offers-client (Node SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/americanexpress/targeted-offers-client-jvm/master/README.md",
+      "title": "targeted-offers-client-jvm README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/americanexpress/amex-api-java-client-core/issues?state=all&per_page=40",
+      "title": "GitHub API: Java client issues and PRs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/americanexpress/amex-api-java-client-core/issues/comments?per_page=50",
+      "title": "GitHub API: Java client issue comments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/search/repositories?q=org:americanexpress+amex+OR+api+OR+oauth+OR+offers+OR+payment+OR+sdk+in:name,description&per_page=50",
+      "title": "GitHub API: org repository search",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/@americanexpress%2Ftargeted-offers-client",
+      "title": "npm registry lookup (Not found)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=scope:americanexpress&size=60",
+      "title": "npm scope search (0 packages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pypi.org/pypi/amex-api-python-client-core/json",
+      "title": "PyPI lookup (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://api.nuget.org/v3/registration5-semver1/amex.api.client.core/index.json",
+      "title": "NuGet registration: Amex.Api.Client.Core",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://search.maven.org/solrsearch/select?q=g:io.aexp*&rows=20&wt=json",
+      "title": "Maven Central search io.aexp (0 results)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://apitracker.io/a/americanexpress",
+      "title": "American Express API - API Tracker profile (third party)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://americanexpress.io/",
+      "title": "American Express Technology (engineering blog)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/latest/api.html?locale=en_US",
+      "title": "Gateway API Reference Documentation (Payment Gateway)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/100/versioning.html?locale=en_US",
+      "title": "Gateway API Versioning",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/100/changelog.html?locale=en_US",
+      "title": "Gateway API Changelog",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/integrationGuidelines/apiReference/apiRefSettingupAPICredentials.html?locale=en_US",
+      "title": "Setting up API Credentials (client-rendered; navigation only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/downloads/index.html?locale=en_US",
+      "title": "Payment Gateway Downloads (empty via curl)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Amex%20for%20Developers%22&ciks=0000004962&forms=10-K",
+      "title": "SEC EDGAR full-text search: 'Amex for Developers' in AXP 10-Ks (0 hits)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22developer%20portal%22&ciks=0000004962&forms=10-K",
+      "title": "SEC EDGAR full-text search: 'developer portal' in AXP 10-Ks (0 hits)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

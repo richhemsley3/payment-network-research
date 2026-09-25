@@ -1,0 +1,766 @@
+{
+ "network": "jcb",
+ "seed": "https://www.global.jcb/en/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.global.jcb/en/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": "declined: Reject All Cookies",
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "JCB Global Website",
+   "h1": "",
+   "description": "This is the website for JCB, Japan's only international payment brand.We have a variety of useful services available and information for JCB cardmembers and JCB brand partners.",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Select Language",
+    "Consumers",
+    "Businesses",
+    "Merchants",
+    "Products",
+    "Press",
+    "About Us"
+   ],
+   "ctas": [
+    {
+     "text": "Learn More",
+     "href": "https://www.global.jcb/en/about-us/what-we-do/"
+    },
+    {
+     "text": "More",
+     "href": "https://www.global.jcb/en/topics/"
+    },
+    {
+     "text": "Accept All Cookies",
+     "href": null
+    },
+    {
+     "text": "Reject All Cookies",
+     "href": null
+    },
+    {
+     "text": "Cookies Settings",
+     "href": null
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "partner"
+   ],
+   "headings": [
+    "h1: ",
+    "h2: What We Do For You",
+    "h2: Recommended JCB Member Benefits",
+    "h2: Quick Links",
+    "h3: CONSUMERS",
+    "h3: BUSINESSES",
+    "h3: MERCHANTS",
+    "h3: PRODUCTS",
+    "h3: PRESS",
+    "h3: ABOUT US",
+    "h2: Recent Topics"
+   ],
+   "screenshot": "assets/jcb/jcb-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Consumers",
+     "url": "https://www.global.jcb/en/consumers/",
+     "status": 200,
+     "result": "readable",
+     "words": 326,
+     "title": "Consumers | JCB Global Website"
+    },
+    {
+     "nav": "Businesses",
+     "url": "https://www.global.jcb/en/businesses/",
+     "status": 200,
+     "result": "readable",
+     "words": 187,
+     "title": "Business | JCB Global Website"
+    },
+    {
+     "nav": "Merchants",
+     "url": "https://www.global.jcb/en/merchants/",
+     "status": 200,
+     "result": "readable",
+     "words": 360,
+     "title": "Merchants | JCB Global Website"
+    },
+    {
+     "nav": "Products",
+     "url": "https://www.global.jcb/en/products/",
+     "status": 200,
+     "result": "readable",
+     "words": 180,
+     "title": "Products | JCB Global Website"
+    },
+    {
+     "nav": "Press",
+     "url": "https://www.global.jcb/en/press/",
+     "status": 200,
+     "result": "readable",
+     "words": 422,
+     "title": "Press | JCB Global Website"
+    },
+    {
+     "nav": "About Us",
+     "url": "https://www.global.jcb/en/about-us/",
+     "status": 200,
+     "result": "readable",
+     "words": 131,
+     "title": "About Us | JCB Global Website"
+    },
+    {
+     "nav": "日本語",
+     "url": "https://www.global.jcb/ja/",
+     "status": 200,
+     "result": "readable",
+     "words": 137,
+     "title": "JCB グローバルサイト"
+    },
+    {
+     "nav": "Promotions",
+     "url": "https://www.global.jcb/en/consumers/promotions/",
+     "status": 200,
+     "result": "readable",
+     "words": 114,
+     "title": "Promotions | JCB Global Website"
+    },
+    {
+     "nav": "Travel",
+     "url": "https://www.global.jcb/en/consumers/travel/",
+     "status": 200,
+     "result": "readable",
+     "words": 338,
+     "title": "Travel | JCB Global Website"
+    },
+    {
+     "nav": "Platinum Members",
+     "url": "https://www.global.jcb/en/consumers/platinum/",
+     "status": 200,
+     "result": "readable",
+     "words": 320,
+     "title": "Platinum Members | JCB Global Website"
+    },
+    {
+     "nav": "Card Issuing",
+     "url": "https://www.global.jcb/en/businesses/card-issuing/",
+     "status": 200,
+     "result": "readable",
+     "words": 409,
+     "title": "Card Issuing | JCB Global Website"
+    },
+    {
+     "nav": "Merchant Acquiring",
+     "url": "https://www.global.jcb/en/businesses/merchant-acquiring/",
+     "status": 200,
+     "result": "readable",
+     "words": 400,
+     "title": "Merchant Acquiring | JCB Global Website"
+    },
+    {
+     "nav": "Merchant Requirements",
+     "url": "https://www.global.jcb/en/merchants/requirements/",
+     "status": 200,
+     "result": "readable",
+     "words": 195,
+     "title": "Merchant Requirements | JCB Global Website"
+    },
+    {
+     "nav": "Cards",
+     "url": "https://www.global.jcb/en/products/cards/",
+     "status": 200,
+     "result": "readable",
+     "words": 1104,
+     "title": "Cards | JCB Global Website"
+    },
+    {
+     "nav": "Payment solution",
+     "url": "https://www.global.jcb/en/products/payment-solution/",
+     "status": 200,
+     "result": "readable",
+     "words": 179,
+     "title": "Payment solution | JCB Global Website"
+    },
+    {
+     "nav": "Security",
+     "url": "https://www.global.jcb/en/products/security/",
+     "status": 200,
+     "result": "readable",
+     "words": 369,
+     "title": "Security | JCB Global Website"
+    }
+   ],
+   "walls": 0,
+   "readable": 16
+  },
+  "S3": {
+   "from": "Cards",
+   "url": "https://www.global.jcb/en/products/cards/",
+   "title": "Cards | JCB Global Website",
+   "headings": [
+    "h1: ",
+    "h1: Cards",
+    "h2: Credit Card",
+    "h3: JCB cards in Japan",
+    "h2: Debit Card",
+    "h2: Prepaid Card",
+    "h2: Other Card (Japan only)"
+   ],
+   "links": 26,
+   "sample": [
+    {
+     "text": "Select Language",
+     "href": "https://www.global.jcb/en/products/cards/"
+    },
+    {
+     "text": "Consumers",
+     "href": "https://www.global.jcb/en/consumers/"
+    },
+    {
+     "text": "Businesses",
+     "href": "https://www.global.jcb/en/businesses/"
+    },
+    {
+     "text": "Merchants",
+     "href": "https://www.global.jcb/en/merchants/"
+    },
+    {
+     "text": "Products",
+     "href": "https://www.global.jcb/en/products/"
+    },
+    {
+     "text": "Press",
+     "href": "https://www.global.jcb/en/press/"
+    },
+    {
+     "text": "About Us",
+     "href": "https://www.global.jcb/en/about-us/"
+    },
+    {
+     "text": "Payment Solution",
+     "href": "https://www.global.jcb/en/products/payment-solution/"
+    },
+    {
+     "text": "Security",
+     "href": "https://www.global.jcb/en/products/security/"
+    },
+    {
+     "text": "Credit Card",
+     "href": "https://www.global.jcb/en/products/cards/#credit"
+    },
+    {
+     "text": "Debit Card",
+     "href": "https://www.global.jcb/en/products/cards/#debit"
+    },
+    {
+     "text": "Prepaid Card",
+     "href": "https://www.global.jcb/en/products/cards/#prepaid"
+    },
+    {
+     "text": "Other Card",
+     "href": "https://www.global.jcb/en/products/cards/#other"
+    },
+    {
+     "text": "BDO Unibank, Inc.",
+     "href": "https://www.global.jcb/en/products/cards/issuer/ph/#A003"
+    },
+    {
+     "text": "East West Banking Corporation",
+     "href": "https://www.global.jcb/en/products/cards/issuer/ph/#A001"
+    },
+    {
+     "text": "Rizal Commercial Banking Corporation",
+     "href": "https://www.global.jcb/en/products/cards/issuer/ph/#A002"
+    },
+    {
+     "text": "Issuer list",
+     "href": "https://www.global.jcb/en/products/cards/issuer/"
+    },
+    {
+     "text": "Home",
+     "href": "https://www.global.jcb/en/"
+    },
+    {
+     "text": "to pagetop",
+     "href": "https://www.global.jcb/en/products/cards/#"
+    },
+    {
+     "text": "Sitemap",
+     "href": "https://www.global.jcb/en/sitemap/"
+    },
+    {
+     "text": "Contact",
+     "href": "https://www.global.jcb/en/contact/"
+    },
+    {
+     "text": "Terms of Use",
+     "href": "https://www.global.jcb/en/term-of-use/"
+    },
+    {
+     "text": "Company",
+     "href": "https://www.global.jcb/en/about-us/company/"
+    },
+    {
+     "text": "Privacy Policy",
+     "href": "https://www.global.jcb/en/about-us/policy/privacy/"
+    },
+    {
+     "text": "AML/CFT Policy",
+     "href": "https://www.global.jcb/en/about-us/policy/aml/index.html"
+    },
+    {
+     "text": "Social Media Policy",
+     "href": "https://www.global.jcb/en/about-us/policy/social-media/"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/jcb/jcb-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Contact",
+   "url": "https://www.global.jcb/en/contact/",
+   "title": "Contact | JCB Global Website",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/jcb/jcb-s7-03-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": false,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: Select Language",
+    "a: English",
+    "a: 日本語",
+    "a",
+    "a: Consumers",
+    "a: Businesses",
+    "a: Merchants",
+    "a: Products",
+    "a: Press",
+    "a: About Us"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 0,
+   "screenshot": "assets/jcb/jcb-s11-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 2,
+     "via": "Merchants",
+     "text": "Download JCB Emblem",
+     "href": "https://www.global.jcb/en/about-us/brand-concept/agreement/"
+    }
+   ],
+   "first": {
+    "clicks": 2,
+    "via": "Merchants",
+    "text": "Download JCB Emblem",
+    "href": "https://www.global.jcb/en/about-us/brand-concept/agreement/"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 2205,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.global.jcb/en/consumers/",
+   "final": "https://www.global.jcb/en/consumers/",
+   "status": 200,
+   "ms": 1573,
+   "why": "S2 Consumers"
+  },
+  {
+   "url": "https://www.global.jcb/en/businesses/",
+   "final": "https://www.global.jcb/en/businesses/",
+   "status": 200,
+   "ms": 1578,
+   "why": "S2 Businesses"
+  },
+  {
+   "url": "https://www.global.jcb/en/merchants/",
+   "final": "https://www.global.jcb/en/merchants/",
+   "status": 200,
+   "ms": 1577,
+   "why": "S2 Merchants"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/",
+   "final": "https://www.global.jcb/en/products/",
+   "status": 200,
+   "ms": 1548,
+   "why": "S2 Products"
+  },
+  {
+   "url": "https://www.global.jcb/en/press/",
+   "final": "https://www.global.jcb/en/press/",
+   "status": 200,
+   "ms": 1614,
+   "why": "S2 Press"
+  },
+  {
+   "url": "https://www.global.jcb/en/about-us/",
+   "final": "https://www.global.jcb/en/about-us/",
+   "status": 200,
+   "ms": 1573,
+   "why": "S2 About Us"
+  },
+  {
+   "url": "https://www.global.jcb/ja/",
+   "final": "https://www.global.jcb/ja/",
+   "status": 200,
+   "ms": 1924,
+   "why": "S2 日本語"
+  },
+  {
+   "url": "https://www.global.jcb/en/consumers/promotions/",
+   "final": "https://www.global.jcb/en/consumers/promotions/",
+   "status": 200,
+   "ms": 1555,
+   "why": "S2 Promotions"
+  },
+  {
+   "url": "https://www.global.jcb/en/consumers/travel/",
+   "final": "https://www.global.jcb/en/consumers/travel/",
+   "status": 200,
+   "ms": 1558,
+   "why": "S2 Travel"
+  },
+  {
+   "url": "https://www.global.jcb/en/consumers/platinum/",
+   "final": "https://www.global.jcb/en/consumers/platinum/",
+   "status": 200,
+   "ms": 1556,
+   "why": "S2 Platinum Members"
+  },
+  {
+   "url": "https://www.global.jcb/en/businesses/card-issuing/",
+   "final": "https://www.global.jcb/en/businesses/card-issuing/",
+   "status": 200,
+   "ms": 1552,
+   "why": "S2 Card Issuing"
+  },
+  {
+   "url": "https://www.global.jcb/en/businesses/merchant-acquiring/",
+   "final": "https://www.global.jcb/en/businesses/merchant-acquiring/",
+   "status": 200,
+   "ms": 1558,
+   "why": "S2 Merchant Acquiring"
+  },
+  {
+   "url": "https://www.global.jcb/en/merchants/requirements/",
+   "final": "https://www.global.jcb/en/merchants/requirements/",
+   "status": 200,
+   "ms": 1563,
+   "why": "S2 Merchant Requirements"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/cards/",
+   "final": "https://www.global.jcb/en/products/cards/",
+   "status": 200,
+   "ms": 1577,
+   "why": "S2 Cards"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/payment-solution/",
+   "final": "https://www.global.jcb/en/products/payment-solution/",
+   "status": 200,
+   "ms": 1578,
+   "why": "S2 Payment solution"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/security/",
+   "final": "https://www.global.jcb/en/products/security/",
+   "status": 200,
+   "ms": 1554,
+   "why": "S2 Security"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/",
+   "final": "https://www.global.jcb/en/products/",
+   "status": 200,
+   "ms": 1541,
+   "why": "S3 Products"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/cards/",
+   "final": "https://www.global.jcb/en/products/cards/",
+   "status": 200,
+   "ms": 1552,
+   "why": "S3 Cards"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/payment-solution/",
+   "final": "https://www.global.jcb/en/products/payment-solution/",
+   "status": 200,
+   "ms": 1541,
+   "why": "S3 Payment solution"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/security/",
+   "final": "https://www.global.jcb/en/products/security/",
+   "status": 200,
+   "ms": 1569,
+   "why": "S3 Security"
+  },
+  {
+   "url": "https://www.global.jcb/en/products/cards/",
+   "final": "https://www.global.jcb/en/products/cards/",
+   "status": 200,
+   "ms": 1549,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1538,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1544,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1544,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/contact/",
+   "final": "https://www.global.jcb/en/contact/",
+   "status": 200,
+   "ms": 1573,
+   "why": "S7 Contact"
+  },
+  {
+   "url": "https://www.global.jcb/en/contact/",
+   "final": "https://www.global.jcb/en/contact/",
+   "status": 200,
+   "ms": 1540,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1537,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1536,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1545,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1533,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1540,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1535,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1533,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.global.jcb/en/",
+   "final": "https://www.global.jcb/en/",
+   "status": 200,
+   "ms": 1537,
+   "why": "S12 Select Language"
+  },
+  {
+   "url": "https://www.global.jcb/en/consumers/",
+   "final": "https://www.global.jcb/en/consumers/",
+   "status": 200,
+   "ms": 1537,
+   "why": "S12 Consumers"
+  },
+  {
+   "url": "https://www.global.jcb/en/businesses/",
+   "final": "https://www.global.jcb/en/businesses/",
+   "status": 200,
+   "ms": 1536,
+   "why": "S12 Businesses"
+  },
+  {
+   "url": "https://www.global.jcb/en/merchants/",
+   "final": "https://www.global.jcb/en/merchants/",
+   "status": 200,
+   "ms": 1534,
+   "why": "S12 Merchants"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "jcb-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.global.jcb/en/",
+   "captured": "2026-09-25",
+   "file": "assets/jcb/jcb-s1-01-20260925.webp",
+   "kb": 92
+  },
+  {
+   "id": "jcb-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.global.jcb/en/products/cards/",
+   "captured": "2026-09-25",
+   "file": "assets/jcb/jcb-s3-02-20260925.webp",
+   "kb": 115
+  },
+  {
+   "id": "jcb-s03",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.global.jcb/en/contact/",
+   "captured": "2026-09-25",
+   "file": "assets/jcb/jcb-s7-03-20260925.webp",
+   "kb": 32
+  },
+  {
+   "id": "jcb-s04",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.global.jcb/en/",
+   "captured": "2026-09-25",
+   "file": "assets/jcb/jcb-s11-04-20260925.webp",
+   "kb": 34
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.global.jcb/en/",
+   "banner": "declined: Reject All Cookies"
+  }
+ ],
+ "summary": {
+  "pages_visited": 38,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

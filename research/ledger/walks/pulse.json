@@ -1,0 +1,869 @@
+{
+ "network": "pulse",
+ "seed": "https://www.pulsenetwork.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Home | PULSE Network",
+   "h1": "Experts in debit,",
+   "description": "Experts in debit, believers in service",
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Skip to main content",
+    "Log In / Register",
+    "Client Support",
+    "Find ATMs",
+    "Search",
+    "Why PULSE",
+    "What We Offer",
+    "Partner With Us",
+    "Resources and Insights",
+    "Connect With Us"
+   ],
+   "ctas": [
+    {
+     "text": "Search",
+     "href": "https://www.pulsenetwork.com/#"
+    },
+    {
+     "text": "Explore Our Difference",
+     "href": "https://www.pulsenetwork.com/public/why-pulse/"
+    },
+    {
+     "text": "Go to All Articles",
+     "href": "http://content.pulsenetwork.com/"
+    },
+    {
+     "text": "Explore the Value",
+     "href": "https://www.pulsenetwork.com/public/discover-debit/"
+    },
+    {
+     "text": "Connect with Us",
+     "href": "https://www.pulsenetwork.com/public/contact-us/"
+    },
+    {
+     "text": "Accept",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Log In / Register",
+     "href": "https://www.pulsenetwork.com/pn/pulse/login",
+     "top": 3
+    },
+    {
+     "text": "Log In / Register Opens in a same window",
+     "href": "https://www.pulsenetwork.com/pn/pulse/login",
+     "top": 3594
+    }
+   ],
+   "audience_words": [
+    "issuer",
+    "acquirer",
+    "merchant",
+    "partner",
+    "atm",
+    "bank"
+   ],
+   "headings": [
+    "h1: Experts in debit,",
+    "h1: believers in service",
+    "h2: The next era of debit",
+    "h2: Payments & You: What’s new in payments",
+    "h3: 2026 Debit Issuer Study: The Next Era of Debit",
+    "h3: PULSE Perspectives – June 2026",
+    "h3: 3 Trends Shaping the Future of Payments",
+    "h2: Find out how we can make debit work for you",
+    "h2: Issuers",
+    "h2: Merchants",
+    "h2: ATM Acquirers",
+    "h3: PULSE is a smoothly operating network, and they handle account management really",
+    "h2: Start getting more from debit",
+    "h2: PULSE NETWORK",
+    "h2: WHAT WE OFFER"
+   ],
+   "screenshot": "assets/pulse/pulse-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Log In / Register",
+     "url": "https://www.pulsenetwork.com/pn/pulse/login",
+     "status": 200,
+     "result": "login",
+     "words": 190,
+     "title": "Log In | PULSE Network"
+    },
+    {
+     "nav": "Client Support",
+     "url": "https://www.pulsenetwork.com/public/client-support/",
+     "status": 200,
+     "result": "readable",
+     "words": 646,
+     "title": "Client Support | PULSE Network"
+    },
+    {
+     "nav": "Find ATMs",
+     "url": "https://www.pulsenetwork.com/pn/cal/search",
+     "status": 200,
+     "result": "readable",
+     "words": 441,
+     "title": "ATM Locator | PULSE Network"
+    },
+    {
+     "nav": "Why PULSE",
+     "url": "https://www.pulsenetwork.com/public/why-pulse/",
+     "status": 200,
+     "result": "readable",
+     "words": 661,
+     "title": "Why PULSE | PULSE Network"
+    },
+    {
+     "nav": "Connect With Us",
+     "url": "https://www.pulsenetwork.com/public/contact-us/",
+     "status": 200,
+     "result": "readable",
+     "words": 338,
+     "title": "Connect With Us | PULSE Network"
+    },
+    {
+     "nav": "PULSE Payments Network",
+     "url": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+     "status": 200,
+     "result": "readable",
+     "words": 581,
+     "title": "PULSE Payments Network | PULSE Network"
+    },
+    {
+     "nav": "PULSE ATM Network",
+     "url": "https://www.pulsenetwork.com/public/atm-network/",
+     "status": 200,
+     "result": "readable",
+     "words": 477,
+     "title": "ATM Network | PULSE Network"
+    },
+    {
+     "nav": "Discover® Debit",
+     "url": "https://www.pulsenetwork.com/public/discover-debit/",
+     "status": 200,
+     "result": "readable",
+     "words": 1203,
+     "title": "Discover Debit | PULSE Network"
+    },
+    {
+     "nav": "Debit Processing and Gateways",
+     "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+     "status": 200,
+     "result": "readable",
+     "words": 518,
+     "title": "Debit Processing and Gateways | PULSE Network"
+    },
+    {
+     "nav": "Fraud Detection and Risk Mitigation",
+     "url": "https://www.pulsenetwork.com/public/fraud-detection/",
+     "status": 200,
+     "result": "readable",
+     "words": 624,
+     "title": "Fraud Detection and Risk Mitigation | PULSE Network"
+    },
+    {
+     "nav": "Partner Support Services",
+     "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+     "status": 200,
+     "result": "readable",
+     "words": 693,
+     "title": "Partner Support Services | PULSE Network"
+    },
+    {
+     "nav": "Issuers",
+     "url": "https://www.pulsenetwork.com/public/issuers/",
+     "status": 200,
+     "result": "readable",
+     "words": 605,
+     "title": "Issuers | PULSE Network"
+    },
+    {
+     "nav": "ATM Acquirers",
+     "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+     "status": 200,
+     "result": "readable",
+     "words": 484,
+     "title": "ATM Acquirers | PULSE Network"
+    },
+    {
+     "nav": "Merchants",
+     "url": "https://www.pulsenetwork.com/public/merchants/",
+     "status": 200,
+     "result": "readable",
+     "words": 616,
+     "title": "Merchants | PULSE Network"
+    },
+    {
+     "nav": "News and Stories",
+     "url": "https://www.pulsenetwork.com/public/insights-and-news/",
+     "status": 200,
+     "result": "readable",
+     "words": 475,
+     "title": "Insights and News | PULSE Network"
+    },
+    {
+     "nav": "Debit Issuer Study",
+     "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+     "status": 200,
+     "result": "readable",
+     "words": 562,
+     "title": "2026 Debit Issuer Study | PULSE Network"
+    }
+   ],
+   "walls": 1,
+   "readable": 15
+  },
+  "S3": {
+   "from": "Partner Support Services",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "title": "Partner Support Services | PULSE Network",
+   "headings": [
+    "h1: From fraud detection to analytics, we’ve got you covered",
+    "h2: We’re your partners in payments",
+    "h2: Gain insights with Debit Dashboard®",
+    "h2: Detect fraud with DebitProtect®",
+    "h2: Grow your debit program",
+    "h2: Manage disputes with our support",
+    "h2: Insights, research and advocacy",
+    "h3: Thought leadership",
+    "h3: Voice of issuers",
+    "h3: Advocacy",
+    "h2: Payments & You: What’s new in payments",
+    "h3: 2026 Debit Issuer Study: The Next Era of Debit",
+    "h3: PULSE Perspectives – June 2026",
+    "h3: 3 Trends Shaping the Future of Payments",
+    "h2: Start getting more from debit",
+    "h2: Already a client?",
+    "h2: PULSE NETWORK",
+    "h2: WHAT WE OFFER",
+    "h2: PARTNER WITH US",
+    "h2: LET'S CONNECT"
+   ],
+   "links": 38,
+   "sample": [
+    {
+     "text": "Skip to main content",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#main-content-rwd"
+    },
+    {
+     "text": "Log In / Register",
+     "href": "https://www.pulsenetwork.com/pn/pulse/login"
+    },
+    {
+     "text": "Client Support",
+     "href": "https://www.pulsenetwork.com/public/client-support/"
+    },
+    {
+     "text": "Find ATMs",
+     "href": "https://www.pulsenetwork.com/pn/cal/search"
+    },
+    {
+     "text": "Search",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#"
+    },
+    {
+     "text": "Why PULSE",
+     "href": "https://www.pulsenetwork.com/public/why-pulse/"
+    },
+    {
+     "text": "Connect With Us",
+     "href": "https://www.pulsenetwork.com/public/contact-us/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#0"
+    },
+    {
+     "text": "Analytics and Reporting",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#1"
+    },
+    {
+     "text": "Fraud Detection",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#2"
+    },
+    {
+     "text": "Marketing Services",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#3"
+    },
+    {
+     "text": "Disputes",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#4"
+    },
+    {
+     "text": "Research and Advocacy",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/#5"
+    },
+    {
+     "text": "Learn more >",
+     "href": "https://www.pulsenetwork.com/public/fraud-detection/"
+    },
+    {
+     "text": "rich content",
+     "href": "https://content.pulsenetwork.com/home"
+    },
+    {
+     "text": "2026 Debit Issuer Study: The Next Era of Debit Debit by the numbers: T",
+     "href": "https://content.pulsenetwork.com/home/2026-pulse-debit-issuer-study-report"
+    },
+    {
+     "text": "PULSE Perspectives – June 2026 In this issue: BNPL as an opportunity f",
+     "href": "https://content.pulsenetwork.com/home/pulse-perspectives-june-2026"
+    },
+    {
+     "text": "3 Trends Shaping the Future of Payments New payment and currency optio",
+     "href": "https://content.pulsenetwork.com/home/3-trends-shaping-the-future-of-payments"
+    },
+    {
+     "text": "Go to All Articles",
+     "href": "http://content.pulsenetwork.com/"
+    },
+    {
+     "text": "About PULSE Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/about-pulse/"
+    },
+    {
+     "text": "Leadership Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/leadership-page/"
+    },
+    {
+     "text": "News and Stories Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/insights-and-news/"
+    },
+    {
+     "text": "Thought Leadership Opens in a same window",
+     "href": "https://content.pulsenetwork.com/"
+    },
+    {
+     "text": "Acceptance Marks Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/client-support/#2"
+    },
+    {
+     "text": "PULSE Payments Network Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/pulse-payments-network/"
+    },
+    {
+     "text": "PULSE ATM Network Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/atm-network/"
+    },
+    {
+     "text": "Discover® Debit Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/discover-debit/"
+    },
+    {
+     "text": "Debit Processing and Gateways Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/processing-and-gateways/"
+    },
+    {
+     "text": "Partner Support Services Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/partner-support-services/"
+    },
+    {
+     "text": "Issuers Opens in a same window",
+     "href": "https://www.pulsenetwork.com/public/issuers/"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/pulse/pulse-s3-03-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 0
+  },
+  "S5": {
+   "entry": {
+    "text": "Log In / Register",
+    "href": "https://www.pulsenetwork.com/pn/pulse/login"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Log In / Register",
+     "url": "https://www.pulsenetwork.com/pn/pulse/login",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": 1,
+   "wall": "login",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Client Support",
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "title": "Client Support | PULSE Network",
+   "phones": [
+    "(800) 543-3695",
+    "10 (800) 420-2122"
+   ],
+   "mailto": [
+    "pulseaccountmanagement@discover.com",
+    "debitprotect@pulsenetwork.com",
+    "disputes@pulsenetwork.com",
+    "processorportal@pulsenetwork.com",
+    "disputes@pulsenetwork.com"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": "8am – 5pm CT, Monday through Friday",
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/pulse/pulse-s7-05-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://www.pulsenetwork.com/public/search/?q=authorization",
+     "count_hint": "10",
+     "top": [
+      "Skip to main content",
+      "Log In / Register",
+      "Client Support",
+      "What We Offer",
+      "PULSE Payments Network"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://www.pulsenetwork.com/public/search/?q=test+cards",
+     "count_hint": "10",
+     "top": [
+      "Skip to main content",
+      "Log In / Register",
+      "Client Support",
+      "What We Offer",
+      "PULSE Payments Network"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://www.pulsenetwork.com/public/search/?q=certification",
+     "count_hint": "3",
+     "top": [
+      "Skip to main content",
+      "Log In / Register",
+      "Client Support",
+      "What We Offer",
+      "PULSE Payments Network"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 2,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a: Privacy Policy",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept",
+    "button: Accept"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": false,
+   "nav_visible": 3,
+   "screenshot": "assets/pulse/pulse-s11-06-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 2,
+     "via": "Client Support",
+     "text": "PULSE Graphic Standards Manual",
+     "href": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 2,
+    "via": "Client Support",
+    "text": "PULSE Graphic Standards Manual",
+    "href": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1924,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/pn/pulse/login",
+   "final": "https://www.pulsenetwork.com/pn/pulse/login",
+   "status": 200,
+   "ms": 2863,
+   "why": "S2 Log In / Register"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "final": "https://www.pulsenetwork.com/public/client-support/",
+   "status": 200,
+   "ms": 1734,
+   "why": "S2 Client Support"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/pn/cal/search",
+   "final": "https://www.pulsenetwork.com/pn/cal/search",
+   "status": 200,
+   "ms": 2116,
+   "why": "S2 Find ATMs"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/why-pulse/",
+   "final": "https://www.pulsenetwork.com/public/why-pulse/",
+   "status": 200,
+   "ms": 1703,
+   "why": "S2 Why PULSE"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/contact-us/",
+   "final": "https://www.pulsenetwork.com/public/contact-us/",
+   "status": 200,
+   "ms": 1655,
+   "why": "S2 Connect With Us"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+   "final": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+   "status": 200,
+   "ms": 1699,
+   "why": "S2 PULSE Payments Network"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/atm-network/",
+   "final": "https://www.pulsenetwork.com/public/atm-network/",
+   "status": 200,
+   "ms": 1681,
+   "why": "S2 PULSE ATM Network"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "final": "https://www.pulsenetwork.com/public/discover-debit/",
+   "status": 200,
+   "ms": 1652,
+   "why": "S2 Discover® Debit"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+   "final": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+   "status": 200,
+   "ms": 1661,
+   "why": "S2 Debit Processing and Gateways"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/fraud-detection/",
+   "final": "https://www.pulsenetwork.com/public/fraud-detection/",
+   "status": 200,
+   "ms": 1653,
+   "why": "S2 Fraud Detection and Risk Mitigation"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "final": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "status": 200,
+   "ms": 1616,
+   "why": "S2 Partner Support Services"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/issuers/",
+   "final": "https://www.pulsenetwork.com/public/issuers/",
+   "status": 200,
+   "ms": 1623,
+   "why": "S2 Issuers"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+   "final": "https://www.pulsenetwork.com/public/atm-acquirers/",
+   "status": 200,
+   "ms": 1618,
+   "why": "S2 ATM Acquirers"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/merchants/",
+   "final": "https://www.pulsenetwork.com/public/merchants/",
+   "status": 200,
+   "ms": 1655,
+   "why": "S2 Merchants"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/insights-and-news/",
+   "final": "https://www.pulsenetwork.com/public/insights-and-news/",
+   "status": 200,
+   "ms": 1627,
+   "why": "S2 News and Stories"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+   "final": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+   "status": 200,
+   "ms": 1614,
+   "why": "S2 Debit Issuer Study"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "final": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "status": 200,
+   "ms": 1625,
+   "why": "S3 Partner Support Services"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "final": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "status": 200,
+   "ms": 1625,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1605,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/pn/pulse/login",
+   "final": "https://www.pulsenetwork.com/pn/pulse/login",
+   "status": 200,
+   "ms": 2335,
+   "why": "S5 Log In / Register"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "final": "https://www.pulsenetwork.com/public/client-support/",
+   "status": 200,
+   "ms": 1602,
+   "why": "S7 Client Support"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/contact-us/",
+   "final": "https://www.pulsenetwork.com/public/contact-us/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S7 Connect With Us"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "final": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "status": 200,
+   "ms": 1637,
+   "why": "S7 Partner Support Services"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "final": "https://www.pulsenetwork.com/public/client-support/",
+   "status": 200,
+   "ms": 1605,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1597,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1600,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1596,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/",
+   "final": "https://www.pulsenetwork.com/",
+   "status": 200,
+   "ms": 1599,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/#main-content-rwd",
+   "final": "https://www.pulsenetwork.com/#main-content-rwd",
+   "status": null,
+   "ms": 1505,
+   "why": "S12 Skip to main content"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/pn/pulse/login",
+   "final": "https://www.pulsenetwork.com/pn/pulse/login",
+   "status": 200,
+   "ms": 2394,
+   "why": "S12 Log In / Register"
+  },
+  {
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "final": "https://www.pulsenetwork.com/public/client-support/",
+   "status": 200,
+   "ms": 1633,
+   "why": "S12 Client Support"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "pulse-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.pulsenetwork.com/",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s1-01-20260925.webp",
+   "kb": 75
+  },
+  {
+   "id": "pulse-s02",
+   "station": "S2",
+   "note": "wall: Log In / Register",
+   "url": "https://www.pulsenetwork.com/pn/pulse/login",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s2-02-20260925.webp",
+   "kb": 46
+  },
+  {
+   "id": "pulse-s03",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s3-03-20260925.webp",
+   "kb": 95
+  },
+  {
+   "id": "pulse-s04",
+   "station": "S5",
+   "note": "first wall",
+   "url": "https://www.pulsenetwork.com/pn/pulse/login",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s5-04-20260925.webp",
+   "kb": 46
+  },
+  {
+   "id": "pulse-s05",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s7-05-20260925.webp",
+   "kb": 49
+  },
+  {
+   "id": "pulse-s06",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.pulsenetwork.com/",
+   "captured": "2026-09-25",
+   "file": "assets/pulse/pulse-s11-06-20260925.webp",
+   "kb": 33
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 37,
+  "screenshots": 6,
+  "errors": 0,
+  "walls_in_nav": 1,
+  "clicks_to_docs": null,
+  "clicks_to_wall": 1,
+  "sandbox_wall": "login"
+ }
+}

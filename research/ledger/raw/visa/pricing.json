@@ -1,0 +1,1153 @@
+{
+  "network": "visa",
+  "dimension": "pricing",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "pricing",
+      "claim": "Visa publishes its U.S. interchange reimbursement fee schedule as a public PDF; the current edition is dated 18 April 2026 with rates effective April 18, 2026.",
+      "quote": "The following tables set forth the interchange reimbursement fees applied on Visa financial transactions completed within the 50 United States and the District of Columbia.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF saved by WebFetch; text extracted with pypdf. Cover: 'Visa Public'. 28 pages. Introduction states it is a supplement to the Visa Core Rules."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "U.S. exempt (non-regulated) consumer debit CPS/Retail card-present interchange is 0.80% + $0.15; regulated debit is 0.05% + $0.21 (plus $0.01 for issuers certifying fraud-prevention compliance).",
+      "quote": "CPS/Retail, Debit 0.80% + $0.15 0.05% + $0.21*",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Table A, Rates Effective April 18, 2026. Footnote: 'Issuers that certify to Visa their compliance with the interim fraud prevention standards will receive an additional US $0.01.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "U.S. exempt debit CPS/Supermarket is a flat $0.30 and CPS/Small Ticket debit is 1.55% + $0.04; the default Standard debit rate is 1.90% + $0.25.",
+      "quote": "Standard Interchange Reimbursement Fee, Debit 1.90% + $0.25 0.05% + $0.21*",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same table also lists 'CPS/Supermarket, Debit $0.30' and 'CPS/Small Ticket, Debit 1.55% + $0.04'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "U.S. consumer credit card-present Retail (Performance Threshold I) interchange ranges from 1.43% + $0.10 for Traditional/All Other products to 2.30% + $0.10 for Visa Infinite Spend Qualified.",
+      "quote": "Retail Credit-Performance Threshold* I 2.30% + $0.10 1.90% + $0.10 2.10% + $0.10 1.65% + $0.10 1.43% + $0.10 1.43% + $0.10",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Table C columns in order: Visa Infinite Spend Qualified, Visa Infinite Spend Not Qualified, Visa Signature Preferred, Visa Signature, Traditional Rewards, All Other Products."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The highest published U.S. consumer credit rate is Non-Qualified Consumer Credit at 3.15% + $0.10 across all products; Restaurant card-present is 2.60% (min $0.04) for premium products and 2.10% for others.",
+      "quote": "Non-Qualified Consumer Credit 3.15% + $0.10 3.15% + $0.10 3.15% + $0.10 3.15% + $0.10 3.15% + $0.10 3.15% + $0.10",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa offers published card-not-present interchange incentives of -0.05% (EMV token), -0.10% (Digital Commerce Authentication Program) and -0.15% (DCAP plus token) on qualifying consumer credit.",
+      "quote": "EMV Token transactions qualify for Card Not Present Incentive Type 1, except for Charity 1 and CPS/Utility.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Table C: 'Type 1 -0.05%', 'Type 2 -0.10%', 'Type 3 -0.15%'; 'Card Not Present Incentives require CPS qualification and are subject to change.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa's U.S. Small Merchant credit interchange program applies to merchants with gross Visa consumer credit sales of no more than $280,000 (12 months ending September 30, 2024).",
+      "quote": "Gross Visa Consumer Credit Sales ** $280,000",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Small Merchant Product 2 rate for All Other Products is 1.29% + $0.10. Footnote refers to the 'U.S. Interchange Reimbursement Fee Rate Qualification Guide', which is not published on the page."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Large-merchant credit Performance Threshold I (Retail) requires at least 133.4 million transactions and $8.83 billion volume with a dispute ratio of at most 0.020% and PCI compliance.",
+      "quote": "Threshold I 133.4 million $8.83 billion 0.020%",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Table D, 'Effective April 18, 2026, based on 12 months of activity ending September 30, 2025'. Supermarket Tier 0 requires 525.0 million transactions and $27.60 billion."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "U.S. commercial (purchasing and corporate T&E) interchange runs from 1.75% + $0.10 (Commercial Product 3) to 2.95% + $0.10 (Non-Qualified); Commercial Product Large Ticket is 1.30% + $35.00.",
+      "quote": "Commercial Product Large Ticket 1.30% + $35.00",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Table E. Also 'GSA Large Ticket 1.20% + $39.00' (Purchasing only)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Interlink (Visa's PIN debit network) publishes its own U.S. interchange schedule; exempt consumer Retail is 0.80% + $0.15, exempt Business Interlink 1.70% + $0.10, regulated 0.05% + $0.21, with rates effective July 1, 2023.",
+      "quote": "Retail Transactions 0.80% + $0.15 1.70% + $0.10 0.05% + $0.21*",
+      "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-interchange-reimbursement-fees.pdf",
+      "title": "Interlink Interchange Reimbursement Fees",
+      "publisher": "Visa Inc. (Interlink)",
+      "published": "2023-07-01",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF metadata dates August 2023; 'Rates Effective July 1, 2023'. Older than the Visa USA schedule (April 2026). 'Balance inquiries, preauthorizations, and declines have no interchange fees applied to them.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa states that merchants do not pay interchange directly; they pay a negotiated merchant discount to their acquirer, and merchants must give their acquirer 30 days' notice before surcharging credit.",
+      "quote": "Merchants must notify their acquirer 30 days before they begin surcharging.",
+      "url": "https://usa.visa.com/support/small-business/regulations-fees.html",
+      "title": "Regulations & Fees | Visa",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page also links the Visa USA and Interlink interchange PDFs and surcharging FAQ/considerations PDFs."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The public Visa Core Rules define an interchange reimbursement fee as a default transfer price between acquirers and issuers, with merchant pricing set independently by each acquirer.",
+      "quote": "An Interchange Reimbursement Fee is a default transfer price between Acquirers and Issuers within the Visa system.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "923-page public PDF; passage on p.128 of the PDF. Also: 'Interchange is consistently monitored and adjusted – sometimes increased and sometimes decreased'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa's network (scheme) fees are set out in regional Fee Schedules that the public rulebook only names (Visa U.S.A., Canada, Asia-Pacific, CEMEA, LAC, and Visa Europe Non-EEA / Non-Regulated / Scheme); the schedules themselves are not published.",
+      "quote": "Fee Schedule One of the following: l Visa Asia-Pacific Fee Schedule l Visa Canada Fee Schedule l Visa CEMEA Fee Schedule",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary p.859. Rule 12.6.3.1 says the investigative service fee is 'as specified in the applicable Fee Schedule'. No public copy of any Visa Fee Schedule was found."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Canada publicly discloses its standard acquiring network assessment fees: an Acquirer Service Fee of 0.09% on all Canadian-acquired Visa volume, plus an International Acquirer Service Fee of 0.60% (multicurrency) or 1.00% (single-currency) on foreign-issued cards.",
+      "quote": "The Acquirer Service Fee rate is 0.09%",
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-acquiring-network-assessment%20Fees.pdf",
+      "title": "Visa Canada Standard Acquiring Network Assessment Fees",
+      "publisher": "Visa Canada",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Multicurrency Purchase: 0.60%' and 'Single-Currency Purchase: 1.00%'. Document notes the 'Visa Fee Schedule' governs on any discrepancy. The only public network-fee (as opposed to interchange) figures found for Visa in this research."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Canada manages domestic consumer credit interchange to an average of 1.40% under a voluntary commitment with the Canadian Department of Finance, with annual third-party validation.",
+      "quote": "a voluntary commitment with the Canadian Department of Finance that manages domestic consumer credit interchange rates to an average level of 1.40%",
+      "url": "https://www.visa.ca/en_CA/support/small-business/interchange.html",
+      "title": "Interchange | Visa Canada",
+      "publisher": "Visa Canada",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page states rate changes must comply with the notice requirements of the Code of Conduct for the Credit and Debit Card Industry in Canada (FCAC)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Canada's published domestic consumer credit interchange for Electronic (card-present) transactions is 1.25% (Classic/Gold/Platinum), 1.57% (Infinite), 1.60% (Infinite+) and 2.08% (Infinite Privilege); Visa Debit Electronic is CA$0.03 per transaction.",
+      "quote": "Electronic 1.25% 1.57% 1.60% 2.08%",
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-interchange-rates.pdf",
+      "title": "Visa Canada Interchange Reimbursement Fees",
+      "publisher": "Visa Canada",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Debit table: 'Electronic $0.03 CAD per transaction', 'Standard 1.15%'. Performance Program requires 'Minimum of $2.3 billion in total net VisaNet retail sales volume in Canada'. No effective date printed on the PDF."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Canada's international interchange table publishes Visa Direct-related and ATM economics: an Original Credit Transaction earns US$0.29 and OCT Fast Funds Delivery US$0.60; ATM cash disbursement interchange (issuer to acquirer) is $0.65 + 0.52% where no access fee is charged.",
+      "quote": "Original Credit Transaction (OCT) $0.29USD",
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-interchange-rates.pdf",
+      "title": "Visa Canada Interchange Reimbursement Fees",
+      "publisher": "Visa Canada",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also 'OCT Fast Funds Delivery $0.60USD' and 'ATM Access Fee Free Service $0.65 + 0.52%'. Applies to Canadian-acquired transactions on cards issued outside Canada."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Effective 24 October 2026, Visa Canada will raise the Small Merchant Interchange Program volume ceiling from CAD 300,000 to CAD 750,000 and introduce a Digital Commerce Authentication Program (DCAP) with lower CNP rates, e.g. 1.30% for Classic/Gold/Platinum CNP-DCAP.",
+      "quote": "Visa will expand the Small Merchant Interchange Program by increasing the annual maximum Visa volume threshold criteria from CAD 300,000 to CAD 750,000.",
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-upcoming-changes-to-interchange-rates.pdf",
+      "title": "Visa Canada Upcoming Interchange Modifications",
+      "publisher": "Visa Canada",
+      "published": "2026-09-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dated September 4, 2026; 'Domestic Consumer Credit Interchange Changes Effective CPD 24 October 2026'. Business Standard moves to 2.15%."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Europe publishes per-country and intra-EEA interchange schedules and states that Visa itself receives none of the interchange fee; EEA consumer rates are capped by the IFR (Regulation (EU) 2015/751) since 9 December 2015.",
+      "quote": "Visa doesn't receive any of this fee.",
+      "url": "https://www.visa.co.uk/about-visa/visa-in-europe/fees-and-interchange.html",
+      "title": "Fees and interchange | Visa Europe",
+      "publisher": "Visa Europe",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page links PDFs for 31 countries/territories plus inter-EEA and intra-EEA schedules (versions dated April 2025, November 2025, January 2026, May 2026)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Intra-EEA consumer interchange is 0.20% (debit/prepaid) and 0.30% (credit/deferred debit), while uncapped commercial rates run higher, e.g. Visa Business Debit at 1.30% (EMV chip) and 1.65% (e-commerce/standard).",
+      "quote": "Visa Business Debit EMV Chip (Incl. Contactless) 1.30% 1.30% (capped at €1.50) 1.30% (capped at €0.50)",
+      "url": "https://www.visa.co.uk/content/dam/VCOM/regional/ve/unitedkingdom/PDF/fees-and-interchange/april-25/intra-eea-apr25.pdf",
+      "title": "Intra Europe EEA | Multi-lateral Interchange Fees (April 2025)",
+      "publisher": "Visa Europe",
+      "published": "2025-04-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Consumer column shows '0.20%', '0.20%', '0.30%'. Columns: General / Government Payments and Money Services (capped €1.50) / Charity (capped €0.50). Large Ticket Program 1: '1.00% + €60.00'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "UK domestic Visa commercial interchange (Feb 2026 schedule) is 0.75% card-present and 1.20% card-not-present for Visa Business Debit, rising to 1.75%/2.00% for Visa Purchasing, with a 2.05% non-qualified rate.",
+      "quote": "Visa Business Debit Card Present - EMV® (Incl. Contactless) 0.75% 0.75% (capped at £2.50)",
+      "url": "https://www.visa.co.uk/content/dam/VCOM/regional/ve/unitedkingdom/PDF/fees-and-interchange/uk-interchange-fees-feb26.pdf",
+      "title": "United Kingdom | Domestic Multi-lateral Interchange Fees (Feb 2026)",
+      "publisher": "Visa Europe",
+      "published": "2026-02-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Consumer rows show 0.20%/0.30% with Me-to-Me caps (£0.50, £1.00, £1.50). Purchasing rows carry Level 2/3 data discounts, e.g. '1.75% - £0.32'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Australia publishes domestic interchange with effective dates per product: consumer credit rates effective 1 June 2026 include Standard 0.220% and Super Premium (Visa Signature) 0.847% inclusive of GST; card-present standard debit is 4.4 cents.",
+      "quote": "Effective 1 June 2026, the following interchange rates apply to domestic transactions processed through Visa's NNSS",
+      "url": "https://www.visa.com.au/about-visa/interchange.html",
+      "title": "Interchange | Visa Australia",
+      "publisher": "Visa AP (Australia)",
+      "published": "2026-06-01",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Figures seen on page: Standard '0.220%', Government '0.198%', Supermarket '0.253%', Super Premium '0.847%', High Net Worth '0.869%'; debit Card Present Standard '4.4 cents', Premium '11.0 cents'. Multi-network debit effective 12 July 2025; single-network debit 1 December 2025."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "For foreign cards issued outside Asia Pacific used at Australian merchants, Visa publishes inter-regional interchange of 1.10% (Classic/Gold consumer credit), 1.85% (premium consumer credit) and 2.00% (all commercial); no effective date is shown.",
+      "quote": "1.10%",
+      "url": "https://www.visa.com.au/about-visa/inter-regional-interchange.html",
+      "title": "Inter-regional Interchange Rates | Visa Australia",
+      "publisher": "Visa AP (Australia)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Other figures seen: '1.85%' premium consumer credit (alternative fee program), '2.00%' all commercial products. Same 1.10% / 1.85% / 2.00% structure appears in Visa Canada's international table."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Developer Center pricing is tiered: sandbox use is free, a few APIs are free in production, some are bundled with a Visa Online subscription, and most are priced on usage (transactions, alerts, disputes, tokens, accounts enrolled).",
+      "quote": "Pricing for most capabilities is based on usage.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Visa Developer Pricing",
+      "publisher": "Visa Inc. (Visa Developer)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'A few capabilities are currently available for use in production free of charge.' and 'APIs for certain capabilities are available for no additional fee if the client has a subscription for the capability through Visa Online.' No per-API price list is published."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Usage-priced Visa Developer APIs usually carry a monthly minimum per product, and going live requires a contract that includes flat setup fees for support and compliance checks; specific fees are quoted case by case.",
+      "quote": "There is usually a minimum fee per month (separate for each product) if the threshold of calls, accounts, etc. is not met.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Visa Developer Pricing",
+      "publisher": "Visa Inc. (Visa Developer)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Setup: 'a flat setup fees to cover the support costs and any other required additional compliance checks'. Disclaimer: 'this information does not constitute a promise of a specific fee structure or discount for any particular case'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Visa Developer Going Live page routes developers to a general Pricing Guide and to 'Contact Us' for specific pricing and a contract; production credentials are released only once Visa approves and a signed contract is in place.",
+      "quote": "take a look at our Pricing Guide for general information",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live | Visa Developer",
+      "publisher": "Visa Inc. (Visa Developer)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'Once you determine which product(s) you want to commercialize in your project, Contact Us for a contract.' Names the Onboarding Dashboard and Visa Developer Platform."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Acceptance Solutions (formerly Cybersource) offers a free sandbox but publishes no pricing; the Cybersource pricing URL resolves to a contact-sales form.",
+      "quote": "Sign up for a free sandbox account",
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Visa Acceptance Developer Center",
+      "publisher": "Visa Acceptance Solutions",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "https://www.cybersource.com/en-us/pricing.html redirected to https://www.cybersource.com/en-us/contact-us/sales.html ('please complete this request form'). Names Visa Acceptance Portal and Enterprise Business Center."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa's licensing page acknowledges that Principal clients pay required service fees but publishes no amounts; prospective members are directed to regional licensing teams.",
+      "quote": "While there are service fees that are required, these clients have the most flexibility for the capabilities they are able to manage",
+      "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+      "title": "Visa Licensing Program | Visa Partner",
+      "publisher": "Visa Inc. (Visa Partner)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Names Visa Access, Visa Client Lifecycle Management Tool and Visa Partner Portal. Consistent with 10-K 'Other revenue' including 'fees for account holder services, certification and licensing'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Fintech Fast Track is marketed with cost benefits (free trials on select solutions, preferred terms with referral partners) but no fee waivers, pricing or incentive amounts are published.",
+      "quote": "free trials on select solutions, and preferred terms with Visa's select network of referral partners",
+      "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+      "title": "Fintech Fast Track | Visa Partner",
+      "publisher": "Visa Inc. (Visa Partner)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "usa.visa.com/partner-with-us/fintech-fast-track.html returned 404; program now lives on partner.visa.com."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Inc. reports gross revenue in four lines and nets client incentives against them; fiscal 2025 client incentives were $15,751 million against net revenue of $40,000 million.",
+      "quote": "Client incentives (15,751)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R53.htm",
+      "title": "Visa Inc. Form 10-K FY2025 - Revenue - Schedule of Disaggregation of Revenue (Details)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "XBRL R-page rendered as a table (USD millions). FY2025: Service revenue 17,539; Data processing revenue 19,993; International transaction revenue 14,166; Other revenue 4,053; Client incentives (15,751); Net revenue 40,000. FY2024 incentives (13,764); FY2023 (12,297)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa's 10-K defines client incentives as payments to financial institutions, sellers and other partners to grow volume and acceptance, and 'Other revenue' as including license fees for the Visa brand and fees for certification and licensing.",
+      "quote": "Paid to financial institution clients, sellers and other business partners to grow payments volume; increase Visa product acceptance",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for fiscal year ended September 30, 2025",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Other revenue: 'license fees for use of the Visa brand or technology; and fees for account holder services, certification and licensing'. International transaction revenue: 'Earned for cross-border transaction processing and currency conversion activities'. Full document truncated by WebFetch; curl blocked by SEC automated-tool filter."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The 2019 Amended Settlement Agreement in the U.S. interchange MDL received final approval on December 13, 2019; the March 25, 2024 injunctive-relief settlement was denied preliminary approval on June 25, 2024.",
+      "quote": "On March 25, 2024, Visa and Mastercard entered into a settlement agreement to resolve the Injunctive Relief Class claims.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R30.htm",
+      "title": "Visa Inc. Form 10-K FY2025 - Legal Matters",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'On December 13, 2019, the district court granted final approval of the Amended Settlement Agreement, which was subsequently appealed.' and 'motion for preliminary approval of the settlement, which was denied on June 25, 2024.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "On November 10, 2025 Visa and Mastercard entered a superseding and amended injunctive-relief settlement with U.S. merchants; the court granted preliminary approval on June 9, 2026 and plaintiffs moved for final approval on July 15, 2026.",
+      "quote": "On November 10, 2025, Visa and Mastercard entered into a superseding and amended settlement agreement to resolve the Injunctive Relief Class claims",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R25.htm",
+      "title": "Visa Inc. Form 10-Q for quarter ended June 30, 2026 - Legal Matters",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2026-07-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also: 'On July 15, 2026, the Injunctive Relief Class plaintiffs filed a motion for final approval of the settlement.' The note does not state the economic terms (rate reductions, caps, duration); see not_found."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "As of June 30, 2026 Visa had settled with opt-out merchants representing about 95% of Visa-branded volume of merchants who opted out of the damages class, up from about 82% reported in the FY2025 10-K.",
+      "quote": "Visa has reached settlements with a number of merchants representing approximately 95% of the Visa-branded payment card sales volume",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R25.htm",
+      "title": "Visa Inc. Form 10-Q for quarter ended June 30, 2026 - Legal Matters",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2026-07-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "10-K FY2025 (R30) wording: 'approximately 82% of the Visa-branded payment card sales volume of merchants who opted out of the Amended Settlement Agreement'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "European interchange litigation continues to shape Visa's fee exposure: on April 20, 2026 a group of merchants from across Europe sued several Visa entities in the UK High Court alleging interchange restricts competition.",
+      "quote": "On April 20, 2026, a group of merchants from across Europe filed a claim in the UK High Court against several Visa entities",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R25.htm",
+      "title": "Visa Inc. Form 10-Q for quarter ended June 30, 2026 - Legal Matters",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+      "published": "2026-07-29",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "R69 details: U.K. Merchant Litigation 1,200 plaintiffs, 950 settled, 100 pending; litigation provision $1,290 million for nine months ended June 30, 2026; $875 million deposited into the U.S. litigation escrow."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The DOJ's September 24, 2024 Sherman Act complaint alleges Visa carries more than 60% of U.S. debit transactions and charges over $7 billion a year in fees on them, with North America operating margins of 83%.",
+      "quote": "more than 60% of debit transactions run on Visa's debit network, allowing it to charge over $7 billion in fees each year",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Allegations, not adjudicated findings. Also: 'Visa earns more in revenue from its U.S. debit business than its credit business as of 2022.' Court denied Visa's motion to dismiss on June 23, 2025 (per DOJ case page and Visa 10-K)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The DOJ complaint describes Visa's acquirer-side debit pricing as per-transaction network fees plus, since 2012, a fixed monthly Fixed Acquirer Network Fee (FANF) based on merchant locations and CNP volume, which Visa has raised twice.",
+      "quote": "Starting in 2012, Visa also began charging each merchant's acquirer a fixed monthly fee, known as the Fixed Acquirer Network Fee (FANF)",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Visa has raised FANF twice in subsequent years.' and that FANF was introduced 'in response to threats of increased competition once the Durbin Amendment went into effect.' No public FANF schedule was found on Visa's site."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The DOJ alleges Visa's debit routing contracts use 'cliff pricing' (all-unit volume commitments) under which missing a committed threshold triggers Visa's published rack rates on all transactions, and cites a $20 million exclusivity payment to one merchant in 2023.",
+      "quote": "Visa's volume requirements are structured as cliff pricing.",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'in 2023, Visa paid one large merchant over $20 million for exclusivity' and Visa 'charges punitively expensive rack rates (listed pricing for network fees and interchange)'. Allegations only."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Under Regulation II the debit interchange cap for covered issuers is $0.21 plus 0.05% of value plus a $0.01 fraud-prevention adjustment; in 2024 the all-network average interchange was $0.23 on covered and $0.51 on exempt transactions.",
+      "quote": "All networks 39.3% 35.9% $42.27 $0.51 1.21% 60.7% 64.10% $48.95 $0.23 0.47% $46.32 $0.34 0.73%",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-12-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Row columns: exempt (% of number, % of value, avg value, avg fee, fee as % of value), covered (same), all. Cap wording on page: '$0.21 plus 0.05 percent multiplied by the value of the transaction, plus a $0.01 fraud-prevention adjustment, if eligible'. WebFetch summary of the same table gave dual-message covered $0.22, single-message covered $0.24, exempt dual-message $0.61, exempt single-message $0.26 (row text not captured verbatim). Page last updated December 19, 2025."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "In October 2023 the Federal Reserve proposed lowering the Reg II cap so that a $50 debit transaction would carry 17.7 cents instead of 24.5 cents, with biennial updates thereafter.",
+      "quote": "24.5 cents under the current rule",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20231025a.htm",
+      "title": "Federal Reserve Board requests comment on a proposal to lower the maximum interchange fee that a large debit card issuer can receive",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2023-10-25",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also '17.7 cents under the proposal'. Fed's Reg II overview page (updated May 17, 2024) still lists the proposal as open; no final rule or court status was found on Fed pages (see not_found)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The UK PSR's final report (6 March 2025) found Mastercard and Visa raised core scheme and processing fees to acquirers by at least 25% since 2017, costing UK businesses at least £170 million a year, in a market without effective competition.",
+      "quote": "Mastercard and Visa increased their core scheme and processing fees to acquirers by at least 25% since 2017",
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Also 'costing businesses at least £170million extra per year'. Hub page: 'Mastercard and Visa don't face competition with fees rising and a lack of clarity on how much businesses will have to pay'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The PSR's PS26/1 final decision (30 July 2026) imposes an Information, Transparency and Complexity Direction and a Pricing Governance Direction on Visa and Mastercard; pricing-governance duties apply from end November 2026 and ITC duties from end July 2027.",
+      "quote": "Relevant fee decisions must comply with the Pricing Governance Direction from end of November 2026",
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PS26/1 Market review of card scheme and processing fees: final decision on ITC remedy and pricing governance remedy",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Implemented via Specific Directions 22 and 23; a regulatory financial reporting direction was under consultation (CP26/1)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The PSR found Visa and Mastercard raised UK-EEA card-not-present consumer cross-border interchange from 0.2%/0.3% to 1.15%/1.5% after Brexit, costing UK businesses £150-200 million a year, and in October 2025 chose not to impose an interim cap while consulting on a long-term cap methodology.",
+      "quote": "0.2% and 0.3% to 1.15% and 1.5% respectively",
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-cross-border-interchange-fees/",
+      "title": "Market review into cross-border interchange fees",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-10-01",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Final report MR22/2.7 (October 2025). 'The increases are costing businesses £150-200 million extra annually.' Interim cap not pursued 'due to ongoing litigation regarding its powers'; consultation MR22/2.8 on price cap methodology."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The European Commission's 2020 IFR review found interchange fell and merchant service charges dropped after the caps, while scheme fees (outside the IFR) rose to a limited extent, mainly at international schemes; estimated consumer savings EUR 864-1,930 million a year.",
+      "quote": "Scheme fees, which are not within the scope of the IFR, appear to have increased to a limited extent",
+      "url": "https://competition-policy.ec.europa.eu/document/download/d8055968-b4c2-424b-b281-c4c6959df19b_en?filename=IFR_report_card_payment.pdf",
+      "title": "Commission Staff Working Document SWD(2020) 118 final: Report on the application of Regulation (EU) 2015/751 on interchange fees",
+      "publisher": "European Commission",
+      "published": "2020-06-29",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'estimated annual consumer cost savings of between EUR 864 million and EUR 1,930 million'. Quote whitespace normalised from PDF extraction ('increased to a limited extent ,')."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA's 31 March 2026 conclusions cut Australian consumer credit interchange cap to 0.3% (from 0.8%), keep debit at 8 cents benchmark and cap, add a cap on foreign-issued cards, end surcharging from 1 October 2026, and require networks to publish interchange and scheme fees; estimated wholesale savings around $910 million a year.",
+      "quote": "An interchange cap of 0.3 per cent will significantly reduce the extent to which small merchants cross-subsidise large merchants by paying higher interchange rates.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "Review of Merchant Card Payment Costs and Surcharging - Conclusions Paper (31 March 2026)",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'retain the debit interchange benchmark at 8 cents per transaction and to reduce the cap only to 8 cents per transaction'; 'lowering wholesale card payment costs for merchants by around $910 million per year'; networks must 'publish their interchange and scheme fees, reduce the complexity of their scheme fees and justify any increases'. Hub page: surcharging ends 1 October 2026; foreign-card cap from 1 April 2027. Average consumer credit interchange was 0.47% with small merchants at up to 0.8% and largest merchants as low as 0.18%."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Visa Direct's product page publishes no pricing; prospective partners are sent to a sales form, and Visa Developer's pricing page indicates such capabilities are priced on usage under contract.",
+      "quote": "Connect with our team",
+      "url": "https://www.visa.com/en-us/products/visa-direct",
+      "title": "Visa Direct | Visa",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Links to https://globalclient.visa.com/visa-direct-na-inbound. The only public Visa Direct economics found are Visa Canada's international OCT interchange figures (US$0.29 / US$0.60)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Visa U.S.A. Fee Schedule / Fixed Acquirer Network Fee (FANF) public schedule with amounts",
+      "where": "usa.visa.com merchant and rules pages; guessed URL usa.visa.com/dam/VCOM/download/merchants/visa-fixed-acquirer-network-fee.pdf returned 404; Visa Rules PDF names the schedule but does not include it. Only the DOJ complaint describes FANF qualitatively.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Europe scheme fee schedule (Visa Europe Fee Schedule - Scheme) public figures",
+      "where": "visa.co.uk fees-and-interchange page publishes interchange only; PSR MR22/1.10 confirms scheme/processing fees are not transparent. Named in Visa Rules glossary only.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Direct pricing (per-OCT fees, Fast Funds fees) for originators",
+      "where": "visa.com/en-us/products/visa-direct (sales form only); developer.visa.com pricing page (usage-based, contract). Not public.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer per-API price list / Pricing Guide with figures",
+      "where": "developer.visa.com/pages/going-live links a 'Pricing Guide' that only describes models (free/subscription/usage) with no amounts; /pages/pricing and /pages/pricing-guide return 404.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Acceptance Solutions / Cybersource published pricing",
+      "where": "cybersource.com/en-us/pricing.html redirects to contact-sales form; visaacceptance.com/en-us/pricing.html 404.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Fees for Visa Ready certification, Fintech Fast Track, Third Party Agent registration, Visa licensing/membership",
+      "where": "partner.visa.com program pages (visa-ready, fintech-program, licensing-program, third-party-agent-registration): no amounts; licensing page only says 'service fees that are required'.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Economic terms of the November 10, 2025 superseding injunctive-relief settlement (interchange reduction in basis points, caps, duration, surcharging/acceptance changes)",
+      "where": "Visa 10-Q (June 30, 2026) Legal Matters note gives dates only; paymentcardsettlement.com blocked by Cloudflare; investor.visa.com RSS not found; usa.visa.com newsroom JS-rendered; web search budget exhausted.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Corner Post v. Board of Governors ruling on Regulation II (2025) and current status of the Fed's 2023 proposal to lower the debit cap",
+      "where": "federalreserve.gov/paymentsystems/regii-about.htm (last updated May 17, 2024) silent; Visa 10-K risk factors not retrievable (SEC blocks automated fetch; WebFetch truncates); federalregister.gov blocked.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Component figures of the Fed's October 2023 Reg II proposal (base cents, ad valorem, fraud adjustment)",
+      "where": "federalregister.gov/documents/2023/11/14/2023-24034 redirected to unblock page; only the press-release example (24.5 vs 17.7 cents on $50) captured.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa client incentives as a percentage of gross revenue (MD&A statement)",
+      "where": "10-K full text not retrievable beyond WebFetch truncation; only R53 dollar figures captured.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Effective date of Visa Canada interchange rates PDF and of Visa Australia inter-regional interchange page",
+      "where": "visa-canada-interchange-rates.pdf has no date; visa.com.au inter-regional page shows no effective date.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ press release text (justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets)",
+      "where": "Page redirects to /archives/ and returns an empty body to both WebFetch and curl; used the complaint PDF instead.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa's own cross-border / international service assessment fee (ISA) and international acquirer fee schedule for the U.S.",
+      "where": "Not on usa.visa.com; only the Canadian IASF (0.60%/1.00%) is published.",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Interchange rate qualification guide (U.S. Interchange Reimbursement Fee Rate Qualification Guide)",
+      "where": "Referenced in the Visa USA IRF PDF (p.13) but no public link found.",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Visa FY2025 10-K (Nov 6, 2025): settlements with opt-out merchants representing 'approximately 82%' of Visa-branded volume of opt-outs.",
+      "b": "Visa 10-Q for quarter ended June 30, 2026 (Jul 29, 2026): 'approximately 95%' of the same measure. Likely progression over time rather than a conflict, but the two filings state different figures.",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R30.htm",
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R25.htm"
+      ]
+    },
+    {
+      "a": "Federal Reserve Reg II table 'All networks' row (curl, verbatim): covered average interchange $0.23, exempt $0.51 in 2024.",
+      "b": "WebFetch summary of the same page reported network-type rows: dual-message covered $0.22, single-message covered $0.24, exempt dual-message $0.61, exempt single-message $0.26. Not a contradiction in substance (weighted average vs. by network type) but the by-type rows were not captured verbatim.",
+      "urls": [
+        "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+        "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm"
+      ]
+    },
+    {
+      "a": "Visa USA interchange schedule is dated 18 April 2026 with rates effective April 18, 2026.",
+      "b": "Interlink interchange schedule on the same Visa merchant page still shows 'Rates Effective July 1, 2023' (metadata August 2023).",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+        "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-interchange-reimbursement-fees.pdf"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Online (client portal; subscription-bundled API access)",
+      "url": "",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing"
+    },
+    {
+      "name": "Visa Developer Platform / Onboarding Dashboard (project credentials, production promotion)",
+      "url": "https://developer.visa.com/",
+      "named_at": "https://developer.visa.com/pages/going-live"
+    },
+    {
+      "name": "Visa Partner Portal dashboard",
+      "url": "https://partner.visa.com/portal/dashboard.html",
+      "named_at": "https://partner.visa.com/site/programs/visa-ready.html"
+    },
+    {
+      "name": "Visa Access (licensing applications)",
+      "url": "",
+      "named_at": "https://partner.visa.com/content/gpp/programs/licensing-program.html"
+    },
+    {
+      "name": "Visa Client Lifecycle Management Tool",
+      "url": "",
+      "named_at": "https://partner.visa.com/content/gpp/programs/licensing-program.html"
+    },
+    {
+      "name": "Third Party Agent registration (login)",
+      "url": "https://partner.visa.com/identity/user/register",
+      "named_at": "https://partner.visa.com/content/gpp/programs/third-party-agent-registration.html"
+    },
+    {
+      "name": "Visa Acceptance Portal / Enterprise Business Center (test)",
+      "url": "https://businesscentertest.visaacceptance.com/ebc2/",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Visa Fee Schedules (Visa U.S.A., Canada, Asia-Pacific, CEMEA, LAC, Visa Europe Non-EEA / Non-Regulated / Scheme)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "U.S. Interchange Reimbursement Fee Rate Qualification Guide",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf"
+    },
+    {
+      "name": "Visa Direct sales intake form (Global Client)",
+      "url": "https://globalclient.visa.com/visa-direct-na-inbound",
+      "named_at": "https://www.visa.com/en-us/products/visa-direct"
+    },
+    {
+      "name": "Cybersource / Visa Acceptance sales request form",
+      "url": "https://www.cybersource.com/en-us/contact-us/sales.html",
+      "named_at": "https://www.cybersource.com/en-us/pricing.html"
+    },
+    {
+      "name": "Payment Card Interchange Fee Settlement class site (Cloudflare-blocked)",
+      "url": "https://www.paymentcardsettlement.com/en",
+      "named_at": "https://www.paymentcardsettlement.com/en"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://usa.visa.com/support/small-business/regulations-fees.html",
+      "title": "Regulations & Fees | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-usa-interchange-reimbursement-fees.pdf",
+      "title": "Visa USA Interchange Reimbursement Fees (Visa Supplemental Requirements, 18 April 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live | Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets (press release)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets (archived press release)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.visa.co.uk/about-visa/visa-in-europe/fees-and-interchange.html",
+      "title": "Fees and interchange | Visa Europe",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.ca/en_CA/support/merchant/interchange.html",
+      "title": "(404) Visa Canada merchant interchange",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.visa.com.au/about-visa/interchange.html",
+      "title": "Interchange | Visa Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-of-card-scheme-and-processing-fees/",
+      "title": "(404) PSR market review URL variant",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/",
+      "title": "RBA Review of Retail Payments Regulation (redirect hub)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1403161&type=10-K&dateb=&owner=include&count=10",
+      "title": "EDGAR filing index - Visa Inc. 10-K",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/0001403161-25-000089-index.htm",
+      "title": "Visa Inc. 10-K FY2025 filing index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "PSR Market review into card scheme and processing fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-merchant-card-payment-costs-and-surcharging/",
+      "title": "(404) RBA URL variant",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52020DC0241",
+      "title": "EUR-Lex COM(2020) 241",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52020DC0241",
+      "title": "EUR-Lex COM(2020) 241 HTML",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://usa.visa.com/content/dam/VCOM/download/merchants/interlink-interchange-reimbursement-fees.pdf",
+      "title": "Interlink Interchange Reimbursement Fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentcardsettlement.com/en",
+      "title": "Payment Card Interchange Fee Settlement",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.visa.com/pages/pricing",
+      "title": "(404) Visa Developer pricing guess",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/pricing-guide",
+      "title": "(404) Visa Developer pricing guide guess",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20231025a.htm",
+      "title": "Federal Reserve press release, October 25, 2023",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K FY2025 (WebFetch truncated; curl blocked as automated tool)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "PSR MR22/1.10 final report",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalregister.gov/documents/2023/11/14/2023-24034/debit-card-interchange-fees-and-routing",
+      "title": "Federal Register: Debit Card Interchange Fees and Routing (proposal)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/fintech-fast-track.html",
+      "title": "(404) Visa Fintech Fast Track (usa.visa.com)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.cybersource.com/en-us/pricing.html",
+      "title": "Cybersource pricing (redirects to sales contact form)",
+      "ok": true,
+      "wall": "contact"
+    },
+    {
+      "url": "https://www.visa.co.uk/content/dam/VCOM/regional/ve/unitedkingdom/PDF/fees-and-interchange/uk-interchange-fees-feb26.pdf",
+      "title": "United Kingdom Domestic Multi-lateral Interchange Fees (Feb 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.co.uk/content/dam/VCOM/regional/ve/unitedkingdom/PDF/fees-and-interchange/april-25/intra-eea-apr25.pdf",
+      "title": "Intra Europe EEA Multi-lateral Interchange Fees (April 2025)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Merchant support | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc. (S.D.N.Y. 1:24-cv-07214)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready | Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1403161&type=10-Q&dateb=&owner=include&count=5",
+      "title": "EDGAR filing index - Visa Inc. 10-Q",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PSR PS26/1 final decision",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Visa Acceptance Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Visa Developer Pricing",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R4.htm",
+      "title": "Visa 10-K FY2025 R4 (balance sheet parenthetical)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R5.htm",
+      "title": "Visa 10-K FY2025 R5 Consolidated Statements of Operations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R6.htm",
+      "title": "Visa 10-K FY2025 R6 Comprehensive Income",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/FilingSummary.xml",
+      "title": "Visa 10-K FY2025 FilingSummary.xml",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R53.htm",
+      "title": "Visa 10-K FY2025 R53 Revenue disaggregation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R105.htm",
+      "title": "Visa 10-K FY2025 R105 Legal Matters additional information",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R30.htm",
+      "title": "Visa 10-K FY2025 R30 Legal Matters",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/0001403161-26-000104-index.htm",
+      "title": "Visa 10-Q (Jun 30, 2026) filing index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "title": "Visa 10-Q (Jun 30, 2026) main document (WebFetch truncated)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/FilingSummary.xml",
+      "title": "Visa 10-Q (Jun 30, 2026) FilingSummary.xml",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R25.htm",
+      "title": "Visa 10-Q (Jun 30, 2026) R25 Legal Matters",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/R69.htm",
+      "title": "Visa 10-Q (Jun 30, 2026) R69 Legal Matters additional information",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://competition-policy.ec.europa.eu/sectors/financial-services/interchange-fees_en",
+      "title": "(404) EC interchange fees page guess",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://competition-policy.ec.europa.eu/sectors/financial-services_en",
+      "title": "EC Competition Policy - Financial services",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://competition-policy.ec.europa.eu/document/download/d8055968-b4c2-424b-b281-c4c6959df19b_en?filename=IFR_report_card_payment.pdf",
+      "title": "SWD(2020) 118 final - Report on the application of the IFR",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-of-uk-eea-consumer-cross-border-interchange-fees/",
+      "title": "(404) PSR cross-border URL guess",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/",
+      "title": "PSR Market reviews",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-cross-border-interchange-fees/",
+      "title": "PSR Market review into cross-border interchange fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+      "title": "Fintech Fast Track | Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+      "title": "Visa Licensing Program | Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/content/gpp/programs/third-party-agent-registration.html",
+      "title": "Third Party Agent Registration | Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/about.html",
+      "title": "RBA Review of Retail Payments Regulation - About",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "RBA Conclusions Paper March 2026 (hub)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/",
+      "title": "RBA Conclusions Paper (table of contents)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/pdf/conclusions-paper.pdf",
+      "title": "RBA Conclusions Paper PDF (31 March 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com.au/about-visa/inter-regional-interchange.html",
+      "title": "Inter-regional Interchange Rates | Visa Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.ca/en_CA/support/small-business/interchange.html",
+      "title": "Interchange | Visa Canada",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-acquiring-network-assessment%20Fees.pdf",
+      "title": "Visa Canada Standard Acquiring Network Assessment Fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-interchange-rates.pdf",
+      "title": "Visa Canada Interchange Reimbursement Fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.ca/content/dam/VCOM/regional/na/canada/Support/Documents/visa-canada-upcoming-changes-to-interchange-rates.pdf",
+      "title": "Visa Canada Upcoming Interchange Modifications (Sept 4, 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/atr/case/us-v-visa-inc-2024",
+      "title": "U.S. v. Visa Inc. [2024] case page (DOJ Antitrust)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/products/visa-direct",
+      "title": "Visa Direct | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing) - About",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/rss/news-releases.xml",
+      "title": "(not found) Visa IR RSS",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom.html",
+      "title": "Visa newsroom (JS-rendered; no settlement text found)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

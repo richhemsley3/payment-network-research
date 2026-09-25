@@ -1,0 +1,753 @@
+{
+  "network": "mastercard",
+  "dimension": "join",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "join",
+      "claim": "Participation is gated: an entity must be approved as a Customer, execute the applicable Licenses and pay associated fees before conducting any Activity (Rule 1.1).",
+      "quote": "no entity may participate in Activity until that entity is approved to be a Customer by the Corporation, has executed the applicable Licenses",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.1 Eligibility to be a Customer, BIN Sponsor, or Affiliate Sponsoring Customer, PDF p.34",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF (503 pages, 1.8 MB) fetched inside the browser pane session from the public Rules page and text-extracted with pdf.js; curl and WebFetch receive Akamai 403. Rule 1.5 adds that pending approval Mastercard 'may authorize the applicant to participate in Activity on an interim basis' at the applicant's own risk (p.41)."
+    },
+    {
+      "dimension": "join",
+      "claim": "To be a Principal or Affiliate an applicant must be a regulated financial institution (or other legal entity authorized for financial transactions) with acceptable business plans; admission is at Mastercard's sole discretion (Rule 1.1.1).",
+      "quote": "A financial institution applicant must be regulated and supervised by one or more governmental authorities or agencies",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.1.1 Principal or Affiliate, PDF p.34",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page: 'The decision to admit an applicant as a Principal or Affiliate of the Corporation is made at the sole discretion of the Corporation.' Non-FI applicants 'must satisfy such eligibility criteria as the Corporation may adopt from time to time'."
+    },
+    {
+      "dimension": "join",
+      "claim": "An Affiliate Sponsoring Customer is a participation type for entities that sponsor Affiliates but cannot themselves issue or acquire; an Association is one form of it (Rules 1.1.2 and 1.1.3).",
+      "quote": "An Affiliate Sponsoring Customer does not have the regulatory authority to issue Cards or acquire Transactions itself",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.1.3 Affiliate Sponsoring Customer, PDF p.35",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 1.1.2 (p.35): 'An Association is a type of Affiliate Sponsoring Customer.' Eligibility requires demonstrated ability 'to act as an operational hub for Affiliates'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Since 20 May 2025 a Principal must obtain Mastercard's approval before acting as BIN Sponsor for a Sponsored Program Manager (fintech/program-manager model), and that approval is revocable without notice (Rule 1.1.4).",
+      "quote": "Before becoming a BIN Sponsor for a Sponsored Program Manager, a Principal must obtain approval for such Activity from the Corporation.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.1.4 BIN Sponsor, PDF p.35",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'This requirement applies with respect to all new and renewed Sponsored Program Manager registrations effected on or after 20 May 2025.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Payment Transfer Activity (money movement) has its own participation type, the PTA Customer, requiring approval, a PTA Agreement per program, and ISO/IEC 27001 or PCI DSS compliance (Rule 1.1.6).",
+      "quote": "No entity may Participate in a PTA Program as a PTA Customer until that entity is approved to be a PTA Customer",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.1.6 Payment Transfer Activity Customer, PDF p.36",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Eligibility list item 1 requires 'ISO/IEC 27001 or the Payment Card Industry Data Security Standard (PCI DSS)'. An entity 'may be a Principal for Payment Transfer Activity and an Affiliate for another Activity, or vice versa'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Digital Activity Customer is a non-issuing, non-acquiring participation type (wallets, token requestors) whose eligibility includes passing Mastercard certification and testing (Chapter 9, Rule 1.1.5).",
+      "quote": "The successful completion of such certification and testing procedures as the Corporation may require.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Chapter 9 Digital Activity, Rule 1.1.5 Digital Activity Customer, PDF p.211",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Definitions (p.472): a Digital Activity Customer 'may not issue Cards, acquire Transactions, or Sponsor any other Customer into the Corporation.' Rule 1.8 (p.212): each must sign a Digital Activity Agreement containing 'a limited License ... with no specified Area of Use'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Customers must meet minimum financial requirements set by Mastercard, which may include capital adequacy and subjective management assessments, and Mastercard may require collateral or escrow as a condition of participation (Rules 1.3 and 1.4).",
+      "quote": "Each Customer at all times must satisfy the minimum financial requirements established by the Corporation from time to time.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.3 Satisfaction of Minimum Financial Requirements, PDF p.40",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "The actual thresholds are not published in the Rules. Rule 1.4 (p.41): participation may be conditioned on 'the establishment of escrow arrangements, the delivery of letters of credit'."
+    },
+    {
+      "dimension": "join",
+      "claim": "AML and sanctions compliance programs are an explicit condition of being granted a License, and each Customer must keep AML and Sanctions Compliance contacts current in My Company Manager on Mastercard Connect (Rule 1.2).",
+      "quote": "As a condition of being granted a License and/or as a condition of an execution of a PTA Agreement by the Corporation",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.2 Mastercard Anti-Money Laundering and Sanctions Requirements, PDF p.36-37",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "p.37: contacts must be provided 'in the My Company Manager application on Mastercard Connect'. Failure 'may result in: The denial of a License'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard alone decides the level of participation (Principal vs Affiliate) for each applicant, Customer, Service Provider and Network Enablement Partner; a Customer's License is limited to an Area of Use (Rules 1.9 and 1.7).",
+      "quote": "The Corporation has the right to determine the appropriate level of Participation (for example, Affiliate or Principal) for each applicant",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.9 Participation in Activity(ies) and Digital Activity, PDF p.46",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 1.7 (p.42): 'each Customer may use a Mark and conduct Activity solely in the Area of Use in which the Customer has been granted a License'; 1.7.1 requires an application to extend it. Rule 1.9.3 (p.47): 'An Affiliate cannot Sponsor another Affiliate'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Under the sponsor model the Principal or Affiliate Sponsoring Customer is liable to Mastercard and all other Customers for everything its Sponsored Affiliates, Sponsored Program Managers and Co-brand Partners do (Rule 2.2.2).",
+      "quote": "Each Sponsor is liable to the Corporation and to all other Customers for all Activities of each of its Sponsored Affiliates",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 2.2.2 Obligations of a Sponsor, PDF p.65",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "join",
+      "claim": "The Rules define a Principal as a Customer that participates directly using its own BINs/IINs and may sponsor Affiliates; 'Participation' is Mastercard's term for membership, and a Customer may be a Principal, Association, Affiliate, Digital Activity Customer, Sponsored Digital Activity Entity or PTA Customer.",
+      "quote": "A Customer that participates directly in Activity using its assigned BINs/IINs and that may Sponsor one or more Affiliates.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Definitions: Principal (PDF p.491), Customer (p.471), Participation",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Definitions: 'For a Mastercard Customer, Participation is an alternative term for Membership.' and 'A Customer may be a Principal, Association, Affiliate, Digital Activity Customer, Sponsored Digital Activity Entity, or PTA Customer.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Each Customer is identified by an ICA number assigned by Mastercard; ICA and BIN assignment are part of onboarding and, for API products, are set up with the regional customer representative.",
+      "quote": "A unique number assigned by the Corporation to identify a Customer in relation to Activity.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Definitions: ICA",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Mastercard Send docs add: 'An Interbank Card Association (ICA) number is a unique identification number assigned by Mastercard to identify each OI and TI.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "In the US Region a Mastercard Affiliate may participate indirectly through a Type I TPP's ICAs and BINs (a processor can sponsor an issuing Affiliate), but must be sponsored by a Principal or Association for acquiring.",
+      "quote": "participates indirectly in Mastercard Activity through the Sponsorship of a Mastercard Principal, an Association, or a Type I TPP",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Chapter 16 United States Region, Definitions: Mastercard Affiliate, PDF p.355; Rule 7.9 Type I TPP Obligations, p.369",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "US Rule 7.9: 'a Type I TPP in the U.S. Region may Sponsor an Affiliate to engage in Mastercard and/or Maestro issuing Activity' and may participate in Settlement as agent. US definitions also name a 'debit Licensee' with a License 'limited to the issuance of Debit Mastercard Cards' (Rule 8.6, p.371)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Third parties are categorized as Service Providers by program service (3-DSSP, AML/Sanctions SP, BPSP, DSE, DASP, DCC SP, ISO, Installment SP, MMSP, Staged DWO, TSP, Payment Facilitator, Merchant Payment Gateway, Terminal Servicer, Co-brand Partner, Sponsored Program Manager, BIN Sponsor Partner, TPP) and may only perform the service they are registered for (Rule 7.1).",
+      "quote": "A Service Provider may only perform the Program Services such Service Provider is registered by the Customer to perform.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Chapter 7 Service Providers and Network Enablement Partners, Rule 7.1 Service Provider Categories and Descriptions, PDF p.155-165",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "ISO Program Service includes 'Terminal deployment, not including ATM Terminal deployment by an ATM Terminal owner that does not perform any other type of ISO Program Service' (p.158), so a pure ATM deployer is not an ISO. A corporate affiliate serving only its parent Customer 'is deemed not to be a Service Provider' (p.155)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard stopped designating new Type I TPPs on 20 May 2025; existing Type I TPPs may remain, and Type I registration is no longer available in Europe.",
+      "quote": "As of 20 May 2025, Service Providers are no longer designated as Type I TPPs.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.1 TPP subcategories, PDF p.165; Rule 7.10.2, p.189",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "p.189: 'Registration as a Type I TPP is no longer available in the Europe Region. Any existing Type I TPP may remain a Type I TPP.' Type II is any TPP not deemed Type I; Type III is a US Region category."
+    },
+    {
+      "dimension": "join",
+      "claim": "Service Provider registration is done by the sponsoring Customer (not the third party) through the My Company Manager application on Mastercard Connect, with required materials due within 30 days and an annual re-validation (Rule 7.10).",
+      "quote": "provide all information and material required by the Corporation in connection with the proposed registration to the My Company Manager application or service_provider@mastercard.com",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.10 Registration and Validation Requirements for Service Providers, PDF p.186-188",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Customer must also 'Validate that the Customer understands, meets and validates the Customer's responsibilities ... within 30 days of the registration application submission date and once during each calendar year thereafter.' Rule 7.10.7 (p.190): failure is 'subject to noncompliance assessments of up to USD 25,000 for each 30-day period of noncompliance.' A Service Provider must be registered separately by each Customer and for each Program Service (items 5 and 6, p.187)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Registration carries an initial fee and an annual renewal fee billed to the Customer via MCBS (or directly to a Type I/Type III TPP); the amounts are not published in the Rules, which point to the Pricing and Billing Center on Mastercard Connect.",
+      "quote": "an initial registration fee and the applicable annual renewal fee is charged by the Corporation to the Customer and debited from the Customer using MCBS",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.10 item 3, PDF p.187; Rule 3.8 Fees, Assessments, and Other Payment Obligations, p.76",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 3.8: fees are those 'including those set forth in the Pricing and Billing Center on Mastercard Connect'. US Rule 7.10.3 (p.371): for Type III TPPs 'the applicable fee is charged by the Corporation directly to the Type III TPP.' No public fee schedule for licensing or registration was found."
+    },
+    {
+      "dimension": "join",
+      "claim": "A Service Provider that touches cardholder data must validate PCI compliance under the Site Data Protection program (via pcireports@mastercard.com) before registration is complete, and the Customer must receive written confirmation before using the provider.",
+      "quote": "The registration of a proposed Service Provider will not be deemed complete until the Customer's compliance is validated.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.10 item 1-2, PDF p.187",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'The Customer must receive the Corporation's written confirmation of the registration before using a Service Provider for Program Service.' A compliance action plan may be accepted for non-compliant providers 'except that a compliance plan is not acceptable for Type I TPP Service Providers.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "A TPP designated Type I must register within 90 days using TPP Registration Form 919 plus an SSAE 18 or ISAE 3402 audit report and a business continuity form, emailed to tpp_registration@mastercard.com (Rule 7.10.2).",
+      "quote": "the TPP must submit TPP Registration Form 919 SSAE 18 or ISAE 3402 (or a Corporation approved equivalent standard) form and business continuity form",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.10.2 Registration Requirements for Type I TPPs, PDF p.188",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Type I TPPs must inform Mastercard 'of all ICA numbers pertaining to which such Type I TPP is performing any Program Service' (p.189)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Network Enablement Partner (NEP) is a direct-contract tier for operationally significant Service Providers: a provider may apply, or Mastercard may designate it, after which it must sign an NEP Agreement within 30 days or Customers must stop using it within 180 days (Rules 7.11.1-7.11.2).",
+      "quote": "May be designated by the Corporation to be a Network Enablement Partner, when deemed by the Corporation to be operationally significant",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.11 Network Enablement Partners, PDF p.190-195",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Applicants 'complete and submit the NEP Application form to service_provider@mastercard.com'. NEPs pay their own 'registration and renewal fees' (7.11.3 item 6), are bound by Rules 2.2.7, 2.3, 2.4, 2.5, 3.7, 3.8, 3.15 and AML/sanctions 'as if such Network Enablement Partner was a Customer', are jointly and severally liable with registering Customers (7.11.4.4), and 'may apply to the Corporation to participate in the testing of assets of the Corporation (for example, an ICA or a BIN)' (7.11.4.5)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Certain roles must be NEPs: a Payment Facilitator submitting direct to the Interchange System where its Acquirer cannot see transactions, a Payment Facilitator of Specialty Merchants, and any BIN Sponsor Partner.",
+      "quote": "whose Acquirer does not have the ability to see such Transactions at the time of submission, must register as a Network Enablement Partner.",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.8.2 item 8 and 7.8.3, PDF p.186; Rule 7.7.7 BIN Sponsor Partner, p.180",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rule 7.7.7: 'The BIN Sponsor Partner must be approved by the Corporation as a Network Enablement Partner with permission to act as a BIN Sponsor Partner.' Rule 7.7.6 (p.179): 'Only one Sponsored Program Manager is permitted per Card Program' and an SPM 'Becomes a Network Enablement Partner, when specified by the Standards'."
+    },
+    {
+      "dimension": "join",
+      "claim": "A Token Service Provider must complete Mastercard's certification and testing procedures before a Customer may register it; Customers must also verify any Service Provider is a bona fide business with adequate data safeguards (Rule 7.2).",
+      "quote": "Prior to registering a TSP, confirm that such entity satisfies all certification and testing procedures established by the Corporation",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 7.2 The Performance of Program Service, PDF p.165",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "The certification procedures themselves are not described in the public Rules."
+    },
+    {
+      "dimension": "join",
+      "claim": "The Rules' own audience metadata names the partner roles Mastercard documents for, including Branded Processor, Network Enablement Partner, MPGS (gateway) resellers and merchants, and a 'Global Vendor Certification Program' for vendors.",
+      "quote": "Acquirer, Branded Processor, Issuer, Network Enablement Partner, MPGS Acquirer Reseller, MPGS Merchant, MPGS Non-Acquirer Reseller, Processor, Vendor - Global Vendor Certification Program",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), front matter Table 1 Details (Audience), PDF p.24",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page directs non-urgent questions to 'Create a case on the Technical Resource Center to create a case in Support Case Management' and urgent ones to Customer Technical Services by phone. No public page describing the Global Vendor Certification Program was found."
+    },
+    {
+      "dimension": "join",
+      "claim": "A senior executive of each Principal, Affiliate Sponsoring Customer, Affiliate, NEP and Digital Activity Customer must certify compliance with any Standard in writing on request (Rule 2.1.5), the only 'certification' rule in Chapter 2.",
+      "quote": "A senior executive officer of each Principal, Affiliate Sponsoring Customer, Affiliate, Network Enablement Partner, and Digital Activity Customer must, if requested by the Corporation",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 2.1.5 Certification, PDF p.62",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Customers must also take part 'in mandatory training designed to ensure the Customer understands its responsibilities under the Standards' (Rule 2.2.1 item 10, p.65)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Customers may join other ATM networks as issuer or acquirer alongside the Mastercard ATM Network provided they are not Competing ATM Networks (Rule 1.10), and acquirers of ATM owners must run their own ATM AML monitoring (Rule 1.2.1.1).",
+      "quote": "A Customer may take part, as either an issuer or an acquirer or both, in any ATM network in addition to the Mastercard",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+      "title": "Mastercard Rules (2 June 2026 edition), Rule 1.10 Participation in Competing Networks, PDF p.47; Rule 1.2.1.1, p.39",
+      "publisher": "Mastercard International Incorporated",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "p.39: 'the Acquirer of any ATM Owners or Service Providers who process ATM Transactions are obligated to monitor ATM Activity regardless of the monitoring obligation of the Issuer.' Rule 5.1.3 sets required ATM Owner Agreement terms (p.108)."
+    },
+    {
+      "dimension": "join",
+      "claim": "For EEA/UK/Gibraltar switching, a Network Participant must test and obtain certification of its equipment and connections before switching, and must file routing tables (IRT/IDF) at least five business days before going live (Switch Rules 4.1-4.2).",
+      "quote": "the Network Participant must perform testing and obtain any necessary certifications of its equipment, procedures, and Network connections as may be required",
+      "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+      "title": "Mastercard Switch Rules (16 December 2025), Chapter 4 Connecting to the Network and Authorization Routing, PDF p.43",
+      "publisher": "Mastercard International Incorporated (Mastercard Switching Services)",
+      "published": "2025-12-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF (114 pages) fetched inside the browser pane and text-extracted with pdf.js. p.11: applies to 'intra-EEA/United Kingdom/Gibraltar Transactions'; a Network Participant 'indicates its agreement to respect these rules in writing and/or by the act of using the Network'. Routing: 'no later than five business days prior to the requested effective date of live switching'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Developers is self-service to Sandbox: sign up, create a project, download credentials and test; Production credentials are issued instantly but only activate after Mastercard reviews and approves the Production request.",
+      "quote": "Production credentials are generated instantaneously but they are only activated once your Production request is approved.",
+      "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/",
+      "title": "Quick Start Guide | Mastercard Developers",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page is a JS app; text read in the browser pane (curl returns the shell only; the same content is served as markdown at /platform/documentation/quick-start-guide/index.md). Also: 'Keys generated on Mastercard Developers are valid for 13 months'; 'Some services require approval before granting access to their Sandbox environment'; production prerequisites include company verification and 'commercial countries'. No published approval timeline for Production access."
+    },
+    {
+      "dimension": "join",
+      "claim": "Company verification is a Production prerequisite with three routes: linking an existing Mastercard Connect profile (instant self-verification), entering a Mastercard Company ID (CID), or submitting company details for review.",
+      "quote": "Link your Mastercard Developers profile with an existing Mastercard Connect profile. This results in instant self-verification.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md",
+      "title": "Company Verification | Mastercard Developers (platform documentation, markdown)",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'A CID is a 6-10 digit ID that Mastercard assigns to a business so that it can be recognized and verified across Mastercard.' 'Customers who use single sign-on (SSO) are verified automatically'. Verification 'ensures your company is registered to do business with Mastercard'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Companies not yet registered with Mastercard can be onboarded from the developer portal for services with automated onboarding, receiving a new CID; cases that need extra review get a Due Diligence Reference Number (DDRN) and go through Mastercard's due diligence process.",
+      "quote": "a Due Diligence Reference Number (DDRN) is generated, and the request is routed through Mastercard's due diligence process for further validation.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md",
+      "title": "Company Verification | Mastercard Developers, section 4-5 Onboarding for Companies Not Yet Registered / Additional Review",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Onboarding emails come from noreplycompanyonboarding@mastercard.com; 'It can take up to 2 hours for the status of your Mastercard Developer's account to be updated to Verified'. No duration is given for the DDRN review: 'Additional review may take longer than the standard automated onboarding process.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Every Mastercard customer CID carries a Business Relationship Type (BRT) that governs which APIs it may take to Production; adding a BRT routes the company through the Customer Onboarding Platform questionnaire.",
+      "quote": "The BRT defines the nature of your company's relationship with Mastercard and the types of products and services your company is authorized to use.",
+      "url": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md",
+      "title": "Business Relationship Type (BRT) | Mastercard Developers (platform documentation, markdown)",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Follow the link to the Customer Onboarding Platform and complete the required questionnaire. After review and approval, the missing BRT will be added to your company's CID.' BRT names/values are not published."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercom (disputes API) publishes onboarding SLAs: the Mastercard License Agreement is loaded 5-7 business days after artifacts are submitted, MTF validation is signed off by the Customer Implementation Services team, and production keys are approved in 3 business days.",
+      "quote": "Technical promotion and approval of production keys takes 3 business days upon submission of the correct artifacts.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md",
+      "title": "Mastercom Onboarding Checklist | Mastercard Developers",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Uploaded to centralized database 5--7 business days from the time you submit all required artifacts.' 'The SLA timeframes documented on this page apply uniformly across all regions, product tiers, and risk categories.' 'Service providers are provisioned by acquirers.' Artifacts: Signed License Agreement Form, Production Key Request Form, CSR."
+    },
+    {
+      "dimension": "join",
+      "claim": "Going live on Mastercom requires a Mastercard Connect user with the right BIN or ARID access in Access Manager, product ordering through the Mastercard Connect Store, and ICA/BIN/ARID setup with a regional customer representative before Sandbox keys are promoted to MTF.",
+      "quote": "A Production client ID is associated with one Mastercard Connect User ID.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/index.md",
+      "title": "Mastercom Quick Start Guide | Mastercard Developers",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'A regional customer representative will work with you on how to order this product through the Mastercard Connect Store, set up BINs, ARIDs and ICAs, and promote the Sandbox keys to MTF.' Regional CIS mailboxes: CIS_NorthAmerica_Support@, CIS_LAC_Support@, CIS_EEMEA@mastercard.com; Asia/Pacific and Europe go via account manager. 'The Mastercard Test Facility (MTF) environment is not suitable to perform high-volume or load-testing.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Send is only available to, or through, a licensed Mastercard acquirer or issuer acting as Originating Institution; fintechs and Transaction Initiators must partner with one and be registered by it.",
+      "quote": "If you are not a Mastercard acquirer or issuer, or you do not partner with one, you will be unable to complete Mastercard Send onboarding",
+      "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md",
+      "title": "Mastercard Send Disbursements Onboarding Checklist | Mastercard Developers",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Participant types (Registration and Eligibility page): Financial institutions, 'Licensed money transmitters', 'Service Providers and digital players partnering with Financial Institutions/sponsors', businesses and governments disbursing own funds. 'Mastercard does not transmit funds. All Mastercard Send and Mastercard Network funds are transmitted by a licensed Financial Institution'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Send publishes indicative onboarding durations: registration 2-4 weeks, MTF environment configuration 5-7 business days, production configuration 5-7 business days, and an overall lifecycle of planning 2-4 weeks, implementation 1-3 months, launch 2-4 weeks, ending with a Testing Acknowledgment Notice (TAN) letter from CIS.",
+      "quote": "Registration can take 2-4 weeks, but it can be longer depending on the entities being registered",
+      "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md",
+      "title": "Mastercard Send Disbursements Onboarding Checklist | Mastercard Developers; Registration and Eligibility page (mastercard-send/documentation/send-eligibility/)",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'This step is complete when the CIS team has verified your MTF tests and issues a Testing Acknowledgment Notice (TAN) letter.' Eligibility page: 'the Mastercard Test Facility (MTF) and Production environments will not be accessible until your program is approved and implemented' and 'Please do not plan your project based on this information.' A Mastercard Delivery Manager and CIS Implementation Manager are assigned after registration."
+    },
+    {
+      "dimension": "join",
+      "claim": "A new licensee's application is the 'Universal Onboarding Template - New Licensed Customer Application' (form 1400), a public Qualtrics form titled as an application for the license to use Mastercard service marks; Send also uses enrollment forms 1060 and 1190 and a Reseller Sponsor Bank Enrolment Form.",
+      "quote": "Universal Onboarding Template -- New Licensed Customer Application",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md",
+      "title": "Mastercard Send Registration and Eligibility | Mastercard Developers, Registration forms table",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table: required 'Yes, if you are not a Mastercard customer.' The form itself at https://form.mastercard.com/jfe/form/SV_6qXYVujEUEnuCtE carries the HTML title 'Mastercard Universal Onboarding - Application for the License to Use Service(s) Marks' (curl, 2026-09-25; form not opened or filled). Other forms are in the Forms Library on Mastercard Connect. Reseller model: 'Reseller Sponsor Bank Enrolment Form, Reseller Standard Terms ... if you are seeking to resell domestic Mastercard Send API services.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Connect access for a company not yet listed requires registering administrators via the Mastercard Connect Access Form (1145/1145b) obtained from a Mastercard representative; the Technical Resource Center, Forms Library, My Company Manager and the Mastercard Send Customer Site all sit behind Connect.",
+      "quote": "contact your Mastercard representative for the Mastercard Connect Access Form (1145 or 1145b).",
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md",
+      "title": "Mastercard Send Registration and Eligibility | Mastercard Developers, Accessing Mastercard Connect and Resources",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'You need a Mastercard Connect account to access the Technical Resource Center'; Program Standards and the Mastercard Rules bundle are in the TRC. Customers register Service Providers 'to be Mastercard Service Providers (MSPs)' and add programs in My Company Manager; Send Customer Site and My Company Manager are requested 'from Store in Mastercard Connect'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Connect self-sign-up is a three-step flow that ends with approval by an administrator at the applicant's own company, not by Mastercard; the portal itself is fully behind login.",
+      "quote": "we’ll pass your account request over to an administrator at your company. They’ll review and approve your Connect account.",
+      "url": "https://www.mastercardconnect.com/-/sign-up",
+      "title": "Mastercard Connect - Sign Up, Step 1 of 3: About your company",
+      "publisher": "Mastercard (mastercardconnect.com)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Rendered in the browser pane; no form was filled. Root https://www.mastercardconnect.com/ redirects to /-/sign-in; the HTML meta description reads 'Where you connect with Mastercard to grow your business.' The Store (/-/store-plus) also redirects to sign-in."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Engage is the partner programme for technology enablers: onboarding is an online application, product qualification, franchise screening, ID issuance and a programme agreement, offered at no charge, with a public partner directory.",
+      "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+      "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html#/en/home",
+      "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane (Akamai blocks curl). FAQ: 'The Engage program is being offered to customers and partners at no additional charge.'; 'A qualified partner is a company that has completed Mastercard's product qualification process'; claims '170+ qualified financial technology partners' and '500+ customers connected' citing 'Mastercard internal data'. Directory: https://engagepartners.mastercard.com/english/directory/ (public, curl 200). The seed https://developer.mastercard.com/engage returns HTTP 401 'Session expired' to curl and a 404 in the browser; the developer support page links Engage to the mastercard.com page instead."
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard's fintech page markets 'Product Express' as the fast-track card-programme route in which Mastercard handles licensing and onboarding through pre-certified partners, alongside Start Path, Engage and dedicated account management; no page named 'Fintech Express' exists on the current site.",
+      "quote": "45+ pre-certified Product Express partners ready to support a simple, fast and transparent launch - in as quick as days",
+      "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs.html",
+      "title": "Mastercard Fintech Solutions - Scale Your Ideas and Business | Mastercard Global",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "'We get your card program up and running quickly — handling licensing, onboarding and partnerships — to get cards into customers' hands in a flash.' Start Path: '400+ fintechs from 54 countries have worked with Start Path, including Revolut, Razorpay and Airwallex'. Dedicated Product Express and Start Path pages at guessed URLs returned 404."
+    },
+    {
+      "dimension": "join",
+      "claim": "In its 10-K Mastercard describes participant onboarding as a franchise function that checks each new customer against prerequisites and assigns ecosystem roles, and identifies Class B stock eligibility with principal or affiliate customers.",
+      "quote": "We determine that each new customer meets the necessary prerequisites to use and contribute to our network by defining clear ecosystem roles",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025, Part I Item 1 Business (Franchise) and Note 16 (Class B Common Stock)",
+      "publisher": "U.S. Securities and Exchange Commission (EDGAR), filed by Mastercard Incorporated",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Note: 'Entities eligible to hold Mastercard's Class B common stock are defined in the Company's amended and restated certificate of incorporation (generally the Company's principal or affiliate customers)'. IP section: 'Through license agreements with our customers, we authorize the use of our trademarks on a royalty-free basis'. Also: 'Our Mastercard Developers platform makes it easy for customers and partners to leverage our many digital assets and services.'"
+    },
+    {
+      "dimension": "join",
+      "claim": "Mastercard Academy is the named training surface offering payments 'certifications', but its landing page shows only region selectors and no public course catalogue or certification list.",
+      "quote": "Obtain the skills and certifications you need to succeed in the world of payments, from anywhere, at any time.",
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy",
+      "publisher": "Mastercard",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane; curl receives an unsupported-browser shell. The Rules page links to it as 'Explore training sessions via the Mastercard Academy'. Engage FAQ lists 'education through Mastercard Academy' as a partner benefit."
+    },
+    {
+      "dimension": "join",
+      "claim": "Merchant Cloud (Mastercard Gateway) positions itself to acquirers, PSPs, software vendors, payment facilitators and marketplaces as a single-integration acceptance platform, with the Cloud Commerce API used by 'Acquirers, Processors, Gateways, Payment Facilitators'.",
+      "quote": "Powering commerce to 200+ acquirers in 170+ markets per year",
+      "url": "https://developer.mastercard.com/product/merchant-cloud/",
+      "title": "Merchant Cloud | Mastercard Developers",
+      "publisher": "Mastercard (developer.mastercard.com)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Rendered in browser pane. Also claims 'Level 1 PCI Compliance' and 'Processing 500k merchants annually with 99.95% availability'. No onboarding, certification or fee information on the page beyond 'Contact us' and 'Create your project'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Published application, license or membership fee amounts for becoming a Mastercard Principal, Affiliate or Service Provider",
+      "where": "Mastercard Rules 2 June 2026 (Rules 1.1, 3.8, 7.10 refer to fees but point to the Pricing and Billing Center on Mastercard Connect); mastercard.com rules page; developer.mastercard.com platform docs",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published timeline for approval of a License application or Production access request on Mastercard Developers",
+      "where": "Mastercard Rules Chapter 1; Quick Start Guide; Company Verification doc (only Mastercom 3 / 5-7 business day SLAs and Mastercard Send 2-4 week estimates are published)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard 'Fintech Express' programme page",
+      "where": "https://www.mastercard.com/global/en/business/fintech/fintech-programs.html lists Start Path, Product Express, Engage and Account management only; developer.mastercard.com llms.txt has no mention; WebSearch budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard M-TIP / Terminal Integration Process or acquirer host certification public page",
+      "where": "developer.mastercard.com llms.txt (no M-TIP or TIP mention); Mastercard Rules (TSP certification referenced but not described); emvco.com approvals page 404; fime.com guessed URL 404; uspaymentsforum.org 403; no web search available",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "US Payments Forum EMV testing and certification white paper",
+      "where": "https://www.uspaymentsforum.org/knowledge-center/ (WebFetch 403) and site search (curl 403)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Dedicated Product Express and Start Path programme pages",
+      "where": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/product-express.html and /start-path.html (404 in browser); engage.mastercard.com and startpath.mastercard.com (no DNS)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Global Vendor Certification Program description (named in Rules audience metadata)",
+      "where": "Mastercard Rules p.24 names it; no public page located without search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Academy course catalogue or list of certifications for partners",
+      "where": "https://academy.mastercard.com/ landing (region selectors only; regional portals not opened)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Content of Mastercard Engage inside Mastercard Developers (seed https://developer.mastercard.com/engage)",
+      "where": "curl returns HTTP 401 JSON {code DP10005 'Session expired'}; browser shows 404; only the mastercard.com Engage page and engagepartners.mastercard.com directory are public",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Business Relationship Type (BRT) values / list of relationship types",
+      "where": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md (describes mechanism, not the list)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Rule 7.1 (PDF p.165): 'As of 20 May 2025, Service Providers are no longer designated as Type I TPPs.'",
+      "b": "Rule 7.10.2 (PDF p.188) in the same 2 June 2026 edition still prescribes: 'Within 90 days of receiving notification of such Service Provider's designation by the Corporation as a Type I TPP, the TPP must submit TPP Registration Form 919', and US Rule 7.9 (p.369) still lets a Type I TPP sponsor issuing Affiliates.",
+      "urls": [
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+        "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+      ]
+    },
+    {
+      "a": "Mastercard Developers support page links 'Visit Engage' to https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html, and the Engage FAQ says 'Learn more at www.mastercard.com/engage'.",
+      "b": "The seed https://developer.mastercard.com/engage answers HTTP 401 'Session expired' (curl) / 404 (browser), and https://www.mastercard.com/engage answers Akamai 403 to curl; the two Engage entry points named by Mastercard do not resolve consistently for non-browser clients.",
+      "urls": [
+        "https://developer.mastercard.com/support",
+        "https://developer.mastercard.com/engage"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Connect (client portal; root redirects to sign-in)",
+      "url": "https://www.mastercardconnect.com/",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md"
+    },
+    {
+      "name": "Mastercard Connect Store (Store Plus; product ordering)",
+      "url": "https://www.mastercardconnect.com/-/store-plus",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/index.md"
+    },
+    {
+      "name": "Mastercard Connect Sign Up (3-step; approved by company administrator)",
+      "url": "https://www.mastercardconnect.com/-/sign-up",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "My Company Manager (Mastercard Connect application for Service Provider registration, programs, BINs, AML/sanctions contacts)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Access Manager (Mastercard Connect; BIN/ARID access for API production client IDs)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md"
+    },
+    {
+      "name": "Pricing and Billing Center (Mastercard Connect; fee schedules)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "MCBS - Mastercard Consolidated Billing System (registration fees debited)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    },
+    {
+      "name": "Technical Resource Center (Mastercard Connect; Rules bundles, Program Standards, Support Case Management)",
+      "url": "https://trc-techresource.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Forms Library (Mastercard Connect; registration forms)",
+      "url": "https://forms-techresource.mastercard.com/",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Universal Onboarding Template - New Licensed Customer Application (form 1400; Qualtrics, public landing, not filled)",
+      "url": "https://form.mastercard.com/jfe/form/SV_6qXYVujEUEnuCtE",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Mastercard Send Enrollment Request for Originating Institutions (form 1060) and for Transaction Initiators and Senders (form 1190)",
+      "url": "https://form.mastercard.com/jfe/form/SV_3OtwmrfswSROCfs",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Mastercard Connect Access Form (1145 / 1145b; from Mastercard representative)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Customer Onboarding Platform (BRT questionnaire, emailed link)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md"
+    },
+    {
+      "name": "Mastercard Test Facility (MTF) environment (post-registration integration testing; e.g. sandbox.api.move.mastercard.com/send)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/quick-start-guide/index.md"
+    },
+    {
+      "name": "Mastercard Send Customer Site (MTF and Production versions; requested from Connect Store)",
+      "url": "",
+      "named_at": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md"
+    },
+    {
+      "name": "Mastercard Developers account / My Projects dashboard (login)",
+      "url": "https://developer.mastercard.com/dashboard",
+      "named_at": "https://developer.mastercard.com/platform/documentation/quick-start-guide/"
+    },
+    {
+      "name": "Mastercard Developers Engage route (401 Session expired / 404)",
+      "url": "https://developer.mastercard.com/engage",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Mastercard Engage partner portal and application ('Apply now')",
+      "url": "https://engagepartners.mastercard.com/english/directory/",
+      "named_at": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html#/en/home"
+    },
+    {
+      "name": "Mastercard Academy (regional training portals)",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "Mastercard Developers Forum (Salesforce community)",
+      "url": "https://forum.developer.mastercard.com/s/",
+      "named_at": "https://developer.mastercard.com/support"
+    },
+    {
+      "name": "Mastercard Business Intelligence and Mastercard Marketing Center (footer 'Mastercard Sites')",
+      "url": "",
+      "named_at": "https://www.mastercard.com/us/en/business/support/rules.html"
+    },
+    {
+      "name": "service_provider@mastercard.com, tpp_registration@mastercard.com, pcireports@mastercard.com (registration mailboxes)",
+      "url": "",
+      "named_at": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf"
+    }
+  ],
+  "sources_read": [
+    { "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html", "title": "Mastercard Rules (seed URL; Akamai 403 to curl/WebFetch; browser redirects to mastercard.com/us/en/business/support/rules.html)", "ok": false, "wall": "bot" },
+    { "url": "https://www.mastercard.com/us/en/business/support/rules.html", "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf", "title": "Mastercard Rules, 2 June 2026 (503 pages; read via browser pane + pdf.js; curl 403)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf", "title": "Mastercard Switch Rules, 16 December 2025 (114 pages; read via browser pane + pdf.js)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf", "title": "Mastercard Rules PDF (legacy path; 403)", "ok": false, "wall": "bot" },
+    { "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html", "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US (browser; curl 403)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.us/en-us/business/overview/safety-and-security/security-recommendations/service-providers-need-to-know.html", "title": "Service providers need to know (403)", "ok": false, "wall": "bot" },
+    { "url": "https://www.mastercard.com/global/en/business/overview/support/rules.html", "title": "Global rules page (404)", "ok": false, "wall": "dead" },
+    { "url": "https://developer.mastercard.com/", "title": "Mastercard Developers (JS app; shell only via curl)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/", "title": "Quick Start Guide | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/support", "title": "Support | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/engage", "title": "Mastercard Developers Engage (401 Session expired; 404 in browser)", "ok": false, "wall": "login" },
+    { "url": "https://developer.mastercard.com/llms.txt", "title": "Mastercard Developers llms.txt (products and services catalogue, 527 KB)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/llms-full.txt", "title": "Mastercard Developers llms-full.txt (401)", "ok": false, "wall": "login" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/company-verification/index.md", "title": "Company Verification | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/business-relationship-type/index.md", "title": "Business Relationship Type (BRT) | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/managing-your-project/commercial-country-management/index.md", "title": "Manage Commercial Countries | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/account-management/index.md", "title": "Account Management | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/team-management/index.md", "title": "Team Management | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/platform/documentation/test-cards/index.md", "title": "Test Cards for Mastercard APIs | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/index.md", "title": "Mastercom | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/quick-start-guide/index.md", "title": "Mastercom Quick Start Guide | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/tutorials-and-guides/onboarding/index.md", "title": "Mastercom Onboarding Checklist | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercom/documentation/testing/index.md", "title": "Mastercom Testing | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/index.md", "title": "Mastercard Send | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send/documentation/send-eligibility/index.md", "title": "Mastercard Send Registration and Eligibility | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/index.md", "title": "Mastercard Send Disbursements | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/quick-start-guide/index.md", "title": "Mastercard Send Disbursements Quick Start Guide | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md", "title": "Mastercard Send Disbursements Onboarding Checklist | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/merchant-cloud/documentation/index.md", "title": "Merchant Cloud Tutorials and Guides | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/product/merchant-cloud/", "title": "Merchant Cloud | Mastercard Developers (browser)", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mdes-digital-enablement/documentation/index.md", "title": "MDES Digital Enablement API | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mdes-digital-enablement/documentation/support/index.md", "title": "MDES Digital Enablement Support | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mdes-token-connect/documentation/index.md", "title": "MDES Token Connect | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://developer.mastercard.com/mastercard-checkout-solutions/documentation/index.md", "title": "Mastercard Checkout Solutions | Mastercard Developers", "ok": true, "wall": "none" },
+    { "url": "https://github.com/Mastercard", "title": "Mastercard · GitHub (139 public repositories)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercardconnect.com/", "title": "Mastercard Connect (redirects to /-/sign-in)", "ok": false, "wall": "login" },
+    { "url": "https://www.mastercardconnect.com/-/sign-up", "title": "Mastercard Connect Sign Up step 1 of 3 (browser; not filled)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercardconnect.com/-/store-plus", "title": "Mastercard Connect Store (redirects to sign-in)", "ok": false, "wall": "login" },
+    { "url": "https://trc-techresource.mastercard.com/", "title": "Technical Resource Center (noindex JS shell)", "ok": false, "wall": "login" },
+    { "url": "https://forms-techresource.mastercard.com/", "title": "Forms Library (JS shell)", "ok": false, "wall": "login" },
+    { "url": "https://form.mastercard.com/jfe/form/SV_6qXYVujEUEnuCtE", "title": "Mastercard Universal Onboarding - Application for the License to Use Service(s) Marks (Qualtrics; title only, not filled)", "ok": true, "wall": "none" },
+    { "url": "https://forum.developer.mastercard.com/s/", "title": "Mastercard Developers Forum (Salesforce community; CSS error via curl)", "ok": false, "wall": "none" },
+    { "url": "https://academy.mastercard.com/", "title": "Mastercard Academy (browser)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html#/en/home", "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global (browser)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs.html", "title": "Mastercard Fintech Solutions - Scale Your Ideas and Business | Mastercard Global (browser)", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/product-express.html", "title": "Product Express (guessed URL; 404)", "ok": false, "wall": "dead" },
+    { "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/start-path.html", "title": "Start Path (guessed URL; 404)", "ok": false, "wall": "dead" },
+    { "url": "https://engagepartners.mastercard.com/english/directory/", "title": "Mastercard Engage Partner Program | Directory", "ok": true, "wall": "none" },
+    { "url": "https://www.mastercard.com/engage", "title": "mastercard.com/engage (Akamai 403 to curl)", "ok": false, "wall": "bot" },
+    { "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141391&type=10-K&dateb=&owner=include&count=5&output=atom", "title": "EDGAR filing index, Mastercard Incorporated 10-K filings (CIK 1141391)", "ok": true, "wall": "none" },
+    { "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm", "title": "Mastercard Incorporated Form 10-K FY2025 (filed 2026-02-11)", "ok": true, "wall": "none" },
+    { "url": "https://www.emvco.com/approvals-and-certifications/", "title": "EMVCo approvals (404)", "ok": false, "wall": "dead" },
+    { "url": "https://www.emvco.com/emv-technologies/", "title": "EMV Technologies | EMVCo (fetched; not Mastercard-specific, unused)", "ok": true, "wall": "none" },
+    { "url": "https://www.uspaymentsforum.org/knowledge-center/", "title": "US Payments Forum Knowledge Center (403)", "ok": false, "wall": "bot" },
+    { "url": "https://www.fime.com/services/certification-services/mastercard", "title": "FIME Mastercard certification (guessed URL; 404)", "ok": false, "wall": "dead" },
+    { "url": "https://engage.mastercard.com/", "title": "engage.mastercard.com (no DNS)", "ok": false, "wall": "dead" },
+    { "url": "https://startpath.mastercard.com/", "title": "startpath.mastercard.com (no DNS)", "ok": false, "wall": "dead" }
+  ]
+}

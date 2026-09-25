@@ -1,0 +1,474 @@
+{
+ "network": "dgn",
+ "seed": "https://developer.discover.com/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.discover.com/home",
+   "status": 200,
+   "redirected": true,
+   "cookie_banner": null,
+   "wall": "login",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Discover Developer Center",
+   "h1": "Welcome to the Discover® Developer Center",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 3,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Contact Us",
+    "FAQ",
+    "Log In",
+    "Enablement Resources",
+    "Legal",
+    "Terms of Use",
+    "Privacy Statement",
+    "Support"
+   ],
+   "ctas": [
+    {
+     "text": "Enablement Resources",
+     "href": "https://partner.discoverglobalnetwork.com/"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Log In",
+     "href": "https://developer.discover.com/user/login",
+     "top": 11
+    }
+   ],
+   "audience_words": [
+    "developer"
+   ],
+   "headings": [
+    "h1: Welcome to the Discover® Developer Center",
+    "h2: For more information on our API products, explore our Enablement Resources",
+    "h2: Footer 2"
+   ],
+   "screenshot": "assets/dgn/dgn-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Contact Us",
+     "url": "https://developer.discover.com/contact",
+     "status": 200,
+     "result": "login",
+     "words": 64,
+     "title": "Contact Us | Discover Developer Center"
+    },
+    {
+     "nav": "FAQ",
+     "url": "https://developer.discover.com/faq",
+     "status": 200,
+     "result": "login",
+     "words": 256,
+     "title": "FAQs | Discover Developer Center"
+    },
+    {
+     "nav": "Log In",
+     "url": "https://developer.discover.com/user/login",
+     "status": 200,
+     "result": "login",
+     "words": 53,
+     "title": "Log in | Discover Developer Center"
+    },
+    {
+     "nav": "Terms of Use",
+     "url": "https://developer.discover.com/terms-of-use",
+     "status": 200,
+     "result": "login",
+     "words": 6986,
+     "title": "Terms of Use | Discover Developer Center"
+    }
+   ],
+   "walls": 4,
+   "readable": 0
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": true,
+   "pages_tried": 7
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Contact Us",
+   "url": "https://developer.discover.com/contact",
+   "title": "Contact Us | Discover Developer Center",
+   "phones": [],
+   "mailto": [],
+   "form": true,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "login",
+   "screenshot": "assets/dgn/dgn-dev-s7-04-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 3,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "a: Contact Us",
+    "a: FAQ",
+    "a: Log In",
+    "a: Enablement Resources",
+    "a: Legal",
+    "a: Terms of Use",
+    "a: Privacy Statement",
+    "a: Support",
+    "a: Contact Us"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 8,
+   "screenshot": "assets/dgn/dgn-dev-s11-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.discover.com/",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 2506,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://developer.discover.com/contact",
+   "final": "https://developer.discover.com/contact",
+   "status": 200,
+   "ms": 1950,
+   "why": "S2 Contact Us"
+  },
+  {
+   "url": "https://developer.discover.com/faq",
+   "final": "https://developer.discover.com/faq",
+   "status": 200,
+   "ms": 1650,
+   "why": "S2 FAQ"
+  },
+  {
+   "url": "https://developer.discover.com/user/login",
+   "final": "https://developer.discover.com/user/login",
+   "status": 200,
+   "ms": 1671,
+   "why": "S2 Log In"
+  },
+  {
+   "url": "https://developer.discover.com/terms-of-use",
+   "final": "https://developer.discover.com/terms-of-use",
+   "status": 200,
+   "ms": 1722,
+   "why": "S2 Terms of Use"
+  },
+  {
+   "url": "https://developer.discover.com/contact",
+   "final": "https://developer.discover.com/contact",
+   "status": 200,
+   "ms": 1957,
+   "why": "S4 Contact Us"
+  },
+  {
+   "url": "https://developer.discover.com/faq",
+   "final": "https://developer.discover.com/faq",
+   "status": 200,
+   "ms": 1679,
+   "why": "S4 FAQ"
+  },
+  {
+   "url": "https://developer.discover.com/user/login",
+   "final": "https://developer.discover.com/user/login",
+   "status": 200,
+   "ms": 1679,
+   "why": "S4 Log In"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1684,
+   "why": "S4 Legal"
+  },
+  {
+   "url": "https://developer.discover.com/terms-of-use",
+   "final": "https://developer.discover.com/terms-of-use",
+   "status": 200,
+   "ms": 1718,
+   "why": "S4 Terms of Use"
+  },
+  {
+   "url": "https://developer.discover.com/choose_org_form_api",
+   "final": "https://developer.discover.com/choose_org_form_api",
+   "status": 403,
+   "ms": 1864,
+   "why": "S4 Org Modal"
+  },
+  {
+   "url": "https://developer.discover.com/choose_org_form_api#",
+   "final": "https://developer.discover.com/choose_org_form_api#",
+   "status": null,
+   "ms": 1505,
+   "why": "S4 Account Locked"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1694,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1703,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1719,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://developer.discover.com/contact",
+   "final": "https://developer.discover.com/contact",
+   "status": 200,
+   "ms": 1963,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1733,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://developer.discover.com/contact",
+   "final": "https://developer.discover.com/contact",
+   "status": 200,
+   "ms": 2035,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1681,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1700,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1700,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1690,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1709,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1697,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1688,
+   "why": "S12 home"
+  },
+  {
+   "url": "https://developer.discover.com/contact",
+   "final": "https://developer.discover.com/contact",
+   "status": 200,
+   "ms": 1985,
+   "why": "S12 Contact Us"
+  },
+  {
+   "url": "https://developer.discover.com/faq",
+   "final": "https://developer.discover.com/faq",
+   "status": 200,
+   "ms": 1674,
+   "why": "S12 FAQ"
+  },
+  {
+   "url": "https://developer.discover.com/user/login",
+   "final": "https://developer.discover.com/user/login",
+   "status": 200,
+   "ms": 1751,
+   "why": "S12 Log In"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1698,
+   "why": "S12 Legal"
+  },
+  {
+   "url": "https://developer.discover.com/terms-of-use",
+   "final": "https://developer.discover.com/terms-of-use",
+   "status": 200,
+   "ms": 1695,
+   "why": "S12 Terms of Use"
+  },
+  {
+   "url": "https://developer.discover.com/home",
+   "final": "https://developer.discover.com/home",
+   "status": 200,
+   "ms": 1707,
+   "why": "S12 Support"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "dgn-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://developer.discover.com/home",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-dev-s1-01-20260925.webp",
+   "kb": 50
+  },
+  {
+   "id": "dgn-dev-s02",
+   "station": "S2",
+   "note": "wall: Contact Us",
+   "url": "https://developer.discover.com/contact",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-dev-s2-02-20260925.webp",
+   "kb": 30
+  },
+  {
+   "id": "dgn-dev-s03",
+   "station": "S2",
+   "note": "wall: FAQ",
+   "url": "https://developer.discover.com/faq",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-dev-s2-03-20260925.webp",
+   "kb": 63
+  },
+  {
+   "id": "dgn-dev-s04",
+   "station": "S7",
+   "note": "support",
+   "url": "https://developer.discover.com/contact",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-dev-s7-04-20260925.webp",
+   "kb": 30
+  },
+  {
+   "id": "dgn-dev-s05",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://developer.discover.com/home",
+   "captured": "2026-09-25",
+   "file": "assets/dgn/dgn-dev-s11-05-20260925.webp",
+   "kb": 25
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 31,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 4,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

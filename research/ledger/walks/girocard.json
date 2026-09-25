@@ -1,0 +1,432 @@
+{
+ "network": "girocard",
+ "seed": "https://www.girocard.eu/",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.girocard.eu/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "de",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "girocard: die praktische, zuverlässige Zahlungslösung",
+   "h1": "Moderner Alltag für alle. Mit der girocard.",
+   "description": "girocard verbindet Handel, Institute sowie Verbraucherinnen und Verbraucher in ganz Deutschland. Für einen modernen und vernetzten Zahlungsverkehr.",
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": false,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Kontakt",
+    "Blog"
+   ],
+   "ctas": [
+    {
+     "text": "Schließe Für Unternehmen Öffne Für Unternehmen",
+     "href": null
+    },
+    {
+     "text": "Schließe Für mich Öffne Für mich",
+     "href": null
+    },
+    {
+     "text": "Schließe Medien Öffne Medien",
+     "href": null
+    },
+    {
+     "text": "Mehr erfahren",
+     "href": "https://www.girocard.eu/unabhaengigkeit-beim-bezahlen/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/kein-kleingeld-mehr-fuers-parken-autofahrende-wuenschen-sich-bargeldlose-bezahl-option/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/vom-portemonnaie-in-die-app-girocard-wandert-in-den-digitalen-check-out/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/mit-smartphone-bezahlen/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/per-nachnahme-zahlen-mit-girocard/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/deutsche-zahlungsinfrastruktur-im-fokus-der-neuen-girocard-kampagne/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/parkgebuehren-bargeldlos-bezahlen-so-funktioniert-es-mit-der-girocard/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/wie-funktioniert-kontaktlos-bezahlen/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/trinkgeld-mit-karte-zahlen-einfach-sicher-in-der-gastronomie/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/mit-smartphone-bezahlen/"
+    },
+    {
+     "text": "Artikel lesen",
+     "href": "https://www.girocard.eu/blog/per-nachnahme-zahlen-mit-girocard/"
+    }
+   ],
+   "signin": [],
+   "audience_words": [],
+   "headings": [
+    "h2: Bezahlen made in Germany.",
+    "h2: Bist du auch schon GIRO?",
+    "h2: Halbjahreszahlen 2026",
+    "h2: Kein Kleingeld mehr fürs Parken: Autofahrende wünschen sich bargeldlose Bezahl-O",
+    "h2: Vom Portemonnaie in die App: girocard wandert in den digitalen Check-out",
+    "h2: Mit Smartphone bezahlen: So funktioniert mobiles Bezahlen",
+    "h2: Mit girocard per Nachnahme zahlen: So funktioniert die Zahlung an der Haustür",
+    "h2: Deutsche Zahlungs­infrastruktur im Fokus der neuen girocard-Kampagne",
+    "h2: Parkgebühren bargeldlos bezahlen: So funktioniert es mit der girocard",
+    "h2: Wie funktioniert kontaktlos bezahlen?",
+    "h2: Trinkgeld mit Karte zahlen – Wertschätzung zeigen auch ohne Bargeld",
+    "h2: Mit Smartphone bezahlen: So funktioniert mobiles Bezahlen",
+    "h2: Mit girocard per Nachnahme zahlen: So funktioniert die Zahlung an der Haustür",
+    "h2: Deutsche Zahlungs­infrastruktur im Fokus der neuen girocard-Kampagne",
+    "h2: Parkgebühren bargeldlos bezahlen: So funktioniert es mit der girocard"
+   ],
+   "screenshot": "assets/girocard/girocard-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Kontakt",
+     "url": "https://www.girocard.eu/kontakt/",
+     "status": 200,
+     "result": "readable",
+     "words": 145,
+     "title": "Noch Fragen zur girocard? Einfach Kontakt aufnehmen"
+    },
+    {
+     "nav": "Blog",
+     "url": "https://www.girocard.eu/blog/",
+     "status": 200,
+     "result": "readable",
+     "words": 285,
+     "title": "Blog: Aktuelle Beiträge, Fachwissen & Insights"
+    },
+    {
+     "nav": "Systempartner",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+     "status": 200,
+     "result": "readable",
+     "words": 157,
+     "title": "Bargeldloser Zahlungsverkehr mit der girocard"
+    },
+    {
+     "nav": "Kreditwirtschaft",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/kreditwirtschaft/",
+     "status": 200,
+     "result": "readable",
+     "words": 110,
+     "title": "girocard: Erfolgsmodell im deutschen Zahlungsverkehr"
+    },
+    {
+     "nav": "Handel",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/",
+     "status": 200,
+     "result": "readable",
+     "words": 124,
+     "title": "Kartenzahlung Gebühren senken – mit girocard"
+    },
+    {
+     "nav": "Filialisten",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/filialisten/",
+     "status": 200,
+     "result": "readable",
+     "words": 147,
+     "title": "girocard-Zahlung: Kartenzahlung anbieten, Gebühr sparen"
+    },
+    {
+     "nav": "KMU",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/kmu/",
+     "status": 200,
+     "result": "readable",
+     "words": 126,
+     "title": "girocard-Akzeptanz – günstige Kartenzahlung für Händler"
+    },
+    {
+     "nav": "Netzbetrieb",
+     "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+     "status": 200,
+     "result": "readable",
+     "words": 118,
+     "title": "Netzbetreiber im girocard-System werden"
+    },
+    {
+     "nav": "girocard-Funktionen",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/",
+     "status": 200,
+     "result": "readable",
+     "words": 89,
+     "title": "girocard-Funktionen im Überblick"
+    },
+    {
+     "nav": "girocard am POS",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/girocard-am-pos/",
+     "status": 200,
+     "result": "readable",
+     "words": 144,
+     "title": "girocard am POS: Einfach, sicher & überall bezahlen"
+    },
+    {
+     "nav": "Altersverifikation",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/altersverifikation/",
+     "status": 200,
+     "result": "readable",
+     "words": 128,
+     "title": "Altersverifikation mit girocard - sicher und effizient"
+    },
+    {
+     "nav": "Kundenbindungsprogramme",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/kundenbindungsprogramme/",
+     "status": 200,
+     "result": "readable",
+     "words": 129,
+     "title": "Kundenbindungsprogramme nutzen – einfach mit girocard"
+    },
+    {
+     "nav": "Mobile Payment",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/mobile-payment/",
+     "status": 200,
+     "result": "readable",
+     "words": 141,
+     "title": "Mobile Payment: die effiziente, zukunftsweisende Lösung"
+    },
+    {
+     "nav": "Vorautorisierung",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/vorautorisierung/",
+     "status": 200,
+     "result": "readable",
+     "words": 123,
+     "title": "Vorautorisierung per girocard: Für neue Anwendungsfälle"
+    },
+    {
+     "nav": "Sensory Branding",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/sensory-branding/",
+     "status": 200,
+     "result": "readable",
+     "words": 118,
+     "title": "Das multisensorische Markenerlebnis der girocard"
+    },
+    {
+     "nav": "In App-Zahlungen",
+     "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/in-app-zahlungen/",
+     "status": 200,
+     "result": "readable",
+     "words": 105,
+     "title": "girocard In-App-Zahlung | Funktion, Vorteile & Umsetzung"
+    }
+   ],
+   "walls": 0,
+   "readable": 16
+  },
+  "S3": {
+   "note": "no catalogue link found in primary nav"
+  },
+  "S7": {
+   "note": "no support or contact link found"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Produktentwicklung",
+     "href": "https://girocard-download.eu/login"
+    },
+    {
+     "clicks": 1,
+     "text": "girocard Styleguide",
+     "href": "https://www.girocard.eu/wp-content/uploads/girocard-Brand-Styleguide_20241023.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Produktentwicklung",
+    "href": "https://girocard-download.eu/login"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.girocard.eu/",
+   "final": "https://www.girocard.eu/",
+   "status": 200,
+   "ms": 2814,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.girocard.eu/kontakt/",
+   "final": "https://www.girocard.eu/kontakt/",
+   "status": 200,
+   "ms": 1914,
+   "why": "S2 Kontakt"
+  },
+  {
+   "url": "https://www.girocard.eu/blog/",
+   "final": "https://www.girocard.eu/blog/",
+   "status": 200,
+   "ms": 3595,
+   "why": "S2 Blog"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+   "status": 200,
+   "ms": 2023,
+   "why": "S2 Systempartner"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/kreditwirtschaft/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/kreditwirtschaft/",
+   "status": 200,
+   "ms": 2013,
+   "why": "S2 Kreditwirtschaft"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/",
+   "status": 200,
+   "ms": 2014,
+   "why": "S2 Handel"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/filialisten/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/filialisten/",
+   "status": 200,
+   "ms": 2106,
+   "why": "S2 Filialisten"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/kmu/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/handel/kmu/",
+   "status": 200,
+   "ms": 2022,
+   "why": "S2 KMU"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+   "status": 200,
+   "ms": 3098,
+   "why": "S2 Netzbetrieb"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/funktionalitaeten/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/",
+   "status": 200,
+   "ms": 2432,
+   "why": "S2 girocard-Funktionen"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/girocard-am-pos/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/girocard-am-pos/",
+   "status": 200,
+   "ms": 2025,
+   "why": "S2 girocard am POS"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/altersverifikation/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/altersverifikation/",
+   "status": 200,
+   "ms": 2023,
+   "why": "S2 Altersverifikation"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/kundenbindungsprogramme/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/kundenbindungsprogramme/",
+   "status": 200,
+   "ms": 2026,
+   "why": "S2 Kundenbindungsprogramme"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/mobile-payment/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/mobile-payment/",
+   "status": 200,
+   "ms": 2001,
+   "why": "S2 Mobile Payment"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/vorautorisierung/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/vorautorisierung/",
+   "status": 200,
+   "ms": 2010,
+   "why": "S2 Vorautorisierung"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/sensory-branding/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/sensory-branding/",
+   "status": 200,
+   "ms": 2008,
+   "why": "S2 Sensory Branding"
+  },
+  {
+   "url": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/in-app-zahlungen/",
+   "final": "https://www.girocard.eu/fuer-unternehmen/girocard-funktionen/in-app-zahlungen/",
+   "status": 200,
+   "ms": 2117,
+   "why": "S2 In App-Zahlungen"
+  },
+  {
+   "url": "https://www.girocard.eu/",
+   "final": "https://www.girocard.eu/",
+   "status": 200,
+   "ms": 1649,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.girocard.eu/",
+   "final": "https://www.girocard.eu/",
+   "status": 200,
+   "ms": 1647,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "girocard-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.girocard.eu/",
+   "captured": "2026-09-25",
+   "file": "assets/girocard/girocard-s1-01-20260925.webp",
+   "kb": 32
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 19,
+  "screenshots": 1,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

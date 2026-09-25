@@ -1,0 +1,325 @@
+{
+ "network": "amex",
+ "seed": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en-US",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Accept Credit Card Payments | Amex Merchant",
+   "h1": "Start Accepting American Express® Credit Cards Today",
+   "description": "Learn how to accept credit cards and other payments in store and online. Explore benefits &amp; ways to accept American Express payments at your business.",
+   "landmarks": {
+    "header": true,
+    "nav": 37,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Skip to main",
+    "Customer Service",
+    "Log In",
+    "Merchant Home",
+    "Accept Amex",
+    "Grow your Business",
+    "Protect your Business",
+    "Support",
+    "About American Express",
+    "Newsroom",
+    "Investor Relations",
+    "Careers",
+    "Global Network",
+    "Contact Us",
+    "Credit Cards",
+    "Business Credit Cards",
+    "Corporate Programs",
+    "View All Gift Cards",
+    "Savings Accounts & CDs",
+    "Download the App",
+    "Membership Rewards",
+    "FICO® Score and Insights",
+    "CreditSecure®",
+    "Accept Amex Cards",
+    "Refer A Friend",
+    "SpendSmart®",
+    "Credit Intel – Financial Education Center",
+    "Amex Business Intel™ - B2B Education Center",
+    "Supplier Code of Conduct",
+    "Credit Score 101"
+   ],
+   "ctas": [
+    {
+     "text": "My Account",
+     "href": null
+    },
+    {
+     "text": "Cards",
+     "href": null
+    },
+    {
+     "text": "Banking",
+     "href": null
+    },
+    {
+     "text": "Travel",
+     "href": null
+    },
+    {
+     "text": "Rewards & Benefits",
+     "href": null
+    },
+    {
+     "text": "Business",
+     "href": null
+    },
+    {
+     "text": "Search Button",
+     "href": null
+    },
+    {
+     "text": "Accept directly with Amex",
+     "href": "https://www.americanexpress.com/us/merchant/accept-direct.html?intlink=mer-atc-acceptdirect-1"
+    },
+    {
+     "text": "Accept with a Payment Provider",
+     "href": "https://www.americanexpress.com/us/merchant/optblue.html?intlink=mer-atc-paymentprovider-1"
+    },
+    {
+     "text": "Accept directly with Amex",
+     "href": "https://www.americanexpress.com/us/merchant/accept-direct.html?intlink=mer-atc-acceptdirect-2"
+    },
+    {
+     "text": "Accept with a Payment Provider",
+     "href": "https://www.americanexpress.com/us/merchant/optblue.html?intlink=mer-atc-paymentprovider-2"
+    },
+    {
+     "text": "Start Saving",
+     "href": "https://www.americanexpress.com/us/merchant/offers.html?intlink=mer-atc-benefits-bss"
+    },
+    {
+     "text": "View payment solutions",
+     "href": "https://www.americanexpress.com/us/merchant/payment-processing.html?intlink=mer-atc-benefits-paymentsolutions"
+    },
+    {
+     "text": "Explore Insights",
+     "href": "https://www.americanexpress.com/us/merchant/business-class-for-merchants.html?intlink=mer-atc-benefits-bcfm"
+    },
+    {
+     "text": "Discover programs",
+     "href": "https://www.americanexpress.com/us/merchant/member-benefits.html?intlink=mer-atc-benefits-discoverprograms"
+    }
+   ],
+   "signin": [
+    {
+     "text": "My Account",
+     "href": null,
+     "top": 5
+    },
+    {
+     "text": "Log In",
+     "href": "https://www.americanexpress.com/en-us/account/login?inav=en_us_menu_login",
+     "top": 8
+    }
+   ],
+   "audience_words": [
+    "merchant",
+    "partner"
+   ],
+   "headings": [
+    "h1: Start Accepting American Express® Credit Cards Today",
+    "h2: Find out more",
+    "h2: Why accept American Express® Credit Cards?",
+    "h2: Benefits Spotlight",
+    "h3: Take advantage of offer savings worth over $4,400",
+    "h3: Payment solutions to help you grow",
+    "h3: Industry trends and insights",
+    "h3: Free marketing, tools and programs",
+    "h2: Two ways to accept American Express Cards",
+    "h3: Accept Directly with Amex",
+    "h3: Accept With a Payment Provider",
+    "h2: Supporting Small Businesses Through Free Grants",
+    "h3: Backing Small Businesses Grant Program",
+    "h3: Backing Historic Small Restaurants Grant Program",
+    "h2: Hear what businesses are saying about American Express"
+   ],
+   "screenshot": "assets/amex/amex-merchant-s1-01-20260925.webp"
+  },
+  "S7": {
+   "from": "Customer Service",
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "title": "American Express Customer Service and Help Center | Amex US",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": true,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/amex/amex-merchant-s7-02-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Travel Guides & Inspiration",
+     "href": "https://www.americanexpress.com/en-us/travel/get-inspired/?inav=en_us_menu_travel_get_inspired_travel_guides_inspiration"
+    },
+    {
+     "clicks": 1,
+     "text": "Travel Guides & Inspiration",
+     "href": "https://www.americanexpress.com/en-us/travel/get-inspired/?inav=en_us_menu_travel_get_inspired_travel_guides_inspiration"
+    },
+    {
+     "clicks": 1,
+     "text": "Travel Guides & Inspiration",
+     "href": "https://www.americanexpress.com/en-us/travel/get-inspired/?inav=en_us_menu_travel_get_inspired_travel_guides_inspiration"
+    },
+    {
+     "clicks": 1,
+     "text": "Download the App",
+     "href": "https://www.americanexpress.com/en-us/support/digital/amex-mobile-app/?inav=en_us_footer_products_services_download_the_app"
+    },
+    {
+     "clicks": 1,
+     "text": "Download the App",
+     "href": "https://www.americanexpress.com/en-us/support/digital/amex-mobile-app/?inav=en_us_footer_products_services_download_the_app"
+    },
+    {
+     "clicks": 1,
+     "text": "Terms of Service",
+     "href": "https://www.americanexpress.com/us/legal-disclosures/website-rules-and-regulations.html?inav=en_us_legalfooter_terms_of_service"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Travel Guides & Inspiration",
+    "href": "https://www.americanexpress.com/en-us/travel/get-inspired/?inav=en_us_menu_travel_get_inspired_travel_guides_inspiration"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "final": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "status": 200,
+   "ms": 2172,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "final": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "status": 200,
+   "ms": 1923,
+   "why": "S2 Customer Service"
+  },
+  {
+   "url": "https://www.americanexpress.com/en-us/account/login?inav=en_us_menu_login",
+   "final": "https://www.americanexpress.com/en-us/account/login?inav=en_us_menu_login",
+   "status": 200,
+   "ms": 2009,
+   "why": "S2 Log In"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "final": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "status": 200,
+   "ms": 1971,
+   "why": "S3 Customer Service"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/credit-cards/?inav=en_us_footer_products_services_credit_cards",
+   "final": "https://www.americanexpress.com/us/credit-cards/?inav=en_us_footer_products_services_credit_cards",
+   "status": 200,
+   "ms": 2299,
+   "why": "S3 Credit Cards"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "final": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "status": 200,
+   "ms": 1904,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "final": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "status": 200,
+   "ms": 1916,
+   "why": "S7 Customer Service"
+  },
+  {
+   "url": "https://www.americanexpress.com/en-us/support/contacts/?inav=en_us_footer_about_contact_us",
+   "final": "https://www.americanexpress.com/en-us/support/contacts/?inav=en_us_footer_about_contact_us",
+   "status": 200,
+   "ms": 1908,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://www.americanexpress.com/en-us/support/digital/amex-mobile-app/?inav=en_us_footer_products_services_download_the_app",
+   "final": "https://www.americanexpress.com/en-us/support/digital/amex-mobile-app/?inav=en_us_footer_products_services_download_the_app",
+   "status": 200,
+   "ms": 1951,
+   "why": "S7 Download the App"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "final": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "status": 200,
+   "ms": 1871,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "final": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "status": 200,
+   "ms": 1905,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "amex-merchant-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-merchant-s1-01-20260925.webp",
+   "kb": 87
+  },
+  {
+   "id": "amex-merchant-s02",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.americanexpress.com/us/customer-service/?inav=en_us_menu_help",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-merchant-s7-02-20260925.webp",
+   "kb": 72
+  }
+ ],
+ "errors": [
+  "S2 page.evaluate: Error: eval is disabled\n    at monkeypatchedEval (https://www.aexp-static.com/cdaas/one/app/6.14.2-a742bedc/app.js:1:112690)\n    at UtilityScript.evaluate (<anonymous>:311:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "S3 page.evaluate: Error: eval is disabled\n    at monkeypatchedEval (https://www.aexp-static.com/cdaas/one/app/5.36.0-c101cc72/app.js:1:112663)\n    at UtilityScript.evaluate (<anonymous>:311:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+ ],
+ "summary": {
+  "pages_visited": 11,
+  "screenshots": 2,
+  "errors": 2,
+  "walls_in_nav": null,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

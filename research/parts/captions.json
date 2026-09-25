@@ -1,0 +1,178 @@
+{
+ "visa-dev-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "The hero carousel on the day carried a certificate-renewal notice with dates. beneath it, six audience tiles route to the product browser, and Use Cases and Learning Hub sit beside them."
+ },
+ "visa-dev-s5-06-20260925.webp": {
+  "lead": "Create your account.",
+  "text": "The self-service registration form, with the three steps stated on the right: create your account, verify and login, play in the sandbox."
+ },
+ "visa-dev-s2-02-20260925.webp": {
+  "lead": "Sign in.",
+  "text": "Passkey or password tabs on the one wall that stands between the reader and a project."
+ },
+ "mastercard-dev-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "Products, Solutions, Resources and AI in the header. Open Finance leads the carousel with Learn more and View documentation."
+ },
+ "visa-dev-s3-04-20260925.webp": {
+  "lead": "Browse All Product Documentation.",
+  "text": "Every product with Overview and Docs links, filters by six audiences and fifteen capabilities, and an SDKs & Tools column, all without an account."
+ },
+ "mastercard-dev-s2-03-20260925.webp": {
+  "lead": "Sign up.",
+  "text": "Email, password, name, company and country, the Developer Program Agreement, and the three steps stated beside the form: create your account, verify your email address, create your first project."
+ },
+ "mastercard-dev-s4-05-20260925.webp": {
+  "lead": "Agent Toolkit documentation.",
+  "text": "The platform documentation includes an MCP server and SDK page, readable logged out, with the product sidebar and LLM resources on the left."
+ },
+ "mastercard-dev-s7-08-20260925.webp": {
+  "lead": "Support, logged out.",
+  "text": "Direct contact needs an account. guides, the forum, Engage and the MCP server are offered instead."
+ },
+ "amex-dev-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "Products, Support, Log In and Sign Up. Two featured products and the four-step path beneath the fold."
+ },
+ "amex-dev-s3-02-20260925.webp": {
+  "lead": "Find the API that's right for your project.",
+  "text": "Search and a capability filter (Fraud Prevention, Open Banking, Payment Services, Personalized Services, Utilities), with Overview and Docs per product."
+ },
+ "amex-dev-s4-03-20260925.webp": {
+  "lead": "Amex Token Service, API reference.",
+  "text": "Endpoints on the left, hosts and HMAC security in the middle, version history and Java and .NET samples on the right, readable logged out."
+ },
+ "amex-dev-s7-04-20260925.webp": {
+  "lead": "Create Support Ticket.",
+  "text": "A ticket form usable without an account, with hours stated in Eastern time and two attachments allowed."
+ },
+ "dgn-site-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "Three brands under one network. Our Network, Solutions, Resources, Insights, Contact Us, Search and Log In in the header."
+ },
+ "dgn-site-s3-03-20260925.webp": {
+  "lead": "Accept Our Network, the acceptance page.",
+  "text": "For merchants and acquirers. Figures on this page read 378 million cards and 622 billion dollars of spend opportunity for 2024, against 439 million and 634 billion on the landing."
+ },
+ "dgn-site-s6-04-20260925.webp": {
+  "lead": "PCI validation and reporting requirements.",
+  "text": "Merchant levels with validation and reporting per level, and the Security Compliance Innovation Program named."
+ },
+ "dgn-dev-s1-01-20260925.webp": {
+  "lead": "Discover Developer Center, logged out.",
+  "text": "A gateway: a welcome line, one button to the Partner Product Portal, Contact Us, FAQ and Log In. No product list and no documentation link."
+ },
+ "dgn-dev-s2-03-20260925.webp": {
+  "lead": "FAQ.",
+  "text": "Access as a new user goes through the Contact Us form. Collaborators are added by invitation from a Discover representative. Products appear after log in."
+ },
+ "dgn-dev-s2-02-20260925.webp": {
+  "lead": "Contact Us.",
+  "text": "Subject line, description, email and a captcha. The form is the way in."
+ },
+ "dgn-partner-s1-01-20260925.webp": {
+  "lead": "Partner Product Portal, logged out.",
+  "text": "Explore our APIs, Going Live with Discover and Partner Resources in the header. Two featured token services and Explore all products."
+ },
+ "dgn-partner-s3-03-20260925.webp": {
+  "lead": "Products.",
+  "text": "Twelve products in six groups, each with Overview and API Spec, readable logged out."
+ },
+ "dgn-partner-s2-02-20260925.webp": {
+  "lead": "Partner Resources.",
+  "text": "The page that names the family's portals: the Release Compliance Tool for testing and certification, the Disputes Portal, the Developer Center, EASI and Web Merchant Boarding."
+ },
+ "dgn-easi-s1-01-20260925.webp": {
+  "lead": "EASI Portal, the login page.",
+  "text": "The acquirer and processor portal opens on Secure Account Log In, with Join Now and a Registration Quick Guide PDF beside it."
+ },
+ "diners-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "A cardmember site. For Cardmembers, For Businesses, About Us, Club Connections and Help Center."
+ },
+ "diners-s3-03-20260925.webp": {
+  "lead": "For Businesses.",
+  "text": "Card programmes, cardless solutions and the Tracker reporting tool for corporate clients. Partnering is a country search and a contact link."
+ },
+ "pulse-s1-01-20260925.webp": {
+  "lead": "Landing, logged out.",
+  "text": "<q>Log In / Register</q>, <q>Client Support</q> and <q>Find ATMs</q> above the nav. <q>Why PULSE</q>, <q>What We Offer</q>, <q>Partner With Us</q>, <q>Resources and Insights</q>, <q>Connect With Us</q>."
+ },
+ "pulse-s3-03-20260925.webp": {
+  "lead": "The service catalogue.",
+  "text": "The service catalogue as pages: Payments Network, ATM Network, Discover Debit, Processing and Gateways, Fraud Detection, Partner Support Services."
+ },
+ "pulse-s5-04-20260925.webp": {
+  "lead": "Register and Account Log In.",
+  "text": "User ID and password on the left. On the right the registration path in three steps, with credentials promised within five business days."
+ },
+ "pulse-s7-05-20260925.webp": {
+  "lead": "Client Support.",
+  "text": "A phone number, hours in Central time, and named mailboxes for account management, DebitProtect, disputes and the processor portal."
+ },
+ "jcb-s1-01-20260925.webp": {
+  "lead": "JCB global site, logged out.",
+  "text": "Consumers, Businesses, Merchants, Products, Press and About Us. The partner site, JCB Partner Online, is a login named under Businesses."
+ },
+ "unionpay-open-s1-01-20260925.webp": {
+  "lead": "UnionPay International Open Platform.",
+  "text": "Products, API Market, Tech Support, Documents, Service Center, Guide, Login and Register Now, with agentic payment solutions leading the hero on the day."
+ },
+ "interac-hub-s1-01-20260925.webp": {
+  "lead": "Interac Innovation Hub.",
+  "text": "Solutions, Community, Guides and Support. The footnote says access to specific products needs an existing relationship with an issuing financial institution."
+ },
+ "eftpos-dev-s1-01-20260925.webp": {
+  "lead": "AP+ Developers.",
+  "text": "One portal for BPAY, eftpos and NPP with a self-service Get started, and a password-reset note for users of the three portals it replaced."
+ },
+ "elo-dev-s1-01-20260925.webp": {
+  "lead": "Dev.Elo, logged out.",
+  "text": "Solu\u00e7\u00f5es, APIs, Tutoriais, Central de Ajuda, Entrar and Cadastrar, with a notice that the developer portal is being modernised."
+ },
+ "shazam-s1-01-20260925.webp": {
+  "lead": "SHAZAM, logged out.",
+  "text": "<q>Who We Serve</q>, <q>Products</q>, <q>Resources</q>, <q>Who We Are</q> and <q>Contact</q>. The Login menu names five client tools."
+ },
+ "nyce-fis-s1-01-20260925.webp": {
+  "lead": "NYCE on the FIS product site.",
+  "text": "<q>About</q>, <q>Benefits</q>, <q>Client video</q>, <q>Client story</q>, <q>Resources</q> and <q>Contact us</q>. The calls to action are <q>Contact us</q> and <q>Request a demo</q>."
+ },
+ "star-fiserv-s1-01-20260925.webp": {
+  "lead": "STAR on the Fiserv site.",
+  "text": "A product page under Fiserv's payment networks, with a contact route and brochures."
+ },
+ "girocard-s1-01-20260925.webp": {
+  "lead": "girocard, logged out.",
+  "text": "F\u00fcr Unternehmen routes system partners by type. Product development sits behind a download login."
+ },
+ "culiance-s1-01-20260925.webp": {
+  "lead": "CULIANCE, logged out.",
+  "text": "A cardholder page about surcharge-free ATMs. Credit union material sits under Credit Unions."
+ },
+ "affn-s1-01-20260925.webp": {
+  "lead": "AFFN, logged out.",
+  "text": "A member-network site for military-affiliated institutions, with a 250th anniversary mark on the day."
+ },
+ "rupay-s1-01-20260925.webp": {
+  "lead": "RuPay, logged out.",
+  "text": "A consumer site. Partner material lives on npci.org.in under Business, Developer Studio and Circulars."
+ },
+ "mastercard-status-s1-01-20260925.webp": {
+  "lead": "API Status.",
+  "text": "Every service listed with its health for the last twenty-four hours, and a Sandbox and Production toggle, readable logged out."
+ },
+ "visa-notes-s1-01-20260925.webp": {
+  "lead": "Release Notes.",
+  "text": "Monthly entries by year back to 2017, each tagged public or restricted."
+ },
+ "amex-docs-s1-01-20260925.webp": {
+  "lead": "Documentation, the High-Level Process page.",
+  "text": "Updated June 1, 2026. It says some products' API documentation is locked for security reasons and some products are not listed publicly at all."
+ },
+ "dgn-fraudrisk-s1-01-20260925.webp": {
+  "lead": "Fraud and Risk Center Log In.",
+  "text": "Where the marketing site's Log In lands. The side panel names EASI, the Advanced Payments Providers portal, eCentral and the Disputes Portal."
+ }
+}

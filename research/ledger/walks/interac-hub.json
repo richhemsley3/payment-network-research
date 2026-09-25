@@ -1,0 +1,674 @@
+{
+ "network": "interac",
+ "seed": "https://innovation.interac.ca/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://innovation.interac.ca/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en-US",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Innovation Hub - Home",
+   "h1": "Enabling innovation on Canada’s value exchange platform",
+   "description": null,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    "Solutions",
+    "Community",
+    "Guides",
+    "Support",
+    "Français"
+   ],
+   "ctas": [
+    {
+     "text": "See more",
+     "href": "https://innovation.interac.ca/solutions/#TABPANEL2"
+    },
+    {
+     "text": "See more",
+     "href": "https://innovation.interac.ca/solutions/#TABPANEL1"
+    },
+    {
+     "text": "See more",
+     "href": "https://innovation.interac.ca/solutions/#TABPANEL5"
+    },
+    {
+     "text": "See Solutions",
+     "href": "https://innovation.interac.ca/solutions/"
+    },
+    {
+     "text": "See More",
+     "href": "https://innovation.interac.ca/community/"
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "merchant",
+    "developer",
+    "financial institution"
+   ],
+   "headings": [
+    "h1: Enabling innovation on Canada’s value exchange platform",
+    "h2: Solutions",
+    "h1: Interac® verification solutions",
+    "h1: Business Request Money",
+    "h1: Interac Direct",
+    "h2: Keep up with industry trends"
+   ],
+   "screenshot": "assets/interac/interac-hub-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "Solutions",
+     "url": "https://innovation.interac.ca/solutions/",
+     "status": 200,
+     "result": "readable",
+     "words": 211,
+     "title": "Innovation Hub - Solutions"
+    },
+    {
+     "nav": "Community",
+     "url": "https://innovation.interac.ca/community/",
+     "status": 200,
+     "result": "readable",
+     "words": 267,
+     "title": "Innovation Hub - Community"
+    },
+    {
+     "nav": "Guides",
+     "url": "https://innovation.interac.ca/guides/",
+     "status": 200,
+     "result": "readable",
+     "words": 120,
+     "title": "Innovation Hub - Guides"
+    },
+    {
+     "nav": "Support",
+     "url": "https://innovation.interac.ca/support/",
+     "status": 200,
+     "result": "readable",
+     "words": 205,
+     "title": "Innovation Hub - Support / FAQ"
+    },
+    {
+     "nav": "Français",
+     "url": "https://innovation.interac.ca/fr/",
+     "status": 200,
+     "result": "readable",
+     "words": 345,
+     "title": "Innovation Hub - Accueil"
+    }
+   ],
+   "walls": 0,
+   "readable": 5
+  },
+  "S3": {
+   "from": "Solutions",
+   "url": "https://innovation.interac.ca/solutions/",
+   "title": "Innovation Hub - Solutions",
+   "headings": [
+    "h1: Explore our solutions",
+    "h1: Business Request Money",
+    "h1: Standard Identity Verification",
+    "h1: Advanced Document Verification",
+    "h1: Know Your Customer (KYC)",
+    "h1: Interac Direct"
+   ],
+   "links": 5,
+   "sample": [
+    {
+     "text": "Overview",
+     "href": "https://innovation.interac.ca/solution/business-request-money/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://innovation.interac.ca/solution/standard-identity-verification/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://innovation.interac.ca/solution/advanced-document-verification/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://innovation.interac.ca/solution/know-your-customer-kyc/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://innovation.interac.ca/solution/interac-direct/"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/interac/interac-hub-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": false,
+   "pages_tried": 22
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Support",
+   "url": "https://innovation.interac.ca/support/",
+   "title": "Innovation Hub - Support / FAQ",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [
+    "https://innovation.interac.ca/community/"
+   ],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/interac/interac-hub-s7-03-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://innovation.interac.ca/?sfid=13052&_sf_s=authorization",
+     "count_hint": "2",
+     "top": [
+      "Security & Tokenization with INTERAC® TSP | 2 of 3",
+      "It’s an API World and we’re living in it"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://innovation.interac.ca/?sfid=13052&_sf_s=test%20cards",
+     "count_hint": "42",
+     "top": [
+      "Announcing the Generation Now Contest Winners",
+      "Digital Identity in Health",
+      "Case study: Building a Better Experience for Hungry Customers",
+      "Digital Identity in Immigration",
+      "Entrepreneurs: Got an Idea for New Ways to Pay?"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://innovation.interac.ca/?sfid=13052&_sf_s=certification",
+     "count_hint": "2",
+     "top": [
+      "Data, AI, IoT and Standards – Themes from IBM Interconnect 2017",
+      "Digital Identity in Immigration"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en-US",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 1,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "h1_count": 4,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "iframe",
+    "body",
+    "iframe",
+    "body",
+    "iframe",
+    "body",
+    "iframe",
+    "body",
+    "iframe",
+    "body"
+   ],
+   "nav_reachable_by_keyboard": false
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 6,
+   "screenshot": "assets/interac/interac-hub-s11-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Guides",
+     "href": "https://innovation.interac.ca/guides/"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Guides",
+    "href": "https://innovation.interac.ca/guides/"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 2143,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/",
+   "final": "https://innovation.interac.ca/solutions/",
+   "status": 200,
+   "ms": 1636,
+   "why": "S2 Solutions"
+  },
+  {
+   "url": "https://innovation.interac.ca/community/",
+   "final": "https://innovation.interac.ca/community/",
+   "status": 200,
+   "ms": 1638,
+   "why": "S2 Community"
+  },
+  {
+   "url": "https://innovation.interac.ca/guides/",
+   "final": "https://innovation.interac.ca/guides/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S2 Guides"
+  },
+  {
+   "url": "https://innovation.interac.ca/support/",
+   "final": "https://innovation.interac.ca/support/",
+   "status": 200,
+   "ms": 1649,
+   "why": "S2 Support"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/",
+   "final": "https://innovation.interac.ca/fr/",
+   "status": 200,
+   "ms": 1651,
+   "why": "S2 Français"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/",
+   "final": "https://innovation.interac.ca/solutions/",
+   "status": 200,
+   "ms": 1620,
+   "why": "S3 Solutions"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/#TABPANEL2",
+   "final": "https://innovation.interac.ca/solutions/#TABPANEL2",
+   "status": null,
+   "ms": 1504,
+   "why": "S3 See more"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/#TABPANEL1",
+   "final": "https://innovation.interac.ca/solutions/#TABPANEL1",
+   "status": null,
+   "ms": 1504,
+   "why": "S3 See more"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/#TABPANEL5",
+   "final": "https://innovation.interac.ca/solutions/#TABPANEL5",
+   "status": null,
+   "ms": 1504,
+   "why": "S3 See more"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/",
+   "final": "https://innovation.interac.ca/solutions/",
+   "status": 200,
+   "ms": 1588,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://innovation.interac.ca/guides/",
+   "final": "https://innovation.interac.ca/guides/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S4 Guides"
+  },
+  {
+   "url": "https://innovation.interac.ca/guides/#page-content",
+   "final": "https://innovation.interac.ca/guides/#page-content",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guides/",
+   "final": "https://innovation.interac.ca/fr/guides/",
+   "status": 200,
+   "ms": 1620,
+   "why": "S4 Français (French)"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/",
+   "final": "https://innovation.interac.ca/guide/org-managers/",
+   "status": 200,
+   "ms": 1619,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/user-management/",
+   "final": "https://innovation.interac.ca/guide/user-management/",
+   "status": 200,
+   "ms": 1641,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/add-new-member/",
+   "final": "https://innovation.interac.ca/guide/add-new-member/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/registration-login-guide/",
+   "final": "https://innovation.interac.ca/guide/registration-login-guide/",
+   "status": 200,
+   "ms": 1615,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guides/#page-content",
+   "final": "https://innovation.interac.ca/fr/guides/#page-content",
+   "status": 200,
+   "ms": 1599,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guide/org-managers/",
+   "final": "https://innovation.interac.ca/fr/guide/org-managers/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S4 Aperçu"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guide/gestion-des-utilisateurs/",
+   "final": "https://innovation.interac.ca/fr/guide/gestion-des-utilisateurs/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S4 Aperçu"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guide/ajouter-un-nouveau-membre/",
+   "final": "https://innovation.interac.ca/fr/guide/ajouter-un-nouveau-membre/",
+   "status": 200,
+   "ms": 1615,
+   "why": "S4 Aperçu"
+  },
+  {
+   "url": "https://innovation.interac.ca/fr/guide/registration-login-guide/",
+   "final": "https://innovation.interac.ca/fr/guide/registration-login-guide/",
+   "status": 200,
+   "ms": 1620,
+   "why": "S4 Aperçu"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/#page-content",
+   "final": "https://innovation.interac.ca/guide/org-managers/#page-content",
+   "status": 200,
+   "ms": 1596,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/#",
+   "final": "https://innovation.interac.ca/guide/org-managers/#",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 CIAM"
+  },
+  {
+   "url": "https://innovation.interac.ca/solution/advanced-document-verification/",
+   "final": "https://innovation.interac.ca/solution/advanced-document-verification/",
+   "status": 200,
+   "ms": 1628,
+   "why": "S4 Advanced Document Verification"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/#hashedlink-1",
+   "final": "https://innovation.interac.ca/guide/org-managers/#hashedlink-1",
+   "status": 200,
+   "ms": 1595,
+   "why": "S4 Introduction"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/#hashedlink-2",
+   "final": "https://innovation.interac.ca/guide/org-managers/#hashedlink-2",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 Terms and Definitions"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/org-managers/#hashedlink-3",
+   "final": "https://innovation.interac.ca/guide/org-managers/#hashedlink-3",
+   "status": null,
+   "ms": 1503,
+   "why": "S4 View Organizations"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/user-management/#page-content",
+   "final": "https://innovation.interac.ca/guide/user-management/#page-content",
+   "status": 200,
+   "ms": 1604,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/user-management/#",
+   "final": "https://innovation.interac.ca/guide/user-management/#",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 CIAM"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/add-new-member/#page-content",
+   "final": "https://innovation.interac.ca/guide/add-new-member/#page-content",
+   "status": 200,
+   "ms": 1593,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/guide/registration-login-guide/#page-content",
+   "final": "https://innovation.interac.ca/guide/registration-login-guide/#page-content",
+   "status": 200,
+   "ms": 1599,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1604,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1602,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/support/",
+   "final": "https://innovation.interac.ca/support/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S7 Support"
+  },
+  {
+   "url": "https://innovation.interac.ca/support/",
+   "final": "https://innovation.interac.ca/support/",
+   "status": 200,
+   "ms": 1600,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1596,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1594,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1617,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1607,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1599,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://innovation.interac.ca/",
+   "final": "https://innovation.interac.ca/",
+   "status": 200,
+   "ms": 1602,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "interac-hub-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://innovation.interac.ca/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-hub-s1-01-20260925.webp",
+   "kb": 71
+  },
+  {
+   "id": "interac-hub-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://innovation.interac.ca/solutions/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-hub-s3-02-20260925.webp",
+   "kb": 61
+  },
+  {
+   "id": "interac-hub-s03",
+   "station": "S7",
+   "note": "support",
+   "url": "https://innovation.interac.ca/support/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-hub-s7-03-20260925.webp",
+   "kb": 55
+  },
+  {
+   "id": "interac-hub-s04",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://innovation.interac.ca/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-hub-s11-04-20260925.webp",
+   "kb": 28
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://innovation.interac.ca/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://innovation.interac.ca/community/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://innovation.interac.ca/guides/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://innovation.interac.ca/support/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://innovation.interac.ca/solutions/",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 45,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

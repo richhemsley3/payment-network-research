@@ -1,0 +1,1332 @@
+{
+  "network": "visa",
+  "dimension": "surfaces",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Developer Center (developer.visa.com) is Visa's public developer portal, pitched as direct access to Visa APIs, tools and expertise; the home page is readable without an account.",
+      "quote": "Design. Build. Deliver. Open up a new world of possibilities for your business with direct access to Visa’s APIs, tools and expertise.",
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Home page also links Register, Support and FAQ, Contact Us, Learning Hub, Pricing Guide, Availability Guide, Release Notes, and Visa Partner. Audience segments on the home page: 'The Power of the Visa Network. Delivered as APIs. Acquirer Banks Independent Developers Issuer Banks Merchants Small Businesses'; banner: 'A new onboarding experience is available as of September 2025.'; Learning Hub at /pages/learning-hub (tutorials, FAQs, use cases and blogs) is public."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The developer centre home page doubles as an operational bulletin board: it carried a mandatory-action notice on renewal of VDP root, intermediate and leaf certificates with dated cutovers for api.visa.com (12 Feb 2026), digital.visa.com (12 Mar 2026) and api.visa.co.in (17 Mar 2026).",
+      "quote": "Clients must confirm their systems can support the new certificates and take action to update if necessary no later than the dates listed below",
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Notice headed 'Action Required: VDP Root, Intermediate, Leaf Certificates Will Be Renewed'; production date moved from 5 Feb to 12 Feb 2026."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Developer publishes public release notes by year from 2017 to 2026, each entry tagged with an availability status (Public or Restricted).",
+      "quote": "Release Notes 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017",
+      "url": "https://developer.visa.com/site/release_notes",
+      "title": "Release Notes",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "May 2026 entry: Visa Digital Enablement Lite App outbound events 'Availability: Restricted'; April 2026: Visa Intelligent Commerce Agent APIs 'Availability: Restricted', Visa Offers Network consent service 'Availability: Public'. The older /pages/release-notes URL returns 404."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Developer Sandbox is described as a fully functional environment with mock test data; production credentials require an agreement or sponsorship and approvals.",
+      "quote": "Our Sandbox is a fully functional environment that allows you to test publicly available API endpoints.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'the data returned in Sandbox is mock data only and limited. For real data, you would need to request production credentials (subject to an agreement or sponsorship and approvals).' Sample code offered in C#, Java, Node, PHP, Python and Ruby. Restricted products: 'If the product you’re interested in has a lock icon, it means special approval is required. Click “Request Access” to open the application form.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "SDKs, implementation and integration guides are a gated download library inside the developer portal (Project Dashboard > Assets), available only after signing in with Visa Developer credentials.",
+      "quote": "SDKs, detailed implementation guides, integration guides, etc., that you can download from the Project Dashboard > Assets. You simply need to first sign in",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "VDC Playground is a Windows-only Java desktop tool for testing Visa Developer Platform APIs; it is downloaded from the gated Asset Management area of a logged-in project dashboard.",
+      "quote": "To access and download this tool, log in to Visa Developer > Project dashboard > Asset Management.",
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states 'Note : VDC Playground is currently compatible with Windows only.' and that it supports Two-Way SSL, X-Pay Token and Message Level Encryption and can generate JKS/PKCS12 keystores."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Going Live runs through an Onboarding Dashboard inside the project (business entity, contact, project information, environment request, API registration, users, credentials/CSR), and certification and production credentials are released only after a signed contract with Visa is in place.",
+      "quote": "Credentials for certification and production will be provided once a signed relevant contract is in place between you and Visa.",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Credentials are then retrieved in the portal with a one-time password emailed to the user (Certification/Production > Credentials > Request One Time Password). Going Live page: 'The \"Onboarding Dashboard\" in your project walks you through the processes required to promote the project to the production environment.' Page marked 'Updated to reflect the new onboarding experience available as of September 2025.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa says VDP onboarding can take two weeks or multiple months depending on sandbox readiness, product complexity and commercial prerequisites; certification is self-service for simple products but phone-guided by Visa's Global Testing Team for others.",
+      "quote": "While some projects can move to production in as little as two weeks, others may take multiple months.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+      "title": "Visa Developer Onboarding",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: sandbox 'is free and available for development for most APIs even before signing a VDP agreement'; use-case approval leads to a signed VDP Agreement with pricing and legal terms. Certification: 'others require our Global Testing Team to execute pre-defined test cases in our Certification environment with you over the phone.' PCI DSS attestation requested for PAN-handling products."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Developer pricing has three models (free to use, no additional fee where the client already subscribes via Visa Online, and usage-based with monthly minimums); the sandbox carries no fees.",
+      "quote": "APIs for certain capabilities are available for no additional fee if the client has a subscription for the capability through Visa Online.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Innovating in our Sandbox – No fees charged' and a flat setup fee at contract. This explicitly links the developer portal's commercial model to Visa Online subscriptions."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa publishes a public Availability Matrix listing every Visa Developer product's availability by region (North America, Asia-Pacific, Europe, CEMEA, LAC).",
+      "quote": "The following table lists the regional availability for all the products. This table will be updated periodically to reflect the introduction of new products",
+      "url": "https://developer.visa.com/availability",
+      "title": "Availability Matrix | Visa Developer Center",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Products listed include Visa Direct, Visa Resolve Online-adjacent Visa Merchant Purchase Inquiry, Visa Global ATM Locator, CyberSource Payments, VisaNet Connect, Visa Token Service, DPS services."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Developer offers an opt-in newsletter for product announcements, plus blogs, tutorials and webinars, and a Partner Gallery of client implementations.",
+      "quote": "Stay up to date with the latest product announcements and news from Visa Developer. Sign up to hear more",
+      "url": "https://developer.visa.com/developer_program",
+      "title": "Visa Developer - About Visa Developer",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Same page: 'Visa Developer has a blogs, tutorials, and webinars' and a link to the Partner Gallery."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Since 5 November 2025 the Visa Developer Platform authenticates through Visa's Universal Login (B2BIAM), with MFA on every login unless a passkey is used, Visa Access SSO bypassing MFA, and a new OTP forgot-password flow from 28 April 2026; the FAQ names the Visa Partner Portal as a sibling entitlement.",
+      "quote": "Starting November 5, 2025, Visa Developer Platform will use Visa’s Universal Login for authentication.",
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also on page: 'Does not change your entitlements within Visa Developer Center or Visa Partner Portal' and 'If you access the Visa Developer Platform (VDP) through Visa Access Single Sign-On (SSO), you will not be prompted for MFA.' MFA: 'MFA will be required each time you log in to the Visa Developer Platform (VDP), unless you choose to authenticate using a Passkey.' 'Passkey is not supported by iPhone, iPad and Android device users currently.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A 2022 DevPortal Awards nomination describes the Visa Developer Platform as having an integrated sandbox with OpenAPI 3.0 support and a community platform with staff-written blog posts and tutorials; it was nominated for Best Findability of Products in a Devportal.",
+      "quote": "With an integrated sandbox and OpenAPI 3.0 support, VDP allows clients to move fast and test end to end solutions with multiple APIs.",
+      "url": "https://devportalawards.org/nominees/2022/visa-developer-portal",
+      "title": "Visa Developer Center (2022) | DevPortal Awards",
+      "publisher": "DevPortal Awards (Pronovix)",
+      "published": "2022-01-01",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Year only (2022); day/month not shown. Same page: 'The VDP community platform features blog posts and tutorials from internal subject matter experts on our latest products and services.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa is hiring a Senior Director to own the end-to-end Visa Developer Platform client and developer experience, with success measured on Developer NPS, time-to-first API call, time-to-production, onboarding cycle time, self-service adoption and support-ticket reduction.",
+      "quote": "Developer NPS Client satisfaction Time-to-first API call Time-to-production Client onboarding cycle time Self-service adoption Developer portal engagement",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Senior-Director--Visa-Developer-Platform--VDP--Client---Developer-Experience_REF087990W-1",
+      "title": "Senior Director, Visa Developer Platform (VDP) Client & Developer Experience",
+      "publisher": "Visa Inc. (Workday careers)",
+      "published": "2026-09-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Posting also states the role will 'Drive front-end convergence across Visa client-facing digital experiences to create a consistent and scalable platform experience' and aims at an 'AI-native experience'. Read via the Workday public JSON endpoint."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Partner (partner.visa.com) is a public partner marketing and programme site with an account layer (Sign In, Dashboard, Settings, Invitations) that hosts programme applications.",
+      "quote": "Visa has a partner program for every stage of your payments journey. Apply for solution certification, connect to our network, and more.",
+      "url": "https://partner.visa.com/",
+      "title": "Visa Partner",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Navigation: Explore (use cases), Learn, Programs, Partners, Build, Get Started, Dashboard, Settings, Invitations, Sign In. Footer links to Visa Developer Center. Page also carries the self-description 'Visa Partner is your expert guide to payment' (Vendor)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Partner's programme catalogue lists Visa Ready, Visa Sensory Branding, Visa Technology Partners, Fintech Fast Track, Third Party Agent Registration, License Programs and a Core Product Program Information Form for issuers; Fast Track is scoped to fintechs that have raised a Series A or USD 1M+.",
+      "quote": "Ready to issue cards and raised at least a Series A or USD$1M+ in funding (regional variances apply)?",
+      "url": "https://partner.visa.com/site/programs/partner-programs.html",
+      "title": "Visa Partner Programs",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Visa Technology Partners entry: 'find registration and licensing requirements for specifications, mobile SDKs, software applets, card and acceptance device test tools, branding guidelines'. Every dedicated Fintech Fast Track URL tried on partner.visa.com returned Page Not Found."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Partner directory (Find a Partner) of certified and programme partners is readable without an account, filterable by operating country/region.",
+      "quote": "Find a Partner Choose from hundreds of partners to help you bring your ideas to life.",
+      "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+      "title": "Visa Partner directory (Find a Partner)",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page title tag is empty; heading 'Find a Partner'. Visa Ready page says certified partners are listed here ('Visa Partner directory listing')."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Third Party Agent registration is a self-service tool on Visa Partner that lets agents register with a sponsoring issuer or acquirer or directly with Visa, yielding a TPA Business ID (BID) and a listing on the public Visa Global Registry of Service Providers.",
+      "quote": "By getting registered with Visa, agents are provided a TPA Business ID (BID) and gain access to Visa's suite of payment products and services",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Visa Partner | Third Party Agent Registration",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'merchants will prefer to work with registered agents listed on the Visa Global Registry of Service Providers website'. Registrants need current PCI DSS AOC or SAQ-D-SP."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa licensing applications have moved from the Visa Partner Portal (VPP) to Visa Access, where applicants use the Visa Client Lifecycle Management Tool and receive a temporary UVID before a final Business ID.",
+      "quote": "The process for obtaining a Visa license has changed and now lives on Visa Access. If you have an existing application in VPP,",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page text: 'Complete your application in the Visa Client Lifecyle Management Tool, found in Visa Access. A temporary organization ID (UVID) will be assigned' (typo 'Lifecyle' is in the source). Regional licensing contact emails are obfuscated on the page."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Ready is a certification programme open to technology partners, issuer processors, BIN sponsors, program managers, acquirers and gateways; applying requires creating a Visa Partner account, and certified partners are listed in the Visa Partner directory.",
+      "quote": "Technology partners, issuer processors, BIN sponsors, program managers, acquirers, and gateways are eligible to apply to the Visa Ready program.",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready Program",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Steps: 'Step 2 Create an account on Visa Partner ... Step 6 Get your company listed in the partner directory'. Resources named: implementation guides, Visa Integration Manager, pilot testing frameworks, workshops, EMVCo program standards, sales collateral, brand guidelines. Self-reported scale on the same page (Vendor): '500+ partners 11+ product verticals 160+ solutions 20+ countries'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Online login page now brands itself Visa Access, a single gated place for business tools, marketing resources and personalised content, claiming 150+ Visa services; enrolment requires an existing client or partner relationship and a Business ID (BID).",
+      "quote": "Scale and operate your business more efficiently with access to 150+ Visa services all in one place.",
+      "url": "https://www.visaonline.com/login/",
+      "title": "Log In (Welcome to Visa Access)",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Read in the Chrome pane because the page is JavaScript-rendered (curl returned only 'Index'). Other page text: 'WELCOME TO VISA ACCESS', 'A single place to access business tools, Visa marketing resources, personalized content and more.', 'If you’re already a Visa client or partner, enrolling in Visa Access is easy. Be sure to have your Business ID (BID) ready.' Login offers Username/Password or Passkey; page advertises a full-service help centre, self-service tools and AI-powered search."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The public Visa Rules glossary defines Visa Access as the password-protected client website for Members, VisaNet Processors and other authorized users, formerly known as Visa Online, and lists the self-service tools inside it (PRM, eCIQ, VCSA, Client Service Provider Directory).",
+      "quote": "Visa Access A password-protected website that provides Members, VisaNet Processors, and other authorized users with access to Visa information, formerly known as Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entry ID# 0025360, page 904 of the PDF; entry last updated Apr 2025. Companion glossary entry ID# 0026479 (page 846), 'Client Portfolio Management Self-Service Tools': 'A set of tools, available through Visa Access to Members, VisaNet Processors, and designated Agents' comprising Program Request Management (PRM), Electronic Client Information Questionnaire (eCIQ) and Visa Client Support Application (VCSA); a 'Client Service Provider Directory' module holds BID, BIN and acquiring identifier data."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Business News is a weekly email publication sent to each Member's Primary Center Manager and Senior Officer; the rules make the Primary Center Manager responsible for distributing it internally.",
+      "quote": "The Senior Officer receives the same email communications as the Primary Center Manager, including the weekly Visa Business News.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary entries ID# 0031041 and 0031042 (pages 887 and 893). The Interlink rulebook carries identical text. The articles themselves are not public."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Since 18 April 2026 the Visa Rules bind any Member using an API through the Visa Developer Center to the Visa Developer Center Terms of Use unless a bespoke agreement applies; before that date the rule applied only in the Europe Region.",
+      "quote": "Where a Member uses an application programming interface (API) accessed through the Visa Developer Center (VDC)",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 7.2.3 Application Programming Interface Usage, ID# 0031061, pages 533-534; 'Effective through 17 April 2026 In the Europe Region' versus 'Effective 18 April 2026' global wording."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa's Ecosystem Risk Programs Guide tells acquirers that the Visa Acceptance Risk Standards and risk communications live on Visa Online (VOL) and that clients are responsible for retrieving them there; it defines VOL as a regional tool with access granted at BID level.",
+      "quote": "clients are responsible for obtaining and referring to this information on Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-acceptance-risk-standards.pdf",
+      "title": "Visa Ecosystem Risk Programs Guide (October 2024)",
+      "publisher": "Visa Inc.",
+      "published": "2024-10-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Cover is dated October 2024 and marked 'Visa Confidential' although publicly hosted; day of month not shown. Acronym list: 'VOL Visa Online (a regional Visa tool and access is dictated at BID level.' and 'VBN Visa Business Newsletter'. Predates the Capital One/Discover close (18 May 2025), not relevant to Visa."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa's community-issuer resources page still routes credit unions and community banks to 'Visa Online' for the Merchant Offers Program and a product enrollment portal at secure.visaonline.com, calling it the one-stop shop for doing business with Visa.",
+      "quote": "Visit the product enrollment portal today. You must first be logged in to VisaOnline.com",
+      "url": "https://usa.visa.com/partner-with-us/community-issuers/resources.html",
+      "title": "Visa Community Issuer Resources | Visa",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Visa Online Your one-stop shop destination for doing business with Visa. Enroll in Visa Online' and 'Access the program through Visa Online (VOL)'. Links: https://secure.visaonline.com/product-enrollment and https://secure.visaonline.com/SitePages/Section.aspx?pageid=1.1.2.0.0."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Resolve Online (VROL) is Visa's dispute platform for issuers and acquirers, offered through Visa Developer with production pricing on request; optional add-ons are Order Insight (formerly VMPI), Order Insight Digital, Rapid Dispute Resolution and VRAD.",
+      "quote": "Visa Resolve Online (VROL) is a dispute resolution platform that helps issuers and acquirers manage the dispute life cycle.",
+      "url": "https://developer.visa.com/capabilities/visa-resolve-online",
+      "title": "Visa Resolve Online",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'available for use by Issuer Banks Acquirer Banks'; 'Contact Visa for pricing to use in Production.'; claims VROL 'automatically assigning case liability for approximately 80% of disputes'. The rulebook mandates VROL for recovered-card notices, arbitration debits and OCT posting confirmations (pages 141, 149, 587). Visa's FY2025 10-K (https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm, filed 2025-11-06) pairs it with Verifi: 'a network-agnostic solution from Verifi that enables sellers to prevent and resolve disputes on a single platform as well as dispute tools for issuers and acquirers like Visa Resolve Online.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A Visa job posting describes VROL as a mandated, web-based application used by customer-service representatives and back-office analysts to manage the dispute life cycle.",
+      "quote": "Visa Resolve Online (VROL) is a web-based application that supports customer service representatives and back-office analysts responsible for managing the dispute transaction life cycle.",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Vice-President--Dispute-Processing_REF081429W",
+      "title": "Vice President, Dispute Processing",
+      "publisher": "Visa Inc. (Workday careers)",
+      "published": "2026-04-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Posting also says 'VROL is a mandated service that is crucial to the Visa brand promise'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Third parties confirm merchants never log into VROL and reach it only through acquirer or processor dispute tools: a 2026 practitioner guide says the secure.visaonline.com login is for issuer and acquirer staff, and a 2018 First Data client deck shows VMPI data flowing merchant-to-issuer through VROL.",
+      "quote": "Merchants never log into VROL. Visa built the platform for issuers and acquirers.",
+      "url": "https://www.chargeback.io/blog/merchants-guide-to-visa-resolve-online",
+      "title": "What Is Visa Resolve Online (VROL)? A Merchant's Guide",
+      "publisher": "Chargeback (chargeback.io), author Theodore Sterling",
+      "published": "2026-08-27",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Also: 'The login portal at secure.visaonline.com is for enrolled issuer and acquirer staff only.' Vendor blog of a chargeback-prevention firm. First Data/Fiserv deck (https://merchants.fiserv.com/content/dam/s7/firstdata/us/en/article_listing/Benefits-of-VCR-for-Merchants-Feb-2018-First-Data-V7.pdf, © 2018, Reported): 'The VMPI process is a real-time data sharing exercise from merchant to issuer through Visa Resolve Online (VROL)'. Galileo's network docs do not mention Visa Online or VROL."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa maintains a public Merchant Resource Library of downloadable PDFs organised into Best Practices, Disputes, Security and Risk, and EMV, including Payment Fraud Disruption threat reports.",
+      "quote": "These documents contain in-depth information designed to help Visa merchants navigate acceptance, fraud, data security, authorization and more.",
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Merchant Resource Library | Visa",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Documents dated 2015-2024, e.g. 'Dispute Management Guidelines for Visa Merchants' (June 29, 2024) and 'PFD Biannual Threats Report (Jun - Dec 2023)'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Merchant Business News Digest is a public, periodically updated summary of merchant-relevant Visa Business News items (rule and programme changes with effective dates), with a subscription form on globalclient.visa.com.",
+      "quote": "The Visa Merchant Business News Digest is an online publication, providing a summary of recent Visa Business News articles.",
+      "url": "https://globalclient.visa.com/visa-merchant-digest",
+      "title": "Visa Merchant Business News Digest",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Digest page (https://www.visa.com/en-us/resources/visa-merchant-business-news-digest) says 'Your source for the top merchant-focused stories. Interested in learning more about a product, service or rule mentioned? Contact your Visa rep or acquirer.' Entries seen dated May 2026 back to 2023; archives at corporate.visa.com."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Business and Economic Insights (part of Visa Consulting & Analytics) offers a public insights directory, downloadable monthly and quarterly forecast data files and an email subscription for partners.",
+      "quote": "Get insights delivered to your inbox Stay ahead of shifting economic trends with latest updates from our economists. Subscribe now",
+      "url": "https://usa.visa.com/partner-with-us/visa-consulting-analytics/leverage-economic-and-business-insights.html",
+      "title": "Track Business and Economic Insights | Visa",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Data downloads dated September 2026 (Visa U.S. Monthly Economic Outlook; Visa U.S. Regional Economic Outlook)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa University (visauniversity.com) is Visa's public-facing training site with login/registration, course catalogues in dispute resolution, fraud, operations, payments cybersecurity, payments landscape and portfolio management, certificate programmes and a Digital Payments Library.",
+      "quote": "A comprehensive streaming library and training resource featuring 1,200+ videos, 17 courses, 20+ playlists and more.",
+      "url": "https://www.visauniversity.com/en",
+      "title": "Visa University",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Catalogue and calendar are readable without an account; enrolment requires 'Log in' or 'Register'. Digital Payments Catalyst is a seven-week programme with Wharton faculty, 'Registration for our September 2026 program is now open.' Counts are self-reported."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Payments Forum Americas is described by Visa as its largest annual client and partner event, gathering financial institutions, merchants, enablers and fintechs.",
+      "quote": "The annual Visa Payments Forum Americas, our largest client and partner event of the year, is officially here.",
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-payments-forum-2025.html",
+      "title": "The future of payments unveiled at VPF2025 | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-05-21",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Self-description of event scale; no outside check."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Payments Forum 2026 is scheduled in person at Moscone Center, San Francisco, 9-11 June 2026, for financial institutions, merchants, fintech partners and developers; a listings site reports Visa committed in August 2025 to host VPF at Moscone through 2030.",
+      "quote": "IN-PERSON | June 9–11, 2026 | Moscone Center | San Francisco, CA USA",
+      "url": "https://www.moscone.com/events/visa-payments-forum-vpf-2026",
+      "title": "Visa Payments Forum (VPF) 2026",
+      "publisher": "Moscone Center",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "paytech.events (https://paytech.events/visa-payments-forum/): 'Visa publicly committed in August 2025 to host VPF at the Moscone Center in San Francisco through 2030'. See contradictions for a conflicting September date in a search snippet."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa DPS Client Conference is an issuer-processing client event open to DPS clients, prospects and key partners, with invitations sent by email save-the-date.",
+      "quote": "The DPS Client Conference is open to all DPS clients and prospects, along with key partners.",
+      "url": "https://www.visa.com/en-us/thought-leadership/industry-insights/2026-dps-conference",
+      "title": "Inside the 2026 Visa DPS Client Conference | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-06-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page 'Last updated on June 30, 2026'; announces upcoming Visa DPS Credit launch; 'Watch for a save the date in your email this summer of 2026.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Digital Partner Services (technologypartner.visa.com) is a partly public site with a library of approved products and test tools plus four sign-in portals: Approval Services Portal, Tap to Phone Certification Portal, Visa Technology Partner and Visa Tap Program.",
+      "quote": "Approval Services Portal Customer portal for chip product testing and approval process",
+      "url": "https://technologypartner.visa.com/",
+      "title": "Home - Digital Partner Services",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Tap to Phone Certification Portal Customer portal for Tap to Phone product testing and approval process' and 'Visa Technology Partner Gain access to information and specifications you need to develop products supporting Visa’s mobile and chip technologies.' Public sections: Approved Products (applets, chip card acceptance devices, secure elements, Tap to Phone kernels), Accredited Test Laboratories. A JavaScript app also lives at digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpHome."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa's public GitHub organisation (16 repositories, contact developer@visa.com, no public members) and design.visa.com publish the Nova design system, Visa Chart Components, an Acceptance Devices iOS SDK and agentic-commerce tooling as open developer surfaces.",
+      "quote": "Visa Chart Components (VCC) is an accessibility focused, framework agnostic set of data experience design systems components for the web.",
+      "url": "https://github.com/visa",
+      "title": "Visa · GitHub",
+      "publisher": "Visa Inc. on GitHub",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Pinned: trusted-agent-protocol ('Establishing a universal standard of trust between AI agents and merchants for the next phase of agentic commerce.', 208 stars), visa-vulnerability-agentic-harness (2.8k stars), ai. 'This organization has no public members.' Visa also publishes its Product Design System (VPDS/Nova) openly at https://design.visa.com/ ('Product Design System Welcome Design system Toggle theme About VPDS What is VPDS?'), including Global Accessibility Requirements, design tokens and Angular/React/Flutter/CSS libraries, readable without login."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa's 10-K says Visa Intelligent Commerce APIs are backed by a commercial partner programme for platforms and developers and are also exposed through an MCP server.",
+      "quote": "These capabilities are supported by a commercial partner program for platforms and developers, providing the tools and infrastructure to deploy AI-driven commerce solutions",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Continues: 'these APIs are accessible through our MCP server, connecting AI systems to Visa’s payment network infrastructure'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Interlink rulebook is published openly by Visa (18 April 2026 edition) and routes Interlink Members' critical communications through the weekly Visa Business News; no public PLUS rulebook or ATM-operator surface was found.",
+      "quote": "Interlink Core Rules and Interlink Product and Service Rules 18 April 2026",
+      "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/interlink-operating-regulations.pdf",
+      "title": "Interlink Core Rules and Interlink Product and Service Rules",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "373 pages. No equivalent public PLUS rulebook was found at the analogous URL (404). For the PLUS ATM brand no equivalent rulebook was found; Visa's FY2025 10-K says only 'Issuing and acquiring partnerships with both financial institutions and independent ATM operators enable these capabilities.' and names no ATM-operator portal (see not_found)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Acceptance developer centre (developer.visaacceptance.com) is public and offers a free self-serve sandbox account, live API console, SDKs, response codes and test cards, organised by role: merchants, acceptance providers and technology partners.",
+      "quote": "Sign up for a free sandbox account to test, develop and innovate in a risk free environment.",
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Developer Center | Visa Acceptance Developer Portal",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footer links 'Visa Acceptance Portal' to https://businesscentertest.visaacceptance.com/ebc2/ and 'Support & Community' to https://community.developer.cybersource.com. Footer copyright reads '© 2021 Visa Acceptance'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Technology partners register through a form on the Acceptance developer centre for sandbox onboarding and access to a gated partner portal with early-access features; registration is followed by outreach from a Visa team member.",
+      "quote": "Unlock exclusive integration tools and early‑access features through our partner portal",
+      "url": "https://developer.visaacceptance.com/technology-partners.html",
+      "title": "Technology partners | Visa Acceptance Developer Portal",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Form fields include Preferred Org ID, company, website, annual payment volume band; consent text: 'a member of our team will reach out to discuss the opportunity'. Partnership models: Referral, Enablement, Reseller. Not submitted."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The legacy Cybersource Developer Center (developer.cybersource.com) is still live with the same navigation as the Visa Acceptance developer centre, plus a Developer community link, a Demo hub and an AI Assistant, so partners see two branded portals for one platform.",
+      "quote": "Transform the way you take payments with the secure and trusted technology of Cybersource",
+      "url": "https://developer.cybersource.com/",
+      "title": "Developer Center",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Links 'Developer community Connect and share with community of developers' to https://community.developer.cybersource.com. See contradictions for dual branding."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Visa Acceptance Support Center is a public knowledge base for the Visa Acceptance and Cybersource portfolios, but chat and support cases require sign-in to the gated Business Center (login by Organization ID, formerly Cybersource Merchant ID), where MID configuration and go-live requests are also raised.",
+      "quote": "The Business Center Support Center allows you to submit support requests (cases) and view existing cases related to your account.",
+      "url": "https://support.visaacceptance.com/knowledgebase/article/000002638/en-us",
+      "title": "Support - Support Case Management | Visa Acceptance Support Center",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Enter your Organization ID (formerly “Cybersource Merchant ID”), User Name, and Password'. Business Center itself loads as a JavaScript app titled 'Enterprise Business Center - Loading' at businesscenter.visaacceptance.com. Support Center home (https://support.visaacceptance.com/): 'Find answers to your questions, instructions for common tasks, and more for our Visa Acceptance Solutions and Cybersource portfolios.' and 'Sign in to view additional content, start a chat or submit a support case.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Acceptance Solutions runs a public Atlassian Statuspage with email, SMS, RSS and Atom subscriptions, listing components such as API endpoints, Flex, REST API, webhooks, corporate site and Developer Center.",
+      "quote": "We use this page to communicate service availability and status for Visa Acceptance Solutions. Subscribe to get real-time updates via Email, SMS.",
+      "url": "https://status.visaacceptance.com/",
+      "title": "Visa Acceptance Solutions Status",
+      "publisher": "Visa Inc.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Showed 'All Systems Operational' on access; subscription terms reference Atlassian. A parallel page exists at status.cybersource.com. Support article 000003255 (last modified 12/18/2025, version 25.0): 'For Visa Acceptance Solutions customers please use: https://status.visaacceptance.com/ For Cybersource customers please use: https://status.cybersource.com'; 'The status page is set to UTC time zone.'; four incident states and five component severities."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Visa Acceptance's own support documentation warns that its sandbox is not performance-optimised and may be intermittently unstable (502/504 timeouts), that sandbox accounts default to Chase Paymentech, and that support cases should be opened only after two hours of instability with no incident on the status page.",
+      "quote": "The Sandbox environment is not optimized for performance and may experience intermittent instability. These behaviors do not impact Production environments.",
+      "url": "https://support.visaacceptance.com/knowledgebase/knowledgearticle/?code=KA-07420",
+      "title": "Connectivity - Developer Resources and Sandbox Environment (KA-07420) | Visa Acceptance Support Center",
+      "publisher": "Visa Inc.",
+      "published": "2026-01-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Sandbox accounts default to Chase Paymentech.' and names the 'Cybersource Developer Community Forum' and a Cybersource GitHub repository with .NET, Java, PHP, Ruby and Python SDKs."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Public PLUS (ATM network) rulebook or operating regulations analogous to the Interlink rules PDF",
+      "where": "usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/plus-operating-regulations.pdf (404); Visa Rules PDF (PLUS mentioned only as a card program); 10-K",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Dedicated partner-facing surface for ATM operators or deployers on the Visa/PLUS network",
+      "where": "10-K, Visa Rules, developer.visa.com availability matrix (only Visa Global ATM Locator API), partner.visa.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Status page for the Visa Developer Platform (api.visa.com) comparable to status.visaacceptance.com",
+      "where": "status.developer.visa.com (no DNS), developer.visa.com/status (404), developer.visa.com home and support pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mobile app for partners (Visa Online / Visa Access / Visa Partner / Visa Developer) on iOS or Android",
+      "where": "None of the fetched Visa pages names one; web search budget was exhausted before a dedicated app-store query could run",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Dedicated Fintech Fast Track programme page with eligibility and application steps",
+      "where": "partner.visa.com/site/programs/fintech-fast-track.html, /fintech-fast-track-program.html, /fast-track.html, /fintech-fast-track (all Page Not Found); only the summary paragraph on partner-programs.html",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Content of the Visa Developer Community forum (community.developer.visa.com): categories, thread counts, whether readable without login",
+      "where": "curl, python urllib and WebFetch all fail with an SSL handshake alert; the Chrome pane denied the domain",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Independent developer reviews or sentiment on the Visa Developer Platform",
+      "where": "trustradius.com Visa Developer Platform reviews (Cloudflare challenge on curl and WebFetch); community forum unreachable; web search results surfaced no Reddit/HN threads",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Business School (visabusinessschool.com) description and relationship to Visa University",
+      "where": "curl TLS handshake failed, WebFetch ECONNRESET, Chrome pane denied the domain",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Sensory Branding programme page",
+      "where": "partner.visa.com/site/programs/visa-sensory-branding.html returns Page Not Found (only the summary on partner-programs.html)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Enumerated list of the '150+ Visa services' inside Visa Access",
+      "where": "visaonline.com login page (claim only); rules glossary; community-issuer page",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Business News articles themselves (weekly client bulletin)",
+      "where": "Rules glossary confirms it exists and goes by email; globalclient.visa.com digest summarises merchant items only; no public archive of the articles",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Processor client documentation telling acquirers or issuers to log in to Visa Online for bulletins",
+      "where": "Galileo network docs (no mention); First Data VCR deck (VROL only); web search budget exhausted before further processor-doc queries",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "The Visa Rules glossary (Apr 2026) defines 'Visa Access' as the client website 'formerly known as Visa Online', and the login page at visaonline.com brands itself 'WELCOME TO VISA ACCESS'.",
+      "b": "Visa's community-issuer resources page still says 'Login to Visa Online', 'Access the program through Visa Online (VOL)' and 'Enroll in Visa Online'; the October 2024 Ecosystem Risk Programs Guide defines 'VOL Visa Online (a regional Visa tool...)'; the developer pricing page refers to subscriptions 'through Visa Online'.",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+        "https://usa.visa.com/partner-with-us/community-issuers/resources.html"
+      ]
+    },
+    {
+      "a": "Moscone Center and paytech.events list Visa Payments Forum 2026 as June 9-11, 2026 at Moscone Center, San Francisco.",
+      "b": "A webmobi event listing surfaced in search results as 'Visa Payments Forum | Sep 2026 | San Francisco' with a September 8, 2026 date (search snippet only; page not fetched).",
+      "urls": [
+        "https://www.moscone.com/events/visa-payments-forum-vpf-2026",
+        "https://www.webmobi.com/discovery/events/visa-payments-forum-20251126"
+      ]
+    },
+    {
+      "a": "developer.visaacceptance.com presents the platform as 'Visa acceptance platform' with footer '© 2021 Visa Acceptance' and links its community to community.developer.cybersource.com.",
+      "b": "developer.cybersource.com is still live with identical navigation branded 'Cybersource' ('the secure and trusted technology of Cybersource'), plus a Demo hub and AI Assistant not shown on the Visa Acceptance version; the support KB maintains parallel Cybersource and Visa Acceptance guides, references and status pages.",
+      "urls": [
+        "https://developer.visaacceptance.com/",
+        "https://developer.cybersource.com/"
+      ]
+    },
+    {
+      "a": "Visa's FY2025 10-K describes 'Visa University learning pathways' as an employee development resource.",
+      "b": "visauniversity.com markets Visa University as an external payments academy with paid certificate programmes (Wharton collaboration), certifications and a 1,200+ video library for clients.",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://www.visauniversity.com/en"
+      ]
+    },
+    {
+      "a": "Visa Partner's licensing page says the licensing application 'now lives on Visa Access' and refers to the old route as 'VPP'.",
+      "b": "The Visa Developer support FAQ (2025-2026 changes) still names 'Visa Partner Portal' as a live entitlement alongside Visa Developer Center.",
+      "urls": [
+        "https://partner.visa.com/site/programs/licensing-program.html",
+        "https://developer.visa.com/pages/support"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Access (formerly Visa Online, VOL) client portal",
+      "url": "https://www.visaonline.com/login/",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Access product enrollment portal (Community Growth Acceleration Program)",
+      "url": "https://secure.visaonline.com/product-enrollment",
+      "named_at": "https://usa.visa.com/partner-with-us/community-issuers/resources.html"
+    },
+    {
+      "name": "Merchant Offers Program on Visa Online (VOL)",
+      "url": "https://secure.visaonline.com/SitePages/Section.aspx?pageid=1.1.2.0.0",
+      "named_at": "https://usa.visa.com/partner-with-us/community-issuers/resources.html"
+    },
+    {
+      "name": "Visa Client Lifecycle Management Tool (licensing applications, in Visa Access)",
+      "url": "",
+      "named_at": "https://partner.visa.com/site/programs/licensing-program.html"
+    },
+    {
+      "name": "Client Portfolio Management Self-Service Tools in Visa Access: Program Request Management (PRM), Electronic Client Information Questionnaire (eCIQ), Visa Client Support Application (VCSA)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Acceptance Risk Standards (VARS) document on Visa Online",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/merchants/visa-acceptance-risk-standards.pdf"
+    },
+    {
+      "name": "Visa Business News (weekly client email bulletin)",
+      "url": "",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Partner Portal (VPP) account: Dashboard, Settings, Invitations, programme applications",
+      "url": "https://partner.visa.com/",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Third Party Agent Registration self-service tool",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "named_at": "https://partner.visa.com/site/programs/partner-programs.html"
+    },
+    {
+      "name": "Visa Ready application and Visa Ready resources (implementation guides, Visa Integration Manager, pilot frameworks, sales collateral)",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "named_at": "https://partner.visa.com/site/programs/visa-ready.html"
+    },
+    {
+      "name": "Visa Developer Platform account: Project Dashboard, Assets/Asset Management downloads, Sample Code, Credentials, Onboarding Dashboard, Going Live",
+      "url": "https://developer.visa.com/identity/user/register",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+      "name": "VDC Playground (download from Asset Management)",
+      "url": "",
+      "named_at": "https://developer.visa.com/pages/visa-developer-center-playground"
+    },
+    {
+      "name": "Restricted Visa Developer products (lock icon, Request Access form)",
+      "url": "",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+      "name": "Visa Resolve Online (VROL) dispute platform for issuers and acquirers",
+      "url": "https://developer.visa.com/capabilities/visa-resolve-online",
+      "named_at": "https://developer.visa.com/capabilities/visa-resolve-online"
+    },
+    {
+      "name": "Approval Services Portal (chip product testing and approval)",
+      "url": "https://technologypartner.visa.com/",
+      "named_at": "https://technologypartner.visa.com/"
+    },
+    {
+      "name": "Tap to Phone Certification Portal",
+      "url": "https://technologypartner.visa.com/",
+      "named_at": "https://technologypartner.visa.com/"
+    },
+    {
+      "name": "Visa Technology Partner (specifications, SDKs, applets, test tools; sign in)",
+      "url": "https://technologypartner.visa.com/",
+      "named_at": "https://partner.visa.com/site/programs/partner-programs.html"
+    },
+    {
+      "name": "Visa Tap Program portal (sign in)",
+      "url": "https://technologypartner.visa.com/",
+      "named_at": "https://technologypartner.visa.com/"
+    },
+    {
+      "name": "Digital Partner Services portal (JavaScript app on visaonline.com)",
+      "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpHome",
+      "named_at": "https://partner.visa.com/site/programs/partner-programs.html"
+    },
+    {
+      "name": "Visa University account (course enrolment, Digital Payments Library)",
+      "url": "https://www.visauniversity.com/en",
+      "named_at": "https://www.visauniversity.com/en"
+    },
+    {
+      "name": "Visa Acceptance / Cybersource Business Center (Enterprise Business Center) and its Support Center case tool",
+      "url": "https://businesscenter.visaacceptance.com/",
+      "named_at": "https://support.visaacceptance.com/knowledgebase/article/000002638/en-us"
+    },
+    {
+      "name": "Visa Acceptance Portal (Business Center test) linked from the developer centre",
+      "url": "https://businesscentertest.visaacceptance.com/ebc2/",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Visa Acceptance technology partner portal (early-access features, integration tools)",
+      "url": "https://developer.visaacceptance.com/technology-partners.html",
+      "named_at": "https://developer.visaacceptance.com/technology-partners.html"
+    },
+    {
+      "name": "Visa Acceptance Support Center sign-in (chat, support cases)",
+      "url": "https://support.visaacceptance.com/",
+      "named_at": "https://support.visaacceptance.com/"
+    },
+    {
+      "name": "Cybersource / Visa Acceptance Developer Community forum (Cloudflare-challenged on fetch)",
+      "url": "https://community.developer.cybersource.com/",
+      "named_at": "https://developer.cybersource.com/"
+    },
+    {
+      "name": "Visa Developer Community forum (TLS handshake refused to all fetch methods)",
+      "url": "https://community.developer.visa.com/",
+      "named_at": "https://devportalawards.org/nominees/2022/visa-developer-portal"
+    },
+    {
+      "name": "Visa Merchant Business News Digest subscription (form-gated)",
+      "url": "https://globalclient.visa.com/visa-merchant-digest",
+      "named_at": "https://www.visa.com/en-us/resources/visa-merchant-business-news-digest"
+    },
+    {
+      "name": "Visa Business Solutions - Visa Online (commercial.visaonline.com)",
+      "url": "https://commercial.visaonline.com/login/",
+      "named_at": "search result title only; fetch returned a JavaScript shell titled 'Index'"
+    },
+    {
+      "name": "Log into VOL / Visa Payables Automation (gvol.visaonline.com)",
+      "url": "https://gvol.visaonline.com/login/",
+      "named_at": "search result title only; fetch returned a JavaScript shell titled 'Index'"
+    },
+    {
+      "name": "Visa Access - Log In (cte.visaonline.com)",
+      "url": "https://www.cte.visaonline.com/login/",
+      "named_at": "search result title only; fetch returned a JavaScript shell titled 'Index'"
+    },
+    {
+      "name": "Visa Global Registry of Service Providers (public JavaScript app; search by name)",
+      "url": "https://www.visa.com/splisting/",
+      "named_at": "https://partner.visa.com/site/programs/third-party-agent-registration.html"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+      "title": "Visa Developer Onboarding",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/availability",
+      "title": "Availability Matrix | Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/learning-hub",
+      "title": "Visa Learning Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/site/release_notes",
+      "title": "Release Notes",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/release-notes",
+      "title": "Page Not Found",
+      "ok": false,
+      "wall": "dead",
+      "note": "404; live release notes are at /site/release_notes"
+    },
+    {
+      "url": "https://developer.visa.com/developer_program",
+      "title": "Visa Developer - About Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-resolve-online",
+      "title": "Visa Resolve Online",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://community.developer.visa.com/",
+      "title": "Home - Visa Developer Community",
+      "ok": false,
+      "wall": "bot",
+      "note": "SSL handshake alert from curl (LibreSSL), python urllib and WebFetch; Chrome pane navigation denied"
+    },
+    {
+      "url": "https://community.developer.visa.com/t5/New-to-Visa-Developer/Visa-Developer-Center-Playground/td-p/16669",
+      "title": "Visa Developer Center Playground - Visa Developer Community",
+      "ok": false,
+      "wall": "bot",
+      "note": "same SSL handshake failure"
+    },
+    {
+      "url": "https://partner.visa.com/",
+      "title": "Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/partner-programs.html",
+      "title": "Visa Partner Programs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Visa Partner | Third Party Agent Registration",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/fintech-fast-track.html",
+      "title": "Page Not Found",
+      "ok": false,
+      "wall": "dead",
+      "note": "also tried /fintech-fast-track-program.html, /fast-track.html and /fintech-fast-track"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/visa-sensory-branding.html",
+      "title": "Page Not Found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+      "title": "Visa Partner directory",
+      "ok": true,
+      "wall": "none",
+      "note": "public directory with country filter; empty <title>"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead",
+      "note": "seed URL returns Visa 404 page"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/info-for-partners.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/community-issuers/resources.html",
+      "title": "Visa Community Issuer Resources | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/visa-consulting-analytics/leverage-economic-and-business-insights.html",
+      "title": "Track Business and Economic Insights | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Merchant Resource Library | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/resources/visa-merchant-business-news-digest",
+      "title": "Visa Merchant Business News Digest | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://corporate.visa.com/en/resources/visa-merchant-business-news-digest/news-archives.html",
+      "title": "Visa Merchant Business News Digest Archives | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://globalclient.visa.com/visa-merchant-digest",
+      "title": "Visa Merchant Business News Digest",
+      "ok": true,
+      "wall": "contact",
+      "note": "subscription form; not submitted"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+      "ok": true,
+      "wall": "none",
+      "note": "923-page PDF read with pypdf"
+    },
+    {
+      "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/interlink-operating-regulations.pdf",
+      "title": "Interlink Core Rules and Interlink Product and Service Rules (18 April 2026)",
+      "ok": true,
+      "wall": "none",
+      "note": "373-page PDF read with pypdf"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/merchants/visa-acceptance-risk-standards.pdf",
+      "title": "Visa Ecosystem Risk Programs Guide (October 2024)",
+      "ok": true,
+      "wall": "none",
+      "note": "92-page PDF marked Visa Confidential but publicly hosted"
+    },
+    {
+      "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/support-legal/documents/plus-operating-regulations.pdf",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead",
+      "note": "probe for a PLUS rulebook"
+    },
+    {
+      "url": "https://www.visaonline.com/login/",
+      "title": "Log In (Welcome to Visa Access)",
+      "ok": true,
+      "wall": "login",
+      "note": "JavaScript-rendered; read in Chrome pane; login form not used"
+    },
+    {
+      "url": "https://secure.visaonline.com/",
+      "title": "Visa Access - Visa Online",
+      "ok": false,
+      "wall": "login",
+      "note": "302 redirect to visaonline.com/login/"
+    },
+    {
+      "url": "https://gvol.visaonline.com/login/",
+      "title": "Index",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript shell only"
+    },
+    {
+      "url": "https://commercial.visaonline.com/login/",
+      "title": "Index",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript shell only"
+    },
+    {
+      "url": "https://cats.visaonline.com/login/",
+      "title": "Index",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript shell only"
+    },
+    {
+      "url": "https://www.cte.visaonline.com/login/",
+      "title": "Index",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript shell only"
+    },
+    {
+      "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpHome",
+      "title": "Digital Partner Services",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript app; 'You need to enable JavaScript to run this app.'"
+    },
+    {
+      "url": "https://technologypartner.visa.com/",
+      "title": "Home - Digital Partner Services",
+      "ok": true,
+      "wall": "none",
+      "note": "public library; four sign-in portals named"
+    },
+    {
+      "url": "https://www.visa.com/splisting/",
+      "title": "Visa Global Registry of Service Providers",
+      "ok": false,
+      "wall": "none",
+      "note": "JavaScript app; only the title rendered"
+    },
+    {
+      "url": "https://www.visauniversity.com/en",
+      "title": "Visa University",
+      "ok": true,
+      "wall": "none",
+      "note": "catalogue public; enrolment needs login"
+    },
+    {
+      "url": "https://www.visabusinessschool.com/en",
+      "title": "Visa Business School",
+      "ok": false,
+      "wall": "bot",
+      "note": "curl TLS failure; WebFetch ECONNRESET; Chrome pane denied"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Developer Center | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/technology-partners.html",
+      "title": "Technology partners | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "contact",
+      "note": "registration form; not submitted"
+    },
+    {
+      "url": "https://developer.cybersource.com/",
+      "title": "Developer Center (Cybersource)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visaacceptance.com/en-us/become-a-partner.html",
+      "title": "Become a partner | Visa Acceptance Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visaacceptance.com/en/developers.html",
+      "title": "Developers | Visa Acceptance Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://support.visaacceptance.com/",
+      "title": "Home | Visa Acceptance Support Center",
+      "ok": true,
+      "wall": "none",
+      "note": "articles public; chat and cases need sign-in"
+    },
+    {
+      "url": "https://support.visaacceptance.com/knowledgebase/knowledgearticle/?code=000003255",
+      "title": "Status Page (KB 000003255)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://support.visaacceptance.com/knowledgebase/article/000002638/en-us",
+      "title": "Support - Support Case Management (KB 000002638)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://support.visaacceptance.com/knowledgebase/knowledgearticle/?code=KA-07420",
+      "title": "Connectivity - Developer Resources and Sandbox Environment (KA-07420)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://status.visaacceptance.com/",
+      "title": "Visa Acceptance Solutions Status",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://businesscenter.visaacceptance.com/",
+      "title": "Enterprise Business Center - Loading",
+      "ok": false,
+      "wall": "login",
+      "note": "JavaScript app; title only"
+    },
+    {
+      "url": "https://community.developer.cybersource.com/",
+      "title": "Just a moment...",
+      "ok": false,
+      "wall": "bot",
+      "note": "Cloudflare challenge on curl and WebFetch (403)"
+    },
+    {
+      "url": "https://github.com/visa",
+      "title": "Visa · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://design.visa.com/",
+      "title": "Visa Product Design System",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K (FY ended September 30, 2025), filed 2025-11-06",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001403161.json",
+      "title": "SEC EDGAR submissions index for Visa Inc. (CIK 1403161)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Vice-President--Dispute-Processing_REF081429W",
+      "title": "Vice President, Dispute Processing (Visa careers)",
+      "ok": true,
+      "wall": "none",
+      "note": "read via Workday public JSON endpoint"
+    },
+    {
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Senior-Director--Visa-Developer-Platform--VDP--Client---Developer-Experience_REF087990W-1",
+      "title": "Senior Director, Visa Developer Platform (VDP) Client & Developer Experience (Visa careers)",
+      "ok": true,
+      "wall": "none",
+      "note": "read via Workday public JSON endpoint"
+    },
+    {
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Technical-Program-Manager_REF086868W",
+      "title": "Technical Program Manager (Visa careers)",
+      "ok": true,
+      "wall": "none",
+      "note": "did not name Visa Partner Portal despite matching the search"
+    },
+    {
+      "url": "https://www.themuse.com/jobs/visa/technical-solutions-consultant-vrol",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.themuse.com/jobs/visa/client-care-analyst-bdbdc9",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://devportalawards.org/nominees/2022/visa-developer-portal",
+      "title": "Visa Developer Center (2022) | DevPortal Awards",
+      "ok": true,
+      "wall": "none",
+      "note": "curl returned 406; WebFetch succeeded"
+    },
+    {
+      "url": "https://www.trustradius.com/products/visa-developer-platform/reviews",
+      "title": "Visa Developer Platform Reviews & Ratings 2026",
+      "ok": false,
+      "wall": "bot",
+      "note": "Cloudflare challenge on curl and WebFetch"
+    },
+    {
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-payments-forum-2025.html",
+      "title": "The future of payments unveiled at VPF2025 | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.moscone.com/events/visa-payments-forum-vpf-2026",
+      "title": "Visa Payments Forum (VPF) 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://paytech.events/visa-payments-forum/",
+      "title": "Visa Payments Forum 2026 — San Francisco | Dates, Tickets & Agenda",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/thought-leadership/industry-insights/2026-dps-conference",
+      "title": "Inside the 2026 Visa DPS Client Conference | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.chargeback.io/blog/merchants-guide-to-visa-resolve-online",
+      "title": "What Is Visa Resolve Online (VROL)? A Merchant's Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchants.fiserv.com/content/dam/s7/firstdata/us/en/article_listing/Benefits-of-VCR-for-Merchants-Feb-2018-First-Data-V7.pdf",
+      "title": "Visa Claims Resolution: Optimizing the Dispute Process for Merchants (First Data, 2018)",
+      "ok": true,
+      "wall": "none",
+      "note": "24-page PDF read with pypdf"
+    },
+    {
+      "url": "https://docs.galileo-ft.com/pro/docs/networks",
+      "title": "Networks - Introduction - Galileo Financial Technologies",
+      "ok": true,
+      "wall": "none",
+      "note": "no mention of Visa Online or VROL"
+    },
+    {
+      "url": "https://www.verifi.com/",
+      "title": "Just a moment...",
+      "ok": false,
+      "wall": "bot",
+      "note": "Cloudflare challenge"
+    },
+    {
+      "url": "https://status.developer.visa.com/",
+      "title": "(no DNS)",
+      "ok": false,
+      "wall": "dead",
+      "note": "probe for a VDP status page"
+    },
+    {
+      "url": "https://developer.visa.com/status",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead",
+      "note": "probe for a VDP status page"
+    }
+  ]
+}

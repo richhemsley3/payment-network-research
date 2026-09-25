@@ -1,0 +1,1285 @@
+{
+  "network": "amex",
+  "dimension": "surfaces",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "surfaces",
+      "claim": "The GNS partner marketing site (network.americanexpress.com/globalnetwork, resolving to /v4) addresses card issuers, merchant acquirers and fintechs, with public sub-sites for Issuers, Acquirers, Fintechs, Service Providers, Developers and the Integrated Payments Providers Program; the marketing layer is readable without an account.",
+      "quote": "Whether you are a Card Issuer, Merchant Acquirer or Fintech, American Express has the experience to help you connect the dots across the payments landscape.",
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Nav links crawled from the HTML: /v4/partners/{issuers,acquirers,fintechs,service-providers,developers,integrated-payments-providers-program}, /v4/merchants/, /v4/cardmembers/, /v4/news/, /v4/secure/knowledge-base/, /v4/secure/faq/, /v4/registration/user-registration, /contact-us/. Header prompt: 'New to Knowledge Base? Get help here including our getting started video'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Sign-in, user registration and the whole /v4/secure/ area of the GNS site hand off to the americanexpress.com enterprise login; /v4/secure/knowledge-base/, /v4/secure/faq/, /v4/registration/user-registration and /globalnetwork/register/ all redirected to that login when fetched.",
+      "quote": "https://www.americanexpress.com/en-us/account/enterprise/login?target=https://network.americanexpress.com/globalnetwork/v4/secure/",
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Quote is the sign-in href in the page HTML. WebFetch of the three secure URLs reported '302 Found' to americanexpress.com/en-us/account/enterprise/login?target=<url>; /globalnetwork/sign-in/ resolved to the same login (page title 'Login')."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Knowledge Base is positioned as the single GNS information source and the gateway to all GNS services; FraudNet, OpsNet, File Tracker and the Token Requester Management Portal are only applied for after Knowledge Base access is granted.",
+      "quote": "Knowledge Base access is required to apply for additional services such as FraudNet, OpsNet, File Tracker and Token Requester Management Portal.",
+      "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+      "title": "Knowledge Base | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Knowledge Base is your single source for GNS information including operations, marketing and partner relations and is the gateway to all GNS Services'. This German-locale path serves the English enrollment landing page; the /v4/secure/knowledge-base/ path itself redirects to login."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Knowledge Base access requests are handled by a named team, GNS User Services, with a stated three-business-day turnaround; existing users add services through a 'Request Additional Services' button on the Knowledge Base home page, and Amex staff must log in from the corporate network.",
+      "quote": "All requests for access will be processed within 3 business days by GNS User Services.",
+      "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+      "title": "Knowledge Base | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also on the page: 'Locate the \"Request Additional Services\" button on the right side of the home page, and click it to apply.' and 'I am an American Express colleague /contractor? You must login using the American Express network'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Inside Knowledge Base the interactive-guide copy describes search (including by document type), bookmarks, a profile page with recently visited documents, a Participant Directory reachable directly from Knowledge Base, and a Service Enrollment area for enrolling in GNS services in one place.",
+      "quote": "Find out more about each service available and enrol directly for the services you require all in one place.",
+      "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+      "title": "Knowledge Base | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Guide text: 'Access to the Participant Directory is easy directly from Knowledge Base.' The directory's BIN / Card Number / Acquirer ID look-up was seen only in a search snippet, not on a fetched page."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Network policy for licensed issuers and acquirers is delivered as manuals (Business and Operational Policies, Network Specifications, Codes Reference Guide) published bi-annually in April and October and provided on signing an agreement; the BOP is explicitly confidential and existing participants are told to log in for policy details.",
+      "quote": "policies via published manuals which are provided to licensed Issuers and Acquirers upon signing an agreement with American Express",
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/",
+      "title": "American Express Global Network Policy",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FAQ on the page: 'The Business and Operational Policies (BOP) manual is a confidential document that contains sensitive proprietary information'. It also distinguishes the BOP from 'The Merchant Policy Manuals (Merchant Regulations, U.S. and Merchant Operating Manual, Canada)' which 'apply to merchants acquired directly by American Express'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The partner bulletin is the Network Participant Updates (NPU), published on the second Friday of each month; it replaced the Network News and the Policy and Technical Release Announcement (PTRA) on October 12, 2018, and ad-hoc Special Bulletins cover issues immediately affecting issuers and acquirers.",
+      "quote": "The NPU is published on the second Friday of every month and provides Participants with policy, technical, and informational updates.",
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/",
+      "title": "American Express Global Network Policy",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page text: 'the Network News and Policy and Technical Release Announcement (PTRA) were retired and a new publication, the Network Participant Updates (NPU), was released' and 'As needed, Special Bulletins are published to address issues immediately impacting Issuers and Acquirers.' A December 2020 Online PIN FAQ on the same site cites 'Network Participant Update (NPU) dated April 2020: Dynamic Key Exchange (DKE) – Acquirer Enablement' and says 'Review future Network Participant Updates (NPU) for future announcements.' (https://network.americanexpress.com/globalnetwork/dam/jcr:c366753f-b040-42ce-8e0d-b7a8afa99323/Online%20PIN%20FAQ%20Dec%202020.pdf)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Partner Learning is the GNS training academy: an online essentials curriculum, live webinars with subject-matter experts plus on-demand replays, a six-module compliance course covering 50+ network policies, downloadable article series, and courses assigned according to the participant's Knowledge Base profile; registration is by email to PartnerLearning@aexp.com.",
+      "quote": "Customized learning tailored and assigned according to your Knowledge Base profile",
+      "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+      "title": "Partner Learning",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Tagline: 'Flexible, remote learning to effectively do business on the American Express Network.' The Backing Our Partners pages (/v4/partners/acquirers/backing-our-partners/ and /v4/partners/issuers/backing-our-partners/, identical copy) add 'Business Webinars' with senior executives, 'Training Webinars' on operations, chargebacks/disputes, policy and marketing, 'six modules that cover more than fifty Network policies', 'Downloadable article series to showcase our American Express expertise and best practices', and the PartnerLearning@aexp.com mailbox. Overview pages are public; course content sits behind Knowledge Base."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "AMEX Enabled is the service-provider certification programme: providers register their company, enroll users, then work inside an AMEX Enabled Dashboard that includes a Messaging Center for document exchange and support from Amex product specialists.",
+      "quote": "Messaging Center helps Service Providers to upload and download documents, plus send and receive messages with experienced American Express Product Specialists.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Three steps on the page: Register Company (company details, accept agreements), Enroll as a User (access the AMEX Enabled Dashboard), Log into Dashboard. Product portfolios listed include SafeKey (3-D Secure), Click to Pay, Tokenization, Card Issuing, Mobile Issuing, Acquiring, Payment Platforms, Test Labs, Test Tools, QR Code, Integrated Payments Providers and Transit."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Amex claims more than 1200 registered AMEX Enabled service providers across 17 product portfolios and 45+ products; the June 2022 programme overview PDF gave 800+ providers with the same 17 portfolios and 45+ products.",
+      "quote": "join over 1200 Service Providers who have developed, certified and deployed their products and services for use on the American Express Network",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "GNS home page repeats 'Join 1200+ Service Providers who have certified their products and Services with AMEX Enabled.' The 2022 PDF (https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf) reads '800+ SERVICE PROVIDERS 17 PRODUCT PORTFOLIOS 45+ PRODUCTS'. No outside check of either figure."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The June 2022 AMEX Enabled FAQ states there is no registration fee, names www.amexenabled.com as the entry point (it now 301-redirects to the Service Providers page), routes registration problems to AmexEnabled@aexp.com, and keeps the AMEX Enabled Brand Guidelines and press-release rules inside the Dashboard; user enrollment requires prior company registration with click-through NDA and Terms.",
+      "quote": "There are no fees charged to register for the AMEX Enabled Program.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document dated June 2022. FAQ text: 'For any queries or technical difficulties with the registration process, please contact AmexEnabled@aexp.com'; 'This document is available to providers who have registered for the AMEX Enabled program and is available via the AMEX Enabled Dashboard.' Redirect chain checked 2026-09-25: www.amexenabled.com -> /globalnetwork/amex-enabled/ -> /globalnetwork/v4/partners/service-providers/. The enroll-user page (https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/amex-enabled/enroll-user/) says 'Before enrolling as a user in the AMEX Enabled program, your company must first be registered.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Integrated Payments Providers Program is the AMEX Enabled track for POS software and service vendors serving Amex merchants; test cards, certification requests and questions route to a Payment Vendor Relations mailbox (mailto PaymentVendorRelations@aexp.com) rather than a ticketing portal.",
+      "quote": "designed to help third-party solution vendors develop, certify, and market their products or services that are compatible with American Express requirements",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "Partners | Integrated Payments Providers Program | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page text: 'Test card, certification requests and questions? Please contact the Payment Vendor Relations team for your requests and questions here.' The 'here' anchor is mailto:PaymentVendorRelations@aexp.com in the HTML. Registration requires company details, a main contact, and acceptance of the Non-Disclosure Agreement and Terms and Conditions."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The certification page describes host and POS certification run with Amex certification teams using test simulation tools and customised test plans, and gates the network, card and implementation specifications behind a Knowledge Base login.",
+      "quote": "network specifications, card specifications, implementation guides and other documents",
+      "url": "https://network.americanexpress.com/globalnetwork/certification/",
+      "title": "American Express Certification",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'leveraging test simulation tools and customized test plans'; CTA 'Log in to Knowledge Base'. Audiences named: issuers, acquirers, authorized processors, payment technology providers."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The GNS site's Developers page is a thin gateway (fraud prevention, open banking, payment services, personalised services) that sends developers on to the separate Amex for Developers portal.",
+      "quote": "Connect to American Express services that power transactions around the globe. Create, innovate and test new concepts.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "CTA text 'Visit Amex for Developers'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The GNS News section is an empty hub: when fetched it carried only a tagline and no dated articles, and no newsletter subscription exists on the public GNS site; the contact page is a single generic enquiry form with no audience-specific desks.",
+      "quote": "Your source for the latest news and stories from American Express",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+      "title": "News | Insights | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Contact page (https://network.americanexpress.com/globalnetwork/contact-us/): 'If you would like to know more about the American Express Global Network then please provide some brief information below.' Partner bulletins (NPU, Special Bulletins) are delivered inside Knowledge Base, not on the public site."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Segment landing pages for Acquirers, Issuers and Fintechs each carry Power of the Network / Marketing Solutions / Payment Solutions sub-pages; the acquirer page pitches merchant onboarding speed and closed-loop fraud tools, the fintech page custom product lines and data analytics, and each links only to Knowledge Base sign-in rather than any segment-specific portal.",
+      "quote": "Scale your business and onboard Merchants to the American Express Network with speed and ease.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/",
+      "title": "Partners | Acquirers | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fintechs page (/v4/partners/fintechs/): 'Your growth, backed by premium economics, assets and insights from American Express.' Issuers page (/v4/partners/issuers/) closes with 'brand assets of the world's largest Card issuer'. No page on the site uses the phrase 'Global Network Services'; the KB enrollment page uses 'GNS'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Amex for Developers (developer.americanexpress.com) is positioned as the single point of access to Amex APIs; the site is a React single-page app whose HTML shell contains only the title and this description, so text-only fetches see nothing else.",
+      "quote": "A single point of access to American Express APIs and developer resources in categories including fraud prevention, payment services, personalized services, data intelligence and more.",
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Meta description in the page HTML. Home-page copy in the bundle: heading 'An API For Everything' and 'Our products are backed by a team of passionate American Express software developers who are adding new code regularly.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The portal's client bundle declares its route map: public /products, /documentation, /faq, /support, /open-banking, /terms; account routes /login, /signup, /signup/verification, /update-profile; logged-in application management at /app-mgmt/projects, /app-mgmt/projects/new and /app-mgmt/support-tickets; and security guides for HMAC, OAuth 2 flows and Amex-signed certificates including a Partner Certificate Enrollment and Lifecycle Guide.",
+      "quote": "/app-mgmt/support-tickets",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (client bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Route strings extracted from the bundle; documentation routes: /documentation/access-guide, /documentation/api-security/{hmac,oauth-2,oauth-client-credentials-flow,oauth-authorization-code-flow,certificates,amex-signed-certificates}, /resources/{errors,headers,version-history}. UI strings 'My Projects', 'View the Access Guide', 'Version History' with 'Check out the latest changes made to the ${e} API.', and link text 'Partner Certificate Enrollment and Lifecycle Guide'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The portal's public products endpoint returns 18 published products in five categories (Payment Services, Fraud Prevention, Open Banking, Personalized Services, Utilities) with stated audiences including Merchants, Issuers, Acquirers, Network Issuers, eCommerce Platforms, AISPs and Third-Party Acquirers; none is flagged for instant sandbox access and two are marked deprecated.",
+      "quote": "American Express Network Issuers can leverage Issuer Charge Verification API to enable the Cardmember to instantly verify and respond",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/",
+      "title": "American Express Developers – products catalogue (JSON behind developer.americanexpress.com/products)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Products: Smart Offers Partnerships, Payment Account Reference, Card on-demand, Amex Account Connect, Global Pay with Points v2, Account Financials (FDX) v1 [deprecated], Network Loyalty, Enhanced Authorization v2, @ Work APIs, Amex Token Service, Consumer Data Right, OAuth Security [deprecated], Confirmation of Funds, Issuer Charge Verification, Amex Agentic Commerce Experiences, Pay with Bank transfer, Account and Transaction API, DotAmex. Every record has instantSandboxAccess=false and byInvite=false; 9 are productType DOCUMENTATION_ONLY. Agentic product description: 'ACE enables Agentic Commerce ranging from human-present to autonomous transactions, with robust controls that benefit merchants and Card Members.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Product access is a request workflow after sign-up: users request each product, may be questioned before sandbox or production access is granted, and some products require the requester to already be an Amex-accepting merchant or an issuer.",
+      "quote": "Sign up or log in, then follow the prompts to request access to the products you want to prototype with.",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs",
+      "title": "American Express Developers – FAQs (JSON behind developer.americanexpress.com/faq)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same answer: 'You may be asked to answer some questions before receiving Sandbox or Production access. Some products have minimum requirements, such as being an American Express accepting Merchant, or Issuer, etc.' Basics FAQ: 'Additional products will become accessible on the American Express Developers API Portal as they become available.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Credentials are issued per product per environment and do not expire by default, and some products (for example @ Work APIs) carry only overview documentation on the portal because their full documentation is hosted on third-party sites.",
+      "quote": "Currently, you will need a unique set of credentials for each API product, in each environment.",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs",
+      "title": "American Express Developers – FAQs (JSON behind developer.americanexpress.com/faq)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FAQ: 'some American Express Developers products are available on third-party websites, and only the Overview documentation for them is available on American Express Developers, such as At Work APIs'. 'Your credentials don't have a default expiration date.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Portal login is the Amex online-account identity with passkey support: the FAQ's login link is americanexpress.com/en-us/account/aed/login redirecting to developer.americanexpress.com/login, the bundle calls OneID sign-in and registration endpoints, and the how-to-register, login-issue, user-ID and password-reset guides are downloadable documents rather than page copy.",
+      "quote": "Passkeys allow you to log in to your American Express® online account without needing to remember complex passwords.",
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs",
+      "title": "American Express Developers – FAQs (JSON behind developer.americanexpress.com/faq)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FAQ: 'Click and download How to Register on American Express Developers for step-by-step instructions.' Bundle endpoints: /a4d/v1/users/oneid-sign-in, /a4d/v1/users/oneid-user-registration, /a4d/v1/users/email/validate. Login link in FAQ HTML: https://www.americanexpress.com/en-us/account/aed/login?target=https://developer.americanexpress.com/login?redirect%3Dfalse."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Developer support is a ticket system (a serviceNowEnabled flag appears in the bundle) with a create-ticket endpoint that works without login, a 'View Support Tickets' list for logged-in users and a two-attachment limit; nothing in the bundle references a status page, release calendar or community forum.",
+      "quote": "Two files can be attached to a support ticket.",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (client bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Endpoints: /a4d/v1/helpdesk/nonLoginCreateIncident and /a4d/v1/helpdesk/protected/createIncident, /a4d/v1/helpdesk/protected/user/tickets. UI copy: 'Create Support Ticket', 'View Support Tickets', 'Fill out the ticket below and we will get back to you soon!'. Accepted attachment types include pdf and docx."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Sandbox access for the card on-demand APIs is gated on integration set-up forms whose submission configures the sandbox and generates test cards, both confirmed by email, so even sandbox is a request-and-wait step rather than self-serve.",
+      "quote": "Completion of the integration setup forms is required to receive sandbox access for The card on-demand APIs.",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (client bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle copy: 'You will receive an email confirmation when the Sandbox environment is configured, and a separate email containing the test cards.' and 'Familiarize yourself with API functionality using mock data and static responses' (sandbox description)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The bundle hard-codes the portal's environment topology: production data API a4dextsvr.americanexpress.com/dev-portal, OAuth token endpoints on openamex.americanexpress.com and openamex-sandbox.americanexpress.com, and QA/dev hosts (a4dexternal-qa, developers.qa, developerlab, one-xp) that resolve from the public internet.",
+      "quote": "https://openamex-sandbox.americanexpress.com/oauth/v1/token/cc/access",
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers (client bundle index-CKDoS6PK.js)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "HEAD checks 2026-09-25: a4dexternal.americanexpress.com 200 (serves the same portal shell and meta description), developerlab.americanexpress.com 200 (blank body), one-xp.americanexpress.com 403. Other hosts named: apigateway2s, apigwm, apigwsandboxm, sandbox2s, functions.americanexpress.com, developers.qa.americanexpress.com."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Amex's GitHub organisation (88 repositories, contact opensource@aexp.com, website americanexpress.io) publishes the Java and .NET client libraries that build authentication headers for Amex for Developers APIs; the org and the americanexpress.io engineering blog are the only community-style surfaces and carry no partner support function.",
+      "quote": "This library encapsulates header creation necessary to authenticate with APIs published to the Amex for Developers portal.",
+      "url": "https://github.com/americanexpress/amex-api-java-client-core",
+      "title": "GitHub - americanexpress/amex-api-java-client-core",
+      "publisher": "American Express (GitHub)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Org page https://github.com/americanexpress: 88 repositories, 504 followers, opensource@aexp.com; the bundle also links amex-api-dotnet-client-core. americanexpress.io ('American Express Technology') describes the developer portal as 'A robust set of tools and resources that can help you create new experiences and services for your customers' and links https://developer.americanexpress.com/home and 'Browse and contribute to our repository of open source projects'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A separate, publicly readable Amex Payment Gateway developer documentation site (gateway-na.americanexpress.com) covers Hosted Checkout, Tokenization, 3-D Secure, Click to Pay, Batch and related REST-JSON/NVP APIs, with API version 100 current and a changelog; it is a merchant/integrator surface distinct from the Amex for Developers portal.",
+      "quote": "From API version 100, integrations must be able to handle non-breaking changes.",
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/latest/api.html?locale=en_US",
+      "title": "Gateway API Reference Documentation",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footer 'Copyright © 2026 American Express'. Sections listed: Agreement, Authentication, Batch, Browser Payment, Gateway Hosted Checkout, Payment Plan, Session, Standalone Risk Assessment, Tokenization, Transaction, Wallet; SDKs: Checkout, Click to Pay, Paypal, Risk, Rupay, Session, ThreeDS; Resources: Changelog, Versioning. Integration Guide pages are JS-rendered and returned only navigation text."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Technical Specifications for merchants and processors live at www.americanexpress.com/merchantspecs, a user-ID-and-password site (it redirects to /en-us/business/merchant/specifications/merchant-login/); the rulebook says BIN files are requested there after accepting BIN terms, and the April 2026 Merchant Operating Guide sends OptBlue merchants there for payment-product terms.",
+      "quote": "Requests for American Express BIN files are available at www.americanexpress.com/merchantspecs and can be accessed by entering your user ID and password.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document dated April 2025 (footer code 20250321). Merchant Operating Guide April 2026: terms 'are available at www.americanexpress.com/merchantspecs'. Merchant Reference Guide U.S. October 2021: POS device requirements 'available at www.americanexpress.com/merchantspecs, under Technical Mandates'. The merchant-login page is JS-rendered and returned no text."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The specification release calendar is fixed: Technical Specifications publish twice a year in April and October; technical changes and certification dates are pre-announced six months ahead in a Notice of Specification Changes (NOSC), and off-cycle changes go out as Technical Bulletins.",
+      "quote": "Technical Bulletins may also be used to communicate changes occurring outside of the April and October publication schedule.",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same section: 'The American Express Network publishes the Technical Specifications twice a year, in April and October.' and changes 'will be communicated six (6) months prior to publication in a Notice of Specification Changes (NOSC)'. Network-side manuals follow the same April/October cycle (network-policy page)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The U.S. Merchant Regulations page is public but the current Merchant Regulations – U.S. and card-acceptance Terms are behind a merchant login (/en-us/business/merchant/regulation/secure/); they publish twice yearly in April and October. The most recent Merchant Reference Guide U.S. on the open web is the October 2021 edition.",
+      "quote": "The Merchant Regulations- U.S. are published twice a year, in April and October.",
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures | Amex US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'Already an American Express Merchant?' with a Log In link to /en-us/business/merchant/regulation/secure/. Public Reference Guide: https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf ('Merchant Reference Guide U.S. October 2021'; 'If interested in becoming an American Express Merchant, call 800-445-2639, or visit www.americanexpress.com/merchant.'). The 2022–2026 editions were not found publicly."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Merchant Operating Guide (All Regions, April 2026, 120 pages) for merchants signed by Merchant Services Providers (the OptBlue model) is openly downloadable from icm.aexp-static.com, carries a Summary of Changes with change bars, and states an October 16, 2026 effective date for some changes.",
+      "quote": "This guide is intended for use by Merchants that have entered into a legally binding Agreement with a Merchant Services Provider",
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide All Regions April 2026",
+      "publisher": "American Express",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'This document was published on April 17, 2026 and is in full force and effect as of such date, except for changes that will become effective on October 16, 2026'. Chapter 2.4 'Compliance with the Technical Specifications'. A Caribbean edition exists at icm.aexp-static.com/content/dam/gms/en_CARIBBEAN/optblue/caribbean-mog.pdf (search result, not fetched)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "OptBlue is described as the programme in which third-party providers contract directly with eligible small businesses; the public page lists 40+ participating providers (Adyen, Fiserv, Global Payments, Stripe, Square, Worldpay and others) and gives a separate phone line (1-866-847-0890) for merchants who want to sign directly with Amex.",
+      "quote": "With OptBlue, third-party providers sign a contract directly with eligible businesses to enable American Express® Card acceptance.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express®",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'if your business is not eligible for OptBlue or is interested in accepting American Express Cards directly with American Express, please call 1-866-847-0890'. Providers named include Adyen, Bank of America, BlueSnap, Braintree, Chase, Checkout.com, Clearent, Elavon, EPX, EVO, Finix, Fiserv, Global Payments, Heartland, Intuit, MerchantE, Moov, NCR Voyix, North, Nuvei, PayPal, Repay, RS2, Square, Stripe, TSYS, Wells Fargo Merchant Services, Windcave, Worldpay."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "OptBlue eligibility on the public page is under $3MM Estimated Annual Charge Volume per year, with no-threshold categories (charity, education, government, healthcare, insurance, online gambling and games of value, residential rent, utilities); OptBlue merchant support is a phone line (1-833-213-0511) and two PDFs, with no OptBlue portal.",
+      "quote": "U.S. businesses that have American Express Estimated Annual Charge Volume (ECV) of less than $3MM per year* may be eligible to accept through OptBlue.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express®",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'Contact a participating provider to get started directly or give us a call at 1-833-213-0511.' Resources: Disputes & Policies Guide (PDF), Fraud Prevention Guide (PDF). 'Only approved and certified OptBlue Participants are permitted to acquire' in online gambling / games of value."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A public OptBlue Sales Agent site (americanexpress.com/en-us/business/optblue/agent/) serves the sales channels of OptBlue participants with no login: PDFs (Overcoming Merchant Objections, New Merchant Activation Guide, Guide to Managing Disputes, Merchant Welcome Kit, OptBlue Program Updates), bulk signage ordering, and links to the Disputes Learning Hub, Business Savings Suite and Business Class for Merchants; it announces the April 17, 2026 threshold increase to $3,000,000.",
+      "quote": "Effective April 17, 2026, the merchant acquiring threshold in the U.S. has been increased to $3,000,000.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express®",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'The increased merchant acquiring threshold excludes Puerto Rico and the U.S. Virgin Islands.' and 'OptBlue Participants may only acquire prospective merchants that meet the Estimated Annual Charge Volume (ECV) program limits as outlined in the Operating Regulations.' Bulk signage copy: 'Order signage and supplies for your merchants.' Same content at /agent/for-sales-agents."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The OptBlue rulebook for participants is named but not public: the agent-site 2025 Program Updates PDF refers participants to Appendix A of the 'OptBlue Program Operating Regulations - PSE Edition' and notes that only approved and certified participants may acquire certain online gambling segments; the PDF still states the pre-April-2026 $1MM ceiling.",
+      "quote": "Please refer to Appendix A of the OptBlue Program Operating Regulations - PSE Edition for additional information.",
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "OptBlue Program Merchant Eligibility (2025 OptBlue Program Updates)",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF: 'Small Businesses who are estimated to process under $1MM in annual American Express Charge Volume' as eligible, and '*Only approved and certified OptBlue Participants are permitted to acquire in certain Online Gambling segments.' The OptBlue Program Operating Regulations were not found on the open web."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Payment Facilitator fact sheet (Global Merchant and Network Services, October 2024) tells PayFacs under $250MM annual Amex volume to onboard sponsored merchants through a certified OptBlue Participant, states there is no OptBlue registration fee, and uses the OptBlue web page as the participant directory.",
+      "quote": "American Express does not charge a registration fee to participate in OptBlue®",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "title": "Payments Facilitator Acceptance of American Express Cards",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footer: 'American Express Global Merchant and Network Services – October 2024'. 'For a list of OptBlue participants, click or visit the website below: www.americanexpress.com/us/merchant/optblue.html'. Headline question: 'ARE YOU CLASSIFIED AS A PAYMENT FACILITATOR WITH LESS THAN $250MM IN ANNUAL AMERICAN EXPRESS CHARGE VOLUME?'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Marketing Corner (marketingcorner.americanexpress.com) is a public bulk signage order site for Merchant Service Providers ordering point-of-purchase signage for the merchants they serve, with a signage-team email link and an OptBlue cross-link; individual merchants are redirected to the merchant Signs & Supplies site.",
+      "quote": "This site is intended for Merchant Service Providers to order signage for the merchants you serve.",
+      "url": "https://marketingcorner.americanexpress.com/POPBulkOrder",
+      "title": "American Express® Signage Bulk Order Form",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also on page: 'Learn More About OptBlue Help your merchants accept American Express with ease and speed' and 'Questions About Signage? Email the American Express Signage Team'. The merchant supplies site (americanexpress.com/en-us/business/merchant/supplies/) is JS-rendered and returned no text."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The direct-merchant Online Merchant Account (login /en-us/business/merchant/dashboard/, registration /en-us/business/merchant/registration) offers settlement and submission tracking, custom e-statements, online disputes, live chat and 24/7 requests; registration needs a Merchant Account Number, Access Code and banking information, with an 'I'll finish this later' limited-access mode, and enrolling in online disputes stops paper dispute letters.",
+      "quote": "Track settlements, submissions, and transaction information and customize financial e-statements",
+      "url": "https://www.americanexpress.com/us/merchant/merchant-home.html",
+      "title": "American Express Merchant Services: Account Login | Amex US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Home page: 'Create your Online Merchant Account in 3 steps', 'Submit requests any time and access live chat'. Registration guide (/us/merchant/support-center/registration/manage-account-online.html): 'Once you begin the sign-up process, you can choose \"I'll finish this later\" at any time to get limited access.' Disputes guide (/us/merchant/support-center/disputes/logging-in-and-enrolling.html): 'you will no longer receive Disputes letters in the mail. They will only appear in your Online Account.' A separate login host merchant-global.americanexpress.com/login is indexed."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Merchant Website Support Center is a public help site organised by topic (registration and login, account, payments, disputes, fraud, data security, regulations, tax) with live chat Mon–Fri 8:00am–6:30pm ET after login, phone 1-800-528-5200 Mon–Fri 8:00am–8:00pm ET, and a 24/7 authorisation line 1-800-528-2121.",
+      "quote": "Quickly get the information you need to manage your Merchant Account, Payments, and Disputes with ease.",
+      "url": "https://www.americanexpress.com/us/merchant/support-center.html",
+      "title": "Merchant Help & Support Center | Amex Merchant",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Header: 'American Express Merchant Website Support Center'. Article groups include 'Create new Merchant IDs', 'Edit bank information', 'Downloading reports', 'How to use the Disputes summary table'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A distinct 'TPP' (third-party processor) merchant section exists for merchants acquired via processors: disputes there flow through the Merchant Services Provider rather than Amex's online merchant account, and Amex publishes a TPP-specific disputes reference guide; Business Class for Merchants is the public no-login content hub with no newsletter mechanism.",
+      "quote": "If your Merchant Services Provider asks for your help, you'll need to respond with the requested information within the timeframe they provide.",
+      "url": "https://www.americanexpress.com/us/merchant/tpp/manage-disputes.html",
+      "title": "Managing Disputes as Merchants | TPP | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'In 2025, less than 0.030% of US Card Member transactions turned into disputes that reached merchants.' and links Amex-TPP-Disputes-Reference-Guide.pdf. Business Class for Merchants (/us/merchant/business-class-for-merchants.html): 'Explore tools, strategies, and resources to help reach and resonate with your customers.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Bank of America's merchant help site, as an OptBlue participant, points its Amex-accepting merchants to Amex-hosted resources (Signage & Supplies, Shop Small Resource Hub, Disputes Learning Hub, Business Class for Merchants, Business Savings Suite) and to its own 24/7 line, not to any Amex portal.",
+      "quote": "access business resources such as signage and other tools and resource information from American Express",
+      "url": "https://merchanthelp.bankofamerica.com/American-Express-OptBlue",
+      "title": "American Express OptBlue Business Resources - Merchant Help",
+      "publisher": "Bank of America",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Phone on page: 833.344.2324 'Available to assist you 24/7'. Illustrates that under OptBlue the acquirer, not Amex, is the merchant's servicing surface."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "TabaPay's developer documentation onboards OptBlue merchants by email to TabaPay support, points to an 'American Express Network Requirements' page for data requirements, and still states the pre-April-2026 $1MM eligibility ceiling.",
+      "quote": "processing less than $1MM per year in American Express® transactions",
+      "url": "https://developers.tabapay.com/docs/processing-american-express-optblue",
+      "title": "Processing American Express® OptBlue™ | TabaPay Developers",
+      "publisher": "TabaPay",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Page: 'All major card brands in one settlement, in one schedule, in one statement.' Contradicts the $3MM figure on Amex's OptBlue page (see contradictions)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A payments consultancy frames the April 17, 2026 threshold move to $3M as tripling a merchant's runway before it must sign a direct Establishment Service Agreement with Amex, which brings its own underwriting and risk review, and says OptBlue pricing is consistently below Amex Direct pricing.",
+      "quote": "Effective April 17, 2026, that threshold jumped to three million dollars.",
+      "url": "https://www.globalpaymentsconsultants.com/post/amex-just-tripled-your-runway-before-you-need-a-direct-agreement",
+      "title": "Amex Just Tripled Your Runway Before You Need a Direct Agreement",
+      "publisher": "Global Payments Consultants",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Page shows 'July 3' with an 'updated August 25' stamp and no year; no author byline. Quote on direct agreements: 'That relationship comes with its own underwriting, its own risk review, and its own set of hurdles.' Practitioner blog, not trade press."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "In its FY2025 10-K Amex describes OptBlue as the programme through which merchant acquirers, processors and payment facilitators contract with small merchants and set their pricing, and lists OptBlue participants among partners that manage aspects of its customer relationships.",
+      "quote": "these third parties contract directly with small merchants for card acceptance on our network and determine merchant pricing",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'Some of our partners manage certain aspects of our customer relationships, such as our OptBlue program participants.' Filing accession 0000004962-26-000080."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The 10-K describes the network partner base as third-party banks and institutions in approximately 110 countries and territories licensed to issue and/or acquire on the network, and never uses the label 'Global Network Services' or 'GNS' that the partner site's Knowledge Base uses; 'developer' and 'Amex Enabled' also do not appear.",
+      "quote": "These network partners are licensed to issue American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Text search of the filing: 'Global Network Services' 0 hits, 'GNS' 0, 'OptBlue' 4, 'network partners' 24, 'developer' 0, 'Amex Enabled' 0. Same paragraph: 'worldwide processed volume (spending on American Express cards issued by third parties as well as alternative payment solutions facilitated by American Express) was $227.2 billion' for 2025."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "partnerportal.americanexpress.com, the only Amex property titled 'Partner Portal', is a Global Commercial Services referral portal for partners introducing commercial payment solutions, not a network or acquiring surface; it is login-gated and imposed mandatory authenticator-app MFA from November 1, 2025.",
+      "quote": "Work with American Express to introduce commercial payment solutions to your contacts.",
+      "url": "https://partnerportal.americanexpress.com/",
+      "title": "Partner Portal USA | American Express",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Banner: 'STARTING NOV 1, 2025, YOU WILL NEED TO USE AN AUTHENTICATOR MOBILE APP IN ADDITION TO PASSWORD TO ACCESS PARTNER PORTAL'. Registration form (/apex/registration?country=USA&lang=en-US&acttype=ba) asks for company, tax ID and sales rep; not submitted. Included so it is not mistaken for a network partner portal."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The named 'Amex Merchant Financing' product has no live surface: its US business-funding URL redirects to the Business Line of Credit page and merchantfinancing.americanexpress.com does not resolve in DNS.",
+      "quote": "American Express® Business Line of Credit offers line sizes from $2,000 to $250,000.",
+      "url": "https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+      "title": "Business Line of Credit | American Express US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "curl followed a redirect to https://www.americanexpress.com/en-us/business/business-line-of-credit/; WebFetch of https://merchantfinancing.americanexpress.com/ returned 'getaddrinfo ENOTFOUND'. Third-party lender-review sites (search snippets, not fetched) state Amex is not taking new Merchant Financing applications."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A search-indexed copy of the GNS registration page on the QA host qnetwork.americanexpress.com describes Knowledge Base as the replacement for the earlier GNSweb extranet; the production /globalnetwork/register/ page redirects to the enterprise login and the QA host returned HTTP 503, so this could not be read on a live page.",
+      "quote": "replaces GNSweb to provide an enhanced interface for accessing all Global Network assets, applications and services",
+      "url": "https://qnetwork.americanexpress.com/globalnetwork/register/",
+      "title": "Create an Account",
+      "publisher": "American Express (QA host, search snippet)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": "Several qnetwork.americanexpress.com pages (v4 home, sign-in, service-providers, amex-enabled enroll-user) are indexed by search engines; all fetch attempts returned 503 on 2026-09-25."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Public status page / service-status dashboard for Amex for Developers APIs or the GNS network",
+      "where": "WebSearch ('American Express' API status page); developer portal bundle grep for statuspage/status.; GNS site nav",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Developer community or forum for Amex for Developers",
+      "where": "WebSearch; bundle grep for community/forum; GitHub org and americanexpress.io are the only community-style surfaces",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Partner-facing mobile app (issuer, acquirer, service provider or merchant app)",
+      "where": "WebSearch ('American Express merchant app'); merchant home links only the cardmember 'Amex Mobile App'; GNS site names no app",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "GNS partner conference, partner forum or network partner summit (events calendar)",
+      "where": "WebSearch; results were investor conferences only; Partner Learning webinars are the only event-type surface found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current (2022–2026) public edition of the Merchant Reference Guide U.S. or Merchant Regulations – U.S.",
+      "where": "WebSearch; merchant-regulations page (login-gated); latest public PDF is October 2021 (US-Reference-Guide.pdf)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "OptBlue Program Operating Regulations – PSE Edition (public copy)",
+      "where": "Named in 2025-OptBlue-Program-Updates.pdf; no public URL found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Live 'Amex Merchant Financing' product page",
+      "where": "/us/business/business-funding/merchant-financing/ redirects to Business Line of Credit; merchantfinancing.americanexpress.com DNS failure",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Job postings naming internal GNS tools (Knowledge Base, FraudNet, OpsNet, File Tracker)",
+      "where": "WebSearch (careers.americanexpress.com, LinkedIn, Indeed); only generic career pages and GM&NS internship listings returned",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Contents of the developer portal /documentation, /products and /support routes as rendered text",
+      "where": "developer.americanexpress.com is a React SPA; only the /a4d/v1/faqs and /a4d/v1/products/ JSON and the JS bundle were readable; /a4d/v1/terms/site returned 406",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Merchant Specifications site (www.americanexpress.com/merchantspecs) landing text and holdings",
+      "where": "Redirects to /en-us/business/merchant/specifications/merchant-login/, JS-rendered; description taken from rulebooks instead",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Any GNS page using the phrase 'Global Network Services' in full",
+      "where": "GNS v4 pages use 'American Express Global Network' / 'Amex Global Network'; only the Knowledge Base enrollment page uses 'GNS'; FY2025 10-K has 0 hits",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "merchantcostconsulting.com article on the $3M OptBlue threshold",
+      "where": "HTTP 403 for both WebFetch and curl with browser UA",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "AMEX Enabled programme size stated as '800+ SERVICE PROVIDERS' (Amex Enabled Overview PDF, June 2022)",
+      "b": "GNS site (2026) states 'Join 1200+ Service Providers' and 'join over 1200 Service Providers' (same 17 portfolios / 45+ products in both) — dated growth rather than an error, but two figures are live on the same site",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+        "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+      ]
+    },
+    {
+      "a": "OptBlue eligibility ceiling 'less than $3MM per year' effective April 17, 2026 (Amex OptBlue page; OptBlue Sales Agent page)",
+      "b": "'processing less than $1MM per year' (TabaPay developer docs, n.d.) and 'under $1MM in annual American Express Charge Volume' (Amex's own 2025 OptBlue Program Updates PDF still hosted on the agent site)",
+      "urls": [
+        "https://www.americanexpress.com/us/merchant/optblue.html",
+        "https://developers.tabapay.com/docs/processing-american-express-optblue",
+        "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+      ]
+    },
+    {
+      "a": "Knowledge Base enrollment page calls the unit 'GNS' ('single source for GNS information', 'GNS User Services')",
+      "b": "FY2025 10-K never uses 'Global Network Services' or 'GNS' (0 hits), describing the same business as 'our card network business' with 'network partners'; the GNS site's own pages say 'American Express Global Network'",
+      "urls": [
+        "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Knowledge Base (GNS partner extranet; issuers, acquirers, service providers, developers)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "GNS secure FAQ",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/faq/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "GNS user registration (Knowledge Base enrollment)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/registration/user-registration",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "Amex enterprise login (front door for GNS secure area)",
+      "url": "https://www.americanexpress.com/en-us/account/enterprise/login?target=https://network.americanexpress.com/globalnetwork/v4/secure/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "FraudNet (GNS service, applied for via Knowledge Base)",
+      "url": "https://network.americanexpress.com/globalnetwork/secure/knowledge-base/document/services-resources-fraudnet/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "OpsNet (GNS service, applied for via Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "File Tracker (GNS service, applied for via Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "Token Requester Management Portal (GNS service, applied for via Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "Participant Directory (inside Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "Service Enrollment / 'Request Additional Services' (inside Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/"
+    },
+    {
+      "name": "AMEX Enabled Dashboard (service providers; includes Messaging Center and Brand Guidelines)",
+      "url": "https://www.amexenabled.com",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+    },
+    {
+      "name": "AMEX Enabled user enrollment",
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/amex-enabled/enroll-user/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/amex-enabled/enroll-user/"
+    },
+    {
+      "name": "Business and Operational Policies (BOP) manual, Network Specifications manuals, Codes Reference Guide, Network Participant Updates (NPU), Special Bulletins (licensed issuers and acquirers; 'log in to access policy details')",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/"
+    },
+    {
+      "name": "American Express Global Network Specifications (via Knowledge Base login)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/certification/"
+    },
+    {
+      "name": "Partner Learning courses and webinars (assigned by Knowledge Base profile; register via PartnerLearning@aexp.com)",
+      "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/backing-our-partners/"
+    },
+    {
+      "name": "Merchant Specifications site (Technical Specifications, Technical Mandates, BIN files; user ID and password)",
+      "url": "https://www.americanexpress.com/merchantspecs",
+      "named_at": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf"
+    },
+    {
+      "name": "Merchant Regulations – U.S. and Terms and Conditions for Card Acceptance (merchant login)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/secure/",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-regulations.html"
+    },
+    {
+      "name": "OptBlue Program Operating Regulations – PSE Edition (OptBlue participants)",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0"
+    },
+    {
+      "name": "Online Merchant Account / merchant dashboard (direct merchants)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/dashboard/",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-home.html"
+    },
+    {
+      "name": "Online Merchant Account registration",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/registration",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-home.html"
+    },
+    {
+      "name": "Merchant login host (merchant-global)",
+      "url": "https://merchant-global.americanexpress.com/login",
+      "named_at": "search result 'Login Page – American Express Merchant'"
+    },
+    {
+      "name": "Amex for Developers account: /login, /signup, My Projects (/app-mgmt/projects), Support Tickets (/app-mgmt/support-tickets)",
+      "url": "https://developer.americanexpress.com/login",
+      "named_at": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js"
+    },
+    {
+      "name": "Amex for Developers login via Amex online account (OneID / passkeys)",
+      "url": "https://www.americanexpress.com/en-us/account/aed/login?target=https://developer.americanexpress.com/login?redirect%3Dfalse",
+      "named_at": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs"
+    },
+    {
+      "name": "Developer sandbox and production credentials (per product, per environment; openamex-sandbox / openamex token endpoints)",
+      "url": "https://openamex-sandbox.americanexpress.com/oauth/v1/token/cc/access",
+      "named_at": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js"
+    },
+    {
+      "name": "Downloadable developer guides: How to Register, Resolving Login Issues, Retrieve User ID, Reset Password",
+      "url": "",
+      "named_at": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs"
+    },
+    {
+      "name": "Partner Portal (Global Commercial Services referral portal; MFA required) — not a network surface",
+      "url": "https://partnerportal.americanexpress.com/signin",
+      "named_at": "https://partnerportal.americanexpress.com/"
+    },
+    {
+      "name": "Merchant Signage & Supplies site (merchant login for ordering)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/supplies/",
+      "named_at": "https://marketingcorner.americanexpress.com/POPBulkOrder"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (SPA shell)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/assets/index-CKDoS6PK.js",
+      "title": "American Express Developers client bundle",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/faqs",
+      "title": "American Express Developers FAQs JSON",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/",
+      "title": "American Express Developers products JSON",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/terms/site",
+      "title": "American Express Developers site terms endpoint (HTTP 406)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/products/nextgen-card-on-demand/resources",
+      "title": "American Express Developers (SPA shell only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://a4dexternal.americanexpress.com/",
+      "title": "American Express Developers (alternate host, same shell)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developerlab.americanexpress.com/",
+      "title": "developerlab (blank 200)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://one-xp.americanexpress.com",
+      "title": "one-xp (HTTP 403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/",
+      "title": "Partners",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/",
+      "title": "Partners | Issuers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/",
+      "title": "Partners | Acquirers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "Partners | Integrated Payments Providers Program | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/backing-our-partners/",
+      "title": "Partners | Acquirers | Backing Our Partners | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/backing-our-partners/",
+      "title": "Partners | Issuers | Backing Our Partners | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+      "title": "News | Insights | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/contact-us/",
+      "title": "American Express Global Network – contact form",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/certification/",
+      "title": "American Express Certification",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/network-policy/",
+      "title": "American Express Global Network Policy",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+      "title": "Knowledge Base | American Express (enrollment landing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+      "title": "Partner Learning",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/developers-and-tech-providers/amex-enabled/enroll-user/",
+      "title": "AMEX Enabled User Enrollment",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/faq/",
+      "title": "GNS secure FAQ (302 to enterprise login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/knowledge-base/",
+      "title": "Knowledge Base (302 to enterprise login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/registration/user-registration",
+      "title": "User registration (302 to enterprise login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/register/",
+      "title": "Create an Account (redirects to enterprise login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/sign-in/",
+      "title": "Login (enterprise login)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/secure/knowledge-base/document/services-resources-fraudnet/",
+      "title": "FraudNet document (HEAD 503; search title 'Login')",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/service-providers/",
+      "title": "(guessed URL) 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/knowledge-base/",
+      "title": "(guessed URL) 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.amexenabled.com",
+      "title": "amexenabled.com (301 chain to service-providers page)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://qnetwork.americanexpress.com/globalnetwork/v4",
+      "title": "GNS QA host (HTTP 503)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+      "title": "AMEX Enabled Service Provider Program overview (June 2022)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:df637bd0-b88d-4ee4-916e-69f557148c85/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20FAQs_5.3.pdf",
+      "title": "AMEX Enabled Frequently Asked Questions (June 2022)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:c366753f-b040-42ce-8e0d-b7a8afa99323/Online%20PIN%20FAQ%20Dec%202020.pdf",
+      "title": "Online PIN FAQ December 2020",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/",
+      "title": "(seed URL) 404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-home.html",
+      "title": "American Express Merchant Services: Account Login | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "Credit Card Processing for Small Businesses | OptBlue American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+      "title": "OptBlue Sales Agent | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/for-sales-agents",
+      "title": "OptBlue Sales Agent | American Express (for-sales-agents)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/2025-OptBlue-Program-Updates.pdf?v=0",
+      "title": "2025 OptBlue Program Updates (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "title": "Payments Facilitator Acceptance of American Express Cards (Oct 2024)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://icm.aexp-static.com/content/dam/gms/en_us/optblue/us-mog.pdf",
+      "title": "Merchant Operating Guide All Regions April 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/merchant-channel/US-Reference-Guide.pdf",
+      "title": "Merchant Reference Guide U.S. October 2021",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/international-regulations/International-Regs-April-2025-vEN.pdf",
+      "title": "Merchant Regulations International April 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/secure/",
+      "title": "Merchant Regulations secure area (login page)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.americanexpress.com/merchantspecs",
+      "title": "Merchant Specifications (redirects to merchant-login; JS-rendered)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center.html",
+      "title": "Merchant Help & Support Center | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center/registration/manage-account-online.html",
+      "title": "Manage Your Merchant Account Online | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/logging-in-and-enrolling.html",
+      "title": "Logging In and Enrolling in Disputes | American Express Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/tpp/manage-disputes.html",
+      "title": "Managing Disputes as Merchants | TPP | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/business-class-for-merchants.html",
+      "title": "Merchant Tools: Small Business Owner Resources & Tips | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+      "title": "Start accepting American Express credit cards (merchant acquisition page)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/business/merchant/supplies/",
+      "title": "Merchant Signage & Supplies (JS-rendered, no text)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://marketingcorner.americanexpress.com/POPBulkOrder",
+      "title": "American Express Signage Bulk Order Form",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+      "title": "(redirects to) Business Line of Credit | American Express US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchantfinancing.americanexpress.com/",
+      "title": "merchantfinancing host (DNS ENOTFOUND)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/company/open-banking/",
+      "title": "Open Banking API Card Member Data Sharing Overview (cardmember-facing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partnerportal.americanexpress.com/",
+      "title": "Partner Portal USA | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partnerportal.americanexpress.com/signin",
+      "title": "LOG IN | Partner Portal | American Express",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://partnerportal.americanexpress.com/apex/registration?country=USA&lang=en-US&acttype=ba",
+      "title": "Partner Portal USA registration form (read only, not submitted)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/apiDocumentation/rest-json/version/latest/api.html?locale=en_US",
+      "title": "Gateway API Reference Documentation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://gateway-na.americanexpress.com/api/documentation/integrationGuidelines/directPayment/integrationModelDirectPayment.html?locale=en_US",
+      "title": "Integration Guide (JS-rendered; nav only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress",
+      "title": "GitHub – American Express organisation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress/amex-api-java-client-core",
+      "title": "GitHub - americanexpress/amex-api-java-client-core",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://americanexpress.io/",
+      "title": "American Express Technology",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/",
+      "title": "American Express Company - Investor Relations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000004962.json",
+      "title": "SEC EDGAR submissions index, CIK 4962",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K FY2025 (filed 2026-02-06)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchanthelp.bankofamerica.com/American-Express-OptBlue",
+      "title": "American Express OptBlue Business Resources - Merchant Help (Bank of America)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.tabapay.com/docs/processing-american-express-optblue",
+      "title": "Processing American Express OptBlue | TabaPay Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.globalpaymentsconsultants.com/post/amex-just-tripled-your-runway-before-you-need-a-direct-agreement",
+      "title": "Amex Just Tripled Your Runway Before You Need a Direct Agreement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/amex-optblue-threshold/",
+      "title": "Amex's New $3M OptBlue Threshold (HTTP 403)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

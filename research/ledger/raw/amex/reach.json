@@ -1,0 +1,1053 @@
+{
+  "network": "amex",
+  "dimension": "reach",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "American Express Company is the legal owner of the American Express network; it was incorporated in 1965 as a New York corporation after starting as a joint stock association.",
+      "quote": "We were founded as a joint stock association and incorporated in 1965 as a New York corporation.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filed 2026-02-06; period ended 2025-12-31. No change of corporate ownership since 2020 is disclosed; Amex remains an independent NYSE-listed company (ticker AXP)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "American Express Company and its principal operating subsidiary TRS are bank holding companies supervised by the Federal Reserve, so the network owner is a regulated BHC rather than a pure network company.",
+      "quote": "American Express Company and its principal operating subsidiary, American Express Travel Related Services Company, Inc. (TRS), are bank holding companies",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "U.S. bank subsidiary is American Express National Bank (AENB), supervised by the OCC."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Headquarters (principal executive offices) are at 200 Vesey Street, New York, NY 10285.",
+      "quote": "200 Vesey Street New York , New York 10285 (Address of principal executive offices)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Cover page of the 10-K."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Largest shareholder is Berkshire Hathaway Inc. and subsidiaries with 151,610,700 shares, 22.1% of the class, as of December 31, 2025; no controlling owner.",
+      "quote": "Berkshire Hathaway Inc. and subsidiaries 3555 Farnam Street Omaha, NE 68131 151,610,700 (1) — 22.1 %",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000110465926034163/tm2519434-8_def14a.htm",
+      "title": "American Express Company 2026 Proxy Statement (DEF 14A)",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-03-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table row from the Stock Ownership Information section; cell separators removed. Footnote says the figure is based on Berkshire's Form 13F as of 2025-12-31. The 10-K exhibit list references a Restated Letter Agreement dated May 6, 2019 between Amex and Berkshire (passive-investor arrangement)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex positions itself as the fourth-largest general-purpose card network globally by purchase volume, behind Visa, China UnionPay and Mastercard.",
+      "quote": "We are the fourth largest general-purpose card network globally based on purchase volume, behind Visa, China UnionPay and Mastercard.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "The FY2025 10-K names Discover and Diners Club International as network competitors and records that both are now owned by Capital One (the FY2024 10-K had said Diners Club was owned by Discover).",
+      "quote": "Visa, China UnionPay, Mastercard, JCB, Discover and Diners Club International (the last two of which are owned by Capital One).",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Contrast: FY2024 10-K (filed 2025-02-07, predating the 2025-05-18 Capital One/Discover close) reads 'Diners Club International (which is owned by Discover)' at https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm"
+    },
+    {
+      "dimension": "reach",
+      "claim": "2025 network volumes were $1,897.0 billion (up 7%) and billed business (spend on Amex-issued cards) was $1,669.8 billion (up 8%), per Table 5 of the 10-K.",
+      "quote": "Network volumes (billions) $ 1,897.0 $ 1,764.8 $ 1,680.1 7 % 5 % Billed business $ 1,669.8 $ 1,550.9 $ 1,459.6 8 6",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table 5: Selected Card-Related Statistical Information; columns are 2025, 2024, 2023 and year-over-year changes."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Total cards-in-force were 152.8 million at 2025 year-end, of which 86.6 million were proprietary (Amex-issued); basic cards-in-force were 128.9 million.",
+      "quote": "Cards-in-force (millions) 152.8 146.5 141.2 4 4 Proprietary cards-in-force 86.6 83.6 80.2 4 4",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table 5. The balance (66.2 million) are cards issued by third-party network partners."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Worldwide processed volume (spend on third-party-issued Amex cards plus alternative payment solutions Amex facilitates) was $227.2 billion in 2025, about 12% of network volumes.",
+      "quote": "worldwide processed volume (spending on American Express cards issued by third parties as well as alternative payment solutions facilitated by American Express) was $227.2 billion",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1, Card Network Business. Share computed by researcher: 227.2 / 1,897.0."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Third-party (network partner) issued cards-in-force were 66.2 million at December 31, 2025.",
+      "quote": "as of December 31, 2025, we had 66.2 million cards-in-force issued by third parties worldwide.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's card network business maintains relationships with third-party banks and institutions in approximately 110 countries and territories (FY2025).",
+      "quote": "we establish and maintain relationships with third-party banks and other institutions in approximately 110 countries and territories through our card network business.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same sentence repeated in the 2025 Annual Report PDF. Compare FY2024 'approximately 120' and FY2021 'approximately 103'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The FY2024 10-K put the network-partner footprint at approximately 120 countries and territories, ten more than the FY2025 figure.",
+      "quote": "relationships with third-party banks and other institutions in approximately 120 countries and territories, licensing the American Express brand",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2025-02-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Predates the Capital One/Discover close. Flagged as a two-value figure with the FY2025 10-K."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The FY2021 10-K put the network-partner footprint at approximately 103 countries and territories, showing the figure has moved 103 -> 120 -> 110 across filings.",
+      "quote": "third-party banks and other institutions in approximately 103 countries and territories, licensing the American Express brand and extending the reach of our global network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496222000008/axp-20211231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2021",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2022-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Network partners are licensed either to issue Amex-branded cards in their countries and/or to act as merchant acquirer for local merchants on the Amex network.",
+      "quote": "These network partners are licensed to issue American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Amex is a closed-loop network; third-party issuers and acquirers participate under licence (GNS)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Fintech and bank issuers on the Amex network cited by Amex itself include Coinbase and Credit Saison.",
+      "quote": "cards issued by third-party banks, financial technology companies and other institutions on the American Express network (e.g., cards offered by Coinbase and Credit Saison)",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1, Partners and Relationships."
+    },
+    {
+      "dimension": "reach",
+      "claim": "GNS participants are classified in Amex's own network policy manual as Network Card License (NCL) issuers, Independent Operators (IOs) and Joint Ventures (JVs) part-owned by an Amex entity.",
+      "quote": "Participants who operate the American Express Card Issuing Business as Independent Operators (IOs) or as part of a Joint Venture (JV)",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023, Global Network Services",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2023-10-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "572-page PDF served openly from network.americanexpress.com though marked confidential. Also reads: 'Such NCLs are referred to as \"Participants\" in this document.' Publication month October 2023; exact day not shown."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Brand family inside the network: partner-issued NCL cards are 'Blue Box Line' cards and must not be marketed as identical to Amex's own 'Enterprise Line' cards.",
+      "quote": "Blue Box Line Cards may not be marketed implicitly or explicitly as being identical to an American Express Enterprise Line Card.",
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023, Global Network Services",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2023-10-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 2.2.10.2.3 'Additional Policies for Blue Box Line Card and Prepaid Card Issuers'; Blue Box Line Cards are defined as Network Card License (NCL) Cards."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex says its GNS business launched in 1997 and its bank partners have extended the network into over 198 countries and territories (a different measure from the ~110 partner countries in the 10-K).",
+      "quote": "over 198 countries and territories around the world",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=308487",
+      "title": "American Express Reach Increases as Global Partnerships Grow",
+      "publisher": "American Express press release, wire copy on WebWire",
+      "published": "2023-07-24",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Amex's own release; the Amex-hosted copy at americanexpress.com/en-us/newsroom is a JS shell that would not render. Launch year 1997 and named long-standing partners (Isracard, Nedbank 'almost 50 years', Bradesco since 2006, Hyundai Card since 2021) appear in the same release."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In July 2023 Amex said global acceptance covered more than 80 million locations, having tripled international accepting locations since 2017.",
+      "quote": "Global Amex acceptance now covers more than 80 million locations, tripling the international locations accepting Amex since 2017",
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=308487",
+      "title": "American Express Reach Increases as Global Partnerships Grow",
+      "publisher": "American Express press release, wire copy on WebWire",
+      "published": "2023-07-24",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Compare 160 million (June 2025) and 170 million+ (December 2025)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In September 2025 Amex said its cards were accepted at an estimated 160 million merchant locations worldwide as of June 2025, nearly 5x the 2017 count.",
+      "quote": "American Express Cards are accepted at an estimated 160 million Merchant locations worldwide, as of June 2025.",
+      "url": "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+      "title": "American Express is Accepted at 160 Million Merchants Around the World; Since 2017, Amex-Accepting Locations Have Increased by Nearly 5x",
+      "publisher": "American Express press release via Business Wire, copy on Yahoo Finance",
+      "published": "2025-09-09",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Amex-hosted copy is a JS shell; wire copy used. Footnote 2: 2017-2025 growth does not include Merchant locations through certain payment facilitators."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The 160 million June-2025 figure includes an estimated 43 million merchants reached through payment facilitators and 34 million merchants reached through digital wallets in China.",
+      "quote": "an estimated 43 million Merchants that accept American Express through payment facilitators and 34 million Merchants that accept American Express through digital wallets in China",
+      "url": "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+      "title": "American Express is Accepted at 160 Million Merchants Around the World; Since 2017, Amex-Accepting Locations Have Increased by Nearly 5x",
+      "publisher": "American Express press release via Business Wire, copy on Yahoo Finance",
+      "published": "2025-09-09",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Roughly 48% of the headline figure is payfac- or wallet-enabled rather than directly or partner-acquired."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex claims virtual parity in the U.S., accepted at 99% of places that take credit cards since the end of 2019 (Nilson-sourced).",
+      "quote": "Amex has been accepted at 99% of places that take credit cards since the end of 2019.",
+      "url": "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+      "title": "American Express is Accepted at 160 Million Merchants Around the World; Since 2017, Amex-Accepting Locations Have Increased by Nearly 5x",
+      "publisher": "American Express press release via Business Wire, copy on Yahoo Finance",
+      "published": "2025-09-09",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Footnote cites Nilson Report #1279, February 2025."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's 2025 Annual Report states acceptance reached over 170 million merchant locations worldwide as of year-end 2025.",
+      "quote": "reaching over 170 million merchant locations worldwide that accept American Express as of year-end 2025.",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express 2025 Annual Report (shareholder letter)",
+      "publisher": "American Express Company",
+      "published": "2026-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Published on the IR site; date taken from the proxy-materials path (20260306). The 10-K MD&A separately says 'we added millions of new merchant locations globally in 2025'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex defines locations in force (LIF) as proprietary and partner-acquired merchant locations enabled to accept Amex, including payfac and digital-wallet merchants and third-party-supplied estimates.",
+      "quote": "Locations in force (LIF) — Represents proprietary and partner acquired merchant locations where the merchant is enabled to accept American Express.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary of Selected Terminology. Continues: 'LIF estimates incorporate data provided to us by certain third parties and include merchants that accept American Express through payment facilitators and merchants that accept American Express through digital wallets.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "The year-end 2025 LIF estimate reflects an estimated 37 million merchants accepting Amex in China, including through digital wallets.",
+      "quote": "estimate as of December 2025, which reflects an estimated 37 million merchants that accept American Express in China (including through digital wallets)",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express 2025 Annual Report (shareholder letter footnote 3)",
+      "publisher": "American Express Company",
+      "published": "2026-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "About 22% of the 170 million headline is China (researcher computation)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex says merchant locations outside the U.S. have more than doubled over the last four years while U.S. coverage stayed at virtual parity.",
+      "quote": "We maintained virtual parity coverage in the U.S. , and merchant locations outside the U.S. have more than doubled over the last four years.",
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express 2025 Annual Report (shareholder letter)",
+      "publisher": "American Express Company",
+      "published": "2026-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's Q4-2025 earnings release boilerplate describes the network as having 'over a hundred million' merchant locations, a rounder and lower framing than the 160-170 million figures published elsewhere.",
+      "quote": "With over a hundred million merchant locations across our global network, we seek to provide the world's best customer experience every day",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+      "title": "American Express Reports Full-Year and Fourth-Quarter 2025 Financial Results (8-K Exhibit 99.1)",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-01-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Flagged: same company, three headline framings within nine months."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Trade press (Digital Transactions) reported the 170 million figure from the 2026 shareholder letter and noted the prior-year China count was 31 million excluding certain payfac-acquired locations.",
+      "quote": "American Express Co. reported early Wednesday that its merchant network now has more than 170 million locations worldwide.",
+      "url": "https://www.digitaltransactions.net/amex-touts-merchant-growth-ai-usage-and-a-new-business-card/",
+      "title": "AmEx Touts Merchant Growth, AI Usage, And a New Business Card",
+      "publisher": "Digital Transactions (Jim Daly)",
+      "published": "2026-03-25",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Also seen: 'That figure compares with 31 million Chinese locations, excluding those acquired through certain payment facilitators, Squeri reported in his shareholder letter last year.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's U.S. merchant site cites Nilson Report #1,301 (February 2026) for the 99% U.S. acceptance claim and notes acceptance-location counts exclude ATMs and branches.",
+      "quote": "Nilson Report #1,301, February 2026. Includes American Express third party issuers. Merchant acceptance locations exclude ATMs and branches.",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "OptBlue: Credit Card Processing for Small Businesses | Amex US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "The sister page accept-the-card.html attributes the identical 99% figure to 'a Feb 2022 Nilson Report' (see contradictions)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's merchant site advertises access to 'over 112+ Million Card Members', which does not reconcile with the 10-K's 152.8 million cards-in-force or 128.9 million basic cards-in-force.",
+      "quote": "Access to over 112+ Million Card Members",
+      "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+      "title": "Accept Credit Card Payments | Amex Merchant",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Likely a different measure (Card Members vs cards) and/or stale; page also cites a Feb 2022 Nilson Report."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The OptBlue page names 32 participating providers (Adyen, Bank of America, BlueSnap, Braintree, Chase, Checkout.com, Clearent by Xplor, Elavon, Electronic Payments, EPX, EVO, Finix, Deluxe, Fiserv, Global Payments, Heartland, Intuit, MerchantE, Moov, NCR Voyix, North, Nuvei, Paynetworx, PayPal, Repay, RS2, Square, Stripe, TSYS, Wells Fargo Merchant Services, Windcave, Worldpay), eight of them with a certified payment-facilitator sales channel.",
+      "quote": "American Express Card payments can also be accepted through Third Party Service providers and/or Payment Facilitators registered for the OptBlue program under a Participant",
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "OptBlue: Credit Card Processing for Small Businesses | Amex US",
+      "publisher": "American Express",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page states 'This is not a comprehensive list of participating providers.' Asterisked (PayFac channel): Adyen, Chase, Checkout.com, Elavon, Finix, Fiserv, PayPal, Worldpay. Count made by researcher from the fetched list."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The 10-K describes OptBlue as the programme under which acquirers, processors and payment facilitators contract directly with small merchants and set their pricing on the Amex network.",
+      "quote": "through our OptBlue ® merchant-acquiring program, these third parties contract directly with small merchants for card acceptance on our network and determine merchant pricing.",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2026-02-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Item 1, Merchant Acquiring Business."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's GNS site claims over 1,200 service providers have certified products for use on the Amex network under the AMEX Enabled programme.",
+      "quote": "join over 1200 Service Providers who have developed, certified and deployed their products and services for use on the American Express Network.",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "publisher": "American Express Global Network Services",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page also states 17 product portfolios and 45+ products (seen as figures, not as a full sentence)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's network runs separate authorization and financial-submission message specifications (GCAG for authorization; GFSG / XML GFSG for submission), i.e. a dual-message architecture.",
+      "quote": "Global Credit Authorization Guide (GCAG), ISO and XML formats • Global Financial Submission Guide (GFSG) • XML Global Financial Submission Guide (XML GFSG)",
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_ES_US.pdf",
+      "title": "Notification of Specification Changes (NOSC), effective in the American Express Global Technical Specifications April 2024",
+      "publisher": "American Express Travel Related Services Company, Inc.",
+      "published": "2023-10-01",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF saved by WebFetch and read with pypdf. Publication date shown as October 2023. Amex publishes no single-message (PIN-debit style) network specification in the public record found."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex added debit capabilities to its network and issued its first proprietary debit card in 2021, so the network carries credit, charge, prepaid and debit products.",
+      "quote": "We launched debit capabilities on the American Express network and in 2021 introduced our first-ever proprietary debit card",
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496222000008/axp-20211231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2021",
+      "publisher": "American Express Company via SEC EDGAR",
+      "published": "2022-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Linked to the business checking account product."
+    },
+    {
+      "dimension": "reach",
+      "claim": "American Express does not appear in the Federal Reserve's Regulation II network interchange tables, which list Discover, Mastercard and Visa as dual-message networks and 13 single-message networks.",
+      "quote": "Networks listed are defined as payment card networks under the Board's Regulation II.",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Absence finding: no Amex row in any year of the table. Single-message networks listed: ACCEL, AFFN, ATH, Culiance, Interlink, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR, UnionPay, Presto!."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The Federal Reserve's Regulation II data collection explicitly excludes three-party systems such as Amex from its network survey.",
+      "quote": "For purposes of this survey, three-party systems are not included.",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Regulation II - Data Collections",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "A Congressional Research Service report records that the Fed treated three-party systems as not being payment card networks for the Durbin/Regulation II final rule, using Amex as the example.",
+      "quote": "The Federal Reserve acknowledged that, for purposes of the final rule, three-party systems are not payment card networks.",
+      "url": "https://www.everycrsreport.com/files/20170516_R41913_c12d16726b033967d969a0e147ecab9b61d95c64.html",
+      "title": "Regulation of Debit Interchange Fees (CRS R41913)",
+      "publisher": "Congressional Research Service, mirror at EveryCRSReport.com",
+      "published": "2017-05-16",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "congress.gov copy returned 403 to fetch; mirror used."
+    },
+    {
+      "dimension": "reach",
+      "claim": "JCB's own site confirms a reciprocal arrangement under which JCB cards are accepted in Australia, New Zealand and Canada through Amex (and in the U.S. through Discover Network).",
+      "quote": "JCB cards are accepted in Australia, New Zealand, and Canada through our partnership with American Express, and in the U.S. through Discover Network.",
+      "url": "https://www.global.jcb/en/about-us/what-we-do/index.html",
+      "title": "What We Do | JCB Global Website",
+      "publisher": "JCB Co., Ltd.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Counterparty's primary page; Amex's own site does not publish a list of network alliances."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Under a 2014 MoU Amex cards in China ran on the China UnionPay network, with working teams to explore cooperation inside and outside China (arrangement predates Amex's own China clearing licence).",
+      "quote": "American Express Cards run on the China UnionPay network",
+      "url": "https://thepaypers.com/payments/news/china-unionpay-and-american-express-expand-partnership",
+      "title": "China UnionPay and American Express expand partnership",
+      "publisher": "The Paypers (Melisande Mual)",
+      "published": "2014-11-03",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Historical; superseded in practice by the Express (Hangzhou) JV licence of June 2020."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's China joint venture Express (Hangzhou) Technology Services Co., with LianLian DigiTech, received a People's Bank of China network clearing licence in June 2020, making Amex the first foreign network licensed to clear RMB card transactions in mainland China.",
+      "quote": "We are pleased to be the first foreign company to receive this license",
+      "url": "https://www.paymentsdive.com/ex/mpt/news/american-express-venture-gains-clearing-license-in-china/",
+      "title": "American Express venture gains clearing license in China",
+      "publisher": "Payments Dive (Mobile Payments Today archive)",
+      "published": "2020-06-15",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Quote attributed to CEO Stephen Squeri. The FY2025 10-K text contains no mention of Hangzhou or mainland China by name (grep), so JV status is not restated in the filing."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Amex's network site says Card Members can access cash at more than 1.5 million ATMs worldwide through bank partnerships, with partner ATM networks in more than 150 countries.",
+      "quote": "Through our bank partnerships, American Express Card Members can access cash at more than 1.5 million ATMs worldwide.",
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/acceptance/cash-access/",
+      "title": "Cash Access with American Express",
+      "publisher": "American Express Global Network Services",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Same page: 'a service available from the ATM networks that partner with American Express in more than 150 countries.' Page is addressed to ATM acquirers and offers locator listing and marketing assets."
+    },
+    {
+      "dimension": "reach",
+      "claim": "In the U.S., Amex checking/business customers had free cash access at over 37,000 MoneyPass ATMs before adding about 40,000 Allpoint (NCR Atleos) ATMs announced February 2024.",
+      "quote": "Amex already provides free cash access at over 37,000 U.S. ATMs through the MoneyPass network.",
+      "url": "https://www.paymentsdive.com/news/american-express-amex-card-atm-ncr-atleos-cash/707855/",
+      "title": "Amex to expand ATM cash access",
+      "publisher": "Payments Dive (James Pothen)",
+      "published": "2024-02-20",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Combined roughly 77,000 surcharge-free U.S. ATMs for Amex deposit customers; Amex declined to comment to Payments Dive. PYMNTS (2024-02-13) carried the NCR Atleos wording: 'American Express will enable these customers to access more than 40,000 surcharge-free ATMs located in trusted retail locations'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Nilson ranked Amex the second-largest U.S. general-purpose credit card issuer with $1.168 trillion in 2024 purchase volume (as re-published by Nilson's own wire release).",
+      "quote": "American Express ranked second largest with $1.168 trillion in purchase volume",
+      "url": "https://www.globenewswire.com/news-release/2025/03/06/3038338/0/en/jp-morgan-tops-nilson-report-ranking-of-us-credit-card-issuers.html",
+      "title": "JP Morgan Tops Nilson Report Ranking of US Credit Card Issuers",
+      "publisher": "Nilson Report via GlobeNewswire",
+      "published": "2025-03-06",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Issuer view, 2024 data. Nilson's Amex-specific 2025 network figures are behind its subscriber wall."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Count of GNS licensed issuer/acquirer institutions (number of network partners)",
+      "where": "FY2025 10-K (sec.gov), network.americanexpress.com GNS partner pages, Amex 2023 GNS press release (WebWire copy)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Annual number of transactions processed on the American Express network",
+      "where": "FY2025 10-K Tables 5-6 (grep 'transactions'), Amex 2025 Annual Report, Nilson public previews (paywalled)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex Merchant Financing programme page",
+      "where": "https://www.americanexpress.com/us/merchant/merchant-financing.html returned 404; not named on merchant-home, accept-the-card or OptBlue pages; web search budget exhausted before locating it",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "American Express-specific 2025 purchase volume and network share from Nilson",
+      "where": "nilsonreport.com articles global-brand-cards-us-2025, largest-us-issuers-2025, us-card-network-results-q1-2025 (all subscriber-gated); Payments Dive 2026-04-03 gives only combined figures",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "'more than 1.2 million ATMs worldwide' figure that appeared in a search snippet",
+      "where": "Not present on GNS cash-access page (says 1.5 million), Amex ATM FAQ, Payments Dive or PYMNTS articles",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Developer portal product catalogue / partner types at developer.americanexpress.com",
+      "where": "WebFetch and curl both return only the JS shell 'American Express Developers'; bundle references backend a4dextsvr.americanexpress.com/dev-portal",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Express (Hangzhou) / mainland China JV status in Amex's FY2025 10-K",
+      "where": "grep of 10-K text for 'Hangzhou' and 'mainland China' returned nothing",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Amex-published list of network-to-network or reciprocal acceptance agreements",
+      "where": "network.americanexpress.com partner pages, 10-K; only counterparties (JCB) publish it",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "FY2025 10-K: network partners in 'approximately 110 countries and territories' (and FY2021: 'approximately 103')",
+      "b": "FY2024 10-K: 'approximately 120 countries and territories'; 2023 Amex press release: network expanded into 'over 198 countries and territories'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496222000008/axp-20211231.htm",
+        "https://www.webwire.com/ViewPressRel.asp?aId=308487"
+      ]
+    },
+    {
+      "a": "Amex 8-K exhibit 99.1 (2026-01-30) boilerplate: 'over a hundred million merchant locations'",
+      "b": "Amex 2025 Annual Report: 'over 170 million merchant locations worldwide ... as of year-end 2025'; Sept 2025 release: 'estimated 160 million Merchant locations ... as of June 2025'; July 2023 release: 'more than 80 million locations'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+        "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+        "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+        "https://www.webwire.com/ViewPressRel.asp?aId=308487"
+      ]
+    },
+    {
+      "a": "Sept 2025 release: '34 million Merchants that accept American Express through digital wallets in China' (June 2025)",
+      "b": "2025 Annual Report: 'estimated 37 million merchants that accept American Express in China (including through digital wallets)' (Dec 2025); Digital Transactions: prior-year '31 million Chinese locations, excluding those acquired through certain payment facilitators'",
+      "urls": [
+        "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+        "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+        "https://www.digitaltransactions.net/amex-touts-merchant-growth-ai-usage-and-a-new-business-card/"
+      ]
+    },
+    {
+      "a": "accept-the-card.html attributes the 99% U.S. acceptance figure to 'a Feb 2022 Nilson Report'",
+      "b": "optblue.html attributes the same 99% figure to 'Nilson Report #1,301, February 2026'; Sept 2025 release cites 'Nilson Report #1279, February 2025'",
+      "urls": [
+        "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+        "https://www.americanexpress.com/us/merchant/optblue.html",
+        "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html"
+      ]
+    },
+    {
+      "a": "accept-the-card.html: 'Access to over 112+ Million Card Members'",
+      "b": "FY2025 10-K Table 5: 152.8 million cards-in-force; 128.9 million basic cards-in-force",
+      "urls": [
+        "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm"
+      ]
+    },
+    {
+      "a": "FY2024 10-K: 'Diners Club International (which is owned by Discover)'",
+      "b": "FY2025 10-K: 'Discover and Diners Club International (the last two of which are owned by Capital One)' — dated change after Capital One's 2025-05-18 acquisition, recorded so readers date each source",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "GNS Knowledge Base (signed-in partner portal)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/"
+    },
+    {
+      "name": "GNS Participant Directory (inside Knowledge Base)",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4"
+    },
+    {
+      "name": "AMEX Enabled Program registration / Service Enrollment / Messaging Center",
+      "url": "",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/"
+    },
+    {
+      "name": "Integrated Payments Providers Program (register via AMEX Enabled; PaymentVendorRelations@aexp.com)",
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/"
+    },
+    {
+      "name": "Amex for Developers portal (developer.americanexpress.com; JS app, backend a4dextsvr.americanexpress.com/dev-portal)",
+      "url": "https://developer.americanexpress.com/",
+      "named_at": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/"
+    },
+    {
+      "name": "Merchant technical specifications site (merchantspecs)",
+      "url": "https://www.americanexpress.com/merchantspecs",
+      "named_at": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_ES_US.pdf"
+    },
+    {
+      "name": "Merchant Regulations - U.S. secure login (full Card Acceptance terms)",
+      "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/secure/",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-regulations.html"
+    },
+    {
+      "name": "Online Merchant Account (merchant portal: settlements, submissions, disputes, live chat)",
+      "url": "https://www.americanexpress.com/us/merchant/merchant-home.html",
+      "named_at": "https://www.americanexpress.com/us/merchant/merchant-home.html"
+    },
+    {
+      "name": "OptBlue information pages for Sales Agents and for Payment Facilitators",
+      "url": "",
+      "named_at": "https://www.americanexpress.com/us/merchant/optblue.html"
+    },
+    {
+      "name": "Nilson Report subscriber login (Issue 1301/1302 Amex tables)",
+      "url": "https://nilsonreport.com/",
+      "named_at": "https://nilsonreport.com/articles/global-brand-cards-us-2025/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/",
+      "title": "American Express Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4",
+      "title": "American Express Global Network (v4 home)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/developers/",
+      "title": "Partners | Developers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/",
+      "title": "Partners | Issuers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/acquirers/",
+      "title": "Partners | Acquirers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/fintechs/",
+      "title": "Partners | Fintechs | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/service-providers/",
+      "title": "Partners | Service Providers | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+      "title": "Integrated Payments Providers Program | American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/v4/news/",
+      "title": "News | Insights | American Express (template only)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/products-and-services/acceptance/cash-access/",
+      "title": "Cash Access with American Express",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+      "title": "Business and Operational Policies, October 2023, Global Network Services (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.americanexpress.com/",
+      "title": "American Express Developers (JS shell, no content)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/americanexpress",
+      "title": "American Express on GitHub (88 repositories)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/",
+      "title": "Amex merchant home (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-home.html",
+      "title": "American Express Merchant Services: Account Login | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/accept-the-card.html",
+      "title": "Accept Credit Card Payments | Amex Merchant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/optblue.html",
+      "title": "OptBlue: Credit Card Processing for Small Businesses | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-regulations.html",
+      "title": "American Express Merchant Policies & Procedures | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/merchant/merchant-financing.html",
+      "title": "Merchant Financing (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/new-merchant-regulations/NOSC_ES_US.pdf",
+      "title": "Notification of Specification Changes, April 2024 edition (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/us/customer-service/faq.withdraw-cash-atm.html",
+      "title": "How to use Amex Card to Withdraw Cash at an ATM | Amex US",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://nemo.americanexpress.com/atm-locator",
+      "title": "American Express ATM Locator (JS shell, no content)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/american-express-is-accepted-at-160-million-merchants-around-the.html",
+      "title": "Amex Newsroom: 160 Million Merchants (JS shell; headline only)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/amex-for-business/american-express-reach-increases-as-global-partnerships-grow.html",
+      "title": "Amex Newsroom: Reach Increases as Global Partnerships Grow (JS shell / socket hang up)",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://about.americanexpress.com/our-company/who-we-are/who-we-are/default.aspx",
+      "title": "About Amex who-we-are (301 to newsroom; not fetched)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://ir.americanexpress.com/",
+      "title": "American Express Company - Investor Relations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://ir.americanexpress.com/financials/annual-reports-and-proxy-statements/default.aspx",
+      "title": "Annual Reports & Proxy Statements",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+      "title": "American Express 2025 Annual Report (PDF)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/q4/Q4-2025-Earnings-Presentation.pdf",
+      "title": "Q4 2025 earnings presentation (guessed URL; HTML returned)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004962&type=10-K&dateb=&owner=include&count=10",
+      "title": "EDGAR 10-K list, American Express Co",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/0000004962-26-000080-index.htm",
+      "title": "10-K FY2025 filing index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000016/axp-20241231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2024",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496222000008/axp-20211231.htm",
+      "title": "American Express Company Form 10-K for fiscal year ended December 31, 2021",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+      "title": "8-K Exhibit 99.1: FY & Q4 2025 results",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000004962&type=DEF+14A&dateb=&owner=include&count=5",
+      "title": "EDGAR DEF 14A list, American Express Co",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000110465926034163/0001104659-26-034163-index.htm",
+      "title": "DEF 14A 2026 filing index",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/4962/000110465926034163/tm2519434-8_def14a.htm",
+      "title": "American Express Company 2026 Proxy Statement (DEF 14A)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=308487",
+      "title": "American Express Reach Increases as Global Partnerships Grow | WebWire",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/american-express-accepted-160-million-123000510.html",
+      "title": "American Express is Accepted at 160 Million Merchants Around the World (Yahoo Finance wire copy)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/amex-touts-merchant-growth-ai-usage-and-a-new-business-card/",
+      "title": "AmEx Touts Merchant Growth, AI Usage, And a New Business Card – Digital Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/30/american-express-axp-q4-2025-earnings-call-transcript/",
+      "title": "American Express (AXP) Q4 2025 Earnings Call Transcript | The Motley Fool",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/global-brand-cards-us-2025/",
+      "title": "Global Brand Cards in the United States — 2025 - Nilson Report",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/largest-us-issuers-of-general-purpose-credit-cards-2025/",
+      "title": "Largest US Issuers of General Purpose Credit Cards — 2025 - Nilson Report",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/us-card-network-results-first-quarter-2025/",
+      "title": "US Card Network Results — First Quarter 2025 - Nilson Report",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://nilsonreport.com/articles/purchase-volume-by-global-brand-cards-projected-to-2025/",
+      "title": "Purchase Volume by Global Brand Cards Projected — 2015 through 2025 - Nilson Report",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/03/06/3038338/0/en/jp-morgan-tops-nilson-report-ranking-of-us-credit-card-issuers.html",
+      "title": "JP Morgan Tops Nilson Report Ranking of US Credit Card Issuers (GlobeNewswire)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/card-volume-rises-with-digital-boost/816600/",
+      "title": "Card volume rises with digital boost | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/american-express-amex-card-atm-ncr-atleos-cash/707855/",
+      "title": "Amex to expand ATM cash access | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/ex/mpt/news/american-express-venture-gains-clearing-license-in-china/",
+      "title": "American Express venture gains clearing license in China | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/cash/2024/american-express-taps-ncr-atleos-for-surcharge-free-atm-access/",
+      "title": "American Express Taps NCR Atleos for Surcharge-Free ATM Access | PYMNTS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.finextra.com/pressarticle/82896/american-express-wins-network-clearing-licence-in-china",
+      "title": "Finextra: American Express wins network clearing licence in China (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20200613005031/en/American-Express-Receives-Clearance-to-Begin-Processing-Local-Transactions-in-Mainland-China",
+      "title": "Business Wire: Amex receives clearance in mainland China (403 / Access Denied)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://en.lianlian.com/about.html",
+      "title": "LianLian DigiTech About (ECONNRESET / empty)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://thepaypers.com/payments/news/china-unionpay-and-american-express-expand-partnership",
+      "title": "China UnionPay and American Express expand partnership | The Paypers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.global.jcb/en/about-us/what-we-do/index.html",
+      "title": "What We Do | JCB Global Website",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.iso8583.info/lib/AMEX/GCAG/",
+      "title": "Global Credit Authorization Guide at iso8583.info",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Federal Reserve Board - Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Federal Reserve Board - Regulation II - Data Collections",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.congress.gov/crs-product/R41913",
+      "title": "Regulation of Debit Interchange Fees | Congress.gov (403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.everycrsreport.com/files/20170516_R41913_c12d16726b033967d969a0e147ecab9b61d95c64.html",
+      "title": "Regulation of Debit Interchange Fees (CRS R41913) - EveryCRSReport mirror",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

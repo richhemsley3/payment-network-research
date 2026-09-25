@@ -1,0 +1,1487 @@
+{
+  "network": "visa",
+  "dimension": "services",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "services",
+      "claim": "Visa organises its value-added services (VAS) sold to partners into four portfolios: Issuing Solutions, Acceptance Solutions, Risk and Security Solutions, and Advisory and Other Services.",
+      "quote": "Our comprehensive suite of value-added services spans four portfolios: Issuing Solutions, Acceptance Solutions, Risk and Security Solutions and Advisory and Other Services",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FY ended 2025-09-30; filed Nov 2025. 10-K sizes the four portfolios at ~$125B, $95B, $150B, $150B of a $520B annual revenue opportunity."
+    },
+    {
+      "dimension": "services",
+      "claim": "VAS revenue was $10.9B in fiscal 2025, up 24%, showing value-added services are a material line sold on top of core network processing.",
+      "quote": "For fiscal 2025, 2024, and 2023, revenue from value-added services was $10.9 billion, $8.8 billion and $7.2 billion, respectively.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Growth attributed to Issuing Solutions, Advisory and Other Services and Acceptance Solutions."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa describes its partner-facing offer as a four-layer 'Visa as a Service' stack (foundation, services, solutions, access) so capabilities can be sold unbundled to any client type.",
+      "quote": "our Visa as a Service stack, which has four layers: the foundation layer, the services layer, the solutions layer and the access layer.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Access layer is on-demand APIs, an MCP server for AI systems, and fully managed solutions."
+    },
+    {
+      "dimension": "services",
+      "claim": "Investor Day frames the unbundled catalogue as Acceptance-as-a-Service, Risk-as-a-Service, Wallet-as-a-Service and Cybersecurity-as-a-Service, distributed over the Visa Developer Platform.",
+      "quote": "Our unbundled capabilities create Visa-as-a-Service Visa Protect for A2A Risk-as-a-Service Select examples of unbundled services Acceptance-as-a-Service",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "title": "Visa 2025 Investor Day (consolidated presentation)",
+      "publisher": "Visa Inc. Investor Relations",
+      "published": "2025-02-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Slide 106; quote is slide text as extracted. Predates Capital One/Discover close (2025-05-18); not relevant to Visa."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa's VAS go-to-market targets financial institutions, fintechs, big tech, acquirers, software vendors, PSPs and sellers through ~450 specialised salespeople and ~5,400 resale partners.",
+      "quote": "VAS Go-To-Market Engine Financial Institutions ~450 Specialized Salespeople ~5,400 Resale Partners Distribution Channels",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "title": "Visa 2025 Investor Day (consolidated presentation)",
+      "publisher": "Visa Inc. Investor Relations",
+      "published": "2025-02-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Slide 90. Indicates VAS is sold both direct and via resale partners (processors, PSPs)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer processing and core banking are sold as VAS, delivered mainly by Visa DPS (issuer processor) and Pismo (cloud core banking).",
+      "quote": "Our last two solutions are Issuer Processing and Core Banking, which are primarily delivered by our Visa DPS and Pismo platforms.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sold direct to issuers; DPS Forward is the API-based modular variant."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa DPS bundles value-added issuer services beyond processing: fraud mitigation, dispute management, data analytics, campaign management, digital solutions and contact-centre services.",
+      "quote": "Visa DPS is a large issuer processor of multi-network transactions, which also provides a wide range of value-added services, including fraud mitigation, dispute management",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Multi-network means DPS also drives non-Visa debit/ATM networks for issuers."
+    },
+    {
+      "dimension": "services",
+      "claim": "DPS Forward is Visa's API-based issuer-processing product for digital issuers and fintechs, exposed on the Visa Developer Center.",
+      "quote": "DPS Forward is a digital issuer processing service that provides you agility and operational excellence at scale.",
+      "url": "https://developer.visa.com/capabilities/dps-forward-services",
+      "title": "Visa Developer - DPS Forward",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Listed for Issuer Banks, Independent Developers, Issuer Banks for Small Business."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa DPS claims a quarter of VisaNet global debit authorizations and exposes its APIs through the Visa Developer Center.",
+      "quote": "Visa clients can access APIs directly in the Visa Developer Center.",
+      "url": "https://usa.visa.com/sites/visa-dps/dps-processing.html",
+      "title": "DPS Processing | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page also shows '52 B annual authorizations', '$2.6 T payment volume', '25 % share of VisaNet global debit authorizations' (FY24 footnotes)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Smarter Stand-In Processing is an issuer VAS in which Visa's AI authorises on the issuer's behalf during outages.",
+      "quote": "our Smarter Stand-In Processing uses AI to authorize transactions on behalf of issuers in the event of system outages or maintenance",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Investor Day slide 82 claims 1,500+ issuers implemented, ~30%+ authorization uplift."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Token Service (VTS) is the network tokenisation service for issuers and token requestors; Visa reports more than 16 billion tokens provisioned.",
+      "quote": "As of September 30, 2025, Visa has provisioned more than 16 billion tokens.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Core network service. Developer page lists VTS for Issuer Banks, Merchants, Independent Developers."
+    },
+    {
+      "dimension": "services",
+      "claim": "Rules make an issuer that uses VTS responsible for cardholder identity validation, token provisioning decisions and credential updates.",
+      "quote": "An Issuer that uses the Visa Token Service (VTS) may participate in one or more Token Requestor solutions available through the applicable enrollment process.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule ID# 0031128, section 4.1.15.1."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Advanced Authorization (real-time risk score) and Visa Risk Manager (rules/case tool) are issuer fraud products; in Europe Visa auto-enrols all issuers, making them de facto mandatory there.",
+      "quote": "Visa will enroll all Issuers in the Visa Advanced Authorization service for all Card-Absent Environment Transactions, and the Visa Risk Manager service.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 10.12.1.1. AP/LAC: issuers must implement a risk-scoring tool and/or VAA+VRM; named Gulf/MENA countries must accept the VAA score."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Risk Manager is positioned as a network-agnostic issuer fraud-strategy console; Visa claims 8,000+ banks use VAA and VRM.",
+      "quote": "provides issuers with control and flexibility to manage their risk strategies and tolerance across all card payments",
+      "url": "https://www.visa.com/en-us/solutions/secure-card-payments",
+      "title": "Optimize authorization performance with Visa Protect | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page also states '8K+ banks rely on VAA and VRM to identify fraud' and '400 risk attributes are analyzed'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Provisioning Intelligence (token-provisioning risk score) is auto-enrolled for all issuers in Europe with an opt-out only for low-fraud issuers.",
+      "quote": "In the Europe Region: Visa will enroll all Issuers in the Visa Provisioning Intelligence Service.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 10.11.5.2; opt-out if token fraud-to-sales under 2.5 bps over 12 months."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Account Updater is a mandatory issuer service in most regions: issuers must enrol their BINs, with listed exceptions (commercial, prepaid, ATM-only BINs).",
+      "quote": "An Issuer must enroll its BINs in Visa Account Updater (VAU), as follows:",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 8.6.1.1 'Visa Processing Services'. Merchants access VAU only through acquirers."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuers in CEMEA, Europe and LAC must participate in the Visa Alias Directory Service, the directory that resolves aliases for Visa Direct push payments.",
+      "quote": "Participate in the Visa Alias Directory Service (VADS) in line with adoption timeframes",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 7.3.12.1; references the Visa Direct for Card Processing Guide effective 18 April 2026."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuers wanting their cards to work at ATMs must certify for the Visa Global ATM Network; US consumer-card issuers must participate.",
+      "quote": "To participate in the Visa Global ATM Network, an Issuer must successfully complete certification with Visa.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 6.2.1.1 adds: 'In the US Region: A Visa Consumer Card Issuer must participate in the Visa ATM Network.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuers that do not run their own 3-D Secure access control server must use Visa Consumer Authentication Service or a registered ACS provider.",
+      "quote": "The Visa Consumer Authentication Service – An ACS service provider listed on the Visa Global Registry of Service Providers",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 10.15.2.2. VCAS is thus a value-added issuer service positioned against third-party ACS vendors."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Flex Credential is an issuing product letting one credential switch among funding sources; Visa reports 20+ signed clients in 20+ countries.",
+      "quote": "Visa Flex Credential allows consumers to use a single Visa payment credential to access and switch between multiple funding sources, like debit and credit.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer catalogue lists 'Visa Flex Credential' for acquirers, issuers and merchants."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa sells issuers a loyalty/benefits layer including a Merchant Offers Program of Visa-negotiated offers, and lists Visa Online as the enrolment portal for community issuers.",
+      "quote": "Includes over 30 offers, negotiated and managed by Visa, and is a cost-effective way to deliver value to your cardholders.",
+      "url": "https://usa.visa.com/partner-with-us/community-issuers/resources.html",
+      "title": "Visa Community Issuer Resources | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page calls Visa Online 'Your one-stop shop destination for doing business with Visa.' Developer catalogue separately lists Visa Offers Platform, Visa Offers Network, Visa Merchant Offers Resource Center, Visa Digital Benefits Platform."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Rules distinguish mandatory core services from optional services for commercial card products (Table 4-22), e.g. some assistance services are optional for Visa Corporate Prepaid Cards.",
+      "quote": "This is an optional service for Visa Corporate Prepaid Cards.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Footnote to 'Table 4-22: Visa Commercial Card Mandatory Core Services'. Public rules do not contain one consolidated mandatory/optional services list."
+    },
+    {
+      "dimension": "services",
+      "claim": "VisaNet Connect - Issuing gives issuers and their processors a direct VisaNet interface as a developer product.",
+      "quote": "Direct access to VisaNet to securely enable innovative payments solutions",
+      "url": "https://developer.visa.com/apibrowser",
+      "title": "Browse Products | Visa Developer Center",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Catalogue also lists VisaNet Connect - Acceptance for the acquiring side."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Acceptance Solutions is sold to acquirers and sellers as modular VAS layered on a gateway function (formerly CyberSource).",
+      "quote": "Visa Acceptance Solutions provide modular, value-added services in addition to the traditional gateway function of connecting sellers to payment processing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "The Visa Acceptance Platform is sold to acquirers, PSPs, ISVs and sellers; Cybersource and Authorize.net are the named platform brands.",
+      "quote": "our Acceptance Platform solutions such as Cybersource and Authorize.net provide new and enhanced omnichannel payment integrations with ecommerce platforms",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K: 'Using the Visa Acceptance Platform, acquirers, payment service providers, independent software vendors and sellers can improve the way their consumers engage and transact'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Platform Connect is the acquirer on-ramp to the Visa Acceptance Platform, routing authorisations directly to VisaNet and capture files back to the acquirer.",
+      "quote": "Visa Platform Connect gives our acquirer partners a single, rapid, secure connection to the Visa Acceptance Platform and everything it offers.",
+      "url": "https://www.visaacceptance.com/en-us/solutions/connector-tools/visa-platform-connect.html",
+      "title": "Visa Platform Connect | Visa Acceptance Solutions",
+      "publisher": "Visa Acceptance Solutions",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Vendor claim: '4–6 weeks to integrate an acquirer into the platform'. Reporting via 'Business Center'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Token Management Service is a network-agnostic tokenisation VAS for sellers and acquirers, sold standalone or embedded.",
+      "quote": "Token Management Service, another example, helps simplify network token adoption, offers access and management for seller and acquiring clients",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Cybersource Decision Manager is the acquirer/seller fraud tool within Acceptance Solutions.",
+      "quote": "Visa's Cybersource Decision Manager helps our seller and acquirer clients manage and reduce fraud in payments acceptance.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Visa Managed Services page also sells managed optimisation of Decision Manager."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Resolve Online (VROL) is the network dispute platform sold to issuers, issuer processors, acquirers and acquirer processors; merchants reach it only through acquirers.",
+      "quote": "Offered to all issuers, issuer processors, acquirers, and acquirer processors, it delivers a range of capabilities to help deflect unnecessary disputes",
+      "url": "https://usa.visa.com/solutions/post-purchase-solutions/visa-resolve-online.html",
+      "title": "Visa Resolve Online | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Same page names Order Insight Call Center, Order Insight Digital, Visa Risk-based Auto Dispute, Visa Pre-arbitration Compelling Evidence 3.0 (acquirers), Visa Dispute Management Service (outsourced)."
+    },
+    {
+      "dimension": "services",
+      "claim": "VROL is also exposed as a developer API (Fraud API) for issuers and acquirers to file fraud reports.",
+      "quote": "Visa Resolve Online (VROL) is a dispute resolution platform that helps issuers and acquirers manage the dispute life cycle.",
+      "url": "https://developer.visa.com/capabilities/visa-resolve-online",
+      "title": "Visa Resolve Online (VROL) - Visa Developer",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No mention of 'Visa Claims Resolution' by name on this page."
+    },
+    {
+      "dimension": "services",
+      "claim": "Verifi (Visa-owned) is sold to sellers as a network-agnostic dispute prevention/resolution platform, alongside VROL for issuers and acquirers.",
+      "quote": "Our Post-Purchase solutions include a network-agnostic solution from Verifi that enables sellers to prevent and resolve disputes on a single platform",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "verifi.com itself returned a bot wall (403 'Just a moment...')."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirers in AP, CEMEA and Europe must participate in the Visa Merchant Screening Service (terminated-merchant database) before signing merchants.",
+      "quote": "An Acquirer must participate in the Visa Merchant Screening Service (VMSS), unless prohibited by or otherwise specified in applicable laws and regulations.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 10.17.1.1. Developer catalogue exposes VMSS as an API."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirers obtain Visa Account Updater updates on behalf of card-on-file merchants; merchants have no direct VAU access.",
+      "quote": "Participating merchants through their acquirers send inquiries on their credentials-on-file to VAU and are provided with updated card information, if available.",
+      "url": "https://developer.visa.com/capabilities/vau",
+      "title": "Account Updater (VAU) - Visa Developer Center",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Sandbox free; production fees on request."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirers deploying Tap to Phone must register the solution with Visa and comply with the Visa Ready Tap to Phone Solution Requirements.",
+      "quote": "An Acquirer that deploys a Tap to Phone Solution must do both: Register a Tap to Phone Solution with Visa and obtain approval before launch",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Rule ID# 0031002; also requires the Visa Tap to Phone Framework and Visa Ready Tap to Phone Solution Requirements."
+    },
+    {
+      "dimension": "services",
+      "claim": "Acquirers can either build and certify their own Tap to Phone solution or resell a Visa Ready-approved third-party solution.",
+      "quote": "decide to build and certify a Tap to Phone solution by themselves or partner with an already approved third-party provider",
+      "url": "https://partner.visa.com/site/programs/visa-ready/tap-to-phone.html",
+      "title": "Visa Ready Tap to Phone Program - Visa Partner",
+      "publisher": "Visa Partner",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Six-step path: Visa Partner account, application, specs, build, testing with Visa Approval Services, directory listing."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa reports over 20 million Tap to Phone transacting devices in fiscal 2025.",
+      "quote": "During fiscal 2025, we passed 20 million Tap to Phone transacting devices.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Product page shows a different figure ('700k+ Tap to Phone terminals active in 71 countries'); see contradictions."
+    },
+    {
+      "dimension": "services",
+      "claim": "VisaNet Connect - Acceptance offers acquirers/merchants a direct interface to VisaNet for in-store, in-app and online payments.",
+      "quote": "Process in-store, in-app, and online payments through a direct interface to Visa's global payments system",
+      "url": "https://developer.visa.com/apibrowser",
+      "title": "Browse Products | Visa Developer Center",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "The Rules define a VisaNet Processor as a Member or Visa-approved non-Member directly connected to VisaNet, the status third-party processors must hold.",
+      "quote": "A Member, or Visa-approved non-Member, that is directly connected to VisaNet and that provides Authorization, Clearing, or Settlement services to Merchants and/or Members.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary ID# 0025230. Non-Member processors execute a VisaNet Letter of Agreement."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Extended Access is Visa's managed connectivity to VisaNet; a Member that has it must use it to transmit interchange.",
+      "quote": "If a Member has Visa Extended Access, the Member must use it to transmit its Interchange.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 7.2.1.1 'Access to Visa Systems'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Processors integrate Visa's optional and mandated services via periodic network releases, e.g. a new VTS provisioning indicator and auto-enabled Account Screen Clearing File at $0.05 per PAN.",
+      "quote": "Visa is adding a new Provisioning Context Indicator (Tag 81) to the Visa Token Service, carried in Field 125 for wallet provider data",
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+      "title": "Card Network Certifications 2026",
+      "publisher": "Marqeta",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Same page: 'Visa will automatically enable the ASCF service for all issuers' and Visa Direct Strategic Alliance Fee Program changes (eff. 17 April 2026)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer processors expose Visa's three rails distinctly: Visa (credit/signature debit), Interlink (PIN debit) and Plus (ATM only).",
+      "quote": "For Visa the signature transactions would go over Visa credit rails and the PIN transactions over Interlink.",
+      "url": "https://docs.tech.sofi.com/pro/docs/networks",
+      "title": "Networks - Introduction - SoFi Tech Solutions (formerly Galileo docs)",
+      "publisher": "SoFi Technologies / Galileo",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "docs.galileo-ft.com now redirects here. Page lists 'Visa | Plus | ATM only.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa offers merchants and acquirers an optional Merchant-Initiated Transaction Service to manage transaction identifiers for MITs.",
+      "quote": "Is an optional service to support Visa merchants and acquirers to manage the transaction identifier lifecycle for merchant-initiated transactions.",
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Merchant support | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page also lists Visa Partial Authorization Service, Visa Advance Payment Transactions, Payment Facilitator Model, Payment Fraud Disruption, eCommerce Threat Disruption, Compelling Evidence 3.0."
+    },
+    {
+      "dimension": "services",
+      "claim": "Large merchants can connect to VisaNet directly as a 'Visa Direct Connect Merchant', a status recognised in the Rules alongside Members and VisaNet Processors.",
+      "quote": "A Member's, VisaNet Processor's, or Visa Direct Connect Merchant's right to use VisaNet is not assignable",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 1.1.7.1. Not to be confused with the 'Visa Direct Connect' money-movement API product."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Accept lets micro-sellers accept cards on an NFC phone, but it is delivered through the seller's own issuing bank app rather than an acquirer.",
+      "quote": "Onboarding and access to the solution is through the seller's banking application.",
+      "url": "https://developer.visa.com/capabilities/visa-accept",
+      "title": "Visa Accept - Visa Developer",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'Visa Accept enables small-scale sellers to easily accept card payments with an NFC-enabled device.' Marqeta notes Visa Accept to allow cross-border eff. 23 Oct 2026."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Intelligent Commerce is an agentic-commerce API suite for developers and platforms, combining tokens, authentication and analytics, with an open-source toolkit on GitHub.",
+      "quote": "Integration toolkit for connecting AI agents to the Visa Intelligent Commerce platform.",
+      "url": "https://github.com/visa",
+      "title": "Visa · GitHub",
+      "publisher": "Visa (GitHub organisation)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "10-K: 'Visa Intelligent Commerce is an innovative offering in this space that integrates Visa's tokenization technology with authentication and predictive analytics'. Also 'trusted-agent-protocol' repo."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa's ATM service is the Visa/PLUS Global ATM network, enabled through acquiring relationships with banks and independent ATM operators.",
+      "quote": "Issuing and acquiring partnerships with both financial institutions and independent ATM operators enable these capabilities.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Preceding sentence: 'The Visa/PLUS Global ATM network also provides debit, credit and prepaid account holders with cash access and other banking capabilities.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "In the US, Plus acceptance at an ATM is a licensed programme: Members displaying the Plus Symbol receive a marks licence subject to Plus System, Inc. Bylaws and the Plus Rules.",
+      "quote": "Visa grants a Member that is required to display the Plus Symbol on its ATM a license to use each of the Plus Program Marks",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 2.3.1.2. Plus Core Rules and Plus Product and Service Rules are separate documents not in the public PDF."
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM acquirers may sell Dynamic Currency Conversion and Return Foreign Currency Service at ATMs under Visa's DCC rules.",
+      "quote": "This applies to ATM Acquirers offering DCC on Cash Disbursements and Return Foreign Currency Service Transactions.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 5.8.9.2 footnote. ATM rules proper sit in 'Visa Product and Service Rules: ATM' (section 6), including card retention duties."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa's ATM access-fee non-discrimination rule for ATM operators remains in active antitrust litigation; Cardtronics filed an opt-out complaint in August 2025.",
+      "quote": "if an ATM operator chooses to charge consumers an access fee for a Visa or Plus transaction, that fee cannot be greater",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "National ATM Council class action (2011), class certified Aug 4, 2021; Cardtronics USA opt-out complaint Aug 20, 2025."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Global ATM Locator is an API product (free in sandbox, production by arrangement) covering more than 2 million ATMs in 200+ countries.",
+      "quote": "The Locate ATMs API provides the means to find up to 100 ATM locations that match a set of filter criteria",
+      "url": "https://developer.visa.com/capabilities/atmlocator",
+      "title": "Visa Global ATM Locator - Visa Developer",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Listed for Issuer Banks, Merchants, Independent Developers; 'Contact for Production fees'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Plus Alliance is a US surcharge-free ATM programme that issuers can join; Visa only references it on a cardholder page.",
+      "quote": "find surcharge-free ATMs with just a tap by filtering for Plus Alliance ATMs",
+      "url": "https://www.visa.com/en-us/personal/resources/atm-banking-services",
+      "title": "ATM Banking Services & Surcharge-Free ATM | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "No partner-facing Plus Alliance page found; see not_found."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fintech Fast Track is Visa's onboarding programme for fintech and crypto companies, routed through enablement partners (BIN sponsors, processors, program managers) rather than direct licensing.",
+      "quote": "leverage Visa's relationships with enablement partners (e.g., BIN sponsors, processors, and/or program managers)",
+      "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+      "title": "Visa Partner | Fintech Fast Track Program",
+      "publisher": "Visa Partner",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Eligibility per page: registered corporation, good standing, not an existing Visa member, new to issuance, $3M+ raised. 'The Visa Direct Fintech Fast Track program is currently only available in the United States.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Direct licensing has two client classes: Principal (self-settling, can sponsor others) and Associate (operates under a Principal for settlement, reporting and fees).",
+      "quote": "Smaller institutions who operate with the assistance of a Principal for certain aspects, such as settlement, reporting, and fee payment.",
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "publisher": "Visa Partner",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Application is submitted in the 'Visa Client Lifecycle Management Tool within Visa Access'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Third-party agents (ISOs, gateways, processors, fintechs) must be registered, almost always via a sponsoring Visa client, with a self-service tool on Visa Partner.",
+      "quote": "Most agents need a Visa Client sponsor to get registered",
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Third Party Agent Registration - Visa Partner",
+      "publisher": "Visa Partner",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Three paths: through a Visa Client sponsor, directly with Visa, or the self-service tool."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Ready is the certification/listing programme for technology partners, issuer processors, BIN sponsors, program managers, acquirers and gateways.",
+      "quote": "Technology partners, issuer processors, BIN sponsors, program managers, acquirers, and gateways are eligible to apply to the Visa Ready program.",
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready - Visa Partner",
+      "publisher": "Visa Partner",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Tracks named: Tap to Phone, Click to Pay, Tokenization eCommerce, Tokenization TSP. Benefits (Vendor): specs access, pilot frameworks, partner directory listing."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Direct programmes cannot go to production unless the originator is a licensed Visa acquirer or is sponsored by one; fintechs therefore need an acquirer sponsor.",
+      "quote": "Visa Direct for Card programs require the Originator to be either a licensed Visa Acquirer or a Third-Party Originator sponsored by a licensed Visa Acquirer.",
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs",
+      "title": "Getting Started with Visa Direct for Card - Visa Developer",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "APIs: Pull Funds (AFT), Push Funds (OCT), Foreign Exchange Rates, Payment Account Attributes Inquiry, Payment Account Validation; Program Information Form and certification required."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Direct is sold as a collect-hold-convert-send money-movement platform reaching cards, accounts and wallets via 90+ domestic schemes and 60+ card/wallet networks.",
+      "quote": "Visa Direct utilizes more than 90 domestic payment schemes and more than 60 card and wallet networks",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K: 'enabling clients to collect, hold, convert and send funds across our network'; 195+ countries; built from Earthport, Currencycloud, YellowPepper acquisitions."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa B2B Connect is a bank-to-bank cross-border B2B platform offered to banks and their corporate clients, exposed as a developer product.",
+      "quote": "global technology platform designed to enable direct and predictable exchange of value for banks and corporate clients",
+      "url": "https://developer.visa.com/apibrowser",
+      "title": "Browse Products | Visa Developer Center",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No standalone visa.com product page found (two URL guesses 404). Investor Day lists 'B2B Connect' inside the Visa Direct platform."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Commercial Solutions sells issuers and corporates a card/virtual-payments suite with reconciliation and data; a Commercial Integrated Partner Program targets software vendors.",
+      "quote": "Visa offers a holistic suite of tailored solutions for businesses, providing payment, reconciliation and data to help manage working capital",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer catalogue names Visa Supplier Matching Service, Visa Accounts Receivable Manager, Visa Commercial Fraud Solutions, Visa Business Data Solutions, B2B Virtual Account Payment Method."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Pay lets wallets, A2A schemes and banks connect via APIs to obtain Visa acceptance as a white-label credential inside their own app.",
+      "quote": "digital wallet providers, A2A schemes and banks can adopt Visa Pay by connecting to our APIs directly",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Launched 2025; developer catalogue: 'enables interoperability between Visa and non–card ecosystems'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Tokenized Asset Platform is a bank-facing service for issuing and managing stablecoins.",
+      "quote": "we are enabling banks to issue and manage their own stablecoins through the Visa Tokenized Asset Platform.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Listed in developer catalogue under Send and Receive Money as 'Visa Tokenized Asset Platform (VTAP)'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Tink is Visa's open-banking product for A2A data and payment initiation, sold to fintechs and banks in Europe and Latin America.",
+      "quote": "Tink enables open banking and data exchange for A2A transactions.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Acquired 2022; 'reaching thousands of bank connections as of September 30, 2025'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Going live on Visa Developer requires Visa to approve the use case and a signed contract before production credentials are issued.",
+      "quote": "Visa will evaluate whether the products are suitable for your use case",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live - Visa Developer",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Onboarding Dashboard steps: business entity, contact, project info, request next environment, API registration, users, credentials (X-Pay Token / Two-Way SSL); credentials issued once 'a signed relevant contract in place'."
+    },
+    {
+      "dimension": "services",
+      "claim": "VDC Playground is Visa's downloadable REST test client for Visa Developer Platform APIs, obtained from the project dashboard and Windows-only.",
+      "quote": "a tool designed exclusively for testing and troubleshooting Visa APIs that are exposed through the Visa Developer Platform (VDP)",
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'VDC Playground is currently compatible with Windows only.' Download: Visa Developer > Project dashboard > Asset Management."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa claims over a thousand institutions use the Visa Developer Platform, with 2,900+ API endpoints and 40B+ monthly API calls across VDP, Cybersource, VRM, Tink and Pismo.",
+      "quote": "Over a thousand financial institutions and tech companies use our Visa Developer Platform for their payments needs",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "title": "Visa 2025 Investor Day (consolidated presentation)",
+      "publisher": "Visa Inc. Investor Relations",
+      "published": "2025-02-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Slide 105; endpoint/call counts footnoted as including Cybersource, Visa Risk Manager, Web Service Interface, Tink and Pismo."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Visa Acceptance developer portal offers a self-serve sandbox, REST APIs and SDKs for merchants, acceptance providers and technology partners, including agentic-commerce APIs.",
+      "quote": "Access unified APIs for secure, cross-network agent-initiated payments enabling seamless onboarding, card enrollment, transaction management and more.",
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Visa Acceptance Developer Center",
+      "publisher": "Visa Acceptance Solutions",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Audiences quoted: Merchants, Acceptance Providers, Technology Partners; CyberSource named only in footer community-support link."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa's developer catalogue groups partner products into Accept Payments, Analyze and Share Data, Authentication, Rewards and Offers, Issue and Manage Cards, Money Movement, Protect and Secure, Send and Receive Money, Support Cardholders.",
+      "quote": "Enable issuers to create strategies to help prevent fraud associated with authorization and token provisioning",
+      "url": "https://developer.visa.com/apibrowser",
+      "title": "Browse Products | Visa Developer Center",
+      "publisher": "Visa Developer Center",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Quote is the Visa Risk Manager entry. Catalogue filters: Acquirer Banks, Issuer Banks, Merchants, Independent Developers, Issuer Banks for Small Business, FinTech."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Consulting and Analytics is the advisory service sold to issuers, acquirers, sellers and fintechs, with practices in strategy, portfolio optimisation, digital, AI, stablecoin, cybersecurity and risk.",
+      "quote": "Operating as the payments consulting arm of Visa, Visa Consulting and Analytics (VCA) utilizes our payments expertise and economic intelligence to identify actionable insights",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Investor Day slide 88: '3,000+ client engagements in FY24', '40+ customizable engagement types' (Vendor)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Analytics Platform is a self-service web analytics product sold to clients under the Data Solutions suite.",
+      "quote": "Visa Analytics Platform is a web-based, self-service analytics solution that provides customizable views of payments data and insights to a broad range of clients.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer catalogue also lists VCA Data Exchange, Visa Spend Signals, Visa Data Tokens."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Managed Services is a fee-based fraud-operations team that runs or tunes Visa Risk Manager, VCAS, Risk Advisor and Decision Manager for clients.",
+      "quote": "Visa Managed Services (VMS) is a global team of fraud experts providing deep, nuanced expertise, customized support, unique network-wide data insights and strategic recommendations",
+      "url": "https://www.visa.com/en-us/solutions/visa-protect-managed-services",
+      "title": "Visa Managed Services helps optimize fraud strategies | Visa",
+      "publisher": "Visa",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Claims '1K consultants, data scientists, and product experts' and '75 offices worldwide'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa Marketing Services sells campaign research, strategy, design, execution and measurement, including activation of Visa sponsorships, to clients.",
+      "quote": "Visa Marketing Services offers a full suite of solutions that spans across the entire campaign lifecycle.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "Visa University sells paid, login-gated payments training to client staff, e.g. a $2,000 four-day virtual Payments Fundamentals course.",
+      "quote": "Individuals who are new to payments or who would like to strengthen their knowledge of the payments industry",
+      "url": "https://www.visauniversity.com/en/catalog/liveonline/payments-fundamentals",
+      "title": "Payments Fundamentals | Visa University",
+      "publisher": "Visa University",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Price shown $2,000; 'Log in to Buy'. Certificate programmes in navigation: Digital Payments Catalyst, Payments Management Lab, Visa Certification."
+    },
+    {
+      "dimension": "services",
+      "claim": "Featurespace (acquired December 2024) adds network-agnostic behavioural fraud analytics to Risk and Security Solutions; Visa Protect for A2A targets real-time non-card payments.",
+      "quote": "Visa Protect for A2A Payments is our first fraud prevention solution built specifically for real-time non-card payments.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K: 'In December 2024, we expanded our Risk and Security Solutions offerings by acquiring Featurespace'. Investor Day: 10 countries to pilot Visa Protect for A2A in 2025."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Rules define 'Visa Access' as the password-protected client website, formerly known as Visa Online.",
+      "quote": "A password-protected website that provides Members, VisaNet Processors, and other authorized users with access to Visa information, formerly known as Visa Online.",
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "publisher": "Visa",
+      "published": "2026-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Glossary ID# 0025360, last updated Apr 2025. Other Visa pages still say 'Visa Online (VOL)'; see contradictions."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "'Visa Claims Resolution' named on Visa's own pages or Rules",
+      "where": "usa.visa.com/support/merchant.html, developer.visa.com/capabilities/visa-resolve-online, usa.visa.com/solutions/post-purchase-solutions/visa-resolve-online.html, Visa Rules PDF full-text search (0 hits)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa B2B Connect product page on visa.com",
+      "where": "usa.visa.com/solutions/visa-b2b-connect.html (404), developer.visa.com/capabilities/visa-b2b-connect (404), www.visa.com/en-us/solutions/visa-b2b-connect (404), usa.visa.com/partner-with-us/visa-b2b-connect.html (404); 10-K FY2025 business section has no 'Visa B2B Connect' string",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Verifi product descriptions (Order Insight, Rapid Dispute Resolution, CDRN)",
+      "where": "www.verifi.com (403 bot wall), www.verifi.com/solutions/ (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Partner-facing Plus Alliance (surcharge-free ATM) programme page or Plus Core Rules",
+      "where": "visa.com ATM banking page (cardholder only); Plus Core Rules referenced in Visa Rules 2.3.1.2 but not in public PDF",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa DPS list of ATM/debit networks driven (PLUS, Interlink, STAR, Allpoint, MoneyPass)",
+      "where": "developer.visa.com/capabilities/dps-payment-account-solutions/transaction-networks (404); developer.visa.com/capabilities/dps-forward-services (no network list); seen only in an unfetched search snippet",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Acceptance product-level pages (Unified Checkout, Payer Authentication, Account Updater, Payouts) with descriptions",
+      "where": "visaacceptance.com home, visaacceptance.com/en-us/solutions.html, corporate.visa.com acceptance financial-services page (category names only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Commercial Solutions named product list (Visa Commercial Pay, Spend Clarity, Visa Fleet)",
+      "where": "www.visa.com/en-us/solutions/commercial-solutions (case studies only); corporate.visa.com/en/solutions/commercial-solutions.html redirects there",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Direct Payouts developer docs (Originating Entity definition)",
+      "where": "developer.visa.com/capabilities/visa-direct-payouts/docs (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Single consolidated list of mandatory vs optional Visa services for issuers/acquirers",
+      "where": "Visa Rules PDF: mandates are scattered by region (VAU 8.6.1.1, VMSS 10.17.1.1, VAA/VRM 10.12.1.1, VPI 10.11.5.2, VADS 7.3.12.1, Table 4-22); no consolidated table",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer Community content (community.developer.visa.com)",
+      "where": "WebFetch SSL handshake failure; not retried with browser",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Online / Visa Access portal description page",
+      "where": "usa.visa.com/partner-with-us.html (404); only Rules glossary and community-issuers page name it",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa University enablers/merchants/fintechs page",
+      "where": "www.visauniversity.com/en/marketing/emf (404 page-not-found)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "10-K FY2025: Visa Direct has 'the potential to reach approximately 12 billion endpoints'",
+      "b": "visa.com Visa Direct product page: '18B+ including eligible cards, accounts and digital wallets'; Investor Day Feb 2025 slide: '11B+ endpoints'",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://www.visa.com/en-us/products/visa-direct",
+        "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf"
+      ]
+    },
+    {
+      "a": "10-K FY2025: 'During fiscal 2025, we passed 20 million Tap to Phone transacting devices.'",
+      "b": "visa.com Tap to Phone product page (n.d.): '700k+ Tap to Phone terminals active in 71 countries' (likely stale)",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://www.visa.com/en-us/products/tap-to-phone"
+      ]
+    },
+    {
+      "a": "Visa Rules glossary (Apr 2025 update): 'Visa Access ... formerly known as Visa Online'",
+      "b": "usa.visa.com community-issuer resources page still names 'Visa Online (VOL)' at VisaOnline.com as the enrolment portal",
+      "urls": [
+        "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+        "https://usa.visa.com/partner-with-us/community-issuers/resources.html"
+      ]
+    },
+    {
+      "a": "visa.com secure-card-payments page: '400 risk attributes are analyzed by network-agnostic VAA'",
+      "b": "globalclient.visa.com VAA+VRM page (search snippet, not fetched): 'analyzes 500+ unique attributes and 2 years of account history'",
+      "urls": [
+        "https://www.visa.com/en-us/solutions/secure-card-payments",
+        "https://globalclient.visa.com/vaavrm-managing-fraud-better"
+      ]
+    },
+    {
+      "a": "developer.visa.com lists Visa Direct as 'available for use by' Merchants and Independent Developers",
+      "b": "Visa Direct for Card docs: production requires the Originator to be a licensed Visa Acquirer or sponsored by one",
+      "urls": [
+        "https://developer.visa.com/capabilities/visa_direct",
+        "https://developer.visa.com/capabilities/visa_direct/docs"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Access (formerly Visa Online / VOL)",
+      "url": "not given (community page refers to VisaOnline.com)",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Client Lifecycle Management Tool (within Visa Access)",
+      "url": "not given",
+      "named_at": "https://partner.visa.com/site/programs/licensing-program.html"
+    },
+    {
+      "name": "Visa Partner portal dashboard",
+      "url": "https://partner.visa.com/portal/dashboard.html",
+      "named_at": "https://partner.visa.com/"
+    },
+    {
+      "name": "Visa Developer Onboarding Dashboard / Project dashboard / Asset Management",
+      "url": "https://developer.visa.com/ (login)",
+      "named_at": "https://developer.visa.com/pages/going-live"
+    },
+    {
+      "name": "VDC Playground download (Project dashboard > Asset Management)",
+      "url": "not given",
+      "named_at": "https://developer.visa.com/pages/visa-developer-center-playground"
+    },
+    {
+      "name": "Visa Resolve Online (VROL)",
+      "url": "not given",
+      "named_at": "https://usa.visa.com/solutions/post-purchase-solutions/visa-resolve-online.html"
+    },
+    {
+      "name": "Visa Ready partner directory listing",
+      "url": "https://partner.visa.com/site/partner-directory/",
+      "named_at": "https://partner.visa.com/site/programs/visa-ready.html"
+    },
+    {
+      "name": "Third Party Agent self-service registration tool",
+      "url": "not given",
+      "named_at": "https://partner.visa.com/site/programs/third-party-agent-registration.html"
+    },
+    {
+      "name": "Business Center (Visa Acceptance reporting)",
+      "url": "not given",
+      "named_at": "https://www.visaacceptance.com/en-us/solutions/connector-tools/visa-platform-connect.html"
+    },
+    {
+      "name": "Cybersource community support portal",
+      "url": "not given",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Visa University (login to buy courses)",
+      "url": "https://www.visauniversity.com/",
+      "named_at": "https://www.visauniversity.com/en/catalog/liveonline/payments-fundamentals"
+    },
+    {
+      "name": "Visa Global Registry of Service Providers",
+      "url": "not given",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Client Portfolio Management Self-Service Tools",
+      "url": "not given",
+      "named_at": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf"
+    },
+    {
+      "name": "Visa Developer Community",
+      "url": "https://community.developer.visa.com/",
+      "named_at": "https://developer.visa.com/"
+    },
+    {
+      "name": "Visa Commercial Solutions contact form / Commercial Integrated Partner Program application",
+      "url": "not given",
+      "named_at": "https://www.visa.com/en-us/business/programs/commercial-integrated-partner-program.html"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center (home)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/apibrowser",
+      "title": "Browse Products | Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-resolve-online",
+      "title": "Visa Resolve Online (VROL) - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/vau",
+      "title": "Account Updater (VAU) - Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/atmlocator",
+      "title": "Visa Global ATM Locator - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct",
+      "title": "Visa Direct - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs",
+      "title": "Getting Started with Visa Direct for Card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-direct-payouts/docs",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/dps-forward-services",
+      "title": "Visa Developer - DPS Forward",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/dps-payment-account-solutions/transaction-networks",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-accept",
+      "title": "Visa Accept - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/vts",
+      "title": "Visa Token Service - Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-b2b-connect",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://community.developer.visa.com/",
+      "title": "Visa Developer Community (SSL handshake failure)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://partner.visa.com/",
+      "title": "Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/visa-ready.html",
+      "title": "Visa Ready - Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/fintech-fast-track.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+      "title": "Visa Partner | Fintech Fast Track Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/licensing-program.html",
+      "title": "Visa's Licensing Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/third-party-agent-registration.html",
+      "title": "Third Party Agent Registration - Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.visa.com/site/programs/visa-ready/tap-to-phone.html",
+      "title": "Visa Ready Tap to Phone Program - Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/support/merchant.html",
+      "title": "Merchant support | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+      "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/post-purchase-solutions/visa-resolve-online.html",
+      "title": "Visa Resolve Online | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/community-issuers/resources.html",
+      "title": "Visa Community Issuer Resources | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/solutions.html",
+      "title": "Solutions | Visa (empty shell)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/run-your-business/visa-direct.html",
+      "title": "(redirect to www.visa.com/en-us/products/visa-direct)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/products/visa-direct",
+      "title": "Visa Direct | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/visa-university.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/run-your-business/small-business-tools/retail.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/visa-b2b-connect.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/visa-consulting-analytics.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/visa-dps.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/visa-commercial-solutions.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/sites/visa-dps.html",
+      "title": "Visa DPS | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/sites/visa-dps/dps-processing.html",
+      "title": "DPS Processing | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/sites/visa-dps/reliable-processing.html",
+      "title": "DPS | Reliable processing | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/services/visa-consulting-analytics.html",
+      "title": "(redirect chain to www.visa.com/en-us/solutions/visa-consulting-analytics)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/visa-consulting-analytics",
+      "title": "Visa Consulting & Analytics | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/visa-protect-managed-services",
+      "title": "Visa Managed Services helps optimize fraud strategies | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/visa-protect",
+      "title": "Visa Protect | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/secure-card-payments",
+      "title": "Optimize authorization performance with Visa Protect | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/commercial-solutions",
+      "title": "Visa Commercial Solutions | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/business/programs/commercial-integrated-partner-program.html",
+      "title": "Visa Commercial Integrated Partners | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/products/tap-to-phone",
+      "title": "Visa Tap To Phone | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/personal/resources/atm-banking-services",
+      "title": "ATM Banking Services & Surcharge-Free ATM | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.com/en-us/solutions/visa-b2b-connect",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://usa.visa.com/partner-with-us/visa-b2b-connect.html",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://corporate.visa.com/en/solutions/acceptance/audiences/financial-services.html",
+      "title": "Payment acquirer services | Visa Acceptance Solutions | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Visa Acceptance Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visaacceptance.com/",
+      "title": "Visa Acceptance Solutions (home)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visaacceptance.com/en-us/solutions.html",
+      "title": "Visa Acceptance Solutions | Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visaacceptance.com/en-us/solutions/connector-tools/visa-platform-connect.html",
+      "title": "Visa Platform Connect | Visa Acceptance Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.verifi.com/",
+      "title": "Verifi (bot wall: 'Just a moment... Enable JavaScript and cookies')",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://github.com/visa",
+      "title": "Visa · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/",
+      "title": "Visa Investor Relations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for the fiscal year ended September 30, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s1.q4cdn.com/050606653/files/doc_downloads/2025/02/20/Visa-2025-Investor-Day-Consolidated.pdf",
+      "title": "Visa 2025 Investor Day (consolidated presentation)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visauniversity.com/en/marketing/emf",
+      "title": "Visa University (page not found)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.visauniversity.com/en/catalog/liveonline/payments-fundamentals",
+      "title": "Payments Fundamentals | Visa University",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://docs.tech.sofi.com/pro/docs/networks",
+      "title": "Networks - Introduction - SoFi Tech Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+      "title": "Card Network Certifications 2026 - Marqeta",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://docs.lithic.com/docs/about-digital-wallets",
+      "title": "About Digital Wallets - Lithic",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbanker.com/news/visa-mc-tout-their-atm-networks-to-banks",
+      "title": "Visa, MC Tout Their ATM Networks to Banks (2005)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

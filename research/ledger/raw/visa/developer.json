@@ -1,0 +1,1453 @@
+{
+  "network": "visa",
+  "dimension": "developer",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "developer",
+      "claim": "Visa Developer sandbox access is self-service: any registrant can create projects and use most products at no charge, with only a few restricted products requiring participation criteria.",
+      "quote": "Clients are free to explore and build with as many capabilities as they wish, subject to certain participation criteria for a few restricted products.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Innovating in our Sandbox – No fees charged' and 'Just sign up and go!'. Registration link named on homepage: https://developer.visa.com/identity/user/register"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Sandbox responses are mock data, not published or replayed production data, and are limited; real data needs production credentials under an agreement.",
+      "quote": "Note that the data returned in Sandbox is mock data only and limited.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Test data per product is shown inside the project dashboard ('Sandbox' page > 'Test data for your products and APIs'), i.e. behind login; no public test PANs found."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Every Visa Developer API authenticates with either Two-Way SSL (mutual TLS) or X-Pay Token (API key plus HMAC shared secret); some products additionally require Message Level Encryption.",
+      "quote": "All of our APIs require Two-Way SSL or X-Pay Token authentication.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Some of our products also require message level encryption which is a process similar to getting other credentials.' No OAuth flavour is offered on VDP."
+    },
+    {
+      "dimension": "developer",
+      "claim": "X-Pay Token is an HMAC-SHA256 signature scheme: the apikey travels as a query parameter and the x-pay-token header is 'xv2:' + UTC timestamp + ':' + HMAC over timestamp, resource path, query string and body.",
+      "quote": "XPayToken = \"xv2:\" + timestamp + \":\" + SHA256HMAC(shared_secret, message)",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/x-pay-token",
+      "title": "Visa Developer | X-Pay Token",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states 'The apikey is a required query parameter.' and documents a newer flow where the shared secret is delivered RSA-OAEP-encrypted to a client-uploaded public key (openssl pkeyutl -decrypt ... rsa_padding_mode:oaep). Homepage banner: 'New Shared Secret Encryption Requirements for X-Pay Token'. Sample code shown inline for Java, Python, Node.js, Ruby, C#, PHP."
+    },
+    {
+      "dimension": "developer",
+      "claim": "X-Pay Token requests are rejected if the token timestamp drifts more than 8 minutes from server time; the error-code page also documents an 'older version of x-pay-token' rejection, implying token-format versioning.",
+      "quote": "Token's timestamp is more than 8 minutes off from the current time.",
+      "url": "https://developer.visa.com/pages/visa-developer-error-codes",
+      "title": "Visa Developer Error Codes",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'The request contains an older version of x-pay-token than supported by the API/project. Please upgrade to the latest supported version.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Two-Way SSL on VDP is mutual TLS plus an HTTP Basic Authorization header carrying the project-specific User ID and password shown in the dashboard.",
+      "quote": "Include the User ID and password (from project details page) in the header using the Authorization field",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Continues: 'set to \"Basic \" + the base64 encoded concatenated string userid+\":\"+password'. Certificates chain to a Visa Developer Platform Root/Intermediate CA; server side trusts DigiCert Global Root G2."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The sandbox does not validate the VDP root CA during the TLS handshake, so a P12 keystore without the root certificate works there; Java keystores still need it to import the client cert.",
+      "quote": "The Visa Developer sandbox does not validate the VDP root CA, so you do not have to include it in your P12 keystore.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl",
+      "title": "Two-Way SSL",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page gives full OpenSSL and Java keytool recipes, SOAPUI and Postman connectivity tests against https://sandbox.api.visa.com/vdp/helloworld, and inline sample code in Java, Python, Node.js, Ruby, C#, PHP."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Message Level Encryption on VDP is JWE-based: payloads are AES-GCM encrypted (128- or 256-bit) with the content key wrapped by RSA-OAEP 2048, using separate Visa (request) and client (response) key pairs identified by a Key-ID header.",
+      "quote": "The message encryption is implemented via symmetric encryption using Advanced Encryption Standard (AES), Galois Counter Mode (GCM) with 128-bit or 256-bit key size.",
+      "url": "https://developer.visa.com/pages/encryption_guide",
+      "title": "Message Level Encryption",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "MLE enforcement levels are Mandatory, Optional, Not Applicable per API; Visa lets developers 'experiment with MLE in lower environments (Sandbox and Certification) before MLE is applied to the Production environment'. Key-ID 'must be included as a request header in API calls.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "VDP's JWE profile supports both symmetric (A256GCMKW with API key/shared secret) and asymmetric (RSA-OAEP-256) key wrapping, uses JOSE compact serialization, and suffixes '..' rather than '==' padding.",
+      "quote": "Format: Values are AGCM256KW (Symmetric), RSA-OAEP-256 (Asymmetric).",
+      "url": "https://developer.visa.com/pages/encryption_guide/jwe-jws",
+      "title": "jwe-jws (JSON Web Encryption and Object Signing (JWE/JWS))",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page: 'Visa has chosen to suffix \"..\" to the Base64URL encoded values, instead of the more popular == convention.' Field-level encryption is signalled by an 'enc' prefix on field names (e.g. encPaymentInstrument)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Three environments are published with base hosts: sandbox.api.visa.com, cert.api.visa.com (certification) and api.visa.com for production, plus api.visa.co.in for India.",
+      "quote": "Sandbox: sandbox.api.visa.com Projects requiring testing in the Certification environment: cert.api.visa.com Production: api.visa.com; api.visa.co.in (India)",
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "A hello-world endpoint /vdp/helloworld exists in all three environments (quick start). Homepage notice lists digital.visa.com as a further production host whose certificates were renewed 12 March 2026."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A separate B2C sandbox host (sandbox.webapi.visa.com) exists but currently serves only the Flex API/Token endpoint.",
+      "quote": "Note: Currently, Visa Developer only provides the Flex API/Token endpoint for B2C calls.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'For all Business-to-Consumer (B2C) calls — send test requests to this URL: https://sandbox.webapi.visa.com/'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Certification and production credentials are not self-service: they require a separate CSR per environment and are issued only after a signed contract with Visa.",
+      "quote": "Credentials for certification and production will be provided once a signed relevant contract is in place between you and Visa.",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'A different CSR file is required for the certification and production environments.' The 'Onboarding Dashboard' collects Business Entity Information, Business Entity Contact, Project Information, Request to Start Next Environment, API Registration, Users, Credentials and Encryption. Page header: 'Updated to reflect the new onboarding experience available as of September 2025.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Viewing certification or production credentials in the portal is gated by an emailed one-time password.",
+      "quote": "Request one time password (OTP) by clicking Request One Time Password. You will receive an email with the OTP.",
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "Two-Way SSL certificates last 27 months and X-Pay tokens 24 months; renewal issues a new user ID and password, and expiry emails go out only for certification/production projects at 120/90/60/30/15/7 days.",
+      "quote": "Two-way SSL certificates are valid for 27 months. X-pay tokens are valid for 24 months.",
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Notifications will be sent 120, 90, 60, 30, 15 and 7 days prior to expiration.' and 'Expiration notifications are sent for projects that have been promoted to certification and production environments only.' Sandbox expiry shows only as a dashboard notification; an expired sandbox credential surfaces as 'Access Denied'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "VDP enforces per-project request throttling (HTTP 429) but publishes no numeric rate limits; limits are raised by emailing developer support.",
+      "quote": "The project has clocked too many requests in a given amount of time.",
+      "url": "https://developer.visa.com/pages/visa-developer-error-codes",
+      "title": "Visa Developer Error Codes",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Followed by 'Please contact Visa Support ... if you want to increase the time limits.' Platform error codes 9000-9615 are listed. Every response carries an X-CORRELATION-ID header for support tickets (support FAQ). Terms of Use separately prohibit load testing."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Logged out, the API browser lists 73 product cards, of which 20 carry a 'restricted' lock; all are free in sandbox but production use requires contacting Visa.",
+      "quote": "all products are free to use in Sandbox but require you to contact Visa for pricing and commercial details to use in Production",
+      "url": "https://developer.visa.com/apibrowser/",
+      "title": "Browse Products | Visa Developer Center",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Counts made on 2026-09-25 by counting 'Overview' product cards (73) and 'This product is restricted' notices (20) in the fetched page. Filters: Acquirer Banks, Issuer Banks, Merchants, Independent Developers, Issuer Banks for Small Business, FinTech; 14 capability categories. 'SDKs & Tools' section lists Visa Sensory Branding, Visa Chart Components and Visa Developer Center Playground."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Restricted products show a lock icon and need an in-portal 'Request Access' application reviewed by a Visa admin before they can be added to a sandbox project.",
+      "quote": "If the product you’re interested in has a lock icon, it means special approval is required.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'An admin will review the request and either approve or request resubmission.' Restricted examples in the browser include Visa Token Service, Visa Risk Manager, Visa Resolve Online, DPS services, Visa Direct Connect."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Sample code exists in six languages (C#, Java, Node, PHP, Python, Ruby) but, like SDKs and implementation guides, is downloaded from the project dashboard after sign-in rather than published openly.",
+      "quote": "This sample code is in C#, Java, Node, PHP, Python and Ruby.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Additionally, there are SDKs, detailed implementation guides, integration guides, etc., that you can download from the Project Dashboard > Assets. You simply need to first sign in with your Visa Developer credentials.' No VDP client SDK was found on npm, PyPI, Maven Central or NuGet."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa's official GitHub organisation holds 16 public repositories, none of which is a Visa Developer Platform API client SDK; the active ones are AI/agentic-commerce toolkits, design-system libraries and a Tap-to-Phone iOS SDK.",
+      "quote": "16 repositories",
+      "url": "https://github.com/orgs/visa/repositories",
+      "title": "visa repositories · GitHub",
+      "publisher": "GitHub (Visa Inc. organisation)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Via api.github.com on 2026-09-25 (pushed_at): acceptance-devices-ios-sdk 2026-09-16; visa-vulnerability-agentic-harness 2026-09-11 (2,801 stars); vic-reference-agent 2026-06-18; ai 2026-06-12; mpos.sdk.ios.pods 2026-06-04; visa-chart-components 2026-04-15; nova-angular/react/flutter/styles 2026-03-25; d3-annotation 2026-02-10; trusted-agent-protocol 2025-10-28; mpos.ios.core.spm and mpos.ios.ui.spm 2024-08-28; kmip 2020; lib-form 2019. Org created 2014-11-19; blog field points to developer.visa.com."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa's Tap-to-Phone (Acceptance Devices) iOS SDK is distributed as a Swift package on GitHub with tagged releases; 3.8.0 shipped 16 September 2026.",
+      "quote": "DefaultUI iOS TTP SDK — Release 3.8.0",
+      "url": "https://github.com/visa/acceptance-devices-ios-sdk/releases",
+      "title": "Releases · visa/acceptance-devices-ios-sdk · GitHub",
+      "publisher": "GitHub (Visa Inc. organisation)",
+      "published": "2026-09-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Release list: 3.8.0, 3.7.0, 3.6.0, 3.5.0, 3.3.0, 3.2.0. Release notes mention Account Verification transactions, QR code device activation and Store-and-Forward fixes. Repo licence Apache-2.0; 5 stars."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The VDC Playground API-testing tool is a Windows-only Java .jar downloaded from the logged-in project dashboard's Asset Management, supporting Two-Way SSL, X-Pay Token and MLE.",
+      "quote": "Note : VDC Playground is currently compatible with Windows only.",
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'To access and download this tool, log in to Visa Developer > Project dashboard > Asset Management.' Launch: 'java -jar vdpplayground.jar'. Can generate JKS/P12 keystores. Not on GitHub."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Outbound notifications on VDP are called 'Outbound Callback Configuration': an HTTPS POST to a client URL, supported only over mutual TLS, and each configuration stays 'Pending' until Visa approves it.",
+      "quote": "Note: The outbound configuration is supported only over Two-Way SSL (Mutual Authentication).",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/outbound-configuration",
+      "title": "Outbound Configuration",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'The outbound callback configuration will be in \"Pending\" state until it is approved by Visa.' Sandbox source IPs to allowlist: 198.217.139.40, .42, .45, .47. Self-signed certificates are not accepted; a 'Ping Test' sends a sample payload. Changing the domain needs re-approval, changing only the path does not."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Release notes are published monthly and label outbound events as 'New Outbound API' / 'Client Outbound Events' / 'Webhook'; the newest entry on the page was May 2026 when fetched on 25 September 2026.",
+      "quote": "Post-provision a shared card: Webhook sent to the consumer with provisioned card credential and recipient token details after provisioning is complete.",
+      "url": "https://developer.visa.com/site/release_notes",
+      "title": "Release Notes",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Year tabs 2017-2026. 2026 page shows January-May 2026 entries only (no June-September 2026 as of fetch). 2025 page (https://developer.visa.com/site/release_notes/2025) shows ten monthly entries, January-October 2025. Each entry tags 'Availability: Public' or 'Restricted'. Neither year's notes contain the words deprecated, retired or sunset."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Product API references are readable logged out and are rendered by Redocly from an OpenAPI 3.1.0 document embedded in the page; the embedded spec lists only the sandbox server and no securitySchemes.",
+      "quote": "\"openapi\": \"3.1.0\"",
+      "url": "https://developer.visa.com/capabilities/foreign_exchange/reference",
+      "title": "Foreign Exchange Rates API Reference",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Parsed from page source on 2026-09-25: servers = [{url: https://sandbox.api.visa.com, description: Sandbox server}], components.securitySchemes empty, 2 paths (/forexrates/v1/... and /forexrates/v2/... coexist). The page template renders a 'Download ${store.definition.info.title} API Reference' link (api_reference.json) from info.downloadLink, but that field was absent in both specs parsed (FX and Visa Direct), so a standalone spec file could not be confirmed. No Postman collection is offered; docs instead walk through building requests in Postman/SOAPUI by hand."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Visa Direct reference embeds an OpenAPI 3.1 'webhooks' object declaring nine receive-side callbacks (OCT/advice notifications), alongside 27 request operations, none marked deprecated.",
+      "quote": "/visadirect/v1/pushpayment/advice/receive/deferredoct",
+      "url": "https://developer.visa.com/capabilities/visa_direct/reference",
+      "title": "Visa Direct API Reference",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Webhook keys include /visadirect/v1/pushpayment/transactions/receive/{oct,co,ci,p2m} and /visadirect/v1/pushpayment/advice/receive/{deferredoct,co,p2m,oct,ci}. Spec also bundles Alias Directory paths (/visaaliasdirectory/...). The how-to page names the 'Deferred OCT Advice API' subscription."
+    },
+    {
+      "dimension": "developer",
+      "claim": "No formal API deprecation or versioning policy is published; the Terms of Use reserve the right to limit, modify or terminate any product immediately on written notice, and versioning is visible only as coexisting /v1 and /v2 paths.",
+      "quote": "Visa reserves the right to, at any time, limit, modify, or terminate any Visa Products, immediately upon written notice to You.",
+      "url": "https://developer.visa.com/terms",
+      "title": "Terms of Use",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "2026-08-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Document header: 'Visa Developer Center Terms of Use, Version: August 1, 2026'. Section heading 'Changes to Visa Products or APIs'. Solution Approval must be re-requested before modifying how an application uses a product."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Load testing against the sandbox or any Visa product is prohibited by the Developer Center Terms of Use, and Visa may delete sandbox test data at intervals without notice.",
+      "quote": "load testing a Developer Account or Visa Products is not permitted",
+      "url": "https://developer.visa.com/terms",
+      "title": "Terms of Use",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "2026-08-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Visa has no obligation to maintain such Test Data on its servers and reserves the right to delete from its systems all such data on regular intervals'. Only simulated test data may be submitted."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Production API pricing is bespoke per use case and set in a VDP API Agreement; a flat setup fee applies, and capabilities fall into three models: free to use, included with a Visa Online subscription, or usage-based with monthly minimums.",
+      "quote": "There’s also a flat setup fees to cover the support costs and any other required additional compliance checks.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'APIs for certain capabilities are available for no additional fee if the client has a subscription for the capability through Visa Online.' 'there is usually a minimum fee per month (separate for each product) if the threshold of calls, accounts, etc. is not met'. Quotes via developer@visa.com or a Visa Account Manager. No price list is published."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa says onboarding from sandbox to production takes from two weeks to several months, driven mainly by sandbox readiness, product complexity and completing the commercial contract.",
+      "quote": "While some projects can move to production in as little as two weeks, others may take multiple months.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+      "title": "Visa Developer Onboarding",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sandbox is 'free and available for development for most APIs even before signing a VDP agreement'. Certification varies: 'some simple products follow a client self-service path to integration, while others require our Global Testing Team to execute pre-defined test cases in our Certification environment with you over the phone.' PCI DSS attestation required for products handling PAN. Adding a new product later needs a VDP Addendum."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Portal sign-in moved to Visa's Universal Login (B2BIAM) on 5 November 2025, with mandatory MFA (email, SMS or authenticator OTP) unless a Passkey or Visa Access SSO is used, and an OTP-based password reset from 28 April 2026.",
+      "quote": "Starting November 5, 2025, Visa Developer Platform will use Visa’s Universal Login for authentication.",
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'MFA will be required each time you log in to the Visa Developer Platform (VDP), unless you choose to authenticate using a Passkey.' Passkeys: up to 10; 'not supported by iPhone, iPad and Android device users currently.' Entitlements are shared between 'Visa Developer Center or Visa Partner Portal'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A redesigned onboarding experience (the in-project Onboarding Dashboard) went live in September 2025.",
+      "quote": "A new onboarding experience is available as of September 2025.",
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Homepage also carried an operational notice that production certificates for api.visa.com were renewed 12 February 2026 (moved from 5 February), digital.visa.com 12 March 2026 and api.visa.co.in 17 March 2026."
+    },
+    {
+      "dimension": "developer",
+      "claim": "APIs cannot be removed from a sandbox project once added; developers must create a new project, and adding APIs to a production project requires re-promotion.",
+      "quote": "Currently, deletion of APIs from a project is not supported.",
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/create-project",
+      "title": "Create a Project on Visa Developer",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Project dashboard sections named: Summary, Credentials, Configurations (outbound callbacks), Test Data, Project Settings, Sample Code ('hello world' project preconfigured with credentials), Going Live. Note the quick-start page separately says the Sandbox page lets you 'Delete APIs', a possible inconsistency."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Direct sandbox test credentials, including test Acquiring BINs, are issued inside the project dashboard, and certification testing may be administered live by Visa's testing team before production credentials are released.",
+      "quote": "Sandbox test credentials (including test Acquiring BINs) can be obtained in your project dashboard.",
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs-getting-started",
+      "title": "Getting Started with Visa Direct",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Visa’s testing team may attend to administer your certification.' Program Information Form (PIF) and Solution Requirements Form (SRF) come from a Visa representative, not the portal. Originators must be a licensed Visa Acquirer or sponsored Third-Party Originator."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Direct APIs authenticate with mutual TLS only and require Message Level Encryption in both certification and production; receive-side responses carry AES-GCM encrypted 'enc'-prefixed fields.",
+      "quote": "You must support MLE in both the certification and production environments.",
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs-authentication",
+      "title": "Authentication Method for Visa Direct",
+      "publisher": "Visa Developer Center (Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Visa Direct APIs use Two-Way SSL (mutual TLS) to authenticate API requests.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa runs a Documentation MCP Server at sandbox.mcp.visa.com/mcp/doc exposing a single get-docs tool that returns VDP/VIC integration guidance to AI agents, also installable as a Gemini CLI extension.",
+      "quote": "https://sandbox.mcp.visa.com/mcp/doc",
+      "url": "https://github.com/visa/ai/wiki/Documentation-MCP-Server",
+      "title": "Documentation MCP Server · visa/ai Wiki · GitHub",
+      "publisher": "GitHub (Visa Inc. organisation)",
+      "published": "2026-03-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Wiki edited 24 March 2026. The visa/ai README ('AI tools, examples, and integrations for the Visa Developer Platform.') also ships Claude Code skills and names workspace packages @visa/token-manager, @visa/mcp-client and @visa/api-client, none of which exist on the npm registry as of 2026-09-25. mcp.visa.com resolves to the Visa Intelligent Commerce product page, which describes a 'Visa Remote Model Context Protocol (MCP) Server' bridging VIC, VTS and VDP."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa publishes an npm CLI package, @visa/cli (v4.0.1, 16 July 2026), described as 'AI-powered payments for Claude Code', maintained by accounts with visa.com emails.",
+      "quote": "AI-powered payments for Claude Code",
+      "url": "https://registry.npmjs.org/@visa%2Fcli",
+      "title": "@visa/cli (npm registry metadata)",
+      "publisher": "npm registry",
+      "published": "2026-07-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Package created 2026-04-03; no repository or homepage field; licence 'SEE LICENSE IN LICENSE'. Maintainers include jbrans@visa.com, michayan@visa.com and productdesignsystem@visa.com. Other Visa npm packages found: @visa/nova-react 3.1.0 (2026-03-20), @visa/charts 8.0.2 (2026-03-26)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance (formerly CyberSource) sandbox accounts are self-service via a public web form (organisation ID, contact details, reCAPTCHA), after which test-account credentials are emailed and a Business Center test login is created.",
+      "quote": "After completing the evaluation registration process, you will be able to send test transactions.",
+      "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+      "title": "Sandbox signup | Visa Acceptance Developer Portal",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Embedded 'Developer Center Terms of Use, last updated: July 10, 2025' states 'You may not use the Products for production use.' and 'load testing a Developer Account or Products is not permitted'. Form not submitted by the researcher."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance publishes its sandbox test card numbers openly (Visa 4111 1111 1111 1111 etc.) and amount-triggered decline scenarios, with processor-specific testing guides selectable by processor.",
+      "quote": "The following test credit card numbers work only in the sandbox.",
+      "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+      "title": "Testing Guide | Visa Acceptance Developer Portal",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Triggers: 'to trigger an invalid amount response, pass the value -1 in the orderInformation.amountDetails.totalAmount request field'. 'The sandbox never processes an actual payment.' Processor dropdown lists 14 processors (American Express Direct, Barclays, Chase Paymentech Solutions, Comercio Latino Boleto, FDC Compass, FDC Nashville Global, FDMS Nashville, Litle, Moneris, Network International UAE, OMNIPAYDIRECT, SIX, Streamline, Visa Platform Connect) although the page says 'We have over 20 processors that you can pick from.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance REST authentication is moving to JWT (signed with a P12 certificate or shared secret) with mandatory Message-Level Encryption; HTTP Signature auth is deprecating with a March 2027 cut-off.",
+      "quote": "all merchants using HTTP signature messaging must migrate to JSON Web Token (JWT) messaging in order to support message-level encryption (MLE)",
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-intro.html",
+      "title": "Getting Started with REST - Introduction",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'As of February 2026, there are new requirements for constructing JWTs. This update also requires you to encrypt and decrypt messages using Message-Level Encryption (MLE).' Navigation labels the section 'Set Up an HTTP Signature Message [DEPRECATING]'. Guide readable logged out."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance developer guides carry a dated revision log with monthly version stamps (26.01.01 through 26.07.01), giving an explicit documentation changelog cadence.",
+      "quote": "Updated the deadline in which HTTP signature messaging will no longer be supported.",
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-about-guide/restgs-doc-revisions.html",
+      "title": "Getting Started with REST Developer Guide – Recent Revisions to This Document",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Entries: 26.07.01 (HTTP signature deadline, digest claim format), 26.06.01 (request-host claim added), 26.05.01 (editorial), 26.04.01 (SDK integration section, MLE prerequisites), 26.02.01 (migration section, deprecation warning), 26.01.01."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance outbound notifications are a subscription-based 'Webhooks REST API' (default version 3) with a defined notification envelope (webhookId, transactionTraceId, productId, organizationId, eventType, eventDate, payload, requestType), retry policy and health-check revalidation.",
+      "quote": "The default version of the Webhooks API is version 3",
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-notification-format.html",
+      "title": "Webhooks - Webhook Notification Field Descriptions",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Security options: shared secret key pair, P12 certificate, digital signature key, optional OAuth credentials, MLE. Guide sections include 'Configure the Retry Policy' and 'Webhook Health Check URL and Automatic Revalidation'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A Postman collection for the Visa Acceptance Webhooks API exists but is not downloadable; it must be requested from an account manager, while the public live console is the alternative test method.",
+      "quote": "Contact your account manager to request the collection.",
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-intro.html",
+      "title": "Webhooks - Introduction to Webhooks",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'You can test the Webhooks REST API using the Postman application or the Visa Acceptance Solutions Developer Center's live console.' The API Reference page (/api-reference-assets/index.html) is a JavaScript application whose content did not render for a logged-out curl fetch."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa Acceptance claims monthly SDK updates across six languages (Java, .NET, PHP, Node.js, Python, Ruby), each with a client SDK and a samples repository on GitHub.",
+      "quote": "Monthly updates to SDKs with new API features",
+      "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+      "title": "REST API SDKs | Visa Acceptance Developer Portal",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Stated support: Java up to 19; .NET Framework 4.6.1-4.8.1, .NET Core 3.1, .NET 5-7, .NET Standard 2.1; PHP 8.0+; Node.js 14.21.3+; Python 3.6+; Ruby 2.5.0+. The Node getting-started step on the same page says 'Node.js version 6.17.1+'. 'Recent Release: Message Level Encryption Support for REST APIs'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "All six CyberSource REST client SDKs cut GitHub releases within days of each other in September 2026 (Java 0.0.94, Node 0.0.83, Python 0.0.79, PHP 0.0.76, Ruby 0.0.87 on 7 Sept; .NET 1.0.2 on 10 Sept), corroborating the monthly-update claim.",
+      "quote": "cybersource-rest-client-java-0.0.94",
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-java/releases/latest",
+      "title": "GitHub API – CyberSource/cybersource-rest-client-java latest release",
+      "publisher": "GitHub (CyberSource organisation, Visa Inc.)",
+      "published": "2026-09-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Registry mirrors on 2026-09-25: npm cybersource-rest-client 0.0.83 published 2026-09-07T14:10:15Z; PyPI cybersource-rest-client-python 0.0.79 uploaded 2026-09-15; RubyGems cybersource_rest_client 0.0.87 2026-09-07; Packagist cybersource/rest-client-php 0.0.76 2026-09-07. CyberSource org has 41 public repos (api.github.com); org README maps SDKs, samples, Flex and Unified Checkout samples; SOAP 'Simple Order' SDKs for Java/.NET/C++/PHP also maintained."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The CyberSource GitHub repository intended to share OpenAPI specifications (cybersource-rest-api-specs) is empty, so no downloadable OpenAPI document for Visa Acceptance APIs was found in the open.",
+      "quote": "This repository is empty.",
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-api-specs/contents/",
+      "title": "GitHub API – contents of CyberSource/cybersource-rest-api-specs",
+      "publisher": "GitHub (CyberSource organisation, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Repository description: 'Used for sharing API specifications, may not contain specifications for all APIs.' pushed_at 2025-12-17. README returns 404."
+    },
+    {
+      "dimension": "developer",
+      "claim": "CyberSource ships an official MCP server for AI coding assistants on PyPI (cybersource-developer-mcp 0.0.3, 4 August 2026) that serves SDK documentation and generates integration code for the six SDK languages.",
+      "quote": "CyberSource Developer MCP: AI-powered integration assistant providing real-time SDK documentation and code generation for CyberSource APIs",
+      "url": "https://pypi.org/project/cybersource-developer-mcp/",
+      "title": "cybersource-developer-mcp (PyPI JSON metadata)",
+      "publisher": "PyPI",
+      "published": "2026-08-04",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Repo github.com/CyberSource/cybersource-developer-mcp (pushed 2026-08-28). README: 'Code Generation: Supports Java, Python, Node.js, PHP, Ruby, dotnet (unified C#/.NET), and dotnet_standard (deprecated legacy...)' and 'MLE Support ... as mandated by CyberSource'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Visa Acceptance developer FAQ still presents HTTP Signature and JWT as the two available authentication forms and contains a find-and-replace artefact in the sandbox endpoint hostname, indicating the CyberSource-to-Visa Acceptance rebrand was applied mechanically to docs.",
+      "quote": "It uses API endpoint : https://apitest.Visa Acceptance.com",
+      "url": "https://developer.visaacceptance.com/support/faqs.html",
+      "title": "FAQs | Visa Acceptance Developer Portal",
+      "publisher": "Visa Acceptance Developer Portal (Visa Acceptance Solutions / Cybersource, Visa Inc.)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'There are two forms of authentication available:' (HTTP Signature, JWT) versus the REST guide's March 2027 HTTP Signature deprecation. FAQ also: 'You should not perform load or stress testing in the sandbox, and simulated gateways and processors are not available.' Footer still reads '© 2021 Cybersource' on doc pages. Actual test host is presumably apitest.cybersource.com (not verified)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Visa's SEC 10-K filings no longer mention 'Visa Developer' at all: EDGAR full-text search returns zero 10-K hits since 1 January 2025, and 'Visa Developer Platform' appears only in the FY2017 and FY2018 10-Ks.",
+      "quote": "\"total\":{\"value\":0,\"relation\":\"eq\"}",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Visa%20Developer%22&ciks=0001403161&forms=10-K&dateRange=custom&startdt=2025-01-01&enddt=2026-09-25",
+      "title": "EDGAR Full-Text Search results (Visa Inc. CIK 0001403161, form 10-K, query \"Visa Developer\", 2025-01-01 to 2026-09-25)",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "All-years query for \"Visa Developer Platform\" (same tool, forms=10-K) returned 2 hits: accession 0001403161-18-000055 (filed 2018-11-16) and 0001403161-17-000044 (filed 2017-11-17). Absence is the finding; the developer platform is not material enough to be named in recent annual reports."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Numeric API rate limits or quotas (requests per second/day) for Visa Developer Platform",
+      "where": "developer.visa.com error codes page (429 entry only), quick start, support FAQ, Terms of Use",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Formal API versioning / deprecation / sunset policy for Visa Developer Platform",
+      "where": "developer.visa.com /docs index, release notes 2025 and 2026 (zero occurrences of deprecat/retire/sunset), Terms of Use ('Changes to Visa Products or APIs' only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer Platform client SDK on public package registries (npm, PyPI, Maven Central, NuGet)",
+      "where": "registry.npmjs.org search, pypi.org/pypi/visa-developer (404), search.maven.org, nuget.org; SDKs are only downloadable from the logged-in Project Dashboard > Assets",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "npm packages @visa/api-client, @visa/mcp-client, @visa/token-manager named in github.com/visa/ai README",
+      "where": "registry.npmjs.org returned 'Not found' for all three",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public test PANs / test data for Visa Developer Platform products",
+      "where": "quick start and create-project pages say test data is generated per project inside the dashboard (login required)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Standalone downloadable OpenAPI file or Postman collection for Visa Developer Platform APIs",
+      "where": "reference pages embed the OpenAPI 3.1 JSON inline; info.downloadLink absent in FX and Visa Direct specs; no Postman collection link anywhere on developer.visa.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Developer Community forum content (boards, post counts, staff replies)",
+      "where": "https://community.developer.visa.com/ – TLS handshake failure from curl, python and WebFetch; browser navigation denied",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Cybersource Developer Community forum content",
+      "where": "https://community.developer.cybersource.com/ – Cloudflare 'Just a moment...' bot challenge (HTTP 403) for curl and WebFetch",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Count of Visa Acceptance APIs visible logged out in the API Reference live console",
+      "where": "https://developer.visaacceptance.com/api-reference-assets/index.html renders as a JavaScript app with no server-side content",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Acceptance webhooks 'Supported Products and Event Types' page",
+      "where": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-product-event-types.html returned 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "OpenAPI specifications in github.com/CyberSource/cybersource-rest-api-specs",
+      "where": "GitHub API: 'This repository is empty.'",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "'Visa Developer' in Visa Inc. 10-K filings since 2025-01-01",
+      "where": "EDGAR full-text search, CIK 0001403161, forms 10-K: 0 hits",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press or practitioner reviews of the Visa Developer Platform developer experience",
+      "where": "Not searched: the session's WebSearch budget was exhausted before this assignment; only primary sources were fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public API status page or uptime/SLA commitments for developer.visa.com APIs",
+      "where": "developer.visa.com homepage, /docs index and support FAQ (none linked)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Maven Central search index lists com.cybersource:cybersource-rest-client-java latest version 0.0.76 with timestamp 3 January 2025",
+      "b": "GitHub latest release for CyberSource/cybersource-rest-client-java is 0.0.94 published 2026-09-07",
+      "urls": [
+        "https://search.maven.org/solrsearch/select?q=g:com.cybersource&rows=20&wt=json",
+        "https://api.github.com/repos/CyberSource/cybersource-rest-client-java/releases/latest"
+      ]
+    },
+    {
+      "a": "NuGet registration for CyberSource.Rest.Client shows latest version 0.0.1.30 published 6 April 2023",
+      "b": "GitHub latest release for CyberSource/cybersource-rest-client-dotnet is 1.0.2 published 2026-09-10",
+      "urls": [
+        "https://api.nuget.org/v3/registration5-semver1/cybersource.rest.client/index.json",
+        "https://api.github.com/repos/CyberSource/cybersource-rest-client-dotnet/releases/latest"
+      ]
+    },
+    {
+      "a": "PyPI shows cybersource-rest-client-python 0.0.79 uploaded 2026-09-15",
+      "b": "GitHub release 0.0.79 for the same SDK is dated 2026-09-07",
+      "urls": [
+        "https://pypi.org/pypi/cybersource-rest-client-python/json",
+        "https://api.github.com/repos/CyberSource/cybersource-rest-client-python/releases/latest"
+      ]
+    },
+    {
+      "a": "Visa Acceptance FAQ: 'There are two forms of authentication available:' HTTP Signature and JWT",
+      "b": "Visa Acceptance REST guide: HTTP Signature messaging is '[DEPRECATING]' and all merchants must migrate to JWT by March 2027",
+      "urls": [
+        "https://developer.visaacceptance.com/support/faqs.html",
+        "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-intro.html"
+      ]
+    },
+    {
+      "a": "Visa Acceptance SDK page 'Product Editions': Node.js (14.21.3 and above)",
+      "b": "Same page, Node getting-started step: 'Pre-requisites : Node.js version 6.17.1+'",
+      "urls": [
+        "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+        "https://developer.visaacceptance.com/resources/rest-api-sdks.html"
+      ]
+    },
+    {
+      "a": "Visa Acceptance testing guide: 'We have over 20 processors that you can pick from.'",
+      "b": "The processor dropdown on the same page lists 14 processors",
+      "urls": [
+        "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+        "https://developer.visaacceptance.com/hello-world/testing-guide.html"
+      ]
+    },
+    {
+      "a": "github.com/visa/ai README lists reusable npm packages @visa/token-manager, @visa/mcp-client and @visa/api-client",
+      "b": "npm registry returns 'Not found' for all three package names (only @visa/cli, @visa/nova-*, @visa/charts exist under the scope)",
+      "urls": [
+        "https://github.com/visa/ai",
+        "https://registry.npmjs.org/@visa%2Fapi-client"
+      ]
+    },
+    {
+      "a": "Create-a-Project page: 'Currently, deletion of APIs from a project is not supported.'",
+      "b": "Developer quick start: the project's 'Sandbox' page lets you 'Delete APIs'",
+      "urls": [
+        "https://developer.visa.com/pages/working-with-visa-apis/create-project",
+        "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Developer Center account / Project Dashboard (Credentials, Test Data, Sample Code, Assets, Onboarding Dashboard)",
+      "url": "https://developer.visa.com/identity/user/register",
+      "named_at": "https://developer.visa.com/"
+    },
+    {
+      "name": "Project Dashboard > Assets (SDK, implementation guide and sample-code downloads; sign-in required)",
+      "url": "not given (inside logged-in dashboard)",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide"
+    },
+    {
+      "name": "VDC Playground download (Project dashboard > Asset Management)",
+      "url": "not given (inside logged-in dashboard)",
+      "named_at": "https://developer.visa.com/pages/visa-developer-center-playground"
+    },
+    {
+      "name": "Restricted products requiring 'Request Access' approval (lock icon)",
+      "url": "https://developer.visa.com/apibrowser/",
+      "named_at": "https://developer.visa.com/apibrowser/"
+    },
+    {
+      "name": "Visa Online (subscription portal referenced as a pricing basis for some APIs)",
+      "url": "not given",
+      "named_at": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing"
+    },
+    {
+      "name": "Visa Access Single Sign-On (SSO into VDP)",
+      "url": "not given",
+      "named_at": "https://developer.visa.com/pages/support"
+    },
+    {
+      "name": "Visa Partner portal (sign-in; Dashboard, Settings, Invitations)",
+      "url": "https://partner.visa.com/",
+      "named_at": "https://developer.visa.com/"
+    },
+    {
+      "name": "Visa Partner Programs page (Visa Ready, Fintech Fast Track, Visa Licensing Program, Third Party Agent Registration)",
+      "url": "https://partner.visa.com/site/programs/partner-programs.html",
+      "named_at": "https://developer.visa.com/"
+    },
+    {
+      "name": "Visa Developer Community forum",
+      "url": "https://community.developer.visa.com/",
+      "named_at": "assignment seed (TLS handshake failure on fetch)"
+    },
+    {
+      "name": "Visa Documentation MCP Server (get-docs tool; MCP token authentication)",
+      "url": "https://sandbox.mcp.visa.com/mcp/doc",
+      "named_at": "https://github.com/visa/ai/wiki/Documentation-MCP-Server"
+    },
+    {
+      "name": "Visa Acceptance Merchant Sandbox sign-up (evaluation account form)",
+      "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Visa Acceptance Business Center Test (sandbox back office)",
+      "url": "https://businesscentertest.visaacceptance.com/ebc2/",
+      "named_at": "https://developer.visaacceptance.com/docs.html"
+    },
+    {
+      "name": "Visa Acceptance API Reference live console (executes against sandbox with account keys)",
+      "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+      "named_at": "https://developer.visaacceptance.com/"
+    },
+    {
+      "name": "Webhooks REST API Postman collection (request via account manager)",
+      "url": "not given",
+      "named_at": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-intro.html"
+    },
+    {
+      "name": "Cybersource Developer Community forum and Developer Blog",
+      "url": "https://community.developer.cybersource.com/t5/Cybersource-Developer-Community/ct-p/CybersourceDeveloperCommunity",
+      "named_at": "https://developer.visaacceptance.com/support/faqs.html"
+    },
+    {
+      "name": "Technology Partner sandbox onboarding registration",
+      "url": "not given",
+      "named_at": "https://developer.visaacceptance.com/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.visa.com/",
+      "title": "Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/going-live",
+      "title": "Going Live",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-quick-start-guide",
+      "title": "Visa Developer Quick Start for Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-pricing",
+      "title": "Pricing on Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/x-pay-token",
+      "title": "Visa Developer | X-Pay Token",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/site/release_notes",
+      "title": "Release Notes",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/site/release_notes/2025",
+      "title": "Release Notes - 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/release_notes",
+      "title": "Release Notes (alias of /site/release_notes)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/apibrowser/",
+      "title": "Browse Products | Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/onboarding",
+      "title": "Visa Developer Onboarding",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/support",
+      "title": "Frequently Asked Questions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/availability",
+      "title": "Availability Matrix | Visa Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl",
+      "title": "Two-Way SSL",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/developer_program",
+      "title": "Visa Developer - About Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis",
+      "title": "Working with Visa APIs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/quick-start-guide-for-business-users",
+      "title": "Quick Start Guide for Business Users",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-commercialization",
+      "title": "Commercialization on Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/docs",
+      "title": "Documentation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/learning-hub",
+      "title": "Visa Learning Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/use-cases",
+      "title": "Use Cases",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs-getting-started",
+      "title": "Getting Started with Visa Direct",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs-how-to",
+      "title": "How to Use Visa Direct",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct/docs-authentication",
+      "title": "Authentication Method for Visa Direct",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa_direct/reference",
+      "title": "Visa Direct API Reference",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/foreign_exchange/reference",
+      "title": "Foreign Exchange Rates API Reference",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/foreign_exchange/docs",
+      "title": "Getting Started with Foreign Exchange",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/capabilities/visa-intelligent-commerce",
+      "title": "Visa Intelligent Commerce",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/visa-developer-center-playground",
+      "title": "Visa Developer Center Playground",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/visa-developer-error-codes",
+      "title": "Visa Developer Error Codes",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/encryption_guide",
+      "title": "Message Level Encryption",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/encryption_guide/jwe-jws",
+      "title": "jwe-jws",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/outbound-configuration",
+      "title": "Outbound Configuration",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/create-project",
+      "title": "Create a Project on Visa Developer",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/request_response_codes",
+      "title": "Request and Response Codes",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/glossary",
+      "title": "Glossary",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/terms",
+      "title": "Terms of Use",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/assets/js/api-reference.js",
+      "title": "api-reference.js (Redocly bootstrap script)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visa.com/pages/faq",
+      "title": "404 Not Found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/visa-developer-center-playground",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/message-level-encryption",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/terms-of-use",
+      "title": "Page Not Found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/error-codes",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/outbound-callback-configurations",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visa.com/pages/working-with-visa-apis/json-web-encryption",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://community.developer.visa.com/",
+      "title": "Visa Developer Community",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://community.developer.visa.com/t5/Developer-Community/ct-p/developer-community",
+      "title": "Visa Developer Community (board)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://partner.visa.com/",
+      "title": "Visa Partner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://mcp.visa.com/",
+      "title": "Visa Intelligent Commerce (mcp.visa.com)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/",
+      "title": "Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/hello-world/sandbox.html",
+      "title": "Sandbox signup | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/hello-world/testing-guide.html",
+      "title": "Testing Guide | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/hello-world/testing-guide/testing_guide_test_card_numbers.html",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/resources/rest-api-sdks.html",
+      "title": "REST API SDKs | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/api-reference-assets/index.html",
+      "title": "Visa Acceptance API Documentation (JS app, no static content)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs.html",
+      "title": "Documentation hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/support/faqs.html",
+      "title": "FAQs | Visa Acceptance Developer Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/api/reference/response-codes.html",
+      "title": "Response codes",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-intro.html",
+      "title": "Getting Started with REST - Introduction",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-http-message-intro.html",
+      "title": "Getting Started with REST - Set Up HTTP Signature Message [DEPRECATING]",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-jwt-message-intro.html",
+      "title": "Getting Started with REST - Set Up a JSON Web Token Message Using P12 Certificates",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-setup-workflow.html",
+      "title": "Getting Started with REST - How to Set Up REST",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/platform/developer/all/rest/rest-getting-started/restgs-about-guide/restgs-doc-revisions.html",
+      "title": "Getting Started with REST - Recent Revisions to This Document",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-intro.html",
+      "title": "Webhooks - Introduction to Webhooks",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-notification-format.html",
+      "title": "Webhooks - Webhook Notification Field Descriptions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-key-dig-sig-intro.html",
+      "title": "Webhooks - Create a Digital Signature Key",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.visaacceptance.com/docs/vas/en-us/webhooks/implementation/all/rest/webhooks/wh-fg-product-event-types.html",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://community.developer.cybersource.com/",
+      "title": "Cybersource Developer Community",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://community.developer.cybersource.com/t5/Cybersource-Developer-Community/ct-p/CybersourceDeveloperCommunity",
+      "title": "Cybersource Developer Community (board)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.cybersource.com/",
+      "title": "developer.cybersource.com (HEAD 200; legacy host still live)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/visa",
+      "title": "Visa · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/orgs/visa/repositories",
+      "title": "visa repositories · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/visa/acceptance-devices-ios-sdk/releases",
+      "title": "Releases · visa/acceptance-devices-ios-sdk · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/CyberSource",
+      "title": "Cybersource · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/visa/ai/wiki/Documentation-MCP-Server",
+      "title": "Documentation MCP Server · visa/ai Wiki · GitHub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://github.com/visa/mcp/wiki/Documentation-MCP-Server",
+      "title": "(redirects to visa/ai wiki)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/visa/ai/main/README.md",
+      "title": "visa/ai README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CyberSource/cybersource-developer-mcp/master/README.md",
+      "title": "cybersource-developer-mcp README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CyberSource/cybersource-mcp-sdk-support-files/master/README.md",
+      "title": "cybersource-mcp-sdk-support-files README",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CyberSource/cybersource-rest-api-specs/main/README.md",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://api.github.com/orgs/visa/repos?per_page=100&sort=pushed",
+      "title": "GitHub API – visa org repositories",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/orgs/CyberSource/repos?per_page=100&sort=pushed",
+      "title": "GitHub API – CyberSource org repositories",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/orgs/visa",
+      "title": "GitHub API – visa org",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/orgs/CyberSource",
+      "title": "GitHub API – CyberSource org",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-java/releases/latest",
+      "title": "GitHub API – latest release (Java SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-node/releases/latest",
+      "title": "GitHub API – latest release (Node SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-python/releases/latest",
+      "title": "GitHub API – latest release (Python SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-dotnet/releases/latest",
+      "title": "GitHub API – latest release (.NET SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-php/releases/latest",
+      "title": "GitHub API – latest release (PHP SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-client-ruby/releases/latest",
+      "title": "GitHub API – latest release (Ruby SDK)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-api-specs",
+      "title": "GitHub API – cybersource-rest-api-specs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/CyberSource/cybersource-rest-api-specs/contents/",
+      "title": "GitHub API – contents (empty repository)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/cybersource-rest-client",
+      "title": "npm registry – cybersource-rest-client",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Fcli",
+      "title": "npm registry – @visa/cli",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Fnova-react",
+      "title": "npm registry – @visa/nova-react",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Fcharts",
+      "title": "npm registry – @visa/charts",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Fapi-client",
+      "title": "npm registry – Not found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Fmcp-client",
+      "title": "npm registry – Not found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://registry.npmjs.org/@visa%2Ftoken-manager",
+      "title": "npm registry – Not found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/v1/search?text=visa%20intelligent%20commerce&size=10",
+      "title": "npm search",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pypi.org/pypi/cybersource-rest-client-python/json",
+      "title": "PyPI – cybersource-rest-client-python",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pypi.org/pypi/cybersource-developer-mcp/json",
+      "title": "PyPI – cybersource-developer-mcp",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://pypi.org/pypi/visa-developer/json",
+      "title": "PyPI – Not Found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://api.nuget.org/v3/registration5-semver1/cybersource.rest.client/index.json",
+      "title": "NuGet – CyberSource.Rest.Client",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://search.maven.org/solrsearch/select?q=g:com.cybersource&rows=20&wt=json",
+      "title": "Maven Central search – com.cybersource",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://rubygems.org/api/v1/gems/cybersource_rest_client.json",
+      "title": "RubyGems – cybersource_rest_client",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://repo.packagist.org/p2/cybersource/rest-client-php.json",
+      "title": "Packagist – cybersource/rest-client-php",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Visa%20Developer%20Platform%22&ciks=0001403161&forms=10-K",
+      "title": "EDGAR full-text search – Visa Developer Platform (all years)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Visa%20Developer%22&ciks=0001403161&forms=10-K&dateRange=custom&startdt=2025-01-01&enddt=2026-09-25",
+      "title": "EDGAR full-text search – Visa Developer (2025-2026)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

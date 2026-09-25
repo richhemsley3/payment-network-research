@@ -1,0 +1,951 @@
+{
+ "network": "interac",
+ "seed": "https://www.interac.ca/en/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.interac.ca/en/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en-CA",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "Home - Interac Corp.",
+   "h1": "It’s your money.",
+   "description": "Discover more about everyday conveniences Interac can provide to make your life easier and payment solutions that can drive your business.",
+   "landmarks": {
+    "header": true,
+    "nav": 6,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [
+    "Payments",
+    "Verification",
+    "Company",
+    "Help & Resources",
+    "In The Know",
+    "fr",
+    "Interac Debit",
+    "Send & receive money with Interac e-Transfer",
+    "Protect your payments",
+    "Interac e-Transfer",
+    "Transit Payments",
+    "Protect your Payments",
+    "Fees",
+    "Find an Acquirer",
+    "Interac Verified",
+    "Sign into government services",
+    "Verify yourself using your financial institution",
+    "Verify yourself using document verification",
+    "Verify your customers with reusable credentials",
+    "Verify your customers through their financial institution",
+    "Verify your customers through their government ID",
+    "Learn about Interac Verified for Business",
+    "Company Overview",
+    "Faster Forward",
+    "History",
+    "Leadership",
+    "Corporate Year in Review",
+    "Community Impact",
+    "Diversity & Inclusion",
+    "Careers"
+   ],
+   "ctas": [
+    {
+     "text": "Customize",
+     "href": null
+    },
+    {
+     "text": "Accept All",
+     "href": null
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.interac.ca/en/payments/business/retire-the-cheque/"
+    }
+   ],
+   "signin": [],
+   "audience_words": [
+    "acquirer",
+    "bank",
+    "financial institution"
+   ],
+   "headings": [
+    "h2: It’s time to retire the cheque.",
+    "h2: Helping you get more out of life.",
+    "h2: Payment Solutions",
+    "h2: Pay with Interac Debit",
+    "h2: Send and receive money online with Interac e-Transfer",
+    "h2: Introducing Interac Direct™",
+    "h2: Protect your payments",
+    "h2: Introducing Interac e-Transfer® Cards",
+    "h2: Verification Solutions",
+    "h2: Verify Yourself Securely",
+    "h2: Verify Your Customers Securely",
+    "h3: Payments",
+    "h3: Verification",
+    "h3: Resources",
+    "h3: Language"
+   ],
+   "screenshot": "assets/interac/interac-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "In The Know",
+     "url": "https://www.interac.ca/en/content/",
+     "status": 200,
+     "result": "readable",
+     "words": 578,
+     "title": "Interac I In The Know"
+    },
+    {
+     "nav": "fr",
+     "url": "https://www.interac.ca/fr/",
+     "status": 200,
+     "result": "readable",
+     "words": 588,
+     "title": "Page d’accueil - Interac"
+    },
+    {
+     "nav": "Interac Debit",
+     "url": "https://www.interac.ca/en/payments/personal/pay-with-interac-debit/",
+     "status": 200,
+     "result": "readable",
+     "words": 699,
+     "title": "Interac Debit | Pay With Your Own Money, Every Day"
+    },
+    {
+     "nav": "Send & receive money with Interac e-Transfer",
+     "url": "https://www.interac.ca/en/payments/personal/send-receive-money-with-interac-e-transfer/",
+     "status": 200,
+     "result": "readable",
+     "words": 1224,
+     "title": "Send & receive money with Interac e-Transfer - Interac Corp."
+    },
+    {
+     "nav": "Protect your payments",
+     "url": "https://www.interac.ca/en/payments/personal/protect-your-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 1306,
+     "title": "Your security, our priority: Protecting personal payments - Interac Corp."
+    },
+    {
+     "nav": "Interac Debit",
+     "url": "https://www.interac.ca/en/payments/business/accept-interac-debit-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 1504,
+     "title": "Keep more of your money. Accept Interac® Debit - Interac Corp."
+    },
+    {
+     "nav": "Interac e-Transfer",
+     "url": "https://www.interac.ca/en/payments/business/send-receive-money-with-interac-e-transfer-for-business-old/",
+     "status": 200,
+     "result": "readable",
+     "words": 1710,
+     "title": "Send & receive money with Interac e-Transfer for Business - Interac Corp."
+    },
+    {
+     "nav": "Transit Payments",
+     "url": "https://www.interac.ca/en/payments/business/enable-transit-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 927,
+     "title": "Enable Open Payments for Transit - Interac Corp."
+    },
+    {
+     "nav": "Protect your Payments",
+     "url": "https://www.interac.ca/en/payments/business/protect-business-payments/",
+     "status": 200,
+     "result": "readable",
+     "words": 1108,
+     "title": "How Interac protects your business payments - Interac Corp."
+    },
+    {
+     "nav": "Fees",
+     "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+     "status": 200,
+     "result": "readable",
+     "words": 408,
+     "title": "Understanding Fees - Interac Corp."
+    },
+    {
+     "nav": "Find an Acquirer",
+     "url": "https://www.interac.ca/en/payments/business/find-an-acquirer/",
+     "status": 200,
+     "result": "readable",
+     "words": 461,
+     "title": "Find an Acquirer - Interac Corp."
+    },
+    {
+     "nav": "Interac Verified",
+     "url": "https://www.interac.ca/en/verification/personal/learn-about-interac-verified/",
+     "status": 200,
+     "result": "readable",
+     "words": 632,
+     "title": "Learn about Interac Verified - Interac Corp."
+    },
+    {
+     "nav": "Sign into government services",
+     "url": "https://www.interac.ca/en/verification/personal/sign-into-government-services/",
+     "status": 200,
+     "result": "readable",
+     "words": 501,
+     "title": "Sign into government services - Interac Corp."
+    },
+    {
+     "nav": "Verify yourself using your financial institution",
+     "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-your-financial-institution/",
+     "status": 200,
+     "result": "readable",
+     "words": 491,
+     "title": "Verify yourself using your financial institution - Interac Corp."
+    },
+    {
+     "nav": "Verify yourself using document verification",
+     "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/",
+     "status": 200,
+     "result": "readable",
+     "words": 509,
+     "title": "Verify yourself using document verification - Interac Corp."
+    },
+    {
+     "nav": "Verify your customers with reusable credentials",
+     "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+     "status": 200,
+     "result": "readable",
+     "words": 835,
+     "title": "Interac Verified Credential Service - Interac Corp."
+    }
+   ],
+   "walls": 0,
+   "readable": 16
+  },
+  "S3": {
+   "from": "Verify your customers with reusable credentials",
+   "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "title": "Interac Verified Credential Service - Interac Corp.",
+   "headings": [
+    "h1: The future of identity verification is here. And it’s reusable credentials.",
+    "h2: How can the Interac Verified credential service empower your business?",
+    "h3: Reusable credentials.",
+    "h3: Advanced data security.",
+    "h3: Collect only what’s necessary.",
+    "h2: Secure proof with widely used documents.",
+    "h3: Passport",
+    "h3: Canadian Driver’s License",
+    "h3: Provincial ID Card",
+    "h3: Permanent Resident Card",
+    "h3: Indian Status Card",
+    "h2: 100% Canadian",
+    "h2: Ready. Set. Verified.",
+    "h3: Use Case Spotlight.",
+    "h2: Ready to get started?",
+    "h3: Top frequently asked questions.",
+    "h3: Payments",
+    "h3: Verification",
+    "h3: Resources",
+    "h3: Language"
+   ],
+   "links": 9,
+   "sample": [
+    {
+     "text": "Connect with us",
+     "href": "https://www.interac.ca/en/verification/business/get-in-touch-with-the-interac-verified-team/?service=credential-service"
+    },
+    {
+     "text": "Home",
+     "href": "https://www.interac.ca/en/"
+    },
+    {
+     "text": "What is the Interac Verified credential service?",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/#what-is-the-interac-verified-credential-service"
+    },
+    {
+     "text": "How can Interac Verified credentials benefit my business?",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/#how-can-interac-verified-credentials-benefit-my-business"
+    },
+    {
+     "text": "How does the Interac Verified credential service enhance security for ",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/#how-does-the-interac-verified-credential-service-enhance-security-for-business-transactions"
+    },
+    {
+     "text": "What types of identification documents can be used to generate an Inte",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/#what-types-of-identification-documents-can-be-used-to-generate-an-interac-verified-credential"
+    },
+    {
+     "text": "See all FAQs",
+     "href": "https://www.interac.ca/en/resources/business-resources/business-faq/#faq-interac-verified-credential-service"
+    },
+    {
+     "text": "here",
+     "href": "https://www.interac.ca/en/verification/personal/verify-yourself-using-your-financial-institution/#which-financial-institutions-can-be-used-to-log-in-or-access-interac-verification-service"
+    },
+    {
+     "text": "here",
+     "href": "https://www.interac.ca/en/verification/personal/interac-verified-app/#generate-secure-credentials"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/interac/interac-s3-02-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": null,
+   "reference": null,
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": [
+    {
+     "text": "Verify yourself using a reusable credential",
+     "href": "https://www.interac.ca/en/verification/personal/interac-verified-app/"
+    },
+    {
+     "text": "Verify your customers with reusable credentials",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/"
+    },
+    {
+     "text": "Interac Verified 101: Learn about verifying and authenticati",
+     "href": "https://www.interac.ca/en/content/life/interac-verified-101-learn-about-verifying-and-authenticating-your-identity-and-data/"
+    },
+    {
+     "text": "Verify yourself using a reusable credential",
+     "href": "https://www.interac.ca/en/verification/personal/interac-verified-app/"
+    },
+    {
+     "text": "Verify your customers with reusable credentials",
+     "href": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/"
+    }
+   ],
+   "public_test_data_mentioned": false,
+   "pages_tried": 21
+  },
+  "S5": {
+   "entry": null,
+   "trail": [],
+   "clicks_to_wall": null,
+   "wall": "none",
+   "fields_asked": null,
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Contact Us",
+   "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "title": "Contact Us - Interac Corp.",
+   "phones": [],
+   "mailto": [
+    "phishing@interac.ca",
+    "community@interac.ca",
+    "newsletter@interac.ca",
+    "info@interac.ca"
+   ],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [
+    "https://www.interac.ca/en/company/about/community-impact/",
+    "https://www.interac.ca/en/company/about/community-impact/",
+    "mailto:community@interac.ca"
+   ],
+   "sla": false,
+   "languages": false,
+   "wall": "none",
+   "screenshot": "assets/interac/interac-s7-03-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": true,
+   "results": [
+    {
+     "query": "authorization",
+     "url": "https://www.interac.ca/en/?s=authorization",
+     "count_hint": null,
+     "top": [
+      "Can multiple captures be made against a single pre-authorization? Yes, multiple ",
+      "e-Commerce Interac® Debit provides easy to use payment options when shopping wit",
+      "How is a final split payment transaction identified? To identify a final split p",
+      "What is a split payment and what are its common uses? A split payment is when a ",
+      "In case of multiple captures, how can the last capture be identified? In case of"
+     ]
+    },
+    {
+     "query": "test cards",
+     "url": "https://www.interac.ca/en/?s=test+cards",
+     "count_hint": null,
+     "top": [
+      "News Digital Commerce Bank Becomes First Bank in Canada to Launch Interac e-Tran",
+      "News Interac Corp. Selects B2 Payment Solutions as preferred vendor to expand ch",
+      "Business 8 ways to make payments easier with Interac e-Transfer for Business As ",
+      "Business Building digital prosperity for Canadians, by Canadians 2025 was a defi",
+      "Life Interac holiday spending report 2025: 6 things to know If you’re feeling un"
+     ]
+    },
+    {
+     "query": "certification",
+     "url": "https://www.interac.ca/en/?s=certification",
+     "count_hint": null,
+     "top": [
+      "Working at Interac How creating a culture of engagement positions Interac as a G",
+      "On Innovation and Economic Growth with Debbie Gamble and Jim Balsillie How can w",
+      "On Digital Competitiveness with Debbie Gamble and Senator Colin Deacon Canadians",
+      "Business How digital verification solutions can unlock new opportunities for Can",
+      "Business How Alicia Nicholson has disrupted the cosmetics industry by prioritizi"
+     ]
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en-CA",
+   "skip_link": true,
+   "landmarks": {
+    "header": true,
+    "nav": 6,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 0,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "button: Customize",
+    "button: Accept All",
+    "a: Skip to main content",
+    "a",
+    "a: Payments",
+    "a: Verification",
+    "a: Company",
+    "a: Help & Resources",
+    "a: In The Know",
+    "a: fr"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": false,
+   "hamburger": true,
+   "nav_visible": 42,
+   "screenshot": "assets/interac/interac-s11-04-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "New Canadians Guide to Interac",
+     "href": "https://www.interac.ca/en/content/life/new-to-canada-how-interac-can-help-make-your-life-here-more-seamless/"
+    },
+    {
+     "clicks": 1,
+     "text": "New Canadians Guide to Interac",
+     "href": "https://www.interac.ca/en/content/life/new-to-canada-how-interac-can-help-make-your-life-here-more-seamless/"
+    },
+    {
+     "clicks": 1,
+     "text": "Third Party Code of Conduct",
+     "href": "https://www.interac.ca/wp-content/uploads/2024/05/Third-Party-Code-of-Conduct.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "CRIC Pledge to Canadians",
+     "href": "https://www.interac.ca/wp-content/uploads/2023/10/CRIC-Pledge-to-Canadians.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "New Canadians Guide to Interac",
+    "href": "https://www.interac.ca/en/content/life/new-to-canada-how-interac-can-help-make-your-life-here-more-seamless/"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1880,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.interac.ca/en/content/",
+   "final": "https://www.interac.ca/en/content/",
+   "status": 200,
+   "ms": 1738,
+   "why": "S2 In The Know"
+  },
+  {
+   "url": "https://www.interac.ca/fr/",
+   "final": "https://www.interac.ca/fr/",
+   "status": 200,
+   "ms": 1591,
+   "why": "S2 fr"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/pay-with-interac-debit/",
+   "final": "https://www.interac.ca/en/payments/personal/pay-with-interac-debit/",
+   "status": 200,
+   "ms": 2034,
+   "why": "S2 Interac Debit"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/send-receive-money-with-interac-e-transfer/",
+   "final": "https://www.interac.ca/en/payments/personal/send-receive-money-with-interac-e-transfer/",
+   "status": 200,
+   "ms": 1618,
+   "why": "S2 Send & receive money with Interac e-Transfer"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/protect-your-payments/",
+   "final": "https://www.interac.ca/en/payments/personal/protect-your-payments/",
+   "status": 200,
+   "ms": 1636,
+   "why": "S2 Protect your payments"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/accept-interac-debit-payments/",
+   "final": "https://www.interac.ca/en/payments/business/accept-interac-debit-payments/",
+   "status": 200,
+   "ms": 1803,
+   "why": "S2 Interac Debit"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/send-receive-money-with-interac-e-transfer-for-business-old/",
+   "final": "https://www.interac.ca/en/payments/business/send-receive-money-with-interac-e-transfer-for-business-old/",
+   "status": 200,
+   "ms": 1604,
+   "why": "S2 Interac e-Transfer"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/enable-transit-payments/",
+   "final": "https://www.interac.ca/en/payments/business/enable-transit-payments/",
+   "status": 200,
+   "ms": 1625,
+   "why": "S2 Transit Payments"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/protect-business-payments/",
+   "final": "https://www.interac.ca/en/payments/business/protect-business-payments/",
+   "status": 200,
+   "ms": 1581,
+   "why": "S2 Protect your Payments"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+   "final": "https://www.interac.ca/en/payments/business/understanding-fees/",
+   "status": 200,
+   "ms": 1761,
+   "why": "S2 Fees"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/find-an-acquirer/",
+   "final": "https://www.interac.ca/en/payments/business/find-an-acquirer/",
+   "status": 200,
+   "ms": 1583,
+   "why": "S2 Find an Acquirer"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/learn-about-interac-verified/",
+   "final": "https://www.interac.ca/en/verification/personal/learn-about-interac-verified/",
+   "status": 200,
+   "ms": 1593,
+   "why": "S2 Interac Verified"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/sign-into-government-services/",
+   "final": "https://www.interac.ca/en/verification/personal/sign-into-government-services/",
+   "status": 200,
+   "ms": 1629,
+   "why": "S2 Sign into government services"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-your-financial-institution/",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-your-financial-institution/",
+   "status": 200,
+   "ms": 1653,
+   "why": "S2 Verify yourself using your financial institution"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/",
+   "status": 200,
+   "ms": 3149,
+   "why": "S2 Verify yourself using document verification"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "status": 200,
+   "ms": 1700,
+   "why": "S2 Verify your customers with reusable credentials"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/sign-into-government-services/",
+   "final": "https://www.interac.ca/en/verification/personal/sign-into-government-services/",
+   "status": 200,
+   "ms": 1601,
+   "why": "S3 Sign into government services"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "status": 200,
+   "ms": 1527,
+   "why": "S3 Verify your customers with reusable credentials"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-verification-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-verification-service/",
+   "status": 200,
+   "ms": 2050,
+   "why": "S3 Verify your customers through their financial institution"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/",
+   "status": 200,
+   "ms": 1707,
+   "why": "S3 Verify your customers through their government ID"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "status": 200,
+   "ms": 1532,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.interac.ca/en/content/life/new-to-canada-how-interac-can-help-make-your-life-here-more-seamless/",
+   "final": "https://www.interac.ca/en/content/life/new-to-canada-how-interac-can-help-make-your-life-here-more-seamless/",
+   "status": 200,
+   "ms": 1614,
+   "why": "S4 New Canadians Guide to Interac"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/",
+   "status": 200,
+   "ms": 1675,
+   "why": "S4 Verify yourself using document verification"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/",
+   "status": 200,
+   "ms": 1542,
+   "why": "S4 Verify your customers through their government ID"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#wpnavmenu_breadcrumbs_holder",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#wpnavmenu_breadcrumbs_holder",
+   "status": 200,
+   "ms": 1541,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://www.interac.ca/fr/verification/personnelles/verifiez-vous-a-laide-de-la-verification-des-documents/",
+   "final": "https://www.interac.ca/fr/verification/personnelles/verifiez-vous-a-laide-de-la-verification-des-documents/",
+   "status": 200,
+   "ms": 1597,
+   "why": "S4 fr"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#",
+   "status": 200,
+   "ms": 1530,
+   "why": "S4 Payments"
+  },
+  {
+   "url": "https://www.interac.ca/en/content/news/the-cra-leverages-interac-document-verification-service/",
+   "final": "https://www.interac.ca/en/content/news/the-cra-leverages-interac-document-verification-service/",
+   "status": 200,
+   "ms": 1584,
+   "why": "S4 Learn more"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-is-interac-document-verification-service",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-is-interac-document-verification-service",
+   "status": 200,
+   "ms": 1533,
+   "why": "S4 What is Interac document verification service?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-do-i-use-interac-document-verification-service-for",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-do-i-use-interac-document-verification-service-for",
+   "status": null,
+   "ms": 1505,
+   "why": "S4 What do I use Interac document verification service for?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#how-does-interac-document-verification-service-work",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#how-does-interac-document-verification-service-work",
+   "status": null,
+   "ms": 1505,
+   "why": "S4 How does Interac document verification service work?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-id-types-are-accepted",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#what-id-types-are-accepted",
+   "status": null,
+   "ms": 1504,
+   "why": "S4 What ID types are accepted?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#do-i-need-to-download-an-app",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#do-i-need-to-download-an-app",
+   "status": null,
+   "ms": 1503,
+   "why": "S4 Do I need to download an app?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#who-can-i-reach-out-to-if-i-am-having-trouble-using-the-service",
+   "final": "https://www.interac.ca/en/verification/personal/verify-yourself-using-document-verification/#who-can-i-reach-out-to-if-i-am-having-trouble-using-the-service",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 Who can I reach out to if I am having trouble using the serv"
+  },
+  {
+   "url": "https://www.interac.ca/en/legal/#interac-document-verification-service-terms-and-conditions",
+   "final": "https://www.interac.ca/en/legal/#interac-document-verification-service-terms-and-conditions",
+   "status": 200,
+   "ms": 1628,
+   "why": "S4 Interac document verification Terms of use"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#wpnavmenu_breadcrumbs_holder",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#wpnavmenu_breadcrumbs_holder",
+   "status": 200,
+   "ms": 1624,
+   "why": "S4 Skip to main content"
+  },
+  {
+   "url": "https://www.interac.ca/fr/verification/entreprises/service-de-verification-de-documents-interac/",
+   "final": "https://www.interac.ca/fr/verification/entreprises/service-de-verification-de-documents-interac/",
+   "status": 200,
+   "ms": 1609,
+   "why": "S4 fr"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#",
+   "status": 200,
+   "ms": 1583,
+   "why": "S4 Payments"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#what-is-interac-document-verification-service",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#what-is-interac-document-verification-service",
+   "status": null,
+   "ms": 1506,
+   "why": "S4 What is Interac document verification service?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#what-do-i-use-interac-document-verification-service-for",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#what-do-i-use-interac-document-verification-service-for",
+   "status": null,
+   "ms": 1504,
+   "why": "S4 What do I use Interac document verification service for?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#how-does-interac-document-verification-service-work",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#how-does-interac-document-verification-service-work",
+   "status": null,
+   "ms": 1505,
+   "why": "S4 How does Interac document verification service work?"
+  },
+  {
+   "url": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#which-id-types-are-accepted",
+   "final": "https://www.interac.ca/en/verification/business/interac-document-verification-service/#which-id-types-are-accepted",
+   "status": null,
+   "ms": 1505,
+   "why": "S4 Which ID types are accepted?"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1646,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1535,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1536,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "final": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "status": 200,
+   "ms": 1595,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/tap-canadian/",
+   "final": "https://www.interac.ca/en/payments/personal/tap-canadian/#Home",
+   "status": 200,
+   "ms": 1703,
+   "why": "S7 Tap Canadian – Support Small Business"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/business/support-small-business/",
+   "final": "https://www.interac.ca/en/payments/business/support-small-business/",
+   "status": 200,
+   "ms": 1745,
+   "why": "S7 Interac for Small Business"
+  },
+  {
+   "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "final": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "status": 200,
+   "ms": 1605,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1747,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1523,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1532,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1672,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1603,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1580,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.interac.ca/en/",
+   "final": "https://www.interac.ca/en/",
+   "status": 200,
+   "ms": 1621,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "interac-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.interac.ca/en/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-s1-01-20260925.webp",
+   "kb": 49
+  },
+  {
+   "id": "interac-s02",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.interac.ca/en/verification/business/interac-verified-credential-service/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-s3-02-20260925.webp",
+   "kb": 56
+  },
+  {
+   "id": "interac-s03",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-s7-03-20260925.webp",
+   "kb": 27
+  },
+  {
+   "id": "interac-s04",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.interac.ca/en/",
+   "captured": "2026-09-25",
+   "file": "assets/interac/interac-s11-04-20260925.webp",
+   "kb": 17
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.interac.ca/en/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.interac.ca/en/content/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.interac.ca/fr/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/pay-with-interac-debit/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/send-receive-money-with-interac-e-transfer/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.interac.ca/en/payments/personal/protect-your-payments/",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 57,
+  "screenshots": 4,
+  "errors": 0,
+  "walls_in_nav": 0,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": "none"
+ }
+}

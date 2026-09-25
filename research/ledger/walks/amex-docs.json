@@ -1,0 +1,34 @@
+{
+ "network": "amex",
+ "seed": "https://developer.americanexpress.com/documentation",
+ "tier": "shot",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://developer.americanexpress.com/documentation"
+  },
+  "S1": {
+   "title": "documentation and what's new"
+  }
+ },
+ "visited": [
+  {
+   "url": "https://developer.americanexpress.com/documentation",
+   "why": "extra shot"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "amex-docs-s01",
+   "station": "S1",
+   "note": "documentation and what's new",
+   "url": "https://developer.americanexpress.com/documentation",
+   "captured": "2026-09-25",
+   "file": "assets/amex/amex-docs-s1-01-20260925.webp",
+   "kb": 92
+  }
+ ],
+ "errors": []
+}

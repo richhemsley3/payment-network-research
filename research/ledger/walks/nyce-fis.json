@@ -1,0 +1,767 @@
+{
+ "network": "nyce",
+ "seed": "https://www.fisglobal.com/products/nyce-payments-network",
+ "tier": "B",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "NYCE Debit Network – Secure ATM & POS Payments",
+   "h1": "Empower debit cardholders with secure, real-time payments and ATM access",
+   "description": "Empower your institution with NYCE Payments Network, a debit card networks solution for POS, e-commerce, bill payment, funds transfers and ATMs.",
+   "landmarks": {
+    "header": true,
+    "nav": 0,
+    "main": true,
+    "footer": true,
+    "search": true
+   },
+   "nav_labels": [
+    ":;",
+    "Products",
+    "Insights",
+    "Developers",
+    "About FIS",
+    "Careers",
+    "Client Portal",
+    "Global Search",
+    "Contact us"
+   ],
+   "ctas": [
+    {
+     "text": "Contact us",
+     "href": "https://www.fisglobal.com/contact-us"
+    },
+    {
+     "text": "Read e-book",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf"
+    },
+    {
+     "text": "Watch video",
+     "href": null
+    },
+    {
+     "text": "Explore Smart Basket",
+     "href": "https://www.fisglobal.com/products/smart-basket"
+    },
+    {
+     "text": "Strategic economics",
+     "href": null
+    },
+    {
+     "text": "Flexible payments",
+     "href": null
+    },
+    {
+     "text": "Simplified connectivity",
+     "href": null
+    },
+    {
+     "text": "Read client story",
+     "href": "https://www.fisglobal.com/insights/fis-client-stories/point-bank"
+    },
+    {
+     "text": "View all products",
+     "href": "https://www.fisglobal.com/products/product-catalog"
+    },
+    {
+     "text": "Contact us",
+     "href": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/"
+    },
+    {
+     "text": "Request a demo",
+     "href": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/"
+    },
+    {
+     "text": "Get pricing",
+     "href": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/"
+    },
+    {
+     "text": "Go to Smart Basket",
+     "href": "https://www.fisglobal.com/products/smart-basket"
+    },
+    {
+     "text": "Previous",
+     "href": null
+    },
+    {
+     "text": "Learn more",
+     "href": "https://www.fisglobal.com/global-innovation-report/non-fs#Impact-of-Innovation"
+    }
+   ],
+   "signin": [
+    {
+     "text": "Login",
+     "href": "https://www.fisglobal.com/login",
+     "top": 5787
+    }
+   ],
+   "audience_words": [
+    "developer",
+    "processor",
+    "fintech",
+    "atm",
+    "bank",
+    "financial institution"
+   ],
+   "headings": [
+    "h1: Empower debit cardholders with secure, real-time payments and ATM access",
+    "h2: Experience the speed, simplicity and security of real-time payments and cash acc",
+    "h2: Integrating proven capabilities for smarter payments",
+    "h2: Consistent, dependable payments",
+    "h2: Dive into the NYCE Payments Network advantage",
+    "h2: Unlocking greater value",
+    "h3: Meet the businesses we serve",
+    "h2: Resources",
+    "h2: Explore all the financial technology products FIS has to offer",
+    "h2: Let’s keep our conversation going",
+    "h2: Drive innovation with technology",
+    "h2: Capitalize on data insights",
+    "h2: Evolve to omnichannel strategies",
+    "h2: Drive innovation with technology",
+    "h2: Capitalize on data insights"
+   ],
+   "screenshot": "assets/nyce/nyce-fis-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": ":;",
+     "url": "https://www.fisglobal.com/",
+     "status": 200,
+     "result": "readable",
+     "words": 731,
+     "title": "Fidelity Information Services - FIS - Fintech Company"
+    },
+    {
+     "nav": "Products",
+     "url": "https://www.fisglobal.com/products",
+     "status": 200,
+     "result": "readable",
+     "words": 504,
+     "title": "Leading Financial Technology Services | FIS Products"
+    },
+    {
+     "nav": "Insights",
+     "url": "https://www.fisglobal.com/insights",
+     "status": 200,
+     "result": "readable",
+     "words": 928,
+     "title": "Banking & Payments Insights for Financial Institutions"
+    },
+    {
+     "nav": "Developers",
+     "url": "https://www.fisglobal.com/developers",
+     "status": 200,
+     "result": "contact",
+     "words": 140,
+     "title": "Banking APIs and Integrations – Developer Resources"
+    },
+    {
+     "nav": "Contact us",
+     "url": "https://www.fisglobal.com/contact-us",
+     "status": 200,
+     "result": "contact",
+     "words": 100,
+     "title": "Contact Us | FIS"
+    },
+    {
+     "nav": "Overview",
+     "url": "https://www.fisglobal.com/about-us",
+     "status": 200,
+     "result": "readable",
+     "words": 526,
+     "title": "Where Fintech Innovation Starts, and Never Stops | FIS"
+    },
+    {
+     "nav": "Leadership",
+     "url": "https://www.fisglobal.com/about-us/leadership",
+     "status": 200,
+     "result": "contact",
+     "words": 248,
+     "title": "FIS Executive Team - About Us | FIS"
+    },
+    {
+     "nav": "Media room",
+     "url": "https://www.fisglobal.com/about-us/media-room",
+     "status": 200,
+     "result": "readable",
+     "words": 342,
+     "title": "Media Room - News | FIS"
+    },
+    {
+     "nav": "Corporate citizenship",
+     "url": "https://www.fisglobal.com/about-us/global-community-involvement",
+     "status": 200,
+     "result": "readable",
+     "words": 1123,
+     "title": "Global Community Involvement - About Us | FIS"
+    },
+    {
+     "nav": "Global sustainability",
+     "url": "https://www.fisglobal.com/global-sustainability",
+     "status": 200,
+     "result": "readable",
+     "words": 860,
+     "title": "ESG at FIS: Download the Report | FIS"
+    },
+    {
+     "nav": "Awards",
+     "url": "https://www.fisglobal.com/about-us/awards",
+     "status": 200,
+     "result": "contact",
+     "words": 93,
+     "title": "Awards and Recognition - About Us | FIS"
+    },
+    {
+     "nav": "Ethics Office",
+     "url": "https://www.fisglobal.com/about-us/ethics",
+     "status": 200,
+     "result": "readable",
+     "words": 658,
+     "title": "Ethics | FIS"
+    },
+    {
+     "nav": "Minority banking",
+     "url": "https://www.fisglobal.com/minority-banking-mdi-cdfi",
+     "status": 200,
+     "result": "readable",
+     "words": 576,
+     "title": "Minority Banking – MDIs and CDFIs | FIS"
+    },
+    {
+     "nav": "InnovateIN48",
+     "url": "https://www.fisglobal.com/fisinnovatein48",
+     "status": 200,
+     "result": "readable",
+     "words": 489,
+     "title": "FIS | InnovateIN48 | FIS"
+    },
+    {
+     "nav": "Fintech Accelerator",
+     "url": "https://www.fisglobal.com/fis-fintech-accelerator",
+     "status": 200,
+     "result": "readable",
+     "words": 730,
+     "title": "FIS Fintech Accelerator – Drive Financial Innovation With Startups"
+    },
+    {
+     "nav": "Wealth partners",
+     "url": "https://www.fisglobal.com/wealth-partners",
+     "status": 200,
+     "result": "readable",
+     "words": 936,
+     "title": "Wealth Solutions and Insights for Financial Institutions"
+    }
+   ],
+   "walls": 4,
+   "readable": 12
+  },
+  "S3": {
+   "from": "Products",
+   "url": "https://www.fisglobal.com/products",
+   "title": "Leading Financial Technology Services | FIS Products",
+   "headings": [
+    "h1: FIS products",
+    "h2: The financial technology you need, all in one place",
+    "h2: Featured products",
+    "h3: Launch seamless origination across deposits, lending and cards",
+    "h3: Turn compliance from a regulatory burden into strategic advantage",
+    "h3: Enable faster, more secure payment processing across Canada",
+    "h3: Drive value for consumers and businesses at the moment of purchase",
+    "h3: Deliver the full range of supply chain finance solutions to your corporate custo",
+    "h2: Technology thatharmonizes the money lifecycle",
+    "h3: Money at Rest",
+    "h3: Money in Motion",
+    "h3: Money at Work",
+    "h2: Products thatcut across geographies",
+    "h2: Products suitedfor your role",
+    "h2: Tackle industry hurdles through technology",
+    "h2: Let's keep our conversation going",
+    "h3: Get in touch"
+   ],
+   "links": 28,
+   "sample": [
+    {
+     "text": "Overview",
+     "href": "https://www.fisglobal.com/products"
+    },
+    {
+     "text": "View all products",
+     "href": "https://www.fisglobal.com/products/product-catalog"
+    },
+    {
+     "text": "Get pricing",
+     "href": "https://www.fisglobal.com/solutions-contact"
+    },
+    {
+     "text": "Explore Origination Suite",
+     "href": "https://www.fisglobal.com/products/fis-origination-suite"
+    },
+    {
+     "text": "Explore Capital Markets Compliance Suite",
+     "href": "https://www.fisglobal.com/products/fis-compliance-suite"
+    },
+    {
+     "text": "Explore FIS® Everlink™",
+     "href": "https://www.fisglobal.com/products/fis-everlink"
+    },
+    {
+     "text": "Explore Smart Basket",
+     "href": "https://www.fisglobal.com/products/smart-basket"
+    },
+    {
+     "text": "Explore Supply Chain Finance Platform (formerly Demica)",
+     "href": "https://www.fisglobal.com/products/bank-supply-chain-finance-platform"
+    },
+    {
+     "text": "View products",
+     "href": "https://www.fisglobal.com/products/product-catalog?campaign=Money-at-rest"
+    },
+    {
+     "text": "View products",
+     "href": "https://www.fisglobal.com/products/product-catalog?campaign=Money-in-motion"
+    },
+    {
+     "text": "View products",
+     "href": "https://www.fisglobal.com/products/product-catalog?campaign=Money-at-work"
+    },
+    {
+     "text": "North America",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=north-america&region-focused=true"
+    },
+    {
+     "text": "Latin America",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=latin-america&region-focused=true"
+    },
+    {
+     "text": "United Kingdom",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=united-kingdom&region-focused=true"
+    },
+    {
+     "text": "Europe",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=europe&region-focused=true"
+    },
+    {
+     "text": "Middle Eastand Africa",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=middle-east-africa&region-focused=true"
+    },
+    {
+     "text": "Asia-Pacific",
+     "href": "https://www.fisglobal.com/products/product-catalog?region=asia-pacific&region-focused=true"
+    },
+    {
+     "text": "Compliance",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=compliance&role-focused=true"
+    },
+    {
+     "text": "Finance",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=finance&role-focused=true"
+    },
+    {
+     "text": "Investment",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=investment&role-focused=true"
+    },
+    {
+     "text": "Lending",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=lending&role-focused=true"
+    },
+    {
+     "text": "Operations",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=operations&role-focused=true"
+    },
+    {
+     "text": "Payments",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=payments&role-focused=true"
+    },
+    {
+     "text": "Risk",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=risk&role-focused=true"
+    },
+    {
+     "text": "Trading",
+     "href": "https://www.fisglobal.com/products/product-catalog?role=trading&role-focused=true"
+    },
+    {
+     "text": "Unlock the series",
+     "href": "https://www.fisglobal.com/insights/fintech-insights"
+    },
+    {
+     "text": "Go to Fintech Insights",
+     "href": "https://www.fisglobal.com/insights"
+    },
+    {
+     "text": "Let’s get started",
+     "href": "https://www.fisglobal.com/contact-us"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/nyce/nyce-fis-s3-04-20260925.webp"
+  },
+  "S7": {
+   "from": "Contact us",
+   "url": "https://www.fisglobal.com/contact-us",
+   "title": "Contact Us | FIS",
+   "phones": [],
+   "mailto": [],
+   "form": false,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "contact",
+   "screenshot": "assets/nyce/nyce-fis-s7-05-20260925.webp"
+  },
+  "S12": {
+   "candidates": [
+    {
+     "clicks": 1,
+     "text": "Read e-book",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "Move money to make money with your debit payments network e-book Turn ",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "NYCE Payments Network e-book Provide customers with secure, reliable a",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "How your customers benefit from a superior payments network e-book Tra",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-How-Your-Customers-Benefit-from-a-Superior-Payments-Network-ebook.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "View Q&A fis-icon-tertiary-download",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/new-l1-layouts/images/retail/redesign/Modal/2023-Retail-Embedded-Finance-QA"
+    },
+    {
+     "clicks": 1,
+     "text": "View paper fis-icon-tertiary-download",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/brochure/Perspective-Paper-1-of-3_Personalization_Final"
+    },
+    {
+     "clicks": 1,
+     "text": "View paper fis-icon-tertiary-download",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/brochure/Perspective-Paper-2-of-3_Operational-Automation"
+    },
+    {
+     "clicks": 1,
+     "text": "Download infographic fis-icon-tertiary-download",
+     "href": "https://image.showcaseemail.fisglobal.com/lib/fe3311747364047c721071/m/1/FIS_The_Global_Innovation_Report_Creating_Advantage_in_Uncertainty_Retail.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "Download report fis-icon-arrow",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/report/gir/FIS_The_Global_Innovation_Report_Creating_Advantage_in_Uncertainty.pdf"
+    },
+    {
+     "clicks": 1,
+     "text": "Begin adventure",
+     "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/brochure/Retail-Growth-Adventure-Final.pdf"
+    }
+   ],
+   "first": {
+    "clicks": 1,
+    "text": "Read e-book",
+    "href": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf"
+   }
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "final": "https://www.fisglobal.com/products/nyce-payments-network",
+   "status": 200,
+   "ms": 3169,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.fisglobal.com/",
+   "final": "https://www.fisglobal.com/",
+   "status": 200,
+   "ms": 2379,
+   "why": "S2 :;"
+  },
+  {
+   "url": "https://www.fisglobal.com/products",
+   "final": "https://www.fisglobal.com/products",
+   "status": 200,
+   "ms": 3852,
+   "why": "S2 Products"
+  },
+  {
+   "url": "https://www.fisglobal.com/insights",
+   "final": "https://www.fisglobal.com/insights",
+   "status": 200,
+   "ms": 2435,
+   "why": "S2 Insights"
+  },
+  {
+   "url": "https://www.fisglobal.com/developers",
+   "final": "https://www.fisglobal.com/developers",
+   "status": 200,
+   "ms": 1948,
+   "why": "S2 Developers"
+  },
+  {
+   "url": "https://www.fisglobal.com/contact-us",
+   "final": "https://www.fisglobal.com/contact-us",
+   "status": 200,
+   "ms": 2040,
+   "why": "S2 Contact us"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us",
+   "final": "https://www.fisglobal.com/about-us",
+   "status": 200,
+   "ms": 2098,
+   "why": "S2 Overview"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us/leadership",
+   "final": "https://www.fisglobal.com/about-us/leadership",
+   "status": 200,
+   "ms": 2799,
+   "why": "S2 Leadership"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us/media-room",
+   "final": "https://www.fisglobal.com/about-us/media-room",
+   "status": 200,
+   "ms": 1605,
+   "why": "S2 Media room"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us/global-community-involvement",
+   "final": "https://www.fisglobal.com/about-us/global-community-involvement",
+   "status": 200,
+   "ms": 2249,
+   "why": "S2 Corporate citizenship"
+  },
+  {
+   "url": "https://www.fisglobal.com/global-sustainability",
+   "final": "https://www.fisglobal.com/global-sustainability",
+   "status": 200,
+   "ms": 1619,
+   "why": "S2 Global sustainability"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us/awards",
+   "final": "https://www.fisglobal.com/about-us/awards",
+   "status": 200,
+   "ms": 2341,
+   "why": "S2 Awards"
+  },
+  {
+   "url": "https://www.fisglobal.com/about-us/ethics",
+   "final": "https://www.fisglobal.com/about-us/ethics",
+   "status": 200,
+   "ms": 2110,
+   "why": "S2 Ethics Office"
+  },
+  {
+   "url": "https://www.fisglobal.com/minority-banking-mdi-cdfi",
+   "final": "https://www.fisglobal.com/minority-banking-mdi-cdfi",
+   "status": 200,
+   "ms": 2632,
+   "why": "S2 Minority banking"
+  },
+  {
+   "url": "https://www.fisglobal.com/fisinnovatein48",
+   "final": "https://www.fisglobal.com/fisinnovatein48",
+   "status": 200,
+   "ms": 2128,
+   "why": "S2 InnovateIN48"
+  },
+  {
+   "url": "https://www.fisglobal.com/fis-fintech-accelerator",
+   "final": "https://www.fisglobal.com/fis-fintech-accelerator",
+   "status": 200,
+   "ms": 2456,
+   "why": "S2 Fintech Accelerator"
+  },
+  {
+   "url": "https://www.fisglobal.com/wealth-partners",
+   "final": "https://www.fisglobal.com/wealth-partners",
+   "status": 200,
+   "ms": 2333,
+   "why": "S2 Wealth partners"
+  },
+  {
+   "url": "https://www.fisglobal.com/products",
+   "final": "https://www.fisglobal.com/products",
+   "status": 200,
+   "ms": 3022,
+   "why": "S3 Products"
+  },
+  {
+   "url": "https://www.fisglobal.com/products/smart-basket",
+   "final": "https://www.fisglobal.com/products/smart-basket",
+   "status": 200,
+   "ms": 3321,
+   "why": "S3 Explore Smart Basket"
+  },
+  {
+   "url": "https://www.fisglobal.com/products/product-catalog",
+   "final": "https://www.fisglobal.com/products/product-catalog",
+   "status": 200,
+   "ms": 3754,
+   "why": "S3 View all products"
+  },
+  {
+   "url": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/",
+   "final": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/",
+   "status": 200,
+   "ms": 2145,
+   "why": "S3 Contact us"
+  },
+  {
+   "url": "https://www.fisglobal.com/products",
+   "final": "https://www.fisglobal.com/products",
+   "status": 200,
+   "ms": 2883,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "final": "https://www.fisglobal.com/products/nyce-payments-network",
+   "status": 200,
+   "ms": 2616,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.fisglobal.com/contact-us",
+   "final": "https://www.fisglobal.com/contact-us",
+   "status": 200,
+   "ms": 1876,
+   "why": "S7 Contact us"
+  },
+  {
+   "url": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/",
+   "final": "https://www.fisglobal.com/solutions-contact?param=/products/nyce-payments-network/",
+   "status": 200,
+   "ms": 1924,
+   "why": "S7 Contact us"
+  },
+  {
+   "url": "https://www.fisglobal.com/solutions-contact?param=products/nyce-payments-network&cta=toaster",
+   "final": "https://www.fisglobal.com/solutions-contact?param=products/nyce-payments-network&cta=toaster",
+   "status": 200,
+   "ms": 1919,
+   "why": "S7 Get in touch"
+  },
+  {
+   "url": "https://www.fisglobal.com/contact-us",
+   "final": "https://www.fisglobal.com/contact-us",
+   "status": 200,
+   "ms": 1953,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "final": "https://www.fisglobal.com/products/nyce-payments-network",
+   "status": 200,
+   "ms": 2542,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "nyce-fis-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-fis-s1-01-20260925.webp",
+   "kb": 23
+  },
+  {
+   "id": "nyce-fis-s02",
+   "station": "S2",
+   "note": "wall: Developers",
+   "url": "https://www.fisglobal.com/developers",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-fis-s2-02-20260925.webp",
+   "kb": 18
+  },
+  {
+   "id": "nyce-fis-s03",
+   "station": "S2",
+   "note": "wall: Contact us",
+   "url": "https://www.fisglobal.com/contact-us",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-fis-s2-03-20260925.webp",
+   "kb": 11
+  },
+  {
+   "id": "nyce-fis-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.fisglobal.com/products",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-fis-s3-04-20260925.webp",
+   "kb": 10
+  },
+  {
+   "id": "nyce-fis-s05",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.fisglobal.com/contact-us",
+   "captured": "2026-09-25",
+   "file": "assets/nyce/nyce-fis-s7-05-20260925.webp",
+   "kb": 11
+  }
+ ],
+ "errors": [],
+ "cookie_notes": [
+  {
+   "url": "https://www.fisglobal.com/products/nyce-payments-network",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.fisglobal.com/",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.fisglobal.com/products",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.fisglobal.com/insights",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.fisglobal.com/developers",
+   "banner": "accept-only banner, removed from view without consent"
+  },
+  {
+   "url": "https://www.fisglobal.com/contact-us",
+   "banner": "accept-only banner, removed from view without consent"
+  }
+ ],
+ "summary": {
+  "pages_visited": 28,
+  "screenshots": 5,
+  "errors": 0,
+  "walls_in_nav": 4,
+  "clicks_to_docs": null,
+  "clicks_to_wall": null,
+  "sandbox_wall": null
+ }
+}

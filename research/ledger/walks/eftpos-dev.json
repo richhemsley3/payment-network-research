@@ -1,0 +1,856 @@
+{
+ "network": "eftpos",
+ "seed": "https://www.developers.auspayplus.com.au/",
+ "tier": "A",
+ "date": "2026-09-25",
+ "viewport": "1440x1000",
+ "logged_out": true,
+ "stations": {
+  "S0": {
+   "final_url": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "redirected": false,
+   "cookie_banner": null,
+   "wall": "none",
+   "lang": "en",
+   "geo_prompt": false
+  },
+  "S1": {
+   "title": "AP+ Developers – Home",
+   "h1": "Welcome to AP+ Developers",
+   "description": "We're building a unified developer platform with technical documentation and tools to empower your business. Start exploring today.",
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "nav_labels": [],
+   "ctas": [
+    {
+     "text": "Get started",
+     "href": "https://www.developers.auspayplus.com.au/auth/login/?screen_hint=signup"
+    },
+    {
+     "text": "Learn more about BPAY",
+     "href": "https://www.developers.auspayplus.com.au/bpay/"
+    },
+    {
+     "text": "Learn more about eftpos",
+     "href": "https://www.developers.auspayplus.com.au/eftpos/"
+    },
+    {
+     "text": "Learn more about NPP",
+     "href": "https://www.developers.auspayplus.com.au/npp/"
+    },
+    {
+     "text": "Visit ConnectID",
+     "href": "https://connectid.com.au/"
+    },
+    {
+     "text": "Visit the AP+ website",
+     "href": "https://auspayplus.com.au/"
+    },
+    {
+     "text": "Sign up",
+     "href": "https://www.developers.auspayplus.com.au/auth/login/?screen_hint=signup"
+    },
+    {
+     "text": "Back to top",
+     "href": null
+    }
+   ],
+   "signin": [
+    {
+     "text": "Sign up",
+     "href": "https://www.developers.auspayplus.com.au/auth/login/?screen_hint=signup",
+     "top": 2407
+    }
+   ],
+   "audience_words": [
+    "developer"
+   ],
+   "headings": [
+    "h1: Welcome to AP+ Developers",
+    "h2: Explore our products",
+    "h3: BPAY® Payments",
+    "h3: eftpos",
+    "h3: NPP",
+    "h3: ConnectID®",
+    "h2: About Australian Payments Plus",
+    "h2: Start developing today"
+   ],
+   "screenshot": "assets/eftpos/eftpos-dev-s1-01-20260925.webp"
+  },
+  "S2": {
+   "items": [
+    {
+     "nav": "BPAY Payments",
+     "url": "https://www.developers.auspayplus.com.au/bpay/",
+     "status": 200,
+     "result": "readable",
+     "words": 1420,
+     "title": "Australian Payments Plus Developers"
+    },
+    {
+     "nav": "eftpos",
+     "url": "https://www.developers.auspayplus.com.au/eftpos/",
+     "status": 200,
+     "result": "readable",
+     "words": 452,
+     "title": "Australian Payments Plus Developers"
+    },
+    {
+     "nav": "NPP",
+     "url": "https://www.developers.auspayplus.com.au/npp/",
+     "status": 200,
+     "result": "readable",
+     "words": 402,
+     "title": "Australian Payments Plus Developers"
+    },
+    {
+     "nav": "APIs",
+     "url": "https://www.developers.auspayplus.com.au/apis/",
+     "status": 200,
+     "result": "readable",
+     "words": 915,
+     "title": "Australian Payments Plus Developers"
+    },
+    {
+     "nav": "Documentation",
+     "url": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBJcmFoalpja1FzSWZhbWc0bS1lSlpWY0Q0RTY3aXctZqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGZzTjdfbV9yTVhJZ2xzM0FwQ2JZRmNhTFA4M05qWFlHo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+     "status": 200,
+     "result": "login",
+     "words": 40,
+     "title": ""
+    },
+    {
+     "nav": "FAQs",
+     "url": "https://www.developers.auspayplus.com.au/faqs/",
+     "status": 200,
+     "result": "readable",
+     "words": 790,
+     "title": "AP+ Developers – FAQs"
+    },
+    {
+     "nav": "Contact Us",
+     "url": "https://www.developers.auspayplus.com.au/contact-us/",
+     "status": 200,
+     "result": "contact",
+     "words": 183,
+     "title": "Australian Payments Plus Developers"
+    },
+    {
+     "nav": "Log in",
+     "url": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBnUnd3eXdpa25xV2VsMXZFcmtLcklyRkdvY3Ryd0c0dKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHpCRW1RX192VEZZakZfb1hGcTJwaTQtY0dtOWpiQ0Vao2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+     "status": 200,
+     "result": "login",
+     "words": 40,
+     "title": ""
+    },
+    {
+     "nav": "Sign up",
+     "url": "https://auth.developers.auspayplus.com.au/u/signup/identifier?state=hKFo2SA4MHNrU2ttMXFLMW5peGI4a2Y0M1plMVZqNklfNi1ySKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDNmLTNyRHU5bV9SX0lkTy04b1RXbk4tRkVsNmt2cFBao2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+     "status": 200,
+     "result": "readable",
+     "words": 49,
+     "title": ""
+    }
+   ],
+   "walls": 3,
+   "readable": 6
+  },
+  "S3": {
+   "from": "APIs",
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "title": "Australian Payments Plus Developers",
+   "headings": [
+    "h1: APIs",
+    "h2: Available APIs",
+    "h3: Acquirer Disputes and Chargebacks",
+    "h3: BIN Inquiry",
+    "h3: Card Not Present Payment",
+    "h3: Card Present",
+    "h3: Click to Pay Issuer",
+    "h3: ConnectID APIs",
+    "h3: Generate BPAY Batch File",
+    "h3: Generate BPAY CRN",
+    "h3: Issuer Disputes and Chargebacks",
+    "h3: Manage BPAY Biller",
+    "h3: Manage BPAY Investigation",
+    "h3: NPP API Framework",
+    "h3: PayID APIs",
+    "h3: PayTo APIs",
+    "h3: Reference Data",
+    "h3: Retrieve BPAY Biller Details",
+    "h3: Submit BPAY Payment",
+    "h3: Token on File"
+   ],
+   "links": 39,
+   "sample": [
+    {
+     "text": "Go to Docs",
+     "href": "https://www.developers.auspayplus.com.au/docs/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/acquirer-disputes-and-chargebacks/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-disputes-chargebacks-api-acquirer/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/bin-inquiry/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-bin-inquiry-api/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/card-not-present-payment/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-card-not-present-payment-api/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/card-present/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-card-present-api/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/click-to-pay-issuer/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-click-to-pay-issuer-api/"
+    },
+    {
+     "text": "View on ConnectID docs",
+     "href": "https://docs.connectid.com.au/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-batch-file-api/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/bpay/generate-bpay-batch-file/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-crn-api/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/bpay/generate-bpay-crn/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/issuer-disputes-and-chargebacks/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-disputes-chargebacks-api-issuer/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/bpay/manage-bpay-biller-api/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/bpay/manage-bpay-biller/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/bpay/manage-bpay-investigation-api/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/bpay/manage-bpay-investigation/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/npp/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/npp/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://payid.com.au/"
+    },
+    {
+     "text": "View on NPP Developer",
+     "href": "https://nppa-developer.swift.com/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/eftpos/reference-data/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-reference-data-api/"
+    },
+    {
+     "text": "Overview",
+     "href": "https://www.developers.auspayplus.com.au/apis/bpay/retrieve-bpay-biller-details-api/"
+    },
+    {
+     "text": "DocumentationSign up or log in to view",
+     "href": "https://www.developers.auspayplus.com.au/docs/bpay/retrieve-bpay-biller-details/"
+    }
+   ],
+   "wall": "none",
+   "screenshot": "assets/eftpos/eftpos-dev-s3-04-20260925.webp"
+  },
+  "S4": {
+   "clicks_to_docs": 2,
+   "reference": {
+    "url": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-batch-file-api/",
+    "title": "Generate BPAY Batch File API",
+    "depth": 2,
+    "code_blocks": 0,
+    "endpoints_seen": 1,
+    "login_wall": false
+   },
+   "sample_languages": [],
+   "openapi_or_postman": null,
+   "auth_docs": null,
+   "public_test_data_mentioned": true,
+   "pages_tried": 23
+  },
+  "S5": {
+   "entry": {
+    "text": "Sign up",
+    "href": "https://www.developers.auspayplus.com.au/auth/login?screen_hint=signup"
+   },
+   "trail": [
+    {
+     "click": 1,
+     "text": "Sign up",
+     "url": "https://auth.developers.auspayplus.com.au/u/signup/identifier?state=hKFo2SBBTVQ5blNHV05TdFktS2drbDU5STE3Mk1kYUptR0NmLaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZYaEtyN2ZJM3RRMW5ETWFYQ1FGT3JoUmhPSnFIb2Zso2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+     "status": 200
+    }
+   ],
+   "clicks_to_wall": 1,
+   "wall": "account form",
+   "fields_asked": [
+    "email",
+    "ulp-first-name",
+    "ulp-last-name",
+    "ulp-company-name",
+    "ulp-terms-of-service"
+   ],
+   "try_it_console": false
+  },
+  "S6": {
+   "pages": [],
+   "rung": "not described"
+  },
+  "S7": {
+   "from": "Contact Us",
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "title": "Australian Payments Plus Developers",
+   "phones": [],
+   "mailto": [],
+   "form": true,
+   "chat": false,
+   "hours": null,
+   "community": [],
+   "sla": false,
+   "languages": false,
+   "wall": "contact",
+   "screenshot": "assets/eftpos/eftpos-dev-s7-07-20260925.webp"
+  },
+  "S8": {
+   "pages": [],
+   "status_page": false,
+   "changelog": false
+  },
+  "S9": {
+   "has_search": false,
+   "results": [
+    {
+     "query": "authorization",
+     "result": "no search box"
+    },
+    {
+     "query": "test cards",
+     "result": "no search box"
+    },
+    {
+     "query": "certification",
+     "result": "no search box"
+    }
+   ]
+  },
+  "S10": {
+   "lang": "en",
+   "skip_link": false,
+   "landmarks": {
+    "header": true,
+    "nav": 2,
+    "main": true,
+    "footer": true,
+    "search": false
+   },
+   "h1_count": 1,
+   "heading_level_skips": false,
+   "first_ten_tabs": [
+    "a",
+    "button: Toggle mobile menu",
+    "a: Get started",
+    "a: Learn more about BPAY",
+    "a: Learn more about eftpos",
+    "a: Learn more about NPP",
+    "a: Visit ConnectID",
+    "a: Visit the AP+ website",
+    "a: Sign up",
+    "button: Back to top"
+   ],
+   "nav_reachable_by_keyboard": true
+  },
+  "S11": {
+   "overflow": true,
+   "hamburger": true,
+   "nav_visible": 0,
+   "screenshot": "assets/eftpos/eftpos-dev-s11-08-20260925.webp"
+  },
+  "S12": {
+   "candidates": [],
+   "first": null
+  }
+ },
+ "visited": [
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 2095,
+   "why": "S0 seed"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/bpay/",
+   "final": "https://www.developers.auspayplus.com.au/bpay/",
+   "status": 200,
+   "ms": 1882,
+   "why": "S2 BPAY Payments"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/eftpos/",
+   "final": "https://www.developers.auspayplus.com.au/eftpos/",
+   "status": 200,
+   "ms": 1865,
+   "why": "S2 eftpos"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/npp/",
+   "final": "https://www.developers.auspayplus.com.au/npp/",
+   "status": 200,
+   "ms": 1939,
+   "why": "S2 NPP"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "final": "https://www.developers.auspayplus.com.au/apis/",
+   "status": 200,
+   "ms": 2214,
+   "why": "S2 APIs"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBJcmFoalpja1FzSWZhbWc0bS1lSlpWY0Q0RTY3aXctZqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGZzTjdfbV9yTVhJZ2xzM0FwQ2JZRmNhTFA4M05qWFlHo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3556,
+   "why": "S2 Documentation"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/faqs/",
+   "final": "https://www.developers.auspayplus.com.au/faqs/",
+   "status": 200,
+   "ms": 1956,
+   "why": "S2 FAQs"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "final": "https://www.developers.auspayplus.com.au/contact-us/",
+   "status": 200,
+   "ms": 1848,
+   "why": "S2 Contact Us"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/auth/login?returnTo=/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBnUnd3eXdpa25xV2VsMXZFcmtLcklyRkdvY3Ryd0c0dKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHpCRW1RX192VEZZakZfb1hGcTJwaTQtY0dtOWpiQ0Vao2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 2723,
+   "why": "S2 Log in"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/auth/login?screen_hint=signup",
+   "final": "https://auth.developers.auspayplus.com.au/u/signup/identifier?state=hKFo2SA4MHNrU2ttMXFLMW5peGI4a2Y0M1plMVZqNklfNi1ySKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDNmLTNyRHU5bV9SX0lkTy04b1RXbk4tRkVsNmt2cFBao2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3074,
+   "why": "S2 Sign up"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "final": "https://www.developers.auspayplus.com.au/apis/",
+   "status": 200,
+   "ms": 2006,
+   "why": "S3 APIs"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "final": "https://www.developers.auspayplus.com.au/apis/",
+   "status": 200,
+   "ms": 2060,
+   "why": "S3 best"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/bpay/",
+   "final": "https://www.developers.auspayplus.com.au/bpay/",
+   "status": 200,
+   "ms": 1911,
+   "why": "S4 BPAY Payments"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/eftpos/",
+   "final": "https://www.developers.auspayplus.com.au/eftpos/",
+   "status": 200,
+   "ms": 1991,
+   "why": "S4 eftpos"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/npp/",
+   "final": "https://www.developers.auspayplus.com.au/npp/",
+   "status": 200,
+   "ms": 1919,
+   "why": "S4 NPP"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "final": "https://www.developers.auspayplus.com.au/apis/",
+   "status": 200,
+   "ms": 2093,
+   "why": "S4 APIs"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBZcU1RMlZVbEJyVXFxdlV6YnZNZlBVWmNjUTQ3ZlpVcqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEk5czBxX0ZScTdlN2c3Zmk1S2QySmpJQXVVdGNKQ1BKo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3433,
+   "why": "S4 Documentation"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/bpay/generate-bpay-crn/",
+   "final": "https://www.developers.auspayplus.com.au/bpay/generate-bpay-crn/",
+   "status": 404,
+   "ms": 1808,
+   "why": "S4 Generate Customer Reference Numbers and QR Codes"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/bpay/retrieve-bpay-biller-details-api/",
+   "final": "https://www.developers.auspayplus.com.au/bpay/retrieve-bpay-biller-details-api/",
+   "status": 404,
+   "ms": 1860,
+   "why": "S4 Look up and confirm Biller details"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/bpay/validate-bpay-payment-api/",
+   "final": "https://www.developers.auspayplus.com.au/bpay/validate-bpay-payment-api/",
+   "status": 404,
+   "ms": 1806,
+   "why": "S4 Validate payments"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/bpay/submit-bpay-payment/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBnWVVNZFEwV0VUaEJnLUdwdXE3aDlhVW8tUXFlZDFDUaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEhxVUhnLVdnemFIQjBLSVdoQnpKTl80NWVIcHJRc2xro2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3215,
+   "why": "S4 Submit payments to BPAY"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/card-not-present-payment/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/card-not-present-payment/",
+   "status": 200,
+   "ms": 1873,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/token-on-file/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/token-on-file/",
+   "status": 200,
+   "ms": 1838,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/issuer-disputes-and-chargebacks/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/issuer-disputes-and-chargebacks/",
+   "status": 200,
+   "ms": 1837,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/click-to-pay-issuer/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/click-to-pay-issuer/",
+   "status": 200,
+   "ms": 1836,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/api/auth/signup/?returnTo=/",
+   "final": "https://www.developers.auspayplus.com.au/api/auth/signup/?returnTo=/",
+   "status": 404,
+   "ms": 1865,
+   "why": "S4 Sign up"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/acquirer-disputes-and-chargebacks/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/acquirer-disputes-and-chargebacks/",
+   "status": 200,
+   "ms": 1841,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-disputes-chargebacks-api-acquirer/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBET2YySXM4S2ZINHVNeUVISTZUb0J5VXhRSjViaW5aNKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIExlMFhHZU9WVktENjRPZ1VwVDFFYXNfRnJiekdjc25Uo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3266,
+   "why": "S4 DocumentationSign up or log in to view"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/bin-inquiry/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/bin-inquiry/",
+   "status": 200,
+   "ms": 1828,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-bin-inquiry-api/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SA1NEstTGdUYlNGc1dHMkstQkUtY0IyQU85X1J4WTREVaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDc5dkUyVHl4MTdONENMb3VFMnhJcjFfclZFMUx3WDNlo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3585,
+   "why": "S4 DocumentationSign up or log in to view"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-card-not-present-payment-api/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SB2VWo2M0FCZE9EMHpianNRR0JNSms4UEU3UzZkZWdwQaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFJNT25nVlpVYUxoVEJlZXU2V2NWamliRGZFY1diVlFto2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3134,
+   "why": "S4 DocumentationSign up or log in to view"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/eftpos/card-present/",
+   "final": "https://www.developers.auspayplus.com.au/apis/eftpos/card-present/",
+   "status": 200,
+   "ms": 1895,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-card-present-api/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBLQjRjOUo4WVRiblQtc0dLOGkzeWJvRDdHZHk3dWUtZqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFY0ZGF0ZEtocGZqMENXYXNkX3VHcElFRXo4UUViRGI2o2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 4016,
+   "why": "S4 DocumentationSign up or log in to view"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/docs/eftpos/eftpos-click-to-pay-issuer-api/",
+   "final": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SA0LTkwRlV4THAtTW83MGNTX2JCM3BDbkFkM1RiaF83NKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEpuaHdDaDI3T19UVlFDYWhqY1BacGI0Tld2VC1tYUdZo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 3148,
+   "why": "S4 DocumentationSign up or log in to view"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-batch-file-api/",
+   "final": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-batch-file-api/",
+   "status": 200,
+   "ms": 1901,
+   "why": "S4 Overview"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1841,
+   "why": "S5 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/auth/login?screen_hint=signup",
+   "final": "https://auth.developers.auspayplus.com.au/u/signup/identifier?state=hKFo2SBBTVQ5blNHV05TdFktS2drbDU5STE3Mk1kYUptR0NmLaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZYaEtyN2ZJM3RRMW5ETWFYQ1FGT3JoUmhPSnFIb2Zso2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "status": 200,
+   "ms": 2801,
+   "why": "S5 Sign up"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1866,
+   "why": "S6 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1859,
+   "why": "S7 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "final": "https://www.developers.auspayplus.com.au/contact-us/",
+   "status": 200,
+   "ms": 1844,
+   "why": "S7 Contact Us"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "final": "https://www.developers.auspayplus.com.au/contact-us/",
+   "status": 200,
+   "ms": 1893,
+   "why": "S7 best"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1836,
+   "why": "S8 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1965,
+   "why": "S9 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1892,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1868,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 1852,
+   "why": "S9 reset"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 2002,
+   "why": "S10 home"
+  },
+  {
+   "url": "https://www.developers.auspayplus.com.au/",
+   "final": "https://www.developers.auspayplus.com.au/",
+   "status": 200,
+   "ms": 2011,
+   "why": "S12 home"
+  }
+ ],
+ "screenshots": [
+  {
+   "id": "eftpos-dev-s01",
+   "station": "S1",
+   "note": "landing",
+   "url": "https://www.developers.auspayplus.com.au/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s1-01-20260925.webp",
+   "kb": 57
+  },
+  {
+   "id": "eftpos-dev-s02",
+   "station": "S2",
+   "note": "wall: Documentation",
+   "url": "https://auth.developers.auspayplus.com.au/u/login/identifier?state=hKFo2SBJcmFoalpja1FzSWZhbWc0bS1lSlpWY0Q0RTY3aXctZqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGZzTjdfbV9yTVhJZ2xzM0FwQ2JZRmNhTFA4M05qWFlHo2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s2-02-20260925.webp",
+   "kb": 17
+  },
+  {
+   "id": "eftpos-dev-s03",
+   "station": "S2",
+   "note": "wall: Contact Us",
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s2-03-20260925.webp",
+   "kb": 52
+  },
+  {
+   "id": "eftpos-dev-s04",
+   "station": "S3",
+   "note": "catalogue",
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s3-04-20260925.webp",
+   "kb": 44
+  },
+  {
+   "id": "eftpos-dev-s05",
+   "station": "S4",
+   "note": "reference page",
+   "url": "https://www.developers.auspayplus.com.au/apis/bpay/generate-bpay-batch-file-api/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s4-05-20260925.webp",
+   "kb": 61
+  },
+  {
+   "id": "eftpos-dev-s06",
+   "station": "S5",
+   "note": "first wall",
+   "url": "https://auth.developers.auspayplus.com.au/u/signup/identifier?state=hKFo2SBBTVQ5blNHV05TdFktS2drbDU5STE3Mk1kYUptR0NmLaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDZYaEtyN2ZJM3RRMW5ETWFYQ1FGT3JoUmhPSnFIb2Zso2NpZNkgQkphSU50UlNQSmNpSkdlMmRkYm5KbFNtdUNwc0ZPWmk",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s5-06-20260925.webp",
+   "kb": 20
+  },
+  {
+   "id": "eftpos-dev-s07",
+   "station": "S7",
+   "note": "support",
+   "url": "https://www.developers.auspayplus.com.au/contact-us/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s7-07-20260925.webp",
+   "kb": 52
+  },
+  {
+   "id": "eftpos-dev-s08",
+   "station": "S11",
+   "note": "mobile landing",
+   "url": "https://www.developers.auspayplus.com.au/",
+   "captured": "2026-09-25",
+   "file": "assets/eftpos/eftpos-dev-s11-08-20260925.webp",
+   "kb": 32
+  }
+ ],
+ "errors": [],
+ "summary": {
+  "pages_visited": 48,
+  "screenshots": 8,
+  "errors": 0,
+  "walls_in_nav": 3,
+  "clicks_to_docs": 2,
+  "clicks_to_wall": 1,
+  "sandbox_wall": "account form"
+ }
+}
