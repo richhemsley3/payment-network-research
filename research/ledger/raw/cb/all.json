@@ -1,0 +1,597 @@
+{
+  "network": "cb",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "CB is a French economic interest grouping (GIE) that defines the operating rules of the CB card payment scheme, physical and mobile.",
+      "quote": "Le Groupement des Cartes Bancaires CB est un Groupement d’Intérêt Economique qui définit les modalités de fonctionnement du schéma de paiement par carte CB",
+      "url": "https://web.archive.org/web/20240419101100/https://www.cartes-bancaires.com/cb/groupement/",
+      "title": "Le GIE CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Snapshot 2024-04-19. Gloss: 'The CB grouping is a GIE that defines how the CB card payment scheme operates.' HQ Paris per CJEU judgment (see court claim). No ownership change found since 2020; CB remains bank-owned GIE."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Through holding CB Investissements, CB owns three subsidiaries (PayCert, CB2i, FrenchSys) and holds a stake in the STET clearing and routing network.",
+      "quote": "Via la holding CB Investissements, CB détient 3 filiales et participe au capital du réseau de routage et de compensation STET.",
+      "url": "https://web.archive.org/web/20240419101100/https://www.cartes-bancaires.com/cb/groupement/",
+      "title": "Le GIE CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'Via the holding CB Investissements, CB owns 3 subsidiaries and holds capital in the STET routing and clearing network.' Subsidiaries named on page: PayCert (test lab/certification authority), CB2i (consulting and training), FrenchSys (acceptance/acquiring integration)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "CB's own key-figures page states 2023 volumes of 15 billion transactions, EUR 676 billion, 77 million cards, 7 billion contactless payments (EUR 116 billion) and 2 billion remote payments.",
+      "quote": "En 2023, CB c'est : 0 milliards de transactions CB 0 milliards d'€ de transactions CB 0 millions de cartes en circulation",
+      "url": "https://web.archive.org/web/20250101122552/https://www.cartes-bancaires.com/cb/chiffres/",
+      "title": "Les chiffres-clés | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Snapshot 2025-01-01. Counters render as '0' in the static HTML; the values are carried in data-number attributes in page order: 15, 676, 77, 7, 116, 2. Page also states 'plus de 65% de la consommation courante est réglée avec une carte CB'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "CB's March 2025 Sommet press release cites more than 14 billion transactions per year and 77 million CB cards in circulation.",
+      "quote": "Avec plus de 14 milliards de transactions par an, et 77 millions de cartes CB en circulation, CB continue d’innover",
+      "url": "https://web.archive.org/web/20250321191552/https://www.cartes-bancaires.com/actualites/le-sommet-cb-2025-simpose-comme-le-carrefour-de-linnovationet-des-paiements-par-carte-et-mobile-souverains-en-france/",
+      "title": "Communiqué de presse : le Sommet CB 2025",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2025-03-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'With more than 14 billion transactions a year and 77 million CB cards in circulation.' Differs from the 15 billion on the key-figures page and in the Jan 2026 Adyen release; flagged in contradictions."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The CJEU record describes CB as created in 1984 by the main French banks for interoperability of card payment and ATM withdrawal, with 148 members in 2007 split into main members and affiliated institutions.",
+      "quote": "The members of the Grouping, which numbered 148 on 29 June 2007, are either ‘main members’ or institutions linked to a main member.",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62013CJ0067",
+      "title": "Judgment of the Court (Third Chamber), Case C-67/13 P, Groupement des cartes bancaires (CB) v Commission",
+      "publisher": "Court of Justice of the European Union via EUR-Lex",
+      "published": "2014-09-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Judgment also states CB is 'established in Paris' and that BNP Paribas, BPCE and Société Générale were among the eleven main members. Historical count; no current participant count found published."
+    },
+    {
+      "dimension": "reach",
+      "claim": "CB card payments are co-badged with Visa (and Mastercard) on French bank cards; La Banque Postale committed to Apple Pay running on both CB and Visa networks in co-badged mode by Q1 2025.",
+      "quote": "Apple Pay fonctionnant sur les deux réseaux de paiement CB et Visa en mode cobadgé",
+      "url": "https://web.archive.org/web/20241220143852/https://www.cartes-bancaires.com/actualites/la-banque-postale-sengage-en-faveur-du-br-pay-in-france-avec-le-deploiement-du-paiement-mobile-apple-pay-sur-le-reseau-cb/",
+      "title": "La Banque Postale s’engage en faveur du « Pay in France »",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2024-12-17",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Apple Pay working on both the CB and Visa payment networks in co-badged mode.' Release also says wallet usage rose from 4.6% (2022) to 8.2% (2023) of payments."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant-facing CB products named on the site include FAST'R by CB (online payment authentication), SoftPOS Android, Tap to Pay sur iPhone, PLBS (rental deposits), contactless transit open payment, hospital bill payment, vending and cash withdrawal.",
+      "quote": "Payer en magasin Payer en ligne Paiement sur SoftPOS Paiement sur SoftPOS SoftPOS Android Tap to Pay sur iPhone Transférer un fond de crédit",
+      "url": "https://web.archive.org/web/20250909213937/https://www.cartes-bancaires.com/",
+      "title": "Accueil | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Snapshot 2025-09-09 navigation. Security menu lists 'Payer en ligne avec FAST’R by CB', 'L’agrément CB', 'Labélisation CB', 'Sécurité des données'. No tokenisation, dispute, data or loyalty product names are exposed on the public site."
+    },
+    {
+      "dimension": "services",
+      "claim": "CB also runs acceptance of dematerialised meal vouchers (Titres Restaurant Dématérialisés) on the same merchant terminals as card and mobile.",
+      "quote": "l’acceptation des Titres Restaurant Dématérialisés sur les mêmes terminaux que ceux utilisés pour la carte et le mobile chez les commerçants.",
+      "url": "https://web.archive.org/web/20240419101100/https://www.cartes-bancaires.com/cb/groupement/",
+      "title": "Le GIE CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'acceptance of dematerialised meal vouchers on the same terminals used for card and mobile at merchants.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Subsidiary FrenchSys integrates foreign payment scheme specifications so those schemes' cardholders can pay on French acceptance as simply as with CB.",
+      "quote": "notamment avec sa filiale FrenchSys, les spécifications de systèmes de paiement étrangers pour permettre à leurs porteurs de payer aussi simplement qu’avec CB.",
+      "url": "https://web.archive.org/web/20240419101100/https://www.cartes-bancaires.com/cb/groupement/",
+      "title": "Le GIE CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "frenchsys.fr did not respond to fetch on 2026-09-25 (wall dead)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Certification subsidiary PayCert has certified payment products (cards, terminals) since 2008 and lists CB AFAS, Sites Remparts, crypto enclosures, acquirer systems and Open API among certified product categories.",
+      "quote": "PayCert certifie des produits dans le domaine du Paiement (cartes, terminaux) depuis 2008",
+      "url": "https://www.paycert.eu/",
+      "title": "Paycert.eu – Certification Body for secure electronic transactions",
+      "publisher": "PayCert (CB subsidiary)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'PayCert has certified products in the payment domain (cards, terminals) since 2008.' Site menu: Terminaux, Solutions E-commerce, Produits Cartes, CB AFAS, Enceintes Crypto, Sites Remparts, Systèmes acquéreurs, Open API, Transport, CPACE, Laboratoires habilités."
+    },
+    {
+      "dimension": "join",
+      "claim": "Adyen becomes a principal member (membre principal) of CB from 1 April 2026 and simultaneously a direct participant of STET, giving it a strengthened role in CB's operational and financial oversight.",
+      "quote": "devient, à compter du 1er avril 2026, membre principal du Groupement des Cartes Bancaires CB",
+      "url": "https://web.archive.org/web/20260214031847/https://www.cartes-bancaires.com/actualites/adyen-devient-membre-principal-de-cb-et-participant-direct-de-stet/",
+      "title": "Adyen devient membre principal de CB et participant direct de STET",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2026-01-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'becomes, from 1 April 2026, a principal member of the CB grouping.' Release: 'Ce statut de membre principal offrira à Adyen un rôle renforcé dans le suivi opérationnel et financier de CB.' Shows non-bank PSPs can be principal members; no application steps, fees or timelines published."
+    },
+    {
+      "dimension": "join",
+      "claim": "CB's principal members are listed in two colleges, 'Collège A' partner banks and 'Collège B'.",
+      "quote": "Liste des Membres Principaux CB Banques partenaires Collège A Collège B",
+      "url": "https://web.archive.org/web/20260406111502/https://www.cartes-bancaires.com/cb/ecosysteme/membres-principaux/",
+      "title": "Membres principaux | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Snapshot 2026-04-06. Member logos are images; names not readable in the archived text. Membership criteria, fees and the difference between colleges are not explained on the page."
+    },
+    {
+      "dimension": "join",
+      "claim": "CB agrément (approval) requires bank and vendor products and services to pass laboratory tests against CB functional and security requirements, and is valid for the product's life cycle.",
+      "quote": "les produits et services sont soumis à des tests en laboratoire et s’ils y répondent positivement, ils jouissent de la caution que confère l’agrément CB",
+      "url": "https://web.archive.org/web/20240523025459/https://www.cartes-bancaires.com/securite/securiser-transactions/agrement-cb/",
+      "title": "L’agrément CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'products and services undergo lab tests and, if they pass, enjoy the endorsement conferred by CB approval.' Page links published lists: '2-Systèmes d’acceptation agréés CB commercialisables : Monétique intégrée' and '7-Systèmes d’acceptation Open Payment agréés'. No fees or timelines published."
+    },
+    {
+      "dimension": "join",
+      "claim": "CB labelisation for acceptance-solution service providers has two tiers: a declarative tier giving simple referencing and an audited tier giving the label, administered via the REMPARTS portal.",
+      "quote": "Un niveau déclaratif donnant lieu à un simple référencement Un niveau avec audit préalable donnant lieu à labélisation.",
+      "url": "https://web.archive.org/web/20240221022348/https://www.cartes-bancaires.com/securite/securiser-transactions/labelisation/",
+      "title": "Labélisation CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Covers developers, integrators, preparers, operators (parametrage, télé-collecte), maintainers, storage and distributors of CB acceptance systems. 'REMPARTS, le portail de labélisation CB' is named; remparts.cartes-bancaires.com served a Gcore browser-validation block on 2026-09-25."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "CB publishes its interchange (Commission d'Interchange de Paiement) rates applicable from 1 January 2021: debit 0.20%, prepaid 0.20%, credit 0.30%, commercial 0.90%.",
+      "quote": "Débit : 0,20% Prépayé : 0,20% Crédit : 0,30% Commercial : 0,90%",
+      "url": "https://web.archive.org/web/20240523034021/https://www.cartes-bancaires.com/solutions/modes-paiement/commissions-interchange/",
+      "title": "Les commissions interchange | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Heading on page: 'Frais applicables au 01/01/2021'. Page states rates are capped by EU Regulation 2015/751. No newer schedule, no network/assessment/cross-border fees, no membership fee found."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "CB describes the CIP as covering debit/credit management, clearing, settlement, payment guarantee and a contribution to collective security and anti-fraud measures.",
+      "quote": "Elle intègre la gestion des débits et des crédits, la compensation, le règlement, la garantie de paiement",
+      "url": "https://web.archive.org/web/20240523034021/https://www.cartes-bancaires.com/solutions/modes-paiement/commissions-interchange/",
+      "title": "Les commissions interchange | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'It covers debit and credit management, clearing, settlement, the payment guarantee.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The French competition authority closed its interchange case against CB on 7 July 2011 by accepting commitments, following a complaint by retail federations FCD and CdCF.",
+      "quote": "Acceptation des engagements Clôture de la procédure",
+      "url": "https://www.autoritedelaconcurrence.fr/fr/decision/relative-des-pratiques-mises-en-oeuvre-par-le-groupement-des-cartes-bancaires",
+      "title": "Décision 11-D-11 du 07 juillet 2011 | Autorité de la concurrence",
+      "publisher": "Autorité de la concurrence",
+      "published": "2011-07-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'Acceptance of commitments; closure of proceedings.' Page also cross-references decision 19-D-18 (31 July 2019) on card payment means. Historical; predates 2020."
+    },
+    {
+      "dimension": "rules",
+      "claim": "In 2014 the CJEU set aside the General Court judgment upholding the Commission's 2007 decision against CB's new-entrant pricing measures (MERFA, membership fee per card, dormant-member fee).",
+      "quote": "Sets aside the judgment of the General Court of the European Union of 29 November 2012 in Case T‑491/07 CB v Commission",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62013CJ0067",
+      "title": "Judgment of the Court (Third Chamber), Case C-67/13 P, Groupement des cartes bancaires (CB) v Commission",
+      "publisher": "Court of Justice of the European Union via EUR-Lex",
+      "published": "2014-09-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Relevant to join/pricing: CB's constitutive agreement and member pricing measures (MERFA, 'droit d’adhésion') were the object of Commission Decision C(2007) 5060 (COMP/D1/38606). Historical context only."
+    },
+    {
+      "dimension": "rules",
+      "claim": "CB advisory governance includes a Banks-Industry Advisory Council (CCBI) meeting twice a year and a Commerce Advisory Council (CCC) with six merchant federations.",
+      "quote": "Le Conseil Consultatif du Commerce (CCC) au sein de CB associe ce dernier et 6 fédérations de commerçants.",
+      "url": "https://web.archive.org/web/20240523020253/https://www.cartes-bancaires.com/cb/ecosysteme/industriels/",
+      "title": "Industriels | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Industriels page: 'Deux fois par an, un conseil consultatif réunit les experts CB et les industriels.' Gloss: 'Twice a year an advisory council brings together CB experts and industry vendors.' No public rulebook, bulletin cadence or dispute framework found on the public site."
+    },
+    {
+      "dimension": "rules",
+      "claim": "CB claims scheme availability close to 100% and the lowest possible fraud rate, attributing this to its agrément programme.",
+      "quote": "Le schéma CB bénéficie d’un taux de disponibilité proche de 100% et d’un taux de fraude circonscrit au plus bas.",
+      "url": "https://web.archive.org/web/20240523025459/https://www.cartes-bancaires.com/securite/securiser-transactions/agrement-cb/",
+      "title": "L’agrément CB | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'The CB scheme benefits from availability close to 100% and a fraud rate kept as low as possible.' No status page or incident history found."
+    },
+    {
+      "dimension": "support",
+      "claim": "CB2i FORMATION is CB's training body, delivering courses on card payments and the CB system, card fraud, NFC mobile payment and payment cryptography.",
+      "quote": "CB2i FORMATION est l’organisme de formation du Groupement des Cartes Bancaires CB.",
+      "url": "https://web.archive.org/web/20240419095532/https://www.cartes-bancaires.com/formations/",
+      "title": "Formations | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Courses listed: 'La monétique et le système CB', 'La lutte contre la fraude à la carte bancaire', 'Le paiement digital mobile NFC', 'Introduction à la cryptographie monétique', plus 'SPÉCIAL COMMERCE' by 2025. Registration via online form; prices not shown in archived text."
+    },
+    {
+      "dimension": "support",
+      "claim": "The only public contact channel is a web form promising a reply 'as soon as possible'; no hours, phone, languages or SLA are published.",
+      "quote": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les meilleurs délais.",
+      "url": "https://web.archive.org/web/20240217135725/https://www.cartes-bancaires.com/contact/",
+      "title": "Contact | Cartes Bancaires",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'Fill in the form below and we will reply as soon as possible.' Absence of SLA, hours and account-management model recorded."
+    },
+    {
+      "dimension": "support",
+      "claim": "The annual Sommet CB (2025 edition) drew about 2,000 participants, 70 exhibitor stands and 10 conferences, and hosts the Trophées de l'Innovation CB.",
+      "quote": "Avec près de 2000 participants, 70 stands d’exposants, et 10 conférences stratégiques",
+      "url": "https://web.archive.org/web/20250321191552/https://www.cartes-bancaires.com/actualites/le-sommet-cb-2025-simpose-comme-le-carrefour-de-linnovationet-des-paiements-par-carte-et-mobile-souverains-en-france/",
+      "title": "Communiqué de presse : le Sommet CB 2025",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2025-03-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Other events named on site: Forum CB 2024, NRF Retail's Big Show Europe stand (16-18 Sept 2025), MIF Expo Paris 2025, 'Les entretiens de CB' replay (Jan 2026)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-31: third Sommet CB held at the Carrousel du Louvre; CB announced its partnership with the UCI 2027 Road World Championships and named the 2026 Trophées de l'Innovation winners.",
+      "quote": "Le Sommet CB s'est tenu aujourd'hui au Carrousel du Louvre, rassemblant pour cette troisième édition l'ensemble des acteurs du paiement par carte et mobile CB.",
+      "url": "https://web.archive.org/web/20260419123902/https://www.cartes-bancaires.com/actualites/le-sommet-cb-met-en-lumiere-les-laureats-des-trophees-de-linnovation-2026/",
+      "title": "Le Sommet CB met en lumière les lauréats des Trophées de l’Innovation 2026",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'The CB Summit was held today at the Carrousel du Louvre, gathering for this third edition all CB card and mobile payment players.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-10-17: Gérald Grégoire was unanimously elected Chairman of CB's Conseil de Direction, replacing Jean-Paul Mazoyer, under the 'CB Dynamique 2026' strategic plan and the new tagline 'CB, le paiement made in France'.",
+      "quote": "Gérald Grégoire a été élu à l’unanimité, Président du Conseil de Direction en remplacement de Jean-Paul Mazoyer.",
+      "url": "https://web.archive.org/web/20251023231536/https://www.cartes-bancaires.com/actualites/gerald-gregoire-elu-a-lunanimite-nouveau-president-du-conseil-de-direction/",
+      "title": "Gérald Grégoire, élu à l’unanimité, nouveau Président du Conseil de Direction !",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2025-10-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Philippe Laulanie remains Administrateur et Directeur Général. Governance page (snapshot 2025-01-25) lists the executive team incl. Directeur Distribution & Animation Commerciale Renan Le Bot."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-03-20: CB chairman said card payments overtook cash in France for the first time, 48% of transactions by card versus 43% in cash.",
+      "quote": "48 % des transactions sont désormais effectuées par carte, contre 43 % en espèces.",
+      "url": "https://web.archive.org/web/20250321191552/https://www.cartes-bancaires.com/actualites/le-sommet-cb-2025-simpose-comme-le-carrefour-de-linnovationet-des-paiements-par-carte-et-mobile-souverains-en-france/",
+      "title": "Communiqué de presse : le Sommet CB 2025",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2025-03-20",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Statement by Jean-Paul Mazoyer quoted in CB's own release; underlying statistic not sourced on page."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-13: Adyen announced it would connect its servers directly to the CB network by end of Q1 2026 and become a direct STET participant, processing clearing without an intermediary.",
+      "quote": "Adyen devient également participant direct du système de compensation européen STET",
+      "url": "https://web.archive.org/web/20260214031847/https://www.cartes-bancaires.com/actualites/adyen-devient-membre-principal-de-cb-et-participant-direct-de-stet/",
+      "title": "Adyen devient membre principal de CB et participant direct de STET",
+      "publisher": "Groupement des Cartes Bancaires CB (archived copy, web.archive.org)",
+      "published": "2026-01-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Release cites CB's '15 milliards de transactions annuelles opérées'. Quote from Pieter Van der Does (Adyen co-CEO) and Philippe Laulanie (CB DG)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The live cartes-bancaires.com site and the REMPARTS portal both return security-service block pages to automated fetches, so the public site was read only via Wayback Machine snapshots.",
+      "quote": "remparts.cartes-bancaires.com is using security service for protection against online attacks. This process is automatic.",
+      "url": "https://remparts.cartes-bancaires.com/",
+      "title": "Browser Validation Page (Gcore)",
+      "publisher": "Gcore security service on CB domain",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "www.cartes-bancaires.com returned an Imperva-style 'Page not found / Reference ID' block on 2026-09-25. Public surfaces seen in snapshots: Médiathèque (documents, logos, activity reports), Actualités, Formations, Contact form, newsletter/webzine 'ActionCommerceCB'. No developer centre, API docs, status page or community named anywhere."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "CB public rulebook / scheme rules edition and page count",
+      "where": "cartes-bancaires.com archived nav (2024-2026), PayCert site",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CB developer portal, API reference, sandbox, SDKs, test cards, OpenAPI, webhooks",
+      "where": "cartes-bancaires.com archived site navigation 2024-2026; no developer section exists",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CB membership / licence fees, application steps, timelines",
+      "where": "membres-principaux, groupement, adyen release; not published",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CB network, assessment or cross-border fees; interchange schedule after 01/01/2021",
+      "where": "commissions-interchange page (snapshot 2024-05-23) shows only 2021 rates",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current participant/member count (banks, PSPs) after 2007",
+      "where": "membres-principaux page lists logos only; CJEU 2014 gives 148 in 2007",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CB ATM count, acceptance-point count, 2024 or 2025 full-year volumes",
+      "where": "chiffres-clés page still shows 2023 in 2025-01 snapshot; rapport d'activité PDFs in Médiathèque not fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Support hours, SLAs, languages, status page, incident communications",
+      "where": "contact page shows only a web form",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CB relationship with EPI/Wero, Visa/Mastercard co-badging rules, Banque de France OSMP figures",
+      "where": "WebSearch budget exhausted; DuckDuckGo lite and Bing HTML searches via curl returned no usable results (bot)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press coverage 2024-2026 (Digital Transactions, Payments Dive, Finextra, The Paypers) of CB",
+      "where": "no search available; not fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Bulletins, mandate cadence, dispute framework names, mandates in last 24 months",
+      "where": "public site; likely behind member extranet, none named",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "CB key-figures page (data for 2023, snapshot 2025-01-01) and Adyen release (2026-01-13): 15 billion CB transactions a year",
+      "b": "CB Sommet 2025 release (2025-03-20): 'plus de 14 milliards de transactions par an'",
+      "urls": [
+        "https://web.archive.org/web/20250101122552/https://www.cartes-bancaires.com/cb/chiffres/",
+        "https://web.archive.org/web/20250321191552/https://www.cartes-bancaires.com/actualites/le-sommet-cb-2025-simpose-comme-le-carrefour-de-linnovationet-des-paiements-par-carte-et-mobile-souverains-en-france/"
+      ]
+    },
+    {
+      "a": "CB key-figures page: 'plus de 65% de la consommation courante est réglée avec une carte CB'",
+      "b": "La Banque Postale/CB release 2024-12-17: 'près de 63% des paiements des Français sont réalisés par carte bancaire'",
+      "urls": [
+        "https://web.archive.org/web/20250101122552/https://www.cartes-bancaires.com/cb/chiffres/",
+        "https://web.archive.org/web/20241220143852/https://www.cartes-bancaires.com/actualites/la-banque-postale-sengage-en-faveur-du-br-pay-in-france-avec-le-deploiement-du-paiement-mobile-apple-pay-sur-le-reseau-cb/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "REMPARTS, le portail de labélisation CB (industry vendors' referencing/labelling portal)",
+      "url": "https://remparts.cartes-bancaires.com/",
+      "named_at": "https://web.archive.org/web/20240221022348/https://www.cartes-bancaires.com/securite/securiser-transactions/labelisation/"
+    },
+    {
+      "name": "CB contact form (web form, email relayed internally)",
+      "url": "https://www.cartes-bancaires.com/contact/",
+      "named_at": "https://web.archive.org/web/20240217135725/https://www.cartes-bancaires.com/contact/"
+    },
+    {
+      "name": "CB2i FORMATION registration form (inscription-formation)",
+      "url": "https://www.cartes-bancaires.com/inscription-formation/",
+      "named_at": "https://web.archive.org/web/20240419095532/https://www.cartes-bancaires.com/formations/"
+    },
+    {
+      "name": "Médiathèque CB (public: press releases, activity reports, logos, approved-solution lists)",
+      "url": "https://www.cartes-bancaires.com/mediatheque/",
+      "named_at": "https://web.archive.org/web/20250909213937/https://www.cartes-bancaires.com/"
+    },
+    {
+      "name": "PayCert certified-products registry (public)",
+      "url": "https://www.paycert.eu/",
+      "named_at": "https://www.paycert.eu/"
+    },
+    {
+      "name": "Webzine / newsletter ActionCommerceCB (email subscription)",
+      "url": "https://www.cartes-bancaires.com/action-commerce-cb/",
+      "named_at": "https://web.archive.org/web/20250909213937/https://www.cartes-bancaires.com/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.cartes-bancaires.com/",
+      "title": "Page not found (Imperva-style block page)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "http://web.archive.org/cdx/search/cdx?url=cartes-bancaires.com/*&from=2024",
+      "title": "Wayback CDX index for cartes-bancaires.com",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20250909213937/https://www.cartes-bancaires.com/",
+      "title": "Accueil | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20250101122552/https://www.cartes-bancaires.com/cb/chiffres/",
+      "title": "Les chiffres-clés | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20260406111502/https://www.cartes-bancaires.com/cb/ecosysteme/membres-principaux/",
+      "title": "Membres principaux | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20250125232645/https://www.cartes-bancaires.com/cb/gouvernance/",
+      "title": "La gouvernance | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240523025459/https://www.cartes-bancaires.com/securite/securiser-transactions/agrement-cb/",
+      "title": "L’agrément CB | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240523034021/https://www.cartes-bancaires.com/solutions/modes-paiement/commissions-interchange/",
+      "title": "Les commissions interchange | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240419101100/https://www.cartes-bancaires.com/cb/groupement/",
+      "title": "Le GIE CB | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240523020253/https://www.cartes-bancaires.com/cb/ecosysteme/industriels/",
+      "title": "Industriels | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20260214031847/https://www.cartes-bancaires.com/actualites/adyen-devient-membre-principal-de-cb-et-participant-direct-de-stet/",
+      "title": "Adyen devient membre principal de CB et participant direct de STET",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20251023231536/https://www.cartes-bancaires.com/actualites/gerald-gregoire-elu-a-lunanimite-nouveau-president-du-conseil-de-direction/",
+      "title": "Gérald Grégoire, élu à l’unanimité, nouveau Président du Conseil de Direction !",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240221022348/https://www.cartes-bancaires.com/securite/securiser-transactions/labelisation/",
+      "title": "Labélisation CB | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20250321191552/https://www.cartes-bancaires.com/actualites/le-sommet-cb-2025-simpose-comme-le-carrefour-de-linnovationet-des-paiements-par-carte-et-mobile-souverains-en-france/",
+      "title": "Communiqué de presse : le Sommet CB 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20241220143852/https://www.cartes-bancaires.com/actualites/la-banque-postale-sengage-en-faveur-du-br-pay-in-france-avec-le-deploiement-du-paiement-mobile-apple-pay-sur-le-reseau-cb/",
+      "title": "La Banque Postale s’engage en faveur du « Pay in France »",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240419095532/https://www.cartes-bancaires.com/formations/",
+      "title": "Formations | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20240217135725/https://www.cartes-bancaires.com/contact/",
+      "title": "Contact | Cartes Bancaires",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/20260419123902/https://www.cartes-bancaires.com/actualites/le-sommet-cb-met-en-lumiere-les-laureats-des-trophees-de-linnovation-2026/",
+      "title": "Le Sommet CB met en lumière les lauréats des Trophées de l’Innovation 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62013CJ0067",
+      "title": "CJEU Case C-67/13 P, Groupement des cartes bancaires v Commission",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.autoritedelaconcurrence.fr/fr/decision/relative-des-pratiques-mises-en-oeuvre-par-le-groupement-des-cartes-bancaires",
+      "title": "Décision 11-D-11 du 07 juillet 2011 | Autorité de la concurrence",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paycert.eu/",
+      "title": "Paycert.eu – Certification Body for secure electronic transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.frenchsys.fr/",
+      "title": "FrenchSys (no response)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://remparts.cartes-bancaires.com/",
+      "title": "Browser Validation Page (Gcore)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://lite.duckduckgo.com/lite/?q=Groupement+des+Cartes+Bancaires+CB+Adyen+2026",
+      "title": "DuckDuckGo lite search (HTTP 202 challenge, no results)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.bing.com/search?q=Groupement+des+Cartes+Bancaires+CB+Adyen+2026",
+      "title": "Bing search (returned unrelated cached results)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

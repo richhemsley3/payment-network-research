@@ -1,0 +1,325 @@
+{
+  "network": "amex",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    "ytsearch20:American Express merchant demo",
+    "ytsearch20:American Express developer portal",
+    "ytsearch20:American Express partner portal",
+    "ytsearch20:American Express merchant onboarding",
+    "ytsearch20:American Express merchant webinar",
+    "ytsearch20:American Express API tutorial",
+    "ytsearch20:American Express sandbox API",
+    "ytsearch20:Amex OptBlue",
+    "ytsearch20:American Express Global Network Services",
+    "ytsearch20:American Express Merchant Account online tutorial",
+    "ytsearch20:Amex Enabled program",
+    "ytsearch20:American Express dispute merchant online",
+    "ytsearch20:Amex Knowledge Base merchant",
+    "ytsearch20:American Express merchant website tutorial",
+    "ytsearch20:Amex Developers API merchant integration",
+    "channel:@AmericanExpress (404 via yt-dlp)",
+    "channel:@americanexpress (404 via yt-dlp)",
+    "channel:@AmexBusiness (404 via yt-dlp)",
+    "fetch:developer.americanexpress.com (JS shell, no content)",
+    "fetch:developer.americanexpress.com/documentation (JS shell)",
+    "fetch:americanexpress.com/us/merchant/optblue.html",
+    "fetch:americanexpress.com/en-us/business/optblue/agent/",
+    "fetch:network.americanexpress.com/",
+    "fetch:network.americanexpress.com/globalnetwork/v4/secure/ (302 to enterprise login)",
+    "fetch:americanexpress.com/us/merchant/ (404)",
+    "fetch:americanexpress.com/us/merchant/amex-enabled.html (404)",
+    "fetch:americanexpress.com/us/merchant/manage-account/online-merchant-account.html (404)",
+    "fetch:americanexpress.com/us/merchant/knowledge-base.html (404)",
+    "websearch: 5 queries attempted (vimeo, OptBlue PDFs, Amex Enabled, GNS decks, developer sandbox) - session WebSearch budget exhausted, none ran"
+  ],
+  "channels_listed": [
+    { "handle": "@AmericanExpress", "videos_seen": 0, "relevant": 0, "note": "yt-dlp returned HTTP 404 for @AmericanExpress and @americanexpress; not listable this run" },
+    { "handle": "@AmexBusiness", "videos_seen": 0, "relevant": 0, "note": "yt-dlp returned HTTP 404; not listable this run" },
+    { "handle": "American Express UK (via search)", "videos_seen": 9, "relevant": 6 },
+    { "handle": "American Express Australia (via search)", "videos_seen": 6, "relevant": 2 },
+    { "handle": "AmericanExpressCAD (via search)", "videos_seen": 6, "relevant": 1 }
+  ],
+  "kept": [
+    {
+      "id": "_fRxW33FJVg", "kind": "youtube", "network": "amex",
+      "title": "Navigate Payments effectively: American Express Merchant website",
+      "channel_or_publisher": "American Express UK", "official": true,
+      "url": "https://www.youtube.com/watch?v=_fRxW33FJVg", "published": "2018-01-31",
+      "duration_s": 165, "views": 1162,
+      "what_it_shows": "Amex Merchant website (UK) in motion: Payments section, submissions list, settlement detail, search and download of payment data",
+      "priority": "high", "keep_reason": "Longest official screen walkthrough of the gated merchant portal's reporting surface", "has_captions": "unknown"
+    },
+    {
+      "id": "M8oYAdYm54A", "kind": "youtube", "network": "amex",
+      "title": "Setting up your American Express merchant online account",
+      "channel_or_publisher": "American Express UK", "official": true,
+      "url": "https://www.youtube.com/watch?v=M8oYAdYm54A", "published": "2020-09-23",
+      "duration_s": 87, "views": 2091,
+      "what_it_shows": "Merchant online account enrolment: registration form, merchant number entry, user ID creation, first login",
+      "priority": "high", "keep_reason": "Official onboarding flow for the merchant portal", "has_captions": "unknown"
+    },
+    {
+      "id": "7qrBvM2gCT4", "kind": "youtube", "network": "amex",
+      "title": "Secure Account management tools: American Express Merchant website",
+      "channel_or_publisher": "American Express UK", "official": true,
+      "url": "https://www.youtube.com/watch?v=7qrBvM2gCT4", "published": "2017-10-06",
+      "duration_s": 61, "views": 2312,
+      "what_it_shows": "Merchant website account management: profile, bank details, user management, statements",
+      "priority": "high", "keep_reason": "Official tour of gated account-management screens", "has_captions": "unknown"
+    },
+    {
+      "id": "wN-I-tmyi4Q", "kind": "youtube", "network": "amex",
+      "title": "How to manage your American Express merchant account with our Amex Merchant App",
+      "channel_or_publisher": "American Express UK", "official": true,
+      "url": "https://www.youtube.com/watch?v=wN-I-tmyi4Q", "published": "2020-12-14",
+      "duration_s": 110, "views": 2382,
+      "what_it_shows": "Amex Merchant App (iOS/Android): payments feed, dispute notifications, statement access, account switching",
+      "priority": "high", "keep_reason": "Official mobile partner-app walkthrough including dispute alerts", "has_captions": "unknown"
+    },
+    {
+      "id": "naf9RuqKbhk", "kind": "youtube", "network": "amex",
+      "title": "A new way to manage American Express Merchant Account: Amex Merchant app",
+      "channel_or_publisher": "American Express Australia", "official": true,
+      "url": "https://www.youtube.com/watch?v=naf9RuqKbhk", "published": "2018-11-02",
+      "duration_s": 67, "views": 2569,
+      "what_it_shows": "Amex Merchant App launch (AU): payments, disputes and statements screens",
+      "priority": "high", "keep_reason": "Official app demo, second market", "has_captions": "unknown"
+    },
+    {
+      "id": "5tFgXV_MQCo", "kind": "youtube", "network": "amex",
+      "title": "Amex Merchant Website - secure and efficient Account management",
+      "channel_or_publisher": "American Express Australia", "official": true,
+      "url": "https://www.youtube.com/watch?v=5tFgXV_MQCo", "published": "2017-10-23",
+      "duration_s": 61, "views": 574,
+      "what_it_shows": "Merchant website (AU) account management screens: same template as UK tour",
+      "priority": "high", "keep_reason": "Confirms shared global merchant-portal template across markets", "has_captions": "unknown"
+    },
+    {
+      "id": "ZSh0kjmlKa4", "kind": "youtube", "network": "amex",
+      "title": "Understanding the Dispute Process",
+      "channel_or_publisher": "American Express UK", "official": true,
+      "url": "https://www.youtube.com/watch?v=ZSh0kjmlKa4", "published": "2020-11-11",
+      "duration_s": 80, "views": 3555,
+      "what_it_shows": "Merchant dispute lifecycle: inquiry, chargeback, response window, online dispute response in merchant website",
+      "priority": "medium", "keep_reason": "Official explainer of dispute tooling for merchants; partly animated", "has_captions": "unknown"
+    },
+    {
+      "id": "wfhSTOzpgTI", "kind": "youtube", "network": "amex",
+      "title": "A Step-By-Step Overview Of The Disputes Process | American Express",
+      "channel_or_publisher": "AmericanExpressCAD", "official": true,
+      "url": "https://www.youtube.com/watch?v=wfhSTOzpgTI", "published": "2023-08-21",
+      "duration_s": 76, "views": 3879,
+      "what_it_shows": "Canada merchant disputes process: notification, respond online, timelines",
+      "priority": "medium", "keep_reason": "Most recent official dispute-process explainer; has auto captions (en-CA)", "has_captions": "yes"
+    },
+    {
+      "id": "https://event.on24.com/wcc/r/2323965/F9D5E376D16408FAC8B1D5D41BDA9DE5?partnerref=obsalesagent",
+      "kind": "webinar", "network": "amex",
+      "title": "Cleaner Payments Webinar (OptBlue)",
+      "channel_or_publisher": "American Express (ON24)", "official": true,
+      "url": "https://event.on24.com/wcc/r/2323965/F9D5E376D16408FAC8B1D5D41BDA9DE5?partnerref=obsalesagent", "published": "n.d.",
+      "duration_s": null, "views": null,
+      "what_it_shows": "OptBlue partner webinar replay linked from the official OptBlue page; registration-gated ON24 replay",
+      "priority": "medium", "keep_reason": "Only official webinar replay found for acquirer/sales-agent audience", "has_captions": "unknown"
+    },
+    {
+      "id": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-944_OptBlue_MerchantActivationGuide_2026.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "OptBlue Merchant Activation Guide 2026",
+      "channel_or_publisher": "American Express OptBlue Sales Agent hub", "official": true,
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-944_OptBlue_MerchantActivationGuide_2026.pdf", "published": "2026",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Step-by-step merchant activation for OptBlue sales agents: boarding, signage, welcome kit",
+      "priority": "high", "keep_reason": "Current official onboarding artefact for the OptBlue partner channel", "has_captions": "n/a"
+    },
+    {
+      "id": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/Understanding_the_Disputes_Process_TPP.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "Understanding the Disputes Process (TPP)",
+      "channel_or_publisher": "American Express OptBlue Sales Agent hub", "official": true,
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/Understanding_the_Disputes_Process_TPP.pdf", "published": "n.d.",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Dispute flow for third-party-processor merchants: inquiry vs chargeback, response routes, timelines",
+      "priority": "medium", "keep_reason": "Official partner-facing dispute tooling reference", "has_captions": "n/a"
+    },
+    {
+      "id": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/tpp/manage-disputes/Amex-TPP-Disputes-Reference-Guide_2023.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "Amex TPP Disputes Reference Guide 2023",
+      "channel_or_publisher": "American Express", "official": true,
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/tpp/manage-disputes/Amex-TPP-Disputes-Reference-Guide_2023.pdf", "published": "2023",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Reason codes, policies and response requirements for OptBlue/TPP merchants",
+      "priority": "medium", "keep_reason": "Reference for dispute tooling vocabulary", "has_captions": "n/a"
+    },
+    {
+      "id": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "OptBlue Payment Facilitator Fact Sheet",
+      "channel_or_publisher": "American Express", "official": true,
+      "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/Payment-Facilitator-FactSheet.pdf", "published": "n.d.",
+      "duration_s": null, "views": null,
+      "what_it_shows": "How PayFacs join OptBlue and board sub-merchants",
+      "priority": "medium", "keep_reason": "Official PayFac partner onboarding artefact", "has_captions": "n/a"
+    },
+    {
+      "id": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-952_2026_OptBlue_ObjectionHandling_HandoutVFinal.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "OptBlue Objection Handling Handout 2026",
+      "channel_or_publisher": "American Express OptBlue Sales Agent hub", "official": true,
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-952_2026_OptBlue_ObjectionHandling_HandoutVFinal.pdf", "published": "2026",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Sales-agent enablement content for OptBlue acceptance conversations",
+      "priority": "low", "keep_reason": "Shows how Amex equips the acquirer sales channel", "has_captions": "n/a"
+    },
+    {
+      "id": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf",
+      "kind": "guide", "network": "amex",
+      "title": "OptBlue Sales Agent Program Updates April 2026",
+      "channel_or_publisher": "American Express OptBlue Sales Agent hub", "official": true,
+      "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf", "published": "2026-04",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Periodic program-update bulletin to the partner sales channel",
+      "priority": "low", "keep_reason": "Evidence of partner comms cadence", "has_captions": "n/a"
+    },
+    {
+      "id": "https://network.americanexpress.com/globalnetwork/v4/secure/",
+      "kind": "other", "network": "amex",
+      "title": "Global Network Services Knowledge Base (gated)",
+      "channel_or_publisher": "American Express Global Network Services", "official": true,
+      "url": "https://network.americanexpress.com/globalnetwork/v4/secure/", "published": "n.d.",
+      "duration_s": null, "views": null,
+      "what_it_shows": "Public GNS site describes the Knowledge Base (interactive guides, FAQs, service enrolment, Participant Directory, bookmarks, tech support); the URL 302s to the Amex enterprise login",
+      "priority": "medium", "keep_reason": "Documents the gated issuer/acquirer portal and its stated modules without showing screens", "has_captions": "n/a"
+    },
+    {
+      "id": "KL5KfOnfyVs", "kind": "youtube", "network": "amex",
+      "title": "American Express OptBlue Program Explained",
+      "channel_or_publisher": "Premier Pay", "official": false,
+      "url": "https://www.youtube.com/watch?v=KL5KfOnfyVs", "published": "2019-02-05",
+      "duration_s": 175, "views": 555,
+      "what_it_shows": "Processor explainer of OptBlue pricing and boarding, slides only",
+      "priority": "low", "keep_reason": "Third-party view of OptBlue onboarding", "has_captions": "unknown"
+    },
+    {
+      "id": "XJlX0AbcqMc", "kind": "youtube", "network": "amex",
+      "title": "Integrity and American Express OptBlue",
+      "channel_or_publisher": "Integrity Payment Systems", "official": false,
+      "url": "https://www.youtube.com/watch?v=XJlX0AbcqMc", "published": "2016-05-11",
+      "duration_s": 205, "views": 719,
+      "what_it_shows": "Acquirer marketing of OptBlue enrolment; no portal screens",
+      "priority": "low", "keep_reason": "Acquirer-side framing of the program", "has_captions": "unknown"
+    },
+    {
+      "id": "B9CwUe_VWQo", "kind": "youtube", "network": "amex",
+      "title": "How to Sell EMV, NFC and AMEX Opt Blue to Merchants",
+      "channel_or_publisher": "CCSalesPro", "official": false,
+      "url": "https://www.youtube.com/watch?v=B9CwUe_VWQo", "published": "2017-05-16",
+      "duration_s": 430, "views": 922,
+      "what_it_shows": "ISO sales training on OptBlue; talk only",
+      "priority": "low", "keep_reason": "Third-party sales-channel training", "has_captions": "unknown"
+    },
+    {
+      "id": "E3XZIIGiNy4", "kind": "youtube", "network": "amex",
+      "title": "EVO Payments Mexico | Programa OptBlue",
+      "channel_or_publisher": "EVO Payments Mexico", "official": false,
+      "url": "https://www.youtube.com/watch?v=E3XZIIGiNy4", "published": "2016-12-13",
+      "duration_s": 61, "views": 651,
+      "what_it_shows": "Acquirer promo of OptBlue in Mexico (Spanish)",
+      "priority": "low", "keep_reason": "OptBlue outside the US", "has_captions": "unknown"
+    },
+    {
+      "id": "5SimM_7xi58", "kind": "youtube", "network": "amex",
+      "title": "OptBlue",
+      "channel_or_publisher": "Netcom PaySystem", "official": false,
+      "url": "https://www.youtube.com/watch?v=5SimM_7xi58", "published": "2016-04-07",
+      "duration_s": 44, "views": 227,
+      "what_it_shows": "Processor promo of OptBlue statement consolidation",
+      "priority": "low", "keep_reason": "Third-party OptBlue framing", "has_captions": "unknown"
+    },
+    {
+      "id": "3m7lppjQaeA", "kind": "youtube", "network": "amex",
+      "title": "American Express Dispute Resolution",
+      "channel_or_publisher": "Valued Merchant Services", "official": false,
+      "url": "https://www.youtube.com/watch?v=3m7lppjQaeA", "published": "2011-11-21",
+      "duration_s": 184, "views": 2282,
+      "what_it_shows": "ISO explainer of Amex merchant dispute handling",
+      "priority": "low", "keep_reason": "Third-party dispute walkthrough", "has_captions": "unknown"
+    },
+    {
+      "id": "Kkg1o2MaW9I", "kind": "youtube", "network": "amex",
+      "title": "FAQ: American Express Chargebacks",
+      "channel_or_publisher": "Chargeback Gurus", "official": false,
+      "url": "https://www.youtube.com/watch?v=Kkg1o2MaW9I", "published": "2021-06-30",
+      "duration_s": 421, "views": 1575,
+      "what_it_shows": "Chargeback vendor explains Amex reason codes and response timelines; has captions",
+      "priority": "low", "keep_reason": "Third-party dispute tooling context", "has_captions": "yes"
+    },
+    {
+      "id": "0xrw45jGsxI", "kind": "youtube", "network": "amex",
+      "title": "American Express Merchant HQ (HD)",
+      "channel_or_publisher": "Design Answers", "official": false,
+      "url": "https://www.youtube.com/watch?v=0xrw45jGsxI", "published": "2018-10-29",
+      "duration_s": 408, "views": 92,
+      "what_it_shows": "Agency case-study reel of an Amex Merchant HQ portal design concept",
+      "priority": "medium", "keep_reason": "Only third-party footage of merchant-portal UI design; unverified whether shipped", "has_captions": "unknown"
+    },
+    {
+      "id": "HdMUdCzjXPQ", "kind": "youtube", "network": "amex",
+      "title": "American Express Merchant Account",
+      "channel_or_publisher": "InterchangeMinus", "official": false,
+      "url": "https://www.youtube.com/watch?v=HdMUdCzjXPQ", "published": "2011-09-02",
+      "duration_s": 238, "views": 608,
+      "what_it_shows": "ISO explainer of direct Amex merchant account setup (pre-OptBlue)",
+      "priority": "low", "keep_reason": "Historical onboarding context", "has_captions": "unknown"
+    },
+    {
+      "id": "buyAy0Q1sUQ", "kind": "youtube", "network": "amex",
+      "title": "American Express Merchant Services",
+      "channel_or_publisher": "InterchangeMinus", "official": false,
+      "url": "https://www.youtube.com/watch?v=buyAy0Q1sUQ", "published": "2011-08-26",
+      "duration_s": 386, "views": 5369,
+      "what_it_shows": "ISO explainer of Amex merchant services and fees",
+      "priority": "low", "keep_reason": "Historical merchant-side context", "has_captions": "unknown"
+    },
+    {
+      "id": "3KuuJQvRBhc", "kind": "podcast", "network": "amex",
+      "title": "The Bank Tellers Episode 46: Usman Arif, SVP Global Network Services APAC, American Express",
+      "channel_or_publisher": "Money20/20.tv", "official": false,
+      "url": "https://www.youtube.com/watch?v=3KuuJQvRBhc", "published": "2026-03-31",
+      "duration_s": 1662, "views": 240,
+      "what_it_shows": "Conference podcast with GNS APAC lead on issuer/acquirer partnerships; talk only",
+      "priority": "low", "keep_reason": "Recent GNS leadership perspective from a conference archive", "has_captions": "unknown"
+    },
+    {
+      "id": "2iM4y_0_LMo", "kind": "youtube", "network": "amex",
+      "title": "AMEX Closed Loop Network",
+      "channel_or_publisher": "George Harb", "official": false,
+      "url": "https://www.youtube.com/watch?v=2iM4y_0_LMo", "published": "2015-02-23",
+      "duration_s": 1111, "views": 2366,
+      "what_it_shows": "Lecture on closed-loop vs GNS licensing model",
+      "priority": "low", "keep_reason": "Background on how GNS partners fit the network", "has_captions": "unknown"
+    },
+    {
+      "id": "KU20yaB-VRM", "kind": "youtube", "network": "amex",
+      "title": "Presentation by American Express",
+      "channel_or_publisher": "Retailers Association of India", "official": false,
+      "url": "https://www.youtube.com/watch?v=KU20yaB-VRM", "published": "2021-12-03",
+      "duration_s": 419, "views": 108,
+      "what_it_shows": "Amex India merchant-partnership pitch to retailers at an industry forum",
+      "priority": "low", "keep_reason": "Partner-facing deck delivered by Amex staff", "has_captions": "unknown"
+    },
+    {
+      "id": "7KkbaBq7Obg", "kind": "youtube", "network": "amex",
+      "title": "Partner Presentation - American Express India",
+      "channel_or_publisher": "Retailers Association of India", "official": false,
+      "url": "https://www.youtube.com/watch?v=7KkbaBq7Obg", "published": "2022-01-04",
+      "duration_s": 611, "views": 88,
+      "what_it_shows": "Amex India partner presentation to retail forum",
+      "priority": "low", "keep_reason": "Partner-facing deck delivered by Amex staff", "has_captions": "unknown"
+    }
+  ],
+  "dropped_count": 226,
+  "comments_note": "no - official merchant-portal videos have negligible public comments (naf9RuqKbhk 1, wfhSTOzpgTI 3, others 0 or comments disabled); nothing worth coding",
+  "notes": "Both named handles (@AmericanExpress, @AmexBusiness) returned HTTP 404 from yt-dlp, so channel listings could not be produced; official partner-facing videos instead surfaced on regional channels (American Express UK, American Express Australia, AmericanExpressCAD). No official video of developer.americanexpress.com, a sandbox, AMEX Enabled certification, or the GNS Knowledge Base was found; the developer portal is a JS shell to fetch and the Knowledge Base 302s to the enterprise login. US merchant pages under /us/merchant/ for Knowledge Base, Online Merchant Account and AMEX Enabled returned 404 at the guessed URLs. The session's WebSearch quota was exhausted before this run, so vimeo, SlideShare, Speaker Deck, app-store, conference-archive and court-exhibit searches did not execute; those remain gaps. Amex Merchant App store listings (iOS/Android) are implied by the UK/AU videos but not fetched. Per-video metadata required alternate player clients (android,ios) to avoid YouTube's reload block."
+}

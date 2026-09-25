@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "id": "amex-115",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, text extracted with pypdf after installing cryptography; file is AES-encrypted)",
+      "archive_url": null,
+      "note": "Quote verbatim in the 10-K Supervision and Regulation section; the same sentence continues that bankcard fee regulation 'significantly negatively impacts the discount revenue derived from our business'."
+    },
+    {
+      "id": "amex-116",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim; same passage gives 'approximately 110 countries and territories' and '66.2 million cards-in-force issued by third parties' as of December 31, 2025."
+    },
+    {
+      "id": "amex-117",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in the Partners and Relationships passage ('payment technologies, marketing solutions and brand assets ... e.g., cards offered by Coinbase and Credit Saison')."
+    },
+    {
+      "id": "amex-118",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim; sentence ends 'the implementation and impact of any such proposals remain uncertain'."
+    },
+    {
+      "id": "amex-219",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in the shareholder letter (footnote 3 marker follows)."
+    },
+    {
+      "id": "amex-221",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Footnote 3 text verbatim: 'Locations in force (LIF) estimate as of December 2025, which reflects an estimated 37 million merchants that accept American Express in China (including through digital wallets).'"
+    },
+    {
+      "id": "amex-222",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim apart from a footnote-4 marker after 'U.S.' that produces the stray space in the extracted text."
+    },
+    {
+      "id": "mastercard-113",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "2024 table row 'MasterCard' (dual-message): exempt $48.57 / $0.63 / 1.30%, covered $49.00 / $0.24 / 0.49%; 'Maestro' (single-message): exempt $0.21 / 0.54%, covered $0.24 / 0.55%. All four figure pairs match; quote is a fragment of the row."
+    },
+    {
+      "id": "visa-049",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Dual-message rows are Discover, MasterCard (page spelling), Visa; single-message rows are exactly ACCEL, AFFN, ATH, Culiance, Interlink, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR, UnionPay. Footnote 11 calls Visa 'a dual-message network'."
+    },
+    {
+      "id": "amex-195",
+      "result": "qualified",
+      "qualification": "The cited host merchantfinancing.americanexpress.com no longer resolves (curl: could not resolve host); the Wayback Machine's 2021-22 captures of the URL are redirects to americanexpress.com/us/business/business-funding/merchant-financing/, which by Feb 2022 stated 'American Express is not accepting new customers for Merchant Financing.' The quote and all figures are verbatim in the last full capture (29 Mar 2020): 'Fixed fees range from 1.75-7% (6-Month Term), 3.5-14% (12-Month Term), and 7-28% (24-Month Term).' and 'Early repayment rebates of 25% or 10% of the loan fee'; the page also says 'no interest rate or variable APR'.",
+      "fetch": "wayback",
+      "archive_url": "https://web.archive.org/web/20200329212726id_/https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+      "note": "Supported only by a 2020 archive; the product was closed to new customers by 2022 and the cited page is gone, so treat as historical pricing."
+    },
+    {
+      "id": "amex-244",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Announcement text is embedded in the page's JSON state (React-rendered): 'On October 23, 2026, American Express will publish the American Express Merchant Rules ... consolidate and restate the Merchant Operating Manual - Canada, the Merchant Regulations - International and the Merchant Regulations - U.S. ... the Merchant Rules will become effective on April 24, 2027. Prior to that date, the applicable regional documents referenced above will continue to be effective.' Quote verbatim."
+    },
+    {
+      "id": "amex-330",
+      "result": "page-changed",
+      "qualification": "Live URL now 301-redirects to https://www.americanexpress.com/en-us/business/business-line-of-credit/ (Business Line of Credit), which contains no Merchant Financing text. The Wayback capture of the cited URL from 22 Jan 2025 supports the substance: 'Simply because your business accepts American Express Cards, you can apply to get a fixed fee business loan between $5,000 and $2,000,000' with repayment 'over 6, 12, or 24 months'. The ledger quote is a search-snippet paraphrase, not verbatim page text.",
+      "fetch": "curl (live, redirected) + wayback",
+      "archive_url": "https://web.archive.org/web/20250122094950id_/https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+      "note": "Claim substance verified against the Jan 2025 archive; the cited URL has redirected to a different product since about April 2025 per the Wayback CDX index."
+    },
+    {
+      "id": "amex-353",
+      "result": "qualified",
+      "qualification": "The home page is a JS shell; rendered home text (text.js) shows only the 'Get Access ... request keys' step. The quote is verbatim in the portal's JS bundle (/assets/index-CKDoS6PK.js) as a 'Introducing Projects' onboarding tooltip; the bundle also holds the ticket categories 'API Product Information', 'API Access Request', 'API Certificate', 'API Integration' (plus 'Bugs & Technical Issues'), a 'Grant_Type: Client_Credentials' hint, 'HMAC or oAuth 2.0', product types LEGACY_HMAC / NEXTGEN_OAUTH, and the 'amex-signed-certificates' guide with 'American Express Signed Certificate'. I could not locate the phrase 'authorization code' in the bundle, so that grant type is unconfirmed. The a4dextsvr JSON endpoints return 401 without a login.",
+      "fetch": "curl (JS bundle) + text.js (rendered home page)",
+      "archive_url": null,
+      "note": "Supported from portal source code rather than visible home-page text; the Projects tooltip appears only inside the logged-in project area."
+    },
+    {
+      "id": "amex-354",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (JS bundle) + text.js (rendered home page)",
+      "archive_url": null,
+      "note": "Quote verbatim in the portal JS bundle next to the sign-up field 'Are you a regulated Third Party Provider (TPP)?'; the rendered home page states the Account and Transaction API provides data 'for all American Express proprietary Card products including Personal, Small Business and Corporate Cards for parties certified under the Payment Service Directive 2 (PSD2) legislation'."
+    }
+  ]
+}

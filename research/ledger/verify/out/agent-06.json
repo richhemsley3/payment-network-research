@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "id": "mastercard-333",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "wayback",
+      "archive_url": "https://web.archive.org/web/20260916020752id_/https://www.mastercard.com/us/en/business/services.html",
+      "note": "Live site (mastercardservices.com/en -> mastercard.com/us/en/business/services.html) returns 403 to WebFetch, curl and the renderer; the 2026-09-16 Wayback copy has the quote verbatim plus 'Announcing the Mastercard Partner Advantage Program', 'Announcing the Mastercard Circle of Honor' (customer recognition program) and 'Mastercard Services webinars'."
+    },
+    {
+      "id": "mastercard-334",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "wayback",
+      "archive_url": "https://web.archive.org/web/20260912155147id_/https://www.mastercard.com/brandcenter/us/en/home.html",
+      "note": "Live page 403s to all direct methods; Wayback resolves brand.mastercard.com/brandcenter.html to mastercard.com/brandcenter/us/en/home.html, where the quote appears verbatim, with Card Artwork and Decals sections and a 'LATEST UPDATES' list whose entries are all '(Updated December 2023)'."
+    },
+    {
+      "id": "mastercard-356",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "WebFetch",
+      "archive_url": null,
+      "note": "Quote verbatim; article also states new enrollment closed July 21, 2026 (the day the bulletin published) and that no replacement platform is named."
+    },
+    {
+      "id": "visa-036",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Exhibit 21.1 lists exactly the four subsidiaries and jurisdictions claimed; title text matches the quote (with a non-breaking space in the source HTML)."
+    },
+    {
+      "id": "visa-063",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "WebFetch",
+      "archive_url": null,
+      "note": "Quote verbatim (continues '...detected by the commission'); article by Aninda Chakraborty covers the CNA rejection, two of three card brands (Visa + Carnet) and two of four clearinghouses."
+    },
+    {
+      "id": "visa-213",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Logged-out HTML (63 KB) contains Redoc markers, an embedded spec with \"openapi\": \"3.1.0\", a single server https://sandbox.api.visa.com and zero occurrences of securitySchemes."
+    },
+    {
+      "id": "visa-214",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Parsed the embedded OpenAPI 3.1.0 document from the logged-out page: webhooks object has 9 entries (incl. the quoted deferredoct path), paths hold 27 operations, none with deprecated: true."
+    },
+    {
+      "id": "visa-234",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "GitHub API returns 404 with message \"This repository is empty.\"; repo metadata confirms the public repo exists under the CyberSource org."
+    },
+    {
+      "id": "visa-235",
+      "result": "qualified",
+      "qualification": "The README lists seven code-generation targets: Java, Python, Node.js, PHP, Ruby, dotnet, plus dotnet_standard marked deprecated legacy, so 'six SDK languages' holds only if the deprecated dotnet_standard is excluded.",
+      "fetch": "curl (PyPI JSON endpoint https://pypi.org/pypi/cybersource-developer-mcp/json; the HTML page is a JS shell to WebFetch)",
+      "archive_url": null,
+      "note": "Metadata: version 0.0.3 uploaded 2026-08-04T15:46:54; summary field matches the quote verbatim; README describes real-time SDK documentation and code generation."
+    },
+    {
+      "id": "visa-267",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "R53 disaggregation table shows Service, Data processing, International transaction and Other revenue lines, Client incentives $(15,751) and Net revenue $40,000 for FY2025."
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "network": "cross",
+  "dimension": "timeline-regional",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "timeline-regional",
+      "claim": "Regulation II still requires every US debit card to be enabled on at least two unaffiliated networks, the structural basis for the PIN-debit networks' merchant routing business through 2026.",
+      "quote": "prohibits all issuers and networks from restricting the number of networks over which debit transactions may be processed to less than two unaffiliated networks",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "star",
+        "accel",
+        "nyce",
+        "shazam",
+        "culiance",
+        "jeanie",
+        "affn",
+        "interlink",
+        "maestro",
+        "pulse"
+      ],
+      "note": "Page undated; it lists rule milestones of 2011-06-29, 2012-07-27, 2022-10-03 and 2023-10-25."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Regulation II bars issuers and networks from inhibiting merchants' routing choice over any enabled network, which governs how STAR, Accel, NYCE, SHAZAM and peers compete for volume.",
+      "quote": "inhibiting a merchant's ability to direct the routing of a debit transaction over any network that the issuer has enabled",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "star",
+        "accel",
+        "nyce",
+        "shazam",
+        "culiance",
+        "jeanie",
+        "affn",
+        "interlink",
+        "maestro",
+        "pulse"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "The Fed's October 25, 2023 proposal to lower the large-issuer debit interchange cap was still listed as the latest Regulation II action on the Board's page as of 2026-09-25, with no final rule shown.",
+      "quote": "Federal Reserve Board requests comment on a proposal to lower the maximum interchange fee that a large debit card issuer can receive",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2023-10-25",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "star",
+        "accel",
+        "nyce",
+        "shazam",
+        "culiance",
+        "jeanie",
+        "affn",
+        "interlink",
+        "maestro",
+        "pulse",
+        "visa",
+        "mastercard"
+      ],
+      "note": "Predates the Sept 2024 window; included because the page shows no later pricing action, an absence finding for the timeline."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "On May 18, 2025 Capital One completed its acquisition of Discover, bringing the Discover, PULSE and Diners Club International networks under Capital One ownership.",
+      "quote": "The Discover®, PULSE®, and Diners Club International® networks will join our suite of offerings.",
+      "url": "https://www.capitalone.com/about/newsroom/capital-one-completes-acquisition-of-discover/",
+      "title": "Capital One Completes Acquisition of Discover",
+      "publisher": "Capital One",
+      "published": "2025-05-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "dgn",
+        "pulse",
+        "diners"
+      ],
+      "note": "Primary company announcement; postdates nothing, it is the closing event itself."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Capital One stated at closing that it will keep issuing Discover-branded credit cards, signalling continuity for Discover Network acceptance partners.",
+      "quote": "Capital One intends to continue to offer Discover credit card products as Discover-branded cards.",
+      "url": "https://www.capitalone.com/about/newsroom/capital-one-completes-acquisition-of-discover/",
+      "title": "Capital One Completes Acquisition of Discover",
+      "publisher": "Capital One",
+      "published": "2025-05-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "dgn"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Capital One's newsroom for July to September 2026 carried no items about Discover Network, PULSE or Diners Club, so no network-level programme announcements are visible from the parent in that window.",
+      "quote": "articles dated from July through September 2026, covering topics such as CDFI partnerships, Capital One Lounges, business travel, auto financing",
+      "url": "https://www.capitalone.com/about/newsroom/",
+      "title": "Newsroom | Capital One",
+      "publisher": "Capital One",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "dgn",
+        "pulse",
+        "diners"
+      ],
+      "note": "Absence finding. The quote is the fetch tool's summary of the listing, not page copy; treat as a description of what was on the page on 2026-09-25. discover.com/company/newsroom now 301-redirects here."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "On April 24, 2025 Interac announced Smooth Commerce as a hospitality ordering platform enabling Interac Debit for in-app and in-browser payments via Apple Pay and Google Pay.",
+      "quote": "all Smooth Commerce-powered web and mobile apps will now support Interac Debit payments through Apple and Google Pay",
+      "url": "https://www.interac.ca/en/content/news/smooth-commerce-launches-interac-debit-for-in-app-and-in-browser-payments-for-restaurants-and-hospitality-businesses/",
+      "title": "Smooth Commerce Launches Interac Debit for In-App and In-Browser Payments for Restaurants and Hospitality Businesses",
+      "publisher": "Interac Corp.",
+      "published": "2025-04-24",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "interac"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "On July 23, 2026 Interac announced fintech Shakepay had joined Interac e-Transfer as a direct Participant, an example of Interac opening participation beyond banks.",
+      "quote": "Shakepay Inc. (Shakepay), a leading Montreal-based fintech, has joined the Interac e-Transfer® service as a Participant.",
+      "url": "https://www.interac.ca/en/content/news/shakepay-joins-interac-e-transfer-as-a-participant/",
+      "title": "Shakepay joins Interac e-Transfer® as a Participant",
+      "publisher": "Interac Corp.",
+      "published": "2026-07-23",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "interac"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Interac frames direct e-Transfer participation as giving fintechs control over payment experience design on its rails.",
+      "quote": "gives Shakepay greater control over how payment experiences are built and delivered within its platform",
+      "url": "https://www.interac.ca/en/content/news/shakepay-joins-interac-e-transfer-as-a-participant/",
+      "title": "Shakepay joins Interac e-Transfer® as a Participant",
+      "publisher": "Interac Corp.",
+      "published": "2026-07-23",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "networks": [
+        "interac"
+      ],
+      "note": "Network's own claim about the benefit of participation."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Interac's news feed in September 2026 leads with partner and programme items: Interac Verified credential service, Dream Payments e-Transfer Payouts, and Moneris enabling Konek pay-by-bank.",
+      "quote": "Moneris extends online payment options by making it easier to enable Konek™, expanding pay by bank across Moneris Checkout and API",
+      "url": "https://www.interac.ca/en/content-category/news/",
+      "title": "News - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "interac"
+      ],
+      "note": "Headlines on the listing page are undated; individual releases carry dates."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "Elo's public site points partners to an international acceptance page (Elo Internacional) but publishes no dated news on network alliances on its homepage.",
+      "quote": "Elo Internacional",
+      "url": "https://www.elo.com.br/",
+      "title": "Elo",
+      "publisher": "Elo Serviços S.A.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "networks": [
+        "elo"
+      ],
+      "note": "Weak: the homepage is marketing; the linked page /aceitacao-internacional-elo/ was not fetched within budget."
+    },
+    {
+      "dimension": "timeline-regional",
+      "claim": "JCB's press archive is organised by year through 2026 with an ALLIANCE category, but the index and the 2025 year page returned no release text to the fetcher.",
+      "quote": "ALLIANCE, PRODUCTS & TECHNOLOGIES, SERVICES & PROMOTIONS, OTHER",
+      "url": "https://www.global.jcb/en/press/",
+      "title": "Press | JCB Global",
+      "publisher": "JCB Co., Ltd.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "networks": [
+        "jcb"
+      ],
+      "note": "Structural finding only; JCB alliance releases for 2024-2026 not captured, listed under not_found."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Fiserv STAR network sale or bank consortium talks 2025-2026",
+      "where": "WebSearch budget exhausted (200/200); newsroom.fiserv.com/newsroom timed out; EDGAR full-text search returned Forbidden",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE post-acquisition programme, pricing or rules changes under Capital One",
+      "where": "capitalone.com/about/newsroom (no items); discoverglobalnetwork.com/newsroom 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Discover Global Network alliance news (JCB, UnionPay, RuPay, Interac, eftpos, Elo, Troy, etc.) Sept 2024-Sept 2026",
+      "where": "https://www.discoverglobalnetwork.com/newsroom/ and /newsroom both 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NPCI International / RuPay international acceptance press releases",
+      "where": "https://www.nipl.net.in/press-releases failed: TLS certificate mismatch",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "UnionPay International news 2024-2026",
+      "where": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/ returned 403",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "eftpos / AP+ news, least-cost routing, RBA surcharge and interchange reforms",
+      "where": "auspayplus.com.au/news returned only an SVG icon via WebFetch and curl",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Cartes Bancaires news 2024-2026",
+      "where": "https://www.cartes-bancaires.com/en/news/ returned 403",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "girocard press releases, transaction figures, EPI/Wero",
+      "where": "https://www.girocard.eu/en/press/ served only the press-contact page",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "JCB alliance press releases 2024-2026",
+      "where": "https://www.global.jcb/en/press/year/2025.html returned empty body via WebFetch and curl",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Elo news on partnerships, Discover alliance, acceptance abroad",
+      "where": "https://www.elo.com.br/ homepage only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Regulation II litigation (Corner Post v. Board), any 2025-2026 final rule on the debit cap",
+      "where": "federalreserve.gov Reg II page lists nothing after 2023-10-25",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Accel, NYCE, SHAZAM, CULIANCE, Jeanie, AFFN, Interlink, Plus, Maestro, Cirrus dated events Sept 2024-Sept 2026",
+      "where": "not fetched; page budget exhausted on failed primary sources",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Capital One Discover completion release on investor.capitalone.com",
+      "where": "WebFetch timed out and curl returned Akamai Access Denied; used capitalone.com/about/newsroom copy instead",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [],
+  "gated_surfaces": [
+    {
+      "name": "Interac newsletter sign-up",
+      "url": "https://www.interac.ca/en/sign-up-for-the-interac-newsletter/",
+      "named_at": "https://www.interac.ca/en/content-category/news/"
+    },
+    {
+      "name": "Interac media contact (media@interac.ca) for spokesperson interviews",
+      "url": "",
+      "named_at": "https://www.interac.ca/en/content-category/news/"
+    },
+    {
+      "name": "girocard press newsletter sign-up form",
+      "url": "https://www.girocard.eu/en/press/",
+      "named_at": "https://www.girocard.eu/en/press/"
+    },
+    {
+      "name": "Interac Innovation Hub",
+      "url": "https://www.interac.ca/en/innovation-hub/",
+      "named_at": "https://www.interac.ca/en/news/ (site navigation)"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+      "title": "Capital One Completes Acquisition of Discover (investor site)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/newsroom/",
+      "title": "Interac newsroom (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.nipl.net.in/press-releases",
+      "title": "NPCI International press releases",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://auspayplus.com.au/news",
+      "title": "AP+ news",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.global.jcb/en/press/",
+      "title": "Press | JCB Global",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.global.jcb/en/press/year/2025.html",
+      "title": "JCB Press 2025",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/",
+      "title": "UnionPay International News Center",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/newsroom/",
+      "title": "Discover Global Network newsroom",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.girocard.eu/en/press/",
+      "title": "girocard Pressekontakt",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.cartes-bancaires.com/en/news/",
+      "title": "Cartes Bancaires news",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.interac.ca/en/news/",
+      "title": "Interac (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.interac.ca/en/content-category/news/",
+      "title": "News - Interac Corp.",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LatestSearch/index",
+      "title": "SEC EDGAR full-text search API",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.capitalone.com/about/newsroom/capital-one-completes-acquisition-of-discover/",
+      "title": "Capital One Completes Acquisition of Discover",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discover.com/company/newsroom/",
+      "title": "Discover newsroom (redirects to Capital One)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.fiserv.com/en/about-fiserv/newsroom.html",
+      "title": "Fiserv newsroom (redirect, then timeout)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.elo.com.br/",
+      "title": "Elo",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/content/news/smooth-commerce-launches-interac-debit-for-in-app-and-in-browser-payments-for-restaurants-and-hospitality-businesses/",
+      "title": "Smooth Commerce Launches Interac Debit for In-App and In-Browser Payments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/content/news/shakepay-joins-interac-e-transfer-as-a-participant/",
+      "title": "Shakepay joins Interac e-Transfer as a Participant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://newsroom.fiserv.com/newsroom",
+      "title": "Fiserv Newsroom",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.capitalone.com/about/newsroom/",
+      "title": "Newsroom | Capital One",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

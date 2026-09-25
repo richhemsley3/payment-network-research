@@ -41,6 +41,8 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| affn-v01 | Ep. 39 Military Philanthropy with John Broda from Armed Forces Financial Network | Armed Forces Bank | no | n.d. | 2754 | https://www.youtube.com/watch?v=5_n9s-K4VfM | 2026-09-25 | Podcast interview with AFFN's John Broda on how AFFN works with participating banks and credit unions; talk only · priority low | Reported |  |  |
+| affn-v02 | AFFN MGV 2025 Update (Vidyard) | AFFN (affn.org) | yes | n.d. |  | https://www.affn.org/resources/affn-videos-and-member-testimonials | 2026-09-25 | AFFN partner-institution update video (Vidyard embed ZUGTLcDMt1dSH3Pe1goWXz); companion 'AFFN Short 2025 Update' embed 6o5HHDvTsqmThTUMDGYz1t · priority low | Verified |  |  |
 
 ## Sentiment
 

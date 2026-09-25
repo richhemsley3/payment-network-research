@@ -44,6 +44,8 @@ Kind domestic scheme · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged o
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| rupay-v01 | GFF' 22 \| Masterclass on Card tokenization \| Mr. Nishant Gaurav | NPCI | yes | n.d. |  | https://www.youtube.com/watch?v=y5IMEJFHIQc | 2026-09-25 | RuPay token service explained for issuers, acquirers and token requestors: onboarding roles, certification touchpoints (slides) · priority low | Verified |  |  |
+| rupay-v02 | GFF' 22 \| Masterclass on Credit card on UPI: New paradigm of payments | NPCI | yes | n.d. |  | https://www.youtube.com/watch?v=2xa3qyNC1Gk | 2026-09-25 | How issuers and PSP apps enable RuPay credit on UPI: issuer enablement steps, acquirer/merchant MCC handling (slides) · priority low | Verified |  |  |
 
 ## Sentiment
 

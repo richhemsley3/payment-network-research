@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "id": "amex-010",
+      "result": "qualified",
+      "qualification": "The quote appears verbatim in the GPwP v2 OpenAPI JSON on the public content host (https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-global-pay-with-points-v2/nextgen-global-pay-with-points-v2-openapi-specification.json, x-lastUpdated August 7, 2026), which is what the cited overview page's Specification tab renders. The 'only product where sandbox test data is published rather than issued' comparison cannot be confirmed from this page alone.",
+      "fetch": "curl (portal HTML is a JS shell; spec JSON fetched from icm.aexp-static.com content host found via a4d/v1/products/ and the portal bundle)",
+      "archive_url": null,
+      "note": "Quote verbatim in the client_id parameter description: 'A standard Sandbox key is available within the Test Data section below.'"
+    },
+    {
+      "id": "amex-011",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "text.js (Playwright, 12 s wait, textContent to include the collapsed Specifications tables)",
+      "archive_url": null,
+      "note": "Quote verbatim in the 'Retrieve 2L Access Token Specifications' table; same page states grant_type should be client_credentials and X-AMEX-API-KEY is the client_id value. Page last updated June 1, 2026. The claim's 'RFC 7523 style' is the researcher's gloss; page cites client_assertion_type urn:ietf:params:oauth:client-assertion-type:jwt-bearer."
+    },
+    {
+      "id": "amex-016",
+      "result": "qualified",
+      "qualification": "The cited /products/nextgen-agentic-payments/resources page now renders 'Page Not Found' and the portal bundle has no /resources route; the ACE overview now gates guide and specifications behind an access-request form. The spec JSON is still public on the content host (https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json) and contains the quoted servers block verbatim (sandbox apisandboxm, production apigwm). The portal JS bundle exposes OAuth token hosts api.qasb2s, apigateway2s, apigwm and apigwsandboxm; the sandbox2s and openamex/openamex-sandbox hosts were not found logged out (they may only appear in the logged-in dashboard).",
+      "fetch": "curl (spec JSON from content host; portal bundle index-CKDoS6PK.js); text.js confirmed the cited page is 404",
+      "archive_url": null,
+      "note": "Servers block verbatim in spec; cited portal page has been removed; some dashboard hosts unverifiable logged out."
+    },
+    {
+      "id": "amex-020",
+      "result": "page-changed",
+      "qualification": "",
+      "fetch": "curl + text.js; Wayback has no snapshot of the change-log or the resources page",
+      "archive_url": null,
+      "note": "Cited /resources page now 'Page Not Found' and the portal bundle has no such route. The OpenAPI 3.1.0 JSON is still hosted on icm.aexp-static.com (x-lastUpdated April 28, 2026, version 1.0.0) and the bundle still fetches a per-product change-log.json from the content host, but every change-log.json path tried returns 404, so the quoted 'April 6, 2026 / 1.0.0' entry could not be found."
+    },
+    {
+      "id": "amex-027",
+      "result": "qualified",
+      "qualification": "The cited /resources portal page is now 'Page Not Found', but the ACE OpenAPI JSON remains public on the content host (https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/nextgen-agentic-payments/nextgen-agentic-payments-openapi-specification.json). It defines POST /payments/digital/v1/agentic-commerce/notifications tagged 'Webhook' ('Sends updates to the Partner for changes related to enrollment, intent, or payment credentials... The request payload is JWE-encrypted on the wire.').",
+      "fetch": "curl (spec JSON from content host)",
+      "archive_url": null,
+      "note": "Quote verbatim in the spec (on the notifications operation and on the other request bodies); cited portal page has been removed."
+    },
+    {
+      "id": "amex-022",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (portal HTML is a JS shell; the Terms PDF is served from https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/terms/site, text extracted with pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in the Updates paragraph; the same section says AMEX 'may, with or without notice, at any time change, suspend, or discontinue any aspect of the Developer Portal'. No deprecation period stated."
+    },
+    {
+      "id": "amex-024",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (Terms PDF from a4d/v1/terms/site, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in section 4.3(f). No numeric rate limits appear in the Terms; absence elsewhere on the portal is consistent with what was fetched logged out."
+    },
+    {
+      "id": "amex-025",
+      "result": "qualified",
+      "qualification": "The Fees quote (section 5) is verbatim on the Terms PDF. The parenthetical product-level statements (Enhanced Authorization free; AMEX Enabled no registration fee) are not on this page and were not checked here.",
+      "fetch": "curl (Terms PDF from a4d/v1/terms/site, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim; parenthetical rests on other sources."
+    },
+    {
+      "id": "amex-029",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (JSON endpoint returned directly)",
+      "archive_url": null,
+      "note": "Endpoint returns exactly the quoted seven-category array. Portal bundle also references a4d/v1/helpdesk/nonLoginCreateIncident; the Terms PDF names support@devmail.americanexpress.com and promises only 'commercially reasonable efforts to respond to reasonable Developer inquiries' with no SLA."
+    },
+    {
+      "id": "amex-399",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Landing page links to the quoted enterprise login URL; /v4/secure/, /v4/secure/knowledge-base/, /v4/secure/faq/, /v4/registration/user-registration and /register/ all 302 to https://www.americanexpress.com/en-us/account/enterprise/login?target=... when fetched today."
+    },
+    {
+      "id": "amex-080",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in Note 12 Legal Proceedings: case filed September 30, 2024 in D. Mass., Pizza Hazel, Inc. et al. v. American Express; motion to compel arbitration rejected and appealed to the First Circuit."
+    },
+    {
+      "id": "amex-081",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in the 5-Star General Store aka Bento LLC paragraph (filed March 21, 2024, D.R.I.); the same sentence also closes the Pizza Hazel paragraph."
+    },
+    {
+      "id": "amex-089",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in Risk Factors. The 10-K sentence does not itself name the Federal Reserve; that detail comes from elsewhere."
+    },
+    {
+      "id": "amex-102",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl (PDF, pypdf)",
+      "archive_url": null,
+      "note": "Quote verbatim in Note 12: Moskowitz (formerly Oliver) v. American Express, E.D.N.Y.; Illinois consumer-law claim for non-rewards credit card holders, $12.5 million awarded; 10-K adds a settlement agreement subject to court approval. The 2025-08-28 verdict date is not in the 10-K (it says 'trial in August 2025')."
+    }
+  ]
+}

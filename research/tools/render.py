@@ -54,6 +54,7 @@ def build(name):
         slug = m.group(1); rows = [r for r in S.values() if r['kind'] == 'source' and r['network'] == slug and '-w-' not in r['id']]
         c = {k: sum(1 for r in rows if r.get('confidence') == k) for k in ('Verified', 'Reported', 'Vendor')}
         walks = sum(1 for r in S.values() if r['kind'] == 'source' and r['network'] == slug and '-w-' in r['id'])
+        if not rows: return f'<p class="rs-sources">Sources · cited under the parent network and the cross-cutting rows · {walks} browser walks · <a class="gn-link" href="#register">register</a></p>'
         return f'<p class="rs-sources">Sources · {len(rows)} ledger rows for this network · {c["Verified"]} Verified · {c["Reported"]} Reported · {c["Vendor"]} Vendor · {walks} browser walks · <a class="gn-link" href="#register-{slug}">register</a></p>'
     t = re.sub(r'<!-- sources:(\w+) -->', srcline, t)
     t = re.sub(r'<!-- table:register(?::(\w+))? -->', lambda m: register(m.group(1)), t)

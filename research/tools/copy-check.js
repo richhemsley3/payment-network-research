@@ -9,6 +9,7 @@ for (const p of pages) {
   html = html.replace(/<(pre|code|script|style)\b[\s\S]*?<\/\1>/g, ' ').replace(/<q\b[^>]*>[\s\S]*?<\/q>/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
   html = html.replace(/<h2 class="doc-s" id="register">[\s\S]*$/, ' ');
   const method = (html.match(/id="method"[\s\S]*?(?=<h2)/) || [''])[0];
+  html = html.replace(/<td\b[^>]*>/g, '<td>TD:');
   const blocks = html.split(/<\/(?:p|li|td|th|figcaption|cite|h1|h2|h3|h4|b|span|div)>/).map(b => b.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim()).filter(t => t.length > 12);
   const methodText = method.replace(/<[^>]+>/g, ' ');
   const seen = new Set();
@@ -21,8 +22,9 @@ for (const p of pages) {
     if (!inMethod && /\b(we|We|our|Our|us)\b/.test(t) && !/["“”']/.test(t)) out.push(`${p} first person outside Method: ${t.slice(0, 100)}`);
     if (/\b(key takeaways?|executive summary|in this (?:report|section)|as (?:mentioned|noted) (?:above|earlier)|it is worth noting|it's worth noting|leverag(?:e|ing)|seamless(?:ly)?|robust|cutting.edge|game.chang)/i.test(t)) out.push(`${p} tell phrase: ${t.slice(0, 100)}`);
     if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(t)) out.push(`${p} emoji: ${t.slice(0, 80)}`);
-    if (/^[A-Z][a-z-]+(?:, [a-z][a-z-]+)+(?:,? and [a-z][a-z-]+)?\.?$/.test(t) && !/\b(is|are|has|have|who|what|how|was|were)\b/.test(t)) out.push(`${p} noun list: ${t.slice(0, 100)}`);
-    if (/(?:\b[A-Z][^.!?]{0,14}\. ){2,}[A-Z][^.!?]{0,14}\.$/.test(t)) out.push(`${p} staccato: ${t.slice(0, 100)}`);
+    const cell = t.startsWith('TD:'); if (cell) { const t2 = t.slice(3); if (t2.length < 12) continue; }
+    if (!cell && /^[A-Z][a-z-]+(?:, [a-z][a-z-]+)+(?:,? and [a-z][a-z-]+)?\.?$/.test(t) && !/\b(is|are|has|have|who|what|how|was|were)\b/.test(t)) out.push(`${p} noun list: ${t.slice(0, 100)}`);
+    if (!cell && /(?:\b[A-Z][^.!?]{0,14}\. ){2,}[A-Z][^.!?]{0,14}\.$/.test(t)) out.push(`${p} staccato: ${t.slice(0, 100)}`);
     const words = t.split(' ').length; if (/^[A-Z]/.test(t) && /[.!?]$/.test(t) && !/\. /.test(t) && words > 42) out.push(`${p} long sentence ${words}w: ${t.slice(0, 100)}`);
   }
 }

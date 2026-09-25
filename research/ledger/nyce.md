@@ -51,6 +51,7 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| nyce-v01 | NYCE Payments Network E-book | FIS | yes | n.d. |  | https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf | 2026-09-25 | FIS-published participant brochure for NYCE; companion 'Payment Networks eBook 2025' at /-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf; the participant portal is the FIS Client Portal at https://my.fisglobal.com/app/login · priority low | Verified |  |  |
 
 ## Sentiment
 

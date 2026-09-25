@@ -55,11 +55,13 @@ print(json.dumps([{{'start': x.start, 'text': x.text}} for x in data]))
     except Exception:
         pass
     return None, 0
-slugs = args or sorted(os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(RAW, '*', 'demos.json')))
+slugs = args or sorted({os.path.basename(os.path.dirname(p)) for p in glob.glob(os.path.join(RAW, '*', 'demos*.json'))})
 for slug in slugs:
-    f = os.path.join(RAW, slug, 'demos.json')
-    if not os.path.exists(f): print(slug, 'no demos.json'); continue
-    d = json.load(open(f)); os.makedirs(os.path.join(OUT, slug), exist_ok=True)
+    files = sorted(glob.glob(os.path.join(RAW, slug, 'demos*.json')))
+    if not files: print(slug, 'no demos file'); continue
+    d = {'kept': []}
+    for f in files: d['kept'] += json.load(open(f)).get('kept', [])
+    os.makedirs(os.path.join(OUT, slug), exist_ok=True)
     idx_path = os.path.join(OUT, slug, 'index.json'); idx = json.load(open(idx_path)) if os.path.exists(idx_path) else {}
     kept = [k for k in d.get('kept', []) if (k.get('priority') or 'low') in prio]
     got = 0

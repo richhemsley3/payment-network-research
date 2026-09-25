@@ -43,6 +43,7 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| shazam-v01 | SHAZAM Training & Education (webinars, online courses inside SHAZAM Access) | SHAZAM | yes | n.d. |  | https://www.shazam.net/resources/training-and-education | 2026-09-25 | Describes live webinars, gated online courses delivered through the SHAZAM Access portal, and custom training on reconciliation, fraud and DocuCommand; the public login surfaces are SHAZAM Access https://portal.shazam.net/ShazamWebApps/mem_only.htm, SHAZAM Files https://portal.shazam.net/navigator/, ATM Monitor Plus https://portal.shazam.net/IMSClient, SystemChek https://portal.shazam.net/status (resolves to a Peregrine/DigiHive/KinetiCore sign-in, not a public status board), BIS https://bis.shazam.net/ · priority low | Verified |  |  |
 
 ## Sentiment
 

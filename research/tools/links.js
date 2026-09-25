@@ -12,10 +12,11 @@ const problems = [], used = new Set(), urls = new Set();
 const anchors = {};
 for (const p of pages) {
   const html = fs.readFileSync(path.join(ROOT, p), 'utf8');
+  const body = html.replace(/<h2 class="doc-s" id="register">[\s\S]*$/, '');
   anchors[p] = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map(m => m[1]));
   for (const m of html.matchAll(/<a\b([^>]*)>/g)) {
-    const attrs = m[1]; const src = (attrs.match(/data-src="([^"]+)"/) || [])[1]; const href = (attrs.match(/href="([^"]+)"/) || [])[1];
-    if (src) { used.add(src); const s = byId[src]; if (!s) problems.push(`${p}: data-src ${src} not in ledger`); else if (href && s.url && norm(href) !== norm(s.url)) problems.push(`${p}: ${src} href differs from ledger url\n   page   ${href}\n   ledger ${s.url}`); if (href && /^https?:/.test(href)) urls.add(href); }
+    const attrs = m[1]; const src = (attrs.match(/data-src="([^"]+)"/) || [])[1]; const inBody = body.includes(m[0]); const href = (attrs.match(/href="([^"]+)"/) || [])[1];
+    if (src) { if (inBody) used.add(src); const s = byId[src]; if (!s) problems.push(`${p}: data-src ${src} not in ledger`); else if (href && s.url && norm(href) !== norm(s.url)) problems.push(`${p}: ${src} href differs from ledger url\n   page   ${href}\n   ledger ${s.url}`); if (href && /^https?:/.test(href)) urls.add(href); }
     else if (href && /^https?:/.test(href) && !/localhost/.test(href)) problems.push(`${p}: external link without data-src: ${href.slice(0, 100)}`);
   }
   for (const m of html.matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/g)) {

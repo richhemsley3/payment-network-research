@@ -25,7 +25,7 @@ def load_existing(path):
         if m: ids[(norm_url(m.group(3)), m.group(2)[:80])] = m.group(1)
     return ids
 def build(slug):
-    raws = sorted(glob.glob(os.path.join(RAW, slug, '*.json')))
+    raws = sorted(glob.glob(os.path.join(RAW, slug, '*.json'))) + ([f for f in glob.glob(os.path.join(RAW, 'cross', 'demos-*.json'))] if slug != 'cross' else [])
     walks = sorted(glob.glob(os.path.join(WALKS, slug + '*.json')))
     if not raws and not walks: return None
     out = os.path.join(LEDGER, slug + '.md'); existing = load_existing(out)
@@ -33,8 +33,8 @@ def build(slug):
     for f in raws:
         try: d = json.load(open(f))
         except Exception as e: print(f'  skip {f}: {e}'); continue
-        if os.path.basename(f) == 'demos.json':
-            demos = d.get('kept', []); continue
+        if os.path.basename(f).startswith('demos'):
+            demos += [k for k in d.get('kept', []) if not k.get('network') or k.get('network') == slug]; continue
         dim = d.get('dimension', '')
         for c in d.get('claims', []):
             key = (norm_url(c.get('url')), cell(c.get('claim'))[:80])

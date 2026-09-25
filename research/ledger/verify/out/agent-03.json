@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "id": "amex-414",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "HTML shell is 1,866 bytes containing only the title and the meta description; the quote appears verbatim in that description."
+    },
+    {
+      "id": "amex-384",
+      "result": "qualified",
+      "qualification": "The quote is not visible on the rendered /support page (which shows only the ticket form and hours); it appears verbatim as a UI string in the portal's JS bundle /assets/index-CKDoS6PK.js, which also carries mailto:support@devmail.americanexpress.com, aed.openbanking@aexp.com (Open Banking invites) and agenticcommerceexperiences@aexp.com (agentic invites). A separate Card on-demand mailbox was not found in the bundle.",
+      "fetch": "text.js + curl of the JS bundle",
+      "archive_url": null,
+      "note": "Rendered support page text has no email addresses; support strings live in the SPA bundle. Fallback mailbox and two product mailboxes confirmed."
+    },
+    {
+      "id": "amex-385",
+      "result": "qualified",
+      "qualification": "The quote is not on the rendered /support page; it appears verbatim in the SPA bundle /assets/index-CKDoS6PK.js alongside 'This certificate deployment process may take up to 72 hours' and 'our team will reach out to you regarding your certificate deployment within 7 business days' / 'within seven business days'.",
+      "fetch": "text.js + curl of the JS bundle",
+      "archive_url": null,
+      "note": "All three turnaround commitments confirmed as portal UI strings (CSR five business days, deployment 72 hours, follow-up 7 business days)."
+    },
+    {
+      "id": "amex-386",
+      "result": "qualified",
+      "qualification": "The quote is not on the rendered /support page; it appears verbatim in the SPA bundle /assets/index-CKDoS6PK.js, next to environment descriptions (sandbox 'mock data and static responses', QA 'dynamic test data and full backend execution', production 'live environment') and 'Request received. You'll be notified by email with status updates.'",
+      "fetch": "text.js + curl of the JS bundle",
+      "archive_url": null,
+      "note": "Claim substance fully supported by portal UI strings; wrong page cited for the text."
+    },
+    {
+      "id": "amex-397",
+      "result": "qualified",
+      "qualification": "Quote appears verbatim ('Partner with internal business partners (e.g., Strategic Partnerships, Servicing, Marketing, Legal, Finance, Risk, Network Operations, and Pricing)'). The page names the group as the 'Global Merchant Services Global Client Group (GCG)' and describes 'End-to-end global account management of merchant relationships'; the acronym GMNS does not appear on the page.",
+      "fetch": "WebFetch",
+      "archive_url": null,
+      "note": "Direct curl returned 403; WebFetch read the posting. GMNS attribution is the researcher's, not the page's."
+    },
+    {
+      "id": "amex-445",
+      "result": "not-fetched",
+      "qualification": "",
+      "fetch": "none (curl 302, Wayback 404)",
+      "archive_url": null,
+      "note": "Live URL now 302s to https://identity-1-qa.americanexpress.com/en-us/account/enterprise/login (not 503); Wayback has no capture of /globalnetwork/register/ (only 2017-2020 captures of /globalnetwork/ index). The GNSweb quote could not be checked against any readable page."
+    },
+    {
+      "id": "mastercard-035",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "GET /llms-full.txt -> 302 to /devzone/api/user/login?...referral_path=%2Fllms-full.txt -> 401 with body {\"code\":\"DP10005\",\"message\":\"Session expired.\"}; /llms.txt and /merchant-cloud/documentation/llms-full.txt return 200 unauthenticated."
+    },
+    {
+      "id": "mastercard-037",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "text.js (rendered)",
+      "archive_url": null,
+      "note": "Raw HTML is an empty SPA shell; rendered text shows 'Sign in / User ID / Password / RSA SecurID® token / Forgot password/PIN / Replace RSA SecurID token'. WebFetch got an unsupported-browser page."
+    },
+    {
+      "id": "mastercard-298",
+      "result": "supports",
+      "qualification": "",
+      "fetch": "text.js (rendered)",
+      "archive_url": null,
+      "note": "Same page as mastercard-037; login wall with User ID and Password / RSA SecurID token confirmed. The FLD/MATCH Pro/ORC/Mastercom cross-references were not checked here."
+    },
+    {
+      "id": "mastercard-047",
+      "result": "qualified",
+      "qualification": "The quote is not on the cited index.md (which lists only 'How AI Agents are Transforming Commerce' and 'Developer Playbook for Agentic Commerce'). It appears verbatim in the service's llms-full.txt front matter (title: Merchant Cloud, auth_type: NONE) and in /llms.txt; the public /devzone/api/portal/products entry shows a single service with only a documentationUrl.",
+      "fetch": "curl",
+      "archive_url": null,
+      "note": "Claim substance (docs-only, auth NONE, agentic tutorials and playbook) supported across the portal's public files; the quote lives on sibling pages, not the cited one."
+    },
+    {
+      "id": "mastercard-085",
+      "result": "qualified",
+      "qualification": "The cited URL returns Akamai 403 live and its Wayback captures since Oct 2025 are a 301 to https://www.mastercard.com/global/en/business/industry-segment/fintech/program/engage.html. The 2026-09-15 archive of that new URL carries the quote verbatim in its FAQ schema and says customers 'can search the Engage directory online' (engagepartners.mastercard.com). Nothing on the page says the programme is offered at no charge; the July 2025 archive of the cited URL lacks the quote.",
+      "fetch": "Wayback (relocated page)",
+      "archive_url": "https://web.archive.org/web/20260915095948id_/https://www.mastercard.com/global/en/business/industry-segment/fintech/program/engage.html",
+      "note": "Page moved; quote and directory confirmed on the successor URL; 'no charge' unverified; the page says 'qualified enablers' rather than 'technology enablers'."
+    },
+    {
+      "id": "mastercard-086",
+      "result": "qualified",
+      "qualification": "The cited URL is 403 live (Akamai, also via text.js and WebFetch) and the latest Wayback capture is 2025-09-15. That capture does not contain '45+ pre-certified Product Express partners' or 'as quick as days'; it does market Product Express as 'handling licensing, onboarding, partnerships', alongside Start Path, Engage and 'Account Management ... Our account teams for large, global fintech companies'. That page's meta description and an icon are still labelled 'Fintech Express', though no separate Fintech Express page is linked.",
+      "fetch": "Wayback",
+      "archive_url": "https://web.archive.org/web/20250915054640id_/https://www.mastercard.com/global/en/business/fintech/fintech-programs.html",
+      "note": "Substance supported by the archived page; the exact quote could not be located on any reachable version (the 2026 successor pages under /industry-segment/fintech/ also lack it)."
+    },
+    {
+      "id": "mastercard-095",
+      "result": "not-fetched",
+      "qualification": "",
+      "fetch": "none (curl 403 with all user agents, WebFetch 403, Wayback 404, archive.ph 404)",
+      "archive_url": "https://web.archive.org/web/20260414131737id_/https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-may-2025.pdf",
+      "note": "The July 20, 2026 PDF is unreadable by every method. The only archived predecessor (May 2025 edition, effective July 1, 2025) contains the quoted sentence verbatim ('0.090% or 9.0 basis points on assessable volume'), so the rate is plausible but the July 2026 effective date is unverified."
+    },
+    {
+      "id": "mastercard-096",
+      "result": "not-fetched",
+      "qualification": "",
+      "fetch": "none (curl 403 with all user agents, WebFetch 403, Wayback 404, archive.ph 404)",
+      "archive_url": "https://web.archive.org/web/20260414131737id_/https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-may-2025.pdf",
+      "note": "The July 20, 2026 PDF is unreadable. Caution: the archived May 2025 predecessor states 0.60% (60 bps) for CAD transactions and 1.00% only for non-CAD currencies, while utilities USD 0.02 and debit contactless USD 0.004 with the 9 bps rebate match. The 1.00%-for-CAD wording must come from the 2026 edition and could not be confirmed."
+    }
+  ]
+}

@@ -42,6 +42,9 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| star-v01 | Developer Studio: An Agile Tool for Creating Fintech Experiences | Fiserv (@Fiserv) | yes | n.d. |  | https://www.youtube.com/watch?v=LIsr0pun8mM | 2026-09-25 | Fiserv Developer Studio (developer.fiserv.com) - API catalogue, sandbox and docs screens; the developer front door for STAR/Accel partner integrations · priority medium | Verified |  |  |
+| star-v02 | AuthHub | Fiserv (@Fiserv) | yes | n.d. |  | https://www.youtube.com/watch?v=I5vYNpUFOyo | 2026-09-25 | Fiserv AuthHub authorization platform overview - the authorization layer behind STAR/Accel issuer processing · priority low | Verified |  |  |
+| star-v03 | The Carrie Show 7.16.26 \| Is AI the Next Digital Banking? \| Banking on Claude \| Fiserv STAR Network | BankSmartCarrie | no | n.d. | 4842 | https://www.youtube.com/watch?v=7E81vqzHnyE | 2026-09-25 | Third-party banking-tech show with a segment on the Fiserv STAR network (2026 sale/ownership news); talk only · priority low | Reported |  |  |
 
 ## Sentiment
 

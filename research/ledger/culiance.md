@@ -36,6 +36,7 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| culiance-v01 | CULIANCE e-Book 2024 | FIS | yes | n.d. |  | https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/CULIANCE-eBook-2024-V2.pdf | 2026-09-25 | Credit-union-facing brochure; fisglobal.com/products/culiance presents CULIANCE as 'powered by FIS' with the FIS Client Portal (my.fisglobal.com) as the partner login - contradicts the Velera/CO-OP framing in the brief · priority low | Verified |  |  |
 
 ## Sentiment
 

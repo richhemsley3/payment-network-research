@@ -32,6 +32,9 @@ Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged 
 
 | Id | Title | Channel | Official | Published | Duration | URL | Accessed | What it shows | Confidence | Excerpts | Frames |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| jeanie-v01 | Innovation Focus Autumn/Winter 2025: Disputes Management Portal | Worldpay (@WorldpayGlobal) | yes | n.d. |  | https://www.youtube.com/watch?v=os45z7W40S4 | 2026-09-25 | Worldpay's Disputes Management Portal walkthrough - dispute queue, case detail and evidence-upload screens; Worldpay is the Jeanie network owner, but this portal is the merchant-acquiring surface, not the Jeanie participant surface · priority high | Verified |  |  |
+| jeanie-v02 | Innovation Focus Autumn/Winter 2025: Pazien Dashboard | Worldpay (@WorldpayGlobal) | yes | n.d. |  | https://www.youtube.com/watch?v=qDt2YbMi_Oo | 2026-09-25 | Pazien reporting/analytics dashboard - approval rates, cost and decline views for Worldpay clients · priority medium | Verified |  |  |
+| jeanie-v03 | Innovation Focus Autumn/Winter 2025: DevHub | Worldpay (@WorldpayGlobal) | yes | n.d. |  | https://www.youtube.com/watch?v=6802AW09RjM | 2026-09-25 | Worldpay DevHub developer centre - API docs, reference and onboarding screens · priority medium | Verified |  |  |
 
 ## Sentiment
 
