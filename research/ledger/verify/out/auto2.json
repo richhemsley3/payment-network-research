@@ -1,0 +1,641 @@
+{
+ "results": [
+  {
+   "id": "amex-002",
+   "result": "supports",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260113201837/https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/products/",
+   "note": "auto2: quote found via browser-html-200, page 22529 chars"
+  },
+  {
+   "id": "amex-010",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-011",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20241204174422/https://developer.americanexpress.com/documentation/api-security/oauth-client-credentials-flow/",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-016",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-020",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-027",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-022",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607042327/https://developer.americanexpress.com/terms",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-024",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607042327/https://developer.americanexpress.com/terms",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-025",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607042327/https://developer.americanexpress.com/terms",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-029",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 133 chars"
+  },
+  {
+   "id": "amex-399",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 4973 chars"
+  },
+  {
+   "id": "amex-080",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-081",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-089",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-102",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-115",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-116",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-117",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-118",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-219",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-221",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "amex-222",
+   "result": "not-fetched",
+   "fetch": "browser-pdf-200",
+   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
+  },
+  {
+   "id": "mastercard-113",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
+  },
+  {
+   "id": "visa-049",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
+  },
+  {
+   "id": "amex-195",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": "http://web.archive.org/web/20200329212726/https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "amex-212",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1596910 chars"
+  },
+  {
+   "id": "amex-259",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1596910 chars"
+  },
+  {
+   "id": "amex-264",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1596910 chars"
+  },
+  {
+   "id": "amex-265",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1596910 chars"
+  },
+  {
+   "id": "amex-244",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260121104237/https://www.americanexpress.com/en-us/business/merchant/regulation/",
+   "note": "auto2: quote not found via browser-html-200, page 0 chars"
+  },
+  {
+   "id": "amex-330",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20250122094950/https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+   "note": "auto2: quote not found via browser-html-200, page 16878 chars"
+  },
+  {
+   "id": "amex-353",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-354",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-414",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-384",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-385",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-386",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 55 chars"
+  },
+  {
+   "id": "amex-397",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "amex-445",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "mastercard-035",
+   "result": "not-fetched",
+   "fetch": "browser-401",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-401, page 0 chars"
+  },
+  {
+   "id": "mastercard-037",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20110208094005/http://mastercardconnect.com/",
+   "note": "auto2: quote not found via browser-html-200, page 18 chars"
+  },
+  {
+   "id": "mastercard-298",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20110208094005/http://mastercardconnect.com/",
+   "note": "auto2: quote not found via browser-html-200, page 18 chars"
+  },
+  {
+   "id": "mastercard-047",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 523 chars"
+  },
+  {
+   "id": "mastercard-154",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-157",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-197",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": "http://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-198",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": "http://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-209",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": "http://web.archive.org/web/20260502161306/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-228",
+   "result": "not-fetched",
+   "fetch": "browser-401",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-401, page 0 chars"
+  },
+  {
+   "id": "mastercard-262",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": "http://web.archive.org/web/20250615224805/https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-263",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-333",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-334",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-356",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 1140 chars"
+  },
+  {
+   "id": "visa-007",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-013",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-037",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-053",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-066",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-085",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-086",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-087",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-103",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-107",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-108",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-117",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-143",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-165",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-166",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-167",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-250",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-291",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-292",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-300",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-302",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-305",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-310",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-313",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-314",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-315",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-317",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-329",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-378",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-379",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "visa-036",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "visa-063",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "visa-213",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 88 chars"
+  },
+  {
+   "id": "visa-214",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 66 chars"
+  },
+  {
+   "id": "visa-234",
+   "result": "not-fetched",
+   "fetch": "browser-404",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-404, page 0 chars"
+  },
+  {
+   "id": "visa-235",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 294 chars"
+  },
+  {
+   "id": "visa-267",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  }
+ ]
+}

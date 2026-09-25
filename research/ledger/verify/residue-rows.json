@@ -1,0 +1,722 @@
+[
+ {
+  "id": "amex-010",
+  "claim": "The Global Pay with Points v2 OpenAPI spec (public on the content host) states that a standard Sandbox key is published in the spec's Test Data section, the only product where sandbox test data is published rather than issued.",
+  "quote": "A standard Sandbox key is available within the Test Data section below.",
+  "url": "https://developer.americanexpress.com/products/nextgen-global-pay-with-points-v2/overview",
+  "title": "Global Pay with Points | American Express Developers (OpenAPI specification)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-011",
+  "claim": "2-legged OAuth uses a JWT client assertion (RFC 7523 style) signed with the client secret using an HMAC-SHA algorithm, sent with grant_type=client_credentials and the X-AMEX-API-KEY header carrying the client_id.",
+  "quote": "The Client Assertion is a JWT signed with the Client Secret (provided via the American Express Developers Portal) using any recommended HMAC SHA algorithm",
+  "url": "https://developer.americanexpress.com/documentation/api-security/oauth-client-credentials-flow",
+  "title": "OAuth 2.0 Client Credentials Flow (2Legged) | American Express Developers",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-016",
+  "claim": "Published API hosts: the ACE spec lists sandbox https://apisandboxm.americanexpress.com and production https://apigwm.americanexpress.com; the dashboard exposes OAuth token hosts for an E2 sandbox (api.qasb2s), E3 sandbox (sandbox2s / apigwsandboxm) and production (apigateway2s / apigwm), and 3-legged hosts openamex-sandbox / openamex.",
+  "quote": "\"url\": \"https://apisandboxm.americanexpress.com\", \"description\": \"sandbox\"",
+  "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+  "title": "American Express Agentic Commerce Experience - Enrollment, Intent, Payment Credential, and Notification API (OpenAPI specification)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-020",
+  "claim": "Product API references are OpenAPI 3.x JSON files hosted on Amex's static content host with a per-product change-log.json that the portal renders as a version-history page; the ACE change log records a single 'Launched' entry dated April 6, 2026.",
+  "quote": "\"versionDate\": \"April 6, 2026\", \"versionNumber\": \"1.0.0\"",
+  "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+  "title": "NextGen Agentic Payments Change Log (change-log.json)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-027",
+  "claim": "The ACE spec defines a partner-side notifications endpoint (tag 'Webhook') through which Amex pushes enrollment, intent and payment-credential lifecycle events with JWE-encrypted payloads.",
+  "quote": "The request payload is JWE-encrypted on the wire.",
+  "url": "https://developer.americanexpress.com/products/nextgen-agentic-payments/resources",
+  "title": "American Express Agentic Commerce Experience - Enrollment, Intent, Payment Credential, and Notification API (OpenAPI specification)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-022",
+  "claim": "There is no published deprecation or notice period for portal APIs: the Terms commit only to commercially reasonable efforts to warn of breaking Updates and reserve the right to change or discontinue any aspect without notice.",
+  "quote": "AMEX will use commercially reasonable efforts to notify Developer in advance of any Update that will require Developer to modify its Developer Application",
+  "url": "https://developer.americanexpress.com/terms",
+  "title": "American Express Developers \u2013 Portal Terms of Use",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-024",
+  "claim": "No numeric rate limits or quotas are published anywhere logged out; the only throttling language is the Terms' right to restrict, throttle, suspend or terminate access at Amex's discretion.",
+  "quote": "decline to issue Access Credentials, revoke Access Credentials, or restrict, throttle, suspend, or terminate Developer\u2019s access to the Developer Portal",
+  "url": "https://developer.americanexpress.com/terms",
+  "title": "American Express Developers \u2013 Portal Terms of Use",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-025",
+  "claim": "There is no API price list: the Terms reserve the right to charge for the portal or any materials at any time, while individual products state their own terms (Enhanced Authorization is described as free; the AMEX Enabled certification programme charges no registration fee).",
+  "quote": "AMEX reserves the right and may at its sole discretion, at any time, charge for Developer Portal, some or all of the AMEX Materials",
+  "url": "https://developer.americanexpress.com/terms",
+  "title": "American Express Developers \u2013 Portal Terms of Use",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-029",
+  "claim": "Developer support runs through an in-portal helpdesk with seven ticket categories, an unauthenticated ticket path and the mailbox support@devmail.americanexpress.com; the Terms promise only commercially reasonable efforts to respond and no SLA.",
+  "quote": "[\"General Questions\",\"Registration & Login\",\"API Product Information\",\"API Access Request\",\"API Certificate\",\"API Integration\",\"Bugs & Technical Issues\"]",
+  "url": "https://a4dextsvr.americanexpress.com/dev-portal/a4d/v1/helpdesk/categories",
+  "title": "American Express Developers helpdesk categories (a4d/v1/helpdesk/categories)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-399",
+  "claim": "Sign-in, user registration and the whole /v4/secure/ area of the GNS site hand off to the americanexpress.com enterprise login; /v4/secure/knowledge-base/, /v4/secure/faq/, /v4/registration/user-registration and /globalnetwork/register/ all redirected to that login when fetched.",
+  "quote": "https://www.americanexpress.com/en-us/account/enterprise/login?target=https://network.americanexpress.com/globalnetwork/v4/secure/",
+  "url": "https://network.americanexpress.com/globalnetwork/",
+  "title": "American Express Global Network",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-080",
+  "claim": "2024-09-30: OptBlue merchants filed Pizza Hazel v. American Express (D. Mass.), a putative class action attacking the anti-steering and non-discrimination provisions; Amex's motion to compel arbitration was denied and appealed to the First Circuit.",
+  "quote": "Plaintiffs seek, on behalf of themselves and a class of merchants that accept through the OptBlue Program, unspecified damages",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-081",
+  "claim": "Amex is also appealing to the First Circuit a denial of arbitration in 5-Star General Store v. American Express (D.R.I., filed 2024-03-21), a second merchant class action over the same steering provisions.",
+  "quote": "The court rejected our motion to compel the case to arbitration; we have appealed the decision to the Court of Appeals for the First Circuit.",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-089",
+  "claim": "FY2025 10-K confirms the sales-practices investigations (including the Federal Reserve piece) were resolved by agreements entered in 2025.",
+  "quote": "in 2025 we entered into agreements to resolve governmental investigations related to historical sales practices for certain U.S. small business customers",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Risk Factors)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-102",
+  "claim": "2025-08-28: In the Moskowitz (formerly Oliver) consumer anti-steering class action (E.D.N.Y.), the jury found for Amex on all claims except an Illinois consumer-law claim, awarding $12.5 million to Illinois non-rewards credit cardholders.",
+  "quote": "After trial in August 2025, the jury returned a verdict finding in favor of us on all claims except an Illinois consumer law claim",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Note 12 Legal Proceedings)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-115",
+  "claim": "FY2025 10-K: Amex warns its exemptions from network-routing and interchange regulation are not guaranteed and that bankcard fee regulation still hurts its discount revenue.",
+  "quote": "While in some cases our business is subject to exemptions related to certain of these regulations, there is no guarantee that such exemptions will continue",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Supervision and Regulation)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-116",
+  "claim": "FY2025 10-K: network partners in about 110 countries generated $227.2 billion of processed volume in 2025 and 66.2 million third-party cards-in-force at year-end.",
+  "quote": "worldwide processed volume (spending on American Express cards issued by third parties as well as alternative payment solutions facilitated by American Express) was $227.2 billion",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Card Network Business)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-117",
+  "claim": "FY2025 10-K names Coinbase and Credit Saison as examples of third-party issuers using Amex network technology, marketing and brand assets.",
+  "quote": "cards issued by third-party banks, financial technology companies and other institutions on the American Express network (e.g., cards offered by Coinbase and Credit Saison)",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Partners and Relationships)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-118",
+  "claim": "FY2025 10-K flags the RBA's July 2025 consultation to remove surcharging on designated networks as a live regulatory risk with uncertain impact.",
+  "quote": "in Australia where the central bank released a consultation paper in July 2025 proposing to remove surcharging on designated card networks",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express Annual Report 2025 (Form 10-K, Supervision and Regulation)",
+  "publisher": "American Express Company / SEC",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-219",
+  "claim": "Amex's 2025 Annual Report states acceptance reached over 170 million merchant locations worldwide as of year-end 2025.",
+  "quote": "reaching over 170 million merchant locations worldwide that accept American Express as of year-end 2025.",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express 2025 Annual Report (shareholder letter)",
+  "publisher": "American Express Company",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-221",
+  "claim": "The year-end 2025 LIF estimate reflects an estimated 37 million merchants accepting Amex in China, including through digital wallets.",
+  "quote": "estimate as of December 2025, which reflects an estimated 37 million merchants that accept American Express in China (including through digital wallets)",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express 2025 Annual Report (shareholder letter footnote 3)",
+  "publisher": "American Express Company",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-222",
+  "claim": "Amex says merchant locations outside the U.S. have more than doubled over the last four years while U.S. coverage stayed at virtual parity.",
+  "quote": "We maintained virtual parity coverage in the U.S. , and merchant locations outside the U.S. have more than doubled over the last four years.",
+  "url": "https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
+  "title": "American Express 2025 Annual Report (shareholder letter)",
+  "publisher": "American Express Company",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-113",
+  "claim": "The Board's per-network table for 2024 shows Mastercard's average covered debit interchange at USD 0.24 (0.49% of value) and exempt at USD 0.63 (1.30%); Maestro (single-message) covered USD 0.24 (0.55%) and exempt USD 0.21 (0.54%).",
+  "quote": "MasterCard $0.24 0.49%",
+  "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+  "title": "Average Debit Card Interchange Fee by Payment Card Network",
+  "publisher": "Board of Governors of the Federal Reserve System",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-049",
+  "claim": "The Federal Reserve's Regulation II data classify Visa as a dual-message network (with Discover and Mastercard) and Interlink as a single-message network alongside ACCEL, AFFN, ATH, Culiance, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR and UnionPay.",
+  "quote": "ACCEL, AFFN, ATH, Culiance, Interlink, Jeanie, Maestro, NYCE, PULSE, SHAZAM, STAR, UnionPay",
+  "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+  "title": "Regulation II (Debit Card Interchange Fees and Routing): Average Debit Card Interchange Fee by Payment Card Network",
+  "publisher": "Board of Governors of the Federal Reserve System",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-195",
+  "claim": "Amex Merchant Financing is priced as a fixed fee by term (6, 12 or 24 months) rather than an APR, with fee ranges reported as 1.75-7%, 3.5-14% and 7-28% and early-repayment rebates of 25% or 10% of the fee.",
+  "quote": "Fixed fees range from 1.75-7% (6-Month Term), 3.5-14% (12-Month Term), and 7-28% (24-Month Term).",
+  "url": "https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+  "title": "Apply for Merchant Financing Loans from American Express",
+  "publisher": "American Express",
+  "confidence": "Reported"
+ },
+ {
+  "id": "amex-244",
+  "claim": "On October 23, 2026 Amex will publish a single consolidated 'American Express Merchant Rules' replacing the Canada Merchant Operating Manual, the International and the U.S. Merchant Regulations, effective April 24, 2027.",
+  "quote": "the Merchant Rules will become effective on April 24, 2027. Prior to that date, the applicable regional documents referenced above will continue to be effective.",
+  "url": "https://www.americanexpress.com/en-us/business/merchant/regulation/",
+  "title": "American Express Merchant Regulations \u2013 Merchant Rules Update notice",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-330",
+  "claim": "Merchant Financing: fixed-fee loans of $5,000 to $2,000,000 for businesses that accept American Express, repaid over 6, 12 or 24 months (site unreachable; search evidence only).",
+  "quote": "fixed fee business loans between $5,000 and $2,000,000 for businesses that accept American Express Cards",
+  "url": "https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+  "title": "Business Line of Credit | American Express Business Blueprint (search result summary)",
+  "publisher": "American Express (americanexpress.com)",
+  "confidence": "Reported"
+ },
+ {
+  "id": "amex-353",
+  "claim": "Developer access model: partners create 'Projects' to request API products and get keys; help-desk tickets are typed as API Product Information, API Access Request, API Certificate, API Integration; API security uses OAuth 2 (client credentials and authorization code), HMAC and Amex-signed certificates.",
+  "quote": "Projects are a new way to request and manage your American Express API products",
+  "url": "https://developer.americanexpress.com/",
+  "title": "American Express Developers",
+  "publisher": "American Express (americanexpress.com)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-354",
+  "claim": "Open Banking APIs are gated to regulated third-party providers: the portal refuses access to organisations that are not regulated TPPs, and the Account and Transaction API covers all Amex proprietary cards under PSD2.",
+  "quote": "Your organization is currently not eligible to proceed because it is not a regulated Third Party Provider.",
+  "url": "https://developer.americanexpress.com/",
+  "title": "American Express Developers",
+  "publisher": "American Express (americanexpress.com)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-414",
+  "claim": "Amex for Developers (developer.americanexpress.com) is positioned as the single point of access to Amex APIs; the site is a React single-page app whose HTML shell contains only the title and this description, so text-only fetches see nothing else.",
+  "quote": "A single point of access to American Express APIs and developer resources in categories including fraud prevention, payment services, personalized services, data intelligence and more.",
+  "url": "https://developer.americanexpress.com/",
+  "title": "American Express Developers",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-384",
+  "claim": "Developer support has a fallback mailbox, support@devmail.americanexpress.com, plus product-specific mailboxes for Open Banking, Card on-demand integrations and agentic commerce.",
+  "quote": "An error occurred while submitting your note. Please email us directly at support@devmail.americanexpress.com.",
+  "url": "https://developer.americanexpress.com/support",
+  "title": "American Express Developers",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-385",
+  "claim": "The developer portal publishes turnaround commitments for certificate handling: signed certificates within five business days of CSR submission, deployment within 72 hours, and human follow-up within seven business days.",
+  "quote": "After submitting your CSR, American Express will issue the signed certificate. This process may take up to five business days.",
+  "url": "https://developer.americanexpress.com/support",
+  "title": "American Express Developers",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-386",
+  "claim": "Developer environment access (sandbox with mock data, QA with dynamic test data, production) is granted by manual review of an access request, with status sent by email.",
+  "quote": "Please request access to view keys for this environment. Our team will review the request and grant access.",
+  "url": "https://developer.americanexpress.com/support",
+  "title": "American Express Developers",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "amex-397",
+  "claim": "Large merchants are handled by a named function, the Global Client Group within GMNS, whose client managers own end-to-end global account relationships and work with internal Servicing and Network Operations teams.",
+  "quote": "Strategic Partnerships, Servicing, Marketing, Legal, Finance, Risk, Network Operations, and Pricing",
+  "url": "https://www.career.com/job/american-express/senior-manager-global-client-management/j202211040317031881832",
+  "title": "Senior Manager-Global Client Management Job Opening in New York, NY at American Express | Career.com",
+  "publisher": "Career.com (reposted American Express job description)",
+  "confidence": "Reported"
+ },
+ {
+  "id": "amex-445",
+  "claim": "A search-indexed copy of the GNS registration page on the QA host qnetwork.americanexpress.com describes Knowledge Base as the replacement for the earlier GNSweb extranet; the production /globalnetwork/register/ page redirects to the enterprise login and the QA host returned HTTP 503, so this could not be read on a live page.",
+  "quote": "replaces GNSweb to provide an enhanced interface for accessing all Global Network assets, applications and services",
+  "url": "https://qnetwork.americanexpress.com/globalnetwork/register/",
+  "title": "Create an Account",
+  "publisher": "American Express (QA host, search snippet)",
+  "confidence": "Reported"
+ },
+ {
+  "id": "mastercard-035",
+  "claim": "The portal-wide llms-full.txt advertised in the docs and linked in the site footer is behind login (HTTP 401 redirect to /devzone/api/user/login), whereas llms.txt and every per-service llms-full.txt are public.",
+  "quote": "\"code\":\"DP10005\",\"message\":\"Session expired.\"",
+  "url": "https://developer.mastercard.com/llms-full.txt",
+  "title": "llms-full.txt (401 response body)",
+  "publisher": "Mastercard Developers",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-037",
+  "claim": "Mastercard Connect, the client portal that the developer docs point to for the Key Management Portal and Support Case Management, is a hard login wall requiring a User ID plus password or RSA SecurID token.",
+  "quote": "Sign in User ID Password / RSA SecurID\u00ae token",
+  "url": "https://www.mastercardconnect.com/",
+  "title": "Mastercard Connect",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-298",
+  "claim": "Mastercard Connect is the gated customer portal (User ID, password or RSA SecurID) referenced by FLD, MATCH Pro, ORC and Mastercom docs as the UI channel.",
+  "quote": "Sign in User ID Password / RSA SecurID\u00ae token",
+  "url": "https://www.mastercardconnect.com/",
+  "title": "Mastercard Connect",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-047",
+  "claim": "'Merchant Cloud' exists on the developer portal only as a documentation-only entry (authType NONE) carrying agentic-commerce tutorials and a 'Developer Playbook for Agentic Commerce'; it exposes no API, sandbox or credentials of its own.",
+  "quote": "With Merchant Cloud, we\u2019re powering tomorrow\u2019s growth by connecting the dots today, bringing industry-leading commerce solutions onto a single, open platform.",
+  "url": "https://developer.mastercard.com/merchant-cloud/documentation/index.md",
+  "title": "Merchant Cloud Tutorials and Guides",
+  "publisher": "Mastercard Developers",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-085",
+  "claim": "Mastercard Engage is the partner programme for technology enablers: onboarding is an online application, product qualification, franchise screening, ID issuance and a programme agreement, offered at no charge, with a public partner directory.",
+  "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+  "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html#/en/home",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-086",
+  "claim": "Mastercard's fintech page markets 'Product Express' as the fast-track card-programme route in which Mastercard handles licensing and onboarding through pre-certified partners, alongside Start Path, Engage and dedicated account management; no page named 'Fintech Express' exists on the current site.",
+  "quote": "45+ pre-certified Product Express partners ready to support a simple, fast and transparent launch - in as quick as days",
+  "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs.html",
+  "title": "Mastercard Fintech Solutions - Scale Your Ideas and Business | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-095",
+  "claim": "In Canada Mastercard publishes its acquirer network assessment fees: an Acquirer Volume Assessment of 0.090% (9.0 bps) on all gross acquiring volume, effective July 20, 2026.",
+  "quote": "The Acquirer Volume Assessment Fee is 0.090% or 9.0 basis points on assessable volume.",
+  "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-as-of-july20-2026-english.pdf",
+  "title": "Mastercard Acquiring Network Assessment Fees effective July 20, 2026 (Canada)",
+  "publisher": "Mastercard Canada",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-096",
+  "claim": "Canada's published Acquirer Cross-Border Assessment is 1.00% (100 bps) of volume whenever merchant and cardholder country codes differ, for both CAD and non-CAD transaction currencies; utilities are assessed at USD 0.02 and domestic debit contactless at USD 0.004 per transaction with the 9 bps volume assessment rebated.",
+  "quote": "The assessment is 1.00% or 100 basis points charged on volume when the transaction currency is Canadian Dollars (CAD)",
+  "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/documents/network-assessment-fee-as-of-july20-2026-english.pdf",
+  "title": "Mastercard Acquiring Network Assessment Fees effective July 20, 2026 (Canada)",
+  "publisher": "Mastercard Canada",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-097",
+  "claim": "Canada domestic consumer credit interchange effective August 1, 2026: Card Present EMV is 0.92% (Core), 1.22% (World), 1.56% (World Elite) and 1.95% (World Legend); Standard is 1.96% to 2.53%; domestic debit Supermarket/Petroleum is 0.15% + CAD 0.05.",
+  "quote": "Card Present EMV 0.92% 1.22% 1.56% 1.95%",
+  "url": "https://www.mastercard.com/content/dam/mccom/ca/en/business/support/documents/interchange-criteria-rates-aug12026-upcoming-rates-en.pdf",
+  "title": "Mastercard Canada Interchange Programs (Domestic Consumer Credit Interchange Rates Effective August 1, 2026)",
+  "publisher": "Mastercard Canada",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-100",
+  "claim": "Australia domestic Mastercard credit interchange effective 17 April 2026 (ex-GST): Base rate is 0.19% for Consumer Standard, 0.27% Consumer Premium, 0.70% Consumer Elite and 0.59% Commercial; Strategic Merchants 1 pays 0.18% on most products.",
+  "quote": "Base 0.59% 0.80% 0.19% 0.27% 0.61% 0.76% 0.67% 0.70% 0.80% 0.50% 0.80% 0.80% 0.80%",
+  "url": "https://www.mastercard.com/content/dam/mccom/aus/data-source/merchant-interchange-rates/Australia-Intracountry-CREDIT-POS-Interchange-Rates.pdf",
+  "title": "Australia Intracountry Mastercard Credit POS Interchange Rates (Effective 17 April 2026)",
+  "publisher": "Mastercard Australia",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-130",
+  "claim": "Mastercard's Operations Center is in O'Fallon, Missouri (listed as 'St. Louis'), separate from the Purchase NY global headquarters.",
+  "quote": "St. Louis 2200 Mastercard Blvd O'Fallon, MO 63368+7263 U.S.A Telephone: 636.722.6100",
+  "url": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html",
+  "title": "Global Locations | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-131",
+  "claim": "Regional headquarters are Dubai (Middle East & Africa), Miami (Latin America/Caribbean), Purchase (North America), Singapore (Asia/Pacific) and Waterloo, Belgium (Europe).",
+  "quote": "Waterloo (EUROPE) Chauss\u00e9e de Tervuren 198A B-1410, Waterloo, Belgium",
+  "url": "https://www.mastercard.com/global/en/for-the-world/about-us/global-locations.html",
+  "title": "Global Locations | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-154",
+  "claim": "Mastercard is dual-message AND single-message capable: its network comprises the Mastercard ATM Network, the Dual Message System, GCMS clearing and SAM settlement, and a Single Message System also generates financial advices.",
+  "quote": "the Mastercard ATM Network, the Dual Message System, the Global Clearing Management System (GCMS), and the Settlement Account Management (SAM) system",
+  "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+  "title": "Mastercard Switch Rules, 16 December 2025 (MCSR)",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-157",
+  "claim": "Network participants are defined as financial institutions or other entities using the network as issuer or acquirer; participant categories addressed by the Switch Rules include Principal Issuer, Principal Acquirer, Principal Affiliate, Processor, Branded Processor and Network Enablement Partner.",
+  "quote": "Audience Internal; Branded Processor; Principal Acquirer; Principal Issuer; Principal Affiliate; Processor; Network Enablement Partner",
+  "url": "https://www.mastercard.us/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+  "title": "Mastercard Switch Rules, 16 December 2025 (MCSR)",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-168",
+  "claim": "Mastercard Engage partner programme claims 170+ qualified fintech partners and 500+ customers connected (own figures), while its public directory lists 202 partners.",
+  "quote": "170+ qualified financial technology partners [2] 500+ customers connected to fintech partners [2]",
+  "url": "https://www.mastercard.com/engage",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-228",
+  "claim": "Mastercard Engage, the partner programme referenced from the rules page navigation, is login-gated on the developer portal and returns an authorisation error to unauthenticated requests.",
+  "quote": "Session expired.",
+  "url": "https://developer.mastercard.com/engage/",
+  "title": "Mastercard Engage (login redirect)",
+  "publisher": "Mastercard Developers",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-246",
+  "claim": "Mastercard Safety Net is marketed as a network-level fraud backstop with $77.4b of fraud prevented to date.",
+  "quote": "in fraud prevented to date with Mastercard Safety Net",
+  "url": "https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention.html",
+  "title": "Credit Card Fraud Protection and Cybersecurity Services | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-259",
+  "claim": "Payment facilitators are not licensed by Mastercard directly; an acquirer must register them, and Mastercard publishes the registered list.",
+  "quote": "An acquirer must register a service provider as a payment facilitator with Mastercard.",
+  "url": "https://www.mastercard.com/us/en/business/support/payment-facilitators.html",
+  "title": "Find a payment facilitator | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-260",
+  "claim": "The Network Enablement Partners (NEP) programme gives processors and other service providers a direct relationship with Mastercard instead of working only through a licensed issuer or acquirer.",
+  "quote": "A Network Enablement Partner (NEP) is a Service Provider that directly engages with Mastercard instead of leveraging the relationship of a Mastercard-Licensed Customer.",
+  "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+  "title": "Network enablement partners | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-261",
+  "claim": "NEP is tiered (Core, Acceptance and Processing Add-Ons, Platinum) with an Acceptance-Lite package for small payfacs, and grants test ICAs and BINs.",
+  "quote": "The NEP program offers a structured suite of solutions across three levels: Core, Acceptance and Processing Add-Ons, and Platinum tiers.",
+  "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+  "title": "Network enablement partners | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-326",
+  "claim": "The Network Enablement Partner (NEP) programme gives service providers a direct relationship with Mastercard in Core, Acceptance and Processing Add-On, Platinum and Acceptance-Lite tiers, with an enrolment form, a digital logo, a contact mailbox and a public regional registry of registered NEPs; a parallel public registry lists registered payment facilitators.",
+  "quote": "A Network Enablement Partner (NEP) is a Service Provider that directly engages with Mastercard instead of leveraging the relationship of a Mastercard-Licensed Customer.",
+  "url": "https://www.mastercard.com/us/en/business/support/network-enablement-partners.html",
+  "title": "Network enablement partners | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-262",
+  "claim": "Interchange is set by Mastercard and flows acquirer-to-issuer; Mastercard disclaims any role in acquirer-merchant pricing.",
+  "quote": "Mastercard interchange rates are established by Mastercard, and are generally paid by acquirers to card issuers on purchase transactions conducted on Mastercard cards.",
+  "url": "https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
+  "title": "Mastercard Interchange Fees and Rates Explained | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-263",
+  "claim": "The public rules page names the partner rulebooks (Mastercard Rules, Transaction Processing Rules, Switch Rules, Security Rules) and four merchant compliance programmes.",
+  "quote": "Business Risk Assessment and Mitigation (BRAM) Excessive Chargeback Program (ECP) Excessive Fraud Merchant (EFM) Program Questionable Merchant Audit Program (QMAP)",
+  "url": "https://www.mastercard.us/en-us/business/overview/support/rules.html",
+  "title": "Mastercard Rules for Merchants - Customer Compliance Program | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-274",
+  "claim": "Product Express is a digital onboarding platform for fintechs, issuers, acquirers and merchants with pre-certified partners and packaged plans.",
+  "quote": "Mastercard Product Express is a digital onboarding platform that helps fintechs, issuers, acquirers, and merchants launch Mastercard solutions faster and with less complexity.",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+  "title": "Mastercard Product Express | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-275",
+  "claim": "Card issuance through Product Express is explicitly sold through BIN sponsorship rather than a direct licence for the fintech.",
+  "quote": "Card issuance through BIN sponsorship",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+  "title": "Mastercard Product Express | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-276",
+  "claim": "i2c is quoted as the first U.S. processor supporting Product Express, showing processors as the delivery channel.",
+  "quote": "i2c is proud to be the first processor to support the Product Express program in the U.S.",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/product-express.html",
+  "title": "Mastercard Product Express | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-277",
+  "claim": "Mastercard Engage is a free partner marketplace connecting customers to qualified fintech enablers across 65+ solution types.",
+  "quote": "The Engage program is being offered to customers and partners at no additional charge.",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-278",
+  "claim": "Engage partner onboarding includes product qualification and franchise screening, and partners get Mastercard Academy education and lead generation.",
+  "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech/program/engage.html",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-279",
+  "claim": "Start Path is Mastercard's growth-stage fintech programme, claimed to have worked with 400+ fintechs.",
+  "quote": "400+ fintechs from 54 countries have worked with Start Path, including Revolut, Razorpay and Airwallex",
+  "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech.html",
+  "title": "Mastercard Fintech Solutions \u2013 Scale Your Ideas and Business | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-281",
+  "claim": "The Mastercard Move Partner Program is open to banks, non-bank FIs and technology partners, in three partner types: aggregators, licensed providers, and SI/ISVs.",
+  "quote": "Available to Mastercard Move customers, including banks, non-bank financial institutions and technology partners.",
+  "url": "https://www.mastercard.com/us/en/business/payments/mastercard-move/partner-program.html",
+  "title": "Mastercard Move Partner Program | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-285",
+  "claim": "The Partner Advantage Program (2025-26) is a reseller/co-sell programme for Mastercard Services with a gated partner portal.",
+  "quote": "Whether you're looking for the right partner or ready to become one, our network connects you to a global ecosystem",
+  "url": "https://www.mastercard.com/us/en/business/services/mastercard-partner-advantage-program.html",
+  "title": "Mastercard Partner Advantage Program | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-296",
+  "claim": "Named data products on the Insights & Intelligence page include Test & Learn, SpendingPulse and Acquiring Optimizer, the latter aimed at acquirers.",
+  "quote": "AIK Banka found a possible 30% increase in transaction volume using Acquiring Optimizer",
+  "url": "https://www.mastercard.com/us/en/business/insights-intelligence.html",
+  "title": "Advanced Analytics and Business Intelligence Solutions - Mastercard | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-327",
+  "claim": "BIN data for partners is distributed two ways: the BIN Lookup API on Mastercard Developers, and a Simplified BIN Account Range Table (SBART) file for approved customers requested through an access form on Mastercard Developers.",
+  "quote": "To request access to the SBART file, please visit Mastercard Developers; sign in or create an account; and complete the access request form.",
+  "url": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html",
+  "title": "Mastercard BIN Data | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-332",
+  "claim": "Mastercard.com's footer lists a fixed set of partner-facing 'Mastercard Sites': Mastercard Business Intelligence (mbi.mastercardservices.com), Mastercard Developers, Mastercard Marketing Center (mastercard.com/marketingcenter) and Priceless.com.",
+  "quote": "MASTERCARD SITES Priceless.com Mastercard Business Intelligence Mastercard Developers Mastercard Marketing Center Center for Inclusive Growth",
+  "url": "https://www.mastercard.com/us/en/business/support/simplified-bin-account-range-table.html",
+  "title": "Mastercard BIN Data | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-328",
+  "claim": "Mastercard Engage is a global partner programme and marketplace connecting customers with qualified fintech enablers, offered at no additional charge, claiming 170+ qualified partners and 500+ connected customers.",
+  "quote": "The Engage program is being offered to customers and partners at no additional charge.",
+  "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-329",
+  "claim": "Engage partner onboarding runs through an online application on the Engage portal, product qualification, Mastercard franchise screening, obtaining IDs and signing a programme agreement; partners receive promotion on the portal, access to Mastercard assets and education through Mastercard Academy.",
+  "quote": "The process includes online application, product qualification, Mastercard franchise screening, obtaining IDs, and signing the Engage program agreement.",
+  "url": "https://www.mastercard.com/global/en/business/fintech/fintech-programs/mastercard-engage.html",
+  "title": "Mastercard Engage - Fintech Partnerships for Business Growth | Mastercard Global",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-333",
+  "claim": "The Mastercard Services site (mastercardservices.com, now served from mastercard.com) markets value-added services to customers and announces a 'Mastercard Partner Advantage Program', a Circle of Honor customer recognition programme and a webinar library.",
+  "quote": "Whether you're seeking the right partner or ready to become one, our network helps you connect, grow and scale faster.",
+  "url": "https://www.mastercardservices.com/en",
+  "title": "Mastercard Services for Business Growth | Mastercard US",
+  "publisher": "Mastercard",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "mastercard-334",
+  "claim": "The Mastercard Brand Center (brand.mastercard.com) is a public library of logo artwork, branding requirements, card artwork and decal ordering for issuers and merchants, last updated December 2023 by its own change log.",
+  "quote": "Access downloadable logo artwork, brand guidelines, and useful information",
+  "url": "https://brand.mastercard.com/brandcenter.html",
+  "title": "Mastercard Brand Center",
+  "publisher": "Mastercard",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-356",
+  "claim": "Mandate (4 January 2027): Mastercard will decommission Acquirer Collaboration in the US and Canada under bulletin CAN/US 14059.1, closing new enrolment on 21 July 2026 when the bulletin published, without naming a replacement platform.",
+  "quote": "Mastercard will decommission Acquirer Collaboration in the US and Canada on January 4, 2027, per bulletin CAN/US 14059.1.",
+  "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+  "title": "Mastercard Acquirer Collaboration Ends in January 2027",
+  "publisher": "ChargebackHelp",
+  "confidence": "Reported"
+ },
+ {
+  "id": "visa-036",
+  "claim": "Visa Inc.'s significant subsidiaries as of September 30, 2025 are Visa Europe Limited (United Kingdom), Visa International Service Association (Delaware), Visa U.S.A. Inc. (Delaware) and Visa Worldwide Pte. Limited (Singapore).",
+  "quote": "List of Significant Subsidiaries of Visa Inc. as of September 30, 2025",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/vex211093025.htm",
+  "title": "Exhibit 21.1 to Visa Inc. 10-K FY2025",
+  "publisher": "Visa Inc. via SEC EDGAR",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-063",
+  "claim": "Mexico's new National Antitrust Commission (CNA) rejected Visa's proposed majority acquisition of Prosa in February 2026, finding Visa's remedies insufficient; the deal would have given Visa control of two of Mexico's three card brands (Visa and Prosa's Carnet) and two of four clearinghouses.",
+  "quote": "were not suitable or sufficient to avoid the risk to markets and consumers",
+  "url": "https://www.electronicpaymentsinternational.com/news/mexico-blocks-visa-prosa-stake/",
+  "title": "Mexico antitrust regulator blocks Visa bid for Prosa stake",
+  "publisher": "Electronic Payments International (Aninda Chakraborty)",
+  "confidence": "Reported"
+ },
+ {
+  "id": "visa-213",
+  "claim": "Product API references are readable logged out and are rendered by Redocly from an OpenAPI 3.1.0 document embedded in the page; the embedded spec lists only the sandbox server and no securitySchemes.",
+  "quote": "\"openapi\": \"3.1.0\"",
+  "url": "https://developer.visa.com/capabilities/foreign_exchange/reference",
+  "title": "Foreign Exchange Rates API Reference",
+  "publisher": "Visa Developer Center (Visa Inc.)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-214",
+  "claim": "The Visa Direct reference embeds an OpenAPI 3.1 'webhooks' object declaring nine receive-side callbacks (OCT/advice notifications), alongside 27 request operations, none marked deprecated.",
+  "quote": "/visadirect/v1/pushpayment/advice/receive/deferredoct",
+  "url": "https://developer.visa.com/capabilities/visa_direct/reference",
+  "title": "Visa Direct API Reference",
+  "publisher": "Visa Developer Center (Visa Inc.)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-234",
+  "claim": "The CyberSource GitHub repository intended to share OpenAPI specifications (cybersource-rest-api-specs) is empty, so no downloadable OpenAPI document for Visa Acceptance APIs was found in the open.",
+  "quote": "This repository is empty.",
+  "url": "https://api.github.com/repos/CyberSource/cybersource-rest-api-specs/contents/",
+  "title": "GitHub API \u2013 contents of CyberSource/cybersource-rest-api-specs",
+  "publisher": "GitHub (CyberSource organisation, Visa Inc.)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-235",
+  "claim": "CyberSource ships an official MCP server for AI coding assistants on PyPI (cybersource-developer-mcp 0.0.3, 4 August 2026) that serves SDK documentation and generates integration code for the six SDK languages.",
+  "quote": "CyberSource Developer MCP: AI-powered integration assistant providing real-time SDK documentation and code generation for CyberSource APIs",
+  "url": "https://pypi.org/project/cybersource-developer-mcp/",
+  "title": "cybersource-developer-mcp (PyPI JSON metadata)",
+  "publisher": "PyPI",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-267",
+  "claim": "Visa Inc. reports gross revenue in four lines and nets client incentives against them; fiscal 2025 client incentives were $15,751 million against net revenue of $40,000 million.",
+  "quote": "Client incentives (15,751)",
+  "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/R53.htm",
+  "title": "Visa Inc. Form 10-K FY2025 - Revenue - Schedule of Disaggregation of Revenue (Details)",
+  "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+  "confidence": "Verified"
+ }
+]

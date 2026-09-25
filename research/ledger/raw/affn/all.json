@@ -1,0 +1,489 @@
+{
+  "network": "affn",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "AFFN was founded in 1985 at the request of the U.S. Army to support the Surepay direct-deposit system, giving military personnel ATM and POS access near bases worldwide.",
+      "quote": "AFFN was founded in 1985 at the request of the U.S. Army in support of the Surepay direct deposit system",
+      "url": "https://www.affn.org/about-us",
+      "title": "About Us - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "AFFN is co-owned by two trade associations, the Association of Military Banks of America (AMBA) and the Defense Credit Union Council (DCUC); no ownership change since 2020 is published on the site.",
+      "quote": "AFFN is co-owned by the Association of Military Banks of America (AMBA) and the Defense Credit Union Council (DCUC).",
+      "url": "https://www.affn.org/about-us",
+      "title": "About Us - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Site copyright 2026. Wikipedia reference 1 cites a Bloomberg profile of 'Armed Forces Financial Network, LLC' (2018 archive), so legal form appears to be an LLC."
+    },
+    {
+      "dimension": "reach",
+      "claim": "AFFN describes itself as an EFT network giving military, veteran and civilian communities access to funds through ATM and POS terminals at or near U.S. military bases worldwide, in operation for more than 40 years.",
+      "quote": "an electronic transfer network (EFT) providing network access to the U.S. military, veteran, and civilian communities",
+      "url": "https://www.affn.org/",
+      "title": "Armed Forces Financial Network - Home",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Homepage also says 'For more than 40 years'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "AFFN headquarters address is 11601 Roosevelt Blvd TA-94, St. Petersburg, FL 33716, which is an FIS campus address; the site is built on an FIS Sitecore theme and links its Privacy page to fisglobal.com.",
+      "quote": "11601 Roosevelt Blvd. TA-94 Saint Petersburg, FL 33716",
+      "url": "https://www.affn.org/contact-us",
+      "title": "Contact Us - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Raw HTML references /-/media/Themes/FIS/AFFN/ stylesheets and footer Privacy link https://www.fisglobal.com/en/privacy, indicating FIS (NYCE's owner) hosts/operates the site. CEO John Broda's grant-program phone is a 302 (Delaware) number."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NYCE (FIS) states that its cardholders reach ATMs on U.S. military bases worldwide through NYCE's partnership with AFFN, alongside 90%+ U.S. ATM coverage and 2M+ retail locations.",
+      "quote": "Access cash at over 90% of ATMs nationwide, 24/7 – plus U.S. military bases worldwide through NYCE's partnership with AFFN®.",
+      "url": "https://www.nyce.net/",
+      "title": "NYCE Payments Network",
+      "publisher": "NYCE / FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "NYCE FAQ repeats: 'NYCE cardholders also have ATM access at U.S. military bases worldwide through the AFFN® network.' (https://www.nyce.net/faqs.html)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Wikipedia (citing 2018-archived DCUC and CUInsight items) puts AFFN at about 346 banks and credit unions, 800,000+ ATMs and 2.3 million POS locations; affn.org publishes no such counts.",
+      "quote": "It connects approximately 346 banks and credit unions with over 800,000 ATMs and 2.3 million point-of-sale locations",
+      "url": "https://en.wikipedia.org/wiki/Armed_Forces_Financial_Network",
+      "title": "Armed Forces Financial Network - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Figures are stale (sources archived Jan 2018). Wikipedia also says AFFN launched a chip-and-PIN travel card in 2017 (citing an AMBA item dated 6 Aug 2013)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Co-owner DCUC represents over 180 federal and state-chartered credit unions serving the U.S. military, giving a ceiling on the credit-union side of AFFN participation.",
+      "quote": "a trade association representing the interests of over 180 federal and state-chartered credit unions serving the U.S. military around the world",
+      "url": "https://www.affn.org/about-us",
+      "title": "About Us - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "AFFN's merchant-side product is AFFN POS, described as an international PIN-based (single-message) POS payment system with hundreds of thousands of merchant locations across eight retail sectors (Walmart, Costco, Shell, CVS, USPS named).",
+      "quote": "AFFN® POS offers cardholders a convenient and secure card-based payment alternative to cash, share draft/checking or credit cards.",
+      "url": "https://www.affn.org/services/debit-point-of-sale",
+      "title": "Debit Point of Sale - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Page describes an 'international PIN-based (POS) payment system for cardholders and retailers/merchants' and 'hundreds of thousands of merchant locations globally'. PIN-based implies single-message debit; no dual-message product is described."
+    },
+    {
+      "dimension": "services",
+      "claim": "The AFFN Matching Grant Program, authorised by the AFFN board, gives participating AMBA banks and DCUC credit unions up to $1,500 matched per participant, first-come first-served, one application each; 2026 is its 23rd consecutive year with 1,158 grants awarded since 2004.",
+      "quote": "This program will allow a maximum matching grant up to $1,500 per Participant.",
+      "url": "https://www.affn.org/services/affn-matching-grant-program",
+      "title": "AFFN Matching Grant Program - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Contact: John Broda, AFFN President and CEO, 302-604-3430, John.Broda@affn.org. Downloadable application form on page."
+    },
+    {
+      "dimension": "services",
+      "claim": "AFFN supports the Veterans Benefits Banking Program (VBBP), under which participating banks and credit unions must offer a no-monthly-fee, no-minimum-balance checking account to VA benefit recipients bringing a monthly direct deposit.",
+      "quote": "a low-to-no-cost checking account (no monthly maintenance fees) and no minimum balance, to a VA benefit recipient",
+      "url": "https://www.affn.org/resources/vbbp",
+      "title": "VBBP - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "VBBP established 2019 between VA and AMBA; participants complete a commitment form and supply logo, landing-page URL and description."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The only public rule document is the AFFN Graphic Standards Manual: all entities permitted to use the Licensed Marks must follow it, and participants are responsible for their vendors' compliance; no operating rulebook, fee schedule or dispute framework is published.",
+      "quote": "all entities permitted to use the Licensed Marks must adhere to these graphic standards",
+      "url": "https://www.affn.org/resources/affn-graphic-standards",
+      "title": "AFFN Graphic Standards - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Logo, acronym and name files downloadable in EPS/JPG/PNG. Compliance questions: 727-227-2880 or info@affn.org."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "affn.org carries a Login link at /login in its header (commented out in the current HTML); the URL returns a 200 page with no visible content, so a participant login exists or existed but is not documented.",
+      "quote": "Contact Us Login --> Services AFFN Matching Grant Program",
+      "url": "https://www.affn.org/login",
+      "title": "Login - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "The 'Login' anchor and a 'Financial Institutions Search' link are wrapped in HTML comments; /resources/financial-institutions-search returns 404."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The public marketing site (affn.org) is readable without an account and exposes Services (grant program, annual meetings, debit POS), Resources (videos and testimonials, VBBP, graphic standards, other links, military services, important dates), VOB Support and About/Contact; there is no developer, spec, status, bulletin or support portal.",
+      "quote": "AFFN Home | About Us | Resources | Services | Privacy | Contact Us",
+      "url": "https://www.affn.org/resources",
+      "title": "Resources - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Other Links page lists FIS (http://www.fisglobal.com) among partner links alongside DoD, VA, DCUC, AMBA, AAFES, DeCA, USO."
+    },
+    {
+      "dimension": "support",
+      "claim": "AFFN publishes a single phone line, fax and general email plus named executives by department: President & CEO John M. Broda; SVP Member Experience Ann Morsch; Senior Director Member Services & Operations Rhonda Wilson; VPs Member Engagement Scott Duszynski and Christopher Kelly; VP Finance Karmelita Sewell. No hours, languages or SLAs are stated.",
+      "quote": "Phone: 727.227.2880",
+      "url": "https://www.affn.org/contact-us",
+      "title": "Contact Us - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Account-management model appears to be named 'Member Engagement' VPs; no ticketing or support portal."
+    },
+    {
+      "dimension": "support",
+      "claim": "AFFN's partner events are its co-owners' conferences: AMBA Military Banking Summit MBS2026, September 27-29, 2026 at the Mayflower Hotel, Washington D.C., and the 63rd Annual DCUC Conference, August 3-7, 2026 at JW Marriott Miami Turnberry.",
+      "quote": "September 27-29, 2026",
+      "url": "https://www.affn.org/services/affn-partner-annual-meetings",
+      "title": "AFFN Partner Annual Meetings - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No AFFN-run training, academy or certification is published."
+    },
+    {
+      "dimension": "support",
+      "claim": "AFFN claims a 100% referral rating and 100% member satisfaction rating from participants on its testimonials page, with video testimonials from Andrews FCU and Fisher House; AMBA bank testimonials are marked coming soon.",
+      "quote": "100% Member Satisfaction Rating",
+      "url": "https://www.affn.org/resources/affn-videos-and-member-testimonials",
+      "title": "AFFN Videos & Member Testimonials - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "In 2026 AFFN's homepage announces Ann Morsch's promotion to Senior Vice President/Member Experience and congratulates Karmelita Sewell (VP Finance); no date is given.",
+      "quote": "Congratulations Ann Morsch on Your Promotion to Senior Vice President/Member Experience",
+      "url": "https://www.affn.org/",
+      "title": "Armed Forces Financial Network - Home",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Site footer shows © 2026 AFFN. Neither DCUC nor AMBA homepages carried 2024-2026 news items about AFFN on 2026-09-25."
+    },
+    {
+      "dimension": "news",
+      "claim": "The 2026 AFFN Matching Grant Program is the 23rd consecutive annual round since 2004, with 1,158 grants awarded to date.",
+      "quote": "the 23rd consecutive year",
+      "url": "https://www.affn.org/services/affn-matching-grant-program",
+      "title": "AFFN Matching Grant Program - AFFN",
+      "publisher": "AFFN (affn.org)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "NYCE's public FAQ states surcharge policy is set by the ATM owner and the cardholder's institution, with no surcharge at SUM ATMs; neither NYCE nor AFFN publishes AFFN interchange, switch or membership fees.",
+      "quote": "Surcharges depend on the ATM owner and your financial institution's policies.",
+      "url": "https://www.nyce.net/faqs.html",
+      "title": "NYCE FAQs",
+      "publisher": "NYCE / FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "AFFN pricing is not public anywhere fetched; see not_found."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "AFFN ownership changes since 2020 (sale, merger, FIS/NYCE stake)",
+      "where": "affn.org/about-us, contact-us, Wikipedia, dcuc.org, militarybanking.org; WebSearch budget exhausted (200/200) so trade press (Credit Union Times, ATM Marketplace) could not be searched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN card counts, ATM counts, transaction volume, participant count, countries on affn.org",
+      "where": "affn.org home, about-us, services, debit-point-of-sale",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN interchange schedule, network/switch fees, membership or licence fees, incentives",
+      "where": "affn.org all pages, nyce.net, nyce.net/faqs.html",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN operating rules / rulebook, bulletins, mandates, security or compliance programme, dispute framework",
+      "where": "affn.org/resources, /services; only the Graphic Standards Manual exists",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN developer portal, API, sandbox, SDK, specs, certification programme, sponsor model, application steps, fees, timelines",
+      "where": "affn.org (no such pages); nyce.net; fisglobal.com NYCE product page",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN membership types and how a bank or credit union joins (beyond AMBA/DCUC membership)",
+      "where": "affn.org/services, /about-us; Financial Institutions Search link returns 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Regulator fee findings naming AFFN (Fed Reg II debit network lists, DOJ v. Visa)",
+      "where": "not fetched; budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN mention on FIS NYCE product page",
+      "where": "https://www.fisglobal.com/products/nyce-payments-network (no AFFN mention)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN page on DCUC and AMBA sites",
+      "where": "https://www.dcuc.org/affn 404; https://www.militarybanking.org/affn/ 404; https://www.affn.org/about-affn 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AFFN incident/outage communication, status page, SLAs, support hours, languages",
+      "where": "affn.org/contact-us",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press timeline Sept 2024 - Sept 2026 (Credit Union Times, ATM Marketplace, CUInsight)",
+      "where": "WebSearch unavailable this session; DCUC and AMBA homepages show no AFFN news items",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "affn.org Debit Point of Sale page: 'hundreds of thousands of merchant locations globally'",
+      "b": "Wikipedia (2018-era sources): '2.3 million point-of-sale locations'; NYCE homepage: '2M+ Retail Locations' for NYCE itself",
+      "urls": [
+        "https://www.affn.org/services/debit-point-of-sale",
+        "https://en.wikipedia.org/wiki/Armed_Forces_Financial_Network"
+      ]
+    },
+    {
+      "a": "affn.org contact page HQ: 11601 Roosevelt Blvd TA-94, St. Petersburg FL (FIS campus)",
+      "b": "Matching Grant page CEO contact phone 302-604-3430 (Delaware area code) vs HQ line 727.227.2880",
+      "urls": [
+        "https://www.affn.org/contact-us",
+        "https://www.affn.org/services/affn-matching-grant-program"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "AFFN Login (participant login, audience unstated; link commented out in nav)",
+      "url": "https://www.affn.org/login",
+      "named_at": "https://www.affn.org/ header HTML"
+    },
+    {
+      "name": "AFFN Financial Institutions Search (link commented out; returns 404)",
+      "url": "https://www.affn.org/resources/financial-institutions-search",
+      "named_at": "https://www.affn.org/ header HTML"
+    },
+    {
+      "name": "AFFN Matching Grant application form (download, then email/mail; not a portal)",
+      "url": "https://www.affn.org/services/affn-matching-grant-program",
+      "named_at": "https://www.affn.org/services/affn-matching-grant-program"
+    },
+    {
+      "name": "VBBP commitment form (participating institutions)",
+      "url": "https://www.affn.org/resources/vbbp",
+      "named_at": "https://www.affn.org/resources/vbbp"
+    },
+    {
+      "name": "FIS solutions contact (NYCE financial-institution enquiries, demos, pricing)",
+      "url": "https://www.fisglobal.com/solutions-contact",
+      "named_at": "https://www.fisglobal.com/products/nyce-payments-network"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.affn.org/",
+      "title": "Armed Forces Financial Network - Home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources",
+      "title": "Resources - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/contact-us",
+      "title": "Contact Us - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/about-affn",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.affn.org/about-us",
+      "title": "About Us - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/services",
+      "title": "Services - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/services/debit-point-of-sale",
+      "title": "Debit Point of Sale - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/services/affn-matching-grant-program",
+      "title": "AFFN Matching Grant Program - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/services/affn-partner-annual-meetings",
+      "title": "AFFN Partner Annual Meetings - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources/important-dates",
+      "title": "Important Dates - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources/other-links",
+      "title": "Other Links - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/login",
+      "title": "Login - AFFN (empty page)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources/financial-institutions-search",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.affn.org/resources/vbbp",
+      "title": "VBBP - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources/affn-graphic-standards",
+      "title": "AFFN Graphic Standards - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.affn.org/resources/affn-videos-and-member-testimonials",
+      "title": "AFFN Videos & Member Testimonials - AFFN",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Armed_Forces_Financial_Network",
+      "title": "Armed Forces Financial Network - Wikipedia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dcuc.org/affn",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.militarybanking.org/affn/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.fisglobal.com/products/nyce-payments-network",
+      "title": "NYCE Payments Network - FIS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.nyce.net/",
+      "title": "NYCE Payments Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.nyce.net/faqs.html",
+      "title": "NYCE FAQs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dcuc.org/",
+      "title": "Defense Credit Union Council - Home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.ambahq.org/",
+      "title": "(301 redirect to militarybanking.org)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.militarybanking.org/",
+      "title": "Association of Military Banks of America - Home",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

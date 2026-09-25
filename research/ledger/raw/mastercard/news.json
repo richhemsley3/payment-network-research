@@ -1,0 +1,450 @@
+{
+  "network": "mastercard",
+  "dimension": "news",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "news",
+      "claim": "2024-11-13: At its investor event Mastercard set 2025-2027 three-year performance objectives of mid-teens EPS CAGR, after a 2024 restructuring charge.",
+      "quote": "2025-2027 3-Year CAGR EPS 1 Forecasted GAAP Mid-teens",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139124000211/exb991-ma11132024.htm",
+      "title": "Mastercard Incorporated Non-GAAP Reconciliation 2025-2027 performance objectives (8-K Exhibit 99.1)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2024-11-13",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same exhibit references a restructuring charge of $0.16 per diluted share in the nine months ended Sep 30, 2024."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024 (Q3/Q4): Mastercard recorded a $190 million restructuring charge intended to streamline the organization.",
+      "quote": "During 2024, we recorded a restructuring charge of $190 million ($147 million after tax, or $0.16 per diluted share).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-12: Mastercard closed its acquisition of Recorded Future (threat intelligence) for $2.7 billion cash.",
+      "quote": "In December 2024, Mastercard acquired a 100 % equity interest in RF Ultimate Parent, Inc. (“Recorded Future”), a global threat intelligence company",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Goodwill of $1.7 billion; expected to add threat intelligence to identity, fraud prevention, real-time decisioning and cybersecurity services."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard completed no business acquisitions during calendar 2025, per its 10-K.",
+      "quote": "In 2025, the Company did not complete any business acquisitions. In 2024, the Company acquired businesses for total cash consideration of $ 2.8 billion.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Any 2025 press reports of Mastercard acquisitions (e.g. stablecoin infrastructure) had not closed by Dec 31, 2025 per this filing."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-02-06: The board's HR & Compensation Committee raised CEO Michael Miebach's base salary to $1.4 million and bonus target to 250%, effective March 1, 2025.",
+      "quote": "Michael Miebach Chief Executive Officer $1,250,000 $1,400,000 200% 250%",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000007/ma-20250206.htm",
+      "title": "Mastercard Incorporated Form 8-K dated February 6, 2025 (Item 5.02)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2025-02-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-02-26: Chief Administrative Officer Tim Murphy moved to Vice Chair and Richard Verma re-joined as CAO, both effective May 1, 2025.",
+      "quote": "Timothy Murphy, 57, a Named Executive Officer and the Company’s Chief Administrative Officer, will transition from his current role to the role of Vice Chair",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000023/ma-20250225.htm",
+      "title": "Mastercard Incorporated Form 8-K dated February 25, 2025 (Item 5.02)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2025-02-26",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard launched Agent Pay for agentic commerce, enabled all U.S. cardholders, and scheduled a global launch for early 2026; merchants participate without significant integration.",
+      "quote": "In 2025, we enabled all U.S.-based Mastercard cardholders to participate in this program, with a global launch scheduled for early 2026.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Builds on Agentic Tokens and dispute management capabilities."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard expanded stablecoin support: roughly 130 crypto co-brand card programs and stablecoins embedded into Mastercard Move for send/receive flows.",
+      "quote": "Embedding stablecoins into our Mastercard Move platform, which allows customers to send and receive stablecoin flows seamlessly",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K also states approximately 40% of all Mastercard transactions are now tokenized."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard launched Mastercard Threat Intelligence (built on Recorded Future), Merchant Cloud, Commerce Media and announced Account-to-Account Protect.",
+      "quote": "In 2025, we launched Merchant Cloud, a unified platform designed to offer a single point of entry to cutting-edge payment services",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard said its virtual card technology was embedded in more than 10 global B2B and T&E platforms, more than double 2024, for issuer and business integration.",
+      "quote": "we had embedded our virtual card technology in more than 10 global B2B and travel and expense platforms",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filing adds: more than double the number of platforms in 2024."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05: The U.K. trial court approved the £200 million settlement of the U.K. consumer class action; Mastercard paid $263 million.",
+      "quote": "in May 2025, the trial court issued their written approval of the settlement. Following the trial court’s written approval, Mastercard paid",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Settlement entered December 2024; litigation funder seeking judicial review of the allocation between class and funder."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-06: The U.K. merchant interchange trial court decided against Mastercard on certain issues; about £0.3 billion of unresolved U.K./Pan-European merchant damages claims remain.",
+      "quote": "approximately £ 0.3 billion (approximately $ 0.4 billion as of December 31, 2025) of unresolved damages claims remain.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-07: Mastercard and Visa were served with a proposed Dutch merchant collective action over interregional interchange fees since 1992, seeking over EUR 0.3 billion.",
+      "quote": "In July 2025, Mastercard and Visa were served with a proposed collective action in the Netherlands on behalf of Dutch merchants.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "A Portuguese consumer collective action (~EUR 0.4 billion) is also pending."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-Q2: Mastercard accrued $79 million for the long-running ATM operators' non-discrimination-rule surcharge class litigation, which alleges over $1 billion in single damages.",
+      "quote": "the second quarter of 2025, Mastercard recorded an accrual of $ 79 million in connection with this matter.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "ATM Operators Class Complaint filed 2011 in D.D.C. against Mastercard and Visa; ongoing."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-08/09: Two U.S. federal district courts issued conflicting rulings on the Regulation II debit interchange cap; the cap remains in effect pending litigation.",
+      "quote": "One court vacated the interchange cap while the other upheld it. The interchange cap remains in effect while the litigation continues.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-07 and 2025-11: EU revised its systemic-importance regulation (cyber resilience, outsourcing) and Brazil's central bank issued a PSO regulation requiring networks to extend settlement guarantees to non-guaranteed transactions.",
+      "quote": "requires payment networks to extend their settlement guarantees to previously non-guaranteed transactions (such as merchant installment transactions)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Brazil implementation expected to conclude by November 2026. New Zealand cross-border interchange caps effective May 2026 also noted."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-11-10: Mastercard and Visa signed a Superseding and Amended Rule 23(b)(2) class settlement with U.S. merchants in the MDL 1720 interchange litigation, replacing the 2024 deal the court rejected.",
+      "quote": "Superseding and Amended Rule 23(b)(2) Class Settlement Agreement”) is made as of the 10th day of November, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000197/exb991-11102025.htm",
+      "title": "Superseding and Amended Class Settlement Agreement of the Rule 23(b)(2) Class Plaintiffs and the Defendants (8-K Exhibit 99.1)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2025-11-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Appendices include Permissible Steering Scenarios and Mastercard credit interchange rates as of March 2025. Per the 10-K, preliminary-approval briefing was complete and the court's decision pending as of Feb 2026; Mastercard accrued $637 million for U.S. MDL cases."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025: Mastercard recorded $504 million of litigation provisions, tied to opt-out merchants, the U.S. EMV liability-shift case and the ATM surcharge complaints.",
+      "quote": "During 2025, we recorded pre-tax charges of $504 million ($357 million after tax, or $0.39 per diluted share)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "Ongoing into 2026: A 2023 U.S. DOJ civil investigative demand into Mastercard's U.S. debit program and a 2024 European Commission request on network fees charged to acquirers remain open.",
+      "quote": "The request focuses on Mastercard’s practices regarding network fees related to acquirers. Mastercard is cooperating with the European Commission",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "ACCC (Australia) debit-agreements case: liability hearing scheduled April 2026."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-11-07: Mastercard amended and restated its $8 billion five-year unsecured revolving credit facility, now expiring November 7, 2030.",
+      "quote": "The Credit Facility, which expires on November 7, 2030, amends and restates the Company’s prior $8,000,000,000 credit facility",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000199/ma-20251107.htm",
+      "title": "Mastercard Incorporated Form 8-K dated November 7, 2025 (Item 1.01)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2025-11-12",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Corporate finance item; included for completeness of the timeline."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-07: Corporate Controller Sandra Arkell moves to Chief Audit Executive and Chris Mullett (CFO Europe) becomes Corporate Controller, effective August 3, 2026.",
+      "quote": "Chris Mullett will be appointed to succeed Ms. Arkell as Corporate Controller and principal accounting officer of the Company.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000034/ma-20260505.htm",
+      "title": "Mastercard Incorporated Form 8-K dated May 5, 2026 (Item 5.02)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-05-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-02: Mastercard announced a leadership reshuffle effective August 3, 2026: Ling Hai becomes CFO, Sachin Mehra becomes Chief Business Officer over country operations and partnerships, Linda Kirkpatrick becomes Chief Services Officer.",
+      "quote": "Ling Hai , President of Asia Pacific, Europe, Middle East and Africa, will become Chief Financial Officer, succeeding Sachin Mehra.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000037/ma05292026-exx991xpressrel.htm",
+      "title": "Mastercard announces leadership updates to advance strategy and support continued growth (8-K Exhibit 99.1)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: Dimi Dosis to Chief Commercial Payments Officer; Craig Vosburg to Vice Chair; Raj Seshadri to Senior Strategic Advisor; Tim Murphy retires October 2026; customer focus unified under one team."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-02: Mastercard consolidated customer-facing functions into a single global go-to-market structure (Sales Enablement, Global Partnerships, Digital Commercialization) under the new Chief Business Officer.",
+      "quote": "Sales Enablement, Global Partnerships, and Digital Commercialization under a single global go-to-market leadership structure.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000037/ma05292026-exx991xpressrel.htm",
+      "title": "Mastercard announces leadership updates to advance strategy and support continued growth (8-K Exhibit 99.1)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-06-02",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-30: Q2 2026 results cited new partnerships in Mexico and the UAE and a 'market-first' Agentic Payment capability; payment network rebates and incentives to customers rose 22%.",
+      "quote": "From new partnerships in Mexico and the UAE to our market-first Agentic Payment capability, we’re unlocking opportunities unique to Mastercard",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+      "title": "Mastercard Incorporated Reports Second Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "publisher": "U.S. SEC EDGAR (Mastercard Incorporated filing)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Net revenue $9.3B (+14%); 3.7 billion Mastercard and Maestro cards issued as of June 30, 2026; rebates and incentives +22% on new and renewed deals."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Mastercard newsroom press release index (mastercard.com/news/press-releases, mastercard.com/us/en/news-and-trends)",
+      "where": "WebFetch 403; curl 403 Akamai Access Denied (wall: bot)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "investor.mastercard.com press-release list",
+      "where": "WebFetch 404; curl 403 'Just a moment' JS challenge (wall: bot)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press reporting on Mastercard network outages Sep 2024-Sep 2026",
+      "where": "WebSearch budget exhausted before this task; no outage found in 10-K or 8-Ks read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Reported 2025 Mastercard acquisition of a stablecoin infrastructure firm (Zerohash) and other 2025-2026 M&A announcements",
+      "where": "WebSearch unavailable; 10-K states no business acquisitions completed in 2025; 2026 8-Ks read contain no acquisition items",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard 8-K filed 2026-02-05 (Item 5.02) document",
+      "where": "EDGAR index page returned no document links on two attempts",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Court decision on preliminary approval of the Nov 2025 Rule 23(b)(2) merchant settlement",
+      "where": "10-K (Feb 2026) says decision pending; no later primary source fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard pricing / fee schedule changes 2024-2026 and developer portal relaunches",
+      "where": "Not disclosed in 10-K or 8-Ks read; mastercard.com blocked",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [],
+  "gated_surfaces": [
+    {
+      "name": "Mastercard Developers platform (developer.mastercard.com) - named as single access point for APIs; public landing, API keys presumably require account",
+      "url": "https://developer.mastercard.com/",
+      "named_at": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.mastercard.com/news/press-releases/",
+      "title": "Mastercard press releases",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/news-and-trends.html",
+      "title": "Mastercard news and trends",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investor.mastercard.com/news-and-events/press-releases/default.aspx",
+      "title": "Mastercard investor press releases",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://investor.mastercard.com/news-and-events/press-releases",
+      "title": "Mastercard investor press releases",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://developer.mastercard.com/support",
+      "title": "Mastercard Developers - Support",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1141391&type=10-K",
+      "title": "EDGAR filing list: Mastercard Inc 10-K",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1141391&type=8-K&count=40",
+      "title": "EDGAR filing list: Mastercard Inc 8-K",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139124000211/exb991-ma11132024.htm",
+      "title": "8-K Ex.99.1 Non-GAAP reconciliation 2025-2027 performance objectives (2024-11-13)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000007/ma-20250206.htm",
+      "title": "8-K Feb 6 2025 Item 5.02 CEO compensation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000023/ma-20250225.htm",
+      "title": "8-K Feb 25 2025 Item 5.02 Murphy/Verma",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000197/exb991-11102025.htm",
+      "title": "8-K Ex.99.1 Superseding and Amended Rule 23(b)(2) Class Settlement Agreement (2025-11-10)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000199/ma-20251107.htm",
+      "title": "8-K Nov 7 2025 Item 1.01 credit facility",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000006/0001141391-26-000006-index.htm",
+      "title": "8-K Feb 5 2026 index (Item 5.02)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000034/ma-20260505.htm",
+      "title": "8-K May 5 2026 Item 5.02 Controller change",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000037/ma05292026-exx991xpressrel.htm",
+      "title": "Mastercard announces leadership updates to advance strategy and support continued growth (8-K Exhibit 99.1)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000119312526261669/0001193125-26-261669-index.htm",
+      "title": "8-K Jun 8 2026 index (debt offering exhibits 1.1/4.1/5.1) - not read",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
+      "title": "8-K Ex.99.1 Q2 2026 earnings release (2026-07-30)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

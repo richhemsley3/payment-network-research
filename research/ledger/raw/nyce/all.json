@@ -1,0 +1,549 @@
+{
+  "network": "nyce",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "NYCE Payments Network, LLC is an FIS company; the network's own e-book describes it as more than 30 years old.",
+      "quote": "NYCE Payments Network®, LLC (NYCE), an FIS™ company, is the strongest network partner",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "PDF footer '©2023 FIS'; document code 2318479. Read with pypdf after WebFetch saved the binary."
+    },
+    {
+      "dimension": "reach",
+      "claim": "FIS, NYCE's parent, is headquartered at 347 Riverside Avenue, Jacksonville, Florida (FY2025 10-K); the 10-K text does not mention NYCE by name.",
+      "quote": "FIS' corporate headquarters is located at 347 Riverside Avenue, Jacksonville, Florida.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+      "title": "Form 10-K, Fidelity National Information Services, Inc., fiscal year ended December 31, 2025",
+      "publisher": "SEC EDGAR / FIS",
+      "published": "2026-02-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Grep of the full 10-K text for 'NYCE', 'debit network', 'PIN debit', 'Regulation II' and 'Durbin' returned zero hits."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The Digital Transactions buyers' guide lists NYCE Payments Network, LLC at a Secaucus, New Jersey address with FIS's Jacksonville main phone number.",
+      "quote": "401 Plaza Drive - 2nd Floor, Secaucus, NJ 7094, United States",
+      "url": "https://www.digitaltransactions.net/buyers-guide/1325033/nyce-payments-network-llc/",
+      "title": "NYCE Payments Network, LLC - Buyers Guide",
+      "publisher": "Digital Transactions",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Listing shows phone +1 904-438-6000, which is FIS's registrant phone in the 10-K. Page shows date 2024-10-07 in search results."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Ownership change: on January 9, 2026 FIS completed the purchase of Global Payments' Issuer Solutions business and sold its remaining Worldpay stake, under agreements signed April 17, 2025.",
+      "quote": "On January 9, 2026, Fidelity National Information Services, Inc., a Georgia corporation (“FIS”) completed its previously announced (i) acquisition of the Issuer Solutions business",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000119312526009759/d947945d8k.htm",
+      "title": "Form 8-K, Item 2.01 Completion of Acquisition or Disposition of Assets",
+      "publisher": "SEC EDGAR / FIS",
+      "published": "2026-01-12",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "NYCE itself did not change hands; it remains inside FIS. FIS paid approximately $7.7 billion in cash plus its Worldpay interest."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Ownership context: FIS sold a 55% interest in Worldpay Merchant Solutions to GTCR on January 31, 2024, keeping NYCE inside FIS's Banking segment.",
+      "quote": "On January 31, 2024, we completed the sale (the \"2024 Worldpay Sale\") of a 55% equity interest in our Worldpay Merchant Solutions business",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+      "title": "Form 10-K, Fidelity National Information Services, Inc., fiscal year ended December 31, 2025",
+      "publisher": "SEC EDGAR / FIS",
+      "published": "2026-02-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "NYCE's cardholder site claims acceptance at over 90% of U.S. ATMs and more than 2 million retail locations.",
+      "quote": "Your debit card works at over 90% of ATMs in the U.S. thanks to the NYCE® Payments Network",
+      "url": "https://www.nyce.net/",
+      "title": "NYCE - cardholder site",
+      "publisher": "FIS / NYCE",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Same page: 'Pay at more than 2 million retail locations across the U.S.' No date on page; no card, participant or transaction counts anywhere on public FIS/NYCE pages."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NYCE is classified by the Federal Reserve as a single-message network in its Regulation II interchange data.",
+      "quote": "Average Debit Card Interchange Fee by Payment Card Network",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Federal Reserve Board",
+      "published": "2025-06-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page notes 'Data revised as of June 10, 2025'; NYCE appears under single-message networks for 2024."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NYCE states it connects to every major EFT processor in the U.S. and Puerto Rico, and its e-book says cardholders get military-base ATM access via AFFN.",
+      "quote": "connects to every major EFT processor in the U.S. and Puerto Rico",
+      "url": "https://www.fisglobal.com/products/nyce-payments-network",
+      "title": "NYCE Payments Network | FIS",
+      "publisher": "FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "E-book adds: 'access to ATMs at U.S. military bases worldwide through NYCE's partnership with AFFN®'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Brand family: FIS positions NYCE for banks and CULIANCE for credit unions as its two debit payments networks.",
+      "quote": "For banks of all sizes, we provide NYCE® Payments Network, which gives customers secure, real-time access to their money",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf",
+      "title": "Move money to make money with your debit payments network (e-book)",
+      "publisher": "FIS",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Same page: 'through CULIANCE®, we do the same for credit unions, offering the country's largest surcharge-free ATM network'. Figures are 'thousands of ATM and millions of point-of-sale (POS) locations' -- vaguer than nyce.net's 90%/2 million."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer catalogue (core): PIN and PINless POS, eCommerce, On-Demand Payments (bill pay, account funding, rebates/refunds, A2A/B2B/B2C/P2P), ATM access, stand-in processing.",
+      "quote": "NYCE On-Demand Payments are a comprehensive family of “card not present” transactions that facilitate the electronification of payments",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also lists Direct Bill Payment, Account Funding, Rebates and Refunds, A2A, B2B, B2C and P2P Transfers as interchange-earning categories for issuers."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fraud and risk (value-added, via FICO): Risk Monitoring Service with Falcon scores, FICO Card Alert Service, iCVx Verification and Authorization Blocking.",
+      "quote": "Risk Monitoring Service (RMS), created in association with FICO, and the FICO® Card Alert Service.",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "RMS 'analyzes incoming transactions ... using three, unique Falcon Fraud scores'; scores can be delivered to the issuer's EFT processor."
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM services (optional programmes): SUM surcharge-free with per-transaction pricing, no-cost Shared Deposit ATMs, Gateway Service to other surcharge-free networks with single settlement.",
+      "quote": "SUM is distinguished by its per transaction pricing and flexible ATM participation options.",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Gateway Service: 'a single online interface and single point settlement'. Shared Deposit: 'Enroll in this no-cost program'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Faster payments and tokenisation: NYCE claims first U.S. domestic debit network live with tokenized transactions and operates PayNet, used by FIS People Pay and Zelle.",
+      "quote": "First U.S. domestic debit network to go live with tokenized transactions",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "'Launched PayNet®, the faster payments network that supports P2P solutions such as FIS People Pay and Early Warning's Zelle®'. Also cites an Amazon FI-branded checkout collaboration."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchant/acquirer offer: Smart Basket is an FIS item-level offers network that pairs with NYCE routing to lower acceptance costs and stack promotions.",
+      "quote": "NYCE® Payments Network delivers smart routing and resilient transaction processing to reduce acceptance costs",
+      "url": "https://www.fisglobal.com/products/smart-basket",
+      "title": "Smart Basket | FIS",
+      "publisher": "FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Audiences named on page: issuers, merchants, brands/CPGs. CTAs: Contact us, Request a demo, Get pricing, Read e-book."
+    },
+    {
+      "dimension": "services",
+      "claim": "Authorisation optimisation: FIS says a dedicated team monitors auth rates for issuers, acquirers and merchants and fixes MCC/message errors.",
+      "quote": "a dedicated and expert team at FIS constantly monitors authorization rates for debit card issuers, acquirers and merchants",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf",
+      "title": "Move money to make money with your debit payments network (e-book)",
+      "publisher": "FIS",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Case claims: MCC correction gave a merchant '20% increase in auth rate'; an acquirer got '240,000 extra new approvals over the next 30 days'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The only partner-facing marketing property is the FIS product page; its CTAs route to a contact form and the gated FIS Client Portal (my.fisglobal.com) rather than any NYCE-specific portal.",
+      "quote": "Empower debit cardholders with secure, real-time payments and ATM access",
+      "url": "https://www.fisglobal.com/products/nyce-payments-network",
+      "title": "NYCE Payments Network | FIS",
+      "publisher": "FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Links found: nyce.net (cardholder), Smart Basket, fisglobal.com/solutions-contact (Contact us / Request a demo / Get pricing), my.fisglobal.com/app/login (Client Portal, returns HTTP 403 to curl), three e-book PDFs."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "nyce.net is a cardholder-only site (ATM locators, FAQs) that refers cardholders to their bank and links back to the FIS product page for institutions.",
+      "quote": "Contact your financial institution directly — they can confirm your card's participation in the NYCE network",
+      "url": "https://www.nyce.net/faqs.html",
+      "title": "NYCE FAQs",
+      "publisher": "FIS / NYCE",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Site links: atmlocator/nyce.html, atmlocator/sum.html, faqs.html, fisglobal.com product page, FIS privacy and terms."
+    },
+    {
+      "dimension": "developer",
+      "claim": "FIS's public developer portal (developer.fisglobal.com redirects to Code Connect) is a JavaScript app whose HTML exposes no NYCE, debit network, PayNet or ATM API; no NYCE developer reference is readable logged out.",
+      "quote": "Code Connect: API Marketplace | FIS",
+      "url": "https://codeconnect.fisglobal.com/",
+      "title": "Code Connect: API Marketplace | FIS",
+      "publisher": "FIS",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Only the page title was renderable; product count, auth scheme, sandbox, SDKs, webhooks, versioning and rate limits for NYCE are not found publicly."
+    },
+    {
+      "dimension": "join",
+      "claim": "Onboarding as published is issuer-side via the existing EFT processor with no card reissue; no membership types, application steps, fees or certification stages are published.",
+      "quote": "No need to reissue debit cards • Interfaces with your EFT processor • Minimal implementation tasks for your staff",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf",
+      "title": "Move money to make money with your debit payments network (e-book)",
+      "publisher": "FIS",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "2023 e-book: 'NYCE already connects to every financial institution processor in the U.S. and Puerto Rico, streamlining the implementation process'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Federal Reserve data for 2024 put NYCE's average interchange at $0.27 per transaction (0.61% of value) across all transactions, and $0.24 (0.48%) for covered transactions.",
+      "quote": "Data revised as of June 10, 2025",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Federal Reserve Board",
+      "published": "2025-06-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Exempt: $0.28 / 0.67%; covered: $0.24 / 0.48%; all: $0.27 / 0.61%, per the NYCE row as extracted by WebFetch. Regulator figures, not a published NYCE fee schedule."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Regulator finding for 2023: covered transactions on single-message networks (NYCE's class) averaged $0.24 interchange versus $0.22 on dual-message networks, across 13 networks surveyed.",
+      "quote": "the average interchange fee for covered transactions processed over single-message networks was $0.24",
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "2023 Interchange Fee Revenue, Covered Issuer Costs, and Covered Issuer and Merchant Fraud Losses Related to Debit Card Transactions",
+      "publisher": "Federal Reserve Board",
+      "published": "2024",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "'All 13 card networks that processed debit card transactions in 2022 and 2023 completed the survey'. Single-message share of transactions 28.6%."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Regulation II requires at least two unaffiliated networks per debit card and bars inhibiting merchant routing choice; a 2023 Board proposal to lower the cap is listed without a final status.",
+      "quote": "prohibits all issuers and networks from restricting the number of networks over which debit transactions may be processed to less than two unaffiliated networks",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "publisher": "Federal Reserve Board",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page links 'Federal Reserve Board requests comment on a proposal to lower the maximum interchange fee' dated October 25, 2023; no adoption date shown."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "NYCE publishes no interchange or network fee schedule; its marketing asserts 'industry-leading interchange rates' and low network fees without numbers.",
+      "quote": "Industry-leading interchange rates on point-of-sale (POS), eCommerce and On-Demand Payments for all charters and sizes",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book)",
+      "publisher": "FIS",
+      "published": "2023",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "No fee tables, effective dates, assessment or cross-border fees on any public FIS/NYCE page fetched."
+    },
+    {
+      "dimension": "support",
+      "claim": "Support model as published: a dedicated client relations team, an 800 number and a 99.99% transaction-time SLA claim on dual-node architecture.",
+      "quote": "Dual-node architecture providing redundancy, peace of mind and 100% uptime, exceeding 99.99% transaction time SLAs",
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf",
+      "title": "Move money to make money with your debit payments network (e-book)",
+      "publisher": "FIS",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "2023 e-book contact: 'CONTACT US 800.822.6758 www.nyce.net' and getinfo@fisglobal.com; 'For more information, please contact your NYCE representative'. No hours, languages or published SLA document."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-17: FIS signs agreements to buy Global Payments' Issuer Solutions and sell its Worldpay stake, closing expected in 2026 (closed 2026-01-09).",
+      "quote": "On April 17, 2025, FIS entered into definitive agreements to (i) buy the Issuer Solutions business",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+      "title": "Form 10-K, Fidelity National Information Services, Inc., fiscal year ended December 31, 2025",
+      "publisher": "SEC EDGAR / FIS",
+      "published": "2026-02-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Partner relevance: NYCE's parent now also owns the former TSYS issuer processing business, adding an issuer-processor channel alongside the network."
+    },
+    {
+      "dimension": "news",
+      "claim": "Digital Transactions' archive shows no NYCE-specific article between 2025 and September 2026; the latest entry is an October 2024 buyers-guide listing.",
+      "quote": "NYCE Payments Network, LLC",
+      "url": "https://www.digitaltransactions.net/?s=NYCE",
+      "title": "Search results for NYCE - Digital Transactions",
+      "publisher": "Digital Transactions",
+      "published": "2024-10-07",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Absence finding: 18 result pages, first page dominated by 2004-2019 articles. Web search quota was exhausted this session, so other outlets were not searched."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "NYCE operating rules / rulebook edition and page count",
+      "where": "fisglobal.com product page, nyce.net, e-books; web search quota exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE interchange fee schedule, network/switch fees, assessment or cross-border fees with effective dates",
+      "where": "fisglobal.com, nyce.net, e-books",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE participant counts (issuers, ATMs, cards, transactions, volume) with dates",
+      "where": "fisglobal.com, nyce.net, FIS FY2025 10-K (no NYCE mention)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE membership types, application steps, sponsor model, agent registration, certification stages, fees, fintech fast-track",
+      "where": "fisglobal.com, e-books",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE developer reference, sandbox, test cards, SDKs, OpenAPI/Postman, webhooks, environments, changelog, rate limits",
+      "where": "developer.fisglobal.com -> codeconnect.fisglobal.com (JS app, no NYCE content)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE bulletins, mandates 2024-2026, security/compliance and dispute frameworks by name",
+      "where": "public FIS/NYCE pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NYCE support hours, languages, published SLA document, status page, incident communication, training academy, events",
+      "where": "public FIS/NYCE pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Federal Reserve 2024 interchange fee report HTML",
+      "where": "https://www.federalreserve.gov/paymentsystems/2024-interchange-fee.htm (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "EDGAR full-text search for NYCE in FIS 10-Ks",
+      "where": "efts.sec.gov search-index (no hits returned)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press on NYCE 2025-2026 (Payments Dive, American Banker, ATM Marketplace)",
+      "where": "WebSearch budget exhausted (200/200); only Digital Transactions site search fetched",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "nyce.net: acceptance at 'over 90% of ATMs in the U.S.' and 'more than 2 million retail locations'",
+      "b": "FIS 2025 e-book describes NYCE reach only as 'thousands of ATM and millions of point-of-sale (POS) locations'",
+      "urls": [
+        "https://www.nyce.net/",
+        "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "FIS Client Portal",
+      "url": "https://my.fisglobal.com/app/login",
+      "named_at": "https://www.fisglobal.com/products/nyce-payments-network (footer 'Client Portal'); returns HTTP 403 to unauthenticated curl"
+    },
+    {
+      "name": "FIS solutions contact / Request a demo / Get pricing form",
+      "url": "https://www.fisglobal.com/solutions-contact",
+      "named_at": "https://www.fisglobal.com/products/nyce-payments-network and Smart Basket page CTAs (form; not submitted)"
+    },
+    {
+      "name": "Code Connect API Marketplace",
+      "url": "https://codeconnect.fisglobal.com/",
+      "named_at": "redirect from https://developer.fisglobal.com/ ; content is JS-rendered, NYCE APIs not visible"
+    },
+    {
+      "name": "NYCE representative / client relations team",
+      "url": "",
+      "named_at": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf ('please contact your NYCE representative'); https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf ('Dedicated client relations support team')"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.fisglobal.com/products/nyce-payments-network",
+      "title": "NYCE Payments Network | FIS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.nyce.net/",
+      "title": "NYCE - cardholder site",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.nyce.net/faqs",
+      "title": "NYCE FAQs (wrong path)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.nyce.net/faqs.html",
+      "title": "NYCE FAQs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-data-collections.htm",
+      "title": "Regulation II Data Collections",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/2023-interchange-fee.htm",
+      "title": "2023 Interchange Fee Revenue report",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/2024-interchange-fee.htm",
+      "title": "2024 Interchange Fee report (guessed URL)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Regulation II (Debit Card Interchange Fees and Routing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001136893.json",
+      "title": "EDGAR submissions index, FIS CIK 1136893",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LatestSearch/search-index?q=%22NYCE%22&ciks=0001136893&forms=10-K",
+      "title": "EDGAR full-text search NYCE",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+      "title": "FIS Form 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000119312525083595/d934755d8k.htm",
+      "title": "FIS Form 8-K 2025-04-17 (Transaction Agreement)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000119312526009759/d947945d8k.htm",
+      "title": "FIS Form 8-K 2026-01-12 (Item 2.01 completion)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000003/fis-20260119.htm",
+      "title": "FIS Form 8-K 2026-01-22 (director election; not NYCE-relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fisglobal.com/products/smart-basket",
+      "title": "Smart Basket | FIS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.fisglobal.com/",
+      "title": "FIS developer portal (301 to Code Connect)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://codeconnect.fisglobal.com/",
+      "title": "Code Connect: API Marketplace | FIS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://my.fisglobal.com/app/login",
+      "title": "FIS Client Portal login",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=NYCE",
+      "title": "Digital Transactions search: NYCE",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/buyers-guide/1325033/nyce-payments-network-llc/",
+      "title": "NYCE Payments Network, LLC - Buyers Guide",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-Payments-Network-eBook.pdf",
+      "title": "Your Strategic Partner in Payments - NYCE Payment Networks (e-book, 10 pp, 2023)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/Payment-Networks-eBook-2025.pdf",
+      "title": "Move money to make money with your debit payments network (e-book, 13 pp, 2025)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fisglobal.com/-/media/fisglobal/files/PDF/ebook/NYCE-How-Your-Customers-Benefit-from-a-Superior-Payments-Network-ebook.pdf",
+      "title": "NYCE How Your Customers Benefit e-book (curl returned HTML, not fetched)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

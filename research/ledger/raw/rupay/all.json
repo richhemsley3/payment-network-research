@@ -1,0 +1,543 @@
+{
+  "network": "rupay",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "RuPay is owned and operated by NPCI and was launched in 2012 to fulfil RBI's vision of a domestic open multilateral card system.",
+      "quote": "conceived and owned by the National Payments Corporation of India (NPCI). It was launched in 2012, to fulfil the Reserve Bank of India 's (RBI) vision",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Page last edited 5 September 2026. No ownership change since 2020; NPCI remains the owner. NPCI's own pages returned 403 to curl and a JS shell to WebFetch."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NPCI is an RBI/IBA initiative under the PSS Act 2007, founded December 2008, registered under Section 8 of the Companies Act, headquartered in Mumbai.",
+      "quote": "an initiative of the Reserve Bank of India (RBI) and the Indian Banks' Association (IBA) under the provisions of the Payment and Settlement Systems Act, 2007",
+      "url": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
+      "title": "National Payments Corporation of India - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-25",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'Founded in December 2008, the NPCI is a government organisation registered under Section 8 of the Companies Act 2013'; category 'Financial services companies based in Mumbai'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NPCI shareholding was broadened in 2016 from ten promoter banks to a wider set of public, private, foreign, co-operative and regional rural banks.",
+      "quote": "In 2016, the shareholding was diluted to include 13 additional public sector banks, 15 additional private sector banks, 1 additional foreign bank, 10 multi-state co-operative banks",
+      "url": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
+      "title": "National Payments Corporation of India - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-25",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Ten promoter banks named: SBI, PNB, Canara, BoB, Union Bank, BoI, ICICI, HDFC, Citibank, HSBC."
+    },
+    {
+      "dimension": "reach",
+      "claim": "NPCI International Payments Limited (NIPL), the subsidiary that takes RuPay and UPI abroad, was launched on 19 August 2020.",
+      "quote": "NPCI launched a subsidiary called NPCI International Payments Limited (NIPL) on 19 August 2020 to increase the globalisation and availability of RuPay in foreign markets.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "nipl.net.in could not be fetched (TLS certificate mismatch)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "As of November 2020 around 753 million RuPay cards had been issued by nearly 1,158 banks (participant count proxy).",
+      "quote": "As of November 2020, around 753 million RuPay cards have been issued by nearly 1,158 banks.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Figure conflicts with another passage on the same page (603.6 million / 'more than 60 crore' as of November 2020); see contradictions. No newer public card count could be fetched; NPCI statistics page blocked."
+    },
+    {
+      "dimension": "reach",
+      "claim": "RuPay's domestic market share was 34% of card transactions by volume and 30% by value as of March 2021.",
+      "quote": "As of March 2021, the market share of RuPay in India was at 34% by volume of transactions and at 30% by value",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Cites Financial Express interview, 23 March 2021."
+    },
+    {
+      "dimension": "reach",
+      "claim": "RuPay's international alliance with Discover (now Capital One-owned) dates from 7 March 2012 and gives RuPay Global cards acceptance on Discover, Diners Club and PULSE.",
+      "quote": "On 7 March 2012, NPCI entered into a strategic partnership with Discover Financial for RuPay, enabling RuPay Global Cards to utilise Discover Card , Diners Club Inter",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Predates Capital One's 18 May 2025 acquisition of Discover. Page also lists partner networks: JCB, UnionPay (China), BC Card (South Korea), Pulse (US), Diners Club International, Elo."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Discover Global Network lists RuPay among its 30+ network alliances and describes it as a national network with merchants and ATMs across India.",
+      "quote": "RuPay, supported by the Central Bank of India, is a national payment network with merchants and ATMs across India.",
+      "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+      "title": "Reach and Acceptance | Discover Network",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page footer © 2026 DFS Services LLC, i.e. post-Capital One acquisition. Same page: 'Discover® Network has 30+ network alliances' and 'accepted in more than 185 countries and territories'. No RuPay-specific counts given."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The RuPay-JCB Global co-branded card was launched on 22 July 2019 after JCB acceptance on Indian POS and ATMs was enabled in 2017.",
+      "quote": "NPCI, with JCB launched the RuPay-JCB Global card on 22 July 2019.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "RuPay card services were formally launched in Mauritius on 12 February 2024, allowing Mauritian banks to issue RuPay cards.",
+      "quote": "On 12 February 2024, India officially launched RuPay card services in Mauritius.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'allowing Mauritian banks to issue cards utilizing the RuPay mechanism there'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Merchant discount rate on RuPay debit card transactions was set to zero from 1 January 2020 (a government mandate), removing merchant-side interchange for that product.",
+      "quote": "All merchant discount rate (MDR) charges were eliminated for transactions done using Rupay debit cards from 1 January 2020.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Zero-MDR on RuPay debit and BHIM-UPI is a Government of India policy; the underlying notification (Income Tax Dept Notification No.105/2019, 30 Dec 2019) is cited on the page but was not fetched."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Historically NPCI charged a flat per-transaction switching fee of 60 paise to the acquirer and 30 paise to the issuer on RuPay.",
+      "quote": "The NPCI charged a flat-fee per transaction of 60 paise from acquiring bank and 30 paise from the card issuing bank.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Undated historical figure ('initially'); current switching fees not publicly fetched. Page also states processing fees were 'approximately 23% lower than those charged by Visa and Mastercard'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "NPCI publishes an interchange and pricing circular for RuPay acceptance in Singapore, UAE and South Korea, but the PDF sits on npci.org.in, which blocks fetching.",
+      "quote": "Interchange and Pricing circular for Acceptance of RuPay cards in Singapore, United Arab Emirates & South Korea",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Citation title only, as listed on Wikipedia (reference retrieved 8 April 2020). Content not read; no domestic interchange schedule could be fetched."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Indian businesses with annual turnover above ₹50 crore are mandated to offer RuPay debit and UPI as payment options.",
+      "quote": "All Indian companies with an annual turnover exceeding ₹ 50 crore (US$5.2 million) are required to offer RuPay debit card and Unified Payments Interface as a payment option",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Section 269SU Income-tax Act mandate, effective 1 January 2020. NPCI rulebook and circulars pages were blocked; no public RuPay operating rules edition could be confirmed."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuers can link RuPay credit cards to UPI (Credit on UPI), permitted by RBI from 8 June 2022 and launched 20 September 2022.",
+      "quote": "From 8 June 2022, RBI allowed the linking of RuPay credit cards with India's Unified Payments Interface (UPI).",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Same page: 'The service was officially launched on 20 September 2022'; RuPay credit usage crossed ₹10,000 crore in a month in December 2023."
+    },
+    {
+      "dimension": "services",
+      "claim": "NPCI offers network tokenisation for RuPay via the Token Reference On File (TROF) service launched 21 October 2021, backed by the RuPay Network Secure Vault.",
+      "quote": "NPCI on 21 October 2021 launched Token Reference On File (TROF) service that will help keep RuPay card details into RuPay Network Secure Vault.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Value-added network service for issuers, merchants and acquirers."
+    },
+    {
+      "dimension": "services",
+      "claim": "RuPay PaySecure is the network's e-commerce authentication service for card-not-present payments, launched 21 June 2013.",
+      "quote": "On 21 June 2013, NPCI launched RuPay PaySecure that enabled card holders make online payment .",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "RuPay On-the-Go is an open-loop contactless wearable form factor launched at Global Fintech Festival 2021 for issuers and device partners.",
+      "quote": "NPCI on the eve of Global Fintech Festival 2021 launched RuPay On-the-Go interoperable, open-loop contactless solution that are made available on smartwatch",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Launched with YES Bank (BusinessLine, 28 Sep 2021)."
+    },
+    {
+      "dimension": "news",
+      "claim": "1 August 2024: RBL Bank launched RuPay credit cards integrating NCMC transit and UPI functionality.",
+      "quote": "On 1 August 2024, RBL Bank announced integration of National Common Mobility Card and UPI capabilities with RuPay credit cards.",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Cites Business Standard, 1 Aug 2024."
+    },
+    {
+      "dimension": "news",
+      "claim": "August 2024 (Global Fintech Fest 2024): Airtel Payments Bank, Noise and NPCI launched a smartwatch with an embedded RuPay chip supporting NCMC.",
+      "quote": "At the Global Fintech Fest 2024 , Airtel Payments Bank , in collaboration with Noise and the National Payments Corporation of India (NPCI), launched a smartwatch",
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-05",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Cites HT Tech, 29 Aug 2024."
+    },
+    {
+      "dimension": "news",
+      "claim": "11 September 2026: NPCI reported FY26 net profit down 12% to ₹1,362 crore on revenue up 21% to ₹4,000 crore (as cited by Wikipedia from a journalist's post).",
+      "quote": "NPCI FY26 net profit declines 12% to Rs 1,362 crore, revenue up 21% at Rs 4,000 crore",
+      "url": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
+      "title": "National Payments Corporation of India - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-25",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Citation title only; source is a Moneycontrol journalist's X post dated 11 September 2026, not fetched. Treat as unconfirmed."
+    },
+    {
+      "dimension": "news",
+      "claim": "Leadership: Dilip Asbe was reappointed NPCI MD & CEO for five years in September 2022; Ajay Kumar Choudhary is listed as non-executive chairman.",
+      "quote": "NPCI reappoints Dilip Asbe as MD and CEO for 5 years",
+      "url": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
+      "title": "National Payments Corporation of India - Wikipedia",
+      "publisher": "Wikipedia",
+      "published": "2026-09-25",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Citation title (Hindu BusinessLine, 23 Sep 2022). Infobox lists 'Ajay Kumar Choudhary (Non-Exe Chairman)' and 'Dilip Asbe (MD & CEO)'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A GitHub organisation named NPCI exists with a dozen public repositories, none of which is a RuPay SDK, API kit or sample; RuPay developer tooling is not visible on GitHub.",
+      "quote": "('atom-network-platform', 'Python', '2026-09-10T01:44:12Z')",
+      "url": "https://api.github.com/orgs/NPCI/repos?per_page=50",
+      "title": "GitHub API: orgs/NPCI/repos",
+      "publisher": "GitHub",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Repos seen: falcon, .github, drunix, interoperable-soundbox, ainxt-enterprise, ainxt-cli, ainxt-code, atom-network-platform, atom-partner-platform, IndicBankBench, TauIndianBankBench, ainxt-os. Whether this org is officially NPCI's could not be confirmed; NPCI Developer Studio pages blocked."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "NPCI Partner Program: categories, application steps, fees, certification",
+      "where": "https://www.npci.org.in/npci-partner-program (403 Access Denied to curl; WebFetch returned page title only; Wayback 404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NPCI Developer Studio: API Accelerator Program, API Development Kit, sandbox, auth, SDKs, environments, versioning, rate limits",
+      "where": "https://www.npci.org.in/developer-studio (bot wall; Wayback 404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay onboarding and offboarding: membership types, sponsor model, certification stages, timelines, fees",
+      "where": "https://www.npci.org.in/what-we-do/rupay/onboarding-and-offboarding (bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay All Members list and participant counts",
+      "where": "https://www.npci.org.in/what-we-do/rupay/all-members (bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay statistics: current cards, transactions, value by month",
+      "where": "https://www.npci.org.in/statistics (bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay circulars 2024-2026: mandates, cadence, interchange schedules with effective dates",
+      "where": "https://www.npci.org.in/what-we-do/rupay/circulars (bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay product overview: card variants, issuer/acquirer/merchant catalogue",
+      "where": "https://www.npci.org.in/what-we-do/rupay/product-overview and Wayback copy https://web.archive.org/web/20251118140120id_/https://www.npci.org.in/product/rupay (JS shell only: 'You need to enable JavaScript to run this app.')",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay public rulebook edition and page count; dispute framework name; security and compliance programme names",
+      "where": "npci.org.in blocked; nothing found elsewhere",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay client services channels, hours, SLAs, account management, training/academy, events, incident communication",
+      "where": "npci.org.in blocked; not found on Wikipedia or Discover pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay domestic interchange schedule, network/assessment/cross-border fees, API pricing, membership or licence fees, incentives",
+      "where": "Not public on any fetchable page; only historical 60/30 paise switching fee and zero MDR on debit found",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "NIPL corporate site and RuPay international partner list",
+      "where": "https://www.nipl.net.in/ (TLS certificate mismatch, could not fetch)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Discover / Capital One SEC filings mentioning RuPay alliance",
+      "where": "https://efts.sec.gov/LatestSearch/index?q=%22RuPay%22 returned 403 Forbidden",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RBI circular on card network arrangements / RuPay-related regulator fee findings",
+      "where": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12610 resolved to an unrelated circular (Interest Equalization Scheme); correct ID unknown without search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PIB press release on RuPay debit / BHIM-UPI incentive scheme",
+      "where": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098300 returned 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay status page, partner community, bulletins, training portal, partner apps",
+      "where": "No such surface found on any fetchable page",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RuPay events September 2024 to September 2026 (M&A, outages, pricing changes, portal relaunches)",
+      "where": "WebSearch budget exhausted (200/200); Wikipedia RuPay page has no dated 2025-2026 entries",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "As of November 2020, around 753 million RuPay cards have been issued by nearly 1,158 banks.",
+      "b": "Till November 2020, over 1,158 banks issued 603.6 million RuPay cards. / As of November 2020, more than 60 crore (600 million) RuPay cards were issued",
+      "urls": [
+        "https://en.wikipedia.org/wiki/RuPay",
+        "https://en.wikipedia.org/wiki/RuPay"
+      ]
+    },
+    {
+      "a": "RuPay 'launched in 2012' (lead paragraph)",
+      "b": "'RuPay was launched in and dedicated to India on 8 May 2014' (history section) — formal dedication vs. commercial launch",
+      "urls": [
+        "https://en.wikipedia.org/wiki/RuPay",
+        "https://en.wikipedia.org/wiki/RuPay"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "NPCI Partner Program page",
+      "url": "https://www.npci.org.in/npci-partner-program",
+      "named_at": "Task brief; page returns 403 to non-browser clients (bot wall, not login)"
+    },
+    {
+      "name": "NPCI Developer Studio",
+      "url": "https://www.npci.org.in/developer-studio",
+      "named_at": "Task brief; bot wall"
+    },
+    {
+      "name": "NPCI circulars PDF: Interchange and Pricing circular for Acceptance of RuPay cards in Singapore, UAE & South Korea",
+      "url": "https://www.npci.org.in (PDF path not resolvable; blocked)",
+      "named_at": "https://en.wikipedia.org/wiki/RuPay"
+    },
+    {
+      "name": "NPCI Board of Directors page",
+      "url": "https://www.npci.org.in/who-we-are/board-of-directors",
+      "named_at": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India"
+    },
+    {
+      "name": "Discover Global Network Log In (alliance partner extranet, Discover-side)",
+      "url": "https://www.discoverglobalnetwork.com/ (Log In link)",
+      "named_at": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/"
+    },
+    {
+      "name": "Discover Global Network Partner Directory",
+      "url": "https://www.discoverglobalnetwork.com/ (Partner Directory link)",
+      "named_at": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.npci.org.in/what-we-do/rupay/product-overview",
+      "title": "NPCI - RuPay product overview (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/npci-partner-program",
+      "title": "NPCI Partner Program (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/developer-studio",
+      "title": "NPCI Developer Studio (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/statistics",
+      "title": "NPCI Statistics (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/what-we-do/rupay/circulars",
+      "title": "NPCI RuPay circulars (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/who-we-are/about-us",
+      "title": "NPCI About Us (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/what-we-do/rupay/onboarding-and-offboarding",
+      "title": "NPCI RuPay onboarding and offboarding (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.npci.org.in/what-we-do/rupay/all-members",
+      "title": "NPCI RuPay All Members (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/solutions/network-alliances/",
+      "title": "404 Page Not Found | Discover Network",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2098300",
+      "title": "PIB press release (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RuPay",
+      "title": "RuPay - Wikipedia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Payments_Corporation_of_India",
+      "title": "National Payments Corporation of India - Wikipedia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rupay.co.in/international-acceptance",
+      "title": "Credit, Debit, International, Prepaid and Contactless Card | RuPay (title only)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.nipl.net.in/",
+      "title": "NIPL (TLS certificate mismatch)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12610",
+      "title": "RBI Notification: Interest Equalization Scheme (unrelated)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LatestSearch/index?q=%22RuPay%22",
+      "title": "EDGAR full-text search (403 Forbidden)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://api.github.com/orgs/NPCI/repos?per_page=50",
+      "title": "GitHub API orgs/NPCI/repos",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+      "title": "Reach and Acceptance | Discover Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://web.archive.org/web/2026id_/https://www.npci.org.in/npci-partner-program",
+      "title": "Wayback: NPCI Partner Program (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://web.archive.org/web/2026id_/https://www.npci.org.in/developer-studio",
+      "title": "Wayback: NPCI Developer Studio (404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://web.archive.org/web/20251118140120id_/https://www.npci.org.in/product/rupay",
+      "title": "Wayback: NPCI RuPay (JS shell only)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

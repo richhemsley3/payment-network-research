@@ -1,0 +1,404 @@
+{
+  "network": "mastercard",
+  "dimension": "support",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "support",
+      "claim": "Account management model for network APIs (Mastercom example): requesting access connects the customer to a regional Mastercard representative, and at implementation a named Mastercard Delivery Manager is assigned.",
+      "quote": "When you are ready for program implementation, you are assigned a Mastercard Delivery Manager who guides you through implementation.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: access requests go to 'a regional Mastercard representative who provides further information about the Mastercom program'."
+    },
+    {
+      "dimension": "support",
+      "claim": "The public 'Get Help / Contact us for technical support' section on product Support pages is empty in the published markdown: the technical-support contact mechanism is rendered client-side and, per the portal's support page, requires sign-in.",
+      "quote": "Contact us for technical support",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Identical empty heading on the Cross-Border Services Support page (same fetch). No hours, languages or response-time commitments appear on either page."
+    },
+    {
+      "dimension": "support",
+      "claim": "Mastercom publishes operational support parameters rather than SLAs: a throttling policy of 150 requests per second and a 120-second timeout.",
+      "quote": "The throttling policy is as follows: 150 requests per second.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states 'Mastercom has a timeout set for 120 seconds.'"
+    },
+    {
+      "dimension": "support",
+      "claim": "Credential hygiene is pushed onto the customer: Mastercom API keys expire every 13 months and customers are told they are responsible for tracking expiry and subscribing multiple users to lifecycle notifications.",
+      "quote": "Customers are responsible for tracking API key expiration.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Recommends 'Subscribe multiple users to key lifecycle notifications (including expiration alerts) to avoid gaps in coverage.'"
+    },
+    {
+      "dimension": "support",
+      "claim": "Deeper operational answers (dispute documentation windows, user guide) are deferred from the public Support page to the Chargeback Guide and Mastercom User Guide in the Technical Resource Center on Mastercard Connect, i.e. behind the customer login.",
+      "quote": "refer to the Chargeback Guide in the Technical Resource Center on Mastercard Connect.",
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "TRC link given as https://trc-techresource.mastercard.com/r/bundle/m_cbg_en-us/page/d/en-US"
+    },
+    {
+      "dimension": "support",
+      "claim": "BIN Lookup names a product-specific support mailbox and an 'assigned Account Manager' as the two support channels, including for pricing questions and for missed onboarding timelines.",
+      "quote": "For pricing details, contact your assigned Account Manager or send a query to DBN.BinTableResource.Support@mastercard.com.",
+      "url": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+      "title": "Support - BIN Lookup - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'For questions or if timelines are exceeded, contact the team at DBN.BinTableResource.Support@mastercard.com.'"
+    },
+    {
+      "dimension": "support",
+      "claim": "Data-quality tickets for BIN Lookup have a defined intake format: account range, description of discrepancy, confirmation the issue reproduces on other cards with the same BIN, and reproduction steps.",
+      "quote": "Confirmation of checks on other cards with the same BIN",
+      "url": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+      "title": "Support - BIN Lookup - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "support",
+      "claim": "Incident visibility for API products: Mastercard says BIN Lookup is synthetically monitored and that uptime and recent issues are publicly viewable on the developer.mastercard.com/api-status page.",
+      "quote": "The BIN Lookup API uses synthetic monitoring to continuously verify that the API is available and functioning as expected.",
+      "url": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+      "title": "Support - BIN Lookup - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page continues: 'This information is publicly available, allowing you to check uptime and review any recent issues.' The api-status URL itself returned only a JavaScript shell to curl (title 'Mastercard Developers')."
+    },
+    {
+      "dimension": "support",
+      "claim": "Cross-Border Services support FAQ describes a three-tier environment path (Sandbox stubs, production-like MTF, Production) and states the sandbox cannot be used with OAuth 2.0 without registering as a Cross-Border customer, so pre-contract self-service is limited.",
+      "quote": "Currently, we don't support testing APIs in Sandbox using OAuth2.0 without registering for Mastercard Cross-Border Services.",
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/support/index.md",
+      "title": "Support - Cross-Border Services - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'Sandbox has API stubs that return simulated, static responses. MTF is a production-like environment.'"
+    },
+    {
+      "dimension": "support",
+      "claim": "Mastercard operates an Atlassian Statuspage (mastercard.statuspage.io, 'Mastercard Status') offering email, Slack, Microsoft Teams, Atom and RSS incident subscriptions.",
+      "quote": "Get email notifications whenever Mastercard creates , updates or resolves an incident.",
+      "url": "https://mastercard.statuspage.io/",
+      "title": "Mastercard Status",
+      "publisher": "Mastercard (Atlassian Statuspage)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Email subscription is protected by OTP and reCAPTCHA; Slack and Teams webhook subscriptions offered."
+    },
+    {
+      "dimension": "support",
+      "claim": "The Statuspage appears to be an unpopulated template rather than a live incident channel: its only components are labelled '(example)' and every day in the past-incidents list reads 'No incidents reported'.",
+      "quote": "API (example) Operational Management Portal (example) Operational",
+      "url": "https://mastercard.statuspage.io/",
+      "title": "Mastercard Status",
+      "publisher": "Mastercard (Atlassian Statuspage)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Past incidents section: 'Sep 25 , 2026 No incidents reported today. Sep 24 , 2026 No incidents reported.' Contrast with the api-status page promised on Mastercard Developers."
+    },
+    {
+      "dimension": "support",
+      "claim": "Mastercard's FY2025 10-K frames service-to-customers as an operational-resilience risk: disruptions that stop it processing transactions or servicing customers could materially affect the business.",
+      "quote": "Service disruptions that cause us to be unable to process transactions or service our customers could reduce our operational resilience",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "FY2025 10-K (period ending 2025-12-31). Post-dates Capital One's 2025-05-18 acquisition of Discover."
+    },
+    {
+      "dimension": "support",
+      "claim": "Incident response is described in the 10-K as an 'enterprise resiliency program' covering risk analysis, impact assessment and response strategies, with an explicit caveat that immunity cannot be ensured.",
+      "quote": "we maintain an enterprise resiliency program to analyze risk, assess potential impacts, and develop effective response strategies",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "The filing also notes 'We have experienced in limited instances, and may continue to experience, some types of these interruptions.'"
+    },
+    {
+      "dimension": "support",
+      "claim": "A stated technology priority is to standardise how Mastercard connects with customers 'at the edge of the network' and give them self-service tools to manage and expand their Mastercard relationship.",
+      "quote": "to provide them with the tools to manage and expand their Mastercard relationship",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Full bullet: 'Standardizing and simplifying how we connect with customers, starting at the edge of our network, to provide them with the tools...'"
+    },
+    {
+      "dimension": "support",
+      "claim": "Hands-on implementation support is sold as a paid services line (consulting and agentic solutions), not described as part of baseline network support.",
+      "quote": "strategic advisory, rapid prototyping, technical implementation and hands-on support across the payments ecosystem",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Listed under value-added services revenue categories."
+    },
+    {
+      "dimension": "support",
+      "claim": "Under the franchise model Mastercard sets performance standards and uses proactive monitoring of participant adherence to operating standards, the closest the 10-K comes to describing an SLA regime, and it runs one way (network monitoring customers).",
+      "quote": "use proactive monitoring designed to both ensure participant adherence to operating standards",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "U.S. SEC EDGAR",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "No customer-facing service-level commitment, support hours or language coverage is stated anywhere in the 10-K."
+    },
+    {
+      "dimension": "support",
+      "claim": "BIN Lookup escalation for the daily SBART file and API keys points to the Mastercard Developers Dashboard and requires signing in and stating an intended use case on first access.",
+      "quote": "To access the SBART file, you must sign in to your Mastercard Developers account.",
+      "url": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+      "title": "Support - BIN Lookup - Mastercard Developers",
+      "publisher": "Mastercard Developers",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'When requesting access for the first time, you must provide a description of the intended use case.'"
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Client-service hours, language coverage or response-time SLAs for Mastercard customer support (Global Customer Service)",
+      "where": "developer.mastercard.com product Support pages (Mastercom, BIN Lookup, Cross-Border), mastercard.statuspage.io, FY2025 10-K; mastercard.com/mastercard.us business support and contact pages returned HTTP 403 (bot wall); WebSearch budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Academy course catalogue, formats, certifications and audience",
+      "where": "academy.mastercard.com (curl returned only a JS shell 'Sorry, your browser is not supported'; WebFetch returned only the title and 'Manage Cookies'); no mention of Academy in FY2025 10-K",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Developers support channels, ticket process and forum rules",
+      "where": "developer.mastercard.com/support (curl and WebFetch both returned an empty SPA shell titled 'Mastercard Developers'); forum.developer.mastercard.com/s/ (curl: 'Forum Loading ... CSS Error'; WebFetch: certificate error)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Send product-level Support page",
+      "where": "https://developer.mastercard.com/mastercard-send/documentation/support/index.md returned HTTP 404; llms.txt lists Support pages only for mastercard-send-account-info, -avs, -disbursements, -funding, -person-to-person",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Partner events and incident-communication policy (bulletins, outage notices)",
+      "where": "Not found on public pages read; Send release notes (per sibling ledger) route to Support Case Management on Mastercard Connect, which is login-walled",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard Connect support/FAQ and terms of use text",
+      "where": "https://www.mastercardconnect.com/-/terms-of-use-public returned only a JS shell titled 'Mastercard Connect'",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "BIN Lookup Support page says API uptime and recent issues are 'publicly available' on developer.mastercard.com/api-status.",
+      "b": "The api-status URL serves only a client-rendered shell to non-browser fetchers, and Mastercard's separate Atlassian Statuspage shows only '(example)' placeholder components and no incidents ever, so no incident history is verifiably public.",
+      "urls": [
+        "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+        "https://developer.mastercard.com/api-status",
+        "https://mastercard.statuspage.io/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Technical Resource Center (TRC) on Mastercard Connect - Chargeback Guide and Mastercom User Guide",
+      "url": "https://trc-techresource.mastercard.com/r/bundle/m_cbg_en-us/page/d/en-US",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/support/index.md"
+    },
+    {
+      "name": "Mastercard Developers Dashboard (API key management, SBART file access with use-case justification)",
+      "url": "https://developer.mastercard.com/sbart-bin/documentation",
+      "named_at": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md"
+    },
+    {
+      "name": "Mastercard Developers Credential Management (key lifecycle notifications)",
+      "url": "https://developer.mastercard.com/platform/documentation/credential-management/",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/support/index.md"
+    },
+    {
+      "name": "Mastercard Test Facility (MTF) for Cross-Border Services (post-registration)",
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/api-basics/environments/index.md",
+      "named_at": "https://developer.mastercard.com/cross-border-services/documentation/support/index.md"
+    },
+    {
+      "name": "Mastercard Developers 'Get Help' technical-support contact (client-rendered, sign-in per portal support page)",
+      "url": "https://developer.mastercard.com/support",
+      "named_at": "https://developer.mastercard.com/mastercom/documentation/support/index.md"
+    },
+    {
+      "name": "Mastercard Connect (customer portal; terms page is a login-shell)",
+      "url": "https://www.mastercardconnect.com/-/terms-of-use-public",
+      "named_at": "https://www.mastercardconnect.com/-/terms-of-use-public"
+    },
+    {
+      "name": "Mastercard Academy learning portal (JS-only shell, 'browser not supported' to fetchers)",
+      "url": "https://academy.mastercard.com/",
+      "named_at": "https://academy.mastercard.com/"
+    },
+    {
+      "name": "Mastercard Status email subscription (OTP + reCAPTCHA)",
+      "url": "https://mastercard.statuspage.io/",
+      "named_at": "https://mastercard.statuspage.io/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.mastercard.com/support",
+      "title": "Mastercard Developers",
+      "ok": false,
+      "wall": "bot",
+      "note": "200 but SPA shell only (WebFetch and curl)"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/issuers/customer-support.html",
+      "title": "",
+      "ok": false,
+      "wall": "bot",
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/business/overview/mastercard-academy.html",
+      "title": "",
+      "ok": false,
+      "wall": "bot",
+      "note": "HTTP 403"
+    },
+    {
+      "url": "https://academy.mastercard.com/",
+      "title": "Mastercard Academy",
+      "ok": false,
+      "wall": "bot",
+      "note": "JS shell only"
+    },
+    {
+      "url": "https://mastercard.statuspage.io/",
+      "title": "Mastercard Status",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://forum.developer.mastercard.com/s/",
+      "title": "Forum",
+      "ok": false,
+      "wall": "bot",
+      "note": "curl: 'Forum Loading / CSS Error'; WebFetch: certificate error"
+    },
+    {
+      "url": "https://www.mastercard.com/us/en/business/support.html",
+      "title": "Access Denied",
+      "ok": false,
+      "wall": "bot",
+      "note": "HTTP 403 Akamai"
+    },
+    {
+      "url": "https://www.mastercard.us/en-us/about-mastercard/contact-us.html",
+      "title": "Access Denied",
+      "ok": false,
+      "wall": "bot",
+      "note": "HTTP 403 Akamai"
+    },
+    {
+      "url": "https://developer.mastercard.com/llms.txt",
+      "title": "Mastercard Developers llms.txt",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/api-status",
+      "title": "Mastercard Developers",
+      "ok": false,
+      "wall": "bot",
+      "note": "200 but SPA shell only"
+    },
+    {
+      "url": "https://www.mastercardconnect.com/-/terms-of-use-public",
+      "title": "Mastercard Connect",
+      "ok": false,
+      "wall": "login",
+      "note": "200 but shell only"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercard-send/documentation/support/index.md",
+      "title": "",
+      "ok": false,
+      "wall": "dead",
+      "note": "HTTP 404"
+    },
+    {
+      "url": "https://developer.mastercard.com/mastercom/documentation/support/index.md",
+      "title": "Support - Mastercom",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/bin-lookup/documentation/support/index.md",
+      "title": "Support - BIN Lookup",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.mastercard.com/cross-border-services/documentation/support/index.md",
+      "title": "Support - Cross-Border Services",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

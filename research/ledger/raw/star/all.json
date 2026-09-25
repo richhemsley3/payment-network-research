@@ -1,0 +1,505 @@
+{
+  "network": "star",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "STAR is owned and operated by Fiserv alongside Accel and MoneyPass, per the FY2025 10-K filed 2026-02-19; no ownership change since the 2019 First Data acquisition is disclosed.",
+      "quote": "own and operate the Accel®, STAR® and MoneyPass® networks, which provide access to funds for debit card purchases through any physical and online channel",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+      "title": "Fiserv, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Fiserv / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fiserv HQ stated in same filing: 600 N. Vel R. Phillips Avenue, Milwaukee, WI 53203. Debit network services sit in the Financial segment's Digital Payments business line."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Fiserv states its networks are open to all US issuers and merchants; no participant count is given in the 10-K.",
+      "quote": "These networks are available to all issuers and merchants in the U.S.",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+      "title": "Fiserv, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Fiserv / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Fiserv's May 2024 sales sheet gives a combined Accel-plus-STAR reach figure of 300 million cardholders and 5,000 financial institutions in the US and Canada; no STAR-only figure is published.",
+      "quote": "Accel and Star give you access to more than 300 million cardholders from over 5,000 financial institutions throughout the U.S. and Canada.",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+      "title": "Accel and STAR Fiserv debit networks provide solutions for merchants, service providers, and acquirers (sales sheet 05/24)",
+      "publisher": "Fiserv",
+      "published": "2024-05",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Same figure repeated on the brochure landing page. Differs from a July 2026 Yahoo Finance headline citing 115 million cardholders for STAR alone (see contradictions)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "STAR and Accel support both single-message and dual-message transactions at POS and card-not-present.",
+      "quote": "We support single‑ and dual‑message transactions at the point of sale (POS) and in the card‑not‑present environment, including incremental authorizations",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+      "title": "Accel and STAR debit networks sales sheet 05/24",
+      "publisher": "Fiserv",
+      "published": "2024-05",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "The Federal Reserve classifies STAR as a single-message network; in 2024 STAR's average interchange across all transactions was $0.23 per transaction (0.51% of a $44.65 average ticket).",
+      "quote": "STAR 47.3% 44.4% $41.87 $0.21 0.51% 52.7% 55.6% $47.15 $0.24 0.51% $44.65 $0.23 0.51%",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network (2024 data)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Columns: exempt share of count/value, exempt avg ticket, exempt avg fee, exempt fee %; covered share count/value, covered avg ticket, covered avg fee, covered %; all-transactions avg ticket, fee, %. 47.3% of STAR transactions were from exempt (under $10B) issuers. Accel row: $0.25 all-transactions average, 74.9% exempt."
+    },
+    {
+      "dimension": "reach",
+      "claim": "MoneyPass, the Fiserv surcharge-free ATM network sold alongside STAR, is described as nearly 40,000 ATMs nationwide.",
+      "quote": "Meet cardholders where they are through a network of nearly 40,000 surcharge-free ATMs nationwide.",
+      "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/moneypass.html",
+      "title": "MoneyPass | Fiserv",
+      "publisher": "Fiserv",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "The Payment Networks hub page uses the same 'nearly 40,000' figure; the STAR page says only 'thousands'."
+    },
+    {
+      "dimension": "services",
+      "claim": "STAR's issuer catalogue (January 2023 brochure) names STAR PINless Debit, STAR Access, STAR Expedited Transfer Service, plus opt-in Stop Payments and prepaid reloads.",
+      "quote": "STAR Access – This is an end‑to‑end solution when signature debit is preferred with single and dual message formats.",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+      "title": "Deliver the Convenient, Secure Transactions Cardholders Demand – STAR issuer brochure 01/23",
+      "publisher": "Fiserv",
+      "published": "2023-01",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Brochure also states: 'STAR Expedited Transfer Service – STAR supports funds transfer debits and credits' and 'Stop Payments is a service that provides network members the ability to cancel payments associated with recurring bill payments.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "STAR's fraud and risk stack for issuers is named as STAR Predictive Fraud Score (machine-learning score on PIN, PINless and ATM), STAR Network Guardian (rules engine) and FICO Card Alert Service (consortium).",
+      "quote": "STAR Network Guardian uses a rules‑based engine that monitors the network to detect unusual activity.",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+      "title": "STAR issuer brochure 01/23",
+      "publisher": "Fiserv",
+      "published": "2023-01",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "'STAR Predictive Fraud Score ... uses machine learning to continually analyze PIN, PINless and ATM transactions and provides an appropriate risk score.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer data services: STAR provides quarterly business reporting with merchant-category breakdown and gross interchange and fees, on top of operational reporting.",
+      "quote": "STAR provides quarterly business reporting, so you can evaluate the health of your debit program and see where your customers are shopping",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+      "title": "STAR issuer brochure 01/23",
+      "publisher": "Fiserv",
+      "published": "2023-01",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "For merchants and acquirers, STAR/Accel support PIN debit, PINless debit at POS, signature debit, digital wallet funding, eCommerce, expedited funds transfer, tokenized transactions, prepaid/healthcare, bill payments and high-risk (gambling, digital currency) transactions, with 3DS for CNP.",
+      "quote": "Merchants may use 3DSecure (3DS) authentication to reduce risk with card‑not‑present (CNP) transactions.",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+      "title": "Accel and STAR debit networks sales sheet 05/24",
+      "publisher": "Fiserv",
+      "published": "2024-05",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Transaction list verbatim on page 2: 'PIN debit PINless debit at POS Signature debit Digital wallet funding eCommerce Expedited funds transfer Tokenized transactions Prepaid/healthcare cards Bill payments High risk transactions (online gambling and digital currency) and merchant wallets'. Wendy's testimonial cites PINless routing and approval rates."
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM-side value-added services sold with STAR are MoneyPass (surcharge-free, shared deposits) and CardFree Cash (cardless ATM access).",
+      "quote": "CardFree Cash SM from Fiserv gives accountholders convenient, easy access to the cash they need at thousands of ATMs nationwide with no card required.",
+      "url": "https://www.fiserv.com/en/solutions/payments/payments-network.html",
+      "title": "Payment Networks | Fiserv",
+      "publisher": "Fiserv",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "MoneyPass page: 'if your institution participates in shared deposits, cardholders can take advantage of surcharge-free deposits'. Marketing support via 'Impact Marketing from Fiserv'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fiserv's own 10-K risk factor confirms that its owned networks raise processing and interchange fees from time to time, i.e. pricing is set by the network rather than published.",
+      "quote": "debit networks, including the card networks which we own, increase the processing and other fees (including what is commonly called “interchange fees”) that they charge",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+      "title": "Fiserv, Inc. Form 10-K FY2025",
+      "publisher": "Fiserv / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "STAR publishes no interchange schedule; the issuer brochure names two pricing programmes, Regulated Issuer (over $10B assets, maximum lawful interchange) and STAR Choice (under $10B with STAR as the second unaffiliated network), and daily interchange settlement.",
+      "quote": "STAR Choice – This option is for non‑regulated issuers with less than $10 billion in assets and with STAR as their other unaffiliated network.",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+      "title": "STAR issuer brochure 01/23",
+      "publisher": "Fiserv",
+      "published": "2023-01",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "'Regulated Issuer – This option is for issuers with more than $10 billion in assets. It provides the maximum interchange allowed by law'; 'Realize revenue immediately because we settle your interchange daily'. Actual rates not disclosed."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Federal Reserve's Regulation II cap that binds STAR's covered-issuer interchange is $0.21 plus 0.05% of value plus an optional $0.01 fraud adjustment.",
+      "quote": "may not receive, for any electronic debit transaction, an interchange fee that exceeds $0.21 plus 0.05 percent multiplied by the value of the transaction",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fed table for 2024 shows STAR covered-transaction average of $0.24 and exempt average of $0.21. The 10-K states Reg II 'requires all debit card issuers in the U.S. to participate in at least two unaffiliated debit payment card networks'."
+    },
+    {
+      "dimension": "support",
+      "claim": "Partner contact for STAR and Accel is a phone line and shared mailbox (800-872-7882, getsolutions@fiserv.com); customers refer to named network reps; no hours, SLAs or languages are published.",
+      "quote": "For more information about Accel and Star: 800‑872‑7882 getsolutions@fiserv.com",
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+      "title": "Accel and STAR debit networks sales sheet 05/24",
+      "publisher": "Fiserv",
+      "published": "2024-05",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Wendy's testimonial in the same sheet: 'reach out to your Star and Accel network reps today'. Web pages route to a Fiserv contact form (/en/solutions/card-services/contact-us.html)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "STAR's public web presence is a single Fiserv marketing page (star.html redirects to the combined Star and Accel page) with PDF brochures, a Fraud Program Best Practices Self-Assessment, and a link to developer.fiserv.com; no STAR-specific portal, rulebook, status page or bulletin archive is exposed.",
+      "quote": "The Fraud Program Best Practices Self-Assessment can help you see how your financial institution scores in these important categories. Take the assessment",
+      "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+      "title": "Star and Accel | Fiserv",
+      "publisher": "Fiserv",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "The 'Economic optimization' block promises 'flexible pricing programs, robust reporting and transparent fee structures' but no fee document is linked. developer.fiserv.com returned a 6KB JavaScript shell with no readable STAR product listing."
+    },
+    {
+      "dimension": "news",
+      "claim": "Reported, July 2026: WSJ (6 Jul) and Reuters (7 Jul) reported JPMorgan, Bank of America and other large US banks exploring a purchase of Fiserv's STAR debit network; later coverage put a figure of $15 billion on the talks.",
+      "quote": "Fiserv exploring sale of debit card network to big US banks, source says - Reuters",
+      "url": "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en",
+      "title": "Google News RSS: Fiserv STAR debit network",
+      "publisher": "Reuters via Google News",
+      "published": "2026-07-07",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": "Headlines only; articles could not be fetched (Google redirect wall). Other headlines: WSJ 2026-07-06 'JPMorgan, Bank of America and Other Banks Explore a Deal to Shake Up Payments World'; American Banker 2026-07-10 'Can banks skirt the Durbin Amendment by owning a debit network?'; Payments Dive 2026-07-08 'Fiserv debit network sale skepticism abounds'; Benzinga 2026-09-24 'Unresolved $15 Billion Debit Network Talk'. The assignment brief dated these reports to 2025; the RSS dates them July 2026 and no 2025 items appeared."
+    },
+    {
+      "dimension": "news",
+      "claim": "Reported: Jana Partners called for a strategic review and board changes at Fiserv on 2026-07-31, and Payments Dive reported on 2026-09-03 that Fiserv is exploring divestitures.",
+      "quote": "Fiserv explores divestitures - Payments Dive",
+      "url": "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en",
+      "title": "Google News RSS: Fiserv STAR debit network",
+      "publisher": "Payments Dive via Google News",
+      "published": "2026-09-03",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": "Also American Banker 2026-08-10 'Fiserv, FIS weigh options for underperforming business units'. Sale of STAR not confirmed by Fiserv in any filing read."
+    },
+    {
+      "dimension": "news",
+      "claim": "On 2026-07-07 Fiserv President Dhivya Suryadevara resigned and Andrew Gelb and Srini Krish were named interim leaders of Financial Solutions, the segment that houses debit network services.",
+      "quote": "Andrew Gelb, Executive Vice President and Chief Operating Officer, Financial Solutions, and Srini Krish, Head of Technology and Operations, Financial Solutions, were appointed",
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000119312526297448/d110419d8k.htm",
+      "title": "Fiserv, Inc. Form 8-K dated July 7, 2026",
+      "publisher": "Fiserv / SEC EDGAR",
+      "published": "2026-07-07",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Full sentence continues 'as interim leaders of the Company's Financial Solutions business, effective immediately.' Gelb described as 'longtime head of the Company's issuer solutions business'. Signed by CFO Paul M. Todd."
+    },
+    {
+      "dimension": "news",
+      "claim": "Pre-window context: Payments Dive reported on 2024-02-06 that Fiserv signed Uber and eBay as debit network clients, evidencing STAR/Accel's merchant-side PINless push.",
+      "quote": "Fiserv lands Uber, eBay as debit network clients - Payments Dive",
+      "url": "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en",
+      "title": "Google News RSS: Fiserv STAR debit network",
+      "publisher": "Payments Dive via Google News",
+      "published": "2024-02-06",
+      "label": "Reported",
+      "fetch": "search-snippet",
+      "note": ""
+    }
+  ],
+  "not_found": [
+    {
+      "query": "STAR Network Operating Rules public PDF, edition, page count",
+      "where": "fiserv.com STAR/Accel pages, brochures, developer.fiserv.com; no rules link anywhere",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR-only participant counts (issuers, merchants, ATMs, transaction volume) with dates",
+      "where": "Fiserv 10-K FY2025, star-and-accel page, sales sheet (only combined Accel+STAR 300M/5,000 FI figure)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR developer reference, sandbox, SDKs, OpenAPI, webhooks, test cards",
+      "where": "developer.fiserv.com (JS shell, no readable STAR product); STAR pages link only to the generic portal",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR interchange schedule, network/switch fees, membership or licence fees, effective dates",
+      "where": "Fiserv STAR pages and brochures; 10-K risk factors only say networks raise fees 'from time to time'",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR membership types, sponsorship model, agent/TPP registration, certification stages, timelines",
+      "where": "All Fiserv STAR pages and PDFs read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR support hours, SLAs, languages, status page, incident communication, training academy",
+      "where": "Fiserv STAR pages, sales sheet, issuer brochure",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "STAR mandates/bulletins Sept 2024 to Sept 2026",
+      "where": "No public bulletin archive found on fiserv.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "2025 reports of banks in talks to buy STAR (American Banker, Payments Dive, Bloomberg)",
+      "where": "Google News RSS returned no 2025 items; earliest sale-talk items are dated 2026-07-06 (WSJ)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Fed Reg II proposed interchange-cap revision status (2023 proposal)",
+      "where": "Fed regii-about page nav only; budget exhausted before locating final-rule status",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press article bodies (Payments Dive, American Banker, Reuters) on STAR sale",
+      "where": "Google News redirect links; direct search pages on paymentsdive.com, americanbanker.com, digitaltransactions.net returned no parseable results",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Fiserv sales sheet 05/24 and brochure page: Accel and STAR combined give access to 'more than 300 million cardholders from over 5,000 financial institutions'",
+      "b": "Yahoo Finance headline 2026-07-08: 'PNC (PNC) Is Eyeing Fiserv's STAR Network With 115 Million Cardholders' (STAR alone; unfetched snippet)",
+      "urls": [
+        "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+        "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "a": "Assignment brief: 2025 reports of banks in talks to buy STAR",
+      "b": "Google News RSS dates the WSJ/Reuters/Payments Dive sale-talk coverage to 6-10 July 2026 with follow-ups through 24 Sept 2026; no 2025 items surfaced",
+      "urls": [
+        "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en",
+        "https://www.sec.gov/Archives/edgar/data/798354/000119312526297448/d110419d8k.htm"
+      ]
+    },
+    {
+      "a": "MoneyPass page and Payment Networks hub: 'nearly 40,000 surcharge-free ATMs'",
+      "b": "Star and Accel page: 'access to thousands of surcharge‑free ATMs nationwide'",
+      "urls": [
+        "https://www.fiserv.com/en/solutions/card-services/payment-networks/moneypass.html",
+        "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Fraud Program Best Practices Self-Assessment (Take the assessment)",
+      "url": "",
+      "named_at": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html"
+    },
+    {
+      "name": "Fiserv Card Services contact form (Get in touch)",
+      "url": "https://www.fiserv.com/en/solutions/card-services/contact-us.html?cid=%7Cstar-and-accel%7C",
+      "named_at": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html"
+    },
+    {
+      "name": "Fiserv Developer Portal (developer.fiserv.com) – no STAR product visible logged out",
+      "url": "https://developer.fiserv.com/",
+      "named_at": "https://www.fiserv.com/en/solutions/payments/payments-network/star.html"
+    },
+    {
+      "name": "Impact Marketing from Fiserv (MoneyPass marketing collateral programme)",
+      "url": "",
+      "named_at": "https://www.fiserv.com/en/solutions/card-services/payment-networks/moneypass.html"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.fiserv.com/en/solutions/payments/payments-network/star.html",
+      "title": "Star and Accel | Fiserv (redirect from star.html)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/star-and-accel.html",
+      "title": "Star and Accel | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/solutions/payments/payments-network/accel.html",
+      "title": "Star and Accel | Fiserv (redirect)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/solutions/payments/payments-network/moneypass.html",
+      "title": "404 | Fiserv",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.fiserv.com/en/solutions/payments/payments-network.html",
+      "title": "Payment Networks | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.fiserv.com/",
+      "title": "Fiserv Developer Portal (JS shell, no content)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000798354.json",
+      "title": "EDGAR submissions index, Fiserv Inc CIK 798354",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+      "title": "Fiserv Form 10-K FY2025 (filed 2026-02-19)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000119312526397250/d215103d8k.htm",
+      "title": "Fiserv Form 8-K dated 2026-09-16 (cover only read)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/about-fiserv/resource-center/brochures/accel-and-star-for-merchants--service-providers--and-acquirers.html",
+      "title": "Accel and STAR for merchants, service providers and acquirers | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/about-fiserv/resource-center/brochures/deliver-the-convenient--secure-transactions-cardholders-demand.html",
+      "title": "Deliver convenient, secure transactions with STAR | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/about-fiserv/resource-center/white-papers/debit-networks-101.html",
+      "title": "Debit Networks 101 | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/en/solutions/card-services/payment-networks/moneypass.html",
+      "title": "MoneyPass | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/sales-sheets/accel-and-star-debit-networks-sales-sheet-0524.pdf",
+      "title": "Accel and STAR debit networks sales sheet 05/24 (PDF, 2 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+      "title": "STAR issuer brochure 01/23 (PDF, 5 pages)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=STAR+Fiserv",
+      "title": "Payments Dive search",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.americanbanker.com/search?q=STAR%20debit%20network%20Fiserv",
+      "title": "American Banker search",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=STAR+Fiserv",
+      "title": "Digital Transactions search",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=Fiserv+STAR+debit+network&hl=en-US&gl=US&ceid=US:en",
+      "title": "Google News RSS: Fiserv STAR debit network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-about.htm",
+      "title": "Federal Reserve Board - Regulation II (Debit Card Interchange Fees and Routing)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000119312525115067/d25412d8k.htm",
+      "title": "Fiserv Form 8-K 2025-05-07 (euro notes; not STAR-relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/(Payments Dive 2026-09-03 Fiserv explores divestitures)",
+      "title": "Google News redirect",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/(Payments Dive 2026-07-08 sale skepticism)",
+      "title": "Google News redirect",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/(American Banker 2026-07-07 bank-owned debit network)",
+      "title": "Google News redirect",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/798354/000119312526297448/d110419d8k.htm",
+      "title": "Fiserv Form 8-K dated 2026-07-07",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

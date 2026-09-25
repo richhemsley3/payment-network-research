@@ -1,0 +1,616 @@
+{
+  "network": "interac",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "Interac Corp. was reunited as a single company in 2018 after more than 20 years split into two organizations (Interac Association and Acxsys).",
+      "quote": "More than 20 years after Interac was divided into two organizations, it was reunited again as Interac Corp.",
+      "url": "https://www.interac.ca/en/company/about/our-history/",
+      "title": "Our History - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "No ownership change since 2020 found on interac.ca; shareholders not named on the site. Interac is bank-owned (not published on the pages read)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Interac is headquartered at 200 Bay Street, Royal Bank Plaza, North Tower, Suite 2400, Toronto.",
+      "quote": "200 Bay Street, Royal Bank Plaza, North Tower, Suite 2400, P.O Box 45, Toronto, Ontario M5J 2J1",
+      "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+      "title": "Contact Us - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "reach",
+      "claim": "Interac claims 300+ connected financial institutions and 18.6 million transactions per day across its products.",
+      "quote": "18.6M Transactions each day with Interac products",
+      "url": "https://www.interac.ca/en/company/about/company-overview/",
+      "title": "Company Overview - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Same page: '300+ Financial institutions connected'; 'more than 6.5 billion Interac Debit transactions' for year ending October 2023."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The business landing page publishes 2024 volumes of 6.6B Interac Debit, 1.4B e-Transfer and 568M verification transactions.",
+      "quote": "6.6B Interac Debit Transactions",
+      "url": "https://www.interac.ca/en/business/",
+      "title": "Interac for Business - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also '1.4B Interac e-Transfer Transactions' and '568M Verification and Authentication Transactions'. Differs from company-overview (6.5B, FYE Oct 2023) and year-in-review (7B, FY2025): different fiscal years."
+    },
+    {
+      "dimension": "reach",
+      "claim": "The FY2025 Corporate Year in Review reports 7B Interac Debit, 1.6B e-Transfer and 544M Interac Verified transactions, with 99.96% core-platform availability.",
+      "quote": "7B total Interac Debit transactions",
+      "url": "https://www.interac.ca/en/company/about/corporate-year-in-review/",
+      "title": "Corporate Year in Review - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also '1.6B total Interac e-Transfer transactions', '544M total Interac Verified Services transactions', '99.96%' availability, fraud losses four cents per $100, workforce 'more than 900 employees'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Interac's brand family comprises Interac Debit, Interac e-Transfer, Interac Verified, Interac Direct (via Konek) and Interac e-Transfer Cards.",
+      "quote": "Interac introduced Interac Verified, the official name for our verification business arm, recognizing our foray beyond payments.",
+      "url": "https://www.interac.ca/en/company/about/our-history/",
+      "title": "Our History - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Products listed on company-overview: Interac Debit, Interac e-Transfer, Interac Verified, Interac Direct, Interac e-Transfer Cards, transit payments, cash withdrawal."
+    },
+    {
+      "dimension": "join",
+      "claim": "Interac Debit/ABM participants are Direct Connectors to the Inter-Member Network (IMN) or Indirect Connectors that connect through a Direct Connector.",
+      "quote": "Connect directly to the Inter-Member Network (IMN) to provide Interac® Debit services and ABM withdrawals services.",
+      "url": "https://www.interac.ca/en/company/about/network-participants/",
+      "title": "Network Participants - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Roles named: Issuers, Acquirers, Connection Service Providers (CSPs), Settlement Agents. No participant count and no application steps on the page."
+    },
+    {
+      "dimension": "join",
+      "claim": "Issuer eligibility on the debit network extends beyond banks to money market mutual funds and insurance companies.",
+      "quote": "financial institutions who maintain demand accounts and issue debit cards to their clients to access Interac services",
+      "url": "https://www.interac.ca/en/company/about/network-participants/",
+      "title": "Network Participants - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Settlement Agents 'settle the financial obligations of other members through the Canadian Payments Association's Automated Clearing Settlement System'."
+    },
+    {
+      "dimension": "join",
+      "claim": "Interac e-Transfer offers three participation models: Direct Exchange Participant, Indirect Exchange Participant (via a CSP) and Connection Service Provider; applicants email newapplicants@interac.ca.",
+      "quote": "Each Indirect Exchange Participant must appoint a CSP, and the CSP must be authorized by Interac before connecting.",
+      "url": "https://www.interac.ca/en/company/about/interac-e-transfer-participation/",
+      "title": "Interac e-Transfer participation - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Eligible: federally regulated banks, CIRO investment dealers + FINTRAC MSBs, RPAA-regulated PSPs + FINTRAC MSBs, cooperative credit societies, foreign bank branches, foreign life insurers, trustees. 'Email newapplicants@interac.ca to request information or initiate the process.' No timelines published."
+    },
+    {
+      "dimension": "join",
+      "claim": "All e-Transfer participants, direct or indirect, must still establish their own settlement arrangements.",
+      "quote": "All Participants connecting through any of the above options are still required to establish arrangements for settlement.",
+      "url": "https://www.interac.ca/en/company/about/interac-e-transfer-participation/",
+      "title": "Interac e-Transfer participation - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Interac publishes wholesale Interac Debit switch fees: $0.013985 per POS transaction rising to $0.014438 on Nov 1, 2026, and $0.015881 per ABM withdrawal.",
+      "quote": "Interac Debit (Chip & PIN, card contactless): $0.013985 (increasing to $0.014438 effective Nov. 1, 2026)",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Mobile Service Fee same amounts. eCommerce (Apple Pay/Google Pay): Issuer Switch Fee $0.013985 and 'Acquirer Service Fee: $0.025'."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The switch fee is described as cost-recovery and the only fee Interac charges on Interac Debit; Interac sets but does not receive interchange.",
+      "quote": "It is an annual, low-cost fee set on a cost recovery basis, and it is the only fee charged by Interac Corp.",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'While Interac Corp. has a role in setting the interchange fee rate, it does not receive any revenue from this fee.'"
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Interac Debit contactless interchange is a flat fee by tier: $0.020 low-ticket MCCs, $0.025 for merchants above 20M annual contactless transactions, $0.035 all others, $0.055 for $100.01-$250; ABM interchange is $0.75 flat paid issuer-to-acquirer.",
+      "quote": "ABM Withdrawals $0.75 flat-fee Per completed cash withdrawal transaction paid by Issuer to Acquirer",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also states chip-and-PIN 'Interchange for Interac Debit is currently set at zero.' Interac Debit for eCommerce with Apple Pay/Google Pay: Tier 1 60 bps capped $1.80, Tier 2 57.5 bps, Tier 3 55 bps, Tier 4 $0.35 for tax payments (MCC 9311)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Interac Direct carries 55-70 bps interchange (acquirer to issuer) plus a 10 bps Interac Brand Fee paid to Interac Corp.",
+      "quote": "Interac Brand Fee 10 Basis Points Per initiated Interac Direct transaction paid by the Acquirer to Interac Corp.",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Interac e-Transfer wholesale fees are $0.08 per non-on-us and $0.04 per on-us transaction, with published connection fees of $50,000 one-time and $20,000 monthly for a direct connection ($5,000 / $1,500 indirect).",
+      "quote": "One-time Onboarding Fees $50,000 for a direct connection $5,000 for an indirect connection",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Monthly Operating Fees $20,000 for each direct connection $1,500 for each of the first 9 indirect connections $500 for each indirect connection beyond 9'; Business Request Money 35 bps capped $3.50 or $0.35 flat with $2,000 onboarding per qualifying customer; Test Environment Maintenance Fee $150/day; onboarding support $250/hour."
+    },
+    {
+      "dimension": "rules",
+      "claim": "ABM surcharging cannot be restricted by Interac under the Competition Tribunal's Interac Consent Order; POS surcharges are capped at $0.25.",
+      "quote": "As prescribed by the Interac Consent Order issued by the Competition Tribunal, Interac Corp. may not restrict the levying of a surcharge.",
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'The surcharge fee must be capped at $0.25.' for POS Interac Debit."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Interac abides by the FCAC Code of Conduct for the Payment Card Industry and runs a merchant complaint process: acknowledgement in five business days, final decision in thirty.",
+      "quote": "Interac Corp. abides by the Code of Conduct for the Payment Card Industry in Canada",
+      "url": "https://www.interac.ca/en/resources/business-resources/code-of-conduct/",
+      "title": "FCAC Code of Conduct - Merchant Complaints - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Channels: web form, 416-362-8550, compliance.regulations@interac.ca, mail to Compliance & Enforcement Department, Toronto. FCAC escalation 1-866-461-3222. Interac operating rules themselves are not published on interac.ca."
+    },
+    {
+      "dimension": "services",
+      "claim": "Merchants accept Interac Debit only through an acquirer; Interac publishes an A-Z acquirer directory split by ABM withdrawals, POS/merchant services and in-app/in-browser payments.",
+      "quote": "Whether you're looking to get started, find information on fees or have other questions, see below for a complete list of Interac Acquirers.",
+      "url": "https://www.interac.ca/en/payments/business/find-an-acquirer/",
+      "title": "Find an Acquirer - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Named acquirers include RBC, TD, BMO, CIBC, Scotiabank, National Bank, Moneris, Square Canada, Global Payments, Elavon, Adyen, Nuvei, Chase Merchant Services."
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM deployers ride the Inter-Member Network via an ABM acquirer and may surcharge if disclosed; issuer PIN and funds verification happens at the cardholder's FI.",
+      "quote": "ABM requests are securely passed through the Interac Inter-Member Network. Your customer's financial institution verifies the PIN and funds before dispensing cash from your ABM.",
+      "url": "https://www.interac.ca/en/payments/business/install-an-abm/",
+      "title": "Install an ABM - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "No white-label deployer programme or ATM count published on the page."
+    },
+    {
+      "dimension": "services",
+      "claim": "The Innovation Hub catalogue for fintechs and developers lists five solutions: Business Request Money API, Standard Identity Verification, Advanced Document Verification, KYC and Interac Direct.",
+      "quote": "Enhance your payment collection with the Interac e-Transfer Business Request Money API",
+      "url": "https://innovation.interac.ca/solutions/",
+      "title": "Solutions - Interac Innovation Hub",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "KYC 'Provides a set of personal attributes from either Equifax Single or Dual source methods'. Five products visible logged out."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Developer-portal access requires a request per solution; verification solutions get an account immediately, while payment products need a pre-existing relationship with an issuing FI and Interac review.",
+      "quote": "Access to Payment network products requires a pre-existing partnership or commercial relationship with an issuing Financial Institution",
+      "url": "https://innovation.interac.ca/support/",
+      "title": "Support - Interac Innovation Hub",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "'To gain access to the developer portal, you must submit a request for the solution you are interested in'; forms at /request-for-access-form and /collaboration-form/. Playground: 'You can complete a test call in the playground environment in minutes'. API keys generated in portal. No auth scheme, base URLs, SDK languages, webhooks, versioning or rate limits readable logged out."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The public Guides section covers only identity-and-access management of the portal (org creators, admin user management, member add, registration/login), not API reference.",
+      "quote": "Admin can manage user roles and setup temporary passwords or reset passkeys",
+      "url": "https://innovation.interac.ca/guides/",
+      "title": "Guides - Interac Innovation Hub",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Guides at /guide/org-managers/, /guide/user-management/, /guide/add-new-member/, /guide/registration-login-guide/."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Business Request Money solution page describes a light-weight API for web, mobile and QR-triggered collection but publishes no spec; access is via a request form.",
+      "quote": "The Interac e-Transfer Business Request Money API is a light-weight API that can be integrated into any business platform",
+      "url": "https://innovation.interac.ca/solution/business-request-money/",
+      "title": "Business Request Money - Interac Innovation Hub",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Request Access link: https://innovation.interac.ca/request-access-form/"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Interac Brand Centre (brandcentre.interac.ca) is gated to trademark licensees, sponsors and approved vendors; others apply via licensing@interac.ca.",
+      "quote": "The Interac Brand Centre is available only to: (i) parties with an existing trademark license agreement or sponsorship agreement with Interac",
+      "url": "https://brandcentre.interac.ca/",
+      "title": "Interac Brand Resource Centre",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "support",
+      "claim": "Interac's public contact page routes most enquiries to the customer's FI and lists no phone number or hours; specialised mailboxes exist for phishing, community and media.",
+      "quote": "phishing@interac.ca",
+      "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+      "title": "Contact Us - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No SLAs, hours or languages published for partners; e-Transfer onboarding support is billable at $250/hour per fees page."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-08: Interac launched the Interac Verified credential service (reusable digital ID) with FCT as launch partner.",
+      "quote": "At Interac, we're building more than a service—we're shaping the network for verification in Canada.",
+      "url": "https://www.interac.ca/en/content/news/interac-launches-the-interac-verified-credential-service-to-enhance-secure-identity-verification/",
+      "title": "Interac launches the Interac Verified credential service",
+      "publisher": "Interac Corp.",
+      "published": "2025-05-08",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-02: Moneris expanded enablement of Konek (Interac pay-by-bank / Interac Direct) across Moneris Checkout and API.",
+      "quote": "enable Konek with no additional development by selecting 'Pay with Konek' in their configuration",
+      "url": "https://www.interac.ca/en/content/news/moneris-extends-online-payment-options-by-making-it-easier-to-enable-konek-expanding-pay-by-bank-across-moneris-checkout-and-api/",
+      "title": "Moneris extends online payment options by making it easier to enable Konek",
+      "publisher": "Interac Corp.",
+      "published": "2026-06-02",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Year in Review names Staples Canada as the first Konek national merchant."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-16: Shakepay joined Interac e-Transfer as a participant, qualifying as a FINTRAC-registered MSB and CIRO investment dealer under widened eligibility.",
+      "quote": "a FINTRAC-registered Money Services Business and an investment dealer regulated by the Canadian Investment Regulatory Organization",
+      "url": "https://www.interac.ca/en/content/news/shakepay-joins-interac-e-transfer-as-a-participant/",
+      "title": "Shakepay joins Interac e-Transfer as a Participant",
+      "publisher": "Interac Corp.",
+      "published": "2026-07-23",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Dateline TORONTO July 16, 2026; page published July 23, 2026."
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 leadership changes: David Bruyea named Group Head, Financial Crimes; Anuj Dhall named Group Head, Technology & Operations; Interac positioned as technical operator of Payments Canada's Real-Time Rail and extended e-Transfer eligibility to RPAA-regulated PSPs.",
+      "quote": "Over 160M total transactions",
+      "url": "https://www.interac.ca/en/company/about/corporate-year-in-review/",
+      "title": "Corporate Year in Review - Interac Corp.",
+      "publisher": "Interac Corp.",
+      "published": "2025",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Quote refers to Business Request Money cumulative volume ('81% YoY increase'). Jeremy Wilmot CEO since August 1, 2023 (our-history page). Other 2025-2026 news on newsroom: Dream Payments e-Transfer Payouts, Smooth Commerce Interac Debit in-app, Interac Verified fraud defences (not fetched)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Interac Corp. shareholders / ownership changes 2020-2026",
+      "where": "interac.ca company-overview, our-history, contact-us",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Cards in circulation, ATM count, acceptance locations, participant counts (issuers/acquirers) as numbers",
+      "where": "interac.ca company-overview, network-participants, install-an-abm",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Single- vs dual-message architecture statement",
+      "where": "interac.ca network-participants, understanding-fees",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public Interac operating rules / rulebook, edition, page count; bulletins; mandate calendar",
+      "where": "interac.ca business, resources, code-of-conduct",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Certification programme stages, timelines, membership/licence fees for debit network participation",
+      "where": "interac.ca network-participants, business-faq",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Developer: auth scheme, sandbox base URLs, test cards, SDK repos, OpenAPI/Postman, webhooks, versioning, changelog, rate limits (all behind request-for-access portal)",
+      "where": "innovation.interac.ca home, solutions, guides, support, business-request-money",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Status page, partner extranet name, training academy, partner events, incident communication",
+      "where": "interac.ca contact-us, business, innovation hub support",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Regulator fee findings specific to Interac (Competition Bureau/FCAC) 2024-2026; outages 2024-2026",
+      "where": "WebSearch budget exhausted; Payments Canada news page had no Interac items",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Interac newsroom listing pages /en/company/news/ and /en/company/newsroom/",
+      "where": "interac.ca (404); working listing is /en/content-category/news/",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Company Overview: 'more than 6.5 billion Interac Debit transactions' (year ending October 2023) and business page: '6.6B Interac Debit Transactions' (2024)",
+      "b": "Corporate Year in Review FY2025: '7B total Interac Debit transactions' — figures differ across pages because each cites a different fiscal year; the company-overview page is stale",
+      "urls": [
+        "https://www.interac.ca/en/company/about/company-overview/",
+        "https://www.interac.ca/en/company/about/corporate-year-in-review/"
+      ]
+    },
+    {
+      "a": "Understanding Fees prose: 'Interchange for Interac Debit is currently set at zero. Beginning April 2016, a new interchange pricing structure will be introduced for Interac Flash.' (stale 2016 text)",
+      "b": "Same page tables publish current contactless and eCommerce interchange tiers ($0.020-$0.055 flat; 55-60 bps)",
+      "urls": [
+        "https://www.interac.ca/en/payments/business/understanding-fees/",
+        "https://www.interac.ca/en/payments/business/understanding-fees/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Interac Innovation Hub developer portal (request-for-access form; account immediate for verification, reviewed for payments)",
+      "url": "https://innovation.interac.ca/request-for-access-form/",
+      "named_at": "https://innovation.interac.ca/support/"
+    },
+    {
+      "name": "Innovation Hub Collaboration form",
+      "url": "https://innovation.interac.ca/collaboration-form/",
+      "named_at": "https://innovation.interac.ca/support/"
+    },
+    {
+      "name": "Innovation Hub Community",
+      "url": "https://innovation.interac.ca/community/",
+      "named_at": "https://innovation.interac.ca/"
+    },
+    {
+      "name": "Interac Brand Resource Centre (licensees, sponsors, approved vendors; apply via licensing@interac.ca)",
+      "url": "https://brandcentre.interac.ca/",
+      "named_at": "https://www.interac.ca/en/business/"
+    },
+    {
+      "name": "e-Transfer new applicant intake (newapplicants@interac.ca)",
+      "url": "",
+      "named_at": "https://www.interac.ca/en/company/about/interac-e-transfer-participation/"
+    },
+    {
+      "name": "Third-Party Code of Conduct PDF",
+      "url": "https://www.interac.ca/wp-content/uploads/2024/05/Third-Party-Code-of-Conduct.pdf",
+      "named_at": "https://www.interac.ca/en/business/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.interac.ca/en/business/network-participants/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.interac.ca/en/business/understanding-fees/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://innovation.interac.ca/",
+      "title": "Interac Innovation Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/business/find-an-acquirer/",
+      "title": "Find an Acquirer (redirect target read)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/about/",
+      "title": "About Interac (redirect to company overview)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://innovation.interac.ca/support/",
+      "title": "Support - Interac Innovation Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://innovation.interac.ca/guides/",
+      "title": "Guides - Interac Innovation Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/business/",
+      "title": "Interac for Business",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/about/network-participants/",
+      "title": "Network Participants",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+      "title": "Understanding Fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/payments/business/install-an-abm/",
+      "title": "Install an ABM",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/about/company-overview/",
+      "title": "Company Overview",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/about/interac-e-transfer-participation/",
+      "title": "Interac e-Transfer participation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/resources/business-resources/code-of-conduct/",
+      "title": "FCAC Code of Conduct - Merchant Complaints",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/about/corporate-year-in-review/",
+      "title": "Corporate Year in Review",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://innovation.interac.ca/solutions/",
+      "title": "Solutions - Innovation Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://innovation.interac.ca/solution/business-request-money/",
+      "title": "Business Request Money - Innovation Hub",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/resources/getting-help/contact-us/",
+      "title": "Contact Us",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/resources/business-resources/business-faq/",
+      "title": "Business FAQs",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/about/our-history/",
+      "title": "Our History",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://brandcentre.interac.ca/",
+      "title": "Interac Brand Resource Centre",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.payments.ca/about-us/news",
+      "title": "Payments Canada News",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/company/news/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.interac.ca/en/content-category/news/",
+      "title": "News From Interac - In The Know",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/content/news/shakepay-joins-interac-e-transfer-as-a-participant/",
+      "title": "Shakepay joins Interac e-Transfer as a Participant",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/content/news/moneris-extends-online-payment-options-by-making-it-easier-to-enable-konek-expanding-pay-by-bank-across-moneris-checkout-and-api/",
+      "title": "Moneris extends online payment options ... Konek",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.interac.ca/en/content/news/interac-launches-the-interac-verified-credential-service-to-enhance-secure-identity-verification/",
+      "title": "Interac launches the Interac Verified credential service",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

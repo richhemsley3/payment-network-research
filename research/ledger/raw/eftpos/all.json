@@ -1,0 +1,545 @@
+{
+  "network": "eftpos",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "eftpos is Australia's domestic debit card network, operated by Australian Payments Plus (AP+) since the 2021 amalgamation of eftpos, BPAY Group and NPPA (ACCC approval 9 September 2021).",
+      "quote": "The ACCC has authorised the amalgamation of BPAY Group, eftpos and NPPA to form Australian Payments Plus",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos",
+      "title": "eftpos Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "News list on the eftpos page; ACCC approval item dated 9 September 2021; proposal announced 15 December 2020; inaugural CEO Lynn Kraus appointed 22 December 2021. No ownership change since found. HQ: AP+ is Sydney-based (Gadigal land acknowledgement)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "AP+ states eftpos is available on over 70 million debit cards.",
+      "quote": "eftpos is Australia’s local debit card network, available on over 70 million debit cards and securely processing payments behind the scenes.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos",
+      "title": "eftpos Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Flag: the MCR and accepting-payments pages cite 'over 50 million contactless enabled MND cards' (source 'eftpos statistics, June 2025'); different metric (all debit vs contactless multi-network)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "AP+ cites over 50 million contactless-enabled multi-network debit cards in Australia (eftpos statistics, June 2025).",
+      "quote": "There are over 50 million³ contactless enabled MND cards in Australia, featuring both eftpos and an international card network.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-mcr",
+      "title": "Merchant Choice Routing - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Footnote 3: eftpos statistics, June 2025."
+    },
+    {
+      "dimension": "reach",
+      "claim": "AP+ claimed eftpos had around 35% share of online debit card payments as at July 2024 (AP+ CNP volume 47.9m vs RBA table).",
+      "quote": "it now has around 35% share of all debit card payments made online",
+      "url": "https://www.auspayplus.com.au/rollout-of-merchant-choice-routing-for-mobile-devices-plus-lower-eftpos-debit-charges-will-lower-the-cost-of-payments-in-australia",
+      "title": "Rollout of Merchant Choice Routing for mobile devices plus lower eftpos debit charges will lower the cost of payments in Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "2024-09-26",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Footnote 3: AP+ eftpos card not present volumes July 2024 47.9m."
+    },
+    {
+      "dimension": "reach",
+      "claim": "eftpos members include banks, fintechs and retailers; recent members announced include Worldpay from FIS (6 July 2023) and J.P. Morgan Payments (25 July 2024).",
+      "quote": "eftpos’ diverse Members include banks, FinTechs and retailers – giving eftpos the combined skills to solve local payment problems in new ways.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-members-partners",
+      "title": "Members and partners - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "No member count published on the page; the AP+ 'Scheme members' page rendered only introductory text in curl (member list likely JS-rendered)."
+    },
+    {
+      "dimension": "services",
+      "claim": "eftpos offers merchants/acquirers fraud prevention, tokenisation, EMV 3DS strong customer authentication, and stand-in processing (STIP) for issuer outages.",
+      "quote": "eftpos offers stand-in processing (STIP) capability that can authorise and process payments if the cardholder’s bank is unreachable",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos",
+      "title": "eftpos Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Same page lists Fraud prevention, Tokenisation services, PCI DSS compliance, Strong customer authentication (EMV 3DS)."
+    },
+    {
+      "dimension": "services",
+      "claim": "STIP became optional for eftpos issuers from October 2025; a Phase 2 with enhanced checks is on the July 2026 roadmap.",
+      "quote": "stand-in processing capability that operates when issuer systems are unreachable from the eftpos hub, adding resiliency to debit card transaction processing.",
+      "url": "https://www.auspayplus.com.au/2026-ap-roadmap",
+      "title": "AP+ Roadmap (31 July 2026)",
+      "publisher": "Australian Payments Plus",
+      "published": "2026-07-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page continues: 'Optional for eftpos issuers from October 2025.' Roadmap also lists eftpos Click to Pay, eftpos In-App Payments (Apple Pay pilot Sept 2025), 3DS 2.3 update, 3DES-to-AES migration by 2030."
+    },
+    {
+      "dimension": "services",
+      "claim": "For merchants the MCR page lists eftpos fraud features: EMV 3DS, real-time fraud scoring and automated disputes and chargebacks; MCR is arranged via the merchant's acquirer/PSP, not directly with AP+.",
+      "quote": "Merchants and cardholders can benefit from eftpos’ fraud protection features including EMV 3DS, real-time fraud scoring, and automated disputes and chargebacks.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-mcr",
+      "title": "Merchant Choice Routing - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Get started: 'contact your banking partner, payment service provider, or AP+ relationship manager'."
+    },
+    {
+      "dimension": "services",
+      "claim": "eftpos Click to Pay is announced as 'launching soon' for online multi-network debit with integrated MCR and tokenisation; Tap to Pay on iPhone/Android partners named (ANZ Worldline, Tyro, Westpac EFTPOS AIR, NAB Easy Tap, Square).",
+      "quote": "eftpos Click to Pay is launching soon in a world-first for online multi-network debit (MND) card payments.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-accepting-payments",
+      "title": "Accepting payments - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Dec 2025 roadmap: Click to Pay parity mandate from 2027 for institutions supporting Click to Pay with international schemes."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "AP+ operates three partner portals: a ServiceNow Member Portal (members.auspayplus.com.au/csm, login required), the eftpos brand portal, and the AP+ Developers portal.",
+      "quote": "Portals Member portal Brand portal Developer portal",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos",
+      "title": "eftpos Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Member portal fetched: 'Member Portal Login - AP+ Member Portal' – login wall. Brand portal (brandportaleftpos.auspayplus.com.au) rendered only a title in curl (JS app)."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Dec 2025 roadmap confirms consolidation of member and developer portals, with the new AP+ Member Portal starting with eftpos.",
+      "quote": "creating a single front door for members with a new AP+ Member Portal which has commenced with eftpos",
+      "url": "https://www.auspayplus.com.au/ap-roadmap",
+      "title": "2025 new AP+ Roadmap",
+      "publisher": "Australian Payments Plus",
+      "published": "2025-12-22",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "AP+ Developers replaced the separate NPP, BPAY and eftpos developer portals; existing users must reset passwords, and self-service sign-up exists.",
+      "quote": "If you were a user of the NPP, BPAY or eftpos developer portals, please reset your password using your registered email address.",
+      "url": "https://developers.auspayplus.com.au/",
+      "title": "Australian Payments Plus Developers",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Nav: Products, APIs, Documentation, FAQs, Contact Us, Log In, Sign up (/auth/login?screen_hint=signup). /apis/, /faqs/ and /docs/ rendered no content logged out; /docs/ redirected to auth.developers.auspayplus.com.au. /products/ returned 404. No SDKs, sandbox, OpenAPI, versioning or rate-limit information readable logged out."
+    },
+    {
+      "dimension": "developer",
+      "claim": "eftpos apps and API keys are issued through the AP+ developer portal, supported by apisupport@auspayplus.com.au.",
+      "quote": "eftpos apps and API keys are now available on the AP+ developer portal at developers.auspayplus.com.au.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-support",
+      "title": "eftpos Australia - Support",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Support email decoded from Cloudflare-obfuscated mailto: apisupport@auspayplus.com.au."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "AP+ publishes the eftpos interchange schedule (Current and Legacy tabs) by card type (Dual Network, Single Network, Prepaid) and category (Charity, Standard, DIFR 1-3, Strategic Rate 1, 2, 1&2); no effective date is shown on the page.",
+      "quote": "Interchange fees are payable between the retailer (known as a self-Acquirer) or the retailers’ financial institution (known as the Acquirer)",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-interchange-fees",
+      "title": "Interchange fees - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Dual Network Debit Cards, Standard column: 'In-Store Card > $10' shows $0.01 / $0.04; 'Card Not Present > $100' shows $0.10 and 0.12%; Transfers $0.045 in all non-charity categories. Note 1: 'Interchange Fees are not payable for Refunds and Declines.' Effective date absent on page."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Effective 1 December 2024 eftpos strategic interchange for eligible small business merchants fell to 2c per card-present transaction and 3c online.",
+      "quote": "Effective 1 December 2024, the interchange for all card present transactions, including mobile wallets, will reduce to 2c per transaction",
+      "url": "https://www.auspayplus.com.au/rollout-of-merchant-choice-routing-for-mobile-devices-plus-lower-eftpos-debit-charges-will-lower-the-cost-of-payments-in-australia",
+      "title": "Rollout of Merchant Choice Routing for mobile devices plus lower eftpos debit charges will lower the cost of payments in Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "2024-09-26",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Eligibility criteria (e.g. minimum volume) apply; criteria not published."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "From 1 May 2025 eftpos issuer scheme fees were cut 22% and acquirer scheme fees simplified to a single rate; fees otherwise unchanged since February 2022. Actual scheme fee amounts are not published.",
+      "quote": "Issuer scheme fees were lowered by 22%, while acquirer scheme fees were simplified to a single rate",
+      "url": "https://www.auspayplus.com.au/ap-lowers-eftpos-scheme-fees-in-ongoing-commitment-to-lowering-cost-of-payments",
+      "title": "AP+ lowers eftpos scheme fees in ongoing commitment to lowering cost of payments",
+      "publisher": "Australian Payments Plus",
+      "published": "2025-05-08",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same article: 'eftpos scheme and interchange fees have not changed since February 2022'; LCR enabled for 70% of physical-card transactions and ~30% of Apple and Google wallets."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "RBA finding cited by AP+: merchants with least-cost routing enabled pay nearly 20% less on debit transactions.",
+      "quote": "According to the Reserve Bank of Australia (RBA), businesses that enable LCR save nearly 20% on debit transactions²",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-mcr",
+      "title": "Merchant Choice Routing - eftpos",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Footnote: The Effect of Least-cost Routing on Merchant Payment Costs, RBA Bulletin April 2024 (not fetched)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The RBA Payments System Board's 31 March 2026 Conclusions Paper removes surcharging on eftpos, Mastercard and Visa and lowers domestic interchange caps from 1 October 2026, with a foreign-card interchange cap from 1 April 2027.",
+      "quote": "Most of these changes will come into effect on 1 October 2026, including the removal of surcharging and reductions in the interchange caps",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-10.html",
+      "title": "Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper | Media Releases | RBA",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Consultation Paper was July 2025. RBA to consult mid-2026 on mobile wallets, three-party networks, BNPL and e-commerce platforms."
+    },
+    {
+      "dimension": "rules",
+      "claim": "eftpos, Mastercard and Visa are implementing no-surcharge rules from 1 October 2026 via cardsurcharge.com.au, coordinated by AusPayNet.",
+      "quote": "An initiative of eftpos, Mastercard and Visa, coordinated by Australian Payments Network, the industry body and self-regulator of payments in Australia.",
+      "url": "https://www.cardsurcharge.com.au",
+      "title": "Card payment surcharging in Australia",
+      "publisher": "Australian Payments Network",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "AP+ support page: businesses that keep surcharging 'may be contacted by their bank or payment service provider' and 'may be subject to penalties'."
+    },
+    {
+      "dimension": "rules",
+      "claim": "eftpos chargeback rights cover the losses required by ASIC's ePayments Code; scheme rules themselves are not published on the public site.",
+      "quote": "Yes. For eftpos transactions, chargeback rights cover the full range of losses required by the ePayments Code .",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-support",
+      "title": "eftpos Australia - Support",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Links to ASIC ePayments Code page. No public eftpos Scheme Rules document, edition or page count found."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Roadmap mandates: Click to Pay parity mandate for eftpos from 2027; 3DES-to-AES migration for Australian card payments by 2030; 3DS 2.3 support.",
+      "quote": "a parity mandate will come into effect from 2027 for institutions that support Click to Pay with international card schemes.",
+      "url": "https://www.auspayplus.com.au/ap-roadmap",
+      "title": "2025 new AP+ Roadmap",
+      "publisher": "Australian Payments Plus",
+      "published": "2025-12-22",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "support",
+      "claim": "Partner support channels are email-based: brand@auspayplus.com.au (branding/trade marks), apisupport@auspayplus.com.au (developer portal), payment_operations@auspayplus.com.au; merchants are directed to their acquirer, PSP or AP+ relationship manager. No hours or SLAs published.",
+      "quote": "To get started with MCR or for more information, contact your banking partner, payment service provider, or AP+ relationship manager.",
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-support",
+      "title": "eftpos Australia - Support",
+      "publisher": "Australian Payments Plus",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Email addresses decoded from Cloudflare-obfuscated mailto links on the page. AP+ Help Centre also linked in footer."
+    },
+    {
+      "dimension": "news",
+      "claim": "26 September 2024: AP+ began rolling out Merchant Choice Routing for mobile-wallet transactions, progressively by handset and bank.",
+      "quote": "the rollout of Merchant Choice Routing (MCR) on transactions made via mobile wallets has now commenced",
+      "url": "https://www.auspayplus.com.au/rollout-of-merchant-choice-routing-for-mobile-devices-plus-lower-eftpos-debit-charges-will-lower-the-cost-of-payments-in-australia",
+      "title": "Rollout of Merchant Choice Routing for mobile devices plus lower eftpos debit charges will lower the cost of payments in Australia",
+      "publisher": "Australian Payments Plus",
+      "published": "2024-09-26",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Other dated items on the eftpos news list: 18 Dec 2024 and 30 Dec 2024 mobile-wallet technical update; 6 Mar 2025 Google Wallet LCR; 8 May 2025 scheme fee cut; 25 Aug 2025 scams; 22 Dec 2025 roadmap; 31 Jul 2026 roadmap; 11 Aug 2026 Western Union case study."
+    },
+    {
+      "dimension": "news",
+      "claim": "AP+ names Adrian Lovney as Chief Payments & Schemes Officer (May 2025), previously titled Chief Payments Officer (Sept 2024).",
+      "quote": "said Adrian Lovney, Chief Payments & Schemes Officer at AP+.",
+      "url": "https://www.auspayplus.com.au/ap-lowers-eftpos-scheme-fees-in-ongoing-commitment-to-lowering-cost-of-payments",
+      "title": "AP+ lowers eftpos scheme fees in ongoing commitment to lowering cost of payments",
+      "publisher": "Australian Payments Plus",
+      "published": "2025-05-08",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "July 2026 roadmap: eftpos STIP Phase 2 added; NPP cloud migration date removed; Confirmation of Payee completed with over 100 institutions.",
+      "quote": "STIP Phase 2 introduces enhanced checks and verification capabilities that provide issuers with richer Stand-In Processing (STIP) functionality",
+      "url": "https://www.auspayplus.com.au/2026-ap-roadmap",
+      "title": "AP+ Roadmap (31 July 2026)",
+      "publisher": "Australian Payments Plus",
+      "published": "2026-07-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    }
+  ],
+  "not_found": [
+    {
+      "query": "eftpos scheme rules / rulebook public edition and page count",
+      "where": "auspayplus.com.au eftpos pages, support page, members portal (login)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "eftpos scheme fee amounts (issuer/acquirer per-transaction) and membership or licence fees",
+      "where": "AP+ scheme fee article (percent changes only), interchange page",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "eftpos membership types, application steps, sponsor model, certification stages, timelines",
+      "where": "scheme-members page (list not rendered), members-partners page, member portal login wall",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "eftpos member count, transaction volume, terminal/ATM counts with dates",
+      "where": "eftpos solutions page, MCR page, roadmap",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AP+ Developers: API list, product count, sandbox, test cards, SDKs, OpenAPI, webhooks, versioning, rate limits, API pricing",
+      "where": "developers.auspayplus.com.au (/apis/, /faqs/, /docs/ redirect to auth; /products/ 404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "AP+ status page, incident communication, support hours, SLAs, training academy, events",
+      "where": "eftpos support page, AP+ site footer",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Interchange schedule effective date",
+      "where": "eftpos interchange fees page (Current/Legacy tabs, no date)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press coverage Sept 2024 - Sept 2026 (Payments Dive, Finextra, etc.)",
+      "where": "WebSearch budget exhausted for this session; not searched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "https://www.auspayplus.com.au/about-us/our-members",
+      "where": "HTTP 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "RBA review landing pages",
+      "where": "review-of-retail-payments-regulation/ redirected; review-of-merchant-card-payment-costs-and-surcharging/ 404; used media release mr-26-10 instead",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Sept 2024 article: acquirer scheme fees to be reduced 'by 5%, commencing from 1 May 2025'",
+      "b": "May 2025 article: 'acquirer scheme fees were simplified to a single rate' (no percentage given)",
+      "urls": [
+        "https://www.auspayplus.com.au/rollout-of-merchant-choice-routing-for-mobile-devices-plus-lower-eftpos-debit-charges-will-lower-the-cost-of-payments-in-australia",
+        "https://www.auspayplus.com.au/ap-lowers-eftpos-scheme-fees-in-ongoing-commitment-to-lowering-cost-of-payments"
+      ]
+    },
+    {
+      "a": "eftpos page: 'available on over 70 million debit cards'",
+      "b": "MCR / accepting-payments pages: 'over 50 million contactless enabled MND cards' (eftpos statistics, June 2025) – different metric, flag when comparing",
+      "urls": [
+        "https://www.auspayplus.com.au/solutions/eftpos",
+        "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-mcr"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "AP+ Member Portal (ServiceNow)",
+      "url": "https://members.auspayplus.com.au/csm",
+      "named_at": "https://www.auspayplus.com.au/solutions/eftpos"
+    },
+    {
+      "name": "eftpos brand portal",
+      "url": "https://brandportaleftpos.auspayplus.com.au/",
+      "named_at": "https://www.auspayplus.com.au/solutions/eftpos"
+    },
+    {
+      "name": "AP+ Developers portal (login/sign-up; docs redirect to auth.developers.auspayplus.com.au)",
+      "url": "https://developers.auspayplus.com.au/",
+      "named_at": "https://www.auspayplus.com.au/solutions/eftpos-support"
+    },
+    {
+      "name": "AP+ Help Centre",
+      "url": "https://www.auspayplus.com.au/help-centre",
+      "named_at": "https://www.auspayplus.com.au/solutions/eftpos"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos",
+      "title": "eftpos Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/",
+      "title": "Australian Payments Plus Developers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/apis/",
+      "title": "AP+ Developers – APIs (no content logged out)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/faqs/",
+      "title": "AP+ Developers – FAQs (no content logged out)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/about-us/our-members",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://members.auspayplus.com.au/csm",
+      "title": "Member Portal Login - AP+ Member Portal",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/scheme-members",
+      "title": "Australian Payments Plus - Scheme members (member list not rendered)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/ap-roadmap",
+      "title": "2025 new AP+ Roadmap",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-interchange-fees",
+      "title": "Interchange fees - eftpos",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-members-partners",
+      "title": "Members and partners - eftpos",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-mcr",
+      "title": "Merchant Choice Routing - eftpos",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-support",
+      "title": "eftpos Australia - Support",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/ap-lowers-eftpos-scheme-fees-in-ongoing-commitment-to-lowering-cost-of-payments",
+      "title": "AP+ lowers eftpos scheme fees in ongoing commitment to lowering cost of payments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/rollout-of-merchant-choice-routing-for-mobile-devices-plus-lower-eftpos-debit-charges-will-lower-the-cost-of-payments-in-australia",
+      "title": "Rollout of Merchant Choice Routing for mobile devices plus lower eftpos debit charges will lower the cost of payments in Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/2026-ap-roadmap",
+      "title": "AP+ Roadmap (31 July 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.cardsurcharge.com.au",
+      "title": "Card payment surcharging in Australia",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/",
+      "title": "Page has moved (redirect stub)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.auspayplus.com.au/solutions/eftpos-for-businesses-accepting-payments",
+      "title": "Accepting payments - eftpos",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/products/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://brandportaleftpos.auspayplus.com.au/",
+      "title": "eftpos (JS app, no content rendered)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-merchant-card-payment-costs-and-surcharging/",
+      "title": "404 – Page Not Found | RBA",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-10.html",
+      "title": "Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper | RBA",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/docs/",
+      "title": "AP+ Developers – Home (redirected to auth)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://developers.auspayplus.com.au/terms-of-use-and-licence-agreement/",
+      "title": "Terms of Use and Licence Agreement (no content logged out)",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

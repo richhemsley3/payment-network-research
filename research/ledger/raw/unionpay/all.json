@@ -1,0 +1,785 @@
+{
+  "network": "unionpay",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "UnionPay International is a subsidiary of China UnionPay (Shanghai-headquartered card scheme) responsible for UnionPay's business outside the Chinese mainland; no ownership change is disclosed on the site.",
+      "quote": "UnionPay International (UPI) is a subsidiary of China UnionPay focused on the growth and support of UnionPay's global business.",
+      "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/",
+      "title": "Introduction - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page carries no date. HQ city not stated on the page; the published hotline numbers are Shanghai (+86-21) numbers."
+    },
+    {
+      "dimension": "reach",
+      "claim": "UPI claims acceptance in 183 countries and regions and issuance in 84, with more than 2,600 partner institutions.",
+      "quote": "has enabled card acceptance in 183 countries and regions with issuance in 84 countries and regions.",
+      "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/",
+      "title": "Introduction - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Same page: 'In partnership with more than 2600 institutions worldwide'. Undated figures."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Discover Global Network, UPI's alliance partner, publishes lower reach figures for UnionPay: 180 countries and regions, 55 million merchants, 2.9 million ATMs.",
+      "quote": "UnionPay global acceptance network has expanded to 180 countries and regions, covering over 55 million merchants and about 2.9 million ATMs.",
+      "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+      "title": "Reach and Acceptance | Discover Network",
+      "publisher": "Discover Global Network",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Figure attributed to network participants on Discover's page; Discover has been Capital One-owned since 2025-05-18. Contradicts UPI's 183."
+    },
+    {
+      "dimension": "reach",
+      "claim": "UPI's own About Us page also uses a different count, 179 countries and regions outside the Chinese mainland, alongside the 183 headline.",
+      "quote": "an indispensable companion for your travel in 179 countries and regions outside the Chinese mainland.",
+      "url": "https://www.unionpayintl.com/en/aboutUs/",
+      "title": "About Us_Unionpay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Homepage banner on the same site says 183 countries and regions worldwide."
+    },
+    {
+      "dimension": "reach",
+      "claim": "UPI runs a membership scheme; 67 institutions joined as founding members and members sit on a Member Council that shapes rules and incentive schemes.",
+      "quote": "Upon the establishment of UnionPay International, 67 major international financial institutions joined as founding members",
+      "url": "https://www.unionpayintl.com/en/aboutUs/partners",
+      "title": "Partner Institutions - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page lists founding members by region (Europe, Africa, Southeast Asia and South Pacific, North America, MENA, CEE and Central Asia, Central and South America). No current member count given."
+    },
+    {
+      "dimension": "reach",
+      "claim": "UPI's messaging supports dual-message style flows for acquirers (authorization plus separate settlement/collection documents), per the acquirer product form fields.",
+      "quote": "Collection and Revocation, Collection Authorization and Revocation, Settlement of Collection Documents",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "String from the Open Platform front-end bundle; the acquirer application form also offers 'Transaction Audit Trailer File Version' and 'Message Format Version' selections. Single vs dual message is not stated explicitly anywhere read."
+    },
+    {
+      "dimension": "services",
+      "claim": "UPI's public partner catalogue is grouped into Mobile Payment, Online Payment, Multi-Scenario Solutions, Value-added services, Technology Products and B2B; technology products are Token Program, SaaS Card Issuing Service and Cross-Border B2B Payment & Service.",
+      "quote": "Technology Products Token Program SaaS Card Issuing Service B2B Cross-Border B2B Payment & Service",
+      "url": "https://www.unionpayintl.com/en/PartnerSolutions/",
+      "title": "Industry Solutions - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Each product links to an introduction page on open.unionpayintl.com (e.g. /#/home/introduction/TokenProgram/onLine) which requires JavaScript."
+    },
+    {
+      "dimension": "services",
+      "claim": "Online payment products for acquirers, gateways and merchants are 3DS, ExpressPay, In-app, Click to Pay, Paybylink and Online QR code; mobile products include Wallet Solutions, Mobile QuickPass, In-store QR Code Payment and QRC Cash Withdrawal.",
+      "quote": "Mobile Payment UnionPay Wallet Solutions Mobile QuickPass In-store QR Code Payment QRC Cash Withdrawal Online QR code Online Payment 3DS ExpressPay In-app Click to Pay Paybylink",
+      "url": "https://www.unionpayintl.com/en/PartnerSolutions/",
+      "title": "Industry Solutions - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Sitemap additionally lists 'SecurePay' and 'Merchant-Hosted' under Online Payment."
+    },
+    {
+      "dimension": "services",
+      "claim": "Value-added services offered to issuers and partners are the UnionPay Content Service Platform (UCSP), UPI Benefit Rewards Platform, UPI Point Redemption Platform, tax refund solutions, MoneyExpress remittance, Installment Payment Service and Frictionless Payment.",
+      "quote": "UnionPay Content Service Platform UPI Benefit Rewards Platform UPI Point Redemption Platform Global Tax Refund Solutions Commercial Tax Refund Solutions MoneyExpress Installment Payment Service Frictionless Payment",
+      "url": "https://www.unionpayintl.com/en/PartnerSolutions/",
+      "title": "Industry Solutions - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "services",
+      "claim": "ATM acquirers onboard card-based and QR-code-based ATM cash withdrawal and balance inquiry (including QuickPass contactless ATM) through the Open Platform acquirer product form, and can elect to charge an ATM access fee.",
+      "quote": "Already Support Card-based ATM Cash Withdrawal",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Bundle labels: TRADITIONAL_ACQUIRER_ATM_CASH_WITHDRAWAL, TRADITIONAL_ACQUIRER_QUICKPASS_ATM_BALANCE_INQUIRY, TRADITIONAL_ACQUIRER_QR_ATM_CASH_WITHDRAWAL, 'QRC-based ATM', 'Charge ATM Access Fee'."
+    },
+    {
+      "dimension": "services",
+      "claim": "UPI's dispute service is the Cross Border Dispute Resolution System (CDRS), used alongside a Risk Management System (RMS), Stand-in Authorization service and Acquirer Service, all needing a certificate CryptoKit install.",
+      "quote": "Installation Guide for users of The Cross Border Dispute Resolution system(CDRS), Risk management system(RMS), Stand-in Authorization service, Acquirer Service",
+      "url": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb",
+      "title": "Open Platform document list (queryMainWeb JSON)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Public JSON endpoint on open.unionpayintl.com; document bodies themselves return Fail without a session."
+    },
+    {
+      "dimension": "services",
+      "claim": "UPI has launched an agentic-payment product line on the Open Platform: the Agentic Payment Open Protocol Framework (APOP) plus Agent Pay for Card and Agent Pay for Wallet, with Agent Identity Management.",
+      "quote": "APOP (Agentic Payment Open Protocol) is an open framework purpose-built for the Agentic Payment Ecosystem",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Routes /home/introduction/agentPay1, agentPay2, partnerShowcase exist. 'MCP' does not appear anywhere in the bundle."
+    },
+    {
+      "dimension": "services",
+      "claim": "Agent Pay for Card supports 3DS and Passkey and targets zero/low-code agent-first integration; Agent Pay for Wallet lets registered agents invoke a wallet app via SDK.",
+      "quote": "A comprehensive payment solution for decoupled agent-merchant scenarios. Support global security standards including 3DS and Passkey.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Wallet flow described as 'Agent Registration → Wallet Activation → Authorization & Authentication'."
+    },
+    {
+      "dimension": "services",
+      "claim": "Evonet's Agenzo is named as a partner co-building agentic payment with UnionPay, and Wonder (Hong Kong acquirer) appears in the Agentic Payment Partner Showcase.",
+      "quote": "Agenzo, powered by Evonet's deep payment expertise, is co-building this future with UnionPay",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "The Open Platform (open.unionpayintl.com) is a JavaScript single-page app; nothing beyond the title renders without JS, so reference material is not readable by plain fetch.",
+      "quote": "We're sorry but UnionPay International Open Platform doesn't work properly without JavaScript enabled.",
+      "url": "https://open.unionpayintl.com/",
+      "title": "UnionPay International Open Platform",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Routes in the bundle: /home/product, /home/partner/apiMarket, /home/document, /home/faq, /home/guide, /home/sdk, /home/serviceCenter, /home/tool, /login, /instLogin, /certification*."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Open Platform member login is federated to the UPI Institution Services Portal; members and TPSPs use their portal account, and non-members register on the portal.",
+      "quote": "Member institutions or TPSPs of UnionPay International can log in with their UPI Institution Services Portal account.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Institution portal at https://inst.unionpayintl.com/portal/ (also a JS app). A separate self-registration exists for other users: cardRegister and mercRegister endpoints."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Logged-out visitors can see only six document titles on the Open Platform, including an account guide and an onboarding guide via 'UOP'; the bodies are gated.",
+      "quote": "This guide provides a comprehensive walkthrough of the product onboarding journey on the UnionPay International Open Platform.",
+      "url": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb",
+      "title": "Open Platform document list (queryMainWeb JSON)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Titles: UPI Server-based API General Requirements; Merchant Presented QR Code Encoding Specification; Certificate CryptoKit and Extension Installation Guide; CDRS; Open Platform User Account Guide; Getting Started with Product Onboarding via UOP."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "A UPI Certification Service Platform lists eligible laboratories, test-tool providers and audit providers and publishes certified enterprises and products.",
+      "quote": "Display of information on laboratories, test tool providers, and audit service providers eligible for certification services",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sections: Certification Services, Certification Items, Certification Result, Innovative Product, Help/FAQ."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "UPI's 'Data Security Compliance' help-centre link resolves to the Open Platform guide page rather than a standalone document.",
+      "quote": "Data Security Compliance",
+      "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/",
+      "title": "Introduction - UnionPay International (nav)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "href=https://open.unionpayintl.com/#/home/guide; page requires JavaScript, content not read."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "UPI's corporate site is published in 19 language/market editions, and the English news centre exposes Company News, Market News, Media Reports and Statements sections.",
+      "quote": "Global Site/简体中文 Global Site/English Africa/Français Cambodia/ភាសាខ្មែរ Hong Kong SAR/繁體中文 Japan/日本語",
+      "url": "https://www.unionpayintl.com/en/sitemap",
+      "title": "Sitemap - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Market News and Statements pages were empty when fetched; the /newsCenter/ index returned 403."
+    },
+    {
+      "dimension": "join",
+      "claim": "New or existing members apply for product types or business-area extensions via the Institution Service Portal and receive a 'Letter of Approval' before launching.",
+      "quote": "this stage will be accessing your qualifications before UPI grant the \"Letter of Approval\" to your institution.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Onboarding flow also includes CFCA certificate application (signed form upload), APP ID/test APP ID, IIN and forwarding-IIN configuration, SFTP account."
+    },
+    {
+      "dimension": "join",
+      "claim": "Issuers must have sample cards produced by a UnionPay-certified personalisation manufacturer and tested by a certified laboratory before issuing.",
+      "quote": "Before officially issuing UnionPay cards, an Issuer shall entrust a UnionPay_certified personalization manufacturer to produce UnionPay sample cards",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Stages: Issuer applies on UPI Certification Service Platform; Issuer Manufactures Sample Cards; Issuer use test tools for debugging (Optional); UPI issues certificate."
+    },
+    {
+      "dimension": "join",
+      "claim": "Certification items include UnionPay Card Product, Card Chip Security, QuickPass Terminal Product (Level 2), Mobile Payment Product, mPOS, Soft POS and Direct-Connected POS vendor certification.",
+      "quote": "Vendors that connect to the UnionPay network are required to send their Direct_Connected POS terminals to UnionPay certified laboratories for testing",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Issuer apps (QR, HCE) need 'Application Security Certification or PCI DSS / PCI PA DSS / PCI SSF'; Soft POS asks for PCI SPOC/CPOC."
+    },
+    {
+      "dimension": "join",
+      "claim": "Third-party service providers must register on the UPI institution service platform before a member can designate them.",
+      "quote": "Your third party service provider has not registered on UPI Institutution service platform.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "No membership fees, timelines or fast-track/fintech programme found on any public page."
+    },
+    {
+      "dimension": "developer",
+      "claim": "API authentication uses the member's IIN as APP ID with a Key ID and signature private key, plus UPI/APP signature and encryption certificates (CFCA-issued).",
+      "quote": "Please use your IIN as the APP ID and fill in the Key ID and your signature private key in the application.properties configuration file.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Certificate fields: UPI Signature/Encryption Public Key Certificate, APP Signature/Encryption Public Key Certificate. Keys are issued to onboarded members, not self-service."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A sandbox and test APP IDs exist but are requested through a gated project flow, not self-service.",
+      "quote": "/open/task/projectAppId/applyTestAppId",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Strings 'Sandbox' and 'getSandboxAccess' present; no public test cards, base URLs, webhooks, rate limits or changelog found."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Message specifications are versioned (V2.1.0, V2.2.0) and a version change requires regression testing of existing business.",
+      "quote": "If V2.2.0 is chosen, please make sure V2.1.0 is also chosen or you have already supported V2.1.0",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Message version has been changed, an regression test of existing businesses is required.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "Partners listing products on the API Market can attach an OpenAPI reference file; the platform has an 'SDK & Tool' section but no language-specific SDK repos are public.",
+      "quote": "OpenAPI Reference File",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Routes /home/sdk, /home/tool, /home/partner/apiMarket. SDK entries carry 'SDK Reference No' and 'SDK Certification validity period', i.e. SDKs are certified artefacts."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Dispute resolution is priced via an Annual Dispute Service Fee set in operating bulletin OB08-2021.",
+      "quote": "For Annual Dispute Service Fee, please refer to OB08-2021 UPI Adjusts Pricing for Dispute Resolution Fees.",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fee amount not public. Contact cdrs@unionpayintl.com."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Cross-border acquirers configure a Currency Conversion Fee (ACCR) and markup rates between HKD, MOP and CNY on the acquirer form; interchange schedules are not published.",
+      "quote": "Currency Conversion Fee (ACCR)",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Fields 'Markup Rate-HKD to CNY', 'Markup Rate-MOP to HKD'. No interchange, assessment or API pricing found publicly."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Membership is governed by the UnionPay International Bylaws of Membership, which is named but not published on the site.",
+      "quote": "In accordance with the UnionPay International Bylaws of Membership, members may participate in the establishment or amendment of membership rules and operating regulations",
+      "url": "https://www.unionpayintl.com/en/aboutUs/partners",
+      "title": "Partner Institutions - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "No public rulebook, edition or page count found."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Operating rules are communicated through numbered operating bulletins (OB series), and the Open Platform Service Center notices are gated.",
+      "quote": "OB08-2021 UPI Adjusts Pricing for Dispute Resolution Fees",
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "UnionPay International Open Platform (app.js bundle)",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "notice/queryPage endpoint returns Fail without a session."
+    },
+    {
+      "dimension": "support",
+      "claim": "UPI's published support channels are the 95516 hotline (Shanghai numbers) with toll-free numbers per country, a CDRS mailbox, and a 'Production Transaction Troubleshooting' tool on the Open Platform; no SLAs are published.",
+      "quote": "please call at: +86-21-95516; + 86-21-20556900; + 86-21-52295600 (callers dialing these numbers might be charged fees.)",
+      "url": "https://www.unionpayintl.com/en/serviceCenter/hotline",
+      "title": "Overseas Service Hotline - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Hotline page is cardholder-facing; partner hours/SLAs absent. Open Platform asks institutions to register four contact types."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-09-08: UPI, Bank of Ceylon and SriLankan Airlines enabled UnionPay online acceptance on srilankan.com.",
+      "quote": "UnionPay International (UPI), in collaboration with Bank of Ceylon (BOC) and SriLankan Airlines, is pleased to announce the enablement of UnionPay online payment acceptance",
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews/3016177.shtml",
+      "title": "Fast, Easy & Seamless Contactless Payment Experience for Unionpay Cardholders on Online Booking Made with Srilankan airlines",
+      "publisher": "UnionPay International",
+      "published": "2025-09-08",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-03-10: UPI signed with Thailand's National ITMX to interlink UnionPay QR/UnionPay App with PromptPay; Larry Wang is named CEO of UPI.",
+      "quote": "UnionPay International (UPI) has partnered with National ITMX Co., Ltd (NITMX) to jointly promote the integration of UnionPay payment information with Thailand's PromptPay.",
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews/3016033.shtml",
+      "title": "UnionPay and NITMX to link up China's UnionPay with Thailand's PromptPay",
+      "publisher": "UnionPay International",
+      "published": "2025-03-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "'Mr. Larry Wang, CEO of UnionPay International'."
+    },
+    {
+      "dimension": "news",
+      "claim": "UPI's English Company News page shows only nine items and the 2025 items are Asia acceptance and QR interlink deals; no Capital One/Discover, pricing, outage or litigation statements were published there.",
+      "quote": "UnionPay and NITMX to link up China's UnionPay with Thailand's PromptPay More Users of International UnionPay-Powered E-Wallets Can Now Make Weixin QR Payments",
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews",
+      "title": "Company News - UnionPay International",
+      "publisher": "UnionPay International",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Statements page empty at fetch time."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "UPI headquarters address stated on site",
+      "where": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/ and /en/aboutUs/",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Cards issued, transaction volume, transaction count with dates (UPI or China UnionPay)",
+      "where": "unionpayintl.com/en pages read; www.unionpay.com/en returned 404; no web search available",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Current member/participant count (only '67 founding members' and 'more than 2600 institutions')",
+      "where": "https://www.unionpayintl.com/en/aboutUs/partners",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Explicit single- vs dual-message statement",
+      "where": "Open Platform bundle and site",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "'MCP services' or 'MCP' on Open Platform",
+      "where": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Open Platform '180 countries' claim",
+      "where": "https://open.unionpayintl.com/ (JS-only, not rendered)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Product count visible logged out on API Market",
+      "where": "https://open.unionpayintl.com/#/home/partner/apiMarket (JS-only); clientproduct/list returns empty data",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "SDKs by language, repo names, releases; CLI; Postman collection; webhooks; environment base URLs; rate limits; changelog cadence; public test cards",
+      "where": "https://open.unionpayintl.com/js/app.1788769372642.js and https://open.unionpayintl.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Membership or licence fees, application timelines, fast-track or fintech programme",
+      "where": "https://www.unionpayintl.com/en/aboutUs/partners, https://open.unionpayintl.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Published interchange schedule, network/assessment/cross-border fee schedule, API pricing, incentives",
+      "where": "unionpayintl.com/en, open.unionpayintl.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Regulator fee findings naming UnionPay (Fed Reg II, UK PSR, RBA, EC, DOJ v. Visa)",
+      "where": "not searched: web search budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public rulebook (operating regulations) URL, edition, page count",
+      "where": "https://www.unionpayintl.com/en/aboutUs/partners, https://open.unionpayintl.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mandates with dates in last 24 months; bulletin cadence",
+      "where": "https://open.unionpayintl.com/open/client/show/notice/queryPage returns Fail",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Support hours, languages, SLAs, account-management model, training academy, events, incident communication for partners",
+      "where": "https://www.unionpayintl.com/en/serviceCenter/hotline and Open Platform",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "UPI statement on Capital One acquisition of Discover (2025-05-18) or the Discover alliance status",
+      "where": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/Statements (empty); discoverglobalnetwork.com/solutions/network-alliances/unionpay/ (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Data Security Compliance guide content",
+      "where": "https://open.unionpayintl.com/#/home/guide (JS-only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "UPI news centre index and Partner Institutions page at given URLs",
+      "where": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/ (403), /en/partnerInstitutions/ (404)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press coverage Sept 2024-Sept 2026 (Payments Dive, Finextra, Digital Transactions)",
+      "where": "web search budget exhausted (200/200) before this task",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "UPI: card acceptance in 183 countries and regions (introduction page and homepage banner)",
+      "b": "Discover Global Network: UnionPay acceptance network 180 countries and regions, 55 million merchants, 2.9 million ATMs",
+      "urls": [
+        "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/",
+        "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/"
+      ]
+    },
+    {
+      "a": "UPI homepage banner: 183 countries and regions worldwide",
+      "b": "UPI About Us: 179 countries and regions outside the Chinese mainland",
+      "urls": [
+        "https://www.unionpayintl.com/en/",
+        "https://www.unionpayintl.com/en/aboutUs/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "UPI Institution Services Portal",
+      "url": "https://inst.unionpayintl.com/portal/",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "Open Platform member login / My Account, My Products, Task centre",
+      "url": "https://open.unionpayintl.com/#/login",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "UPI Certification Service Platform",
+      "url": "https://open.unionpayintl.com/#/certificationCertProject",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "Cross Border Dispute Resolution System (CDRS)",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb"
+    },
+    {
+      "name": "Risk Management System (RMS)",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb"
+    },
+    {
+      "name": "Stand-in Authorization service",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb"
+    },
+    {
+      "name": "Acquirer Service",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb"
+    },
+    {
+      "name": "UAGS (member API gateway access, IIN-keyed)",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "Production SFTP Account",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "Open Platform Service Center notices",
+      "url": "https://open.unionpayintl.com/#/home/serviceCenter",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "Open Platform documents (bodies)",
+      "url": "https://open.unionpayintl.com/#/home/document",
+      "named_at": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb"
+    },
+    {
+      "name": "Developer portal (cjweb)",
+      "url": "https://developer.unionpayintl.com/cjweb/index",
+      "named_at": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/"
+    },
+    {
+      "name": "Sandbox / test APP ID application",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    },
+    {
+      "name": "WeChat Dispute Resolution System and UPOP Acquirer Service (bundle labels)",
+      "url": "",
+      "named_at": "https://open.unionpayintl.com/js/app.1788769372642.js"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.unionpayintl.com/en/aboutUs/",
+      "title": "About Us_Unionpay International",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://open.unionpayintl.com/",
+      "title": "UnionPay International Open Platform",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/partnerInstitutions/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/",
+      "title": "403 Forbidden",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://open.unionpayintl.com/js/app.1788769372642.js",
+      "title": "Open Platform app.js bundle",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://open.unionpayintl.com/open/client/clientproduct/list",
+      "title": "clientproduct list JSON (empty)",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://open.unionpayintl.com/open/client/show/document/queryMainWeb",
+      "title": "document queryMainWeb JSON",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://open.unionpayintl.com/open/client/show/faq/getMainFaqList",
+      "title": "FAQ main list JSON",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://open.unionpayintl.com/open/client/show/notice/queryPage",
+      "title": "notice queryPage JSON",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://open.unionpayintl.com/open/client/show/docDetail/getDocDetailById",
+      "title": "doc detail JSON",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/",
+      "title": "UnionPay International home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://inst.unionpayintl.com/portal/",
+      "title": "UnionPay Institution Portal (JS only)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://developer.unionpayintl.com/",
+      "title": "UnionPay developer (JS only)",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/servicesProducts/",
+      "title": "Products & Services",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/aboutUs/companyProfile/introductiontoUPI/",
+      "title": "Introduction - UnionPay International",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/aboutUs/partners",
+      "title": "Partner Institutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/PartnerSolutions/",
+      "title": "Industry Solutions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews",
+      "title": "Company News",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/serviceCenter/hotline",
+      "title": "Overseas Service Hotline",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/sitemap",
+      "title": "Sitemap",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews/3016177.shtml",
+      "title": "SriLankan Airlines release 2025-09-08",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/companyNews/3016033.shtml",
+      "title": "NITMX PromptPay release 2025-03-10",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/solutions/network-alliances/unionpay/",
+      "title": "404 Page Not Found | Discover Network",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/marketUpdate",
+      "title": "Market News (empty)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpayintl.com/en/mediaCenter/newsCenter/Statements",
+      "title": "Statements (empty)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.unionpay.com/en/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/our-network/reach-and-acceptance/",
+      "title": "Reach and Acceptance | Discover Network",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}
