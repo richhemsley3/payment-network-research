@@ -1,0 +1,496 @@
+{
+  "network": "dgn",
+  "dimension": "pricing",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "pricing",
+      "claim": "The U.S. acquirer interchange and cash reimbursement schedule is not public: it sits behind an acquirer-issued verification code on the DGN service center.",
+      "quote": "Please enter the verification code provided by your acquirer. If you do not know your verification code, please contact your acquirer.",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/en-us/verification",
+      "title": "U.S. Acquirer Interchange Pricing | Discover Network",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Reached via discoverglobalnetwork.com/interchange/ redirect; form was not filled."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover treats its U.S. acquirer fee chart as confidential and forbids disclosure to other acquirers, issuers, merchants or processors.",
+      "quote": "The fee information and terms listed in the following chart are confidential information",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/en-us/verification",
+      "title": "U.S. Acquirer Interchange Pricing | Discover Network",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Canada standard acquirer schedule (international card sales occurring in Canada) is public, effective April 17, 2026, with International at 1.20% and International Base at 1.72%, both with $0.00 transaction fee.",
+      "quote": "International 1.20% $0.00 International Base 1.72% $0.00",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf",
+      "title": "Standard Acquirer Rates and Fees for Card Transactions - Canada (Effective April 17, 2026)",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "PDF read with pypdf; one page, marked proprietary and confidential but served without a gate."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada acquirer-level network fees are published: an Acquirer Assessment of 0.063% and an International Processing Fee of 0.40% of gross card sales and cash advances.",
+      "quote": "Acquirer Assessment – Canada 0.063% of the gross amount of Card Sale International Processing Fee – Canada 0.40% of the gross amount of Card Sales and Cash Advances",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf",
+      "title": "Standard Acquirer Rates and Fees for Card Transactions - Canada (Effective April 17, 2026)",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Canada cash reimbursement (international cash advances) is 0.16% plus a $3.00 transaction fee.",
+      "quote": "Cash Reimbursement 0.16% $3.00",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf",
+      "title": "Standard Acquirer Rates and Fees for Card Transactions - Canada (Effective April 17, 2026)",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The published Canada schedule states amounts Discover charges acquirers, not merchant pricing, and is subordinate to the gated Acquirer Operating Regulations and Acquirer Fee Manual - Canada.",
+      "quote": "This document sets forth amounts Discover charges acquirers, not amounts that acquirers or other parties charge merchants.",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf",
+      "title": "Standard Acquirer Rates and Fees for Card Transactions - Canada (Effective April 17, 2026)",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "2026-04-17",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover earns network assessment, discount and interchange fees from its network-to-network alliance partners, in addition to Diners Club licensee royalties.",
+      "quote": "royalty and licensee revenue from our Diners Club licensees and network assessment, discount and interchange fees from our network-to-network partners",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Pre-dates Capital One acquisition (May 18, 2025)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "PULSE switch fees are contractually defined per-transaction amounts under network participation agreements, and Discover enters fixed-term pricing or incentive arrangements with certain participants.",
+      "quote": "the Company does enter into fixed-term pricing or incentive arrangements with certain network participants.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Pre-dates Capital One acquisition; the 10-K also cites participation and membership fees without amounts."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover states it competes for network partners on pricing strategies that include incentives and rebates, plus issuer fees and switch fees; no amounts are disclosed.",
+      "quote": "We generally compete on the basis of customization of services and various pricing strategies, including incentives and rebates.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Text spans a page break (-9-) in the filing."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "For Network Partners transactions, Discover's economics are merchant discount and acquirer assessments net of issuer fees paid, plus other fees.",
+      "quote": "We may earn merchant discount and acquirer assessments net of issuer fees paid, in addition to other fees, for processing transactions for Network Partners.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover flagged the Illinois Interchange Fee Prohibition Act, which bars interchange on taxes and gratuities from July 2025, with a preliminary injunction covering national banks but not Discover Bank.",
+      "quote": "Illinois passed the Interchange Fee Prohibition Act, which will prevent credit card issuers from collecting interchange fees on taxes and gratuities beginning in July 2025.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover believes Visa's arrangements with merchants and acquirers discourage routing debit to PULSE, a pricing and routing pressure it reports as a risk.",
+      "quote": "We believe Visa has entered into arrangements with some merchants and acquirers that have, and are expected to continue to have, the effect of discouraging",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Sentence continues: those merchants and acquirers from routing debit transactions to PULSE."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Discover's counterparty restitution liability for the card product misclassification (merchants and acquirers overcharged interchange) stood at $1.2 billion at December 31, 2024.",
+      "quote": "the balance of the Company’s counterparty restitution liability was $ 1.2 billion",
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "publisher": "Discover Financial Services via SEC EDGAR",
+      "published": "2025-02-20",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Filing shows the figure with a space after the dollar sign."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Fed Regulation II 2024 data: PULSE averaged $0.27 interchange per transaction (0.63% of value) across all transactions; $0.24 (0.51%) on covered and $0.29 (0.75%) on exempt transactions.",
+      "quote": "PULSE 55.8% 50.6% $39.11 $0.29 0.75% 44.2% 49.4% $48.31 $0.24 0.51% $43.17 $0.27 0.63%",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-12-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table row for calendar 2024; page last updated December 19, 2025."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Fed Regulation II 2024 data: Discover debit is 100% exempt transactions with an average interchange of $0.83 per transaction, 1.22% of a $68.57 average ticket.",
+      "quote": "Discover 100.0% 100.0% $68.57 $0.83 1.22% 0.0% 0.0% $32.56 $0.23 0.72% $68.57 $0.83 1.22%",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-12-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Regulation II cap for covered issuers is $0.21 plus 0.05% of transaction value plus an optional $0.01 fraud-prevention adjustment.",
+      "quote": "$0.21 plus 0.05 percent multiplied by the value of the transaction, plus a $0.01 fraud-prevention adjustment, if eligible.",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-12-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Capital One's FY2025 10-K says the Fed's 2023 proposal to lower the debit interchange cap and recalculate it biennially remains unfinalized and is under court challenge.",
+      "quote": "In 2023, the Federal Reserve proposed, but has not yet finalized, amendments to Regulation II that would lower the cap on debit interchange fees",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Post-acquisition filing."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Capital One identifies as a risk that debit transactions on three-party networks (i.e. the Discover Network) could become subject to Regulation II fee limits.",
+      "quote": "debit card transactions on three-party networks could become subject to the Federal Reserve’s Regulation II (Debit Card Interchange Fees and Routing) requirements",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Fed's merger order confirms Regulation II does not apply to three-party systems where the processor is also the issuer, the basis for commenters' concern about Capital One debit fees.",
+      "quote": "However, Regulation II does not apply to “three-party systems” in which the entity that processes transactions is also the issuer.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/orders20250418a2.pdf",
+      "title": "FRB Order No. 2025-10, Order Approving the Acquisition of a Bank Holding Company (Capital One / Discover)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "65-page PDF read with pypdf."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Fed found that from 2007 to at least 2023 Discover misclassified consumer cards as commercial for interchange purposes, charging many merchants higher fees than their contracts allowed.",
+      "quote": "from 2007 until at least 2023, Discover improperly classified millions of credit cards as “commercial” rather than “consumer” for the purpose of charging interchange fees",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/orders20250418a2.pdf",
+      "title": "FRB Order No. 2025-10, Order Approving the Acquisition of a Bank Holding Company (Capital One / Discover)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Fed fined Discover $100 million for the interchange overcharges as a condition alongside merger approval.",
+      "quote": "assessed a fine of $100 million for overcharging certain interchange fees from 2007 through 2023.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The FDIC's parallel settlement with Discover Bank carries a $150 million civil money penalty and merchant restitution the FDIC estimates could exceed $1 billion.",
+      "quote": "a $150 million civil money penalty, and restitution for merchants that paid excess fees. The FDIC estimates the restitution could exceed $1 billion",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/orders20250418a2.pdf",
+      "title": "FRB Order No. 2025-10, Order Approving the Acquisition of a Bank Holding Company (Capital One / Discover)",
+      "publisher": "Board of Governors of the Federal Reserve System",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "pricing",
+      "claim": "PULSE markets its ATM network to acquirers on competitive interchange and transaction fees but publishes no ATM interchange amounts.",
+      "quote": "Offer cardholders access to 400,000 ATMs across the U.S. with competitive interchange and transaction fees.",
+      "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+      "title": "ATM Acquirers | PULSE Network",
+      "publisher": "PULSE (Discover Global Network)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page footer shows 2026 copyright."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "The Discover Developer Center publishes no API pricing; developer accounts are invite-only through a Discover representative.",
+      "quote": "Currently, developer partners can only be added with an invite from a Discover® representative.",
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "publisher": "Discover Global Network (DFS Services LLC)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Absence finding: no fee, free-tier or pricing text on FAQ or home page."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "U.S. acquirer interchange rates and effective dates (Discover Network)",
+      "where": "servicecenter.discoverglobalnetwork.com/acqinterchange/en-us/verification requires an acquirer-issued verification code; not public",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "U.S. Discover Network assessment fee, cross-border/international processing fee amounts",
+      "where": "Not published on discoverglobalnetwork.com; only the Canada schedule discloses assessment (0.063%) and international processing (0.40%)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE switch fee, membership or participation fee amounts; ATM interchange amounts",
+      "where": "pulsenetwork.com issuer, ATM acquirer and merchant pages; DFS 10-K names the fees without amounts. Negotiated, not public",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Discover API pricing (developer.discover.com)",
+      "where": "developer.discover.com home and FAQ; no pricing, access is invite-only",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Network Alliance / Diners Club licence or royalty fee amounts",
+      "where": "DFS FY2024 10-K describes royalties and network-to-network fees without amounts",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Issuer incentive or rebate amounts",
+      "where": "DFS FY2024 10-K states incentives and rebates exist; no amounts disclosed",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ v. Visa complaint references to PULSE and network fees",
+      "where": "justice.gov press release returned a 2 KB bot-wall page; not read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "UK PSR, RBA and European Commission findings on Discover or Diners Club fees",
+      "where": "Not searched: web search budget for this session was exhausted before this task began; no fetchable primary URL known",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press on Discover or PULSE network fee changes 2025-2026",
+      "where": "Not searched: web search budget exhausted; no named-author article fetched",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [],
+  "gated_surfaces": [
+    {
+      "name": "U.S. Acquirer Interchange Pricing (verification-code gate)",
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/en-us/verification",
+      "named_at": "https://www.discoverglobalnetwork.com/interchange/ (redirects to acqinterchange/home)"
+    },
+    {
+      "name": "Acquirer Operating Regulations",
+      "url": "",
+      "named_at": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf"
+    },
+    {
+      "name": "Acquirer Fee Manual - Canada",
+      "url": "",
+      "named_at": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf"
+    },
+    {
+      "name": "EASI Portal (Enablement, Acceptance Support Info-center)",
+      "url": "",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "Discover Developer Center (Dev Center, invite-only)",
+      "url": "https://developer.discover.com/",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "Diners Club International issuer resources (login)",
+      "url": "",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "PULSE Log In / Register",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "named_at": "https://www.pulsenetwork.com/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.discoverglobalnetwork.com/solutions/interchange/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/home",
+      "title": "Acquirer Interchange Pricing | Discover Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/en-us/verification",
+      "title": "U.S. Acquirer Interchange Pricing | Discover Network",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://servicecenter.discoverglobalnetwork.com/acqinterchange/pdf/card-transactions-acquirer-rates-and-fees-canada-english.pdf",
+      "title": "Standard Acquirer Rates and Fees for Card Transactions - Canada",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+      "title": "Discover Financial Services Form 10-K for fiscal year ended December 31, 2024",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "title": "Regulation II - Average Debit Card Interchange Fee by Payment Card Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/orders20250418a2.pdf",
+      "title": "FRB Order No. 2025-10, Order Approving the Acquisition of a Bank Holding Company (Capital One / Discover)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20250418a.htm",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/",
+      "title": "Home | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/issuers/",
+      "title": "Issuers | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+      "title": "ATM Acquirers | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/merchants/",
+      "title": "Merchants | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/",
+      "title": "Discover Global Network home",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Tools to Enable Payments | Discover Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.discover.com/home",
+      "title": "Discover Developer Center",
+      "ok": true,
+      "wall": "invite"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "(bot wall, 2 KB response)",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

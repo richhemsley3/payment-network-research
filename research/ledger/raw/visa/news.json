@@ -1,0 +1,949 @@
+{
+  "network": "visa",
+  "dimension": "news",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "news",
+      "claim": "2024-09-24: The U.S. Department of Justice sued Visa in the Southern District of New York alleging monopolization of U.S. debit network services; Visa's FY2025 10-K records the filing and that Visa's motion to dismiss was denied.",
+      "quote": "the U.S. Department of Justice filed a complaint in the U.S. District Court for the Southern District of New York against Visa",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "VISA INC. - Form 10-K - FY2025",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K also states: 'Beginning on October 1, 2024, several putative class actions were filed against the Company' (merchant and cardholder debit class actions in SDNY). The DOJ press release itself sat behind an Akamai bot wall and could not be fetched."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-09-26: Visa announced a definitive agreement to acquire Featurespace, a UK real-time AI fraud-protection developer, expected to close in fiscal 2025.",
+      "quote": "Visa (NYSE: V) today announced it has signed a definitive agreement to acquire Featurespace, a developer of real-time artificial intelligence (AI) payments protection technology",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20856.html",
+      "title": "Visa to Acquire Featurespace | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2024-09-26",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No price disclosed in the release; 'expected to close in fiscal year 2025'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2024-12-19: Visa completed the Featurespace acquisition; the FY2025 10-K later disclosed purchase consideration of $946 million.",
+      "quote": "Visa (NYSE: V) today announced it has completed its acquisition of Featurespace",
+      "url": "https://investor.visa.com/news/news-details/2024/Visa-Completes-Acquisition-of-Featurespace/default.aspx",
+      "title": "Visa - Visa Completes Acquisition of Featurespace",
+      "publisher": "Visa Inc.",
+      "published": "2024-12-19",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "10-K (https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm): 'for a purchase consideration of $946 million'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-01-28: X announced Visa as founding partner for X Money, using Visa Direct to load the wallet, connect a debit card for P2P and transfer funds back to bank accounts.",
+      "quote": "The company will use Visa Direct, which is Visa's solution for real-time money transfers, to load money into X Money's wallet",
+      "url": "https://techcrunch.com/2025/01/28/x-announces-a-partnership-with-visa-for-to-power-x-moneys-wallet/",
+      "title": "X announces a partnership with Visa to power X Money's wallet",
+      "publisher": "TechCrunch (Ivan Mehta)",
+      "published": "2025-01-28",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Announcement only; product not launched at the time."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-02: The UK PSR proposed remedies after its market review found Visa and Mastercard raised core scheme and processing fees more than 25% in real terms 2017-2023.",
+      "quote": "between 2017 and 2023 Visa and Mastercard raised their core scheme and processing fees by more than 25% in real terms",
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-proposes-remedies-to-improve-the-market-for-scheme-and-processing-fees/",
+      "title": "PSR proposes remedies to improve the market for scheme and processing fees",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-04-02",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Page cites 'an extra cost of at least £170million per year for UK businesses'; four remedies (information/transparency, regulatory financial reporting, pricing governance, publication of scheme information); responses due 28 May 2025. Final report MR22/1.10 published March 2025."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-01: Visa began charging a 0.05% fee on Commercial Enhanced Data Program (CEDP) transactions and moved to tiered dispute response fees, per merchant-side reporting.",
+      "quote": "Beginning April 1, 2025, Visa is introducing a 0.05% card brand fee for all CEDP transactions.",
+      "url": "https://chargebacks911.com/visa-rule-changes-april-2025/",
+      "title": "Visa Rule Changes — April 2025",
+      "publisher": "Chargebacks911 (Louise O'Neill)",
+      "published": "2025-06-04",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Same page on tiered dispute fees: 'The aim here is to incentivize merchants and acquirers to respond to and resolve disputes as quickly as possible.' Another source (Priority Commerce, not fetchable, 401) gives April 11, 2025 for the CEDP fee; see contradictions."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-30: At the Visa Global Product Drop Visa unveiled Visa Intelligent Commerce, opening its network to AI-agent developers, alongside Visa Pay, Visa Accept and Flex Credential expansion.",
+      "quote": "A groundbreaking initiative that opens Visa's payments network to developers and engineers building the first generation of true AI commerce.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21366.html",
+      "title": "The Future is Here: Visa Announces New Era of Commerce Featuring AI | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-04-30",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Same release: Visa Pay is 'A new service designed to connect any participating wallet to any Visa-accepting merchant.'; Visa Accept is 'A new offering to give micro-sellers a way to get paid to their eligible Visa debit card.' Named partners: Anthropic, IBM, Microsoft, Mistral AI, OpenAI, Perplexity, Stripe, Samsung, Bridge, Klarna."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-23: The European Commission widened its scheme-fee inquiry into Visa and Mastercard with a new questionnaire to terminal providers and payments companies, following one to merchants; the inquiry began September 2024.",
+      "quote": "The latest move involves a newly issued questionnaire aimed at terminal providers and payments companies.",
+      "url": "https://www.pymnts.com/cpi-posts/eu-antitrust-watchdog-intensifies-probe-into-visa-and-mastercard-fees/",
+      "title": "EU Antitrust Watchdog Intensifies Probe Into Visa and Mastercard Fees",
+      "publisher": "PYMNTS (citing Reuters)",
+      "published": "2025-05-25",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Earlier, The Paypers (2024-11-11, https://thepaypers.com/payments/news/visa-and-mastercard-under-investigation-in-europe) reported the Commission 'provided retailers and payment service providers with questionnaires about Visa and Mastercard in September 2024'. No formal proceedings found in the FY2025 10-K or Q3 FY2026 10-Q text."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-27: Visa appointed Antony Cahill Regional President and CEO of Visa Europe, replacing Charlotte Hogg who left after eight years; Andrew Torre succeeded Cahill as President of Value-Added Services on 2025-06-03.",
+      "quote": "Mr. Cahill will replace Charlotte Hogg, who is leaving Visa after eight years to pursue a new external opportunity.",
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Appoints-Antony-Cahill-as-Chief-Executive-Officer-of-European-Operations/default.aspx",
+      "title": "Visa - Visa Appoints Antony Cahill as Chief Executive Officer of European Operations",
+      "publisher": "Visa Inc.",
+      "published": "2025-05-27",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Torre release (2025-06-03, https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21466.html): 'Visa (NYSE:V) announced today that it has appointed Andrew Torre, a 20-year Visa veteran, as President of Value-Added Services (VAS).' and describes VAS as 'a $9B global business' with 20% annualized growth since 2021 (Vendor)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-06-23: The SDNY court denied Visa's motion to dismiss the DOJ debit monopolization complaint; the case proceeds to discovery.",
+      "quote": "On June 23, 2025, the court denied a motion to dismiss filed by Visa.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "VISA INC. - Form 10-K - FY2025",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Payments Dive (Justin Bachman, 2025-06-25, https://www.paymentsdive.com/news/visa-loses-bid-to-toss-us-debit-lawsuit-DOJ-antitrust-payments-cards/751607/) names U.S. District Judge John Koeltl and describes the order as released Tuesday (June 24); see contradictions on the date."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-07-31: Visa expanded stablecoin settlement support to USDG and PYUSD (via Paxos), Circle's EURC, and the Stellar and Avalanche blockchains, for issuer and acquirer settlement.",
+      "quote": "Visa's settlement platform is adding support for two additional USD-backed stablecoins, two blockchains and the euro-backed EURC.",
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Expands-Stablecoin-Settlement-Support/default.aspx",
+      "title": "Visa - Visa Expands Stablecoin Settlement Support",
+      "publisher": "Visa Inc.",
+      "published": "2025-07-31",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-09-04: Visa opened its Model Context Protocol (MCP) server to developers and launched the Acceptance Agent Toolkit for Visa Intelligent Commerce.",
+      "quote": "The new enhancements include availability of Visa's Model Context Protocol (MCP) server to software developers and the launch of the Acceptance Agent Toolkit.",
+      "url": "https://www.digitaltransactions.net/visa-launches-enhancements-to-its-intelligent-commerce-platform/",
+      "title": "Visa Launches Enhancements to Its Intelligent Commerce Platform",
+      "publisher": "Digital Transactions (Peter Lucas)",
+      "published": "2025-09-04",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Visa's own page (https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-mcp-server-agent-acceptance-toolkit.html, 2025-09-04) lists both as pilot: 'Introducing our Model Context Protocol (MCP) Server for Visa Intelligent Commerce'. The FY2025 10-K describes 'our MCP server that enables AI systems to interface with our Visa Intelligent Commerce APIs'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-09-30: At Sibos Visa announced a Visa Direct stablecoin prefunding pilot letting banks, remitters and financial institutions pre-fund payouts with stablecoins, with limited availability targeted by April 2026.",
+      "quote": "Visa announced it will launch a stablecoin prefunding pilot through Visa Direct, giving businesses a new way to move money globally",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21696.html",
+      "title": "Visa Direct Taps Stablecoins to Unlock Faster Funding for Businesses | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-09-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release: 'Businesses pre-fund Visa Direct with stablecoins instead of fiat to cover payouts.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-10-14: Visa unveiled Trusted Agent Protocol, an agent-to-merchant identity framework built on HTTP Message Signatures with Cloudflare, with launch partners including Adyen, Checkout.com, Elavon, Fiserv, Shopify, Stripe and Worldpay.",
+      "quote": "Visa Inc. (NYSE: V) today unveiled Trusted Agent Protocol, establishing a foundational framework for agentic commerce",
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Introduces-Trusted-Agent-Protocol-An-Ecosystem-Led-Framework-for-AI-Commerce/default.aspx",
+      "title": "Visa - Visa Introduces Trusted Agent Protocol: An Ecosystem-Led Framework for AI Commerce",
+      "publisher": "Visa Inc.",
+      "published": "2025-10-14",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Partners named: Adyen, Ant International, Checkout.com, Coinbase, CyberSource, Elavon, Fiserv, Microsoft, Nuvei, Shopify, Stripe, Worldpay. Cloudflare CSO Stephanie Cohen quoted."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-10-28: Visa reported fiscal 2025 net revenue of $40.0B (+11%), with payments volume +8% and processed transactions +10% for the year; the CEO framed Visa as a 'hyperscaler' investing in the Visa as a Service stack.",
+      "quote": "Net revenue of $40.0B, an increase of 11%, or 12% on a constant-dollar basis",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm",
+      "title": "VISA INC. - Form 8-K - FY2025 (Exhibit 99.1, Q4 FY2025 earnings release)",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2025-10-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "CEO quote: 'As technologies like AI-driven commerce, real-time money movement, tokenization and stablecoins converge to reshape commerce'. Dividend raised 14% to $0.670."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-11-10: Visa filed an 8-K on a superseding settlement with the U.S. merchant injunctive-relief class: a 10 bps cut to average effective credit interchange for five years, a 125 bps cap on standard consumer credit, merchant category choice and wider surcharging.",
+      "quote": "The settlement provides for a reduction of the U.S. combined average effective credit interchange rate by 10 bps for five years.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000093/v-20251110.htm",
+      "title": "VISA INC. - Form 8-K (Item 8.01), November 10, 2025",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2025-11-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "8-K also: 'standard U.S. consumer credit rates will be capped at 125 bps through the term of the agreement' and 'Merchants will have more options to surcharge, including if they do not surcharge other credit networks.' FY2025 10-K: 'During fiscal 2025, we recorded additional accruals of $2.2 billion to address claims associated with the interchange multidistrict litigation.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-11-12: Visa announced a Visa Direct pilot sending payouts directly to recipients' stablecoin wallets while clients fund in fiat, aimed at creators and gig workers.",
+      "quote": "Visa Inc. (V) announced a breakthrough pilot allowing businesses and platforms to send payouts directly to recipients' stablecoin wallets.",
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Direct-Stablecoin-Payouts-Pilot-Speeds-Up-Access-to-Funds-for-Creators--Gig-Workers/default.aspx",
+      "title": "Visa - Visa Direct Stablecoin Payouts Pilot Speeds Up Access to Funds for Creators & Gig Workers",
+      "publisher": "Visa Inc.",
+      "published": "2025-11-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Announced at Web Summit, Lisbon. 'Clients fund payouts in fiat currency.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-12-16: Visa launched USDC settlement for U.S. issuers and acquirers (Cross River Bank and Lead Bank on Solana), citing over $3.5B annualized stablecoin settlement volume.",
+      "quote": "For the first time, U.S. issuer and acquirer partners can settle with Visa in Circle's USDC, a fully reserved, dollar-denominated stablecoin.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21951.html",
+      "title": "Visa Launches Stablecoin Settlement in the United States, Marking a Breakthrough for Stablecoin Integration | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-12-16",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Volume claim ($3.5B annualized) is Vendor. Also references Circle's Arc L1 (testnet)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-01-13: Senators Marshall and Durbin reintroduced the Credit Card Competition Act with President Trump's endorsement, requiring issuers over $100B in assets to enable a non-Visa/Mastercard network; Visa did not immediately comment.",
+      "quote": "Sens. Roger Marshall, a Republican, and Dick Durbin, a Democrat, reintroduced their Credit Card Competition Act proposal Tuesday",
+      "url": "https://www.paymentsdive.com/news/credit-card-competition-bill-wins-trump-support/809550/",
+      "title": "Credit Card Competition bill wins Trump support",
+      "publisher": "Payments Dive (Lynne Marek, Justin Bachman)",
+      "published": "2026-01-13",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Payments Dive earlier (2025-02-25, https://www.paymentsdive.com/news/durbin-marshall-senate-credit-card-competition-act-bill/740921/) reported Durbin planned to reintroduce the bill 'soon'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-02-19: Visa agreed to buy Argentine issuer processor Prisma Medios de Pago and Newpay (operator of the Banelco ATM network, real-time payments and PagoMisCuentas) from Advent International; completed 2026-02-27.",
+      "quote": "Newpay is a multi-network infrastructure provider that operates real-time payments services, the Banelco ATM network and the bill payment platform PagoMisCuentas.",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-Prisma-Medios-de-Pago-and-Newpay-in-Argentina/default.aspx",
+      "title": "Visa - Visa to Acquire Prisma Medios de Pago and Newpay in Argentina",
+      "publisher": "Visa Inc.",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "No price disclosed. Completion release 2026-02-27 (https://investor.visa.com/news/news-details/2026/Visa-Completes-Acquisition-of-Prisma-and-Newpay/default.aspx): 'Visa (NYSE: V) today announced it has completed its acquisition of Prisma Medios de Pago S.A.U. (\"Prisma\") and Newpay S.A.U. (\"Newpay\") in Argentina.' Q3 FY2026 10-Q tags the acquisition date 2026-02-27."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-17: Visa launched the Visa Agentic Ready programme in Europe/UK, a structured issuer-readiness path to test agent-initiated transactions in controlled production; expanded to Asia Pacific and Latin America on 2026-04-29.",
+      "quote": "In its first phase, Visa Agentic Ready focuses on issuer readiness, providing issuing partners with a structured pathway to test and validate agent-initiated transactions",
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3437886.html",
+      "title": "Visa Launches 'Agentic Ready' Programme to Advance Agentic Commerce in Europe | Visa",
+      "publisher": "Visa Europe",
+      "published": "2026-03-17",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Expansion release 2026-04-29 (https://investor.visa.com/news/news-details/2026/Visa-Announces-Global-Expansion-of-Agentic-Ready-Program/default.aspx): 'Visa Inc. (NYSE: V) today announced the expansion of its global Agentic Ready program to clients in Asia Pacific and Latin America.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-08: Visa unveiled Intelligent Commerce Connect, a network-, protocol- and token-vault-agnostic on-ramp for agent builders, merchants and enablers, with Visa handling orchestration and PCI compliance for enablers.",
+      "quote": "Intelligent Commerce Connect acts as a network, protocol, and token vault-agnostic 'on ramp' to agentic commerce for agent builders, merchants, and enablers.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html",
+      "title": "Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-08",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release: 'Visa can handle orchestration and PCI compliance for enablers supporting merchant transactions.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-29: Visa added Arc, Base, Canton, Polygon and Tempo to its stablecoin settlement pilot (nine chains total) and reported a $7B annualized settlement run rate, up 50% quarter over quarter.",
+      "quote": "Visa's stablecoin settlement pilot now supports nine blockchains and has reached a $7 billion annualized stablecoin settlement run rate, up 50% since last quarter.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "title": "Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-29",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Existing chains: Avalanche, Ethereum, Solana, Stellar."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-12: Visa, Zilch and Thredd launched Visa Flexible Credential on Zilch cards in the UK, with Thredd as issuer processor.",
+      "quote": "Visa, Zilch and Thredd today announced the introduction of Visa Flexible Credential (VFC) on Zilch cards in the UK",
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3447932.html",
+      "title": "Visa Flexible Credential brings more flexible ways to pay to Zilch cardholders in the UK",
+      "publisher": "Visa Europe",
+      "published": "2026-05-12",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-09: The EDNY court granted preliminary approval of the November 2025 Visa/Mastercard injunctive-relief settlement; plaintiffs moved for final approval on 2026-07-15.",
+      "quote": "the Injunctive Relief Class plaintiffs filed a motion for preliminary approval of the settlement, which was granted on June 9, 2026.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000104/v-20260630.htm",
+      "title": "VISA INC. - Form 10-Q - FY2026 (quarter ended June 30, 2026)",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-Q: 'On July 15, 2026, the Injunctive Relief Class plaintiffs filed a motion for final approval of the settlement.' Payments Dive (Justin Bachman, 2026-06-09, https://www.paymentsdive.com/news/court-approves-visa-mastercard-settlement/822440/): 'U.S. District Judge Brian Cogan of the Eastern District of New York in Brooklyn said in his ruling, offering preliminary approval'; pact covers about 12 million merchants."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06: Visa introduced card-not-present and card-present token authorization fees for acquirers and raised the Digital Commerce Service Fee on foreign-card CNP transactions at U.S. merchants, per Fiserv's card brand update.",
+      "quote": "0.015% with a minimum of $0.01",
+      "url": "https://merchants.fiserv.com/en-us/partner-solutions/card-brand-updates/",
+      "title": "June 2026 Card Brand Updates",
+      "publisher": "Fiserv (merchant card brand updates page)",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Same page: card-present token fee '0.01% for card-present and 0.05% for cross border transactions'; Digital Commerce Service Fee revised 'from 0.0075% to 0.035%' with minimum 'from $0.0075 to $0.01 per transaction'. Effective June 2026 per page."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-10: At Visa Payments Forum 2026 Visa announced Agent Score, an Agentic Directory, a Large Transaction Model for fraud, tokenized deposits, Unified Checkout and Visa Intelligent Authorization for clients.",
+      "quote": "Visa (NYSE: V) today announced new AI, stablecoin and token capabilities designed to help clients unlock the next generation of commerce.",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html",
+      "title": "Visa Announces New AI, Stablecoin and Token Innovations to Power Intelligent, Programmable Commerce at Visa Payments Forum | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-06-10",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Product names as listed on the release; capabilities claims are Vendor."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-28: Visa reported fiscal Q3 2026 net revenue of $11.6B (+14%), payments volume +10%, processed transactions +10%, with $563M severance and a further $237M interchange MDL provision as special items.",
+      "quote": "Net revenue of $11.6B, an increase of 14%, or 13% on a constant-dollar basis",
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf",
+      "title": "Visa Reports Fiscal Third Quarter 2026 Results",
+      "publisher": "Visa Inc. (earnings release PDF, furnished on Form 8-K)",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "PDF: 'special items of $563 million for severance costs, $237 million for a litigation provision associated with the interchange multidistrict litigation'. CEO: 'As the leading hyperscaler of payments globally, we are designing, building and shipping products at an increased velocity' (Vendor). 8-K: https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000103/v-20260728.htm"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-30: The UK PSR confirmed final remedies (PS26/1, Specific Directions 22 and 23) requiring Visa and Mastercard to improve fee information for acquirers and pricing governance, with regulatory financial reporting still progressing.",
+      "quote": "after the Payment Systems Regulator (PSR) confirmed new requirements on Mastercard and Visa",
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-strengthens-oversight-of-mastercard-and-visa-as-card-fees-review-moves-to-implementation/",
+      "title": "PSR strengthens oversight of Mastercard and Visa as card fees review moves to implementation",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Pricing Governance remedy effective within four months; clearer-information requirements over 12 months. Draft directions were consulted in December 2025 ('Draft Specific Direction Mastercard and Visa pricing governance', PSR market review page). On 2026-05-21 the PSR opened consultation on UK profitability reporting: 'the PSR found evidence consistent with a finding that the schemes' profit margins are higher than expected in competitive markets.' (https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-consult-on-uk-profitability-reporting-for-mastercard-and-visa/)"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-08-03: Visa agreed to acquire behavioral fraud-intelligence firm BioCatch from Permira-advised funds and others for $2.4B cash, expected to close by the end of Visa's fiscal Q2 2027.",
+      "quote": "from funds advised by Permira and other shareholders for $2.4 billion in cash",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx",
+      "title": "Visa - Visa to Acquire BioCatch",
+      "publisher": "Visa Inc.",
+      "published": "2026-08-03",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Digital Transactions brief (2026-08-03, https://www.digitaltransactions.net/visa-to-acquire-biocatch-and-other-digital-transactions-news-briefs-from-8-3-26/): 'More than 350 financial institutions use BioCatch technology, according to the company.' and close 'by the end of March 2027'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-08-27: Visa expanded client cybersecurity services around its Visa Vulnerability Agentic Harness, including Visa Consulting & Analytics assessments and Visa University certification courses.",
+      "quote": "Executive workshops, trainings and Visa University certification courses led by Visa's AI and cybersecurity specialists.",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Expands-Support-for-its-Clients-and-the-Industry-as-Organizations-Navigate-New-AI-Era-of-Cybersecurity/default.aspx",
+      "title": "Visa - Visa Expands Support for its Clients and the Industry as Organizations Navigate New AI Era of Cybersecurity",
+      "publisher": "Visa Inc.",
+      "published": "2026-08-27",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Names VVAH-Informed Cybersecurity Maturity Assessment and VVAH Cyber Risk Prioritization and Roadmap."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-09-01: Visa launched an enhanced A2A Protect for banks with a unified fraud score, its first in-market integration of Featurespace technology.",
+      "quote": "The expanded solution introduces a new unified fraud score—Visa's first in-market integration of Featurespace technology",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Launches-Enhanced-A2A-Protect-Innovations-to-Help-Financial-Institutions-Stop-Fraud-Before-Money-Leaves-Accounts/default.aspx",
+      "title": "Visa - Visa Launches Enhanced A2A Protect Innovations to Help Financial Institutions Stop Fraud Before Money Leaves Accounts",
+      "publisher": "Visa Inc.",
+      "published": "2026-09-01",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Release also cites A2A transactions projected to surpass 5.8 trillion by 2028 (Vendor)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-09-08: Visa announced onchain settlement financing for stablecoin-linked card programs with Credit Coop, reporting more than 160 such programs and a $20B annualized stablecoin settlement run rate.",
+      "quote": "Visa's stablecoin settlement volume recently surpassed a $20 billion annualized run rate, up more than 15x year-over-year.",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Brings-Onchain-Lending-into-Everyday-Payments/default.aspx",
+      "title": "Visa - Visa Brings Onchain Lending into Everyday Payments",
+      "publisher": "Visa Inc.",
+      "published": "2026-09-08",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Also: 'more than 160 stablecoin-linked card programs operate on Visa's network' and 'more than $2.5 billion in cumulative financed settlement volume since 2023 with zero defaults'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-09-09: Visa and the IFC (World Bank Group) announced a ~$200M, five-year risk-sharing facility under which IFC shares credit settlement risk for Visa transactions of about 50 below-investment-grade financial institutions in 14 LAC countries.",
+      "quote": "IFC will share credit settlement risk for Visa transactions associated with enrolled financial institutions",
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-and-World-Bank-Group-Announce-New-Risk-Sharing-Initiative-to-Expand-Digital-Payments-and-Financial-Inclusion-in-Emerging-Markets/default.aspx",
+      "title": "Visa - Visa and World Bank Group Announce New Risk-Sharing Initiative to Expand Digital Payments and Financial Inclusion in Emerging Markets",
+      "publisher": "Visa Inc.",
+      "published": "2026-09-09",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Payments Dive (Lynne Marek, 2026-09-09, https://www.paymentsdive.com/news/visa-builds-business-abroad/829918/) calls it a first-time IFC partnership: 'will work with the IFC in shouldering the risk for extending about $200 million in credit by way of about 50 financial institutions'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-09-19: 978 U.S. merchants and trade groups filed objections asking Judge Cogan to deny final approval of the Visa/Mastercard interchange settlement; final decision pending.",
+      "quote": "The Merchant Payments Coalition said 978 businesses and associations filed objections with US District Judge Brian Cogan in Brooklyn.",
+      "url": "https://www.crowdfundinsider.com/2026/09/310317-visa-mastercard-settlement-faces-merchant-pushback-in-court/",
+      "title": "Visa, Mastercard Settlement Faces Merchant Pushback in Court",
+      "publisher": "Crowdfund Insider (Omar Faridi)",
+      "published": "2026-09-19",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-06-18: In the German ATM litigation, the German Federal Court of Justice referred questions to the European Court of Justice, per Visa's Q3 FY2026 10-Q; U.S. ATM access-fee (Burke) settlement moved for preliminary approval 2025-12-18.",
+      "quote": "On June 18, 2026, the German Federal Court of Justice requested a preliminary ruling from the European Court of Justice",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000104/v-20260630.htm",
+      "title": "VISA INC. - Form 10-Q - FY2026 (quarter ended June 30, 2026)",
+      "publisher": "SEC EDGAR (Visa Inc.)",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-Q: 'On December 18, 2025, plaintiffs in Burke filed a motion for preliminary approval of the class settlement with Visa and Mastercard.' Also: Debit Surcharge class action dismissed 2025-12-12; EMV chip liability shift settlement final approval granted 2026-04-28."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Visa network outage 2024-2026 reported by named-author trade press (Payments Dive, Digital Transactions, Finextra)",
+      "where": "WebSearch 'Visa outage 2025 OR 2026 network disruption reported' and 'Costco card terminal outage April 8 2026 Visa'; only StatusGator-type aggregators surfaced; April 8, 2026 Costco terminal incident could not be verified against a named source",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Unveils Slate of New Services to Power Client Growth (2025-04-03) release text",
+      "where": "businesswire.com returned Access Denied (Akamai); no Visa-site copy located before search budget was exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ press release 'Justice Department Sues Visa for Monopolizing Debit Markets' (2024-09-24)",
+      "where": "justice.gov (both /opa/pr and /archives paths) served an Akamai bot-verification interstitial; facts taken from Visa's 10-K instead",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa leadership changes in partner-facing roles during 2026 (CFO, chief product officer, North America president)",
+      "where": "WebSearch 'Visa appoints chief 2026 executive named president payments' returned only 2023-2025 items; no 2026 appointment release found on investor.visa.com RSS (last 10 items)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Fintech Fast Track or Visa Ready programme announcements 2024-2026",
+      "where": "WebSearch 'Visa Fintech Fast Track OR Visa Ready 2025 2026 program announcement' surfaced only 2020-2021 releases",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "European Commission formal proceedings or statement of objections on Visa scheme fees (2026)",
+      "where": "WebSearch budget exhausted before query; no mention of 'European Commission' in the Q3 FY2026 10-Q text extract",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "DOJ v. Visa (SDNY 24-cv-7214) status or trial date in 2026",
+      "where": "Q3 FY2026 10-Q text extract had no 'Department of Justice' match (the section may be labelled differently); WebSearch budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa April 2026 acquirer/merchant fee changes (spring release)",
+      "where": "WebSearch budget exhausted; only Fiserv's June 2026 card brand update page was fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Reserve Bank of Australia final decision on merchant card payment costs (surcharging/interchange) 2025-2026",
+      "where": "WebSearch budget exhausted; FY2025 10-K only says the RBA 'recently proposed reducing existing interchange caps'",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa Online, Visa Partner or Visa Developer Center portal relaunch 2024-2026",
+      "where": "No relaunch announcement found in Visa newsroom/RSS or trade coverage fetched; only the 2025-09-04 MCP server/Acceptance Agent Toolkit developer update",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Visa FY2025 10-K: 'On June 23, 2025, the court denied a motion to dismiss filed by Visa.'",
+      "b": "Payments Dive (2025-06-25): Judge Koeltl 'ruled in an order released Tuesday' (Tuesday = June 24, 2025); Bloomberg's URL is dated 2025-06-24",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+        "https://www.paymentsdive.com/news/visa-loses-bid-to-toss-us-debit-lawsuit-DOJ-antitrust-payments-cards/751607/"
+      ]
+    },
+    {
+      "a": "Chargebacks911: 'Beginning April 1, 2025, Visa is introducing a 0.05% card brand fee for all CEDP transactions.'",
+      "b": "Priority Commerce (search snippet only; page returned HTTP 401): 'Starting April 11, 2025, Visa will begin charging a 0.05% participation fee on CEDP transactions'",
+      "urls": [
+        "https://chargebacks911.com/visa-rule-changes-april-2025/",
+        "https://prioritycommerce.com/resource-center/visa-cedp-2025-credit-card-rules-changes/"
+      ]
+    },
+    {
+      "a": "Visa BioCatch release: close expected 'by the end of Visa's fiscal second quarter of 2027'",
+      "b": "Digital Transactions: 'The deal is expected to close by the end of March 2027.' (consistent in substance; different phrasing recorded for the timeline)",
+      "urls": [
+        "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx",
+        "https://www.digitaltransactions.net/visa-to-acquire-biocatch-and-other-digital-transactions-news-briefs-from-8-3-26/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Visa Agentic Ready programme (issuer readiness pilot, invitation via Visa)",
+      "url": "",
+      "named_at": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3437886.html"
+    },
+    {
+      "name": "Visa MCP Server for Visa Intelligent Commerce (pilot)",
+      "url": "",
+      "named_at": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-mcp-server-agent-acceptance-toolkit.html"
+    },
+    {
+      "name": "Visa Acceptance Agent Toolkit (pilot)",
+      "url": "",
+      "named_at": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-mcp-server-agent-acceptance-toolkit.html"
+    },
+    {
+      "name": "Visa stablecoin settlement pilot (issuer/acquirer settlement in USDC and other stablecoins)",
+      "url": "",
+      "named_at": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html"
+    },
+    {
+      "name": "Visa Direct stablecoin prefunding pilot (limited availability targeted April 2026)",
+      "url": "",
+      "named_at": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21696.html"
+    },
+    {
+      "name": "Trusted Agent Protocol / Visa agent directory",
+      "url": "",
+      "named_at": "https://investor.visa.com/news/news-details/2025/Visa-Introduces-Trusted-Agent-Protocol-An-Ecosystem-Led-Framework-for-AI-Commerce/default.aspx"
+    },
+    {
+      "name": "Agentic Directory and Agent Score (Visa Payments Forum 2026)",
+      "url": "",
+      "named_at": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html"
+    },
+    {
+      "name": "Visa University certification courses",
+      "url": "",
+      "named_at": "https://investor.visa.com/news/news-details/2026/Visa-Expands-Support-for-its-Clients-and-the-Industry-as-Organizations-Navigate-New-AI-Era-of-Cybersecurity/default.aspx"
+    },
+    {
+      "name": "Visa Consulting & Analytics (VCA) advisory services",
+      "url": "",
+      "named_at": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+    },
+    {
+      "name": "Visa Acceptance Platform (Cybersource, Authorize.net) for acquirers, PSPs, ISVs and sellers",
+      "url": "",
+      "named_at": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://investor.visa.com/news/default.aspx",
+      "title": "Visa - News Releases (JS-loaded list; headlines not rendered)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/rss/PressRelease.aspx?LanguageId=1&CategoryWorkflowId=00000000-0000-0000-0000-000000000000",
+      "title": "Visa Press Releases RSS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom.html",
+      "title": "Visa Newsroom",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets (archive)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-BioCatch/default.aspx",
+      "title": "Visa - Visa to Acquire BioCatch",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-to-Acquire-Prisma-Medios-de-Pago-and-Newpay-in-Argentina/default.aspx",
+      "title": "Visa - Visa to Acquire Prisma Medios de Pago and Newpay in Argentina",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Completes-Acquisition-of-Prisma-and-Newpay/default.aspx",
+      "title": "Visa - Visa Completes Acquisition of Prisma and Newpay",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000093/v-20251110.htm",
+      "title": "VISA INC. - Form 8-K - November 10, 2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21951.html",
+      "title": "Visa Launches Stablecoin Settlement in the United States",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22336.html",
+      "title": "Visa Accelerates Stablecoin Momentum: Adding Five Blockchains for Settlement",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22491.html",
+      "title": "Visa Announces New AI, Stablecoin and Token Innovations at Visa Payments Forum",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://visa.gcs-web.com/news-releases",
+      "title": "News Releases | Visa Inc. (legacy IR site)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2024/Visa-Completes-Acquisition-of-Featurespace/default.aspx",
+      "title": "Visa - Visa Completes Acquisition of Featurespace",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20856.html",
+      "title": "Visa to Acquire Featurespace | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Appoints-Antony-Cahill-as-Chief-Executive-Officer-of-European-Operations/default.aspx",
+      "title": "Visa Appoints Antony Cahill as CEO of European Operations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21466.html",
+      "title": "Visa Appoints Andrew Torre as President of Value-Added Services | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Introduces-Trusted-Agent-Protocol-An-Ecosystem-Led-Framework-for-AI-Commerce/default.aspx",
+      "title": "Visa Introduces Trusted Agent Protocol",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-proposes-remedies-to-improve-the-market-for-scheme-and-processing-fees/",
+      "title": "PSR proposes remedies to improve the market for scheme and processing fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "Market review into card scheme and processing fees | PSR",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/",
+      "title": "PSR latest news",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-strengthens-oversight-of-mastercard-and-visa-as-card-fees-review-moves-to-implementation/",
+      "title": "PSR strengthens oversight of Mastercard and Visa as card fees review moves to implementation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-consult-on-uk-profitability-reporting-for-mastercard-and-visa/",
+      "title": "PSR to consult on UK profitability reporting for Mastercard and Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-press-ahead-on-card-fees-fraud-and-payments-reform-in-202627/",
+      "title": "PSR to press ahead on card fees, fraud and payments reform in 2026/27",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.financialinstitutionsnews.com/2025/12/19/psr-consults-on-transparency-and-governance-changes-for-scheme-and-processing-fees/",
+      "title": "PSR consults on transparency and governance changes for scheme and processing fees | FIN.",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/visa-loses-bid-to-toss-us-debit-lawsuit-DOJ-antitrust-payments-cards/751607/",
+      "title": "Visa loses bid to toss DOJ debit lawsuit | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://thepaypers.com/payments/news/visa-and-mastercard-under-investigation-in-europe",
+      "title": "EU regulators probe Visa and Mastercard over fees imposed on retailers | The Paypers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/cpi-posts/eu-antitrust-watchdog-intensifies-probe-into-visa-and-mastercard-fees/",
+      "title": "EU Antitrust Watchdog Intensifies Probe Into Visa and Mastercard Fees | PYMNTS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pymnts.com/visa/2025/judge-rules-visa-must-face-new-debit-card-antitrust-case/",
+      "title": "Judge Rules Visa Must Face New Debit Card Antitrust Case | PYMNTS",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://chargebacks911.com/visa-rule-changes-april-2025/",
+      "title": "Visa Rule Changes — April 2025 | Chargebacks911",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://prioritycommerce.com/resource-center/visa-cedp-2025-credit-card-rules-changes/",
+      "title": "A Guide to Visa CEDP and Rules Changes in 2025 | Priority Commerce",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://merchants.fiserv.com/en-us/partner-solutions/card-brand-updates/",
+      "title": "June 2026 Card Brand Updates | Fiserv",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "VISA INC. - Form 10-K - FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000104/v-20260630.htm",
+      "title": "VISA INC. - Form 10-Q - FY2026 Q3",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000077/q42025earningsrelease.htm",
+      "title": "VISA INC. - Form 8-K Exhibit 99.1 - Q4 FY2025 earnings release",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21731.html",
+      "title": "Visa Fiscal Fourth Quarter and Full-Year 2025 Financial Results | Visa (stub pointing to 8-K)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx",
+      "title": "Visa - Visa Fiscal Third Quarter 2026 Financial Results (stub pointing to 8-K)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2026/q3/Q3-2026-Earnings-Release_vF.pdf",
+      "title": "Visa Reports Fiscal Third Quarter 2026 Results (PDF, read with pypdf)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21366.html",
+      "title": "The Future is Here: Visa Announces New Era of Commerce Featuring AI | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Announces-Global-Expansion-of-Agentic-Ready-Program/default.aspx",
+      "title": "Visa - Visa Announces Global Expansion of Agentic Ready Program",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3437886.html",
+      "title": "Visa Launches 'Agentic Ready' Programme to Advance Agentic Commerce in Europe | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Direct-Stablecoin-Payouts-Pilot-Speeds-Up-Access-to-Funds-for-Creators--Gig-Workers/default.aspx",
+      "title": "Visa Direct Stablecoin Payouts Pilot Speeds Up Access to Funds for Creators & Gig Workers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21696.html",
+      "title": "Visa Direct Taps Stablecoins to Unlock Faster Funding for Businesses | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2025/Visa-Expands-Stablecoin-Settlement-Support/default.aspx",
+      "title": "Visa - Visa Expands Stablecoin Settlement Support",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/court-approves-visa-mastercard-settlement/822440/",
+      "title": "Court approves Visa-Mastercard settlement | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.crowdfundinsider.com/2026/09/310317-visa-mastercard-settlement-faces-merchant-pushback-in-court/",
+      "title": "Visa, Mastercard Settlement Faces Merchant Pushback in Court | Crowdfund Insider",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://techcrunch.com/2025/01/28/x-announces-a-partnership-with-visa-for-to-power-x-moneys-wallet/",
+      "title": "X announces a partnership with Visa to power X Money's wallet | TechCrunch",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/credit-card-competition-bill-wins-trump-support/809550/",
+      "title": "Credit Card Competition bill wins Trump support | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/durbin-marshall-senate-credit-card-competition-act-bill/740921/",
+      "title": "Durbin to reintroduce credit card competition bill | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22276.html",
+      "title": "Visa Opens the Door to AI-Driven Shopping for Businesses Worldwide | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21961.html",
+      "title": "Visa and Partners Complete Secure AI Transactions, Setting the Stage for Mainstream Adoption in 2026 | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Launches-Enhanced-A2A-Protect-Innovations-to-Help-Financial-Institutions-Stop-Fraud-Before-Money-Leaves-Accounts/default.aspx",
+      "title": "Visa Launches Enhanced A2A Protect Innovations",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Brings-Onchain-Lending-into-Everyday-Payments/default.aspx",
+      "title": "Visa - Visa Brings Onchain Lending into Everyday Payments",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-and-World-Bank-Group-Announce-New-Risk-Sharing-Initiative-to-Expand-Digital-Payments-and-Financial-Inclusion-in-Emerging-Markets/default.aspx",
+      "title": "Visa and World Bank Group Announce New Risk-Sharing Initiative",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/visa-builds-business-abroad/829918/",
+      "title": "Visa builds business abroad | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2026/Visa-Expands-Support-for-its-Clients-and-the-Industry-as-Organizations-Navigate-New-AI-Era-of-Cybersecurity/default.aspx",
+      "title": "Visa Expands Support for its Clients and the Industry as Organizations Navigate New AI Era of Cybersecurity",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250403247383/en/Visa-Unveils-Slate-of-New-Services-to-Power-Client-Growth",
+      "title": "Visa Unveils Slate of New Services to Power Client Growth | Business Wire",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-mcp-server-agent-acceptance-toolkit.html",
+      "title": "Visa advances agentic commerce with developer updates | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/visa-launches-enhancements-to-its-intelligent-commerce-platform/",
+      "title": "Visa Launches Enhancements to Its Intelligent Commerce Platform | Digital Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=BioCatch",
+      "title": "Digital Transactions search: BioCatch",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/visa-to-acquire-biocatch-and-other-digital-transactions-news-briefs-from-8-3-26/",
+      "title": "Visa To Acquire BioCatch and other Digital Transactions News briefs from 8/3/26",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.visa.co.uk/about-visa/newsroom/press-releases.3447932.html",
+      "title": "Visa Flexible Credential brings more flexible ways to pay to Zilch cardholders in the UK",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.americanbar.org/groups/antitrust_law/resources/newsletters/in-re-payment-card-interchange-fee-merchant-discount-antitrust-litigation/",
+      "title": "ABA: Summary of the November 2025 Proposed Settlement",
+      "ok": false,
+      "wall": "bot"
+    }
+  ]
+}

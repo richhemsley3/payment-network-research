@@ -7,6 +7,7 @@ const out = [];
 for (const p of pages) {
   let html = fs.readFileSync(path.join(ROOT, p), 'utf8');
   html = html.replace(/<(pre|code|script|style)\b[\s\S]*?<\/\1>/g, ' ').replace(/<q\b[^>]*>[\s\S]*?<\/q>/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+  html = html.replace(/<h2 class="doc-s" id="register">[\s\S]*$/, ' ');
   const method = (html.match(/id="method"[\s\S]*?(?=<h2)/) || [''])[0];
   const blocks = html.split(/<\/(?:p|li|td|th|figcaption|cite|h1|h2|h3|h4|b|span|div)>/).map(b => b.replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim()).filter(t => t.length > 12);
   const methodText = method.replace(/<[^>]+>/g, ' ');

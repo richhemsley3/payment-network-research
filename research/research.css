@@ -19,7 +19,7 @@
 .rs-profile{margin-top:48px; padding-top:24px; border-top:1px solid var(--gn-rule-strong)}
 .rs-profile h3.doc-s{margin-top:0}
 .rs-profile--compact{margin-top:40px; padding-top:20px; border-top:1px solid var(--gn-rule)}
-.rs-meta{margin-top:4px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.rs-meta{margin-top:4px; font-size:var(--gn-type-label); color:var(--gn-text-caption); max-width:var(--gn-measure-body); line-height:var(--gn-leading-body)}
 .rs-lead{margin-top:16px; padding-left:16px; border-left:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body); line-height:var(--gn-leading-prose); color:var(--gn-text-secondary); max-width:var(--gn-measure-body)}
 .rs-lead b{font-weight:600; color:var(--gn-text)}
 .rs-profile .gn-prose,.doc .gn-prose{color:var(--gn-text-secondary)}
@@ -46,7 +46,7 @@ a.rs-src:hover{color:var(--gn-interactive); text-decoration-color:var(--gn-inter
 .rs-quote cite{display:block; margin-top:4px; font-style:normal; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .rs-quote + .rs-quote{margin-top:12px}
 .rs-count{margin-top:12px; font-size:var(--gn-type-label); color:var(--gn-text-caption); max-width:var(--gn-measure-body); line-height:var(--gn-leading-body)}
-.rs-sources{margin-top:24px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.rs-sources{margin-top:24px; font-size:var(--gn-type-label); color:var(--gn-text-caption); max-width:var(--gn-measure-body)}
 /* the insights report */
 .rs-insight{margin-top:28px; padding-top:16px; border-top:1px solid var(--gn-rule)}
 .rs-insight-h{display:flex; gap:12px; align-items:baseline; flex-wrap:wrap}

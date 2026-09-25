@@ -1,0 +1,494 @@
+{
+  "network": "dgn",
+  "dimension": "developer",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "developer",
+      "claim": "The Discover Developer Center home page is a login gate with no API reference readable logged out; it only points to Enablement Resources and carries a robots noindex meta tag.",
+      "quote": "For more information on our API products, explore our Enablement Resources",
+      "url": "https://developer.discover.com/",
+      "title": "Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Raw HTML head has <meta name=\"robots\" content=\"noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate\">; Drupal 10 site. Login form offers Email/Password and 'Use Discover User ID'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Developer Center access is not self-service: new users must submit the Contact Us form and wait for a Discover representative.",
+      "quote": "Please fill out the Contact Us form, and a Discover representative will be in touch with you.",
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "Adding collaborators to a Developer Center app is invite-only from a Discover representative.",
+      "quote": "Currently, developer partners can only be added with an invite from a Discover® representative.",
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "Discover states that not every API product is published on public pages; the full product list is only visible after login.",
+      "quote": "Not all of our products are currently published.",
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Continues: 'you will see the products you've been given access to once you've logged in.'"
+    },
+    {
+      "dimension": "developer",
+      "claim": "A developer account is required to make any API request; API specs are reviewed only after logging in.",
+      "quote": "Once you've logged in, please review the API specs doc to learn more about how to make requests successfully.",
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Developer Center 'Explore our APIs' page lists seven products logged out (HCE Wallet Services, City Guides, Country Acceptance, Currency Converter, Tip Etiquette, ATM Locator, DCI Customer Service) under Digital Payment Solutions, Travel Tools and Diners Club Member Benefits, with Funds Transfer and Security headings empty.",
+      "quote": "Tokenize Discover® Cards to be stored within host card emulation based digital wallets for contactless and in-app transactions.",
+      "url": "https://developer.discover.com/explore-apis",
+      "title": "Explore our APIs | Discover Developer Center",
+      "publisher": "developer.discover.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Each card has 'Learn More' and 'Documentation' links; documentation targets require login."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Partner Product Portal exposes twelve products logged out (Discover Stored Token Services, Fraud Alerts, Currency Converter, Travel Guides, Country Acceptance, Tip Etiquette, Airport Lounge & Travel Program, Diners Club International Customer Service, Payment Account Reference, IIN Data Lookup Service, Discover Network Account Updater, Issuer Card Account Services) in seven categories.",
+      "quote": "Find the perfect solution for your needs.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Categories in payload: Digital Payment Solutions, Fraud and Security, Funds Transfer, Travel Tools, Diners Club Member Benefits, Card Account Services, Data Services. Next.js RSC payload; product names read from productInformation.name fields. Each product has a 'Connect with our team' contact-us CTA."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Partner Product Portal renders OpenAPI 3.0.1 documents on each product's 'API Specs' tab without login (operationIds such as getCardAsset, lcmNotifications, healthcheck, checkBulkTokenStatus).",
+      "quote": "\"operationId\":\"getCardAsset\"}}},\"openapi\":\"3.0.1\"",
+      "url": "https://partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=api-specs",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "OpenAPI JSON is embedded in the server-rendered payload; no downloadable .json/.yaml link or Postman collection found."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Authentication is OAuth 2.0 client credentials with client_id and client_secret; access tokens expire after one hour by default.",
+      "quote": "By default, the token expires in one hour (3600 seconds). When the access token expires, make another token request.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Stored Token Services product page, 'OAuth 2.0 Token Request' section."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The OAuth token endpoint is https://apis.discover.com/auth/oauth/v2/token, called with HTTP Basic client credentials and an X-DFS-API-PLAN header.",
+      "quote": "curl --request POST \"https://apis.discover.com/auth/oauth/v2/token\"",
+      "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+      "title": "Going Live with Discover | Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Developer-guide tab, section 5 'How to use OAuth 2 - Client Credentials'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Rate limits and quotas are not published as numbers; they are set per partner by an 'API Plan' that mirrors the signed service agreement and must be sent in the X-DFS-API-PLAN header on every request.",
+      "quote": "Each partner application is assigned specific API Plans which control routing to specific end points, rate limits, quotas and how the service is accessed.",
+      "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+      "title": "Going Live with Discover | Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Header format shown: X-DFS-API-PLAN: Discover-API-Plan-Name."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Environments are selected by API Plan: Sandbox and Certification plans route to sandbox.apis.discover.com and Production to apis.discover.com.",
+      "quote": "[\"Sandbox\",\"sandbox.apis.discover.com\"],[\"Certification\",\"sandbox.apis.discover.com\"],[\"Production\",\"apis.discover.com\"]",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Plan/Endpoint table on the Stored Token Services and Account Updater API pages."
+    },
+    {
+      "dimension": "developer",
+      "claim": "After approval each partner gets a Developer Center organization and at least one application with client credentials and a Sandbox, Certification or Prod API Plan; org names carry DEV or PROD and app names TEST or PROD.",
+      "quote": "Each application is assigned client credentials and an API Plan (e.g. Sandbox, Certification, or Prod Plan).",
+      "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+      "title": "Going Live with Discover | Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Section 2 'Partner Registration'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "A second authentication factor is a Consumer Application Certificate sent in the X-DFS-C-APP-CERT header, downloadable only once from the dashboard.",
+      "quote": "It can only be downloaded once. Contact us to get another one using your account portal.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Alternative second factor is a Second Factor JWT (RS256) in X-DFS-C-APP-JWT header per going-live section 7."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Transport and payload security stack requires TLS 1.2 or 1.3, mutual TLS, and JWE payload encryption with JWS signatures (nested JWT).",
+      "quote": "You must set your TLS version to 1.2 or 1.3 to connect to the Discover APIs.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Lists 'JWE payload encryption', 'JWS+JWE payload signature and encryption', 'API-specific field-level encryption mechanisms'. Partners must supply certificates per environment and per API."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Discover publishes its signing and encryption public keys at a JWKS endpoint whose keys rotate every 90 days; partners register their own certificates via a Basic-auth registration endpoint or a partner JWKS URL.",
+      "quote": "The JWKS endpoint keys expire every 90 days",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "JWKS: https://apis.discover.com/dfs/jwk/v1/public-keys; registration: https://apis.discover.com/dfs/jwk/v1/public-keys/partner/registration."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Webhooks exist under the name 'Account Notification API': token requestors must expose an endpoint to receive issuer-initiated account updates.",
+      "quote": "Token requestors must integrate with this endpoint to receive issuer notifications via webhooks.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "No retry, signing or subscription-management detail published."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Versioning is by URL path segment (/v1/, /v2/) per resource; no deprecation policy or changelog cadence is published.",
+      "quote": "This API uses versioned endpoints (i.e. /v1/ and /v2/) to indicate the release level of individual resources.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Simplified IIN List page carries an informal 'We've made changes to this ... code base' note listing added fields, undated."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The IIN Data Lookup Service page lists seven per-environment hosts (dev, prod, devint, sit, bench, cert, plus localhost) on rangerx-api*.discoverfinancial.com rather than the apis.discover.com gateway.",
+      "quote": "The Full IIN List API requires you to use the following environments:",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Hosts: rangerx-api-dev, rangerx-api, rangerx-api-devint, rangerx-api-sit, rangerx-api-bench, rangerx-api-cert .discoverfinancial.com/epp/rangerx/v1. The Card Asset 'Servers' section also shows an internal OpenShift dev hostname (trda-asset-service-...ocpdev...discoverfinancial.com)."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Access control uses named API scopes requested at token time, for example ICAS_CARDUPDATE_V1 for the Issuer Card Account Services API.",
+      "quote": "The iCAS API uses the `ICAS_CARDUPDATE_V1` scope.",
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "Sandbox test data: the going-live process says specification guides are provided on the API portal and test cases are supplied by Discover during certification boarding, not self-served.",
+      "quote": "APIs are made available on the API portal. This includes copies of the specification guides to support API development.",
+      "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+      "title": "Going Live with Discover | Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Product page phases: 'Receive API test cases, Execute API test cases, Submit test cases to DXX, DDX validates test results & provides certification letter'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "Developer test card kits are distributed through the EASI portal, which requires registration, not publicly.",
+      "quote": "Enablement materials and technical specifications Developer test card kits Product information and announcements",
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Get Started | Discover Global Network",
+      "publisher": "discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page also says 'Explore Discover APIs in our Dev Center ... APIs for: Payments Security Cardholder features'."
+    },
+    {
+      "dimension": "developer",
+      "claim": "The EASI acquirer/processor portal offers self-registration ('Join Now') with a Registration Quick Guide, unlike the invite-only Developer Center.",
+      "quote": "Not registered? Join Now Registration Quick Guide",
+      "url": "https://www.discovereasi.com/easi/loginpage",
+      "title": "Discover EASI Portal Login | Discover Global Network",
+      "publisher": "discovereasi.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "developer",
+      "claim": "The Partner Product Portal's Partner Resources page names four gated tools with URLs: Release Compliance Tool, Discover Network Disputes Portal, Developer Center, EASI and Web Merchant Boarding.",
+      "quote": "\"label\":\"Discover Network Disputes Portal\"},{\"href\":\"https://developer.discover.com/\",\"label\":\"Developer Center\"}",
+      "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+      "title": "Discover Partner Product Portal",
+      "publisher": "partner.discoverglobalnetwork.com (DFS Services LLC / Capital One)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headings 'Test & Certify with Discover® Network' and 'Partner Resources'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "SDKs by language (repo names, last release) for Discover Global Network APIs",
+      "where": "developer.discover.com, partner.discoverglobalnetwork.com going-live and product pages; no GitHub org or SDK mentioned; WebSearch budget exhausted so no GitHub search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "CLI tool for Discover/DGN APIs",
+      "where": "partner.discoverglobalnetwork.com, developer.discover.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Postman collection or downloadable OpenAPI file",
+      "where": "partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=api-specs (OpenAPI embedded in page only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Numeric rate limits or quotas",
+      "where": "going-live-with-discover section 2.2 (only 'API Plan' per service agreement)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Deprecation policy, sunset timelines, changelog or release-notes cadence",
+      "where": "partner portal product pages (only 'Versioning' paragraph and an undated change note on Simplified IIN List)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Public test card numbers / sandbox triggers",
+      "where": "discoverglobalnetwork.com get-started (test card kits are inside EASI, registration required)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Webhook signing, retry, subscription management",
+      "where": "Account Notification API section, partner portal",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "developer.discover.com/products and /apis",
+      "where": "both return 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press coverage of the Discover developer portal",
+      "where": "WebSearch budget exhausted in this session (200/200); no search performed",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Stored Token Services product page prints the token endpoint as https://apis.discover.com/auth/OAuth 2/v2/token (with a space)",
+      "b": "Going Live developer guide prints https://apis.discover.com/auth/oauth/v2/token",
+      "urls": [
+        "https://partner.discoverglobalnetwork.com/products",
+        "https://partner.discoverglobalnetwork.com/going-live-with-discover"
+      ]
+    },
+    {
+      "a": "developer.discover.com/explore-apis shows seven products logged out, including HCE Wallet Services, City Guides and ATM Locator",
+      "b": "partner.discoverglobalnetwork.com/products shows twelve products logged out with none of those three, but with Stored Token Services, IIN Data Lookup, Account Updater, iCAS, PAR, Fraud Alerts",
+      "urls": [
+        "https://developer.discover.com/explore-apis",
+        "https://partner.discoverglobalnetwork.com/products"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Discover Developer Center (login; invite/contact-form access)",
+      "url": "https://developer.discover.com/",
+      "named_at": "https://partner.discoverglobalnetwork.com/partner-resources"
+    },
+    {
+      "name": "Release Compliance Tool (RCT)",
+      "url": "https://relcomp.discovernetwork.com/RelCompWeb/",
+      "named_at": "https://partner.discoverglobalnetwork.com/partner-resources"
+    },
+    {
+      "name": "Discover Network Disputes Portal",
+      "url": "https://portal.discoverglobalnetwork.com/",
+      "named_at": "https://partner.discoverglobalnetwork.com/partner-resources"
+    },
+    {
+      "name": "EASI (Enablement, Acceptance Support Info-center) Portal",
+      "url": "https://www.discovereasi.com/",
+      "named_at": "https://partner.discoverglobalnetwork.com/partner-resources; https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "Web Merchant Boarding",
+      "url": "https://www.discoversales.com/login",
+      "named_at": "https://partner.discoverglobalnetwork.com/partner-resources"
+    },
+    {
+      "name": "Partner portal sign-in (identity.discoverglobalnetwork.com OAuth2)",
+      "url": "https://identity.discoverglobalnetwork.com/oauth2/default",
+      "named_at": "partner.discoverglobalnetwork.com JS payload"
+    },
+    {
+      "name": "Diners Club International issuer resources (login)",
+      "url": "",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "Contact Us form (product-specific, e.g. /contact-us?product=fraud-alerts)",
+      "url": "https://partner.discoverglobalnetwork.com/contact-us",
+      "named_at": "https://partner.discoverglobalnetwork.com/products"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://developer.discover.com/",
+      "title": "Discover Developer Center",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://developer.discover.com/faq",
+      "title": "FAQs | Discover Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.discover.com/explore-apis",
+      "title": "Explore our APIs | Discover Developer Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://developer.discover.com/products",
+      "title": "Page not found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://developer.discover.com/apis",
+      "title": "Page not found",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/",
+      "title": "Discover Partner Product Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/products",
+      "title": "Discover Partner Product Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/products/discover-stored-token-services?tab=api-specs",
+      "title": "Discover Partner Product Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/partner-resources",
+      "title": "Discover Partner Product Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+      "title": "Going Live with Discover | Discover Partner Product Portal",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/resources",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://partner.discoverglobalnetwork.com/sxs-tokens",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.discovereasi.com/",
+      "title": "Discover EASI Portal Login | Discover Global Network",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Get Started | Discover Global Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/solutions/payments-providers/get-started/",
+      "title": "404 Page Not Found | Discover Network",
+      "ok": false,
+      "wall": "dead"
+    }
+  ]
+}

@@ -21,12 +21,15 @@ def cite(match):
     for i, sid in enumerate(ids):
         r = S.get(sid.strip())
         if not r: return f'<span class="rs-cite">[missing {esc(sid)}]</span>'
-        lab = label if (label and i == 0) else (r.get('publisher') or r.get('title') or sid)
+        lab = (label if (label and i == 0) else (r.get('publisher') or r.get('title') or sid)).replace(';', ',')
         title = f"Accessed {month(r.get('accessed'))} · {r.get('confidence')}" if r.get('kind') == 'source' else f"{r.get('channel','')} · {r.get('confidence','')}"
         parts.append(f'<a class="rs-src" data-src="{esc(sid)}" href="{esc(r.get("url"))}" title="{esc(title)}">{esc(lab)}</a>')
     return '<span class="rs-cite">(' + ' · '.join(parts) + ')</span>'
 def register(slug=None):
-    rows = [r for r in S.values() if r['kind'] in ('source', 'video') and (slug is None or r['network'] == slug)]
+    if slug is None:
+        nets = sorted({r['network'] for r in S.values() if r['kind'] in ('source', 'video')})
+        return '\n'.join(f'<h3 class="doc-s" id="register-{n}">{n}</h3>\n' + register(n) for n in nets)
+    rows = [r for r in S.values() if r['kind'] in ('source', 'video') and r['network'] == slug]
     rows.sort(key=lambda r: (r['network'], r['kind'] != 'source', int(re.sub(r'\D', '', r['id'].split('-')[-1]) or 0)))
     out = ['<div class="gn-table-wrap"><table class="gn-table gn-table--dense rs-register"><thead><tr><th>Id</th><th>Source</th><th>Publisher</th><th>Published</th><th>Accessed</th><th>Confidence</th></tr></thead><tbody>']
     for r in rows:
@@ -46,7 +49,13 @@ def figs(walk, stations):
     out.append('</div>'); return '\n'.join(out)
 def build(name):
     src = os.path.join(ROOT, 'src', name); t = open(src).read()
-    t = re.sub(r'<!-- include:([^ ]+) -->', lambda m: open(os.path.join(ROOT, m.group(1))).read(), t)
+    for _ in range(4): t = re.sub(r'<!-- include:([^ ]+) -->', lambda m: open(os.path.join(ROOT, m.group(1))).read(), t)
+    def srcline(m):
+        slug = m.group(1); rows = [r for r in S.values() if r['kind'] == 'source' and r['network'] == slug and '-w-' not in r['id']]
+        c = {k: sum(1 for r in rows if r.get('confidence') == k) for k in ('Verified', 'Reported', 'Vendor')}
+        walks = sum(1 for r in S.values() if r['kind'] == 'source' and r['network'] == slug and '-w-' in r['id'])
+        return f'<p class="rs-sources">Sources · {len(rows)} ledger rows for this network · {c["Verified"]} Verified · {c["Reported"]} Reported · {c["Vendor"]} Vendor · {walks} browser walks · <a class="gn-link" href="#register-{slug}">register</a></p>'
+    t = re.sub(r'<!-- sources:(\w+) -->', srcline, t)
     t = re.sub(r'<!-- table:register(?::(\w+))? -->', lambda m: register(m.group(1)), t)
     t = re.sub(r'<!-- figs:([\w-]+):([\w,]+) -->', lambda m: figs(m.group(1), m.group(2)), t)
     t = re.sub(r'\{\{cite:([\w+-]+)(?:\|([^}]+))?\}\}', cite, t)

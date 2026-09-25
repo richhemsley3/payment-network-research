@@ -1,0 +1,427 @@
+{
+  "network": "diners",
+  "dimension": "support-news",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "support-news",
+      "claim": "Diners Club routes cardholder support to the local franchise issuer rather than a central network desk; the network help center is a country-selector.",
+      "quote": "To contact customer service for your Diners Club card, please reach out to your local issuer from our Support Center.",
+      "url": "https://www.dinersclub.com/help-center",
+      "title": "Help Center",
+      "publisher": "Diners Club International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Support: no central hours, phone, language or SLA published on the network site; support is per-franchise. Chrome/Edge-only India ODR tool at odr.dinersclub.com also linked."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "The network homepage frames support and account servicing as a per-country Club model.",
+      "quote": "To find out more about your account or see what your local Club has to offer, choose your country.",
+      "url": "https://www.dinersclub.com/",
+      "title": "Diners Club International",
+      "publisher": "Diners Club International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Footer links partners to discoverglobalnetwork.com, pulsenetwork.com and developer.discover.com (Dev Center)."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Business partner enquiries from the Diners Club business page are routed to the shared Discover Global Network service-center contact form rather than a Diners-specific channel.",
+      "quote": "We work with partners around the world to bring our card offerings to your business.",
+      "url": "https://www.dinersclub.com/businesses",
+      "title": "Businesses",
+      "publisher": "Diners Club International",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "CONTACT US links to https://servicecenter.discoverglobalnetwork.com/onlineform/contact-us. No account-management model, SLA or hours stated."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Current Diners Club issuers get assets and tools through a ServiceNow-hosted issuer portal that is restricted to existing issuers.",
+      "quote": "Access assets, resources and tools available to you as a current issuer",
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Get Started - Payments Providers",
+      "publisher": "Discover Global Network",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Portal at discover.service-now.com/infonet; page says available to current Diners Club International Issuers only."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Operational support for acquirers and processors runs through the EASI portal, which includes a Message Center to reach the Discover Global Network operations team.",
+      "quote": "Register for EASI Portal access",
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Get Started - Payments Providers",
+      "publisher": "Discover Global Network",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "EASI = Enablement, Acceptance Support Info-center; holds enablement materials, tech specs, developer test card kits. No response-time SLA stated."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Capital One completed its acquisition of Discover Financial Services, parent of Diners Club International, effective May 18, 2025.",
+      "quote": "Capital One Financial Corporation, a Delaware corporation (“Capital One” or the “Company”), completed its previously announced acquisition of Discover Financial Services",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475d8k.htm",
+      "title": "Form 8-K, Item 2.01 Completion of Acquisition",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2025-05-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Merger Agreement dated Feb 19, 2024; exchange ratio 1.0192. Ownership event for Diners Club, Discover Network and PULSE."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Nium launched a Diners Club International virtual card for B2B travel payments, making it an issuer across four schemes (Visa, Mastercard, UATP, Discover).",
+      "quote": "our ability to issue virtual cards across four of the world's leading payment schemes gives our customers unparalleled global access",
+      "url": "https://resources.dinersclub.com/home/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel",
+      "title": "Nium Launches Diners Club International Card to Expand B2B Payments for Travel Industry",
+      "publisher": "resources.dinersclub.com",
+      "published": "2025-02-28",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Predates Capital One close. Quote is Nium's Mark Anthony Spiteri; Matt Sloan quoted as VP International Markets EMEA at Discover."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Pax2pay, a UK virtual card issuer, signed a strategic agreement with Diners Club International for travel-sector virtual cards.",
+      "quote": "Working with Pax2pay marks a new chapter for Diners Club International as we continue to grow in the travel sector.",
+      "url": "https://resources.dinersclub.com/home/pax2pay-partnership-to-drive-growth-in-travel-payments",
+      "title": "Pax2pay Partners with Diners Club International to Drive Growth in Travel Payments",
+      "publisher": "resources.dinersclub.com",
+      "published": "2025-02-28",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Predates Capital One close. Quote attributed to Matt Sloan, VP of Business Development EMEA."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "BRAC Bank (Bangladesh) launched the Diners Club Emerald credit card for corporate professionals with Discover Network's APAC team quoted.",
+      "quote": "The Diners Club Emerald Card brings together two trusted brands to enhance the banking experience.",
+      "url": "https://resources.dinersclub.com/home/brac-bank-diners-club-emerald-card",
+      "title": "BRAC Bank collaborates with Diners Club International to launch Emerald Credit Card",
+      "publisher": "resources.dinersclub.com",
+      "published": "2025-06-24",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Post-close (Capital One not mentioned). Quote is Chris Winter, VP International Markets APAC, Discover Network."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Moorwand extended its Diners Club relationship from issuing to UK merchant acquiring, enabling acceptance of Discover, Diners Club and network-alliance cards.",
+      "quote": "By adding acquiring to our collaboration, we're empowering UK businesses with more ways to grow and serve a global customer base",
+      "url": "https://resources.dinersclub.com/home/moorwand-collaboration-expansion",
+      "title": "Moorwand Ltd Expands Its Collaboration with Diners Club International to Include Acquiring",
+      "publisher": "resources.dinersclub.com",
+      "published": "2025-12-19",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Quote is John Vlassiou, COO, Moorwand. Page cites 30 network alliance partner cards."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "UZCARD and Discover Network announced a strategic alliance giving Discover and Diners Club cardholders POS and ATM acceptance across Uzbekistan.",
+      "quote": "Cardholders of Discover Network and Diners Club International can now make purchases and withdraw cash across a broad network of POS terminals and ATMs",
+      "url": "https://resources.dinersclub.com/home/uzcard-and-discover-network-announce-strategic-alliance",
+      "title": "UZCARD and Discover Network Announce Strategic Alliance to Expand Global Payment Access in Uzbekistan",
+      "publisher": "resources.dinersclub.com",
+      "published": "2026-01-09",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Cites 378+ million cards, 190+ countries. Matt Sloan quoted as VP International Markets at Discover."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Sparkasse Pay launched a co-badged Diners Club International / Mastercard credit card in Slovenia.",
+      "quote": "use a single card at Diners Club International and Mastercard acceptance points both in Slovenia and worldwide",
+      "url": "https://resources.dinersclub.com/home/sparkasse-pay-new-credit-card-combines-diners-club-and-mastercard",
+      "title": "Sparkasse Pay introduces a new credit card combining the best of Diners Club International and Mastercard",
+      "publisher": "resources.dinersclub.com",
+      "published": "2026-02-05",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Will Cross quoted for Diners Club International; Mastercard Slovenia director also quoted. Example of co-badge issuing model."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Diners Club hosted the 2026 DCI Pro-Am Classic at Costa Navarino, Greece, the network's recurring hospitality event.",
+      "quote": "tournament play alongside curated dining, social events, and destination experiences",
+      "url": "https://resources.dinersclub.com/home/2026-pro-am-classic",
+      "title": "Diners Club Hosts the 2026 Pro-Am Classic",
+      "publisher": "resources.dinersclub.com",
+      "published": "2026-06-16",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Events: page does not say whether franchisees or issuers attend; a 2025 edition was also posted. No partner training or academy found."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "ISX Financial launched the flykk Diners Club International debit card in EU and UK priority markets, positioning Diners as an issuing scheme for fintech wallets.",
+      "quote": "we strive to offer users an unparalleled payment experience both online and in store",
+      "url": "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+      "title": "ISX Financial and Diners Club International Launch flykk Debit Card: A New Era of Global Payments",
+      "publisher": "resources.dinersclub.com",
+      "published": "2026-09-24",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Quote is Nikogiannis Karantzis, CEO ISX Financial. Matt Sloan quoted as VP international markets EMEA, Discover Global Network. Boilerplate: over 25 alliance partners, 345 million cardholders."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Diners Club describes itself through Discover Global Network boilerplate as the fastest-growing global network measured by alliance count.",
+      "quote": "the fastest growing global payments network by number of network alliances",
+      "url": "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+      "title": "ISX Financial and Diners Club International Launch flykk Debit Card: A New Era of Global Payments",
+      "publisher": "resources.dinersclub.com",
+      "published": "2026-09-24",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Marketing claim; no third-party corroboration fetched."
+    },
+    {
+      "dimension": "support-news",
+      "claim": "Diners Club marked its 75th anniversary with a transaction-linked donation programme to World Central Kitchen, funded per card purchase.",
+      "quote": "donated $750,000 to World Central Kitchen. Every transaction provided a meal",
+      "url": "https://resources.dinersclub.com/home/diners-club-75th-anniversary-world-central-kitchen-donation",
+      "title": "Diners Club International Marks 75th Anniversary with Donation to World Central Kitchen",
+      "publisher": "resources.dinersclub.com",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "webfetch",
+      "note": "Quote seen in the Club Connections listing excerpt; listing showed '4 months ago' (approx. May 2026). Article itself not opened."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Diners Club client-services hours, languages, SLAs, incident/outage communication for issuers or franchisees",
+      "where": "dinersclub.com help-center, businesses, discoverglobalnetwork.com get-started",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Diners Club partner training, academy or certification programme",
+      "where": "dinersclub.com, resources.dinersclub.com listing",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Diners Club press page (dinersclub.com/press) and about-us/who-we-are",
+      "where": "dinersclub.com returned 404 for /press, /business, /about-us/who-we-are",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "discoverglobalnetwork.com/contact-us",
+      "where": "404; contact routes to servicecenter.discoverglobalnetwork.com/onlineform/contact-us",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Capital One press release on completing Discover acquisition",
+      "where": "investor.capitalone.com blocked (Access Denied / timeout); used SEC 8-K instead",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Diners Club-specific regulation, litigation, pricing changes, leadership changes, portal relaunches or outages Sep 2024-Sep 2026",
+      "where": "no web search available this session (budget exhausted); not found on dinersclub.com or resources.dinersclub.com",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Named Diners Club franchisee count or list of countries",
+      "where": "dinersclub.com homepage (country selector only)",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Matt Sloan titled 'VP of Business Development EMEA at Diners Club International' (Pax2pay release, 2025-02-28)",
+      "b": "Matt Sloan titled 'Vice President of International Markets EMEA at Discover' (Nium release, same date) and 'VP international markets, EMEA at Discover Global Network' (flykk, 2026-09-24)",
+      "urls": [
+        "https://resources.dinersclub.com/home/pax2pay-partnership-to-drive-growth-in-travel-payments",
+        "https://resources.dinersclub.com/home/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel"
+      ]
+    },
+    {
+      "a": "Moorwand release (2025-12-19) cites '30 network alliance partner cards'",
+      "b": "flykk release (2026-09-24) cites 'over 25 alliance partners' and 345 million cardholders; UZCARD release (2026-01-09) cites 378+ million cards",
+      "urls": [
+        "https://resources.dinersclub.com/home/moorwand-collaboration-expansion",
+        "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+        "https://resources.dinersclub.com/home/uzcard-and-discover-network-announce-strategic-alliance"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Diners Club Issuer Resources (ServiceNow InfoNet), current issuers only",
+      "url": "https://discover.service-now.com/infonet",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "EASI Portal (Enablement, Acceptance Support Info-center) with Message Center to DGN operations team",
+      "url": "",
+      "named_at": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/"
+    },
+    {
+      "name": "Discover Network Service Center login",
+      "url": "https://servicecenter.discovernetwork.com/loginlogout/exec/loginForm.do",
+      "named_at": "https://www.discoverglobalnetwork.com/"
+    },
+    {
+      "name": "Discover Global Network Contact Us form (public form, not fetched)",
+      "url": "https://servicecenter.discoverglobalnetwork.com/onlineform/contact-us",
+      "named_at": "https://www.dinersclub.com/businesses"
+    },
+    {
+      "name": "Diners Club Online Dispute Resolution tool, failed domestic India transactions (Edge/Chrome only)",
+      "url": "https://odr.dinersclub.com",
+      "named_at": "https://www.dinersclub.com/help-center"
+    },
+    {
+      "name": "Dev Center (developer.discover.com)",
+      "url": "https://developer.discover.com",
+      "named_at": "https://www.dinersclub.com/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://resources.dinersclub.com/",
+      "title": "Club Connections (Diners Club Resources) listing",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/business",
+      "title": "dinersclub.com/business",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+      "title": "ISX Financial and Diners Club International Launch flykk Debit Card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/uzcard-and-discover-network-announce-strategic-alliance",
+      "title": "UZCARD and Discover Network Announce Strategic Alliance",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/moorwand-collaboration-expansion",
+      "title": "Moorwand Ltd Expands Its Collaboration with Diners Club International",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/sparkasse-pay-new-credit-card-combines-diners-club-and-mastercard",
+      "title": "Sparkasse Pay introduces a new credit card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/brac-bank-diners-club-emerald-card",
+      "title": "BRAC Bank collaborates with Diners Club International",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel",
+      "title": "Nium Launches Diners Club International Card",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/pax2pay-partnership-to-drive-growth-in-travel-payments",
+      "title": "Pax2pay Partners with Diners Club International",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/",
+      "title": "Diners Club International homepage",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/help-center",
+      "title": "Help Center",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/businesses",
+      "title": "Businesses",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/press",
+      "title": "Press",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/contact-us/",
+      "title": "DGN Contact Us",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+      "title": "Capital One Completes Acquisition of Discover (press release)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://resources.dinersclub.com/home/2026-pro-am-classic",
+      "title": "Diners Club Hosts the 2026 Pro-Am Classic",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/",
+      "title": "Discover Global Network homepage (link scan)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000927628&type=8-K&dateb=20250601&owner=include&count=10&output=atom",
+      "title": "EDGAR 8-K filing index, Capital One Financial Corp",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/get-started/",
+      "title": "Get Started - Payments Providers",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.dinersclub.com/about-us/who-we-are",
+      "title": "Who We Are",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/0001193125-25-122059-index.htm",
+      "title": "8-K filing index 2025-05-19",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex31.htm",
+      "title": "8-K Exhibit 3.1 (Series O preferred, not relevant)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475d8k.htm",
+      "title": "Form 8-K, Capital One, Item 2.01 completion of Discover acquisition",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

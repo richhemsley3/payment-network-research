@@ -1,0 +1,535 @@
+{
+  "network": "pulse",
+  "dimension": "reach-services-surfaces",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Capital One closed its acquisition of Discover on May 18, 2025, making PULSE Capital One-owned; the 10-K groups PULSE into a 'Global Payment Network' with Discover Network, Diners Club and Network Partners.",
+      "quote": "On May 18, 2025 (the “Closing Date”), Discover Financial Services (“Discover”) merged into Capital One and Discover Bank merged into CONA.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Reach: ownership change. Prior owner Discover Financial Services (2020 to May 2025)."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Capital One's 10-K defines PULSE as an EFT network giving debit issuers ATM access domestically and internationally plus U.S. merchant acceptance.",
+      "quote": "The PULSE Network operates an electronic funds transfer network, providing financial institutions issuing debit cards on the PULSE Network with access to ATMs",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Reach: scope definition; sentence continues 'domestically and internationally, as well as merchant acceptance throughout the U.S. for debit card transactions.'"
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Capital One reports Global Payment Network volume of $401,775 million for 2025 but does not break out PULSE volume separately.",
+      "quote": "Global Payment Network volume includes transactions processed on the Discover Network, PULSE Network, Diners Club and Network Partners.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Reach: volume. Table shows 'Global Payment Network volume (3) 401,775' (USD millions, 2025; N/A prior years). PULSE-only figure not published."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "The 10-K flags that PULSE merchants are largely not contractually committed and that competitor routing strategies may hurt PULSE volume, a Reg II-driven risk statement.",
+      "quote": "merchant and acquirer transaction routing strategies may adversely affect our recently acquired PULSE Network’s business practices, network transaction volume, revenue and prospects",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One / SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Reach/risk. Also: 'small- and mid-size merchants, are not contractually committed to us for any period of time'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE positions itself as an independent debit network operating for more than 45 years, with partner brands Diners Club International and Discover Network plus global Alliance Partners.",
+      "quote": "PULSE ® is a leading debit network that has been delivering exceptional value, choice, and convenience across the payments ecosystem for more than 45 years.",
+      "url": "https://www.pulsenetwork.com/public/about-pulse/",
+      "title": "About PULSE | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: brand family. Page also says 'our partner brands, Diners Club International ® and Discover ® Network, and our global Alliance Partners'. Still headlined 'An independent, forward-thinking debit network'; no Capital One mention on page."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE corporate office is at 1301 McKinney Street, Suite 600, Houston, Texas 77010; phone hours are 8am to 5pm CT weekdays.",
+      "quote": "PULSE Corporate Office 1301 McKinney Street Suite 600 Houston, Texas 77010 (800) 420-2122",
+      "url": "https://www.pulsenetwork.com/public/client-support/",
+      "title": "Client Support | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: HQ. Sales line (800) 543-3695, 'available 8am – 5pm CT, Monday through Friday'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE powers the U.S. and global ATM network for Discover, Diners Club International and Discover Debit cards, giving PULSE ATM acquirers exclusive access to those cards.",
+      "quote": "PULSE powers the U.S. and global ATM network for Discover, Diners Club International, Discover Debit and other international issuers.",
+      "url": "https://www.pulsenetwork.com/public/about-pulse/",
+      "title": "About PULSE | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: ATM acquirers page adds 'exclusive access to Discover ® credit, Discover Debit, and Diners Club International ® cards'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE claims issuer access to more than 400,000 U.S. ATMs; no participant, card or transaction counts are published on the site.",
+      "quote": "Offer cardholders access to over 400,000 ATMs across the U.S. with competitive interchange and transaction fees.",
+      "url": "https://www.pulsenetwork.com/public/atm-network/",
+      "title": "PULSE ATM Network | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: ATMs. Same figure phrased '400,000 ATMs' on atm-acquirers page and 'more than 400,000 domestic ATMs' (for Discover) on discover-debit page; consistent. Discover Debit page separately cites '1.8 million ATMs and cash access locations around the world' for Discover cardholders. Issuer count given only as 'thousands of U.S. financial institution relationships'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE supports both single- and dual-message formats across PULSE PAY Express, e-commerce and mobile; PIN debit with PULSE PAY is the core card-present product.",
+      "quote": "Single and dual-message format capabilities No cardholder verification for transactions of $50 or less Cardholder verification supported for transactions over $50",
+      "url": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+      "title": "PULSE Payments Network | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: message format. Services catalogue on this page: PIN Debit with PULSE PAY, PINless Debit with PULSE PAY Express, Mobile Payments (Apple Pay, Google Pay, Samsung Pay), PULSE E-Commerce, PINless Bill Pay, Account Credit Transfers (P2P/B2C), Fraud Detection & Analytics."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE Side-by-Side (SXS) Token Service is a patented service routing tokenised card-on-file debit over PULSE and other enabled unaffiliated networks, pitched as Reg II CNP compliance.",
+      "quote": "allows tokenized card-on-file (COF) debit transactions to be routed over the PULSE Network and any other SXS Token Service enabled unaffiliated network.",
+      "url": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+      "title": "PULSE Payments Network | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: tokenisation. Benefits list includes 'Provides compliance with Regulation II, card-not-present (CNP) clarification'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE Gateway Services offers single-point access, one message format and single-point settlement to 13 named ATM/POS networks including STAR, NYCE, Interlink, Maestro, PLUS, Cirrus, MoneyPass and Allpoint.",
+      "quote": "Gain access to: AllPoint, Armed Forces Financial Network, Cirrus, Co-Op, Discover ® Network, Electronic Benefits Transfer (EBT), Interlink, Maestro, MoneyPass, NYCE, PAVD, PLUS, and STAR.",
+      "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+      "title": "Debit Processing and Gateways | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: gateway (value-added, direct to issuers/processors). Features: 'Single-point exception item processing', 'Surcharge-free ATM option through MoneyPass', 'Single-point settlement for most networks', 'Transactions are monitored in DebitProtect'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE Debit Solutions provides full-service signature debit processing for Discover Debit, Mastercard and Visa programs, plus on-behalf-of validation services (CVV2/CVC2, AVS, EMV, PIN).",
+      "quote": "We provide full-service processing for Discover ® Debit, Mastercard and Visa debit card programs, all through a single point of access.",
+      "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+      "title": "Debit Processing and Gateways | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: processing (value-added). Also 'Enhanced chargeback services', 'Card production support', 'ATM terminal driving' (issuers page)."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "DebitProtect fraud detection, built on FICO Falcon, is included for all PULSE participants (core); Authorization Blocking is the premium tier with dedicated analyst and custom rules.",
+      "quote": "DebitProtect is included for all PULSE participants.",
+      "url": "https://www.pulsenetwork.com/public/fraud-detection/",
+      "title": "Fraud Detection and Risk Mitigation | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: fraud. 'Technology powered by FICO ® Falcon ® with custom functionality from PULSE'; Authorization Blocking: 'Self-service emergency rules to fight after-hours fraud—without a fee'. Gated: 'Already a client? Register your users.'"
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Partner Support Services bundles Debit Dashboard analytics, DebitProtect, Marketing Hub, full disputes support, and research/advocacy (Debit Issuer Study, Voice of the Client Survey).",
+      "quote": "Debit Dashboard is an interactive platform that provides insight into your transaction data.",
+      "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+      "title": "Partner Support Services | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: data, disputes, marketing. Advocacy groups named: EMVCo, US Payments Forum, US Faster Payments Council, American Transaction Processing Coalition, FIDO Alliance, Merchant Advisory Group."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Discover Debit is a signature debit programme for community banks and credit unions with an all-in program fee, one-page invoice, ABA endorsement and bundled Experian cardholder benefits.",
+      "quote": "Our easy to understand All-in Program Fee structure delivers highly competitive interchange and reduced expenses, allowing you to keep more of your non-interest income.",
+      "url": "https://www.pulsenetwork.com/public/discover-debit/",
+      "title": "Discover Debit | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: issuer licensing programme (direct). 'Endorsed by the American Bankers Association'; 'All Discover Debit issuers receive access to the Marketing Hub'; 'Get a Debit Advantage Analysis' lead form."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "For ATM acquirers PULSE offers the domestic ATM network, access to PULSE issuers plus international partner networks and exclusive Discover/Diners cards, and MoneyPass surcharge-free connectivity.",
+      "quote": "Connect with MoneyPass ® surcharge-free networks and give cardholders free access to cash.",
+      "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+      "title": "ATM Acquirers | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: ATM operator catalogue. Fees not published; 'competitive interchange and transaction fees' only."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Merchant services are PIN debit (PULSE PAY), PINless (PULSE PAY Express), E-Commerce and mobile with routing choice; PULSE claims some merchants saw a 10-point authorization-rate improvement.",
+      "quote": "Working with us, some merchants have seen a 10 point improvement in authorization rates.",
+      "url": "https://www.pulsenetwork.com/public/merchants/",
+      "title": "Merchants | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Services: merchant catalogue, reached via acquirer/processor ('Access through virtually every major processor'). Cross-sells to 'Discover Global Network Acquirers and Merchants'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Support is segmented by partner type with named hotlines and mailboxes: issuer support, Discover Debit issuer support, DebitProtect helpdesk, disputes, processor support and merchant acquirer support.",
+      "quote": "Processors Processor Support 800-420-2122 processorportal@pulsenetwork.com Disputes Helpdesk disputes@pulsenetwork.com Merchants Merchant Acquirer Support 800-420-2122 merchantacquirersales@pulsenetwork.com",
+      "url": "https://www.pulsenetwork.com/public/client-support/",
+      "title": "Client Support | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Surfaces: support. Also 'PULSE Issuer Support 877-247-8573 pulseaccountmanagement@discover.com', 'Discover ® Debit Issuer Support 877-433-3248', 'DebitProtect ® Helpdesk 866-892-3517 debitprotect@pulsenetwork.com'. No public support portal, status page, bulletins or developer centre found."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "The Client Support page names four gated tools behind Log In / Register: PULSE Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange.",
+      "quote": "PULSE Debit Dashboard ® Monitor the performance of your debit program. Log In / Register > ATM List Manager Log In / Register >",
+      "url": "https://www.pulsenetwork.com/public/client-support/",
+      "title": "Client Support | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Surfaces: gated. Text continues 'Marketing Hub Complimentary marketing materials to optimize your debit program. Log In / Register > PULSE Exchange Log In / Register >'; no description for ATM List Manager or PULSE Exchange."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "Registration for the PULSE secure website is form-based and promises a User ID and temporary password within five business days.",
+      "quote": "Complete and submit your registration form Receive a User ID and temporary password within 5 business days",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "title": "Log In | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Surfaces: login/registration. Not readable without an account beyond this page."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE publishes the acceptance mark files and a PULSE Graphic Standards Manual publicly on the Client Support page, without login.",
+      "quote": "PULSE Network is the owner of the PULSE acceptance Mark. Protection of the Mark is vital to all network participants,",
+      "url": "https://www.pulsenetwork.com/public/client-support/",
+      "title": "Client Support | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Surfaces: public brand assets (.ai/.png/.jpeg) for North America/Caribbean and International use; 'follow our PULSE Graphic Standards Manual'."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "The 2026 PULSE Debit Issuer Study, 'The Next Era of Debit', reports debit transactions up 4.6% YoY, CNP at 50% of debit spend and 17% of transactions via mobile wallets.",
+      "quote": "Transactions increased 4.6% year-over-year, with active cardholders making 35.4 transactions monthly.",
+      "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+      "title": "2026 PULSE Debit Issuer Study | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "2026",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Surfaces: research; report download and webinar (Steve Sievert) via form/on24. Industry figures, not PULSE network figures."
+    },
+    {
+      "dimension": "reach-services-surfaces",
+      "claim": "PULSE participates in EMVCo, U.S. Payments Forum, U.S. Faster Payments Council, Secure Technology Alliance, FIDO Alliance, Merchant Advisory Group and W3C as its advocacy alliances.",
+      "quote": "EMVCo U.S. Payments Forum U.S. Faster Payments Council Secure Technology Alliance FIDO Alliance Merchant Advisory Group World Wide Web Consortium (W3C)",
+      "url": "https://www.pulsenetwork.com/public/about-pulse/",
+      "title": "About PULSE | PULSE Network",
+      "publisher": "PULSE Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Reach: alliances/industry bodies. Partner-support page lists a slightly different set (adds American Transaction Processing Coalition, omits STA and W3C)."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "PULSE participant counts (issuers, merchants, cards, transactions) on pulsenetwork.com",
+      "where": "about-pulse, atm-network, issuers, atm-acquirers pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE-only network volume or transaction count in Capital One FY2025 10-K",
+      "where": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Capital One press release 'completes acquisition of Discover' (investor.capitalone.com)",
+      "where": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover returned HTTP 403",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE developer centre, API docs, spec library, status page, operating bulletins",
+      "where": "pulsenetwork.com site map and footer; none linked",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE fee schedule or interchange rates",
+      "where": "pulsenetwork.com public pages",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Reg II unaffiliated-network statement on pulsenetwork.com",
+      "where": "pulse-payments-network page mentions Reg II only for SXS Token Service",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade press on PULSE post-Capital One (Digital Transactions etc.)",
+      "where": "WebSearch budget exhausted this session; no search performed",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "pulsenetwork.com About page still headlines PULSE as 'An independent, forward-thinking debit network' and names partner brands without mentioning Capital One.",
+      "b": "Capital One 10-K (filed 2026-02-19) describes PULSE as a Capital One-owned brand acquired with Discover on May 18, 2025.",
+      "urls": [
+        "https://www.pulsenetwork.com/public/about-pulse/",
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm"
+      ]
+    },
+    {
+      "a": "About page lists advocacy bodies including Secure Technology Alliance and W3C.",
+      "b": "Partner Support Services page lists advocacy bodies including American Transaction Processing Coalition, omitting STA and W3C.",
+      "urls": [
+        "https://www.pulsenetwork.com/public/about-pulse/",
+        "https://www.pulsenetwork.com/public/partner-support-services/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "PULSE secure website Log In / Register (User ID within 5 business days)",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "named_at": "site header; https://www.pulsenetwork.com/pn/pulse/login"
+    },
+    {
+      "name": "PULSE Debit Dashboard (analytics; issuers/processors)",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "named_at": "https://www.pulsenetwork.com/public/client-support/"
+    },
+    {
+      "name": "ATM List Manager (ATM acquirers)",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "named_at": "https://www.pulsenetwork.com/public/client-support/"
+    },
+    {
+      "name": "Marketing Hub (Discover Debit issuers; debitmarketinghub.com)",
+      "url": "https://debitmarketinghub.com",
+      "named_at": "https://www.pulsenetwork.com/public/client-support/ and discover-debit page; domain listed in site allowlist"
+    },
+    {
+      "name": "PULSE Exchange",
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "named_at": "https://www.pulsenetwork.com/public/client-support/"
+    },
+    {
+      "name": "DebitProtect user registration ('Already a client? Register your users')",
+      "url": "https://www.pulsenetwork.com/public/fraud-detection/",
+      "named_at": "fraud-detection page"
+    },
+    {
+      "name": "Debit Issuer Study report download / webinar (form and event.on24.com)",
+      "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+      "named_at": "debit-issuer-study page"
+    },
+    {
+      "name": "Discover Debit Advantage Analysis (schedule form)",
+      "url": "https://www.pulsenetwork.com/public/discover-debit/",
+      "named_at": "discover-debit page"
+    },
+    {
+      "name": "Discover Global Network Service Center (servicecenter.discoverglobalnetwork.com)",
+      "url": "https://servicecenter.discoverglobalnetwork.com",
+      "named_at": "pulsenetwork.com homepage external-link allowlist"
+    },
+    {
+      "name": "Payments & You / Thought Leadership (content.pulsenetwork.com, public)",
+      "url": "https://content.pulsenetwork.com/",
+      "named_at": "homepage footer"
+    },
+    {
+      "name": "ATM Locator (public)",
+      "url": "https://www.pulsenetwork.com/pn/cal/search",
+      "named_at": "site header 'Find ATMs'"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.pulsenetwork.com/",
+      "title": "Home | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/issuers",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/atm-acquirers",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/merchants",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/client-support",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/about-pulse/",
+      "title": "About PULSE | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/issuers/",
+      "title": "Issuers | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+      "title": "ATM Acquirers | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/merchants/",
+      "title": "Merchants | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/client-support/",
+      "title": "Client Support | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/pulse-payments-network/",
+      "title": "PULSE Payments Network | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/atm-network/",
+      "title": "PULSE ATM Network | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+      "title": "Debit Processing and Gateways | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/fraud-detection/",
+      "title": "Fraud Detection and Risk Mitigation | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+      "title": "Partner Support Services | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/discover-debit/",
+      "title": "Discover Debit | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+      "title": "2026 PULSE Debit Issuer Study | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/pn/pulse/login",
+      "title": "Log In | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+      "title": "Capital One completes acquisition of Discover (press release)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/about/",
+      "title": "(404) Discover Global Network",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://efts.sec.gov/LatestSearch/",
+      "title": "EDGAR full-text search",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0000927628.json",
+      "title": "EDGAR submissions: Capital One Financial Corp",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "network": "dgn",
+  "dimension": "news",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "news",
+      "claim": "2025-04-18: The Federal Reserve approved Capital One's application to merge with Discover Financial Services.",
+      "quote": "announced its approval of the application by Capital One Financial Corporation",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "publisher": "Federal Reserve Board",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Regulator press release; same day as OCC approval per Capital One 8-K."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-18: Alongside approval, the Fed entered a consent order with Discover and fined it $100 million for overcharging interchange fees from 2007 through 2023 (the card product misclassification).",
+      "quote": "entered into a consent order with Discover and assessed a fine of $100 million for overcharging certain interchange fees",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "publisher": "Federal Reserve Board",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": "Directly partner-relevant: acquirers and merchants were overcharged; restitution flows via merchant class settlement."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-18: As a condition of approval, Capital One committed to comply with the Fed's action against Discover including remediation requirements.",
+      "quote": "Capital One has committed that it will comply with the Board's action against Discover, including remediation requirements.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "publisher": "Federal Reserve Board",
+      "published": "2025-04-18",
+      "label": "Verified",
+      "fetch": "webfetch",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-18 (reported 2025-04-21): Trade press reported the Fed and OCC approvals and a planned May 18 closing; Mastercard's CEO had earlier said Capital One was public about moving debit volume to the Discover network.",
+      "quote": "They have been public about transferring debit volume to the Discover network. There are no surprises fundamentally",
+      "url": "https://www.digitaltransactions.net/with-the-final-oks-the-capital-one-discover-combo-sets-a-may-18-closing/",
+      "title": "With The Final OKs, the Capital One-Discover Combo Sets a May 18 Closing",
+      "publisher": "Digital Transactions",
+      "published": "2025-04-21",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Quote is Mastercard CEO Michael Miebach as quoted by Digital Transactions (Q4 2024 earnings call). Article also states PULSE had $286 billion volume in 2023 vs Discover Network $264 billion."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-18: Capital One completed its acquisition of Discover Financial Services; the Discover, PULSE and Diners Club International networks joined Capital One's offerings.",
+      "quote": "The Discover®, PULSE®, and Diners Club International® networks will join our suite of offerings.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex991.htm",
+      "title": "Capital One Completes Acquisition of Discover (Exhibit 99.1 to Form 8-K)",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2025-05-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "8-K filed 2025-05-19. Press release states approvals by Fed and OCC on April 18, 2025 and Delaware State Bank Commissioner on December 18, 2024; stockholder votes February 18, 2025."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-18: Capital One said it intends to keep offering Discover-branded credit cards alongside its own cards, and customer accounts were unchanged at closing.",
+      "quote": "Capital One intends to continue to offer Discover credit card products as Discover-branded cards alongside the other consumer cards",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex991.htm",
+      "title": "Capital One Completes Acquisition of Discover (Exhibit 99.1 to Form 8-K)",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2025-05-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05-18: Capital One expanded its board from 12 to 15, appointing three former Discover directors (Maheras, Shepherd, Wong); Michael Shepherd had been Discover's interim CEO.",
+      "quote": "expanded its Board of Directors from 12 to 15 and appointed Thomas G. Maheras, Michael Shepherd, and Jennifer L. Wong",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex991.htm",
+      "title": "Capital One Completes Acquisition of Discover (Exhibit 99.1 to Form 8-K)",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2025-05-18",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-05 (leadership): Jason Hanson leads the Global Payment Network as President and joined Capital One's Executive Committee on completion of the acquisition; he is President and CEO of Discover Network and Chairman of PULSE and Diners Club International.",
+      "quote": "In May of 2025, Jason became a member of the Capital One Executive Committee upon completion of Capital One’s acquisition of Discover Financial Services.",
+      "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+      "title": "Discover Global Payment Network Leadership Team | Discover Network",
+      "publisher": "Discover Global Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page also says he served as EVP of the network July 2023 to May 2025 and sits on the ETA board."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025 (leadership): Post-acquisition network leadership includes Capital One transfers (Josh Atwood, SVP Global Acceptance; Hannes Endhardt, SVP Network Product and Platforms) and an ex-Visa hire, Natalie Kelly, as SVP Head of Network Risk Operations who joined in 2025.",
+      "quote": "Prior to joining the network in 2025, Natalie spent 25 years at Visa where she held various global leadership positions",
+      "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+      "title": "Discover Global Payment Network Leadership Team | Discover Network",
+      "publisher": "Discover Global Network (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Atwood: 'Since joining Capital One in 2019'; Endhardt 'led Card Decisioning platforms at Capital One'. Partner-facing roles: acquirers, PSPs, merchants, U.S./Canada issuing (Jennifer Cruz)."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-04-18 / pre-closing: Discover and DFS Services LLC entered the Federal Reserve consent order on the Card Product Misclassification (disclosed July 19, 2023); the civil money penalty was paid before closing and Capital One and CONA committed to satisfy the order's obligations.",
+      "quote": "On April 18, 2025, Discover and DFS Services LLC entered into a consent order with the Federal Reserve",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K also notes the December 2020 CFPB student-loan order remains in effect until December 2030."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-07-30: A court granted preliminary approval of Discover's settlement of merchant class actions over the Card Product Misclassification; Discover reserved $1.2 billion and the settlement is the primary channel for restitution to merchants, acquirers and intermediaries.",
+      "quote": "The court granted preliminary approval of the settlement on July 30, 2025.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Full sentence seen: 'Discover reserved $ 1.2 billion related to this matter and the class action settlement will be the primary means through which restitution will be paid to adversely affected merchants, merchant acquirers and other intermediaries.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-05-20: The court granted final approval of the merchant class settlement over the Discover Card Product Misclassification.",
+      "quote": "The court granted final approval of the settlement on May 20, 2026.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+      "title": "Capital One Financial Corporation Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-Q says restitution 'is being paid' to affected merchants, acquirers and intermediaries."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-03-13 / 2026-04-30: In the shareholder securities class action over the misclassification, the court allowed an amended complaint on March 13, 2026 and Capital One moved to dismiss on April 30, 2026; an SEC investigation into the matter was also disclosed.",
+      "quote": "On March 13, 2026, the court granted the plaintiff’s request to file an amended complaint. On April 30, 2026, we filed a motion to dismiss",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+      "title": "Capital One Financial Corporation Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K FY2025: 'Discover was also subject to an SEC investigation into the Card Product Misclassification matter. We are cooperating with the investigation.'"
+    },
+    {
+      "dimension": "news",
+      "claim": "By 2026-02-19 (FY2025 10-K): Capital One had substantially completed reissuing legacy Capital One debit cards onto the Global Payment Network, i.e. moving its debit portfolio from Mastercard to Discover/PULSE.",
+      "quote": "The Company has substantially completed the reissuance of legacy Capital One customer debit cards onto the Global Payment Network.",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Major volume event for acquirers, processors and PULSE participants. FY2025 Global Payment Network volume reported as $401,775 million (partial year from May 18, 2025)."
+    },
+    {
+      "dimension": "news",
+      "claim": "Q2 2026: Global Payment Network volume was $189.6 billion in the quarter versus $74.0 billion in Q2 2025 (up 156%), with non-interest income lifted by the debit reissuance onto the network.",
+      "quote": "impacts from the reissuance of legacy Capital One customer debit cards onto the Global Payment Network",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+      "title": "Capital One Financial Corporation Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-07-28",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table seen: 'Global Payment Network volume 189,612 74,014 156' (Q2 2026 vs Q2 2025, $ millions); six months 363,944. Q2 2025 figure covers only May 18 to June 30, 2025."
+    },
+    {
+      "dimension": "news",
+      "claim": "FY2025 10-K risk language names the partner-side risks Capital One now carries: loss of large merchants on Discover Network or PULSE, network participant outages, and non-contracted small merchants who can leave on short notice.",
+      "quote": "may cease to participate in our Discover Network and PULSE Network at any time on short notice",
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Capital One Financial Corporation via SEC EDGAR",
+      "published": "2026-02-19",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Also: 'defaults or risks from bankruptcies, liquidations, restructurings, consolidations and outages by our network participants'."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-13: Payments Dive reported Capital One was eliminating more than 100 Discover application engineer jobs as it integrates the card business.",
+      "quote": "As Capital One integrates the card business, it’s eliminating more than 100 application engineer jobs.",
+      "url": "https://www.paymentsdive.com/search/?q=Capital+One+Discover+debit+network",
+      "title": "Search | Payments Dive (result: Which Discover jobs are disappearing, Lynne Marek)",
+      "publisher": "Payments Dive",
+      "published": "2026-04-13",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Only the search-result listing was read; the article URL could not be resolved."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-07-30: Payments Dive reported Capital One issued a progress report on the $265 billion Community Benefits Plan tied to the Discover deal, with little support from partner charities.",
+      "quote": "The bank issued a report last month on progress related to the $265 billion it had committed to invest",
+      "url": "https://www.paymentsdive.com/search/?q=Capital+One+Discover+debit+network",
+      "title": "Search | Payments Dive (result: Capital One gives update on Discover community investment plan, Tatiana Walk-Morris)",
+      "publisher": "Payments Dive / Banking Dive",
+      "published": "2026-07-30",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Listing-level read only."
+    },
+    {
+      "dimension": "news",
+      "claim": "2026-04-03: Nilson Report data cited by Payments Dive showed U.S. volume on Visa, Mastercard, American Express and Discover cards rose 6.4% in 2025 over 2024.",
+      "quote": "Volume on Visa, Mastercard, American Express and Discover cards issued in the U.S. climbed 6.4% last year over 2024",
+      "url": "https://www.paymentsdive.com/search/?q=Capital+One+Discover+debit+network",
+      "title": "Search | Payments Dive (result: Card volume rises with digital boost, Lynne Marek)",
+      "publisher": "Payments Dive",
+      "published": "2026-04-03",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Listing-level read only."
+    },
+    {
+      "dimension": "news",
+      "claim": "Post-acquisition, Discover's investor-relations press-release page (investorrelations.discover.com) now resolves to Capital One's corporate newsroom, so Discover-era network press releases are no longer served there.",
+      "quote": "Newsroom Capital One's latest news, media contacts, awards and more",
+      "url": "https://investorrelations.discover.com/newsroom/press-releases/default.aspx",
+      "title": "Newsroom & Company Updates | Capital One",
+      "publisher": "Capital One",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Observed redirect on 2026-09-25; the Capital One newsroom listing (Jul to Sep 2026) showed no Discover Global Network, PULSE or Diners Club items."
+    },
+    {
+      "dimension": "news",
+      "claim": "2025-07-10 (predates acquisition, context): Digital Transactions reported the Military Star closed-loop card program would migrate to Discover Global Network in September 2024 as Discover moved to an open network model.",
+      "quote": "the closed-loop network it uses migrates to the Discover Global Network",
+      "url": "https://www.digitaltransactions.net/?s=Discover+network",
+      "title": "Search Results for “Discover network” – Digital Transactions",
+      "publisher": "Digital Transactions",
+      "published": "2024-07-10",
+      "label": "Reported",
+      "fetch": "curl",
+      "note": "Listing snippet only; event dated to September 2024 in the snippet, i.e. the start of the timeline window."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Discover Global Network newsroom / press release archive (2024-2026)",
+      "where": "discoverglobalnetwork.com/newsroom, /en-us/newsroom, /news all 404; sitemap.xml lists no news or press URLs",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "OCC news release for conditional approval of Capital One-Discover (April 18, 2025)",
+      "where": "guessed nr-occ-2025-33 and -34 were unrelated releases; correct URL not located without search",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "FDIC or other regulator consent order on Discover Bank card misclassification",
+      "where": "fdic.gov guessed URL 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Network alliance announcements Sept 2024 to Sept 2026 (JCB, UnionPay, RuPay, Elo, BC Card, NAPAS, Prosa, Verve, Troy, Meeza, mada, Bancomat, Uzcard)",
+      "where": "no DGN newsroom; trade-press search listings showed none; web search budget exhausted",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE-specific news 2025-2026 (pricing, routing, outages, portal changes)",
+      "where": "Digital Transactions 'Pulse Capital One' search returned only 2024-2025 M&A coverage",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Developer portal (developer.discover.com) or partner portal relaunch announcements",
+      "where": "no source located within budget",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Discover Network / PULSE outages 2024-2026",
+      "where": "no source located within budget",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Interchange or network fee pricing changes 2024-2026",
+      "where": "no source located within budget",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Payments Dive article 'Which Discover jobs are disappearing' (2026-04-13) full text",
+      "where": "guessed URL 404; only search listing read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Capital One IR press release page for acquisition completion",
+      "where": "investor.capitalone.com returned Access Denied to WebFetch and curl (bot wall); used SEC 8-K exhibit instead",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "FY2025 10-K defines Global Payment Network as Discover Network, PULSE Network, Diners Club International and Network Partners, collectively.",
+      "b": "Q2 2026 10-Q defines Global Payment Network as 'The Discover Network, PULSE Network and Diners Club, collectively' (Network Partners dropped from the definition).",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Discover Global Network Log In (partner portal link in site header)",
+      "url": "",
+      "named_at": "https://www.discoverglobalnetwork.com/our-network/leadership/"
+    },
+    {
+      "name": "www.capitalonediscover.com (deal information site, not gated)",
+      "url": "https://www.capitalonediscover.com",
+      "named_at": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex991.htm"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20250418a.htm",
+      "title": "Federal Reserve Board announces approval of application by Capital One Financial Corporation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+      "title": "Capital One Completes Acquisition of Discover (IR site)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/newsroom/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.fdic.gov/news/press-releases/2025/fdic-announces-consent-order-discover-bank",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-33.html",
+      "title": "Acting Comptroller remarks (unrelated)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-34.html",
+      "title": "OCC Announces Changes to Organizational Structure (unrelated)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://investorrelations.discover.com/newsroom/press-releases/default.aspx",
+      "title": "Newsroom & Company Updates | Capital One (redirect)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Discover%22&forms=8-K&ciks=0000927628&dateRange=custom&startdt=2025-05-01&enddt=2025-06-30",
+      "title": "EDGAR full-text search (COF 8-K May-June 2025)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Discover+network%22&forms=10-Q,10-K&ciks=0000927628&dateRange=custom&startdt=2025-06-01&enddt=2026-09-25",
+      "title": "EDGAR full-text search (COF 10-K/10-Q)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/tag/discover/",
+      "title": "Page not found – Digital Transactions",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000119312525122059/d934475dex991.htm",
+      "title": "Capital One Completes Acquisition of Discover (Exhibit 99.1)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+      "title": "Capital One Form 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+      "title": "Capital One Form 10-Q Q2 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Discover+network",
+      "title": "Search Results for “Discover network” – Digital Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=Discover+network",
+      "title": "Search | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/sitemap.xml",
+      "title": "discoverglobalnetwork.com sitemap",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/our-network/leadership/",
+      "title": "Discover Global Payment Network Leadership Team | Discover Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Pulse+Capital+One",
+      "title": "Search Results for: Pulse Capital One – Digital Transactions",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=Capital+One+Discover+debit+network",
+      "title": "Search | Payments Dive",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/with-the-final-oks-the-capital-one-discover-combo-sets-a-may-18-closing/",
+      "title": "With The Final OKs, the Capital One-Discover Combo Sets a May 18 Closing",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/which-discover-jobs-are-disappearing-capital-one/",
+      "title": "(404, guessed URL)",
+      "ok": false,
+      "wall": "dead"
+    }
+  ]
+}
