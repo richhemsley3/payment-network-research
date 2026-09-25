@@ -1,0 +1,595 @@
+{
+  "network": "girocard",
+  "dimension": "all",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "reach",
+      "claim": "girocard is the brand under which Deutsche Kreditwirtschaft (DK, the four German banking associations) bundles its debit card scheme and the German ATM system; name and logo date from 2007.",
+      "quote": "Mit der Marke „girocard“ bündelt die Deutsche Kreditwirtschaft ihr eigenständiges, unabhängiges Debitkarten-Bezahlsystem und das Deutsche Geldautomaten-System.",
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/",
+      "title": "girocard: Halbjahreszahlen 2026",
+      "publisher": "EURO Kartensysteme GmbH / girocard.eu",
+      "published": "2026-08-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'With the girocard brand, the German Banking Industry Committee bundles its independent debit card payment system and the German ATM system.' Same boilerplate adds: 'Der Name und das Logo girocard wurden 2007 von der Deutschen Kreditwirtschaft eingeführt.'"
+    },
+    {
+      "dimension": "reach",
+      "claim": "The four DK associations (BVR, BdB, DSGV, VÖB) are the contracting owner of the scheme; the admission contract is signed with them collectively as 'Deutsche Kreditwirtschaft'.",
+      "quote": "Bundesverband der Deutschen Volksbanken und Raiffeisenbanken e. V., Berlin, Bundesverband deutscher Banken e. V., Berlin, Deutsche Sparkassen- und Giroverband e. V., Berlin",
+      "url": "https://www.girocard.eu/wp-content/uploads/Vertrag-ueber-die-Zulassung-als-Netzbetreiber-vom-27.01.2025-1.pdf",
+      "title": "Vertrag über die Zulassung als Netzbetreiber im girocard-System der Deutschen Kreditwirtschaft (Stand: 27. Januar 2025)",
+      "publisher": "Deutsche Kreditwirtschaft via girocard.eu",
+      "published": "2025-01-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "13-page PDF. Fourth signatory listed on the page: 'Bundesverband Öffentlicher Banken Deutschlands e. V., Berlin'. No ownership change since 2020; EURO Kartensysteme took over the operative Scheme Manager role in 2023 (see services)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "EURO Kartensysteme GmbH, the operative scheme manager, is a joint venture of German banks and savings banks headquartered at Solmsstraße 6, 60486 Frankfurt am Main.",
+      "quote": "Als EURO Kartensysteme GmbH sind wir ein Gemeinschaftsunternehmen der deutschen Banken und Sparkassen, mit denen wir eng zusammenarbeiten.",
+      "url": "https://www.eurokartensysteme.de/",
+      "title": "girocard Scheme Management / EURO Kartensysteme GmbH",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'a joint venture of German banks and savings banks'. HQ address appears in girocard.eu footer: 'EURO Kartensysteme GmbH Solmsstraße 6 60486 Frankfurt am Main'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Full-year 2025 volume: roughly 100 million cards, about 8.3 billion transactions and EUR 308 billion turnover.",
+      "quote": "Rund 8,3 Milliarden Transaktionen und 308 Milliarden Euro Umsatz allein im Jahr 2025 machen sie zur mit Abstand beliebtesten Debitkarte in Deutschland.",
+      "url": "https://www.eurokartensysteme.de/",
+      "title": "girocard Scheme Management / EURO Kartensysteme GmbH",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Around 8.3 billion transactions and EUR 308 billion turnover in 2025 alone'. girocard.eu home page repeats '8,3 Milliarden Transaktionen im Jahr 2025' and 'ein Plus von 4,8 % im Vergleich zum Vorjahr'. Kreditwirtschaft page gives the same 8.3bn / EUR 308bn."
+    },
+    {
+      "dimension": "reach",
+      "claim": "H1 2026: 1,397,000 active terminals (+11.1% YoY), about 4.21 billion transactions (+4.0%), EUR 151.9 billion turnover (+0.8%), 92% contactless in June 2026.",
+      "quote": "1.397.000 Terminals stehen Verbraucherinnen und Verbrauchern zum Bezahlen zur Verfügung. Somit steigt die Anzahl der Bezahlpunkte im Vergleich zum Vorjahr um 11,1 Prozent",
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/",
+      "title": "girocard: Halbjahreszahlen 2026",
+      "publisher": "EURO Kartensysteme GmbH / girocard.eu",
+      "published": "2026-08-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: '1,397,000 terminals are available to consumers; the number of payment points rises 11.1 percent year on year' (H1 2025: 1,257,000). Same release: 'rund 4,21 Milliarden Mal' transactions, '151,9 Milliarden Euro' turnover, average ticket EUR 36.12, contactless 'rund 92 Prozent' in June 2026. Terminal growth attributed partly to 'internationalen Anbietern ... die girocard in ihr Portfolio integrieren'. Note the marketing pages still say 'mehr als 1,3 Millionen Terminals' (older figure)."
+    },
+    {
+      "dimension": "reach",
+      "claim": "Marketing pages cite about 100 million cards, 97% penetration among 16-69 year olds and more than 1.3 million terminals.",
+      "quote": "Mit rund 100 Millionen ausgegebenen Karten und einer Akzeptanz an mehr als 1,3 Millionen Terminals eröffnet sie einen breiten Zugang zum deutschen Zahlungsmarkt.",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+      "title": "Bargeldloser Zahlungsverkehr mit der girocard – Systempartner",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'With around 100 million issued cards and acceptance at more than 1.3 million terminals'. Same page: 'Verbreitung von 97 Prozent bei den 16- bis 69-Jährigen'. Handel page: 'im Schnitt stecken durchschnittlich 1,2 girocards in jedem Portemonnaie'. No ATM count published on the pages read; Geldautomatenfinder exists but gives no total."
+    },
+    {
+      "dimension": "reach",
+      "claim": "DK's published list of admitted network operators (Netzbetreiber) as of March 2026 has 18 entries including Adyen, Stripe, Nexi, PAYONE, First Data, Verifone, VR Payment, Elavon and Computop, each with a terminal-ID prefix.",
+      "quote": "Liste der durch die Deutsche Kreditwirtschaft (DK) zugelassenen Netzbetreiber im girocard-System Stand: März 2026",
+      "url": "https://www.girocard.eu/wp-content/uploads/DK_Zulassung_NB_Maerz_2026_pub.pdf",
+      "title": "Liste der durch die Deutsche Kreditwirtschaft (DK) zugelassenen Netzbetreiber im girocard-System (Stand: März 2026)",
+      "publisher": "Deutsche Kreditwirtschaft via girocard.eu",
+      "published": "2026-03-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "2-page PDF. Entries: Adyen N.V. (507), BP Europa SE (710), Computop Paygate (508), First Data GmbH (540), LAVEGO AG (525), Nexi Germany (690), OC Payment (560), PAYONE (600/650/670/680), Shell Deutschland (700), Stripe Technology Europe (513), transact (695), U.S. Bank Europe DAC/Elavon (565), Verifone Payments (612), VÖB-ZVD Processing/Pagateq (582), VR Payment (580), WEAT (740), ZahlungsWERK (516). Count by this reader: 17 companies. Published date approximated from 'Stand: März 2026'."
+    },
+    {
+      "dimension": "reach",
+      "claim": "girocard positions itself as a European scheme under the regulations, so network operators domiciled elsewhere in the EU may acquire girocard, and some already offer acceptance abroad.",
+      "quote": "Da wir von den Regularien ein europäisches Scheme sind, ist es selbstverständlich möglich, dass Sie auch als Netzbetreiber mit Sitz im EU-Ausland girocard akzeptieren können.",
+      "url": "https://www.girocard.eu/fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+      "title": "Häufig gestellte Fragen (B2B) – girocard",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Since under the regulations we are a European scheme, network operators based in other EU countries can of course accept girocard.' Cross-border cardholder use relies on co-badging; FAQ: 'Seit dem 1. Juli 2023 werden in der Regel keine neuen girocards mit Maestro' issued."
+    },
+    {
+      "dimension": "services",
+      "claim": "EURO Kartensysteme has been the operative scheme manager for girocard since 2023, covering product development, sales, scheme administration, marketing/communications and operational security standards.",
+      "quote": "Im Jahr 2023 hat die EURO Kartensysteme (EKS), die vorher schon für die Kommunikation und das Marketing rund um die girocard zuständig war",
+      "url": "https://www.girocard.eu/fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+      "title": "Häufig gestellte Fragen (B2B) – girocard",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'In 2023 EKS, previously responsible for girocard communication and marketing, took over the Scheme Manager role.' Programme name: 'Zukunftsprojekt girocard 4.0'. DK remains 'Governance Authority des girocard-Systems' (eurokartensysteme.de)."
+    },
+    {
+      "dimension": "services",
+      "claim": "Partner-facing feature catalogue on girocard.eu: girocard am POS, Altersverifikation, Kundenbindungsprogramme, Mobile Payment, Vorautorisierung, Sensory Branding, In-App-Zahlungen.",
+      "quote": "girocard-Funktionen girocard am POS Altersverifikation Kundenbindungsprogramme Mobile Payment Vorautorisierung Sensory Branding In App-Zahlungen",
+      "url": "https://www.girocard.eu/",
+      "title": "girocard: die praktische, zuverlässige Zahlungslösung",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Navigation menu under 'Für Unternehmen'. Gloss: POS payment, age verification, loyalty programmes, mobile payment, pre-authorisation, sensory branding, in-app payments. Pre-authorisation and in-app are described as upcoming in the Aug 2026 release: 'Die girocard wird künftig auch in Händler-Apps als Zahlungsoption sowie in Bezahlsituationen, in denen eine Vorautorisierung ... notwendig ist ... zur Verfügung stehen.'"
+    },
+    {
+      "dimension": "services",
+      "claim": "For network operators (acquirer/processor role) the scheme provides technical specifications, certification processes and collaborative feature rollouts; EKS and DK split the roles.",
+      "quote": "EKS und DK unterstützen den Netzbetrieb durch technische Spezifikationen, Zertifizierungsprozesse und die kollaborative Einführung neuer Funktionen.",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+      "title": "Netzbetreiber im girocard-System werden",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'EKS and DK support network operators with technical specifications, certification processes and the collaborative introduction of new functions.' Network operator duties per contract: provide terminals, route transactions to DK-admitted Kopfstellen for authorisation; DK provides cryptographic keys via the OPT procedure."
+    },
+    {
+      "dimension": "services",
+      "claim": "Issuer-side value-added service: EKS is a Mastercard Principal Member and sub-licenses German institutions as Mastercard Affiliates under a sponsorship agreement, with plug-and-play issuing options.",
+      "quote": "Als Principal Member von Mastercard International sind wir zur Unterlizenzierung von Kreditinstituten und anderen Instituten mit entsprechender BaFin-Erlaubnis berechtigt",
+      "url": "https://www.eurokartensysteme.de/de/lizenzmanagement/",
+      "title": "Lizenzmanagement / EURO Kartensysteme GmbH",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'As Principal Member of Mastercard International we are entitled to sub-license credit institutions and other institutions with the relevant BaFin licence.' Affiliates keep free choice of processor; EKS states Principal-level Mastercard fees 'können aufgeteilt' (shared). Additional services: translations of Mastercard Bulletin Announcements; rulebook access at EUROKartensysteme-Regelwerke.de for contract partners."
+    },
+    {
+      "dimension": "services",
+      "claim": "Fraud and risk: EKS Sicherheitsmanagement runs EKS-Net, an online loss-recording and prevention system for over 1,100 banks, administers the Basis-Pool for counterfeit-card loss reimbursement, and produces ECB/Bundesbank fraud statistics.",
+      "quote": "Mit EKS-Net betreibt die EURO Kartensysteme ein onlinegestütztes System zur Erfassung, Bearbeitung, Verwaltung, Auswertung und Prävention der Debitkartenschäden für über 1.100 Banken und Sparkassen.",
+      "url": "https://www.eurokartensysteme.de/de/sicherheitsmanagement/",
+      "title": "Sicherheitsmanagement / EURO Kartensysteme GmbH",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'With EKS-Net EKS operates an online system for recording, processing, managing, evaluating and preventing debit-card losses for over 1,100 banks and savings banks.' Also: Sperr-Notruf 116 116 e.V. membership; kartensicherheit.de portal; annual kartensicherheit.de conference since 2005; training for institutions and law enforcement; optional Co-Branding loss pools (Maestro, VPay) since 2010."
+    },
+    {
+      "dimension": "services",
+      "claim": "In-app payment: on 24 June 2026 the scheme announced girocard as a payment option inside merchant apps under a pilot agreement, with authentication via the issuer's online-banking TAN and merchant whitelisting.",
+      "quote": "Die Pilotierungsvereinbarung ermöglicht Händlerinnen und Händlern sowie Finanzinstituten nun, die Funktionalität zu implementieren und damit den Weg in den Pilotbetrieb zu ebnen.",
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/vom-portemonnaie-in-die-app-girocard-wandert-in-den-digitalen-check-out/",
+      "title": "Vom Portemonnaie in die App: girocard wandert in den digitalen Check-out",
+      "publisher": "EURO Kartensysteme GmbH / girocard.eu",
+      "published": "2026-06-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'The pilot agreement now enables merchants and financial institutions to implement the functionality and pave the way to pilot operation.' Interested parties contact EKS directly for 'Händlerbedingungen, den Sicherheitsanforderungen sowie den nächsten Schritten'."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Partner surfaces named on the Netzbetrieb page: DK Depesche (circulars, login), Styleguide, Muster-Händlerbedingungen, DK-Zulassungsverfahren, Schnittstellenspezifikationen (dk-download.de, login), Testkarten order forms, DK-Regulation portal, Netzbetreiber list, prefix list, sample admission contract, Vorfall-Meldung, Standardisierung.",
+      "quote": "Das Depeschensystem der DK versendet wichtige Rundschreiben an alle Teilnehmenden des girocard-Systems. Nach Login-Beantragung erhalten Sie regelmäßig relevante Informationen",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+      "title": "Netzbetreiber im girocard-System werden",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'DK's dispatch system sends important circulars to all girocard participants; after requesting a login you receive relevant information regularly.' Links seen in page HTML: https://www.dk-depesche.de/login, https://www.dk-download.de/, https://die-dk.de/zahlungsverkehr/zulassungsverfahren/, https://girocard-download.eu/login, PDFs for Netzbetreiber list, prefix list, contract, styleguide."
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "DK Schnittstellenspezifikationen (interface specifications) sit behind a login at dk-download.de with a 'Zugang anfordern' (request access) flow; access is granted to parties with a legitimate interest.",
+      "quote": "Herzlich willkommen auf der Plattform für die DK Schnittstellenspezifikationen.",
+      "url": "https://www.dk-download.de/",
+      "title": "DK Downloads",
+      "publisher": "Deutsche Kreditwirtschaft",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page shows Login / Zugang anfordern / Support links and a username-password form only; nothing readable logged out. Netzbetrieb page: 'Zugriff auf die Schnittstellenspezifikationen erhalten alle Personen und Unternehmen mit einem berechtigten Interesse.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "girocard-download.eu ('girocard Produktentwicklung') is a login-only product-development portal; the public page renders nothing beyond a login form.",
+      "quote": "girocard Produktentwicklung",
+      "url": "https://www.girocard-download.eu/login",
+      "title": "girocard Produktentwicklung",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Curl returned only the page title plus a Vue/Inertia 'Login' bundle (AuthLayout, Login-*.js). Linked from girocard.eu menu 'Produktentwicklung'. The contract also obliges network operators: 'Für das girocard-Portal hat sich der Netzbetreiber zu registrieren.'"
+    },
+    {
+      "dimension": "surfaces",
+      "claim": "Merchant-facing property handel.girocard.eu redirects to girocard.eu/handel/, a provider-finder plus free POS material (stickers, Zahlteller, Wackelkopf) via girocard-shop.de.",
+      "quote": "Hier finden Sie einen passenden Dienstleister, der die Akzeptanz der girocard für Ihr Geschäft ermögli",
+      "url": "https://www.girocard.eu/handel/",
+      "title": "girocard Handel",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Quote truncated at page render boundary; gloss: 'Here you will find a suitable service provider who enables girocard acceptance for your business.' handel.girocard.eu resolved to https://www.girocard.eu/handel/. Shop items listed at 0,00 EUR. Brand styleguide PDFs linked: girocard-Brand-Styleguide_20241023.pdf and girocard-Brand-Styleguide_2026-04-01.pdf (newer edition dated 2026-04-01)."
+    },
+    {
+      "dimension": "join",
+      "claim": "Network operators are admitted by DK on application after proving compliance with the Technical Annex; admission follows the 'GBIC Approval Scheme' published at die-dk.de, and the applicant bears the costs of the procedure and evidence.",
+      "quote": "Die Zulassung wird gemäß dem „GBIC Approval Scheme“ in der jeweils aktuellen Version erteilt.",
+      "url": "https://www.girocard.eu/wp-content/uploads/Vertrag-ueber-die-Zulassung-als-Netzbetreiber-vom-27.01.2025-1.pdf",
+      "title": "Vertrag über die Zulassung als Netzbetreiber im girocard-System der Deutschen Kreditwirtschaft (Stand: 27. Januar 2025)",
+      "publisher": "Deutsche Kreditwirtschaft via girocard.eu",
+      "published": "2025-01-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'Admission is granted under the GBIC Approval Scheme in its current version.' Clause 4 also: 'Die Kosten des Verfahrens und der für die Zulassung notwendigen Nachweise trägt der Netzbetreiber' and DK proposes several suitable expert assessors (Sachverständige). Clause 15: operator must sign a Servicevertrag with the operative scheme manager (currently EKS). Clause 21: either party may terminate with three months' notice to month end. No admission fee amount or timeline is published."
+    },
+    {
+      "dimension": "join",
+      "claim": "Entry route for new network operators, online acquirers and pilot partners is a contact with EKS's 'Markt und Vertrieb' team; pilots proceed via joint implementation, proof to DK, then a time-limited Betriebserlaubnis before regular operation.",
+      "quote": "Ein entsprechender Nachweis über die Umsetzung wird der Deutschen Kreditwirtschaft vorgelegt. Anschließend gibt es eine Betriebserlaubnis für einen zeitlichen Pilotbetrieb.",
+      "url": "https://www.girocard.eu/fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+      "title": "Häufig gestellte Fragen (B2B) – girocard",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Proof of implementation is submitted to DK; then an operating permit is granted for a time-limited pilot.' FAQ: 'Ich möchte Netzbetreiber ... werden: ... Treten Sie bitte mit unserem Team „Markt und Vertrieb“ in Kontakt.' and 'Kann ich Online-Netzbetreiber werden? Ja, das ist problemlos möglich.' No fintech fast-track programme is named."
+    },
+    {
+      "dimension": "developer",
+      "claim": "There is no public developer centre: specifications are login-gated at dk-download.de, and girocard test cards are obtained by ordering forms from four card manufacturers ('Verlage') rather than via a sandbox.",
+      "quote": "In diesem Bereich stehen für Netzbetreiber Bestellformulare für girocard Testkarten bereit. Es gibt vier Verlage, die diese Testkarten bereitstellen",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+      "title": "Netzbetreiber im girocard-System werden",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Order forms for girocard test cards are available here for network operators; four publishers supply these test cards.' No API reference, SDK, OpenAPI, Postman, webhook, base URL, rate limit or changelog was found on any page read; the scheme is terminal/host-to-host spec based (Technischer Anhang, OPT key procedure)."
+    },
+    {
+      "dimension": "pricing",
+      "claim": "Merchant fees are freely negotiated between issuers/network operators and merchants, capped for debit at 0.2% of the transaction (EU Interchange Fee Regulation cap), and no scheme fee schedule is published.",
+      "quote": "Sie ist das kostengünstigste elektronische Bezahlverfahren mit Zahlungsgarantie – und frei verhandelbaren Entgelten, die bei Debitkarten auf maximal 0,2 Prozent",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+      "title": "Bargeldloser Zahlungsverkehr mit der girocard – Systempartner",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Quote ends at render boundary; gloss: 'the cheapest electronic payment method with payment guarantee, with freely negotiable fees capped at 0.2 percent for debit cards.' Contract clause 18 (Entgeltabrechnung): the network operator presents merchants fee offers 'zuvor mit den kartenausgebenden Zahlungsdienstleistern ausgehandelte'. Contract clause 2: DK does not bear line/connection fees. No interchange table, assessment, cross-border or licence fee figures are published."
+    },
+    {
+      "dimension": "rules",
+      "claim": "The public rule set comprises the 13-page sample admission contract for network operators (Stand 27.01.2025) with annexes (Technischer Anhang, Muster-Händlerbedingungen), while the Technical Annex itself is restricted to approved use.",
+      "quote": "Die technischen Spezifikationen gemäß „Technischer Anhang zum Vertrag über die Zulassung als Netzbetreiber im girocard-System der Deutschen Kreditwirtschaft“ (Anlage 2) dürfen ausschließlich",
+      "url": "https://www.girocard.eu/wp-content/uploads/Vertrag-ueber-die-Zulassung-als-Netzbetreiber-vom-27.01.2025-1.pdf",
+      "title": "Vertrag über die Zulassung als Netzbetreiber im girocard-System der Deutschen Kreditwirtschaft (Stand: 27. Januar 2025)",
+      "publisher": "Deutsche Kreditwirtschaft via girocard.eu",
+      "published": "2025-01-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'The technical specifications per the Technical Annex (Annex 2) may only be used' for DK-approved payment applications. Mandates flow via 'DK-Depeschendienst' circulars (clause 13); breach of migration deadlines triggers a 'Vertragsstrafe' (clause 8.2). Data-use restriction: operator may not use girocard transaction data outside the system."
+    },
+    {
+      "dimension": "rules",
+      "claim": "Incident reporting: major incidents must be reported to DK immediately using prescribed forms; DK decides whether to escalate to the Deutsche Bundesbank, and a DK-Regulation portal collects participant data for oversight.",
+      "quote": "Jede Meldung muss unverzüglich und mit den bereitgestellten Formularen erfolgen. Die Meldung erfolgt an die DK. Diese entscheidet, ob eine Meldung gegenüber der Deutschen Bundesbank",
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+      "title": "Netzbetreiber im girocard-System werden",
+      "publisher": "girocard.eu (EURO Kartensysteme GmbH)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Every report must be made immediately using the provided forms, to DK, which decides whether to notify the Deutsche Bundesbank.' DK-Regulation: 'Mit dem Regulationsportal kommt die DK ... ihrer – auch aufsichtsrechtlichen – Verpflichtung nach, Daten von den Systemteilnehmern abzufragen'. No named dispute/chargeback framework was found; girocard is a payment-guarantee debit scheme."
+    },
+    {
+      "dimension": "support",
+      "claim": "Partner support is a contact-form and named-team model (EKS 'Markt und Vertrieb', press office), plus an annual security conference and tailored fraud training; no hours, languages or SLAs are published.",
+      "quote": "Seit 2005 veranstaltet die EURO Kartensysteme die jährlich stattfindende Konferenz „kartensicherheit.de“.",
+      "url": "https://www.eurokartensysteme.de/de/sicherheitsmanagement/",
+      "title": "Sicherheitsmanagement / EURO Kartensysteme GmbH",
+      "publisher": "EURO Kartensysteme GmbH",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Gloss: 'Since 2005 EKS has run the annual kartensicherheit.de conference.' girocard.eu contact form categories: Karteninhaber, Handel, Netzbetrieb, Kreditwirtschaft, Sonstige. Press: presse@eurokartensysteme.de, +49 69 97945-4849. Newsletter via CleverReach on the newsroom page. Absence: no SLA, no support hours, no status page found."
+    },
+    {
+      "dimension": "news",
+      "claim": "Timeline: 27 Jan 2025 new network-operator admission contract edition; Mar 2026 admitted-operator list; 1 Apr 2026 new brand styleguide; 24 Jun 2026 in-app payment pilot agreement; 23 Jul 2026 parking-payment release; 25 Aug 2026 H1 2026 figures; Aug/Sep 2026 new 'Bezahlen made in Germany' campaign.",
+      "quote": "Kartenzahlung im Handel fest verankert: girocard verzeichnet Höchstwerte bei Terminals",
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/",
+      "title": "girocard: Halbjahreszahlen 2026",
+      "publisher": "EURO Kartensysteme GmbH / girocard.eu",
+      "published": "2026-08-25",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Gloss: 'Card payment firmly anchored in retail: girocard records record terminal numbers.' Home page items: 25.08.2026 Halbjahreszahlen 2026; 23.07.2026 Kein Kleingeld mehr fürs Parken; 24.06.2026 Vom Portemonnaie in die App; blog 27.08.2026 'Deutsche Zahlungsinfrastruktur im Fokus der neuen girocard-Kampagne'. No M&A, ownership change, litigation, pricing change or outage found for the window on pages read; earlier events (2023 EKS scheme-manager role; Maestro co-badge phase-out from 1 Jul 2023) predate the window."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "girocard published interchange fee schedule with effective dates and categories",
+      "where": "girocard.eu Systempartner, Handel, B2B FAQ; eurokartensysteme.de; admission contract PDF",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "network operator admission fee, licence fee or certification timeline",
+      "where": "Vertrag über die Zulassung als Netzbetreiber (27.01.2025), Netzbetrieb page, B2B FAQ",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "GBIC Approval Scheme document and DK-Zulassungsverfahren page",
+      "where": "https://die-dk.de/zahlungsverkehr/zulassungsverfahren/ (403 bot wall)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "published ATM count for the Deutsche Geldautomaten-System",
+      "where": "girocard.eu home, Kreditwirtschaft, press releases read",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Bundesbank payment statistics page for girocard (search budget exhausted, not fetched)",
+      "where": "bundesbank.de not fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "public API reference, SDKs, sandbox, OpenAPI, webhooks, versioning, changelog for girocard",
+      "where": "girocard.eu, dk-download.de (login only), girocard-download.eu (login only)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "support hours, languages, SLAs, status page, incident-communication channel for partners",
+      "where": "girocard.eu Kontakt/Netzbetrieb, eurokartensysteme.de",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "named dispute or chargeback framework for girocard",
+      "where": "admission contract PDF, B2B FAQ",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "girocard.eu/funktionen and /b2b-faq and /medien/newsroom/pressemitteilungen/ index pages",
+      "where": "returned HTTP 404; live equivalents are /fuer-unternehmen/girocard-funktionen/ and /fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "regulator fee findings specific to girocard (EC, Bundeskartellamt) in the last 24 months",
+      "where": "not searched (WebSearch budget exhausted); only the 0.2% IFR debit cap is cited on girocard.eu",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "B2B FAQ (undated) states merchant-app integration of girocard is 'Aktuell ist dies leider noch nicht möglich' and loyalty-programme integration likewise not yet possible.",
+      "b": "Press release of 24 June 2026 announces a Pilotierungsvereinbarung enabling merchants and institutions to implement girocard in-app payments; H1 2026 release cites 'Verknüpfung mit Kundenbindungsprogrammen'.",
+      "urls": [
+        "https://www.girocard.eu/fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+        "https://www.girocard.eu/medien/newsroom/pressemitteilungen/vom-portemonnaie-in-die-app-girocard-wandert-in-den-digitalen-check-out/"
+      ]
+    },
+    {
+      "a": "Systempartner and Kreditwirtschaft pages cite 'mehr als 1,3 Millionen Terminals' / 'aktiven Terminals bei 1,3 Millionen'.",
+      "b": "H1 2026 press release (25 Aug 2026) cites 1,397,000 active terminals; the marketing figure is stale rather than wrong.",
+      "urls": [
+        "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+        "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/"
+      ]
+    },
+    {
+      "a": "Netzbetrieb page links the brand styleguide as girocard-Brand-Styleguide_20241023.pdf (2024-10-23 edition).",
+      "b": "The same page and the home page also link girocard-Brand-Styleguide_2026-04-01.pdf (2026-04-01 edition); both are live.",
+      "urls": [
+        "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+        "https://www.girocard.eu/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "girocard Produktentwicklung (girocard-download.eu)",
+      "url": "https://www.girocard-download.eu/login",
+      "named_at": "girocard.eu main menu 'Produktentwicklung'; Netzbetrieb page"
+    },
+    {
+      "name": "DK Depesche (DK-Depeschendienst circulars)",
+      "url": "https://www.dk-depesche.de/login",
+      "named_at": "Netzbetrieb page 'DK Depesche'; admission contract clause 13"
+    },
+    {
+      "name": "DK Schnittstellenspezifikationen (DK Downloads)",
+      "url": "https://www.dk-download.de/",
+      "named_at": "Netzbetrieb page 'Schnittstellenspezifikationen'"
+    },
+    {
+      "name": "DK-Zulassungsverfahren website",
+      "url": "https://die-dk.de/zahlungsverkehr/zulassungsverfahren/",
+      "named_at": "Netzbetrieb page 'DK-Zulassungsverfahren'; admission contract clause 4 (GBIC Approval Scheme)"
+    },
+    {
+      "name": "DK-Regulation portal (Regulationsportal)",
+      "url": "",
+      "named_at": "Netzbetrieb page 'DK-Regulation' (access on request to EKS)"
+    },
+    {
+      "name": "girocard-Portal (network operator registration)",
+      "url": "",
+      "named_at": "Admission contract clause 12/13: 'Für das girocard-Portal hat sich der Netzbetreiber zu registrieren'"
+    },
+    {
+      "name": "EUROKartensysteme-Regelwerke.de (Mastercard rulebooks for EKS contract partners)",
+      "url": "",
+      "named_at": "eurokartensysteme.de/de/lizenzmanagement/"
+    },
+    {
+      "name": "EKS-Net (online debit-card loss system for 1,100+ banks)",
+      "url": "",
+      "named_at": "eurokartensysteme.de/de/sicherheitsmanagement/"
+    },
+    {
+      "name": "Testkarten order forms (four Verlage)",
+      "url": "",
+      "named_at": "Netzbetrieb page 'Testkarten'"
+    },
+    {
+      "name": "girocard newsletter (CleverReach)",
+      "url": "https://www.girocard.eu/medien/newsroom/",
+      "named_at": "Newsroom page"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.girocard.eu/systempartner/",
+      "title": "Systempartner – girocard (redirects to /fuer-unternehmen/systempartner/)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/funktionen/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.girocard.eu/",
+      "title": "girocard: die praktische, zuverlässige Zahlungslösung",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.eurokartensysteme.de/",
+      "title": "girocard Scheme Management / EURO Kartensysteme GmbH",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/",
+      "title": "Bargeldloser Zahlungsverkehr mit der girocard – Systempartner",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/medien/newsroom/",
+      "title": "Newsroom - girocard",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://handel.girocard.eu/",
+      "title": "girocard Handel (redirects to girocard.eu/handel/)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard-download.eu/login",
+      "title": "girocard Produktentwicklung",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.eurokartensysteme.de/de/zulassung/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.girocard.eu/b2b-faq/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/halbjahreszahlen-2026/",
+      "title": "girocard: Halbjahreszahlen 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/netzbetrieb/",
+      "title": "Netzbetreiber im girocard-System werden",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/fuer-unternehmen/systempartner/kreditwirtschaft/",
+      "title": "girocard: Erfolgsmodell im deutschen Zahlungsverkehr",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/fuer-unternehmen/haeufig-gestellte-fragen-b2b/",
+      "title": "Häufig gestellte Fragen (B2B) – girocard",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.eurokartensysteme.de/de/lizenzmanagement/",
+      "title": "Lizenzmanagement / EURO Kartensysteme GmbH",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.eurokartensysteme.de/de/sicherheitsmanagement/",
+      "title": "Sicherheitsmanagement / EURO Kartensysteme GmbH",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/vom-portemonnaie-in-die-app-girocard-wandert-in-den-digitalen-check-out/",
+      "title": "Vom Portemonnaie in die App: girocard wandert in den digitalen Check-out",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://digital.girocard.eu",
+      "title": "Digital – girocard (redirects to girocard.eu/digital/)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/medien/newsroom/pressemitteilungen/",
+      "title": "404",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.girocard.eu/wp-content/uploads/DK_Zulassung_NB_Maerz_2026_pub.pdf",
+      "title": "Liste der durch die DK zugelassenen Netzbetreiber im girocard-System (Stand: März 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.girocard.eu/wp-content/uploads/Vertrag-ueber-die-Zulassung-als-Netzbetreiber-vom-27.01.2025-1.pdf",
+      "title": "Vertrag über die Zulassung als Netzbetreiber im girocard-System der Deutschen Kreditwirtschaft (27.01.2025)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://die-dk.de/zahlungsverkehr/zulassungsverfahren/",
+      "title": "Just a moment... (Cloudflare challenge, HTTP 403)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.dk-download.de/",
+      "title": "DK Downloads",
+      "ok": true,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.dk-depesche.de/login",
+      "title": "DK Depesche",
+      "ok": true,
+      "wall": "login"
+    }
+  ]
+}

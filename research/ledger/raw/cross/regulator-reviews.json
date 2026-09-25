@@ -1,0 +1,494 @@
+{
+  "network": "cross",
+  "dimension": "regulator-reviews",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The PSR's final report (6 March 2025) found Mastercard and Visa raised core scheme and processing fees to UK acquirers by at least 25% since 2017, costing businesses at least £170m a year.",
+      "quote": "increased their core scheme and processing fees to acquirers by at least 25% since 2017, costing businesses at least £170million extra per year",
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The PSR final report also found poor fee information imposed costs on acquirers and merchants, including small retailers.",
+      "quote": "a lack of easy-to-understand fee information has led to costs for acquirers and merchants, including small retailers.",
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2025-03-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The PSR's headline finding is that Mastercard and Visa do not face competition in scheme and processing services, with fees rising and unclear pricing for businesses.",
+      "quote": "Mastercard and Visa don’t face competition with fees rising and a lack of clarity on how much businesses will have to pay",
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "Market review into card scheme and processing fees",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Page shows 'Last updated: July 2026'."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "On 30 July 2026 the PSR gave two final specific directions (SD22, SD23) to Mastercard and Visa implementing the ITC remedy and the Pricing Governance remedy.",
+      "quote": "We are giving two final specific directions to Mastercard and Visa (the schemes) to implement the Information, transparency and complexity (ITC) remedy",
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PS26/1: Market review of card scheme and processing fees: Final decision",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The ITC Direction requires the schemes to give acquirers clearer, more detailed fee information including data to reconcile fees with the transactions that generated them.",
+      "quote": "provide acquirers with clearer and more detailed information about the scheme and processing fees they are charged, including information to help reconcile fees",
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PS26/1: Market review of card scheme and processing fees: Final decision",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "Pricing Governance Direction applies to relevant fee decisions from end November 2026; substantive ITC requirements apply from end July 2027.",
+      "quote": "Relevant fee decisions must comply with the Pricing Governance Direction from end of November 2026",
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PS26/1: Market review of card scheme and processing fees: Final decision",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Same page: 'the substantive requirements of the ITC Direction apply from end of July 2027'. PSR revised materiality thresholds after consultation; SD22 page lists an Aug 2026 decision on requests to extend the ITC Standard B implementation period."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "Specific Direction 22 scopes the ITC remedy to scheme and processing fees on card transactions initiated from a UK point of sale, covering existing, new and modified fees.",
+      "quote": "modified scheme and processing fees applicable to card transactions initiated from a UK point of sale",
+      "url": "https://www.psr.org.uk/publications/legal-directions-and-decisions/specific-direction-22/",
+      "title": "Specific direction 22",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-07-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "A third PSR remedy, regulatory financial reporting, went to consultation on 21 May 2026 (CP26/1), requiring a UK card-operations P&L from Mastercard and Visa because margins looked higher than expected under competition.",
+      "quote": "the PSR found evidence consistent with a finding that the schemes’ profit margins are higher than expected in competitive markets.",
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-consult-on-uk-profitability-reporting-for-mastercard-and-visa/",
+      "title": "PSR to consult on UK profitability reporting for Mastercard and Visa",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-05-21",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "PSR MD David Geale said scheme fee increases had not been shown to reflect underlying costs.",
+      "quote": "Scheme fees have risen substantially in recent years, and we have not seen clear evidence that these increases reflect underlying costs.",
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-consult-on-uk-profitability-reporting-for-mastercard-and-visa/",
+      "title": "PSR to consult on UK profitability reporting for Mastercard and Visa",
+      "publisher": "Payment Systems Regulator (UK)",
+      "published": "2026-05-21",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa",
+        "amex"
+      ],
+      "claim": "The RBA review ran in three phases: Issues Paper (Oct 2024), Consultation Paper (Jul 2025), Conclusions Paper (Mar 2026), with an issuer cost study in Aug 2025 and FAQs in Jul 2026.",
+      "quote": "Phase 3 – release of a Conclusions Paper to set out the PSB’s final decisions and package of policy reforms.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/about.html",
+      "title": "About Review of Retail Payments Regulation",
+      "publisher": "Reserve Bank of Australia",
+      "published": "n.d.",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The RBA decided surcharging on eftpos, Mastercard and Visa debit and credit cards should end from 1 October 2026, by lifting the prohibition on scheme no-surcharge rules.",
+      "quote": "The RBA will lift the prohibition on ‘no-surcharge’ rules for all currently designated card networks (eftpos, Mastercard and Visa).",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/executive-summary.html",
+      "title": "Executive Summary – Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Amex (three-party) is not designated; merchants' ability to surcharge Amex deferred to a mid-2026 review under the amended PSRA."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The RBA expects the new and reduced interchange caps to lower merchants' wholesale card costs by around A$910 million a year, mainly benefiting small merchants.",
+      "quote": "lowering wholesale card payment costs for merchants by around $910 million per year through reducing interchange caps on domestic-issued cards",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/executive-summary.html",
+      "title": "Executive Summary – Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa",
+        "amex"
+      ],
+      "claim": "RBA final interchange settings: debit cap lowered to 8 cents (or 0.16%), consumer credit cap to 0.3% with benchmark abolished, commercial credit kept at 0.8%, and new caps on foreign-issued cards.",
+      "quote": "lower the cap on domestic-issued consumer credit card interchange to 0.3 per cent and abolish the benchmark",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/interchange-fees.html",
+      "title": "3. Interchange Fees – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Separate commercial cap kept explicitly to preserve competitive tension with American Express, the largest commercial issuer. Foreign-card cap effective 1 April 2027; domestic changes 1 October 2026. Page updated 19 June 2026 with a factual correction."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "RBA data: acquirers paid A$992m net scheme fees on domestic transactions in 2024/25 (10.5bp, 17.8% of MSF), plus A$514m on cross-border acquiring at 158bp.",
+      "quote": "Scheme fees paid by acquirers tend to account for around one-sixth of Australian merchants’ domestic-issued card transaction costs",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+      "title": "4. Scheme Fees – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Table 9 covers fees paid to eftpos, Mastercard and Visa combined."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The RBA concluded scheme fees, especially on credit, are not effectively competitively constrained; LCR plus eftpos has disciplined debit scheme fees while credit has no equivalent mechanism.",
+      "quote": "there is no equivalent mechanism to encourage competition between the international card networks for credit card transactions.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+      "title": "4. Scheme Fees – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "Instead of a scheme fee cap, the RBA set an expectation that networks publish 'Scheme Fee Roadmaps' by 1 April 2027 covering six-month notice, fee classification, machine-readable invoices and error remediation.",
+      "quote": "The PSB expects card networks to publish these Roadmaps and make them available to the RBA for publication on its website by 1 April 2027.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+      "title": "4. Scheme Fees – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Box D principles: 6-month minimum notice for fee changes and no re-change for a further 6 months; mandatory/optional/behavioural classification; machine-readable invoices at no cost; remediation for all affected participants; clear opt-out for optional fees."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "Participants told the RBA scheme fee complexity is deliberate and that strict confidentiality terms stop them comparing pricing or even understanding their own bills; the RBA kept price caps and credit LCR as escalation options.",
+      "quote": "Most submissions received by the RBA noted exceptionally strict confidentiality terms and information restrictions in their contractual arrangements with the card networks",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+      "title": "4. Scheme Fees – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Escalation options named: a standard on scheme fee practices, scheme fee price caps, dual-network credit cards and LCR for credit."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The RBA kept the 'expectations' approach to in-person least-cost routing rather than a mandate; 84% of merchants had LCR enabled by December 2025, and large issuers must keep issuing dual-network debit cards.",
+      "quote": "The share of merchants with LCR enabled for in-person transactions had risen from 50 per cent in June 2022 to 84 per cent",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/least-cost-routing-of-debit-card-transactions.html",
+      "title": "7. Least-cost Routing of Debit Card Transactions – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Issuers above 1% of debit value expected to provision both networks in all form factors; LCR for online/mobile wallets deferred to a mid-2026 consultation."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "LCR has driven dual-network debit interchange to around 6 cents, below the 8-cent benchmark; one network argued the status quo entrenches eftpos as the default on the back of debit cards.",
+      "quote": "A network stated that the status quo entrenches eftpos as the default network on the back of debit cards.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/least-cost-routing-of-debit-card-transactions.html",
+      "title": "7. Least-cost Routing of Debit Card Transactions – Conclusions Paper",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Stakeholder view reported in the RBA paper; network not named."
+    },
+    {
+      "dimension": "regulator-reviews",
+      "networks": [
+        "eftpos",
+        "mastercard",
+        "visa"
+      ],
+      "claim": "The RBA will require eftpos, Mastercard, Visa and large acquirers to publish the fees they charge, and acquirers to publish merchant service fees and a measure of interchange pass-through.",
+      "quote": "eftpos, Mastercard, Visa and large acquirers will have to publish the fees they charge, which will help businesses check how their fees compare.",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "In Brief: Merchant Card Payment Costs and Surcharging – March 2026",
+      "publisher": "Reserve Bank of Australia",
+      "published": "2026-03-31",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Some transparency measures take effect 1 April 2027."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Trade press coverage (Payments Dive, Finextra, Digital Transactions) of PSR SD22/SD23 and RBA conclusions",
+      "where": "WebSearch budget exhausted for this session; no search possible",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard and Visa public responses to PSR CP25/1 remedies consultation",
+      "where": "psr.org.uk (not fetched within page budget)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Named network submissions to RBA July 2025 consultation (Visa, Mastercard, eftpos/AP+ positions verbatim)",
+      "where": "rba.gov.au 2025-07/submissions (not fetched within page budget)",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PSR final report PDF full text and annex 10 profitability figures",
+      "where": "psr.org.uk final report page lists annexes; PDFs not read",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "RBA Consultation Paper (July 2025) Option 4 expected card networks to submit a plan 'by September 2026'",
+      "b": "RBA Conclusions Paper (March 2026) instead expects published Scheme Fee Roadmaps by 1 April 2027",
+      "urls": [
+        "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+        "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html"
+      ]
+    },
+    {
+      "a": "RBA reports a card network saying MSF data show competition is functioning effectively",
+      "b": "PSB concludes scheme fees, particularly for credit, are not subject to effective competitive constraints",
+      "urls": [
+        "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+        "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "Card network 'online platforms' for participant fee communications (cited by a network in defence of the status quo)",
+      "url": "",
+      "named_at": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html"
+    },
+    {
+      "name": "Confidential version of Scheme Fee Roadmap to be provided to the RBA (public and non-public versions expected)",
+      "url": "",
+      "named_at": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html"
+    },
+    {
+      "name": "RBA general enquiry page for underlying graph data on request",
+      "url": "https://www.rba.gov.au/general-enquiry/",
+      "named_at": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-of-card-scheme-and-processing-fees/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22-1-10-market-review-of-scheme-and-processing-fees-final-report/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/",
+      "title": "Market reviews | PSR",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-card-scheme-and-processing-fees/",
+      "title": "Market review into card scheme and processing fees",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/market-reviews/mr22110-market-review-of-card-scheme-and-processing-fees-final-report/",
+      "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/policy-statements/ps261-market-review-of-card-scheme-and-processing-fees-final-decision-information-transparency-and-complexity-remedy-pricing-governance-remedy/",
+      "title": "PS26/1: Market review of card scheme and processing fees: Final decision",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/publications/legal-directions-and-decisions/specific-direction-22/",
+      "title": "Specific direction 22",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.psr.org.uk/news-and-updates/latest-news/news/psr-to-consult-on-uk-profitability-reporting-for-mastercard-and-visa/",
+      "title": "PSR to consult on UK profitability reporting for Mastercard and Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/",
+      "title": "(redirect to about.html)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/about.html",
+      "title": "About Review of Retail Payments Regulation",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/",
+      "title": "In Brief: Merchant Card Payment Costs and Surcharging – March 2026",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/",
+      "title": "Conclusions Paper – Contents",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/executive-summary.html",
+      "title": "Executive Summary – Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+      "title": "4. Scheme Fees – Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/least-cost-routing-of-debit-card-transactions.html",
+      "title": "7. Least-cost Routing of Debit Card Transactions – Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/interchange-fees.html",
+      "title": "3. Interchange Fees – Conclusions Paper",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

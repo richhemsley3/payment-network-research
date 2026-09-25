@@ -1,0 +1,627 @@
+{
+  "network": "cross",
+  "dimension": "timeline-global",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa announced a slate of new client-facing services on April 3, 2025, opening the partner-relevant window for its 2025 product cycle.",
+      "quote": "03/04/2025 Visa Unveils Slate of New Services to Power Client Growth",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-04-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa announced its AI-commerce era (Visa Intelligent Commerce) at its April 30, 2025 global product drop.",
+      "quote": "30/04/2025 The Future is Here: Visa Announces New Era of Commerce Featuring AI",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-04-30",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa named Antony Cahill CEO of its European operations on May 27, 2025.",
+      "quote": "27/05/2025 Visa Appoints Antony Cahill as Chief Executive Officer of European Operations",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-05-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa appointed Andrew Torre President of Value-Added Services on June 3, 2025, a leadership change relevant to issuers and acquirers buying VAS.",
+      "quote": "03/06/2025 Visa Appoints Andrew Torre as President of Value-Added Services",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-06-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "ICBA Payments and Visa renewed their community-bank partnership on July 16, 2025.",
+      "quote": "16/07/2025 ICBA Payments and Visa Renew Partnership Supporting Community Bank Payments",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-07-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa committed to host its Visa Payments Forum in San Francisco through 2030 (announced August 27, 2025).",
+      "quote": "27/08/2025 Visa to Host Visa Payments Forum in San Francisco through 2030",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-08-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa made its VCS Hub commercial-payments platform generally available on September 29, 2025.",
+      "quote": "29/09/2025 Visa Announces General Availability of VCS Hub; Ushers in a New Era of AI-Powered Commercial Payments Innovation",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-09-29",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa introduced the Trusted Agent Protocol for AI commerce on October 14, 2025.",
+      "quote": "14/10/2025 Visa Introduces Trusted Agent Protocol: An Ecosystem-Led Framework for AI Commerce",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-10-14",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa launched stablecoin settlement in the United States on December 16, 2025.",
+      "quote": "16/12/2025 Visa Launches Stablecoin Settlement in the United States, Marking a Breakthrough for Stablecoin Integration",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2025-12-16",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa",
+        "unionpay"
+      ],
+      "claim": "Visa Direct and UnionPay International announced on February 3, 2026 an extension of money movement to cards in mainland China.",
+      "quote": "03/02/2026 Visa Direct and UnionPay International Will Extend Global Money Movement Network to Billions of Cards in Chinese Mainland",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-02-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa completed its acquisition of Argentine processor Prisma Medios de Pago and Newpay on February 27, 2026, eight days after announcing it.",
+      "quote": "27/02/2026 Visa Completes Acquisition of Prisma and Newpay",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-02-27",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Listing also shows '19/02/2026 Visa to Acquire Prisma Medios de Pago and Newpay in Argentina'."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa unveiled new dispute-resolution services on April 1, 2026, relevant to issuers, acquirers and merchants handling chargebacks.",
+      "quote": "01/04/2026 Visa Unveils New Services to Modernize Dispute Resolution Process",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-04-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa announced a partnership with OpenAI for AI commerce on June 10, 2026.",
+      "quote": "10/06/2026 Visa Partners with OpenAI to Power the Next Generation of AI Commerce",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-06-10",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa announced on August 3, 2026 that it would acquire behavioural-biometrics vendor BioCatch.",
+      "quote": "03/08/2026 Visa to Acquire BioCatch",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-08-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa"
+      ],
+      "claim": "Visa launched enhanced A2A Protect fraud tools for financial institutions on September 1, 2026.",
+      "quote": "01/09/2026 Visa Launches Enhanced A2A Protect Innovations to Help Financial Institutions Stop Fraud Before Money Leaves Accounts",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "publisher": "Visa Inc.",
+      "published": "2026-09-01",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Headline and date read verbatim from Visa's newsroom listing; the release body was not opened."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "In November 2025 Visa, Mastercard and the merchant Rules Relief Class reached a revised U.S. MDL settlement, after the 2024 settlement was rejected by the court; court approval was still pending at filing.",
+      "quote": "In November 2025, the parties reached a revised settlement agreement that, if approved by the court, would resolve the litigation.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "10-K also states the 2024 settlement 'was subsequently denied by the court'."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard",
+        "visa"
+      ],
+      "claim": "Opt-out merchant damages trials in the U.S. interchange MDL were scheduled for April 2026 (Circle K) and September 2026 (six other merchants).",
+      "quote": "A trial involving Circle K Stores is scheduled to commence in April 2026 and a trial involving the remaining six opt-out merchants",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Block and Intuit form a second opt-out group also seeking damages as payment facilitators."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "Mastercard's accrued liability for the U.S. MDL litigation rose to $637 million at year-end 2025 from $559 million a year earlier.",
+      "quote": "Mastercard accrued a liability of $ 637 million and $ 559 million, respectively, for the U.S. MDL Litigation Cases.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard",
+        "visa",
+        "pulse",
+        "star",
+        "accel",
+        "nyce",
+        "shazam",
+        "interlink",
+        "maestro"
+      ],
+      "claim": "In August and September 2025 two federal district courts issued conflicting rulings on the Regulation II debit interchange cap; the cap remains in force pending litigation.",
+      "quote": "One court vacated the interchange cap while the other upheld it. The interchange cap remains in effect while the litigation continues.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Directly affects every U.S. debit network's issuer economics."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "Mastercard launched Agent Pay in 2025, enabled all U.S. cardholders during 2025, and scheduled a global launch for early 2026.",
+      "quote": "In 2025, we enabled all U.S.-based Mastercard cardholders to participate in this program, with a global launch scheduled for early 2026.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "Mastercard launched One Credential and World Legend Mastercard in 2025 as issuer products aimed at top-of-wallet and affluent segments.",
+      "quote": "World Legend™ Mastercard, our most prestigious consumer card that is available to issuers globally",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "Mastercard launched Mastercard Threat Intelligence in 2025, built on the Recorded Future acquisition, as a new fraud service for partners.",
+      "quote": "In 2025, we launched Mastercard Threat Intelligence, which combines Mastercard's payment expertise and global network visibility with Recorded Future's",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "A 2023 DOJ Antitrust Division civil investigative demand into Mastercard's U.S. debit program remained open at the February 2026 10-K filing.",
+      "quote": "The CID focuses on Mastercard's U.S. debit program and competition with other payment networks and technologies.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Parallel to the DOJ's September 2024 suit against Visa, which could not be fetched (see not_found)."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard"
+      ],
+      "claim": "A 2024 European Commission information request into Mastercard's acquirer network fees was still open at the February 2026 10-K filing.",
+      "quote": "The request focuses on Mastercard's practices regarding network fees related to acquirers.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": ""
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "mastercard",
+        "dgn",
+        "amex",
+        "unionpay"
+      ],
+      "claim": "Mastercard's 10-K still names Discover as a competing general-purpose network without noting Capital One ownership; issuers may issue Amex-, UnionPay- or Discover-branded cards in a four-party model.",
+      "quote": "a number of our customers issue American Express-, China UnionPay- and/or Discover-branded payment cards in a manner consistent with a four-party system.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Mastercard Incorporated via SEC EDGAR",
+      "published": "2026-02-11",
+      "label": "Verified",
+      "fetch": "curl",
+      "note": "Postdates Capital One's May 18, 2025 acquisition of Discover."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "claim": "On September 22, 2026 a federal court ruling re-opened the fight over whether interchange applies to tips and tax, per Digital Transactions on September 24, 2026.",
+      "quote": "A federal court ruling issued Tuesday has re-ignited a longstanding dispute over the question whether tips and tax can be",
+      "url": "https://www.digitaltransactions.net/",
+      "title": "Digital Transactions (home page)",
+      "publisher": "Digital Transactions",
+      "published": "2026-09-24",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Deck seen on the home page; article body and author not opened. Headline: 'A Judge's Ruling Re-Ignites a Fierce Battle Over Interchange'."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "claim": "Digital Transactions reports merchants lodged multiple objections to the proposed interchange settlement and that a deal 'looks no closer'.",
+      "quote": "Merchants Level Multiple Objections to a Proposed Interchange Agreement",
+      "url": "https://www.digitaltransactions.net/",
+      "title": "Digital Transactions (home page)",
+      "publisher": "Digital Transactions",
+      "published": "n.d.",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "note": "Headline only; date not shown on the home page. Companion headline: 'A Deal Looks No Closer In Merchants' Long-Running Legal Battle Over Acceptance Fees'."
+    },
+    {
+      "dimension": "timeline-global",
+      "networks": [
+        "pulse",
+        "dgn"
+      ],
+      "claim": "PULSE, now Capital One-owned, still markets Discover Debit to community banks and credit unions and cites a 2025 Voice of the Client survey on its 2026 homepage.",
+      "quote": "We help community banks and credit unions get more from debit by putting their success, brand, people, and revenue first.",
+      "url": "https://www.pulsenetwork.com/",
+      "title": "Home | PULSE Network",
+      "publisher": "PULSE (Capital One)",
+      "published": "n.d.",
+      "label": "Vendor",
+      "fetch": "curl",
+      "note": "Page footer shows '© 2026 PULSE'; no news items or dated announcements found on the site's public surfaces."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "DOJ press release 'Justice Department Sues Visa for Monopolizing Debit Markets' (Sep 24, 2024)",
+      "where": "justice.gov/opa/pr and /archives/opa/pr both returned empty content to WebFetch and curl",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Capital One press release completing Discover acquisition (May 18, 2025) with PULSE/Discover Network/Diners plans",
+      "where": "investor.capitalone.com returned Access Denied; capitalone.com/about/newsroom showed only Jul-Sep 2026 items with no Discover content",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Mastercard press-release listing Sep 2024-Sep 2026 (Agent Pay, settlement, leadership)",
+      "where": "mastercard.com/news/press-releases returned 403 / Access Denied; investor.mastercard.com investor-news loads via JS with no content",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "American Express newsroom items on GNS, OptBlue, network partnerships 2024-2026",
+      "where": "about.americanexpress.com redirected to americanexpress.com/en-us/newsroom which is a JS app with no server-rendered content; ir.americanexpress.com press-release path 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Discover Global Network and Diners Club International newsroom / dated announcements",
+      "where": "discoverglobalnetwork.com/newsroom/ returned 404; no Diners Club news surface located within budget",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "PULSE network news page",
+      "where": "pulsenetwork.com/public/news/ returned 404; homepage links a 'News and Stories' section not opened",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trade-press listing of network news (Payments Dive payments-networks topic)",
+      "where": "paymentsdive.com/topic/payments-networks/ returned 404",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Reports of banks in talks to buy STAR from Fiserv (2025)",
+      "where": "No search budget remained in this session; not fetched",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Visa press releases September 2024 to March 2025 (e.g. Featurespace acquisition, DOJ response)",
+      "where": "Visa listing page only rendered items from 03/04/2025 onward",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "Mastercard 10-K (Feb 2026): November 2025 revised settlement 'if approved by the court, would resolve the litigation'; briefing on preliminary approval completed.",
+      "b": "Digital Transactions (n.d., on Sep 25, 2026 home page): 'Merchants Level Multiple Objections to a Proposed Interchange Agreement' and 'A Deal Looks No Closer'.",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+        "https://www.digitaltransactions.net/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "PULSE Log In / Register",
+      "url": "https://www.pulsenetwork.com/",
+      "named_at": "PULSE homepage header and footer 'LET'S CONNECT' block"
+    },
+    {
+      "name": "PULSE Client Support",
+      "url": "https://www.pulsenetwork.com/",
+      "named_at": "PULSE homepage header"
+    },
+    {
+      "name": "Discover Global Network Log In",
+      "url": "https://www.discoverglobalnetwork.com/",
+      "named_at": "Site navigation on the 404 page at discoverglobalnetwork.com/newsroom/"
+    },
+    {
+      "name": "Discover Global Network Partner Directory (certified partners)",
+      "url": "https://www.discoverglobalnetwork.com/",
+      "named_at": "Resources menu on discoverglobalnetwork.com; access level not confirmed"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "(empty response)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "(empty response)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases-listing.html",
+      "title": "Press Releases Listing | Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.mastercard.com/news/press-releases/",
+      "title": "Access Denied",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://about.americanexpress.com/newsroom/press-releases/default.aspx",
+      "title": "(301 redirect to americanexpress.com/en-us/newsroom)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.americanexpress.com/en-us/newsroom",
+      "title": "Amex Newsroom (JavaScript-only shell)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.capitalone.com/about/newsroom/",
+      "title": "Capital One Newsroom",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/public/news/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.discoverglobalnetwork.com/newsroom/",
+      "title": "404 Page Not Found | Discover Network",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://investor.capitalone.com/news-releases/news-release-details/capital-one-completes-acquisition-discover",
+      "title": "Access Denied / timeout",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investor.mastercard.com/investor-news/default.aspx",
+      "title": "Mastercard Investor News (content loads via JS)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.paymentsdive.com/topic/payments-networks/",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://ir.americanexpress.com/news-events/press-releases/default.aspx",
+      "title": "(404)",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/",
+      "title": "Digital Transactions (home page)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001141391.json",
+      "title": "EDGAR submissions index, Mastercard Incorporated",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.pulsenetwork.com/",
+      "title": "Home | PULSE Network",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+      "title": "Mastercard Incorporated Form 10-K for fiscal year ended December 31, 2025",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}

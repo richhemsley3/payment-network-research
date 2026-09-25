@@ -1,0 +1,683 @@
+{
+  "network": "cross",
+  "dimension": "doj-visa",
+  "accessed": "2026-09-25",
+  "claims": [
+    {
+      "dimension": "doj-visa",
+      "claim": "DOJ filed a civil Sherman Act Sections 1 and 2 suit against Visa on September 24, 2024 in S.D.N.Y. over debit network markets.",
+      "quote": "The Justice Department filed a civil antitrust lawsuit today against Visa for monopolization and other unlawful conduct in debit network markets",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "publisher": "U.S. Department of Justice, Office of Public Affairs",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Fetched via web.archive.org copy of the justice.gov page (Akamai blocks direct curl); page carries 'Updated February 6, 2025'."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "DOJ says Visa carries more than 60% of U.S. debit transactions and charges over $7 billion a year in fees on them.",
+      "quote": "more than 60% of debit transactions in the United States run on Visa's debit network, allowing it to charge over $7 billion in fees",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "publisher": "U.S. Department of Justice, Office of Public Affairs",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Same press release later says 'roughly $8 billion in network fees on U.S. debit volume annually'; see contradictions."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "DOJ alleges Visa's agreements with merchants and banks penalize customers that route to another debit network or alternative payment system.",
+      "quote": "These agreements penalize Visa's customers who route transactions to a different debit network or alternative payment system.",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "publisher": "U.S. Department of Justice, Office of Public Affairs",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa",
+        "star",
+        "pulse",
+        "nyce",
+        "accel",
+        "shazam"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "DOJ alleges Visa pays would-be competitors to become partners rather than enter as debit competitors.",
+      "quote": "Visa also induces would-be competitors to become partners instead of entering the market as competitors by offering generous monetary incentives",
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "publisher": "U.S. Department of Justice, Office of Public Affairs",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa's merchant and acquirer volume commitments use cliff pricing so any shortfall triggers rack rates on all Visa transactions.",
+      "quote": "Visa insists on cliff pricing to discourage merchants from routing to Visa's competitors, denying them scale.",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 78; PDF fetched via web.archive.org copy and read with pypdf (71 pages)."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa holds de facto exclusive routing contracts with more than 180 of its largest merchants and acquirers.",
+      "quote": "has now entered de facto exclusive routing contracts with over 180 of its largest merchants and acquirers",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 98."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa's merchant/acquirer contracts cover over 75% of Visa debit volume and foreclose at least 45% of total U.S. debit volume.",
+      "quote": "cover over 75% of Visa's debit volume and results in the foreclosure of at least 45% of total U.S. debit volume",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 98."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa's issuer contracts incentivize issuers to disable or not enable card-present PINless, making more transactions non-contestable.",
+      "quote": "Visa uses its contracts with issuers to incentivize the issuers to make decisions—like choosing to disable card-present PINless",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa",
+        "interlink",
+        "star",
+        "pulse",
+        "nyce",
+        "accel",
+        "shazam"
+      ],
+      "note": "Complaint para. 98; para. 106 quotes a Visa executive fearing a large issuer enabling CP PINless could 'create a tipping point'."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa, as dominant front-of-card network, can process all transactions on over 70% of U.S. debit card payment volume.",
+      "quote": "By virtue of being the dominant front-of-card network, Visa is enabled to process all transactions on over 70% of debit card payment volume",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa",
+        "mastercard"
+      ],
+      "note": "Complaint para. 92."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint says non-Visa/Mastercard debit networks collectively hold about 11% of all debit transactions and about 5% of card-not-present debit.",
+      "quote": "the non-Visa/Mastercard-owned networks collectively represent only about 11% of all debit transactions and only about 5% of card-not-present debit transactions",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa",
+        "mastercard",
+        "star",
+        "pulse",
+        "nyce",
+        "accel",
+        "shazam",
+        "culiance",
+        "jeanie",
+        "affn"
+      ],
+      "note": "Complaint para. 20; para. 6 says Mastercard is 'a distant second, processing less than 25%'."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint names STAR, NYCE and Pulse as examples of unaffiliated back-of-card networks alongside Visa's Interlink and Mastercard's Maestro.",
+      "quote": "Examples of such unaffiliated back-of-card networks include Mastercard's Maestro or a smaller debit network such as STAR, NYCE, or Pulse.",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa",
+        "interlink",
+        "maestro",
+        "star",
+        "nyce",
+        "pulse"
+      ],
+      "note": "Complaint para. 41. Predates Capital One's May 18, 2025 acquisition of Discover/PULSE."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa's agreements with Apple, PayPal and Square turned potential debit competitors into partners.",
+      "quote": "Visa's agreements with these companies, including Apple, PayPal, and Square, have succeeded in transforming these potential competitors into partners",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 21."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa used threatened wallet fees and rack rates to push PayPal into an expansive routing contract and away from ACH.",
+      "quote": "used the threat of exorbitant wallet fees and high rack rates on these Visa transactions to induce PayPal",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 122."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint alleges Visa contracted with Square for Square Cash because it feared Square would otherwise build an ACH option.",
+      "quote": "Visa worried that if it did not sign a contract for Square Cash, Square was \"likely to build in an ACH option.\"",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 127; para. 126 alleges the Square contracts 'foreclosed Square from competing aggressively against Visa'."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint quotes Visa's former CFO on its partner-not-competitor strategy toward wallets, big tech and large merchants.",
+      "quote": "[E]verybody is a friend and partner. Nobody is a competitor.",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 110."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "DOJ pleads two relevant markets: general purpose debit network services and general purpose card-not-present debit network services, with monopolization and attempted monopolization counts.",
+      "quote": "Visa has monopolized, in violation of Section 2 of the Sherman Act, 15 U.S.C. § 2, two relevant markets",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 182; para. 188 pleads attempted monopolization of the same two markets; para. 156 includes fintech debit networks in the market."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The complaint says Visa charges over $7 billion in U.S. debit network fees annually, earning $5.6 billion net revenue, its largest revenue source globally.",
+      "quote": "Visa charges over $7 billion in network fees on U.S. debit volume annually, earning Visa $5.6 billion in net revenue.",
+      "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "publisher": "U.S. Department of Justice, Antitrust Division",
+      "published": "2024-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Complaint para. 64."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Visa's FY2025 10-K discloses DOJ CIDs in 2021 and 2023 focused on U.S. debit and competition with other payment methods and networks.",
+      "quote": "The CIDs focused on U.S. debit and competition with other payment methods and networks.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "10-K also records a 2012 CID on PIN-authenticated Visa Debit and the fixed acquirer network fee."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Visa's FY2025 10-K states the court denied Visa's motion to dismiss the DOJ complaint on June 23, 2025.",
+      "quote": "On June 23, 2025, the court denied a motion to dismiss filed by Visa.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K for fiscal year ended September 30, 2025",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2025-11-06",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "10-K summarizes the complaint as alleging monopolization 'through agreements with merchants, acquirers, and others'."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Judge Koeltl's June 23, 2025 memorandum opinion denied Visa's Rule 12(b)(6) motion to dismiss (ECF 37).",
+      "quote": "For the foregoing reasons, Visa's motion to dismiss the complaint is denied.",
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com",
+      "publisher": "CourtListener / Free Law Project (RECAP docket, S.D.N.Y.)",
+      "published": "2025-06-23",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Docket entry 89; case assigned to Judge John G. Koeltl, referred to Magistrate Judge Sarah L. Cave."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "A January 22, 2026 scheduling order set fact discovery to close October 16, 2026 and noted the parties do not consent to trial before a magistrate.",
+      "quote": "The Parties do not consent to trial being conducted by a Magistrate Judge.",
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com",
+      "publisher": "CourtListener / Free Law Project (RECAP docket, S.D.N.Y.)",
+      "published": "2026-01-22",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Same order: 'Fact Discovery due by 10/16/2026. Expert Discovery due by 4/8/2027.' Later amended (see next claim)."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "On September 3, 2026 the court amended the schedule: fact discovery to January 29, 2027, expert discovery to July 23, 2027, motions by August 20, 2027.",
+      "quote": "Motions due by 8/20/2027. Responses due by 9/17/2027 Replies due by 10/1/2027. Fact Discovery due by 1/29/2027. Expert Discovery due by 7/23/2027.",
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com",
+      "publisher": "CourtListener / Free Law Project (RECAP docket, S.D.N.Y.)",
+      "published": "2026-09-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Docket entry 203. No trial date appears on the docket as of 2026-09-24."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Deposition scheduling disputes were referred to Magistrate Judge Cave on September 3, 2026, with a broader reference possible.",
+      "quote": "The Court will refer deposition scheduling disputes to Magistrate Judge Cave.",
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com",
+      "publisher": "CourtListener / Free Law Project (RECAP docket, S.D.N.Y.)",
+      "published": "2026-09-03",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Docket entry 205."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "The DOJ action is being coordinated with the private In re Visa Debit Card Antitrust Litigation (24 Civ. 7435); a joint status conference was moved to October 19, 2026.",
+      "quote": "the parties in both Actions shall file another joint letter providing a status of scheduling depositions",
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com",
+      "publisher": "CourtListener / Free Law Project (RECAP docket, S.D.N.Y.)",
+      "published": "2026-09-24",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Docket entry 211, memo endorsement by Magistrate Judge Cave; conference adjourned from Sept. 25 to Oct. 19, 2026."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Visa's July 2026 10-Q litigation update lists new developments in debit class actions and other matters but no new development in the DOJ action.",
+      "quote": "Other Litigation U.S. Debit Class Actions On February 27, 2026, merchants and cardholders filed further amended consolidated complaints",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "title": "Visa Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Visa Inc. via SEC EDGAR",
+      "published": "2026-07-29",
+      "label": "Verified",
+      "fetch": "curl",
+      "networks": [
+        "visa"
+      ],
+      "note": "Absence finding: the 10-Q's 'Other Litigation' updates skip the DOJ matter, consistent with the case being in discovery."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Visa's general counsel Julie Rottenberg called the DOJ suit meritless and said Visa would defend itself vigorously.",
+      "quote": "meritless, and we will defend ourselves vigorously.",
+      "url": "https://www.digitaltransactions.net/combatants-take-up-their-positions-in-reaction-to-the-dojs-antitrust-suit-against-visa/",
+      "title": "Combatants Take Up Their Positions in Reaction to the DoJ's Antitrust Suit Against Visa",
+      "publisher": "Digital Transactions (Peter Lucas)",
+      "published": "2024-09-25",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": "Visa's own statement pages (usa.visa.com release 21091, investor.visa.com) could not be fetched; see not_found."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Merchant groups (NRF, Merchants Payments Coalition) welcomed the suit while the issuer-side Electronic Payments Coalition framed it as an 'all of government' campaign.",
+      "quote": "a major step forward in fixing our nation's broken payments market",
+      "url": "https://www.digitaltransactions.net/combatants-take-up-their-positions-in-reaction-to-the-dojs-antitrust-suit-against-visa/",
+      "title": "Combatants Take Up Their Positions in Reaction to the DoJ's Antitrust Suit Against Visa",
+      "publisher": "Digital Transactions (Peter Lucas)",
+      "published": "2024-09-25",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": "Quote is NRF's Stephanie Martz as reported."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "As of August 2026 no trial date had been set; trade press expects trial in 2028 on the current schedule.",
+      "quote": "No trial date has been set, although it is likely to be in 2028 based on the current case schedule.",
+      "url": "https://www.paymentsdive.com/news/visa-doj-lawyers-clash-ahead-of-trial/828378/",
+      "title": "Visa, DOJ lawyers clash ahead of trial",
+      "publisher": "Payments Dive (Justin Bachman)",
+      "published": "2026-08-20",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": ""
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Visa reported producing about 5.7 million documents with a large review team, while DOJ accused it of dilatory deposition scheduling.",
+      "quote": "a team of over 150 attorneys",
+      "url": "https://www.paymentsdive.com/news/visa-doj-lawyers-clash-ahead-of-trial/828378/",
+      "title": "Visa, DOJ lawyers clash ahead of trial",
+      "publisher": "Payments Dive (Justin Bachman)",
+      "published": "2026-08-20",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": "Article: DOJ said Visa 'has not meaningfully engaged' on depositions; Visa cited 'extremely broad and burdensome' requests and a 48-person witness list."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "Lawyers expect Visa's defense to turn on market definition, arguing ACH, pay-by-bank and newer networks belong in the debit market.",
+      "quote": "ACH, pay-by-bank, and newer payment networks belong in the same market as debit network services",
+      "url": "https://www.paymentsdive.com/news/visa-debit-case-doj-justice-antitrust-turns-on-market-definition-lawyers-say/827259/",
+      "title": "Visa debit case turns on market definition, lawyers say",
+      "publisher": "Payments Dive (Justin Bachman)",
+      "published": "2026-08-10",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": "Article notes Visa's dismissal motion 'argued that the government had drawn the debit market too narrowly' and that the Trump administration continued the case."
+    },
+    {
+      "dimension": "doj-visa",
+      "claim": "In March 2026 Visa sought Treasury Department records on debit acceptance on pay.gov through party discovery, which DOJ resisted.",
+      "quote": "the acceptance and treatment of debit among various payment methods on [pay.gov]",
+      "url": "https://www.paymentsdive.com/news/visa-doj-discovery-dispute-goes-to-judge-antitrust-debit-lawsuit/816038/",
+      "title": "Visa-DOJ discovery dispute goes to judge",
+      "publisher": "Payments Dive (Justin Bachman)",
+      "published": "2026-03-30",
+      "label": "Reported",
+      "fetch": "webfetch",
+      "networks": [
+        "visa"
+      ],
+      "note": "Quote attributed to Visa attorney Robert Katerberg; DOJ argued Treasury 'is not subject to party discovery in the case'."
+    }
+  ],
+  "not_found": [
+    {
+      "query": "Visa Inc. press release 'Visa Statement on U.S. Department of Justice Complaint' (usa.visa.com releaseId 21091 / investor.visa.com)",
+      "where": "usa.visa.com returned a shell page with null content; investor.visa.com returned 403 (JS challenge) via curl and 404 via WebFetch; not on archive.org",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Full text of Judge Koeltl's June 23, 2025 memorandum opinion (reasoning, market-definition holding)",
+      "where": "CourtListener opinion search returned no results; docket entry 89 text only; PDF not fetched within budget",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Trial date in United States v. Visa Inc. 1:24-cv-07214",
+      "where": "Not on CourtListener docket through entry 211 (Sept. 24, 2026); Payments Dive 2026-08-20 says none set",
+      "date": "2026-09-25"
+    },
+    {
+      "query": "Web search for rulings/status 2025-2026",
+      "where": "WebSearch budget exhausted for session; relied on direct fetches of justice.gov (archive), sec.gov, courtlistener.com, paymentsdive.com, digitaltransactions.net",
+      "date": "2026-09-25"
+    }
+  ],
+  "contradictions": [
+    {
+      "a": "DOJ press release: 'charge over $7 billion in fees each year' and complaint para. 64: 'over $7 billion in network fees on U.S. debit volume annually'",
+      "b": "Same DOJ press release, closing paragraph: 'Visa charges roughly $8 billion in network fees on U.S. debit volume annually'",
+      "urls": [
+        "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+        "https://www.justice.gov/opa/media/1370421/dl?inline"
+      ]
+    },
+    {
+      "a": "Payments Dive 2026-08-20 and 2026-08-10: fact discovery closes October 16, 2026 (per Jan. 22, 2026 scheduling order)",
+      "b": "Docket entry 203 (Sept. 3, 2026) amended fact discovery deadline to January 29, 2027; the press dates predate the amendment",
+      "urls": [
+        "https://www.paymentsdive.com/news/visa-doj-lawyers-clash-ahead-of-trial/828378/",
+        "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/"
+      ]
+    }
+  ],
+  "gated_surfaces": [
+    {
+      "name": "PACER (document purchase for 1:24-cv-07214 filings)",
+      "url": "https://pacer.uscourts.gov/",
+      "named_at": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/"
+    },
+    {
+      "name": "CourtListener docket alerts / membership and RECAP extension",
+      "url": "https://www.courtlistener.com/",
+      "named_at": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/"
+    },
+    {
+      "name": "pay.gov (U.S. Treasury payment portal, subject of Visa discovery request)",
+      "url": "https://www.pay.gov/",
+      "named_at": "https://www.paymentsdive.com/news/visa-doj-discovery-dispute-goes-to-judge-antitrust-debit-lawsuit/816038/"
+    }
+  ],
+  "sources_read": [
+    {
+      "url": "https://web.archive.org/web/2025id_/https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-visa-monopolizing-debit-markets",
+      "title": "Justice Department Sues Visa for Monopolizing Debit Markets (direct WebFetch)",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://web.archive.org/web/2024id_/https://www.justice.gov/opa/media/1370421/dl?inline",
+      "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "title": "Visa Inc. Form 10-K FY2025",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000104/v-20260630.htm",
+      "title": "Visa Inc. Form 10-Q Q3 FY2026 (June 30, 2026)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Department%20of%20Justice%22%20%22debit%22%20%22Visa%22&ciks=0001403161",
+      "title": "EDGAR full-text search, Visa Inc.",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.courtlistener.com/api/rest/v4/search/?q=docketNumber%3A%221%3A24-cv-07214%22&type=r&court=nysd",
+      "title": "CourtListener RECAP search",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/?order_by=desc",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com (page 1)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/?order_by=desc&page=2",
+      "title": "United States v. Visa Inc., 1:24-cv-07214 - CourtListener.com (page 2)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.courtlistener.com/api/rest/v4/docket-entries/?docket=69190163",
+      "title": "CourtListener docket-entries API",
+      "ok": false,
+      "wall": "login"
+    },
+    {
+      "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22United+States+v.+Visa%22&type=o&filed_after=2025-01-01",
+      "title": "CourtListener opinion search",
+      "ok": false,
+      "wall": "none"
+    },
+    {
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21091.html",
+      "title": "Press Releases | Visa",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://investor.visa.com/news/news-details/2024/Visa-Statement-on-U.S.-Department-of-Justice-Complaint/default.aspx",
+      "title": "Visa Statement on U.S. Department of Justice Complaint",
+      "ok": false,
+      "wall": "bot"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/combatants-take-up-their-positions-in-reaction-to-the-dojs-antitrust-suit-against-visa/",
+      "title": "Combatants Take Up Their Positions in Reaction to the DoJ's Antitrust Suit Against Visa",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Visa+Justice+Department+debit",
+      "title": "Digital Transactions search",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.digitaltransactions.net/?s=Koeltl+Visa",
+      "title": "Digital Transactions search (Koeltl)",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/search/?q=Visa+DOJ+debit+dismiss",
+      "title": "Payments Dive search",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/topic/antitrust/",
+      "title": "Payments Dive antitrust topic",
+      "ok": false,
+      "wall": "dead"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/visa-debit-case-doj-justice-antitrust-turns-on-market-definition-lawyers-say/827259/",
+      "title": "Visa debit case turns on market definition, lawyers say",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/visa-doj-lawyers-clash-ahead-of-trial/828378/",
+      "title": "Visa, DOJ lawyers clash ahead of trial",
+      "ok": true,
+      "wall": "none"
+    },
+    {
+      "url": "https://www.paymentsdive.com/news/visa-doj-discovery-dispute-goes-to-judge-antitrust-debit-lawsuit/816038/",
+      "title": "Visa-DOJ discovery dispute goes to judge",
+      "ok": true,
+      "wall": "none"
+    }
+  ]
+}
