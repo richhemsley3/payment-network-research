@@ -1,0 +1,49 @@
+{
+  "network": "diners",
+  "scope": "Diners Club International (franchise issuers, Club Connections): every partner audience (developer, fintech, acquirer, processor, merchant, atm_operator, issuer, program_manager, institutional)",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    {"query": "\"diners club\" (covers Diners Club developer / API / sandbox, since 2023-01-01)", "where": "Stack Overflow API", "returned": 2, "read": 2},
+    {"query": "\"diners club\" (covers developer / API / fees / support, since 2023-01-01)", "where": "Hacker News Algolia", "returned": 137, "read": 50},
+    {"query": "\"diners club\" created:>2023-01-01 (covers developer / sandbox / certification)", "where": "GitHub issues search", "returned": 537, "read": 50},
+    {"query": "globalpayments/php-sdk#125 and Automattic/woocommerce-payments#10639 issue bodies", "where": "GitHub API", "returned": 2, "read": 2},
+    {"query": "\"diners club\" in r/PaymentProcessing, r/payments, r/fintech, r/smallbusiness", "where": "Reddit old.reddit search.json", "returned": 0, "read": 0},
+    {"query": "\"Diners Club\" developer API integration merchant problems", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "\"Diners Club\" sandbox OR certification acquirer processor", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "\"Diners Club\" fees merchant OR acquirer OR processor OR ATM 2025", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "\"Club Connections\" Diners Club International (network-specific term 1)", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "Diners Club franchise issuer onboarding OR support Capital One Discover network partners (network-specific term 2: franchise issuer)", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "Diners Club Australia exit merchants acceptance 2024 surcharge", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "RBA review of merchant card payment costs submission \"Diners Club\" surcharging 2025", "where": "WebSearch", "returned": 36, "read": 36},
+    {"query": "\"Diners Club\" said merchants OR acquirers (Payments Dive, Digital Transactions, PYMNTS, American Banker)", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "Capital One Discover network \"Diners Club\" merchants NRF OR Merchants Payments Coalition OR NACS comment", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "\"Diners Club\" issuer partner bank launch quote 2025 OR 2026 franchise", "where": "WebSearch", "returned": 10, "read": 10},
+    {"query": "\"Diners Club International\" acquiring OR issuing agreement 2025 said", "where": "WebSearch", "returned": 9, "read": 9},
+    {"query": "ANZ Worldline 'Diners Club winding down'; BDO and ABank franchise releases; Nium launch release", "where": "WebFetch", "returned": 4, "read": 4},
+    {"query": "Wayback availability for 5 retained URLs", "where": "archive.org wayback API", "returned": 5, "read": 5}
+  ],
+  "items": [
+    {"network": "diners", "audience": "developer", "stance": "critical", "topic": "sandbox", "date": "2024-04-15", "platform": "GitHub (globalpayments/php-sdk)", "url": "https://github.com/globalpayments/php-sdk/issues/125", "author_as_shown": "kiwad", "excerpt": "everything works fine except for Dinner's club and UATP.", "older": true, "archive_url": null, "note": "Gateway 509 errors on Diners test cards in sandbox and live via Global Payments SDK; sentiment about the processor path, not necessarily the network itself."},
+    {"network": "diners", "audience": "developer", "stance": "critical", "topic": "other", "date": "2026-02-10", "platform": "Hacker News", "url": "https://news.ycombinator.com/item?id=46963133", "author_as_shown": "ajsnigrutin", "excerpt": "Diners club? Well.. \"it depends\". Many don't work with it.", "older": false, "archive_url": null, "note": "About processor support/acceptance breadth; commenter role not stated, coded developer by platform. Topic is acceptance coverage."},
+    {"network": "diners", "audience": "developer", "stance": "critical", "topic": "fees", "date": "2024-05-26", "platform": "Hacker News", "url": "https://news.ycombinator.com/item?id=40480629", "author_as_shown": "paulmd", "excerpt": "Amex or Diners Club do struggle for adoption", "older": true, "archive_url": null, "note": "Two-sided-market argument about merchant fees and adoption; commenter role not stated."},
+    {"network": "diners", "audience": "developer", "stance": "neutral", "topic": "other", "date": "2025-07-24", "platform": "Hacker News", "url": "https://news.ycombinator.com/item?id=44677732", "author_as_shown": "skissane", "excerpt": "Diners Club used to be accepted in Australia too, until they pulled out of the Australian market last year", "older": false, "archive_url": null, "note": "Observer comment on merchant acceptance in Australia; the dated claim is sentiment, not verified fact here."},
+    {"network": "diners", "audience": "developer", "stance": "neutral", "topic": "fees", "date": "2023-02-08", "platform": "Hacker News", "url": "https://news.ycombinator.com/item?id=34703955", "author_as_shown": "petesergeant", "excerpt": "You attribute it to perks, which is not correct, or Amex and Diners Club would be more expensive.", "older": true, "archive_url": null, "note": "Thread on Stripe EEA pricing; comment about commercial-card interchange."},
+    {"network": "diners", "audience": "processor", "stance": "neutral", "topic": "other", "date": "2025-03-26", "platform": "GitHub (Automattic/woocommerce-payments)", "url": "https://github.com/Automattic/woocommerce-payments/issues/10639", "author_as_shown": "mdmoore", "excerpt": "Currently, the card element displays 4 logos. We want to add all remaining accepted brands as well.", "older": false, "archive_url": null, "note": "Diners Club listed among overflow brands (with CB, CUP, eftpos, JCB); shows second-tier placement in a processor UI, no explicit sentiment."},
+    {"network": "diners", "audience": "acquirer", "stance": "neutral", "topic": "onboarding", "date": "2024-06-21", "platform": "ANZ Worldline knowledge hub", "url": "https://anzworldline.com.au/en/home/knowledge-hub/blogs/diners-club-winding-down", "author_as_shown": "ANZ Worldline (no individual author)", "excerpt": "Diners Club will complete closure of the merchant facilities on 15th September 2024.", "older": false, "archive_url": "http://web.archive.org/web/20251207132819/https://anzworldline.com.au/en/home/knowledge-hub/blogs/diners-club-winding-down", "note": "Acquirer notice to merchants about Diners Club Australia exit; factual, no editorial stance."},
+    {"network": "diners", "audience": "program_manager", "stance": "favourable", "topic": "other", "date": "2025-01-09", "platform": "Diners Club Resources (network-hosted press release)", "url": "https://resources.dinersclub.com/news/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel", "author_as_shown": "Mark Anthony Spiteri, SVP & Global Head of Card Business, Nium", "excerpt": "gives our customers unparalleled global access", "older": false, "archive_url": "http://web.archive.org/web/20260313073657/https://resources.dinersclub.com/news/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel", "note": "Partner quote published by the network itself (curated, promotional); refers to issuing across four schemes, not Diners alone."}
+  ],
+  "tiers": {
+    "diners:developer": "Thin",
+    "diners:fintech": "Absent",
+    "diners:acquirer": "Absent",
+    "diners:processor": "Absent",
+    "diners:merchant": "Absent",
+    "diners:atm_operator": "Absent",
+    "diners:issuer": "Absent",
+    "diners:program_manager": "Absent",
+    "diners:institutional": "Absent"
+  },
+  "top_topics": ["fees", "other (acceptance coverage / market exit)", "sandbox"],
+  "no_listing": ["G2: not checked within budget (no listing with 5+ reviews surfaced in searches)", "Capterra: not checked within budget", "TrustRadius: not checked within budget", "forum.developer.mastercard.com: not applicable (not a Diners forum); no public Diners developer forum found", "YouTube official demo comments: not run (budget)"],
+  "notes": "Budget of 30 searches/fetches used in full. Reddit search.json returned HTML (blocked) for all four subs, so zero Reddit items. Stack Overflow returned 2 irrelevant hits. HN returned 137 hits; about 25 mention Diners Club, most from a cardholder or history angle and excluded; 5 kept, all by commenters whose role is not stated (coded developer by platform). GitHub returned 537 hits; the top 50 are mostly card-validation/BIN-range code (e.g., langchain#40000, hyperswitch#14042) about third-party libraries, not sentiment about the network; 2 kept. Web searches surfaced mostly PSP docs and network marketing. In-window named-partner quotes were scarce: BDO (2016) and ABank (2015) franchise quotes fetched but are outside the window and dropped. RBA 2025 review material reports Diners domestic average merchant service fee of 1.66% (Sept 2024) vs 0.76-0.78% for Visa/Mastercard credit, and notes Diners falls outside the surcharge ban. This came only from a search summary, not a verbatim fetch, so it is not coded as an item; it is the best lead for institutional/merchant follow-up. Other unfollowed leads: Moorwand UK acquiring expansion and ISX/Flykk pan-European franchise (2025). Capital One-Discover merchant commentary found concerned Discover debit, not Diners. Balance rule: only the developer audience has both favourable-less critical items; no favourable developer item found. Wayback lookups returned no snapshots for GitHub/HN URLs."
+}

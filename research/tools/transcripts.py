@@ -67,10 +67,10 @@ for slug in slugs:
     got = 0
     for k in kept:
         vid = yt_id(k)
-        if not vid or vid in idx: continue
+        if not vid or (vid in idx and idx[vid].get('method')): continue
         dst = os.path.join(OUT, slug, vid + '.txt')
         method, n = pull(vid, dst)
         idx[vid] = {'title': k.get('title'), 'channel': k.get('channel_or_publisher'), 'official': k.get('official'), 'priority': k.get('priority'), 'url': k.get('url'), 'method': method, 'cues': n, 'file': dst if method else None}
         got += 1 if method else 0
-        json.dump(idx, open(idx_path, 'w'), indent=1); time.sleep(1.0)
+        json.dump(idx, open(idx_path, 'w'), indent=1); time.sleep(4.0)
     print(f'{slug}: {len(kept)} kept in scope, {sum(1 for v in idx.values() if v.get("method"))} transcripts on disk, {sum(1 for v in idx.values() if not v.get("method"))} without captions')

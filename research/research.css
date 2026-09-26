@@ -1,4 +1,6 @@
 /* research reports: placement only. Every colour, size and space is a token from ../design-system/tokens. */
+/* the published single-file build wraps the page in div.rs-page, since its host supplies the body */
+.rs-page{display:flex; min-height:100vh}
 .rs-contents{width:200px; flex:none; position:sticky; top:0; align-self:flex-start; max-height:100vh; overflow-y:auto; padding:48px 24px 48px 24px; border-right:1px solid var(--gn-rule); font-size:var(--gn-type-label); line-height:var(--gn-leading-body)}
 .rs-contents b{display:block; font-weight:600; color:var(--gn-text); margin-bottom:8px}
 .rs-contents ol{list-style:none; margin:0; padding:0}
@@ -23,12 +25,12 @@
 .rs-lead{margin-top:16px; padding-left:16px; border-left:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body); line-height:var(--gn-leading-prose); color:var(--gn-text-secondary); max-width:var(--gn-measure-body)}
 .rs-lead b{font-weight:600; color:var(--gn-text)}
 .rs-profile .gn-prose,.doc .gn-prose{color:var(--gn-text-secondary)}
-.rs-profile h4{margin-top:32px; font-size:var(--gn-type-body); font-weight:600; color:var(--gn-text)}
-.rs-profile h4 + .gn-prose,.rs-profile h4 + .gn-table-wrap,.rs-profile h4 + .rs-quote,.rs-profile h4 + .rs-shots{margin-top:12px}
+.rs-profile h4,.doc > h4{margin-top:32px; font-size:var(--gn-type-body); font-weight:600; color:var(--gn-text)}
+.rs-profile h4 + .gn-prose,.rs-profile h4 + .gn-table-wrap,.rs-profile h4 + .rs-quote,.rs-profile h4 + .rs-shots,.doc > h4 + .gn-prose,.doc > h4 + .gn-table-wrap,.doc > h4 + .rs-quote,.doc > h4 + ol{margin-top:12px}
 .doc h2.doc-s + .gn-prose{margin-top:12px}
 .doc .gn-prose + .gn-table-wrap{margin-top:16px}
 /* citations: a label after the sentence, underlined in outline tone, never a number */
-.rs-cite{font-size:var(--gn-type-label); color:var(--gn-text-caption); white-space:nowrap}
+.rs-cite{font-size:var(--gn-type-label); color:var(--gn-text-caption); overflow-wrap:break-word}
 a.rs-src{color:var(--gn-text-caption); text-decoration:underline; text-decoration-color:var(--gn-outline); text-decoration-thickness:1px; text-underline-offset:3px}
 a.rs-src:hover{color:var(--gn-interactive); text-decoration-color:var(--gn-interactive)}
 .gn-doc-p a.rs-src{font-size:inherit}
@@ -53,14 +55,18 @@ a.rs-src:hover{color:var(--gn-interactive); text-decoration-color:var(--gn-inter
 .rs-insight-h .k{font-weight:600; color:var(--gn-interactive-text); font-size:var(--gn-type-label); min-width:28px}
 .rs-insight-h b{font-weight:600; font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); flex:1 1 320px}
 .rs-insight-g{display:grid; grid-template-columns:140px minmax(0,1fr); gap:12px 32px; margin-top:12px}
-.rs-insight-g > b{font-weight:400; font-size:var(--gn-type-label); color:var(--gn-text-caption); padding-top:2px}
+.rs-insight-g > b{font-weight:400; font-size:var(--gn-type-label); color:var(--gn-text-caption); padding-top:4px}
 .rs-insight-g > div{font-size:var(--gn-type-body); line-height:var(--gn-leading-prose); color:var(--gn-text-secondary); max-width:var(--gn-measure-body)}
 .rs-insight-g > div b{font-weight:600; color:var(--gn-text)}
 /* register */
 .rs-register td{overflow-wrap:anywhere}
+.doc .gn-table td{vertical-align:top}
+.doc .gn-table--dense th,.doc .gn-table--dense td{padding-inline:var(--gn-space-12)}
+.doc .gn-table--dense th:first-child,.doc .gn-table--dense td:first-child{padding-left:0}
+.doc .gn-table th{white-space:normal; vertical-align:bottom}
 .rs-register td:first-child{white-space:nowrap; font-family:var(--gn-font-mono); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .doc ol.rv-l{margin:16px 0 0; padding-left:20px} .doc ol.rv-l li{margin-top:8px; max-width:var(--gn-measure-body); color:var(--gn-text-secondary); line-height:var(--gn-leading-body)}
 .doc-rev{color:var(--gn-text-caption)}
-@media (max-width:1100px){ .rs-contents{position:static; width:auto; max-height:none; border-right:0; border-bottom:1px solid var(--gn-rule); padding:24px 32px} body.gn-docs{display:block} .rs-shots{grid-template-columns:1fr} .rs-insight-g{grid-template-columns:1fr; gap:4px 0} }
+@media (max-width:1100px){ .rs-contents{position:static; width:auto; max-height:none; border-right:0; border-bottom:1px solid var(--gn-rule); padding:24px 32px} body.gn-docs,.rs-page{display:block} .rs-shots{grid-template-columns:1fr} .rs-insight-g{grid-template-columns:1fr; gap:4px 0} }
 @media (max-width:760px){ .rs-contents{padding:16px} .doc{padding:0 16px 48px} }
 @media print{ .rs-contents{display:none} .doc{padding:0; max-width:none} figure,table,.rs-profile--compact,.rs-quote,.rs-insight{break-inside:avoid} a.rs-src::after{content:" " attr(data-src); color:var(--gn-text-quiet)} @page{margin:18mm} }

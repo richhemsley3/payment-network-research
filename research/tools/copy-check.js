@@ -6,7 +6,7 @@ const pages = ['competitive-networks.html', 'prototype-insights.html'].filter(f 
 const out = [];
 for (const p of pages) {
   let html = fs.readFileSync(path.join(ROOT, p), 'utf8');
-  html = html.replace(/<(pre|code|script|style)\b[\s\S]*?<\/\1>/g, ' ').replace(/<q\b[^>]*>[\s\S]*?<\/q>/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
+  html = html.replace(/<(pre|code|script|style)\b[\s\S]*?<\/\1>/g, ' ').replace(/<q\b[^>]*>[\s\S]*?<\/q>/g, ' ').replace(/<a class="rs-src"[^>]*>[\s\S]*?<\/a>/g, ' ').replace(/<blockquote\b[^>]*>\s*<p>[\s\S]*?<\/p>/g, '<blockquote>').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
   html = html.replace(/<h2 class="doc-s" id="register">[\s\S]*$/, ' ');
   const method = (html.match(/id="method"[\s\S]*?(?=<h2)/) || [''])[0];
   html = html.replace(/<td\b[^>]*>/g, '<td>TD:');

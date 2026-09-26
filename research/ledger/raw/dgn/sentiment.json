@@ -1,0 +1,115 @@
+{
+  "network": "dgn",
+  "scope": "every partner audience (developer, fintech, acquirer, processor, merchant, atm_operator, issuer, program_manager, institutional); cardholder opinion excluded",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    { "query": "discover network api", "where": "Stack Overflow API", "returned": 30, "read": 30 },
+    { "query": "discover developer sandbox", "where": "Stack Overflow API", "returned": 30, "read": 30 },
+    { "query": "discover card certification", "where": "Stack Overflow API", "returned": 11, "read": 11 },
+    { "query": "discover network capital one (created after 2023-01-01)", "where": "Hacker News Algolia", "returned": 20, "read": 20 },
+    { "query": "discover card merchant processor (created after 2023-01-01)", "where": "Hacker News Algolia", "returned": 16, "read": 16 },
+    { "query": "discover", "where": "Reddit r/PaymentProcessing", "returned": 0, "read": 0 },
+    { "query": "discover fees", "where": "Reddit r/smallbusiness", "returned": 0, "read": 0 },
+    { "query": "discover network", "where": "Reddit r/fintech", "returned": 0, "read": 0 },
+    { "query": "discover", "where": "Reddit r/payments", "returned": 0, "read": 0 },
+    { "query": "\"discover\" \"diners\" card brand created:>2023-01-01", "where": "GitHub issues API", "returned": 218, "read": 30 },
+    { "query": "\"discover network\" payment created:>2023-01-01", "where": "GitHub issues API", "returned": 1112, "read": 30 },
+    { "query": "Capital One Discover network debit migration merchants processors fees reaction 2026", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "Discover Global Network acquirers Discover network acceptance merchants said Payments Dive", "where": "WebSearch", "returned": 10, "read": 10 },
+    { "query": "Capital One Discover merger comment letter merchants NRF NACS ICBA \"Discover network\"", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "\"Capital One\" Discover debit interchange merchants Kantor OR Merchants Payments Coalition OR NACS 2025 2026", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "Discover network developer API sandbox Developer Center developer.discover.com", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "Capital One Discover network issuers banks partners Pulse fintech Discover Global Network analyst American Banker 2026", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "credit unions community banks Pulse network Capital One ownership concern ICBA Credit Union Times Discover", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "Discover Global Network API integration developer experience LinkedIn OR dev.to OR medium certification acquirer", "where": "WebSearch", "returned": 9, "read": 9 },
+    { "query": "fetch: optimizedpayments.com debit migration article", "where": "WebFetch", "returned": 1, "read": 1 },
+    { "query": "fetch: federalreserve.gov capone-discover-comments-14-20241025.pdf", "where": "WebFetch", "returned": 0, "read": 0 },
+    { "query": "fetch: support.stripe.com Capital One/Discover changes", "where": "WebFetch", "returned": 1, "read": 1 },
+    { "query": "fetch: merchantspaymentscoalition.com CCCA still needed release", "where": "WebFetch", "returned": 1, "read": 1 },
+    { "query": "fetch: digitaltransactions.net Pulse rare asset", "where": "WebFetch", "returned": 1, "read": 1 },
+    { "query": "fetch: brooksidepayments.com Capital One Discover debit interchange", "where": "WebFetch", "returned": 1, "read": 1 },
+    { "query": "wayback lookups x3 (MPC, Brookside, Stripe)", "where": "archive.org wayback API", "returned": 3, "read": 3 }
+  ],
+  "items": [
+    {
+      "network": "dgn", "audience": "acquirer", "stance": "critical", "topic": "fees", "date": "2026-05-25",
+      "platform": "Brookside Payments blog",
+      "url": "https://brooksidepayments.com/capital-one-discover-debit-interchange/",
+      "author_as_shown": "Lee, Brookside Payments",
+      "excerpt": "For some merchants, that rate is roughly three times what they paid before.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260821135105/https://brooksidepayments.com/capital-one-discover-debit-interchange/",
+      "note": "Merchant-services provider writing for its merchant base about Capital One debit moving to the Discover network outside Durbin caps. Page date is the 'updated' date."
+    },
+    {
+      "network": "dgn", "audience": "acquirer", "stance": "critical", "topic": "fees", "date": "2026-05-25",
+      "platform": "Brookside Payments blog",
+      "url": "https://brooksidepayments.com/capital-one-discover-debit-interchange/",
+      "author_as_shown": "Lee, Brookside Payments",
+      "excerpt": "The honest answer is that there is no merchant-side workaround that prevents the Capital One Discover debit interchange rate from applying.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260821135105/https://brooksidepayments.com/capital-one-discover-debit-interchange/",
+      "note": "Same source as above; second quote on merchant inability to route around the rate. Sentiment, not a verified fact."
+    },
+    {
+      "network": "dgn", "audience": "institutional", "stance": "critical", "topic": "fees", "date": "2025-04-22",
+      "platform": "Merchants Payments Coalition press release",
+      "url": "https://merchantspaymentscoalition.com/merchants-say-credit-card-competition-act-will-still-be-needed-following-capital-onediscover-merger",
+      "author_as_shown": "Doug Kantor, MPC Executive Committee member and NACS General Counsel",
+      "excerpt": "Visa and Mastercard dominate the credit card market and the Capital One-Discover merger won't change anything about that.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260610151920/https://merchantspaymentscoalition.com/merchants-say-credit-card-competition-act-will-still-be-needed-following-capital-onediscover-merger",
+      "note": "Merchant trade-body proxy (NACS/MPC). Critical of the combined network as a competition remedy rather than of Discover operations."
+    },
+    {
+      "network": "dgn", "audience": "institutional", "stance": "critical", "topic": "fees", "date": "2025-04-22",
+      "platform": "Merchants Payments Coalition press release",
+      "url": "https://merchantspaymentscoalition.com/merchants-say-credit-card-competition-act-will-still-be-needed-following-capital-onediscover-merger",
+      "author_as_shown": "Doug Kantor, MPC Executive Committee member and NACS General Counsel",
+      "excerpt": "Nothing there helps at all with the swipe fee problem.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260610151920/https://merchantspaymentscoalition.com/merchants-say-credit-card-competition-act-will-still-be-needed-following-capital-onediscover-merger",
+      "note": "Same release; refers to the Capital One-Discover merger."
+    },
+    {
+      "network": "dgn", "audience": "processor", "stance": "neutral", "topic": "fees", "date": "2026-03",
+      "platform": "Stripe Help & Support",
+      "url": "https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+      "author_as_shown": "Stripe Support",
+      "excerpt": "One-time increase in card account updater (CAU) fees as Capital One reissues cards.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260311140347/https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+      "note": "Page undated; date is the closest Wayback snapshot month. Processor guidance to merchants, informational tone."
+    },
+    {
+      "network": "dgn", "audience": "processor", "stance": "neutral", "topic": "reliability", "date": "2026-03",
+      "platform": "Stripe Help & Support",
+      "url": "https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+      "author_as_shown": "Stripe Support",
+      "excerpt": "You might see a decrease in your authorization rates for Capital One debit cards due to: Debit cards that have been re-issued and not yet activated by the cardholder.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260311140347/https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+      "note": "Excerpt is 27 words as written on the page (fetched via summariser); trim to first 25 if strict. Authorization-rate impact of the reissue onto the Discover network."
+    }
+  ],
+  "tiers": {
+    "dgn:developer": "Absent",
+    "dgn:fintech": "Absent",
+    "dgn:acquirer": "Absent",
+    "dgn:processor": "Absent",
+    "dgn:merchant": "Absent",
+    "dgn:atm_operator": "Absent",
+    "dgn:issuer": "Absent",
+    "dgn:program_manager": "Absent",
+    "dgn:institutional": "Absent"
+  },
+  "top_topics": ["fees", "reliability"],
+  "no_listing": [
+    "G2/Capterra/TrustRadius: not checked (budget exhausted); no evidence of a Discover Global Network listing with 5+ reviews surfaced in any search",
+    "Stack Overflow: zero on-topic questions for Discover network developer, API, sandbox or certification (results were all network-discovery noise)",
+    "Reddit (r/PaymentProcessing, r/smallbusiness, r/fintech, r/payments): old.reddit JSON returned a login/interstitial page, zero items retrievable",
+    "GitHub issues: results only mention Discover as a card brand in BIN/regex code; no sentiment about the network, Developer Center or EASI",
+    "Discover Developer Center / Partner Product Portal / EASI: no public developer forum or third-party discussion found"
+  ],
+  "notes": "Budget of 30 searches/fetches reached. The prescribed per-network query list (developer, API, sandbox, certification, onboarding, support, fees, plus two network terms) was only partly run: developer/API/sandbox/certification on Stack Overflow; fees and Capital One/Pulse terms on HN and WebSearch; onboarding and support were not run as separate queries. All six retained items concern the 2025-2026 Capital One debit migration onto the Discover network; nothing addresses Discover's developer tooling, certification, onboarding or support. Excluded: HN comments (commentators and cardholders, not identifiable partners); Capital One/Discover executives quoted in Digital Transactions 2024-02-20 (network's own voice, not partner sentiment); Optimized Payments article by Evan Andersen, payments consultant (fetched, neutral, no quotable sentiment); Fed FOIA comment-letter PDF too large to fetch (over 10 MB) - worth a manual read, since it likely contains the NRF/ICBA/merchant comments. Balance rule not satisfiable: no favourable partner item found for any audience. Excerpts were taken through a summarising fetch tool; spot-check them against the archive snapshots before citing."
+}

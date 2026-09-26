@@ -1,0 +1,1662 @@
+{
+  "accessed": "2026-09-25",
+  "videos": [
+    {
+      "id": "IeR9CwwrH9k",
+      "slug": "mastercard",
+      "title": "How get started with the US Open Banking APIs",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=IeR9CwwrH9k",
+      "surface": "Mastercard Developers portal (project creation, developer dashboard, Open Banking API docs) plus the Open Banking Postman collection and Finicity Connect test flow",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:34",
+          "seconds": 34,
+          "screen": "Mastercard Developers website where a developer signs up with email, password and basic account details"
+        },
+        {
+          "t": "1:12",
+          "seconds": 72,
+          "screen": "logged-in view listing the presenter's projects, then the API grid and the Open Banking API documentation page"
+        },
+        {
+          "t": "3:37",
+          "seconds": 217,
+          "screen": "create-project form: API pre-selected, project name, company name, region United States, description"
+        },
+        {
+          "t": "4:20",
+          "seconds": 260,
+          "screen": "developer dashboard showing immediate sandbox access with partner ID, secret and app key"
+        },
+        {
+          "t": "5:28",
+          "seconds": 328,
+          "screen": "quick start guide with a button to run the Postman collection, also available on GitHub"
+        },
+        {
+          "t": "12:49",
+          "seconds": 769,
+          "screen": "hosted Connect dialog (served from a Finicity open banking server) where the test user searches for FinBank"
+        },
+        {
+          "t": "13:35",
+          "seconds": 815,
+          "screen": "quick start guide list of sandbox test profiles; presenter enters profile 9 and selects accounts"
+        },
+        {
+          "t": "17:32",
+          "seconds": 1052,
+          "screen": "Postman transaction push request used to seed test transactions into sandbox accounts"
+        }
+      ],
+      "steps": [
+        "Sign up on Mastercard Developers with email, password and basic account information",
+        "Log in and open the Open Banking API from the API grid",
+        "Create a project (name, company, region United States, description)",
+        "Copy partner ID, secret and app key from the sandbox dashboard",
+        "Fork the Postman collection from the quick start guide and paste credentials into the Test Drive environment",
+        "Create a test customer and store the customer ID",
+        "Generate a Connect URL and complete the FinBank test-bank consent flow with a test profile",
+        "Refresh customer accounts and pull account transactions",
+        "Push custom test transactions and re-query by date range"
+      ],
+      "excerpts": [
+        {
+          "t": "0:52",
+          "text": "you can actually sign up sign Up's very simple you just enter in your credentials"
+        },
+        {
+          "t": "4:20",
+          "text": "into the dashboard developer dashboard for my account and here I can see uh I've immediately been given access to the sandbox"
+        },
+        {
+          "t": "4:59",
+          "text": "point in future I may then want to move to production but that's for another video in the future"
+        }
+      ],
+      "says_about_access": "Anyone can sign up on Mastercard Developers with an email and password, create a project and get sandbox credentials immediately; moving to production is mentioned but deferred to another video.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "F4j2d03BcL4",
+      "slug": "mastercard",
+      "title": "How to open and fund an account using the US Open Banking APIs",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=F4j2d03BcL4",
+      "surface": "Open Banking API via the Mastercard Postman collection (Test Drive environment)",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:39",
+          "seconds": 39,
+          "screen": "Postman already open, set up in the earlier getting-started video"
+        },
+        {
+          "t": "1:43",
+          "seconds": 103,
+          "screen": "get customer accounts request returning credit card, savings and checking accounts"
+        },
+        {
+          "t": "3:04",
+          "seconds": 184,
+          "screen": "get account owner request returning the name John Doe and an address"
+        },
+        {
+          "t": "3:45",
+          "seconds": 225,
+          "screen": "get available balance (live) request returning 1104 US dollars"
+        },
+        {
+          "t": "4:51",
+          "seconds": 291,
+          "screen": "get ACH details request returning account and routing numbers from the sandbox"
+        }
+      ],
+      "steps": [
+        "Get the list of customer accounts",
+        "Set the savings account ID as an environment variable",
+        "Call get account owner to confirm name and address",
+        "Call get available balance live to check funds",
+        "Call get ACH details for account and routing numbers to fund the new account"
+      ],
+      "excerpts": [
+        {
+          "t": "0:25",
+          "text": "shows you how to actually get configured and set up with the API how to set up your sandbox credentials"
+        },
+        {
+          "t": "5:34",
+          "text": "the use cases around the open banking API and how easy they are to use and execute"
+        }
+      ],
+      "says_about_access": "Refers back to a prior video for setting up sandbox credentials; nothing further on access.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "uKhHAVHleP0",
+      "slug": "mastercard",
+      "title": "How to enhance a Know Your Customer (KYC) flow with the US Open Banking APIs",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=uKhHAVHleP0",
+      "surface": "Open Banking API via the Mastercard Postman collection",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:27",
+          "seconds": 27,
+          "screen": "Postman open, with setup covered in an earlier linked video"
+        },
+        {
+          "t": "2:21",
+          "seconds": 141,
+          "screen": "get customer accounts request returning credit card, checking and savings accounts"
+        },
+        {
+          "t": "2:52",
+          "seconds": 172,
+          "screen": "environment variables where the account ID is switched to the savings account"
+        },
+        {
+          "t": "3:16",
+          "seconds": 196,
+          "screen": "get account owner request returning the bank's name and full address for the customer"
+        }
+      ],
+      "steps": [
+        "Get customer accounts for the previously configured customer ID",
+        "Set the savings account ID in environment variables",
+        "Call get account owner and compare returned name and address with what the customer supplied"
+      ],
+      "excerpts": [
+        {
+          "t": "0:57",
+          "text": "it usually is quite a manual process and involves checking and credentials and utility bills"
+        },
+        {
+          "t": "3:53",
+          "text": "I can leverage the work that the bank has already done to shorten and streamline my kyc process"
+        }
+      ],
+      "says_about_access": "Points to an earlier video for account setup, credentials and API access; nothing further stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "_cHtIsgBTvk",
+      "slug": "mastercard",
+      "title": "Highlight rounding up payments by pulling transaction history with the US Open Banking APIs",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=_cHtIsgBTvk",
+      "surface": "Open Banking API via the Mastercard Postman collection",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:29",
+          "seconds": 29,
+          "screen": "Postman open, with account setup and credentials covered in earlier videos"
+        },
+        {
+          "t": "2:26",
+          "seconds": 146,
+          "screen": "get customer accounts request listing the three permitted accounts"
+        },
+        {
+          "t": "2:52",
+          "seconds": 172,
+          "screen": "environment variables updated with the checking account ID"
+        },
+        {
+          "t": "3:13",
+          "seconds": 193,
+          "screen": "get all customer account transactions returning six months of transactions with amounts and merchants"
+        },
+        {
+          "t": "3:46",
+          "seconds": 226,
+          "screen": "a separate report option that retrieves 24 months of transactions"
+        }
+      ],
+      "steps": [
+        "Get the list of accounts the customer granted",
+        "Set the checking account ID variable",
+        "Call get all customer account transactions for six months",
+        "Optionally run the 24-month transactions report or aggregate across accounts and banks"
+      ],
+      "excerpts": [
+        {
+          "t": "3:46",
+          "text": "there's another report here as well which you can actually execute which actually will allow you to get the past 24 months of transactions"
+        },
+        {
+          "t": "4:35",
+          "text": "shows you how simple and easy it is to actually execute and integrate with this API"
+        }
+      ],
+      "says_about_access": "Points to earlier videos for account setup and credentials; nothing further stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "yAMm55zxt90",
+      "slug": "mastercard",
+      "title": "APIs in 60 Seconds - BIN Lookup",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=yAMm55zxt90",
+      "surface": "BIN Lookup API (product explainer, no UI walkthrough)",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:02",
+          "seconds": 2,
+          "screen": "opening statement that Mastercard's suite of APIs can be integrated into your products"
+        },
+        {
+          "t": "0:13",
+          "seconds": 13,
+          "screen": "definition of a BIN as the first 6 to 8 digits of a card"
+        },
+        {
+          "t": "0:34",
+          "seconds": 34,
+          "screen": "claim that BIN Lookup gives quality BIN data through an API request"
+        },
+        {
+          "t": "0:47",
+          "seconds": 47,
+          "screen": "use cases listed: payment routing, fraud detection, enrollment verification"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "0:34",
+          "text": "more managing bins in your application can be challenging bin lookup gives you access to Quality bin data through the Simplicity of an API"
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "5Mj_pOQSFsk",
+      "slug": "mastercard",
+      "title": "APIs in 60 Seconds - Transaction Notifications",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=5Mj_pOQSFsk",
+      "surface": "Transaction Notifications API (product explainer, no UI walkthrough)",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:06",
+          "seconds": 6,
+          "screen": "introduction of Transaction Notifications"
+        },
+        {
+          "t": "0:11",
+          "seconds": 11,
+          "screen": "description of near real-time, customer-permissioned purchase data sent via webhooks"
+        },
+        {
+          "t": "0:34",
+          "seconds": 34,
+          "screen": "claim that purchase details reach your app within milliseconds"
+        },
+        {
+          "t": "0:46",
+          "seconds": 46,
+          "screen": "use cases: expense management, purchase insurance offers, cardholder benefits"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "0:34",
+          "text": "With transaction notifications Mastercard sends purchase details to your app within milliseconds of the transaction."
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "Ro4rVcynhsA",
+      "slug": "mastercard",
+      "title": "API for Everything - Mastercard Send",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=Ro4rVcynhsA",
+      "surface": "Mastercard Send push-payments APIs (executive explainer, no UI walkthrough)",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "0:10",
+          "seconds": 10,
+          "screen": "problem framing: repaying friends, cross-border transfers, insurance payouts, gig pay"
+        },
+        {
+          "t": "0:48",
+          "seconds": 48,
+          "screen": "SVP of push payments introduces Mastercard Send"
+        },
+        {
+          "t": "1:13",
+          "seconds": 73,
+          "screen": "Uber and Lyft example: drivers tap pay me now for instant access to funds"
+        },
+        {
+          "t": "1:56",
+          "seconds": 116,
+          "screen": "call to visit Mastercard Developers"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "1:37",
+          "text": "there's plenty of room for businesses to get creative with our MasterCard send api's"
+        },
+        {
+          "t": "1:56",
+          "text": "visit MasterCard developers to learn how we are powering the future of Commerce"
+        }
+      ],
+      "says_about_access": "Only directs viewers to Mastercard Developers; no access terms stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "gM6hYohTUnQ",
+      "slug": "mastercard",
+      "title": "API for Everything: Mastercard Blockchain",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=gM6hYohTUnQ",
+      "surface": "Mastercard Blockchain API (Mastercard Labs explainer, no UI walkthrough)",
+      "audience": "issuer",
+      "moments": [
+        {
+          "t": "0:12",
+          "seconds": 12,
+          "screen": "framing that blockchain is changing how organizations transfer value"
+        },
+        {
+          "t": "0:28",
+          "seconds": 28,
+          "screen": "description of a permissioned blockchain with an opaque layer"
+        },
+        {
+          "t": "0:45",
+          "seconds": 45,
+          "screen": "use cases: card clearing, supply chain, trade finance, provenance"
+        },
+        {
+          "t": "1:09",
+          "seconds": 69,
+          "screen": "statement that the API is opened to FIs and merchants on a selective basis"
+        },
+        {
+          "t": "1:42",
+          "seconds": 102,
+          "screen": "call to visit Mastercard Developers"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "1:09",
+          "text": "or authenticity we decided to open our API for the financial institutions and merchants on a selective basis to start testing with this technology"
+        },
+        {
+          "t": "1:20",
+          "text": "it should be very simple because they don't have to have the extra cost of hosting their own blockchain notes"
+        }
+      ],
+      "says_about_access": "Access to the Blockchain API is opened to financial institutions and merchants on a selective basis for testing, with Mastercard hosting the nodes.",
+      "contradicts_desk_research": "Adds a nuance: this API was opened to FIs and merchants only on a selective basis, so not every Mastercard Developers API was self-service at the sandbox stage.",
+      "date_hint": ""
+    },
+    {
+      "id": "QZVkLBMl9D4",
+      "slug": "mastercard",
+      "title": "MasterCard Payment Facilitator Module 1",
+      "channel": "Mastercard",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=QZVkLBMl9D4",
+      "surface": "Mastercard Payment Facilitator program training module (slides), with registration via Mastercard Connect",
+      "audience": "acquirer",
+      "moments": [
+        {
+          "t": "0:01",
+          "seconds": 1,
+          "screen": "module introduction to the payment facilitator program"
+        },
+        {
+          "t": "1:00",
+          "seconds": 60,
+          "screen": "comparison of the traditional acquirer-merchant model with the payment facilitator model"
+        },
+        {
+          "t": "2:53",
+          "seconds": 173,
+          "screen": "acquirer responsibilities: agreement, registering the PF and sub-merchants, using the MATCH system"
+        },
+        {
+          "t": "3:40",
+          "seconds": 220,
+          "screen": "payment facilitator obligations: sub-merchant contracts, due diligence, monitoring"
+        },
+        {
+          "t": "4:17",
+          "seconds": 257,
+          "screen": "quiz questions"
+        },
+        {
+          "t": "5:47",
+          "seconds": 347,
+          "screen": "answer explaining the signed registration request on Mastercard Connect and confirmation email"
+        }
+      ],
+      "steps": [
+        "Acquirer enters into an agreement with the payment facilitator",
+        "Acquirer submits a signed, completed registration request to Mastercard via Mastercard Connect",
+        "Mastercard reviews the request",
+        "Confirmation email tells the acquirer the PF may begin processing for sub-merchants"
+      ],
+      "excerpts": [
+        {
+          "t": "5:47",
+          "text": "an acquirer needs to submit a signed and completed registration request to MasterCard which can be found on MasterCard connect"
+        },
+        {
+          "t": "5:58",
+          "text": "parties upon on a satisfactory review of the registration request a confirmation email will be sent to the acquirer"
+        },
+        {
+          "t": "2:45",
+          "text": "facilitator fourth there are no fees associated with registering a payment facilitator with MasterCard"
+        }
+      ],
+      "says_about_access": "Payment facilitators get access only through a contracting acquirer, which submits a signed registration request on Mastercard Connect; Mastercard reviews it and confirms by email, at no fee.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "fVkg-1jrobg",
+      "slug": "mastercard",
+      "title": "MasterCard Partnering MSP Module 1",
+      "channel": "Mastercard",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=fVkg-1jrobg",
+      "surface": "Mastercard merchant education module on choosing a merchant service provider (slides)",
+      "audience": "merchant",
+      "moments": [
+        {
+          "t": "0:01",
+          "seconds": 1,
+          "screen": "module introduction for merchants before signing a service agreement"
+        },
+        {
+          "t": "0:39",
+          "seconds": 39,
+          "screen": "guidance to request company materials and speak to the representative"
+        },
+        {
+          "t": "1:46",
+          "seconds": 106,
+          "screen": "reading the merchant agreement and fee disclosure"
+        },
+        {
+          "t": "2:34",
+          "seconds": 154,
+          "screen": "pointer to Mastercard rules posted on the Mastercard merchant website"
+        },
+        {
+          "t": "5:01",
+          "seconds": 301,
+          "screen": "customer support, chargebacks and termination clauses"
+        }
+      ],
+      "steps": [
+        "Research the service provider and collect references",
+        "Get sales rep and home office contacts",
+        "Read the full merchant agreement and fee disclosure",
+        "Understand discount rate pricing methods and all fees",
+        "Check POS equipment lease, rental or purchase terms",
+        "Get support contacts and chargeback help",
+        "Understand termination clauses",
+        "Review billing statements monthly"
+      ],
+      "excerpts": [
+        {
+          "t": "0:47",
+          "text": "ask the representative to talk about the core merchant service processing capabilities"
+        },
+        {
+          "t": "2:38",
+          "text": "MasterCard rules are posted at www.m MasterCard merchant.com"
+        }
+      ],
+      "says_about_access": "Merchants reach card acceptance through a merchant service provider and a signed merchant agreement, dealing with its sales representative and home office; Mastercard rules are public.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "dIEGhMeS8Ts",
+      "slug": "mastercard",
+      "title": "MasterCard QMAP Module 1",
+      "channel": "Mastercard",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=dIEGhMeS8Ts",
+      "surface": "Mastercard Questionable Merchant Audit Program (QMAP) training module (slides and dramatized scenarios)",
+      "audience": "issuer",
+      "moments": [
+        {
+          "t": "0:22",
+          "seconds": 22,
+          "screen": "definition of QMAP and its replacement of the CMC program"
+        },
+        {
+          "t": "2:43",
+          "seconds": 163,
+          "screen": "dramatized call where a fraudster applies for a merchant account at ABC Bank"
+        },
+        {
+          "t": "3:47",
+          "seconds": 227,
+          "screen": "acquirer sales agent gives the documents a cursory review and ships a terminal"
+        },
+        {
+          "t": "4:36",
+          "seconds": 276,
+          "screen": "criteria for bust-out and non-bust-out schemes"
+        },
+        {
+          "t": "9:18",
+          "seconds": 558,
+          "screen": "two bank analysts draft emails to the QMAP mailbox with required data elements"
+        },
+        {
+          "t": "10:14",
+          "seconds": 614,
+          "screen": "five stages of the QMAP audit process, including issuer 60-day and acquirer 15-day windows"
+        },
+        {
+          "t": "15:22",
+          "seconds": 922,
+          "screen": "quiz questions"
+        }
+      ],
+      "steps": [
+        "Issuer emails the QMAP mailbox with the required data elements",
+        "Mastercard initiates an audit and lists the merchant in MATCH (reason code 00)",
+        "Issuers confirm fraud reported to SAFE within 60 days; acquirer completes a checklist",
+        "Mastercard determines questionable-merchant status; acquirer has 15 days to respond",
+        "Eligible issuers recover up to 50% of reported fraud losses",
+        "Acquirer bears chargebacks under reason code 4849 if it keeps processing"
+      ],
+      "excerpts": [
+        {
+          "t": "3:55",
+          "text": "documentation gives it a cursory review basically checks that the required documents have been received"
+        },
+        {
+          "t": "9:28",
+          "text": "they both begin to draft an email to qap mastercard.com"
+        },
+        {
+          "t": "11:00",
+          "text": "step two upon receiving notification of the audit an issuer will have 60 days to confirm that all fraudulent transactions"
+        }
+      ],
+      "says_about_access": "Issuers engage the program by emailing a Mastercard QMAP mailbox with specified data; no portal or self-service surface is described.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "rGTs6g8HH9A",
+      "slug": "mastercard",
+      "title": "MasterCard BRAM Module 1",
+      "channel": "Mastercard",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=rGTs6g8HH9A",
+      "surface": "Mastercard Business Risk Assessment and Mitigation (BRAM) training module (slides and case study)",
+      "audience": "acquirer",
+      "moments": [
+        {
+          "t": "0:01",
+          "seconds": 1,
+          "screen": "module introduction to the BRAM compliance program"
+        },
+        {
+          "t": "1:23",
+          "seconds": 83,
+          "screen": "list of core BRAM categories of illegal or brand-damaging activity"
+        },
+        {
+          "t": "2:29",
+          "seconds": 149,
+          "screen": "investigation process: referrals, web crawler, trace message, notifying the acquirer"
+        },
+        {
+          "t": "4:10",
+          "seconds": 250,
+          "screen": "related rules: merchant category codes, merchant name display, written merchant agreement"
+        },
+        {
+          "t": "6:24",
+          "seconds": 384,
+          "screen": "case study of Paula buying counterfeit sleep aids"
+        },
+        {
+          "t": "8:59",
+          "seconds": 539,
+          "screen": "quiz questions"
+        }
+      ],
+      "steps": [
+        "Mastercard receives a referral or detects a possible violation",
+        "Mastercard runs a trace-message test transaction",
+        "Mastercard notifies the merchant's acquirer",
+        "Acquirer investigates and responds, contacting Mastercard staff if needed",
+        "Acquirer takes action; Mastercard concludes the investigation"
+      ],
+      "excerpts": [
+        {
+          "t": "3:14",
+          "text": "Mastercard rules violations. Mastercard also asks the acquirer to conduct its own investigation and respond to our inquiry."
+        },
+        {
+          "t": "3:22",
+          "text": "inquiry. If the acquirer has any questions following their own investigation, they can use this opportunity to contact Mastercard staff"
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "RtHIHF-INss",
+      "slug": "mastercard",
+      "title": "Mastercard Engage - Helping Customers Find the Best Technology Partners",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=RtHIHF-INss",
+      "surface": "Mastercard Engage partner program and its technology-partner directories website",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "0:17",
+          "seconds": 17,
+          "screen": "framing of mobile reshaping commerce and new business partners"
+        },
+        {
+          "t": "0:41",
+          "seconds": 41,
+          "screen": "purpose of Mastercard Engage: federate players and build a network of qualified partners"
+        },
+        {
+          "t": "1:08",
+          "seconds": 68,
+          "screen": "what registered vendors receive: trainings and strategy and product updates"
+        },
+        {
+          "t": "1:45",
+          "seconds": 105,
+          "screen": "issuers, merchants and IoT manufacturers finding partners via directories on the Engage website"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "1:08",
+          "text": "As a vendor, if you register to a MasterCard Engage program, you will become a valuable digital technology partner."
+        },
+        {
+          "t": "1:51",
+          "text": "are able to more easily find the right technology partner by leveraging the directories that can be found on the MasterCard Engage website."
+        }
+      ],
+      "says_about_access": "Technology vendors register for the Engage program to become partners with training and updates; customers find them through directories on the Engage website.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "L33At9gVBas",
+      "slug": "mastercard",
+      "title": "MasterCard Academy on the web",
+      "channel": "Mastercard News",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=L33At9gVBas",
+      "surface": "Mastercard Academy on the web (Operations Bulletin highlights sessions)",
+      "audience": "issuer",
+      "moments": [
+        {
+          "t": "0:00",
+          "seconds": 0,
+          "screen": "introduction of the monthly Operations Bulletin as a main source of rule and product changes"
+        },
+        {
+          "t": "0:19",
+          "seconds": 19,
+          "screen": "Operations Bulletin highlights sessions available on Academy on the web"
+        },
+        {
+          "t": "0:27",
+          "seconds": 27,
+          "screen": "invitation to the next session"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "0:19",
+          "text": "operations built-in highlights available on Academy on the web summarize those operations buildings on a monthly basis"
+        },
+        {
+          "t": "0:27",
+          "text": "come and join me on the tenth of September for the next session"
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": "tenth of September (no year)"
+    },
+    {
+      "id": "c1xk7B9d4i8",
+      "slug": "mastercard",
+      "title": "How to Integrate Mastercard Click to Pay with Hosted Session | Complete Developer Tutorial",
+      "channel": "Mastercard Merchant Cloud",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=c1xk7B9d4i8",
+      "surface": "Mastercard Gateway (Click to Pay via Hosted Session): integration guide, Postman collection, Merchant Administration portal, sample React and Node app",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "1:06",
+          "seconds": 66,
+          "screen": "Click to Pay page in the Gateway integration guide"
+        },
+        {
+          "t": "3:19",
+          "seconds": 199,
+          "screen": "sample merchant checkout in the Gateway test environment; returning user enters email and sees saved cards"
+        },
+        {
+          "t": "4:34",
+          "seconds": 274,
+          "screen": "Merchant Administration portal showing the captured order"
+        },
+        {
+          "t": "6:51",
+          "seconds": 411,
+          "screen": "Postman sequence: create session, update session, payment options inquiry, update session from wallet, pay"
+        },
+        {
+          "t": "12:57",
+          "seconds": 777,
+          "screen": "merchant admin portal SRC configuration section that must be enabled for Click to Pay"
+        },
+        {
+          "t": "14:19",
+          "seconds": 859,
+          "screen": "new-user flow using test cards from developer.mastercard.com, with passkey creation"
+        },
+        {
+          "t": "20:01",
+          "seconds": 1201,
+          "screen": "code walkthrough of fake storefront, sequence diagram and backend routes"
+        },
+        {
+          "t": "30:07",
+          "seconds": 1807,
+          "screen": "Click to Pay SDK configure page in the guide, with card-list and OTP placeholders"
+        }
+      ],
+      "steps": [
+        "Enable SRC configuration in Merchant Administration",
+        "Ask the payment service provider to enable Click to Pay",
+        "Create session and update it with amount, currency, order ID and transaction ID",
+        "Run payment options inquiry to confirm Click to Pay is available",
+        "Load the Click to Pay JavaScript and call configure with session, order and element placeholders",
+        "Shopper enters email, completes OTP and selects a card in the DCF",
+        "Capture the correlation ID in onComplete and update the session from wallet",
+        "Call the pay operation and confirm the capture in Merchant Administration"
+      ],
+      "excerpts": [
+        {
+          "t": "13:00",
+          "text": "uh for the merchant to enable click to pay they need to go into their merchant uh merchant admin portal"
+        },
+        {
+          "t": "13:34",
+          "text": "So you need to reach out to your payment service provider. They would enable click to pay"
+        },
+        {
+          "t": "41:37",
+          "text": "there is very less development required uh from from the developer itself"
+        }
+      ],
+      "says_about_access": "Click to Pay requires the merchant to enable SRC in Merchant Administration and the payment service provider to enable it; the demo uses a Gateway test-environment (MTF) merchant.",
+      "contradicts_desk_research": "Adds a nuance: Gateway features such as Click to Pay are switched on by the merchant's payment service provider, not by self-service on Mastercard Developers.",
+      "date_hint": ""
+    },
+    {
+      "id": "xAFZuSDcmYU",
+      "slug": "mastercard",
+      "title": "Apple Pay gateway integration tutorial using Mastercard Merchant Cloud",
+      "channel": "Mastercard Merchant Cloud",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=xAFZuSDcmYU",
+      "surface": "Mastercard Gateway Direct Payment API for Apple Pay, Merchant Administration (device payments certificates), integration guide",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:41",
+          "seconds": 41,
+          "screen": "Gateway integration guide Apple Pay payment flow using gateway-managed decryption"
+        },
+        {
+          "t": "3:02",
+          "seconds": 182,
+          "screen": "Node backend log of the pay operation and approved response"
+        },
+        {
+          "t": "3:30",
+          "seconds": 210,
+          "screen": "Merchant Administration portal showing the approved 56.56 order"
+        },
+        {
+          "t": "4:50",
+          "seconds": 290,
+          "screen": "App Store Connect sandbox tester account creation"
+        },
+        {
+          "t": "6:37",
+          "seconds": 397,
+          "screen": "Gateway admin settings, device payments, creating a certificate and downloading a CSR"
+        },
+        {
+          "t": "7:36",
+          "seconds": 456,
+          "screen": "Apple developer site where the CSR is uploaded and the certificate downloaded back into the Gateway"
+        },
+        {
+          "t": "11:17",
+          "seconds": 677,
+          "screen": "test-amount scenarios in the guide: 56.56 approves, 57.57 declines"
+        },
+        {
+          "t": "13:42",
+          "seconds": 822,
+          "screen": "SwiftUI cart view, payment handler and network manager code walkthrough"
+        }
+      ],
+      "steps": [
+        "Create an Apple sandbox tester account in App Store Connect",
+        "Create a merchant identifier in the Apple developer account",
+        "Download a CSR from Gateway admin settings (device payments)",
+        "Upload the CSR to Apple, download the certificate, upload it to the Gateway",
+        "Build the SwiftUI Apple Pay sheet and pass the token to the Node backend",
+        "Backend calls the Gateway pay operation with the payment token",
+        "Confirm the order in Merchant Administration"
+      ],
+      "excerpts": [
+        {
+          "t": "2:09",
+          "text": "It it reduces the PCI compliance scope considerably."
+        },
+        {
+          "t": "4:12",
+          "text": "So to implement Apple Pay, Apple has documented their steps very clearly and we need to follow it step by step to implement Apple Pay."
+        },
+        {
+          "t": "6:37",
+          "text": "So, in Mastercard uh gateway, we have to go to admin settings. You have to go to device payments"
+        }
+      ],
+      "says_about_access": "Uses an existing Gateway MTF test merchant with API password plus an Apple developer account; how the Gateway merchant is obtained is not stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "X_BvzMXXEUc",
+      "slug": "mastercard",
+      "title": "Mastercard Gateway Integration Guide",
+      "channel": "Mastercard Merchant Cloud",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=X_BvzMXXEUc",
+      "surface": "Mastercard Gateway integration guide (white-label documentation site)",
+      "audience": "merchant",
+      "moments": [
+        {
+          "t": "0:20",
+          "seconds": 20,
+          "screen": "integration guide described as helping merchants access payment features"
+        },
+        {
+          "t": "0:30",
+          "seconds": 30,
+          "screen": "white-label interface that partners can rebrand"
+        },
+        {
+          "t": "0:49",
+          "seconds": 49,
+          "screen": "integration methods, payment methods, fraud protection, Click to Pay and tokenization plugins"
+        },
+        {
+          "t": "1:05",
+          "seconds": 65,
+          "screen": "API documentation section and downloadable Postman examples"
+        },
+        {
+          "t": "1:25",
+          "seconds": 85,
+          "screen": "making a first API request once a test merchant account exists"
+        },
+        {
+          "t": "1:35",
+          "seconds": 95,
+          "screen": "glossary, FAQs and downloads"
+        }
+      ],
+      "steps": [
+        "Choose an integration method",
+        "Add payment methods, fraud protection and plugins from the guide",
+        "Explore API docs and Postman examples",
+        "Use a test merchant account to make a first API request"
+      ],
+      "excerpts": [
+        {
+          "t": "0:30",
+          "text": "a clean simple user interface that white label Partners can Rebrand as their own"
+        },
+        {
+          "t": "1:25",
+          "text": "once developers have a test merchant account they can make their first API request"
+        }
+      ],
+      "says_about_access": "Developers need a test merchant account before making API requests; where it comes from is not stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "xlT_Wp8JGLg",
+      "slug": "mastercard",
+      "title": "Mastercard MPGS Hosted Checkout Integration for Web (ReactJS)",
+      "channel": "scriptpapi",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=xlT_Wp8JGLg",
+      "surface": "Mastercard Gateway (MPGS) Hosted Checkout, embedded in a React web app, with the regional integration guide and Postman",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:47",
+          "seconds": 47,
+          "screen": "diagram of the hosted checkout flow from session to 3DS to result"
+        },
+        {
+          "t": "1:31",
+          "seconds": 91,
+          "screen": "demo skateboard shop checkout page with a placeholder button"
+        },
+        {
+          "t": "1:51",
+          "seconds": 111,
+          "screen": "choosing the regional integration guide (Middle East and Africa)"
+        },
+        {
+          "t": "2:26",
+          "seconds": 146,
+          "screen": "adding the checkout JavaScript to index.html using the bank-provided test gateway URL"
+        },
+        {
+          "t": "3:40",
+          "seconds": 220,
+          "screen": "Postman initiate checkout call with basic auth and return URL"
+        },
+        {
+          "t": "4:48",
+          "seconds": 288,
+          "screen": "test cards and expiry 01/39 from the guide's test and go live section"
+        },
+        {
+          "t": "8:22",
+          "seconds": 502,
+          "screen": "get order API showing status captured"
+        },
+        {
+          "t": "11:25",
+          "seconds": 685,
+          "screen": "end-to-end test with issuer 3DS page and order confirmed"
+        }
+      ],
+      "steps": [
+        "Pick the regional integration guide",
+        "Include checkout.js from the bank-specific gateway URL",
+        "Call initiate checkout (basic auth) to get a session ID",
+        "Configure Checkout with the session and show the embedded page",
+        "Pay with a test card from the guide and complete 3DS",
+        "Retrieve the order and check status captured",
+        "Show the result page"
+      ],
+      "excerpts": [
+        {
+          "t": "2:29",
+          "text": "you get a test account from your bank and my bank has my bank's URL is instead test Dash Gateway for testing"
+        },
+        {
+          "t": "2:37",
+          "text": "so check with your bank or you acquire repayment service provider what's your actual credentials your URL and so on"
+        }
+      ],
+      "says_about_access": "Gateway test accounts, credentials and test URLs come from your bank, acquirer or payment service provider, not from Mastercard directly.",
+      "contradicts_desk_research": "Adds a nuance: Gateway sandbox credentials come from the acquiring bank or PSP, which is a different path from the Mastercard Developers self-service project sandbox.",
+      "date_hint": ""
+    },
+    {
+      "id": "yncGjTx4ahE",
+      "slug": "mastercard",
+      "title": "Mastercard Gateway Hosted Session Integration (ReactJS Web App)",
+      "channel": "scriptpapi",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=yncGjTx4ahE",
+      "surface": "Mastercard Gateway Hosted Session in a React web app with a Node backend and Postman",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:08",
+          "seconds": 8,
+          "screen": "finished demo shop with card fields and a payment result"
+        },
+        {
+          "t": "0:27",
+          "seconds": 27,
+          "screen": "official Hosted Session integration guide steps"
+        },
+        {
+          "t": "0:38",
+          "seconds": 38,
+          "screen": "Postman create session and update session requests"
+        },
+        {
+          "t": "1:19",
+          "seconds": 79,
+          "screen": "Postman code-snippet feature used to generate Node axios code"
+        },
+        {
+          "t": "3:41",
+          "seconds": 221,
+          "screen": "session.js library import and anti-clickjacking code from the guide sample"
+        },
+        {
+          "t": "9:04",
+          "seconds": 544,
+          "screen": "restyled custom card fields"
+        },
+        {
+          "t": "16:16",
+          "seconds": 976,
+          "screen": "failure scenario using expiry 05/39"
+        },
+        {
+          "t": "16:51",
+          "seconds": 1011,
+          "screen": "disclaimer that it is not an official guide"
+        }
+      ],
+      "steps": [
+        "Implement create session and update session in the Node backend",
+        "Import session.js and add card input fields in React",
+        "Configure PaymentSession with the session ID",
+        "Update the session with card details on pay",
+        "Call the pay API from the backend and show captured or declined"
+      ],
+      "excerpts": [
+        {
+          "t": "9:04",
+          "text": "than this so luckily the nice thing about this host session integration approach is that your fields are customizable"
+        },
+        {
+          "t": "16:51",
+          "text": "this implementation uh demo is just my implementation demo it's not an official guide by any means"
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "Hq6-AjP_DMY",
+      "slug": "mastercard",
+      "title": "016 - Mastercard MPGS Gateway Hosted Checkout on iOS (SwiftUI + NodeJS)",
+      "channel": "scriptpapi",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=Hq6-AjP_DMY",
+      "surface": "Mastercard Gateway (MPGS) Hosted Checkout in an iOS SwiftUI webview with a Node/Firebase backend",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:18",
+          "seconds": 18,
+          "screen": "finished app: cart, shipping form, payment page in a webview, 3DS and success"
+        },
+        {
+          "t": "0:40",
+          "seconds": 40,
+          "screen": "test card taken from the official website"
+        },
+        {
+          "t": "4:23",
+          "seconds": 263,
+          "screen": "Postman initiate checkout request with return, timeout and cancel URLs"
+        },
+        {
+          "t": "8:17",
+          "seconds": 497,
+          "screen": "Postman Swift URLSession snippet"
+        },
+        {
+          "t": "10:36",
+          "seconds": 636,
+          "screen": "webview with the Hosted Checkout JavaScript and a region-specific host URL"
+        },
+        {
+          "t": "15:44",
+          "seconds": 944,
+          "screen": "retrieve order API showing status captured"
+        },
+        {
+          "t": "21:52",
+          "seconds": 1312,
+          "screen": "success view, then a decline with expiry 05/39"
+        }
+      ],
+      "steps": [
+        "Add checkout and shipping views to the app",
+        "Build a backend endpoint that calls initiate checkout and returns the session ID",
+        "Render Hosted Checkout in a WKWebView with the session ID",
+        "Detect return, timeout or cancel URLs to close the webview",
+        "Call a retrieve-order endpoint and show success or failure"
+      ],
+      "excerpts": [
+        {
+          "t": "1:11",
+          "text": "then you're back to your app I'm not using any SDK here I'm just using the JavaScript library"
+        },
+        {
+          "t": "11:15",
+          "text": "depending on your acquiring bank for example for some people located in Asia Pacific region it could be AP"
+        }
+      ],
+      "says_about_access": "Uses a test merchant ID and API username/password; the gateway host URL depends on your acquiring bank's region.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "y83QK3E5f6U",
+      "slug": "mastercard",
+      "title": "Mastercard Payment Gateway - Hosted Checkout Integration (React, Spring Boot)",
+      "channel": "Vignesh",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=y83QK3E5f6U",
+      "surface": "Mastercard Gateway (MPGS) Hosted Checkout with a React front end and Spring Boot backend",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "0:07",
+          "seconds": 7,
+          "screen": "MPGS documentation comparing hosted checkout, hosted session and direct payment"
+        },
+        {
+          "t": "1:06",
+          "seconds": 66,
+          "screen": "high-level flow diagram of client, server and MPGS gateway"
+        },
+        {
+          "t": "3:48",
+          "seconds": 228,
+          "screen": "curl of initiate checkout with basic auth, interaction and order fields"
+        },
+        {
+          "t": "5:04",
+          "seconds": 304,
+          "screen": "Spring Boot endpoint calling initiate checkout"
+        },
+        {
+          "t": "6:28",
+          "seconds": 388,
+          "screen": "embedded Mastercard payment form rendered in the site"
+        },
+        {
+          "t": "9:03",
+          "seconds": 543,
+          "screen": "test-environment 3DS simulation page"
+        },
+        {
+          "t": "11:03",
+          "seconds": 663,
+          "screen": "backend log of retrieve order showing captured 300"
+        }
+      ],
+      "steps": [
+        "Client calls own server, which calls MPGS initiate checkout",
+        "Pass the session ID to the front end and load the checkout script",
+        "Show the embedded payment form",
+        "Enter test card and complete 3DS",
+        "Redirect to the return URL and call retrieve order",
+        "Show success when status is captured"
+      ],
+      "excerpts": [
+        {
+          "t": "0:39",
+          "text": "so in hosted checkout uh the P the merchant doesn't have to be PCIDSS compliant"
+        },
+        {
+          "t": "3:40",
+          "text": "So this this API has to be fired from your server. It cannot be done from your client due to security reasons."
+        },
+        {
+          "t": "8:21",
+          "text": "So you can get the test card details from Mastercard. uh documentation."
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "k9TAfL0M6D4",
+      "slug": "mastercard",
+      "title": "MasterCard Open API",
+      "channel": "Peter van der Linden",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=k9TAfL0M6D4",
+      "surface": "Mastercard Developers (developer.mastercard.com) API catalog, API pages with resources and sample code tabs, and the Simplify Commerce SDK (older portal)",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "2:46",
+          "seconds": 166,
+          "screen": "slide deck with four takeaways for developers"
+        },
+        {
+          "t": "4:25",
+          "seconds": 265,
+          "screen": "slide of links to the slides, the community forum and the hackathon hashtag"
+        },
+        {
+          "t": "10:33",
+          "seconds": 633,
+          "screen": "developer.mastercard.com homepage with the register link"
+        },
+        {
+          "t": "11:02",
+          "seconds": 662,
+          "screen": "APIs tab grid with icons for 16 or 17 APIs"
+        },
+        {
+          "t": "21:04",
+          "seconds": 1264,
+          "screen": "Simplify Commerce page with its tutorial tab"
+        },
+        {
+          "t": "25:16",
+          "seconds": 1516,
+          "screen": "locations API page with resources tab listing sandbox and production URLs"
+        },
+        {
+          "t": "26:42",
+          "seconds": 1602,
+          "screen": "security slide: RSA key pair, CSR, OAuth 1 with body hash, nonce"
+        },
+        {
+          "t": "34:20",
+          "seconds": 2060,
+          "screen": "Q&A: sandbox data is fake, production is live"
+        }
+      ],
+      "steps": [
+        "Register free on developer.mastercard.com with email confirmation",
+        "Open the APIs tab and pick an API",
+        "Read the tutorial, or download the SDK",
+        "Find sandbox and production URLs under the resources tab",
+        "Generate an RSA key pair and send the public key as a CSR",
+        "Sign REST requests with OAuth 1 and a body hash, or use an SDK"
+      ],
+      "excerpts": [
+        {
+          "t": "10:47",
+          "text": "it's a free registration with an email confirmation very quick and easy to do"
+        },
+        {
+          "t": "25:52",
+          "text": "you've uh got written agreements with uh MasterCard uh or whatever is required to uh have a a way of paying for the API use"
+        },
+        {
+          "t": "20:43",
+          "text": "yourself it's not impossible it's just going to take uh two or three days of your your time"
+        }
+      ],
+      "says_about_access": "Registration is free with email confirmation and the sandbox is free; production needs written agreements with Mastercard and a way to pay, and some acquirer and issuer APIs are private.",
+      "contradicts_desk_research": "Adds a nuance: the talk says issuers and acquirers get certain capabilities through private APIs not offered in the public catalog; it also describes an older key-pair model with no mention of projects.",
+      "date_hint": ""
+    },
+    {
+      "id": "jfsdiaq3s_c",
+      "slug": "mastercard",
+      "title": "Demo using Claude with Model Context Protocol (MCP) plugins from Mastercard, AirTable and NoCodeAPI",
+      "channel": "Digital Insights with Colin Wynd",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=jfsdiaq3s_c",
+      "surface": "Claude desktop with MCP extensions, including the Mastercard Developers MCP server (listed and configured, not demonstrated)",
+      "audience": "developer",
+      "moments": [
+        {
+          "t": "1:11",
+          "seconds": 71,
+          "screen": "slide of three MCP plugins: NoCodeAPI, Airtable and Mastercard"
+        },
+        {
+          "t": "2:25",
+          "seconds": 145,
+          "screen": "Claude desktop settings, extensions list including the Mastercard Developers MCP server"
+        },
+        {
+          "t": "3:03",
+          "seconds": 183,
+          "screen": "Claude calling the NoCodeAPI MCP server"
+        },
+        {
+          "t": "4:23",
+          "seconds": 263,
+          "screen": "Claude reading a Google Sheet via NoCodeAPI"
+        },
+        {
+          "t": "8:10",
+          "seconds": 490,
+          "screen": "Claude creating an Airtable table via the Airtable MCP server"
+        }
+      ],
+      "steps": [
+        "Open Claude desktop settings, extensions",
+        "Configure installed MCP servers with keys",
+        "Ask Claude to query Google Sheets via NoCodeAPI",
+        "Ask Claude to write monthly totals to Airtable"
+      ],
+      "excerpts": [
+        {
+          "t": "1:58",
+          "text": "And recently, Mastercard has also got a plugin to go access their APIs and I'll probably do a demo of that another time."
+        },
+        {
+          "t": "2:58",
+          "text": "normally it's uh putting in keys and things like that"
+        }
+      ],
+      "says_about_access": "MCP servers are configured by entering keys; the Mastercard server itself is not demonstrated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "7h3lSRcGTeg",
+      "slug": "mastercard",
+      "title": "Finicity - HousingWire Virtual Demo Day",
+      "channel": "Mastercard Open Finance",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=7h3lSRcGTeg",
+      "surface": "Finicity (a Mastercard company) verification of income and employment borrower flow and lender LOS report",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "5:58",
+          "seconds": 358,
+          "screen": "slides on verification of assets and verification of income and employment"
+        },
+        {
+          "t": "8:11",
+          "seconds": 491,
+          "screen": "loan officer orders the report from within the LOS"
+        },
+        {
+          "t": "8:42",
+          "seconds": 522,
+          "screen": "borrower email link opens the verification experience"
+        },
+        {
+          "t": "9:06",
+          "seconds": 546,
+          "screen": "borrower uploads a pay stub from desktop or phone"
+        },
+        {
+          "t": "9:45",
+          "seconds": 585,
+          "screen": "borrower finds their bank, logs in and picks the direct-deposit checking account"
+        },
+        {
+          "t": "11:37",
+          "seconds": 697,
+          "screen": "loan officer opens the report in the LOS showing OCR'd pay stub matched to deposits"
+        },
+        {
+          "t": "14:46",
+          "seconds": 886,
+          "screen": "slides on direct data integration and registered CRA status"
+        },
+        {
+          "t": "19:13",
+          "seconds": 1153,
+          "screen": "digital readiness success-factor slide, including a branded Connect experience"
+        }
+      ],
+      "steps": [
+        "Loan officer orders the report in the LOS",
+        "Borrower gets an email link",
+        "Borrower uploads a pay stub",
+        "Borrower connects their bank and selects the deposit account",
+        "Report appears in the LOS for the loan officer and GSEs"
+      ],
+      "excerpts": [
+        {
+          "t": "7:56",
+          "text": "how simple easy quick and intuitive this process really is"
+        },
+        {
+          "t": "8:07",
+          "text": "you can order this report through your loss"
+        },
+        {
+          "t": "21:05",
+          "text": "you can have your own tailored uh brand on that experience"
+        }
+      ],
+      "says_about_access": "Lenders order through their LOS or POS partners; no developer or account access terms are stated.",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "-leMzb4ZWNI",
+      "slug": "mastercard",
+      "title": "HousingWire Demo Day - Finicity digital verification solutions - September 1, 2020",
+      "channel": "Mastercard Open Finance",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=-leMzb4ZWNI",
+      "surface": "Finicity (a Mastercard company) verification of income and employment borrower flow and report (PDF, XML, JSON)",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "1:28",
+          "seconds": 88,
+          "screen": "opening slides on digital disruption and consumer expectations"
+        },
+        {
+          "t": "4:29",
+          "seconds": 269,
+          "screen": "slide on Finicity as the only registered CRA"
+        },
+        {
+          "t": "5:57",
+          "seconds": 357,
+          "screen": "borrower agrees to terms and conditions"
+        },
+        {
+          "t": "6:06",
+          "seconds": 366,
+          "screen": "borrower uploads a pay stub"
+        },
+        {
+          "t": "6:21",
+          "seconds": 381,
+          "screen": "borrower logs in to Wells Fargo, then Chase"
+        },
+        {
+          "t": "7:26",
+          "seconds": 446,
+          "screen": "report showing gross and net pay matched to deposits, plus employer name"
+        },
+        {
+          "t": "7:53",
+          "seconds": 473,
+          "screen": "report formats: human-readable PDF, XML and JSON"
+        },
+        {
+          "t": "16:23",
+          "seconds": 983,
+          "screen": "Q&A on integration time: about four weeks via API or configuration in LOS/POS"
+        }
+      ],
+      "steps": [
+        "Borrower agrees to terms",
+        "Borrower uploads pay stub",
+        "Borrower authenticates to one or more banks",
+        "Borrower selects deposit accounts",
+        "Finicity generates the report, available via API or the LOS/POS"
+      ],
+      "excerpts": [
+        {
+          "t": "16:51",
+          "text": "that can take you know um you know four weeks is probably fairly uh fairly typical"
+        },
+        {
+          "t": "17:05",
+          "text": "so that it can be as simple as configuring an additional option in your 1003 workflow"
+        },
+        {
+          "t": "17:13",
+          "text": "working through just contracting and typical onboarding being the long pole in the tent"
+        }
+      ],
+      "says_about_access": "Lenders integrate via APIs (about four weeks) or turn it on in partner LOS/POS systems, where contracting and onboarding take the longest.",
+      "contradicts_desk_research": "",
+      "date_hint": "Quotes a 2017 study; mentions COVID-19 and February and March origination data (the title dates the event September 1, 2020)"
+    },
+    {
+      "id": "NxmP4iP7No4",
+      "slug": "mastercard",
+      "title": "FinovateSpring 2022 / Finicity, a Mastercard Company",
+      "channel": "Finovate TV",
+      "official": false,
+      "url": "https://www.youtube.com/watch?v=NxmP4iP7No4",
+      "surface": "Mastercard Open Banking payments smart payment decisioning demo (Connect flow in a sample RentPay app)",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "1:05",
+          "seconds": 65,
+          "screen": "product lead introduces smart payment decisioning tools"
+        },
+        {
+          "t": "1:51",
+          "seconds": 111,
+          "screen": "Adam gets a RentPay text and is prompted to set up autopay"
+        },
+        {
+          "t": "2:31",
+          "seconds": 151,
+          "screen": "add bank account opens Connect, where he searches FinBank"
+        },
+        {
+          "t": "2:57",
+          "seconds": 177,
+          "screen": "FinBank mobile app login and account selection"
+        },
+        {
+          "t": "4:31",
+          "seconds": 271,
+          "screen": "add debit card manually, via digital wallet or by photo"
+        },
+        {
+          "t": "4:46",
+          "seconds": 286,
+          "screen": "summary screen recommending the debit card rail based on the payment success indicator"
+        }
+      ],
+      "steps": [
+        "Consumer opens autopay setup from a text",
+        "Adds bank account via Connect and grants permission",
+        "Logs in at the bank and picks the checking account",
+        "Adds a debit card",
+        "Reviews the summary with the recommended rail and date"
+      ],
+      "excerpts": [
+        {
+          "t": "3:13",
+          "text": "that can be optimized or customized by our customers."
+        },
+        {
+          "t": "3:24",
+          "text": "And our connect app can be standalone or it can be embedded into your fintech app or website."
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    },
+    {
+      "id": "apdu4xGU1tg",
+      "slug": "mastercard",
+      "title": "Mastercard Open Banking for Account Opening - Account Owner Verification with identity insights",
+      "channel": "Mastercard Open Finance",
+      "official": true,
+      "url": "https://www.youtube.com/watch?v=apdu4xGU1tg",
+      "surface": "Mastercard Open Banking account owner verification with identity insights (product explainer, no UI walkthrough)",
+      "audience": "fintech",
+      "moments": [
+        {
+          "t": "0:03",
+          "seconds": 3,
+          "screen": "framing of fast digital experiences versus fraud risk"
+        },
+        {
+          "t": "0:29",
+          "seconds": 29,
+          "screen": "introduction of account verification paired with identity insights"
+        },
+        {
+          "t": "0:42",
+          "seconds": 42,
+          "screen": "claim of real-time risk scores from combined identity and permissioned account data"
+        }
+      ],
+      "steps": [],
+      "excerpts": [
+        {
+          "t": "0:35",
+          "text": "an innovation that packages two cutting-edge Services into one API"
+        }
+      ],
+      "says_about_access": "not stated",
+      "contradicts_desk_research": "",
+      "date_hint": ""
+    }
+  ]
+}

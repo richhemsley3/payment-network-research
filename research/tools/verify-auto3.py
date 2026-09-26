@@ -34,7 +34,8 @@ def fetch(url, archive):
             if len(norm(text)) > 500: break
         except Exception: continue
         time.sleep(1)
-    open(p, 'w').write(method + '\n' + text); return method + '\n' + text
+    if len(norm(text)) >= 200: open(p, 'w').write(method + '\n' + text)
+    return method + '\n' + text
 by_url = collections.defaultdict(list)
 for rid, r in prev.items():
     if r['result'] == 'supports' or rid not in S: continue

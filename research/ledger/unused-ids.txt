@@ -19,10 +19,8 @@ amex-012
 amex-015
 amex-016
 amex-019
-amex-020
 amex-022
 amex-023
-amex-024
 amex-025
 amex-027
 amex-029
@@ -420,7 +418,6 @@ cross-060
 cross-061
 cross-062
 cross-063
-cross-064
 cross-065
 cross-066
 cross-067
@@ -430,7 +427,6 @@ cross-070
 cross-071
 cross-072
 cross-073
-cross-074
 cross-075
 cross-076
 cross-077
@@ -509,7 +505,6 @@ dgn-015
 dgn-016
 dgn-019
 dgn-020
-dgn-024
 dgn-025
 dgn-030
 dgn-031
@@ -656,7 +651,6 @@ mastercard-022
 mastercard-024
 mastercard-025
 mastercard-027
-mastercard-028
 mastercard-029
 mastercard-030
 mastercard-035
@@ -684,6 +678,8 @@ mastercard-083
 mastercard-084
 mastercard-087
 mastercard-089
+mastercard-095
+mastercard-096
 mastercard-097
 mastercard-098
 mastercard-099
@@ -722,7 +718,7 @@ mastercard-148
 mastercard-151
 mastercard-152
 mastercard-153
-mastercard-155
+mastercard-154
 mastercard-156
 mastercard-157
 mastercard-158
@@ -988,7 +984,6 @@ visa-022
 visa-025
 visa-026
 visa-027
-visa-030
 visa-031
 visa-032
 visa-033
@@ -1111,7 +1106,6 @@ visa-200
 visa-201
 visa-202
 visa-203
-visa-204
 visa-206
 visa-209
 visa-210

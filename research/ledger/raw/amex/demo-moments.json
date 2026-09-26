@@ -1,0 +1,472 @@
+{
+ "accessed": "2026-09-25",
+ "videos": [
+  {
+   "id": "_fRxW33FJVg",
+   "slug": "amex",
+   "title": "Navigate Payments effectively: American Express Merchant website",
+   "channel": "American Express UK",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=_fRxW33FJVg",
+   "surface": "Amex Merchant website, Payments section",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:11",
+     "seconds": 11,
+     "screen": "Payments page for single currency accounts, with an account activity overview at the top and payment information in the main body"
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "screen": "Settlements list, one line per settlement, expandable to show submissions, adjustments and chargebacks"
+    },
+    {
+     "t": "0:57",
+     "seconds": 57,
+     "screen": "Submissions tab, noted as the place to look for submitting-only merchant numbers"
+    },
+    {
+     "t": "1:12",
+     "seconds": 72,
+     "screen": "Adjustments, chargebacks and the transaction types tab with charge types and discount rates"
+    },
+    {
+     "t": "1:25",
+     "seconds": 85,
+     "screen": "Filter by one or more merchant account numbers, listing all linked locations"
+    },
+    {
+     "t": "1:35",
+     "seconds": 95,
+     "screen": "Date search, up to 35 days of data from the previous 16 months"
+    },
+    {
+     "t": "1:46",
+     "seconds": 106,
+     "screen": "Plus sign to customize and reorder columns, and search icon to find transactions by charge reference or card number"
+    },
+    {
+     "t": "2:09",
+     "seconds": 129,
+     "screen": "Download in PDF or Excel, customize before export, or use the e-statement button for the monthly statement"
+    }
+   ],
+   "steps": [
+    "Review the account activity overview at the top of the Payments page",
+    "Open Settlements and expand a settlement to see submissions, adjustments and chargebacks",
+    "Click into submissions to see individual transactions (or use the Submissions tab for submitting-only merchant numbers)",
+    "Check Adjustments and Chargebacks, and use Transaction Types to break down charge types and discount rates",
+    "Filter by one or more merchant account numbers (locations)",
+    "Filter by date, up to 35 days within the previous 16 months",
+    "Customize columns with the plus sign",
+    "Search by charge reference or card number (as few as four digits)",
+    "Download as PDF or Excel, or download the monthly e-statement"
+   ],
+   "excerpts": [
+    {
+     "t": "1:35",
+     "text": "viewing up to 35 days of data from the previous 16 months"
+    },
+    {
+     "t": "2:02",
+     "text": "reference or card number using as few as four digits"
+    },
+    {
+     "t": "2:25",
+     "text": "information it's never been easier to"
+    }
+   ],
+   "says_about_access": "not stated (assumes the merchant already has a Merchant website login; no sign-up, approval or representative is mentioned)",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "7qrBvM2gCT4",
+   "slug": "amex",
+   "title": "Secure Account management tools: American Express Merchant website",
+   "channel": "American Express UK",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=7qrBvM2gCT4",
+   "surface": "Amex Merchant website (overview)",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:04",
+     "seconds": 4,
+     "screen": "Welcome to the American Express Merchant website, described as a suite of tools in one place"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "screen": "Transactions, submissions and settlements, downloadable into custom reports"
+    },
+    {
+     "t": "0:22",
+     "seconds": 22,
+     "screen": "Daily dispute alerts and document upload to resolve disputes"
+    },
+    {
+     "t": "0:29",
+     "seconds": 29,
+     "screen": "Live chat and WalkMe guided interactive assistance"
+    },
+    {
+     "t": "0:39",
+     "seconds": 39,
+     "screen": "Editing the online profile, updating business details and asking account questions"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "screen": "Ordering complimentary signage and merchandise"
+    },
+    {
+     "t": "0:51",
+     "seconds": 51,
+     "screen": "Closing line: manage the account quickly and easily online"
+    }
+   ],
+   "steps": [
+    "View transactions, submissions and settlements",
+    "Download data into custom reports",
+    "Receive daily dispute alerts and upload supporting documents",
+    "Get help through live chat or WalkMe guided assistance",
+    "Edit online profile and update business details",
+    "Order complimentary signage and merchandise"
+   ],
+   "excerpts": [
+    {
+     "t": "0:29",
+     "text": "and if you need a hand there's immediate"
+    },
+    {
+     "t": "0:33",
+     "text": "support with live chat and our walk me"
+    },
+    {
+     "t": "0:51",
+     "text": "manage your account quickly and easily"
+    }
+   ],
+   "says_about_access": "not stated (the video presents the site as self-service for existing merchants, with live chat and WalkMe for help; no enrolment or representative step is described)",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "wN-I-tmyi4Q",
+   "slug": "amex",
+   "title": "How to manage your American Express merchant account with our Amex Merchant App",
+   "channel": "American Express UK",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=wN-I-tmyi4Q",
+   "surface": "Amex Merchant App (mobile)",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "screen": "Music only; the caption track has no narration describing the screen"
+    },
+    {
+     "t": "1:00",
+     "seconds": 60,
+     "screen": "Music only; no narration"
+    },
+    {
+     "t": "1:09",
+     "seconds": 69,
+     "screen": "Music tag; no narration describes what is on screen"
+    }
+   ],
+   "steps": [],
+   "excerpts": [
+    {
+     "t": "0:00",
+     "text": "[âm nhạc]"
+    }
+   ],
+   "says_about_access": "not stated (the video has no spoken narration; the auto-caption track contains only music markers, mislabelled in Vietnamese)",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "5tFgXV_MQCo",
+   "slug": "amex",
+   "title": "Amex Merchant Website - secure and efficient Account management",
+   "channel": "American Express Australia",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=5tFgXV_MQCo",
+   "surface": "Amex Merchant website (overview)",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:03",
+     "seconds": 3,
+     "screen": "Welcome to the American Express Merchant website, described as a suite of tools in one place"
+    },
+    {
+     "t": "0:13",
+     "seconds": 13,
+     "screen": "Transactions, submissions and settlements, downloadable into custom reports"
+    },
+    {
+     "t": "0:21",
+     "seconds": 21,
+     "screen": "Daily dispute alerts and document upload to resolve disputes"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "screen": "Live chat and WalkMe guided interactive assistance"
+    },
+    {
+     "t": "0:39",
+     "seconds": 39,
+     "screen": "Editing the online profile, updating business details and asking account questions"
+    },
+    {
+     "t": "0:45",
+     "seconds": 45,
+     "screen": "Ordering complimentary signage and merchandise"
+    },
+    {
+     "t": "0:50",
+     "seconds": 50,
+     "screen": "Closing line: manage the account quickly and easily online"
+    }
+   ],
+   "steps": [
+    "View transactions, submissions and settlements",
+    "Download data into custom reports",
+    "Receive daily dispute alerts and upload supporting documents",
+    "Get help through live chat or WalkMe guided assistance",
+    "Edit online profile and update business details",
+    "Order complimentary signage and merchandise"
+   ],
+   "excerpts": [
+    {
+     "t": "0:13",
+     "text": "see transactions submissions and"
+    },
+    {
+     "t": "0:21",
+     "text": "when disputes happen daily alerts keep"
+    },
+    {
+     "t": "0:30",
+     "text": "and if you need a hand there's immediate"
+    }
+   ],
+   "says_about_access": "not stated (same script as the UK version; presents the site as self-service for existing merchants)",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "ZSh0kjmlKa4",
+   "slug": "amex",
+   "title": "Understanding the Dispute Process",
+   "channel": "American Express UK",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=ZSh0kjmlKa4",
+   "surface": "Amex dispute process explainer (points to the Amex Merchant website)",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:01",
+     "seconds": 1,
+     "screen": "Framing: disputes can seem complicated, and Amex will make the process clearer"
+    },
+    {
+     "t": "0:09",
+     "seconds": 9,
+     "screen": "Amex first works directly with the Card Member, often clearing the dispute without contacting the merchant"
+    },
+    {
+     "t": "0:19",
+     "seconds": 19,
+     "screen": "First contact path: an inquiry, answered by the reply-by date in the notification"
+    },
+    {
+     "t": "0:30",
+     "seconds": 30,
+     "screen": "Inquiry outcomes: sufficient reply on time means no chargeback, otherwise the account is debited"
+    },
+    {
+     "t": "0:42",
+     "seconds": 42,
+     "screen": "Second path: an upfront or immediate chargeback, with a deadline to send information to reverse it"
+    },
+    {
+     "t": "1:06",
+     "seconds": 66,
+     "screen": "Call to action: visit the merchant website to learn about handling and preventing disputes"
+    }
+   ],
+   "steps": [
+    "Amex works with the Card Member to resolve the dispute",
+    "If unresolved, Amex sends an inquiry or an upfront chargeback",
+    "For an inquiry, reply with the requested information by the stated date",
+    "For an upfront chargeback, send information by the stated date to seek a reversal",
+    "Visit the merchant website to learn about handling and preventing disputes"
+   ],
+   "excerpts": [
+    {
+     "t": "0:09",
+     "text": "first we work directly with the card"
+    },
+    {
+     "t": "0:23",
+     "text": "and you'll have until the date stated in"
+    },
+    {
+     "t": "1:06",
+     "text": "to learn more about handling and"
+    }
+   ],
+   "says_about_access": "not stated (Amex contacts the merchant directly and points to the merchant website; no account or representative requirement is described)",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "wfhSTOzpgTI",
+   "slug": "amex",
+   "title": "A Step-By-Step Overview Of The Disputes Process | American Express",
+   "channel": "AmericanExpressCAD",
+   "official": true,
+   "url": "https://www.youtube.com/watch?v=wfhSTOzpgTI",
+   "surface": "Amex dispute process explainer (Canada, for merchants served through a merchant services provider)",
+   "audience": "merchant",
+   "moments": [
+    {
+     "t": "0:02",
+     "seconds": 2,
+     "screen": "Framing: disputes can seem complicated, and Amex will make the process clear"
+    },
+    {
+     "t": "0:12",
+     "seconds": 12,
+     "screen": "Amex first works with the Card Member, often without contacting the merchant"
+    },
+    {
+     "t": "0:23",
+     "seconds": 23,
+     "screen": "Inquiry: the merchant services provider asks for help within its own time frame"
+    },
+    {
+     "t": "0:34",
+     "seconds": 34,
+     "screen": "Inquiry outcomes: sufficient reply on time means no chargeback, otherwise the account is debited"
+    },
+    {
+     "t": "0:43",
+     "seconds": 43,
+     "screen": "Upfront chargeback: merchant sends information to its merchant services provider to seek a reversal"
+    },
+    {
+     "t": "1:05",
+     "seconds": 65,
+     "screen": "Call to action: visit the Amex Merchant website to help stop disputes before they start"
+    }
+   ],
+   "steps": [
+    "Amex works with the Card Member to resolve the dispute",
+    "If unresolved, the merchant receives an inquiry or an upfront chargeback",
+    "For an inquiry, respond to the merchant services provider within its time frame",
+    "For an upfront chargeback, send information to the merchant services provider to seek a reversal",
+    "Visit the Amex Merchant website for dispute prevention"
+   ],
+   "excerpts": [
+    {
+     "t": "0:23",
+     "text": "the first is an inquiry if your merchant"
+    },
+    {
+     "t": "0:26",
+     "text": "services provider asks for your help"
+    },
+    {
+     "t": "0:52",
+     "text": "you'll then have to send information to"
+    }
+   ],
+   "says_about_access": "The merchant deals with its merchant services provider (acquirer) rather than Amex directly for dispute responses; no account or access process is described.",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  },
+  {
+   "id": "_6J-WF5KbFk",
+   "slug": "dgn",
+   "title": "Discover Acceptance Training Video",
+   "channel": "umdiscover",
+   "official": false,
+   "url": "https://www.youtube.com/watch?v=_6J-WF5KbFk",
+   "surface": "Discover merchant acquiring sales training (no product UI; points to a Discover signage ordering site)",
+   "audience": "acquirer",
+   "moments": [
+    {
+     "t": "0:00",
+     "seconds": 0,
+     "screen": "Introduction addressed to acquirer sales representatives, asking them to convert non-accepting merchants"
+    },
+    {
+     "t": "0:40",
+     "seconds": 40,
+     "screen": "Merchant testimonial about wanting the best customer experience"
+    },
+    {
+     "t": "1:04",
+     "seconds": 64,
+     "screen": "Statistics on Discover cardmembers' opinions of merchants that decline their card"
+    },
+    {
+     "t": "1:32",
+     "seconds": 92,
+     "screen": "Claims of merchant registration growth and reaching parity with the industry"
+    },
+    {
+     "t": "2:18",
+     "seconds": 138,
+     "screen": "Merchant acquiring program pitch: one solution, one low price, combined statements, one point of contact"
+    },
+    {
+     "t": "3:00",
+     "seconds": 180,
+     "screen": "Acceptance of partner networks including Diners Club International in 185 countries"
+    },
+    {
+     "t": "3:17",
+     "seconds": 197,
+     "screen": "Common misconceptions: cost, demand and terminal complexity"
+    },
+    {
+     "t": "4:29",
+     "seconds": 269,
+     "screen": "Free signage and supplies, ordered through a Discover signage website"
+    }
+   ],
+   "steps": [
+    "Learn Discover's acceptance growth and partner-network reach",
+    "Address merchant misconceptions about cost, demand and terminals",
+    "Order free signage and supplies from the Discover signage site for merchants"
+   ],
+   "excerpts": [
+    {
+     "t": "2:40",
+     "text": "statements one point of contact this"
+    },
+    {
+     "t": "2:43",
+     "text": "means accepting Merchants have one phone"
+    },
+    {
+     "t": "4:36",
+     "text": "Merchants just visit discover signage."
+    }
+   ],
+   "says_about_access": "Merchants reach Discover acceptance through their acquirer's sales representative and merchant acquiring program, with one phone number for Discover, Visa and Mastercard inquiries; signage is ordered by visiting a Discover signage site.",
+   "contradicts_desk_research": "",
+   "date_hint": ""
+  }
+ ]
+}

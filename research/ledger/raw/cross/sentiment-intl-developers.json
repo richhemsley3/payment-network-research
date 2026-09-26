@@ -1,0 +1,276 @@
+{
+  "network": "intl",
+  "scope": "developers, fintechs and program managers",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    {
+      "query": "interac (since 2023-01-01, sort=creation)",
+      "where": "Stack Overflow API",
+      "returned": 17,
+      "read": 17
+    },
+    {
+      "query": "eftpos (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 5,
+      "read": 5
+    },
+    {
+      "query": "rupay (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "girocard (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "unionpay (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 3,
+      "read": 3
+    },
+    {
+      "query": "cartes bancaires (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "jcb (since 2023-01-01)",
+      "where": "Stack Overflow API",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "interac created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 6855,
+      "read": 30
+    },
+    {
+      "query": "eftpos created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 1800,
+      "read": 30
+    },
+    {
+      "query": "rupay created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 684,
+      "read": 30
+    },
+    {
+      "query": "girocard created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 1427,
+      "read": 30
+    },
+    {
+      "query": "unionpay created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 8266,
+      "read": 30
+    },
+    {
+      "query": "\"cartes bancaires\" created:>2023-01-01",
+      "where": "GitHub issues search (rate-limited, no result)",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "interac api / eftpos / rupay (malformed numericFilters, HTTP 400, counted against budget)",
+      "where": "Hacker News Algolia",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "interac api (comments since 2023)",
+      "where": "Hacker News Algolia",
+      "returned": 1828,
+      "read": 30
+    },
+    {
+      "query": "eftpos (comments since 2023)",
+      "where": "Hacker News Algolia",
+      "returned": 76,
+      "read": 30
+    },
+    {
+      "query": "Interac e-Transfer API developer integration fintech access difficult",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "eftpos AP+ developers API fintech in-app payments eftpos developer portal",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "RuPay NPCI certification fintech developer onboarding experience",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "Cartes Bancaires fintech intégration certification CB critique développeurs 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "girocard Fintech Integration Kritik Entwickler Zulassung Apple Pay 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "\"Dev Elo\" OR \"Elo developers\" API bandeira Elo integração desenvolvedores",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "prensa.li 'Meus primeiros passos na Plataforma de Desenvolvedores Elo'",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "JCB developer API sandbox integration fintech experience",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "UnionPay International open platform developer API integration experience 银联国际 开放平台 开发者",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "interac",
+      "where": "Reddit r/fintech (blocked: HTML interstitial returned, no JSON)",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "windseeker5/dpm#61 and thepuragroup-droid/vyta-rtl-x#28 bodies",
+      "where": "GitHub REST",
+      "returned": 2,
+      "read": 2
+    }
+  ],
+  "items": [
+    {
+      "network": "interac",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "reliability",
+      "date": "2026-09-24",
+      "platform": "GitHub",
+      "url": "https://github.com/windseeker5/dpm/pull/61",
+      "author_as_shown": "windseeker5",
+      "excerpt": "overlapping runs (the 30-min scheduler vs. a manual \"check emails now\" click) could both match and pay the same e-transfer",
+      "older": false,
+      "archive_url": null,
+      "note": "Small SaaS reconciles Interac e-Transfers by scanning Gmail notification emails, a workaround that suggests (inference, not stated) no direct API access; duplicate-payment bug is in the developer's own code, not the network."
+    },
+    {
+      "network": "interac",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "other",
+      "date": "2026-09-24",
+      "platform": "GitHub",
+      "url": "https://github.com/thepuragroup-droid/vyta-rtl-x/pull/28",
+      "author_as_shown": "thepuragroup-droid",
+      "excerpt": "Removes e-Transfer as a way to pay. Checkout now always goes to the Stealth Health hosted card checkout.",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant storefront deletes a ~2,300-line manual e-Transfer checkout in favour of hosted card checkout; no reason given, so coded neutral rather than critical."
+    },
+    {
+      "network": "interac",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "routing",
+      "date": "2026-09-24",
+      "platform": "GitHub",
+      "url": "https://github.com/juspay/hyperswitch/issues/14413",
+      "author_as_shown": "prajjwalkumar17",
+      "excerpt": "pin returning customers to their last successful interac",
+      "older": false,
+      "archive_url": null,
+      "note": "Open-source orchestrator (Juspay Hyperswitch) adds preferred-connector routing for Interac across multiple connectors; implies connector success varies (inference). Title read only."
+    },
+    {
+      "network": "rupay",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "other",
+      "date": "2026-09-16",
+      "platform": "GitHub",
+      "url": "https://github.com/metrodroid/metrodroid/issues/910",
+      "author_as_shown": "w0qs1",
+      "excerpt": "[7816] India - NCMC support (balance and history read)",
+      "older": false,
+      "archive_url": null,
+      "note": "Community request to read India NCMC (RuPay-based National Common Mobility Card) in an open-source card reader app; title read only."
+    },
+    {
+      "network": "eftpos",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "other",
+      "date": "2026-09-09",
+      "platform": "GitHub",
+      "url": "https://github.com/sephora-sea/sephora-style-guide/pull/215",
+      "author_as_shown": "yxshu11",
+      "excerpt": "[WEBEX-4114] Add eftpos payment method icon",
+      "older": false,
+      "archive_url": null,
+      "note": "Retailer design-system adds eftpos as a displayed payment method; acceptance signal, no sentiment. Title read only."
+    }
+  ],
+  "tiers": {
+    "jcb:developer": "Absent",
+    "jcb:fintech": "Absent",
+    "jcb:program_manager": "Absent",
+    "unionpay:developer": "Absent",
+    "unionpay:fintech": "Absent",
+    "unionpay:program_manager": "Absent",
+    "interac:developer": "Thin",
+    "interac:fintech": "Absent",
+    "interac:program_manager": "Absent",
+    "eftpos:developer": "Absent",
+    "eftpos:fintech": "Absent",
+    "eftpos:program_manager": "Absent",
+    "rupay:developer": "Absent",
+    "rupay:fintech": "Absent",
+    "rupay:program_manager": "Absent",
+    "cb:developer": "Absent",
+    "cb:fintech": "Absent",
+    "cb:program_manager": "Absent",
+    "girocard:developer": "Absent",
+    "girocard:fintech": "Absent",
+    "girocard:program_manager": "Absent",
+    "elo:developer": "Absent",
+    "elo:fintech": "Absent",
+    "elo:program_manager": "Absent"
+  },
+  "top_topics": [
+    "other",
+    "routing",
+    "reliability"
+  ],
+  "no_listing": [
+    "G2/Capterra/TrustRadius not checked for any of the eight networks (budget); no listing with 5+ reviews recorded"
+  ],
+  "notes": "Budget of 30 searches/fetches exhausted. The prescribed 9-query set x 8 networks (72 queries) was NOT run; a condensed set of one network-name query per source was run instead, so no per-query \"developer/API/sandbox/certification/onboarding/support/fees\" breakdown exists. GitHub results were sorted by creation date (30 most recent read), not relevance+recency split. Stack Overflow 'interac' and 'jcb' hits were almost all substring false positives (interaction, interface). HN 'interac api' matched 'interact'; HN eftpos comments were cardholder/consumer talk (out of scope). Reddit returned a block page. Elo was not searched on SO/GitHub; the one Elo developer post found (prensa.li, Leandro Estrada, 2020-06-08, favourable on docs/sandbox/GraphQL) predates the 2023 window and is excluded. Excluded as out of network scope: SO 79578102 (NZ 'Eftpos' terminal certification, not AP+ eftpos), SO 77161482 (generic EFTPOS terminal SDK), HN eftpos and girocard consumer comments, Krank3n/QuoteMate surcharge removal (RBA rule, not network-specific). WebSearch surfaced only vendor and press-release material (VoPay, Paysafe, Chimoney, Fiserv/nFiNi, CoreCard, UPI Developer launch PR, LAB by CB) which is marketing, not partner sentiment, and was not coded. archive_url left null for all items: Wayback lookups not run because they would exceed budget. All five items are neutral; no favourable or critical developer/fintech/program-manager sentiment was found for any network, so balance could not be applied."
+}

@@ -1,6 +1,20 @@
 {
  "results": [
   {
+   "id": "mastercard-113",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
+  },
+  {
+   "id": "visa-049",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
+  },
+  {
    "id": "amex-002",
    "result": "supports",
    "fetch": "browser-html-200",
@@ -23,13 +37,6 @@
   },
   {
    "id": "amex-016",
-   "result": "not-fetched",
-   "fetch": "browser-html-200",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-html-200, page 55 chars"
-  },
-  {
-   "id": "amex-020",
    "result": "not-fetched",
    "fetch": "browser-html-200",
    "archive_url": null,
@@ -78,101 +85,10 @@
    "note": "auto2: quote not found via browser-html-200, page 4973 chars"
   },
   {
-   "id": "amex-080",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-081",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-089",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-102",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-115",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-116",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-117",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-118",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-219",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-221",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "amex-222",
-   "result": "not-fetched",
-   "fetch": "browser-pdf-200",
-   "archive_url": "http://web.archive.org/web/20260704205412/https://s26.q4cdn.com/747928648/files/doc_financials/2025/ar/American-Express-Annual-Report-2025.pdf",
-   "note": "auto2: quote not found via browser-pdf-200, page 0 chars"
-  },
-  {
-   "id": "mastercard-113",
-   "result": "unsupported",
-   "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
-   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
-  },
-  {
-   "id": "visa-049",
-   "result": "unsupported",
-   "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260914164740/https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
-   "note": "auto2: quote not found via browser-html-200, page 16498 chars"
-  },
-  {
    "id": "amex-195",
    "result": "not-fetched",
    "fetch": "browser-None",
-   "archive_url": "http://web.archive.org/web/20200329212726/https://merchantfinancing.americanexpress.com/merchantfinancing/index.htm",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-None, page 0 chars"
   },
   {
@@ -207,35 +123,35 @@
    "id": "amex-244",
    "result": "not-fetched",
    "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260121104237/https://www.americanexpress.com/en-us/business/merchant/regulation/",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-html-200, page 0 chars"
   },
   {
    "id": "amex-330",
    "result": "unsupported",
    "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20250122094950/https://www.americanexpress.com/us/business/business-funding/merchant-financing/",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-html-200, page 16878 chars"
   },
   {
    "id": "amex-353",
    "result": "not-fetched",
    "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-html-200, page 55 chars"
   },
   {
    "id": "amex-354",
    "result": "not-fetched",
    "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-html-200, page 55 chars"
   },
   {
    "id": "amex-414",
    "result": "not-fetched",
    "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20260607054501/https://developer.americanexpress.com/",
+   "archive_url": null,
    "note": "auto2: quote not found via browser-html-200, page 55 chars"
   },
   {
@@ -274,109 +190,53 @@
    "note": "auto2: quote not found via browser-None, page 0 chars"
   },
   {
-   "id": "mastercard-035",
+   "id": "cb-025",
    "result": "not-fetched",
-   "fetch": "browser-401",
+   "fetch": "browser-404",
    "archive_url": null,
-   "note": "auto2: quote not found via browser-401, page 0 chars"
+   "note": "auto2: quote not found via browser-404, page 0 chars"
   },
   {
-   "id": "mastercard-037",
-   "result": "not-fetched",
-   "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20110208094005/http://mastercardconnect.com/",
-   "note": "auto2: quote not found via browser-html-200, page 18 chars"
-  },
-  {
-   "id": "mastercard-298",
-   "result": "not-fetched",
-   "fetch": "browser-html-200",
-   "archive_url": "http://web.archive.org/web/20110208094005/http://mastercardconnect.com/",
-   "note": "auto2: quote not found via browser-html-200, page 18 chars"
-  },
-  {
-   "id": "mastercard-047",
+   "id": "cb-028",
    "result": "unsupported",
    "fetch": "browser-html-200",
    "archive_url": null,
-   "note": "auto2: quote not found via browser-html-200, page 523 chars"
+   "note": "auto2: quote not found via browser-html-200, page 2136 chars"
   },
   {
-   "id": "mastercard-154",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-157",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-197",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": "http://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-198",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": "http://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-209",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": "http://web.archive.org/web/20260502161306/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-228",
-   "result": "not-fetched",
-   "fetch": "browser-401",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-401, page 0 chars"
-  },
-  {
-   "id": "mastercard-262",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": "http://web.archive.org/web/20250615224805/https://www.mastercard.us/en-us/business/overview/support/merchant-interchange-rates.html",
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-263",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-333",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-334",
-   "result": "not-fetched",
-   "fetch": "browser-403",
-   "archive_url": null,
-   "note": "auto2: quote not found via browser-403, page 0 chars"
-  },
-  {
-   "id": "mastercard-356",
+   "id": "cross-014",
    "result": "unsupported",
    "fetch": "browser-html-200",
    "archive_url": null,
-   "note": "auto2: quote not found via browser-html-200, page 1140 chars"
+   "note": "auto2: quote not found via browser-html-200, page 38652 chars"
+  },
+  {
+   "id": "cross-047",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 33104 chars"
+  },
+  {
+   "id": "cross-049",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 33104 chars"
+  },
+  {
+   "id": "cross-050",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 33104 chars"
+  },
+  {
+   "id": "cross-051",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 33104 chars"
   },
   {
    "id": "visa-007",
@@ -587,6 +447,489 @@
    "fetch": "browser-pdf-200",
    "archive_url": null,
    "note": "auto2: quote found via browser-pdf-200, page 1706293 chars"
+  },
+  {
+   "id": "cross-156",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 2615 chars"
+  },
+  {
+   "id": "culiance-016",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 1301 chars"
+  },
+  {
+   "id": "culiance-015",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 32 chars"
+  },
+  {
+   "id": "nyce-018",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 32 chars"
+  },
+  {
+   "id": "dgn-007",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-009",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-012",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-014",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-015",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-016",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-017",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-018",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-019",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-020",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-008",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 72 chars"
+  },
+  {
+   "id": "dgn-010",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 56 chars"
+  },
+  {
+   "id": "dgn-011",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 56 chars"
+  },
+  {
+   "id": "dgn-013",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 56 chars"
+  },
+  {
+   "id": "dgn-172",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 56 chars"
+  },
+  {
+   "id": "dgn-024",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-121",
+   "result": "unsupported",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-pdf-200, page 3404 chars"
+  },
+  {
+   "id": "dgn-144",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-171",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31 chars"
+  },
+  {
+   "id": "dgn-179",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 77 chars"
+  },
+  {
+   "id": "diners-038",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 71 chars"
+  },
+  {
+   "id": "diners-051",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 7874 chars"
+  },
+  {
+   "id": "elo-024",
+   "result": "supports",
+   "fetch": "browser-pdf-200",
+   "archive_url": null,
+   "note": "auto2: quote found via browser-pdf-200, page 1245533 chars"
+  },
+  {
+   "id": "elo-030",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 30 chars"
+  },
+  {
+   "id": "girocard-018",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 9340 chars"
+  },
+  {
+   "id": "interac-004",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 8305 chars"
+  },
+  {
+   "id": "interac-029",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 31767 chars"
+  },
+  {
+   "id": "jeanie-002",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 15275 chars"
+  },
+  {
+   "id": "jeanie-003",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 15275 chars"
+  },
+  {
+   "id": "jeanie-014",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "mastercard-035",
+   "result": "not-fetched",
+   "fetch": "browser-401",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-401, page 0 chars"
+  },
+  {
+   "id": "mastercard-037",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 18 chars"
+  },
+  {
+   "id": "mastercard-298",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 18 chars"
+  },
+  {
+   "id": "mastercard-047",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 523 chars"
+  },
+  {
+   "id": "mastercard-154",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-157",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-197",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-198",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-209",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-228",
+   "result": "not-fetched",
+   "fetch": "browser-401",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-401, page 0 chars"
+  },
+  {
+   "id": "mastercard-262",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-263",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-333",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-334",
+   "result": "not-fetched",
+   "fetch": "browser-403",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-403, page 0 chars"
+  },
+  {
+   "id": "mastercard-356",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 1140 chars"
+  },
+  {
+   "id": "nyce-001",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-010",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-011",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-012",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-013",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-023",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-003",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 2774 chars"
+  },
+  {
+   "id": "nyce-008",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-009",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-015",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-019",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-024",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "nyce-014",
+   "result": "not-fetched",
+   "fetch": "browser-None",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-None, page 0 chars"
+  },
+  {
+   "id": "pulse-019",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 5931 chars"
+  },
+  {
+   "id": "pulse-056",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 5931 chars"
+  },
+  {
+   "id": "rupay-023",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 57669 chars"
+  },
+  {
+   "id": "unionpay-026",
+   "result": "unsupported",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 267875 chars"
+  },
+  {
+   "id": "unionpay-011",
+   "result": "not-fetched",
+   "fetch": "browser-400",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-400, page 0 chars"
+  },
+  {
+   "id": "unionpay-017",
+   "result": "not-fetched",
+   "fetch": "browser-400",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-400, page 0 chars"
+  },
+  {
+   "id": "unionpay-015",
+   "result": "not-fetched",
+   "fetch": "browser-html-200",
+   "archive_url": null,
+   "note": "auto2: quote not found via browser-html-200, page 167 chars"
   },
   {
    "id": "visa-036",

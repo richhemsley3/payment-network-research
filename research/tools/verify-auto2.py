@@ -28,7 +28,8 @@ def fetch(url):
             t = body.decode('utf-8', 'ignore'); t = re.sub(r'<script.*?</script>|<style.*?</style>', ' ', t, flags=re.S); text, method = html.unescape(re.sub(r'<[^>]+>', ' ', t)), f"browser-html-{info.get('status')}"
         else: method = f"browser-{info.get('status')}"
     except Exception as e: method = 'error'
-    open(p, 'w').write(method + '\n' + text); return method + '\n' + text
+    if len(norm(text)) >= 200: open(p, 'w').write(method + '\n' + text)
+    return method + '\n' + text
 residue = [rid for rid, r in prev.items() if r['result'] != 'supports' and rid in S]
 by_url = collections.defaultdict(list)
 for rid in residue:

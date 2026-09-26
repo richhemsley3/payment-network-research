@@ -1,0 +1,1046 @@
+{
+  "network": "mastercard",
+  "scope": "every partner audience (developer, fintech, acquirer, processor, merchant, atm_operator, issuer, program_manager, institutional)",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    {
+      "query": "Mastercard developer",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 4,
+      "read": 4,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard API",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 17,
+      "read": 17,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard sandbox",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 1,
+      "read": 1,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard certification",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 1,
+      "read": 1,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard onboarding",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 1,
+      "read": 1,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard support",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 11,
+      "read": 11,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard fees acquirer OR processor OR merchant OR ATM",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 0,
+      "read": 0,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard Connect",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 1,
+      "read": 1,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercom",
+      "where": "Stack Overflow API (relevance + creation, from 2023-01-01)",
+      "returned": 0,
+      "read": 0,
+      "note": "run earlier today in this session, cached results reused"
+    },
+    {
+      "query": "Mastercard developer",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 46,
+      "read": 30,
+      "note": "cached; >30 hits: top 15 relevant + 15 most recent read, then filtered for Mastercard partner context"
+    },
+    {
+      "query": "Mastercard API",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 68,
+      "read": 30,
+      "note": "cached; >30 hits: top 15 relevant + 15 most recent read, then filtered for Mastercard partner context"
+    },
+    {
+      "query": "Mastercard sandbox",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 3,
+      "read": 3,
+      "note": "cached; all read"
+    },
+    {
+      "query": "Mastercard certification",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 2,
+      "read": 2,
+      "note": "cached; all read"
+    },
+    {
+      "query": "Mastercard onboarding",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 1,
+      "read": 1,
+      "note": "cached; all read"
+    },
+    {
+      "query": "Mastercard support",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 231,
+      "read": 30,
+      "note": "cached; >30 hits: top 15 relevant + 15 most recent read, then filtered for Mastercard partner context"
+    },
+    {
+      "query": "Mastercard fees acquirer OR processor OR merchant OR ATM",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 0,
+      "read": 0,
+      "note": "cached; all read"
+    },
+    {
+      "query": "Mastercard Connect",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 54,
+      "read": 30,
+      "note": "cached; >30 hits: top 15 relevant + 15 most recent read, then filtered for Mastercard partner context"
+    },
+    {
+      "query": "Mastercom",
+      "where": "Hacker News Algolia (relevance + by date, from 2023-01-01)",
+      "returned": 5907,
+      "read": 30,
+      "note": "cached; >30 hits: top 15 relevant + 15 most recent read, then filtered for Mastercard partner context"
+    },
+    {
+      "query": "mastercard api / mastercard sandbox / mastercard developer / mastercard send",
+      "where": "Stack Overflow API (re-run today, fromdate 2023-01-01)",
+      "returned": 26,
+      "read": 26,
+      "note": "re-run; 'Mastercard Send' used as a network-specific term"
+    },
+    {
+      "query": "MPGS / Mastercard Gateway (via tags mpgs, mpgs-session-js, mastercard)",
+      "where": "Stack Overflow tag pages",
+      "returned": 0,
+      "read": 0,
+      "note": "cached; used to surface MPGS questions"
+    },
+    {
+      "query": "Mastercard oauth1 signer",
+      "where": "Stack Overflow + HN",
+      "returned": 0,
+      "read": 0,
+      "note": "network-specific term 1; zero hits"
+    },
+    {
+      "query": "Mastercard MDES tokenization API",
+      "where": "Stack Overflow + HN",
+      "returned": 0,
+      "read": 0,
+      "note": "network-specific term 2; zero hits"
+    },
+    {
+      "query": "org:Mastercard developer",
+      "where": "GitHub issues search API",
+      "returned": 129,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard support",
+      "where": "GitHub issues search API",
+      "returned": 1063,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard fees",
+      "where": "GitHub issues search API",
+      "returned": 1,
+      "read": 1,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "repo:Mastercard/oauth1-signer-nodejs",
+      "where": "GitHub issues search API",
+      "returned": 55,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "repo:Mastercard/oauth1-signer-java",
+      "where": "GitHub issues search API",
+      "returned": 69,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "repo:Mastercard/oauth1-signer-python",
+      "where": "GitHub issues search API",
+      "returned": 62,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "repo:Mastercard/client-encryption-java",
+      "where": "GitHub issues search API",
+      "returned": 127,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard error",
+      "where": "GitHub issues search API",
+      "returned": 748,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard Mastercard Connect",
+      "where": "GitHub issues search API",
+      "returned": 17,
+      "read": 17,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard Mastercom",
+      "where": "GitHub issues search API",
+      "returned": 2,
+      "read": 2,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard MDES",
+      "where": "GitHub issues search API",
+      "returned": 26,
+      "read": 26,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard Mastercard Send",
+      "where": "GitHub issues search API",
+      "returned": 66,
+      "read": 50,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "\"developer.mastercard.com\" -org:Mastercard",
+      "where": "GitHub issues search API",
+      "returned": 45,
+      "read": 45,
+      "note": "cached; filtered to non-member, non-bot issues since 2023 (70 kept)"
+    },
+    {
+      "query": "org:Mastercard API",
+      "where": "GitHub issues search API",
+      "returned": 0,
+      "read": 0,
+      "note": "rate-limited (unauthenticated); not retried"
+    },
+    {
+      "query": "org:Mastercard sandbox",
+      "where": "GitHub issues search API",
+      "returned": 0,
+      "read": 0,
+      "note": "rate-limited (unauthenticated); not retried"
+    },
+    {
+      "query": "org:Mastercard certification",
+      "where": "GitHub issues search API",
+      "returned": 0,
+      "read": 0,
+      "note": "rate-limited (unauthenticated); not retried"
+    },
+    {
+      "query": "org:Mastercard onboarding",
+      "where": "GitHub issues search API",
+      "returned": 0,
+      "read": 0,
+      "note": "rate-limited (unauthenticated); not retried"
+    },
+    {
+      "query": "mastercard (r/fintech, r/payments, r/PaymentProcessing, r/webdev, r/smallbusiness)",
+      "where": "Reddit old.reddit search.json",
+      "returned": 0,
+      "read": 0,
+      "note": "blocked: returns Reddit HTML interstitial, no JSON"
+    },
+    {
+      "query": "mastercard api / fees / developer",
+      "where": "HN Algolia (re-run today)",
+      "returned": 0,
+      "read": 0,
+      "note": "HTTP 400 from malformed query string; cached results used instead"
+    },
+    {
+      "query": "Mastercard fees merchants said Merchants Payments Coalition OR NRF OR NACS 2025",
+      "where": "WebSearch",
+      "returned": 10,
+      "read": 10,
+      "note": "led to Payments Dive fetches"
+    },
+    {
+      "query": "National ATM Council Mastercard ATM access fees statement 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "settlement coverage only, no operator quotes"
+    },
+    {
+      "query": "Payments Dive Mastercard acquirers processors fees criticism scheme fees",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "\"Mastercard Developers\" OR developer.mastercard.com integration experience sandbox dev.to OR medium",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "all Mastercard-owned pages; excluded as self-description"
+    },
+    {
+      "query": "credit union OR community bank CEO Mastercard partnership debit issuer quote 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "ICBA Payments item"
+    },
+    {
+      "query": "fintech founder Mastercard partnership said program manager OR Mastercard Send OR Mastercard Move 2025",
+      "where": "WebSearch",
+      "returned": 10,
+      "read": 10,
+      "note": "mostly press releases; Upward quote not about Mastercard"
+    },
+    {
+      "query": "British Retail Consortium OR UK Finance OR acquirer scheme fees PSR remedies response 2025 2026",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "BRC item"
+    },
+    {
+      "query": "merchant executive praises Mastercard tokenization OR First-Party Trust OR Click to Pay 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "only Mastercard executives quoted; no merchant praise found"
+    },
+    {
+      "query": "ATM operator OR ATMIA Mastercard ATM rules surcharge statement 2024 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "ATMIA page 403"
+    },
+    {
+      "query": "site:forum.developer.mastercard.com sandbox OR production access OR certification",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "forum is a JS-rendered community; threads not readable without a browser"
+    },
+    {
+      "query": "Mastercard Payment Gateway Services MPGS integration review developer experience blog",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9,
+      "note": "vendor explainers; one LinkedIn post read"
+    },
+    {
+      "query": "https://www.paymentsdive.com/news/8-pros-cons-of-visa-mastercard-pact-merchacredit-card-feesnts-/805259/",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "https://www.pymnts.com/partnerships/2025/upward-raises-8-million-for-fintech-infrastructure-platform-and-partners-with-mastercard",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "https://brc.org.uk/news-and-events/news/corporate-affairs/2025/ungated/card-fee-remedies-must-be-robust-and-deliver-for-merchants-and-consumers/",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "https://www.atmia.com/news/atmia-urges-rethinking-of-domestic-atm-interchange-fee-model-amid-rising-operational-costs/22151/",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1,
+      "note": "403"
+    },
+    {
+      "query": "https://www.checkout.com/blog/mastercard-checkout-discuss-agentic-commerce-agent-pay",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "https://www.linkedin.com/pulse/mastercard-mpgs-integration-neerann-nynan-gthif",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "archive.org wayback availability (4 URLs)",
+      "where": "archive.org API",
+      "returned": 4,
+      "read": 4,
+      "note": "2 snapshots found; other items not looked up to stay within the 30-call budget"
+    }
+  ],
+  "items": [
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-11-12",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/8-pros-cons-of-visa-mastercard-pact-merchacredit-card-feesnts-/805259/",
+      "author_as_shown": "Stephanie Martz, General Counsel, National Retail Federation",
+      "excerpt": "All window dressing and no substance",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260216145238/https://www.paymentsdive.com/news/8-pros-cons-of-visa-mastercard-pact-merchacredit-card-feesnts-/805259/",
+      "note": "On the revised Visa/Mastercard interchange settlement; trade-body position, proxy for merchants; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-11-12",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/8-pros-cons-of-visa-mastercard-pact-merchacredit-card-feesnts-/805259/",
+      "author_as_shown": "Lyle Beckwith, Senior VP Government Relations, National Association of Convenience Stores",
+      "excerpt": "does nothing to stop their predatory and collusive behavior",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260216145238/https://www.paymentsdive.com/news/8-pros-cons-of-visa-mastercard-pact-merchacredit-card-feesnts-/805259/",
+      "note": "Trade-body position on the settlement; names both networks; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-12-15",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "author_as_shown": "National Restaurant Association and Restaurant Law Center (court filing, as quoted)",
+      "excerpt": "would barely nullify the increase in swipe fees over the last year alone",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260511142123/https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "note": "Objection filing on the settlement; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-12-15",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "author_as_shown": "Richard Hershman, Vice President, National Association of College Stores",
+      "excerpt": "This proposed settlement sacrifices the legal rights of merchants like ours and our members in exchange for inadequate, temporary and unworkable relief",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260511142123/https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "note": "Objection letter to court; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "favourable",
+      "topic": "fees",
+      "date": "2025-12-15",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "author_as_shown": "Richard Hunt, Executive Chairman, Electronic Payments Coalition",
+      "excerpt": "provides businesses of all sizes with meaningful and significant concessions that give more flexibility and choice in card acceptance",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260511142123/https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "note": "Issuer/bank-side trade body; proxy for issuers; favourable to the network settlement; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "merchant",
+      "stance": "critical",
+      "topic": "rules",
+      "date": "2025-12-15",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "author_as_shown": "Walmart (court objection, as quoted)",
+      "excerpt": "is a gift to Defendants that lets them continue to restrain trade without fear of being challenged by large national merchants",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260511142123/https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "note": "Large merchant objecting to settlement release terms; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "merchant",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-12-15",
+      "platform": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "author_as_shown": "Jennifer Fern Steindler Darling, Vice President and General Counsel, Hugo Boss USA",
+      "excerpt": "This settlement is offensive to the class that is supposed to be benefiting from this litigation.",
+      "older": false,
+      "archive_url": "http://web.archive.org/web/20260511142123/https://www.paymentsdive.com/news/merchants-assail-card-fees-pact/807846/",
+      "note": "Merchant objection letter; "
+    },
+    {
+      "network": "mastercard",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2025-03-06",
+      "platform": "British Retail Consortium press release",
+      "url": "https://brc.org.uk/news-and-events/news/corporate-affairs/2025/ungated/card-fee-remedies-must-be-robust-and-deliver-for-merchants-and-consumers/",
+      "author_as_shown": "Chris Owen, Payments Policy Advisor, British Retail Consortium",
+      "excerpt": "This report confirms the harms arising from the lack of competition in the card schemes market, with fees being introduced without justification or sufficient explanation.",
+      "older": false,
+      "archive_url": null,
+      "note": "UK scheme and processing fees (PSR market review); Wayback returned no snapshot; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "issuer",
+      "stance": "favourable",
+      "topic": "other",
+      "date": "2025-03",
+      "platform": "ICBA press release (joint announcement)",
+      "url": "https://www.icba.org/w/icba-payments-and-mastercard-partner-to-upgrade-customer-payment-experiences-for-community-banks",
+      "author_as_shown": "Jacob Eisen, CEO, ICBA Payments",
+      "excerpt": "By partnering with Mastercard, we're equipping our member banks with innovative, secure, and cost-effective solutions",
+      "older": false,
+      "archive_url": null,
+      "note": "Joint partnership announcement, so promotional; ICBA Payments serves ~1,400 community-bank issuers. Wayback lookup returned nothing; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "merchant",
+      "stance": "neutral",
+      "topic": "rules",
+      "date": "2025-01-15",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79359164/authnet-merchant-country-of-origin",
+      "author_as_shown": "Ron",
+      "excerpt": "We are using authorize.net gateway with Priority Payments processor and we received the following email.",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant relaying a Mastercard Merchant Country of Origin data edit forwarded by its processor; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2023-02-24",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/75557141/3ds-security-check-in-mastercard-gateway",
+      "author_as_shown": "Sami Shorman",
+      "excerpt": "the documentation says nothing and just gives some headlines to implement the sdk.",
+      "older": true,
+      "archive_url": null,
+      "note": "Mastercard Gateway (MPGS) Android SDK, 3DS step; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2023-05-24",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76328202/how-to-work-with-mpgs-session-js-in-an-spa",
+      "author_as_shown": "The Fabio",
+      "excerpt": "Some unexpected behaviour takes place... and the SDK malfuncitons as describbed below.",
+      "older": true,
+      "archive_url": null,
+      "note": "MPGS session.js in a single-page app; post also quotes a support answer; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "reliability",
+      "date": "2025-05-21",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79631475/mastercard-payment-gateway-hosted-checkout-not-loading-only-shows-loading-animat",
+      "author_as_shown": "Dasun Dola",
+      "excerpt": "The payment portal loads only a loading animation—the actual payment page never appears.",
+      "older": false,
+      "archive_url": null,
+      "note": "MPGS Hosted Checkout, API v83, test environment, Flutter WebView; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "mixed",
+      "topic": "docs",
+      "date": "2024-06-17",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78630938/apple-pay-recurring-payment-with-mpgs",
+      "author_as_shown": "PixelSheep",
+      "excerpt": "What stumped us is when it came to recurring payments.",
+      "older": true,
+      "archive_url": null,
+      "note": "One-off Apple Pay via MPGS worked; recurring/MIT unclear; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2024-03-20",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78195464/mastercard-gateway-ios-sdk-installation-using-carthage-failed",
+      "author_as_shown": "Rana Ijaz",
+      "excerpt": "When I try the same using Xcode 14.3 or higher (Also setting command line tool to 14.3 or higher) then carthage update --use-xcframeworks fails",
+      "older": true,
+      "archive_url": null,
+      "note": "Mastercard Gateway iOS SDK packaging; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2023-05-27",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76348389/mpgs-direct-payment-3ds-cannot-finalise-payment",
+      "author_as_shown": "Steve Roseik",
+      "excerpt": "I'm Trying to make the payment with 3DS work, I have followed the three steps in this link",
+      "older": true,
+      "archive_url": null,
+      "note": "Followed official 3DS integration guide, could not finalise payment; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2023-07-13",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76679439/invalid-request-error-in-checkout-configure-function-in-console",
+      "author_as_shown": "Yogesh Mali",
+      "excerpt": "after session when it need to go to checkout page getting blank response.",
+      "older": true,
+      "archive_url": null,
+      "note": "MPGS Checkout, API v59, PHP; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2023-10-05",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/77236810/error-while-integrating-mpgs-with-flutter",
+      "author_as_shown": "NehruJr",
+      "excerpt": "I'm having an issue when working with MPGs.",
+      "older": true,
+      "archive_url": null,
+      "note": "MPGS hosted payment form in Flutter WebView; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "sandbox",
+      "date": "2023-04-01",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/75905667/error-using-bridging-headers-with-module-interfaces-is-unsupported-when-attem",
+      "author_as_shown": "Christian Simbarashe",
+      "excerpt": "I am attempting to run the MasterPass sandbox sample app in Xcode 13.3 provided by the MasterPass docs",
+      "older": true,
+      "archive_url": null,
+      "note": "Legacy Masterpass sample app fails to build; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "auth",
+      "date": "2024-01-01",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/77743749/mastercard-token-fetch-error-with-reactjs-frontend",
+      "author_as_shown": "Tolu",
+      "excerpt": "I'm trying to fetch my token from this endpoint on mastercard",
+      "older": true,
+      "archive_url": null,
+      "note": "Finicity (Mastercard Open Banking) partner auth blocked by CORS from browser; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "onboarding",
+      "date": "2023-10-23",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/77345020/google-pay-push-provisioning-listtokens-api-returning-empty-array",
+      "author_as_shown": "sasi",
+      "excerpt": "Initially, the package name was not mapped to the MasterCard, so the result was empty.",
+      "older": true,
+      "archive_url": null,
+      "note": "Issuer-side push-provisioning developer; app mapping step with the network; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "docs",
+      "date": "2023-08-18",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76928814/mpgs-error-callback-url-on-unsuccessful-transaction",
+      "author_as_shown": "peehu gandhi",
+      "excerpt": "I want Mastercard to redirect to a specific page on transaction being unsuccessful.",
+      "older": true,
+      "archive_url": null,
+      "note": "MPGS payment link return URL; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "mixed",
+      "topic": "other",
+      "date": "2023-03-15",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/insomnia-plugin-mastercard/issues/43",
+      "author_as_shown": "ArjanTTIS",
+      "excerpt": "Hi, The plugin is very useful! However, we do seem to have run into an issue with one specific Mastercard API",
+      "older": true,
+      "archive_url": null,
+      "note": "Insomnia plugin, MDES tokens array encryption; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "sandbox",
+      "date": "2023-05-04",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/mastercard-api-client-tutorial/issues/53",
+      "author_as_shown": "sajasbana",
+      "excerpt": "I modified the specified fields in the doc link but when running the test, we get all fields null, except responseId please help",
+      "older": true,
+      "archive_url": null,
+      "note": "MDES tutorial; says same issue as two earlier issues (#29, #20); open with 0 comments; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2023-07-17",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/oauth1-signer-nodejs/issues/28",
+      "author_as_shown": "byeze",
+      "excerpt": "I'm sending a request to Mastercom api so I can get Unworked claims.",
+      "older": true,
+      "archive_url": null,
+      "note": "Mastercom API returns OAuth signature verification failure; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "support",
+      "date": "2023-08-29",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/oauth1-signer-java/issues/31",
+      "author_as_shown": "bsz-fis",
+      "excerpt": "I tried debugging my issue with MC Support, Case# 04022094. It simply confirmed that whatever configuration I have seems correct.",
+      "older": true,
+      "archive_url": null,
+      "note": "Could not access MDES sandbox; OAuth hash differed by OS; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2023-10-26",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/oauth1-signer-python/issues/49",
+      "author_as_shown": "aarontraynor",
+      "excerpt": "41.0.5 (released 24-Oct-2023) breaks the OAuth signer.",
+      "older": true,
+      "archive_url": null,
+      "note": "Dependency break in Python OAuth signer; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2024-02-21",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/oauth1-signer-python/issues/56",
+      "author_as_shown": "Rizzle93",
+      "excerpt": "this library is pinning the pyopenssl version meaning that cryptography 42.0.0 is not supported",
+      "older": true,
+      "archive_url": null,
+      "note": "Blocks security upgrade of cryptography; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2024-01-02",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/client-encryption-java/issues/78",
+      "author_as_shown": "Mikolaj-Walkowiak",
+      "excerpt": "the section \"MDES Token Connect\" misses the Encryption Path for the new Push Multiple Accounts payload.",
+      "older": true,
+      "archive_url": null,
+      "note": "Default config gives INVALID_JSON; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "sandbox",
+      "date": "2024-07-03",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/send-funding-reference-app/issues/6",
+      "author_as_shown": "abhijeetjejurkar",
+      "excerpt": "Getting Error For Fund Transfer",
+      "older": true,
+      "archive_url": null,
+      "note": "Issue title; Mastercard Send sandbox funding transfer; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2024-09-26",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/oauth1-signer-csharp/issues/24",
+      "author_as_shown": "mopedisanocrb",
+      "excerpt": "After updating we start getting 400 reponses with following error",
+      "older": false,
+      "archive_url": null,
+      "note": "Mastercard Send API; INVALID_BODY_HASH after library upgrade; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "reliability",
+      "date": "2024-11-17",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/connect-android-sdk/issues/6",
+      "author_as_shown": "pankajtirole",
+      "excerpt": "Significant number of users are getting following crash.",
+      "older": false,
+      "archive_url": null,
+      "note": "Open Banking Connect Android SDK; still open; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "portal",
+      "date": "2025-03-10",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/client-encryption-csharp/issues/41",
+      "author_as_shown": "latompa",
+      "excerpt": "I can go to the mastercard developer portal and make a new one, but only one decryption key can active at any given time.",
+      "older": false,
+      "archive_url": null,
+      "note": "Key rotation without downtime; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "fintech",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2025-03-11",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/connect-android-sdk/issues/7",
+      "author_as_shown": "f-piras-hyntelo",
+      "excerpt": "some hardcoded credentials are stored in strings.xml file of android APK.",
+      "older": false,
+      "archive_url": null,
+      "note": "Self-described Mastercard vendor integrating Open Banking; flagged in Mastercard's own pre-production assessment; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2025-12-16",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/open-banking-us-openapi/issues/13",
+      "author_as_shown": "pixelhandler",
+      "excerpt": "Tag for version: 1.33.0 is not available yet",
+      "older": false,
+      "archive_url": null,
+      "note": "Issue title; portal spec newer than GitHub tags; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2026-03-21",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/connect-ios-sdk/issues/1",
+      "author_as_shown": "scruz-dev-blossom",
+      "excerpt": "We are currently experiencing a CocoaPods installation failure for FinicityConnect following a recent repository ownership migration.",
+      "older": false,
+      "archive_url": null,
+      "note": "Finicity-to-Mastercard repo migration broke install; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2026-08-24",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/client-encryption-nodejs/issues/105",
+      "author_as_shown": "mmorales-post",
+      "excerpt": "The result is a JWE whose protected header advertises `\"alg\": \"RSA-OAEP-256\"` over a key that was actually wrapped with SHA-1.",
+      "older": false,
+      "archive_url": null,
+      "note": "Encryption library silently weaker in non-node runtimes; open, 0 comments; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "favourable",
+      "topic": "other",
+      "date": "2026-03-24",
+      "platform": "GitHub issues",
+      "url": "https://github.com/Mastercard/terraform-provider-restapi/issues/354",
+      "author_as_shown": "TJM",
+      "excerpt": "Thank you for maintaining this module.",
+      "older": false,
+      "archive_url": null,
+      "note": "Mastercard-maintained open-source tool, NOT a payments API; weak signal of goodwill toward Mastercard OSS; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2025-05-08",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=43925759",
+      "author_as_shown": "wcoenen",
+      "excerpt": "the Mastercard specifications still use 3DES for pin block encryption. This is used each time you enter the pin for a Mastercard card!",
+      "older": false,
+      "archive_url": null,
+      "note": "Card-management specs; says AES support 'coming soon'; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "onboarding",
+      "date": "2025-04-14",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=43681385",
+      "author_as_shown": "dzikimarian",
+      "excerpt": "Therefore you need blessing from bank & card scheme to be connected to this ecosystem.",
+      "older": false,
+      "archive_url": null,
+      "note": "On MDES token-requestor access; cites developer.mastercard.com/product/mdes; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "processor",
+      "stance": "mixed",
+      "topic": "fees",
+      "date": "2025-02-02",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=42910819",
+      "author_as_shown": "devmor",
+      "excerpt": "The cost reduction is very small, it’s applied to interchange fees.",
+      "older": false,
+      "archive_url": null,
+      "note": "Says they implemented Level 3 data on gateways for multiple processors; points to Mastercard Gateway docs; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "docs",
+      "date": "2023-02-01",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=34610358",
+      "author_as_shown": "pjc50",
+      "excerpt": "Technically, you can just talk directly to them over their API: https://developer.mastercard.com/apis",
+      "older": true,
+      "archive_url": null,
+      "note": "Aside, not first-hand integration; archive not looked up: 30-call budget"
+    },
+    {
+      "network": "mastercard",
+      "audience": "developer",
+      "stance": "favourable",
+      "topic": "docs",
+      "date": "2025-08-12",
+      "platform": "LinkedIn (Pulse article)",
+      "url": "https://www.linkedin.com/pulse/mastercard-mpgs-integration-neerann-nynan-gthif",
+      "author_as_shown": "Neerann Nynan",
+      "excerpt": "Minimal coding; good for fast deployment",
+      "older": false,
+      "archive_url": null,
+      "note": "Describes MPGS Hosted Checkout for hotels; descriptive rather than evaluative, so a weak favourable; archive not looked up: 30-call budget"
+    }
+  ],
+  "tiers": {
+    "mastercard:developer": "Adequate",
+    "mastercard:institutional": "Thin",
+    "mastercard:merchant": "Thin",
+    "mastercard:fintech": "Absent",
+    "mastercard:processor": "Absent",
+    "mastercard:issuer": "Absent",
+    "mastercard:acquirer": "Absent",
+    "mastercard:atm_operator": "Absent",
+    "mastercard:program_manager": "Absent"
+  },
+  "top_topics": [
+    "fees",
+    "auth",
+    "other (SDK packaging and library defects)",
+    "docs",
+    "sandbox"
+  ],
+  "no_listing": [
+    "G2: Mastercard Send, Mastercom, Mastercard Connect, Mastercard Gateway, Mastercard Payment Gateway Services and Ethoca pages returned a bot-check page (1.7 KB); no listing with 5+ reviews could be confirmed. Capterra and TrustRadius not checked (budget)."
+  ],
+  "notes": "30-call budget used: about 30 new searches or fetches today, plus Stack Overflow, Hacker News and GitHub results cached earlier in this session (13:12-13:17), which were reused and not re-fetched. Developer sentiment is the only Adequate audience. It comes from Stack Overflow (mostly MPGS / Mastercard Gateway), GitHub issues on Mastercard's own SDK repos (OAuth1 signer, client-encryption, Open Banking Connect SDKs, Send reference app) and a few HN comments. Nearly all of it is critical or troubleshooting, which is the nature of issue trackers and Q&A. Favourable developer items are weak (one descriptive LinkedIn post, one thank-you on a non-payments Mastercard OSS repo); one mixed. Merchant and institutional sentiment is dominated by the 2025 US interchange settlement and the UK PSR scheme-fee review. It is critical apart from the issuer-side Electronic Payments Coalition. No favourable merchant item was found, so merchant balance could not be met. Acquirer, ATM-operator, issuer, program-manager, fintech and processor voices are Absent. ATM operators appear only through litigation coverage (National ATM Council's Supreme Court win and the $167.5M ATM access-fee settlement) with no quotable operator statement, and ATMIA returned 403. Reddit blocked (interstitial). The Mastercard developer forum is JS-rendered and unreadable without a browser. YouTube comments were not attempted (budget). Regulator submissions (RBA, Fed Reg II, UK PSR stakeholder PDFs) are cached but were not mined for partner quotes. Claims inside posts are sentiment, not facts about the network."
+}

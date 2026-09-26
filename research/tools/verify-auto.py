@@ -35,7 +35,8 @@ def fetch(url):
             rr = subprocess.run(['node', os.path.join(ROOT, 'tools', 'text.js'), url], cwd=ROOT, env=dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'story', 'brightline-story', 'node_modules')), capture_output=True, text=True, timeout=90)
             if len(norm(rr.stdout)) > len(norm(text)): text, method = rr.stdout, 'rendered'
         except Exception: pass
-    open(p, 'w').write((method or 'none') + '\n' + text); return (method or 'none') + '\n' + text
+    if len(norm(text)) >= 200: open(p, 'w').write((method or 'none') + '\n' + text)
+    return (method or 'none') + '\n' + text
 def archive(url):
     try:
         r = subprocess.run(['curl', '-s', '--max-time', '20', 'https://archive.org/wayback/available?url=' + urllib.parse.quote(url, safe='')], capture_output=True, text=True, timeout=30)

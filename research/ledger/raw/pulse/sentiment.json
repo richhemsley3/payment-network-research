@@ -1,0 +1,306 @@
+{
+  "network": "pulse",
+  "scope": "every partner audience (developer, fintech, acquirer, processor, merchant, atm_operator, issuer, program_manager, institutional)",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    {
+      "query": "pulse debit network",
+      "where": "Stack Overflow API (search/advanced)",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "PULSE debit network",
+      "where": "Hacker News Algolia",
+      "returned": 12,
+      "read": 12
+    },
+    {
+      "query": "\"pulse debit\"",
+      "where": "GitHub issues search",
+      "returned": 31,
+      "read": 10
+    },
+    {
+      "query": "pulse network debit",
+      "where": "Reddit r/payments search.json",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "pulse network debit",
+      "where": "Reddit r/PaymentProcessing search.json",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "pulse network debit",
+      "where": "Reddit r/fintech search.json",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "pulse network debit",
+      "where": "Reddit r/smallbusiness search.json",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "\"Pulse network\" (created after 2023-01-01)",
+      "where": "Hacker News Algolia",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "Discover Pulse (created after 2023-01-01)",
+      "where": "Hacker News Algolia",
+      "returned": 96,
+      "read": 20
+    },
+    {
+      "query": "PULSE debit network developer API sandbox certification processor",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "PULSE network fees merchants acquirers Capital One debit 2025 2026 Payments Dive",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "PULSE ATM network operators surcharge National ATM Council ATMIA",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "fetch atmmarketplace.com independent-atm-owners-push-for-selective-surcharging",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "fetch optimizedpayments.com capital-one-x-discover-debit-migration-update",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "fetch digitaltransactions.net pulse-network-is-the-rare-asset",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "Merchants Payments Coalition OR NRF Capital One Discover debit PULSE routing Durbin statement",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "credit union PULSE network switch debit CU Times OR ICBA 2025",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "\"PULSE\" ATM operator network 2025 ATM Marketplace independent ATM deployers Discover",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "fetch americanbanker.com how-discover-brings-capital-one-closer-to-merchants",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "fetch paymentsinfull.substack.com what-should-capital-one-do-with-discovers",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "Regulation II comment letter 2024 \"PULSE\" network merchants issuers debit routing card-not-present",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "\"DebitProtect\" OR \"Discover Debit\" issuer bank joins PULSE 2026 comments",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "fetch oneinc.com value-of-card-not-present-debit-routing-for-insurers",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "G2 OR Capterra \"PULSE Network\" debit reviews",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "fetch techtimes.com capital-one-found-1-billion-loophole-debit-fee-law",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "fetch brooksidepayments.com capital-one-discover-debit-interchange",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "fetch spreedly.com capital-one-discover-merger-merchants",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    }
+  ],
+  "items": [
+    {
+      "network": "pulse",
+      "audience": "merchant",
+      "stance": "critical",
+      "topic": "routing",
+      "date": "2025-10",
+      "platform": "Optimized Payments (merchant payments consultancy blog)",
+      "url": "https://optimizedpayments.com/insights/card-fees/capital-one-x-discover-debit-migration-update-and-how-it-is-impacting-merchants/",
+      "author_as_shown": "Evan Andersen, Payments Consultant, Optimized Payments",
+      "excerpt": "When the issuer owns the network (as Capital One now does with Discover and PULSE), the independence of that second network is in question.",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant-side advisor. Date approximate (article covers developments through October 2025). Also flags uncertainty over PINless enablement and fallback logic."
+    },
+    {
+      "network": "pulse",
+      "audience": "acquirer",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2026-05-25",
+      "platform": "Brookside Payments (merchant services provider blog)",
+      "url": "https://brooksidepayments.com/capital-one-discover-debit-interchange/",
+      "author_as_shown": "Lee",
+      "excerpt": "There is no merchant-side workaround that prevents the Capital One Discover debit interchange rate from applying.",
+      "older": false,
+      "archive_url": null,
+      "note": "ISO/merchant-services seller writing for merchants about Discover Debit (PULSE family) interchange; date is 'updated' date. Coded acquirer (ISO)."
+    },
+    {
+      "network": "pulse",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2025-03-10",
+      "platform": "Payments in Full (Substack)",
+      "url": "https://paymentsinfull.substack.com/p/what-should-capital-one-do-with-discovers",
+      "author_as_shown": "Andrew M. Dresner",
+      "excerpt": "Pulse never had a core processing business",
+      "older": false,
+      "archive_url": null,
+      "note": "Independent payments analyst. Also describes Pulse as having 'the worst distribution' among PIN debit networks and competing mainly on price. Topic: distribution/competitive position."
+    },
+    {
+      "network": "pulse",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "rules",
+      "date": "2026-07-23",
+      "platform": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321348/20260723/capital-one-found-1-billion-loophole-debit-fee-law-big-banks-are-copying-play.htm",
+      "author_as_shown": "Eric Grover, Payment Attorney, Intrepid Ventures",
+      "excerpt": "Effectively, that would make the Durbin Amendment a dead letter",
+      "older": false,
+      "archive_url": null,
+      "note": "Said in the context of top issuers each owning a debit network, as Capital One now does via Discover/PULSE. Critical of the issuer-owned-network model and Durbin exemption, not PULSE operations. Sentiment, not a fact about the network."
+    },
+    {
+      "network": "pulse",
+      "audience": "institutional",
+      "stance": "favourable",
+      "topic": "routing",
+      "date": "2024-02-21",
+      "platform": "American Banker / PaymentsSource",
+      "url": "https://www.americanbanker.com/payments/news/how-discover-brings-capital-one-closer-to-merchants",
+      "author_as_shown": "Thad Peterson, Strategic Advisor, Datos Insights",
+      "excerpt": "Pulse creates opportunities for an alternative processing channel for merchants who need to comply with potential regulations covering alternative debit payment channels.",
+      "older": true,
+      "archive_url": null,
+      "note": "Analyst proxy; article by John Adams."
+    },
+    {
+      "network": "pulse",
+      "audience": "processor",
+      "stance": "favourable",
+      "topic": "routing",
+      "date": "2025-10-09",
+      "platform": "Spreedly blog",
+      "url": "https://www.spreedly.com/blog/capital-one-discover-merger-merchants",
+      "author_as_shown": "Doug Fry",
+      "excerpt": "a powerful, lower-cost alternative, giving you more options to control fees.",
+      "older": false,
+      "archive_url": null,
+      "note": "Payments orchestration vendor addressing merchants; frames PULSE as routing leverage. Not a competing network."
+    },
+    {
+      "network": "pulse",
+      "audience": "institutional",
+      "stance": "neutral",
+      "topic": "other",
+      "date": "2026-07-23",
+      "platform": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321348/20260723/capital-one-found-1-billion-loophole-debit-fee-law-big-banks-are-copying-play.htm",
+      "author_as_shown": "Brian Riley, Director of Credit, Javelin Strategy & Research",
+      "excerpt": "It is complicated by the assimilation of the Discover network, more than 71 million cards, plus the debit function and the Pulse Network.",
+      "older": false,
+      "archive_url": null,
+      "note": "Integration-complexity observation; neither praise nor complaint."
+    },
+    {
+      "network": "pulse",
+      "audience": "processor",
+      "stance": "neutral",
+      "topic": "routing",
+      "date": "2023-11-09",
+      "platform": "One Inc blog",
+      "url": "https://www.oneinc.com/resources/blog/the-value-of-card-not-present-debit-routing-for-insurers-regulation-ii-update",
+      "author_as_shown": "The One Inc Content Team",
+      "excerpt": "Domestic debit networks – such as Star, Pulse, Accel, and NYCE – historically used PIN verification.",
+      "older": true,
+      "archive_url": null,
+      "note": "Insurance payments processor on Reg II CNP routing; descriptive only."
+    }
+  ],
+  "tiers": {
+    "pulse:developer": "Absent",
+    "pulse:fintech": "Absent",
+    "pulse:acquirer": "Absent",
+    "pulse:processor": "Absent",
+    "pulse:merchant": "Absent",
+    "pulse:atm_operator": "Absent",
+    "pulse:issuer": "Absent",
+    "pulse:program_manager": "Absent",
+    "pulse:institutional": "Thin"
+  },
+  "top_topics": [
+    "routing",
+    "fees",
+    "rules",
+    "other"
+  ],
+  "no_listing": [
+    "G2: no PULSE Network listing found",
+    "Capterra: no PULSE Network listing found",
+    "TrustRadius: no PULSE Network listing found"
+  ],
+  "notes": "29 of 30 budgeted searches/fetches used. Stack Overflow returned 0; GitHub 'pulse debit' results (31) were all unrelated projects; Reddit search.json returned an HTML login wall for all four subreddits (0 items, not a true zero). No public PULSE developer portal, sandbox or forum surfaced, so developer/sandbox/certification/onboarding/support queries produced nothing partner-authored. Excluded: HN comment by bob1029 (2023-09-08, former Pulse employee on 60-second outage response; employee sentiment is out of scope); Capital One CEO Richard Fairbank quotes (network owner, not a partner); NRF and Merchants Payments Coalition opposed the Capital One-Discover merger but no verbatim quote was retrieved; Deutsche Bank analyst Mark DeVries estimate seen only in search-summary text, not verbatim; ATM Marketplace NAAIO surcharge article dated 2010 (out of window). Excerpts come from WebFetch extraction and should be spot-checked against the page before citing. Wayback archive lookups were not run for budget reasons; archive_url is null throughout. Almost all sentiment is about the Capital One migration of debit onto Discover Debit/PULSE and Durbin exemption rather than PULSE's operational service to partners. No ATM operator, issuer/credit union, fintech or program manager voice about PULSE was found in window."
+}

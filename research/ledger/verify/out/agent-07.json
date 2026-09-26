@@ -1,0 +1,1300 @@
+{
+ "results": [
+  {
+   "id": "mastercard-057",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL returns Akamai 403 Access Denied to WebFetch, tools/text.js (Chromium) and curl with a Chrome UA. Read the Wayback id_ snapshot 20260920203706 (2 June 2026 edition, 503 pp) with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "PDF p.65, Rule 2.2.2: 'Each Sponsor is liable to the Corporation and to all other Customers for all Activities of each of its Sponsored Affiliates, Sponsored Program Managers, and Co-brand Partners'. The Rules name a BIN Sponsor as the sponsor of Co-brand Partners and SPMs, and the definitions say a BIN Sponsor is a Principal.",
+   "claim_checked": "Under the sponsor model the Principal or Affiliate Sponsoring Customer is liable to Mastercard and all other Customers f"
+  },
+  {
+   "id": "mastercard-058",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.491 Principal: 'participates directly in Activity using its assigned BINs/IINs and that may Sponsor one or more Affiliates'. p.471 Customer lists all six types. Participation: 'an alternative term for Membership'.",
+   "claim_checked": "The Rules define a Principal as a Customer that participates directly using its own BINs/IINs and may sponsor Affiliates"
+  },
+  {
+   "id": "mastercard-059",
+   "result": "qualified",
+   "qualification": "The Rules define an ICA as a number Mastercard assigns to identify a Customer, and they refer to assigned ICAs and BINs. Nothing in the Rules covers API products or setup with a regional customer representative, and onboarding is only implied.",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.477 ICA: 'A unique number assigned by the Corporation to identify a Customer in relation to Activity.' The API and representative detail must come from a different source.",
+   "claim_checked": "Each Customer is identified by an ICA number assigned by Mastercard; ICA and BIN assignment are part of onboarding and, "
+  },
+  {
+   "id": "mastercard-060",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.355: uses the sponsor's 'assigned ICAs and BINs/IINs, but which must be sponsored by a Mastercard Principal or Association to participate in Mastercard acquirer activity'. p.369 Rule 7.9: a Type I TPP 'may Sponsor an Affiliate to engage in... issuing Activity'.",
+   "claim_checked": "In the US Region a Mastercard Affiliate may participate indirectly through a Type I TPP's ICAs and BINs (a processor can"
+  },
+  {
+   "id": "mastercard-061",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.155 Rule 7.1 has the quote word for word. The table on pp.156-165 lists every category the claim names, including BIN Sponsor Partner and TPP.",
+   "claim_checked": "Third parties are categorized as Service Providers by program service (3-DSSP, AML/Sanctions SP, BPSP, DSE, DASP, DCC SP"
+  },
+  {
+   "id": "mastercard-062",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.165: 'As of 20 May 2025, Service Providers are no longer designated as Type I TPPs. Any existing Type I TPP may remain'. p.189: 'no longer available in the Europe Region'.",
+   "claim_checked": "Mastercard stopped designating new Type I TPPs on 20 May 2025; existing Type I TPPs may remain, and Type I registration "
+  },
+  {
+   "id": "mastercard-063",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.186 Rule 7.10: each Principal and Affiliate Sponsoring Customer 'must use the My Company Manager application on Mastercard Connect' within 30 days, and must validate 'once during each calendar year thereafter'.",
+   "claim_checked": "Service Provider registration is done by the sponsoring Customer (not the third party) through the My Company Manager ap"
+  },
+  {
+   "id": "mastercard-064",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.187 has the quote plus 'charged... directly to the Type I TPP'. The Type III direct fee is in the US chapter (Rule 7.10.3, p.371), not the cited pages. p.76 points to 'Pricing and Billing Center on Mastercard Connect'. No amounts appear.",
+   "claim_checked": "Registration carries an initial fee and an annual renewal fee billed to the Customer via MCBS (or directly to a Type I/T"
+  },
+  {
+   "id": "mastercard-065",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.187 item 1: the SDP Program and 'pcireports@mastercard.com'; registration 'will not be deemed complete until the Customer's compliance is validated'. Item 2: the Customer 'must receive the Corporation's written confirmation... before using a Service Provider'.",
+   "claim_checked": "A Service Provider that touches cardholder data must validate PCI compliance under the Site Data Protection program (via"
+  },
+  {
+   "id": "mastercard-066",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.188 Rule 7.10.2: 'Within 90 days... submit TPP Registration Form 919 SSAE 18 or ISAE 3402... form and business continuity form using email to tpp_registration@mastercard.com'.",
+   "claim_checked": "A TPP designated Type I must register within 90 days using TPP Registration Form 919 plus an SSAE 18 or ISAE 3402 audit "
+  },
+  {
+   "id": "mastercard-067",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "pp.190-191, Rules 7.11.1-7.11.2: a provider 'May apply' or may be designated. It must sign an NEP Agreement 'within thirty (30) days'. Otherwise Customers must stop using it 'on or before 180 days'.",
+   "claim_checked": "Network Enablement Partner (NEP) is a direct-contract tier for operationally significant Service Providers: a provider m"
+  },
+  {
+   "id": "mastercard-068",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.186, 7.8.2 item 8 has the quote. 7.8.3: a Specialty Merchant PF must be 'approved by the Corporation as a Network Enablement Partner'. p.180, 7.7.7: a BIN Sponsor Partner 'must be approved... as a Network Enablement Partner'.",
+   "claim_checked": "Certain roles must be NEPs: a Payment Facilitator submitting direct to the Interchange System where its Acquirer cannot "
+  },
+  {
+   "id": "mastercard-069",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.165 Rule 7.2 has the TSP quote word for word. It also says: 'Verify that the entity is operating a bona fide business, has sufficient safeguards in place to protect Account... data'.",
+   "claim_checked": "A Token Service Provider must complete Mastercard's certification and testing procedures before a Customer may register "
+  },
+  {
+   "id": "mastercard-070",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.24 Table 1: Details, Audience row has the quote word for word, ending in 'Processor, Vendor - Global Vendor Certification Program'.",
+   "claim_checked": "The Rules' own audience metadata names the partner roles Mastercard documents for, including Branded Processor, Network "
+  },
+  {
+   "id": "mastercard-071",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.62 Rule 2.1.5: '...must, if requested by the Corporation, promptly certify in writing... the status of compliance or noncompliance with any Standard'. Chapter 2's table of contents has no other Certification rule.",
+   "claim_checked": "A senior executive of each Principal, Affiliate Sponsoring Customer, Affiliate, NEP and Digital Activity Customer must c"
+  },
+  {
+   "id": "mastercard-072",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Live URL blocked with 403 (WebFetch, text.js, curl). Read the Wayback id_ snapshot 20260920203706 with pypdf.",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "p.47 Rule 1.10: '...in any ATM network in addition to the Mastercard ATM Network that is not a Competing ATM Network'. p.39: 'the Acquirer of any ATM Owners... are obligated to monitor ATM Activity'.",
+   "claim_checked": "Customers may join other ATM networks as issuer or acquirer alongside the Mastercard ATM Network provided they are not C"
+  },
+  {
+   "id": "dgn-013",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (text in embedded page data); confirmed by headless Chromium on ?tab=developer-guide",
+   "archive_url": null,
+   "note": "\"Each application is assigned client credentials and an API Plan (e.g. Sandbox, Certification, or Prod Plan).\" DEV/PROD org and TEST/PROD app naming also present. Text is in the Developers Guide tab: /going-live-with-discover?tab=developer-guide",
+   "claim_checked": "After approval each partner gets a Developer Center organization and at least one application with client credentials an"
+  },
+  {
+   "id": "dgn-014",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA; text is in the API Spec data embedded in the /products HTML (not in the rendered listing)",
+   "archive_url": null,
+   "note": "\"The certificate must be included in the X-DFS-C-APP-CERT API request header... It can only be downloaded once.\" It is called a second authentication factor.",
+   "claim_checked": "A second authentication factor is a Consumer Application Certificate sent in the X-DFS-C-APP-CERT header, downloadable o"
+  },
+  {
+   "id": "dgn-015",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"You must set your TLS version to 1.2 or 1.3\"; mTLS is listed under methods \"required\"; also \"Nested JWT (JWS in JWE)\". The Going Live guide says mTLS applies \"as needed per API\".",
+   "claim_checked": "Transport and payload security stack requires TLS 1.2 or 1.3, mutual TLS, and JWE payload encryption with JWS signatures"
+  },
+  {
+   "id": "dgn-016",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"The JWKS endpoint keys expire every 90 days\"; \"registration endpoint is protected using HTTP basic access authentication\"; preferred method: register a partner JWKS endpoint URL.",
+   "claim_checked": "Discover publishes its signing and encryption public keys at a JWKS endpoint whose keys rotate every 90 days; partners r"
+  },
+  {
+   "id": "dgn-017",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"Account Notification API ... transmitting issuer-initiated updates applied to Cardholder accounts. Note: Token requestors must integrate with this endpoint to receive issuer notifications via webhooks.\"",
+   "claim_checked": "Webhooks exist under the name 'Account Notification API': token requestors must expose an endpoint to receive issuer-ini"
+  },
+  {
+   "id": "dgn-018",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"This API uses versioned endpoints (i.e. /v1/ and /v2/) to indicate the release level of individual resources.\" No 'deprecat', 'changelog' or 'release notes' found in the /products or Going Live HTML.",
+   "claim_checked": "Versioning is by URL path segment (/v1/, /v2/) per resource; no deprecation policy or changelog cadence is published."
+  },
+  {
+   "id": "dgn-019",
+   "result": "qualified",
+   "qualification": "Seven environment rows are listed, but the localhost:8080 row points to x-api-dev.discoverfinancial.com, not rangerx-api*. And the same IIN spec also lists the sandbox.apis.discover.com / apis.discover.com API Plan endpoints and the apis.discover.com OAuth token endpoint, so 'rather than the apis.discover.com gateway' overstates it.",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"The Full IIN List API requires you to use the following environments:\" Rows: localhost:8080, Dev, Prod, Dev integration, Systems integration, Benchmark, Certification (rangerx-api-*.discoverfinancial.com/epp/rangerx/v1).",
+   "claim_checked": "The IIN Data Lookup Service page lists seven per-environment hosts (dev, prod, devint, sit, bench, cert, plus localhost)"
+  },
+  {
+   "id": "dgn-020",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (embedded API Spec data in /products HTML)",
+   "archive_url": null,
+   "note": "\"Discover Network uses API Scopes to manage your permissions using access tokens\"; \"The iCAS API uses the `ICAS_CARDUPDATE_V1` scope\" (under the OAuth token endpoint POST).",
+   "claim_checked": "Access control uses named API scopes requested at token time, for example ICAS_CARDUPDATE_V1 for the Issuer Card Account"
+  },
+  {
+   "id": "dgn-024",
+   "result": "qualified",
+   "qualification": "The page lists five linked tools, not four: Release Compliance Tool (under Test & Certify, link labelled 'Discover Network', relcomp.discovernetwork.com), plus Disputes Portal, Developer Center, EASI and Web Merchant Boarding under Partner Resources. The page does not call them 'gated'. The claim names five but says four.",
+   "fetch": "headless Chromium (tools/text.js) for labels; curl -sL with Chrome UA for the hrefs",
+   "archive_url": null,
+   "note": "Links: portal.discoverglobalnetwork.com (Disputes Portal), developer.discover.com (Developer Center), discovereasi.com (EASI), discoversales.com/login (Web Merchant Boarding), relcomp.discovernetwork.com/RelCompWeb/ (RCT).",
+   "claim_checked": "The Partner Product Portal's Partner Resources page names four gated tools with URLs: Release Compliance Tool, Discover "
+  },
+  {
+   "id": "dgn-121",
+   "result": "qualified",
+   "qualification": "The PDF shows the DFS Services LLC 2026 copyright on both pages. It says nothing about Capital One or the acquisition, so the 'after the Capital One deal' inference comes from outside the source.",
+   "fetch": "curl -sL with Chrome UA to scratchpad, then pypdf text extraction",
+   "archive_url": null,
+   "note": "\"Confidential and Proprietary | © 2026 DFS Services LLC\" (the © symbol, not '(c)'). PDF metadata: created 2026-04-28. It is a merchant form, submitted to DISCCompliance@discover.com.",
+   "claim_checked": "Discover Network's SCIP application form is still issued under DFS Services LLC with a 2026 copyright, showing the pre-a"
+  },
+  {
+   "id": "dgn-123",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (the Solutions menu is collapsed and absent from rendered innerText)",
+   "archive_url": null,
+   "note": "Solutions menu groups: Enable Payments, Fraud & Security, PCI Compliance, Issuing Commerce & Co-Creation, Technology & Payment Platforms, Debit Network and ATM Solutions (\"Our debit network PULSE offers...\").",
+   "claim_checked": "DGN's public catalogue groups partner solutions into Enable Payments, Fraud & Security, PCI Compliance, Issuing/Commerce"
+  },
+  {
+   "id": "dgn-124",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (Solutions menu in HTML)",
+   "archive_url": null,
+   "note": "The 'Enable Payments' group lists all ten items in order, ending \"Restricted Access Network ... Discover® Deliver Ensure the quick, convenient, and secure transfer of funds.\" 'Acceptance-side' is the writer's label, not the menu's.",
+   "claim_checked": "Acceptance-side (acquirer/merchant) core products are Accept Our Network, Grow Debit Acceptance, Contactless, E-Commerce"
+  },
+  {
+   "id": "dgn-125",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (Solutions menu in HTML)",
+   "archive_url": null,
+   "note": "'Fraud & Security' group: Fraud Management Tools, Discover® Enhanced Decisioning (\"increase Card-Not-Present approval rates\"), High Brand Risk, 3DS ProtectBuy®, Stored Token Services. 'Value-added' is the writer's label.",
+   "claim_checked": "Value-added fraud and security products named are Fraud Management Tools, Discover Enhanced Decisioning (CNP approval op"
+  },
+  {
+   "id": "dgn-126",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (Solutions menu in HTML)",
+   "archive_url": null,
+   "note": "'Issuing, Commerce & Co-Creation' group: Prepaid, White Label Credit Solutions, Powering Innovation, Diners Club® Commercial Products, Diners Club International® Issuing, Global Card Program, Fintech Partnerships.",
+   "claim_checked": "Issuer-side and program products named are Prepaid, White Label Credit Solutions, Powering Innovation, Diners Club Comme"
+  },
+  {
+   "id": "diners-038",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -sL with Chrome UA (noscript text) plus headless Chromium (tools/text.js) for the rendered landing",
+   "archive_url": null,
+   "note": "Title \"Online Dispute Resolution\"; noscript \"You need to enable JavaScript to run this app.\" Rendered page shows only \"Initiate new Dispute / Track my Dispute/s\" and does not name an audience.",
+   "claim_checked": "Diners Club operates an Online Dispute Resolution site at odr.dinersclub.com, a JavaScript app whose audience is not sta"
+  },
+  {
+   "id": "diners-051",
+   "result": "qualified",
+   "qualification": "The page confirms Diners Club hosted the 2026 DCI Pro-Am Classic at Costa Navarino, Greece, but it never calls it recurring. The 'recurring hospitality event' part goes beyond the page. The quote is only in the og/twitter description meta tags, not the visible body.",
+   "fetch": "curl -sL with Chrome UA (meta tags); headless Chromium for body text",
+   "archive_url": null,
+   "note": "og:description: \"Diners Club hosts the 2026 Pro-Am Classic in Costa Navarino, Greece... tournament play alongside curated dining, social events, and destination experiences.\" Published June 16, 2026.",
+   "claim_checked": "Diners Club hosted the 2026 DCI Pro-Am Classic at Costa Navarino, Greece, the network's recurring hospitality event."
+  },
+  {
+   "id": "cb-025",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the Wayback id_ copy (web.archive.org/web/20251023231536id_/...), HTML grepped",
+   "archive_url": "https://web.archive.org/web/20251023231536/https://www.cartes-bancaires.com/actualites/gerald-gregoire-elu-a-lunanimite-nouveau-president-du-conseil-de-direction/",
+   "note": "Archive reads \"Le 17 octobre ... Gérald Grégoire a été élu à l'unanimité ... en remplacement de Jean-Paul Mazoyer\", plus \"plan CB Dynamique 2026\" and \"« CB, le paiement made in France »\". Published 20/10/2025. The live URL still returns a Gcore 403 'Page not found' to both curl and headless Chromium.",
+   "claim_checked": "2025-10-17: Gérald Grégoire was unanimously elected Chairman of CB's Conseil de Direction, replacing Jean-Paul Mazoyer, "
+  },
+  {
+   "id": "cb-028",
+   "result": "qualified",
+   "qualification": "The block page is real for plain fetches only. curl gets the Gcore validation page with the exact quote. Headless Chromium passes the check and renders the full REMPARTS portal. www.cartes-bancaires.com returns a Gcore HTTP 403 'Page not found' page (not a validation page) to both curl and Chromium.",
+   "fetch": "curl (Chrome UA) for the block page; headless Chromium via tools/text.js for comparison",
+   "archive_url": null,
+   "note": "curl: \"remparts.cartes-bancaires.com is using security service for protection against online attacks. This process is automatic.\" Chromium renders the portal: \"La Labélisation REMPARTS\", \"CB a créé la Labélisation REMPARTS...\". Reword the claim to 'plain fetches'.",
+   "claim_checked": "The live cartes-bancaires.com site and the REMPARTS portal both return security-service block pages to automated fetches"
+  },
+  {
+   "id": "cross-047",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the docket with ?page=2, HTML grepped",
+   "archive_url": null,
+   "note": "Entry 89, Jun 23, 2025: \"MEMORANDUM OPINION AND ORDER re: 37 MOTION to Dismiss for Failure to State a Claim ... Visa's motion to dismiss the complaint is denied.\" It is on page 2, not the first page of the cited URL: use https://www.courtlistener.com/docket/69190163/united-states-v-visa-inc/?page=2",
+   "claim_checked": "Judge Koeltl's June 23, 2025 memorandum opinion denied Visa's Rule 12(b)(6) motion to dismiss (ECF 37)."
+  },
+  {
+   "id": "cross-049",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the docket with ?order_by=desc, HTML grepped",
+   "archive_url": null,
+   "note": "Entry 203, Sep 3, 2026: \"Motions due by 8/20/2027 ... Fact Discovery due by 1/29/2027. Expert Discovery due by 7/23/2027.\" Recent entries show only with ?order_by=desc (or page 3); the default view starts at 2024.",
+   "claim_checked": "On September 3, 2026 the court amended the schedule: fact discovery to January 29, 2027, expert discovery to July 23, 20"
+  },
+  {
+   "id": "cross-050",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the docket with ?order_by=desc, HTML grepped",
+   "archive_url": null,
+   "note": "Entry 205, Sep 3, 2026 (Koeltl): \"The Court will refer deposition scheduling disputes to Magistrate Judge Cave ... a broader reference may be necessary.\" Entry 204 is the matching amended order of reference. Use the ?order_by=desc view.",
+   "claim_checked": "Deposition scheduling disputes were referred to Magistrate Judge Cave on September 3, 2026, with a broader reference pos"
+  },
+  {
+   "id": "cross-051",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the docket with ?order_by=desc, HTML grepped",
+   "archive_url": null,
+   "note": "Entry 211, Sep 24, 2026 (Magistrate Judge Cave), covering 24 Civ. 7214 and 24 Civ. 7435: the Sept 25 conference is \"ADJOURNED to October 19, 2026 at 3:00 p.m.\" It is a telephone conference, with a joint letter due Oct 15.",
+   "claim_checked": "The DOJ action is being coordinated with the private In re Visa Debit Card Antitrust Litigation (24 Civ. 7435); a joint "
+  },
+  {
+   "id": "cross-014",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of docket page 1 and ?page=2, HTML grepped",
+   "archive_url": null,
+   "note": "Page 1: \"Oct 8, 2025 Civil case docketed. [25-3000]\". Page 2: \"BRIEF FILED - APPELLEE BRIEF filed by Corner Post, Inc., w/service 02/13/2026\"; reply brief Mar 23, 2026; argued May 13, 2026. The docket never names the 2011 cap or Regulation II; that framing is background.",
+   "claim_checked": "The Board's appeal in Corner Post v. Board of Governors (the challenge to the 2011 cap) was docketed at the Eighth Circu"
+  },
+  {
+   "id": "cross-156",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "headless Chromium (Playwright), clicking the public 'Load more' button to list earlier items",
+   "archive_url": null,
+   "note": "Jul-Sep 2026 titles: NALCAB CDFI (Sep 24), Lounges J.D. Power, Business LTO Ends, Auto J.D. Power, Capital One Arena, Veterans (Jul 25), two fraud items (Jul 15). None mention Discover, PULSE or Diners. The ledger quote is a paraphrase, and 'business travel' is not a listed title.",
+   "claim_checked": "Capital One's newsroom for July to September 2026 carried no items about Discover Network, PULSE or Diners Club, so no n"
+  },
+  {
+   "id": "culiance-015",
+   "result": "qualified",
+   "qualification": "The 301 redirect and client-side rendering hold (plain HTML has only the title). But logged out, headless Chromium renders the full catalogue at /app/apicatalog. It lists ATM APIs ('ATM Management: Manage ATMs for Connex', 'ATM Deposit', by request only) and NYCE PIN-debit network APIs. Only 'no CULIANCE API' still holds.",
+   "fetch": "curl -I (301 confirmed) and curl HTML; headless Chromium (Playwright) on / and /app/apicatalog",
+   "archive_url": null,
+   "note": "Catalogue, 'Networks' section: \"NYCE-Paynet Integration: Send or receive financial messages via the NYCE or PayNet payment networks.\" Readable catalogue URL: https://codeconnect.fisglobal.com/app/apicatalog",
+   "claim_checked": "FIS's developer property is Code Connect (developer.fisglobal.com 301-redirects to codeconnect.fisglobal.com); its conte"
+  },
+  {
+   "id": "culiance-016",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA), HTML grepped",
+   "archive_url": null,
+   "note": "Source has /favicon-96x96.png?v=20260717, and the same stamp on the other icons and site.webmanifest. Footer: \"© FIS and/or its affiliates. All Rights Reserved.\" The 'Credit Unions' nav link goes to https://www.fisglobal.com/products/culiance. The July relaunch date is inferred from the stamp only.",
+   "claim_checked": "culiance.com was relaunched or re-versioned around 17 July 2026 (asset cache-busting stamp in the page source), with FIS"
+  },
+  {
+   "id": "dgn-007",
+   "result": "qualified",
+   "qualification": "All twelve named products are listed. The rendered page groups them under six headings: Digital Payment Solutions, Diners Club Member Benefits, Fraud and Security, Travel Tools, Data Services, Card Account Services. A seventh family, 'Funds Transfer', exists only in the page data and has no products.",
+   "fetch": "curl (Next.js payload parsed) and headless Chromium via tools/text.js",
+   "archive_url": null,
+   "note": "Page data: \"Find the perfect solution for your needs.\" and productFamilies lists 7 entries, including \"Funds Transfer\" with no products. Say six visible categories, or seven counting an empty one.",
+   "claim_checked": "The Partner Product Portal exposes twelve products logged out (Discover Stored Token Services, Fraud Alerts, Currency Co"
+  },
+  {
+   "id": "dgn-008",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the api-specs URL (OpenAPI docs embedded in the HTML); headless Chromium render confirms",
+   "archive_url": null,
+   "note": "HTML holds \"operationId\":\"getCardAsset\"}}},\"openapi\":\"3.0.1\", plus lcmNotifications and checkBulkTokenStatus. The render shows 'OAS 3.0', 'Download API Spec' and no login. The operationId is spelled 'healthCheck' (camelCase).",
+   "claim_checked": "The Partner Product Portal renders OpenAPI 3.0.1 documents on each product's 'API Specs' tab without login (operationIds"
+  },
+  {
+   "id": "dgn-009",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of /products (text in the embedded product docs); headless Chromium on a product Documentation tab shows it visibly",
+   "archive_url": null,
+   "note": "\"OAuth 2 client credentials: Used to get an access token\"; needs client_id and client_secret; \"By default, the token expires in one hour (3600 seconds).\" Visible at /products/discover-stored-token-services?tab=documentation, not on the /products listing itself.",
+   "claim_checked": "Authentication is OAuth 2.0 client credentials with client_id and client_secret; access tokens expire after one hour by "
+  },
+  {
+   "id": "dgn-010",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of going-live-with-discover (the Developers Guide tab content is in the HTML payload)",
+   "archive_url": null,
+   "note": "\"curl --request POST \\\"https://apis.discover.com/auth/oauth/v2/token\\\"\" with Authorization: Basic (client_id:client_secret) and \"X-DFS-API-PLAN: Discover-API-Plan-Name\". The guide also shows a variant with credentials in the POST body. The text sits under the Developers Guide tab.",
+   "claim_checked": "The OAuth token endpoint is https://apis.discover.com/auth/oauth/v2/token, called with HTTP Basic client credentials and"
+  },
+  {
+   "id": "dgn-011",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of going-live-with-discover (Developers Guide content in the HTML payload)",
+   "archive_url": null,
+   "note": "\"API Plans which control routing to specific end points, rate limits, quotas...\" and \"These API Plans match the service agreements signed\". The header is required on all requests, token requests included. No numeric limits found.",
+   "claim_checked": "Rate limits and quotas are not published as numbers; they are set per partner by an 'API Plan' that mirrors the signed s"
+  },
+  {
+   "id": "dgn-012",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of /products (embedded product docs); headless Chromium on the Stored Token Services Documentation tab shows the table",
+   "archive_url": null,
+   "note": "Table rows: [\"Sandbox\",\"sandbox.apis.discover.com\"],[\"Certification\",\"sandbox.apis.discover.com\"],[\"Production\",\"apis.discover.com\"]. Visible at /products/discover-stored-token-services?tab=documentation.",
+   "claim_checked": "Environments are selected by API Plan: Sandbox and Certification plans route to sandbox.apis.discover.com and Production"
+  },
+  {
+   "id": "elo-030",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch and curl (Chrome UA); curl status checks on the sub-routes",
+   "archive_url": null,
+   "note": "Title 'ELO - Desenvolvedores'. Plain HTML's only visible text is 'Carregando...', and it loads _next/static chunks. No API, sandbox, cadastro or produto text. /apis, /api, /docs and /produtos return 404.",
+   "claim_checked": "Dev.Elo (dev.elo.com.br) is a Next.js single-page app that serves only a 'Carregando...' shell without JavaScript; no AP"
+  },
+  {
+   "id": "girocard-018",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -I for the redirects; headless Chromium (Playwright, scrolled, then the 'Mehr erfahren' link clicked to open the provider popup)",
+   "archive_url": null,
+   "note": "handel.girocard.eu gives a 301 to /handel/. Page: 'Wir zeigen Ihnen, wie Sie einen Dienstleister finden'. Items: WACKELKOPF, AUFKLEBER, ZAHLTELLER at 0,00€. The ledger quote is not verbatim. Popup text: 'Was Sie dafür zunächst brauchen, ist ein passender Dienstleister'. Items link to /girocard-shop/, which redirects to girocard-shop.de.",
+   "claim_checked": "Merchant-facing property handel.girocard.eu redirects to girocard.eu/handel/, a provider-finder plus free POS material ("
+  },
+  {
+   "id": "interac-004",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch; confirmed with headless Chromium (tools/text.js)",
+   "archive_url": null,
+   "note": "'6.6B Interac Debit Transactions (2024)'; '1.4B Interac e-Transfer Transactions (2024)'; '568M Verification and Authentication Transactions (2024)'.",
+   "claim_checked": "The business landing page publishes 2024 volumes of 6.6B Interac Debit, 1.4B e-Transfer and 568M verification transactio"
+  },
+  {
+   "id": "interac-029",
+   "result": "qualified",
+   "qualification": "Leadership and Real-Time Rail are on the page. e-Transfer eligibility needs RPAA registration and FINTRAC Money Services Business registration, not RPAA alone. Ledger quote 'Over 160M total transactions' is not on the page.",
+   "fetch": "WebFetch; confirmed with headless Chromium (scrolled)",
+   "archive_url": null,
+   "note": "'We Welcomed David Bruyea Group Head, Financial Crimes'; 'Anuj Dhall Group Head, Technology & Operations'; 'technical operator of the Real-Time Rail'. The 160M figure is 'Over 160M Interac e-Transfer for Business — Request Money'. The '14M total transactions' line is separate.",
+   "claim_checked": "FY2025 leadership changes: David Bruyea named Group Head, Financial Crimes; Anuj Dhall named Group Head, Technology & Op"
+  },
+  {
+   "id": "jeanie-002",
+   "result": "qualified",
+   "qualification": "The page says GTCR 'agreed to acquire' the 55% stake in July 2023. It does not say the stake was taken in 2023. By February 2024 it describes co-ownership, GTCR 55% and FIS 45%.",
+   "fetch": "WebFetch; curl of the article HTML and of the raw redirect page",
+   "archive_url": null,
+   "note": "Jeanie is a redirect to 'Worldpay, Inc.'. Page has 'In March 2019, FIS announced a $43 billion deal' and 'In February 2024 ... separated from FIS'. 2026: 'Global Payments announced it had completed the acquisition of Worldpay'. The ledger quote is a paraphrase.",
+   "claim_checked": "Worldpay's ownership chain since 2019: FIS bought it in 2019, GTCR took 55% in 2023, it separated from FIS in 2024, and "
+  },
+  {
+   "id": "jeanie-003",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch; curl of the article HTML",
+   "archive_url": null,
+   "note": "'Based in Cincinnati, Ohio, it has its international headquarters in London and 40 offices across 25 countries.' The Jeanie link is inferred from the redirect and the history line: 'In 1977, Jeanie, the nation's first shared online ATM network was developed'.",
+   "claim_checked": "Worldpay (and therefore Jeanie) is headquartered in Cincinnati, Ohio, with an international headquarters in London."
+  },
+  {
+   "id": "jeanie-014",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl -I (redirect chain) and openssl s_client (certificate); headless Chromium (tools/text.js) for the listing page, which returns 403 to curl",
+   "archive_url": null,
+   "note": "www.jeanie.com's certificate is for CN=ns1.perfectdomain.com, and curl fails with exit 60. HTTP gives a 301 to perfectdomain.com/domain/jeanie.com. Rendered listing: 'Jeanie.com ... Price: $63,995 USD Buy Now'.",
+   "claim_checked": "Jeanie has no working standalone website: jeanie.com serves an invalid certificate and redirects to a domain-marketplace"
+  },
+  {
+   "id": "mastercard-048",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (PDF parsed with pypdf). Live URL returns Akamai 'Access Denied' 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.1, page 34 of the 2 June 2026 edition: 'no entity may participate in Activity until that entity is approved to be a Customer ... has paid all associated fees'.",
+   "claim_checked": "Participation is gated: an entity must be approved as a Customer, execute the applicable Licenses and pay associated fee"
+  },
+  {
+   "id": "mastercard-049",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.1.1, page 34, quote verbatim. Also 'submitted business plans acceptable to the Corporation' and 'made at the sole discretion of the Corporation'.",
+   "claim_checked": "To be a Principal or Affiliate an applicant must be a regulated financial institution (or other legal entity authorized "
+  },
+  {
+   "id": "mastercard-050",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.1.3, page 35, quote verbatim. Rule 1.1.2: 'An Association is a type of Affiliate Sponsoring Customer.'",
+   "claim_checked": "An Affiliate Sponsoring Customer is a participation type for entities that sponsor Affiliates but cannot themselves issu"
+  },
+  {
+   "id": "mastercard-051",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.1.4, page 35, quote verbatim. Applies to 'new and renewed Sponsored Program Manager registrations effected on or after 20 May 2025'. Approval 'may be revoked at any time and without prior notice'.",
+   "claim_checked": "Since 20 May 2025 a Principal must obtain Mastercard's approval before acting as BIN Sponsor for a Sponsored Program Man"
+  },
+  {
+   "id": "mastercard-052",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.1.6, page 36, quote verbatim. 'must enter into a PTA Agreement ... for each PTA Program'. Criteria include ISO/IEC 27001 or PCI DSS.",
+   "claim_checked": "Payment Transfer Activity (money movement) has its own participation type, the PTA Customer, requiring approval, a PTA A"
+  },
+  {
+   "id": "mastercard-053",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Chapter 9, Rule 1.1.5, page 211: criterion 4 is verbatim. Definitions, page 472: a Digital Activity Customer 'may not issue Cards, acquire Transactions'. Token Requestor activity counts as Digital Activity, and Chapter 9 covers wallet operators.",
+   "claim_checked": "Digital Activity Customer is a non-issuing, non-acquiring participation type (wallets, token requestors) whose eligibili"
+  },
+  {
+   "id": "mastercard-054",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.3, page 40, quote verbatim, plus 'capital adequacy' and 'evaluating key management experience'. Rule 1.4, page 41: 'escrow arrangements' and a right to collect collateral.",
+   "claim_checked": "Customers must meet minimum financial requirements set by Mastercard, which may include capital adequacy and subjective "
+  },
+  {
+   "id": "mastercard-055",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.2, pages 36-37, quote verbatim. Customers must keep an AML Compliance contact and a Sanctions Compliance contact current 'in the My Company Manager application on Mastercard Connect'.",
+   "claim_checked": "AML and sanctions compliance programs are an explicit condition of being granted a License, and each Customer must keep "
+  },
+  {
+   "id": "mastercard-056",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback copy (pypdf); live URL 403 to WebFetch, curl and headless Chromium",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.9, page 46, quote verbatim; the list includes Service Provider and Network Enablement Partner. Rule 1.7, page 42: conduct Activity 'solely in the Area of Use in which the Customer has been granted a License'.",
+   "claim_checked": "Mastercard alone decides the level of participation (Principal vs Affiliate) for each applicant, Customer, Service Provi"
+  },
+  {
+   "id": "mastercard-190",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260920203706 (PDF, 2 June 2026 edition) + pypdf. Live URL returns Akamai 403 to WebFetch, headless Chromium (tools/text.js) and curl with a Chrome UA.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 2.1.1: \"Only a Customer or a Network Enablement Partner may request a variance.\" The request goes through \"the Variance Manager tool on Mastercard Connect®\". The archive is the same 2 June 2026 edition the ledger cites.",
+   "claim_checked": "Variances from a Standard can only be requested by a Customer or Network Enablement Partner through the Variance Manager"
+  },
+  {
+   "id": "mastercard-191",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260920203706 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 5.2 says the Acquirer \"is itself responsible to the Corporation and to other Customers\". It also bars \"load balancing\" (\"the distribution of Transactions between or among Merchant ID numbers in order to avoid minimum thresholds\").",
+   "claim_checked": "Acquirers are made responsible to Mastercard and to other customers for their merchants' and sponsored merchants' compli"
+  },
+  {
+   "id": "mastercard-192",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260920203706 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 7.10: the Customer registers the provider through My Company Manager and needs Mastercard's written confirmation before using it. Rule 7.10.7 sets \"up to USD 25,000 for each 30-day period of noncompliance\". SDP validation applies to providers that handle cardholder data (TPPs, DSEs, PFs, TSPs, 3-DS providers and others).",
+   "claim_checked": "Service providers (TPPs, payment facilitators, DSEs, token service providers, 3-DS providers etc.) must be registered th"
+  },
+  {
+   "id": "mastercard-193",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 (PDF, 4 August 2026 edition) + pypdf. Live URL returns Akamai 403 to WebFetch, headless Chromium and curl.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Section 2.2: \"consists of Rules, guidelines, best practices, and approved compliance validation tools to foster broad compliance with the PCI Security Standards\".",
+   "claim_checked": "The Site Data Protection (SDP) Program is Mastercard's named PCI compliance programme, defined as rules, guidelines, bes"
+  },
+  {
+   "id": "mastercard-194",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "\"Only Level 1 and Level 2 Merchants and all Service Providers must validate their compliance to Mastercard\". Also: \"Issuers and Acquirers may alternatively comply with ISO/IEC 27001 instead of the PCI DSS.\"",
+   "claim_checked": "PCI DSS compliance is required of all issuers, acquirers, merchants and service providers, but only Level 1 and Level 2 "
+  },
+  {
+   "id": "mastercard-195",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Level 1 is over six million, meets Visa Level 1, or is designated by Mastercard, \"which may include any Merchant that has a confirmed ADC Event\". Level 2 is one to six million. Level 3 is 20,000 to one million e-commerce transactions.",
+   "claim_checked": "Level 1 merchants are those with more than six million combined Mastercard and Maestro transactions a year, any merchant"
+  },
+  {
+   "id": "mastercard-196",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Table 2.2 shows USD 25,000, 50,000, 100,000 and 200,000 for Level 1/2 merchants and service providers, and 10,000 to 80,000 for Level 3. It adds \"delisting of a Service Provider from The Mastercard SDP Compliant Registered Service Provider List\".",
+   "claim_checked": "SDP noncompliance assessments for Level 1/2 merchants and Level 1/2 service providers escalate from up to USD 25,000 to "
+  },
+  {
+   "id": "mastercard-197",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20250710133205 of the mastercard.us URL (PDF, 11 February 2025 edition) + pypdf. Live URL returns Akamai 403 to WebFetch, headless Chromium and curl. Wayback has also logged 403s for this URL since March 2026.",
+   "archive_url": "https://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+   "note": "\"for each Level 1 and Level 2 Merchant semiannually by email message to sdp@mastercard.com\". The reporting periods end 31 March and 30 September. The same text is in the current 4 Aug 2026 edition at the mastercard.com rules-pdfs/SPME-Manual.pdf URL.",
+   "claim_checked": "Acquirers must report Level 1 and Level 2 merchant PCI status to Mastercard semiannually (periods ending 31 March and 30"
+  },
+  {
+   "id": "mastercard-198",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20250710133205 of the mastercard.us URL + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20250710133205/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/SPME-Manual.pdf",
+   "note": "\"An Acquirer must retain all Merchant certifications of eligibility for the Exemption Program for a minimum of five (5) years.\" 75% hybrid, P2PE and token criteria confirmed. The 4 Aug 2026 edition renames this the Validation Exemption Program (VEP) and adds C-VEP.",
+   "claim_checked": "Mastercard operates a Cybersecurity Incentive Program (CSIP) with a PCI DSS Compliance Validation Exemption Program for "
+  },
+  {
+   "id": "mastercard-199",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Section 10.3.1 requires notice within 24 hours and preserving evidence \"no later than within twenty-four (24) hours\". PANs are due \"at the latest within seventy-two (72) hours\".",
+   "claim_checked": "A customer must notify Mastercard within 24 hours of becoming aware of an Account Data Compromise (ADC) event or potenti"
+  },
+  {
+   "id": "mastercard-200",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Section 10.7: \"up to USD 25,000 a day\" and/or disqualification from ADC Operational Reimbursement. Section 10.8 allows 30 calendar days to appeal, with \"a non-refundable USD 5,000 fee\".",
+   "claim_checked": "ADC procedural noncompliance can be assessed at up to USD 25,000 per day and can disqualify the customer from ADC Operat"
+  },
+  {
+   "id": "mastercard-201",
+   "result": "qualified",
+   "qualification": "The page splits this by contact type. Security and Safety Net contacts must answer critical messages from Mastercard. Critical messages from another Customer go to the Customer's Principal contacts, not the Security or Safety Net contacts.",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Section 1.3: \"Security contact(s) and Safety Net contact(s) must respond to a critical message sent by Mastercard and the Customer's Principal contact(s)\" ... \"sent by another Customer within 24 hours, seven days a week\".",
+   "claim_checked": "Security and Safety Net contacts registered in My Company Manager must respond to critical messages from Mastercard or a"
+  },
+  {
+   "id": "mastercard-202",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260708070319 (newest 200 capture) + HTML text grep. Live page returns Akamai 403 to WebFetch, headless Chromium and curl.",
+   "archive_url": "https://web.archive.org/web/20260708070319/https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/site-data-protection-pci.html",
+   "note": "Links to all four items: the \"SDP Acquirer Submission and Compliance Status Form\" (xlsx), both action plans, the \"Terminal Servicer QIR Participation Validation Form\" (pdf), and the Registered Service Provider List (\"View now\").",
+   "claim_checked": "Mastercard's public SDP page offers downloadable partner artefacts: the SDP Acquirer Submission and Compliance Status Fo"
+  },
+  {
+   "id": "mastercard-203",
+   "result": "qualified",
+   "qualification": "The Rules back the display obligation and point to brand.mastercard.com for the Branding Requirements. They say nothing about the Brand Center home page listing dated updates to branding requirements, and that part is not on the cited URL.",
+   "fetch": "Wayback id_ snapshot 20260920203706 + pypdf. Live URL returns Akamai 403 to every method. brand.mastercard.com also returned 403 to WebFetch and headless Chromium, so the home-page detail could not be checked.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 4.4: \"The Marks must be displayed as set forth in the Standards, including those posted on the Mastercard Brand Center.\" Rule 5.10.1 refers to \"Mastercard Branding Requirements at brand.mastercard.com\".",
+   "claim_checked": "Brand standards are a partner obligation: the Rules require the Marks to be displayed per the standards posted on the Ma"
+  },
+  {
+   "id": "mastercard-204",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot 20260910004127 (gzip-decoded HTML) + text grep. Live page returns Akamai 403 to WebFetch, headless Chromium and curl.",
+   "archive_url": "https://web.archive.org/web/20260910004127/https://www.mastercard.com/us/en/business/support/rules.html",
+   "note": "\"The following modules help explain our Global Compliance Programs\". Four YouTube modules follow: BRAM, Excessive Chargeback Program (ECP), Excessive Fraud Merchant (EFM) Program and QMAP.",
+   "claim_checked": "Mastercard's public rules page names four 'Global Compliance Programs' explained by video modules: Business Risk Assessm"
+  },
+  {
+   "id": "mastercard-205",
+   "result": "qualified",
+   "qualification": "The page backs the ECP definition. It also says the ECM/HECM categories and assessments are in Edit 2, Chapter 8 of the Data Integrity Monitoring Program manual, and points to the Pricing and Billing Resource Center on Mastercard Connect. It does not call the DIMP manual gated; that label is the ledger's own inference.",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returns Akamai 403 to every method.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Section 8.3: the ECP ensures \"each Acquirer closely monitors, on an ongoing basis, its chargeback performance at the Merchant level\". The quoted \"Refer to the Acquirer Chargeback Monitoring Program chapter...\" text is present word for word.",
+   "claim_checked": "The Security Rules define the Excessive Chargeback Program (ECP) as acquirer-level monitoring of merchant chargeback per"
+  },
+  {
+   "id": "mastercard-172",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_), HTML grep. Live page blocked: WebFetch 403, curl with Chrome UA 403, headless Chromium (tools/text.js) Akamai 'Access Denied'.",
+   "archive_url": "https://web.archive.org/web/20260910004127/https://www.mastercard.com/us/en/business/support/rules.html",
+   "note": "\"it's possible that they will not always be absolutely current in all regards... the official rules and standards will apply.\" From the 10 Sep 2026 snapshot. The live page is blocked by Akamai, not changed.",
+   "claim_checked": "Mastercard warns that the website copies of its rules may lag the official Standards and that the official Standards pre"
+  },
+  {
+   "id": "mastercard-173",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text and metadata. Live URL blocked: WebFetch 403, curl 403, headless Chromium fetch (tools/fetch-browser.js) 403.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"Publication date 2 June 2026\". The PDF has 503 pages and its metadata /Title is 'Mastercard Rules'. Snapshot from 20 Sep 2026.",
+   "claim_checked": "The current public edition of Mastercard Rules is dated 2 June 2026 and runs 503 pages (PDF metadata title 'Mastercard R"
+  },
+  {
+   "id": "mastercard-174",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Table 1 metadata: \"Audience Acquirer, Branded Processor, Issuer, Network Enablement Partner, MPGS Acquirer Reseller, MPGS Merchant...\". The quote is exact. 'The full partner set' is the writer's own wording.",
+   "claim_checked": "The Rules manual states its audience as acquirers, branded processors, issuers, Network Enablement Partners, MPGS resell"
+  },
+  {
+   "id": "mastercard-175",
+   "result": "qualified",
+   "qualification": "The current edition is confirmed: 19 May 2026, 1,582 pages. But 13 May 2025 is not the edition just before it. A 27 January 2026 edition (975 pages) was on the public URL in between. The 13 May 2025 edition did have 1,153 pages.",
+   "fetch": "Wayback Machine snapshots (id_) of the PDF, pypdf page counts. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Footer reads \"Chargeback Guide Merchant Edition • 19 May 2026\" (1,582 pp). Edition history: 20251217113352 is 13 May 2025 (1,153 pp); 20260303125049 is 27 Jan 2026 (975 pp).",
+   "claim_checked": "The current public Chargeback Guide Merchant Edition is dated 19 May 2026 and runs 1,582 pages; the prior edition (13 Ma"
+  },
+  {
+   "id": "mastercard-176",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshots (id_) of the PDF, pypdf page counts. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260724162448/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf",
+   "note": "\"Publication date 9 December 2025\", 423 pp. The prior edition (snapshot 20250726005536) is 10 June 2025, 399 pp. The public URL still served the June 2025 edition on 3 Mar 2026.",
+   "claim_checked": "The current public Transaction Processing Rules edition is dated 9 December 2025 and runs 423 pages, reissued six months"
+  },
+  {
+   "id": "mastercard-177",
+   "result": "qualified",
+   "qualification": "The current edition is confirmed: 4 August 2026, 236 pages. But 11 February 2025 (224 pp) is not the edition just before it. Editions dated 5 August 2025 (230 pp) and 3 February 2026 (235 pp) came in between. The one just before is 3 February 2026.",
+   "fetch": "Wayback Machine snapshots (id_) of the PDF, pypdf page counts. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Footer reads \"Security Rules and Procedures—Merchant Edition • 4 August 2026\". Older snapshots: 20250712071157 is 11 Feb 2025; 20251215140222 is 5 Aug 2025; 20260303075309 is 3 Feb 2026.",
+   "claim_checked": "The current public Security Rules and Procedures Merchant Edition is dated 4 August 2026 and runs 236 pages (prior editi"
+  },
+  {
+   "id": "mastercard-178",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+   "note": "16 pages. Reads \"A High-Level Overview of the Chargeback and Compliance Case Processes JULY 2025\" and \"This guide is not a replacement for the suite of manuals, rules, or publications\".",
+   "claim_checked": "Mastercard also publishes a 16-page 'Chargebacks Made Simple Guide' (July 2025) as a high-level overview that explicitly"
+  },
+  {
+   "id": "mastercard-179",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "The Standards definition reads \"including but not limited to any manuals, guides, announcements or bulletins, as may be amended from time to time.\"",
+   "claim_checked": "Mastercard's 'Standards' are defined to include not only the manuals but also announcements and bulletins, which is how "
+  },
+  {
+   "id": "mastercard-180",
+   "result": "qualified",
+   "qualification": "The guide confirms that upcoming changes are published as Announcements in the Technical Resource Center on Mastercard Connect. It does not say that Connect is login-gated. It also does not say the Announcements are kept off the public site. Those two points go beyond the page.",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+   "note": "\"Upcoming changes to Mastercard's rules and processes are published as Announcements in the Technical Resource Center on Mastercard Connect\". Exact.",
+   "claim_checked": "Upcoming rule and process changes are published as Announcements in the Technical Resource Center on Mastercard Connect,"
+  },
+  {
+   "id": "mastercard-181",
+   "result": "qualified",
+   "qualification": "The Rules manual does open with a Summary of changes table that cites numbered announcements. But not every row maps to one: some rows read 'Editorial changes' or 'Clarified the rule text'. This edition shows only GLB, EUR and MEA prefixes, with no AP, LAC or CAN. Also, the Chargeback Guide and SPME merchant editions have no Summary of changes table, so 'each rulebook' is overstated.",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"GLB 13267 Revised Standards for Illegal or Brand Damaging Transactions\" is present. The Transaction Processing Rules summary table does contain all six prefixes (GLB, EUR, AP, LAC, MEA, CAN).",
+   "claim_checked": "Each rulebook edition opens with a 'Summary of changes' table that maps every change to a numbered announcement with a r"
+  },
+  {
+   "id": "mastercard-183",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"For urgent inquiries... call Customer Technical Services\" and \"If your inquiry is not urgent, select Create a case on the Technical Resource Center\".",
+   "claim_checked": "For urgent partner inquiries Mastercard directs customers to Customer Technical Services by phone, and for non-urgent on"
+  },
+  {
+   "id": "mastercard-185",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"Mastercard has the sole right to interpret and enforce the Rules\". Also: in a conflict between a Rule and a geographic modification, \"the modification is afforded precedence\". The page says 'geographic areas' (country, region or other), not only 'regional'.",
+   "claim_checked": "Mastercard asserts the sole right to interpret and enforce the Rules and other Standards, and regional modifications tak"
+  },
+  {
+   "id": "mastercard-186",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "The page names \"Category A—Payment System Integrity\", \"Category B—Visible to Customers\" and \"Category C—Efficiency and Operational Performance\". Each has its own assessment table.",
+   "claim_checked": "Noncompliance not covered by a specific programme falls into three categories: A (payment system integrity), B (visible "
+  },
+  {
+   "id": "mastercard-187",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Per-violation amounts: A 25k/50k/75k/100k; B 20k/30k/60k/100k; C 15k/25k/50k/75k USD, each 'within 12 months'. All match the claim.",
+   "claim_checked": "Category A per-violation assessments escalate from up to USD 25,000 (first) to USD 100,000 per violation (fourth and sub"
+  },
+  {
+   "id": "mastercard-188",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"all days refer to calendar days and violations of a Standard are tracked on a rolling 12-month basis.\" Exact.",
+   "claim_checked": "Violations are tracked on a rolling 12-month basis and all periods are counted in calendar days."
+  },
+  {
+   "id": "mastercard-189",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback Machine snapshot (id_) of the PDF, pypdf text. Live URL blocked (WebFetch 403, curl 403, headless Chromium 403).",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rules 2.1.6–2.1.7 name the Chief Franchise Officer, the franchise.appeals email, the 30-day limit and \"a USD 500 fee\", and say \"such recommendation is final and not subject to further review\".",
+   "claim_checked": "A customer may ask the Chief Franchise Officer to review a noncompliance assessment by emailing franchise.appeals@master"
+  },
+  {
+   "id": "nyce-011",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (saved the 8.5MB PDF; curl got an Akamai reset), then text extracted with pypdf",
+   "archive_url": null,
+   "note": "p.7: \"Risk Monitoring Service (RMS), created in association with FICO, and the FICO® Card Alert Service... three, unique Falcon Fraud scores... iCVx Verification and Authorization Blocking services.\" iCVx is offered by NYCE, not said to come from FICO. The e-book is dated ©2023.",
+   "claim_checked": "Fraud and risk (value-added, via FICO): Risk Monitoring Service with Falcon scores, FICO Card Alert Service, iCVx Verifi"
+  },
+  {
+   "id": "nyce-012",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (saved the PDF), then pypdf",
+   "archive_url": null,
+   "note": "p.8: \"SUM is distinguished by its per transaction pricing\"; Shared Deposit is a \"no-cost program\"; Gateway Service gives \"a single online interface and single point settlement.\"",
+   "claim_checked": "ATM services (optional programmes): SUM surcharge-free with per-transaction pricing, no-cost Shared Deposit ATMs, Gatewa"
+  },
+  {
+   "id": "nyce-013",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (saved the PDF), then pypdf",
+   "archive_url": null,
+   "note": "p.5: \"First U.S. domestic debit network to go live with tokenized transactions\"; \"Launched PayNet®... supports P2P solutions such as FIS People Pay and Early Warning's Zelle®\". The page says 'launched' where the claim says 'operates'.",
+   "claim_checked": "Faster payments and tokenisation: NYCE claims first U.S. domestic debit network live with tokenized transactions and ope"
+  },
+  {
+   "id": "nyce-014",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch; exact text confirmed in HTML rendered by headless Chromium (Playwright page.content). curl is blocked by Akamai.",
+   "archive_url": null,
+   "note": "\"NYCE® Payments Network delivers smart routing and resilient transaction processing to reduce acceptance costs... simplified promo stacking\". The text sits in a collapsed 'proven FIS components' section, so it is missing from innerText.",
+   "claim_checked": "Merchant/acquirer offer: Smart Basket is an FIS item-level offers network that pairs with NYCE routing to lower acceptan"
+  },
+  {
+   "id": "nyce-015",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (saved the 2.4MB PDF; curl got Akamai Access Denied), then pypdf",
+   "archive_url": null,
+   "note": "p.8: \"a dedicated and expert team at FIS constantly monitors authorization rates for debit card issuers, acquirers and merchants\". It gives examples of fixing MCC errors and removing extraneous message data.",
+   "claim_checked": "Authorisation optimisation: FIS says a dedicated team monitors auth rates for issuers, acquirers and merchants and fixes"
+  },
+  {
+   "id": "nyce-018",
+   "result": "unsupported",
+   "qualification": "The redirect and the JS shell are accurate, but the rendered public catalog, read logged out, lists NYCE and PayNet APIs with a readable reference and guide.",
+   "fetch": "curl (redirect and raw HTML); headless Chromium render of /app/apicatalog and the linked NYCE pages",
+   "archive_url": null,
+   "note": "Catalog, logged out: \"Product: NYCE and PayNet — NYCE-Paynet Integration: Send or receive financial messages via the NYCE or PayNet payment networks\". Reference: https://codeconnect.fisglobal.com/app/apigroup/NYCEPaynetIntegration:API%20Catalog/48712fc9-1c24-4a48-8b46-1d79b724542f (Financial Transaction Query (NYCE) v1, Swagger link).",
+   "claim_checked": "FIS's public developer portal (developer.fisglobal.com redirects to Code Connect) is a JavaScript app whose HTML exposes"
+  },
+  {
+   "id": "nyce-019",
+   "result": "qualified",
+   "qualification": "The page backs issuer-side onboarding through the existing EFT processor with no reissue. The claim that no membership types, application steps, fees or certification stages are published is about NYCE's publishing in general, which this one e-book cannot show.",
+   "fetch": "WebFetch (saved the PDF), then pypdf",
+   "archive_url": null,
+   "note": "p.10: \"No need to reissue debit cards • Interfaces with your EFT processor • Minimal implementation tasks for your staff\". The e-book is dated ©2025.",
+   "claim_checked": "Onboarding as published is issuer-side via the existing EFT processor with no card reissue; no membership types, applica"
+  },
+  {
+   "id": "nyce-023",
+   "result": "qualified",
+   "qualification": "The e-book backs marketing claims about interchange and fees with no numbers. 'NYCE publishes no fee schedule' is a claim about everything NYCE publishes, which this page cannot show. The e-book says 'low transaction and support fees', not 'network fees'.",
+   "fetch": "WebFetch (saved the PDF), then pypdf",
+   "archive_url": null,
+   "note": "p.4: \"Industry-leading interchange rates on point-of-sale (POS), eCommerce and On-Demand Payments\"; p.5: \"Market-leading interchange and low transaction and support fees\". No figures anywhere.",
+   "claim_checked": "NYCE publishes no interchange or network fee schedule; its marketing asserts 'industry-leading interchange rates' and lo"
+  },
+  {
+   "id": "nyce-024",
+   "result": "qualified",
+   "qualification": "The 2025 e-book at this URL has the client relations team and the dual-node 99.99% SLA claim but no 800 number. The number (800.822.6758) is on p.10 of the other NYCE e-book (NYCE-Payments-Network-eBook.pdf).",
+   "fetch": "WebFetch (saved the PDF), then pypdf",
+   "archive_url": null,
+   "note": "p.10: \"Dedicated client relations support team\"; \"Dual-node architecture providing redundancy, peace of mind and 100% uptime, exceeding 99.99% transaction time SLAs\".",
+   "claim_checked": "Support model as published: a dedicated client relations team, an 800 number and a 99.99% transaction-time SLA claim on "
+  },
+  {
+   "id": "pulse-019",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "headless Chromium text.js (landing page); curl of the landing HTML and of the linked content.pulsenetwork.com report page",
+   "archive_url": null,
+   "note": "Landing: \"CNP transactions now represent 50% of debit spend\" (the ledger quote leaves out 'now'). 'Download the Report' goes to content.pulsenetwork.com/2026-debit-issuer-study/..., which reads \"Fill form to unlock content\". Prior-year studies are linked, so the study is annual.",
+   "claim_checked": "The 2026 PULSE Debit Issuer Study (the network's annual issuer research) is gated behind a content.pulsenetwork.com form"
+  },
+  {
+   "id": "pulse-056",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "headless Chromium text.js; curl of the landing HTML and the report page",
+   "archive_url": null,
+   "note": "\"2026 PULSE® Debit Issuer Study The Next Era of Debit\"; \"Transactions increased 4.6% year-over-year\"; CNP is \"50% of debit spend\". The ledger quote ('center of gravity...') is not on this URL. It is on content.pulsenetwork.com/2026-debit-issuer-study/2026-pulse-debit-issuer-study-report.",
+   "claim_checked": "News timeline, 2026: PULSE released the 2026 Debit Issuer Study ('The Next Era of Debit'), reporting 4.6% transaction gr"
+  },
+  {
+   "id": "rupay-023",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl of the GitHub REST API (JSON)",
+   "archive_url": null,
+   "note": "12 public repos; the quoted atom-network-platform row (Python, 2026-09-10T01:44:12Z) matches. The repos cover AI (AiNxt, AtOM, bank benchmarks), blockchain (falcon, drunix) and interoperable-soundbox; none is a RuPay tool. The last clause generalises from this one org.",
+   "claim_checked": "A GitHub organisation named NPCI exists with a dozen public repositories, none of which is a RuPay SDK, API kit or sampl"
+  },
+  {
+   "id": "unionpay-011",
+   "result": "qualified",
+   "qualification": "The document list backs the claim as worded. The guide body, now readable logged out, says the new CryptoKit is needed by users who log in with certificates, and the CDRS doc lists a 'Soft Token no-installation' option. So 'all needing' goes too far.",
+   "fetch": "headless Chromium: loaded https://open.unionpayintl.com/#/home/document and captured the queryMainWeb JSON response. A direct GET returns 400 because the endpoint takes POST.",
+   "archive_url": null,
+   "note": "\"Installation Guide for users of The Cross Border Dispute Resolution system(CDRS), Risk management system(RMS), Stand-in Authorization service, Acquirer Service\". Body: \"Users who log in with certificates... need to install a new certificate CryptoKit\".",
+   "claim_checked": "UPI's dispute service is the Cross Border Dispute Resolution System (CDRS), used alongside a Risk Management System (RMS"
+  },
+  {
+   "id": "unionpay-015",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (raw HTML)",
+   "archive_url": null,
+   "note": "Raw HTML has only the title, an empty #app div and the noscript text \"We're sorry but UnionPay International Open Platform doesn't work properly without JavaScript enabled.\" The bundle is still app.1788769372642.js. The rendered site does show document bodies (see unionpay-017).",
+   "claim_checked": "The Open Platform (open.unionpayintl.com) is a JavaScript single-page app; nothing beyond the title renders without JS, "
+  },
+  {
+   "id": "unionpay-017",
+   "result": "unsupported",
+   "qualification": "The six titles are right, including the account guide and the UOP onboarding guide. But all six document bodies open and render for a logged-out visitor, so they are not gated.",
+   "fetch": "headless Chromium: captured the queryMainWeb JSON, then opened each document (getDocDetailById returned content with no login)",
+   "archive_url": null,
+   "note": "Account guide body, logged out: \"The Open Platform and the Institution Service Portal are NOT for individual users\". Example URL: https://open.unionpayintl.com/#/home/about/Open%20Platform%20User%20Account%20Guide/1101357199",
+   "claim_checked": "Logged-out visitors can see only six document titles on the Open Platform, including an account guide and an onboarding "
+  },
+  {
+   "id": "unionpay-026",
+   "result": "qualified",
+   "qualification": "The bundle shows test APP ID endpoints inside the project/task module, and a 'Sandbox' string used for the agentic-payment solution. 'Gated, not self-service' is an inference from the endpoint paths, not stated. The public onboarding guide describes testing as project tasks confirmed by a UPI project support manager.",
+   "fetch": "curl (JS bundle, 400KB; the quote was found)",
+   "archive_url": null,
+   "note": "Bundle: \"/open/task/projectAppId/applyTestAppId\" next to testAppIdList and cert/queryTest; also sandbox:\"Sandbox\", isolatedSimulation:\"An isolated simulation testing environment dedicated to three ecosystem participants.\"",
+   "claim_checked": "A sandbox and test APP IDs exist but are requested through a gated project flow, not self-service."
+  },
+  {
+   "id": "mastercard-073",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 8 Jan 2026 (same digest as the 20 Sep 2026 capture) read with pypdf. The live host returned an Akamai 403 to curl and headless Chromium.",
+   "archive_url": "https://web.archive.org/web/20260108212747/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-switch-rules-manual.pdf",
+   "note": "The PDF is the 16 December 2025 edition, p.43. Rule 4.1 has the quoted text. Rule 4.2 requires IRT and IDF input documents 'no later than five business days prior to the requested effective date of live switching'. The applicability section confirms the scope is intra-EEA/UK/Gibraltar.",
+   "claim_checked": "For EEA/UK/Gibraltar switching, a Network Participant must test and obtain certification of its equipment and connection"
+  },
+  {
+   "id": "mastercard-090",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 29 Aug 2026 (HTML parsed). WebFetch, headless Chromium and curl all got an Akamai 403 on the live page.",
+   "archive_url": "https://web.archive.org/web/20260829045654/https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+   "note": "Under 'Updating rates': 'Mastercard interchange rates are typically updated semiannually, and we will publish interchange rates and related criteria on this Web site'.",
+   "claim_checked": "Mastercard publishes its U.S. interchange rates and qualifying criteria on its website and says rates are typically upda"
+  },
+  {
+   "id": "mastercard-091",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 16 Jun 2026 read with pypdf. The live PDF returned an Akamai 403 to curl and headless Chromium.",
+   "archive_url": "https://web.archive.org/web/20260616151957/https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+   "note": "11 pages. Title: 'Mastercard 2026–2027 U.S. Region Interchange Programs and Rates Effective April 17, 2026'. Sections cover Consumer Credit, Unregulated and Regulated Debit/Prepaid, Commercial, PIN Debit and ATM. The 29 Aug 2026 archive of the interchange page still links this PDF, so it is current.",
+   "claim_checked": "The current published U.S. schedule is the 2026-2027 U.S. Region Interchange Programs and Rates, an 11-page PDF effectiv"
+  },
+  {
+   "id": "mastercard-092",
+   "result": "qualified",
+   "qualification": "The rates match: Merit III Base is 1.65% + 0.10 on Core and 2.30% + 0.10 on World High Value and World Elite. The claim's '(retail/restaurant, card present)' label is not on the page for Merit III Base. The page limits only Merit III Tiers 1-3 to retail and restaurant MCCs, and it never calls Merit III card present.",
+   "fetch": "Wayback id_ snapshot of 16 Jun 2026 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260616151957/https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+   "note": "'Merit III Base 1.65% + 0.10 1.80% + 0.10 1.90% + 0.10 2.30% + 0.10 2.30% + 0.10'. Columns: Core, Enhanced Value, World, World High Value, World Elite.",
+   "claim_checked": "U.S. consumer credit Merit III Base interchange (retail/restaurant, card present) ranges from 1.65% + USD 0.10 on Core c"
+  },
+  {
+   "id": "mastercard-093",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 16 Jun 2026 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260616151957/https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+   "note": "Regulated Consumer/Commercial Debit and Prepaid table: 'Regulated POS Debit 0.05% + 0.21'; 'with Fraud Adjustment 0.05% + 0.22'. Under Credits (Refunds/Returns) every line is '0.00% + 0.00'.",
+   "claim_checked": "For Regulation II covered (regulated) issuers, Mastercard's U.S. POS debit interchange is 0.05% + USD 0.21, or 0.05% + U"
+  },
+  {
+   "id": "mastercard-094",
+   "result": "qualified",
+   "qualification": "The tiers and rates match. The page does not say the interchange is paid to the ATM acquirer. That direction-of-payment detail comes from outside the page.",
+   "fetch": "Wayback id_ snapshot of 16 Jun 2026 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260616151957/https://www.mastercard.com/content/dam/mccom/us/business/documents/merchant-rates-2026-2027-april2026.pdf",
+   "note": "'ATM Financial Tier 1 7.5 million 0.00% + 0.35; Tier 2 5.0 million 0.00% + 0.45'. The page also lists Base 0.50, Nebraska 0.45, Non-Financial 0.28 and Shared Deposit 2.00. Thresholds are based on 'an issuer's ATM transactions' in the prior quarter.",
+   "claim_checked": "Mastercard's published U.S. ATM interchange (paid to the ATM acquirer) is tiered by the issuer's quarterly ATM volume: U"
+  },
+  {
+   "id": "mastercard-098",
+   "result": "qualified",
+   "qualification": "All four rates and the 19/10/19 date match. The page does not describe them as 'EC-commitment caps'. That framing comes from outside the page.",
+   "fetch": "Wayback id_ snapshot of 11 Dec 2025 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20251211011725/https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/MC2__rates.pdf",
+   "note": "'EEA Credit Card Present Rates 0.30%... Debit 0.20%... Credit Card Not Present 1.50%... Debit Card Not Present 1.15%'. Scope: merchant in the EEA, issuer outside the EEA.",
+   "claim_checked": "Mastercard publishes EEA inbound inter-regional consumer interchange at the EC-commitment caps: 0.30% credit and 0.20% d"
+  },
+  {
+   "id": "mastercard-099",
+   "result": "qualified",
+   "qualification": "The consumer figures match: credit 0.30%, debit 0.20%, and debit capped at GBP 1.00 for MCCs 6012, 6211, 9399 and 9311. The commercial range '1.30% to 1.90%' covers only commercial credit and prepaid in the General column. Commercial debit on the page runs 0.70% to 1.35%, Large Ticket rates are 1.00% + GBP 12 and 0.75% + GBP 27, and commercial debit and prepaid in government and personal-payment MCCs are capped at 0.20% (max GBP 1.50), so 'uncapped' does not hold for all commercial cards.",
+   "fetch": "Wayback id_ snapshot of 11 Dec 2025 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20251211011518/https://www.mastercard.com/content/dam/mccom/eu/business/Support/merchant-interchange-rates/pdfs/Website_UK_Intracountry_Interchange_Fees_10_05_22.pdf",
+   "note": "'Mastercard Consumer Debit Contactless (1) 0.20% 0.20% (Max GBP1.00)'. Consumer rates are valid from 23-Apr-22 and commercial rates from 22-Jan-21.",
+   "claim_checked": "Mastercard's published UK domestic interchange (valid from 23 April 2022) sets consumer credit at 0.30% and consumer deb"
+  },
+  {
+   "id": "mastercard-101",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 20 Sep 2026 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "The edition is 'Mastercard Rules 2 June 2026', Rule 2.1.4. Category A: 'Up to USD 25,000 for the first violation', then USD 50,000, USD 75,000, and 'Up to USD 100,000 per violation for the fourth and subsequent violations within 12 months'.",
+   "claim_checked": "The Mastercard Rules (2 June 2026 edition) publish a noncompliance assessment schedule: Category A violations carry up t"
+  },
+  {
+   "id": "mastercard-102",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 20 Sep 2026 read with pypdf. The live PDF returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 7.10.7: 'up to USD 25,000 for each 30-day period of noncompliance'. It is followed directly by 7.11 Network Enablement Partners. The QMR interest rule is 3.14 (Chapter 3), not Chapter 7: 'lower of two percent per month or the highest rate permitted by law'.",
+   "claim_checked": "Customers that fail to register Service Providers are subject to noncompliance assessments of up to USD 25,000 per 30-da"
+  },
+  {
+   "id": "mastercard-124",
+   "result": "qualified",
+   "qualification": "The March 26, 2024 release backs the settlement: it reduces U.S. consumer and commercial credit interchange, caps it for five years, and simplifies surcharging. The page does not cover the court's later denial of approval or the revised November 2025 agreement.",
+   "fetch": "Wayback id_ snapshot of 14 Jun 2026 (HTML parsed). The live page returned an Akamai 403 to curl and headless Chromium.",
+   "archive_url": "https://web.archive.org/web/20260614012254/https://www.mastercard.com/us/en/news-and-trends/press/2024/march/mastercard-commits-to-lowering-us-interchange-for-small-businesses-and-broader-merchant-community.html",
+   "note": "'has reached an agreement to reduce its U.S. credit card interchange rates for at least a five-year period'. It also has a 'Five-year rate cap' and 'Simplified surcharging and discounting rules'. Later court events need a separate source.",
+   "claim_checked": "In March 2024 Mastercard announced a class settlement to reduce and cap its U.S. consumer and commercial credit intercha"
+  },
+  {
+   "id": "mastercard-137",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 9 Jul 2026 (HTML parsed). WebFetch-equivalent curl and headless Chromium got an Akamai 403 on the live page.",
+   "archive_url": "https://web.archive.org/web/20260709234314/https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/",
+   "note": "'starting July 1, 2023, banks and other card issuers will begin replacing expired or lost Maestro cards'. Also: 'no new Maestro cards will be issued in Europe after that date'.",
+   "claim_checked": "Maestro is being retired in Europe: from July 1, 2023 issuers replace expired or lost Maestro cards, typically with Debi"
+  },
+  {
+   "id": "mastercard-138",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 9 Jul 2026 (HTML parsed). The live page returned an Akamai 403 to curl and headless Chromium.",
+   "archive_url": "https://web.archive.org/web/20260709234314/https://www.mastercard.com/news/europe/en/perspectives/en/2021/blog-from-valerie-nowak-why-this-maestro-is-retiring-after-30-years/",
+   "note": "The post is dated 'October 19, 2021 | By Valerie Nowak'. It says: 'There are now more than 400 million in circulation worldwide.'",
+   "claim_checked": "Mastercard said in October 2021 that more than 400 million Maestro cards were in circulation worldwide (own figure, no o"
+  },
+  {
+   "id": "mastercard-143",
+   "result": "qualified",
+   "qualification": "The About page backs 'more than 210 countries and territories'. The comparison to the 10-K's 'more than 220' is not on this page. It is confirmed separately: the locally saved 10-K text says 'more than 220 countries and territories'.",
+   "fetch": "Wayback id_ snapshot of 18 Sep 2026 (HTML parsed). The live page returned an Akamai 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260918131033/https://www.mastercard.com/global/en/for-the-world/about-us.html",
+   "note": "'By connecting individuals and organizations in more than 210 countries and territories today'.",
+   "claim_checked": "Mastercard's own About page states reach of 'more than 210 countries and territories', a lower figure than the 10-K's 'm"
+  },
+  {
+   "id": "mastercard-163",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Wayback id_ snapshot of 18 Sep 2026 of the URL without the trailing slash (HTML parsed). The live page returned an Akamai 403.",
+   "archive_url": "https://web.archive.org/web/20260918001605/https://www.mastercard.com/news/press/2022/march/mastercard-statement-on-suspension-of-russian-operations",
+   "note": "Dated March 5, 2022: 'we have decided to suspend our network services in Russia'. It also says 'operated in Russia for more than 25 years'. The old URL now 301s to mastercard.com/us/en/news-and-trends/press/2022/march/mastercard-statement-on-suspension-of-russian-operations.html",
+   "claim_checked": "Reach reduction: Mastercard suspended its network services in Russia on March 5, 2022 after more than 25 years there; Ru"
+  },
+  {
+   "id": "mastercard-171",
+   "result": "qualified",
+   "qualification": "The newest archive (10 Sep 2026) still has the quote and lists every named document except 'Chargeback Guide - Merchant Edition', which has been removed. Snapshots through 10 Jul 2026 list it along with the rest of the claimed set. The page also lists 'Setting a Minimum or Maximum Transaction Amount' and a subscription FAQ.",
+   "fetch": "Wayback id_ snapshots of 10 Sep, 10 Jul and 13 May 2026 (HTML parsed). The live page returned an Akamai 403 to curl and headless Chromium.",
+   "archive_url": "https://web.archive.org/web/20260710225626/https://www.mastercard.com/us/en/business/support/rules.html",
+   "note": "'Feel free to download the official Mastercard Rules and other important documents below.' The chargeback-guide.pdf link is absent from the 20260910004127 capture.",
+   "claim_checked": "Mastercard publishes its core rulebooks as freely downloadable PDFs on a public 'Mastercard rules and compliance program"
+  },
+  {
+   "id": "mastercard-206",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy of the same 4 August 2026 edition backs both parts of the claim.",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returned 403 to WebFetch and curl (Chrome UA).",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "PDF p.88: 'chargebacks received by the Acquirer for a Merchant in a calendar month divided by the number of Mastercard Transactions in the preceding month'. The 8.3.4 text adds 'six months (whether consecutive or non-consecutive)' and FMP Customer Risk Review 'at the Acquirer's expense'.",
+   "claim_checked": "ECP basis points are computed as chargebacks received in a calendar month divided by the merchant's Mastercard transacti"
+  },
+  {
+   "id": "mastercard-208",
+   "result": "qualified",
+   "qualification": "All eight programmes are named in the manual, but section 8.2 says GMAP 'has been suspended until further notice'. Listing it as an active codified programme overstates the page.",
+   "fetch": "Wayback id_ snapshot 20260919122811 + pypdf. Live URL returned 403 to WebFetch and curl.",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "PDF p.89: 'The Questionable Merchant Audit Program (QMAP) establishes minimum standards of acceptable Merchant behavior'. Also present: Coercion Program 8.6, MMP 8.9, Chapter 9 SMRP, Chapter 11 MATCH Pro, FMP.",
+   "claim_checked": "Beyond ECP the Security Rules codify a family of named merchant-risk programmes: Global Merchant Audit Program, Question"
+  },
+  {
+   "id": "mastercard-209",
+   "result": "qualified",
+   "qualification": "The cited 3 June 2025 Rules back the core and the MRP name. The 2026 renaming is not in this PDF. I confirmed it in the 2 June 2026 Rules, which list 'GLB 12564 Revised Standards for the Specialty Merchant Registration Program'.",
+   "fetch": "Wayback id_ snapshot 20260502161306 + pypdf. Live mastercard.us URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260502161306/https://www.mastercard.us/content/dam/public/mastercardcom/na/global-site/documents/mastercard-rules.pdf",
+   "note": "PDF p.169, Rule 7.6.5(6): 'must register such Sponsored Merchant in the Mastercard Registration Program (MRP) system using Mastercard Connect® before accepting Transactions'. The May 2026 snapshot still serves the 2025 edition.",
+   "claim_checked": "Acquirers must register high-risk-MCC and previously ECP-reported sponsored merchants in a registration system on Master"
+  },
+  {
+   "id": "mastercard-210",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy of the same 9 December 2025 edition backs the claim.",
+   "fetch": "Wayback id_ snapshot 20260724162448 + pypdf. Live URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260724162448/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/transaction-processing-rules.pdf",
+   "note": "TPR 2.18.2, PDF p.65: 'must be made in good faith and only after careful review of both the Standards' ... 'requires access to the Mastercom application on Mastercard Connect.'",
+   "claim_checked": "Mastercom is the mandatory dispute channel: the Transaction Processing Rules state that chargeback and compliance proces"
+  },
+  {
+   "id": "mastercard-211",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy of the 19 May 2026 edition backs the claim.",
+   "fetch": "Wayback id_ snapshot 20260724162432 + pypdf. Live URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "PDF p.37: 'A compliance case may be filed by either an issuer or an acquirer when: • A chargeback doesn't exist to address the dispute'. Same page: 'Mastercard will determine responsibility' when arbitration is unresolved.",
+   "claim_checked": "Mastercard's dispute framework has two tracks: chargeback cycles (first chargeback, second presentment, pre-arbitration/"
+  },
+  {
+   "id": "mastercard-215",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy of the 2 June 2026 edition backs the claim.",
+   "fetch": "Wayback id_ snapshot 20260920203706 + pypdf. Live URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "PDF p.139: 'an Issuer is not obligated to process an individual chargeback when ... reimbursed ... through successful Mastercom Collaboration, Ethoca, or equivalent resolution procedure'.",
+   "claim_checked": "The Rules relieve issuers of the obligation to process a chargeback when the cardholder has already been reimbursed thro"
+  },
+  {
+   "id": "mastercard-223",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy of the 19 May 2026 edition backs every date and region. From January 2026 the scope is card BIN and terminal both in the listed countries, not only domestic.",
+   "fetch": "Wayback id_ snapshot 20260724162432 + pypdf. Live URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "PDF p.564, First-Party Trust: 'rejected with reason code 5002 (First-Party Trust Reject)'. Dates: 27 Oct 2024 US; 21 Jan 2026 Canada/LAC; 19 Apr 2026 APAC excluding Mainland China domestic, India, Nepal.",
+   "claim_checked": "Mandate (2024-2026): the First-Party Trust programme rejects No Cardholder Authorization chargebacks (reason code 5002 '"
+  },
+  {
+   "id": "mastercard-229",
+   "result": "qualified",
+   "qualification": "The page backs the Academy link. The point that the Academy is JavaScript-only is not on this page, but a direct curl of academy.mastercard.com confirms it.",
+   "fetch": "Wayback id_ snapshot 20260910004127 (HTML). Live page blocked: WebFetch 403, headless Chromium 'Access Denied', curl 403. academy.mastercard.com read via curl.",
+   "archive_url": "https://web.archive.org/web/20260910004127/https://www.mastercard.com/us/en/business/support/rules.html",
+   "note": "Under 'Training Opportunities': 'Explore training sessions via the Mastercard Academy.' linking academy.mastercard.com. Academy curl returns: 'You need to enable javascript to view this website.'",
+   "claim_checked": "Rules training is routed to Mastercard Academy, which the rules page links as the venue for training sessions; the Acade"
+  },
+  {
+   "id": "mastercard-230",
+   "result": "supports",
+   "qualification": "Live PDF blocked (403); the Wayback copy (©2025 guide) backs the claim.",
+   "fetch": "Wayback id_ snapshot 20260920203706 + pypdf. Live URL returned 403 to curl.",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargebacks-made-simple-guide.pdf",
+   "note": "Section 1.3, p.3: 'The Dispute Resolution Management (DRM) team offers convenient, flexible training options for issuers, acquirers, and processors.' Options listed: on-site, webinars, workshops.",
+   "claim_checked": "Mastercard's Dispute Resolution Management (DRM) team offers training for issuers, acquirers and processors on the charg"
+  },
+  {
+   "id": "mastercard-324",
+   "result": "supports",
+   "qualification": "Live page blocked; the September 2026 Wayback copy lists every document named. It also lists a Min/Max transaction amount PDF, and the BRAM/ECP/EFM/QMAP modules are YouTube videos, not PDFs.",
+   "fetch": "Wayback id_ snapshot 20260910004127 (HTML). Live page: WebFetch 403, headless Chromium 'Access Denied', curl 403.",
+   "archive_url": "https://web.archive.org/web/20260910004127/https://www.mastercard.com/us/en/business/support/rules.html",
+   "note": "'Feel free to download the official Mastercard Rules and other important documents below.' It is followed by TPR, Rules, SPME, Quick Reference Booklet, Switch Rules, Chargebacks Made Simple, the DCC guide and two subscription-billing PDFs.",
+   "claim_checked": "Mastercard's public rules library for processors and merchants is a single page listing downloadable PDFs: Mastercard Ru"
+  },
+  {
+   "id": "mastercard-325",
+   "result": "supports",
+   "qualification": "Live page blocked; the August 2026 Wayback copy backs all parts of the claim.",
+   "fetch": "Wayback id_ snapshot 20260829045654 (HTML). Live page: WebFetch 403, headless Chromium 'Access Denied', curl 403.",
+   "archive_url": "https://web.archive.org/web/20260829045654/https://www.mastercard.com/us/en/business/support/merchant-interchange-rates.html",
+   "note": "'typically updated semiannually'; 'established by Mastercard'; 'encourages merchants to speak with their acquirer'. Download link goes to merchant-rates-2026-2027-april2026.pdf.",
+   "claim_checked": "Mastercard publishes US merchant interchange rates on a public page with a downloadable rate PDF, states rates are set b"
+  },
+  {
+   "id": "nyce-001",
+   "result": "supports",
+   "qualification": "Both parts are on page 3 of the e-book.",
+   "fetch": "WebFetch (binary PDF saved) + pypdf",
+   "archive_url": null,
+   "note": "'NYCE Payments Network®, LLC (NYCE), an FIS™ company, is the strongest network partner' ... 'throughout its more than 30-year history.' E-book is ©2023.",
+   "claim_checked": "NYCE Payments Network, LLC is an FIS company; the network's own e-book describes it as more than 30 years old."
+  },
+  {
+   "id": "nyce-003",
+   "result": "qualified",
+   "qualification": "The page lists the Secaucus address and +1 904-438-6000 but does not say it is FIS's Jacksonville number. That link comes from outside the page: the FIS 10-K cover gives (904) 438-6000 at 347 Riverside Avenue, Jacksonville.",
+   "fetch": "curl -sL with Chrome UA (HTTP 200), HTML stripped",
+   "archive_url": null,
+   "note": "'Business Address 401 Plaza Drive - 2nd Floor City Secaucus State NJ ZIP Code 7094' ... 'Business Phone Number +1 904-438-6000 Business Website Address www.nyce.net'.",
+   "claim_checked": "The Digital Transactions buyers' guide lists NYCE Payments Network, LLC at a Secaucus, New Jersey address with FIS's Jac"
+  },
+  {
+   "id": "nyce-008",
+   "result": "qualified",
+   "qualification": "The product page backs the EFT-processor half, in a collapsed 'Simplified connectivity' tab. The AFFN half is not on this page; the linked NYCE e-book (p.8) backs it, so cite the e-book as a second source.",
+   "fetch": "Headless Chromium textContent (the tab is hidden from innerText; curl timed out). E-book via WebFetch binary + pypdf.",
+   "archive_url": null,
+   "note": "'The NYCE Payments Network connects to every major EFT processor in the U.S. and Puerto Rico'. E-book: 'access to ATMs at U.S. military bases worldwide through NYCE's partnership with AFFN®.'",
+   "claim_checked": "NYCE states it connects to every major EFT processor in the U.S. and Puerto Rico, and its e-book says cardholders get mi"
+  },
+  {
+   "id": "nyce-009",
+   "result": "supports",
+   "qualification": "The e-book presents NYCE for banks and CULIANCE for credit unions as FIS's debit networks.",
+   "fetch": "WebFetch (binary PDF saved) + pypdf",
+   "archive_url": null,
+   "note": "p.6: 'For banks of all sizes, we provide NYCE® Payments Network' ... 'And through CULIANCE®, we do the same for credit unions'.",
+   "claim_checked": "Brand family: FIS positions NYCE for banks and CULIANCE for credit unions as its two debit payments networks."
+  },
+  {
+   "id": "nyce-010",
+   "result": "supports",
+   "qualification": "Every catalogue item appears in the e-book: PINless POS, PIN and non-PIN services, eCommerce, the On-Demand list, ATM access and stand-in processing.",
+   "fetch": "WebFetch (binary PDF saved) + pypdf",
+   "archive_url": null,
+   "note": "p.6: 'NYCE On-Demand Payments are a comprehensive family of \"card not present\" transactions'. Lists Direct Bill Payment, Account Funding, Rebates and Refunds, A2A/B2B/B2C/P2P. p.5 mentions 'stand-in processing'.",
+   "claim_checked": "Issuer catalogue (core): PIN and PINless POS, eCommerce, On-Demand Payments (bill pay, account funding, rebates/refunds,"
+  }
+ ]
+}

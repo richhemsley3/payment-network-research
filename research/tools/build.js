@@ -7,13 +7,22 @@ const LIMIT = 12 * 1024 * 1024;
 for (const name of ['competitive-networks.html', 'prototype-insights.html']) {
   const src = path.join(ROOT, name); if (!fs.existsSync(src)) continue;
   let html = fs.readFileSync(src, 'utf8'); let css = '';
-  html = html.replace(/<link rel="stylesheet" href="([^"]+)">\n?/g, (m, href) => { let s = fs.readFileSync(path.join(ROOT, href), 'utf8'); if (/typography\.css$/.test(href)) { s = s.replace(/@font-face\{[^}]*ProximaNova[^}]*\}\s*/g, '').replace(/'Proxima Nova'/g, "'Figtree'"); } css += `\n/* ${href} */\n` + s.replace(/url\((['"]?)\.\.\/fonts\/[^)]*\)/g, 'url()'); return ''; });
+  html = html.replace(/<link rel="stylesheet" href="([^"]+)">\n?/g, (m, href) => { let s = fs.readFileSync(path.join(ROOT, href), 'utf8'); if (/typography\.css$/.test(href)) { s = s.replace(/@font-face\{[^}]*ProximaNova[^}]*\}\s*/g, '').replace(/'Proxima Nova'/g, "'Figtree'").replace(/Proxima Nova/g, 'Figtree'); } css += `\n/* ${href} */\n` + s.replace(/url\((['"]?)\.\.\/fonts\/[^)]*\)/g, 'url()'); return ''; });
   html = html.replace(/<script src="([^"]+)"><\/script>\n?/g, (m, s) => `<script>\n${fs.readFileSync(path.join(ROOT, s), 'utf8')}\n</script>\n`);
   html = html.replace('</head>', `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&display=swap">\n<style>${css}\n</style>\n</head>`);
   html = html.replace(/src="(assets\/[^"]+\.webp)"/g, (m, f) => `src="data:image/webp;base64,${fs.readFileSync(path.join(ROOT, f)).toString('base64')}"`);
   if (name === 'prototype-insights.html' && process.env.REPORT1_URL) html = html.replace(/href="competitive-networks\.html(#[^"]*)?"/g, (m, a) => `href="${process.env.REPORT1_URL}${a || ''}"`);
   html = html.replace(/<a\b(?![^>]*target=)([^>]*href="https?:[^"]*")/g, '<a target="_blank" rel="noopener"$1');
   const out = path.join(DIST, name); fs.writeFileSync(out, html);
+  // Artifact variant: the publisher wraps the page in its own document shell, so the file starts with its title and styles and carries no shell tags.
+  const TITLES = { 'competitive-networks.html': 'Card Network Partner Study', 'prototype-insights.html': 'Partner Desk Research Insights' };
+  let art = html.replace(/<!DOCTYPE html>\s*|<html[^>]*>\s*|<\/html>\s*|<head>\s*|<\/head>\s*|<\/body>\s*|<meta charset="utf-8">\s*|<meta name="viewport"[^>]*>\s*|<meta name="color-scheme"[^>]*>\s*/g, '');
+  art = art.replace(/<body[^>]*>/, '<div class="gn-docs rs-page">');
+  art = art.replace(/<title>[^<]*<\/title>\s*/, '');
+  const styles = (art.match(/<link rel="stylesheet" href="https:\/\/fonts[^>]*>\s*<style>[\s\S]*?<\/style>\s*/) || [''])[0];
+  art = art.replace(styles, '');
+  art = `<title>${TITLES[name]}</title>\n` + styles + art.trimEnd() + '\n</div>\n';
+  fs.writeFileSync(path.join(DIST, 'artifact-' + name), art);
   const mb = fs.statSync(out).size / 1024 / 1024; console.log(`${name}: ${mb.toFixed(2)} MB`);
   if (fs.statSync(out).size > LIMIT) { console.error(`${name} is over ${LIMIT / 1024 / 1024} MB`); process.exit(1); }
 }

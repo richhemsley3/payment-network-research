@@ -1,0 +1,525 @@
+{
+  "network": "visa",
+  "scope": "every partner audience (developer, fintech, acquirer, processor, merchant, atm_operator, issuer, program_manager, institutional)",
+  "accessed": "2026-09-25",
+  "queries_run": [
+    {
+      "query": "visa developer",
+      "where": "Stack Overflow API (fromdate 2023-01-01)",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "visa api",
+      "where": "Stack Overflow API",
+      "returned": 28,
+      "read": 28
+    },
+    {
+      "query": "visa sandbox",
+      "where": "Stack Overflow API",
+      "returned": 4,
+      "read": 4
+    },
+    {
+      "query": "cybersource (network-specific term 1)",
+      "where": "Stack Overflow API",
+      "returned": 34,
+      "read": 34
+    },
+    {
+      "query": "visa developer",
+      "where": "HN Algolia comments",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "visa API",
+      "where": "HN Algolia comments",
+      "returned": 16444,
+      "read": 40
+    },
+    {
+      "query": "cybersource",
+      "where": "HN Algolia comments",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "visa fees merchant",
+      "where": "HN Algolia comments",
+      "returned": 540,
+      "read": 40
+    },
+    {
+      "query": "cybersource created:>2023-01-01",
+      "where": "GitHub issues search",
+      "returned": 2640,
+      "read": 50
+    },
+    {
+      "query": "org:CyberSource is:issue",
+      "where": "GitHub issues search",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "visa",
+      "where": "Reddit r/PaymentProcessing",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "visa developer OR cybersource OR visa api",
+      "where": "Reddit r/fintech",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "cybersource OR visa fees",
+      "where": "Reddit r/smallbusiness",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "Visa Acquirer Monitoring Program VAMP acquirers merchants criticism (network-specific term 2)",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "Merchants Payments Coalition Visa swipe fees",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 1
+    },
+    {
+      "query": "National ATM Council Visa ATM access fee",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "Payments Dive Visa debit routing Interlink DOJ",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 9
+    },
+    {
+      "query": "Visa Developer / Cybersource integration experience dev.to medium",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 2
+    },
+    {
+      "query": "ICBA / ABA Visa Regulation II",
+      "where": "WebSearch",
+      "returned": 9,
+      "read": 2
+    },
+    {
+      "query": "Cybersource Developer Center feedback thread",
+      "where": "WebFetch",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "Medium: Integrating Visa CyberSource in .NET",
+      "where": "WebFetch",
+      "returned": 0,
+      "read": 0
+    },
+    {
+      "query": "MPC settlement statement",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "ICBA Payments and Visa renew partnership",
+      "where": "WebFetch",
+      "returned": 1,
+      "read": 1
+    },
+    {
+      "query": "wayback availability x3",
+      "where": "archive.org",
+      "returned": 3,
+      "read": 3
+    }
+  ],
+  "items": [
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "sandbox",
+      "date": "2026-03-12",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79906549",
+      "author_as_shown": "Praveen Mathi",
+      "excerpt": "The API response is always: { \"status\": \"SERVER_ERROR\", \"reason\": \"SYSTEM_ERROR\", \"message\": \"Error - General system failure.\" }",
+      "older": false,
+      "archive_url": null,
+      "note": "Cybersource REST Payments API sandbox; tested multiple sandbox merchant accounts and official Java sample. Wayback: no snapshot."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2025-03-24",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79530943",
+      "author_as_shown": "Melvin Prince",
+      "excerpt": "The payment part is working and going through, However I am stuck at refunds. Always getting not authorized error.",
+      "older": false,
+      "archive_url": null,
+      "note": "Cybersource Secure Acceptance + REST refunds, Middle East region."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2025-01-17",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79365868",
+      "author_as_shown": "SSD",
+      "excerpt": "I am using test api from CyberSource API developer guide. it is failing as it is giving 400 Bad Request .",
+      "older": false,
+      "archive_url": null,
+      "note": "HTTP signature auth in Postman."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "mixed",
+      "topic": "docs",
+      "date": "2025-01-19",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79369846",
+      "author_as_shown": "Robert Green MBA",
+      "excerpt": "The implementation is very simple, just update 3 fields",
+      "older": false,
+      "archive_url": null,
+      "note": "Bank of America Hosted Payments Page (Cybersource Secure Acceptance); following the guide still produced a 403."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2025-05-08",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79612324",
+      "author_as_shown": "Dave Carey",
+      "excerpt": "I'm consistently receiving a 415 Unsupported Media Type error when posting to the /flex/v2/tokens endpoint.",
+      "older": false,
+      "archive_url": null,
+      "note": "Cybersource Flex API v2 following official docs."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "portal",
+      "date": "2024-11-26",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79227683",
+      "author_as_shown": "Artan Merko",
+      "excerpt": "Cybersource API \"Create a Boarding Registration\" Works on Developer Portal but Fails in Postman",
+      "older": false,
+      "archive_url": null,
+      "note": "Question title; merchant boarding API behaves differently outside the portal."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2024-10-24",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/79121365",
+      "author_as_shown": "Bishal Jung Chettri",
+      "excerpt": "I am trying to make Secure Hosted Checkout with cybersource payment gateway but constantly getting this error while checking out.",
+      "older": false,
+      "archive_url": null,
+      "note": ""
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2024-08-30",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78933962",
+      "author_as_shown": "Prajjwal Tripathi",
+      "excerpt": "Getting a Blank Screen After Submitting 3D Secure Challenge Form in CyberSource Integration",
+      "older": true,
+      "archive_url": null,
+      "note": "Question title; EMV 3DS via Cybersource."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2024-07-30",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78811663",
+      "author_as_shown": "Anton-Ivanov",
+      "excerpt": "I want to add the Visa click to pay button to my site but when the SDK is initializing I receive error \"api key invalid\"",
+      "older": true,
+      "archive_url": null,
+      "note": "Visa Developer Center credentials, Click to Pay SDK. Question title."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "mixed",
+      "topic": "sandbox",
+      "date": "2024-07-11",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78733814",
+      "author_as_shown": "Advenn",
+      "excerpt": "I succeeded in sending through visa developer center playground and it's working. but doin it with python not working.",
+      "older": true,
+      "archive_url": null,
+      "note": "Visa Developer sandbox (mutual TLS + basic auth)."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2024-07-18",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78762408",
+      "author_as_shown": "3488 Thái Thanh Tuấn",
+      "excerpt": "But doing this through the API is very difficult; I haven't found any documentation that mentions this.",
+      "older": true,
+      "archive_url": null,
+      "note": "Cybersource token creation from a transaction."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2024-06-05",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78578699",
+      "author_as_shown": "Python_user",
+      "excerpt": "I looked into various resources, but unable to figure out the meaning of the error and the remedy.",
+      "older": true,
+      "archive_url": null,
+      "note": "Cybersource p12 certificate update on Java."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "sandbox",
+      "date": "2024-04-01",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/78255356",
+      "author_as_shown": "kalx11",
+      "excerpt": "surprisingly I get a 404 response saying that the requested resource doesn't exist",
+      "older": true,
+      "archive_url": null,
+      "note": "Visa Developer push-provisioning API; helloworld endpoint worked with same credentials."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "other",
+      "date": "2024-02-08",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/77962470",
+      "author_as_shown": "Gopinath Kaliappan",
+      "excerpt": "When we update cybersource-rest-client version to ^0.0.40 to ^0.0.51 getting the below error",
+      "older": true,
+      "archive_url": null,
+      "note": "SDK upgrade breakage (Node)."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2023-08-28",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76995871",
+      "author_as_shown": "ilito",
+      "excerpt": "I believe, I follow documentation closely, however, the result that I get is not",
+      "older": true,
+      "archive_url": null,
+      "note": "Cybersource merchant-initiated transactions with stored credentials."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "critical",
+      "topic": "auth",
+      "date": "2023-08-15",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76908807",
+      "author_as_shown": "Matt",
+      "excerpt": "The .p12 file seems to be getting blocked by the server. This is something new I haven't seen before.",
+      "older": true,
+      "archive_url": null,
+      "note": "Cybersource Simple Order API key."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "mixed",
+      "topic": "sandbox",
+      "date": "2023-05-25",
+      "platform": "Stack Overflow",
+      "url": "https://stackoverflow.com/questions/76329373",
+      "author_as_shown": "AliOz",
+      "excerpt": "When I am trying to use them to process a payment in the CyberSource developers playground it works perfectly and in returns 200 OK response",
+      "older": true,
+      "archive_url": null,
+      "note": "Same credentials then 401 on invoicing API."
+    },
+    {
+      "network": "visa",
+      "audience": "merchant",
+      "stance": "critical",
+      "topic": "docs",
+      "date": "2023-05-05",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=35824997",
+      "author_as_shown": "hairofadog",
+      "excerpt": "Stripe offered a better rate, and their UI, APIs, reporting, and documentation are much nicer than Cybersource's.",
+      "older": true,
+      "archive_url": null,
+      "note": "Merchant-side engineer currently on Cybersource arguing to switch. Wayback: no snapshot."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "reliability",
+      "date": "2024-06-28",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=40823066",
+      "author_as_shown": "theandrewbailey",
+      "excerpt": "This is gonna cause me some headaches, along with everyone else who processes payments through Cybersource, and possibly others :(",
+      "older": true,
+      "archive_url": null,
+      "note": "Context is a third-party certificate authority distrust affecting api.cybersource.com; not a Visa decision."
+    },
+    {
+      "network": "visa",
+      "audience": "developer",
+      "stance": "neutral",
+      "topic": "auth",
+      "date": "2025-10-21",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=45655360",
+      "author_as_shown": "hi41",
+      "excerpt": "We use secure connection to Visa and Maactercard API. We have the certificate in a jks file.",
+      "older": false,
+      "archive_url": null,
+      "note": "Operational how-to; no sentiment beyond effort of mutual-TLS tooling."
+    },
+    {
+      "network": "visa",
+      "audience": "merchant",
+      "stance": "neutral",
+      "topic": "fees",
+      "date": "2025-03-19",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=43417192",
+      "author_as_shown": "olivtassinari",
+      "excerpt": "To mind that Mastercard and Visa arbitration fees for merchants is $500.",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant-side comment on dispute arbitration cost."
+    },
+    {
+      "network": "visa",
+      "audience": "fintech",
+      "stance": "neutral",
+      "topic": "fees",
+      "date": "2023-05-20",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=36008655",
+      "author_as_shown": "tpurves",
+      "excerpt": "Visa takes zero from interchange but charges volume based service fees in the single-digit basis points (each) to the acquirer and issuer.",
+      "older": true,
+      "archive_url": null,
+      "note": "Industry-insider explanation; audience inferred from comment content."
+    },
+    {
+      "network": "visa",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "fees",
+      "date": "2026-06-09",
+      "platform": "Merchants Payments Coalition",
+      "url": "https://merchantspaymentscoalition.com/preliminary-court-ruling-visamastercard-swipe-fees-bad-deal-merchants-and-consumers",
+      "author_as_shown": "Doug Kantor, MPC Executive Committee member and NACS General Counsel",
+      "excerpt": "The proposed reduction is a mirage because it would be a only a fraction of the average 2.36% swipe fee charged to merchants",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant proxy; about Visa and Mastercard settlement jointly. Wayback: no snapshot."
+    },
+    {
+      "network": "visa",
+      "audience": "institutional",
+      "stance": "critical",
+      "topic": "routing",
+      "date": "2026-06-09",
+      "platform": "Merchants Payments Coalition",
+      "url": "https://merchantspaymentscoalition.com/preliminary-court-ruling-visamastercard-swipe-fees-bad-deal-merchants-and-consumers",
+      "author_as_shown": "Merchants Payments Coalition (statement text)",
+      "excerpt": "Visa and Mastercard block transactions from being processed over other networks that could do the job with lower fees and better security.",
+      "older": false,
+      "archive_url": null,
+      "note": "Merchant proxy; routing claim is sentiment, not fact."
+    },
+    {
+      "network": "visa",
+      "audience": "institutional",
+      "stance": "favourable",
+      "topic": "other",
+      "date": "2025-07-16",
+      "platform": "Visa investor relations press release",
+      "url": "https://investor.visa.com/news/news-details/2025/ICBA-Payments-and-Visa-Renew-Partnership-Supporting-Community-Bank-Payments/default.aspx",
+      "author_as_shown": "Jacob Eisen, CEO of ICBA Payments",
+      "excerpt": "reflects our shared commitment to enhancing the delivery of leading-edge payment products and services that align with the mission and model of community banking",
+      "older": false,
+      "archive_url": null,
+      "note": "Issuer proxy (community-bank card program); quote appears in Visa's own release, so curated."
+    }
+  ],
+  "tiers": {
+    "visa:developer": "Thin",
+    "visa:merchant": "Absent",
+    "visa:fintech": "Absent",
+    "visa:acquirer": "Absent",
+    "visa:processor": "Absent",
+    "visa:atm_operator": "Absent",
+    "visa:issuer": "Absent",
+    "visa:program_manager": "Absent",
+    "visa:institutional": "Thin"
+  },
+  "top_topics": [
+    "auth",
+    "docs",
+    "sandbox",
+    "fees",
+    "routing"
+  ],
+  "no_listing": [
+    "G2/Capterra/TrustRadius not checked (budget); no listing recorded"
+  ],
+  "notes": "Budget of 30 fetches fully used. 4 HN calls failed with a malformed filter (400) and were rerun; HN 'visa developer' not rerun. GitHub search hit the unauthenticated rate limit on the second call; the first returned mainly pull requests in integrator repos (juspay/hyperswitch, mitodl), which are not coded as sentiment. Reddit old.reddit JSON returned an HTML block page for all three subs. cybersource developer community and the Medium guide returned 403. Queries not run within budget: '<visa> certification', '<visa> onboarding', '<visa> support', and dev.to/LinkedIn/PSR/RBA/Congressional searches. VAMP (acquirer/merchant), DOJ v. Visa debit routing (Interlink), and National ATM Council ATM access-fee litigation were located only through search-engine summaries, with no verbatim quote from a named partner, so they are left out of items; they are leads for a follow-up pass. HN visa-API results were dominated by immigration-visa noise. Stack Overflow items are help requests; coded critical where the poster reports failure against the official docs or sandbox, but they measure integration friction, not overall opinion. No favourable developer item was found, so developer balance could not be met. Wayback returned no snapshot for the 3 URLs checked; the rest were not checked (archive_url null)."
+}
