@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // frame.js — one frame of a public YouTube video at a timestamp, captured from the player (nothing downloaded), as WebP ≤ 960 wide.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/frame.js <videoId> <seconds> <out.webp>
+//   node tools/frame.js <videoId> <seconds> <out.webp>
 const fs = require('fs'), path = require('path'), os = require('os'), { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const [vid, secs, out] = process.argv.slice(2);

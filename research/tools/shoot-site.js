@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // shoot-site.js — one screenshot of a public page with consent banners declined or cleared, as WebP.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/shoot-site.js <url> <out.webp> [width height] [clipSelector]
+//   node tools/shoot-site.js <url> <out.webp> [width height] [clipSelector]
 const fs = require('fs'), path = require('path'), os = require('os'), { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
 const [url, out, w = '1440', h = '1000', clipSel] = process.argv.slice(2);

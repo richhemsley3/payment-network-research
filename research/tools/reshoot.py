@@ -3,7 +3,7 @@
 import json, glob, os, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-env = dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'story', 'brightline-story', 'node_modules'))
+env = dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'node_modules'))
 jobs = []
 for f in sorted(glob.glob(os.path.join(ROOT, 'ledger', 'walks', '*.json'))):
     if f.endswith('rungs.json'): continue

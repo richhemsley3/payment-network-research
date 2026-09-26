@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // fetch-browser.js — fetch a URL through the browser's own network stack (passes bot walls that block curl) and save the body.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/fetch-browser.js <url> <out>
+//   node tools/fetch-browser.js <url> <out>
 const fs = require('fs'); const { chromium } = require('playwright');
 const [url, out] = process.argv.slice(2);
 (async () => {

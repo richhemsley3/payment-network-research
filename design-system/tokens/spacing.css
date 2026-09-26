@@ -1,0 +1,35 @@
+/* =====================================================================
+   Global Network design system — space, shape, density
+   A 4px grid. Every padding, margin and gap is a multiple of 4.
+   ===================================================================== */
+:root{
+  /* ── space ──────────────────────────────────────────────────────────
+     4–12 inside a part · 16–24 between parts inside a surface ·
+     32–48 between surfaces · 64–88 between marketing bands. */
+  --gn-space-4:4px;   --gn-space-8:8px;   --gn-space-12:12px; --gn-space-16:16px;
+  --gn-space-20:20px; --gn-space-24:24px; --gn-space-32:32px; --gn-space-40:40px;
+  --gn-space-48:48px; --gn-space-64:64px; --gn-space-88:88px;
+
+  /* ── radii: surfaces 12, parts 8, small marks 6. Nothing else. ─────── */
+  --gn-radius-surface:12px;
+  --gn-radius-part:8px;
+  --gn-radius-small:6px;
+  --gn-radius-bar:3px;      /* the one exception: a bar under 12px tall */
+  --gn-radius-round:50%;    /* avatars */
+  --gn-radius-pill:999px;   /* chips and segmented controls, a shape not a radius */
+
+  /* ── density: chosen once per screen ─────────────────────────────── */
+  --gn-row:64px;            /* product rows, two lines per cell */
+  --gn-row-dense:44px;      /* dense tables, single line */
+  --gn-control:40px;        /* buttons and inputs */
+  --gn-control-small:32px;
+  --gn-inset:24px;          /* the inset shared by rows and filled containers */
+  --gn-sidebar:240px;
+  --gn-content-max:1180px;
+  --gn-band:88px;           /* marketing band, top and bottom */
+
+  /* ── motion: only to explain origin ──────────────────────────────── */
+  --gn-ease:cubic-bezier(.4,0,.2,1);
+  --gn-ease-out:cubic-bezier(.2,.7,.2,1);
+  --gn-duration:.18s;
+}

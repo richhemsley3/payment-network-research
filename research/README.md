@@ -1,9 +1,10 @@
 # Research: card and ATM payment networks, read as a partner would
 
 Competitive research on twenty-five card and ATM networks for the Discover
-Global Network prototypes. Partners only: issuers, acquirers and processors,
-merchants, ATM operators, fintechs and developers. Every claim is public,
-cited and dated. Begun September 25, 2026.
+Global Network prototypes, which live in the payment-network-prototype repo.
+Partners only: issuers, acquirers and processors, merchants, ATM operators,
+fintechs and developers. Every claim is public, cited and dated. Begun
+September 25, 2026.
 
 ## What is here
 
@@ -26,13 +27,21 @@ dist/                       single-file builds for the Artifact, gitignored
 1. Desk research agents write `ledger/raw/<slug>/<dimension>.json`.
 2. `tools/walk.js <slug> <url>` runs the station script and writes `ledger/walks/<slug>.json` and screenshots.
 3. Demonstrations: discovery to `ledger/raw/<slug>/demos.json`, transcripts in the scratchpad, frames to `assets/<slug>/`.
-4. Ledgers are written from raw and walks, then verified and refuted claim by claim.
+4. `python3 tools/ledger-build.py` writes the ledgers from raw and walks and applies the verdicts in `ledger/verify/out/`. Ids come from `ledger/ids.json`, which only grows: an id is never reused.
 5. `node tools/ledger.js` emits `sources.json`. `node tools/links.js` checks every citation, anchor, image and URL.
 6. Reports are written from the ledgers. `node tools/copy-check.js` reads the copy.
-7. `cd ../design-system && NODE_PATH=../story/brightline-story/node_modules node tools/check.js ../research/competitive-networks.html ../research/prototype-insights.html`
-8. `node tools/build.js` writes `dist/`, then publish.
+7. `node ../design-system/tools/check.js ../research/competitive-networks.html ../research/prototype-insights.html`
+8. `REPORT1_URL=<Report 1 link> node tools/build.js` writes `dist/`. Publish the `dist/artifact-*.html` files.
 
-Preview: server `global-network` on port 8096, open `/research/competitive-networks.html`.
+Preview: server `network-research` on port 8097, open `/research/competitive-networks.html`.
+
+## Published
+
+Both reports are private Artifacts. They were first published from the Global
+Network repo's path, so update them by passing the link as `url`.
+
+- Report 1, Card Network Partner Study: https://claude.ai/artifact/PK46s4NK5N48ehy2mTgsL4
+- Report 2, Partner Desk Research Insights: https://claude.ai/artifact/BxFGKe3NZSCHgs59L4WZG2
 
 ## Rules
 

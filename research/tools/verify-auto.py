@@ -32,7 +32,7 @@ def fetch(url):
     except Exception as e: text = ''
     if len(norm(text)) < 800:
         try:
-            rr = subprocess.run(['node', os.path.join(ROOT, 'tools', 'text.js'), url], cwd=ROOT, env=dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'story', 'brightline-story', 'node_modules')), capture_output=True, text=True, timeout=90)
+            rr = subprocess.run(['node', os.path.join(ROOT, 'tools', 'text.js'), url], cwd=ROOT, env=dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'node_modules')), capture_output=True, text=True, timeout=90)
             if len(norm(rr.stdout)) > len(norm(text)): text, method = rr.stdout, 'rendered'
         except Exception: pass
     if len(norm(text)) >= 200: open(p, 'w').write((method or 'none') + '\n' + text)

@@ -5,7 +5,7 @@ import json, os, re, sys, subprocess, html, collections, urllib.parse, time
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SP = '/private/tmp/claude-501/-Users-richhemsley-Desktop-Claude/a7b17a35-5948-40cb-a79f-825d4720b44b/scratchpad'
 CACHE = os.path.join(SP, 'pages2'); os.makedirs(CACHE, exist_ok=True)
-env = dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'story', 'brightline-story', 'node_modules'))
+env = dict(os.environ, NODE_PATH=os.path.join(ROOT, '..', 'node_modules'))
 S = {r['id']: r for r in json.load(open(os.path.join(ROOT, 'sources.json')))}
 prev = {r['id']: r for r in json.load(open(os.path.join(ROOT, 'ledger', 'verify', 'out', 'auto.json')))['results']}
 skip_hosts = set(sys.argv[1:])  # hosts to leave for another method

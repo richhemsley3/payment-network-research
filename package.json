@@ -1,0 +1,13 @@
+{
+  "name": "payment-network-research",
+  "private": true,
+  "description": "Competitive research on 25 card and ATM networks, read as a partner would, with a cited evidence ledger and its tools.",
+  "scripts": {
+    "build": "python3 research/tools/ledger-build.py && node research/tools/ledger.js && python3 research/tools/render.py",
+    "check": "node research/tools/links.js --no-http && node research/tools/copy-check.js && node design-system/tools/check.js ../research/competitive-networks.html ../research/prototype-insights.html",
+    "dist": "node research/tools/build.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

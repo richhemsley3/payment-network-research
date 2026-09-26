@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // captions-browser.js — read a public YouTube video's captions the way its player does, inside a real page. Captions only, never the video.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/captions-browser.js <videoId> <out.txt>
+//   node tools/captions-browser.js <videoId> <out.txt>
 const fs = require('fs'); const { chromium } = require('playwright');
 const [vid, out] = process.argv.slice(2);
 (async () => {

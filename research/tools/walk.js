@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // walk.js — runs the station script against one public property, logged out.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/walk.js <slug> <url> [A|B] [label]
+//   node tools/walk.js <slug> <url> [A|B] [label]
 // Writes ledger/walks/<slug>[-label].json and screenshots to assets/<slug>/ as WebP.
 // No account is created, nothing is typed into a form except the site search, cookie banners are declined.
 const path = require('path'), fs = require('fs'), os = require('os'), { execFileSync } = require('child_process');

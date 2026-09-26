@@ -1,0 +1,76 @@
+/* =====================================================================
+   Global Network design system — colour tokens
+   The brand, September 2026: six colours are given; everything else is
+   derived from them and nothing sits outside them.
+   ===================================================================== */
+:root{
+  /* ── option tokens: the brand ─────────────────────────────────────── */
+  --gn-brand-primary:#230762;      /* brand mark, structural fill, selected text */
+  --gn-brand-burst:#3144B7;        /* interactive: links, chart line, focus, active nav */
+  --gn-brand-burst-light:#9EAAFC;  /* marks on ink, the emphatic tint */
+  --gn-brand-base-dark:#000226;    /* the ink ground */
+  --gn-brand-base-light:#F2F2F9;   /* the tone ground */
+  --gn-brand-heritage:#FE6200;     /* the signal: primary action and the needs-you mark */
+
+  /* ── option tokens: the ramp ──────────────────────────────────────────
+     Derived from Base Dark to Base Light at the luminance of the previous
+     warm ramp, so contrast survived the re-tone. Each step is pulled toward
+     neutral in proportion to how much text it carries. */
+  --gn-gray-025:#F2F2F9;   /* the tone ground (same as base light) */
+  --gn-gray-050:#F2F2F9;   /* collapsed onto 025: two backgrounds, white and one tone */
+  --gn-gray-100:#E6E7ED;   /* hairline inside a surface */
+  --gn-gray-150:#DDDDE3;   /* hairline between surfaces */
+  --gn-gray-200:#CCCCD3;   /* outline, track, disabled */
+  --gn-gray-400:#919199;   /* 3.1:1, placeholders and quiet marks only */
+  --gn-gray-550:#696A75;   /* 5.4:1, captions and labels */
+  --gn-gray-650:#525362;   /* 7.6:1, secondary text */
+  --gn-gray-900:#151738;   /* 17.3:1, text */
+  --gn-white:#FFFFFF;
+
+  /* ── option tokens: tints ─────────────────────────────────────────── */
+  --gn-blue-100:#E5E6F9;   /* selected row, active nav, current stage. The only tint. */
+  --gn-blue-050:#F1F1FB;   /* the active phase header */
+  --gn-good-tint:#E6F0E3;  /* a strip in the good tone */
+  --gn-warn-tint:#FBEFE3;  /* a strip in the watch tone */
+
+  /* ── option tokens: semantics ─────────────────────────────────────────
+     Coloured words, never pills. Each has a companion tuned for ink. */
+  --gn-good:#3F7A33;      --gn-good-ink:#7FC26B;
+  --gn-warn:#8A6A15;      --gn-warn-ink:#E3B950;
+  --gn-bad:#C0392B;       --gn-bad-ink:#F08D7E;
+
+  /* ── option tokens: chart hues ────────────────────────────────────────
+     Inside charts only, and only with more than one series. */
+  --gn-chart-1:#3144B7; --gn-chart-2:#6E7CD9; --gn-chart-3:#B29B24; --gn-chart-4:#7A4FA8; --gn-chart-5:#3F7A33;
+  --gn-ink-land:#141636; --gn-ink-mark:#9EAAFC;
+
+  /* ── semantic tokens ──────────────────────────────────────────────── */
+  --gn-bg-page:var(--gn-white);
+  --gn-bg-tone:var(--gn-gray-025);          /* surfaces, sidebar, code, empty states */
+  --gn-bg-ink:var(--gn-brand-base-dark);    /* credentials, code on ink, marketing bands */
+  --gn-bg-selected:var(--gn-blue-100);
+  --gn-bg-hover:var(--gn-gray-050);
+
+  --gn-text:var(--gn-gray-900);
+  --gn-text-secondary:var(--gn-gray-650);
+  --gn-text-caption:var(--gn-gray-550);
+  --gn-text-quiet:var(--gn-gray-400);
+  --gn-text-on-ink:#FFFFFF;
+  --gn-text-on-ink-muted:rgba(255,255,255,.55);
+  --gn-text-on-signal:#FFFFFF;              /* 3.0:1 on heritage: large text only */
+
+  --gn-interactive:var(--gn-brand-burst);   /* links, active nav, focus ring, chart line */
+  --gn-interactive-text:var(--gn-brand-primary); /* selected text on the tint */
+  --gn-signal:var(--gn-brand-heritage);
+  --gn-signal-hover:#E85600;
+
+  --gn-rule:var(--gn-gray-100);             /* inside a surface */
+  --gn-rule-strong:var(--gn-gray-150);      /* between surfaces, under section heads */
+  --gn-outline:var(--gn-gray-200);          /* outlined buttons, inputs, openable cards */
+  --gn-track:var(--gn-gray-100);            /* the empty part of a bar */
+  --gn-focus:var(--gn-brand-burst);
+  --gn-focus-halo:rgba(49,68,183,.14);
+  --gn-scrim:rgba(0,2,38,.28);
+  --gn-shadow-float:0 12px 40px rgba(0,2,38,.14);
+  --gn-shadow-menu:0 8px 24px rgba(0,2,38,.10);
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // text.js — the rendered text of a page (innerText after scripts), for verifying quotes on script-rendered sites.
-//   NODE_PATH=../story/brightline-story/node_modules node tools/text.js <url>
+//   node tools/text.js <url>
 const { chromium } = require('playwright');
 const url = process.argv[2];
 (async () => {

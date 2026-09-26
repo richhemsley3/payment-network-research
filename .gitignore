@@ -1,0 +1,15 @@
+# licensed Proxima Nova: never committed, never redistributed.
+# design-system/fonts is a local link to the licensed cuts.
+design-system/fonts
+*.otf
+*proxima*.html
+*Proxima*.html
+
+# builds and scratch
+node_modules/
+research/dist/
+.DS_Store
+*.png
+
+# internal journey material: read locally, never committed
+*dci-onboarding*

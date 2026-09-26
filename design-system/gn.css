@@ -1,0 +1,1153 @@
+/* =====================================================================
+   Global Network design system — components
+   Extracted from the Brightline and Clearway prototypes, September 2026.
+   Loads after tokens/colors.css, tokens/typography.css, tokens/spacing.css.
+   Register: calm, warm, composed. Two weights. Tone, not lines. One signal.
+   If a part is not here, it is not in the system: add it here, with its rule.
+   ===================================================================== */
+
+/* ── 0 · base ─────────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box}
+html{scrollbar-gutter:stable; overflow-x:clip}
+body{margin:0; background:var(--gn-bg-page); color:var(--gn-text); font-family:var(--gn-font-sans); font-size:var(--gn-type-body); line-height:var(--gn-leading-body); font-weight:400; -webkit-font-smoothing:antialiased; font-variant-numeric:tabular-nums}
+h1,h2,h3,h4,h5,h6,p,figure{margin:0}
+h1,h2,h3,h4,h5,h6{font-weight:600}
+b,strong,th{font-weight:400}           /* emphasis in prose is tone, never weight */
+i,em{font-style:normal}                /* <i> and <em> are decorative spans here, never italic */
+button{font-family:inherit; font-size:inherit; color:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left}
+a{color:inherit; text-decoration:none}
+:focus-visible{outline:2px solid var(--gn-focus); outline-offset:2px; border-radius:var(--gn-radius-small)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+.gn-icon{width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; flex:none}
+.gn-icon--sm{width:16px; height:16px; stroke-width:1.6; vertical-align:-3px}
+
+/* ── 1 · type ─────────────────────────────────────────────────────────── */
+.gn-display{font-size:var(--gn-type-display); letter-spacing:var(--gn-tracking-display); line-height:var(--gn-leading-display); font-weight:600}
+.gn-title{font-size:var(--gn-type-title); letter-spacing:var(--gn-tracking-title); line-height:var(--gn-leading-title); font-weight:600}
+.gn-heading{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); line-height:var(--gn-leading-heading); font-weight:600}
+.gn-subhead{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); line-height:var(--gn-leading-subhead); font-weight:600}
+.gn-body{font-size:var(--gn-type-body)}
+.gn-label{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-eyebrow{font-size:var(--gn-type-label); color:var(--gn-text-caption); letter-spacing:var(--gn-tracking-eyebrow); text-transform:uppercase}
+.gn-mute{color:var(--gn-text-caption)}
+.gn-prose{font-size:var(--gn-type-body); line-height:var(--gn-leading-prose); color:var(--gn-text-secondary); max-width:var(--gn-measure-body)}
+.gn-prose + .gn-prose{margin-top:12px}
+.gn-lede{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); line-height:1.5; color:var(--gn-text-caption); max-width:var(--gn-measure-lede)}
+.gn-mono{font-family:var(--gn-font-mono); font-size:var(--gn-type-label)}
+.gn-num{font-size:var(--gn-type-label); color:var(--gn-text-caption); font-variant-numeric:tabular-nums}
+b.gn-num{font-size:var(--gn-type-body); color:var(--gn-text)}
+.gn-nowrap{white-space:nowrap}
+
+/* ── 2 · status is a coloured word ───────────────────────────────────── */
+.gn-status{font-size:var(--gn-type-label); white-space:nowrap}
+.gn-status.is-good{color:var(--gn-good)} .gn-status.is-warn{color:var(--gn-warn)} .gn-status.is-bad{color:var(--gn-bad)}
+.gn-status.is-link{color:var(--gn-interactive)} .gn-status.is-quiet{color:var(--gn-text-caption)}
+.gn-status--body{font-size:var(--gn-type-body)}
+.gn-on-ink .gn-status.is-good{color:var(--gn-good-ink)} .gn-on-ink .gn-status.is-warn{color:var(--gn-warn-ink)} .gn-on-ink .gn-status.is-bad{color:var(--gn-bad-ink)}
+/* whose turn: a name over a line, the reader's own turn in the signal */
+.gn-turn{text-align:right; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-turn b{display:block; font-weight:400; font-size:var(--gn-type-body); color:var(--gn-text)}
+.gn-turn b.is-mine{color:var(--gn-signal)}
+
+/* ── 3 · actions: one solid button per screen ────────────────────────── */
+.gn-btn{display:inline-flex; align-items:center; justify-content:center; gap:8px; font-size:var(--gn-type-body); height:var(--gn-control); padding:0 16px; border-radius:var(--gn-radius-small); border:1px solid var(--gn-outline); color:var(--gn-text); background:var(--gn-bg-page); line-height:1; white-space:nowrap; text-decoration:none}
+.gn-btn:hover{background:var(--gn-bg-hover)}
+.gn-btn--primary{background:var(--gn-signal); border-color:var(--gn-signal); color:var(--gn-text-on-signal)}
+.gn-btn--primary:hover{background:var(--gn-signal-hover); border-color:var(--gn-signal-hover)}
+.gn-btn--danger{border-color:var(--gn-bad); color:var(--gn-bad)}
+.gn-btn--danger:hover{background:var(--gn-bg-hover)}
+.gn-btn--inverse{background:transparent; border-color:rgba(255,255,255,.4); color:#fff}
+.gn-btn--inverse:hover{background:rgba(255,255,255,.1)}
+.gn-btn--sm{height:var(--gn-control-small); padding:0 12px; font-size:var(--gn-type-label)}
+.gn-btn[disabled],.gn-btn.is-disabled{opacity:.45; cursor:not-allowed}
+.gn-btn .gn-icon{width:16px; height:16px}
+/* words are actions */
+.gn-link{color:var(--gn-interactive); cursor:pointer}
+.gn-link:hover{text-decoration:underline; text-underline-offset:3px}
+.gn-link.is-bad{color:var(--gn-bad)}
+.gn-link--go{display:inline-flex; align-items:center; gap:8px; white-space:nowrap}
+.gn-link--go .gn-icon--sm{transition:transform var(--gn-duration) var(--gn-ease-out)}
+.gn-link--go:hover{text-decoration:none} .gn-link--go:hover .gn-icon--sm{transform:translateX(2px)}
+/* going back is a control above the title, not a sentence */
+.gn-back{display:inline-flex; align-items:center; gap:8px; height:32px; padding:0 12px 0 8px; margin-left:-8px; border-radius:var(--gn-radius-small); font-size:var(--gn-type-body); color:var(--gn-text-secondary); cursor:pointer}
+.gn-back:hover{background:var(--gn-bg-hover); color:var(--gn-text)}
+.gn-actions{display:flex; gap:16px; align-items:center; flex-wrap:wrap}
+.gn-actions--end{justify-content:flex-end; gap:8px}
+/* a filter chip: a slice of one set, never a tag */
+.gn-chip{display:inline-flex; align-items:center; gap:8px; font-size:var(--gn-type-label); padding:4px 12px; border-radius:var(--gn-radius-pill); background:var(--gn-bg-selected); color:var(--gn-interactive-text); cursor:pointer}
+.gn-chip .gn-icon--sm{width:14px; height:14px}
+.gn-chips{display:flex; gap:8px; flex-wrap:wrap}
+
+/* ── 4 · surfaces: white and one tone, hairlines inside, shadows only on things that float ── */
+.gn-surface{background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); padding:24px}
+/* a surface that needs the reader says so in its own words and takes the signal on its action; the
+   3px rail it used to wear is retired, because four components wearing it made it mean nothing */
+.gn-surface--marked{position:relative}
+.gn-card{background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-surface); padding:20px 24px}
+.gn-card.is-link{cursor:pointer; transition:border-color var(--gn-duration) ease}
+.gn-card.is-link:hover{border-color:var(--gn-gray-400)}
+.gn-card.is-link:hover h3{color:var(--gn-interactive)}
+.gn-card-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px}
+.gn-card-grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gn-card-grid--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.gn-float{background:var(--gn-bg-page); border-radius:var(--gn-radius-surface); box-shadow:var(--gn-shadow-float)}
+.gn-ink{background:var(--gn-bg-ink); color:var(--gn-text-on-ink); border-radius:var(--gn-radius-surface); padding:24px}
+@media (max-width:1100px){ .gn-card-grid,.gn-card-grid--3{grid-template-columns:1fr} .gn-card-grid--4{grid-template-columns:repeat(2,minmax(0,1fr))} }
+
+/* ── 5 · page structure ──────────────────────────────────────────────── */
+/* the shell: tone sidebar, white content, navigation as words with counts */
+.gn-app{display:flex; min-height:100vh}
+.gn-sidebar{width:var(--gn-sidebar); flex:none; background:var(--gn-bg-tone); padding:24px 12px 16px; display:flex; flex-direction:column; position:sticky; top:0; height:100vh}
+.gn-sidebar-mark{display:flex; align-items:center; gap:12px; padding:0 12px 28px; font-size:var(--gn-type-label); color:var(--gn-text-secondary)}
+.gn-sidebar-mark i{width:22px; height:22px; border-radius:var(--gn-radius-small); background:var(--gn-brand-primary); color:#fff; display:grid; place-items:center; font-size:var(--gn-type-label); font-weight:600; flex:none}
+.gn-sidebar-mark span{font-weight:600; color:var(--gn-text)}
+.gn-sidebar-who{display:flex; align-items:center; gap:12px; padding:8px 12px 24px}
+.gn-sidebar-who .gn-name{font-size:var(--gn-type-body); font-weight:600; line-height:1.2; min-width:0}
+.gn-sidebar-who .gn-name span{display:block; font-size:var(--gn-type-label); font-weight:400; color:var(--gn-text-caption); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.gn-nav{display:flex; flex-direction:column; gap:4px}
+.gn-nav a{display:flex; align-items:center; gap:12px; padding:8px 12px; border-radius:var(--gn-radius-part); font-size:var(--gn-type-body); color:var(--gn-text-secondary); cursor:pointer}
+.gn-nav a .gn-icon{width:18px; height:18px; stroke-width:1.6}
+.gn-nav a:hover{background:var(--gn-gray-100)}
+.gn-nav a.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-nav a .gn-count{margin-left:auto; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-nav a.is-on .gn-count{color:var(--gn-interactive)}
+.gn-nav-group{display:block; font-size:var(--gn-type-label); letter-spacing:.06em; text-transform:uppercase; color:var(--gn-text-caption); padding:20px 12px 8px}
+.gn-sidebar-foot{margin-top:auto; padding:8px 12px; font-size:var(--gn-type-body)}
+.gn-sidebar-foot b{display:block; font-weight:400}
+.gn-sidebar-foot span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-main{flex:1; min-width:0; padding:0 48px 64px; max-width:var(--gn-content-max)}
+/* page header: title, one functional line, one action */
+.gn-page-head{padding:44px 0 0; display:flex; align-items:flex-end; gap:24px}
+.gn-page-head > div:first-child{flex:1; min-width:0}
+.gn-page-head h1{font-size:var(--gn-type-title); letter-spacing:var(--gn-tracking-title); line-height:var(--gn-leading-title)}
+.gn-page-head p{font-size:var(--gn-type-body); color:var(--gn-text-caption); margin-top:8px; max-width:72ch}
+.gn-page-head p b{font-weight:600; color:var(--gn-text)}
+.gn-page-head-act{margin-left:auto; padding-bottom:8px; flex:none; display:flex; gap:16px; align-items:center}
+.gn-page-head--l2 h1{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading)}
+.gn-page-head--l2 h1.gn-mono{font-size:var(--gn-type-subhead); font-weight:600; overflow-wrap:break-word} /* break at <wbr> after each slash, never mid-word */
+/* section head: title, a count or scope on the right, a rule under */
+.gn-section{display:flex; align-items:baseline; gap:16px; margin-top:40px; padding-bottom:12px; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-section h2{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead)}
+.gn-section > span{margin-left:auto; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-section .gn-link{font-size:var(--gn-type-body)}
+.gn-section--h3{margin-top:32px}
+.gn-section--h3 h3{font-size:var(--gn-type-body); font-weight:600}
+.gn-section + *{margin-top:16px}
+/* breadcrumb: where a record sits, above its title */
+.gn-crumb{font-size:var(--gn-type-label); color:var(--gn-text-caption); display:flex; gap:8px; align-items:center; margin-bottom:8px}
+.gn-crumb a{color:var(--gn-text-caption)} .gn-crumb a:hover{color:var(--gn-interactive)}
+.gn-crumb .gn-icon--sm{width:12px; height:12px; color:var(--gn-text-quiet)}
+/* toolbar: what filters the list on the left, the primary action on the right */
+.gn-toolbar{display:flex; justify-content:space-between; align-items:center; gap:24px; margin-top:16px; flex-wrap:wrap}
+.gn-toolbar-l{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
+.gn-toolbar-r{display:flex; gap:16px; align-items:center}
+@media (max-width:700px){ .gn-toolbar{flex-direction:column; align-items:flex-start} .gn-page-head{flex-wrap:wrap} .gn-page-head-act{width:100%} }
+
+/* ── 6 · tabs, segments, switches ───────────────────────────────────── */
+/* tab strip: different content under each tab, one component for page sub-navigation and record tabs */
+.gn-tabs{display:flex; gap:24px; margin-top:12px; border-bottom:1px solid var(--gn-outline); overflow-x:auto; scrollbar-width:none; align-items:flex-end}
+.gn-tabs::-webkit-scrollbar{display:none}
+.gn-tabs a,.gn-tabs button{display:inline-flex; white-space:nowrap; gap:8px; align-items:baseline; padding:12px 0; font-size:var(--gn-type-body); color:var(--gn-text-secondary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-1px}
+.gn-tabs a:hover,.gn-tabs button:hover{color:var(--gn-interactive)}
+.gn-tabs a.is-on,.gn-tabs button[aria-selected="true"]{color:var(--gn-interactive); border-color:var(--gn-interactive)}
+.gn-tabs .gn-count{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-tabs-r{margin-left:auto; display:flex; gap:16px; font-size:var(--gn-type-body); padding-bottom:12px; color:var(--gn-text-caption)}
+/* segmented control: the same records, sliced */
+.gn-seg{display:inline-flex; gap:4px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-pill); padding:4px; max-width:100%}
+.gn-seg button{padding:8px 16px; border-radius:var(--gn-radius-pill); font-size:var(--gn-type-body); color:var(--gn-text-secondary); white-space:nowrap; display:flex; gap:8px; align-items:baseline}
+.gn-seg button:hover{color:var(--gn-text)}
+.gn-seg button .gn-count{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-seg button[aria-pressed="true"]{background:var(--gn-bg-page); color:var(--gn-text); outline:1px solid var(--gn-rule-strong); outline-offset:-1px}
+.gn-seg button[aria-pressed="true"] .gn-count{color:var(--gn-text-caption)}
+.gn-seg--sm button{padding:8px 12px; font-size:var(--gn-type-label)}
+.gn-seg button[disabled]{opacity:.45; cursor:not-allowed}
+/* environment switch: a segmented control whose live segment is ink */
+.gn-seg button.is-live[aria-pressed="true"]{background:var(--gn-text); color:#fff; outline:0}
+/* stage strip: where a record is in a fixed sequence */
+.gn-stage{display:flex; gap:4px}
+.gn-stage span{flex:1; background:var(--gn-bg-tone); color:var(--gn-text-caption); font-size:var(--gn-type-label); padding:8px 12px; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; clip-path:polygon(0 0,calc(100% - 9px) 0,100% 50%,calc(100% - 9px) 100%,0 100%,9px 50%)}
+.gn-stage span:first-child{clip-path:polygon(0 0,calc(100% - 9px) 0,100% 50%,calc(100% - 9px) 100%,0 100%); border-radius:6px 0 0 6px}
+.gn-stage span:last-child{clip-path:polygon(0 0,100% 0,100% 100%,0 100%,9px 50%); border-radius:0 6px 6px 0}
+.gn-stage span.is-done{background:var(--gn-gray-100); color:var(--gn-text-secondary)}
+.gn-stage span.is-cur{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+/* pagination: a sentence with two words */
+.gn-pager{display:flex; align-items:center; gap:16px; padding:16px 0 0; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-pager .gn-link{font-size:var(--gn-type-body)}
+.gn-pager .gn-link.is-off{color:var(--gn-text-quiet); pointer-events:none}
+.gn-pager span:first-child{margin-right:auto}
+/* filter sentence: the filter is a sentence, the variables are controls */
+.gn-filter{font-size:var(--gn-type-body); line-height:1.6; color:var(--gn-text-secondary)}
+.gn-filter b{font-weight:400; color:var(--gn-interactive); border-bottom:1px solid var(--gn-bg-selected); padding-bottom:4px; cursor:pointer; white-space:nowrap}
+.gn-filter b:hover{border-bottom-color:var(--gn-interactive)}
+.gn-filter .gn-link{margin-left:8px}
+
+/* ── 7 · rows and tables: the workhorse ─────────────────────────────── */
+/* rows carry the same 24px inset as a filled container, so list copy and
+   container copy sit on one line. Inside a container the rows go to the edge. */
+.gn-rows{border-top:1px solid var(--gn-rule-strong)}
+.gn-row{display:flex; flex-wrap:wrap; align-items:center; gap:4px 24px; padding:16px var(--gn-inset); border-bottom:1px solid var(--gn-rule); position:relative}
+.gn-surface .gn-rows,.gn-card .gn-rows{border-top:0}
+.gn-surface .gn-row,.gn-card .gn-row{padding-left:0; padding-right:0}
+.gn-row.is-sel{background:var(--gn-bg-selected)}
+.gn-row.is-link{cursor:pointer; transition:background .12s ease}
+.gn-row.is-link:hover{background:var(--gn-bg-tone)}
+.gn-row.is-bad{background:linear-gradient(90deg, var(--gn-bad) 0 3px, transparent 3px)}
+.gn-row.is-mine .gn-row-t b{font-weight:600}
+.gn-row.is-done .gn-row-t b,.gn-row.is-done .gn-row-t span{color:var(--gn-text-caption)}
+.gn-row-n{width:20px; flex:none; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-row-t{flex:1; min-width:0}
+.gn-row-t b{display:block; font-size:var(--gn-type-body); font-weight:400}
+.gn-row-t span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px; line-height:1.45}
+.gn-row-m{flex:none; font-size:var(--gn-type-body)}
+.gn-row-r{flex:none; display:grid; grid-auto-flow:column; grid-auto-columns:max-content; align-items:baseline; gap:16px; justify-items:end}
+.gn-row-r > .gn-status{min-width:96px; text-align:right}
+.gn-row-r > .gn-btn,.gn-row-r > .gn-link{min-width:112px; justify-content:flex-end}
+.gn-row-r > .gn-num{min-width:80px; text-align:right}
+.gn-row-r > .gn-turn{min-width:104px}
+.gn-row-a{flex-basis:100%; padding-top:4px}
+.gn-rows--compact .gn-row{padding-top:12px; padding-bottom:12px}
+/* the table: columns, right-aligned numbers, one hairline per row. Scrolls inside its own box. */
+.gn-table-wrap{margin-top:16px; overflow-x:auto}
+.gn-table-wrap:has(.gn-menu-panel){overflow:visible}
+.gn-table{width:100%; border-collapse:collapse; font-size:var(--gn-type-body); min-width:560px}
+.gn-table th{text-align:left; font-weight:400; font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:8px var(--gn-inset); border-bottom:1px solid var(--gn-rule-strong); white-space:nowrap; letter-spacing:.02em}
+.gn-table td{padding:16px var(--gn-inset); border-bottom:1px solid var(--gn-rule); vertical-align:middle; height:var(--gn-row)}
+.gn-table th.is-num,.gn-table td.is-num{text-align:right; font-variant-numeric:tabular-nums}
+.gn-table td em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-table tr.is-link{cursor:pointer} .gn-table tr.is-link:hover td{background:var(--gn-bg-tone)}
+.gn-table td.gn-go{width:16px; padding-left:0; color:var(--gn-text-quiet)} .gn-table tr.is-link:hover td.gn-go{color:var(--gn-interactive)}
+.gn-table tr.is-sel td{background:var(--gn-bg-selected)}
+.gn-table tr.is-hot td:first-child{box-shadow:inset 3px 0 0 var(--gn-signal)}
+.gn-table tr.is-expand td{background:var(--gn-bg-tone); padding:20px var(--gn-inset) 24px; height:auto}
+.gn-table--dense td{padding:12px var(--gn-inset); height:var(--gn-row-dense)}
+.gn-table--dense td em{display:none}
+.gn-surface .gn-table th,.gn-surface .gn-table td,.gn-card .gn-table th,.gn-card .gn-table td{padding-left:0; padding-right:0}
+/* sortable: the sorted column names its direction with a mark, the rest stay quiet */
+.gn-table th.is-sortable{cursor:pointer}
+.gn-table th.is-sortable:hover{color:var(--gn-text)}
+.gn-table th.is-sorted{color:var(--gn-text)}
+.gn-table th.is-sorted::after{content:"↓"; margin-left:6px}
+.gn-table th.is-sorted.is-asc::after{content:"↑"}
+/* columns a narrow window can lose without losing the point */
+@media (max-width:1180px){ .gn-table .is-opt2{display:none} }
+@media (max-width:980px){ .gn-table .is-opt{display:none} }
+.gn-table-foot{display:flex; gap:16px; padding:16px 0 0; font-size:var(--gn-type-label); color:var(--gn-text-caption); justify-content:flex-end}
+/* a list beside the record it opened: table left, detail right */
+.gn-split{display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:32px; align-items:start}
+.gn-detail{margin-top:16px; padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-detail-h{display:flex; justify-content:space-between; gap:16px; margin-bottom:4px} .gn-detail-h b{font-weight:600} .gn-detail-h span{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-detail .gn-doc{padding:8px 0 4px; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 16px}
+.gn-detail .gn-code{margin-top:12px}
+@media (max-width:1100px){ .gn-split{grid-template-columns:1fr} }
+/* ranked proportional rows: part-to-whole, never a donut */
+.gn-rank{margin-top:16px}
+.gn-rank-r{display:grid; grid-template-columns:minmax(0,220px) minmax(0,1fr) 64px 48px; gap:16px; align-items:center; padding:8px 0; font-size:var(--gn-type-body)}
+.gn-rank-r.is-link{cursor:pointer} .gn-rank-r.is-link:hover span:first-child{color:var(--gn-interactive)}
+.gn-rank-r em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-bar{height:8px; background:var(--gn-track); border-radius:var(--gn-radius-bar); overflow:hidden}
+.gn-bar i{display:block; height:100%; width:var(--w,0%); background:var(--gn-interactive); border-radius:var(--gn-radius-bar); transition:width .5s var(--gn-ease-out)}
+.gn-bar i.is-bad{background:var(--gn-bad)}
+.gn-bar--thin{height:6px}
+.gn-rank-r .gn-num{text-align:right}
+@media (max-width:900px){ .gn-rank-r{grid-template-columns:minmax(0,1fr) 56px 48px} .gn-rank-r .gn-bar{grid-column:1 / -1; order:5} }
+/* a latency bar inside a log row */
+.gn-latency{display:inline-flex; align-items:center; gap:8px; font-size:var(--gn-type-label); color:var(--gn-text-secondary); white-space:nowrap}
+.gn-latency i{display:inline-block; width:80px; height:6px; background:var(--gn-track); border-radius:var(--gn-radius-bar); overflow:hidden; vertical-align:middle}
+.gn-latency i b{display:block; height:100%; width:var(--w,0%); background:var(--gn-interactive)}
+
+/* ── 8 · the document, figures, key/value ────────────────────────────── */
+/* text that must be read is never in the quiet grey (3.1:1): provenance, small lines and counts take the caption tone */
+/* a document: label over value over provenance, in a grid of cells. Never a list. */
+.gn-doc{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px 32px; padding:16px 0 8px}
+.gn-doc--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gn-doc--1{grid-template-columns:1fr; gap:12px}
+.gn-doc-r{display:flex; flex-direction:column; gap:4px; min-width:0}
+.gn-doc-l{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-doc-v{font-size:var(--gn-type-body); overflow-wrap:anywhere}
+.gn-doc-v.is-empty{color:var(--gn-text-caption)}
+.gn-doc-p{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-doc-r.is-observed .gn-doc-p{color:var(--gn-interactive)}   /* a fact the network saw, nobody typed */
+.gn-doc-groups{margin-top:24px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 48px}
+.gn-doc-groups section h3{font-size:var(--gn-type-label); color:var(--gn-text-caption); letter-spacing:.04em; text-transform:uppercase; font-weight:400; padding:16px 0 8px; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-doc-groups .gn-doc{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:1100px){ .gn-doc{grid-template-columns:repeat(2,minmax(0,1fr))} .gn-doc-groups{grid-template-columns:1fr} }
+/* figures that argue */
+.gn-figs{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:24px 32px; margin-top:24px}
+.gn-figs--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gn-fig b{display:block; font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); font-weight:600; line-height:1; font-variant-numeric:tabular-nums}
+.gn-fig b.gn-status{font-size:var(--gn-type-heading)}
+.gn-fig span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+.gn-fig small{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-figs--compact .gn-fig b{font-size:var(--gn-type-subhead)}
+@media (max-width:1000px){ .gn-figs,.gn-figs--3{grid-template-columns:repeat(2,minmax(0,1fr))} }
+/* key/value: a short record, label left, value right */
+.gn-kv{font-size:var(--gn-type-body)}
+.gn-kv-r{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:12px; padding:8px 0; border-bottom:1px solid var(--gn-rule)}
+.gn-kv-r .gn-doc-l{font-size:var(--gn-type-body); color:var(--gn-text-caption)}
+.gn-kv-r .gn-doc-v{text-align:right}
+/* a marked-up record head: name, a line under, status right */
+.gn-record-h{display:flex; align-items:baseline; gap:12px; font-size:var(--gn-type-body); margin-top:16px}
+.gn-record-h b{font-weight:600} .gn-record-h span{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* tiles: three states side by side */
+.gn-tiles{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:16px}
+.gn-tile{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); display:flex; flex-direction:column; gap:8px}
+.gn-tile-k{font-size:var(--gn-type-body); font-weight:600}
+.gn-tile .gn-mono{color:var(--gn-text-secondary)}
+.gn-tile small{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-tile-a{margin-top:8px}
+/* widgets: a small surface with a head and a document */
+.gn-widgets{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:32px}
+.gn-widget{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-widget-h{display:flex; justify-content:space-between; align-items:baseline}
+.gn-widget h3{font-size:var(--gn-type-body); font-weight:600}
+.gn-widget .gn-doc{padding:8px 0 0}
+@media (max-width:1100px){ .gn-tiles,.gn-widgets{grid-template-columns:1fr} }
+
+/* ── 9 · forms: label above, a sentence for an error, inputs only where nothing is known ── */
+.gn-field{display:block; margin-top:24px; min-width:0}
+.gn-field-l{display:block; font-size:var(--gn-type-body); margin-bottom:8px}
+.gn-field-l small{color:var(--gn-text-caption); margin-left:8px; font-size:var(--gn-type-label)}
+.gn-in{display:block; width:100%; max-width:520px; min-height:var(--gn-control); padding:8px 16px; font:inherit; font-size:var(--gn-type-body); line-height:1.35; color:var(--gn-text); background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); appearance:none; outline:none}
+.gn-in::placeholder{color:var(--gn-text-quiet)}
+.gn-in:focus,.gn-in:focus-visible{border-color:var(--gn-focus); box-shadow:0 0 0 3px var(--gn-focus-halo); outline:none}
+.gn-in.is-err{border-color:var(--gn-bad)}
+.gn-in[disabled]{background-color:var(--gn-bg-tone); color:var(--gn-text-caption); cursor:not-allowed}
+.gn-in--sm{min-height:var(--gn-control-small); height:var(--gn-control-small); padding:0 12px; font-size:var(--gn-type-label); border-radius:var(--gn-radius-small); width:220px}
+.gn-in--mono{font-family:var(--gn-font-mono); font-size:var(--gn-type-label)}
+textarea.gn-in{resize:vertical; line-height:1.5; padding:12px 16px}
+select.gn-in{padding-right:40px; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23696A75' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 12px center; background-size:16px}
+select.gn-in--auto{width:auto; max-width:none}
+.gn-help{font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+.gn-help.is-err{color:var(--gn-bad)}
+.gn-form-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 24px}
+.gn-form-grid .gn-field.is-wide{grid-column:1 / -1}
+.gn-form-act{display:flex; align-items:center; gap:20px; margin-top:24px}
+/* an inline row of controls */
+.gn-inline{display:inline-flex; gap:8px; align-items:center; flex-wrap:wrap}
+/* choice list: rows, one selection language */
+.gn-choice{border-top:1px solid var(--gn-rule-strong)}
+.gn-choice label{display:grid; grid-template-columns:auto 1fr auto; gap:16px; align-items:center; padding:16px; border-bottom:1px solid var(--gn-rule); cursor:pointer}
+.gn-choice label:hover{background:var(--gn-bg-hover)}
+.gn-choice label.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-choice label .gn-doc-l{display:block; font-size:var(--gn-type-label); margin-top:4px}
+.gn-choice label.is-on .gn-doc-l{color:var(--gn-interactive)}
+/* checkbox and radio: drawn, on the interactive colour */
+.gn-check,.gn-radio{appearance:none; width:18px; height:18px; margin:0; border:1.5px solid var(--gn-outline); background:var(--gn-bg-page); flex:none; display:inline-grid; place-items:center; cursor:pointer; vertical-align:middle}
+.gn-check{border-radius:var(--gn-radius-small)} .gn-radio{border-radius:50%}
+.gn-check:checked,.gn-radio:checked{background:var(--gn-interactive); border-color:var(--gn-interactive)}
+.gn-check:checked::after{content:""; width:5px; height:9px; border:solid #fff; border-width:0 2px 2px 0; transform:translateY(-1px) rotate(42deg)}
+.gn-radio:checked::after{content:""; width:6px; height:6px; border-radius:50%; background:#fff}
+.gn-check[disabled],.gn-radio[disabled]{opacity:.45; cursor:not-allowed}
+.gn-check-l{display:inline-flex; gap:12px; align-items:center; font-size:var(--gn-type-body); cursor:pointer}
+.gn-check-l small{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* switch */
+.gn-switch{width:36px; height:20px; border-radius:var(--gn-radius-pill); background:var(--gn-outline); position:relative; flex:none; padding:0; cursor:pointer}
+.gn-switch i{position:absolute; top:2px; left:2px; width:16px; height:16px; border-radius:50%; background:#fff; transition:left .15s ease}
+.gn-switch[aria-checked="true"]{background:var(--gn-interactive)} .gn-switch[aria-checked="true"] i{left:18px}
+.gn-switch[disabled]{opacity:.45; cursor:not-allowed}
+/* a matrix of switches: events down, channels across */
+.gn-matrix{display:grid}
+.gn-matrix-r{display:grid; grid-template-columns:minmax(0,1fr) repeat(var(--cols,3),72px); align-items:center; padding:8px 0; border-bottom:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body)}
+.gn-matrix-r.is-head{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding-bottom:12px}
+.gn-matrix-r small{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* upload: a dashed surface, and the files it received */
+.gn-upload{border:1px dashed var(--gn-outline); border-radius:var(--gn-radius-part); padding:28px; text-align:center; color:var(--gn-text-caption); font-size:var(--gn-type-body)}
+.gn-upload.is-over{border-color:var(--gn-interactive); background:var(--gn-blue-050)}
+.gn-files{display:grid; gap:8px; margin-top:12px}
+.gn-file{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto; gap:12px; align-items:center; padding:8px 12px; background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-small); font-size:var(--gn-type-label)}
+/* inline edit: a value that becomes its own input on click, and saves on blur or Enter */
+.gn-edit{display:inline-flex; align-items:center; gap:8px; min-height:32px; padding:0 8px; margin-left:-8px; border-radius:var(--gn-radius-small); cursor:text}
+.gn-edit:hover{background:var(--gn-bg-hover)}
+.gn-edit .gn-icon--sm{color:var(--gn-text-quiet); opacity:0} .gn-edit:hover .gn-icon--sm{opacity:1}
+.gn-edit.is-editing{padding:0; margin:0; background:none}
+.gn-edit.is-editing .gn-in{max-width:none; width:auto; min-width:200px}
+/* search and lookup: an input, the result under it on the tone */
+.gn-search{display:flex; gap:8px; align-items:center}
+.gn-search .gn-in{flex:1; min-width:0; width:auto; max-width:none}
+.gn-search--field{position:relative; display:block}
+.gn-search--field .gn-icon{position:absolute; left:12px; top:50%; transform:translateY(-50%); width:16px; height:16px; color:var(--gn-text-quiet); pointer-events:none}
+.gn-search--field .gn-in{padding-left:36px}
+.gn-lookup{margin-top:8px; padding:16px 20px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-part); font-size:var(--gn-type-body)}
+.gn-lookup b{font-weight:600; display:block} .gn-lookup span{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-lookup .gn-row{padding:12px 0} .gn-lookup .gn-rows{border-top:0}
+/* the form a record bends for: a head, fields, one primary */
+.gn-ask{margin-top:24px; padding:24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); max-width:560px}
+.gn-ask-h b{display:block; font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); font-weight:600}
+.gn-ask-h span{display:block; font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:8px}
+.gn-ask .gn-field{margin-top:16px}
+.gn-ask .gn-in{background-color:var(--gn-bg-page); max-width:none}   /* background-color, not the shorthand: a select keeps its chevron */
+.gn-ask--wide{max-width:none}
+/* setup block: a definition layout with inputs only where nothing is known; confirming turns it into the record */
+.gn-setup{margin-top:16px; padding:24px 32px 28px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-setup-h{display:flex; justify-content:space-between; align-items:flex-start; gap:24px; margin-bottom:8px}
+.gn-setup-h h3{font-size:var(--gn-type-body); font-weight:600; margin:0 0 4px} .gn-setup-h p{margin:0; color:var(--gn-text-secondary); font-size:var(--gn-type-body); max-width:60ch}
+.gn-setup-h .gn-status{flex:none; margin-top:4px}
+.gn-setup .gn-doc{padding:8px 0 0}
+.gn-setup-f{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px 32px; padding-top:8px; margin-top:8px}
+.gn-setup-f .gn-field{margin:0; display:flex; flex-direction:column; gap:4px}
+.gn-setup-f .gn-field-l{margin:0 0 4px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-setup-f .gn-in{max-width:none; background-color:var(--gn-bg-page)}
+.gn-setup-f .gn-form-act{grid-column:1 / -1; margin-top:0}
+.gn-setup-a{margin-top:12px}
+.gn-setup.is-once{border:1px solid var(--gn-warn)}
+@media (max-width:1100px){ .gn-setup-f{grid-template-columns:repeat(2,minmax(0,1fr))} .gn-form-grid{grid-template-columns:1fr} }
+@media (max-width:700px){ .gn-setup-f{grid-template-columns:1fr} .gn-matrix-r{grid-template-columns:minmax(0,1fr) repeat(var(--cols,3),56px)} }
+
+/* ── 10 · feedback ────────────────────────────────────────────────────── */
+/* an empty state is a sentence on the tone: the missing thing, and how to fill it */
+.gn-empty{margin-top:16px; padding:24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); font-size:var(--gn-type-body); color:var(--gn-text-caption)}
+.gn-empty b{display:block; font-weight:600; color:var(--gn-text)} .gn-empty b + span{display:block; margin-top:4px; color:var(--gn-text-secondary)}
+.gn-empty .gn-link,.gn-empty .gn-btn{margin-top:12px}
+/* toast: ink, one line, the result only, an undo if there is one */
+.gn-toast{display:inline-flex; align-items:center; gap:16px; background:var(--gn-text); color:#fff; border-radius:var(--gn-radius-part); padding:12px 16px; font-size:var(--gn-type-body); max-width:560px; line-height:1.45}
+.gn-toast .gn-link{color:#fff; text-decoration:underline; text-underline-offset:3px; white-space:nowrap}
+.gn-toast--fixed{position:fixed; left:28px; bottom:28px; z-index:70; opacity:0; transform:translateY(8px); transition:opacity .2s ease, transform .2s ease; pointer-events:none}
+.gn-toast--fixed.is-on{opacity:1; transform:none; pointer-events:auto}
+/* strip: what just happened, square, filled, the good or watch tone when it earns it */
+.gn-strip{margin-top:32px; padding:20px 24px; background:var(--gn-bg-selected); font-size:var(--gn-type-body)}
+.gn-strip b{display:block; font-weight:600; color:var(--gn-interactive)} .gn-strip > span{display:block; margin-top:4px; color:var(--gn-text-secondary)}
+.gn-strip.is-good{background:var(--gn-good-tint)} .gn-strip.is-good b{color:var(--gn-good)}
+.gn-strip.is-warn{background:var(--gn-warn-tint)} .gn-strip.is-warn b{color:var(--gn-warn)}
+.gn-strip .gn-actions{margin-top:12px}
+/* a note the screen makes: what happened, or what someone said */
+.gn-note{margin-top:24px; padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-part); font-size:var(--gn-type-body); line-height:1.5}
+.gn-note b{font-weight:600; display:block} .gn-note span{display:block; color:var(--gn-text-secondary); margin-top:4px}
+.gn-note--marked{border-radius:var(--gn-radius-surface)}
+/* notice card: kind, effective date, title, what it means to you. Openable. */
+.gn-notice{padding:20px 24px; border:1px solid var(--gn-outline); border-radius:var(--gn-radius-surface); background:var(--gn-bg-page)}
+.gn-notice.is-link{cursor:pointer} .gn-notice.is-link:hover{border-color:var(--gn-gray-400)}
+.gn-notice-h{display:flex; justify-content:space-between; gap:16px; margin-bottom:8px} .gn-notice-h span:last-child{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-notice h3{font-size:var(--gn-type-body); font-weight:600; margin:0 0 8px} .gn-notice h3 .gn-num{font-weight:400; font-size:var(--gn-type-body)}
+.gn-notice p{margin:0; color:var(--gn-text-secondary); font-size:var(--gn-type-body)}
+.gn-notice-f{display:flex; align-items:center; gap:8px; margin-top:12px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* alert: what the network caught, in four lines, and how it closed */
+.gn-alert{margin-top:24px; padding:24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-alert.is-live{background:linear-gradient(90deg, var(--gn-bad) 0 3px, var(--gn-bg-tone) 3px)}
+.gn-alert.is-fixed{background:linear-gradient(90deg, var(--gn-good) 0 3px, var(--gn-bg-tone) 3px)}
+.gn-alert-h{display:flex; align-items:baseline; gap:16px}
+.gn-alert-h b{display:block; font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); font-weight:600}
+.gn-alert-h > div > span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:4px}
+.gn-alert-h .gn-status{margin-left:auto; font-size:var(--gn-type-body)}
+.gn-alert p{font-size:var(--gn-type-body); line-height:1.6; color:var(--gn-text-secondary); margin-top:16px; max-width:64ch}
+.gn-alert-s{margin-top:20px; border-top:1px solid var(--gn-rule-strong)}
+.gn-alert-s > div{display:grid; grid-template-columns:96px minmax(0,1fr); gap:24px; padding:12px 0; border-bottom:1px solid var(--gn-rule); font-size:var(--gn-type-body)}
+.gn-alert-s b{font-weight:400} .gn-alert-s span{color:var(--gn-text-secondary)}
+.gn-alert-f{margin-top:16px; font-size:var(--gn-type-body)}
+/* progress: a bar with a number, never a ring */
+.gn-progress{display:grid; grid-template-columns:minmax(0,200px) minmax(0,1fr); gap:16px 32px; align-items:center; margin-top:32px; padding:24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-progress-n b{display:block; font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); font-weight:600; line-height:1; font-variant-numeric:tabular-nums}
+.gn-progress-n span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+.gn-progress-next{grid-column:1 / -1; display:flex; align-items:center; gap:16px; padding-top:16px; border-top:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body)}
+.gn-progress-next > span{font-size:var(--gn-type-label); color:var(--gn-text-caption)} .gn-progress-next b{font-weight:600} .gn-progress-next .gn-btn{margin-left:auto}
+/* the parts of a plan, each a bar */
+.gn-parts{margin-top:16px}
+.gn-part{display:grid; grid-template-columns:280px minmax(0,1fr) 64px 96px; align-items:center; gap:24px; padding:16px 0; border-bottom:1px solid var(--gn-outline); font-size:var(--gn-type-body)}
+.gn-part.is-link{cursor:pointer} .gn-part.is-link:hover span:first-child{color:var(--gn-interactive)}
+.gn-part .gn-num,.gn-part .gn-status{text-align:right}
+/* waiting bars: days waiting, longest first */
+.gn-wait{display:grid; grid-template-columns:minmax(0,220px) minmax(0,1fr) 64px; gap:16px; align-items:center; padding:8px 0; font-size:var(--gn-type-body)}
+.gn-wait em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* stages summary: five counts across, a bar under each */
+.gn-stages{margin-top:32px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); display:grid; grid-template-columns:repeat(5,1fr); overflow:hidden}
+.gn-stages > div{padding:20px 24px 16px; border-left:1px solid var(--gn-rule-strong)} .gn-stages > div:first-child{border-left:0}
+.gn-stages .gn-doc-l{font-size:var(--gn-type-label)}
+.gn-stages .gn-fig b{font-size:var(--gn-type-heading); margin-top:4px}
+.gn-stages .gn-bar{margin-top:16px}
+/* skeleton: the shape of what is coming, on the tone, no shimmer */
+.gn-skel{display:block; background:var(--gn-gray-100); border-radius:var(--gn-radius-small); height:12px}
+.gn-skel--line{width:100%} .gn-skel--short{width:40%} .gn-skel--title{height:22px; width:32%; margin-bottom:12px} .gn-skel--fig{height:28px; width:96px}
+.gn-skel + .gn-skel{margin-top:12px}
+.gn-skel-row{display:flex; gap:24px; align-items:center; padding:20px 0; border-bottom:1px solid var(--gn-rule)}
+.gn-skel-row .gn-skel{margin:0}
+@media (prefers-reduced-motion:no-preference){ .gn-skel{animation:gn-skel 1.6s ease-in-out infinite} @keyframes gn-skel{0%,100%{opacity:1} 50%{opacity:.55}} }
+@media (max-width:900px){ .gn-progress{grid-template-columns:1fr} .gn-part{grid-template-columns:minmax(0,1fr) 56px 88px; gap:12px} .gn-part .gn-bar{grid-column:1 / -1; order:5} .gn-stages{grid-template-columns:repeat(2,1fr)} .gn-stages > div{border-left:0; border-top:1px solid var(--gn-rule-strong)} }
+
+/* ── 11 · overlays: the things that float ───────────────────────────── */
+.gn-scrim{position:fixed; inset:0; background:var(--gn-scrim); opacity:0; pointer-events:none; transition:opacity .2s; z-index:20}
+.gn-scrim.is-on{opacity:1; pointer-events:auto}
+/* slide-over: from the edge it belongs to */
+.gn-panel{visibility:hidden; position:fixed; top:0; right:0; bottom:0; width:min(680px,92vw); background:var(--gn-bg-page); z-index:21; transform:translateX(100%); transition:transform .22s var(--gn-ease), visibility 0s .22s; display:flex; flex-direction:column; box-shadow:-8px 0 40px rgba(0,2,38,.12)}
+.gn-panel.is-on{transform:none; visibility:visible; transition:transform .22s var(--gn-ease), visibility 0s}
+.gn-panel--static{visibility:visible; position:relative; transform:none; width:100%; height:560px; box-shadow:var(--gn-shadow-float); border-radius:var(--gn-radius-surface); overflow:hidden}
+.gn-panel-top{padding:24px 40px 0; display:flex; align-items:center; font-size:var(--gn-type-body); color:var(--gn-text-caption)}
+.gn-panel-x{margin-left:auto; color:var(--gn-text-secondary); width:32px; height:32px; display:grid; place-items:center; border-radius:50%}
+.gn-panel-x:hover{background:var(--gn-bg-hover)}
+.gn-panel-ttl{padding:24px 40px 0}
+.gn-panel-ttl h2{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); line-height:1.1}
+.gn-panel-meta{font-size:var(--gn-type-body); color:var(--gn-text-caption); margin-top:8px; display:flex; gap:8px; flex-wrap:wrap}
+.gn-panel .gn-tabs{margin:24px 40px 0}
+.gn-panel-body{flex:1; overflow-y:auto; padding:0 40px 32px}
+.gn-panel-foot{border-top:1px solid var(--gn-rule-strong); padding:16px 40px; display:flex; gap:8px; justify-content:flex-end; background:var(--gn-bg-page)}
+/* dialog: one question, two words. Destructive is outlined in the bad colour. */
+.gn-dialog{width:440px; max-width:92vw; padding:28px 32px}
+.gn-dialog h2{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead)}
+.gn-dialog p{color:var(--gn-text-secondary); margin-top:8px; line-height:1.5}
+.gn-dialog .gn-actions{justify-content:flex-end; gap:8px; margin-top:24px}
+.gn-dialog--fixed{position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:30}
+/* overflow menu: dots, then words */
+.gn-menu{position:relative; display:inline-block}
+.gn-menu-b{color:var(--gn-text-caption); padding:4px 8px; border-radius:var(--gn-radius-small); display:inline-flex}
+.gn-menu-b:hover{background:var(--gn-bg-hover); color:var(--gn-interactive)}
+.gn-menu-b svg{width:16px; height:16px; fill:currentColor; display:block}
+.gn-menu-panel{position:absolute; right:0; top:100%; z-index:5; min-width:180px; background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); box-shadow:var(--gn-shadow-menu); padding:8px; display:grid}
+.gn-menu-panel.is-left{right:auto; left:0}
+.gn-menu-panel.is-static{position:static}
+.gn-menu-panel button,.gn-menu-panel a{text-align:left; padding:8px 12px; font-size:var(--gn-type-body); border-radius:var(--gn-radius-small); color:var(--gn-text); display:block}
+.gn-menu-panel button:hover,.gn-menu-panel a:hover{background:var(--gn-bg-hover)}
+.gn-menu-panel button.is-bad{color:var(--gn-bad)}
+.gn-menu-panel hr{border:0; border-top:1px solid var(--gn-rule); margin:8px 4px}
+.gn-menu-panel .gn-menu-h{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:8px 12px 4px}
+/* dropdown: a button that names its value, then a menu */
+.gn-dropdown .gn-btn{gap:12px}
+.gn-dropdown .gn-btn .gn-icon--sm{color:var(--gn-text-caption)}
+/* popover: small detail, on click, beside its trigger. Not a modal. */
+.gn-popover{position:absolute; z-index:6; min-width:240px; max-width:320px; padding:16px 20px; background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); box-shadow:var(--gn-shadow-menu); font-size:var(--gn-type-body); line-height:1.5}
+.gn-popover.is-static{position:static; display:inline-block}
+.gn-popover b{display:block; font-weight:600} .gn-popover p{color:var(--gn-text-secondary); margin-top:4px}
+.gn-popover .gn-doc{padding:8px 0 0; grid-template-columns:1fr; gap:8px}
+/* tooltip: one line on hover, for a truncated value or a provenance */
+.gn-tip{position:relative}
+.gn-tip::after{content:attr(data-tip); position:absolute; left:50%; bottom:calc(100% + 8px); transform:translateX(-50%); background:var(--gn-text); color:#fff; font-size:var(--gn-type-label); line-height:1.4; padding:4px 8px; border-radius:var(--gn-radius-small); white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .12s ease}
+.gn-tip:hover::after,.gn-tip:focus-visible::after{opacity:1}
+.gn-tip--static::after{opacity:1; position:static; transform:none; display:inline-block; margin-left:8px}
+/* command palette: a search that runs the product */
+.gn-cmd{width:560px; max-width:92vw; overflow:hidden}
+.gn-cmd--fixed{position:fixed; left:50%; top:120px; transform:translateX(-50%); z-index:30}
+.gn-cmd-in{display:flex; align-items:center; gap:12px; padding:16px 20px; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-cmd-in .gn-icon{color:var(--gn-text-quiet)}
+.gn-cmd-in input{flex:1; border:0; outline:0; padding:0; font:inherit; font-size:var(--gn-type-body); background:none; color:var(--gn-text)}
+.gn-cmd-in input::placeholder{color:var(--gn-text-quiet)}
+.gn-cmd-in kbd{font-family:inherit; font-size:var(--gn-type-label); color:var(--gn-text-caption); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-small); padding:0 8px; line-height:20px}
+.gn-cmd-list{padding:8px; max-height:360px; overflow-y:auto}
+.gn-cmd-h{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:8px 12px 4px}
+.gn-cmd-i{display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:12px; align-items:center; padding:8px 12px; border-radius:var(--gn-radius-small); font-size:var(--gn-type-body); cursor:pointer}
+.gn-cmd-i .gn-icon{width:16px; height:16px; color:var(--gn-text-caption)}
+.gn-cmd-i span:last-child{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-cmd-i:hover,.gn-cmd-i.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-cmd-i.is-on .gn-icon,.gn-cmd-i.is-on span:last-child{color:var(--gn-interactive)}
+/* date picker: a month, days as words and numbers, the chosen day in the selection language */
+.gn-date{width:296px; padding:16px; background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); box-shadow:var(--gn-shadow-menu)}
+.gn-date--static{box-shadow:none; display:inline-block}
+.gn-date-h{display:flex; align-items:center; justify-content:space-between; padding:0 4px 12px; font-size:var(--gn-type-body)}
+.gn-date-h b{font-weight:600}
+.gn-date-h button{width:28px; height:28px; display:grid; place-items:center; border-radius:var(--gn-radius-small); color:var(--gn-text-secondary)}
+.gn-date-h button:hover{background:var(--gn-bg-hover)}
+.gn-date-g{display:grid; grid-template-columns:repeat(7,1fr); gap:4px; text-align:center; font-size:var(--gn-type-label)}
+.gn-date-g span{color:var(--gn-text-caption); padding:4px 0}
+.gn-date-g button{height:32px; border-radius:var(--gn-radius-small); font-size:var(--gn-type-body); text-align:center; color:var(--gn-text); font-variant-numeric:tabular-nums}
+.gn-date-g button:hover{background:var(--gn-bg-hover)}
+.gn-date-g button.is-out{color:var(--gn-text-quiet)}
+.gn-date-g button.is-today{box-shadow:inset 0 0 0 1px var(--gn-outline)}
+.gn-date-g button.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive); font-weight:600}
+.gn-date-g button.is-range{background:var(--gn-blue-050); border-radius:0}
+.gn-date-g button[disabled]{color:var(--gn-text-quiet); cursor:not-allowed}
+.gn-date-f{display:flex; justify-content:space-between; align-items:center; padding:12px 4px 0; margin-top:8px; border-top:1px solid var(--gn-rule); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+
+/* ── 12 · people ─────────────────────────────────────────────────────── */
+.gn-avatar{width:28px; height:28px; border-radius:50%; object-fit:cover; flex:none; display:grid; place-items:center; background:var(--gn-brand-primary); color:#fff; font-size:var(--gn-type-label); font-weight:600}
+.gn-avatar--24{width:24px; height:24px; font-size:11px} .gn-avatar--36{width:36px; height:36px} .gn-avatar--40{width:40px; height:40px; font-size:var(--gn-type-body)} .gn-avatar--64{width:64px; height:64px; font-size:var(--gn-type-subhead)}
+.gn-avatar--quiet{background:var(--gn-gray-200); color:var(--gn-text)}
+/* a person: face, name, role, one line, something on the right */
+.gn-people{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:16px}
+.gn-person{display:flex; gap:16px; align-items:flex-start; padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-person-b{flex:1; min-width:0} .gn-person-b b{display:block; font-weight:600} .gn-person-b > span{display:block; color:var(--gn-text-caption); font-size:var(--gn-type-label)} .gn-person-b p{margin:8px 0 0; color:var(--gn-text-secondary); font-size:var(--gn-type-body)}
+.gn-person-r{flex:none; display:grid; justify-items:end; gap:4px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* the people on a step, faces overlapping, then their names */
+.gn-faces{display:flex; align-items:center; gap:4px}
+.gn-faces .gn-avatar{margin-right:-6px; border:2px solid var(--gn-bg-tone)}
+.gn-faces span{margin-left:14px; font-size:var(--gn-type-body)}
+/* a message from a person, and a thread of them */
+.gn-msg{display:grid; grid-template-columns:36px minmax(0,1fr); gap:16px; margin-top:16px}
+.gn-msg-h b{font-weight:600} .gn-msg-h span{margin-left:12px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-msg p{font-size:var(--gn-type-body); line-height:1.6; margin-top:8px; max-width:var(--gn-measure-body)}
+.gn-thread-f{margin-top:16px}
+.gn-thread-f textarea{max-width:none}
+/* a guide line: a person's face beside a status line, not a paragraph */
+.gn-guide{display:grid; grid-template-columns:40px minmax(0,1fr); gap:16px; margin-top:32px; align-items:start}
+.gn-guide p{font-size:var(--gn-type-body); line-height:1.6; max-width:var(--gn-measure-body)}
+.gn-guide > div > span{display:flex; align-items:center; gap:12px; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+@media (max-width:1100px){ .gn-people{grid-template-columns:1fr} }
+
+/* ── 13 · time and sequence ──────────────────────────────────────────── */
+/* timeline: entries under a day, a rule down the left, the newest first */
+.gn-timeline{margin-top:8px}
+.gn-tl-day{position:relative; padding:24px 0 8px 28px}
+.gn-tl-day::before{content:''; position:absolute; left:6px; top:28px; bottom:0; width:1px; background:var(--gn-rule-strong)}
+.gn-tl-day h3,.gn-tl-day .gn-tl-h{font-size:var(--gn-type-label); color:var(--gn-text-caption); letter-spacing:.04em; text-transform:uppercase; font-weight:400; margin-left:-28px; margin-bottom:8px}
+.gn-tl-i{display:grid; grid-template-columns:96px minmax(0,1fr) auto; gap:8px 24px; padding:16px 0; border-bottom:1px solid var(--gn-rule); position:relative}
+.gn-tl-i::before{content:''; position:absolute; left:-25px; top:23px; width:7px; height:7px; border-radius:50%; background:var(--gn-outline)}
+.gn-tl-i.is-hot::before{background:var(--gn-signal)}
+.gn-tl-i.is-link{cursor:pointer} .gn-tl-i.is-link:hover .gn-tl-b b{color:var(--gn-interactive)}
+.gn-tl-t{font-size:var(--gn-type-label); color:var(--gn-text-caption); font-variant-numeric:tabular-nums; padding-top:4px}
+.gn-tl-b b{display:block; font-size:var(--gn-type-body); font-weight:400}
+.gn-tl-b p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); line-height:1.55; margin-top:4px; max-width:64ch}
+.gn-tl-r{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; justify-content:flex-end}
+/* milestones: a project as rows with an owner and a date on every one */
+.gn-milestone{display:grid; grid-template-columns:minmax(0,1fr) 140px 120px 120px; gap:24px; align-items:center; padding:16px 0; border-bottom:1px solid var(--gn-rule); font-size:var(--gn-type-body)}
+.gn-milestone.is-head{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:8px 0 12px; border-color:var(--gn-rule-strong)}
+.gn-milestone b{display:block; font-weight:400} .gn-milestone em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-milestone.is-cur b{font-weight:600}
+/* stepper: numbered circles on a line, for a fixed sequence of few steps */
+.gn-stepper{display:grid; grid-template-columns:repeat(var(--n,5),minmax(0,1fr)); gap:8px; margin:40px 0 0; padding:0; list-style:none; position:relative}
+.gn-stepper li{display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center; font-size:var(--gn-type-label); color:var(--gn-text-caption); position:relative}
+.gn-stepper li i{width:28px; height:28px; border-radius:50%; display:grid; place-items:center; font-size:var(--gn-type-label); font-weight:600; background:var(--gn-bg-page); border:1px solid var(--gn-outline); color:var(--gn-text-caption); z-index:1}
+.gn-stepper li i svg{width:14px; height:14px; fill:none; stroke:#fff; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round}
+.gn-stepper li.is-done i{background:var(--gn-brand-primary); border-color:var(--gn-brand-primary)}
+.gn-stepper li.is-cur i{border-color:var(--gn-interactive); color:var(--gn-interactive); box-shadow:0 0 0 3px var(--gn-focus-halo)}
+.gn-stepper li.is-cur{color:var(--gn-text); font-weight:600}
+.gn-stepper li::before{content:''; position:absolute; top:14px; left:-50%; width:100%; height:1px; background:var(--gn-rule-strong)}
+.gn-stepper li:first-child::before{display:none}
+.gn-stepper li.is-done::before,.gn-stepper li.is-cur::before{background:var(--gn-brand-primary)}
+/* document outline: for long forms, instead of a stepper */
+.gn-outline{font-size:var(--gn-type-body)}
+.gn-outline a{display:grid; grid-template-columns:28px 1fr auto; gap:8px; padding:8px 0; color:var(--gn-text-caption); cursor:pointer}
+.gn-outline a .gn-num{color:var(--gn-text-caption); padding-top:4px}
+.gn-outline a.is-done{color:var(--gn-text-secondary)} .gn-outline a.is-done .gn-num{color:var(--gn-text-secondary)}
+.gn-outline a.is-cur{color:var(--gn-interactive)} .gn-outline a.is-cur .gn-num{color:var(--gn-interactive)}
+.gn-outline a .gn-status{padding-top:4px}
+/* steps as a grid of cells: number, title, one line, state, a way in. Not rows. */
+.gn-steps{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 32px; margin-top:8px}
+.gn-step{display:grid; grid-template-columns:28px minmax(0,1fr) auto; gap:12px; align-items:start; padding:16px 0; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-step-n{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding-top:4px}
+.gn-step-b b{display:block; font-weight:600} .gn-step-b span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-step-r{display:grid; justify-items:end; gap:4px; font-size:var(--gn-type-label)}
+.gn-step.is-link{cursor:pointer} .gn-step.is-link:hover .gn-step-b b{color:var(--gn-interactive)}
+/* checklist: a circle that fills, the current one ringed */
+.gn-checklist{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 32px; margin-top:8px}
+.gn-checklist--1{grid-template-columns:1fr}
+.gn-check-i{display:grid; grid-template-columns:28px minmax(0,1fr) auto; gap:12px; align-items:center; padding:12px 0; border-bottom:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body)}
+.gn-check-i i{width:24px; height:24px; border-radius:50%; border:1px solid var(--gn-outline); display:grid; place-items:center; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-check-i i svg{width:12px; height:12px; fill:none; stroke:#fff; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round}
+.gn-check-i.is-done i{background:var(--gn-brand-primary); border-color:var(--gn-brand-primary)}
+.gn-check-i.is-now i{border-color:var(--gn-interactive); color:var(--gn-interactive); box-shadow:0 0 0 3px var(--gn-focus-halo)}
+.gn-check-i.is-link{cursor:pointer} .gn-check-i.is-link:hover span{color:var(--gn-interactive)}
+.gn-check-i em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-check-i .gn-check-m{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-check-r{display:flex; gap:12px; align-items:center; min-width:120px; justify-content:flex-end}
+/* the current step, as a page: why, what you will need, who, one action */
+.gn-stepcard{margin-top:32px; padding:32px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+.gn-stepcard-h h2{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); margin-top:8px}
+.gn-stepcard-h p{font-size:var(--gn-type-body); line-height:1.6; color:var(--gn-text-secondary); margin-top:12px; max-width:var(--gn-measure-body)}
+.gn-stepcard-g{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:32px; margin-top:24px; padding-top:24px; border-top:1px solid var(--gn-rule-strong)}
+.gn-need{list-style:none; padding:0; margin:0}
+.gn-need li{font-size:var(--gn-type-body); line-height:1.55; padding:8px 0 8px 20px; position:relative; border-bottom:1px solid var(--gn-rule)}
+.gn-need li:last-child{border-bottom:0}
+.gn-need li::before{content:''; position:absolute; left:0; top:15px; width:6px; height:6px; border-radius:50%; background:var(--gn-interactive)}
+.gn-stepcard-a{margin-top:24px; display:flex; align-items:center; gap:20px}
+/* phase cards: a numeral, a dot per step, the promise, one way in */
+.gn-phases{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:24px}
+.gn-phase{background:var(--gn-bg-page); border:1px solid var(--gn-rule-strong); border-radius:var(--gn-radius-surface); overflow:hidden; display:flex; flex-direction:column; transition:border-color .16s ease}
+.gn-phase:hover{border-color:var(--gn-gray-400)}
+.gn-phase-h{display:flex; align-items:center; gap:12px; padding:16px 20px; background:var(--gn-bg-tone); border-bottom:1px solid var(--gn-rule-strong)}
+.gn-phase-num{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); font-weight:600; color:var(--gn-text-quiet); line-height:1}
+.gn-dots{display:flex; gap:8px}
+.gn-dots i{width:8px; height:8px; border-radius:50%; background:var(--gn-outline); display:block}
+.gn-dots i.is-done{background:var(--gn-brand-primary)}
+.gn-dots i.is-now{background:var(--gn-interactive); box-shadow:0 0 0 3px var(--gn-focus-halo)}
+.gn-phase-ct{margin-left:auto; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-phase-b{padding:20px; display:flex; flex-direction:column; gap:8px; flex:1}
+.gn-phase-b h2{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); line-height:1.2}
+.gn-phase-b p{font-size:var(--gn-type-body); line-height:1.5; color:var(--gn-text-secondary); flex:1}
+.gn-phase-next{display:flex; align-items:baseline; gap:8px; margin-top:4px; padding-top:12px; border-top:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body)}
+.gn-phase-next span{font-size:var(--gn-type-label); color:var(--gn-text-caption)} .gn-phase-next b{font-weight:600}
+.gn-phase-b .gn-btn{align-self:flex-start; margin-top:8px}
+.gn-phase.is-active{border-color:var(--gn-gray-400)} .gn-phase.is-active .gn-phase-h{background:var(--gn-blue-050)} .gn-phase.is-active .gn-phase-num{color:var(--gn-interactive)}
+.gn-phase.is-complete .gn-phase-num{color:var(--gn-outline)}
+/* calendar: weeks as columns, what is booked, what is free */
+.gn-cal{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-top:16px}
+.gn-cal-w{border:1px solid var(--gn-outline); border-radius:var(--gn-radius-surface); padding:16px}
+.gn-cal-h{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px} .gn-cal-h b{font-weight:600}
+.gn-cal-i{display:flex; justify-content:space-between; gap:8px; padding:8px 0; border-top:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body)}
+.gn-cal-e{padding:8px 0; border-top:1px dashed var(--gn-outline); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-cal-w.is-cur{border-color:var(--gn-interactive)}
+@media (max-width:1100px){ .gn-steps,.gn-checklist{grid-template-columns:1fr} .gn-phases{grid-template-columns:1fr} .gn-cal{grid-template-columns:repeat(2,minmax(0,1fr))} .gn-stepcard-g{grid-template-columns:1fr} .gn-milestone{grid-template-columns:minmax(0,1fr) 120px} .gn-milestone > :nth-child(n+3){display:none} }
+@media (max-width:1000px){ .gn-stepper{grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px 8px} .gn-stepper li::before{display:none} }
+
+/* ── 14 · code, keys, credentials: the only place for mono ──────────── */
+.gn-code{background:var(--gn-bg-tone); border-radius:var(--gn-radius-part); padding:16px 20px; font-family:var(--gn-font-mono); font-size:var(--gn-type-label); line-height:1.6; color:var(--gn-text); position:relative; overflow-x:auto; white-space:pre; margin:0}
+.gn-code .gn-ln{color:var(--gn-text-quiet); display:inline-block; width:28px; user-select:none}
+.gn-code--ink{background:var(--gn-bg-ink); color:rgba(255,255,255,.88); border-radius:var(--gn-radius-surface); padding:20px 24px; white-space:pre-wrap; overflow-wrap:anywhere}
+.gn-code--ink .gn-dim{color:rgba(255,255,255,.42)}
+.gn-code-h{display:flex; justify-content:space-between; align-items:baseline; margin:16px 0 8px}
+.gn-code-h .gn-label{margin:0}
+.gn-code-h + .gn-code{margin-top:0}
+.gn-key{font-family:var(--gn-font-mono); font-size:var(--gn-type-label); background:var(--gn-bg-tone); border-radius:var(--gn-radius-small); padding:4px 8px; white-space:nowrap}
+.gn-key--box{display:flex; gap:16px; align-items:center; padding:12px 16px; margin-top:8px; background:var(--gn-bg-page); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); font-size:var(--gn-type-body); white-space:normal}
+.gn-key--box .gn-mono{overflow-wrap:anywhere}
+.gn-key--box .gn-link{margin-left:auto; font-size:var(--gn-type-label); white-space:nowrap}
+/* credentials on ink */
+.gn-cred{margin-top:24px; background:var(--gn-bg-ink); color:#fff; border-radius:var(--gn-radius-surface); padding:20px; max-width:560px}
+.gn-cred-k{font-size:var(--gn-type-label); color:var(--gn-brand-burst-light); letter-spacing:.04em; text-transform:uppercase; padding-bottom:12px}
+.gn-cred-r{display:flex; flex-direction:column; gap:4px; padding:12px 0; font-size:var(--gn-type-label); border-top:1px solid rgba(255,255,255,.12)}
+.gn-cred-r span{color:var(--gn-text-on-ink-muted)} .gn-cred-r .gn-mono{color:#fff; overflow-wrap:anywhere}
+.gn-cred-f{margin-top:12px; font-size:var(--gn-type-label); color:var(--gn-text-on-ink-muted); line-height:1.5}
+/* an endpoint line: method, path */
+.gn-endpoint{display:flex; gap:12px; align-items:center; margin:8px 0 12px; padding:8px 12px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-small); font-size:var(--gn-type-label)}
+.gn-endpoint .gn-method{font-family:var(--gn-font-mono); font-weight:600; color:var(--gn-interactive)}
+/* parameters: name, type, required, one line */
+.gn-params{margin-top:8px}
+.gn-param{padding:12px 0; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-param > div{display:flex; gap:12px; align-items:baseline}
+.gn-param-t{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-param p{margin:4px 0 0; color:var(--gn-text-secondary); font-size:var(--gn-type-body)}
+.gn-param.is-nested{padding-left:20px}
+/* the console: what you send, what comes back */
+.gn-console{background:var(--gn-text); border-radius:var(--gn-radius-surface); overflow:hidden; color:#fff; margin-top:16px}
+.gn-console-bar{display:flex; align-items:baseline; gap:16px; padding:16px 20px; border-bottom:1px solid rgba(255,255,255,.12); font-size:var(--gn-type-label)}
+.gn-console-bar .gn-mono{color:#fff; overflow-wrap:anywhere}
+.gn-console-bar .gn-rs{margin-left:auto; white-space:nowrap} .gn-console-bar .gn-rs b{font-weight:400; color:var(--gn-good-ink)} .gn-console-bar .gn-rs b.is-slow{color:var(--gn-warn-ink)}
+.gn-console pre{margin:0; padding:20px 24px; font-family:var(--gn-font-mono); font-size:var(--gn-type-label); line-height:1.65; white-space:pre-wrap; overflow-wrap:anywhere}
+.gn-console pre .gn-dim{color:rgba(255,255,255,.42)}
+.gn-console-wait{color:rgba(255,255,255,.5)}
+/* test cards: a number, its outcome, chosen in the selection language */
+.gn-testcards{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:16px}
+.gn-testcard{text-align:left; padding:12px 16px; border:1px solid var(--gn-outline); border-radius:var(--gn-radius-part); background:var(--gn-bg-page); cursor:pointer; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:4px 12px; align-items:center}
+.gn-testcard em{grid-column:1 / -1; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-testcard.is-sel{background:var(--gn-bg-selected); border-color:var(--gn-bg-selected)}
+
+/* ── 15 · charts are instruments ─────────────────────────────────────── */
+.gn-chart{margin-top:16px}
+.gn-chart svg{display:block; width:100%; height:auto; overflow:visible}
+.gn-chart .g{stroke:var(--gn-outline); stroke-width:1; stroke-dasharray:2 4}
+.gn-chart .yl{font-size:13px; fill:var(--gn-text-caption); text-anchor:end; font-variant-numeric:tabular-nums}
+.gn-chart .xl{font-size:13px; fill:var(--gn-text-caption)}
+.gn-chart .l{fill:none; stroke:var(--gn-interactive); stroke-width:1.75; stroke-linejoin:round}
+.gn-chart .l.prev{stroke:var(--gn-text-quiet); stroke-dasharray:4 4}
+.gn-chart .l.s2{stroke:var(--gn-chart-2)} .gn-chart .l.s3{stroke:var(--gn-chart-3)} .gn-chart .l.s4{stroke:var(--gn-chart-4)}
+.gn-chart .a{fill:var(--gn-interactive); opacity:.06}
+.gn-chart .p{fill:var(--gn-interactive)}
+.gn-chart .pl{font-size:13px; fill:var(--gn-text); font-weight:600}
+.gn-chart .b{fill:var(--gn-outline)} .gn-chart .b.on{fill:var(--gn-interactive)}
+.gn-chart-h{display:flex; align-items:baseline; justify-content:space-between; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-chart-h b{font-weight:600; font-size:var(--gn-type-heading); color:var(--gn-text); letter-spacing:var(--gn-tracking-heading)}
+.gn-chart-h b small{font-size:var(--gn-type-label); color:var(--gn-text-caption); letter-spacing:0; margin-left:4px; font-weight:400}
+.gn-chart-ax{display:flex; justify-content:space-between; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+.gn-chart-key{display:flex; gap:16px; align-items:center; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:8px}
+.gn-chart-key i{display:inline-block; width:20px; height:0; border-top:2px solid var(--gn-interactive); margin-right:8px; vertical-align:middle}
+.gn-chart-key i.prev{border-top:2px dashed var(--gn-text-quiet)}
+.gn-chart-key i.s2{border-color:var(--gn-chart-2)} .gn-chart-key i.s3{border-color:var(--gn-chart-3)} .gn-chart-key i.s4{border-color:var(--gn-chart-4)}
+.gn-spark{width:120px; height:28px; flex:none} .gn-spark path{fill:none; stroke:var(--gn-interactive); stroke-width:1.5}
+
+/* ── 16 · structure that opens ───────────────────────────────────────── */
+/* accordion: a row that opens under itself, one at a time or many */
+.gn-accordion{border-top:1px solid var(--gn-rule-strong)}
+.gn-accordion details{border-bottom:1px solid var(--gn-rule)}
+.gn-accordion summary{display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:24px; align-items:center; padding:16px 0; cursor:pointer; list-style:none; font-size:var(--gn-type-body)}
+.gn-accordion summary::-webkit-details-marker{display:none}
+.gn-accordion summary:hover b{color:var(--gn-interactive)}
+.gn-accordion summary b{font-weight:400; display:block} .gn-accordion summary em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-accordion summary .gn-icon--sm{color:var(--gn-text-quiet); transition:transform var(--gn-duration) ease}
+.gn-accordion details[open] summary .gn-icon--sm{transform:rotate(180deg)}
+.gn-accordion-b{padding:0 0 20px; font-size:var(--gn-type-body); color:var(--gn-text-secondary); line-height:1.55; max-width:var(--gn-measure-body)}
+.gn-accordion-b .gn-doc{padding:0 0 4px}
+/* tree: groups that open, items that select, for a reference or a file set */
+.gn-tree{font-size:var(--gn-type-body)}
+.gn-tree details summary{display:flex; align-items:center; gap:8px; padding:8px 12px; border-radius:var(--gn-radius-part); cursor:pointer; list-style:none; color:var(--gn-text-secondary)}
+.gn-tree details summary::-webkit-details-marker{display:none}
+.gn-tree details summary:hover{background:var(--gn-bg-hover)}
+.gn-tree details summary .gn-icon--sm{color:var(--gn-text-quiet); transition:transform var(--gn-duration) ease}
+.gn-tree details[open] > summary .gn-icon--sm{transform:rotate(90deg)}
+.gn-tree details > div{padding-left:24px}
+.gn-tree a{display:flex; align-items:center; gap:8px; padding:8px 12px; border-radius:var(--gn-radius-part); color:var(--gn-text-secondary); cursor:pointer; font-size:var(--gn-type-body)}
+.gn-tree a:hover{background:var(--gn-bg-hover)} .gn-tree a.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-tree a .gn-count{margin-left:auto; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-tree h6{font-size:var(--gn-type-label); color:var(--gn-text-caption); letter-spacing:.04em; text-transform:uppercase; font-weight:400; padding:16px 12px 8px}
+/* reference navigation: method and path in a grid, groups by object */
+.gn-ref{display:grid; grid-template-columns:minmax(0,260px) minmax(0,1fr); gap:48px; margin-top:32px; align-items:start}
+.gn-ref--3{grid-template-columns:minmax(0,220px) minmax(0,1fr) minmax(0,320px); gap:40px}
+.gn-ref-n{position:sticky; top:16px; max-height:calc(100vh - 32px); overflow-y:auto; scrollbar-width:thin}
+.gn-ref-n a{display:grid; grid-template-columns:44px minmax(0,1fr); gap:8px; padding:8px 12px; border-radius:var(--gn-radius-part); font-size:var(--gn-type-label); cursor:pointer; color:var(--gn-text-secondary)}
+.gn-ref-n a:hover{background:var(--gn-bg-hover)} .gn-ref-n a.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-ref-n a.is-topic{display:block; font-size:var(--gn-type-body); padding:8px 12px}
+.gn-ref-n .gn-method{font-family:var(--gn-font-mono)} .gn-ref-n .gn-path{font-family:var(--gn-font-mono); overflow-wrap:break-word}
+.gn-ref-c{position:sticky; top:16px}
+.gn-ref-c .gn-label{display:block; margin:16px 0 8px}
+@media (max-width:1000px){ .gn-ref,.gn-ref--3{grid-template-columns:1fr; gap:24px} .gn-ref-n,.gn-ref-c{position:static; max-height:none} }
+/* frames: one moment seen from two or three portals at once */
+.gn-frames{display:grid; gap:24px; margin-top:32px; align-items:start; grid-template-columns:repeat(var(--n,3),minmax(0,1fr))}
+.gn-frame{background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); min-width:0; overflow:hidden}
+.gn-frame-h{display:flex; align-items:baseline; gap:16px; padding:12px 20px; background:var(--gn-brand-base-light); border-bottom:1px solid var(--gn-rule-strong); font-size:var(--gn-type-label)}
+.gn-frame-h b{font-weight:600; white-space:nowrap} .gn-frame-h span{color:var(--gn-text-caption); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0} .gn-frame-h span:last-child{margin-left:auto}
+.gn-frame-b{padding:0 20px 20px}
+.gn-frame .gn-section{margin-top:24px} .gn-frame .gn-section h2{font-size:var(--gn-type-body)}
+.gn-frame .gn-row{padding:12px 0} .gn-frame .gn-empty{background:var(--gn-bg-page)}
+.gn-frame .gn-figs{grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 24px} .gn-frame .gn-fig b{font-size:var(--gn-type-subhead)}
+@media (max-width:1100px){ .gn-frames{grid-template-columns:1fr} }
+
+/* ── 17 · marketing: the same language at a larger scale ─────────────── */
+.gn-site{max-width:1240px; margin:0 auto; padding:0 40px}
+.gn-topnav{display:flex; align-items:center; gap:40px; padding:24px 0 0}
+.gn-topnav .gn-sidebar-mark{padding:0; font-size:var(--gn-type-body)}
+.gn-topnav-l{display:flex; gap:24px; font-size:var(--gn-type-body); color:var(--gn-text-secondary)}
+.gn-topnav-l a{cursor:pointer} .gn-topnav-l a:hover{color:var(--gn-text)} .gn-topnav-l a.is-on{color:var(--gn-interactive); text-decoration:underline; text-underline-offset:8px; text-decoration-thickness:1px}
+.gn-topnav-r{margin-left:auto; display:flex; gap:16px; align-items:center}
+.gn-band{padding:var(--gn-band) 0}
+.gn-band--ink{background:var(--gn-bg-ink); color:#fff}
+.gn-band--tone{background:var(--gn-bg-tone)}
+.gn-band .gn-eyebrow{margin-bottom:16px}
+.gn-band--ink .gn-eyebrow{color:var(--gn-brand-burst-light)}
+.gn-band h2{font-size:var(--gn-type-title); letter-spacing:var(--gn-tracking-title); line-height:var(--gn-leading-title); max-width:18ch}
+.gn-band h2 .gn-mute{color:var(--gn-text-caption)} .gn-band--ink h2 .gn-mute{color:rgba(255,255,255,.5)}
+.gn-band .gn-lede{margin-top:20px}
+.gn-band--ink .gn-lede{color:rgba(255,255,255,.72)}
+.gn-hero h1{font-size:var(--gn-type-display); letter-spacing:var(--gn-tracking-display); line-height:var(--gn-leading-display); max-width:14ch}
+.gn-hero .gn-lede{margin-top:24px; color:var(--gn-text-secondary)}
+.gn-hero .gn-actions{margin-top:32px}
+.gn-band-figs{display:grid; grid-template-columns:repeat(4,1fr); gap:28px; margin-top:56px; padding:32px 0; border-top:1px solid var(--gn-rule-strong); border-bottom:1px solid var(--gn-rule-strong)}
+.gn-band-figs .gn-fig b{font-size:var(--gn-type-heading)}
+.gn-band-figs .gn-fig span{font-size:var(--gn-type-body); margin-top:4px}
+.gn-marketing-fig{font-size:var(--gn-type-display); letter-spacing:-.04em; line-height:1; font-weight:600}
+.gn-marketing-fig small{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); color:var(--gn-text-caption); margin-left:8px; font-weight:400}
+.gn-band--ink .gn-marketing-fig small{color:rgba(255,255,255,.5)}
+@media (max-width:900px){ .gn-band{padding:48px 0} .gn-band-figs{grid-template-columns:repeat(2,1fr)} .gn-hero h1{font-size:var(--gn-type-title)} .gn-site{padding:0 24px} }
+
+/* ── 18 · the product header, and what hangs off it ──────────────────── */
+/* one bar across every portal: the mark and portal, the organisation and its
+   state, search, what needs the reader, help, the person. The sidebar under it
+   carries navigation only. */
+.gn-header{position:sticky; top:0; z-index:30; height:56px; background:var(--gn-bg-page); border-bottom:1px solid var(--gn-rule-strong); display:flex; align-items:center; gap:24px; padding:0 24px}
+.gn-header--static{position:relative}
+.gn-header-m{display:flex; align-items:center; gap:12px; font-size:var(--gn-type-body); font-weight:600; color:var(--gn-text); cursor:pointer; white-space:nowrap}
+.gn-header-m i{width:24px; height:24px; border-radius:var(--gn-radius-small); background:var(--gn-brand-primary); color:#fff; display:grid; place-items:center; font-size:var(--gn-type-label); font-weight:600; flex:none}
+.gn-header-org{display:flex; align-items:center; gap:8px; font-size:var(--gn-type-body); color:var(--gn-text-secondary); white-space:nowrap; padding-left:24px; border-left:1px solid var(--gn-rule-strong); height:24px}
+.gn-header-org b{font-weight:400; color:var(--gn-text)}
+.gn-header-q{flex:1; display:flex; justify-content:center; min-width:0}
+.gn-header-q form{position:relative; width:min(420px,100%)}
+.gn-header-q .gn-icon{position:absolute; left:12px; top:50%; transform:translateY(-50%); width:16px; height:16px; color:var(--gn-text-quiet); pointer-events:none}
+.gn-header-q input{width:100%; height:36px; padding:0 44px 0 36px; font:inherit; font-size:var(--gn-type-body); color:var(--gn-text); background:var(--gn-bg-tone); border:1px solid transparent; border-radius:var(--gn-radius-part); outline:none}
+.gn-header-q input::placeholder{color:var(--gn-text-quiet)}
+.gn-header-q input:focus{background:var(--gn-bg-page); border-color:var(--gn-focus); box-shadow:0 0 0 3px var(--gn-focus-halo)}
+.gn-header-q kbd{position:absolute; right:8px; top:8px; height:20px; padding:0 8px; font-family:inherit; font-size:var(--gn-type-label); line-height:18px; color:var(--gn-text-caption); border:1px solid var(--gn-outline); border-radius:var(--gn-radius-small); background:var(--gn-bg-page)}
+.gn-header-r{display:flex; align-items:center; gap:4px; margin-left:auto}
+.gn-header-a{display:inline-flex; align-items:center; gap:8px; height:36px; padding:0 12px; border-radius:var(--gn-radius-part); font-size:var(--gn-type-body); color:var(--gn-text-secondary); cursor:pointer; white-space:nowrap; position:relative}
+.gn-header-a:hover{background:var(--gn-bg-hover); color:var(--gn-text)}
+.gn-header-a.is-on{color:var(--gn-interactive)}
+.gn-header-a .gn-icon{width:18px; height:18px; stroke-width:1.6}
+.gn-header-a .gn-count{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-header-a.needs .gn-count{color:var(--gn-signal)}
+.gn-header-u{display:flex; align-items:center; gap:12px; height:40px; padding:0 8px 0 4px; margin-left:12px; border-radius:var(--gn-radius-part); cursor:pointer; position:relative}
+.gn-header-u:hover{background:var(--gn-bg-hover)}
+.gn-header-u .gn-name{font-size:var(--gn-type-body); line-height:1.2; white-space:nowrap}
+.gn-header-u .gn-name span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-header-u .gn-icon--sm{color:var(--gn-text-quiet)}
+.gn-header .gn-menu-panel{top:calc(100% + 4px); min-width:220px}
+.gn-header--nonav .gn-header-q,.gn-header--nonav .gn-header-a{display:none}
+.gn-app--header{flex-direction:column}
+.gn-app--header .gn-app-b{display:flex; flex:1}
+.gn-app--header .gn-sidebar{top:56px; height:calc(100vh - 56px); padding-top:20px}
+@media (max-width:1100px){ .gn-header-a .gn-lb{display:none} .gn-header-q form{width:min(280px,100%)} }
+@media (max-width:760px){ .gn-header{padding:0 16px; gap:16px} .gn-header-org,.gn-header-q{display:none} .gn-header-u .gn-name{display:none} }
+/* the notification centre: what needs you, under the header's count */
+.gn-notifs{width:400px; max-width:92vw; overflow:hidden}
+.gn-notifs--fixed{position:absolute; right:0; top:calc(100% + 4px); z-index:31}
+.gn-notifs-h{display:flex; align-items:baseline; gap:16px; padding:16px 20px 12px; border-bottom:1px solid var(--gn-rule-strong)}
+.gn-notifs-h b{font-weight:600} .gn-notifs-h span{font-size:var(--gn-type-label); color:var(--gn-text-caption)} .gn-notifs-h .gn-link{margin-left:auto; font-size:var(--gn-type-label)}
+.gn-notifs-l{max-height:440px; overflow-y:auto}
+.gn-notifs .gn-eyebrow{padding:12px 20px 4px}
+.gn-notif{display:grid; grid-template-columns:8px minmax(0,1fr) auto; gap:12px; align-items:start; padding:12px 20px; border-bottom:1px solid var(--gn-rule); cursor:pointer}
+.gn-notif:hover{background:var(--gn-bg-hover)}
+.gn-notif i{width:8px; height:8px; border-radius:50%; background:var(--gn-outline); margin-top:6px}
+.gn-notif.is-new i{background:var(--gn-signal)}
+.gn-notif b{display:block; font-weight:400; font-size:var(--gn-type-body)} .gn-notif.is-new b{font-weight:600}
+.gn-notif span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-notif .gn-num{white-space:nowrap}
+.gn-notif .gn-actions{margin-top:8px; gap:12px}
+.gn-notifs-f{padding:12px 20px; border-top:1px solid var(--gn-rule-strong); font-size:var(--gn-type-label); text-align:center}
+/* banner: a line across the top of the product, under the header, for something everyone must know */
+.gn-banner{display:flex; align-items:center; gap:16px; padding:12px 24px; background:var(--gn-bg-selected); font-size:var(--gn-type-body); color:var(--gn-text)}
+.gn-banner b{font-weight:600; color:var(--gn-interactive)}
+.gn-banner.is-warn{background:var(--gn-warn-tint)} .gn-banner.is-warn b{color:var(--gn-warn)}
+.gn-banner.is-bad{background:#F9E6E3} .gn-banner.is-bad b{color:var(--gn-bad)}
+.gn-banner.is-good{background:var(--gn-good-tint)} .gn-banner.is-good b{color:var(--gn-good)}
+.gn-banner .gn-link{white-space:nowrap}
+.gn-banner .gn-x{margin-left:auto; width:28px; height:28px; display:grid; place-items:center; border-radius:var(--gn-radius-small); color:var(--gn-text-secondary); cursor:pointer}
+.gn-banner .gn-x:hover{background:rgba(0,2,38,.06)}
+/* counts: a number beside a word, never a pill */
+.gn-count{font-size:var(--gn-type-label); color:var(--gn-text-caption); font-variant-numeric:tabular-nums}
+.gn-count.needs{color:var(--gn-signal)}
+
+/* ── 19 · cards that carry a chart, an insight, or a finding ─────────── */
+/* chart card: an instrument in a surface. The figure, its comparison, the chart. */
+.gn-chartcard{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); min-width:0}
+.gn-chartcard .gn-chart-h{margin-bottom:4px}
+.gn-chartcard .gn-chart{margin-top:8px}
+.gn-chartcard-f{display:flex; gap:16px; align-items:baseline; margin-top:12px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-chartcard-f .gn-link{margin-left:auto}
+.gn-chartcards{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:24px}
+.gn-chartcards--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+/* insight: a finding in one sentence, why, and one action. Marked on the left by what it means. */
+.gn-insight{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+/* no rail and no tinted heading: the status word on the right of the head already says what this means,
+   and a second coloured thing on the same line says it twice. A finding whose state matters carries that
+   word; one that does not is neutral, and neutral is a legitimate thing for a finding to be. */
+.gn-insight-h{display:flex; align-items:baseline; gap:16px}
+.gn-insight-h b{font-weight:600; font-size:var(--gn-type-body)} .gn-insight-h .gn-status{margin-left:auto}
+.gn-insight p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:4px; line-height:1.5; max-width:var(--gn-measure-body)}
+.gn-insight .gn-figs{margin-top:12px; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px 24px}
+.gn-insight .gn-fig b{font-size:var(--gn-type-subhead)}
+.gn-insight .gn-actions{margin-top:12px}
+.gn-insights{display:grid; gap:12px; margin-top:16px}
+.gn-insights--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:1100px){ .gn-chartcards,.gn-chartcards--3,.gn-insights--2{grid-template-columns:1fr} }
+
+/* ── 20 · modal: one task that must not leave the page ───────────────── */
+.gn-modal{width:640px; max-width:92vw; max-height:90vh; display:flex; flex-direction:column; overflow:hidden}
+.gn-modal--fixed{position:fixed; left:50%; top:50%; transform:translate(-50%,-50%); z-index:30}
+.gn-modal-h{display:flex; align-items:center; gap:16px; padding:20px 28px 0}
+.gn-modal-h h2{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead)}
+.gn-modal-h .gn-panel-x{margin-left:auto}
+.gn-modal-b{padding:0 28px 24px; overflow-y:auto}
+.gn-modal-b > p{color:var(--gn-text-secondary); margin-top:8px}
+.gn-modal-b .gn-field:first-of-type{margin-top:20px}
+.gn-modal-f{border-top:1px solid var(--gn-rule-strong); padding:16px 28px; display:flex; gap:8px; justify-content:flex-end; align-items:center}
+.gn-modal-f .gn-link{margin-right:auto}
+
+/* ── 21 · data lists and split panes ─────────────────────────────────── */
+/* a description list with a label column: for a record read down, with an action per row */
+.gn-dl{font-size:var(--gn-type-body)}
+.gn-dl-r{display:grid; grid-template-columns:200px minmax(0,1fr) auto; gap:24px; padding:12px 0; border-bottom:1px solid var(--gn-rule); align-items:baseline}
+.gn-dl-r .gn-doc-l{font-size:var(--gn-type-body); color:var(--gn-text-caption)}
+.gn-dl-r .gn-doc-p{display:block; margin-top:2px}
+.gn-dl-r .gn-link{font-size:var(--gn-type-label); white-space:nowrap}
+.gn-dl--compact .gn-dl-r{grid-template-columns:140px minmax(0,1fr) auto; padding:8px 0}
+/* split panes with headers: a list pane and a detail pane on one rule */
+.gn-panes{display:grid; grid-template-columns:minmax(0,2fr) minmax(0,3fr); border:1px solid var(--gn-rule-strong); border-radius:var(--gn-radius-surface); overflow:hidden; min-height:420px}
+.gn-panes--3{grid-template-columns:220px minmax(0,1fr) minmax(0,1.2fr)}
+.gn-pane{min-width:0; display:flex; flex-direction:column; border-left:1px solid var(--gn-rule-strong)}
+.gn-pane:first-child{border-left:0}
+.gn-pane-h{display:flex; align-items:center; gap:12px; padding:12px 20px; border-bottom:1px solid var(--gn-rule-strong); font-size:var(--gn-type-body); min-height:48px}
+.gn-pane-h b{font-weight:600} .gn-pane-h .gn-count{margin-left:4px} .gn-pane-h .gn-link,.gn-pane-h .gn-btn{margin-left:auto}
+.gn-pane-b{flex:1; overflow:auto; min-height:0}
+.gn-pane-b .gn-row{padding:12px 20px} .gn-pane-b .gn-rows{border-top:0}
+.gn-pane-b .gn-doc{padding:16px 20px}
+.gn-pane-b > .gn-section{margin:16px 20px 0}
+.gn-pane--tone{background:var(--gn-bg-tone)}
+.gn-pane-b .gn-code{margin:16px 20px; padding:12px 16px}
+@media (max-width:900px){ .gn-panes,.gn-panes--3{grid-template-columns:1fr} .gn-pane{border-left:0; border-top:1px solid var(--gn-rule-strong)} .gn-pane:first-child{border-top:0} .gn-dl-r{grid-template-columns:1fr} }
+
+/* ── 22 · more instruments: area, waterfall, histogram, stacked, multi-series, small ── */
+.gn-chart .a2{fill:var(--gn-chart-2); opacity:.12}
+.gn-chart .w{fill:var(--gn-chart-2)} .gn-chart .w.neg{fill:var(--gn-chart-3)} .gn-chart .w.tot{fill:var(--gn-interactive)}
+.gn-chart .wl{font-size:13px; fill:var(--gn-text)} .gn-chart .wc{stroke:var(--gn-outline); stroke-width:1; stroke-dasharray:2 3}
+.gn-chart .h{fill:var(--gn-outline)} .gn-chart .h.on{fill:var(--gn-interactive)} .gn-chart .h.tail{fill:var(--gn-chart-3)}
+.gn-chart .hm{stroke:var(--gn-text); stroke-width:1; stroke-dasharray:3 3}
+.gn-chart rect.s1{fill:var(--gn-interactive)} .gn-chart rect.s2{fill:var(--gn-chart-2)} .gn-chart rect.s3{fill:var(--gn-chart-3)}
+.gn-chart-key i.f1{border:0; height:10px; width:10px; background:var(--gn-interactive); border-radius:2px} .gn-chart-key i.f2{border:0; height:10px; width:10px; background:var(--gn-chart-2); border-radius:2px} .gn-chart-key i.f3{border:0; height:10px; width:10px; background:var(--gn-chart-3); border-radius:2px}
+/* small multiples: a week of activity, or two values compared, in a row or a card */
+.gn-week{display:inline-flex; gap:4px; align-items:flex-end; height:28px}
+.gn-week i{display:block; width:8px; background:var(--gn-outline); border-radius:2px; height:var(--h,20%)}
+.gn-week i.on{background:var(--gn-interactive)}
+.gn-compare{display:grid; grid-template-columns:120px minmax(0,1fr) 72px; gap:12px; align-items:center; padding:8px 0; font-size:var(--gn-type-body)}
+.gn-compare .gn-bar{height:10px}
+.gn-compare .gn-bar i.s2{background:var(--gn-chart-2)}
+.gn-compare .gn-num{text-align:right}
+
+/* ── 23 · badges and tags: the dense-screen shorthand ─────────────────
+   Brought in on September 6, 2026 to take text out of dense screens. A badge
+   is a status word with a tint behind it, for a cell or a card head where
+   the word alone is lost. A tag is a category in a quiet box. Neither is
+   the default: a status word or a line is. Never more than one badge per
+   row, never a badge in the signal colour. */
+.gn-badge{display:inline-flex; align-items:center; gap:8px; height:22px; padding:0 8px; border-radius:var(--gn-radius-small); font-size:var(--gn-type-label); line-height:1; white-space:nowrap; background:var(--gn-gray-100); color:var(--gn-text-secondary)}
+.gn-badge.is-good{background:var(--gn-good-tint); color:var(--gn-good)}
+.gn-badge.is-warn{background:var(--gn-warn-tint); color:var(--gn-warn)}
+.gn-badge.is-bad{background:#F9E6E3; color:var(--gn-bad)}
+.gn-badge.is-info{background:var(--gn-bg-selected); color:var(--gn-interactive)}
+.gn-badge.is-ink{background:var(--gn-text); color:#fff}
+.gn-badge i{width:6px; height:6px; border-radius:50%; background:currentColor}
+.gn-badge--dot{padding:0; height:auto; background:none!important}
+.gn-badge--dot i{width:8px; height:8px}
+.gn-tag{display:inline-flex; align-items:center; height:22px; padding:0 8px; border-radius:var(--gn-radius-small); font-size:var(--gn-type-label); line-height:1; white-space:nowrap; border:1px solid var(--gn-rule-strong); color:var(--gn-text-secondary); background:var(--gn-bg-page)}
+.gn-tag.is-on{border-color:var(--gn-interactive); color:var(--gn-interactive)}
+.gn-tags{display:inline-flex; gap:8px; flex-wrap:wrap}
+.gn-row-t .gn-tags{display:inline-flex; margin-top:8px} .gn-row-t .gn-tag{display:inline-flex; margin-top:0; color:var(--gn-text-secondary)}
+/* chart text the library draws */
+.gn-chart .dc{font-size:22px; font-weight:600; fill:var(--gn-text); letter-spacing:-.015em}
+.gn-chart .gv{font-size:28px; font-weight:600; fill:var(--gn-text); letter-spacing:-.02em}
+.gn-chart .tl{font-size:13px; fill:#fff; font-weight:600} .gn-chart .tv{font-size:13px; fill:rgba(255,255,255,.8)}
+.gn-chart .dn{transition:opacity .12s ease} .gn-chart .dn:hover{opacity:.8}
+.gn-chart--sm{max-width:360px} .gn-chart--gauge{max-width:240px}
+.gn-chart-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px 32px; margin-top:16px}
+.gn-chart-grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:1000px){ .gn-chart-grid,.gn-chart-grid--3{grid-template-columns:1fr} }
+
+/* ── 24 · the chart library, second pass: tooltips, toggles, rings, KPI cards, loading ── */
+.gn-chart-tip{position:absolute; z-index:40; pointer-events:none; background:var(--gn-text); color:#fff; font-size:var(--gn-type-label); line-height:1.5; padding:8px 12px; border-radius:var(--gn-radius-small); white-space:nowrap; box-shadow:var(--gn-shadow-menu)}
+.gn-chart-tip b{display:block; font-weight:600; margin-bottom:2px}
+.gn-chart-tip i{display:inline-block; width:8px; height:8px; border-radius:2px; margin-right:8px; vertical-align:middle}
+.gn-chart-tip .sep{display:inline-block; width:12px}
+.gn-chart .hl{stroke:var(--gn-text); stroke-width:1; stroke-dasharray:3 3}
+.gn-chart g.series{transition:opacity .16s ease} .gn-chart g.series.is-off{opacity:.12}
+.gn-chart-key.is-toggles span{cursor:pointer} .gn-chart-key span.is-off{opacity:.4; text-decoration:line-through}
+.gn-chart .rv{font-size:13px; fill:var(--gn-text); font-weight:600}
+.gn-ring{display:block}
+.gn-rings{display:grid; gap:0}
+.gn-rings-r{display:grid; grid-template-columns:36px minmax(0,1fr) auto; gap:16px; align-items:center; padding:8px 0; border-bottom:1px solid var(--gn-rule); font-size:var(--gn-type-body)}
+.gn-rings-r b{display:block; font-weight:400} .gn-rings-r > span:nth-child(2) span{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+/* a change, with its direction */
+.gn-delta{display:inline-flex; align-items:center; gap:4px; font-size:var(--gn-type-label); white-space:nowrap}
+.gn-delta svg{width:12px; height:12px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round}
+.gn-delta.is-good{color:var(--gn-good)} .gn-delta.is-bad{color:var(--gn-bad)} .gn-delta.is-quiet{color:var(--gn-text-caption)}
+/* KPI cards: a number with one supporting visual */
+.gn-kpis{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-top:24px}
+.gn-kpis--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gn-kpi{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); display:flex; flex-direction:column; gap:8px; min-width:0}
+.gn-kpi-l{font-size:var(--gn-type-label); color:var(--gn-text-caption); display:flex; justify-content:space-between; gap:12px}
+.gn-kpi-v{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); font-weight:600; line-height:1; font-variant-numeric:tabular-nums; display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+.gn-kpi-v small{font-size:var(--gn-type-label); color:var(--gn-text-caption); font-weight:400; letter-spacing:0}
+.gn-kpi-s{font-size:var(--gn-type-label); color:var(--gn-text-caption); display:flex; align-items:center; gap:12px; flex-wrap:wrap}
+.gn-kpi .gn-spark{margin-top:4px; width:100%; height:32px}
+.gn-kpi--ring{display:grid; grid-template-columns:64px minmax(0,1fr); gap:16px; align-items:center}
+.gn-kpi--ring .gn-kpi-v{font-size:var(--gn-type-subhead)}
+.gn-kpi--marked{border-left:3px solid var(--gn-interactive); border-radius:0 var(--gn-radius-surface) var(--gn-radius-surface) 0}
+.gn-kpi--marked.is-good{border-color:var(--gn-good)} .gn-kpi--marked.is-warn{border-color:var(--gn-warn)} .gn-kpi--marked.is-bad{border-color:var(--gn-bad)}
+.gn-kpi--compact{padding:12px 16px; gap:4px} .gn-kpi--compact .gn-kpi-v{font-size:var(--gn-type-subhead)}
+.gn-kpi .gn-bar{margin-top:4px}
+@media (max-width:1100px){ .gn-kpis,.gn-kpis--3{grid-template-columns:repeat(2,minmax(0,1fr))} }
+/* loading: the bar that does not know, and the spinner */
+.gn-bar--indeterminate i{width:30%; animation:gn-indet 1.4s ease-in-out infinite}
+@keyframes gn-indet{0%{margin-left:-30%} 100%{margin-left:100%}}
+.gn-bar--lg{height:12px} .gn-bar--sm{height:4px}
+.gn-bar i.is-good{background:var(--gn-good)} .gn-bar i.is-warn{background:var(--gn-warn)}
+.gn-bar-l{display:flex; justify-content:space-between; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-bottom:8px}
+.gn-spinner{display:inline-block; width:20px; height:20px; border:2px solid var(--gn-track); border-top-color:var(--gn-interactive); border-radius:50%; animation:gn-spin .8s linear infinite; vertical-align:middle}
+.gn-spinner--sm{width:14px; height:14px; border-width:2px} .gn-spinner--lg{width:32px; height:32px; border-width:3px}
+.gn-spinner--ink{border-color:rgba(255,255,255,.25); border-top-color:#fff}
+@keyframes gn-spin{to{transform:rotate(360deg)}}
+.gn-spinner-l{display:inline-flex; align-items:center; gap:12px; font-size:var(--gn-type-body); color:var(--gn-text-secondary)}
+@media (prefers-reduced-motion:reduce){ .gn-spinner{animation:none; border-top-color:var(--gn-track)} .gn-bar--indeterminate i{animation:none; width:100%; margin:0; opacity:.5} }
+/* vertical stepper: a pipeline read down */
+.gn-stepper--v{display:flex; flex-direction:column; gap:0; grid-template-columns:none; margin-top:16px}
+.gn-stepper--v li{flex-direction:row; align-items:flex-start; text-align:left; gap:16px; padding:0 0 24px; font-size:var(--gn-type-body); color:var(--gn-text-secondary)}
+.gn-stepper--v li::before{top:28px; left:13px; width:1px; height:calc(100% - 28px); background:var(--gn-rule-strong)}
+.gn-stepper--v li:last-child::before{display:none} .gn-stepper--v li:first-child::before{display:block}
+.gn-stepper--v li.is-done::before{background:var(--gn-brand-primary)} .gn-stepper--v li.is-cur::before{background:var(--gn-rule-strong)}
+.gn-stepper--v li b{display:block; font-weight:600; color:var(--gn-text)} .gn-stepper--v li.is-cur b{color:var(--gn-text)}
+.gn-stepper--v li span{display:block} .gn-stepper--v li span.gn-spinner{display:inline-block} .gn-stepper--v li .gn-spinner-l{display:inline-flex; margin-top:4px} .gn-stepper--v li em{display:block; font-size:var(--gn-type-label); color:var(--gn-text-caption); margin-top:2px}
+.gn-stepper--v li.is-cur{font-weight:400}
+/* skeleton variants */
+.gn-skel--avatar{width:36px; height:36px; border-radius:50%}
+.gn-skel-card{padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface)}
+/* a colour strip for the anatomy section on chart pages */
+.gn-color-strip{display:flex; gap:12px; flex-wrap:wrap; margin-top:16px}
+.gn-color-strip span{display:inline-flex; align-items:center; gap:8px; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-color-strip i{width:20px; height:20px; border-radius:var(--gn-radius-small)}
+
+/* ── 25 · assist: what the network read, and the offer to read more ────
+   Three parts, and the difference between them is who started it. The reading
+   is on the page before anyone asks. The answer arrives because someone asked.
+   The explain trigger sits on one number and opens a reading of that number
+   alone. None of the three is a conversation, so none of them has a transcript,
+   an avatar or a name. Each says where it read, because a derived sentence the
+   reader cannot check is a sentence the reader cannot use.
+   All three obey the page's own grid: one column of argument on the measure,
+   and any figures on the same card grid and at the same size as the page's own,
+   never a second scatter of small numbers flush to the right edge. */
+
+/* the reading: on the page, before the question. It is read, not scanned, so it takes neither a fill
+   nor a rail — a coloured bar down the left of a rounded card is the one shape every AI feature in the
+   market now wears, and a fill spent here is a fill that means less everywhere it is earned. State is
+   said once, as the status word beside the finding. A hairline underneath closes the band,
+   so the reading belongs to the page opening above it rather than floating between two things. */
+.gn-reading{padding:0 0 20px; border-bottom:1px solid var(--gn-rule)}
+.gn-reading-e{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-reading-e b{font-weight:var(--gn-weight-semibold); color:var(--gn-interactive-text)}
+.gn-reading-e i{font-style:normal; color:var(--gn-text-quiet)}   /* the middot between eyebrow parts */
+/* tone is a word, and it appears once: the status word beside the finding. Tinting the eyebrow as well
+   says the same thing twice and tints a label that carries no meaning of its own. A reading whose tone is
+   anything but neutral must name that state in its head, which forces the copy to say it rather than
+   colour it. */
+.gn-reading-h{display:flex; align-items:baseline; gap:16px; margin-top:8px}
+.gn-reading-h b{font-weight:var(--gn-weight-semibold); font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); line-height:var(--gn-leading-subhead); text-wrap:balance}
+.gn-reading p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:8px; line-height:var(--gn-leading-body); max-width:var(--gn-measure-body)}
+.gn-reading .gn-actions{margin-top:12px}
+/* figures only where they exist nowhere else on the page: the page's own grid, the page's own size */
+.gn-reading .gn-figs{margin-top:20px}
+.gn-reading .gn-fig b{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead)}
+/* the prose variant: the finding is the emphasised clause inside the sentence rather than a heading
+   above it. Use it where something else on the page already leads — a figure row, a page opening, a
+   record name — and the reading is the explanation under it. */
+.gn-reading--prose .gn-reading-h{display:none}
+.gn-reading--prose p{color:var(--gn-text); margin-top:8px; max-width:var(--gn-measure-body)}
+.gn-reading--prose p b,.gn-reading--prose p strong{font-weight:var(--gn-weight-semibold)}
+.gn-reading--prose p + p{margin-top:8px}
+/* where the reading sits above a section rather than under the page opening, the hairline goes on top */
+.gn-reading--over{border-bottom:0; border-top:1px solid var(--gn-rule); padding:20px 0 0}
+
+/* the answer: the same reading, reached by asking. It floats under the field,
+   so it is the one assist surface that carries a shadow. One surface, not three
+   bands: the question is an eyebrow and the records are a hairline foot. */
+.gn-answer{background:var(--gn-white); border-radius:var(--gn-radius-surface); box-shadow:var(--gn-shadow-menu); padding:20px 24px}
+.gn-answer-q{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-answer-q b{font-weight:var(--gn-weight-regular); color:var(--gn-text-secondary)}
+.gn-answer-a > b{font-weight:var(--gn-weight-semibold); font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead); line-height:var(--gn-leading-subhead); display:block; margin-top:8px; text-wrap:balance}
+.gn-answer-a p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:8px; line-height:var(--gn-leading-body); max-width:var(--gn-measure-body)}
+.gn-answer-a .gn-figs{margin-top:16px; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px 24px}
+.gn-answer-a .gn-fig b{font-size:var(--gn-type-subhead); letter-spacing:var(--gn-tracking-subhead)}
+.gn-answer-a .gn-actions{margin-top:16px}
+/* what it read, named so the reader can open it and disagree */
+.gn-answer-src{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-top:16px; padding-top:12px; border-top:1px solid var(--gn-rule); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
+.gn-answer-src a{color:var(--gn-interactive-text); text-decoration:none}
+.gn-answer-src a:hover{text-decoration:underline}
+/* the questions offered before anything is typed: rows, not chips */
+.gn-answer-o{margin:8px -24px -20px}
+.gn-answer-o button{display:block; width:100%; text-align:left; padding:8px 24px; border:0; background:none; font:inherit; font-size:var(--gn-type-body); color:var(--gn-text); cursor:pointer}
+.gn-answer-o button:hover{background:var(--gn-bg-hover)}
+.gn-answer-o button:focus-visible{outline:2px solid var(--gn-focus); outline-offset:-2px}
+.gn-answer-o button:last-child{border-radius:0 0 var(--gn-radius-surface) var(--gn-radius-surface)}
+
+/* the explain trigger: one number, read aloud. Always present and always quiet: a
+   trigger that appears only on hover cannot be found by the reader who needs it most,
+   and cannot be reached at all by touch. In a figure card it sits in the corner, which
+   is where a container's own control belongs; beside prose it takes the word instead. */
+.gn-explain{display:inline-grid; place-items:center; width:24px; height:24px; padding:0; border:0; border-radius:var(--gn-radius-small); background:none; color:var(--gn-text-quiet); cursor:pointer; transition:color var(--gn-duration) var(--gn-ease)}
+.gn-explain i{width:16px; height:16px}
+.gn-explain:hover{background:var(--gn-bg-hover); color:var(--gn-interactive-text)}
+.gn-explain.is-on{background:var(--gn-bg-selected); color:var(--gn-interactive-text)}
+.gn-explain:focus-visible{outline:2px solid var(--gn-focus); outline-offset:2px}
+@media (prefers-reduced-motion:reduce){ .gn-explain{transition:none} }
+/* in a card the trigger is a corner control, so the number keeps its own baseline */
+.gn-figs--cards .gn-fig{position:relative}
+.gn-figs--cards .gn-fig .gn-explain{position:absolute; top:12px; right:12px; margin:0}
+/* what it opens: under the thing it explains, never over it. The cards above are already filled, so a
+   second fill here would merge the two into one grey mass; a hairline and space separate them instead. */
+.gn-explained{padding:16px 0 0; margin-top:16px; border-top:1px solid var(--gn-rule)}
+.gn-explained b{font-weight:var(--gn-weight-semibold); font-size:var(--gn-type-body)}
+.gn-explained p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:4px; line-height:var(--gn-leading-body); max-width:var(--gn-measure-body)}
+.gn-explained .gn-actions{margin-top:12px}
+
+/* ── The filled surface, and what it is for ───────────────────────────
+   --gn-bg-tone is the system's only fill, so what it marks has to stay narrow or it marks nothing.
+   Three jobs, and no fourth:
+     1 · a discrete object scanned or acted on as a unit — a figure card, a chart card, a tile;
+     2 · a container that holds input — a form block, a setup block, a lookup, a code block;
+     3 · a surface standing in for something absent, inert or lifted out — an empty state, a skeleton,
+         a row opened in place, a segment track.
+   A passage of prose is none of these. A reading, an explanation and a note are read rather than
+   scanned, and they take a hairline and space instead. When in doubt, the question is whether the
+   reader's eye needs to find the edge of the thing: a card has an edge that matters, a paragraph
+   does not. ───────────────────────────────────────────────────────────── */
+
+/* ── 26 · figures as cards, and the parts the layouts pass needs ───────
+   A figure row on a page is a row of cards: one toned surface each, the label
+   above the value, the note beneath. Inside a frame or a card they go back to
+   inline, because a card in a card stacks surfaces for nothing. */
+.gn-figs--cards{gap:16px}
+.gn-figs--cards .gn-fig{display:flex; flex-direction:column; padding:20px 24px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-surface); min-width:0}
+.gn-figs--cards .gn-fig span{order:-1; margin:0 0 12px}
+.gn-figs--cards .gn-fig small{margin-top:8px}
+.gn-figs--cards .gn-fig b.gn-status{font-size:var(--gn-type-heading)}
+/* the filter sentence: every condition on a list in one editable line */
+.gn-filterline{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap}
+.gn-filterline > span{font-size:var(--gn-type-body); padding:8px 16px; background:var(--gn-bg-tone); border-radius:var(--gn-radius-part)}
+.gn-filterline u{text-decoration:none; border-bottom:1px dashed var(--gn-text-quiet); cursor:pointer; color:var(--gn-text)}
+.gn-filterline u:hover{border-bottom-color:var(--gn-interactive); color:var(--gn-interactive-text)}
+.gn-filterline u:focus-visible{outline:2px solid var(--gn-focus); outline-offset:2px; border-radius:2px}
+/* a row in a row-list that needs the reader, matching the table's tr.is-hot */
+.gn-row.is-hot{box-shadow:inset 3px 0 0 var(--gn-signal)}
+/* the page opening: the page name as an eyebrow, the state of the day as the headline */
+.gn-open{padding:44px 0 0}
+.gn-open .gn-eyebrow{color:var(--gn-text-caption)}
+.gn-open h1{font-size:var(--gn-type-heading); letter-spacing:var(--gn-tracking-heading); line-height:var(--gn-leading-heading); text-wrap:balance; margin-top:8px; max-width:24ch}
+.gn-open p{font-size:var(--gn-type-body); color:var(--gn-text-secondary); margin-top:8px; max-width:var(--gn-measure-body)}
+.gn-open .gn-actions{margin-top:16px}
