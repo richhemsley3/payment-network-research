@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """First-pass verification without agents: fetch every cited URL (curl, then pypdf for PDFs, then a rendered page for script shells),
 look for the ledger's verbatim quote, and look up an archive.org snapshot. Writes ledger/verify/out/auto.json and a residue list.
-usage: python3 tools/verify-auto.py [--workers 6] [--only slug]"""
+usage: python3 tools/verify-auto.py [--workers 6] [--only slug] [--ids ids.json] [--out auto-name.json]"""
 import json, os, re, sys, subprocess, html, time, collections, urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -10,7 +10,9 @@ CACHE = os.path.join(SP, 'pages'); os.makedirs(CACHE, exist_ok=True)
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
 workers = int(sys.argv[sys.argv.index('--workers') + 1]) if '--workers' in sys.argv else 6
 only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
-S = [r for r in json.load(open(os.path.join(ROOT, 'sources.json'))) if r['kind'] == 'source' and '-w-' not in r['id'] and (only is None or r['network'] == only)]
+ids = set(json.load(open(sys.argv[sys.argv.index('--ids') + 1]))) if '--ids' in sys.argv else None
+OUT = sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else 'auto.json'
+S = [r for r in json.load(open(os.path.join(ROOT, 'sources.json'))) if r['kind'] == 'source' and '-w-' not in r['id'] and (only is None or r['network'] == only) and (ids is None or r['id'] in ids)]
 def norm(s): return re.sub(r'[^a-z0-9]+', ' ', html.unescape(s or '').lower()).strip()
 def quote_of(r):
     m = re.search(r'Quote: "(.*?)"(?: ·|$)', r.get('note') or ''); return m.group(1) if m else ''
@@ -63,7 +65,7 @@ with ThreadPoolExecutor(max_workers=workers) as ex:
     for i, out in enumerate(ex.map(work, urls)):
         allres += out
         if i % 50 == 0: print(f'{i}/{len(urls)} urls, {int(time.time()-t0)}s', flush=True)
-json.dump({'results': allres}, open(os.path.join(ROOT, 'ledger', 'verify', 'out', 'auto.json'), 'w'), indent=1)
+json.dump({'results': allres}, open(os.path.join(ROOT, 'ledger', 'verify', 'out', OUT), 'w'), indent=1)
 c = collections.Counter(r['result'] for r in allres); print(dict(c), f'{len(urls)} urls in {int(time.time()-t0)}s')
 residue = [r['id'] for r in allres if r['result'] != 'supports']
-json.dump(residue, open(os.path.join(ROOT, 'ledger', 'verify', 'residue.json'), 'w')); print(len(residue), 'claims for agent verification')
+json.dump(residue, open(os.path.join(ROOT, 'ledger', 'verify', 'residue-' + OUT), 'w')); print(len(residue), 'claims for agent verification')

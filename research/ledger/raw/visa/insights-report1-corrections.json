@@ -1,0 +1,85 @@
+{
+ "network": "visa",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Visa Acceptance Solutions' public status page has a separate Sandbox/Testing Environment component group, with its own API, payment, portal and settlement components, beside the production groups.",
+   "quote": "Sandbox/Testing Environment",
+   "url": "https://status.visaacceptance.com/",
+   "title": "Visa Acceptance Solutions Status",
+   "publisher": "Visa Inc.",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, the page and /api/v2/components.json, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "On 13 November 2025 Visa's visa/ai GitHub repository added a Gemini CLI extension, version 25.11.00, that points to a documentation MCP server on sandbox.mcp.visa.com.",
+   "quote": "\"httpUrl\": \"https://sandbox.mcp.visa.com/mcp/doc\"",
+   "url": "https://github.com/visa/ai/blob/65af8cb77ff2f0848e6d41463f189190b45e85c5/gemini-extension.json",
+   "title": "gemini-extension.json at commit 65af8cb, visa/ai",
+   "publisher": "GitHub (Visa Inc. organisation)",
+   "published": "2025-11-13",
+   "label": "Verified",
+   "fetch": "curl of raw.githubusercontent.com at the commit, plus the GitHub commits and repo APIs (repo created 2025-11-05), 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The @visa/cli README describes the package as an agent wallet that exposes paid tools over MCP so an AI assistant can pay for them, with mainnet moving real USDC.",
+   "quote": "Exposes Visa-funded paid tools as MCP (Model Context Protocol) tools so your AI assistant can pay for image generation, video, music",
+   "url": "https://www.npmjs.com/package/@visa/cli",
+   "title": "@visa/cli - npm",
+   "publisher": "npm registry (Visa Inc. package)",
+   "published": "2026-07-16",
+   "label": "Verified",
+   "fetch": "node research/tools/text.js 'https://www.npmjs.com/package/@visa/cli' on 2026-09-26 (README of 4.0.1, quote found verbatim, also 'Mainnet is the production default and moves real USDC'). Registry metadata by curl confirms description 'AI-powered payments for Claude Code', latest 4.0.1 on 2026-07-16, created 2026-04-03.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The Visa Developer Center homepage opens a Contact Us form to logged-out visitors, with Subject (Technical Support Request, Questions about an API, Pricing, Others), Message and Email Address fields.",
+   "quote": "Need help with an API, ready to move to production or have a question about something else? Please ask us here.",
+   "url": "https://developer.visa.com/",
+   "title": "Visa Developer Center",
+   "publisher": "Visa Developer Center (Visa Inc.)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "Headless Playwright render of https://developer.visa.com/ on 2026-09-26 at 1440 by 1000 with a desktop Chrome user agent. The cookie banner was rejected, then the 'Contact Us' button (class open-support-modal) was clicked to open the modal and its text was read. The form was not filled or submitted.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The Documentation MCP Server page on Visa's visa/ai GitHub wiki was first committed on 4 December 2025 and last updated on 24 March 2026.",
+   "quote": "Documentation MCP Server page",
+   "url": "https://github.com/visa/ai/wiki/Documentation-MCP-Server/_history",
+   "title": "History for Documentation MCP Server · visa/ai Wiki · GitHub",
+   "publisher": "GitHub (Visa Inc. organisation)",
+   "published": "2025-12-04",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent on 2026-09-26. The revision list shows the first commit 'Documentation MCP Server page' at 2025-12-04T18:20:59Z and the latest 'Updated VIC Documentation MCP Server (markdown)' at 2026-03-24T21:56:39Z. The GitHub API gives the visa/ai repo's created_at as 2025-11-05.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Visa Direct runs its own partner portal at vdpp.visa.com, with a partner registration page and a sign-in hosted outside Visa's Universal Login.",
+   "quote": "Visa Direct Partner Portal",
+   "url": "https://vdpp.visa.com/",
+   "title": "Visa Direct Partner Portal",
+   "publisher": "Visa Inc.",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, 2026-09-26. The page title is the quote. The page config names partnerRegistrationUrl https://vdpp.visa.com/partner/registration. https://vdpp.visa.com/bff/login returns HTTP 302 to auth.partner-experience.io. Nothing was submitted. Re-confirmed by the verifier on 2026-09-26.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

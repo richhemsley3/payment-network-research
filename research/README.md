@@ -35,6 +35,16 @@ dist/                       single-file builds for the Artifact, gitignored
 
 Preview: server `network-research` on port 8097, open `/research/competitive-networks.html`.
 
+## Report 2: the insight rounds
+
+Report 2 is rendered from `parts/cards.json`, the settled output of three multi-agent rounds run on September 25 and 26, 2026:
+
+1. A pressure test of the first twelve insights through evidence, partner-value and contrarian lenses, with judges, a red team and a cross-set critic.
+2. A search for missing insights across eight areas of partner value, with verification and a completeness critic.
+3. A second round on all 25: a claim-by-claim audit, the experience decision each informs, Discover's competitive position, a decision map, a red team and a final edit.
+
+New evidence from each round enters the ledger with `tools/insights-ingest.py <round> <rows.json> [accessed]`, is checked with `tools/verify-auto.py --ids <ids.json> --out auto-<round>.json`, and the residue goes to agents, whose verdicts land in `ledger/verify/out/agent-*.json`. `tools/cards-build.py` writes the decision blocks, gaps and advantages, cards, open questions and the record of the first twelve, and fails on any uncited observed sentence or unknown id. Citations in Report 2 are `{{rcite:id}}` markers that link into Report 1's register. A reference that starts with `proto:` points at a prototype file and renders as a plain pointer, never as evidence about a network.
+
 ## Published
 
 Both reports are private Artifacts. They were first published from the Global

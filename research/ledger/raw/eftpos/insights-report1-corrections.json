@@ -1,0 +1,20 @@
+{
+ "network": "eftpos",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "On AP+ Developers, every on-portal Documentation link in the API catalogue carries a lock marked 'page behind authentication' and the note 'Sign up or log in to view'. The documentation URLs redirect a signed-out reader to the login.",
+   "quote": "Sign up or log in to view",
+   "url": "https://www.developers.auspayplus.com.au/apis/",
+   "title": "Australian Payments Plus Developers",
+   "publisher": "Australian Payments Plus",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "Headless Chromium (Playwright, logged out) 2026-09-26: 17 of 17 on-portal Documentation anchors on /apis/ contain img alt 'page behind authentication' and the popup text. curl -I of /docs/eftpos/eftpos-bin-inquiry-api/ returned 307 to /auth/login. Overview pages such as /apis/eftpos/bin-inquiry/ render logged out.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

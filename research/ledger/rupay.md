@@ -1,6 +1,6 @@
 # RuPay
 
-Kind domestic scheme · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 23 claims: 0 Verified, 22 Reported, 1 Vendor
+Kind domestic scheme · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 23 claims: 0 Verified, 22 Reported, 1 Vendor
 
 ## Sources
 

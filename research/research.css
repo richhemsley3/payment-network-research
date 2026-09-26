@@ -64,9 +64,10 @@ a.rs-src:hover{color:var(--gn-interactive); text-decoration-color:var(--gn-inter
 .doc .gn-table--dense th,.doc .gn-table--dense td{padding-inline:var(--gn-space-12)}
 .doc .gn-table--dense th:first-child,.doc .gn-table--dense td:first-child{padding-left:0}
 .doc .gn-table th{white-space:normal; vertical-align:bottom}
+.rs-refs{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .rs-register td:first-child{white-space:nowrap; font-family:var(--gn-font-mono); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .doc ol.rv-l{margin:16px 0 0; padding-left:20px} .doc ol.rv-l li{margin-top:8px; max-width:var(--gn-measure-body); color:var(--gn-text-secondary); line-height:var(--gn-leading-body)}
 .doc-rev{color:var(--gn-text-caption)}
 @media (max-width:1100px){ .rs-contents{position:static; width:auto; max-height:none; border-right:0; border-bottom:1px solid var(--gn-rule); padding:24px 32px} body.gn-docs,.rs-page{display:block} .rs-shots{grid-template-columns:1fr} .rs-insight-g{grid-template-columns:1fr; gap:4px 0} }
 @media (max-width:760px){ .rs-contents{padding:16px} .doc{padding:0 16px 48px} }
-@media print{ .rs-contents{display:none} .doc{padding:0; max-width:none} figure,table,.rs-profile--compact,.rs-quote,.rs-insight{break-inside:avoid} a.rs-src::after{content:" " attr(data-src); color:var(--gn-text-quiet)} @page{margin:18mm} }
+@media print{ .rs-contents{display:none} .doc{padding:0; max-width:none} figure,table,.rs-profile--compact,.rs-quote,.rs-insight{break-inside:avoid} a.rs-src[data-src]::after{content:" " attr(data-src); color:var(--gn-text-quiet)} a.rs-src[data-ref]::after{content:" " attr(data-ref); color:var(--gn-text-quiet)} @page{margin:18mm} }

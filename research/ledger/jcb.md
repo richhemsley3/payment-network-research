@@ -1,6 +1,6 @@
 # JCB
 
-Kind domestic scheme · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 19 claims: 16 Verified, 0 Reported, 3 Vendor
+Kind domestic scheme · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 19 claims: 16 Verified, 0 Reported, 3 Vendor
 
 ## Sources
 

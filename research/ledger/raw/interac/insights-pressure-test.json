@@ -1,0 +1,19 @@
+{
+ "network": "interac",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Interac ran a public status page for its beta Public API, with email, text and feed alerts.",
+   "quote": "This page will inform you the current status of our Beta Version of Public API as well as any outages in the recent past.",
+   "url": "https://web.archive.org/web/20241003164505/https://status.interac.ca/",
+   "title": "Interac - Public API Status",
+   "publisher": "Interac Corp.",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "Wayback capture of 2024-10-03, read 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  }
+ ]
+}

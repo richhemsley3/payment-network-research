@@ -1,0 +1,59 @@
+{
+ "network": "amex",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "The American Express disputes page that cites 83% also says it can resolve US 'does not recognize' disputes alone 81.4% of the time.",
+   "quote": "We can help resolve the issue alone 81.4% of the time for US Card Members",
+   "url": "https://www.americanexpress.com/us/merchant/manage-disputes.html",
+   "title": "Manage Merchant Disputes & Chargebacks | Amex Merchants",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "American Express calls Enhanced Authorization, its merchant risk-data service, a free solution.",
+   "quote": "is a free solution from American Express that better identifies who is on the other end of transactions in real-time",
+   "url": "https://developer.americanexpress.com/products/enhanced-authorization-v2/overview",
+   "title": "Enhanced Authorization overview",
+   "publisher": "American Express Developers",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "American Express publishes Q2 2026 average availability of 99.92% and average response time of 539 ms for its Account and Transaction API in France and the UK.",
+   "quote": "Average Availability: Account and Transaction API = 99.92% MYCA Customer Interface = 99.98% MYCA Mobile = 99.96%",
+   "url": "https://icm.aexp-static.com/Internet/EnterpriseAPIPortal/products/account-and-transaction-api-public/account-and-transaction-api-public.overview.v2.json",
+   "title": "Account and Transaction API overview, Metrics section (content file for developer.americanexpress.com)",
+   "publisher": "American Express",
+   "published": "n.d. (Q2 2026 metrics)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26, HTTP 200. The same section reads 'Average Response Time: Account and Transaction API = 539 ms'. HTML tags removed from the quote.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "American Express frames Agent Purchase Protection as a future commitment for eligible customers, with terms and conditions to apply and kit services still in development.",
+   "quote": "In the future, if a Card Member authorizes an AI agent to make a purchase",
+   "url": "https://www.americanexpress.com/en-us/newsroom/articles/innovation/american-express-debuts-agentic-commerce-experiences--ace--devel.html",
+   "title": "American Express Debuts Agentic Commerce Experiences (ACE) Developer Kit and Announces Industry-First Protection for Registered Agent Purchases",
+   "publisher": "American Express",
+   "published": "2026-04-14",
+   "label": "Vendor",
+   "fetch": "Rendered with tools/text.js, logged out, 2026-09-26. Footnotes read 'Services in development.' and 'Terms and conditions will apply.'",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  }
+ ]
+}

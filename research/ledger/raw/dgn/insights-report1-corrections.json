@@ -1,0 +1,46 @@
+{
+ "network": "dgn",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Discover's public Going Live with Discover page lays out API implementation phases. They run from certification boarding and test-case execution to production boarding, end-to-end testing and launch, and a sample timeline gives milestones with no durations.",
+   "quote": "An implementation consists of four phases beginning with project setup, moving to integration & certification through production & end-to-end testing to rollout.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover | Discover Partner Product Portal",
+   "publisher": "Discover Global Network (DFS Services LLC, Capital One)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "headless Chromium via tools/text.js, logged out, 2026-09-26; quote found verbatim under 'Our Process'. Sample timeline image /images/pages/go-live/business-guide-tab/cof-timeline.jpg fetched by curl, 2026-09-26: three milestones, no durations, footnote reads 'All Legal contracts must be executed before the launch'",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The Partner Product Portal keeps an active login page at /login, while its page data switches the login button off.",
+   "quote": "\"login\":\"active\",\"showLoginButton\":\"inactive\"",
+   "url": "https://partner.discoverglobalnetwork.com/",
+   "title": "Discover Partner Product Portal",
+   "publisher": "DFS Services LLC (Capital One)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, 2026-09-26, server-rendered page data (JSON-escaped in the HTML). https://partner.discoverglobalnetwork.com/login returned HTTP 200 titled 'Login | Discover Partner Product Portal'. The same data names oktaIssuer https://identity.discoverglobalnetwork.com/oauth2/default. Re-confirmed by the verifier on 2026-09-26.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The Partner Product Portal's Going Live page sets out four implementation phases for its APIs, including certification, and shows a sample implementation timeline for card-on-file tokenisation.",
+   "quote": "An implementation consists of four phases beginning with project setup, moving to integration & certification through production & end-to-end testing to rollout.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover | Discover Partner Product Portal",
+   "publisher": "DFS Services LLC (Capital One)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, 2026-09-26 (the quote is in the server-rendered page data), and a headless render with node research/tools/text.js. The same page has a phase table (Certification Boarding, API Development, Certification, Production Boarding, End-to-End Testing, Provisioning and Launch) and a 'Sample Implementation Timeline' image with the alt text 'A diagram detailing the initial steps and milestones that make up the COF Tokenization Implementation Project timeline.' Logged out, nothing submitted.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

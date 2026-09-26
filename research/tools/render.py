@@ -76,7 +76,7 @@ def build(name):
     walks = [r for r in S.values() if r['kind'] == 'source' and '-w-' in r['id'] and r.get('dimension') == 'walk' and walked(r)]
     vids = [r for r in S.values() if r['kind'] == 'video']
     ver = sum(1 for r in srcs if r.get('confidence') == 'Verified')
-    rechecked = sum(1 for r in srcs if 'verified 2026-09-25' in (r.get('note') or '') or 'verified with qualification' in (r.get('note') or ''))
+    rechecked = sum(1 for r in srcs if re.search(r'verified 2026-09-2[0-9]', r.get('note') or '') or 'verified with qualification' in (r.get('note') or ''))
     C = {'sources': f"{len(srcs):,}", 'walks': str(len(walks)), 'videos': str(len(vids)), 'verified_pct': f"{round(100*ver/max(1,len(srcs)))} percent", 'verified_pc': f"{round(100*ver/max(1,len(srcs)))}%", 'rechecked_pct': f"{round(100*rechecked/max(1,len(srcs)))} percent", 'shots': str(sum(1 for r in S.values() if r['kind']=='shot'))}
     unv = 0
     for lf in __import__('glob').glob(os.path.join(ROOT, 'ledger', '*.md')):
@@ -86,6 +86,20 @@ def build(name):
             unv += sum(1 for l in sec.splitlines() if l.startswith('- ') and l != '- None.')
     C['unverified'] = str(unv)
     C['quotes'] = str(sum(1 for r in S.values() if r['kind'] == 'quote'))
+    cp = os.path.join(ROOT, 'parts', 'cards.json')
+    if os.path.exists(cp):
+        CD = json.load(open(cp)); ids = set()
+        def walkids(o):
+            if isinstance(o, dict):
+                for k, v in o.items():
+                    if k == 'ids' and isinstance(v, list): ids.update(v)
+                    else: walkids(v)
+            elif isinstance(o, list):
+                for v in o: walkids(v)
+        walkids(CD['cards'])
+        C.update({'cards': str(len(CD['cards'])), 'decisions': str(len(CD['map']['decisions'])), 'gaps': str(len(CD['map']['gaps'])),
+                  'advantages': str(len(CD['map']['advantages'])), 'cited': f"{len([i for i in ids if i in S]):,}",
+                  'cited_verified': f"{round(100 * sum(1 for i in ids if (S.get(i) or {}).get('confidence') == 'Verified') / max(1, len([i for i in ids if i in S])))}%"})
     t = re.sub(r'<!-- count:(\w+) -->', lambda m: C.get(m.group(1), '?'), t)
     t = re.sub(r'<!-- table:register(?::(\w+))? -->', lambda m: register(m.group(1)), t)
     t = re.sub(r'<!-- figs:([\w-]+):([\w,]+) -->', lambda m: figs(m.group(1), m.group(2)), t)
@@ -106,6 +120,21 @@ def build(name):
             lab = short_label(r).replace(';', ',')
             out.append(f'<a class="rs-src" href="competitive-networks.html#src-{esc(sid)}" title="{esc(r.get("claim") or "")}">{esc(lab)}</a> <span class="gn-status is-quiet">{esc(r.get("confidence") or "")}</span>')
         return ' · '.join(out)
+    def rcite(m):
+        out = []; seen = set()
+        for sid in m.group(1).split('+'):
+            rr = S.get(sid)
+            if rr:
+                k = (rr.get('url'), compact_label(rr))
+                if k in seen: continue
+                seen.add(k)
+            r = S.get(sid)
+            if not r: out.append(f'[missing {esc(sid)}]'); continue
+            conf = r.get('confidence') or ('Reported' if r.get('kind') == 'quote' else '')
+            tip = f"{r.get('title') or r.get('excerpt') or ''} · {r.get('publisher') or r.get('platform') or r.get('channel') or ''} · {conf}"
+            out.append(f'<a class="rs-src" data-ref="{esc(sid)}" href="competitive-networks.html#src-{esc(sid)}" title="{esc(tip)}">{esc(compact_label(r))}</a>')
+        return '<span class="rs-cite">(' + ' · '.join(out) + ')</span>'
+    t = re.sub(r'\{\{rcite:([\w+-]+)\}\}', rcite, t)
     t = re.sub(r'\{\{ref:([\w+-]+)\}\}', ref, t)
     open(os.path.join(ROOT, name), 'w').write(t); print(f'rendered {name}: {len(t)//1024} KB')
 for n in (sys.argv[1:] or ['competitive-networks.html', 'prototype-insights.html']):

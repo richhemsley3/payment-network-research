@@ -1,0 +1,46 @@
+{
+ "network": "diners",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "The Uzcard release also extends global acceptance to Uzcard's own cardholders, so the alliance runs both ways.",
+   "quote": "UZCARD, Uzbekistan’s leading national payment system, has announced the launch of a strategic alliance with Discover® Network to extend global acceptance benefits to its cardholders.",
+   "url": "https://resources.dinersclub.com/home/uzcard-and-discover-network-announce-strategic-alliance",
+   "title": "UZCARD and Discover® Network Announce Strategic Alliance to Expand Global Payment Access in Uzbekistan",
+   "publisher": "Diners Club International",
+   "published": "2026-01-09",
+   "label": "Vendor",
+   "fetch": "curl, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Nium announced the launch of a Diners Club International card for its travel customers on 9 January 2025, and says the offering is available internationally.",
+   "quote": "today announced the launch of the Diners Club International® Card for its travel customers",
+   "url": "https://resources.dinersclub.com/home/nium-launches-diners-club-card-to-expand-b2b-payments-for-travel",
+   "title": "Nium Launches Diners Club International Card to Expand B2B Payments for Travel Industry",
+   "publisher": "Diners Club International, Club Connections (resources.dinersclub.com)",
+   "published": "2025-01-09 (release dateline, page dated 2025-02-28)",
+   "label": "Vendor",
+   "fetch": "tools/text.js rendered text, 2026-09-26. The release adds 'The new offering is available internationally.'",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Pax2pay announced a strategic agreement with Diners Club International on 30 October 2024, describing travel virtual cards in the future tense.",
+   "quote": "Diners Club International will offer virtual cards specifically designed for travel-related transactions",
+   "url": "https://resources.dinersclub.com/home/pax2pay-partnership-to-drive-growth-in-travel-payments",
+   "title": "Pax2pay, a Leading UK Virtual Card Issuer, Signs Agreement with Diners Club International",
+   "publisher": "Diners Club International, Club Connections (resources.dinersclub.com)",
+   "published": "2024-10-30 (release dateline, page dated 2025-02-28)",
+   "label": "Vendor",
+   "fetch": "tools/text.js rendered text, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  }
+ ]
+}

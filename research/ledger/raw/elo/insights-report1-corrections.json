@@ -1,0 +1,20 @@
+{
+ "network": "elo",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Dev.Elo's API catalogue at /portal-dev/apis links a documentation page for each API. The API Antifraude Loja page renders an introduction and an OAS 2.0 API reference to a signed-out reader.",
+   "quote": "This API is responsible to pre authorize an online purchase request using the Elo Fraud Model.",
+   "url": "https://dev.elo.com.br/portal-dev/apis/api-antifraude-loja/docs",
+   "title": "ELO - Desenvolvedores",
+   "publisher": "Elo Serviços S.A.",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "Headless Chromium (Playwright, logged out) 2026-09-26. The API Reference section shows Base URL api.elo.com.br/online-purchase and POST /v1/authorize-purchase. The catalogue at /portal-dev/apis lists APIs with Documentação links.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

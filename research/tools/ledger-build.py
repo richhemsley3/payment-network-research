@@ -76,7 +76,7 @@ def build(slug):
     for c in claims: c['id'] = assign(c)
     claims.sort(key=lambda c: int(c['id'].split('-')[-1]))
     by_label = collections.Counter(c.get('label', '') for c in claims)
-    lines = [f"# {NAME.get(slug, slug)}", '', f"Kind {KIND.get(slug, '')} · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · {len(claims)} claims: {by_label.get('Verified', 0)} Verified, {by_label.get('Reported', 0)} Reported, {by_label.get('Vendor', 0)} Vendor", '',
+    lines = [f"# {NAME.get(slug, slug)}", '', f"Kind {KIND.get(slug, '')} · Accessed {min([c.get('accessed') or '2026-09-25' for c in claims] or ['2026-09-25'])} to {max([c.get('accessed') or '2026-09-25' for c in claims] or ['2026-09-25'])} · Viewport 1440 by 1000 · Logged out unless the note says otherwise · {len(claims)} claims: {by_label.get('Verified', 0)} Verified, {by_label.get('Reported', 0)} Reported, {by_label.get('Vendor', 0)} Vendor", '',
              '## Sources', '', '| Id | Claim | Dimension | Title | Publisher | URL | Published | Accessed | Confidence | Archive | Note |', '|---|---|---|---|---|---|---|---|---|---|---|']
     unverified = []
     kept_claims = []
@@ -97,9 +97,10 @@ def build(slug):
         v = c.get('_ver'); arch = ''
         if v:
             arch = cell(v.get('archive_url') or '')
-            tag = {'supports': 'verified 2026-09-25', 'qualified': 'verified with qualification: ' + cell(v.get('qualification')), 'unsupported': 'quote not found on the live page, archived copy kept', 'page-changed': 'page changed, archived copy kept', 'not-fetched': 'not re-read, blocked on 2026-09-25'}.get(v.get('result'), '')
+            vd = v.get('date') or '2026-09-25'
+            tag = {'supports': 'verified ' + vd, 'qualified': 'verified with qualification: ' + cell(v.get('qualification')), 'unsupported': 'quote not found on the live page, archived copy kept', 'page-changed': 'page changed, archived copy kept', 'not-fetched': 'not re-read, blocked on ' + vd}.get(v.get('result'), '')
             if tag: note += (' · ' if note else '') + tag
-        lines.append(f"| {c['id']} | {cell(c.get('claim'))} | {cell(c.get('dimension'))} | {cell(c.get('title'))} | {cell(c.get('publisher'))} | {cell(c.get('url'))} | {cell(c.get('published') or 'n.d.')} | 2026-09-25 | {cell(c.get('label'))} | {arch} | {note} |")
+        lines.append(f"| {c['id']} | {cell(c.get('claim'))} | {cell(c.get('dimension'))} | {cell(c.get('title'))} | {cell(c.get('publisher'))} | {cell(c.get('url'))} | {cell(c.get('published') or 'n.d.')} | {cell(c.get('accessed') or '2026-09-25')} | {cell(c.get('label'))} | {arch} | {note} |")
     # walk records become citable observations, one row per walk, ids stable by walk name
     shots = []
     for w in walks:

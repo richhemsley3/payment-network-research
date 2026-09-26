@@ -1,0 +1,229 @@
+{
+ "results": [
+  {
+   "id": "amex-446",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, then curl with desktop Chrome UA: HTTP 200, text/html, 1,710 bytes, SPA shell",
+   "archive_url": null,
+   "note": "/llms.txt returns HTML app shell (\"<!doctype html>\"), not a text file; contains \"<title>American Express Developers</title>\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-204",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (footer missing), then rendered text via tools/text.js",
+   "archive_url": null,
+   "note": "Footer: \"The Ramp Visa Commercial Card is issued by Sutton Bank, Member FDIC.\" Corporate/Business also named; \"Each card is issued pursuant to a license from Visa USA Inc.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-205",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (footer missing), then rendered text via tools/text.js",
+   "archive_url": null,
+   "note": "\"The IO Card is issued by Patriot Bank, N.A., Member FDIC, pursuant to a license from Mastercard International Incorporated.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-196",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl with desktop Chrome UA (server-rendered page data); curl header check of portal.discoverglobalnetwork.com",
+   "archive_url": null,
+   "note": "Page data: \"oktaIssuer\":\"https://identity.discoverglobalnetwork.com/oauth2/default\". Disputes Portal returns 302 to identity.discoverglobalnetwork.com/oauth2/default/v1/authorize.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-204",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl with desktop Chrome UA (server-rendered featureFlags, JSON-escaped)",
+   "archive_url": null,
+   "note": "\"register\":\"inactive\",\"myProfile\":\"active\",\"emailMethod\":\"\",\"layer7ApiKeys\":\"active\",\"projects\":\"active\" ... \"apiCredentialsTab\":\"active\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-205",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (404), then curl with desktop Chrome UA for body and sibling hosts",
+   "archive_url": null,
+   "note": "404 body: \"The requested URL \"https://developer.discover.com/llms.txt\" was not found on this server.\" partner. and www.discoverglobalnetwork.com /llms.txt also 404.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-252",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (title only), curl of page and JS bundle, Playwright load capturing the coverage JSON the page fetches",
+   "archive_url": null,
+   "note": "Coverage data: 247 DN rows; credit H 57, G 38, J 15, NO COVERAGE 137; 105 with ATM level. Bundle tooltip: \"No locations accept your card here\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-253",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (title only), then curl of page JS bundle main.3a973b1b.js",
+   "archive_url": null,
+   "note": "USA panel: \"Discover® is accepted at 99% of places that take credit cards nationwide.*\" footnote \"According to the Feb 2026 issue of the Nilson Report.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-267",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (truncated), then curl with desktop Chrome UA of the reference page (embedded OpenAPI)",
+   "archive_url": null,
+   "note": "\"Card network where the transaction took place. AMEX, VISA, MASTERCARD, MAESTRO, or INTERLINK.\" Transaction enum adds UNKNOWN; no DISCOVER or PULSE anywhere on page.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-272",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, confirmed with rendered text via tools/text.js",
+   "archive_url": null,
+   "note": "Rows: \"Diners Global $0.13 + 3.95%\", \"Discover Global $0.13 + 3.95%\"; Visa and Mastercard Global \"$0.13 + Interchange+ + 0.60%\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-276",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch (title only), Playwright load of the page capturing its coverage and countries JSON",
+   "archive_url": null,
+   "note": "Jamaica row matches quote exactly. Caribbean+Central America (incl. Mexico): 35 markets, 6 with ATM level (Panama, Puerto Rico, Mexico, USVI, BVI, Costa Rica).",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-280",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl with desktop Chrome UA of server-rendered product data",
+   "archive_url": null,
+   "note": "\"brandCode\":\"SPARKCASHPLUS\",\"cardNetwork\":\"Visa\"; 28 cardNetwork tags, values only Visa and MasterCard; no Discover on page.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-281",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl header check with desktop Chrome UA; Wayback CDX API",
+   "archive_url": "https://web.archive.org/web/20220314104213/https://www.discover.com/credit-cards/business/",
+   "note": "Live: HTTP/2 301 \"location: https://www.discover.com/credit-cards/?defaultoffer=yes&vcmpgn=businesspage\". CDX first 301 at 20220314104213; 200s before.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-311",
+   "result": "supports",
+   "qualification": "The homepage's Next.js page data carries the feature flags as quoted. /login returns HTTP 200 with the title 'Login | Discover Partner Product Portal'.",
+   "fetch": "WebFetch did not show the page data. A curl of the raw HTML with a Chrome user agent did, and a curl of /login returned 200.",
+   "archive_url": null,
+   "note": "featureFlags:{\"login\":\"active\",\"showLoginButton\":\"inactive\",...}; /login <title>Login | Discover Partner Product Portal</title>",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "eftpos-026",
+   "result": "supports",
+   "qualification": "All 17 on-portal API-card Documentation links carry a lock.svg image with alt text 'page behind authentication' and a popup reading 'Sign up or log in to view'. The three doc URLs sampled (eftpos BIN inquiry, NPP, BPAY submit payment) each 307-redirect to /auth/login?returnTo=... for a signed-out reader.",
+   "fetch": "WebFetch returned only the header. The page was then rendered with text.js and a Playwright DOM read, and curl checked the redirects.",
+   "archive_url": null,
+   "note": "Documentation<img alt=\"page behind authentication\" src=\"/img/icon/lock.svg\">...Sign up or log in to view",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "elo-035",
+   "result": "supports",
+   "qualification": "The /portal-dev/apis catalogue links a Documentação page for each API, including /api-antifraude-loja/docs. That page renders its Introdução to a signed-out reader. Its API Reference renders from an embedded Swagger 2.0 spec whose info.description is the quoted sentence.",
+   "fetch": "WebFetch returned only the intro. The page and the catalogue were then rendered with text.js and Playwright, which clicked the API Reference sidebar button and read the page response.",
+   "archive_url": null,
+   "note": "\"swagger\":\"2.0\",\"info\":{\"title\":\"Online Purchase\",...\"description\":\"This API is responsible to pre authorize an online purchase request using the Elo Fraud Model.\"}",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-411",
+   "result": "supports",
+   "qualification": "The count matches exactly. 'Remote server use is not counted' is a scope caveat the ledger adds: the page does not say it, but it holds for an npm downloads count.",
+   "fetch": "WebFetch, confirmed by curl (HTTP 200).",
+   "archive_url": null,
+   "note": "{\"downloads\":477,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@mastercard/developers-mcp\"}",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-412",
+   "result": "supports",
+   "qualification": "The count matches exactly, and 477 + 1,036 = 1,513. The npm registry describes the package as 'Agent Toolkit for Mastercard Developers Platform'.",
+   "fetch": "WebFetch, confirmed by curl. The package description came from registry.npmjs.org.",
+   "archive_url": null,
+   "note": "{\"downloads\":1036,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@mastercard/developers-agent-toolkit\"}",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "pulse-072",
+   "result": "supports",
+   "qualification": "The Debit Dashboard, ATM List Manager and PULSE Exchange links all point to https://www.pulsenetwork.com/pulse/login.html. The Marketing Hub link points to www.debitmarketinghub.com. The quoted attribute string appears verbatim in the HTML.",
+   "fetch": "WebFetch, confirmed by curl of the raw HTML with a Chrome user agent.",
+   "archive_url": null,
+   "note": "<a title=\"Discover Debit Marketing Hub\" href=\"https://www.debitmarketinghub.com\"...>; <a title=\"PULSE Exchange\" href=\"https://www.pulsenetwork.com/pulse/login.html\">",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-441",
+   "result": "supports",
+   "qualification": "The path returns HTTP 404, and the JSON body matches the quote exactly.",
+   "fetch": "WebFetch reported a 404 with no body. curl with a Chrome user agent retrieved the body.",
+   "archive_url": null,
+   "note": "{\"status\":404,\"code\":\"9000\",\"severity\":\"ERROR\",\"message\":\"Invalid URI\"} HTTP 404",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-442",
+   "result": "supports",
+   "qualification": "The count matches exactly. The npm registry describes @visa/cli as 'AI-powered payments for Claude Code'. The 'far above' comparison rests on the other ledger rows (1,036, 477 and 67 downloads), and the figures agree.",
+   "fetch": "WebFetch, confirmed by curl. The package description came from registry.npmjs.org.",
+   "archive_url": null,
+   "note": "{\"downloads\":34493,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@visa/cli\"}; description \"AI-powered payments for Claude Code\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-443",
+   "result": "supports",
+   "qualification": "last_month is 67. pypistats' /overall endpoint ends at 2026-09-25, and its daily without-mirrors counts from 27 Aug to 25 Sep sum to 67, which matches 'the month to 25 September'.",
+   "fetch": "WebFetch, confirmed by curl. The date was checked with the pypistats /overall endpoint.",
+   "archive_url": null,
+   "note": "{\"data\":{\"last_day\":2,\"last_month\":67,\"last_week\":14},\"package\":\"cybersource-developer-mcp\",\"type\":\"recent_downloads\"}",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-454",
+   "result": "supports",
+   "qualification": "The rule is on PDF page 657 of the 18 April 2026 edition (ID# 0008446) and matches the quote verbatim.",
+   "fetch": "curl downloaded the PDF (923 pages), and pypdf extracted the text.",
+   "archive_url": null,
+   "note": "In the US Region: Visa Advanced Authorization data is provided to all Issuers, and an Issuer is responsible for Visa Advanced Authorization fees, regardless...",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-459",
+   "result": "supports",
+   "qualification": "The logged-out homepage (showing 'Sign In') has Contact Us and Ask Our Team buttons. Opening Contact Us rendered the modal with the quote, the four Subject options, and the Message and Email Address fields. Nothing was typed or submitted.",
+   "fetch": "WebFetch found the quote but not the fields. curl then fetched the homepage, the top_nav.js template and the public /vdp-api/feedbacks list, and Playwright opened the modal read-only.",
+   "archive_url": null,
+   "note": "Need help with an API, ready to move to production or have a question about something else? Please ask us here. Subject: Technical Support Request / Questions about an API / Pricing / Others",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-461",
+   "result": "supports",
+   "qualification": "vdpp.visa.com has the title 'Visa Direct Partner Portal' and runs on the Impartner PRM platform (px.prmcdn.io). Its Register and Apply links go to /partner/registration. Login goes to vdpp.visa.com/login, a local Username/Password sign-in, not Visa's Universal Login.",
+   "fetch": "WebFetch returned the title only. curl then fetched the raw HTML, and text.js and a Playwright link listing rendered the landing page and /login.",
+   "archive_url": null,
+   "note": "<title>Visa Direct Partner Portal</title>; partnerRegistrationUrl https://vdpp.visa.com/partner/registration; /login: \"Sign in to your account... Username Password\"",
+   "date": "2026-09-26"
+  }
+ ]
+}

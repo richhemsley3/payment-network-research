@@ -1,0 +1,20 @@
+{
+ "network": "interlink",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "A processor notice says Interlink charges merchants a fee on approved card-not-present token authorisations from June 2026.",
+   "quote": "Effective June 2026, Interlink will assess a card-not-present token fee on all domestic and cross-border approved Interlink card-not-present token authorizations.",
+   "url": "https://merchants.fiserv.com/en-us/partner-solutions/card-brand-updates/",
+   "title": "June 2026 Card Brand Updates",
+   "publisher": "Fiserv",
+   "published": "n.d. (June 2026 updates)",
+   "label": "Reported",
+   "fetch": "text.js 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  }
+ ]
+}

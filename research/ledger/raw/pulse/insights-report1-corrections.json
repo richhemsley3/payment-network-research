@@ -1,0 +1,20 @@
+{
+ "network": "pulse",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "PULSE's Client Support page links the Debit Dashboard, ATM List Manager and PULSE Exchange to the PULSE site login, and the Marketing Hub to a separate site.",
+   "quote": "title=\"Discover Debit Marketing Hub\" href=\"https://www.debitmarketinghub.com\"",
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "title": "Client Support | PULSE Network",
+   "publisher": "PULSE Network (Capital One)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, 2026-09-26. The other three Log In / Register links point to https://www.pulsenetwork.com/pulse/login.html. https://www.debitmarketinghub.com redirects to a Marq sign-in at app.marq.com/users/login. Re-confirmed by the verifier on 2026-09-26.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

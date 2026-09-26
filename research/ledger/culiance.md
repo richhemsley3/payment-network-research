@@ -1,6 +1,6 @@
 # CULIANCE
 
-Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 18 claims: 9 Verified, 1 Reported, 8 Vendor
+Kind US debit and ATM · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 18 claims: 9 Verified, 1 Reported, 8 Vendor
 
 ## Sources
 

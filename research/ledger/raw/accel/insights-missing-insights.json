@@ -1,0 +1,20 @@
+{
+ "network": "accel",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Four large banks held preliminary talks in July 2026 to buy a Fiserv debit network, arguing it would sit outside the Durbin cap. Analysts doubted the logic.",
+   "quote": "Banks could use a debit network to boost interchange fee revenue, arguing that they wouldn’t be subject to the Durbin Amendment",
+   "url": "https://www.paymentsdive.com/news/fiserv-debit-network-sale-skepticism-abounds/824706/",
+   "title": "Fiserv debit network sale skepticism abounds",
+   "publisher": "Payments Dive (Lynne Marek)",
+   "published": "2026-07-08",
+   "label": "Reported",
+   "fetch": "curl 2026-09-25",
+   "accessed": "2026-09-25",
+   "note": "Added by the insight work (missing-insights), accessed 2026-09-25. "
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "network": "diners",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Capital One's 10-K names interrupted licensee relationships as a threat to international acceptance of its cards.",
+   "quote": "interruption of network licensee relationships could have an adverse effect on the international acceptance of our credit cards when they are used on our networks",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "title": "Capital One Financial Corporation Form 10-K for fiscal year ended December 31, 2025",
+   "publisher": "Capital One via SEC EDGAR",
+   "published": "2026-02-19",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25",
+   "accessed": "2026-09-25",
+   "note": "Added by the insight work (missing-insights), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Thredd's Discover access began with Diners Club virtual cards for clients in Europe and Asia Pacific.",
+   "quote": "Initial efforts will focus on virtual card issuance with Diners Club International.",
+   "url": "https://thepaypers.com/payments/news/thredd-expands-partnership-with-discover-global-network",
+   "title": "Thredd expands partnership with Discover Global Network",
+   "publisher": "The Paypers",
+   "published": "2024-06-06",
+   "label": "Reported",
+   "fetch": "text.js render, 2026-09-25",
+   "accessed": "2026-09-25",
+   "note": "Added by the insight work (missing-insights), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The US Diners Club franchise, held by BMO, sells its corporate cards on Mastercard acceptance.",
+   "quote": "Cards are accepted at more than 50 million Mastercard® merchant locations worldwide.",
+   "url": "https://www.dinersclubus.com/us/corpcard/",
+   "title": "Corporate Cards for Employee T&E | Diners Club",
+   "publisher": "BMO Bank N.A. (Diners Club US licensee)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl, desktop Chrome UA, 2026-09-26. Reached from the United States entry in dinersclub.com's country list.",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (missing-insights), accessed 2026-09-26. "
+  }
+ ]
+}

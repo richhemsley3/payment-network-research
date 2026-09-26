@@ -1,6 +1,6 @@
 # Jeanie
 
-Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 16 claims: 10 Verified, 5 Reported, 1 Vendor
+Kind US debit and ATM · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 16 claims: 10 Verified, 5 Reported, 1 Vendor
 
 ## Sources
 

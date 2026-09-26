@@ -1,0 +1,19 @@
+{
+ "network": "amex",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "The American Express developer portal publishes no llms.txt. The path returns the portal's single-page app shell as HTML.",
+   "quote": "<title>American Express Developers</title>",
+   "url": "https://developer.americanexpress.com/llms.txt",
+   "title": "American Express Developers (app shell served at /llms.txt)",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-25, HTTP 200 text/html, 1,710 bytes, body is an empty root div",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  }
+ ]
+}

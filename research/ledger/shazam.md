@@ -1,6 +1,6 @@
 # SHAZAM
 
-Kind US debit and ATM · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 22 claims: 2 Verified, 0 Reported, 20 Vendor
+Kind US debit and ATM · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 22 claims: 2 Verified, 0 Reported, 20 Vendor
 
 ## Sources
 

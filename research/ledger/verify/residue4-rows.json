@@ -1,0 +1,227 @@
+[
+ {
+  "id": "amex-446",
+  "claim": "The American Express developer portal publishes no llms.txt. The path returns the portal's single-page app shell as HTML.",
+  "quote": "<title>American Express Developers</title>",
+  "url": "https://developer.americanexpress.com/llms.txt",
+  "title": "American Express Developers (app shell served at /llms.txt)",
+  "publisher": "American Express",
+  "confidence": "Verified"
+ },
+ {
+  "id": "cross-204",
+  "claim": "Ramp's commercial, corporate and business cards are all issued under a Visa licence.",
+  "quote": "The Ramp Visa Commercial Card is issued by Sutton Bank, Member FDIC.",
+  "url": "https://ramp.com/",
+  "title": "Ramp home page (legal footer, rendered)",
+  "publisher": "Ramp Business Corporation",
+  "confidence": "Verified"
+ },
+ {
+  "id": "cross-205",
+  "claim": "Mercury's IO corporate card is issued on Mastercard.",
+  "quote": "The IO Card is issued by Patriot Bank, N.A., Member FDIC, pursuant to a license from Mastercard International Incorporated.",
+  "url": "https://mercury.com/",
+  "title": "Mercury home page (legal footer, rendered)",
+  "publisher": "Mercury Technologies",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-196",
+  "claim": "The Partner Product Portal signs in through identity.discoverglobalnetwork.com, the same issuer the Disputes Portal redirects to. Two Discover portals already share one identity provider.",
+  "quote": "\"oktaIssuer\":\"https://identity.discoverglobalnetwork.com/oauth2/default\"",
+  "url": "https://partner.discoverglobalnetwork.com/",
+  "title": "Discover Partner Product Portal",
+  "publisher": "DFS Services LLC (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-204",
+  "claim": "The Partner Product Portal's page data switches on projects, API keys and a credentials tab and switches off registration.",
+  "quote": "\"register\":\"inactive\",\"myProfile\":\"active\",\"emailMethod\":\"\",\"layer7ApiKeys\":\"active\",\"projects\":\"active\"",
+  "url": "https://partner.discoverglobalnetwork.com/",
+  "title": "Discover Partner Product Portal",
+  "publisher": "DFS Services LLC (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-205",
+  "claim": "Discover's Developer Center publishes no llms.txt. The partner portal and the Discover Global Network site also return 404 for it.",
+  "quote": "The requested URL \"https://developer.discover.com/llms.txt\" was not found on this server.",
+  "url": "https://developer.discover.com/llms.txt",
+  "title": "404 Not Found",
+  "publisher": "Discover Global Network",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-252",
+  "claim": "The data Discover's public map loads, for Discover cards only, grades 247 countries and territories. It shows 57 many locations, 38 growing, 15 limited and 137 no coverage. 105 show some ATM coverage.",
+  "quote": "No locations accept your card here",
+  "url": "https://travel.discoverglobalnetwork.com/guides",
+  "title": "Discover Network Acceptance - Where You Can Use Your Card Worldwide",
+  "publisher": "DFS Services LLC (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-253",
+  "claim": "The map's US panel states 99 percent parity and names its third-party source.",
+  "quote": "According to the Feb 2026 issue of the Nilson Report.",
+  "url": "https://travel.discoverglobalnetwork.com/guides",
+  "title": "Discover Network Acceptance - Where You Can Use Your Card Worldwide",
+  "publisher": "DFS Services LLC (Capital One)",
+  "confidence": "Vendor"
+ },
+ {
+  "id": "dgn-267",
+  "claim": "Lithic's API schema lists the networks its card transactions run on, and neither Discover nor PULSE is among them.",
+  "quote": "Card network where the transaction took place. AMEX, VISA, MASTERCARD, MAESTRO, or INTERLINK.",
+  "url": "https://docs.lithic.com/reference/gettransactionbytoken",
+  "title": "Get card transaction",
+  "publisher": "Lithic",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-272",
+  "claim": "Adyen's public price list charges a blended 3.95 percent plus 13 cents for Discover and for Diners. Visa and Mastercard are interchange plus 0.60 percent.",
+  "quote": "Discover Global $0.13 + 3.95%",
+  "url": "https://www.adyen.com/pricing",
+  "title": "Pricing for supported payment methods - Adyen",
+  "publisher": "Adyen",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-276",
+  "claim": "The map's data rates ATM coverage in 6 of 35 Caribbean and Central American markets. Jamaica is rated 'many locations' for cards, with no ATM coverage and no ATM partner.",
+  "quote": "{\"common_name\":\"Jamaica\",\"cca3\":\"JAM\",\"credit_level\":\"H\",\"credit_mark\":[\"DCI\",\"DN\"],\"atm_level\":\"NO COVERAGE\",\"atm_mark\":[\"\"],\"atm_banks\":[\"\"]",
+  "url": "https://travel.discoverglobalnetwork.com/global-acceptance/",
+  "title": "Global acceptance (coverage data the page loads)",
+  "publisher": "Discover Global Network (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-280",
+  "claim": "The owner's small-business card comparison page tags every Spark and Venture Business card with Visa or MasterCard, and none with Discover.",
+  "quote": "\"brandCode\":\"SPARKCASHPLUS\",\"cardNetwork\":\"Visa\"",
+  "url": "https://www.capitalone.com/small-business/credit-cards/",
+  "title": "Compare the Best Business Credit Cards From Capital One (page product data)",
+  "publisher": "Capital One",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-281",
+  "claim": "Discover's business credit card page returns a 301 to the consumer card list, and Wayback records the 301 from 14 March 2022.",
+  "quote": "location: https://www.discover.com/credit-cards/?defaultoffer=yes&vcmpgn=businesspage",
+  "url": "https://www.discover.com/credit-cards/business/",
+  "title": "Discover business credit card page (HTTP redirect)",
+  "publisher": "Discover (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-311",
+  "claim": "The Partner Product Portal keeps an active login page at /login, while its page data switches the login button off.",
+  "quote": "\"login\":\"active\",\"showLoginButton\":\"inactive\"",
+  "url": "https://partner.discoverglobalnetwork.com/",
+  "title": "Discover Partner Product Portal",
+  "publisher": "DFS Services LLC (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "eftpos-026",
+  "claim": "On AP+ Developers, every on-portal Documentation link in the API catalogue carries a lock marked 'page behind authentication' and the note 'Sign up or log in to view'. The documentation URLs redirect a signed-out reader to the login.",
+  "quote": "Sign up or log in to view",
+  "url": "https://www.developers.auspayplus.com.au/apis/",
+  "title": "Australian Payments Plus Developers",
+  "publisher": "Australian Payments Plus",
+  "confidence": "Verified"
+ },
+ {
+  "id": "elo-035",
+  "claim": "Dev.Elo's API catalogue at /portal-dev/apis links a documentation page for each API. The API Antifraude Loja page renders an introduction and an OAS 2.0 API reference to a signed-out reader.",
+  "quote": "This API is responsible to pre authorize an online purchase request using the Elo Fraud Model.",
+  "url": "https://dev.elo.com.br/portal-dev/apis/api-antifraude-loja/docs",
+  "title": "ELO - Desenvolvedores",
+  "publisher": "Elo Serviços S.A.",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-411",
+  "claim": "Mastercard's MCP package drew 477 npm downloads in August 2026. Remote server use is not counted.",
+  "quote": "{\"downloads\":477,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@mastercard/developers-mcp\"}",
+  "url": "https://api.npmjs.org/downloads/point/2026-08-01:2026-08-31/@mastercard/developers-mcp",
+  "title": "npm downloads API",
+  "publisher": "npm, Inc.",
+  "confidence": "Verified"
+ },
+ {
+  "id": "mastercard-412",
+  "claim": "Mastercard's second assistant package, the Agent Toolkit, drew 1,036 npm downloads in August 2026. With the MCP package, the two total 1,513.",
+  "quote": "{\"downloads\":1036,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@mastercard/developers-agent-toolkit\"}",
+  "url": "https://api.npmjs.org/downloads/point/2026-08-01:2026-08-31/@mastercard/developers-agent-toolkit",
+  "title": "npm downloads API",
+  "publisher": "npm, Inc.",
+  "confidence": "Verified"
+ },
+ {
+  "id": "pulse-072",
+  "claim": "PULSE's Client Support page links the Debit Dashboard, ATM List Manager and PULSE Exchange to the PULSE site login, and the Marketing Hub to a separate site.",
+  "quote": "title=\"Discover Debit Marketing Hub\" href=\"https://www.debitmarketinghub.com\"",
+  "url": "https://www.pulsenetwork.com/public/client-support/",
+  "title": "Client Support | PULSE Network",
+  "publisher": "PULSE Network (Capital One)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-441",
+  "claim": "Visa's Developer Center publishes no llms.txt. The path returns a 404 error in JSON.",
+  "quote": "{\"status\":404,\"code\":\"9000\",\"severity\":\"ERROR\",\"message\":\"Invalid URI\"}",
+  "url": "https://developer.visa.com/llms.txt",
+  "title": "llms.txt (404 response body)",
+  "publisher": "Visa Inc.",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-442",
+  "claim": "Visa's agent payment CLI for Claude Code drew 34,493 npm downloads in August 2026, far above any documentation assistant package found.",
+  "quote": "{\"downloads\":34493,\"start\":\"2026-08-01\",\"end\":\"2026-08-31\",\"package\":\"@visa/cli\"}",
+  "url": "https://api.npmjs.org/downloads/point/2026-08-01:2026-08-31/@visa/cli",
+  "title": "npm downloads API",
+  "publisher": "npm, Inc.",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-443",
+  "claim": "Cybersource's MCP package drew 67 PyPI downloads in the month to 25 September 2026.",
+  "quote": "{\"data\":{\"last_day\":2,\"last_month\":67,\"last_week\":14},\"package\":\"cybersource-developer-mcp\"",
+  "url": "https://pypistats.org/api/packages/cybersource-developer-mcp/recent",
+  "title": "Recent downloads, cybersource-developer-mcp",
+  "publisher": "PyPI Stats (pypistats.org)",
+  "confidence": "Reported"
+ },
+ {
+  "id": "visa-454",
+  "claim": "Visa's rules make every US issuer pay Visa Advanced Authorization fees whether or not it uses the data.",
+  "quote": "an Issuer is responsible for Visa Advanced Authorization fees, regardless of whether or not the Issuer uses the data.",
+  "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+  "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026 (p.657, US Region)",
+  "publisher": "Visa",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-459",
+  "claim": "The Visa Developer Center homepage opens a Contact Us form to logged-out visitors, with Subject (Technical Support Request, Questions about an API, Pricing, Others), Message and Email Address fields.",
+  "quote": "Need help with an API, ready to move to production or have a question about something else? Please ask us here.",
+  "url": "https://developer.visa.com/",
+  "title": "Visa Developer Center",
+  "publisher": "Visa Developer Center (Visa Inc.)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "visa-461",
+  "claim": "Visa Direct runs its own partner portal at vdpp.visa.com, with a partner registration page and a sign-in hosted outside Visa's Universal Login.",
+  "quote": "Visa Direct Partner Portal",
+  "url": "https://vdpp.visa.com/",
+  "title": "Visa Direct Partner Portal",
+  "publisher": "Visa Inc.",
+  "confidence": "Verified"
+ }
+]

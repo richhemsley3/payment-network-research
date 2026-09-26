@@ -1,6 +1,6 @@
 # Cartes Bancaires
 
-Kind domestic scheme · Accessed 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 28 claims: 22 Verified, 0 Reported, 6 Vendor
+Kind domestic scheme · Accessed 2026-09-25 to 2026-09-25 · Viewport 1440 by 1000 · Logged out unless the note says otherwise · 28 claims: 22 Verified, 0 Reported, 6 Vendor
 
 ## Sources
 

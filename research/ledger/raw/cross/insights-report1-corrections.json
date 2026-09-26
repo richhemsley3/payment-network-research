@@ -1,0 +1,46 @@
+{
+ "network": "cross",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "The RBA will require each designated card network to publish quarterly aggregate data on scheme fees and rebates for issuers and acquirers, and on interchange fees.",
+   "quote": "require each designated card network to publish quarterly aggregate data on: scheme fees and rebates for issuers and acquirers; and interchange fees",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/transparency-of-wholesale-fees.html",
+   "title": "Transparency of Wholesale Fees | Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The requirements for card networks to publish quarterly interchange and scheme fees, and for acquirers to publish merchant service fees, take effect on 1 October 2026, with first publication by 30 October 2026.",
+   "quote": "These publication requirements will come into effect on 1 October 2026, with publication by 30 October 2026",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/impact-and-implementation.html",
+   "title": "8. Impact and Implementation | Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The RBA will require each designated card network to publish quarterly aggregate data on scheme fees, rebates and interchange fees. Full scheme fee schedules stay available only to participants.",
+   "quote": "The RBA will require each designated card network to publish aggregate data on interchange fees and scheme fees on a quarterly basis",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/transparency-of-wholesale-fees.html",
+   "title": "Transparency of Wholesale Fees | Review of Merchant Card Payment Costs and Surcharging – Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl with a desktop Chrome user agent, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (report1-corrections), accessed 2026-09-26. "
+  }
+ ]
+}

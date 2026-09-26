@@ -1,0 +1,163 @@
+{
+ "network": "cross",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Canada's Code requires every card network operator to publish its standard interchange rates and acquirer network assessment fees on its website.",
+   "quote": "PCNOs must make all applicable standard interchange rates, wholesale discount rates, and acquiring network assessment fees easily available on their websites.",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2025-09-24 (page modified)",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The Code requires at least 120 days' notice to acquirers of non-structural domestic fee changes, and 210 days for structural ones.",
+   "quote": "PCNOs will provide at least 120 calendar days’ notice to Acquirers for domestic Non-Structural Fees changes",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2025-09-24 (page modified)",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The RBA expects roadmaps to plan on-demand billing reports that show scheme fees against each transaction and the fees incurred by each merchant.",
+   "quote": "provide on-demand billing reports enabling participants to: understand the scheme fees that have been charged against each transaction",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+   "title": "4. Scheme Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25. Next item: 'provide timely and accurate pricing of fees that have been incurred by each merchant'.",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Some payment service providers told the RBA they absorb scheme fee errors, because checking opaque and often revised fees costs more than the errors.",
+   "quote": "because scheme fees are opaque, complex and frequently revised, it is more cost-effective to absorb any resulting fee inaccuracies",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+   "title": "4. Scheme Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Some designated networks told the RBA that fee explanation duties would give exempt alternatives, including three-party card networks, an unfair advantage.",
+   "quote": "stated the PSB’s proposals would lead to unfair competitive advantages for these alternative services",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+   "title": "4. Scheme Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25. The alternatives named include three-party card networks.",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The RBA warns that too much information about a competitor's pricing can raise prices among a few networks.",
+   "quote": "too much information about a competitor’s pricing strategy may result in upward price coordination.",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/transparency-of-wholesale-fees.html",
+   "title": "Transparency of Wholesale Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The RBA found no compelling evidence that publishing aggregate scheme fee data would materially raise coordination risk, and it chose to publish.",
+   "quote": "The PSB did not receive compelling evidence that publishing these data would materially increase the risk of upward price coordination.",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/transparency-of-wholesale-fees.html",
+   "title": "Transparency of Wholesale Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Canada's Code requires each fee change notice to acquirers to carry full specifications and the previous and new amounts.",
+   "quote": "include complete technical specifications and information, including the previous and new amount(s)",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2025-09-24 (page modified)",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The RBA expects networks to circulate notices giving reasons for fee changes and their expected outcomes for participants.",
+   "quote": "provide greater contextual justification for fee changes (such as links to service quality improvements or the provision of new services) and expected outcomes for participants",
+   "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2026-03/conclusions-paper/scheme-fees.html",
+   "title": "4. Scheme Fees, Conclusions Paper",
+   "publisher": "Reserve Bank of Australia",
+   "published": "2026-03-31",
+   "label": "Verified",
+   "fetch": "curl, 2026-09-25, re-read",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "US rules oblige an operator of a credit card system to take risk-based steps before authorising, or keeping, an issuer or acquirer.",
+   "quote": "the operator does not authorize, or maintain authorization for, any person to serve as an issuing or acquiring institution without the operator taking appropriate steps",
+   "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1028/subpart-B/section-1028.210",
+   "title": "31 CFR 1028.210 Anti-money laundering programs for operators of credit card systems",
+   "publisher": "Electronic Code of Federal Regulations (FinCEN rule)",
+   "published": "current as of 2026-09-25",
+   "label": "Verified",
+   "fetch": "curl of the eCFR renderer API, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Part 1028 defines its subject by the operator's own credit card, so debit-only networks and developer API access fall outside the duty.",
+   "quote": "operates a system for clearing and settling transactions in which the operator's credit card, whether acting as a credit or debit card, is used",
+   "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1028/subpart-A/section-1028.100",
+   "title": "31 CFR 1028.100 Definitions",
+   "publisher": "Electronic Code of Federal Regulations (FinCEN rule)",
+   "published": "current as of 2026-09-25",
+   "label": "Verified",
+   "fetch": "curl of the eCFR renderer API, 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "After Visa Europe's 2018 outage, the UK regulator found problems with Visa's communications and proposed a direction on crisis communications.",
+   "quote": "However, the incident highlighted issues with Visa’s communications during the outage.",
+   "url": "https://www.psr.org.uk/publications/consultations/cp192-draft-specific-direction-9-crisis-communications-visa/",
+   "title": "CP19/2 Draft Specific Direction 9: Crisis Communications (Visa)",
+   "publisher": "Payment Systems Regulator",
+   "published": "2019-02-05",
+   "label": "Verified",
+   "fetch": "curl 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The PSR's crisis communications direction to Visa was issued and ran until May 2024.",
+   "quote": "Specific Direction 9 expired on 31 May 2024.",
+   "url": "https://www.psr.org.uk/publications/consultations/cp192-draft-specific-direction-9-crisis-communications-visa/",
+   "title": "CP19/2 Draft Specific Direction 9: Crisis Communications (Visa)",
+   "publisher": "Payment Systems Regulator",
+   "published": "2019-02-05",
+   "label": "Verified",
+   "fetch": "curl 2026-09-25",
+   "note": "Added by the insight work (pressure-test), accessed 2026-09-25. "
+  }
+ ]
+}

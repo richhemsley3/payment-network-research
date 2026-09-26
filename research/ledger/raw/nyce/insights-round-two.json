@@ -1,0 +1,20 @@
+{
+ "network": "nyce",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "NYCE's SUM programme lets an ATM owner choose which of its machines are surcharge-free.",
+   "quote": "Have the flexibility to designate which of your ATMs will be part of the SUM program, putting control of surcharge revenue in your hands.",
+   "url": "https://www.nyce.net/sum-atm.html",
+   "title": "SUM ATM programme page, NYCE Payments Network",
+   "publisher": "NYCE (FIS)",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "curl, desktop Chrome UA, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (round-two), accessed 2026-09-26. "
+  }
+ ]
+}
