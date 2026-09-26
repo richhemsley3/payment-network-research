@@ -22,7 +22,7 @@ def fetch(url):
     if os.path.exists(p): return open(p).read()
     text, method = '', None
     try:
-        hdr = ['-H', 'User-Agent: ' + UA] if 'sec.gov' in url else ['-A', UA]
+        hdr = ['-A', UA]
         r = subprocess.run(['curl', '-sL', '--compressed', '--max-time', '40'] + hdr + [url], capture_output=True, timeout=60)
         body = r.stdout
         if body[:5] == b'%PDF-' or url.lower().endswith('.pdf'):

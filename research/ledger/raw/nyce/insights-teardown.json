@@ -1,0 +1,20 @@
+{
+ "network": "nyce",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Adyen says NYCE does not allow defence documents on a second chargeback, pushing merchants to contact the issuing bank directly.",
+   "quote": "NYCE does not allow supplying defense documents for a second chargeback.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/nyce-chargebacks",
+   "title": "NYCE chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  }
+ ]
+}

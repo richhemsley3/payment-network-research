@@ -1,0 +1,4343 @@
+{
+ "stage": "6b. Run day to day: disputes and fraud",
+ "summary": [
+  {
+   "text": "Every network runs the same skeleton: a fraud report or claim, a chargeback, a response, pre-arbitration, then a ruling. Each wraps it in its own tool, vocabulary and clock.",
+   "ids": [
+    "visa-313",
+    "mastercard-211",
+    "amex-259",
+    "new:t6b-6b-dgn-trr-notice",
+    "new:t6b-6b-pulse-timeframes"
+   ]
+  },
+  {
+   "text": "Mastercard is the most visible. Its public Mastercom spec names 13 work queues, case statuses from New to Ruled, and hard edits that reject late cycles.",
+   "ids": [
+    "new:t6b-6b-mc-queues",
+    "new:t6b-6b-mc-case-status",
+    "new:t6b-6b-mc-edit-deadlines",
+    "mastercard-014"
+   ]
+  },
+  {
+   "text": "Visa keeps VROL screens and API states restricted. What partners see is inferred from processor portals that mirror VROL statuses, questionnaires and buttons.",
+   "ids": [
+    "new:t6b-6b-visa-vrol-docs-restricted",
+    "new:t6b-6b-visa-wp-case-status",
+    "new:t6b-6b-visa-wp-buttons",
+    "new:t6b-6b-visa-marq-states"
+   ]
+  },
+  {
+   "text": "American Express publishes the clearest merchant dispute screen. Its summary table sorts cases into Response Needed, Review in Progress and Closed, and each case shows days left to respond.",
+   "ids": [
+    "new:t6b-6b-amex-oma-tabs",
+    "new:t6b-6b-amex-oma-case-detail"
+   ]
+  },
+  {
+   "text": "The contest has moved before the chargeback. Visa switched Rapid Dispute Resolution on for issuers by default, and Mastercard pulls Ethoca data into the claim itself.",
+   "ids": [
+    "new:t6b-6b-visa-rdr-auto-activate",
+    "new:t6b-6b-visa-oi-issuer-mandate",
+    "new:t6b-6b-mc-clarity-url",
+    "mastercard-215"
+   ]
+  },
+  {
+   "text": "Monitoring now counts fraud and disputes together at portfolio level, and merchants and payfacs cannot see the items behind their own ratio.",
+   "ids": [
+    "visa-337",
+    "visa-338",
+    "new:t6b-6b-visa-vamp-blind",
+    "new:t6b-stripe-vamp-lag",
+    "mastercard-354"
+   ]
+  },
+  {
+   "text": "Small issuers, fintechs and most merchants never touch a network dispute tool. Processors translate network stages into their own states, windows and codes.",
+   "ids": [
+    "new:t6b-6b-pt-azfcu-job",
+    "new:t6b-6b-pt-lithic-status",
+    "new:t6b-6b-pt-unit-statuses",
+    "new:t6b-6b-pt-worldpay-codes",
+    "visa-172"
+   ]
+  },
+  {
+   "text": "The Discover family is the least visible. Its Disputes Portal is fully gated, its public merchant help page lists Internet Explorer 6, and PULSE dispute rules need a login.",
+   "ids": [
+    "dgn-177",
+    "new:t6b-6b-dgn-dsi-legacy",
+    "new:t6b-6b-pulse-rules-gated"
+   ]
+  },
+  {
+   "text": "The strongest openings for Discover are one shared case vocabulary, a published monitoring line, free pre-dispute resolution, and fraud reporting folded into the dispute.",
+   "ids": [
+    "dgn-288",
+    "dgn-291",
+    "dgn-292",
+    "new:t6b-6b-mc-fraud-item"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Issuers: large banks",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "The issuer must report fraud to Visa before it can raise a fraud dispute, within 60 days of the transaction.",
+       "ids": [
+        "new:t6b-6b-visa-fraud-report-first",
+        "new:t6b-6b-visa-frs-timing"
+       ]
+      },
+      {
+       "text": "An analyst logs into VROL, searches the transaction, records provisional credit, opens a dispute case and completes a dynamic questionnaire.",
+       "ids": [
+        "new:t6b-6b-visa-vrol-issuer-screens",
+        "visa-313"
+       ]
+      },
+      {
+       "text": "Fraud and authorisation disputes follow the Allocation flow, where Visa assigns liability and the acquirer can only pre-arbitrate within 30 days.",
+       "ids": [
+        "new:t6b-6b-visa-vrol-flows-named",
+        "new:t6b-6b-visa-alloc-prearb"
+       ]
+      },
+      {
+       "text": "Consumer and processing disputes follow the Collaboration flow, where the issuer makes the pre-arbitration attempt within 30 days of the acquirer's response.",
+       "ids": [
+        "new:t6b-6b-visa-collab-prearb-issuer"
+       ]
+      },
+      {
+       "text": "Arbitration must be filed within 10 days of the pre-arbitration response, and a missed deadline closes the cycle against the silent party.",
+       "ids": [
+        "new:t6b-6b-visa-arb-10days",
+        "new:t6b-6b-visa-silence-closes"
+       ]
+      },
+      {
+       "text": "Time limits vary by condition. Authorisation disputes allow 75 days against 120 for most fraud and consumer disputes.",
+       "ids": [
+        "new:t6b-6b-visa-auth-75days"
+       ]
+      },
+      {
+       "text": "Before a dispute exists, VROL checks Order Insight and Rapid Dispute Resolution. RDR-resolved cases close with status Merchant Credit.",
+       "ids": [
+        "new:t6b-6b-visa-oi-issuer-mandate",
+        "new:t6b-6b-visa-rdr-queue-status"
+       ]
+      },
+      {
+       "text": "Issuers with excessive card-absent disputes or fraud enter VIMP, with assessments rising to USD 100,000 a month.",
+       "ids": [
+        "new:t6b-6b-visa-vimp-thresholds",
+        "visa-310"
+       ]
+      },
+      {
+       "text": "Compromised-account alerts arrive only inside Visa Risk Manager, and loss recovery needs fraud reported within 120 days of the alert.",
+       "ids": [
+        "new:t6b-6b-visa-cams-vrm",
+        "new:t6b-6b-visa-gcar-120"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Resolve Online (VROL)",
+       "what_it_shows": "Mandated web tool on Visa Online for the whole dispute cycle. Questions and documents must be in English.",
+       "ids": [
+        "visa-171",
+        "visa-313",
+        "visa-314"
+       ]
+      },
+      {
+       "name": "VROL dispute questionnaire",
+       "what_it_shows": "Sections for transaction, dispute request, elaboration, certifications, notes and documents, and issuer contact, as mirrored by a processor portal.",
+       "ids": [
+        "new:t6b-6b-visa-wp-questionnaire"
+       ]
+      },
+      {
+       "name": "VROL Dispute Tracking Scorecard",
+       "what_it_shows": "Case tracking view used with Visa's outsourced dispute service.",
+       "ids": [
+        "new:t6b-6b-visa-vdms-scorecard"
+       ]
+      },
+      {
+       "name": "Visa Risk Manager",
+       "what_it_shows": "Rules, case, account and reporting modules over the Advanced Authorization score, plus an Alert API into the issuer back office.",
+       "ids": [
+        "new:t6b-6b-visa-vrm-modules",
+        "new:t6b-6b-visa-vrm-alert-api",
+        "visa-082"
+       ]
+      },
+      {
+       "name": "Dispute Doc Analyzer (2026)",
+       "what_it_shows": "Summaries of merchant documents for issuer analysts, pitched against slow manual review.",
+       "ids": [
+        "new:t6b-K40",
+        "new:t6b-6b-visa-doc-analyzer"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Compelling Evidence 3.0 reaches the issuer as a Visa rejection code with no dispute right left, and ICBA says it shifts liability and call-centre work to issuers.",
+       "ids": [
+        "new:t6b-6b-visa-marq-ce3-reject",
+        "new:t6b-6b-visa-icba-burden"
+       ]
+      },
+      {
+       "text": "Arbitration is decided on prior exchanges only, and an appeal needs new evidence and at least USD 5,000 at stake.",
+       "ids": [
+        "new:t6b-6b-visa-arb-no-new-docs",
+        "new:t6b-6b-visa-appeal-5000"
+       ]
+      },
+      {
+       "text": "Fraud-reporting failures can suspend fraud dispute rights for 90 or 180 days, turning an administrative lapse into direct losses.",
+       "ids": [
+        "visa-329"
+       ]
+      },
+      {
+       "text": "Every US issuer pays Advanced Authorization fees whether or not it uses the data.",
+       "ids": [
+        "visa-454"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "The issuer opens one claim in Mastercom, and every later event hangs off that claim ID.",
+       "ids": [
+        "mastercard-212",
+        "mastercard-251"
+       ]
+      },
+      {
+       "text": "A fraud chargeback needs a prior Fraud and Loss Database report, which the issuer can file from inside the claim.",
+       "ids": [
+        "new:t6b-6b-mc-fld-before-cb",
+        "new:t6b-6b-mc-fraud-item"
+       ]
+      },
+      {
+       "text": "Evidence must reach Mastercom within eight days, second presentment comes within 45, and pre-arbitration within 30 after that.",
+       "ids": [
+        "new:t6b-6b-mc-docs-8-days",
+        "new:t6b-6b-mc-second-pres-45",
+        "new:t6b-6b-mc-prearb-30"
+       ]
+      },
+      {
+       "text": "If the acquirer rejects pre-arbitration, the issuer has 15 days to escalate to arbitration or it bears the loss.",
+       "ids": [
+        "new:t6b-6b-mc-arb-15"
+       ]
+      },
+      {
+       "text": "Mastercom stamps some chargebacks as rejected before the acquirer sees them, including 5002 for First-Party Trust.",
+       "ids": [
+        "new:t6b-6b-mc-reject-codes",
+        "mastercard-223"
+       ]
+      },
+      {
+       "text": "Ethoca Consumer Clarity data is being linked into the claim record for issuer agents during 2026.",
+       "ids": [
+        "new:t6b-6b-mc-clarity-url",
+        "mastercard-220"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercom work queues",
+       "what_it_shows": "IssuerRepresentmentUnworked, IssuerWorked, Rejects, PendingDocumentation, SenderCaseFiling, ReceiverCaseFiling and Closed, among 13 queues.",
+       "ids": [
+        "new:t6b-6b-mc-queues"
+       ]
+      },
+      {
+       "name": "Mastercom case filing",
+       "what_it_shows": "Case types 1 to 4, a mandatory memo up to 13,000 characters, statuses New to Ruled, and six ruling values such as Favor Sender.",
+       "ids": [
+        "new:t6b-6b-mc-case-memo",
+        "new:t6b-6b-mc-case-status",
+        "new:t6b-6b-mc-ruling-status"
+       ]
+      },
+      {
+       "name": "First-Party Trust evidence flag",
+       "what_it_shows": "The issuer must acknowledge merchant evidence before proceeding with a chargeback.",
+       "ids": [
+        "new:t6b-6b-mc-fpt-field"
+       ]
+      },
+      {
+       "name": "Fraud and Loss Database",
+       "what_it_shows": "Batch, screen or API submission. Records land as confirmed, rejected or suspended.",
+       "ids": [
+        "mastercard-323",
+        "new:t6b-6b-mc-fld-suspended"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Overriding a First-Party Trust reject needs a notarised cardholder affidavit plus a closed and blocked account.",
+       "ids": [
+        "new:t6b-6b-mc-fpt-affidavit"
+       ]
+      },
+      {
+       "text": "Fraud chargebacks are capped at 35 per card account by the Fraud Notification Service.",
+       "ids": [
+        "new:t6b-6b-mc-fns-35"
+       ]
+      },
+      {
+       "text": "A claim opened in Mastercom v6 cannot be recreated in Mastercom Extended, so issuers track where each claim lives during migration.",
+       "ids": [
+        "new:t6b-6b-mc-ext-v6-clash",
+        "mastercard-216"
+       ]
+      },
+      {
+       "text": "Mastercard, which sells dispute tools, says US issuers spend about USD 9 to 10 per dispute.",
+       "ids": [
+        "new:t6b-K37"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex first tries to resolve the disputed charge from its own information, then sends an Inquiry or a Chargeback.",
+       "ids": [
+        "amex-258"
+       ]
+      },
+      {
+       "text": "On the GNS network, issuers file a First Chargeback within 120 days, and acquirers have 45 days to second present.",
+       "ids": [
+        "new:t6b-6b-amex-first-cb-120",
+        "new:t6b-6b-amex-second-pres-45"
+       ]
+      },
+      {
+       "text": "GNS issuers must report confirmed fraud by the next business day after verification.",
+       "ids": [
+        "new:t6b-6b-amex-fraud-report-nbd"
+       ]
+      },
+      {
+       "text": "The Global Disputes Monitoring Program holds each issuer and acquirer to monthly regional thresholds, 0.20 per cent in the US.",
+       "ids": [
+        "amex-260"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "AEGNS Network Disputes Manager (NDM)",
+       "what_it_shows": "The licensed dispute system for all GNS documentation, with a USD 100 monthly licence and a free browser version, NDM Disputes Online.",
+       "ids": [
+        "new:t6b-6b-amex-ndm-system",
+        "new:t6b-6b-amex-ndm-licence"
+       ]
+      },
+      {
+       "name": "GNS FraudNet",
+       "what_it_shows": "Urgent Investigation Requests, the Participant Communication Platform and monthly fraud reports, reached after Knowledge Base access.",
+       "ids": [
+        "new:t6b-6b-amex-fraudnet-min",
+        "amex-400"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Arbitration costs USD 150 to file and USD 250 for review, and a USD 100 penalty may be assessed when submission rules are not followed.",
+       "ids": [
+        "new:t6b-6b-amex-arb-fees"
+       ]
+      },
+      {
+       "text": "The NDM and FraudNet user guides are on the gated Knowledge Base, so no screens are public.",
+       "ids": [
+        "amex-400"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover's dispute framework charges a dispute resolved for the cardholder back to the merchant or acquirer.",
+       "ids": [
+        "dgn-110"
+       ]
+      },
+      {
+       "text": "Issuer-side dispute screens and filing windows are not public. The Disputes Portal redirects straight to a sign-in.",
+       "ids": [
+        "dgn-177",
+        "dgn-122"
+       ]
+      },
+      {
+       "text": "Confirmed fraud is submitted through a separate Confirmed Fraud Portal enrolled by form.",
+       "ids": [
+        "new:t6b-6b-dgn-confirmed-fraud",
+        "dgn-176"
+       ]
+      },
+      {
+       "text": "Compromise cases run through Account Incident Manager, shared between issuers, acquirers and the network.",
+       "ids": [
+        "new:t6b-6b-dgn-aim"
+       ]
+      },
+      {
+       "text": "Diners Club franchises enrol in the same Account Incident Manager through a dedicated form section and mailbox.",
+       "ids": [
+        "new:t6b-6b-diners-aim"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Network Disputes Portal",
+       "what_it_shows": "Gated behind the same identity provider as the Partner Product Portal. Nothing readable without credentials.",
+       "ids": [
+        "dgn-177",
+        "dgn-196"
+       ]
+      },
+      {
+       "name": "Fraud and Risk Center",
+       "what_it_shows": "Login hub for Account Incident Manager, Confirmed Fraud, Fraud Alerts and High Brand Risk, with email-only MFA since 2025.",
+       "ids": [
+        "dgn-119",
+        "new:t6b-6b-dgn-frc-mfa"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Fraud tool enrolment needs two named administrators, a Director or VP signature and an emailed form.",
+       "ids": [
+        "new:t6b-6b-dgn-aim-signoff"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard's claim model is the best issuer pattern: one claim ID from intake to ruling, fraud reporting inside the claim, and named queues with hard deadline edits.",
+    "ids": [
+     "mastercard-212",
+     "new:t6b-6b-mc-fraud-item",
+     "new:t6b-6b-mc-queues",
+     "new:t6b-6b-mc-edit-deadlines"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's issuer dispute experience is not publicly visible. Fraud reporting and compromise cases sit in separate portals enrolled by signed forms.",
+    "ids": [
+     "dgn-177",
+     "new:t6b-6b-dgn-confirmed-fraud",
+     "new:t6b-6b-dgn-aim-signoff"
+    ]
+   }
+  },
+  {
+   "partner_type": "Issuers: community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Front-line staff judge chargeback rights across Visa, CO-OP, PULSE and MAP rules before a back-office specialist files.",
+       "ids": [
+        "new:t6b-6b-pt-azfcu-job"
+       ]
+      },
+      {
+       "text": "Card staff review a daily Visa exception file and work disputes in VROL.",
+       "ids": [
+        "new:t6b-6b-pt-aplus-job"
+       ]
+      },
+      {
+       "text": "A credit union collects every questionnaire answer before filing, because VROL rejects incomplete disputes.",
+       "ids": [
+        "new:t6b-6b-visa-grove-questionnaire"
+       ]
+      },
+      {
+       "text": "Compromise alerts often arrive through the processor, and staff reformat the list as a CSV and upload it by hand.",
+       "ids": [
+        "new:t6b-6b-pt-cuanswers-vendor",
+        "new:t6b-6b-pt-cuanswers-cams"
+       ]
+      },
+      {
+       "text": "Regulation E runs its own clock: a decision in 10 business days, or provisional credit then up to 45 days.",
+       "ids": [
+        "new:t6b-cfpb-rege",
+        "new:t6b-rege-provisional"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Processor dispute products",
+       "what_it_shows": "Fiserv Dispute Expert tiers and FIS CBK automation over Visa Claims Resolution and Mastercom sit between the bank and the network.",
+       "ids": [
+        "new:t6b-6b-pt-fiserv-de",
+        "new:t6b-6b-pt-fis-cbk"
+       ]
+      },
+      {
+       "name": "CAMS alert files",
+       "what_it_shows": "Compromised-card lists that staff turn into reissue and member-notice work, several a week per a vendor.",
+       "ids": [
+        "new:t6b-6b-pt-cutek-cams",
+        "new:t6b-6b-visa-cams-vrm"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "ICBA says network dispute changes help merchants deny claims and leave banks with harder customer conversations.",
+       "ids": [
+        "new:t6b-icba25-disputes"
+       ]
+      },
+      {
+       "text": "ICBA's magazine says 74 per cent of consumers go straight to their bank and each dispute takes 2.5 calls.",
+       "ids": [
+        "new:t6b-ib26-bankfirst",
+        "new:t6b-ib26-calls"
+       ]
+      },
+      {
+       "text": "Velera sells Resolution Center, a disputes platform, on the premise that credit union chargeback processes are often inefficient.",
+       "ids": [
+        "new:t6b-velera-disputes"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Most small issuers reach Mastercom through processors or CUSOs that watch mandates for them.",
+       "ids": [
+        "new:t6b-job-velera-disputes",
+        "new:t6b-6b-pt-fiserv-de"
+       ]
+      },
+      {
+       "text": "Pre-chargeback resolution for small issuers comes bundled, such as Ethoca Alerts inside Fiserv Dispute Expert.",
+       "ids": [
+        "new:t6b-6b-pt-fiserv-de"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercom via processor",
+       "what_it_shows": "The issuer sees the processor's workflow. Mastercom access needs Connect entitlements that processors hold.",
+       "ids": [
+        "mastercard-079",
+        "mastercard-321"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Networks change dispute rules often enough that a CUSO employs supervisors to track mandates for client credit unions.",
+       "ids": [
+        "new:t6b-job-velera-disputes"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE gives issuers 120 days to charge back and acquirers 45 to represent, under PULSE Disputes Rules.",
+       "ids": [
+        "new:t6b-6b-pulse-timeframes"
+       ]
+      },
+      {
+       "text": "Issuers act in the PULSE Disputes System and are told to send cardholders to the merchant first.",
+       "ids": [
+        "new:t6b-6b-pulse-disputes-system"
+       ]
+      },
+      {
+       "text": "PULSE offers a dedicated Disputes Helpdesk and a DebitProtect helpdesk, each with its own phone or mailbox.",
+       "ids": [
+        "pulse-045",
+        "dgn-159"
+       ]
+      },
+      {
+       "text": "DebitProtect fraud detection on FICO Falcon is included for all PULSE participants, with Authorization Blocking as a premium tier.",
+       "ids": [
+        "pulse-032",
+        "pulse-016"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE Disputes System",
+       "what_it_shows": "Named issuer system. Its rules and screens need a login.",
+       "ids": [
+        "new:t6b-6b-pulse-disputes-system",
+        "new:t6b-6b-pulse-rules-gated"
+       ]
+      },
+      {
+       "name": "DebitProtect and Authorization Blocking",
+       "what_it_shows": "Network fraud scoring with card-group rules and after-hours emergency rules.",
+       "ids": [
+        "pulse-016"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "PULSE's Disputes Rules and Operating Rules both sit behind a login, so processors are routed to a phone help desk.",
+       "ids": [
+        "new:t6b-6b-pulse-rules-gated",
+        "new:t6b-6b-pt-pulse-help"
+       ]
+      },
+      {
+       "text": "PULSE's own study finds eight disputes per 10,000 debit transactions, with 2.6 ending in an issuer loss.",
+       "ids": [
+        "pulse-069"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:Pix, UK Faster Payments and FedNow",
+     "how_it_works": [
+      {
+       "text": "Brazil's central bank sets fixed timers for Pix fraud returns, seven days for the receiving provider and then 72 hours.",
+       "ids": [
+        "new:t6b-6b-pt-pix-med"
+       ]
+      },
+      {
+       "text": "Every Pix participant app must let users start a return request themselves.",
+       "ids": [
+        "new:t6b-6b-pt-pix-selfserve"
+       ]
+      },
+      {
+       "text": "The UK requires most scam victims to be refunded within five business days, with sending and receiving firms splitting the cost.",
+       "ids": [
+        "new:t6b-6b-pt-uk-app"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "FedNow offers only a return request message for fraud, with no dispute stage.",
+       "ids": [
+        "new:t6b-6b-pt-fednow-return"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "PULSE's persona-split helpdesks with a named disputes desk are the best small-issuer pattern. Marqeta's Reg E expiry warning shows the clock these teams need.",
+    "ids": [
+     "pulse-045",
+     "new:t6b-6b-pt-mq-rege-warning"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE serves small issuers with human help and bundled fraud scoring. Its dispute rules and system stay behind login.",
+    "ids": [
+     "pulse-037",
+     "pulse-032",
+     "new:t6b-6b-pulse-rules-gated"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "In Allocation flows the acquirer's only move is a pre-arbitration attempt within 30 days, optionally carrying Compelling Evidence.",
+       "ids": [
+        "new:t6b-6b-visa-alloc-prearb",
+        "visa-315"
+       ]
+      },
+      {
+       "text": "Compelling Evidence 3.0 gets one attempt in the VROL pre-arbitration questionnaire, and incomplete submissions are declined.",
+       "ids": [
+        "new:t6b-6b-visa-ce3-one-shot",
+        "visa-344"
+       ]
+      },
+      {
+       "text": "RDR credits arrive flagged with an m Financial ID, and acquirers had to stop counting or billing them as disputes.",
+       "ids": [
+        "new:t6b-6b-visa-rdr-not-dispute"
+       ]
+      },
+      {
+       "text": "VAMP counts fraud reports and disputes over card-not-present sales monthly, flagging portfolios at 50 and 70 basis points.",
+       "ids": [
+        "visa-337",
+        "visa-338"
+       ]
+      },
+      {
+       "text": "Visa can order an acquirer to deploy named remediation tools, and terminated VAMP merchants go on the Terminated Merchant File.",
+       "ids": [
+        "new:t6b-6b-visa-vamp-tools",
+        "new:t6b-6b-visa-vamp-tmf"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "VROL acquirer queue",
+       "what_it_shows": "Awaiting Actions queue, with RDR cases shown as Merchant Credit and closed.",
+       "ids": [
+        "new:t6b-6b-visa-rdr-queue-status"
+       ]
+      },
+      {
+       "name": "VROL document codes",
+       "what_it_shows": "Five-letter file type codes such as AFFRD and PRDEL on each supporting document.",
+       "ids": [
+        "new:t6b-6b-visa-wp-filetypes"
+       ]
+      },
+      {
+       "name": "VAMP fact sheet",
+       "what_it_shows": "Public ratio formula and thresholds. The full VAMP Guide is a non-public supplemental requirement.",
+       "ids": [
+        "visa-336",
+        "visa-307"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Since April 2025 acquirer fees rise with each day a dispute sits, and losing arbitration costs USD 600, per vendors.",
+       "ids": [
+        "new:t6b-6b-visa-fee-arb-600"
+       ]
+      },
+      {
+       "text": "VAMP fee amounts are not in the public rulebook, which carries the heading only.",
+       "ids": [
+        "visa-308"
+       ]
+      },
+      {
+       "text": "A European acquirer's VAMP guidance contradicted Visa's fact sheet on RDR exclusion.",
+       "ids": [
+        "new:t6b-6b-visa-trust-confusion"
+       ]
+      },
+      {
+       "text": "When VROL is down, a processor portal blocks every Visa action on the case until it reconnects.",
+       "ids": [
+        "new:t6b-6b-visa-wp-vrol-down"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "An acquirer acknowledges a first chargeback, which moves it to the Worked queue, then accepts or second presents.",
+       "ids": [
+        "new:t6b-6b-mc-ack-moves-queue"
+       ]
+      },
+      {
+       "text": "Collaboration requests are answered with codes A, B, C or E, and auto-reject after 72 hours.",
+       "ids": [
+        "new:t6b-6b-mc-collab-codes",
+        "new:t6b-6b-mc-collab-auto-reject"
+       ]
+      },
+      {
+       "text": "An acquirer that ignores pre-arbitration for 30 days is deemed to accept, and Mastercom moves the funds.",
+       "ids": [
+        "new:t6b-6b-mc-prearb-auto-accept"
+       ]
+      },
+      {
+       "text": "Acquirers track merchants in excessive chargeback status in the Data Integrity application on Mastercard Connect.",
+       "ids": [
+        "new:t6b-6b-mc-ecm-data-integrity",
+        "mastercard-205"
+       ]
+      },
+      {
+       "text": "Acquirers must check the Fraud and Loss Database daily for new scam merchants, and add terminated merchants to MATCH Pro within five days.",
+       "ids": [
+        "new:t6b-6b-mc-scam-fld-daily",
+        "new:t6b-6b-mc-match-5days"
+       ]
+      },
+      {
+       "text": "Account data compromise events must be reported within 24 hours.",
+       "ids": [
+        "new:t6b-6b-mc-adc-24h"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercom acquirer queues",
+       "what_it_shows": "AcquirerCollaborationUnworked, AcquirerFirstCBUnworked and AcquirerWorked.",
+       "ids": [
+        "new:t6b-6b-mc-queues"
+       ]
+      },
+      {
+       "name": "Mastercom Extended reports",
+       "what_it_shows": "Acquirer Collaboration Penalty Report, and a Pending Documentation Report live since 30 June 2026.",
+       "ids": [
+        "new:t6b-6b-mc-ext-penalty-report",
+        "new:t6b-6b-mc-ext-pending-docs"
+       ]
+      },
+      {
+       "name": "Evidence upload",
+       "what_it_shows": "JPEG, TIFF or PDF only, names up to 16 characters, 18 MB per transaction.",
+       "ids": [
+        "new:t6b-6b-mc-doc-limits"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A payments consultancy reports acquirer Collaboration ends in the US and Canada on 4 January 2027 with no named replacement.",
+       "ids": [
+        "new:t6b-6b-mc-collab-sunset",
+        "new:t6b-6b-mc-collab-no-replacement"
+       ]
+      },
+      {
+       "text": "The August 2026 Security Rules still call the Global Merchant Audit Program suspended. A 2027 relaunch is reported only by practitioners.",
+       "ids": [
+        "new:t6b-6b-mc-gmap-suspended",
+        "mastercard-352"
+       ]
+      },
+      {
+       "text": "Mastercom tells users whose uploads fail to clear their Java cache, a sign of an older client.",
+       "ids": [
+        "new:t6b-6b-mc-java-cache"
+       ]
+      },
+      {
+       "text": "ECP numeric thresholds sit in a gated manual, so the public figures come from practitioners.",
+       "ids": [
+        "mastercard-205",
+        "mastercard-207"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "GNS acquirers second present within 45 days, and only the acquirer can file arbitration, within 45 days of the Final Chargeback.",
+       "ids": [
+        "new:t6b-6b-amex-second-pres-45",
+        "new:t6b-6b-amex-arb-45"
+       ]
+      },
+      {
+       "text": "Amex pushes risky merchant actions to acquirers through the S/E Actioning System on FraudNet.",
+       "ids": [
+        "new:t6b-6b-amex-seas"
+       ]
+      },
+      {
+       "text": "For OptBlue, the acquirer is the Merchant Services Provider and relays every inquiry and chargeback to the merchant.",
+       "ids": [
+        "amex-304"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "S/E Actioning System (SEAS)",
+       "what_it_shows": "Required merchant actions such as Fraud Full Recourse probation, sent to acquirers.",
+       "ids": [
+        "new:t6b-6b-amex-seas"
+       ]
+      },
+      {
+       "name": "NDM Disputes Online",
+       "what_it_shows": "Browser version of the licensed dispute system.",
+       "ids": [
+        "new:t6b-6b-amex-ndm-licence"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Pre-arbitration and pre-compliance are optional Good Faith requests inside NDM, and arbitration carries filing and review fees.",
+       "ids": [
+        "new:t6b-6b-amex-arb-45",
+        "new:t6b-6b-amex-arb-fees"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Practitioners report Discover cut the representment window from 45 to 30 days and the retrieval response to five days.",
+       "ids": [
+        "new:t6b-6b-dgn-rep-30",
+        "new:t6b-6b-dgn-trr-5cal"
+       ]
+      },
+      {
+       "text": "Acquirers are told to route unresolved fraud questions through a named Discover relationship manager.",
+       "ids": [
+        "dgn-149"
+       ]
+      },
+      {
+       "text": "PULSE issuers cannot take card-not-present fraud to pre-arbitration, per Adyen.",
+       "ids": [
+        "new:t6b-6b-pulse-adyen-noprearb-cnp",
+        "new:t6b-6b-pt-adyen-pulse"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Network Disputes Portal",
+       "what_it_shows": "Gated. Listed beside EASI and the Release Compliance Tool on the Partner Resources page.",
+       "ids": [
+        "dgn-024",
+        "dgn-177"
+       ]
+      },
+      {
+       "name": "Account Incident Manager",
+       "what_it_shows": "Web tool for exchanging data compromise case information.",
+       "ids": [
+        "new:t6b-6b-dgn-aim"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The study found no public Discover monitoring line. Vendors cite about 1 per cent and 100 chargebacks a month.",
+       "ids": [
+        "dgn-288",
+        "dgn-376"
+       ]
+      },
+      {
+       "text": "Discover's Dispute Rules Manual is not public, so time limits come from practitioners.",
+       "ids": [
+        "new:t6b-6b-dgn-rep-30",
+        "dgn-291"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:PIN debit and regional networks",
+     "how_it_works": [
+      {
+       "text": "STAR and Accel give merchants 30 days and a single defence, per Adyen.",
+       "ids": [
+        "new:t6b-6b-pt-adyen-star"
+       ]
+      },
+      {
+       "text": "NYCE allows no defence documents on a second chargeback, per Adyen.",
+       "ids": [
+        "new:t6b-6b-pt-adyen-nyce"
+       ]
+      },
+      {
+       "text": "On eftpos and UnionPay, an unanswered request for information makes any later chargeback undefendable.",
+       "ids": [
+        "new:t6b-6b-pt-adyen-eftpos",
+        "new:t6b-6b-pt-adyen-unionpay"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Cartes Bancaires bars merchants from challenging a dispute at all, per Stripe.",
+       "ids": [
+        "new:t6b-6b-pt-stripe-cb"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercom Extended's Pending Documentation Report is the best acquirer pattern: a standard report of items still inside the evidence window.",
+    "ids": [
+     "new:t6b-6b-mc-ext-pending-docs",
+     "new:t6b-6b-mc-docs-8-days"
+    ]
+   },
+   "discover_today": {
+    "text": "Acquirers work Discover disputes in a gated portal under unpublished rules, with fraud help by relationship manager and email.",
+    "ids": [
+     "dgn-177",
+     "dgn-149",
+     "dgn-153"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "The payfac contract must make the payfac financially liable for every sub-merchant transaction and dispute.",
+       "ids": [
+        "new:t6b-visa-rules-pf-liab"
+       ]
+      },
+      {
+       "text": "Visa may force a direct acquirer contract on a sub-merchant with excessive disputes within 12 months.",
+       "ids": [
+        "new:t6b-visa-rules-direct"
+       ]
+      },
+      {
+       "text": "Payfacs meet VAMP through their acquirer, which may evaluate at aggregated or sponsored merchant level.",
+       "ids": [
+        "visa-307",
+        "new:t6b-checkout-am"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Acquirer disputes APIs",
+       "what_it_shows": "Worldpay's Disputes API sold to payfacs and ISOs uses stage codes such as CH1 and PAB, and flags Visa RDR cases.",
+       "ids": [
+        "new:t6b-6b-pt-worldpay-codes",
+        "new:t6b-6b-pt-worldpay-rdr"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A payfac chargeback analyst posting lists VROL, MasterCom, the Discover portal and Amex 360, plus fax handling.",
+       "ids": [
+        "new:t6b-6b-visa-payfac-portals"
+       ]
+      },
+      {
+       "text": "A chargeback start-up founder says Visa's programme now places merchants in higher tiers at lower ratios.",
+       "ids": [
+        "new:t6b-pd-razi-vamp"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A payfac may withhold sub-merchant funds as chargeback reserves.",
+       "ids": [
+        "new:t6b-mc-rules-reserve"
+       ]
+      },
+      {
+       "text": "Acquirers and payfacs must open a scam-merchant investigation within 72 hours of a trigger.",
+       "ids": [
+        "new:t6b-6b-mc-scam-72h"
+       ]
+      },
+      {
+       "text": "From April 2027, practitioners report chargeback and fraud monitoring moves to the sub-merchant ID.",
+       "ids": [
+        "mastercard-354"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "MATCH Pro and FLD scam listings",
+       "what_it_shows": "Terminated-merchant list and daily scam merchant checks.",
+       "ids": [
+        "new:t6b-6b-mc-match-5days",
+        "new:t6b-6b-mc-scam-fld-daily"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The acquiring bank pays the issuer when a merchant or ISO cannot honour its chargebacks.",
+       "ids": [
+        "new:t6b-occ-cb"
+       ]
+      },
+      {
+       "text": "The FTC's 2026 orders against Nuvei and Humboldt centre on chargeback screening failures.",
+       "ids": [
+        "new:t6b-ftc-nuvei",
+        "new:t6b-ftc-humboldt"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "No public Discover or PULSE material describes payfac or sub-merchant dispute monitoring.",
+       "ids": [
+        "dgn-288",
+        "new:t6b-6b-pulse-rules-gated"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Payfac dispute staff juggle each network's portal separately, and Discover's is one more login.",
+       "ids": [
+        "new:t6b-6b-visa-payfac-portals"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Worldpay's API pattern gives payfacs one stage code per network step with an eligible-for-response flag, which removes guesswork about what can be answered.",
+    "ids": [
+     "new:t6b-6b-pt-worldpay-codes"
+    ]
+   },
+   "discover_today": {
+    "text": "The public record shows no Discover payfac dispute or monitoring surface.",
+    "ids": [
+     "dgn-288"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "ATM acquirers answer non-receipt of cash disputes with the disbursement record showing time or sequence and a success indicator.",
+       "ids": [
+        "new:t6b-6b-visa-atm-13-9"
+       ]
+      },
+      {
+       "text": "A full-service ATM acquirer must adjust a misdispense within 10 calendar days.",
+       "ids": [
+        "new:t6b-visa-misdispense"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Late adjustments risk a late-presentment dispute on top of the misdispense.",
+       "ids": [
+        "new:t6b-visa-misdispense"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "ATM and Maestro disputes run as Single Message disputes in Mastercom Extended with two-digit reason codes.",
+       "ids": [
+        "new:t6b-6b-mc-ext-sms-codes"
+       ]
+      },
+      {
+       "text": "Pre-arbitration is optional for ATM disputes, and Mastercard recommends going straight to arbitration within 45 days.",
+       "ids": [
+        "new:t6b-6b-mc-atm-prearb-optional"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercom Sender Memo",
+       "what_it_shows": "ATM case reasons typed as free text such as POI-ATM.",
+       "ids": [
+        "new:t6b-6b-mc-atm-memo"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Disaster hardship variances do not apply to Single Message ATM disputes.",
+       "ids": [
+        "new:t6b-6b-mc-sms-no-hardship"
+       ]
+      },
+      {
+       "text": "Maestro evidence has a ten-day upload window, against eight days for most other transactions.",
+       "ids": [
+        "new:t6b-6b-mc-docs-8-days"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE publishes a 120-day chargeback and 45-day representment window. The public record does not say how ATM claims differ.",
+       "ids": [
+        "new:t6b-6b-pulse-timeframes"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "PULSE's ATM dispute screens and rules need a login.",
+       "ids": [
+        "new:t6b-6b-pulse-rules-gated"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:independent deployers",
+     "how_it_works": [
+      {
+       "text": "An independent ATM operator runs its own dispute desk that checks the online journal to decide whether cash was dispensed.",
+       "ids": [
+        "new:t6b-6b-pt-nas-atm"
+       ]
+      },
+      {
+       "text": "A credit union ATM claims role requires skill in investigating ATM disputes under state and federal rules.",
+       "ids": [
+        "new:t6b-E65c"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "No primary source gives an operator's deadline for answering journal requests.",
+       "ids": [
+        "new:t6b-6b-pt-nas-atm"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa's rule naming the exact journal fields an ATM acquirer returns is the best pattern, because the operator already keeps that record.",
+    "ids": [
+     "new:t6b-6b-visa-atm-13-9"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE publishes only its headline dispute windows for ATM, and the rest sits behind login.",
+    "ids": [
+     "new:t6b-6b-pulse-timeframes",
+     "new:t6b-6b-pulse-rules-gated"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Fintechs reach VROL through issuer processors, whose APIs expose states such as OPEN, READY and CHARGEBACK_INITIATED.",
+       "ids": [
+        "new:t6b-6b-visa-marq-states",
+        "new:t6b-6b-pt-mq-pulse-actions"
+       ]
+      },
+      {
+       "text": "Network rules surface as rejection codes, such as the CE3.0 block and the 35 fraud disputes per card cap.",
+       "ids": [
+        "new:t6b-6b-pt-mq-ce3-reject",
+        "new:t6b-6b-pt-stripe-iss-35"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Marqeta Disputes portal (early access)",
+       "what_it_shows": "Case tabs for Dispute Lifecycle, Documents, Evidences, Activity and Related Transactions, with an Execute Action button.",
+       "ids": [
+        "new:t6b-6b-pt-mq-portal-tabs",
+        "new:t6b-6b-pt-mq-portal-execute"
+       ]
+      },
+      {
+       "name": "Lithic Chargebacks API",
+       "what_it_shows": "Eight statuses from NEW to CASE_CLOSED, and a network case number only once a chargeback is filed.",
+       "ids": [
+        "new:t6b-6b-pt-lithic-status",
+        "new:t6b-6b-pt-lithic-caseid"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Stripe Issuing allows one submission only, and disputes expire if not submitted within 110 days of clearing.",
+       "ids": [
+        "new:t6b-6b-pt-stripe-iss-once",
+        "new:t6b-6b-pt-stripe-iss-states"
+       ]
+      },
+      {
+       "text": "Unit learns of disputes a day later from a daily file after cardholders phone the processor.",
+       "ids": [
+        "new:t6b-6b-pt-unit-tollfree"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Marqeta resells Mastercom-backed dispute management through its own API.",
+       "ids": [
+        "mastercard-266"
+       ]
+      },
+      {
+       "text": "Push-payment disputes on Mastercard Send run in Mastercom Extended between originating and receiving institutions.",
+       "ids": [
+        "new:t6b-6b-mc-ext-send"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercom API sandbox",
+       "what_it_shows": "OAuth 1.0a API with mocked responses, but sample claims are not always self-service.",
+       "ids": [
+        "mastercard-014",
+        "mastercard-043"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Going live on Mastercom needs a licence agreement, test sign-off and Connect entitlements, with published service levels.",
+       "ids": [
+        "mastercard-078",
+        "mastercard-221"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Marqeta documents disputes for Visa, Mastercard and PULSE, with no Discover dispute guide.",
+       "ids": [
+        "dgn-271"
+       ]
+      },
+      {
+       "text": "Marqeta's PULSE model shows the network case number, next actor and days left to act.",
+       "ids": [
+        "new:t6b-6b-pulse-mq-nextactor",
+        "new:t6b-6b-pt-mq-pulse-actions"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Without a Discover guide at a major processor, fintech programmes have no public route to Discover credit disputes.",
+       "ids": [
+        "dgn-271"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Marqeta's PULSE wrapper shows next actor and days left on every case, the clearest fintech view of whose move it is.",
+    "ids": [
+     "new:t6b-6b-pulse-mq-nextactor"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE reaches fintechs through processors like Marqeta. Discover credit disputes have no public processor guide.",
+    "ids": [
+     "new:t6b-6b-pt-mq-pulse-actions",
+     "dgn-271"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "VROL is offered through Visa Developer with production pricing on request, but its API documentation is a restricted product.",
+       "ids": [
+        "visa-170",
+        "new:t6b-6b-visa-vrol-docs-restricted"
+       ]
+      },
+      {
+       "text": "The public VROL surface is a Fraud API for filing fraud reports.",
+       "ids": [
+        "visa-099"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "With the reference restricted, developers learn case states from processor mirrors.",
+       "ids": [
+        "new:t6b-6b-visa-vrol-docs-restricted",
+        "new:t6b-6b-visa-wp-case-status"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercom publishes a public OpenAPI spec, onboarding service levels and dated change notices with test and production dates.",
+       "ids": [
+        "mastercard-014",
+        "mastercard-322",
+        "mastercard-182"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Public API status page",
+       "what_it_shows": "Per-service sandbox and production health, including Mastercom and Ethoca Alerts.",
+       "ids": [
+        "mastercard-040"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Keys expire every 13 months, and customers must track expiry themselves.",
+       "ids": [
+        "mastercard-385"
+       ]
+      },
+      {
+       "text": "Operational answers such as the Mastercom User Guide sit behind Mastercard Connect.",
+       "ids": [
+        "mastercard-386"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "High-volume merchants take dispute files over SFTP through Raw Data Disputes.",
+       "ids": [
+        "new:t6b-6b-amex-rawdata-integration"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Amex says full Raw Data integration can take three to six months.",
+       "ids": [
+        "new:t6b-6b-amex-rawdata-integration"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "No public Discover dispute API was found. The Partner Product Portal lists Fraud Alerts with an API on the premium tier.",
+       "ids": [
+        "dgn-007",
+        "dgn-292"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "A practitioner guide finds no Discover equivalent of the main pre-dispute and compelling-evidence tools.",
+       "ids": [
+        "dgn-291"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercom's public spec, sandbox and dated change notices let a developer build before signing, the strongest developer pattern here.",
+    "ids": [
+     "mastercard-014",
+     "mastercard-182"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover exposes a Fraud Alerts API tier and no public dispute API.",
+    "ids": [
+     "dgn-292",
+     "dgn-007"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants where they touch the network directly",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Merchants never log into VROL. They reach it through acquirer or processor tools.",
+       "ids": [
+        "visa-098",
+        "visa-172"
+       ]
+      },
+      {
+       "text": "Merchants enrol in RDR by BIN and CAID and set auto-refund rules, with outcomes shown in the MyCDRN portal.",
+       "ids": [
+        "new:t6b-6b-visa-rdr-enrol",
+        "new:t6b-6b-visa-rdr-status-codes"
+       ]
+      },
+      {
+       "text": "Order Insight shares merchant data as a receipt in the banking app, in issuer call-centre lookup, and in CE3.0 deflection.",
+       "ids": [
+        "new:t6b-6b-visa-oi-touchpoints",
+        "new:t6b-6b-visa-oi-ce3-predispute"
+       ]
+      },
+      {
+       "text": "Visa's merchant guide says the real deadline is whatever the acquirer sets.",
+       "ids": [
+        "visa-343"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Verifi MyCDRN portal",
+       "what_it_shows": "RDR outcomes as status 103 accepted or 957 declined.",
+       "ids": [
+        "new:t6b-6b-visa-rdr-status-codes"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A processor gives merchants nine days to defend against the acquirer's 30.",
+       "ids": [
+        "new:t6b-6b-visa-adyen-9days"
+       ]
+      },
+      {
+       "text": "Merchants cannot see the fraud and dispute items behind their VAMP ratio, and say one fraud is counted twice.",
+       "ids": [
+        "new:t6b-6b-visa-vamp-blind",
+        "new:t6b-6b-visa-vamp-doublecount"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Merchants enrolled in Ethoca get alerts directly, answer with outcome codes, and should acknowledge within 24 hours.",
+       "ids": [
+        "new:t6b-6b-mc-ethoca-outcomes",
+        "new:t6b-6b-mc-ethoca-24h",
+        "new:t6b-6b-mc-collab-routing"
+       ]
+      },
+      {
+       "text": "First-Party Trust lets merchants reject certain US no-authorisation chargebacks with compelling evidence.",
+       "ids": [
+        "mastercard-269",
+        "mastercard-223"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Ethoca Alerts",
+       "what_it_shows": "Outcome codes STOPPED, MISSED or RESOLVED, and refund status REFUNDED, NOT_REFUNDED or NOT_SETTLED.",
+       "ids": [
+        "new:t6b-6b-mc-ethoca-outcomes"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Merchants pay per alert whatever the outcome, and Ethoca and CDRN overlap on Visa orders.",
+       "ids": [
+        "cross-210",
+        "new:t6b-6b-pt-alert-overlap"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Direct merchants see an Inquiry or Chargeback with a reply-by date, and 20 days to respond.",
+       "ids": [
+        "amex-257",
+        "amex-316"
+       ]
+      },
+      {
+       "text": "Accelerated Dispute Resolution sends a Dispute Alert with up to eight days to act before a chargeback.",
+       "ids": [
+        "new:t6b-6b-amex-adr-8days"
+       ]
+      },
+      {
+       "text": "OptBlue and TPP merchants see no Amex dispute screen. Their provider sets the due date.",
+       "ids": [
+        "new:t6b-6b-amex-tpp-due-date",
+        "new:t6b-6b-amex-tpp-rawdata"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Disputes Summary Table",
+       "what_it_shows": "Tabs for Response Needed, Review in Progress and Closed, with a Bulk Response mode for up to 100 disputes.",
+       "ids": [
+        "new:t6b-6b-amex-oma-tabs",
+        "new:t6b-6b-amex-oma-bulk"
+       ]
+      },
+      {
+       "name": "Case detail and response modal",
+       "what_it_shows": "Status as next action, days left, reason code and Amex notes. The Respond button offers disagree or refund.",
+       "ids": [
+        "new:t6b-6b-amex-oma-case-detail",
+        "new:t6b-6b-amex-oma-respond-modal"
+       ]
+      },
+      {
+       "name": "Win/Loss Report",
+       "what_it_shows": "Downloadable outcomes report on the Closed tab.",
+       "ids": [
+        "new:t6b-6b-amex-oma-winloss"
+       ]
+      },
+      {
+       "name": "Dispute email alerts",
+       "what_it_shows": "Alerts for new inquiries, chargebacks, case updates and urgent cases.",
+       "ids": [
+        "new:t6b-6b-amex-email-alerts"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Uploads are capped at 5MB per file and 25MB per case, and attachments can take up to seven days to load.",
+       "ids": [
+        "new:t6b-6b-amex-oma-upload-limits",
+        "new:t6b-6b-amex-lac-attach-lag"
+       ]
+      },
+      {
+       "text": "Amex's own FAQ acknowledges merchants feel it sides with cardholders.",
+       "ids": [
+        "amex-451"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "A public help page describes a merchant Dispute System reached from the Merchant Account Center.",
+       "ids": [
+        "new:t6b-6b-dgn-dsi-purpose"
+       ]
+      },
+      {
+       "text": "Notices arrive as letters with case number, reason code, merchant action and a respond-by date.",
+       "ids": [
+        "new:t6b-6b-dgn-trr-notice",
+        "new:t6b-6b-dgn-cb-notice"
+       ]
+      },
+      {
+       "text": "Discover markets Fraud Alerts to businesses as an earlier warning that helps prevent chargebacks.",
+       "ids": [
+        "dgn-375",
+        "dgn-292"
+       ]
+      },
+      {
+       "text": "Diners Club's only public dispute site serves India cardholders under a central bank rule, with no role for partners.",
+       "ids": [
+        "new:t6b-6b-diners-odr-india",
+        "new:t6b-6b-diners-odr-rbi"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Dispute System Interface",
+       "what_it_shows": "Case Search, Case Results and Case Details, with follow-up actions under Manage Case.",
+       "ids": [
+        "new:t6b-6b-dgn-dsi-screens"
+       ]
+      },
+      {
+       "name": "Representment upload",
+       "what_it_shows": "At most three TIFF or PDF images per representment.",
+       "ids": [
+        "new:t6b-6b-dgn-dsi-3-images"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The live help page lists Internet Explorer 6.0 as a tested browser.",
+       "ids": [
+        "new:t6b-6b-dgn-dsi-legacy"
+       ]
+      },
+      {
+       "text": "The Dispute System and Merchant Account Center keep separate viewed flags that do not sync.",
+       "ids": [
+        "new:t6b-6b-dgn-dsi-two-systems"
+       ]
+      },
+      {
+       "text": "Merchant eReports exclude chargeback notices and retrieval requests.",
+       "ids": [
+        "new:t6b-6b-dgn-ereport-gap"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's direct merchant table is the best pattern: three plain tabs, status as next action, days left, bulk response and a win and loss report.",
+    "ids": [
+     "new:t6b-6b-amex-oma-tabs",
+     "new:t6b-6b-amex-oma-case-detail",
+     "new:t6b-6b-amex-oma-bulk",
+     "new:t6b-6b-amex-oma-winloss"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's public merchant dispute help describes a legacy interface with a three-image cap and letter-style notices.",
+    "ids": [
+     "new:t6b-6b-dgn-dsi-legacy",
+     "new:t6b-6b-dgn-dsi-3-images",
+     "new:t6b-6b-dgn-trr-notice"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "Show whose move it is and the days left, on every case",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Acquirers and processors",
+    "Fintechs and programme managers",
+    "Merchants where they touch the network directly"
+   ],
+   "move": "Make the case status a next action with an owner and a day count, drawn from the condition's own time limit. Publish the same states through the API.",
+   "why_advantage": "Amex and a PULSE processor wrapper already show next action and days left. Each fintech processor invents its own states, so one network vocabulary would travel across all of them.",
+   "ids": [
+    "new:t6b-6b-amex-oma-case-detail",
+    "new:t6b-6b-pulse-mq-nextactor",
+    "new:t6b-6b-pt-lithic-status",
+    "new:t6b-6b-pt-unit-statuses",
+    "new:t6b-6b-visa-marq-states",
+    "new:t6b-6b-visa-auth-75days"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Put the partner's own legal clock beside the network clock",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Show Reg E provisional credit and decision deadlines next to chargeback deadlines on each issuer case, starting from the cardholder contact date.",
+   "why_advantage": "Issuers run two sets of deadlines. The only public tool that warns on the Reg E deadline is a processor portal, so a network that does it serves small issuers directly.",
+   "ids": [
+    "new:t6b-cfpb-rege",
+    "new:t6b-rege-provisional",
+    "new:t6b-6b-pt-mq-rege-warning",
+    "new:t6b-6b-pt-azfcu-job"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Let the cardholder start the claim and let the network set the clock",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Offer issuers a network-hosted claim start they can embed in their app, feeding the case with a network-set timer for each step.",
+   "why_advantage": "Pix mandates in-app self-service with central-bank timers. Card claims still start by phone or branch, and some fintechs see them a day late.",
+   "ids": [
+    "new:t6b-6b-pt-pix-selfserve",
+    "new:t6b-6b-pt-pix-med",
+    "new:t6b-6b-pt-finboa-branch",
+    "new:t6b-6b-pt-unit-tollfree",
+    "new:t6b-ib26-calls"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Fold fraud reporting into the dispute",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Let one issuer action file the fraud report and open the dispute, instead of a separate Confirmed Fraud portal.",
+   "why_advantage": "Visa and Mastercard both require the fraud report first, and Visa penalises reporting failures by suspending dispute rights. Mastercard already files the report from inside the claim.",
+   "ids": [
+    "new:t6b-6b-visa-fraud-report-first",
+    "new:t6b-6b-mc-fld-before-cb",
+    "new:t6b-6b-mc-fraud-item",
+    "visa-329",
+    "new:t6b-6b-dgn-confirmed-fraud"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Offer free pre-dispute resolution and count it as prevented",
+   "partner_types": [
+    "Issuers: large banks",
+    "Acquirers and processors",
+    "Merchants where they touch the network directly"
+   ],
+   "move": "Route every new claim through a merchant resolution step first, at no per-alert fee, and show resolved claims as prevented on partner reports.",
+   "why_advantage": "Visa auto-enrolled issuers in RDR and excludes pre-dispute resolutions from monitoring. Merchants pay per alert elsewhere, and Mastercard's acquirer route is reported to be ending.",
+   "ids": [
+    "new:t6b-6b-visa-rdr-auto-activate",
+    "visa-337",
+    "mastercard-215",
+    "cross-210",
+    "new:t6b-6b-pt-alert-overlap",
+    "new:t6b-6b-mc-collab-sunset",
+    "dgn-291",
+    "dgn-292"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Publish the monitoring line and show the items behind the ratio",
+   "partner_types": [
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "Merchants where they touch the network directly"
+   ],
+   "move": "Publish Discover's dispute and fraud thresholds. Give acquirers a live ratio per merchant and sub-merchant with every counted item listed.",
+   "why_advantage": "Merchants cannot see the items behind VAMP and data arrives a month late. Discover has no public line at all, so publishing one closes a gap competitors leave open.",
+   "ids": [
+    "new:t6b-6b-visa-vamp-blind",
+    "new:t6b-stripe-vamp-lag",
+    "dgn-288",
+    "dgn-376",
+    "mastercard-354",
+    "visa-338"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Let evidence be checked before it is final",
+   "partner_types": [
+    "Acquirers and processors",
+    "Merchants where they touch the network directly",
+    "Fintechs and programme managers"
+   ],
+   "move": "Validate evidence against the reason code before submission, show limits up front, and list items still missing inside the window.",
+   "why_advantage": "CE3.0 and Stripe Issuing allow one attempt. Upload caps range from three images to 18 MB. Mastercom's Pending Documentation Report shows the value of flagging gaps early.",
+   "ids": [
+    "new:t6b-6b-visa-ce3-one-shot",
+    "new:t6b-6b-pt-stripe-iss-once",
+    "new:t6b-6b-dgn-dsi-3-images",
+    "new:t6b-6b-mc-doc-limits",
+    "new:t6b-6b-amex-oma-upload-limits",
+    "new:t6b-6b-mc-ext-pending-docs"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Deliver compromise alerts as actions",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Issuers: large banks"
+   ],
+   "move": "Send compromised-card alerts as a list with block, monitor and reissue actions per card, by screen and API, with the recovery deadline shown.",
+   "why_advantage": "Credit unions reformat alert lists by hand several times a week. Vendors now sell tools against that work, and loss recovery depends on reporting within 120 days.",
+   "ids": [
+    "new:t6b-6b-pt-cuanswers-cams",
+    "new:t6b-6b-pt-cutek-cams",
+    "new:t6b-6b-pt-velera-ram",
+    "new:t6b-6b-visa-cams-vrm",
+    "new:t6b-6b-visa-gcar-120",
+    "new:t6b-6b-dgn-aim"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Make the dispute rules public and dated",
+   "partner_types": [
+    "Acquirers and processors",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers",
+    "Developers"
+   ],
+   "move": "Publish the Discover and PULSE dispute rules and time limits openly, with effective dates on each change.",
+   "why_advantage": "Mastercard publishes its Chargeback Guide and Visa its core rules. Discover and PULSE keep theirs gated, so practitioners fill the gap with secondhand figures.",
+   "ids": [
+    "mastercard-171",
+    "mastercard-175",
+    "visa-313",
+    "new:t6b-6b-pulse-rules-gated",
+    "new:t6b-6b-dgn-rep-30",
+    "dgn-291"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "One sign-in and self-serve enrolment for dispute and fraud tools",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Acquirers and processors"
+   ],
+   "move": "Put the Disputes Portal and the Fraud and Risk Center under one identity, with administrators granting access online.",
+   "why_advantage": "Discover's fraud tools need signed forms and email-only MFA, while the Disputes Portal already uses the shared identity provider.",
+   "ids": [
+    "new:t6b-6b-dgn-aim-signoff",
+    "new:t6b-6b-dgn-frc-mfa",
+    "dgn-196",
+    "dgn-041"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Give intermediaries a multi-institution queue and give the client a view",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Payment facilitators and ISOs",
+    "Fintechs and programme managers"
+   ],
+   "move": "Let a processor or CUSO work cases for many clients in one queue, while each client sees its own cases read-only.",
+   "why_advantage": "Small issuers and fintechs reach networks through processors and learn outcomes late or never. Amex OptBlue merchants see no network screen at all.",
+   "ids": [
+    "new:t6b-6b-pt-azfcu-job",
+    "new:t6b-6b-pt-unit-tollfree",
+    "new:t6b-job-velera-disputes",
+    "new:t6b-6b-amex-tpp-rawdata",
+    "new:t6b-6b-visa-payfac-portals"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Structured ATM claims built on the journal",
+   "partner_types": [
+    "ATM operators"
+   ],
+   "move": "Ask for named journal fields in ATM claims and responses in place of free-text memos.",
+   "why_advantage": "Visa names the disbursement record fields while Mastercard codes ATM cases as free text, and operators already hold the journal.",
+   "ids": [
+    "new:t6b-6b-visa-atm-13-9",
+    "new:t6b-6b-mc-atm-memo",
+    "new:t6b-6b-pt-nas-atm"
+   ],
+   "evidence_strength": "thin"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "VROL screens, queue names and API case states",
+   "why": "The VROL API reference is a restricted product and no republished user guide or training video was found.",
+   "how_to_see_it": "Visa University dispute course outlines, a sponsor issuer or processor walk-through, or processor user guides that mirror VROL."
+  },
+  {
+   "what": "Mastercom user interface screens",
+   "why": "The Mastercom User Guide sits on the Technical Resource Center behind Mastercard Connect. Only API queues and statuses are public.",
+   "how_to_see_it": "A processor or CUSO demo, or Mastercard Developers reference apps on GitHub."
+  },
+  {
+   "what": "Discover Network Disputes Portal and PULSE Disputes System",
+   "why": "Both are behind login, and the Dispute Rules Manual and PULSE rules are not public. Archived manuals marked confidential were not used.",
+   "how_to_see_it": "Ask Discover's own partner teams through proper channels, or observe a partner acquirer walk-through."
+  },
+  {
+   "what": "Amex NDM and FraudNet screens",
+   "why": "User guides sit on the gated GNS Knowledge Base.",
+   "how_to_see_it": "A GNS partner walk-through or any future public training webinar."
+  },
+  {
+   "what": "VAMP and ECP notifications and reports",
+   "why": "The VAMP Guide and Mastercard's Data Integrity manual are non-public, and ECP thresholds appear only through practitioners.",
+   "how_to_see_it": "Acquirer merchant notices republished publicly, or acquirer compliance staff interviews."
+  },
+  {
+   "what": "Network dispute fee schedules",
+   "why": "Visa and Mastercard fee amounts are not published. Figures come from vendors and processors.",
+   "how_to_see_it": "Processor pricing pass-through notices and published merchant fee schedules."
+  },
+  {
+   "what": "Visa's 2026 dispute products beyond the announcement",
+   "why": "Dispute Intelligence, Dispute Recovery Manager and the Dispute Resolution Network have no public product pages.",
+   "how_to_see_it": "Later Visa product pages, demos or conference sessions."
+  },
+  {
+   "what": "Interac and Diners partner dispute handling",
+   "why": "The search budget ran out before Interac was checked, and no public Diners issuer or acquirer dispute guide was found.",
+   "how_to_see_it": "Interac member rules summaries and Diners franchise materials, if public."
+  },
+  {
+   "what": "Mastercard Collaboration shutdown bulletin",
+   "why": "The primary bulletin is gated, so the January 2027 end date rests on one consultancy.",
+   "how_to_see_it": "Acquirer notices to merchants or a second practitioner source."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t6b-6b-amex-adr-8days",
+   "network": "amex",
+   "claim": "Accelerated Dispute Resolution sends a Dispute Alert with up to eight calendar days to act before a chargeback, for US non-fraud disputes only.",
+   "quote": "Accelerated Dispute Resolution is only available for US Merchant IDs on non fraud disputes.",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/logging-in-and-enrolling.html",
+   "title": "Logging in and enrolling in Disputes",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-arb-45",
+   "network": "amex",
+   "claim": "Only the acquirer can file arbitration at GNS, through NDM, within 45 days of the Final Chargeback. Pre-arbitration is optional.",
+   "quote": "An Arbitration Filing must be submitted through AEGNS Network Disputes Manager with all related Documentation within forty-five (45) days",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-arb-fees",
+   "network": "amex",
+   "claim": "GNS arbitration costs USD 150 to file and USD 250 for review, with USD 100 penalties per violation, charged whichever side wins.",
+   "quote": "All Fees are in U.S. Dollars Filing Fee Arbitration Review Fee Penalty Fee (Per Violation) Arbitration $150 $250 $100",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-email-alerts",
+   "network": "amex",
+   "claim": "Merchants can set email alerts for four dispute categories: new inquiries, new chargebacks, case updates and urgent cases.",
+   "quote": "Manage deadlines with email notifications for up to 4 dispute categories: new Inquiries, new Chargebacks, case updates and urgent cases.",
+   "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/manage-disputes/US-Disputes-Reference-Guide.pdf",
+   "title": "How to Manage and Help Prevent Disputes (US Disputes Reference Guide, 2024PROP)",
+   "publisher": "American Express",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-first-cb-120",
+   "network": "amex",
+   "claim": "GNS issuers must file a First Chargeback within 120 days of the First Presentment processing date unless a reason code says otherwise.",
+   "quote": "Issuers must file a First Chargeback within 120 days from the Network Processing Date of the First Presentment",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-fraud-report-nbd",
+   "network": "amex",
+   "claim": "GNS issuers must report all confirmed fraud to Amex by the next business day after verification, using fraud type codes.",
+   "quote": "Such fraud activity reporting must occur by the next Business Day after the verification of the fraud activity",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-fraudnet-min",
+   "network": "amex",
+   "claim": "FraudNet registration is mandatory: issuers need a user for Urgent Investigation Requests and the Participant Communication Platform, acquirers also for SEAS.",
+   "quote": "Issuers are required to have at least one (1) FraudNet user registered for Urgent Investigation Request (UIR) and the Participant Communication Platform (PCP).",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-lac-attach-lag",
+   "network": "amex",
+   "claim": "Amex warns that uploaded attachments can take up to seven days to load, with failed uploads flagged in orange on the summary page.",
+   "quote": "it can take up to seven days for an attachment to load correctly after you have sent your response.",
+   "url": "https://www.americanexpress.com/content/dam/amex/ac/merchant/pdfs/disputes-userguide-idc.pdf",
+   "title": "Your guide to managing disputes online (Latin America and Caribbean merchant site)",
+   "publisher": "American Express",
+   "published": "2017",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-ndm-licence",
+   "network": "amex",
+   "claim": "Each GNS participant pays a USD 100 monthly NDM licence fee, though a browser-based NDM Disputes Online function carries no extra cost.",
+   "quote": "Participants can use the NDM Disputes Online functionality at no extra cost.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-ndm-system",
+   "network": "amex",
+   "claim": "The GNS licensed dispute system is AEGNS Network Disputes Manager (NDM), and all dispute documentation between issuers and acquirers must travel through it.",
+   "quote": "Participants must use AEGNS Network Disputes Manager (NDM) to send Documentation to other Participants.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-bulk",
+   "network": "amex",
+   "claim": "A Bulk Response mode, reached from the gear icon on the Response Needed tab, lets merchants answer up to 100 disputes in one submission.",
+   "quote": "Select up to 100 Disputes to respond to in a single response submission",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/disputes-summary-table.html",
+   "title": "How to use the Disputes Summary Table",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-case-detail",
+   "network": "amex",
+   "claim": "Each case detail page shows status as next action, amounts, reason and code, case and dispute type, days left to respond and Amex notes.",
+   "quote": "Status (your next action related to the Dispute)",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/managing-a-disputes-case.html",
+   "title": "Managing a Dispute Case",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-respond-modal",
+   "network": "amex",
+   "claim": "The Respond to this Dispute button opens a modal with two choices: disagree or already refunded, or agree and give a full refund.",
+   "quote": "I do not agree with the Card Member or I already issued a refund.",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/managing-a-disputes-case.html",
+   "title": "Managing a Dispute Case",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-tabs",
+   "network": "amex",
+   "claim": "The Online Merchant Account Disputes Summary Table has three tabs: Response Needed, Review in Progress and Closed.",
+   "quote": "Response Needed - this table displays the cases that are in need of a response",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/disputes-summary-table.html",
+   "title": "How to use the Disputes Summary Table",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-upload-limits",
+   "network": "amex",
+   "claim": "Online responses accept PDF, JPG, TIFF or DOC files up to 5MB each and 25MB total, capped at 20 pages and five files per case.",
+   "quote": "When responding to a single case: no more than 20 pages and 5 files per case.",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/adding-documents-to-a-case.html",
+   "title": "Adding Documents to a Case",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-oma-winloss",
+   "network": "amex",
+   "claim": "The Closed tab offers a downloadable Win/Loss Report of dispute outcomes, with up to ten saved reports kept under a View Reports tab.",
+   "quote": "In the \"Closed\" tab, you may download a Win/Loss Report",
+   "url": "https://www.americanexpress.com/us/merchant/support-center/disputes/reviewing-closed-disputes.html",
+   "title": "Reviewing Closed Disputes",
+   "publisher": "American Express",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-rawdata-integration",
+   "network": "amex",
+   "claim": "Raw Data Disputes delivers daily dispute notification files over SFTP with two-way imaging, but full integration can take three to six months.",
+   "quote": "It can take 3-6 months to fully integrate the Raw Data Disputes and Imaging files into your disputes system",
+   "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/raw_data_disputes_factsheet.pdf",
+   "title": "Raw Data Disputes from American Express",
+   "publisher": "American Express",
+   "published": "2020",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-seas",
+   "network": "amex",
+   "claim": "Amex flags risky merchants to acquirers through the S/E Actioning System (SEAS) on FraudNet, with required actions such as Fraud Full Recourse probation.",
+   "quote": "Acquirers will be notified of S/Es identified as potential High Risk S/Es via the S/E Actioning System (SEAS) on GNS FraudNet.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-second-pres-45",
+   "network": "amex",
+   "claim": "GNS acquirers get 45 days from the First Chargeback to file a Second Presentment, and issuers then get 45 days for a Final Chargeback.",
+   "quote": "Acquirers must file a Second Presentment within forty-five (45) days from the Network Processing Date of the First Chargeback.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies Manual, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-tpp-due-date",
+   "network": "amex",
+   "claim": "The TPP disputes guide replaces the fixed 20-day window with whatever due date the Merchant Services Provider sets.",
+   "quote": "Remember that you will receive a due date from your Merchant Services Provider to respond to an Inquiry or Chargeback",
+   "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/tpp/manage-disputes/Amex-TPP-Disputes-Reference-Guide.pdf",
+   "title": "How to Manage and Help Prevent Disputes (TPP Disputes Reference Guide, 2024TPP)",
+   "publisher": "American Express",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-amex-tpp-rawdata",
+   "network": "amex",
+   "claim": "TPP merchants find extra chargeback detail in the comments section of the raw data file their provider passes on, not in an Amex screen.",
+   "quote": "This is in the comments section of the raw data file you receive.",
+   "url": "https://www.americanexpress.com/content/dam/amex/us/merchant/pdf/tpp/manage-disputes/Amex-TPP-Disputes-Reference-Guide.pdf",
+   "title": "How to Manage and Help Prevent Disputes (TPP Disputes Reference Guide, 2024TPP)",
+   "publisher": "American Express",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-aim",
+   "network": "dgn",
+   "claim": "Account Incident Manager is Discover web tool for issuers, acquirers and the network to exchange account data compromise case information.",
+   "quote": "a web-based fraud risk mitigation tool that facilitates communication between issuers, acquirers, and Discover® Network concerning Account Data Compromise (ADC) incidents and case management.",
+   "url": "https://servicecenter.discovernetwork.com/fraud-product-enrollment/account-incident-manager-application.pdf",
+   "title": "Account Incident Manager (AIM) Application",
+   "publisher": "Discover Global Network",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf (read only, not submitted) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-aim-signoff",
+   "network": "dgn",
+   "claim": "AIM enrolment needs two named administrators with corporate emails plus a Director or VP signature, sent by email rather than online.",
+   "quote": "Must be Director, Vice President, or above, have signatory authority for the organization",
+   "url": "https://servicecenter.discovernetwork.com/fraud-product-enrollment/account-incident-manager-application.pdf",
+   "title": "Account Incident Manager (AIM) Application",
+   "publisher": "Discover Global Network",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf (read only, not submitted) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-cb-notice",
+   "network": "dgn",
+   "claim": "The sample chargeback notice for reason UA32 Invalid CNP Sale tells the merchant what proof to send in a Representment Request.",
+   "quote": "Please provide proof of an approved Authorization containing full Address Verification, Card Identification Data match, and proof of delivery",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Sample_Report_Chargeback.pdf",
+   "title": "Chargeback (sample report)",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-confirmed-fraud",
+   "network": "dgn",
+   "claim": "The Confirmed Fraud Portal lets directly contracted issuers and acquirers submit confirmed fraud transactions through up to two administrators.",
+   "quote": "The Confirmed Fraud Portal is a self-service system for participants to submit confirmed fraud transactions",
+   "url": "https://servicecenter.discovernetwork.com/fraud-product-enrollment/confirmed-fraud-portal-access-request-form.pdf",
+   "title": "Confirmed Fraud Portal Access Request",
+   "publisher": "Discover Global Network",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl + pypdf (read only, not submitted) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-dsi-3-images",
+   "network": "dgn",
+   "claim": "A representment in the merchant dispute system accepts at most three uploaded TIFF or PDF images.",
+   "quote": "You can upload up to 3 images to submit in a Representment Request in response to a Chargeback.",
+   "url": "https://servicecenter.discovernetwork.com/disputes/help/help_dispsys_mrch.html",
+   "title": "Dispute System Interface for Merchants - Help Guide",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-dsi-legacy",
+   "network": "dgn",
+   "claim": "The live merchant dispute help page still lists Internet Explorer 6.0 and Firefox 2 as the tested browsers.",
+   "quote": "The following browsers have been tested for accessing the Dispute System: Microsoft Internet Explorer 6.0 Firefox 2.0.0.14",
+   "url": "https://servicecenter.discovernetwork.com/disputes/help/help_dispsys_mrch.html",
+   "title": "Dispute System Interface for Merchants - Help Guide",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-dsi-purpose",
+   "network": "dgn",
+   "claim": "Discover publicly documents a Dispute System Interface for Merchants, reached from the Merchant Account Center, for handling disputes under its Dispute Rules.",
+   "quote": "an online solution that is designed to assist Merchants with the management of Disputes in accordance with Discover Network's Dispute Rules",
+   "url": "https://servicecenter.discovernetwork.com/disputes/help/help_dispsys_mrch.html",
+   "title": "Dispute System Interface for Merchants - Help Guide",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-dsi-screens",
+   "network": "dgn",
+   "claim": "Merchants work cases through Case Search, Case Results and a Case Details page whose Manage Case section offers follow-up actions.",
+   "quote": "Under the Manage Case section, select the Representment Request follow-up action.",
+   "url": "https://servicecenter.discovernetwork.com/disputes/help/help_dispsys_mrch.html",
+   "title": "Dispute System Interface for Merchants - Help Guide",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-dsi-two-systems",
+   "network": "dgn",
+   "claim": "The Merchant Account Center and the Dispute System keep separate viewed flags, so a case read in one still shows unviewed in the other.",
+   "quote": "These are separate systems. Viewing a Dispute in either system does not update that Dispute as \"viewed\" in the other system.",
+   "url": "https://servicecenter.discovernetwork.com/disputes/help/help_dispsys_mrch.html",
+   "title": "Dispute System Interface for Merchants - Help Guide",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-ereport-gap",
+   "network": "dgn",
+   "claim": "Discover merchant eReport delivery excludes chargeback notifications and ticket retrieval requests, which travel separately.",
+   "quote": "(Chargeback Notifications and Ticket Retrieval Requests are not available via Discover eReport)",
+   "url": "https://servicecenter.discovernetwork.com/common/pdf/ReportingFAQs.pdf",
+   "title": "Reporting FAQs",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-frc-mfa",
+   "network": "dgn",
+   "claim": "Since March 2025 the Fraud and Risk Center requires a one-time code at every login, sent by email as the only supported factor.",
+   "quote": "Email is the only MFA method currently supported.",
+   "url": "https://servicecenter.discovernetwork.com/FRC-login/multi-factor-authentication-faqs.pdf",
+   "title": "Multi-Factor Authentication (MFA) for the Fraud and Risk Center (FRC)",
+   "publisher": "Discover Global Network",
+   "published": "2025-03-06",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-rep-30",
+   "network": "dgn",
+   "claim": "Practitioners report Discover dispute rules release 19.2 cut the merchant or acquirer representment window from 45 to 30 calendar days.",
+   "quote": "The time limit for merchants/acquirers to initiate a representment request has been reduced from 45 to 30 calendar days.",
+   "url": "https://www.chargebackgurus.com/blog/discover-card-dispute-chargeback-mandates",
+   "title": "Discover Card Dispute and Chargeback Mandates",
+   "publisher": "Chargeback Gurus",
+   "published": "2021-12-29",
+   "label": "Reported",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-trr-5cal",
+   "network": "dgn",
+   "claim": "Release 20.1 reportedly made the ticket retrieval response deadline five calendar days, and gave three days to back a pre-arbitration reply.",
+   "quote": "The deadline for merchants/acquirers to respond to a ticket retrieval request has been changed from 5 business days to 5 calendar days.",
+   "url": "https://www.chargebackgurus.com/blog/discover-card-dispute-chargeback-mandates",
+   "title": "Discover Card Dispute and Chargeback Mandates",
+   "publisher": "Chargeback Gurus",
+   "published": "2021-12-29",
+   "label": "Reported",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-dgn-trr-notice",
+   "network": "dgn",
+   "claim": "A sample Dispute Ticket Retrieval Request notice carries a case number, reason code, merchant action and a respond-by date that triggers a chargeback.",
+   "quote": "Failure to respond by 7/28/2007 will result in a chargeback",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Sample_Report_Dispute_Ticket_Retrieval.pdf",
+   "title": "Dispute Ticket Retrieval Request (sample report)",
+   "publisher": "Discover Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-diners-aim",
+   "network": "diners",
+   "claim": "Diners Club franchises enrol in Discover Account Incident Manager with a dedicated form section and a separate DCIFraud mailbox.",
+   "quote": "all fields required for Diners Club International® franchises",
+   "url": "https://servicecenter.discovernetwork.com/fraud-product-enrollment/account-incident-manager-application.pdf",
+   "title": "Account Incident Manager (AIM) Application",
+   "publisher": "Discover Global Network",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf (read only, not submitted) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-diners-odr-india",
+   "network": "diners",
+   "claim": "Diners Club ODR is limited to cardholders whose Diners cards were issued by banks in India, not to network partners.",
+   "quote": "Only Diners Club card holders to whom the Diners Club cards have been issued by an issuing bank in India",
+   "url": "https://odr.dinersclub.com/static/js/main.f3489f4a.js",
+   "title": "Online Dispute Resolution Portal (public JavaScript bundle)",
+   "publisher": "Diners Club International",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl (public JS bundle, UI strings) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-diners-odr-rbi",
+   "network": "diners",
+   "claim": "ODR exists to handle failed-transaction grievances under the Reserve Bank of India 2019 turnaround time and compensation circular.",
+   "quote": "resolving disputes and grievances arising out of failed transactions of any of the India Cardholders",
+   "url": "https://odr.dinersclub.com/static/js/main.f3489f4a.js",
+   "title": "Online Dispute Resolution Portal (public JavaScript bundle)",
+   "publisher": "Diners Club International",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl (public JS bundle, UI strings) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ack-moves-queue",
+   "network": "mastercard",
+   "claim": "An acquirer acknowledging a first chargeback moves the claim from AcquirerFirstCBUnworked to the AcquirerWorked queue, then it accepts or second presents.",
+   "quote": "to mark the received chargeback as processed. This action moves the claim to the AcquirerWorked queue.",
+   "url": "https://developer.mastercard.com/mastercom/documentation/use-cases/firstchargeback/",
+   "title": "First Chargeback use case",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-adc-24h",
+   "network": "mastercard",
+   "claim": "Any issuer, acquirer or agent must notify Mastercard within 24 hours of learning of an Account Data Compromise event and preserve evidence within 24 hours.",
+   "quote": "A Customer must notify Mastercard within 24 hours of becoming aware of an ADC Event or Potential ADC Event",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-08-04",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260919122811 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-arb-15",
+   "network": "mastercard",
+   "claim": "After the acquirer rejects pre-arbitration, the issuer has 15 calendar days from the Rejected Date to escalate to an arbitration case or it bears the loss.",
+   "quote": "For all other transactions: Within 15-calendar days of the Rejected Date specified within the Mastercom application.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-atm-memo",
+   "network": "mastercard",
+   "claim": "ATM case filings are coded by free text: the issuer must write POI-ATM, 17, 34 or a similar phrase in the Mastercom Sender Memo field.",
+   "quote": "Include in the Sender Memo field within the Mastercom application that the reason for the filing is “POI-ATM”",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-atm-prearb-optional",
+   "network": "mastercard",
+   "claim": "For ATM and Maestro disputes pre-arbitration is optional and Mastercard recommends going straight to arbitration within 45 days of the second presentment.",
+   "quote": "For ATM and Maestro transactions: Pre-arbitration is optional; this means that an issuer has the option to skip the pre-arbitration step",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-case-memo",
+   "network": "mastercard",
+   "claim": "A case filing is created with case type 1 to 4 (pre-arbitration, arbitration, pre-compliance, compliance), filing ICA, amount and a mandatory memo of up to 13,000 characters.",
+   "quote": "Enter a Memo pertaining to the case. Length: 1-13000",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-case-status",
+   "network": "mastercard",
+   "claim": "Mastercom case filings move through statuses including New, Rejected, Accepted, Escalated, Ruled, Withdrawn, Expired, Favor Sender and Favor Receiver.",
+   "quote": "New, Won, Lost, Withdrawn, Rejected, Accepted, Escalated, Unescalated, Ruled, Reviewed, Filed in Error, Declined, Expired, Favor Sender, Favor Receiver",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-clarity-url",
+   "network": "mastercard",
+   "claim": "The Mastercom claim record now includes a callCenterDetailsUrl that opens Ethoca Consumer Clarity transaction detail for the issuer agent.",
+   "quote": "Consumer Clarity URL provided by Ethoca Clarity Centre. Issuers can use to see the detailed Transaction details.",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "2026-04",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-collab-auto-reject",
+   "network": "mastercard",
+   "claim": "An acquirer answers Collaboration in the Mastercom UI or API, or the system auto-rejects the request after 72 hours and the chargeback proceeds.",
+   "quote": "or the system automatically rejects the Collaboration request after 72 hours.",
+   "url": "https://corepay.net/news/mastercard-acquirer-collaboration-2022-revisions/",
+   "title": "Mastercard Acquirer Collaboration",
+   "publisher": "Corepay",
+   "published": "2024-12-09",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-collab-codes",
+   "network": "mastercard",
+   "claim": "Acquirers answer a Collaboration request with a coded response: A funds movement request, B refunded, C initiating refund or E reject Collaboration.",
+   "quote": "A - Funds Movement Request, B - Refunded, C - Initiating Refund, E - Reject Collaboration",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-collab-no-replacement",
+   "network": "mastercard",
+   "claim": "An alerts vendor complains that Mastercard set the Collaboration end date without naming any replacement platform or migration path.",
+   "quote": "Mastercard has published the end date without publishing the replacement.",
+   "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+   "title": "Mastercard Acquirer Collaboration Ends in January 2027",
+   "publisher": "ChargebackHelp",
+   "published": "2026-08-18",
+   "label": "Vendor",
+   "fetch": "WordPress JSON API via curl, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-collab-routing",
+   "network": "mastercard",
+   "claim": "Collaboration requests route by Ethoca enrolment: registered merchant descriptors get alerts directly on Ethoca rails, unregistered ones go through Mastercom to the acquirer.",
+   "quote": "Registered descriptors take the direct path. Issuer to Ethoca to merchant, on Ethoca rails",
+   "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+   "title": "Mastercard Acquirer Collaboration Ends in January 2027",
+   "publisher": "ChargebackHelp",
+   "published": "2026-08-18",
+   "label": "Reported",
+   "fetch": "WordPress JSON API via curl, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-collab-sunset",
+   "network": "mastercard",
+   "claim": "A payments consultancy reports Mastercard will switch off Acquirer Collaboration in the U.S. and Canada on 4 January 2027, with enrolment closed from 21 July 2026.",
+   "quote": "Mastercard will decommission Acquirer Collaboration in the US and Canada on January 4, 2027, per bulletin CAN/US 14059.1.",
+   "url": "https://chargebackhelp.com/mastercard-acquirer-collaboration-ends-in-january-2027/",
+   "title": "Mastercard Acquirer Collaboration Ends in January 2027",
+   "publisher": "ChargebackHelp",
+   "published": "2026-08-18",
+   "label": "Reported",
+   "fetch": "WordPress JSON API via curl, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-doc-limits",
+   "network": "mastercard",
+   "claim": "Mastercom accepts only JPEG, TIFF and PDF evidence, with names up to 16 characters and all documents for one transaction capped at 18 MB.",
+   "quote": "All documents (for one transaction) size should not be more than 18 MB or 18000000 bytes.",
+   "url": "https://developer.mastercard.com/mastercom/documentation/additional-resources/image-and-document-requirements/",
+   "title": "Image and Document Requirements",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-docs-8-days",
+   "network": "mastercard",
+   "claim": "Chargeback and second presentment evidence must reach Mastercom within eight calendar days, or ten for Maestro, or the sender loses on documentation alone.",
+   "quote": "For all other transactions: Eight-calendar days of generating a chargeback or second presentment requiring supporting documentation.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ecm-data-integrity",
+   "network": "mastercard",
+   "claim": "Acquirers whose merchants breach ECM or HECM thresholds must track them in the Data Integrity application on Mastercard Connect.",
+   "quote": "Acquirers of Merchants that exceed the ECM and HECM thresholds must monitor their Merchants through the Data Integrity application on Mastercard Connect.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-08-04",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260919122811 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-edit-deadlines",
+   "network": "mastercard",
+   "claim": "Mastercom hard-rejects late cycles: a first chargeback after 121 days from processing, or a second presentment after 46 days from the chargeback, fails.",
+   "quote": "Second Presentment failed: A Representment should not be processed after 46 days from chargeback processing date.",
+   "url": "https://developer.mastercard.com/mastercom/documentation/code-and-formats/",
+   "title": "Mastercom Code and Formats",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ethoca-24h",
+   "network": "mastercard",
+   "claim": "Ethoca asks merchants and partners to acknowledge each alert within 24 hours of arrival, then submit an outcome that is passed back to the issuer.",
+   "quote": "acknowledge receipt within expected SLAs (target: within 24 hours of alert arrival), submit outcomes, and log any anomalies",
+   "url": "https://developer.mastercard.com/ethoca-alerts-for-merchants/documentation/tutorials-and-guides/onboarding-checklist/",
+   "title": "Ethoca Alerts Onboarding Checklist",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ethoca-outcomes",
+   "network": "mastercard",
+   "claim": "Merchants answer Ethoca alerts with fixed outcome codes such as STOPPED, MISSED or RESOLVED, plus a refund status of REFUNDED, NOT_REFUNDED or NOT_SETTLED.",
+   "quote": "Use only documented outcome values: STOPPED, PARTIALLY_STOPPED, RESOLVED, NOT_FOUND, etc.",
+   "url": "https://developer.mastercard.com/ethoca-alerts-for-merchants/documentation/code-and-formats/",
+   "title": "Ethoca Alerts Codes and Formats",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ext-penalty-report",
+   "network": "mastercard",
+   "claim": "Mastercom Extended offers standard reports for acquirers, including an Acquirer Collaboration Penalty Report of claims that drew Collaboration penalties.",
+   "quote": "Contains claims with Collaboration penalties for an acquirer.",
+   "url": "https://static.developer.mastercard.com/content/mastercom-extended/swagger/queues-reports-api.yml",
+   "title": "Mastercom Extended Queues and Reports API",
+   "publisher": "Mastercard",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ext-pending-docs",
+   "network": "mastercard",
+   "claim": "A Pending Documentation Report went live on 30 June 2026 to show dispute events still awaiting evidence inside the eight-day upload window.",
+   "quote": "events will only show in this report within 8 days of event creation.",
+   "url": "https://developer.mastercard.com/mastercom-extended/documentation/announcements/",
+   "title": "Mastercom Extended Announcements",
+   "publisher": "Mastercard",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ext-send",
+   "network": "mastercard",
+   "claim": "Mastercard Send (push payment) disputes run in Mastercom Extended between Originating and Receiving Institutions, with their own Unworked and Worked queues.",
+   "quote": "The Originating Institution creates a Send Payment dispute.",
+   "url": "https://developer.mastercard.com/mastercom-extended/documentation/use_cases/send/",
+   "title": "Send Payment dispute processing",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ext-sms-codes",
+   "network": "mastercard",
+   "claim": "Single Message (Debit Mastercard and Maestro) disputes in Mastercom Extended use two-digit reason codes such as 60 and 75, unlike 48xx dual message codes.",
+   "quote": "Only applicable to the reason codes 60 and 75 in Single Message and reason codes 4853 and 4860 for Dual Message.",
+   "url": "https://static.developer.mastercard.com/content/mastercom-extended/swagger/dispute-processing-api.yml",
+   "title": "Mastercom Extended Dispute Processing API",
+   "publisher": "Mastercard",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ext-v6-clash",
+   "network": "mastercard",
+   "claim": "A claim opened in Mastercom v6 cannot be recreated in Mastercom Extended, so issuers running both systems during migration must track where each claim lives.",
+   "quote": "will yield an error message indicating a claim has already been created for this transaction in the Mastercom v6 system.",
+   "url": "https://developer.mastercard.com/mastercom-extended/documentation/use_cases/createclaim/",
+   "title": "Mastercom Extended Claims use case",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fld-before-cb",
+   "network": "mastercard",
+   "claim": "An issuer must report a transaction to the Fraud and Loss Database before a fraud chargeback, with a three-day tolerance, or the acquirer can second present.",
+   "quote": "Mastercard considers this requirement met when the transaction reporting date in the Fraud and Loss Database is within three days of the chargeback date.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fld-suspended",
+   "network": "mastercard",
+   "claim": "Fraud records submitted to the Fraud and Loss Database land as confirmed success, rejected or suspended, and issuers must confirm suspended records separately.",
+   "quote": "Confirm a suspended fraud record for both Mastercard and Issuer-built transactions",
+   "url": "https://developer.mastercard.com/fld-fraud-submission/documentation/",
+   "title": "Confirmed Fraud (FLD)",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fns-35",
+   "network": "mastercard",
+   "claim": "The Fraud Notification Service caps fraud chargebacks per card account at 35 and blocks them on approvals made after two earlier fraud chargebacks.",
+   "quote": "The issuer submitted more than 35 chargebacks in aggregate involving the same account",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fpt-affidavit",
+   "network": "mastercard",
+   "claim": "To override a First-Party Trust reject, a U.S. issuer needs a cardholder affidavit (Form 0830) notarised by a Notary Public, plus a closed and blocked account.",
+   "quote": "A completed First-Party Trust Cardholder Exception Affidavit (Form 0830) signed by the cardholder and notarized by a Notary Public.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fpt-field",
+   "network": "mastercard",
+   "claim": "When First-Party Trust evidence is shown, the issuer must set acknowledgeFirstPartyTrustEvidence to true to proceed with the chargeback.",
+   "quote": "Issuer has acknowledged First-Party Trust evidence and proceeded with the chargeback.",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-fraud-item",
+   "network": "mastercard",
+   "claim": "Issuers can report fraud to the Fraud and Loss Database from inside a Mastercom claim, and fraud type codes 55, 56 and 57 were added in May 2025.",
+   "quote": "This use case demonstrates the process of an issuer creating a fraud item in the Mastercard Fraud and Loss Database.",
+   "url": "https://developer.mastercard.com/mastercom/documentation/use-cases/",
+   "title": "Mastercom Use Cases",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-gmap-suspended",
+   "network": "mastercard",
+   "claim": "The August 2026 Security Rules still describe the Global Merchant Audit Program as suspended, even as practitioners report a new GMAP from April 2027.",
+   "quote": "The Global Merchant Audit Program (GMAP) has been suspended until further notice.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-08-04",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260919122811 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-java-cache",
+   "network": "mastercard",
+   "claim": "Mastercard tells users whose document attachment fails in the Mastercom application to clear their Java cache and log in again, a sign of an older client stack.",
+   "quote": "The user should clear java cache/cookies/temp/history and log in again to the Mastercom Application.",
+   "url": "https://developer.mastercard.com/mastercom/documentation/additional-resources/image-and-document-requirements/",
+   "title": "Image and Document Requirements",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-match-5days",
+   "network": "mastercard",
+   "claim": "Acquirers must add a terminated merchant to MATCH Pro within five days of the termination decision, with a MATCH reason code.",
+   "quote": "Within 5 days of the decision to terminate a merchant that meets one of the MATCH Pro reasons codes, the Acquirer submits an addition record",
+   "url": "https://developer.mastercard.com/match/documentation/",
+   "title": "MATCH Pro",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-prearb-30",
+   "network": "mastercard",
+   "claim": "An issuer must file pre-arbitration within 30 calendar days of the second presentment, stating its reason in the Sender Memo field in Mastercom.",
+   "quote": "For all other transactions: Within 30-calendar days of the Settlement Date or Central Site Business Date of the second presentment.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-prearb-auto-accept",
+   "network": "mastercard",
+   "claim": "An acquirer that ignores a pre-arbitration case for 30 calendar days is deemed to accept it, and Mastercom moves the funds automatically.",
+   "quote": "The Mastercom application will automatically accept the pre-arbitration case on behalf of the acquirer after 30-calendar days from the Submit Date",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-queues",
+   "network": "mastercard",
+   "claim": "The Mastercom v6 API returns 13 named work queues, including Rejects, AcquirerFirstCBUnworked, IssuerRepresentmentUnworked, PendingDocumentation, SenderCaseFiling, ReceiverCaseFiling and Closed.",
+   "quote": "\"queueName\": \"ReceiverCaseFiling\", \"queueDescription\": \"Receiver Case Filing\"",
+   "url": "https://developer.mastercard.com/mastercom/documentation/testing/",
+   "title": "Mastercom Testing",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of developer.mastercard.com index.md, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-reject-codes",
+   "network": "mastercard",
+   "claim": "Mastercom stamps chargebacks rejected before the acquirer with special reject codes: 5000 refund given, 5001 voucher given, 5002 First-Party Trust reject.",
+   "quote": "Rejected by First-Party Trust program due to compelling evidence.",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-ruling-status",
+   "network": "mastercard",
+   "claim": "A Dispute Resolution Management ruling is recorded on the case with a rulingDate and one of six ruling statuses, such as Favor Sender or Filed In Error.",
+   "quote": "Valid values are Reviewed, Filed In Error, Declined, Expired, Favor Sender, Favor Receiver",
+   "url": "https://static.developer.mastercard.com/content/mastercom/swagger/mastercom-v6.yaml",
+   "title": "Mastercom API v6 OpenAPI specification",
+   "publisher": "Mastercard",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of public OpenAPI spec, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-scam-72h",
+   "network": "mastercard",
+   "claim": "Acquirers and payment facilitators must open an investigation within 72 hours when a card-not-present merchant hits scam triggers such as approval-rate collapses.",
+   "quote": "Within 72 hours of at least one of the following criteria being met, the Acquirer or Payment Facilitator, as applicable, must initiate an investigation",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-08-04",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260919122811 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-scam-fld-daily",
+   "network": "mastercard",
+   "claim": "Acquirers must check the Fraud and Loss Database every day for new scam merchant listings, through Fraud Insights alerts or the daily Acquirer Loss File.",
+   "quote": "Acquirers must check the FLD daily for new scam Merchant listings, using Fraud Insights online report alerts and/or the daily Acquirer Loss File batch reports.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "title": "Security Rules and Procedures Merchant Edition (4 August 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-08-04",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260919122811 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-second-pres-45",
+   "network": "mastercard",
+   "claim": "The acquirer has 45 calendar days from the chargeback settlement or central site date to submit a second presentment, with shorter domestic exceptions.",
+   "quote": "For all other transactions: Within 45-calendar days of the Settlement Date or Central Site Business Date, as applicable, of the chargeback.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-mc-sms-no-hardship",
+   "network": "mastercard",
+   "claim": "Disaster hardship variances that lift chargeback time-frame edits apply only to dual message clearing, not to Single Message debit and ATM disputes.",
+   "quote": "Hardship variances are not supported in the Single Message System.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "title": "Chargeback Guide Merchant Edition (19 May 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-05-19",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260724162432 via curl, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-adyen-eftpos",
+   "network": "eftpos",
+   "claim": "For eftpos, Adyen shows RFIs under Risk & disputes, Disputes, Requests for Information, with 14 days to answer before an undefendable chargeback.",
+   "quote": "You cannot defend the chargeback and that is the final status of the dispute.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/eftpos-chargebacks",
+   "title": "eftpos chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-adyen-nyce",
+   "network": "nyce",
+   "claim": "Adyen says NYCE does not allow defence documents on a second chargeback, pushing merchants to contact the issuing bank directly.",
+   "quote": "NYCE does not allow supplying defense documents for a second chargeback.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/nyce-chargebacks",
+   "title": "NYCE chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-adyen-pulse",
+   "network": "pulse",
+   "claim": "Adyen documents that PULSE issuers can open pre-arbitration on every dispute type except card-not-present fraud.",
+   "quote": "Issuing banks can initiate Pre-Arbitration for all disputes except those related to card-not-present fraud.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/pulse-chargebacks",
+   "title": "PULSE chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-adyen-star",
+   "network": "star",
+   "claim": "For STAR and Accel, Adyen gives merchants 30 days from notification to upload a single defence, with no later chance to add material.",
+   "quote": "There is no opportunity later in the process to provide information or to update information you provided.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/accel-star-chargebacks",
+   "title": "Accel & STAR chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-adyen-unionpay",
+   "network": "unionpay",
+   "claim": "Adyen warns that an unanswered UnionPay request for information makes any following chargeback undefendable.",
+   "quote": "If you do not respond to an RFI and subsequently receive a chargeback for the disputed transaction, the chargeback is undefendable.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/unionpay-chargebacks",
+   "title": "UnionPay chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-alert-overlap",
+   "network": "cross",
+   "claim": "A vendor comparison warns that Ethoca and CDRN both see Visa disputes, so one order can raise two paid alerts, citing 15 to 20 per cent overlap.",
+   "quote": "Ethoca and CDRN both see Visa disputes, so one order can produce two alerts.",
+   "url": "https://redo.com/resources/articles/comparisons/chargeback-alert-pricing",
+   "title": "Chargeback alert pricing hides the biggest cost",
+   "publisher": "Redo",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-aplus-job",
+   "network": "visa",
+   "claim": "A credit union card services posting lists daily fraud monitoring, a daily Visa exception file review, and VROL and Visa DAS experience.",
+   "quote": "Review daily Visa exception file and work with management and vendors to ensure resolution.",
+   "url": "https://talents.vaia.com/companies/a-federal-credit-union/card-dispute-specialist-29921731/",
+   "title": "Card Dispute Specialist",
+   "publisher": "A+ Federal Credit Union (via Vaia)",
+   "published": "2025-08-14",
+   "label": "Reported",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-azfcu-job",
+   "network": "cross",
+   "claim": "A September 2026 credit union posting has front-line staff decide chargeback rights across Visa, CO-OP, PULSE and MAP rules before back-office specialists file.",
+   "quote": "determines if we have chargeback rights based upon Visa and other network (COOP, PULSE, MAP) regulations.",
+   "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/4415187/ARIZONA-FINANCIAL-CREDIT-UNION/Card-Dispute-Consultant",
+   "title": "Card Dispute Consultant",
+   "publisher": "Arizona Financial Credit Union",
+   "published": "2026-09-26",
+   "label": "Reported",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-cuanswers-cams",
+   "network": "cross",
+   "claim": "CU*Answers tells credit unions to save the vendor's CAMS list as a two-column CSV on the C: drive and upload it to build a compromised-cards file.",
+   "quote": "The file must be saved as a CSV Comma-delimited format.",
+   "url": "https://www.cuanswers.com/wp-content/uploads/CUBASEandCompromisedCards.pdf",
+   "title": "CU*BASE and Compromised Cards",
+   "publisher": "CU*Answers",
+   "published": "2020-07-14",
+   "label": "Vendor",
+   "fetch": "curl PDF + pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-cuanswers-vendor",
+   "network": "cross",
+   "claim": "CU*Answers notes CAMS compromise notices may reach a credit union through its processor, such as Vantiv or CO-OP, rather than from the network directly.",
+   "quote": "maybe also come from the service provider (vendor) such as Vantiv, or Co-Op.",
+   "url": "https://www.cuanswers.com/wp-content/uploads/CUBASEandCompromisedCards.pdf",
+   "title": "CU*BASE and Compromised Cards",
+   "publisher": "CU*Answers",
+   "published": "2020-07-14",
+   "label": "Vendor",
+   "fetch": "curl PDF + pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-cutek-cams",
+   "network": "cross",
+   "claim": "CUTEK sells a CAMS Alert Manager because credit unions now get several Visa or Mastercard compromise lists a week, each needing per-card tracking, reissue and member notices.",
+   "quote": "it’s not unusual for a credit union to receive multiple CAMS alerts in a single week, or even a single day.",
+   "url": "https://www.cutek.com/product/cams-alert-manager",
+   "title": "CAMS Alert Manager",
+   "publisher": "CUTEK",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-fednow-return",
+   "network": "cross",
+   "claim": "FedNow offers only a return request message for fraud, asking the receiving participant to send funds back, with no chargeback or dispute stage.",
+   "quote": "may submit a “return request” message to request that another FedNow participant return the amount of a transaction identified as fraudulent.",
+   "url": "https://explore.fednow.org/resources/fraud-at-a-glance.pdf",
+   "title": "Managing Fraud Risk",
+   "publisher": "Federal Reserve Financial Services",
+   "published": "2026-05",
+   "label": "Verified",
+   "fetch": "curl PDF + pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-finboa-branch",
+   "network": "cross",
+   "claim": "Jack Henry's case study on FINBOA says bank and credit union members once had to visit a branch in set hours to fill dispute forms.",
+   "quote": "Accountholders who were once required to enter a branch office during set hours to complete forms",
+   "url": "https://www.jackhenry.com/resources/case-studies/finboa-revolutionizing-payment-dispute-management",
+   "title": "FINBOA is revolutionizing payment dispute management",
+   "publisher": "Jack Henry",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-fis-cbk",
+   "network": "cross",
+   "claim": "FIS sells CBK, a robotic process automation layer for issuer dispute teams that plugs into Visa Claims Resolution and Mastercom, also as a hosted outsource.",
+   "quote": "integrates easily with your existing solutions and with third parties such as Visa Claim Resolution and Mastercom.",
+   "url": "https://www.fisglobal.com/products/fis-cbk",
+   "title": "FIS CBK",
+   "publisher": "FIS",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js render, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-fiserv-de",
+   "network": "mastercard",
+   "claim": "Fiserv sells issuers three Dispute Expert tiers, Select, Choice and Toolkit, with Ethoca Alerts routing disputes to merchants inside the Dispute Expert workflow.",
+   "quote": "Keep cardholder interactions in your hands while Fiserv experts manage dispute decisions and network management.",
+   "url": "https://www.fiserv.com/en/solutions/card-services/dispute-expert.html",
+   "title": "Dispute Expert",
+   "publisher": "Fiserv",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-lithic-caseid",
+   "network": "cross",
+   "claim": "In Lithic's object the network case number stays empty until a chargeback is filed, so pre-network denials never get a VROL or Mastercom case identifier.",
+   "quote": "The case_id is null until a chargeback is filed with the network.",
+   "url": "https://docs.lithic.com/docs/understanding-the-api",
+   "title": "The Dispute Object",
+   "publisher": "Lithic",
+   "published": "2026-08-13",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-lithic-status",
+   "network": "cross",
+   "claim": "Lithic's Chargebacks API exposes eight statuses (NEW, PENDING_CUSTOMER, SUBMITTED, REPRESENTMENT, PREARBITRATION, ARBITRATION, CASE_WON, CASE_CLOSED), with PENDING_CUSTOMER meaning Lithic is waiting on the programme.",
+   "quote": "Lithic has requested from the customer more info about the dispute, before submitting it to the networks",
+   "url": "https://docs.lithic.com/docs/disputes-api",
+   "title": "Chargebacks",
+   "publisher": "Lithic",
+   "published": "2026-07-17",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-mq-ce3-reject",
+   "network": "visa",
+   "claim": "Marqeta documents that Visa returns error E-900003544 when a merchant qualifies under Compelling Evidence 3.0, leaving the fintech issuer to mark the dispute a write-off or case lost.",
+   "quote": "There are no dispute rights on this transaction. You can mark these disputes as Program Write-off or Case Lost.",
+   "url": "https://www.marqeta.com/docs/developer-guides/managing-visa-disputes",
+   "title": "Managing Visa Disputes",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-mq-portal-execute",
+   "network": "cross",
+   "claim": "Marqeta analysts advance a case with an Execute Action button, pick a Loss Reason, tick Required Evidence and add a Transition Note, and some transitions cannot be undone.",
+   "quote": "Some transitions permanently close a dispute case and cannot be undone. The Disputes portal displays a warning before you complete these actions.",
+   "url": "https://www.marqeta.com/docs/developer-guides/disputes-portal-transitioning-and-closing",
+   "title": "Transitioning Cases",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-mq-portal-tabs",
+   "network": "cross",
+   "claim": "Marqeta's early-access Disputes portal opens each case in tabs named Dispute Lifecycle, Documents, Evidences, Activity, Related Transactions and User Transactions, with a cardholder side panel.",
+   "quote": "Each case has tabs across the top of the screen that organize its information and tools.",
+   "url": "https://www.marqeta.com/docs/developer-guides/disputes-portal-working-within-a-case",
+   "title": "Working within a case (Disputes portal)",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-mq-pulse-actions",
+   "network": "pulse",
+   "claim": "Marqeta's PULSE disputes API reuses one five-state case model and adds PULSE actions such as RESPOND_WITH_PREARB, RESPOND_WITH_ARB and CLOSE_WITH_NETWORK_REJECTED.",
+   "quote": "Action to move a dispute to prearbitration with PULSE.",
+   "url": "https://www.marqeta.com/docs/core-api/disputes-pulse",
+   "title": "Disputes (PULSE)",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-mq-rege-warning",
+   "network": "cross",
+   "claim": "Marqeta starts the Reg E 45-day clock from a cardholder_contact_date field and its portal warns when the 10-business-day provisional credit deadline is expiring.",
+   "quote": "provides a warning if the 10-business-day timeline for providing provisional credit is expiring.",
+   "url": "https://www.marqeta.com/docs/developer-guides/disputes-regulation-e",
+   "title": "About Regulation E",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-nas-atm",
+   "network": "cross",
+   "claim": "An independent ATM operator runs its own dispute desk that takes cardholder calls and checks the online journal to decide whether cash was dispensed.",
+   "quote": "We review these disputes to determine whether the online journal indicates that they did or did not receive the money.",
+   "url": "https://www.nasatm.com/pages/atm-services",
+   "title": "ATM Services",
+   "publisher": "National ATM Systems",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-pix-med",
+   "network": "cross",
+   "claim": "Brazil's central bank fixes MED stage timers, seven days for receiving PSPs to analyse, then 72 hours for the payer's PSP to start the return.",
+   "quote": "7 dias para os PSPs dos recebedores analisarem o caso",
+   "url": "https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf",
+   "title": "Guia de implementação dos procedimentos de devolução no Pix (v4.3)",
+   "publisher": "Banco Central do Brasil",
+   "published": "2026-07",
+   "label": "Verified",
+   "fetch": "curl PDF + pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-pix-selfserve",
+   "network": "cross",
+   "claim": "Every Pix participant app must let individual users request MED themselves, beside a shortcut to the complaint channel and a pointer to the central bank.",
+   "quote": "funcionalidade no aplicativo para que os clientes solicitem o MED de forma autônoma",
+   "url": "https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf",
+   "title": "Guia de implementação dos procedimentos de devolução no Pix (v4.3)",
+   "publisher": "Banco Central do Brasil",
+   "published": "2026-07",
+   "label": "Verified",
+   "fetch": "curl PDF + pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-pulse-help",
+   "network": "pulse",
+   "claim": "PULSE's public disputes guidance keeps its Disputes Rules behind a login and routes processors to a Disputes Help Desk phone line and email.",
+   "quote": "Processors are encouraged to contact the Disputes Help Desk at 866-245-0500, or email disputes@pulsenetwork.com for support.",
+   "url": "https://content.pulsenetwork.com/recent-news/best-practices-for-disputes-handling",
+   "title": "Best Practices for Disputes Handling",
+   "publisher": "PULSE",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-stripe-cb",
+   "network": "cross",
+   "claim": "Stripe notes that Cartes Bancaires demands more cardholder evidence to open a dispute but then bars the merchant from challenging it.",
+   "quote": "requires a higher standard of evidence from the cardholder before allowing them to initiate a dispute, but then prohibits you from challenging",
+   "url": "https://docs.stripe.com/disputes/how-disputes-work",
+   "title": "How disputes work",
+   "publisher": "Stripe",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-stripe-iss-35",
+   "network": "visa",
+   "claim": "Stripe Issuing lists a network rejection when more than 35 fraud disputes hit one card in 120 days, a cap the fintech learns of only at rejection.",
+   "quote": "This fraud dispute is invalid because more than 35 fraud disputes have been submitted on the same card within the past 120 calendar days.",
+   "url": "https://docs.stripe.com/issuing/purchases/disputes",
+   "title": "Issuing disputes",
+   "publisher": "Stripe",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-stripe-iss-once",
+   "network": "cross",
+   "claim": "Stripe Issuing lets a programme submit a dispute only once, with no supplemental evidence afterwards, so the evidence pack must be complete at filing.",
+   "quote": "You can only submit a dispute once. After submission, you can’t edit the dispute or add supplemental evidence.",
+   "url": "https://docs.stripe.com/issuing/purchases/disputes",
+   "title": "Issuing disputes",
+   "publisher": "Stripe",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-stripe-iss-states",
+   "network": "cross",
+   "claim": "Stripe Issuing disputes start unsubmitted and become expired if not submitted within 110 days of clearing, then end won or lost.",
+   "quote": "If you don’t submit a dispute within 110 days of the transaction clearing, its status becomes expired.",
+   "url": "https://docs.stripe.com/issuing/purchases/disputes",
+   "title": "Issuing disputes",
+   "publisher": "Stripe",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-uk-app",
+   "network": "cross",
+   "claim": "The UK regulator requires most APP scam victims to be reimbursed within five business days, with sending and receiving firms splitting the cost equally.",
+   "quote": "All payment firms will be incentivised to take action, with both sending and receiving firms splitting the costs of reimbursement 50:50.",
+   "url": "https://www.psr.org.uk/our-work/app-scams/",
+   "title": "APP scams",
+   "publisher": "Payment Systems Regulator",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-unit-statuses",
+   "network": "cross",
+   "claim": "Unit exposes only five dispute statuses (InvestigationStarted, ProvisionalCredit, ResolvedWon, ResolvedLost, Denied), with no chargeback, representment or arbitration stages visible to the fintech.",
+   "quote": "The customer has been given temporary credit while the investigation continues.",
+   "url": "https://unit.co/docs/api/disputes/overview",
+   "title": "Disputes",
+   "publisher": "Unit",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-unit-tollfree",
+   "network": "visa",
+   "claim": "Unit's cardholders file card disputes by phoning the processor's toll-free number, and Unit sees them only via a daily file import, a day later.",
+   "quote": "Unit imports a Disputes file from the card processor every business day",
+   "url": "https://unit.co/docs/disputes-overview",
+   "title": "Disputes",
+   "publisher": "Unit",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl of .md page, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-velera-ram",
+   "network": "cross",
+   "claim": "Velera launched Risk Alert Manager in July 2026 to let credit unions block, monitor or reissue cards from one screen instead of ticketing handoffs.",
+   "quote": "Yet many existing solutions rely on third parties and ticketing systems, creating delays that prevent teams from acting decisively.",
+   "url": "https://www.cubroadcast.com/news/velera-launches-risk-alert-manager-to-strengthen-fraud-detection-and-response-time",
+   "title": "Velera Launches Risk Alert Manager",
+   "publisher": "CU Broadcast (Velera release)",
+   "published": "2026-07-28",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-worldpay-codes",
+   "network": "cross",
+   "claim": "Worldpay's Disputes API, sold to payfacs and ISOs, surfaces four-letter stage and action codes such as CH1, PAB and IPAB, each flagged eligible or not for response.",
+   "quote": "Supported business types: Enterprise Merchant | Payment Facilitator | Independent Sales Organizations | Independent Software Vendor",
+   "url": "https://docs.worldpay.com/apis/globaldisputes",
+   "title": "Worldpay Disputes API",
+   "publisher": "Worldpay",
+   "published": "2026-09-02",
+   "label": "Vendor",
+   "fetch": "node text.js render, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pt-worldpay-rdr",
+   "network": "visa",
+   "claim": "Worldpay added a field in September 2026 telling merchants whether a case is a Visa RDR chargeback, so RDR auto-refunds now appear in the case feed.",
+   "quote": "caseType: Indicates whether the case is a Visa RDR chargeback",
+   "url": "https://docs.worldpay.com/apis/globaldisputes",
+   "title": "Worldpay Disputes API",
+   "publisher": "Worldpay",
+   "published": "2026-09-02",
+   "label": "Vendor",
+   "fetch": "node text.js render, 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pulse-adyen-noprearb-cnp",
+   "network": "pulse",
+   "claim": "On PULSE, issuers can take any dispute to pre-arbitration except card-not-present fraud, according to Adyen.",
+   "quote": "Issuing banks can initiate Pre-Arbitration for all disputes except those related to card-not-present fraud.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/pulse-chargebacks",
+   "title": "PULSE chargebacks",
+   "publisher": "Adyen Docs",
+   "published": "2026-09-25",
+   "label": "Reported",
+   "fetch": "curl (.md) 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pulse-disputes-system",
+   "network": "pulse",
+   "claim": "Issuers act in a system PULSE calls the PULSE Disputes System, and are told to push cardholders to the merchant first.",
+   "quote": "Encourage cardholders to work directly with merchants in resolving issues before acting in the PULSE Disputes System.",
+   "url": "https://content.pulsenetwork.com/recent-news/best-practices-for-disputes-handling",
+   "title": "Best Practices for Disputes Handling",
+   "publisher": "PULSE Network",
+   "published": "2024-05-10",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pulse-mq-nextactor",
+   "network": "pulse",
+   "claim": "Marqeta mirrors PULSE case status with a network case number, next actor (issuer or acquirer) and days left to act.",
+   "quote": "Number of days left to act for the next_actor before the dispute case defaults.",
+   "url": "https://www.marqeta.com/docs/core-api/disputes-pulse",
+   "title": "Disputes (PULSE)",
+   "publisher": "Marqeta",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pulse-rules-gated",
+   "network": "pulse",
+   "claim": "Both the PULSE Disputes Rules and the PULSE Operating Rules and Procedures sit behind a login.",
+   "quote": "Dispute actions and timeframes will continue as defined in the PULSE Disputes Rules (login required)",
+   "url": "https://content.pulsenetwork.com/recent-news/best-practices-for-disputes-handling",
+   "title": "Best Practices for Disputes Handling",
+   "publisher": "PULSE Network",
+   "published": "2024-05-10",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-pulse-timeframes",
+   "network": "pulse",
+   "claim": "PULSE states a 120-day chargeback window and a 45-day representment window under its PULSE Disputes Rules.",
+   "quote": "The chargeback time frame is 120 days, and the representment time frame is 45 days.",
+   "url": "https://content.pulsenetwork.com/recent-news/best-practices-for-disputes-handling",
+   "title": "Best Practices for Disputes Handling",
+   "publisher": "PULSE Network",
+   "published": "2024-05-10",
+   "label": "Verified",
+   "fetch": "curl + html2text 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-adyen-9days",
+   "network": "visa",
+   "claim": "A large processor gives US and Canadian merchants 9 days to defend a Visa dispute against the acquirer's 30, and 18 days elsewhere.",
+   "quote": "From 21 July 2025, the response timeframe for disputes opened on payments processed locally in the United States and Canada is 9 days.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/visa-chargebacks",
+   "title": "Visa chargebacks",
+   "publisher": "Adyen Docs",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-alloc-prearb",
+   "network": "visa",
+   "claim": "In the fraud and authorisation flow (categories 10 and 11) there is no dispute response step: the acquirer answers a dispute with a pre-arbitration attempt within 30 calendar days.",
+   "quote": "In response to a Dispute, the Acquirer may make a pre-Arbitration attempt as specified under the applicable Dispute condition.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-appeal-5000",
+   "network": "visa",
+   "claim": "An Arbitration and Compliance Committee decision can be appealed only with new evidence, a disputed amount of at least USD 5,000, and within 60 days.",
+   "quote": "The disputed amount is at least USD 5,000 (or local currency equivalent).",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-arb-10days",
+   "network": "visa",
+   "claim": "Arbitration must be filed within 10 calendar days of the pre-arbitration response, by the acquirer in categories 10 and 11 and by the issuer in categories 12 and 13.",
+   "quote": "10 calendar days from the Processing Date of the pre-Arbitration response",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-arb-no-new-docs",
+   "network": "visa",
+   "claim": "Arbitration is decided on the VROL questionnaire and prior exchanges only, so members cannot introduce new documents at filing.",
+   "quote": "A Member must not submit documentation or information to Visa that was not previously submitted to the opposing Member.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-atm-13-9",
+   "network": "visa",
+   "claim": "ATM acquirers answer non-receipt of cash disputes (13.9) with the ATM disbursement record showing credential, time or sequence number and a success indicator.",
+   "quote": "Indicator that confirms that the ATM Cash Disbursement was successful",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-auth-75days",
+   "network": "visa",
+   "claim": "Issuers get 120 calendar days from processing date for fraud and most consumer disputes, but only 75 days for authorisation disputes such as 11.1 and 11.2.",
+   "quote": "75 calendar days from the Transaction Processing Date",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-cams-vrm",
+   "network": "visa",
+   "claim": "Issuers download compromised-account CAMS alerts only inside Visa Risk Manager, found under My Services on the Visa Online home page.",
+   "quote": "CAMS alerts are available exclusively through Visa Risk Manager, accessible through Visa Online.",
+   "url": "https://limestonefcu.com/wp-content/uploads/2023/06/account-data-compromise-best-practices.pdf",
+   "title": "Account Data Compromise Best Practices for Issuers",
+   "publisher": "Visa (republished by Limestone FCU)",
+   "published": "2017-03-06",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-ce3-one-shot",
+   "network": "visa",
+   "claim": "An acquirer gets one attempt to submit CE3.0 data in the VROL pre-arbitration questionnaire, and incomplete or wrong submissions are declined.",
+   "quote": "You will only be able to attempt submission of these criteria once.",
+   "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/Solutions/pps/compelling-evidence-3-0-acquirer-readiness.pdf",
+   "title": "Compelling Evidence 3.0 Acquirer Readiness",
+   "publisher": "Visa",
+   "published": "2023-03",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-collab-prearb-issuer",
+   "network": "visa",
+   "claim": "In the collaboration flow the issuer, not the acquirer, makes the pre-arbitration attempt within 30 days of the dispute response and may switch dispute condition on new evidence.",
+   "quote": "The Issuer changes the Dispute condition after receiving the Dispute Response.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-doc-analyzer",
+   "network": "visa",
+   "claim": "Dispute Doc Analyzer summarises merchant documents for issuer analysts and auto-populates response questionnaires for acquirers on behalf of merchants.",
+   "quote": "For acquirers, Doc Analyzer facilitates the ability to auto-populate response questionnaires on behalf of their merchants (generally available now).",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html",
+   "title": "Visa Unveils New Services to Modernize Dispute Resolution Process",
+   "publisher": "Visa",
+   "published": "2026-04-01",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-fee-arb-600",
+   "network": "visa",
+   "claim": "Since April 2025 US and Canadian acquirers pay day-tiered response fees, USD 15 for a lapsed pre-arbitration, and USD 600 for losing arbitration.",
+   "quote": "Visa has also increased the fee for arbitration rulings. If a dispute goes to arbitration, the losing party will now pay $600 instead of $500.",
+   "url": "https://www.chargebackgurus.com/blog/visas-new-dispute-fee-changes",
+   "title": "Visa's New Dispute Fee Changes",
+   "publisher": "Chargeback Gurus",
+   "published": "2025-04-15",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-fraud-report-first",
+   "network": "visa",
+   "claim": "An issuer cannot raise a category 10 fraud dispute until it has first reported the fraud to Visa, so the TC40 fraud report always precedes the chargeback.",
+   "quote": "Before initiating a Dispute, an Issuer must report the Fraud Activity to Visa.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-frs-timing",
+   "network": "visa",
+   "claim": "Issuers must report approved fraud within 60 calendar days of the transaction date, or within 30 days of a late cardholder notification.",
+   "quote": "30 calendar days following the receipt of the Cardholder’s dispute notification, if the notification is not received within the 60-calendar day period",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-gcar-120",
+   "network": "visa",
+   "claim": "To recover losses under GCAR, issuers must report fraud on an exposed account within 120 days of the CAMS alert that first listed it.",
+   "quote": "issuers must report fraud on an account within 120 days of the PA, IC, or RA CAMS alert",
+   "url": "https://limestonefcu.com/wp-content/uploads/2023/06/account-data-compromise-best-practices.pdf",
+   "title": "Account Data Compromise Best Practices for Issuers",
+   "publisher": "Visa (republished by Limestone FCU)",
+   "published": "2017-03-06",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-grove-questionnaire",
+   "network": "visa",
+   "claim": "A credit union tells members it must collect every VCR questionnaire answer before filing, because VROL rejects incomplete disputes.",
+   "quote": "Visa requires us to obtain this information before a case can be filed in their VCR system; otherwise a dispute attempt will reject.",
+   "url": "https://www.ourgrovecu.com/wpcms/wp-content/uploads/2019/10/Visa_Resolve_Online_Questionnaire_10192019.pdf",
+   "title": "Visa Resolve Online Questionnaire (member dispute form)",
+   "publisher": "Grove Credit Union (ourgrovecu.com)",
+   "published": "2019-10",
+   "label": "Reported",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-icba-burden",
+   "network": "visa",
+   "claim": "Community bank association warned CE3.0 shifts liability to issuers and forces new call-centre and investigation procedures, straining the cardholder relationship.",
+   "quote": "With this evolution, the burden of proof is on the merchant to provide the evidence, but the liability will fall to the issuer.",
+   "url": "https://www.icba.org/w/how-visa-s-updated-compelling-evidence-rule-impacts-community-banks",
+   "title": "How Visa's Updated Compelling Evidence Rule Impacts Community Banks",
+   "publisher": "ICBA",
+   "published": "2023-03-16",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-marq-ce3-reject",
+   "network": "visa",
+   "claim": "Issuers see CE3.0 pre-dispute blocks as Visa error codes such as E-900003544, and post-dispute CE3.0 as a pre-arbitration with reason RE.",
+   "quote": "Dispute is invalid as it was qualified under the Visa Remedy criteria. This transaction will not be counted as a fraud activity.",
+   "url": "https://www.marqeta.com/docs/developer-guides/managing-visa-disputes",
+   "title": "Managing Visa Disputes",
+   "publisher": "Marqeta Docs",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-marq-states",
+   "network": "visa",
+   "claim": "A card-issuing platform exposes Visa disputes to programme managers as API states OPEN, OPEN_WITH_ACTION_REQUIRED, READY and CHARGEBACK_INITIATED before VROL takes over.",
+   "quote": "A dispute case is sent to the card network when the dispute case is transitioned to the CHARGEBACK_INITIATED state.",
+   "url": "https://www.marqeta.com/docs/developer-guides/managing-visa-disputes",
+   "title": "Managing Visa Disputes",
+   "publisher": "Marqeta Docs",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-oi-ce3-predispute",
+   "network": "visa",
+   "claim": "For CE3.0 pre-disputes Visa pre-selects two to five prior transactions, the merchant returns data through Order Insight, and a qualifying match blocks the dispute.",
+   "quote": "Visa will pre-select 2 to 5 transactions with no active fraud reports or fraud disputes",
+   "url": "https://www.verifi.com/in-the-news/compelling-evidence-3-0-ce3-0-in-the-pre-dispute-and-pre-arbitration-environments.html",
+   "title": "Compelling Evidence 3.0 (CE3.0) in the Pre-dispute and Pre-arbitration Environments",
+   "publisher": "Verifi (Visa)",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-oi-issuer-mandate",
+   "network": "visa",
+   "claim": "Verifi says most Visa issuers were mandated from 2020 to receive Order Insight data and encouraged to use it at dispute intake.",
+   "quote": "Most Visa issuers were mandated to receive Order Insight data & encouraged to use in the dispute intake process",
+   "url": "https://www.verifi.com/in-the-news/compelling-evidence-3-0-ce3-0-in-the-pre-dispute-and-pre-arbitration-environments.html",
+   "title": "Compelling Evidence 3.0 (CE3.0) in the Pre-dispute and Pre-arbitration Environments",
+   "publisher": "Verifi (Visa)",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-oi-touchpoints",
+   "network": "visa",
+   "claim": "Order Insight shares merchant data at three points: a digital receipt in the banking app, issuer call-centre lookup and automatic CE3.0 deflection.",
+   "quote": "Data sharing occurs at three touchpoints to stop first-party-misuse disputes before a chargeback is triggered.",
+   "url": "https://www.verifi.com/solutions-sellers/prevent-disputes.html",
+   "title": "Order Insight for Sellers",
+   "publisher": "Verifi (Visa)",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-payfac-portals",
+   "network": "visa",
+   "claim": "A payfac chargeback analyst posting lists VROL alongside MasterCom, the Discover portal and Amex 360, plus fax handling of merchant letters.",
+   "quote": "Respond to chargebacks, retrievals, and exception cases utilizing MasterCom, VROL, Discover portal, and 360 for American Express.",
+   "url": "https://startup.jobs/chargeback-analyst-stax-3253611",
+   "title": "Chargeback Analyst at Stax (job posting, closed)",
+   "publisher": "Startup Jobs / Stax by Fattmerchant",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-rdr-auto-activate",
+   "network": "visa",
+   "claim": "Visa switched on RDR for every issuer with a VROL organisation from April 2021 in Canada, CEMEA, Europe and the US, with opt-out by enrolment request.",
+   "quote": "Visa will automatically activate the RDR service for all issuers/issuer processors with a VROL organization",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/proper-identification-of-rdr-transactions-and-service-activation.pdf",
+   "title": "Rapid Dispute Resolution: Proper Identification of RDR Transactions and Service Activation (Article AI10571)",
+   "publisher": "Visa",
+   "published": "2020-10-29",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-rdr-enrol",
+   "network": "visa",
+   "claim": "Merchants enrol in RDR by BIN and CAID on a form and set rules on issuer BIN, date, amount, currency, purchase identifier, dispute category and condition.",
+   "quote": "sellers will complete the enrollment form identifying their BIN/CAID(s), the unique acquirer identifiers.",
+   "url": "https://www.verifi.com/10-facts-for-success-rdr.html",
+   "title": "10 Facts for Success with Rapid Dispute Resolution",
+   "publisher": "Verifi (Visa)",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-rdr-not-dispute",
+   "network": "visa",
+   "claim": "Acquirers had to rebuild reporting and billing so RDR credits, flagged by a VROL Financial ID starting with m, are never counted or billed as disputes.",
+   "quote": "Do not count RDR-resolved transactions as disputes or as impacting the merchant’s dispute ratio, as Visa will not recognize RDR-resolved transactions as disputes.",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/proper-identification-of-rdr-transactions-and-service-activation.pdf",
+   "title": "Rapid Dispute Resolution: Proper Identification of RDR Transactions and Service Activation (Article AI10571)",
+   "publisher": "Visa",
+   "published": "2020-10-29",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-rdr-queue-status",
+   "network": "visa",
+   "claim": "An RDR-resolved case lands in the acquirer's VROL Awaiting Actions queue with case status Merchant Credit and closes, and no response is allowed.",
+   "quote": "VROL will provide relevant information in the “Awaiting Actions” dispute queue, provide a new case status of Merchant Credit, and close the case.",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/proper-identification-of-rdr-transactions-and-service-activation.pdf",
+   "title": "Rapid Dispute Resolution: Proper Identification of RDR Transactions and Service Activation (Article AI10571)",
+   "publisher": "Visa",
+   "published": "2020-10-29",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-rdr-status-codes",
+   "network": "visa",
+   "claim": "Merchants see RDR outcomes in the MyCDRN portal as status 103 accepted or 957 declined, and a declined case proceeds as a chargeback.",
+   "quote": "it will be declined and designated with status code 957.",
+   "url": "https://www.verifi.com/rapid-dispute-resolution-rules-attributes-faq.html",
+   "title": "Rapid Dispute Resolution Rules and Attributes FAQ",
+   "publisher": "Verifi (Visa)",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-silence-closes",
+   "network": "visa",
+   "claim": "Missing a VROL deadline or accepting responsibility closes the cycle, leaving the silent party liable for the last amount the other side received.",
+   "quote": "the Dispute cycle will be considered closed and that Member will be responsible for last amount received by the opposing Member.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-trust-confusion",
+   "network": "visa",
+   "claim": "A European acquirer told merchants the RDR exclusion from VAMP no longer applied and cited USD 10 fees, both at odds with Visa's fact sheet.",
+   "quote": "However, since then Visa has decided that this exclusion will no longer apply.",
+   "url": "https://help.trustpayments.com/hc/en-us/articles/34158381255953-VAMP-Merchant-Guidance",
+   "title": "VAMP Merchant Guidance",
+   "publisher": "Trust Payments",
+   "published": "2026-04-08",
+   "label": "Reported",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vamp-blind",
+   "network": "visa",
+   "claim": "Merchants cannot see the TC40 and TC15 data behind their VAMP ratio, so some build predictive models to estimate exposure.",
+   "quote": "A major challenge is lack of access to TC40 and TC15 data, which makes it difficult to know one's current VAMP exposure",
+   "url": "https://www.ravelin.com/blog/visa-vamp-changes-chargeback-disputes",
+   "title": "New VAMP for 2025: Visa's changes to dispute thresholds",
+   "publisher": "Ravelin",
+   "published": "2025",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vamp-doublecount",
+   "network": "visa",
+   "claim": "Merchants complain VAMP counts one fraud event twice, once as the issuer's TC40 fraud report and again as the TC15 chargeback.",
+   "quote": "Fraud will now be counted twice: once for the fraud report (TC40) and once for the actual dispute (chargeback, TC15).",
+   "url": "https://www.riskified.com/blog/visa-vamp-updates/",
+   "title": "VAMP changes again: what merchants need to know",
+   "publisher": "Riskified",
+   "published": "2025-04-16",
+   "label": "Vendor",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vamp-tmf",
+   "network": "visa",
+   "claim": "A merchant terminated after appearing in VAMP reports must go on the Terminated Merchant File, and its file must keep every VAMP report.",
+   "quote": "The Merchant was identified by the Visa Acquirer Monitoring Program (VAMP) reports.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vamp-tools",
+   "network": "visa",
+   "claim": "Visa can order an acquirer or its merchant to deploy specific remediation tools when VAMP identifies unusual activity.",
+   "quote": "Visa may require an Acquirer or its Merchant to deploy remediation tools or technologies to address unusual activity as identified in the VAMP.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vdms-scorecard",
+   "network": "visa",
+   "claim": "Visa sells issuers an outsourced dispute team (VDMS) at a per-case fee, and issuers track cases in a Dispute Tracking Scorecard inside VROL.",
+   "quote": "Issuers can leverage the Visa Dispute Tracking Scorecard in VROL to track cases and benchmark dispute performance.",
+   "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/Solutions/pps/visa-dispute-management-service-one-pager.pdf",
+   "title": "Visa Dispute Management Service (one-pager)",
+   "publisher": "Visa",
+   "published": "2023",
+   "label": "Vendor",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vimp-thresholds",
+   "network": "visa",
+   "claim": "Issuers enter VIMP at 750 card-absent disputes and 1 percent ratio, or USD 500,000 fraud and 1 percent, and exit after three clean months.",
+   "quote": "750 Dispute count of all reported Disputes",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vrm-alert-api",
+   "network": "visa",
+   "claim": "VRM subscribers can pull case alerts into their own back office through the Alert API and add accounts to block or exclude lists by API.",
+   "quote": "Use issuer’s existing back office solution to work alerts and update alert status in Visa Risk Manager using the Alert API.",
+   "url": "https://developer.visa.com/capabilities/vrm",
+   "title": "Visa Risk Manager",
+   "publisher": "Visa Developer",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vrm-modules",
+   "network": "visa",
+   "claim": "Visa Risk Manager has a rules manager, case manager, account manager and reporting, combining the VAA score with more than 70 transaction parameters.",
+   "quote": "Visa Risk Manager leverages the real-time insights of Visa Advanced Authorisation and more than 70 other transaction parameters and puts them into action.",
+   "url": "https://corporate.visa.com/content/dam/VCOM/corporate/solutions/documents/visa-advanced-authorization-and-visa-risk-manager-lac-issuer-case-study.pdf",
+   "title": "Visa Advanced Authorisation and Visa Risk Manager case study",
+   "publisher": "Visa",
+   "published": "2024",
+   "label": "Vendor",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vrol-docs-restricted",
+   "network": "visa",
+   "claim": "The VROL API documentation on Visa Developer is gated: the public page shows only a restricted-product notice, so case states and queue specs are not public.",
+   "quote": "Visa Resolve Online is a restricted product - access to its documentation and assets are limited.",
+   "url": "https://developer.visa.com/capabilities/visa-resolve-online/docs",
+   "title": "Visa Resolve Online: Getting Started",
+   "publisher": "Visa Developer",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "node text.js 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vrol-flows-named",
+   "network": "visa",
+   "claim": "Visa itself names the two VROL workflows Allocation and Collaboration, which map to categories 10 and 11 versus 12 and 13.",
+   "quote": "Based on all transactions disputed via the Allocation and Collaboration flows within VROL as of February 2023",
+   "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/Solutions/pps/visa-dispute-management-service-one-pager.pdf",
+   "title": "Visa Dispute Management Service (one-pager)",
+   "publisher": "Visa",
+   "published": "2023",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-vrol-issuer-screens",
+   "network": "visa",
+   "claim": "Visa's own diagram shows the issuer path in VROL: analyst logs in, transaction search, provisional credits, dispute case, dispute questionnaire, then report fraud.",
+   "quote": "Dispute Analyst logs into VROL",
+   "url": "https://usa.visa.com/content/dam/VCOM/regional/na/us/Solutions/pps/visa-risk-based-auto-dispute-one-pager.pdf",
+   "title": "Visa Risk-based Auto Dispute (one-pager)",
+   "publisher": "Visa",
+   "published": "2023",
+   "label": "Verified",
+   "fetch": "curl + pypdf 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-wp-buttons",
+   "network": "visa",
+   "claim": "In Worldpay's merchant portal, Allocation cases show a File Visa Pre-Arbitration button and Collaboration cases a Respond to Dispute button.",
+   "quote": "Allocation disputes (Reason Codes 10.x and 11.x) use the File Visa Pre-Arbitration button.",
+   "url": "http://support.worldpay.com/support/iq-reporting-and-analytics-user-guide/content/responding_to_a_visa_cas.htm",
+   "title": "iQ Reporting and Analytics User Guide: Responding to a Visa Case",
+   "publisher": "Worldpay (FIS)",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-wp-case-status",
+   "network": "visa",
+   "claim": "A processor portal mirrors VROL case statuses such as Fraud Dispute Received 100% Acq Liability, Consumer Dispute Recalled and Fraud Dispute Pre-Arb Delivered.",
+   "quote": "Fraud Dispute - Received / 100% Acq Liability",
+   "url": "http://support.worldpay.com/support/iq-reporting-and-analytics-user-guide/content/case_detail_vcr_issuer_d.htm",
+   "title": "iQ Reporting and Analytics User Guide: Case Detail VCR Issuer Dispute Questionnaire Data",
+   "publisher": "Worldpay (FIS)",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-wp-filetypes",
+   "network": "visa",
+   "claim": "VROL tags each supporting document with a five-letter file type code such as AFFRD affidavit of fraud, CALET cardholder letter and PRDEL proof of delivery.",
+   "quote": "PRDEL - Proof of Delivery",
+   "url": "http://support.worldpay.com/support/iq-reporting-and-analytics-user-guide/content/case_detail_vcr_issuer_d.htm",
+   "title": "iQ Reporting and Analytics User Guide: Case Detail VCR Issuer Dispute Questionnaire Data",
+   "publisher": "Worldpay (FIS)",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-wp-questionnaire",
+   "network": "visa",
+   "claim": "The issuer's VROL dispute questionnaire, as shown to merchants, has sections for transaction, dispute request, elaboration, certifications, notes and documents, and issuer contact.",
+   "quote": "The Issuer questionnaire includes the following information: Transaction information, Issuer’s dispute request Information, Elaboration, Certifications, Notes and Documents, and Issuer Contact Information.",
+   "url": "http://support.worldpay.com/support/iq-reporting-and-analytics-user-guide/content/case_detail_vcr_issuer_d.htm",
+   "title": "iQ Reporting and Analytics User Guide: Case Detail VCR Issuer Dispute Questionnaire Data",
+   "publisher": "Worldpay (FIS)",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t6b-6b-visa-wp-vrol-down",
+   "network": "visa",
+   "claim": "When VROL is unreachable, the processor portal blocks every Visa-integrated action on the case until it reconnects.",
+   "quote": "No Visa integrated actions (such as Merchant Accept, File Visa Pre-Arbitration, or Respond to Dispute) may be taken at this time.",
+   "url": "http://support.worldpay.com/support/iq-reporting-and-analytics-user-guide/content/case_detail_vcr_issuer_d.htm",
+   "title": "iQ Reporting and Analytics User Guide: Case Detail VCR Issuer Dispute Questionnaire Data",
+   "publisher": "Worldpay (FIS)",
+   "published": "unknown",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t6b-E65c",
+   "network": "cross",
+   "claim": "The Elevations posting asks for skill in investigating ATM EFT disputes under state and federal rules. Job posting.",
+   "quote": "Highly proficient with investigating ATM related electronic funds transfers (EFT) customer disputes in accordance with state and federal regulations.",
+   "url": "https://bebee.com/us/jobs/atm-settlement-and-claims-analyst-elevations-credit-union-broomfield-colorado-united-states--t7xk-767545870",
+   "title": "ATM Settlement and Claims Analyst, Elevations Credit Union",
+   "publisher": "BeBee job listing of an Elevations Credit Union posting",
+   "published": "n.d., open until 2026-09-17",
+   "label": "Reported",
+   "fetch": "tools/text.js rendered text, re-read 2026-09-26"
+  },
+  {
+   "key": "t6b-K37",
+   "network": "mastercard",
+   "claim": "Mastercard, citing Datos Insights, says each US dispute costs issuers $9.08 to $10.32 and most need over 200 back-office staff.",
+   "quote": "each disputed transaction costs those FIs $9.08 to $10.32 to process",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/Insights/2025/what-s-the-true-cost-of-a-chargeback-in-2025.html",
+   "title": "What is the true cost of a chargeback for businesses?",
+   "publisher": "Mastercard",
+   "published": "2025-04-30, updated 2026-06-08",
+   "label": "Vendor",
+   "fetch": "re-checked 2026-09-26, text.js on Wayback snapshot 20260825193245 (origin returned no text)"
+  },
+  {
+   "key": "t6b-K40",
+   "network": "visa",
+   "claim": "Visa's Dispute Doc Analyzer is pitched at issuer analysts doing slow manual review of merchant documents.",
+   "quote": "summaries of merchant documents including key data elements in a structured format to help analysts with time consuming manual review",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22261.html",
+   "title": "Visa Unveils New Services to Modernize Dispute Resolution Process",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-01",
+   "label": "Vendor",
+   "fetch": "re-checked 2026-09-26, node tools/text.js"
+  },
+  {
+   "key": "t6b-cfpb-rege",
+   "network": "cross",
+   "claim": "Regulation E requires a decision on a notice of error within 10 business days, or up to 45 days if the account is provisionally credited.",
+   "quote": "shall determine whether an error occurred within 10 business days of receiving a notice of error.",
+   "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/11/",
+   "title": "§ 1005.11 Procedures for resolving errors",
+   "publisher": "Consumer Financial Protection Bureau",
+   "published": "n.d. (current text)",
+   "label": "Verified",
+   "fetch": "curl, re-fetched 2026-09-26, 45-day clause confirmed"
+  },
+  {
+   "key": "t6b-checkout-am",
+   "network": "visa",
+   "claim": "Checkout.com says its account managers contact merchants at risk of entering VAMP.",
+   "quote": "Your account manager will contact you if your merchant account is at risk of being placed under the VAMP",
+   "url": "https://www.checkout.com/blog/visa-acquirer-monitoring-program-explained",
+   "title": "Visa Acquirer Monitoring Program (VAMP) explained",
+   "publisher": "Checkout.com",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26",
+   "published": "2025-08-27"
+  },
+  {
+   "key": "t6b-ftc-humboldt",
+   "network": "cross",
+   "claim": "Humboldt Merchant Services agreed to pay $12 million after the FTC alleged it processed for more than 1,000 shell merchants with extreme chargeback rates.",
+   "quote": "typically incurred chargebacks at rates that were almost 10 times higher than what credit card brands view as excessive",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-takes-action-against-payment-processor-humboldt-merchant-services-knowingly-facilitating-payment",
+   "title": "FTC Takes Action Against Payment Processor Humboldt Merchant Services",
+   "publisher": "Federal Trade Commission",
+   "published": "2026-09-08",
+   "label": "Verified",
+   "fetch": "curl, desktop Chrome UA, 2026-09-26. Quote found verbatim. Page also says 'more than 1,000 merchants that were shell entities'."
+  },
+  {
+   "key": "t6b-ftc-nuvei",
+   "network": "cross",
+   "claim": "Nuvei agreed on 4 September 2026 to pay $4.85 million and to screen clients whose chargeback rates exceed limits in the order.",
+   "quote": "conduct enhanced screening and investigation of any existing client whose chargeback rates exceed the limits set forth in the order",
+   "url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/payment-processor-nuvei-must-implement-robust-merchant-screening-practices-pay-485-million-settle",
+   "title": "Payment Processor Nuvei Must Implement Robust Merchant Screening Practices and Pay $4.85 Million",
+   "publisher": "Federal Trade Commission",
+   "published": "2026-09-04",
+   "label": "Verified",
+   "fetch": "curl, desktop Chrome UA, 2026-09-26. Quote found verbatim. Page shows $4.85 million and September 4, 2026."
+  },
+  {
+   "key": "t6b-ib26-bankfirst",
+   "network": "cross",
+   "claim": "The same article says 74 percent of consumers go straight to their bank with a dispute.",
+   "quote": "A whopping 74% head directly to their bank to solve the problem.",
+   "url": "https://www.independentbanker.org/w/how-to-lessen-the-chargeback-burden-on-community-banks",
+   "title": "How to lessen the chargeback burden on community banks",
+   "publisher": "Independent Banker (ICBA), Colleen Morrison",
+   "published": "2026-09-01",
+   "label": "Reported",
+   "fetch": "curl with Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t6b-ib26-calls",
+   "network": "cross",
+   "claim": "The same article says a dispute takes an average of 2.5 phone calls to resolve.",
+   "quote": "it takes an average of 2.5 phone calls per dispute to resolve the situation, draining staff resources",
+   "url": "https://www.independentbanker.org/w/how-to-lessen-the-chargeback-burden-on-community-banks",
+   "title": "How to lessen the chargeback burden on community banks",
+   "publisher": "Independent Banker (ICBA), Colleen Morrison",
+   "published": "2026-09-01",
+   "label": "Reported",
+   "fetch": "curl with Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t6b-icba25-disputes",
+   "network": "cross",
+   "claim": "ICBA (advocacy) says network dispute changes help merchants deny disputes and push harder conversations onto banks.",
+   "quote": "These changes empower merchants to more efficiently deny consumer disputes, which in turn forces banks into more difficult conversations with their customers.",
+   "url": "https://www.icba.org/w/lies-can-t-disguise-fraud-community-banks-face-rising-first-party-fraud-losses",
+   "title": "Lies Can't Disguise Fraud: Community Banks Face Rising First-Party Fraud Losses",
+   "publisher": "ICBA (Kari Neckel)",
+   "published": "2025-11-17",
+   "label": "Reported",
+   "fetch": "curl with Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t6b-job-velera-disputes",
+   "network": "cross",
+   "claim": "A Velera dispute supervisor reviews Visa, Mastercard and other network mandates and assists in communicating updates to staff and client credit unions.",
+   "quote": "Reviews Visa, Mastercard and other network notifications/mandates to support compliance with Chargeback processing requirements.",
+   "url": "https://builtin.com/job/supervisor-dispute-operations/8373827",
+   "title": "Supervisor, Dispute Operations (Velera)",
+   "publisher": "Built In (Velera job posting)",
+   "published": "n.d. (listing removed 2026-02-03)",
+   "label": "Reported",
+   "fetch": "curl, re-fetched 2026-09-26"
+  },
+  {
+   "key": "t6b-mc-rules-reserve",
+   "network": "mastercard",
+   "claim": "Rule 7.8.2 lets a payfac withhold sub-merchant funds as chargeback reserves.",
+   "quote": "A Sponsored Merchant Agreement may provide for a Payment Facilitator to withhold amounts for chargeback reserves or similar purposes.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026, Rule 7.8.2",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback capture 20260920203706 via curl, pypdf, 2026-09-26. Quote found verbatim."
+  },
+  {
+   "key": "t6b-occ-cb",
+   "network": "cross",
+   "claim": "The same handbook says the acquiring bank pays the issuer when a merchant or ISO cannot honour its chargebacks.",
+   "quote": "If a merchant or ISO/MSP cannot honor its charge-backs, the acquiring bank must pay the card-issuing bank.",
+   "url": "https://www.occ.gov/publications-and-resources/publications/comptrollers-handbook/files/merchant-processing/pub-ch-merchant-processing.pdf",
+   "title": "Comptroller's Handbook: Merchant Processing, Version 1.0",
+   "publisher": "Office of the Comptroller of the Currency",
+   "published": "2014-08",
+   "label": "Verified",
+   "fetch": "curl PDF, desktop Chrome UA, pypdf, 2026-09-26. Quote found verbatim."
+  },
+  {
+   "key": "t6b-pd-razi-vamp",
+   "network": "visa",
+   "claim": "The founder of chargeback start-up Findustry AI says Visa's programme puts merchants in higher-risk tiers at lower chargeback ratios than before.",
+   "quote": "Visa really tightened the standards, and now merchants end up in higher risk categories with chargeback ratios that were lower than before",
+   "url": "https://www.paymentsdive.com/news/payments-entrepreneur-strikes-again/822787/",
+   "title": "Payments entrepreneur strikes again",
+   "publisher": "Payments Dive (Lynne Marek), Q&A with Jonathan Razi, Findustry AI",
+   "published": "2026-06-12",
+   "label": "Reported",
+   "fetch": "curl, desktop Chrome UA, 2026-09-26. Quote found verbatim. Speaker sells chargeback services."
+  },
+  {
+   "key": "t6b-rege-provisional",
+   "network": "cross",
+   "claim": "To take up to 45 days, the institution must provisionally credit the consumer within 10 business days.",
+   "quote": "Provisionally credits the consumer's account in the amount of the alleged error (including interest where applicable) within 10 business days of receiving the error notice.",
+   "url": "https://www.law.cornell.edu/cfr/text/12/1005.11",
+   "title": "12 CFR 1005.11, Procedures for resolving errors (Regulation E)",
+   "publisher": "Legal Information Institute, Cornell Law School (eCFR text)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t6b-stripe-vamp-lag",
+   "network": "visa",
+   "claim": "Stripe tells merchants Visa's VAMP data is reported a month late, and shows its own daily estimates alongside.",
+   "quote": "Visa’s data is used to determine your compliance status each month and is reported with a one-month delay.",
+   "url": "https://docs.stripe.com/disputes/monitoring-programs",
+   "title": "Dispute and fraud card monitoring programs",
+   "publisher": "Stripe",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26",
+   "published": "n.d."
+  },
+  {
+   "key": "t6b-velera-disputes",
+   "network": "cross",
+   "claim": "Velera sells an outsourced disputes platform, describing credit union chargeback processes as often inefficient.",
+   "quote": "disputes and chargeback processes are often inefficient and riddled with challenges for credit unions",
+   "url": "https://www.velera.com/disputes-resolution",
+   "title": "End-to-end Disputes Resolution for Credit Unions",
+   "publisher": "Velera",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node text.js, re-fetched 2026-09-26"
+  },
+  {
+   "key": "t6b-visa-misdispense",
+   "network": "visa",
+   "claim": "A full-service ATM acquirer must adjust a misdispense within 10 calendar days, after which it risks a late-presentment dispute.",
+   "quote": "Process an Adjustment for the actual amount of the misdispense within 10 calendar days",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, Rule 6.2.5.3 (ID# 0002406)",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6b-visa-rules-direct",
+   "network": "visa",
+   "claim": "Rule 10.4.6.2 lets Visa require a direct acquirer contract with a sub-merchant that generates excessive disputes or credits within 12 months.",
+   "quote": "Generates or has a history of generating excessive levels of exception items (Disputes and/or credits) within a 12-month period",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, section 10.4.6.2",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl PDF, desktop Chrome UA, pypdf, 2026-09-26. Quote found verbatim."
+  },
+  {
+   "key": "t6b-visa-rules-pf-liab",
+   "network": "visa",
+   "claim": "Rule 5.3.1.1 requires the payfac agreement to make the payfac financially liable for each sub-merchant transaction and any dispute or credit.",
+   "quote": "Is responsible and financially liable for each Transaction processed on behalf of the Sponsored Merchant, or for any disputed Transaction or credit",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, section 5.3.1.1",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl PDF, desktop Chrome UA, pypdf, 2026-09-26. Quote found verbatim."
+  }
+ ],
+ "stage_id": "6b"
+}

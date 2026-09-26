@@ -1,0 +1,20 @@
+{
+ "network": "eftpos",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "For eftpos, Adyen shows RFIs under Risk & disputes, Disputes, Requests for Information, with 14 days to answer before an undefendable chargeback.",
+   "quote": "You cannot defend the chargeback and that is the final status of the dispute.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/eftpos-chargebacks",
+   "title": "eftpos chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  }
+ ]
+}

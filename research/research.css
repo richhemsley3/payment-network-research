@@ -64,6 +64,8 @@ a.rs-src:hover{color:var(--gn-interactive); text-decoration-color:var(--gn-inter
 .doc .gn-table--dense th,.doc .gn-table--dense td{padding-inline:var(--gn-space-12)}
 .doc .gn-table--dense th:first-child,.doc .gn-table--dense td:first-child{padding-left:0}
 .doc .gn-table th{white-space:normal; vertical-align:bottom}
+.rs-pt{margin:32px 0 12px; font-size:var(--gn-type-body); font-weight:600; color:var(--gn-text)}
+.rs-teardown td:first-child{white-space:nowrap}
 .rs-refs{font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .rs-register td:first-child{white-space:nowrap; font-family:var(--gn-font-mono); font-size:var(--gn-type-label); color:var(--gn-text-caption)}
 .doc ol.rv-l{margin:16px 0 0; padding-left:20px} .doc ol.rv-l li{margin-top:8px; max-width:var(--gn-measure-body); color:var(--gn-text-secondary); line-height:var(--gn-leading-body)}

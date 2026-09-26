@@ -1,0 +1,2395 @@
+{
+ "stage": "2. Join and contract",
+ "summary": [
+  {
+   "text": "Every network gates participation behind a signed agreement, and only Visa publishes the application steps for a direct licence. Mastercard exposes its application form, and American Express and Discover route prospects to a representative or contact form.",
+   "ids": [
+    "visa-004",
+    "mastercard-082",
+    "amex-035",
+    "dgn-035",
+    "dgn-036",
+    "new:t2-s2-amex-bop-agreement"
+   ]
+  },
+  {
+   "text": "Most partners never join directly. ISOs, payment facilitators, ATM deployers, programme managers and small issuers enter through a sponsor bank or principal that registers them and carries their liability.",
+   "ids": [
+    "visa-003",
+    "visa-008",
+    "mastercard-057",
+    "mastercard-063",
+    "new:t2-s2-prth-sponsor",
+    "new:t2-s2-ffiec-iso",
+    "dgn-026"
+   ]
+  },
+  {
+   "text": "Third-party registration is the sponsor's paperwork. The routes are Visa Program Request Management, Mastercard My Company Manager, and OptBlue registration forms emailed to American Express.",
+   "ids": [
+    "visa-303",
+    "mastercard-063"
+   ]
+  },
+  {
+   "text": "Due diligence is pushed down the chain. Networks require the sponsor to vet financials, principals and PCI status, and sometimes to visit the site, before registering an agent.",
+   "ids": [
+    "visa-010",
+    "visa-305",
+    "mastercard-065",
+    "new:t2-s2-amex-bop-sp"
+   ]
+  },
+  {
+   "text": "Identifiers arrive as a set at approval. Visa gives a temporary UVID and then a Business ID. American Express assigns participant number ranges, and Mastercard ties each ICA and BIN to a country.",
+   "ids": [
+    "visa-004",
+    "new:t2-s2-amex-bop-prelaunch",
+    "new:t2-s2-mc-icacountry",
+    "mastercard-059"
+   ]
+  },
+  {
+   "text": "Joining fees are mostly unpublished. The exceptions are Visa's 2016 agent fees, the American Express active BIN rental fee, no-fee OptBlue and AMEX Enabled registration, and Mastercard's high-risk licence fee.",
+   "ids": [
+    "visa-014",
+    "new:t2-s2-amex-bop-binfee",
+    "amex-057",
+    "amex-047",
+    "mastercard-350",
+    "mastercard-064"
+   ]
+  },
+  {
+   "text": "Published service levels for joining steps are rare. PULSE promises portal credentials within five business days, and Mastercom and Mastercard Send publish onboarding durations.",
+   "ids": [
+    "pulse-001",
+    "mastercard-078",
+    "mastercard-081"
+   ]
+  },
+  {
+   "text": "Visa's 2016 agent FAQ gave five to seven business days per registration case. The study found no licensing timeline from any of the four networks.",
+   "ids": [
+    "visa-015",
+    "visa-004",
+    "amex-035",
+    "dgn-036"
+   ]
+  },
+  {
+   "text": "At the partner, joining work sits with sponsorship oversight analysts, BIN sponsorship programme managers and network relationship leads. Postings describe it as case work tracked in Excel.",
+   "ids": [
+    "new:t2-s2-citizens-tpa",
+    "new:t2-s2-citizens-tools",
+    "new:t2-s2-block-bin",
+    "new:t2-s2-stripe-tpam"
+   ]
+  },
+  {
+   "text": "Card numbers trace to the ABA, which registers one IIN per legal entity under ISO/IEC 7812. Networks then license BINs to members, one licensee per BIN.",
+   "ids": [
+    "new:t2-s2-aba-iin",
+    "new:t2-s2-visa-onelicensee",
+    "mastercard-059"
+   ]
+  },
+  {
+   "text": "The Discover family's public door is a set of contact forms plus EASI self-registration. Diners Club licensing runs through a brand mailbox. PULSE publishes no sponsor or application process.",
+   "ids": [
+    "dgn-035",
+    "dgn-032",
+    "diners-004",
+    "pulse-002",
+    "dgn-026"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Issuers: large banks (direct licensees)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A regional licensing team first confirms eligibility. The applicant then gets Visa Access credentials and completes the application in the Client Lifecycle Management Tool.",
+       "ids": [
+        "visa-004",
+        "visa-162"
+       ]
+      },
+      {
+       "text": "During review the organisation holds a temporary UVID. A final Business ID is issued on approval.",
+       "ids": [
+        "visa-004"
+       ]
+      },
+      {
+       "text": "Visa reviews regulatory permissions, AML and ATF programmes with a compliance questionnaire, credit and settlement risk, and risk management. The settlement review repeats every year.",
+       "ids": [
+        "visa-005"
+       ]
+      },
+      {
+       "text": "A Principal licenses and uses only its own BIN. Each BIN has exactly one licensee, which answers for all activity on it and pays the numeric ID fees.",
+       "ids": [
+        "visa-006",
+        "new:t2-s2-visa-onelicensee",
+        "new:t2-s2-visa-numericfees"
+       ]
+      },
+      {
+       "text": "Within 10 business days of a BIN going live, the member enters contacts in the Client Directory on Visa Access. These name a Directory Manager, Primary Center Manager and Senior Officer.",
+       "ids": [
+        "new:t2-s2-visa-directory",
+        "new:t2-s2-visa-senior"
+       ]
+      },
+      {
+       "text": "Brand use sits under the Visa-owned marks licence. Visa may ask to review any branded material, and Europe requires a card design self-certification form.",
+       "ids": [
+        "cross-150",
+        "new:t2-s2-visa-marks",
+        "new:t2-s2-visa-carddesign",
+        "new:t2-s2-visa-cardbrand"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access, Client Lifecycle Management Tool",
+       "what_it_shows": "Where the licence application is completed after eligibility is confirmed, with a temporary UVID shown during review.",
+       "ids": [
+        "visa-004",
+        "visa-162"
+       ]
+      },
+      {
+       "name": "Client Directory (Client Service Provider Directory and My Organization's Contacts modules)",
+       "what_it_shows": "Member contacts and named roles, due within 10 business days of a BIN or BID implementation.",
+       "ids": [
+        "new:t2-s2-visa-directory"
+       ]
+      },
+      {
+       "name": "Visa Partner account and Universal Login",
+       "what_it_shows": "One identity across Visa Developer, Visa Partner programmes and Visa Online, with extra validation for Visa Online.",
+       "ids": [
+        "visa-031"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Eligibility rules live in charter documents outside the public rulebook, so an applicant cannot self-assess before contacting Visa.",
+       "ids": [
+        "visa-007"
+       ]
+      },
+      {
+       "text": "Principal service fees and any licensing timeline are unpublished.",
+       "ids": [
+        "visa-002"
+       ]
+      },
+      {
+       "text": "Several partner pages still name Visa Online after its rename to Visa Access, which leaves two names for one portal.",
+       "ids": [
+        "visa-013"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "An applicant must be a regulated financial institution with an acceptable business plan. Mastercard admits applicants at its sole discretion and alone decides Principal or Affiliate status.",
+       "ids": [
+        "mastercard-049",
+        "mastercard-056"
+       ]
+      },
+      {
+       "text": "The application is the public Universal Onboarding Template, form 1400, titled an application for the licence to use Mastercard service marks.",
+       "ids": [
+        "mastercard-082"
+       ]
+      },
+      {
+       "text": "AML and sanctions programmes are a licence condition. Named compliance contacts are kept in My Company Manager.",
+       "ids": [
+        "mastercard-055"
+       ]
+      },
+      {
+       "text": "Mastercard may demand capital, collateral or escrow. It may also let an applicant operate on an interim basis while the application is pending.",
+       "ids": [
+        "mastercard-054",
+        "new:t2-s2-mc-interim"
+       ]
+      },
+      {
+       "text": "Each customer receives an ICA. The ICA and BIN must reflect the country of activity within the licensed Area of Use, and adding a country means a new application.",
+       "ids": [
+        "mastercard-059",
+        "new:t2-s2-mc-icacountry",
+        "new:t2-s2-mc-areause"
+       ]
+      },
+      {
+       "text": "Connect access for a new company starts with the Mastercard Connect Access Form, 1145 or 1145b, obtained from a representative.",
+       "ids": [
+        "mastercard-083"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Universal Onboarding Template, form 1400",
+       "what_it_shows": "A public Qualtrics form for a new licensed customer application.",
+       "ids": [
+        "mastercard-082"
+       ]
+      },
+      {
+       "name": "Mastercard Connect, My Company Manager",
+       "what_it_shows": "Company records, contacts per ICA, AML and sanctions contacts, and service provider registration.",
+       "ids": [
+        "mastercard-055",
+        "new:t2-s2-mc-contacts",
+        "mastercard-063"
+       ]
+      },
+      {
+       "name": "Mastercard Connect sign-up",
+       "what_it_shows": "A three-step request that ends with approval by the applicant company's own administrator.",
+       "ids": [
+        "mastercard-084",
+        "mastercard-313"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The live rulebook and brand pages refuse automated fetches, and the old public licensing guide survives only as a legacy page.",
+       "ids": [
+        "new:t2-s2-mc-licguide",
+        "mastercard-259"
+       ]
+      },
+      {
+       "text": "Joining and registration fees sit in the Pricing and Billing Center behind Connect.",
+       "ids": [
+        "mastercard-064"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "There is no public application. Rulebooks are handed over only after an agreement is signed.",
+       "ids": [
+        "amex-035",
+        "amex-036"
+       ]
+      },
+      {
+       "text": "The first eligibility rule is a Participant Agreement that authorises issuing under assigned BIN ranges.",
+       "ids": [
+        "new:t2-s2-amex-bop-agreement"
+       ]
+      },
+      {
+       "text": "Bank partners must pass capital and soundness tests and hold an investment-grade rating, or post a guarantee, letter of credit or cash collateral.",
+       "ids": [
+        "new:t2-s2-amex-bop-financial"
+       ]
+      },
+      {
+       "text": "Before launch American Express certifies specifications and assigns settlement parameters, currency code and participant number ranges. It also works with the partner's marketing agency.",
+       "ids": [
+        "new:t2-s2-amex-bop-prelaunch"
+       ]
+      },
+      {
+       "text": "A site survey, vulnerability scanning and any required site review come before beta test.",
+       "ids": [
+        "new:t2-s2-amex-bop-security"
+       ]
+      },
+      {
+       "text": "Participants are classed as Network Card License issuers, Independent Operators or Joint Ventures. Fees are negotiated bilaterally in each agreement.",
+       "ids": [
+        "amex-212",
+        "new:t2-s2-amex-bop-bilateral"
+       ]
+      },
+      {
+       "text": "Brand use runs under a Trademark Licensing Agreement. Issuers pay a monthly rental fee for each active BIN, USD 175 in the 2023 manual.",
+       "ids": [
+        "new:t2-s2-amex-bop-tla",
+        "new:t2-s2-amex-bop-binfee"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Gated home for manuals, the Participant Directory and Service Enrollment for network services after licensing.",
+       "ids": [
+        "amex-079",
+        "new:t2-s2-amex-bop-contacts"
+       ]
+      },
+      {
+       "name": "Navigator training via Knowledge Base",
+       "what_it_shows": "Mandatory training before staff reach FraudNet, Network Disputes Manager and Program Progress Report.",
+       "ids": [
+        "new:t2-s2-amex-bop-training"
+       ]
+      },
+      {
+       "name": "User access forms and online enrolment",
+       "what_it_shows": "Per-person system access, with business justification and manager approval, coordinated by the AEGNS Operations Manager.",
+       "ids": [
+        "new:t2-s2-amex-bop-access"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Obligations cannot be read before signing because the policy manual is confidential.",
+       "ids": [
+        "amex-036"
+       ]
+      },
+      {
+       "text": "The public contact route is a web form that returns a case number, with no phone or email published.",
+       "ids": [
+        "amex-361"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover describes network partner agreements with financial institutions, fintechs and alliance networks. Prospects use a nine-category contact form.",
+       "ids": [
+        "dgn-025",
+        "dgn-035"
+       ]
+      },
+      {
+       "text": "The partnering page offers consultation with no steps, fees or timelines.",
+       "ids": [
+        "dgn-036"
+       ]
+      },
+      {
+       "text": "Diners Club issuers hold a Network Participation Agreement or a sublicence NPA. Prospects email a brand mailbox.",
+       "ids": [
+        "diners-018",
+        "diners-004",
+        "dgn-039"
+       ]
+      },
+      {
+       "text": "The Partner Product Portal's Going Live flow has five stages: Organization Identification, Legal and Risk Documentation, Configuration, Certification, and End to End Testing.",
+       "ids": [
+        "dgn-172"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Partner Product Portal, Going Live",
+       "what_it_shows": "Five named onboarding stages seen in the site's code. The page renders only client side.",
+       "ids": [
+        "dgn-172",
+        "dgn-171"
+       ]
+      },
+      {
+       "name": "Diners Club issuer resources on ServiceNow",
+       "what_it_shows": "Assets and tools for current Diners issuers only.",
+       "ids": [
+        "dgn-180"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Operating rules and specifications sit behind the Service Center login, with no public rulebook.",
+       "ids": [
+        "diners-016"
+       ]
+      },
+      {
+       "text": "Diners Club issuer interchange is negotiated per issuer, with no published schedule.",
+       "ids": [
+        "diners-014"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa's licensing page publishes four steps, the review criteria and the identifier a partner holds during review. It is the clearest public map of a direct licence.",
+    "ids": [
+     "visa-004",
+     "visa-005"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover routes issuers to a contact form or a Diners brand mailbox. Its five-stage Going Live structure exists in code but is not visible as a readable page.",
+    "ids": [
+     "dgn-035",
+     "diners-004",
+     "dgn-172"
+    ]
+   }
+  },
+  {
+   "partner_type": "Issuers: community banks and credit unions (sponsored or associate)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Associate clients, typically smaller credit unions, hold their own licence and BIN. A Principal sponsors them for settlement, reporting and fees.",
+       "ids": [
+        "visa-003"
+       ]
+      },
+      {
+       "text": "An Associate either licenses its own BIN, with one sponsor only since 2017, or uses a unique BIN licensed to its Principal. A Participant-type member cannot license a BIN.",
+       "ids": [
+        "visa-006"
+       ]
+      },
+      {
+       "text": "Industry bodies can act as the Principal. ICBA Payments is a Visa principal that runs sponsored programmes and sells network sponsorship in a debit bundle.",
+       "ids": [
+        "new:t2-s2-icba-principal",
+        "new:t2-s2-icba-bundle"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access, Client Lifecycle Management Tool",
+       "what_it_shows": "The same licence application path as for principals.",
+       "ids": [
+        "visa-004"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The sponsor carries liability for information on the Associate's BINs, which pushes risk review onto the sponsoring bank.",
+       "ids": [
+        "visa-006"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "In the US an Affiliate can join through a Principal, an Association or a Type I processor. Mastercard stopped designating new Type I processors in May 2025.",
+       "ids": [
+        "mastercard-060",
+        "mastercard-062"
+       ]
+      },
+      {
+       "text": "The sponsor is liable to Mastercard for everything its sponsored affiliates do.",
+       "ids": [
+        "mastercard-057"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "My Company Manager",
+       "what_it_shows": "The Principal maintains contacts for itself and each sponsored affiliate per ICA.",
+       "ids": [
+        "new:t2-s2-mc-contacts"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The processor sponsorship route that many small issuers used is closed to new entrants.",
+       "ids": [
+        "mastercard-062"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The study found no public route for a US community bank or credit union to issue directly on American Express. The fintech route runs through sponsor banks on the Agile Partner Platform.",
+       "ids": [
+        "amex-073",
+        "amex-075"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "American Express publishes no licensing tiers below a full participant.",
+       "ids": [
+        "amex-031"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE participating institutions sign participation agreements that usually auto-renew. They pay participation and membership fees on top of switch fees.",
+       "ids": [
+        "dgn-028"
+       ]
+      },
+      {
+       "text": "Discover Debit is sold to regional banks and credit unions on an all-in programme fee, but the amount is not disclosed.",
+       "ids": [
+        "pulse-012"
+       ]
+      },
+      {
+       "text": "The PULSE website asks new users to register and promises credentials within five business days.",
+       "ids": [
+        "pulse-001"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE secure website registration",
+       "what_it_shows": "A three-step form: submit registration, receive a User ID within five business days, then reset the password.",
+       "ids": [
+        "pulse-001",
+        "pulse-039"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "PULSE's public join path is a sales call-back form. No membership types, sponsor model or fees are published.",
+       "ids": [
+        "pulse-002",
+        "pulse-001"
+       ]
+      },
+      {
+       "text": "PULSE says it starts delivering services once the contract is signed, so the pre-contract experience is a sales conversation.",
+       "ids": [
+        "new:t2-s2-pulse-contract"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:SHAZAM",
+     "how_it_works": [
+      {
+       "text": "SHAZAM is member-owned with one vote per member. It joins community banks and credit unions by contact form and publishes no fees.",
+       "ids": [
+        "shazam-013"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa names the sponsored tier on its public licensing page and says who it suits. Its rules state which BIN the Associate may use and who is liable.",
+    "ids": [
+     "visa-003",
+     "visa-006"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE is the Discover family's route for this segment. Its public site offers a contact form and a five-day portal registration, with participation fees stated in filings but not priced.",
+    "ids": [
+     "pulse-002",
+     "pulse-001",
+     "dgn-028"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Acquirers license through the same Principal or Associate path as issuers. Brazil adds a separate merchant acquiring licence.",
+       "ids": [
+        "visa-001",
+        "visa-006",
+        "new:t2-s2-visa-brazil"
+       ]
+      },
+      {
+       "text": "A member using a VisaNet processor files a regional client information questionnaire first. A non-member processor must sign a VisaNet Letter of Agreement.",
+       "ids": [
+        "visa-011"
+       ]
+      },
+      {
+       "text": "Sponsor banks sign the acquiring contract and hold the BIN. The Bancorp and Heartland agreement is a filed example of a Merchant BIN and ICA Sponsorship and Services Agreement.",
+       "ids": [
+        "new:t2-s2-tbb-agreement",
+        "new:t2-s2-prth-bin"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Regional client information questionnaire and VisaNet Letter of Agreement",
+       "what_it_shows": "The documents a member or its processor files before a processor is used.",
+       "ids": [
+        "visa-011"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Network standards stop a sponsored acquirer from settling funds itself, which binds it to the sponsor bank.",
+       "ids": [
+        "new:t2-s2-gpn-model",
+        "new:t2-s2-prth-sponsor"
+       ]
+      },
+      {
+       "text": "Processors report that sponsor banks keep wide discretion over their practices and contract terms, and bank alliances supply the sponsorship.",
+       "ids": [
+        "new:t2-s2-iiiv-discretion",
+        "new:t2-s2-fiserv-alliance"
+       ]
+      },
+      {
+       "text": "If a portfolio changes hands, the new owner has 10 calendar days to file membership materials or Visa may delete the BINs.",
+       "ids": [
+        "new:t2-s2-visa-merger"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "An acquirer that wants specialty merchants files the High-Risk License Addendum, form 637. A USD 50,000 annual fee applies from May 2026.",
+       "ids": [
+        "mastercard-350"
+       ]
+      },
+      {
+       "text": "Processors that matter operationally can join as Network Enablement Partners, on a direct NEP Agreement signed within 30 days of designation.",
+       "ids": [
+        "mastercard-067",
+        "mastercard-260"
+       ]
+      },
+      {
+       "text": "NEP tiers grant test ICAs and BINs.",
+       "ids": [
+        "mastercard-261"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "NEP Application form",
+       "what_it_shows": "Submitted to a service provider mailbox. The NEP page names tiers and a contact.",
+       "ids": [
+        "mastercard-067",
+        "mastercard-261"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Type I processor registration needs form 919, an SSAE 18 or ISAE 3402 report and a continuity form, all sent by email.",
+       "ids": [
+        "mastercard-066"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Acquirer participants sign a Participant Agreement and may operate only in the territory and currency it names.",
+       "ids": [
+        "new:t2-s2-amex-bop-agreement",
+        "new:t2-s2-amex-bop-territory"
+       ]
+      },
+      {
+       "text": "Processors and gateways register through AMEX Enabled under a click-through NDA, with no fee.",
+       "ids": [
+        "amex-046",
+        "amex-047"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "AMEX Enabled Dashboard",
+       "what_it_shows": "Specifications, product enrolment, DocuSign contracts and up to five extra users.",
+       "ids": [
+        "amex-048",
+        "amex-374"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "American Express publishes no route for an acquirer to become an OptBlue participant.",
+       "ids": [
+        "amex-061"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "EASI self-registration covers eighteen company types, including acquirers and acquirer processors. It asks for contacts, a signing authority, company type and regions.",
+       "ids": [
+        "dgn-032",
+        "dgn-033",
+        "new:t2-s2-dgn-easi-signing"
+       ]
+      },
+      {
+       "text": "EASI holds specifications, test card kits and a Message Center to network operations.",
+       "ids": [
+        "dgn-031",
+        "dgn-164"
+       ]
+      },
+      {
+       "text": "Acquirers must register High Brand Risk merchants under Discover's HBR programme.",
+       "ids": [
+        "dgn-118"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI registration",
+       "what_it_shows": "A multi-stage form, then credentials by email.",
+       "ids": [
+        "dgn-033",
+        "dgn-165"
+       ]
+      },
+      {
+       "name": "Partner Resources",
+       "what_it_shows": "Links to the Release Compliance Tool, Disputes Portal, Developer Center, EASI and Web Merchant Boarding.",
+       "ids": [
+        "dgn-024"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The EASI Registration Guide PDF returned a server error on 26 September 2026, and Discover publishes no acquirer licensing steps.",
+       "ids": [
+        "dgn-165",
+        "dgn-036"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {},
+   "discover_today": {
+    "text": "EASI gives acquirers and processors self-service registration that captures signing authority and company type. It opens specifications and test kits, and Discover publishes no licensing steps.",
+    "ids": [
+     "dgn-032",
+     "new:t2-s2-dgn-easi-signing",
+     "dgn-031",
+     "dgn-036"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "The sponsoring acquirer registers the agent in Program Request Management plus regional forms before any service begins.",
+       "ids": [
+        "visa-008",
+        "visa-303"
+       ]
+      },
+      {
+       "text": "A senior officer reviews the documents. The member checks finances and principals' backgrounds and inspects the agent's site.",
+       "ids": [
+        "visa-010",
+        "visa-305"
+       ]
+      },
+      {
+       "text": "Registration is per acquirer, and from 24 October 2026 US and Canadian members must disclose each agent's numeric IDs and BINs.",
+       "ids": [
+        "visa-009",
+        "visa-304"
+       ]
+      },
+      {
+       "text": "Visa Partner now lets agents start registration themselves. They name a sponsor and TPA category and upload a PCI AOC or SAQ D. A Business ID and registry listing follow.",
+       "ids": [
+        "visa-016",
+        "visa-341",
+        "visa-161"
+       ]
+      },
+      {
+       "text": "To sponsor payment facilitators an acquirer must meet Visa's risk rating and equity minimums. Visa sends agents to their acquirer and acquirers to their Visa account team.",
+       "ids": [
+        "visa-032",
+        "new:t2-s2-visa-pfroute"
+       ]
+      },
+      {
+       "text": "In 2016 Visa said agents could not register themselves. The current tool reverses that for services that need no sponsor.",
+       "ids": [
+        "new:t2-s2-visa-faq-selfreg",
+        "visa-016"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Program Request Management",
+       "what_it_shows": "The sponsor's registration application for agents and payment facilitators.",
+       "ids": [
+        "visa-303",
+        "visa-032"
+       ]
+      },
+      {
+       "name": "Visa Membership Management, 2016",
+       "what_it_shows": "Predecessor tool on Visa Online, where a payment facilitator's descriptor and BIN went in a free-text comments field.",
+       "ids": [
+        "new:t2-s2-visa-faq-vmm",
+        "new:t2-s2-visa-faq-pfcase"
+       ]
+      },
+      {
+       "name": "Visa Global Registry of Service Providers",
+       "what_it_shows": "A public listing with company, regions, services and compliance date. Overdue listings turned yellow, then red, then were removed.",
+       "ids": [
+        "new:t2-s2-visa-registry",
+        "new:t2-s2-visa-faq-registry"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The 2016 fee schedule of USD 5,000 per ISO or payment facilitator is the last public figure, and fees are non-refundable after approval.",
+       "ids": [
+        "visa-014"
+       ]
+      },
+      {
+       "text": "An agent serving several acquirers is registered separately by each.",
+       "ids": [
+        "visa-009"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "The sponsoring customer registers the provider in My Company Manager and completes materials within 30 days, and it validates annually.",
+       "ids": [
+        "mastercard-063"
+       ]
+      },
+      {
+       "text": "PCI validation through the Site Data Protection programme must be complete. The customer needs written confirmation before using the provider.",
+       "ids": [
+        "mastercard-065",
+        "new:t2-s2-mc-spconfirm"
+       ]
+      },
+      {
+       "text": "Payment facilitators that submit directly, or serve specialty merchants, must become Network Enablement Partners.",
+       "ids": [
+        "mastercard-068"
+       ]
+      },
+      {
+       "text": "Mastercard publishes the list of registered payment facilitators.",
+       "ids": [
+        "mastercard-259"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "My Company Manager service provider registration",
+       "what_it_shows": "Where the sponsor registers ISOs and payment facilitators and uploads material.",
+       "ids": [
+        "mastercard-063",
+        "mastercard-192"
+       ]
+      },
+      {
+       "name": "Service Provider Categories and PCI matrix",
+       "what_it_shows": "A public one-page table of provider types and their programme services.",
+       "ids": [
+        "new:t2-s2-mc-spcat"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Registration fees are billed through MCBS at unpublished amounts.",
+       "ids": [
+        "mastercard-064"
+       ]
+      },
+      {
+       "text": "Missing a registration step can cost the sponsor up to USD 25,000 for each 30 days.",
+       "ids": [
+        "new:t2-s2-mc-regfee"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "A payment facilitator below USD 250 million in American Express volume registers through an OptBlue participant. There is no registration fee.",
+       "ids": [
+        "amex-057",
+        "amex-271"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "ISOs usually sign merchants on the sponsor's own application, and the sponsor bank co-signs each ISO merchant agreement.",
+       "ids": [
+        "new:t2-s2-infinicept-app",
+        "new:t2-s2-esq-iso"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover tells payment facilitators to register through an acquiring bank in each market. It also advises a money transmitter licence and Level 1 PCI.",
+       "ids": [
+        "new:t2-s2-dgn-pfroadmap",
+        "new:t2-s2-dgn-pfroadmap-mtl"
+       ]
+      },
+      {
+       "text": "ISOs and payment facilitators can self-register on EASI for specifications and test kits.",
+       "ids": [
+        "dgn-032"
+       ]
+      },
+      {
+       "text": "PULSE participants may sponsor merchants, processors and ISOs and are liable for them.",
+       "ids": [
+        "dgn-026",
+        "dgn-027"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI",
+       "what_it_shows": "Self-registration listing ISO and PayFac as company types.",
+       "ids": [
+        "dgn-032"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Discover publishes no network-level registration step, form or fee for ISOs or payment facilitators.",
+       "ids": [
+        "new:t2-s2-dgn-pfroadmap",
+        "dgn-036"
+       ]
+      },
+      {
+       "text": "A former ISO owner says vertical software firms do not know how to structure a sponsor bank relationship, which is the step Discover's guide leaves to them.",
+       "ids": [
+        "new:t2-s2-gs-lacoste",
+        "new:t2-s2-dgn-pfroadmap"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa's registry shows registration and compliance status publicly. Its newer tool lets an agent start registration itself and get a Business ID.",
+    "ids": [
+     "new:t2-s2-visa-registry",
+     "visa-016",
+     "visa-161"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover sends payment facilitators to acquiring banks through a marketing article and lets them self-register on EASI, with no network registration status to see.",
+    "ids": [
+     "new:t2-s2-dgn-pfroadmap",
+     "dgn-032"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators (independent deployers and bank fleets)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Deployers join as ISO-ATM agents registered by a Visa or Plus client. Key-injection vendors register as Encryption Support Organizations.",
+       "ids": [
+        "visa-017"
+       ]
+      },
+      {
+       "text": "In the US the ATM acquirer must do due diligence on each ATM operator, including a site visit or suitable alternative.",
+       "ids": [
+        "new:t2-s2-visa-atmsite"
+       ]
+      },
+      {
+       "text": "Bank examiners describe the chain as sponsor bank approval, a processor contract, and network registration by the sponsor bank.",
+       "ids": [
+        "new:t2-s2-ffiec-iso"
+       ]
+      },
+      {
+       "text": "Members displaying Plus receive a Plus marks licence.",
+       "ids": [
+        "visa-116"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Program Request Management",
+       "what_it_shows": "Used to register ISO-ATM agents.",
+       "ids": [
+        "visa-303"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Only banks, or processors a bank approves and monitors, may send ATM transactions, so losing a sponsor can halt operations.",
+       "ids": [
+        "new:t2-s2-atleos-sponsor"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Acquirers of ATM owners run their own ATM AML monitoring and may join other ATM networks that do not compete.",
+       "ids": [
+        "mastercard-072"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "ATM acquirers join market by market through bank partnerships. There is no global application.",
+       "ids": [
+        "amex-077"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE lists ATM Acquirers as a partner type, promising exclusive Discover and Diners cards. Fees are described only as competitive.",
+       "ids": [
+        "dgn-040",
+        "pulse-013"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Joining runs through a contact page.",
+       "ids": [
+        "dgn-040"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Bank examiners define the ATM ISO chain in one sentence: sponsor bank approval, processor contract, and network registration by the bank.",
+    "ids": [
+     "new:t2-s2-ffiec-iso"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE pitches ATM acquirers on card access with no published joining steps or rates.",
+    "ids": [
+     "pulse-013"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Fintech Fast Track asks for a registered corporation, new to issuing, with at least USD 3 million raised. Visa and the enablement partner both review.",
+       "ids": [
+        "visa-018"
+       ]
+      },
+      {
+       "text": "Non-bank and crypto issuers file a Core Product Program Information Form and need Visa's written approval.",
+       "ids": [
+        "visa-020"
+       ]
+      },
+      {
+       "text": "Visa describes the sponsor bank model of BIN sponsor, processor and programme manager.",
+       "ids": [
+        "visa-019"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Partner programme catalogue",
+       "what_it_shows": "Fast Track, licensing, third-party registration and the PIF.",
+       "ids": [
+        "visa-159"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Since May 2025 a Principal needs Mastercard's approval to act as BIN sponsor for a sponsored programme manager, and approval is revocable without notice.",
+       "ids": [
+        "mastercard-051"
+       ]
+      },
+      {
+       "text": "Product Express sells issuance through pre-certified partners and BIN sponsorship.",
+       "ids": [
+        "mastercard-086",
+        "mastercard-275"
+       ]
+      },
+      {
+       "text": "In the UK, BIN Sponsor Plus accredits sponsors that commit to higher training and due diligence.",
+       "ids": [
+        "new:t2-s2-mc-binsponsorplus"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Engage portal",
+       "what_it_shows": "An online application, product qualification, franchise screening, IDs and an agreement.",
+       "ids": [
+        "mastercard-085"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The Agile Partner Platform connects fintechs to sponsor banks and processors such as i2c, Lithic and Marqeta. American Express says it is selective.",
+       "ids": [
+        "amex-073",
+        "amex-074",
+        "amex-072"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The fintech page offers no application or eligibility information.",
+       "ids": [
+        "amex-076"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover assembles BIN sponsors, processors and programme managers for fintechs and names no fast-track programme.",
+       "ids": [
+        "dgn-037",
+        "dgn-133"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Stripe, Adyen, Lithic and Highnote document issuing on Visa and Mastercard, and none documents Discover issuing.",
+       "ids": [
+        "dgn-265",
+        "dgn-266",
+        "dgn-267",
+        "dgn-268"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa publishes Fast Track eligibility criteria and review stages that a founder can check before applying.",
+    "ids": [
+     "visa-018"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover describes a sponsor ecosystem for fintechs without eligibility, steps or named partners.",
+    "ids": [
+     "dgn-037"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers and technology service providers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Ready runs six steps from creating a Visa Partner account to a directory listing.",
+       "ids": [
+        "visa-023"
+       ]
+      },
+      {
+       "text": "Visa Developer credentials beyond sandbox need a signed contract, collected in an Onboarding Dashboard.",
+       "ids": [
+        "visa-028"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Onboarding Dashboard",
+       "what_it_shows": "Business entity, contacts, project, environment request, users and credentials.",
+       "ids": [
+        "visa-150"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Onboarding can take two weeks or several months.",
+       "ids": [
+        "visa-029"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Company verification links a Connect profile or company ID, or routes to due diligence with a reference number.",
+       "ids": [
+        "mastercard-075",
+        "mastercard-076"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Customer Onboarding Platform questionnaire",
+       "what_it_shows": "Triggered when a company adds a Business Relationship Type.",
+       "ids": [
+        "mastercard-077"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "AMEX Enabled is three steps: register the company under an NDA, enrol a Knowledge Base user, then use the dashboard. There is no fee.",
+       "ids": [
+        "amex-046",
+        "amex-047"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "AMEX Enabled Dashboard",
+       "what_it_shows": "Messaging Center, product enrolment and DocuSign contracts.",
+       "ids": [
+        "amex-373",
+        "amex-374"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "The Developer Center is invite-only, starting from a Contact Us form.",
+       "ids": [
+        "dgn-034"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI",
+       "what_it_shows": "Self-registration for eighteen company types.",
+       "ids": [
+        "dgn-032"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Two different doors apply, invite-only for APIs and self-service for specifications.",
+       "ids": [
+        "dgn-034",
+        "dgn-023"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "AMEX Enabled makes provider joining a free, three-step self-service flow with digital contracts.",
+    "ids": [
+     "amex-046",
+     "amex-047",
+     "amex-374"
+    ]
+   },
+   "discover_today": {
+    "text": "EASI is self-service while the Developer Center needs an invitation.",
+    "ids": [
+     "dgn-023",
+     "dgn-034"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants (where they touch the network)",
+   "networks": [
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "US merchants either sign directly with American Express or go through an OptBlue provider that sets the rate.",
+       "ids": [
+        "amex-312"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Merchants enable Discover through their acquirer, found on a find-an-acquirer page.",
+       "ids": [
+        "diners-008"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "American Express offers two published routes, direct or through an OptBlue provider.",
+    "ids": [
+     "amex-312"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover points merchants to acquirers.",
+    "ids": [
+     "diners-008"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "One join map per partner type",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Issuers: community banks and credit unions (sponsored or associate)",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators (independent deployers and bank fleets)",
+    "Fintechs and programme managers"
+   ],
+   "move": "Open the partner portal with a chooser by partner type. Each path states who signs, whether a sponsor is needed, the documents asked for and the identifiers issued at approval.",
+   "why_advantage": "Only Visa publishes the steps for a direct licence. American Express hands over rules only after signing, and Discover routes every type to a contact form.",
+   "ids": [
+    "visa-004",
+    "visa-005",
+    "amex-035",
+    "dgn-035",
+    "dgn-036"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "A sponsor console for third-party registration",
+   "partner_types": [
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators (independent deployers and bank fleets)"
+   ],
+   "move": "Give the sponsoring bank one registration record per ISO, payment facilitator or ATM deployer. It holds the diligence checklist, PCI evidence and identifiers, with a visible status up to written approval.",
+   "why_advantage": "American Express takes these registrations as emailed PDFs and Mastercard takes them in My Company Manager. Sponsor staff track the work in Excel, and Discover publishes no network step.",
+   "ids": [
+    "mastercard-063",
+    "new:t2-s2-citizens-tools",
+    "new:t2-s2-dgn-pfroadmap"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "A welcome record of identifiers",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Acquirers and processors"
+   ],
+   "move": "At approval, show one record with the IIN or BIN ranges, participant numbers, settlement parameters and directory entries. Keep the same record live as ranges change.",
+   "why_advantage": "Rivals issue these through several tools and deadlines. Visa uses a UVID, then a Business ID, then a directory entry due within 10 business days, and American Express assigns ranges during pre-launch support.",
+   "ids": [
+    "visa-004",
+    "new:t2-s2-visa-directory",
+    "new:t2-s2-amex-bop-prelaunch",
+    "new:t2-s2-mc-icacountry"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Named roles captured once at joining",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs"
+   ],
+   "move": "Collect the signing authority, senior officer, operations lead and portal administrator in the first form, and reuse them for access, bulletins and escalation.",
+   "why_advantage": "Visa, Mastercard and American Express each define such roles but collect them in separate directories after launch. EASI already asks for a signing authority at registration.",
+   "ids": [
+    "new:t2-s2-visa-senior",
+    "new:t2-s2-mc-contacts",
+    "new:t2-s2-amex-bop-contacts",
+    "new:t2-s2-dgn-easi-signing"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Service levels on the network's own steps",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Payment facilitators and ISOs",
+    "Developers and technology service providers"
+   ],
+   "move": "State the network's response time for credentials, registration review and reconsideration of a refusal, and show it on each step.",
+   "why_advantage": "Elo publishes a five-day reconsideration window and PULSE a five-day credential promise. The study found no licensing timeline from Visa, Mastercard or American Express.",
+   "ids": [
+    "elo-019",
+    "pulse-001",
+    "visa-015",
+    "mastercard-078"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Say plainly what joining costs",
+   "partner_types": [
+    "Payment facilitators and ISOs",
+    "Developers and technology service providers",
+    "Issuers: community banks and credit unions (sponsored or associate)"
+   ],
+   "move": "Publish registration and participation fees, or state that a step carries no fee, on the join map.",
+   "why_advantage": "Visa's last public agent fee is from 2016, Mastercard's sit behind Connect, and PULSE states participation fees exist without amounts. American Express states that OptBlue payment facilitator and AMEX Enabled registration carry no fee.",
+   "ids": [
+    "visa-014",
+    "mastercard-064",
+    "dgn-028",
+    "amex-047",
+    "amex-057"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "A public registry with live status",
+   "partner_types": [
+    "Payment facilitators and ISOs",
+    "Developers and technology service providers"
+   ],
+   "move": "List registered payment facilitators, ISOs and certified providers with their compliance status, so merchants and sponsors can check them.",
+   "why_advantage": "Visa's registry shows compliance status and Mastercard lists registered payment facilitators. Discover's Partner Directory lists type-approved products only.",
+   "ids": [
+    "new:t2-s2-visa-registry",
+    "new:t2-s2-visa-faq-registry",
+    "mastercard-259",
+    "dgn-038"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Carry one application record forward",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Acquirers and processors",
+    "Developers and technology service providers"
+   ],
+   "move": "Pre-fill later onboarding tasks from what the partner gave at registration, so EASI data flows into Going Live stages.",
+   "why_advantage": "UnionPay's public guide describes pre-filled onboarding tasks. Discover today runs separate doors for EASI, the Developer Center and the Partner Product Portal.",
+   "ids": [
+    "unionpay-043",
+    "dgn-023",
+    "dgn-034",
+    "dgn-172"
+   ],
+   "evidence_strength": "thin"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Visa Access Client Lifecycle Management Tool screens, statuses and fields",
+   "why": "It sits behind Visa Access, and no republished guide was found.",
+   "how_to_see_it": "Search for bank or credit union training decks and Visa webinar captions that show the tool."
+  },
+  {
+   "what": "Mastercard My Company Manager service provider registration screens",
+   "why": "Mastercard's public external guide returned HTTP 403 and has no Wayback copy.",
+   "how_to_see_it": "Look for sponsor bank or processor procedure documents that quote the guide."
+  },
+  {
+   "what": "Fields of Mastercard form 1400",
+   "why": "The brief bars opening or typing into forms, so only the title was read.",
+   "how_to_see_it": "Look for consultancy or bank checklists that list the questions."
+  },
+  {
+   "what": "American Express 360Connect and Knowledge Base Service Enrollment",
+   "why": "Both are gated, and only the OptBlue regulations describe them.",
+   "how_to_see_it": "Look for OptBlue sales agent material and participant webinars."
+  },
+  {
+   "what": "Discover EASI Registration Guide",
+   "why": "The linked PDF returned an application error on 26 September 2026.",
+   "how_to_see_it": "Retry the link later or check for a Wayback capture."
+  },
+  {
+   "what": "Discover acquirer, ISO and payment facilitator registration rules",
+   "why": "Discover operating regulations are not public and its guide routes payment facilitators to acquirers.",
+   "how_to_see_it": "Look for processor help pages that cite Discover registration steps."
+  },
+  {
+   "what": "PULSE participation agreement terms and fees",
+   "why": "PULSE confirms fees in filings but publishes no amounts or agreement.",
+   "how_to_see_it": "Look in credit union board packets and state regulator filings."
+  },
+  {
+   "what": "Current Visa and Mastercard agent registration fees",
+   "why": "Visa's last public figures are from 2016 and Mastercard points to its gated billing centre.",
+   "how_to_see_it": "Look in sponsor bank ISO agreements filed with the SEC."
+  },
+  {
+   "what": "Elapsed time from application to licence",
+   "why": "No network publishes a licensing timeline.",
+   "how_to_see_it": "Compare signing and launch dates in partner press releases."
+  },
+  {
+   "what": "How the OptBlue regulations should be treated",
+   "why": "The copy used is marked confidential by American Express and was republished by a processor.",
+   "how_to_see_it": "Ask Rich whether to keep or drop the s2-amex-ob rows."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t2-s2-amex-bop-agreement",
+   "network": "amex",
+   "claim": "American Express makes a signed Participant Agreement, tied to assigned BIN ranges, the first eligibility requirement for any network issuer or acquirer.",
+   "quote": "All Participants must execute an agreement with AEGNS that authorizes the Participant to issue Cards under their assigned BIN ranges",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-financial",
+   "network": "amex",
+   "claim": "Bank participants must meet capital adequacy tests and be judged sound, or post a guarantee, letter of credit or cash collateral. Ratings below BBB- or Baa3 trigger security.",
+   "quote": "they must be judged financially sound and/or provide satisfactory assurance such as a guarantee of performance and payment",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-prelaunch",
+   "network": "amex",
+   "claim": "Before launch American Express explains and certifies specifications, assigns settlement parameters, currency code and participant number ranges, sets file procedures and briefs the partner marketing staff.",
+   "quote": "Assigning Settlement parameters, currency code and Participant number ranges,",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-security",
+   "network": "amex",
+   "claim": "Before beta test or first business, participants complete a site survey by American Express, vulnerability scanning and any site review. They may also be asked for a recent audit.",
+   "quote": "prior to Beta Test and/or the time they begin to conduct business on the Network",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Extraction splits \"Test\" as \"T est\"."
+  },
+  {
+   "key": "t2-s2-amex-bop-training",
+   "network": "amex",
+   "claim": "Staff must finish training before gaining FraudNet, Network Disputes Manager or Program Progress Report access, requested through Knowledge Base access to the Navigator learning system.",
+   "quote": "Please register through Knowledge Base to request access to Navigator to complete the trainings",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-access",
+   "network": "amex",
+   "claim": "Each person requests system access through an approved user access form or online enrolment, with a business justification and manager approval, coordinated by the partner AEGNS Operations Manager.",
+   "quote": "All access requests must be supported with a valid business justification and manager approval.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-contacts",
+   "network": "amex",
+   "claim": "Participants submit key contacts on request and American Express may share them with other participants through the Participant Directory in Knowledge Base.",
+   "quote": "may be shared with other Participants via the Participant Directory on Knowledge Base",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-binfee",
+   "network": "amex",
+   "claim": "American Express charges issuers an Active BIN Rental Fee, set at USD 175 per active BIN per month in the October 2023 table.",
+   "quote": "AEGNS will assess a fee to Issuers for each active BIN assigned to them.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Table 10-10 reads \"$175 USD Per active BIN Monthly\"."
+  },
+  {
+   "key": "t2-s2-amex-bop-bilateral",
+   "network": "amex",
+   "claim": "Apart from fees of general applicability in the manuals, American Express negotiates fees and financial terms bilaterally and records them in each Participant Agreement.",
+   "quote": "all fees and other financial terms have been negotiated bilaterally between American Express and the Participant",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-sp",
+   "network": "amex",
+   "claim": "A participant must do its own due diligence on each service provider and confirm the provider is PCI DSS compliant to American Express before engaging it.",
+   "quote": "unless the Participant has confirmed to AEGNS that such Service Providers are PCI DSS compliant",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212."
+  },
+  {
+   "key": "t2-s2-amex-bop-tla",
+   "network": "amex",
+   "claim": "Brand use runs under a Trademark Licensing Agreement with American Express, and branded social media needs a separate licensing amendment and approval process.",
+   "quote": "They execute a Social Media Licensing Amendment to the Trademark Licensing Agreement with American Express.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Extraction splits \"Trademark\" as \"T rademark\"."
+  },
+  {
+   "key": "t2-s2-visa-directory",
+   "network": "visa",
+   "claim": "Within 10 business days of a BIN going live, the member must enter contacts in the Client Directory on Visa Access. These include a Directory Manager and a Senior Officer.",
+   "quote": "Within 10 business days of a BIN or an Acquiring Identifier implementation",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-senior",
+   "network": "visa",
+   "claim": "Visa defines the Senior Officer as a member role that receives the same emails as the Primary Center Manager, including weekly Visa Business News.",
+   "quote": "receives the same email communications as the Primary Center Manager, including the weekly Visa Business News",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-onelicensee",
+   "network": "visa",
+   "claim": "Each Visa BIN or acquiring identifier has exactly one licensee, which answers for all activity on it.",
+   "quote": "A BIN or an Acquiring Identifier may have only one BIN Licensee or Acquiring Identifier Licensee.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-numericfees",
+   "network": "visa",
+   "claim": "The licensee of any Visa numeric ID pays the fees for its assignment and administration and must report sales, mergers, changes of user and cessation.",
+   "quote": "All fees for the assignment and administration of the Numeric ID",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-merger",
+   "network": "visa",
+   "claim": "An organisation that assumes a member portfolio must file membership application materials within 10 calendar days, or Visa may delete the BINs.",
+   "quote": "Submit to Visa the appropriate membership application materials within 10 calendar days after assuming the Visa Programs",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-carddesign",
+   "network": "visa",
+   "claim": "In Europe an issuer self-certifies each card design on a Card Design Member Self-Certification Form.",
+   "quote": "An Issuer must submit a completed Card Design Member Self-Certification Form for the appropriate product.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-marks",
+   "network": "visa",
+   "claim": "Visa can ask any member to submit branded or marketing materials for review, and marks must be used within the scope of Visa written approval.",
+   "quote": "A Member must submit brand or marketing-related materials containing a Visa-Owned Mark for review if requested by Visa.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-faq-vmm",
+   "network": "visa",
+   "claim": "In 2016 clients registered agents in the Visa Membership Management tool, reached after enrolling on Visa Online and requesting VMM access.",
+   "quote": "Visa clients must use the Visa Membership Management (VMM) to register third party agents.",
+   "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+   "title": "Third Party Agent Registration Program Frequently Asked Questions (U.S., Canada and LAC)",
+   "publisher": "Visa",
+   "published": "2016-05",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-faq-selfreg",
+   "network": "visa",
+   "claim": "Visa 2016 guidance barred agents from registering themselves, a position the current Visa Partner tool has since relaxed.",
+   "quote": "Only Visa clients can register agents. Agents cannot register themselves.",
+   "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+   "title": "Third Party Agent Registration Program Frequently Asked Questions (U.S., Canada and LAC)",
+   "publisher": "Visa",
+   "published": "2016-05",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-faq-registry",
+   "network": "visa",
+   "claim": "Overdue PCI revalidation turns an agent listing yellow at 1 to 60 days, red at 61 to 90 days, and removes it after 91 days.",
+   "quote": "1 - 60 days overdue, the service provider is highlighted in Yellow on the Registry",
+   "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+   "title": "Third Party Agent Registration Program Frequently Asked Questions (U.S., Canada and LAC)",
+   "publisher": "Visa",
+   "published": "2016-05",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-faq-pfcase",
+   "network": "visa",
+   "claim": "A payment facilitator registration carried its descriptor name, BIN and location in the free-text comments of the VMM registration case.",
+   "quote": "must be included in the comments section of the VMM registration case",
+   "url": "https://usa.visa.com/dam/VCOM/download/merchants/tpa-registration-program-faqs.pdf",
+   "title": "Third Party Agent Registration Program Frequently Asked Questions (U.S., Canada and LAC)",
+   "publisher": "Visa",
+   "published": "2016-05",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-registry",
+   "network": "visa",
+   "claim": "The Visa Global Registry of Service Providers is public, and Visa tells clients a listing does not replace their own registration of the agent.",
+   "quote": "Clients must register all service providers with Visa prior to use of their services even if the service provider is already listed on the Registry.",
+   "url": "https://www.visa.com/splisting/",
+   "title": "The Visa Global Registry of Service Providers",
+   "publisher": "Visa",
+   "published": "undated",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, logged out), 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-cardbrand",
+   "network": "visa",
+   "claim": "Visa publishes its physical card brand standards as a public PDF and points issuers to brand.visa.com for further standards and assets.",
+   "quote": "For additional brand standards and assets, visit brand.visa.com",
+   "url": "https://corporate.visa.com/content/dam/VCOM/corporate/about-visa/documents/visa-physical-card-brand-standards-sept2025.pdf",
+   "title": "Visa Physical Card Brand Standards, September 2025",
+   "publisher": "Visa",
+   "published": "2025-09",
+   "label": "Verified",
+   "fetch": "WebFetch saved the PDF, pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-pfroute",
+   "network": "visa",
+   "claim": "Visa payment facilitator guidance routes agents to their acquirer and acquirers to their Visa account team.",
+   "quote": "Agents: Contact your Visa acquirer. Acquirers: Contact your Visa Account Executive or Account Manager.",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-payment-facilitator-model.pdf",
+   "title": "Visa's Payment Facilitator Model",
+   "publisher": "Visa",
+   "published": "2024-02-21",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-interim",
+   "network": "mastercard",
+   "claim": "Mastercard may let an applicant operate on an interim basis while its application is pending, entirely at the applicant risk if declined.",
+   "quote": "Pending approval of an application to be a Customer, the Corporation may authorize the applicant to participate in Activity on an interim basis",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-icacountry",
+   "network": "mastercard",
+   "claim": "The ICA and BIN used for issuing or acquiring must match the country of activity within the licensed Area of Use.",
+   "quote": "the ICA number and BIN/IIN or BIN range, as applicable, used to conduct issuing and/or acquiring Activity must reflect the country",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-areause",
+   "network": "mastercard",
+   "claim": "Extending a Mastercard licence to another country is a fresh application, after which Mastercard amends the licence.",
+   "quote": "A Customer must apply to the Corporation for permission to extend the Area of Use of a License.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-contacts",
+   "network": "mastercard",
+   "claim": "Principals keep contact records for themselves and their sponsored affiliates, per ICA, in My Company Manager on Mastercard Connect.",
+   "quote": "for each of its Customer IDs/ICA numbers in the My Company Manager application on Mastercard Connect",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-spconfirm",
+   "network": "mastercard",
+   "claim": "A sponsoring customer may not use a service provider until Mastercard confirms the registration in writing.",
+   "quote": "The Customer must receive the Corporation's written confirmation of the registration before using a Service Provider for Program Service.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-spcat",
+   "network": "mastercard",
+   "claim": "Mastercard publishes a one-page matrix of service provider categories and requires every registered provider handling card data to revalidate PCI compliance each year.",
+   "quote": "All Service Providers registered with Mastercard that store, process, or transmit cardholder data must validate compliance annually.",
+   "url": "https://www.mastercard.com/content/dam/public/mastercardcom/globalrisk/pdf/Service-Provider-Categories-and-PCI-Updated.pdf",
+   "title": "Service Provider Categories and PCI",
+   "publisher": "Mastercard",
+   "published": "2019-01-30",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2025-05-05 (live URL blocks curl), pypdf, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-licguide",
+   "network": "mastercard",
+   "claim": "A legacy public Mastercard Licensing Guide lists membership eligibility for Mastercard, Maestro and Cirrus, with region-by-region institution types.",
+   "quote": "All eligibility criteria must be satisfied before an entity can be granted membership.",
+   "url": "https://www.mastercard.com/how_to_guide/membership.html",
+   "title": "Licensing Guide: Eligibility Criteria For Membership",
+   "publisher": "Mastercard",
+   "published": "undated (legacy page)",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-08-13, curl, 2026-09-26. Live URL returns Access Denied to automated fetches."
+  },
+  {
+   "key": "t2-s2-mc-binsponsorplus",
+   "network": "mastercard",
+   "claim": "Mastercard launched BIN Sponsor Plus in the UK in January 2026, an accreditation for sponsors that commit to training and due diligence above the baseline.",
+   "quote": "a new accreditation program unveiled last month, designed to formalize expectations around training, due diligence and operational rigor",
+   "url": "https://www.pymnts.com/mastercard/2026/mastercard-tightens-rules-for-bin-sponsors-that-support-fintech-card-issuers/",
+   "title": "Mastercard Launches New Program for BIN Sponsor Accreditation",
+   "publisher": "PYMNTS",
+   "published": "2026-02-10",
+   "label": "Reported",
+   "fetch": "WebFetch, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-dgn-pfroadmap",
+   "network": "dgn",
+   "claim": "Discover tells prospective payment facilitators to register through an acquiring bank in each market, and publishes no network-level registration step.",
+   "quote": "Register as a payment facilitator with an acquiring bank in the necessary markets in which you operate.",
+   "url": "https://insights.discoverglobalnetwork.com/insights/payment-facilitator-roadmap",
+   "title": "Payment Facilitator Roadmap: 8 Steps to Becoming a PayFac",
+   "publisher": "Discover Network Insights",
+   "published": "2026-08-14",
+   "label": "Vendor",
+   "fetch": "WebFetch, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-dgn-pfroadmap-mtl",
+   "network": "dgn",
+   "claim": "The same Discover guide tells payment facilitators they need Level 1 PCI DSS certification and a money transmitter licence.",
+   "quote": "you'll need to receive Level 1 PCI DSS certification and a Money Transmitter License (MTL)",
+   "url": "https://insights.discoverglobalnetwork.com/insights/payment-facilitator-roadmap",
+   "title": "Payment Facilitator Roadmap: 8 Steps to Becoming a PayFac",
+   "publisher": "Discover Network Insights",
+   "published": "2026-08-14",
+   "label": "Vendor",
+   "fetch": "WebFetch, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-dgn-easi-signing",
+   "network": "dgn",
+   "claim": "The EASI registration form asks for a named signing authority, who can sign contracts and NDAs, alongside the primary business contact and company type.",
+   "quote": "This is the business person with the authority to sign contracts and/or NDA's for your organization.",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal Registration",
+   "publisher": "Discover Global Network",
+   "published": "undated",
+   "label": "Verified",
+   "fetch": "curl, logged out, form read only and not submitted, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-pulse-contract",
+   "network": "pulse",
+   "claim": "PULSE frames its partner services as starting once the participation contract is signed.",
+   "quote": "We don't rest easy once the contract is signed. In fact, we're just getting started.",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "title": "Partner Support Services",
+   "publisher": "PULSE Network",
+   "published": "undated",
+   "label": "Vendor",
+   "fetch": "curl and node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-aba-iin",
+   "network": "cross",
+   "claim": "The American Bankers Association is the ISO/IEC 7812 registration authority, which allows one IIN per legal entity. Networks then assign BINs to members from their own ranges.",
+   "quote": "The American Bankers Association has served as the Registration Authority for ISO/IEC 7812 since the inception of the standard",
+   "url": "https://www.aba.com/about-us/our-story/issuer-identification-numbers",
+   "title": "Issuer Identification Numbers",
+   "publisher": "American Bankers Association",
+   "published": "undated",
+   "label": "Verified",
+   "fetch": "WebFetch, 2026-09-26. The second sentence of the claim rests on the Visa and Mastercard rules (visa-006, mastercard-059)."
+  },
+  {
+   "key": "t2-s2-tbb-agreement",
+   "network": "cross",
+   "claim": "A filed sponsor contract shows the artefact an acquirer signs: a Merchant BIN and ICA Sponsorship and Services Agreement between The Bancorp Bank and Heartland.",
+   "quote": "Bancorp will provide VISA BIN sponsorship and MasterCard ICA sponsorship for Heartland for the exclusive purpose of processing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1144354/000114435413000008/hpyexhibit101tbbsponsorban.htm",
+   "title": "Merchant BIN and ICA Sponsorship and Services Agreement (Heartland Exhibit 10.1)",
+   "publisher": "Heartland Payment Systems via SEC EDGAR",
+   "published": "2013 filing of a 2009 agreement",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-ffiec-iso",
+   "network": "cross",
+   "claim": "Bank examiners define an ATM ISO as approved by a sponsor bank, contracted to an acquiring processor, and registered with EFT networks by that bank.",
+   "quote": "approved by, and under contract with, a sponsor bank to deploy and service independent ATMs",
+   "url": "https://bsaaml.ffiec.gov/manual/RisksAssociatedWithMoneyLaunderingAndTerroristFinancing/12",
+   "title": "BSA/AML Examination Manual: Independent Automated Teller Machine Owners or Operators",
+   "publisher": "FFIEC",
+   "published": "undated",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-citizens-tpa",
+   "network": "cross",
+   "claim": "A sponsor bank posting places third-party agent network registrations inside a sponsorship oversight team in Payments Risk, covering Visa, Mastercard and Discover.",
+   "quote": "Support third-party agent (TPA) , including network registrations",
+   "url": "https://www.builtinboston.com/job/third-party-risk-analyst/9404876",
+   "title": "Payment Network Compliance Analyst (Visa/Mastercard/Discover)",
+   "publisher": "Citizens via Built In Boston",
+   "published": "2026-06-24",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-citizens-tools",
+   "network": "cross",
+   "claim": "The same posting says the registration and compliance work is tracked in Excel and internal case tools.",
+   "quote": "Support reporting and tracking using Excel and internal case management tools",
+   "url": "https://www.builtinboston.com/job/third-party-risk-analyst/9404876",
+   "title": "Payment Network Compliance Analyst (Visa/Mastercard/Discover)",
+   "publisher": "Citizens via Built In Boston",
+   "published": "2026-06-24",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-block-bin",
+   "network": "cross",
+   "claim": "Block's bank advertised for a payment network programme manager to build acquiring BIN sponsorship.",
+   "quote": "help expand SFS acquiring capabilities, including acquiring Bank Identification Number (BIN) sponsorship",
+   "url": "https://www.builtinsf.com/job/payment-network-program-manager/8320788",
+   "title": "Payment Network Program Manager",
+   "publisher": "Square Financial Services via Built In SF",
+   "published": "2026-03-03",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-stripe-tpam",
+   "network": "cross",
+   "claim": "Stripe staffs a role to broker between its engineers and the networks named technical partner managers on mandates.",
+   "quote": "Facilitate communication between engineering teams and the card networks' Technical Partner Managers (TPaMs)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8081754",
+   "title": "Stripe job posting 8081754",
+   "publisher": "Stripe",
+   "published": "2026-07-27",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-prth-bin",
+   "network": "cross",
+   "claim": "Priority routes its merchants under its sponsor banks identifiers, the BINs and ICAs.",
+   "quote": "route transactions under the sponsor bank's control and identification number",
+   "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "title": "Priority Technology Holdings Form 10-K 2025",
+   "publisher": "Priority Technology Holdings via SEC EDGAR",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-prth-sponsor",
+   "network": "cross",
+   "claim": "Priority says a US acquirer needs a sponsor bank relationship in order to register with a card network.",
+   "quote": "acquirers must maintain relationships with banks willing to sponsor",
+   "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "title": "Priority Technology Holdings Form 10-K 2025",
+   "publisher": "Priority Technology Holdings via SEC EDGAR",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-iiiv-discretion",
+   "network": "cross",
+   "claim": "i3 Verticals says its sponsor bank holds substantial discretion over its business practices and contract terms.",
+   "quote": "our bank sponsor retains substantial discretion in approving certain aspects of our business practices",
+   "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+   "title": "i3 Verticals Form 10-K FY2025",
+   "publisher": "i3 Verticals via SEC EDGAR",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-esq-iso",
+   "network": "cross",
+   "claim": "Esquire Bank co-signs each ISO merchant agreement and had 28 active ISOs at end 2025.",
+   "quote": "In an ISO model, the Bank and the ISO jointly enter into the merchant agreement with each merchant",
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926027706/esq-20251231x10k.htm",
+   "title": "Esquire Financial Holdings Form 10-K 2025",
+   "publisher": "Esquire Financial Holdings via SEC EDGAR",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-atleos-sponsor",
+   "network": "cross",
+   "claim": "NCR Atleos says network rules let only banks, or processors approved and monitored by a bank, send ATM transactions.",
+   "quote": "a technical service processor that is approved and monitored by a bank",
+   "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231.htm",
+   "title": "NCR Atleos Form 10-K 2025",
+   "publisher": "NCR Atleos via SEC EDGAR",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-gpn-model",
+   "network": "cross",
+   "claim": "Under the sponsorship model, network standards stop Global Payments settling funds itself.",
+   "quote": "restrict us from performing funds settlement or accessing merchant settlement funds",
+   "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "title": "Global Payments Form 10-K 2025",
+   "publisher": "Global Payments via SEC EDGAR",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-fiserv-alliance",
+   "network": "cross",
+   "claim": "In Fiserv bank alliances the partner banks provide card association sponsorship and settlement.",
+   "quote": "generally provide card association sponsorship, clearing and settlement services",
+   "url": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "title": "Fiserv Form 10-K 2025",
+   "publisher": "Fiserv via SEC EDGAR",
+   "published": "2026-02-19",
+   "label": "Verified",
+   "fetch": "curl with a declared research user agent, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-icba-principal",
+   "network": "cross",
+   "claim": "ICBA Payments is a Visa principal member that runs sponsored card programmes for community banks.",
+   "quote": "A principal member for both credit and debit card programs",
+   "url": "https://www.icba.org/newsroom/news-and-articles/2025/07/16/icba-payments-and-visa-renew-partnership-supporting-community-bank-payments",
+   "title": "ICBA Payments and Visa Renew Partnership",
+   "publisher": "ICBA",
+   "published": "2025-07-16",
+   "label": "Vendor",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-icba-bundle",
+   "network": "cross",
+   "claim": "ICBA Payments sells community banks network sponsorship as part of a debit bundle.",
+   "quote": "community banks can leverage network sponsorship",
+   "url": "https://www.icba.org/web/payments/debit-card-solutions",
+   "title": "Debit Card Solutions",
+   "publisher": "ICBA Payments",
+   "published": "undated",
+   "label": "Vendor",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-infinicept-app",
+   "network": "cross",
+   "claim": "A payfac software vendor says ISOs usually have to use the sponsor bank merchant application.",
+   "quote": "In most cases, ISOs must use the sponsor's merchant application",
+   "url": "https://infinicept.com/payment-facilitator/learn/get-started/payment-facilitator-vs-iso-whats-the-difference/",
+   "title": "Payment Facilitator vs ISO",
+   "publisher": "Infinicept",
+   "published": "undated",
+   "label": "Vendor",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-gs-lacoste",
+   "network": "cross",
+   "claim": "A former ISO owner writing for The Green Sheet says vertical software firms do not know how to structure a sponsor bank relationship.",
+   "quote": "They do not know how to structure a sponsor bank relationship.",
+   "url": "https://www.greensheet.com/emagazine.php?article_id=8037",
+   "title": "The Green Sheet article 8037",
+   "publisher": "The Green Sheet",
+   "published": "undated",
+   "label": "Reported",
+   "fetch": "curl, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-mc-regfee",
+   "network": "mastercard",
+   "claim": "A customer that breaks the service provider registration rules faces assessments of up to USD 25,000 for each 30 days.",
+   "quote": "subject to noncompliance assessments of up to USD 25,000 for each 30-day period of noncompliance",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture 2026-09-20 (live URL returns Access Denied to curl), pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-atmsite",
+   "network": "visa",
+   "claim": "In the US a Visa ATM acquirer must do due diligence on each ATM operator, including a site visit or suitable alternative.",
+   "quote": "must conduct an adequate due diligence review of an ATM Operator, including site visit or suitable alternative",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-visa-brazil",
+   "network": "visa",
+   "claim": "In Brazil a Visa member needs a separate merchant acquiring licence even if it already holds a Principal or Associate licence.",
+   "quote": "A Member must obtain a Merchant acquiring license before performing any acquiring activities within its jurisdiction",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t2-s2-amex-bop-territory",
+   "network": "amex",
+   "claim": "An American Express acquirer may operate only in the territory and currency set out in its Participant Agreement.",
+   "quote": "An Acquirer may only operate the Merchant Acquiring Business in the Territory specified in its Participant Agreement.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Extraction splits \"Territory\" as \"T erritory\"."
+  }
+ ],
+ "stage_id": "2"
+}

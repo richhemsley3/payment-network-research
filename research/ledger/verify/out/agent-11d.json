@@ -1,0 +1,292 @@
+{
+ "results": [
+  {
+   "id": "visa-549",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch not used for captions; YouTube oEmbed confirms video live (title and Visa channel match); quote checked in saved transcript scratchpad/teardown/s4/tx/qMTJTnhfly8.txt",
+   "archive_url": "",
+   "note": "Transcript: \"send you a set of instructions and a contract with pricing and terms\"; after signing, \"the Visa production team will provide you with a set of credentials and certificates.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-550",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch not used for captions; YouTube oEmbed confirms video live (title and Visa channel match); quote checked in saved transcript scratchpad/teardown/s4/tx/jFnUqWKXMS0.txt",
+   "archive_url": "",
+   "note": "Transcript: \"you need one a private key two a client certificate and three a certificate authority root certificate\" to connect to the sandbox.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-551",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch not used for captions; YouTube oEmbed confirms video live (title and Visa channel match); quote checked in saved transcript scratchpad/teardown/s4/tx/V5FQHtLOp1o.txt",
+   "archive_url": "",
+   "note": "Transcript: \"combine your private key and your certificate into one file uh that's called key store\" via OpenSSL, then SoapUI Hello World test.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-570",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Glossary: tools \"available through Visa Access ... comprising ... Program Request Management (PRM) ... (eCIQ) ... Visa Client Support Application (VCSA)\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-571",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 7.3.1.1: acquirer choosing the Account Range table \"must install and use the table within 6 business days of receipt.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-572",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 6.2.5.9: if ATM Acquirer does not route all Plus Transactions to Visa, \"Install and use the Plus Account Range table within 3 business days\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-573",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 6.2.1.1: \"To participate in the Visa Global ATM Network, an Issuer must successfully complete certification with Visa.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-574",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "\"Display Visa ATM and Plus acceptance Marks on all ATMs within 30 days from the date the Acquirer begins accepting Visa Cards\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-577",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 5.6.3.1: acquirer deploying Tap to Phone must \"Register a Tap to Phone Solution with Visa and obtain approval before launch\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-578",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 8.9.1.1: acquirer \"must submit to Visa a Program Information Form (PIF) for approval prior to launch of any amended or new Visa Direct program.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-630",
+   "result": "qualified",
+   "qualification": "180 days is the default 'unless otherwise specified'; in the US Region, Domestic Transactions must be collected or disbursed within 45 calendar days.",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 12.6.2.2: \"Unless otherwise specified, a Member must collect fees or disburse funds within 180 calendar days\"; US domestic: 45 days.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-631",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 12.6.1.2 (US Region): Visa provides an ACH authorization agreement; it \"must be signed and returned to Visa\" before any ACH transaction.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-633",
+   "result": "qualified",
+   "qualification": "The rule puts record-keeping on the acquirer's ATM Operator and Agent, which the acquirer must ensure; records go to the acquirer or Visa on request.",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "US Region: acquirer must \"Ensure that its ATM Operator and Agent maintain records of ATM data for each ATM, and make it available ... to Visa upon request\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-634",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 6.2.5.1: \"If the ATM Acquirer does not meet all tier II requirements, Visa may remove the ATM Acquirer from the tier II level.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-636",
+   "result": "qualified",
+   "qualification": "The rule is headed US Region only (\"In the US Region\"); the claim states it without that scope.",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 12.6.2.7 (US Region): collecting fees or disbursing funds through VisaNet \"must use transaction code 10 ... or transaction code 20\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-664",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch returned the live PDF (239 pages, byte-identical to scratchpad/teardown/6a-parts/pdf/d-fis-reports.pdf); text extracted with pypdf. Plain curl got 403",
+   "archive_url": "",
+   "note": "CD-820 splits net check card transaction, chargeback and interchange/fees settlement, each \"Amount that will post to institution designated Debit Card ... Settlement Account\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-665",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch returned the live PDF (239 pages, byte-identical to scratchpad/teardown/6a-parts/pdf/d-fis-reports.pdf); text extracted with pypdf. Plain curl got 403",
+   "archive_url": "",
+   "note": "SD-056: \"Summary of transaction and interchange totals broken down by agent\"; NET FEES \"Net amount of all interchange income minus any processing fees\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-679",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Table 11-1 (categories 10/11) goes Dispute then \"Pre-Arbitration Attempt Time limit: 30 calendar days from the Dispute Processing Date\"; no Dispute Response stage.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-681",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Both tables: \"Arbitration Time limit: 10 calendar days from the Processing Date of the pre- Arbitration response\"; Acquirer files (10/11), Issuer files (12/13).",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-682",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 11.11.1: provide VROL Questionnaire information; \"A Member must not submit documentation or information to Visa that was not previously submitted to the opposing Member.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-683",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "13.9 Dispute Response: copy of the ATM Cash Disbursement with Payment Credential, \"Transaction time or sequential number\" and success indicator.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-684",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Conditions 10.x, 12.x and most 13.x show 120 calendar days; 11.1, 11.2 (and 11.3, 12.7) show \"75 calendar days from the Transaction Processing Date\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-687",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Table for 12/13: \"Pre-Arbitration Attempt Time limit: 30 calendar days from the Dispute Response Processing Date\"; Issuer may change condition after Dispute Response.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-706",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "\"If a Member does not respond through Visa Resolve Online (VROL) within the specified timeframe ... or accepts responsibility ... the Dispute cycle will be considered closed\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-710",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 10.10.1.1: must list Merchant identified by VAMP reports; terminated-merchant file must include \"All Visa Acquirer Monitoring Program reports relating to the Merchant\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-711",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "\"Visa may require an Acquirer or its Merchant to deploy remediation tools or technologies to address unusual activity as identified in the VAMP.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-713",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 10.4.7.1: \"750 Dispute count\" and \"1% ratio\"; or \"USD 500,000 fraud dollar amount\" and 1%; exits \"below the program thresholds for 3 consecutive months\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-728",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 6.2.5.3: Full Service ATM Acquirer must adjust \"within 10 calendar days\"; \"An Adjustment processed after 10 calendar days may be subject to a Dispute for late Presentment.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-729",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Rule 10.4.6.2: Visa may require an Acquirer to directly contract with a Sponsored Merchant generating \"excessive levels of exception items ... within a 12-month period\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-756",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "Glossary: \"A set of tools, available through Visa Access to Members, VisaNet Processors, and designated Agents\"; comprising PRM, eCIQ and VCSA.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-760",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF returned 200, 7,591,762 bytes, byte-identical to saved scratchpad/visa-rules-public.pdf (18 April 2026 edition); text searched in scratchpad/visa-rules-public.txt",
+   "archive_url": "",
+   "note": "\"A Member with a registered Third Party Agent must perform an annual review of the Third Party Agent to confirm ongoing compliance\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-766",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch followed 301s to www.visa.com/en-us/solutions/visa-consulting-analytics but its summary missed the steps; rendered text via tools/text.js of the original URL shows them; matches saved scratchpad/teardown/s1/pages copy",
+   "archive_url": "",
+   "note": "Rendered page: Step 1 Diagnose, Step 2 Align, Step 3 Roadmap, Step 4 Implement \"Turn process into action with VCA Implementation Services (VIS)\".",
+   "date": "2026-09-26"
+  }
+ ]
+}

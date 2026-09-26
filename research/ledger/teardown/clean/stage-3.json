@@ -1,0 +1,3402 @@
+{
+ "stage": "3. Onboard and certify",
+ "summary": [
+  {
+   "text": "Every network puts a signed contract or a reviewed request before certification, then builds the test cases from each partner's own configuration.",
+   "ids": [
+    "visa-028",
+    "mastercard-221",
+    "amex-007",
+    "dgn-172",
+    "dgn-200",
+    "mastercard-406",
+    "visa-428",
+    "unionpay-039"
+   ]
+  },
+  {
+   "text": "Visa and Mastercard hand user provisioning to administrators inside the partner. Mastercard wants one Business Administrator and two Security Administrators, named on a form sent by email.",
+   "ids": [
+    "new:t3-s3-mcc-roles",
+    "new:t3-s3-mc1145-sa",
+    "new:t3-s3-vaccess-admins"
+   ]
+  },
+  {
+   "text": "Host certification is still led by a network representative. Visa's published host path runs from a CIQ and testing questionnaire through attended VCMS testing to a letter and production flags.",
+   "ids": [
+    "new:t3-s3-vai-ciq",
+    "new:t3-s3-vai-gct",
+    "new:t3-s3-vai-attended",
+    "new:t3-s3-vai-letter",
+    "new:t3-s3-vai-flag"
+   ]
+  },
+  {
+   "text": "Each network closes certification with a different artefact. Mastercard sends a TAN letter, Visa a completion letter or a CCRT email, Discover a letter listing cases, and Amex a summary plus live terminal parameters.",
+   "ids": [
+    "mastercard-400",
+    "new:t3-s3-uspf-vletter",
+    "new:t3-s3-uspf-vnoloa",
+    "dgn-197",
+    "amex-042",
+    "new:t3-s3-uspf-aparams"
+   ]
+  },
+  {
+   "text": "All four run self-certification or accredited third-party routes for terminals. These routes are how processors and platforms certify once for many clients.",
+   "ids": [
+    "cross-234",
+    "mastercard-407",
+    "new:t3-s3-uspf-deleg",
+    "visa-429",
+    "new:t3-s3-uspf-cves",
+    "dgn-202",
+    "amex-044",
+    "new:t3-s3-uspf-platform"
+   ]
+  },
+  {
+   "text": "The clearest progress tracking in public view belongs to Amex's AMEX Enabled dashboard for vendors and UnionPay's project record. Mastercard and Visa show tracking for access orders and admin tasks.",
+   "ids": [
+    "new:t3-s3-ae-journey",
+    "unionpay-038",
+    "unionpay-041",
+    "unionpay-042",
+    "new:t3-s3-mcc-track"
+   ]
+  },
+  {
+   "text": "Published turnarounds are few and cover the network's own steps. Examples are EASI review in two business days, PULSE credentials in five, Amex Knowledge Base access in three and a Mastercard CIS project number in several days.",
+   "ids": [
+    "new:t3-s3-easi-2d",
+    "pulse-001",
+    "amex-401",
+    "new:t3-s3-mc-cis",
+    "mastercard-078"
+   ]
+  },
+  {
+   "text": "The Discover family onboards partners through separate doors: EASI, the PULSE website, a representative-gated Developer Center, the Partner Product Portal and Service Center fraud forms.",
+   "ids": [
+    "dgn-023",
+    "pulse-001",
+    "dgn-002",
+    "dgn-172",
+    "dgn-176"
+   ]
+  },
+  {
+   "text": "Friction concentrates in scheduling and review time, retest triggers when anything in the chain changes, and failed certification windows.",
+   "ids": [
+    "new:t3-s3-eps-weeks",
+    "new:t3-s3-eps-mult",
+    "new:t3-s3-neapay-window",
+    "new:t3-s3-vai-90",
+    "new:t3-s3-uspf-portfolio"
+   ]
+  },
+  {
+   "text": "Certification for US domestic debit networks, PULSE included, is almost absent from the public record. The industry's shared certification guide leaves those networks out.",
+   "ids": [
+    "new:t3-s3-uspf-nodebit",
+    "pulse-001",
+    "nyce-019"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Issuers: large banks",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "An issuer must complete certification with Visa to join the Visa Global ATM Network, and US consumer card issuers must join.",
+       "ids": [
+        "visa-087"
+       ]
+      },
+      {
+       "text": "An issuer must pass PIN verification certification testing or designate Visa to verify PINs.",
+       "ids": [
+        "new:t3-s3-visa-pin"
+       ]
+      },
+      {
+       "text": "A member using a VisaNet Processor files a regional client information questionnaire first. A non-member processor signs a VisaNet Letter of Agreement.",
+       "ids": [
+        "visa-011"
+       ]
+      },
+      {
+       "text": "Profile and programme set-up runs through self-service tools in Visa Access: Program Request Management, the electronic CIQ and the Visa Client Support Application.",
+       "ids": [
+        "visa-165"
+       ]
+      },
+      {
+       "text": "Visa Token Service onboarding material on Visa Developer is restricted to entitled users, so the issuer path is not public.",
+       "ids": [
+        "new:t3-s3-vts-restricted"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access (formerly Visa Online)",
+       "what_it_shows": "Password-protected client site claiming 150+ services. Enrolment needs an existing client or partner relationship.",
+       "ids": [
+        "visa-013",
+        "visa-164"
+       ]
+      },
+      {
+       "name": "Program Request Management, eCIQ and VCSA",
+       "what_it_shows": "Client Portfolio Management Self-Service Tools for profile, programme and agent records.",
+       "ids": [
+        "visa-165"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa Access support sends users to their organisation's local administrators before Visa will help.",
+       "ids": [
+        "new:t3-s3-vaccess-admins"
+       ]
+      },
+      {
+       "text": "Issuers without Visa Access are sent to their Visa account executive to get in.",
+       "ids": [
+        "new:t3-s3-vaccess-noaccess"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "The bank must hold a Mastercard licence and a Company ID before anyone can open a Connect account.",
+       "ids": [
+        "new:t3-s3-mcc-licensed",
+        "mastercard-059"
+       ]
+      },
+      {
+       "text": "Form 1145 or 1145b names the Security Administrators. It goes by email to a provisioning mailbox, and the administrators receive RSA software tokens by encrypted email.",
+       "ids": [
+        "new:t3-s3-mc1145-sa",
+        "new:t3-s3-mc1145-token"
+       ]
+      },
+      {
+       "text": "Staff request each application from the Connect Store and scope it to ICAs, BINs or account ranges. A Security Administrator at the bank approves each order.",
+       "ids": [
+        "new:t3-s3-mcc-store",
+        "new:t3-s3-mcc-data",
+        "new:t3-s3-mcc-review"
+       ]
+      },
+      {
+       "text": "For MDES Token Connect the issuer first sends wireframes for Mastercard to review against a design checklist.",
+       "ids": [
+        "new:t3-s3-mc-wire"
+       ]
+      },
+      {
+       "text": "The issuer's Customer Delivery Manager then opens a CIS project. CIS grants MTF access and supplies test cases, and friendly-user tests follow in production.",
+       "ids": [
+        "new:t3-s3-mc-cis",
+        "new:t3-s3-mc-cis-mtf"
+       ]
+      },
+      {
+       "text": "The MDES Issuer Implementation Guide and other manuals sit in the Technical Resource Center behind a Connect login.",
+       "ids": [
+        "new:t3-s3-mc-trc-guide",
+        "mastercard-317"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Business Administrator role",
+       "what_it_shows": "Defines application and data access rules for the company and related companies.",
+       "ids": [
+        "new:t3-s3-mcc-ba"
+       ]
+      },
+      {
+       "name": "Mastercard Connect home and My Items",
+       "what_it_shows": "Welcome bar naming the company's administrators, favourites, a Technical Resource Center link and cards for each application with a pending-items section.",
+       "ids": [
+        "new:t3-s3-mcc-roles",
+        "new:t3-s3-mcc-store"
+       ]
+      },
+      {
+       "name": "Connect Store checkout",
+       "what_it_shows": "Request button per application, then a data access step that can copy scopes from another item.",
+       "ids": [
+        "new:t3-s3-mcc-store",
+        "new:t3-s3-mcc-data"
+       ]
+      },
+      {
+       "name": "Track Status and Help Center",
+       "what_it_shows": "Order status for access requests, support requests with status, chat and a forms library.",
+       "ids": [
+        "new:t3-s3-mcc-track",
+        "new:t3-s3-mcc-help"
+       ]
+      },
+      {
+       "name": "My Company Manager",
+       "what_it_shows": "The bank's Mastercard assets and contacts, including BINs, account ranges and service provider registrations.",
+       "ids": [
+        "mastercard-063",
+        "new:t3-s3-syn-sp"
+       ]
+      },
+      {
+       "name": "Stand-In application",
+       "what_it_shows": "Issuer-set stand-in authorisation parameters and rules.",
+       "ids": [
+        "new:t3-s3-syn-standin"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Nothing can start until licensing is done, since Connect accounts require a licensed company.",
+       "ids": [
+        "new:t3-s3-mcc-licensed"
+       ]
+      },
+      {
+       "text": "SecurID tokens go only to users of higher-security applications, so token set-up varies by role.",
+       "ids": [
+        "new:t3-s3-mcc-token"
+       ]
+      },
+      {
+       "text": "Getting a CIS project number usually takes several days, and MTF access waits on it.",
+       "ids": [
+        "new:t3-s3-mc-cis",
+        "new:t3-s3-mc-cis-mtf"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Issuers perform host and payment product certification with Amex certification teams, using Amex test simulation tools and customised test plans.",
+       "ids": [
+        "amex-040"
+       ]
+      },
+      {
+       "text": "Host certification covers unattended testing, telecom connectivity validation and message and file validation.",
+       "ids": [
+        "new:t3-s3-amex-hostact"
+       ]
+      },
+      {
+       "text": "The Network Specifications needed for host certification sit behind a Knowledge Base login.",
+       "ids": [
+        "amex-041"
+       ]
+      },
+      {
+       "text": "GNS User Services processes Knowledge Base access within three business days. FraudNet, OpsNet, File Tracker and the Token Requester Management Portal are requested after that.",
+       "ids": [
+        "amex-401",
+        "amex-400"
+       ]
+      },
+      {
+       "text": "Post-signing training is delivered as webinars and online modules requested through the Amex representative.",
+       "ids": [
+        "amex-078",
+        "amex-363"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Search, bookmarks, a Participant Directory and a Service Enrollment area for enrolling in network services.",
+       "ids": [
+        "amex-362",
+        "amex-079"
+       ]
+      },
+      {
+       "name": "Request Additional Services button",
+       "what_it_shows": "Adds services such as FraudNet or AMEX Enabled to an existing Knowledge Base user.",
+       "ids": [
+        "amex-401"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Urgent operational bulletins are posted inside Knowledge Base, not on a public status page.",
+       "ids": [
+        "amex-371"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "EASI self-registration lists DN Credit Issuer and DN Debit Prepaid Issuer among its company types, and the EASI team usually reviews within two business days.",
+       "ids": [
+        "dgn-032",
+        "new:t3-s3-easi-2d"
+       ]
+      },
+      {
+       "text": "Debit issuers register on the PULSE website and receive a User ID within five business days.",
+       "ids": [
+        "pulse-001"
+       ]
+      },
+      {
+       "text": "A Participant Super User at each institution decides every other user's access to the PULSE Debit Dashboard.",
+       "ids": [
+        "new:t3-s3-pulse-super"
+       ]
+      },
+      {
+       "text": "Discover's issuer certification steps are not public. The D-PAS Certification Manual for Issuers and Acquirers is referenced but not published.",
+       "ids": [
+        "new:t3-s3-uspf-dpasman"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI Portal",
+       "what_it_shows": "Programme documents, test card requests, technical specifications and a Message Center to the operations team.",
+       "ids": [
+        "new:t3-s3-easi-uses",
+        "dgn-164"
+       ]
+      },
+      {
+       "name": "PULSE Debit Dashboard",
+       "what_it_shows": "Portfolio reporting with a BIN chooser, peer comparisons and CSV download, billed monthly after a free period.",
+       "ids": [
+        "new:t3-s3-pulse-fee",
+        "new:t3-s3-pulse-tools"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Password resets for PULSE reporting go through a phone centre or email.",
+       "ids": [
+        "new:t3-s3-pulse-reset"
+       ]
+      },
+      {
+       "text": "EASI, PULSE and the Service Center fraud products each have their own entry route.",
+       "ids": [
+        "dgn-174",
+        "dgn-176",
+        "pulse-001"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard Connect's Store lets the bank scope each application to ICAs, BINs or account ranges, copy scopes between items and track every order.",
+    "ids": [
+     "new:t3-s3-mcc-store",
+     "new:t3-s3-mcc-data",
+     "new:t3-s3-mcc-track"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover issuers enter through EASI and debit issuers through PULSE, each with its own registration and turnaround. No public source describes issuer certification.",
+    "ids": [
+     "dgn-032",
+     "new:t3-s3-easi-2d",
+     "pulse-001",
+     "new:t3-s3-uspf-dpasman"
+    ]
+   }
+  },
+  {
+   "partner_type": "Issuers: community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa's community issuer page routes credit unions and community banks to a product enrolment portal that needs a Visa Online login.",
+       "ids": [
+        "visa-169"
+       ]
+      },
+      {
+       "text": "A member using a processor must file the regional client information questionnaire before the processor is used.",
+       "ids": [
+        "visa-011"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online product enrolment portal",
+       "what_it_shows": "Enrolment in programmes such as the Merchant Offers Program for community issuers.",
+       "ids": [
+        "visa-169"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa's public pages still say Visa Online while the rules call the portal Visa Access.",
+       "ids": [
+        "visa-013",
+        "visa-169"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A banking-as-a-service platform tells sponsor banks, as principal members, to name a Business Administrator and two Security Administrators on form 1145.",
+       "ids": [
+        "new:t3-s3-syn-1145"
+       ]
+      },
+      {
+       "text": "The bank's Business Administrator registers each service provider in Connect and then provisions its applications per ICA.",
+       "ids": [
+        "new:t3-s3-syn-sp"
+       ]
+      },
+      {
+       "text": "In a sponsored programme both the programme manager and the issuer processor must be registered as the bank's service providers.",
+       "ids": [
+        "new:t3-s3-syn-marqeta"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mandatory Connect applications for a small issuer",
+       "what_it_shows": "Business and Security Administration, Data Integrity Online, Location Administration Tool, Mastercom, My Company Manager, Operational Reports and more.",
+       "ids": [
+        "new:t3-s3-syn-lat"
+       ]
+      },
+      {
+       "name": "Location Administration Tool",
+       "what_it_shows": "Where a bank reports its ATM terminals to stay compliant with Mastercard rules.",
+       "ids": [
+        "new:t3-s3-syn-lat",
+        "new:t3-s3-mc-lat"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A small bank inherits the same two-administrator model and form process as a large one.",
+       "ids": [
+        "new:t3-s3-mcc-roles",
+        "new:t3-s3-syn-1145"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE debit issuers register for the PULSE website and receive credentials within five business days.",
+       "ids": [
+        "pulse-001"
+       ]
+      },
+      {
+       "text": "Anyone may request Debit Dashboard access, and PULSE customer service obtains the institution's approval on the requester's behalf.",
+       "ids": [
+        "new:t3-s3-pulse-approve"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE client support page",
+       "what_it_shows": "Separate log-ins for Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange.",
+       "ids": [
+        "new:t3-s3-pulse-tools"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Debit Dashboard costs 50 dollars a month after three free months.",
+       "ids": [
+        "new:t3-s3-pulse-fee"
+       ]
+      },
+      {
+       "text": "PULSE describes its support as continuing after the contract, without a published certification path.",
+       "ids": [
+        "new:t3-s3-pulse-contract",
+        "new:t3-s3-uspf-nodebit"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:nyce",
+     "how_it_works": [
+      {
+       "text": "NYCE publishes onboarding only as issuer enablement through the existing EFT processor, with no certification stages.",
+       "ids": [
+        "nyce-019"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The Kansas City Fed reports that smaller institutions struggle to pay core providers to implement updates or new payment rails.",
+       "ids": [
+        "new:t3-s3-kc-small"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:co-op shared branch",
+     "how_it_works": [
+      {
+       "text": "A shared-branch network for credit unions publishes a certification step of about six to eight weeks, then testing and staff training.",
+       "ids": [
+        "new:t3-s3-usnet"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "PULSE's customer service fetches the institution's approval for a user who asks for access, so the requester does not chase the super user alone.",
+    "ids": [
+     "new:t3-s3-pulse-approve",
+     "new:t3-s3-pulse-super"
+    ]
+   },
+   "discover_today": {
+    "text": "Small debit issuers deal with PULSE through a registration form, a super-user model and a paid dashboard. No public source describes how a credit union certifies with PULSE.",
+    "ids": [
+     "pulse-001",
+     "new:t3-s3-pulse-super",
+     "new:t3-s3-pulse-fee",
+     "new:t3-s3-uspf-nodebit"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and acquirer processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa L3 testing is self-administered by the acquirer, using an EMVCo-qualified tool connected to VCMS or a Visa-confirmed host simulator.",
+       "ids": [
+        "new:t3-s3-vdps-self",
+        "new:t3-s3-vdps-vcms"
+       ]
+      },
+      {
+       "text": "L3 results go to the Chip Compliance Reporting Tool on Visa Access, except for self-accredited US and LAC acquirers.",
+       "ids": [
+        "new:t3-s3-vdps-ccrt",
+        "visa-429"
+       ]
+      },
+      {
+       "text": "Visa requires L3 testing before host testing. Mastercard, Discover and Amex require host certification before terminal testing.",
+       "ids": [
+        "new:t3-s3-uspf-vorder",
+        "new:t3-s3-uspf-mcorder",
+        "new:t3-s3-uspf-dorder",
+        "amex-043"
+       ]
+      },
+      {
+       "text": "Visa's 2016 host path starts with a CIQ and Global Testing Questionnaire, then VTS-VIP pre-testing reviewed by the Global Client Testing team.",
+       "ids": [
+        "new:t3-s3-vai-ciq",
+        "new:t3-s3-vai-gct"
+       ]
+      },
+      {
+       "text": "The Visa representative schedules attended testing through VCMS, and a letter confirms success.",
+       "ids": [
+        "new:t3-s3-vai-attended",
+        "new:t3-s3-vai-letter"
+       ]
+      },
+      {
+       "text": "Go-live is a second CIQ asking Visa to set production participation flags in the VisaNet Systems Table.",
+       "ids": [
+        "new:t3-s3-vai-flag"
+       ]
+      },
+      {
+       "text": "An acquirer registers each third party agent through Program Request Management before any service starts.",
+       "ids": [
+        "new:t3-s3-visa-tpa"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Chip Compliance Reporting Tool (Visa Access)",
+       "what_it_shows": "Receives the TSEZ report and auto-accepts a fully passed one with a confirmation email.",
+       "ids": [
+        "visa-425",
+        "new:t3-s3-vdps-ccrt"
+       ]
+      },
+      {
+       "name": "VCMS and VTS-VIP",
+       "what_it_shows": "Visa's certification host and the pre-testing simulator that acts as issuer.",
+       "ids": [
+        "new:t3-s3-vai-gct",
+        "new:t3-s3-vdps-vcms"
+       ]
+      },
+      {
+       "name": "Digital Partner Services",
+       "what_it_shows": "Public library of approved products and test tools, with portals for Approval Services, Tap to Phone and technology partners.",
+       "ids": [
+        "visa-180"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa issues no letter for L3, so the CCRT email is the only proof.",
+       "ids": [
+        "new:t3-s3-uspf-vnoloa"
+       ]
+      },
+      {
+       "text": "Visa retired its ADVT and CDET toolkits for L3, while its VMCP app still serves host certification.",
+       "ids": [
+        "new:t3-s3-vdps-legacy"
+       ]
+      },
+      {
+       "text": "In 2016 a Visa Online ID was requested by email to a regional mailbox.",
+       "ids": [
+        "new:t3-s3-vai-vol"
+       ]
+      },
+      {
+       "text": "Visa's 2016 guide requires a retest if production starts more than 90 days after testing.",
+       "ids": [
+        "new:t3-s3-vai-90"
+       ]
+      },
+      {
+       "text": "A fee analytics firm reports merchants losing CEDP rates where the acquirer had not finished CEDP certification.",
+       "ids": [
+        "new:t3-s3-op-cedp"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Host validation (NIV) starts with the account manager. The acquirer licenses MAS or MDFS simulators through Simulator Suite on Connect.",
+       "ids": [
+        "new:t3-s3-uspf-mcsim"
+       ]
+      },
+      {
+       "text": "Mastercard builds the case list for each session, and the acquirer sends simulator logs to its implementation specialist for review.",
+       "ids": [
+        "mastercard-405",
+        "new:t3-s3-uspf-mclogs"
+       ]
+      },
+      {
+       "text": "Mastercard offers attended online testing in MTF but does not recommend it.",
+       "ids": [
+        "new:t3-s3-uspf-mcmtf"
+       ]
+      },
+      {
+       "text": "NIV ends with a TAN letter that can be reused as proof in later implementations.",
+       "ids": [
+        "mastercard-400",
+        "new:t3-s3-uspf-tanreuse"
+       ]
+      },
+      {
+       "text": "Terminal testing (M-TIP) starts in the Test Selection Engine, which issues a reference number and test plan from the described configuration.",
+       "ids": [
+        "new:t3-s3-uspf-tse",
+        "mastercard-406"
+       ]
+      },
+      {
+       "text": "An accredited M-TIP service provider validates the results and issues the letter of approval on Mastercard's behalf.",
+       "ids": [
+        "new:t3-s3-uspf-mtipsp"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Simulator Suite on Mastercard Connect",
+       "what_it_shows": "Ordering and licensing of the authorisation and debit simulators.",
+       "ids": [
+        "new:t3-s3-uspf-mcsim"
+       ]
+      },
+      {
+       "name": "Test Selection Engine",
+       "what_it_shows": "Questionnaire on terminal brand, model, EMVCo approvals, kernel and application version that generates the M-TIP plan.",
+       "ids": [
+        "new:t3-s3-uspf-tse"
+       ]
+      },
+      {
+       "name": "Mastercard Test Facility",
+       "what_it_shows": "Pre-production environment reached through an implementation manager.",
+       "ids": [
+        "mastercard-015",
+        "new:t3-s3-uspf-mcmtf"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A simulator vendor says Mastercard's pre-certification simulation needs its own application and provisioning.",
+       "ids": [
+        "new:t3-s3-neapay-ist"
+       ]
+      },
+      {
+       "text": "The same vendor says a failed certification pushes the partner to a new window weeks or months later.",
+       "ids": [
+        "new:t3-s3-neapay-window"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Acquirers must certify both host and POS before submitting transactions.",
+       "ids": [
+        "amex-039"
+       ]
+      },
+      {
+       "text": "Host certification follows eight representative-led steps and ends with an Authorization and Settlement Test Plan and Certification Summary.",
+       "ids": [
+        "amex-042"
+       ]
+      },
+      {
+       "text": "POS certification starts with a request form and device details sent to the relationship manager, who supplies test cases.",
+       "ids": [
+        "new:t3-s3-amex-posform"
+       ]
+      },
+      {
+       "text": "The acquirer runs an unattended stage alone, then an attended stage with Amex, which reviews receipts and logs.",
+       "ids": [
+        "new:t3-s3-uspf-aunatt"
+       ]
+      },
+      {
+       "text": "Amex closes with a certification letter and the live terminal parameters.",
+       "ids": [
+        "new:t3-s3-uspf-aparams"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "American Express Test System (ATS)",
+       "what_it_shows": "Free host simulator that shows pass or fail against each test case.",
+       "ids": [
+        "amex-045"
+       ]
+      },
+      {
+       "name": "Payment Test Emulator",
+       "what_it_shows": "App usable for contactless-only L3 testing.",
+       "ids": [
+        "new:t3-s3-uspf-apte"
+       ]
+      },
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Gated network specifications and implementation guides needed for host certification.",
+       "ids": [
+        "amex-041",
+        "amex-410"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Amex's published certification steps all start with the relationship manager.",
+       "ids": [
+        "new:t3-s3-amex-posform",
+        "amex-377",
+        "amex-042"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover host certification has a D-PAS online authorisation test and a clearing test, run on Discover's designated simulator.",
+       "ids": [
+        "new:t3-s3-uspf-dhost"
+       ]
+      },
+      {
+       "text": "The acquirer sends a host certification request form, and Discover assigns test cases from it.",
+       "ids": [
+        "dgn-200"
+       ]
+      },
+      {
+       "text": "A separate form registers security officers to receive CA public keys, and all forms come from the implementation manager.",
+       "ids": [
+        "new:t3-s3-uspf-dca",
+        "new:t3-s3-uspf-dforms"
+       ]
+      },
+      {
+       "text": "Acquirers see simulator results immediately and need not submit logs, and Discover reviews results within agreed service levels.",
+       "ids": [
+        "dgn-198",
+        "dgn-391",
+        "dgn-199"
+       ]
+      },
+      {
+       "text": "Terminal E2E runs through an accredited service provider, which drafts the Letter of Certification for Discover's approval.",
+       "ids": [
+        "new:t3-s3-uspf-ddraft",
+        "dgn-197"
+       ]
+      },
+      {
+       "text": "Discover gives up to ten full sets of test cards free.",
+       "ids": [
+        "new:t3-s3-uspf-dcards"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI Portal",
+       "what_it_shows": "Specifications, developer test card kits, announcements and a Message Center to operations.",
+       "ids": [
+        "dgn-164",
+        "dgn-155"
+       ]
+      },
+      {
+       "name": "Designated host test simulator",
+       "what_it_shows": "Self-service host testing with immediate results.",
+       "ids": [
+        "dgn-198"
+       ]
+      },
+      {
+       "name": "Release Compliance Tool",
+       "what_it_shows": "Listed under Test and Certify on the Partner Product Portal.",
+       "ids": [
+        "dgn-024"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Forms and the qualified tool list are obtained from the implementation manager, not downloaded.",
+       "ids": [
+        "new:t3-s3-uspf-dforms"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Discover's designated simulator lets acquirers test at any time and see results immediately, while Discover reviews within agreed service levels.",
+    "ids": [
+     "dgn-198",
+     "dgn-391",
+     "dgn-199"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover matches peers on self-certification and per-acquirer cases, and gives live simulator results as Amex does with ATS. Its forms come through an implementation manager, and no turnaround is public.",
+    "ids": [
+     "dgn-202",
+     "dgn-200",
+     "dgn-198",
+     "amex-045",
+     "new:t3-s3-uspf-dforms",
+     "dgn-199"
+    ]
+   }
+  },
+  {
+   "partner_type": "Processors, gateways and platforms certifying for many clients",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa's Chip Vendor Enabled Service lets third-party vendors run L3 testing for acquirers and their processors.",
+       "ids": [
+        "new:t3-s3-uspf-cves"
+       ]
+      },
+      {
+       "text": "The self-accreditation programme lets acquirers and processors run L3 on their own, and US members skip submitting reports.",
+       "ids": [
+        "visa-429",
+        "new:t3-s3-vdps-ccrt"
+       ]
+      },
+      {
+       "text": "Each acquirer registers a merchant's third party agent separately, so a processor serving many acquirers is registered many times.",
+       "ids": [
+        "new:t3-s3-visa-tpa-peracq"
+       ]
+      },
+      {
+       "text": "From 24 October 2026, US and Canadian members must also disclose the BINs and account ranges each agent uses.",
+       "ids": [
+        "new:t3-s3-visa-tpa-bins"
+       ]
+      },
+      {
+       "text": "Visa Ready is the certification route for issuer processors, BIN sponsors, programme managers, acquirers and gateways.",
+       "ids": [
+        "visa-023"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Ready and Visa Partner",
+       "what_it_shows": "Six-step application ending in certification and a public directory listing.",
+       "ids": [
+        "visa-023",
+        "visa-160"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa Ready Tap to Phone certification typically takes six to twelve months, and lab testing can cost 50,000 dollars or more.",
+       "ids": [
+        "visa-024"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "M-TIP Fast Track lets an acquirer reuse another acquirer's approval for identical terminals.",
+       "ids": [
+        "mastercard-408"
+       ]
+      },
+      {
+       "text": "Modular M-TIP certifies terminals and host components separately, and certified combinations then deploy without further testing.",
+       "ids": [
+        "new:t3-s3-uspf-modular"
+       ]
+      },
+      {
+       "text": "Under US Delegated L3 Testing, approved acquirers validate M-TIP internally for their VARs, ISOs and gateways.",
+       "ids": [
+        "new:t3-s3-uspf-deleg"
+       ]
+      },
+      {
+       "text": "Each customer registers its service providers in My Company Manager, with materials due within 30 days and annual revalidation.",
+       "ids": [
+        "mastercard-063"
+       ]
+      },
+      {
+       "text": "A token service provider must pass Mastercard certification before a customer may register it.",
+       "ids": [
+        "mastercard-069"
+       ]
+      },
+      {
+       "text": "Issuer processors certify against each Mastercard release, named by year and quarter.",
+       "ids": [
+        "mastercard-345",
+        "mastercard-265"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "My Company Manager",
+       "what_it_shows": "Service provider registrations, BINs, account ranges and compliance contacts.",
+       "ids": [
+        "mastercard-063",
+        "mastercard-055"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Service provider registration carries an initial and annual fee whose amounts are not published in the rules.",
+       "ids": [
+        "mastercard-064"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Service providers join AMEX Enabled by registering the company under click-through NDA and terms, enrolling a Knowledge Base user and entering the dashboard.",
+       "ids": [
+        "amex-046",
+        "amex-048"
+       ]
+      },
+      {
+       "text": "Registration is free and is not approval, since each product must still pass certification.",
+       "ids": [
+        "amex-192",
+        "amex-049"
+       ]
+      },
+      {
+       "text": "Processors using a host simulator other than ATS must meet Approved Solution Provider requirements at their own cost.",
+       "ids": [
+        "amex-045"
+       ]
+      },
+      {
+       "text": "Test labs need EMVCo accreditation before they can register for AMEX Enabled accreditation.",
+       "ids": [
+        "amex-055"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "AMEX Enabled Dashboard",
+       "what_it_shows": "Step-by-step journey position, a document set per product, user invitations and status monitoring.",
+       "ids": [
+        "new:t3-s3-ae-journey",
+        "new:t3-s3-ae-docs"
+       ]
+      },
+      {
+       "name": "Contract Center",
+       "what_it_shows": "DocuSign contracts with progress tracked at company and product level.",
+       "ids": [
+        "new:t3-s3-ae-docusign"
+       ]
+      },
+      {
+       "name": "Messaging Center",
+       "what_it_shows": "Document exchange and support from Amex product specialists.",
+       "ids": [
+        "amex-373",
+        "amex-374"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The 2022 overview allows five additional users per provider on the dashboard.",
+       "ids": [
+        "amex-374"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Under AMTC an acquirer validates its own E2E results, and its service provider is accredited indirectly through that acquirer.",
+       "ids": [
+        "dgn-202",
+        "new:t3-s3-uspf-dindirect"
+       ]
+      },
+      {
+       "text": "Discover accredits acquirers for AMTC case by case.",
+       "ids": [
+        "new:t3-s3-uspf-dcase"
+       ]
+      },
+      {
+       "text": "Marqeta completes Discover mandate work for its clients without changes on their side.",
+       "ids": [
+        "dgn-270",
+        "cross-247"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Partner Directory",
+       "what_it_shows": "Products that have passed Discover type approval.",
+       "ids": [
+        "dgn-038"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The type approval process itself is not described publicly.",
+       "ids": [
+        "diners-009"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:cross-network",
+     "how_it_works": [
+      {
+       "text": "A POS solution tested once on an acquiring platform generally covers every acquirer on that platform.",
+       "ids": [
+        "new:t3-s3-uspf-platform"
+       ]
+      },
+      {
+       "text": "Twice-yearly releases need no full recertification unless a network asks. A move to a new message format is a major change that needs the networks involved.",
+       "ids": [
+        "new:t3-s3-uspf-biannual",
+        "new:t3-s3-uspf-switch"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Combinations of POS systems, devices and acquirers multiply the certifications one software version needs.",
+       "ids": [
+        "new:t3-s3-eps-mult"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard's Modular M-TIP and Fast Track turn one certification into reusable components across acquirers.",
+    "ids": [
+     "new:t3-s3-uspf-modular",
+     "mastercard-408"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's AMTC programme accredits processors indirectly and case by case, and processors report few Discover mandate changes. Its type approval steps are not public.",
+    "ids": [
+     "new:t3-s3-uspf-dindirect",
+     "new:t3-s3-uspf-dcase",
+     "cross-247",
+     "diners-009"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "The acquirer registers the payfac as a third party agent in Program Request Management before any activity.",
+       "ids": [
+        "new:t3-s3-visa-tpa"
+       ]
+      },
+      {
+       "text": "Payfacs cannot use the affiliate exemption from registration.",
+       "ids": [
+        "new:t3-s3-visa-tpa-pf"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Program Request Management",
+       "what_it_shows": "Visa Access application for third party agent and high-integrity-risk merchant registration.",
+       "ids": [
+        "new:t3-s3-visa-tpa",
+        "visa-165"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Registration is per acquirer, so a payfac with several acquirers is registered by each.",
+       "ids": [
+        "new:t3-s3-visa-tpa-peracq"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "The acquirer submits a signed registration request on Mastercard Connect, Mastercard reviews it and an email confirms the payfac may start.",
+       "ids": [
+        "mastercard-v10"
+       ]
+      },
+      {
+       "text": "Unregistered service providers expose the customer to assessments of up to 25,000 dollars per 30-day period.",
+       "ids": [
+        "mastercard-192"
+       ]
+      },
+      {
+       "text": "High-risk sponsored merchants must be registered on Connect before transactions are accepted.",
+       "ids": [
+        "mastercard-209"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect registration request",
+       "what_it_shows": "Signed request from the acquirer, with an email confirmation.",
+       "ids": [
+        "mastercard-v10"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Payfacs under 250 million dollars of Amex volume onboard through a certified OptBlue participant, which registers them.",
+       "ids": [
+        "amex-271",
+        "amex-433"
+       ]
+      },
+      {
+       "text": "Amex marks participants with a certified payfac channel on its public list.",
+       "ids": [
+        "amex-060"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "EASI self-registration lists payment facilitators and ISOs among its company types.",
+       "ids": [
+        "dgn-032"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI registration form",
+       "what_it_shows": "Contact, company, signing authority, functions performed, colleague invites and business purpose.",
+       "ids": [
+        "dgn-033",
+        "new:t3-s3-easi-sign"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A company already on EASI cannot register again, and the user must email to join the existing profile.",
+       "ids": [
+        "new:t3-s3-easi-dup"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:cross-network",
+     "how_it_works": [],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "When an ISO buys a portfolio and routes devices through a new gateway, the terminals must be retested.",
+       "ids": [
+        "new:t3-s3-uspf-portfolio"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex publicly marks which OptBlue participants have a certified payfac channel, so a payfac can see its sponsor's standing.",
+    "ids": [
+     "amex-060"
+    ]
+   },
+   "discover_today": {
+    "text": "Payfacs and ISOs can self-register on EASI. This research found no public Discover payfac registration rule or turnaround beyond that.",
+    "ids": [
+     "dgn-032",
+     "new:t3-s3-easi-2d"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "other:cross-network",
+     "how_it_works": [
+      {
+       "text": "Independent ATM operators reach networks through an ISO that a sponsor bank registers with each network.",
+       "ids": [
+        "new:t3-s3-ffiec-iso"
+       ]
+      },
+      {
+       "text": "ISOs are bound to network rules by contract and must make the operators they connect comply.",
+       "ids": [
+        "new:t3-s3-ffiec-rules"
+       ]
+      },
+      {
+       "text": "Cardtronics provides network access to third-party ATM owners that lack their own sponsorship.",
+       "ids": [
+        "new:t3-s3-ctx-affiliate"
+       ]
+      },
+      {
+       "text": "L3 testing covers ATMs, and it is the acquirer's responsibility.",
+       "ids": [
+        "new:t3-s3-uspf-l3atm"
+       ]
+      },
+      {
+       "text": "Adding cash advance or balance inquiry to an ATM needs specific network testing, including host testing.",
+       "ids": [
+        "new:t3-s3-uspf-atmsvc"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "A test-tool vendor estimates ATM end-to-end PCI certification effort at 40 to 50 percent, overlapping Windows 10 migration.",
+       "ids": [
+        "new:t3-s3-paragon"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa's L3 testing applies to ATMs as well as POS terminals.",
+       "ids": [
+        "new:t3-s3-vdps-self"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Chip Compliance Reporting Tool",
+       "what_it_shows": "Where the ATM acquirer submits L3 results.",
+       "ids": [
+        "new:t3-s3-vdps-ccrt"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "M-TIP treats an ATM card reader as the Level 1 device under test.",
+       "ids": [
+        "new:t3-s3-uspf-atmdev"
+       ]
+      },
+      {
+       "text": "Acquirers must update ATM locations in the Location Administration Tool on Connect every quarter.",
+       "ids": [
+        "new:t3-s3-mc-lat"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Location Administration Tool",
+       "what_it_shows": "Mandatory Connect application for reporting ATM terminal information.",
+       "ids": [
+        "new:t3-s3-syn-lat",
+        "new:t3-s3-mc-lat"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE offers ATM acquirers an ATM List Manager log-in and gateway access to many ATM networks in one message format.",
+       "ids": [
+        "new:t3-s3-pulse-tools",
+        "new:t3-s3-pulse-gw"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "ATM List Manager",
+       "what_it_shows": "PULSE log-in for ATM acquirers, listed on the client support page.",
+       "ids": [
+        "new:t3-s3-pulse-tools"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The industry certification guide leaves out US domestic debit networks such as PULSE.",
+       "ids": [
+        "new:t3-s3-uspf-nodebit"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "The networks jointly agree which ATM changes need no retest, such as a Level 1 hardware swap without chip impact.",
+    "ids": [
+     "new:t3-s3-uspf-atmminor"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE gives ATM acquirers a list tool and gateway access. No public source describes PULSE or Discover ATM certification.",
+    "ids": [
+     "new:t3-s3-pulse-tools",
+     "new:t3-s3-pulse-gw",
+     "new:t3-s3-uspf-nodebit"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Fintech Fast Track routes fintechs through BIN sponsors, processors and programme managers.",
+       "ids": [
+        "visa-121"
+       ]
+      },
+      {
+       "text": "Programme managers and BIN sponsors can apply to certify their own solutions through Visa Ready.",
+       "ids": [
+        "visa-023"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Product Express is a digital onboarding platform with pre-certified partners.",
+       "ids": [
+        "mastercard-274",
+        "mastercard-086"
+       ]
+      },
+      {
+       "text": "In a sponsored programme the bank registers the programme manager and the processor as service providers in Connect.",
+       "ids": [
+        "new:t3-s3-syn-sp",
+        "new:t3-s3-syn-marqeta"
+       ]
+      },
+      {
+       "text": "For Mastercard Send, fintechs must be registered by a licensed originating institution.",
+       "ids": [
+        "mastercard-080"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Engage portal",
+       "what_it_shows": "Online application, product qualification, franchise screening, IDs and a programme agreement.",
+       "ids": [
+        "mastercard-085"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Through the i2c agreement, fintechs reach Amex through pre-certified processors and bank BIN sponsors.",
+       "ids": [
+        "amex-072"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Marqeta carries Discover mandates for its clients, while Stripe Issuing offers only Visa and Mastercard.",
+       "ids": [
+        "dgn-270",
+        "dgn-265"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Processors absorb most mandate work, and a processor says networks send mandates through technical newsletters four times a year.",
+       "ids": [
+        "cross-247",
+        "mastercard-340"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard Product Express offers a shelf of pre-certified partners, so a fintech inherits certification it would otherwise run.",
+    "ids": [
+     "mastercard-274",
+     "mastercard-086"
+    ]
+   },
+   "discover_today": {
+    "text": "Fintechs reach Discover through processors such as Marqeta. Stripe Issuing does not offer Discover.",
+    "ids": [
+     "dgn-270",
+     "dgn-265"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers and API partners",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Going live runs through an in-project Onboarding Dashboard, and certification credentials need a signed contract.",
+       "ids": [
+        "visa-150",
+        "visa-201"
+       ]
+      },
+      {
+       "text": "Viewing certification or production credentials needs an emailed one-time password.",
+       "ids": [
+        "visa-202"
+       ]
+      },
+      {
+       "text": "Visa's testing team may attend to administer certification.",
+       "ids": [
+        "visa-222"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Onboarding Dashboard",
+       "what_it_shows": "Business entity, contacts, project details, environment request, API registration, users and CSR upload.",
+       "ids": [
+        "visa-150"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa says onboarding can take two weeks or several months.",
+       "ids": [
+        "visa-151"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Company verification links a Connect profile or a Company ID, and a Business Relationship Type gates production APIs.",
+       "ids": [
+        "mastercard-075",
+        "mastercard-077"
+       ]
+      },
+      {
+       "text": "MTF access is requested by emailing the implementation manager, who writes the test plan.",
+       "ids": [
+        "mastercard-015"
+       ]
+      },
+      {
+       "text": "Mastercom publishes service levels for licence loading and key promotion and names an escalation route.",
+       "ids": [
+        "mastercard-078",
+        "mastercard-418"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Form 1145b for Digital Activity Customers",
+       "what_it_shows": "Wallets and token requestors send the Connect access form to a regional franchise contact.",
+       "ids": [
+        "new:t3-s3-mc1145-dac",
+        "mastercard-053"
+       ]
+      },
+      {
+       "name": "Access Manager in Mastercard Connect",
+       "what_it_shows": "BIN or ARID entitlements that must exist before a production client ID is mapped.",
+       "ids": [
+        "mastercard-321"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Projects move through To-Do items and Requested and Approved states for each environment.",
+       "ids": [
+        "amex-007",
+        "amex-069"
+       ]
+      },
+      {
+       "text": "Amex signs a CSR within five business days and deploys certificates within 72 hours.",
+       "ids": [
+        "amex-385"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Amex developer project",
+       "what_it_shows": "To-Do items for certificate upload, OAuth details and questionnaire, with review states.",
+       "ids": [
+        "amex-007"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Each environment's access is granted by manual review, with status by email.",
+       "ids": [
+        "amex-386"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Developer Center access starts with a Contact Us form and a Discover representative.",
+       "ids": [
+        "dgn-002"
+       ]
+      },
+      {
+       "text": "Discover's implementation table gives client and Discover roles from certification boarding to launch.",
+       "ids": [
+        "new:t3-s3-dgn-phases",
+        "dgn-310"
+       ]
+      },
+      {
+       "text": "Test cases arrive during certification boarding.",
+       "ids": [
+        "dgn-021"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Developer Center organisation",
+       "what_it_shows": "Apps with Sandbox, Certification or Prod API plans.",
+       "ids": [
+        "dgn-013"
+       ]
+      }
+     ],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard's Mastercom checklist states service levels for its own steps and names where to escalate when they slip.",
+    "ids": [
+     "mastercard-078",
+     "mastercard-418"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover publishes phases and roles for API work but gates Developer Center access on a representative.",
+    "ids": [
+     "new:t3-s3-dgn-phases",
+     "dgn-002"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants connecting directly",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa makes full chip host support optional for direct-connect merchants.",
+       "ids": [
+        "new:t3-s3-uspf-vdcm"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Merchants connecting directly to Amex must certify, and an uncertified chip POS moves liability to the merchant.",
+       "ids": [
+        "new:t3-s3-uspf-adcm",
+        "amex-066"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "American Express Test System",
+       "what_it_shows": "Free host simulator open to merchants and processors.",
+       "ids": [
+        "amex-045"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Direct-connect merchants follow the same Discover E2E service provider model as acquirers.",
+       "ids": [
+        "new:t3-s3-uspf-ddcm"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "other:cross-network",
+     "how_it_works": [],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Calendar time in L3 comes from scheduling and reviews by acquirers and networks, and combinations multiply certifications.",
+       "ids": [
+        "new:t3-s3-eps-weeks",
+        "new:t3-s3-eps-mult"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex gives merchants its host simulator free.",
+    "ids": [
+     "amex-045"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover treats direct-connect merchants like acquirers for E2E certification.",
+    "ids": [
+     "new:t3-s3-uspf-ddcm"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "One certification record with an owner on every step",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Keep one project record per partner that both the partner and network staff read. Each step shows its owner, state and sign-off. Show a service level only where the network commits to one.",
+   "why_advantage": "AMEX Enabled and UnionPay show certification progress. In public sources Visa and Mastercard track only access orders and admin tasks, so a shared record would lead them.",
+   "ids": [
+    "new:t3-s3-ae-journey",
+    "unionpay-038",
+    "unionpay-040",
+    "unionpay-042",
+    "new:t3-s3-mcc-track",
+    "dgn-172"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Live simulator results with a committed review",
+   "partner_types": [
+    "Acquirers and acquirer processors",
+    "Processors, gateways and platforms certifying for many clients",
+    "Merchants connecting directly"
+   ],
+   "move": "Build on Discover's designated simulator. Let partners self-test any time, see each case pass or fail, and hand the batch to Discover review under a stated service level.",
+   "why_advantage": "Discover and Amex already give live results, and a vendor reports that failed certification windows cost weeks or months elsewhere.",
+   "ids": [
+    "dgn-198",
+    "dgn-391",
+    "dgn-199",
+    "amex-045",
+    "new:t3-s3-vdps-self",
+    "new:t3-s3-neapay-window"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "A wallet of certification letters",
+   "partner_types": [
+    "Acquirers and acquirer processors",
+    "Processors, gateways and platforms certifying for many clients",
+    "Payment facilitators and ISOs"
+   ],
+   "move": "Store every letter, its tested configuration and its expiry in the record. Let a partner share proof with a client or reuse it on a new implementation.",
+   "why_advantage": "Letters differ by network, Visa gives none for L3, and Mastercard's TAN is reusable. One portable record would save repeat proof.",
+   "ids": [
+    "new:t3-s3-uspf-tanreuse",
+    "new:t3-s3-uspf-vnoloa",
+    "dgn-197",
+    "new:t3-s3-uspf-aparams",
+    "new:t3-s3-vdps-loa",
+    "new:t3-s3-uspf-platform"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "A retest check before any change",
+   "partner_types": [
+    "Acquirers and acquirer processors",
+    "ATM operators",
+    "Processors, gateways and platforms certifying for many clients",
+    "Payment facilitators and ISOs"
+   ],
+   "move": "Turn the networks' agreed retest rules into a check. The partner describes a change and sees whether it is minor, needs internal regression or needs network testing.",
+   "why_advantage": "The rules are published as a forum FAQ with no interactive check. Retest triggers and multiplied certifications are named friction points.",
+   "ids": [
+    "new:t3-s3-uspf-atmminor",
+    "new:t3-s3-uspf-portfolio",
+    "new:t3-s3-uspf-switch",
+    "new:t3-s3-uspf-biannual",
+    "new:t3-s3-eps-mult",
+    "new:t3-s3-vai-90"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Certify once, inherit across clients",
+   "partner_types": [
+    "Processors, gateways and platforms certifying for many clients",
+    "Fintechs and programme managers"
+   ],
+   "move": "Show which clients inherit a processor's certification and which need their own tests. Let a client accept a processor registration without re-entering it.",
+   "why_advantage": "Visa registers an agent separately per acquirer, while Mastercard's Modular M-TIP and Product Express show reuse works.",
+   "ids": [
+    "new:t3-s3-visa-tpa-peracq",
+    "new:t3-s3-uspf-modular",
+    "mastercard-408",
+    "new:t3-s3-uspf-dindirect",
+    "mastercard-274",
+    "dgn-270"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Administrator set-up inside the product",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Let the signatory name administrators in the product with no emailed form. Offer a preset of tools by partner type, and let the partner admin provision its processor with consent.",
+   "why_advantage": "Mastercard uses an emailed form and Visa a hand-passed password. A BaaS platform publishes its own list of the Connect apps a bank needs.",
+   "ids": [
+    "new:t3-s3-mc1145-sa",
+    "new:t3-s3-syn-lat",
+    "new:t3-s3-syn-sp",
+    "new:t3-s3-pulse-super",
+    "new:t3-s3-pulse-approve"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "One door for the Discover family",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Put EASI, PULSE, the Developer Center and fraud product enrolment behind one registration and one record.",
+   "why_advantage": "This brings parity with Visa and Mastercard, which link partner identities. The earlier study infers that sign-in alone is unlikely to win partners.",
+   "ids": [
+    "dgn-023",
+    "pulse-001",
+    "dgn-002",
+    "dgn-176",
+    "visa-031",
+    "mastercard-075",
+    "mastercard-q17",
+    "visa-q11"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "The ATM chain in one view",
+   "partner_types": [
+    "ATM operators"
+   ],
+   "move": "Show the sponsor bank, ISO, processor and each network registration for an operator's fleet, with location upkeep in the same record.",
+   "why_advantage": "Operators reach networks through sponsors and ISOs, and Mastercard requires quarterly location updates in a separate tool.",
+   "ids": [
+    "new:t3-s3-ffiec-iso",
+    "new:t3-s3-ffiec-rules",
+    "new:t3-s3-mc-lat",
+    "new:t3-s3-pulse-tools",
+    "new:t3-s3-ctx-affiliate"
+   ],
+   "evidence_strength": "thin"
+  },
+  {
+   "title": "Publish the network's own service levels",
+   "partner_types": [
+    "all"
+   ],
+   "move": "State turnarounds for steps Discover controls, such as access review and result review, with an escalation route. Keep partner-paced durations out.",
+   "why_advantage": "Mastercard and Amex already publish such commitments, and Visa says timing is the first question clients ask.",
+   "ids": [
+    "mastercard-078",
+    "mastercard-418",
+    "amex-385",
+    "amex-401",
+    "new:t3-s3-easi-2d",
+    "visa-427"
+   ],
+   "evidence_strength": "strong"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Visa Access screens for CCRT, Program Request Management and the eCIQ",
+   "why": "Behind login, and no republished user guide was found",
+   "how_to_see_it": "Search bank and processor sites for republished Visa guides like the RBC copy of the VEM guide, and Visa Access help videos"
+  },
+  {
+   "what": "Current Visa host certification with VCMS and the Global Client Testing team",
+   "why": "The only public step list is Visa's 2016 acquirer guide",
+   "how_to_see_it": "Processor implementation guides, Visa job postings for testing roles, and the current Visa L3 guidelines in the DPS library"
+  },
+  {
+   "what": "Mastercard Technical Resource Center manuals such as the NIV guide, CITR and Service Provider Registration Guide",
+   "why": "Gated behind Mastercard Connect",
+   "how_to_see_it": "Wayback captures and copies republished by banks and processors"
+  },
+  {
+   "what": "Whether Mastercard CIS shows partners a project status",
+   "why": "Public pages name the CIS project number but no tracking screen",
+   "how_to_see_it": "CIS job postings, customer webinars and partner interviews"
+  },
+  {
+   "what": "Amex merchant specifications and certification portal",
+   "why": "The page is script-rendered and blocks the text tool",
+   "how_to_see_it": "Read it in a normal browser session without signing in"
+  },
+  {
+   "what": "Inside EASI, including the Message Center and test card request forms",
+   "why": "Registration and approval are needed",
+   "how_to_see_it": "Ask an entitled partner for a walkthrough"
+  },
+  {
+   "what": "PULSE certification steps for issuers, processors and ATM acquirers",
+   "why": "No public source describes them, and the industry guide excludes domestic debit",
+   "how_to_see_it": "PULSE operating rules via processors, PULSE implementation job postings and client interviews"
+  },
+  {
+   "what": "The D-PAS Certification Manual and Discover's type approval process",
+   "why": "Available only through an implementation manager",
+   "how_to_see_it": "Test lab service sheets that describe Discover certification"
+  },
+  {
+   "what": "Issuer token onboarding at Visa and Mastercard",
+   "why": "VTS documentation is restricted and the MDES guide sits in the TRC",
+   "how_to_see_it": "Issuer processor developer docs and network webinars"
+  },
+  {
+   "what": "Actual elapsed time partners experience from contract to live",
+   "why": "Only network-stated ranges and vendor estimates are public",
+   "how_to_see_it": "Partner interviews and forum threads from processors"
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t3-s3-mcc-licensed",
+   "network": "mastercard",
+   "claim": "A company must hold a Mastercard licence and a Company ID before any of its staff can open a Mastercard Connect account.",
+   "quote": "All companies must be licensed to do business with Mastercard in order to create Connect user accounts.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-roles",
+   "network": "mastercard",
+   "claim": "Connect has three roles: User, Business Administrator (at least one per company) and Security Administrator (at least two, for issuers, acquirers and RPPS customers).",
+   "quote": "Each company must have a minimum of 2 Security Administrators.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-ba",
+   "network": "mastercard",
+   "claim": "The Business Administrator defines which applications and data each user at the company and its related companies may use.",
+   "quote": "Responsible for defining application and data access rules for their company and any related companies.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-review",
+   "network": "mastercard",
+   "claim": "A self sign-up produces an order number and waits for the applicant company's own Security Administrator, confirmed in two emails.",
+   "quote": "Your request is currently being reviewed by your Security Administrator.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-store",
+   "network": "mastercard",
+   "claim": "Applications are requested item by item from the Connect Store, which shows Request on anything the user lacks.",
+   "quote": "Items you already have access to will have a (•••) menu to interact with and items you don’t have access to will simply show ‘Request’",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-data",
+   "network": "mastercard",
+   "claim": "Each Store request asks the user to scope data access, which can be copied from another application to save time.",
+   "quote": "You can either select the data manually, or you can save time by copying selections you made for another item.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-track",
+   "network": "mastercard",
+   "claim": "The Connect user menu includes Track Status for pending access orders, alongside profile, password and account deletion.",
+   "quote": "Track the current status of your orders here or on your Item cards",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-token",
+   "network": "mastercard",
+   "claim": "Connect issues RSA SecurID tokens only to users whose applications need higher security.",
+   "quote": "SecurID tokens are only issued to users who have access to applications or reports that require higher levels of security.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mcc-help",
+   "network": "mastercard",
+   "claim": "The Connect Help Center holds training material, forms, chat and support requests with status tracking.",
+   "quote": "Start a support request or check the status of an existing request",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard (hosted on Mastercard Developers)",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc1145-sa",
+   "network": "mastercard",
+   "claim": "Form 1145b names two Security Administrators and is emailed to a Mastercard provisioning mailbox, not submitted in a portal.",
+   "quote": "Submit completed form to online_provisioning@mastercard.com",
+   "url": "https://finweb-frontend-us-cf.openbanking.mastercard.com/wp-content/uploads-new/2024/09/12150732/MC-Connect-Registration-Form.pdf",
+   "title": "Mastercard Connect Access 1145b (revised April 2019)",
+   "publisher": "Mastercard (hosted on Mastercard Open Banking site)",
+   "published": "2019-04",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc1145-token",
+   "network": "mastercard",
+   "claim": "Security Administrators receive RSA software tokens by encrypted email before they can sign in.",
+   "quote": "Security Administrators will receive software tokens (via an encrypted email from Mastercard)",
+   "url": "https://finweb-frontend-us-cf.openbanking.mastercard.com/wp-content/uploads-new/2024/09/12150732/MC-Connect-Registration-Form.pdf",
+   "title": "Mastercard Connect Access 1145b (revised April 2019)",
+   "publisher": "Mastercard (hosted on Mastercard Open Banking site)",
+   "published": "2019-04",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc1145-dac",
+   "network": "mastercard",
+   "claim": "Digital Activity Customers send the same access form to a regional franchise contact instead.",
+   "quote": "Digital Activity Customers should submit completed form to Regional Franchise contact",
+   "url": "https://finweb-frontend-us-cf.openbanking.mastercard.com/wp-content/uploads-new/2024/09/12150732/MC-Connect-Registration-Form.pdf",
+   "title": "Mastercard Connect Access 1145b (revised April 2019)",
+   "publisher": "Mastercard (hosted on Mastercard Open Banking site)",
+   "published": "2019-04",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-syn-1145",
+   "network": "mastercard",
+   "claim": "A banking-as-a-service platform tells its sponsor banks to name one Business Administrator and two Security Administrators on form 1145 from the Connect Form Library.",
+   "quote": "you must assign one Business Administrator (BA) and two Security Administrators (SAs) through form 1145",
+   "url": "https://docs.synctera.com/docs/register-for-mastercard-connect",
+   "title": "Register for Mastercard Connect",
+   "publisher": "Synctera documentation",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-syn-sp",
+   "network": "mastercard",
+   "claim": "The bank's Business Administrator registers each service provider in Connect and then provisions applications per ICA.",
+   "quote": "BA registers Service Providers by completing the Mastercard Service Provider Registration in MC Connect.",
+   "url": "https://docs.synctera.com/docs/register-for-mastercard-connect",
+   "title": "Register for Mastercard Connect",
+   "publisher": "Synctera documentation",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-syn-marqeta",
+   "network": "mastercard",
+   "claim": "In a sponsor-bank programme both the programme manager and the issuer processor must be registered as the bank's service providers.",
+   "quote": "As the issuer processor, Marqeta also needs to be registered as a Service Provider.",
+   "url": "https://docs.synctera.com/docs/register-for-mastercard-connect",
+   "title": "Register for Mastercard Connect",
+   "publisher": "Synctera documentation",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-syn-lat",
+   "network": "mastercard",
+   "claim": "The Location Administration Tool is listed as a mandatory Connect application for reporting a bank's ATM terminals.",
+   "quote": "For reporting the bank’s ATM terminal information to maintain compliance with Mastercard rules.",
+   "url": "https://docs.synctera.com/docs/register-for-mastercard-connect",
+   "title": "Register for Mastercard Connect",
+   "publisher": "Synctera documentation",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-syn-standin",
+   "network": "mastercard",
+   "claim": "Stand-In parameters are set by the issuer in a Connect application of their own.",
+   "quote": "Control stand-in authorization parameters/rules based on your authorization risk strategies.",
+   "url": "https://docs.synctera.com/docs/register-for-mastercard-connect",
+   "title": "Register for Mastercard Connect",
+   "publisher": "Synctera documentation",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc-cis",
+   "network": "mastercard",
+   "claim": "Token Connect issuers ask their Customer Delivery Manager to open a Customer Integration Services project, which takes several days to number.",
+   "quote": "Note that it usually takes several days to obtain a CIS project number.",
+   "url": "https://developer.mastercard.com/mdes-token-connect/documentation/getting-started/index.md",
+   "title": "MDES Token Connect: Implementation Considerations",
+   "publisher": "Mastercard Developers",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl markdown twin, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc-cis-mtf",
+   "network": "mastercard",
+   "claim": "The CIS team grants MTF access and supplies the applicable test cases for the implementation.",
+   "quote": "The Customer Implementation Services (CIS) team will grant you access to the MTF (Sandbox) environment",
+   "url": "https://developer.mastercard.com/mdes-token-connect/documentation/getting-started/index.md",
+   "title": "MDES Token Connect: Implementation Considerations",
+   "publisher": "Mastercard Developers",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl markdown twin, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc-wire",
+   "network": "mastercard",
+   "claim": "Before a Token Connect project opens, the issuer submits wireframes that Mastercard reviews against a design checklist.",
+   "quote": "Mastercard will review your wireframes against the",
+   "url": "https://developer.mastercard.com/mdes-token-connect/documentation/getting-started/index.md",
+   "title": "MDES Token Connect: Implementation Considerations",
+   "publisher": "Mastercard Developers",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl markdown twin, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc-trc-guide",
+   "network": "mastercard",
+   "claim": "The MDES Issuer Implementation Guide sits in the Technical Resource Center behind a Mastercard Connect login.",
+   "quote": "login to Mastercard Connect is required",
+   "url": "https://developer.mastercard.com/mdes-token-connect/documentation/getting-started/index.md",
+   "title": "MDES Token Connect: Implementation Considerations",
+   "publisher": "Mastercard Developers",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl markdown twin, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vaccess-admins",
+   "network": "visa",
+   "claim": "Visa Access support sends users to their own organisation's delegated administrators before Visa helps.",
+   "quote": "Users with local administrators within your organization should contact them first.",
+   "url": "https://www.visaonline.com/support/help",
+   "title": "Visa Access Support",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vaccess-noaccess",
+   "network": "visa",
+   "claim": "Issuers and acquirers without Visa Access are routed to their Visa account executive.",
+   "quote": "Issuers and Acquirers who don’t have access to Visa Access should contact their Visa Account Executive/Manager",
+   "url": "https://www.visaonline.com/support/help",
+   "title": "Visa Access Support",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-visa-tpa",
+   "network": "visa",
+   "claim": "A Visa member must register each third party agent through the Program Request Management application before any service starts.",
+   "quote": "Registration must be completed before the performance of any contracted services or Transaction activity.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, 1.9.8.6",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-visa-tpa-bins",
+   "network": "visa",
+   "claim": "From 24 October 2026 US and Canadian members must also disclose the BINs and account ranges each third party agent uses.",
+   "quote": "Members must disclose to Visa the Numeric IDs associated with its Third Party Agent.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, 1.9.8.6",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-visa-tpa-peracq",
+   "network": "visa",
+   "claim": "Merchant third party agent registration is separate for every acquirer that uses the agent.",
+   "quote": "Registration of a Third Party Agent is specific to each Acquirer, and requires a separate registration by each Acquirer",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, 1.9.8.7",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-visa-pin",
+   "network": "visa",
+   "claim": "Issuers must pass certification testing for PIN verification or designate Visa to do it.",
+   "quote": "Successfully complete certification testing to demonstrate its capability to perform PIN Verification, or designate Visa to perform this function",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-ciq",
+   "network": "visa",
+   "claim": "Visa's host testing starts with a Client Information Questionnaire and a Global Testing Questionnaire obtained from a Visa representative.",
+   "quote": "Submit the Client Information Questionnaire (CIQ) and Global Testing Questionnaire to Visa.",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-gct",
+   "network": "visa",
+   "claim": "Acquirers pre-test against VTS-VIP and send logs to the Global Client Testing team, which confirms a test date.",
+   "quote": "After testing internally with VTS-VIP, acquirers send the results to Global Client Testing team (GCT).",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-attended",
+   "network": "visa",
+   "claim": "Visa host tests run through VCMS with test cards, and the Visa representative schedules attended testing.",
+   "quote": "Your Visa representative will provide support through this process and will schedule attended testing.",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-letter",
+   "network": "visa",
+   "claim": "Visa sends a letter as evidence once all host test cases pass.",
+   "quote": "Upon successful completion of all test cases, Visa will send a letter as evidence that testing has been completed.",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-90",
+   "network": "visa",
+   "claim": "Testing expires if go-live slips more than 90 days after completion.",
+   "quote": "if the completion of testing is more than 90 days from the production date, Visa requires acquirers retest.",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-flag",
+   "network": "visa",
+   "claim": "Go-live is a second CIQ that asks Visa to set production participation flags in the VisaNet Systems Table.",
+   "quote": "Submit the Client Information Questionnaire (CIQ) for BINs and PCR to request the activation of production participation flag",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vai-vol",
+   "network": "visa",
+   "claim": "In 2016 a Visa Online ID was requested by email, and specification access needed a second emailed entitlement request.",
+   "quote": "To request a VOL ID, clients must send an email to volamericas@visa.com.",
+   "url": "https://www.visa.com.pe/dam/VCOM/regional/na/us/partner-with-us/documents/visa-smart-debit-credit-vsdc-visa-paywave-vpw-us-acquirer-implementation-guide.pdf",
+   "title": "Visa Smart Debit/Credit and Visa payWave U.S. Acquirer Implementation Guide, Version 2.2",
+   "publisher": "Visa",
+   "published": "2016-11",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vdps-self",
+   "network": "visa",
+   "claim": "Visa L3 testing is self-administered by the acquirer with no Visa session.",
+   "quote": "Testing is self-administered (it does not require a testing session with Visa) and is the responsibility of the acquirer",
+   "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpL3Testing",
+   "title": "Level 3 (L3) Testing",
+   "publisher": "Visa Digital Partner Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vdps-ccrt",
+   "network": "visa",
+   "claim": "L3 results go to the Chip Compliance Reporting Tool on Visa Access unless the acquirer is self-accredited in the US or LAC.",
+   "quote": "Test results must be submitted to Visa using the Chip Compliance Reporting Tool (CCRT) which is available on Visa Access",
+   "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpL3Testing",
+   "title": "Level 3 (L3) Testing",
+   "publisher": "Visa Digital Partner Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vdps-vcms",
+   "network": "visa",
+   "claim": "The L3 test tool must connect to VCMS or a Visa-confirmed host simulator.",
+   "quote": "either connected to the VisaNet Certification Management Service (VCMS) or a Visa-confirmed host simulator",
+   "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpL3Testing",
+   "title": "Level 3 (L3) Testing",
+   "publisher": "Visa Digital Partner Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vdps-legacy",
+   "network": "visa",
+   "claim": "Visa retired its own ADVT and CDET toolkits for L3, while its VMCP app remains for host certification.",
+   "quote": "can no longer be used for L3 testing (although VMCP continues to be used for host certification)",
+   "url": "https://digitalpartnerservices.visaonline.com/Portal/VtpPublic/VtpL3Testing",
+   "title": "Level 3 (L3) Testing",
+   "publisher": "Visa Digital Partner Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vdps-loa",
+   "network": "visa",
+   "claim": "Visa Approval Services issues product Letters of Approval that cannot pass between products or vendors.",
+   "quote": "Approval Letters are not transferable from one product to another, or from one vendor to another.",
+   "url": "https://digitalpartnerservices.visaonline.com/ProductTesting/Testing",
+   "title": "Chip Card Testing",
+   "publisher": "Visa Digital Partner Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-mcsim",
+   "network": "mastercard",
+   "claim": "Mastercard acquirers license and order the MAS or MDFS simulators through Mastercard Connect.",
+   "quote": "The Mastercard simulators can be ordered (or upgraded) on Mastercard Connect under Simulator Suite.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-mcmtf",
+   "network": "mastercard",
+   "claim": "Mastercard offers attended online testing in MTF for acquirer host validation but does not recommend it.",
+   "quote": "Online attended testing via the Mastercard Test Facility (MTF) is available as an option as well for acquirers, but not recommended.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-mclogs",
+   "network": "mastercard",
+   "claim": "For NIV the acquirer sends simulator logs to its implementation specialist, and Mastercard may ask for reruns.",
+   "quote": "After tests are performed, acquirer submits test logs from the simulator(s) to the implementation specialist.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-tse",
+   "network": "mastercard",
+   "claim": "M-TIP starts in Mastercard's Test Selection Engine, where the acquirer and VAR describe the terminal and get a reference number and test plan.",
+   "quote": "The acquirer and the VAR use TSE to describe their terminal configuration and generate a unique M-TIP reference number and a test plan.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-mtipsp",
+   "network": "mastercard",
+   "claim": "Accredited M-TIP service providers validate results and issue the letter of approval on Mastercard's behalf.",
+   "quote": "Once the testing process is complete, the provider issues a letter of approval on behalf of Mastercard.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-modular",
+   "network": "mastercard",
+   "claim": "Modular M-TIP certifies terminals and host components separately so certified combinations deploy without retesting.",
+   "quote": "suitable combinations of independently M-TIP-certified components can be deployed without further testing.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-deleg",
+   "network": "mastercard",
+   "claim": "Under US Delegated L3 Testing, approved acquirers validate M-TIP internally for their VARs, ISOs and gateways.",
+   "quote": "Approved acquirers may perform M-TIP validations internally without using a 3rd party service provider.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-vletter",
+   "network": "visa",
+   "claim": "Visa host testing ends with a testing completion letter.",
+   "quote": "A testing completion letter is provided when host testing is completed successfully.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-vorder",
+   "network": "visa",
+   "claim": "Visa requires L3 terminal testing before host testing, the reverse of Mastercard and Discover.",
+   "quote": "Level 3 (L3) terminal testing is required before host testing can begin.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-vnoloa",
+   "network": "visa",
+   "claim": "Visa gives no letter for L3 testing, so the CCRT confirmation email is the only evidence.",
+   "quote": "Visa does not provide a Letter of Approval (LOA) for L3 testing.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-cves",
+   "network": "visa",
+   "claim": "Visa's Chip Vendor Enabled Service lets third-party vendors run L3 testing for acquirers and processors.",
+   "quote": "allows third-party vendors to perform L3 testing on behalf of acquirers and their processors",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dforms",
+   "network": "dgn",
+   "claim": "Discover host certification forms, including the request form that sets the test cases, come from the Discover implementation manager.",
+   "quote": "All forms can be obtained by contacting your Discover implementation manager.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dca",
+   "network": "dgn",
+   "claim": "A separate form registers security officers to receive Discover CA public keys.",
+   "quote": "This form is used to register security officers and obtain CA public keys.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dcards",
+   "network": "dgn",
+   "claim": "Discover gives acquirers and merchants up to ten full sets of test cards free.",
+   "quote": "Acquirers and merchants can request up to 10 full sets of test cards from Discover at no charge.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-ddraft",
+   "network": "dgn",
+   "claim": "For terminal E2E, the accredited service provider drafts the Letter of Certification and Discover gives final approval.",
+   "quote": "the E2E service provider sends a draft Letter of Certification to Discover for final review and approval.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dhost",
+   "network": "dgn",
+   "claim": "Discover host certification covers an online authorisation test and a clearing test on its designated simulator.",
+   "quote": "Discover acquirer host certification includes the D-PAS Acquirer Network Online Test and the D-PAS Acquirer Clearing Test.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-aparams",
+   "network": "amex",
+   "claim": "Amex closes POS certification with a letter and the live terminal parameters.",
+   "quote": "American Express issues certification letter & provides Live Terminal parameters.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-aunatt",
+   "network": "amex",
+   "claim": "Amex POS certification has an unattended self-run stage followed by attended testing with Amex.",
+   "quote": "executes test plan successfully (unattended testing – American Express is not involved).",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-apte",
+   "network": "amex",
+   "claim": "Contactless-only L3 testing can use Amex's Payment Test Emulator app.",
+   "quote": "If only performing contactless L3 certification testing, the American Express Payment Test Emulator (PTE) can be used.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-platform",
+   "network": "cross",
+   "claim": "A POS solution tested once on an acquiring platform generally covers every acquirer and merchant on that platform.",
+   "quote": "POS solutions tested for a given acquiring platform are generally acceptable for deployment by all acquirers on that platform.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-portfolio",
+   "network": "cross",
+   "claim": "When an ISO buys a portfolio and reroutes devices through a new gateway, the terminals must be retested.",
+   "quote": "If routing of the transaction is affected with a different gateway, then required testing must be performed.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-l3atm",
+   "network": "cross",
+   "claim": "L3 terminal testing covers ATMs as well as POS, and it is the acquirer's responsibility.",
+   "quote": "L3 testing is the responsibility of the acquirer.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-atmsvc",
+   "network": "cross",
+   "claim": "Adding cash advance or balance inquiry to an ATM needs specific network testing, including host testing.",
+   "quote": "Most of the payment networks require specific testing to support these transaction types",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-nodebit",
+   "network": "cross",
+   "claim": "The industry's shared certification guide leaves out US domestic debit networks such as PULSE.",
+   "quote": "The white paper does not describe testing for U.S. domestic debit payment networks",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-biannual",
+   "network": "cross",
+   "claim": "Twice-yearly network releases do not force full recertification unless a network asks.",
+   "quote": "Required testing is not necessary unless specifically requested by the payment networks.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-switch",
+   "network": "cross",
+   "claim": "Moving to a platform with a different message format is a major change that needs the networks involved.",
+   "quote": "This is a major change as it impacts the message format, and the payment networks should be involved in this process.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-eps-weeks",
+   "network": "cross",
+   "claim": "A US Payments Forum paper says calendar time in L3 comes from scheduling and reviews, not only testing.",
+   "quote": "scheduling, reviews by the acquirers, and reviews by the payment networks (if required), along with receipt reviews, add to the calendar time",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2020/05/EPS-EMV-L3-Certification-FINALV2-May-2020.pdf",
+   "title": "Options for Reducing Level 3 EMV Certification Time for Retailer Systems using Electronic Payment Servers (EPS), Version 2.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2020-05",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-eps-mult",
+   "network": "cross",
+   "claim": "Combinations of POS systems, devices and acquirers multiply the certifications one software version needs.",
+   "quote": "The combination of multiple POS solutions, multiple EMV devices and multiple acquirers can result in a multiplier effect",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2020/05/EPS-EMV-L3-Certification-FINALV2-May-2020.pdf",
+   "title": "Options for Reducing Level 3 EMV Certification Time for Retailer Systems using Electronic Payment Servers (EPS), Version 2.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2020-05",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-easi-2d",
+   "network": "dgn",
+   "claim": "The EASI team usually reviews a registration within two business days and then emails credentials separately.",
+   "quote": "The EASI team typically completes the review process within 2 business days.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-easi-dup",
+   "network": "dgn",
+   "claim": "A company already on EASI blocks a second registration, and the user must email to join the existing profile.",
+   "quote": "it may be that the company is already registered.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-easi-sign",
+   "network": "dgn",
+   "claim": "Registration names a signing authority who may later execute an NDA or other agreements.",
+   "quote": "This is the person who is authorized to execute an NDA or other agreements if determined to be necessary.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-easi-uses",
+   "network": "dgn",
+   "claim": "EASI is where partners talk to the EASI team, get programme documents and request test cards.",
+   "quote": "request Test Cards",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-dgn-phases",
+   "network": "dgn",
+   "claim": "Discover's API implementation table assigns a client role and a Discover role to each phase from certification boarding to launch.",
+   "quote": "Discover Implementation team onboards the Client profile in the certification environment.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover",
+   "publisher": "Discover Partner Product Portal (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-super",
+   "network": "pulse",
+   "claim": "PULSE makes one Participant Super User at each institution the gatekeeper for everyone else's Debit Dashboard access.",
+   "quote": "You are a Participant Super User and will determine the access rights for all other users at your institution.",
+   "url": "https://www.pulsenetwork.com/PDDFiles/faq.html",
+   "title": "Frequently Asked Questions, PULSE Reporting",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-approve",
+   "network": "pulse",
+   "claim": "Anyone may request Debit Dashboard access, and PULSE customer service obtains the institution's approval.",
+   "quote": "Anyone can request access to the PULSE Debit Dashboard, but your institution will need to approve your access rights.",
+   "url": "https://www.pulsenetwork.com/PDDFiles/faq.html",
+   "title": "Frequently Asked Questions, PULSE Reporting",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-fee",
+   "network": "pulse",
+   "claim": "The Debit Dashboard costs 50 dollars a month after three free months.",
+   "quote": "You will be billed $50 a month. You will receive the first three months free of charge.",
+   "url": "https://www.pulsenetwork.com/PDDFiles/faq.html",
+   "title": "Frequently Asked Questions, PULSE Reporting",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-reset",
+   "network": "pulse",
+   "claim": "Password resets for the PULSE reporting site go through a phone centre or email.",
+   "quote": "You will need to call our password reset center",
+   "url": "https://www.pulsenetwork.com/PDDFiles/faq.html",
+   "title": "Frequently Asked Questions, PULSE Reporting",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-tools",
+   "network": "pulse",
+   "claim": "PULSE client support lists separate log-ins for Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange.",
+   "quote": "Log in or register for our services",
+   "url": "https://www.pulsenetwork.com/public/client-support/",
+   "title": "Client Support",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-contract",
+   "network": "pulse",
+   "claim": "PULSE frames its post-contract support as a continuing service.",
+   "quote": "We don’t rest easy once the contract is signed.",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "title": "Partner Support Services",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-pulse-gw",
+   "network": "pulse",
+   "claim": "PULSE gateway services give processors one message format across many ATM and POS networks.",
+   "quote": "One message format for leading POS and ATM networks",
+   "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+   "title": "Debit Processing and Gateways",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-amex-hostact",
+   "network": "amex",
+   "claim": "Amex host certification includes unattended testing, telecom connectivity checks and message and file validation.",
+   "quote": "Validate that the issuer test host can communicate with the American Express test host",
+   "url": "https://network.americanexpress.com/globalnetwork/certification/",
+   "title": "American Express Certification",
+   "publisher": "American Express Global Network Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-amex-posform",
+   "network": "amex",
+   "claim": "Acquirers start Amex POS certification by sending a certification request form with device details to their relationship manager.",
+   "quote": "Submit the certification request form, including device information, to American Express relationship manager",
+   "url": "https://network.americanexpress.com/globalnetwork/certification/",
+   "title": "American Express Certification",
+   "publisher": "American Express Global Network Services",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ae-journey",
+   "network": "amex",
+   "claim": "The AMEX Enabled dashboard shows each provider where it is in the certification journey, step by step.",
+   "quote": "See exactly where you are in the journey, step by step.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+   "title": "AMEX Enabled Overview (June 2022)",
+   "publisher": "American Express Global Network Services",
+   "published": "2022-06",
+   "label": "Vendor",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ae-docusign",
+   "network": "amex",
+   "claim": "AMEX Enabled tracks contract progress through DocuSign at company and product level.",
+   "quote": "DocuSign supported Contract Centers allow you to track the progress of your contracts at company and product level",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+   "title": "AMEX Enabled Overview (June 2022)",
+   "publisher": "American Express Global Network Services",
+   "published": "2022-06",
+   "label": "Vendor",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ae-docs",
+   "network": "amex",
+   "claim": "Each product in AMEX Enabled keeps its own organised document set.",
+   "quote": "See all your documents together, neatly organized for each product",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:3c36b10b-65e2-4028-93a6-106428c2a7f6/34435%20-%20GNS%20-%20Amex%20Enabled%20-%20Overview_7.1.pdf",
+   "title": "AMEX Enabled Overview (June 2022)",
+   "publisher": "American Express Global Network Services",
+   "published": "2022-06",
+   "label": "Vendor",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ffiec-iso",
+   "network": "cross",
+   "claim": "Independent ATM operators reach card networks through an ISO that a sponsor bank registers with each network.",
+   "quote": "for which the ISO has been registered by the sponsor bank",
+   "url": "https://bsaaml.ffiec.gov/manual/RisksAssociatedWithMoneyLaunderingAndTerroristFinancing/12",
+   "title": "BSA/AML Manual: Independent Automated Teller Machine Owners or Operators",
+   "publisher": "Federal Financial Institutions Examination Council",
+   "published": "2021-12-01",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ffiec-rules",
+   "network": "cross",
+   "claim": "ISOs are bound to EFT network rules by contract and must make the operators they connect comply.",
+   "quote": "ISOs are contractually subject to the EFT network’s rules",
+   "url": "https://bsaaml.ffiec.gov/manual/RisksAssociatedWithMoneyLaunderingAndTerroristFinancing/12",
+   "title": "BSA/AML Manual: Independent Automated Teller Machine Owners or Operators",
+   "publisher": "Federal Financial Institutions Examination Council",
+   "published": "2021-12-01",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-ctx-affiliate",
+   "network": "cross",
+   "claim": "Cardtronics says it provides network access to third-party ATM owners that lack their own bank sponsorship.",
+   "quote": "owned by a third party that lacks the necessary bank sponsorship arrangements",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.283907/gov.uscourts.dcd.283907.1.0.pdf",
+   "title": "Complaint, Cardtronics USA, Inc. v. Visa Inc., No. 1:25-cv-02747 (D.D.C.), ECF 1",
+   "publisher": "US District Court for the District of Columbia via CourtListener RECAP",
+   "published": "2025-08-20",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-mc-lat",
+   "network": "mastercard",
+   "claim": "Mastercard acquirers must refresh ATM location data in the Location Administration Tool on Connect every quarter.",
+   "quote": "quarterly updates to the Location Administration Tool (LAT)",
+   "url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026, Rule 5.1.4.1",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback id_ capture and pypdf, re-read 2026-09-26"
+  },
+  {
+   "key": "t3-s3-paragon",
+   "network": "cross",
+   "claim": "A test-tool vendor estimates ATM end-to-end PCI certification effort at 40 to 50 percent, overlapping Windows 10 migration.",
+   "quote": "hovers at 40-50%, especially for mixed environments",
+   "url": "https://www.atmmarketplace.com/blogs/atm-operators-feeling-the-pressure-with-pci-dss-40-mandate/",
+   "title": "ATM operators feeling the pressure with PCI DSS 4.0 mandate",
+   "publisher": "ATM Marketplace blog by Paragon Application Systems",
+   "published": "2025-12-23",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-neapay-window",
+   "network": "cross",
+   "claim": "A simulator vendor says a failed network certification pushes the partner to a new window weeks or months later.",
+   "quote": "Fail certification and the scheme gives you another window — typically weeks or months later.",
+   "url": "https://neapay.com/post/iso-8583-certification-testing-what-visa-and-mastercard-actually-require_157.html",
+   "title": "ISO 8583 Certification Testing: What Visa and MasterCard Actually Require",
+   "publisher": "neaPay",
+   "published": "2026-05-13",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-neapay-ist",
+   "network": "mastercard",
+   "claim": "The same vendor says Mastercard pre-certification simulation access needs its own application and provisioning.",
+   "quote": "IST access requires a separate application and provisioning step",
+   "url": "https://neapay.com/post/iso-8583-certification-testing-what-visa-and-mastercard-actually-require_157.html",
+   "title": "ISO 8583 Certification Testing: What Visa and MasterCard Actually Require",
+   "publisher": "neaPay",
+   "published": "2026-05-13",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-op-cedp",
+   "network": "visa",
+   "claim": "A fee analytics firm reports merchants losing CEDP rates where the acquirer had not finished CEDP certification.",
+   "quote": "These issues often stem from acquirers that haven’t yet completed CEDP certification.",
+   "url": "https://optimizedpayments.com/insights/card-fees/visa-cedp-early-observations-following-recent-product-3-interchange-rate-changes/",
+   "title": "Visa CEDP: Early Observations Following Recent Product 3 Interchange Rate Changes",
+   "publisher": "Optimized Payments",
+   "published": "2025-10-28",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vts-restricted",
+   "network": "visa",
+   "claim": "Visa Token Service documentation on Visa Developer is restricted to entitled users.",
+   "quote": "Visa Token Service is a restricted product - access to its documentation and assets are limited.",
+   "url": "https://developer.visa.com/capabilities/vts/docs",
+   "title": "Visa Token Service: Getting Started",
+   "publisher": "Visa Developer",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-visa-tpa-pf",
+   "network": "visa",
+   "claim": "Payment facilitators and marketplaces cannot use the affiliate exemption from third party agent registration.",
+   "quote": "This exemption does not apply to Business Payment Service Providers, Consumer Bill Payment Service Providers, Marketplaces, Payment Facilitators",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026, 1.9.8.6",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-tanreuse",
+   "network": "mastercard",
+   "claim": "A Mastercard TAN letter can be reused as proof in later implementations.",
+   "quote": "TAN may be used as proof of completed validation during future implementations.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dpasman",
+   "network": "dgn",
+   "claim": "Discover E2E testing follows a D-PAS Certification Manual for Issuers and Acquirers that is not public.",
+   "quote": "the parameters specified in the D-PAS Certification Manual for Issuers and Acquirers",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dindirect",
+   "network": "dgn",
+   "claim": "A service provider used by an AMTC acquirer is accredited indirectly through that acquirer's accreditation.",
+   "quote": "the service provider will be indirectly accredited during the AMTC accreditation process",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dcase",
+   "network": "dgn",
+   "claim": "Discover accredits acquirers for self-certification case by case.",
+   "quote": "Discover manages each acquirer accreditation on a case-by-case basis",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-atmdev",
+   "network": "mastercard",
+   "claim": "Mastercard M-TIP treats an ATM card reader as the EMV Level 1 device under test.",
+   "quote": "a card-reading device on an ATM",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-atmminor",
+   "network": "cross",
+   "claim": "The networks agree that swapping ATM Level 1 hardware without chip or kernel impact is a minor change needing no network retest.",
+   "quote": "This hardware change is classified as a minor change.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-vdcm",
+   "network": "visa",
+   "claim": "Visa makes full chip host support optional for direct-connect merchants.",
+   "quote": "Support is optional for direct-connect merchants.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-adcm",
+   "network": "amex",
+   "claim": "Amex requires certification for merchants that connect directly to its network.",
+   "quote": "Certification is also required for merchants connecting directly onto the American Express network",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-ddcm",
+   "network": "dgn",
+   "claim": "Direct-connect merchants follow the same Discover E2E service provider model as acquirers.",
+   "quote": "An acquirer or direct-connect merchant following the service provider model for E2E certifications must complete the following documents",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-kc-small",
+   "network": "cross",
+   "claim": "The Kansas City Fed says smaller institutions struggle to pay core providers to implement updates or new rails.",
+   "quote": "Smaller DIs often struggle to absorb the costs charged by their core providers to implement updates or adopt new payment rails.",
+   "url": "https://www.kansascityfed.org/research/payments-system-research-briefings/market-structure-of-core-banking-services-providers/",
+   "title": "Market Structure of Core Banking Services Providers",
+   "publisher": "Federal Reserve Bank of Kansas City",
+   "published": "2024-03-27",
+   "label": "Reported",
+   "fetch": "node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-usnet",
+   "network": "cross",
+   "claim": "A credit union shared-branch network publishes its certification step and duration before testing and staff training.",
+   "quote": "for certification, which takes roughly 6-8 weeks",
+   "url": "https://www.universalsharing.com/credit-unions/how-usnet-works",
+   "title": "How UsNet Works",
+   "publisher": "UsNet Shared Branching Solutions",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-mcorder",
+   "network": "mastercard",
+   "claim": "Mastercard terminal testing (M-TIP) can start only after host validation (NIV) is approved.",
+   "quote": "This testing can only take place after valid NIV approval is obtained.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-uspf-dorder",
+   "network": "dgn",
+   "claim": "Discover terminal E2E certification requires acquirer host certification first.",
+   "quote": "Discover requires the following activities to be completed before beginning E2E certification: • Acquirer host certification",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  }
+ ],
+ "stage_id": "3"
+}

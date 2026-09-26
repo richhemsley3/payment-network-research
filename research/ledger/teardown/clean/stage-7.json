@@ -1,0 +1,2994 @@
+{
+ "stage": "7. Grow, renew and leave",
+ "summary": [
+  {
+   "text": "After go-live, every network routes growth through a named relationship owner: Visa's Client Success manager and account team, Mastercard's account managers, Amex relationship managers and Discover account executives.",
+   "ids": [
+    "visa-386",
+    "visa-370",
+    "new:t7-mc-am-contract",
+    "amex-377",
+    "dgn-148"
+   ]
+  },
+  {
+   "text": "Self-service ordering exists only in patches. Mastercard Connect has a Store with Request, checkout and Track Orders, and Amex has Service Enrollment inside Knowledge Base.",
+   "ids": [
+    "new:t7-mc-connect-store",
+    "new:t7-mc-connect-order",
+    "amex-079",
+    "new:t7-amex-train-service-enrol"
+   ]
+  },
+  {
+   "text": "Visa sends community issuers to a product enrolment portal on Visa Online. Discover enrols fraud products by PDF application or web form, and PULSE enrols new clients through an account executive.",
+   "ids": [
+    "visa-169",
+    "new:t7-visa-cgap",
+    "dgn-176",
+    "pulse-004"
+   ]
+  },
+  {
+   "text": "Incentives are the main commercial lever, worth 15.75 billion dollars at Visa and 20.5 billion at Mastercard in their 2025 years.",
+   "ids": [
+    "visa-267",
+    "mastercard-105"
+   ]
+  },
+  {
+   "text": "Both networks estimate what a partner has earned from volume, card issuance and card conversion forecasts, and Visa uses client-reported data as one input.",
+   "ids": [
+    "new:t7-visa-10k-incentive-estimate",
+    "new:t7-ma-10k-card-conversion",
+    "new:t7-visa-10k-client-reported"
+   ]
+  },
+  {
+   "text": "Tracking happens inside the network. Job postings describe incentive tracking files, Power BI dashboards, an Oracle billing system and regional quarterly incentive reviews.",
+   "ids": [
+    "new:t7-visa-cipfa-dash",
+    "new:t7-visa-cio-ormb",
+    "new:t7-mc-dealmgr-tracking"
+   ]
+  },
+  {
+   "text": "The study found no public sign of a partner-facing incentive tracker at any network. This is a gap in the public record, and it may exist behind login.",
+   "ids": [
+    "new:t7-mc-dealmgr-customer",
+    "new:t7-visa-cio-ormb"
+   ]
+  },
+  {
+   "text": "Mastercard contracts carry clawbacks and customer commitments, and DOJ alleges Visa can claw back paid incentives as early termination fees.",
+   "ids": [
+    "new:t7-mc-dealmgr-clawbacks",
+    "new:t7-doj-clawback",
+    "new:t7-doj-issuer-etf"
+   ]
+  },
+  {
+   "text": "Exit is written into the Mastercard and Visa rulebooks, and it is heavy. Maestro and Cirrus principals give a year's notice, cards must be cancelled and fees are not refunded.",
+   "ids": [
+    "new:t7-mc-rules-term-notice",
+    "new:t7-mc-rules-cancel-cards",
+    "new:t7-mc-rules-no-refund"
+   ]
+  },
+  {
+   "text": "A Visa member cannot finish leaving until every BIN is released, and a BIN must sit inactive for 120 days first.",
+   "ids": [
+    "new:t7-visa-rules-bin-release",
+    "new:t7-visa-rules-120days"
+   ]
+  },
+  {
+   "text": "Conversions are paid for and tooled towards the incumbent. Visa Account Updater carries Mastercard, Amex and Discover portfolios into Visa, and outside Latin America it carries none out.",
+   "ids": [
+    "new:t7-vau-faq-conversions",
+    "new:t7-vau-faq-lac",
+    "new:t7-vca-migration"
+   ]
+  },
+  {
+   "text": "Consulting is a paid line at Visa and Mastercard, and UK acquirers say they buy scheme services just to understand their own fees.",
+   "ids": [
+    "visa-137",
+    "mastercard-396",
+    "cross-191",
+    "new:t7-teya-billing"
+   ]
+  },
+  {
+   "text": "The Discover family's strongest growth asset is the PULSE Debit Dashboard, open to every PULSE issuer, with interchange by category and a peer comparison.",
+   "ids": [
+    "new:t7-pulse-dd-overview",
+    "new:t7-pulse-dd-peer",
+    "new:t7-pulse-dd-access"
+   ]
+  },
+  {
+   "text": "Discover's owner ran the largest recent conversion, about 25 million debit cards, and merchants and processors bore visible costs from it.",
+   "ids": [
+    "dgn-055",
+    "dgn-216",
+    "dgn-215",
+    "dgn-262"
+   ]
+  },
+  {
+   "text": "Regulators are opening renewal and exit. Canada lets merchants cancel penalty-free within 70 days of a fee rise, and the UK and Australia now require fee transparency.",
+   "ids": [
+    "new:t7-fcac-cancel",
+    "new:t7-fcac-notice",
+    "cross-062",
+    "cross-226"
+   ]
+  },
+  {
+   "text": "The public record is thin on business review content, incentive statements and exit terms at Amex and Discover. Those sit in gated manuals and contracts.",
+   "ids": [
+    "amex-035",
+    "dgn-106",
+    "amex-370"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Large issuers (large banks and co-brand issuers)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa signs long-term incentive contracts with banks and estimates each client's earnings from volume, card issuance and card conversion forecasts.",
+       "ids": [
+        "new:t7-visa-10k-long-term-incentive",
+        "new:t7-visa-10k-incentive-estimate"
+       ]
+      },
+      {
+       "text": "A Client Incentive Operations team loads each contract into Oracle Revenue Management and Billing, schedules payments and checks with clients whether obligations were met.",
+       "ids": [
+        "new:t7-visa-cio-ormb",
+        "new:t7-visa-cio-merchant"
+       ]
+      },
+      {
+       "text": "A Client Success manager owns a Client Success Plan and post-sale service, beside a separate account team.",
+       "ids": [
+        "visa-386"
+       ]
+      },
+      {
+       "text": "Growth offers include Visa Consulting and Analytics, run as Diagnose, Align, Roadmap and Implement, and the self-service Visa Analytics Platform with peer benchmarks.",
+       "ids": [
+        "new:t7-vca-process",
+        "visa-137",
+        "new:t7-vap"
+       ]
+      },
+      {
+       "text": "Visa says some clients can leave on relatively short notice without significant fees. DOJ alleges a debit issuer missing growth targets could owe earned benefits back plus a fixed fee.",
+       "ids": [
+        "visa-452",
+        "new:t7-doj-issuer-etf"
+       ]
+      },
+      {
+       "text": "To leave, a member releases every BIN after 120 inactive days and stays liable for earlier exceptions and fees.",
+       "ids": [
+        "new:t7-visa-rules-bin-release",
+        "new:t7-visa-rules-120days",
+        "new:t7-visa-rules-liability-remains"
+       ]
+      },
+      {
+       "text": "BINs cannot be sold, so a portfolio sale is notified to Visa, and a buyer that is not a member files within 10 days or stops.",
+       "ids": [
+        "new:t7-visa-rules-portfolio-sale",
+        "new:t7-visa-rules-assuming-org"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access Client Portfolio Management Self-Service Tools",
+       "what_it_shows": "Program Request Management, the electronic Client Information Questionnaire and the Visa Client Support Application, for Visa profile and programme changes.",
+       "ids": [
+        "new:t7-visa-rules-cpm-tools",
+        "visa-164"
+       ]
+      },
+      {
+       "name": "Client Directory in Visa Access",
+       "what_it_shows": "Member contacts and service providers, which members must update within 10 business days of a change.",
+       "ids": [
+        "new:t7-visa-rules-client-directory"
+       ]
+      },
+      {
+       "name": "Visa Analytics Platform",
+       "what_it_shows": "Self-service dashboards on portfolio, fraud, approvals and disputes against a competitive peer set.",
+       "ids": [
+        "new:t7-vap",
+        "visa-138"
+       ]
+      },
+      {
+       "name": "Oracle Revenue Management and Billing (internal)",
+       "what_it_shows": "Visa's own system for incentive contract set-up and payments. Partners do not see it.",
+       "ids": [
+        "new:t7-visa-cio-ormb"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "DOJ alleges nearly 1,000 Visa issuing contracts carry volume incentives that deter adding debit networks.",
+       "ids": [
+        "new:t7-doj-1000"
+       ]
+      },
+      {
+       "text": "DOJ alleges issuers rarely change network, partly because reissuing cards is costly.",
+       "ids": [
+        "new:t7-doj-rarely-change"
+       ]
+      },
+      {
+       "text": "An analyst expects Visa would reverse discounts across a defecting bank's whole portfolio. This is opinion with no disclosed term behind it.",
+       "ids": [
+        "visa-453"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard pays rebates and incentives when customers meet volume thresholds, and estimates performance from card issuance and card conversion volumes.",
+       "ids": [
+        "new:t7-ma-10k-volume-thresholds",
+        "new:t7-ma-10k-card-conversion"
+       ]
+      },
+      {
+       "text": "Deal managers monitor contracts, calculate incentive payments, join regional quarterly incentive reviews and discuss deal performance with customers.",
+       "ids": [
+        "new:t7-mc-dealmgr-tracking",
+        "new:t7-mc-dealmgr-customer"
+       ]
+      },
+      {
+       "text": "Drafted contracts are checked against the approved business case, including term, clawbacks and customer commitments.",
+       "ids": [
+        "new:t7-mc-dealmgr-clawbacks"
+       ]
+      },
+      {
+       "text": "Mastercard says its data services help it win new and renewed deals, and account teams build revenue and expense benchmarks for customers.",
+       "ids": [
+        "new:t7-ma-10k-services-win-deals",
+        "new:t7-mc-am-contract"
+       ]
+      },
+      {
+       "text": "In January 2026 Mastercard renewed Capital One's credit partnership and kept a large portion of newly acquired credit accounts.",
+       "ids": [
+        "new:t7-pd-mc-cof"
+       ]
+      },
+      {
+       "text": "Mastercard says customers can reassess commitments within their contract terms, and its Advisors consulting line sells strategy and implementation help.",
+       "ids": [
+        "new:t7-ma-10k-reassess",
+        "new:t7-mc-advisors",
+        "mastercard-295"
+       ]
+      },
+      {
+       "text": "Mastercard may also end a licence after 26 weeks without activity or when a customer falls short of its approved business plan.",
+       "ids": [
+        "new:t7-mc-rules-inactivity"
+       ]
+      },
+      {
+       "text": "To leave, a Principal gives 30 days' notice for a Mastercard licence and a year for Maestro or Cirrus, then cancels cards and notifies cardholders.",
+       "ids": [
+        "new:t7-mc-rules-term-notice",
+        "new:t7-mc-rules-cancel-cards"
+       ]
+      },
+      {
+       "text": "A portfolio sale needs 30 days' written notice to Mastercard, and a terminated customer gets no refund of fees.",
+       "ids": [
+        "new:t7-mc-rules-portfolio-notice",
+        "new:t7-mc-rules-no-refund"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect Store",
+       "what_it_shows": "Applications and reports a company can request, each with a Request button, a checkout form scoping data by ICA, BIN or account range, and Track Orders.",
+       "ids": [
+        "new:t7-mc-connect-store",
+        "new:t7-mc-connect-order"
+       ]
+      },
+      {
+       "name": "Pricing and Billing Resource Center",
+       "what_it_shows": "The Pricing Guide and a Transaction Detail tool, requested through the Connect Store.",
+       "ids": [
+        "new:t7-mc-connect-billing"
+       ]
+      },
+      {
+       "name": "Mastercard Business Intelligence (Portfolio Advisor)",
+       "what_it_shows": "Self-service approval recommendations from competitive benchmarks and past performance.",
+       "ids": [
+        "new:t7-mc-pa-mbi"
+       ]
+      },
+      {
+       "name": "Variance Manager",
+       "what_it_shows": "Requests to depart from a Mastercard standard, with a stated reason.",
+       "ids": [
+        "new:t7-mc-rules-variance"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Mastercard warns it may have to raise incentives and discounts to meet customer demand for better pricing.",
+       "ids": [
+        "mastercard-105"
+       ]
+      },
+      {
+       "text": "From April 2026 Mastercard added services to a US bundle fee and raised its rate, per a merchant advisory.",
+       "ids": [
+        "mastercard-421"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Each GNS issuer's rate is negotiated individually and not published.",
+       "ids": [
+        "amex-168"
+       ]
+      },
+      {
+       "text": "Amex offers licensed issuers data and analytics with benchmarking and best practice, plus predictive models for marketing.",
+       "ids": [
+        "amex-290"
+       ]
+      },
+      {
+       "text": "New value-added capabilities are certified through the issuer's relationship manager, who supplies scripts and test cases.",
+       "ids": [
+        "amex-377"
+       ]
+      },
+      {
+       "text": "Cobrand deals run for a fixed period, and Amex seeks renewal before the term ends.",
+       "ids": [
+        "new:t7-axp-10k-fixed-period",
+        "new:t7-axp-10k-renew-advance"
+       ]
+      },
+      {
+       "text": "Some cobrand partners may buy the card loans, or name a buyer, when the deal ends. Amex may not renew its Amazon and Lowe's small business portfolios.",
+       "ids": [
+        "new:t7-axp-10k-purchase-loans",
+        "new:t7-axp-10k-not-renew"
+       ]
+      },
+      {
+       "text": "Amex cites its 2016 loss of Costco in the US as an example of non-renewal.",
+       "ids": [
+        "new:t7-axp-10k-costco"
+       ]
+      },
+      {
+       "text": "The Amazon business cards moved to U.S. Bank on Mastercard, with Amex cardholders migrating on 14 August 2026.",
+       "ids": [
+        "amex-136"
+       ]
+      },
+      {
+       "text": "Amex itself exited GNS licensing in the EU and Australia and terminated existing EU licences after regulation.",
+       "ids": [
+        "amex-175",
+        "amex-170"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base Service Enrollment",
+       "what_it_shows": "One place to read about each network service and enrol directly.",
+       "ids": [
+        "amex-079",
+        "new:t7-amex-train-service-enrol"
+       ]
+      },
+      {
+       "name": "Partner Analytics Center",
+       "what_it_shows": "A partner reporting tool known only from a September 2021 training replay title.",
+       "ids": [
+        "amex-370",
+        "new:t7-amex-train-list"
+       ]
+      },
+      {
+       "name": "Network Partner Learning",
+       "what_it_shows": "Training assigned by Knowledge Base profile, including a card acquisition campaign webinar.",
+       "ids": [
+        "new:t7-amex-train-custom",
+        "new:t7-amex-train-list"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The public webinar list stops at June 2022, so current growth training is not visible.",
+       "ids": [
+        "new:t7-amex-train-list"
+       ]
+      },
+      {
+       "text": "Exit terms sit in the gated Business and Operational Policies manual.",
+       "ids": [
+        "amex-035",
+        "amex-403"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover enters fixed-term pricing or incentive deals with some participants and competes on incentives and rebates, publishing no amounts.",
+       "ids": [
+        "dgn-070",
+        "dgn-071"
+       ]
+      },
+      {
+       "text": "Its deferred incentive balance was 28 million dollars at end-2024, against billions at Visa and Mastercard.",
+       "ids": [
+        "dgn-382",
+        "visa-451",
+        "mastercard-415"
+       ]
+      },
+      {
+       "text": "The owner says rival networks give issuers large signing bonuses and hold long, sometimes exclusive, bank deals.",
+       "ids": [
+        "dgn-383",
+        "dgn-384"
+       ]
+      },
+      {
+       "text": "Capital One moved about 25 million debit cards onto the network and is testing new and converted credit accounts.",
+       "ids": [
+        "dgn-055",
+        "dgn-216",
+        "new:t7-pymnts-cof-test"
+       ]
+      },
+      {
+       "text": "Venture X and several co-brands stay on Visa, and Capital One names Mexico, the Caribbean, Canada and the UK as acceptance priorities.",
+       "ids": [
+        "new:t7-pj-cof-venture",
+        "new:t7-pymnts-cof-intl"
+       ]
+      },
+      {
+       "text": "Diners Club International sells an exclusive issuer franchise per market, applied for by email.",
+       "ids": [
+        "diners-004"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Global Network Account Executive",
+       "what_it_shows": "Named owner of contracts, technical upgrades and configuration changes.",
+       "ids": [
+        "dgn-148"
+       ]
+      },
+      {
+       "name": "Service Center enrolment",
+       "what_it_shows": "Application PDFs and web forms for Account Incident Manager, Confirmed Fraud, Fraud Alerts and High Brand Risk.",
+       "ids": [
+        "dgn-176"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Capital One warns it may be unable to offer network partners adequate pricing while keeping enough net revenue.",
+       "ids": [
+        "dgn-293"
+       ]
+      },
+      {
+       "text": "The network's owner competes with partner issuers and bought Brex, a corporate card rival to fintech partners.",
+       "ids": [
+        "dgn-208",
+        "dgn-209"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard publishes exit in its public rulebook: a notice table by licence type, portfolio sale notice, card cancellation and a duty to help merchants move.",
+    "ids": [
+     "new:t7-mc-rules-term-notice",
+     "new:t7-mc-rules-portfolio-notice",
+     "new:t7-mc-rules-merchant-transfer"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover publishes no issuer incentive terms or exit steps, and its owner's own conversion is the reference case. Relationships run through account executives.",
+    "ids": [
+     "dgn-070",
+     "dgn-106",
+     "dgn-148",
+     "dgn-055"
+    ]
+   }
+  },
+  {
+   "partner_type": "Community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Participating community issuers join Visa's Community Growth Acceleration Program and enrol in products through a portal on Visa Online.",
+       "ids": [
+        "new:t7-visa-cgap",
+        "visa-169"
+       ]
+      },
+      {
+       "text": "The Merchant Offers Program, over 30 Visa-negotiated offers, is also reached through Visa Online.",
+       "ids": [
+        "visa-090",
+        "visa-169"
+       ]
+      },
+      {
+       "text": "ICBA Payments, a Visa principal, renewed its community bank partnership with Visa in July 2025.",
+       "ids": [
+        "cross-083"
+       ]
+      },
+      {
+       "text": "Credit unions switching to Visa reissue every card, as Liberty Bay did after a new debit processor made the brand change possible.",
+       "ids": [
+        "new:t7-lbcu-processor"
+       ]
+      },
+      {
+       "text": "Clearwater used Visa Account Updater to refresh stored cards at participating merchants, and Cobalt disabled old cards on a set date.",
+       "ids": [
+        "new:t7-clearwater-vau",
+        "new:t7-cobalt-disable"
+       ]
+      },
+      {
+       "text": "Exempt issuers received 1.32 billion dollars of network payments and incentives in 2023, more per transaction than covered issuers.",
+       "ids": [
+        "cross-238"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online product enrolment portal",
+       "what_it_shows": "The enrolment route for Community Growth Acceleration Program products and the Merchant Offers Program.",
+       "ids": [
+        "visa-169",
+        "new:t7-visa-cgap"
+       ]
+      },
+      {
+       "name": "Visa Account Updater",
+       "what_it_shows": "Card-on-file updates for conversions into Visa from Mastercard, Amex and Discover.",
+       "ids": [
+        "new:t7-vau-faq-conversions",
+        "new:t7-clearwater-vau"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "DOJ cites Visa material saying an issuer's only way to protect volume was to drop SHAZAM.",
+       "ids": [
+        "new:t7-doj-shazam"
+       ]
+      },
+      {
+       "text": "Credit unions tell members to update recurring payments themselves, since the updater covers participating merchants only.",
+       "ids": [
+        "new:t7-clearwater-vau"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Navigant Credit Union moved its debit cards from Visa to Mastercard in 2025, with new numbers and PINs that did not carry over.",
+       "ids": [
+        "new:t7-navigant-mc",
+        "new:t7-navigant-pin"
+       ]
+      },
+      {
+       "text": "Mastercard's Automatic Billing Updater records brand flips and portfolio upgrades as lifecycle events.",
+       "ids": [
+        "new:t7-mc-abu-brandflips"
+       ]
+      },
+      {
+       "text": "A community issuer can request tools such as Portfolio Advisor through Mastercard Business Intelligence and Connect.",
+       "ids": [
+        "new:t7-mc-pa-mbi",
+        "new:t7-mc-connect-store"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Automatic Billing Updater",
+       "what_it_shows": "Issuer lifecycle events including brand flips, pushed or pulled by acquirers and merchants.",
+       "ids": [
+        "new:t7-mc-abu-brandflips"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Navigant told members some merchants would now ask for a PIN, calling the matter beyond its control.",
+       "ids": [
+        "new:t7-navigant-pin"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The study found no public route for a US community bank or credit union to issue on Amex. Rulebooks come only after signing.",
+       "ids": [
+        "amex-035"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The public record is thin here.",
+       "ids": [
+        "amex-035"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE frames its Partner Support Services as starting after the contract: Debit Dashboard, DebitProtect, Marketing Hub, disputes support and research.",
+       "ids": [
+        "new:t7-pulse-pss-contract",
+        "pulse-033"
+       ]
+      },
+      {
+       "text": "The Debit Dashboard, open to every PULSE issuer, shows revenue, expense and approvals by BIN, interchange by category and a peer comparison.",
+       "ids": [
+        "new:t7-pulse-dd-overview",
+        "new:t7-pulse-dd-peer",
+        "new:t7-pulse-dd-access"
+       ]
+      },
+      {
+       "text": "PULSE participation agreements generally renew automatically with no fixed term, and Discover runs fixed-term incentive deals with some participants.",
+       "ids": [
+        "dgn-028",
+        "dgn-070"
+       ]
+      },
+      {
+       "text": "To win conversions, PULSE invites issuers to re-evaluate their debit programme, promising a dedicated account rep and a one-page invoice.",
+       "ids": [
+        "new:t7-pulse-choice-reeval",
+        "pulse-012"
+       ]
+      },
+      {
+       "text": "Three brand-switch case studies are published, each gated behind a download form.",
+       "ids": [
+        "new:t7-pulse-cases-switch"
+       ]
+      },
+      {
+       "text": "PULSE runs an annual Voice of the Client survey and a Debit Issuer Study.",
+       "ids": [
+        "pulse-052",
+        "pulse-019"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE Debit Dashboard",
+       "what_it_shows": "Overview by BIN or BIN range, activity by PULSE product, interchange by category, Peer Comparison and exportable report templates.",
+       "ids": [
+        "new:t7-pulse-dd-overview",
+        "new:t7-pulse-dd-peer"
+       ]
+      },
+      {
+       "name": "PULSE portal (Log In / Register)",
+       "what_it_shows": "Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange behind one sign-in.",
+       "ids": [
+        "dgn-183"
+       ]
+      },
+      {
+       "name": "Marketing Hub",
+       "what_it_shows": "Custom campaigns, card art and cardholder education for Discover Debit issuers.",
+       "ids": [
+        "pulse-033"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A PULSE account executive says most issuers do not know the exact interchange they earn or their total costs.",
+       "ids": [
+        "new:t7-pulse-dd-ae"
+       ]
+      },
+      {
+       "text": "New DebitProtect clients enrol through an account executive, with no self-service route.",
+       "ids": [
+        "pulse-004"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:shazam-unionpay",
+     "how_it_works": [
+      {
+       "text": "SHAZAM gives each member institution one vote and a member-elected board.",
+       "ids": [
+        "shazam-013"
+       ]
+      },
+      {
+       "text": "UnionPay International's Member Council shapes rules and incentive schemes.",
+       "ids": [
+        "unionpay-005"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "The PULSE Debit Dashboard gives every issuer its own economics by BIN with a peer comparison, the basis for a business review both sides can see.",
+    "ids": [
+     "new:t7-pulse-dd-overview",
+     "new:t7-pulse-dd-peer",
+     "new:t7-pulse-dd-access"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover leads here on reporting and simple billing, while enrolment still runs through account executives and conversion evidence is gated.",
+    "ids": [
+     "new:t7-pulse-dd-access",
+     "pulse-012",
+     "pulse-004",
+     "new:t7-pulse-cases-switch"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A Visa acquirer takes transactions only from merchants in its own country unless Visa approves otherwise.",
+       "ids": [
+        "new:t7-visa-rules-acquirer-jurisdiction"
+       ]
+      },
+      {
+       "text": "Moving a BIN to a new processor obliges the new processor to finish activity on it, unless the old one agrees to.",
+       "ids": [
+        "new:t7-visa-rules-processor-conversion"
+       ]
+      },
+      {
+       "text": "Visa runs merchant acceptance incentive agreements through the same Client Incentive Operations team as issuer deals.",
+       "ids": [
+        "new:t7-visa-cio-merchant"
+       ]
+      },
+      {
+       "text": "Visa Acceptance clients change set-up through a MID Configuration Request support case.",
+       "ids": [
+        "visa-374"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Acceptance Support Center",
+       "what_it_shows": "General Support Request and MID Configuration Request cases, behind sign-in.",
+       "ids": [
+        "visa-374",
+        "visa-373"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "DOJ alleges Visa's routing contracts let it end deals early and claw back incentives, and that over 180 large merchants and acquirers hold de facto exclusive deals.",
+       "ids": [
+        "new:t7-doj-clawback",
+        "cross-033"
+       ]
+      },
+      {
+       "text": "UK acquirers told the regulator they buy extra scheme services to understand their own fees.",
+       "ids": [
+        "cross-191",
+        "new:t7-teya-billing"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "To enter a new country an acquirer applies to extend its licence's Area of Use, and Mastercard amends the licence if it approves.",
+       "ids": [
+        "new:t7-mc-rules-area-of-use"
+       ]
+      },
+      {
+       "text": "Some cross-border programmes need only a Form 1336 certification emailed at least 14 days ahead.",
+       "ids": [
+        "new:t7-mc-rules-form1336"
+       ]
+      },
+      {
+       "text": "A leaving acquirer must notify its merchants and help move those that want to keep accepting.",
+       "ids": [
+        "new:t7-mc-rules-merchant-transfer"
+       ]
+      },
+      {
+       "text": "Mastercard sells acquirers Test & Learn and Acquiring Optimizer data products.",
+       "ids": [
+        "mastercard-296"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect Store",
+       "what_it_shows": "Requestable items for acquirers, including Operational Reports and the Pricing and Billing Resource Center.",
+       "ids": [
+        "new:t7-mc-connect-store",
+        "new:t7-mc-connect-billing"
+       ]
+      },
+      {
+       "name": "Variance Manager",
+       "what_it_shows": "Requests to depart from a standard.",
+       "ids": [
+        "new:t7-mc-rules-variance"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Mastercom Extended will replace the Mastercom API, a migration partners must plan.",
+       "ids": [
+        "mastercard-216"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex grows acceptance by signing acquirers market by market, such as three Thai banks in August 2026.",
+       "ids": [
+        "amex-149",
+        "amex-142"
+       ]
+      },
+      {
+       "text": "Amex Canada charges acquirers an Existing Merchant Conversion Fee on merchants that previously contracted directly with Amex.",
+       "ids": [
+        "amex-156"
+       ]
+      },
+      {
+       "text": "Acquirers are offered closed-loop fraud tools, portfolio analytics and servicing support.",
+       "ids": [
+        "amex-306"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base Service Enrollment",
+       "what_it_shows": "Self-service enrolment in network services.",
+       "ids": [
+        "amex-079"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Exit terms for GNS acquirers are not public.",
+       "ids": [
+        "amex-035"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "A Discover Global Network account executive owns the processor's contracts, technical upgrades and configuration changes.",
+       "ids": [
+        "dgn-148"
+       ]
+      },
+      {
+       "text": "Operations support runs through the EASI Message Center.",
+       "ids": [
+        "dgn-155"
+       ]
+      },
+      {
+       "text": "One enablement brings the network alliance ranges, and Discover calls Enhanced Decisioning free once data fields are certified.",
+       "ids": [
+        "dgn-136",
+        "dgn-294",
+        "dgn-379"
+       ]
+      },
+      {
+       "text": "Moorwand extended its Diners Club issuing licence to UK acquiring in December 2025.",
+       "ids": [
+        "diners-030"
+       ]
+      },
+      {
+       "text": "JCB and Discover said in May 2026 they would explore simpler processes for partners of both networks.",
+       "ids": [
+        "jcb-019"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI Portal Message Center",
+       "what_it_shows": "The published route to the operations team for acquirers and processors.",
+       "ids": [
+        "dgn-155"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The study found no public Discover procedure for expanding into a market or leaving the network.",
+       "ids": [
+        "dgn-106"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:canada-code",
+     "how_it_works": [
+      {
+       "text": "Canada's Code makes networks give acquirers 120 days' notice of non-structural fee changes and 210 days for structural ones.",
+       "ids": [
+        "new:t7-fcac-notice"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard's Area of Use rule publishes how an acquirer grows into a new country, with a lighter certification route for listed programmes.",
+    "ids": [
+     "new:t7-mc-rules-area-of-use",
+     "new:t7-mc-rules-form1336"
+    ]
+   },
+   "discover_today": {
+    "text": "Growth and change run through a named account executive and the EASI Message Center, with no public expansion or exit path.",
+    "ids": [
+     "dgn-148",
+     "dgn-155",
+     "dgn-106"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A payfac must move any sponsored merchant above 1 million dollars a year onto a direct acquirer agreement.",
+       "ids": [
+        "new:t7-visa-rules-pf-1m"
+       ]
+      },
+      {
+       "text": "Agents renew registration yearly, with a 5,000 dollar fee in Visa's last public schedule, and sponsors review each agent every year.",
+       "ids": [
+        "visa-014",
+        "new:t7-visa-rules-tpa-annual"
+       ]
+      },
+      {
+       "text": "Visa's relationship with most agents runs through the sponsoring member.",
+       "ids": [
+        "visa-371"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Program Request Management",
+       "what_it_shows": "Sponsor-side registration and changes for third party agents.",
+       "ids": [
+        "visa-303",
+        "new:t7-visa-rules-cpm-tools"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Acquirers must screen new merchants against Visa's terminated-merchant service in several regions.",
+       "ids": [
+        "visa-101"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Sponsors register payfacs and other providers in My Company Manager, with an annual renewal fee billed through Mastercard's billing system.",
+       "ids": [
+        "mastercard-192",
+        "mastercard-064"
+       ]
+      },
+      {
+       "text": "Acquirers check MATCH, the terminated-merchant database, before signing any merchant or sponsored merchant.",
+       "ids": [
+        "mastercard-254"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "My Company Manager",
+       "what_it_shows": "Service provider registration and yearly validation on Mastercard Connect.",
+       "ids": [
+        "mastercard-192"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "From 17 April 2026 merchants stay under OptBlue up to 3 million dollars of Amex volume, up from 1 million.",
+       "ids": [
+        "new:t7-optblue-2026",
+        "amex-162"
+       ]
+      },
+      {
+       "text": "A consultancy says crossing the threshold means signing a direct Establishment Service Agreement with its own review.",
+       "ids": [
+        "amex-440"
+       ]
+      },
+      {
+       "text": "Payfacs under 250 million dollars of Amex volume accept Amex only under a certified OptBlue Participant.",
+       "ids": [
+        "amex-271"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue Program Update notice",
+       "what_it_shows": "A one-page public notice of the new threshold and uncapped categories.",
+       "ids": [
+        "new:t7-optblue-2026"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Acquirers must register high brand risk merchants under Discover's High Brand Risk programme, and payment providers use a separate Advanced Payments Providers portal.",
+       "ids": [
+        "dgn-118",
+        "dgn-119"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The public record on payfac growth and exit at Discover is thin.",
+       "ids": [
+        "dgn-106"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:sponsor-banks",
+     "how_it_works": [
+      {
+       "text": "i3 Verticals says it could not operate if it lost its sponsor and could not migrate its payfac portfolio to another.",
+       "ids": [
+        "new:t7-i3-sponsor"
+       ]
+      },
+      {
+       "text": "Esquire Bank can recover losses from an ISO's reserves and residuals or by liquidating the ISO's merchant portfolio.",
+       "ids": [
+        "new:t7-esq-liquidate"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex states the graduation point in a public one-page notice, so a payfac or ISO can see when a merchant must move to a direct agreement.",
+    "ids": [
+     "new:t7-optblue-2026"
+    ]
+   },
+   "discover_today": {
+    "text": "No public graduation, renewal or exit terms for payfacs or ISOs were found.",
+    "ids": [
+     "dgn-106",
+     "dgn-119"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "An acquirer joining the Visa Global ATM Network must enrol all its Visa and Plus ATMs that sit on other networks.",
+       "ids": [
+        "visa-053"
+       ]
+      },
+      {
+       "text": "ATM acquirers may add Dynamic Currency Conversion and foreign currency return services.",
+       "ids": [
+        "visa-117"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The study found no public Visa rule for leaving the ATM network.",
+       "ids": [
+        "visa-053"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A Principal ending a Cirrus licence gives a year's notice, and an Affiliate six months.",
+       "ids": [
+        "new:t7-mc-rules-term-notice"
+       ]
+      },
+      {
+       "text": "Withdrawing a Cirrus portfolio needs six months' notice and certification that no cards remain.",
+       "ids": [
+        "new:t7-mc-rules-maestro-withdraw"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Cardtronics alleges Mastercard paid banks to make it the priority ATM network operators must route to.",
+       "ids": [
+        "new:t7-cardtronics-priority"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE offers ATM acquirers exclusive Discover and Diners Club cards, partner networks and MoneyPass surcharge-free access.",
+       "ids": [
+        "dgn-142"
+       ]
+      },
+      {
+       "text": "Operators manage listings through the PULSE ATM List Manager.",
+       "ids": [
+        "dgn-183"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "ATM List Manager",
+       "what_it_shows": "A gated PULSE tool for ATM listings.",
+       "ids": [
+        "dgn-183"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The PULSE Select product page now redirects to a general page.",
+       "ids": [
+        "pulse-082"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:euronet",
+     "how_it_works": [
+      {
+       "text": "Euronet switches tourist-location ATMs on by season.",
+       "ids": [
+        "cross-200"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "The only published exit terms found are Mastercard's Cirrus notice periods. The public record for ATM growth and exit is thin.",
+    "ids": [
+     "new:t7-mc-rules-term-notice"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE sells exclusive card access and a listing tool, with no public growth or exit terms.",
+    "ids": [
+     "dgn-142",
+     "dgn-183"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Fintech Fast Track offers cost benefits but publishes no pricing or incentive amounts.",
+       "ids": [
+        "visa-266",
+        "visa-021"
+       ]
+      },
+      {
+       "text": "Visa Consulting and Analytics lists fintechs among its clients.",
+       "ids": [
+        "visa-137"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Since May 2025 a BIN sponsor needs Mastercard's approval per programme manager, revocable without notice.",
+       "ids": [
+        "mastercard-051"
+       ]
+      },
+      {
+       "text": "When a sponsor leaves, each Affiliate must wind down unless another Principal sponsors it in time.",
+       "ids": [
+        "new:t7-mc-rules-affiliate-responsor"
+       ]
+      },
+      {
+       "text": "Product Express and Engage route fintechs to pre-certified partners.",
+       "ids": [
+        "mastercard-274",
+        "mastercard-277"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex admitted Marqeta and Lithic to its Agile Partnership Platform so their clients can add Amex issuing.",
+       "ids": [
+        "amex-074"
+       ]
+      },
+      {
+       "text": "Hypercard launched a card on Amex in 2024, and Amex agreed to acquire it in April 2026.",
+       "ids": [
+        "amex-085",
+        "amex-132"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Stripe, Adyen, Highnote and Lithic document no Discover issuing, and Discover's fintech page names no issuing provider.",
+       "ids": [
+        "dgn-265",
+        "dgn-266",
+        "dgn-268",
+        "dgn-037"
+       ]
+      },
+      {
+       "text": "The owner bought Brex, which competes with fintech partners.",
+       "ids": [
+        "dgn-209"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "other:processors-and-sponsors",
+     "how_it_works": [
+      {
+       "text": "US fintechs changing sponsor bank must change BINs unless the old sponsor transfers the BIN.",
+       "ids": [
+        "new:t7-galileo-bin"
+       ]
+      },
+      {
+       "text": "Bilt moved from Wells Fargo to Column after an early wind-down, promising members their existing card numbers.",
+       "ids": [
+        "new:t7-bilt-wind-down",
+        "new:t7-bilt-keep-number"
+       ]
+      },
+      {
+       "text": "Marqeta's migration service counts payment network engagement as a workstream.",
+       "ids": [
+        "new:t7-marqeta-mig"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex lets a fintech add its network inside the issuing platform it already uses, by admitting those platforms.",
+    "ids": [
+     "amex-074"
+    ]
+   },
+   "discover_today": {
+    "text": "A fintech cannot see which platforms carry Discover issuing, and the owner competes in corporate cards.",
+    "ids": [
+     "dgn-037",
+     "dgn-209"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Adding an API means a new commercial step, with production pricing set per use case in a VDP API Agreement.",
+       "ids": [
+        "visa-217",
+        "visa-220"
+       ]
+      },
+      {
+       "text": "Certificates last 27 months, and expiry emails go out at set intervals for certification and production projects.",
+       "ids": [
+        "visa-203"
+       ]
+      },
+      {
+       "text": "Visa may limit or end any product immediately on written notice.",
+       "ids": [
+        "visa-215"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Onboarding Dashboard",
+       "what_it_shows": "Per-project onboarding, redesigned in September 2025.",
+       "ids": [
+        "visa-220"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Pricing is deferred to the production-access request or an account manager.",
+       "ids": [
+        "mastercard-033"
+       ]
+      },
+      {
+       "text": "Paid subscriptions bill monthly, quarterly or yearly, with prorated refunds on cancellation.",
+       "ids": [
+        "mastercard-125"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Mastercom Extended will replace Mastercom, forcing a migration.",
+       "ids": [
+        "mastercard-216"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "A developer explores, reaches out for access and signs a contract where needed, and some specifications are invite-only.",
+       "ids": [
+        "amex-068",
+        "amex-003"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Amex may throttle, suspend or end access at its discretion.",
+       "ids": [
+        "amex-024"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Developers join only by a representative's invite and see only products granted to them.",
+       "ids": [
+        "new:t7-dev-discover-invite"
+       ]
+      },
+      {
+       "text": "Rate limits come from an API Plan that mirrors the signed agreement.",
+       "ids": [
+        "dgn-011"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard states cancellation terms with prorated refunds in its developer terms.",
+    "ids": [
+     "mastercard-125"
+    ]
+   },
+   "discover_today": {
+    "text": "Adding a Discover API depends on a representative and an agreement change, with no self-service request.",
+    "ids": [
+     "new:t7-dev-discover-invite",
+     "dgn-011"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants dealing with the network directly",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa manages merchant acceptance incentive agreements alongside issuer deals.",
+       "ids": [
+        "new:t7-visa-cio-merchant"
+       ]
+      },
+      {
+       "text": "DOJ alleges missed volume commitments trigger rack rates on all transactions and clawback of incentives.",
+       "ids": [
+        "cross-032",
+        "new:t7-doj-clawback"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Some larger merchants negotiate incentives from Mastercard.",
+       "ids": [
+        "mastercard-423"
+       ]
+      },
+      {
+       "text": "Mastercard sells merchants data products such as SpendingPulse and Test & Learn.",
+       "ids": [
+        "mastercard-296"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Large-merchant agreements run three to seven years, and small and mid-sized ones have no fixed term.",
+       "ids": [
+        "amex-169"
+       ]
+      },
+      {
+       "text": "The Global Client Group manages large merchants end to end.",
+       "ids": [
+        "amex-397"
+       ]
+      },
+      {
+       "text": "Amex sells merchants fraud tools, marketing and data analytics on its closed loop.",
+       "ids": [
+        "amex-313"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "DCX offers merchants data, targeted offers and attribution through a contact form only.",
+       "ids": [
+        "dgn-236"
+       ]
+      },
+      {
+       "text": "Capital One names non-contracted small merchants who can leave on short notice as a risk.",
+       "ids": [
+        "dgn-057"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Merchants met higher debit costs and some foreign declines when Capital One debit moved to Discover.",
+       "ids": [
+        "dgn-215",
+        "dgn-262"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:canada-code",
+     "how_it_works": [
+      {
+       "text": "Canadian merchants may cancel acquiring agreements without penalty within 70 days of a fee rise.",
+       "ids": [
+        "new:t7-fcac-cancel"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Canada's Code gives merchants a penalty-free exit when fees rise, a regulated renewal point.",
+    "ids": [
+     "new:t7-fcac-cancel"
+    ]
+   },
+   "discover_today": {
+    "text": "Merchant growth services sit behind a contact form, and the owner's conversion raised merchant costs on those cards.",
+    "ids": [
+     "dgn-236",
+     "dgn-215"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "Incentive ledger in the partner record",
+   "partner_types": [
+    "Large issuers",
+    "Community banks and credit unions",
+    "Acquirers and processors",
+    "Merchants"
+   ],
+   "move": "Show each commitment, its measure, the partner's standing, who supplied the data, and payment status, including any clawback trigger.",
+   "why_advantage": "Visa and Mastercard track incentives in internal files, billing systems and quarterly reviews, and no partner-facing tracker was found.",
+   "ids": [
+    "new:t7-visa-cipfa-dash",
+    "new:t7-visa-cio-ormb",
+    "new:t7-mc-dealmgr-tracking",
+    "new:t7-mc-dealmgr-clawbacks",
+    "new:t7-visa-10k-client-reported"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "One catalogue with Request and order tracking",
+   "partner_types": [
+    "Large issuers",
+    "Community banks and credit unions",
+    "Acquirers and processors",
+    "ATM operators",
+    "Developers"
+   ],
+   "move": "List every service with an Included or Priced marker, a Request action scoped to BINs, approver sign-off, and a tracked order.",
+   "why_advantage": "Mastercard's Connect Store sets the pattern, while Discover enrols by PDF, form or account executive.",
+   "ids": [
+    "new:t7-mc-connect-store",
+    "new:t7-mc-connect-order",
+    "dgn-176",
+    "pulse-004",
+    "new:t7-dev-discover-invite"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Business review built on shared data",
+   "partner_types": [
+    "Community banks and credit unions",
+    "Large issuers",
+    "Acquirers and processors"
+   ],
+   "move": "Extend the Debit Dashboard model across the family and generate the review from what the partner already sees.",
+   "why_advantage": "PULSE already gives every issuer economics with peers, and its account executive says most issuers do not know their interchange.",
+   "ids": [
+    "new:t7-pulse-dd-overview",
+    "new:t7-pulse-dd-peer",
+    "new:t7-pulse-dd-ae",
+    "new:t7-vap",
+    "new:t7-mc-pa-mbi"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Conversion desk for issuers moving in",
+   "partner_types": [
+    "Community banks and credit unions",
+    "Large issuers",
+    "Fintechs and programme managers"
+   ],
+   "move": "Plan reissue waves, updater coverage, merchant notices, PIN changes and country acceptance gaps as a tracked conversion plan.",
+   "why_advantage": "Visa tools and consults for inbound conversion, and credit unions leave members to fix stored cards and PINs.",
+   "ids": [
+    "new:t7-vau-faq-conversions",
+    "new:t7-vca-migration",
+    "new:t7-clearwater-vau",
+    "new:t7-navigant-pin",
+    "dgn-262",
+    "new:t7-pymnts-cof-intl"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Written exit terms with a leaving checklist",
+   "partner_types": [
+    "Large issuers",
+    "Community banks and credit unions",
+    "Acquirers and processors",
+    "Fintechs and programme managers",
+    "ATM operators"
+   ],
+   "move": "Publish what leaving requires and what survives, including BIN release, cardholder and merchant notices, data export and transfer help.",
+   "why_advantage": "Mastercard and Visa publish exit rules. Discover publishes none, and its owner competes with partner issuers.",
+   "ids": [
+    "new:t7-mc-rules-term-notice",
+    "new:t7-mc-rules-merchant-transfer",
+    "new:t7-visa-rules-bin-release",
+    "dgn-106",
+    "dgn-208"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Renewal workspace over the whole term",
+   "partner_types": [
+    "Large issuers",
+    "Community banks and credit unions",
+    "Acquirers and processors"
+   ],
+   "move": "Open renewal early with term economics, services used, commitments met and an incumbent-incentive line the partner fills in.",
+   "why_advantage": "Networks renew in advance, consultants win by negotiating, and regulators are forcing fee clarity.",
+   "ids": [
+    "new:t7-axp-10k-renew-advance",
+    "new:t7-engagefi-give-take",
+    "new:t7-engagefi-doubled",
+    "cross-075",
+    "new:t7-fcac-notice"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Growth paths inside the record",
+   "partner_types": [
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "Fintechs and programme managers"
+   ],
+   "move": "Show the next step, such as a new country, role or threshold, with eligibility and what changes.",
+   "why_advantage": "Mastercard and Amex publish growth steps and thresholds, and Discover's growth happens case by case.",
+   "ids": [
+    "new:t7-mc-rules-area-of-use",
+    "new:t7-optblue-2026",
+    "new:t7-visa-rules-pf-1m",
+    "diners-030"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Fee explanation included, consulting on request",
+   "partner_types": [
+    "Acquirers and processors",
+    "Large issuers",
+    "Community banks and credit unions"
+   ],
+   "move": "Explain each fee line inside the product at no charge, and offer diagnostic consulting as a visible request.",
+   "why_advantage": "UK acquirers pay schemes to understand their own bills, while Visa and Mastercard sell consulting as a line.",
+   "ids": [
+    "cross-191",
+    "new:t7-teya-billing",
+    "mastercard-396",
+    "new:t7-vca-process"
+   ],
+   "evidence_strength": "moderate"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Partner-facing incentive statements or trackers inside Visa Access, the Mastercard Pricing and Billing Resource Center, the Amex Partner Analytics Center or the PULSE portal.",
+   "why": "All four are behind login, and job postings describe only internal tracking.",
+   "how_to_see_it": "Watch Amex's 2021 Partner Analytics Center replay captions, and look for exhibits in United States v. Visa."
+  },
+  {
+   "what": "Business review decks and scorecards networks show partners.",
+   "why": "No public copies were found.",
+   "how_to_see_it": "Search court exhibits, credit union board minutes and conference talks by network account staff."
+  },
+  {
+   "what": "Visa voluntary termination notice periods and Amex GNS exit terms.",
+   "why": "Visa's public rules cover BIN release but not notice, and the Amex manual is gated.",
+   "how_to_see_it": "Read Visa U.S.A. certificate and bylaws filings, and any Amex terms republished by a licensee."
+  },
+  {
+   "what": "Discover and PULSE rules on termination, portfolio transfer and incentive clawback.",
+   "why": "Operating regulations are not published.",
+   "how_to_see_it": "Check processor release notes and issuer notices from banks leaving or joining PULSE."
+  },
+  {
+   "what": "Whether Discover's account updater supports conversions into or out of Discover.",
+   "why": "No public statement was found.",
+   "how_to_see_it": "Read the Discover Network Account Updater page on the Partner Product Portal and processor guides."
+  },
+  {
+   "what": "The current Mastercard Connect Store screens.",
+   "why": "The public overview dates from 2022.",
+   "how_to_see_it": "Search newer Connect guides that banks and processors republish."
+  },
+  {
+   "what": "How Visa Consulting and Analytics and Mastercard Advisors are priced or bundled into deals.",
+   "why": "Neither publishes pricing.",
+   "how_to_see_it": "Search public-sector card programme tenders, which sometimes disclose network services."
+  },
+  {
+   "what": "Growth and exit steps for ATM operators and payfacs at Discover and Visa.",
+   "why": "No public procedures were found.",
+   "how_to_see_it": "Ask ATM industry associations and read sponsor bank programme guides."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t7-mc-rules-portfolio-notice",
+   "network": "mastercard",
+   "claim": "Mastercard must receive written notice at least 30 days before any transfer or assignment of a Mastercard portfolio.",
+   "quote": "The Corporation must receive written notice at least 30 days before the effective date of any proposed transfer or assignment of a Mastercard Portfolio.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-maestro-withdraw",
+   "network": "mastercard",
+   "claim": "A Principal withdrawing a Maestro or Cirrus portfolio must give six months' written notice and certify no cards remain in circulation, unless Mastercard approves a phased plan.",
+   "quote": "The Principal must provide the Corporation with at least six months prior written notice of its intent to withdraw a Portfolio.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-term-notice",
+   "network": "mastercard",
+   "claim": "Voluntary termination needs written notice and documentation. Notice runs 30 days for a Mastercard licence, one year for Principal Maestro or Cirrus, six months for Affiliate Maestro or Cirrus, 60 days for Digital Activity.",
+   "quote": "A Customer may voluntarily terminate its Participation and/or Licenses and/or Digital Activity Agreements and/or PTA Agreements by providing written notice",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-no-refund",
+   "network": "mastercard",
+   "claim": "A terminated Mastercard customer gets no refund of dues or fees and stays liable for all charges arising before or after termination.",
+   "quote": "A terminated Customer is not entitled to any refund of dues, fees, assessments, or other payments",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-cancel-cards",
+   "network": "mastercard",
+   "claim": "A terminated issuer must cancel all outstanding cards, notify cardholders in writing and disable chip payment applications within six months.",
+   "quote": "The terminated Customer must promptly cancel all Cards then outstanding that were issued by the terminated Customer",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-merchant-transfer",
+   "network": "mastercard",
+   "claim": "A terminated acquirer must notify its merchants and cooperate with Mastercard and other customers to transfer merchants that want to keep accepting cards.",
+   "quote": "If any such Merchant wishes to continue to accept Cards and/or PTA Transactions, the terminated Customer must cooperate with the Corporation and other Customers",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-affiliate-responsor",
+   "network": "mastercard",
+   "claim": "When a Principal leaves, each sponsored Affiliate must act as a terminated customer unless another Principal sponsors it within a period Mastercard accepts.",
+   "quote": "unless and to the extent that any such Affiliate becomes an Affiliate Sponsored by a different Principal or Association",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-inactivity",
+   "network": "mastercard",
+   "claim": "Mastercard may terminate a customer that does no activity for 26 consecutive weeks or fails to operate at the scale of its approved business plan.",
+   "quote": "The Customer fails to engage in Activity for 26 consecutive weeks",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-area-of-use",
+   "network": "mastercard",
+   "claim": "To extend a licence into new countries a customer applies to Mastercard, which amends the licence if it approves.",
+   "quote": "A Customer must apply to the Corporation for permission to extend the Area of Use of a License.",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-form1336",
+   "network": "mastercard",
+   "claim": "Activity under the listed Area of Use extension programmes needs a certification form (Form 1336) emailed to Mastercard at least 14 calendar days ahead.",
+   "quote": "At least 14 calendar days before a Customer proposes to conduct Activity under any of the extension of Area of Use programs",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-rules-variance",
+   "network": "mastercard",
+   "claim": "A customer asks to depart from a Mastercard standard through the Variance Manager tool on Mastercard Connect.",
+   "quote": "The request must be submitted to the Corporation using the Variance Manager tool on Mastercard Connect",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-bin-release",
+   "network": "visa",
+   "claim": "Voluntary Visa membership termination takes effect only once every BIN, acquiring identifier and numeric ID is released.",
+   "quote": "Voluntary termination of membership will not be effective until all BINs, Acquiring Identifiers, and other Numeric IDs assigned to the Member are released",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-120days",
+   "network": "visa",
+   "claim": "A BIN or acquiring identifier must be inactive for at least 120 days before Visa will release it.",
+   "quote": "The BIN or Acquiring Identifier must have been inactive for at least 120 days before it is eligible to be released",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-liability-remains",
+   "network": "visa",
+   "claim": "After release the former licensee stays liable for exception activity and fees incurred before release, and must tell impacted parties to delete the BIN.",
+   "quote": "remains liable for any exception activity and fees related to the BIN or Acquiring Identifier that were incurred prior to the date of its release",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-portfolio-sale",
+   "network": "visa",
+   "claim": "BINs may not be sold, and the licensee must notify Visa of a portfolio sale or merger.",
+   "quote": "In the event of a portfolio sale or merger, the BIN Licensee or Acquiring Identifier Licensee is responsible for notifying Visa.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-processor-conversion",
+   "network": "visa",
+   "claim": "A member moving a BIN to a new VisaNet processor must make the new processor complete activity on the converted BIN unless the old one agrees to.",
+   "quote": "If a Member converts a BIN or an Acquiring Identifier to a newly designated VisaNet Processor or Visa Scheme Processor",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-assuming-org",
+   "network": "visa",
+   "claim": "An organisation that assumes a closing member's Visa programmes must file membership materials within 10 calendar days or cease operating them.",
+   "quote": "Submit to Visa the appropriate membership application materials within 10 calendar days after assuming the Visa Programs",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-cpm-tools",
+   "network": "visa",
+   "claim": "Visa's Client Portfolio Management Self-Service Tools in Visa Access are Program Request Management, the electronic Client Information Questionnaire and the Visa Client Support Application.",
+   "quote": "A set of tools, available through Visa Access to Members, VisaNet Processors, and designated Agents, providing the ability to manage and support Visa profile information",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-client-directory",
+   "network": "visa",
+   "claim": "Members must keep Client Directory contacts current in Visa Access, updating within 10 business days of a change.",
+   "quote": "All directory updates: Within 10 business days of the effective date of the change",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-acquirer-jurisdiction",
+   "network": "visa",
+   "claim": "An acquirer may accept transactions only from merchant outlets in its own country unless Visa approves otherwise or a listed exception applies.",
+   "quote": "An Acquirer must accept Transactions only from a Merchant Outlet within the Acquirer’s Country of Domicile",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-pf-1m",
+   "network": "visa",
+   "claim": "An acquirer's payment facilitator must move a sponsored merchant above USD 1 million a year onto a direct merchant agreement.",
+   "quote": "must enter into a direct Merchant Agreement with a Sponsored Merchant that exceeds USD 1 million in annual Transaction volume",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-rules-tpa-annual",
+   "network": "visa",
+   "claim": "A member must review each registered third party agent every year.",
+   "quote": "A Member with a registered Third Party Agent must perform an annual review of the Third Party Agent",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-10k-long-term-incentive",
+   "network": "visa",
+   "claim": "Visa signs long-term incentive contracts with financial institutions, sellers and other partners.",
+   "quote": "We enter into long-term incentive contracts with financial institution clients, sellers and other business partners",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "title": "Visa Inc. Form 10-K for fiscal year ended 30 September 2025",
+   "publisher": "Visa Inc. via SEC EDGAR",
+   "published": "2025-11",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-10k-incentive-estimate",
+   "network": "visa",
+   "claim": "Visa estimates client incentives from forecasts of volume, card issuance and card conversion.",
+   "quote": "Estimation of client incentives relies on forecasts of payments and transaction volume, card issuance and card conversion",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "title": "Visa Inc. Form 10-K for fiscal year ended 30 September 2025",
+   "publisher": "Visa Inc. via SEC EDGAR",
+   "published": "2025-11",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-visa-10k-client-reported",
+   "network": "visa",
+   "claim": "Visa estimates client performance partly from information clients report.",
+   "quote": "Performance is estimated using client-reported information",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "title": "Visa Inc. Form 10-K for fiscal year ended 30 September 2025",
+   "publisher": "Visa Inc. via SEC EDGAR",
+   "published": "2025-11",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-ma-10k-volume-thresholds",
+   "network": "mastercard",
+   "claim": "Mastercard's business agreements pay rebates and incentives when customers meet volume thresholds or other performance terms.",
+   "quote": "business agreements with certain customers that provide for rebates and incentives when customers meet certain volume thresholds",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+   "title": "Mastercard Incorporated Form 10-K for 2025",
+   "publisher": "Mastercard via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-ma-10k-card-conversion",
+   "network": "mastercard",
+   "claim": "Mastercard estimates customer performance from forecast transactions, card issuance and card conversion volumes.",
+   "quote": "forecasted transactions, card issuance and card conversion volumes, expected payments and historical experience with that customer",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+   "title": "Mastercard Incorporated Form 10-K for 2025",
+   "publisher": "Mastercard via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-ma-10k-services-win-deals",
+   "network": "mastercard",
+   "claim": "Mastercard says its data-based services help it win new and renewed customer deals.",
+   "quote": "insightful services and solutions that can, in turn, help us win new and renewed customer deals",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+   "title": "Mastercard Incorporated Form 10-K for 2025",
+   "publisher": "Mastercard via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-ma-10k-reassess",
+   "network": "mastercard",
+   "claim": "Mastercard says customers can reassess their commitments within their contract terms.",
+   "quote": "Our customers can reassess their future commitments to us subject to the terms of our contracts",
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm",
+   "title": "Mastercard Incorporated Form 10-K for 2025",
+   "publisher": "Mastercard via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-axp-10k-fixed-period",
+   "network": "amex",
+   "claim": "Amex cobrand and partner arrangements run for a fixed period and end then unless extended or renewed.",
+   "quote": "Cobrand and other partner arrangements are generally entered into for a fixed period and will terminate in accordance with their terms",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "title": "American Express Form 10-K for 2025",
+   "publisher": "American Express via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-axp-10k-renew-advance",
+   "network": "amex",
+   "claim": "Amex seeks to extend or renew partner arrangements before the contract term ends.",
+   "quote": "We regularly seek to extend or renew cobrand and other partner arrangements in advance of the end of the contract term",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "title": "American Express Form 10-K for 2025",
+   "publisher": "American Express via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-axp-10k-purchase-loans",
+   "network": "amex",
+   "claim": "Some Amex cobrand contracts let the partner buy, or name a buyer for, the card loans when the deal ends.",
+   "quote": "the cobrand partner may purchase or designate a third party to purchase the loans generated with respect to such cobranded card portfolio",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "title": "American Express Form 10-K for 2025",
+   "publisher": "American Express via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-axp-10k-not-renew",
+   "network": "amex",
+   "claim": "Amex may not renew its Amazon and Lowe's small business cobrand portfolios, which it reclassified as held for sale.",
+   "quote": "We also may not renew certain relationships, such as our Amazon and Lowe's small business cobrand portfolios",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "title": "American Express Form 10-K for 2025",
+   "publisher": "American Express via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-axp-10k-costco",
+   "network": "amex",
+   "claim": "Amex cites the 2016 end of its US Costco relationship as an example of non-renewal.",
+   "quote": "such as the end of our relationship with Costco in the United States in 2016",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "title": "American Express Form 10-K for 2025",
+   "publisher": "American Express via SEC EDGAR",
+   "published": "2026-02",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26"
+  },
+  {
+   "key": "t7-mc-connect-store",
+   "network": "mastercard",
+   "claim": "The Mastercard Connect Store lists applications and reports. Items a user lacks show a Request button, and a checkout form sets data access by ICA, BIN or account range.",
+   "quote": "Complete required details on the checkout form and select ‘Request access’",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (pypdf text)"
+  },
+  {
+   "key": "t7-mc-connect-order",
+   "network": "mastercard",
+   "claim": "Each Connect Store request becomes an order with a tracking number, reviewed by the company's Security Administrator and tracked under Track Orders.",
+   "quote": "Your order is currently being reviewed by your Security Administrator(s).",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (pypdf text)"
+  },
+  {
+   "key": "t7-mc-connect-billing",
+   "network": "mastercard",
+   "claim": "The Connect Store lists a Pricing and Billing Resource Center with the Pricing Guide and a Transaction Detail tool, plus Operational Reports and Mastercard Market Trends.",
+   "quote": "Your one-stop-shop for your pricing and billing needs, including Mastercard’s Pricing Guide and the Transaction Detail tool.",
+   "url": "https://static.developer.mastercard.com/content/identity-insights-for-transactions/ConnectOverview.pdf",
+   "title": "Mastercard Connect Overview 2022",
+   "publisher": "Mastercard",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (pypdf text, spacing normalised)"
+  },
+  {
+   "key": "t7-vau-faq-conversions",
+   "network": "visa",
+   "claim": "Visa Account Updater supports portfolio conversions from Mastercard, American Express and Discover into Visa, and Visa to Visa.",
+   "quote": "Visa Account Updater (VAU) supports MasterCard-to-Visa, American Express-to-Visa, Discover-to-Visa, and Visa-to-Visa portfolio conversions.",
+   "url": "https://developer.visa.com/capabilities/vau/vau-faq",
+   "title": "Visa Account Updater (VAU) FAQs",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-vau-faq-lac",
+   "network": "visa",
+   "claim": "Only in Latin America and the Caribbean does Visa Account Updater support conversions from Visa to other networks.",
+   "quote": "In LAC, VAU also supports Visa to non-Visa (MasterCard, American Express, Discover) portfolio conversions",
+   "url": "https://developer.visa.com/capabilities/vau/vau-faq",
+   "title": "Visa Account Updater (VAU) FAQs",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-abu-brandflips",
+   "network": "mastercard",
+   "claim": "Mastercard's Automatic Billing Updater records issuer lifecycle events including brand flips and portfolio upgrades.",
+   "quote": "closures, brand flips, and portfolio upgrades",
+   "url": "https://developer.mastercard.com/llms.txt",
+   "title": "Mastercard Developers llms.txt",
+   "publisher": "Mastercard",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-clearwater-vau",
+   "network": "cross",
+   "claim": "Clearwater Credit Union's Mastercard-to-Visa debit move changes card numbers and uses Visa Account Updater to refresh stored cards at participating merchants.",
+   "quote": "we’ll use Visa’s Account Updater tool to automatically update your card information on file with thousands of participating merchants",
+   "url": "https://clearwatercreditunion.org/debit-card-update/",
+   "title": "Debit Card Update",
+   "publisher": "Clearwater Credit Union",
+   "published": "2025-07-29",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-lbcu-processor",
+   "network": "cross",
+   "claim": "Liberty Bay Credit Union says a new debit processor let it switch its debit brand from Mastercard to Visa.",
+   "quote": "Liberty Bay is partnering with a new debit card processor which allowed LBCU to make a brand change from Mastercard™ to VISA®.",
+   "url": "https://lbcu.org/help-center/new-visa-debit-card/",
+   "title": "Our New Visa Debit Card Is Here",
+   "publisher": "Liberty Bay Credit Union",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-navigant-mc",
+   "network": "cross",
+   "claim": "Navigant Credit Union moved consumer and business debit cards from Visa to Mastercard.",
+   "quote": "Navigant Credit Union consumer and business debit cards will transition from Visa® to Mastercard® beginning in early October.",
+   "url": "https://navigantcu.org/mastercard-debit/",
+   "title": "Mastercard Debit Upgrade",
+   "publisher": "Navigant Credit Union",
+   "published": "2025-07-07",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-navigant-pin",
+   "network": "cross",
+   "claim": "Navigant's members had to reset PINs and update card-on-file payments after the brand change.",
+   "quote": "your current VISA PINs will not automatically carry over to your new Mastercard.",
+   "url": "https://navigantcu.org/mastercard-debit/",
+   "title": "Mastercard Debit Upgrade",
+   "publisher": "Navigant Credit Union",
+   "published": "2025-07-07",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-cobalt-disable",
+   "network": "cross",
+   "claim": "Cobalt Credit Union disabled old Mastercard debit cards on a fixed date after moving members to Visa.",
+   "quote": "On March 9, 2026 , your current card will be automatically disabled.",
+   "url": "https://cobaltcu.com/visa-conversion",
+   "title": "Visa Debit Card Transition",
+   "publisher": "Cobalt Credit Union",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-vca-process",
+   "network": "visa",
+   "claim": "Visa Consulting and Analytics describes a four-step engagement: Diagnose, Align, Roadmap and Implement, with implementation through VCA Implementation Services.",
+   "quote": "Use expertise, data and benchmarking to uncover opportunities for growth and enhanced profitability.",
+   "url": "https://usa.visa.com/partner-with-us/visa-consulting-analytics.html",
+   "title": "Visa Consulting and Analytics",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26 (page JSON)"
+  },
+  {
+   "key": "t7-vca-migration",
+   "network": "visa",
+   "claim": "Visa Consulting and Analytics lists portfolio migration among its outcomes.",
+   "quote": "Portfolio Migration Up to 3 M+ Cards migrated in first 6 months at 85% activation",
+   "url": "https://usa.visa.com/partner-with-us/visa-consulting-analytics.html",
+   "title": "Visa Consulting and Analytics",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-visa-cgap",
+   "network": "visa",
+   "claim": "Visa's Community Growth Acceleration Program gives participating community banks and credit unions a suite of products and assets, enrolled through Visa Online.",
+   "quote": "participating in the Community Growth Acceleration Program, you get access to a suite of products, assets, thought leadership and more",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/community-solutions.html",
+   "title": "Community Solutions",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-vap",
+   "network": "visa",
+   "claim": "Visa Analytics Platform is a self-service web tool with peer benchmarking, dashboards and custom reports on portfolio, fraud, approvals and disputes.",
+   "quote": "Visa Analytics Platform is a web-based, self-service analytics solution that puts payments data and insights at your fingertips.",
+   "url": "https://usa.visa.com/partner-with-us/visa-analytics-platform.html",
+   "title": "Visa Analytics Platform",
+   "publisher": "Visa",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-visa-cio-merchant",
+   "network": "visa",
+   "claim": "Visa's Client Incentive Operations team manages both client incentive and merchant acceptance incentive agreements.",
+   "quote": "The Client Incentive Operations team are responsible for managing Client Incentive and Merchant Acceptance Incentive agreements.",
+   "url": "https://www.wayup.com/i-Financial-Services-j-Visa-571581195896774/",
+   "title": "Financial Analyst - Client Incentive Operations",
+   "publisher": "Visa (job posting via WayUp)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-visa-cio-ormb",
+   "network": "visa",
+   "claim": "Visa sets up incentive contracts in Oracle Revenue Management and Billing, tracks contractual payments and checks with clients whether obligations were met.",
+   "quote": "Liaise with Sales, Legal and clients to determine the fulfillment of contractual obligations.",
+   "url": "https://www.wayup.com/i-Financial-Services-j-Visa-571581195896774/",
+   "title": "Financial Analyst - Client Incentive Operations",
+   "publisher": "Visa (job posting via WayUp)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-visa-cipfa-dash",
+   "network": "visa",
+   "claim": "A Visa Europe analyst role builds internal incentive tracking files, dashboards and KPIs for cluster finance directors.",
+   "quote": "Develop and maintain incentive tracking files, dashboards and KPIs and automate wherever possible (Power Query, Power BI, VBA).",
+   "url": "https://builtin.com/job/client-incentive-performance-finance-analyst/7101116",
+   "title": "Client Incentive Performance Finance Analyst",
+   "publisher": "Visa (job posting via Built In)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-dealmgr-tracking",
+   "network": "mastercard",
+   "claim": "A Mastercard deal management manager monitors contracts and tracks incentives, calculates incentive payments and joins regional quarterly incentive reviews.",
+   "quote": "Responsible for contract monitoring, incentive reporting and tracking across the GeoNorth division of the LAC region",
+   "url": "https://builtin.com/job/manager-deal-management-fp-strategy-and-or-m-background/7235812",
+   "title": "Manager, Deal Management",
+   "publisher": "Mastercard (job posting via Built In)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-dealmgr-clawbacks",
+   "network": "mastercard",
+   "claim": "Mastercard reviews drafted incentive contracts against the approved business case, including term, clawbacks and customer commitments.",
+   "quote": "Ensures all other terms agree with approved business case (e.g., term, claw backs, customer commitments)",
+   "url": "https://builtin.com/job/manager-deal-management-fp-strategy-and-or-m-background/7235812",
+   "title": "Manager, Deal Management",
+   "publisher": "Mastercard (job posting via Built In)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-dealmgr-customer",
+   "network": "mastercard",
+   "claim": "Mastercard deal managers discuss incentive deal performance with customers and account managers.",
+   "quote": "Interacts with customers and account managers on incentive deal performance",
+   "url": "https://builtin.com/job/manager-deal-management-fp-strategy-and-or-m-background/7235812",
+   "title": "Manager, Deal Management",
+   "publisher": "Mastercard (job posting via Built In)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-am-contract",
+   "network": "mastercard",
+   "claim": "Mastercard account management supports contract negotiation and builds revenue and expense benchmarks for customers.",
+   "quote": "Assist in negotiation, execution and managing the customer contract agreement process",
+   "url": "https://www.builtinnyc.com/job/associate-analyst-account-management-launch-program-2026-new-york/7235331",
+   "title": "Associate Analyst, Account Management, Launch Program 2026",
+   "publisher": "Mastercard (job posting via Built In NYC)",
+   "published": "",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-mc-pa-mbi",
+   "network": "mastercard",
+   "claim": "Mastercard's Portfolio Advisor gives issuers self-service approval recommendations from competitive benchmarks, reached through Mastercard Business Intelligence.",
+   "quote": "Access Portfolio Advisor via Mastercard Business Intelligence.",
+   "url": "https://www.mastercard.com/us/en/business/insights-intelligence/advanced-analytics/solutions/portfolio-advisor.html",
+   "title": "Portfolio Advisor for Approval Optimization",
+   "publisher": "Mastercard",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "Wayback Machine snapshot via curl 2026-09-26 (20260520 capture, live page returns 403)"
+  },
+  {
+   "key": "t7-mc-advisors",
+   "network": "mastercard",
+   "claim": "Mastercard markets its Advisors consulting on 20-plus years of advisory work plus its data and technology.",
+   "quote": "Harness Mastercard’s 20+ years of advisory experience, unrivalled data insights and technology to deliver lasting outcomes.",
+   "url": "https://www.mastercard.com/us/en/business/insights-intelligence/advisors-transformation.html",
+   "title": "Advisors and transformation",
+   "publisher": "Mastercard",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "Wayback Machine snapshot via curl 2026-09-26 (20260909 capture, live page returns 403)"
+  },
+  {
+   "key": "t7-pulse-dd-overview",
+   "network": "pulse",
+   "claim": "The PULSE Debit Dashboard lets issuers analyse revenue, expense and approval rates by BIN, by PULSE product and by interchange category.",
+   "quote": "an overview page that allows users to analyze data by BIN or BIN range to evaluate key portfolio metrics including revenue, expense, and approval rates",
+   "url": "https://content.pulsenetwork.com/recent-news/unlock-the-value-of-your-data-with-the-pulse-debit-dashboard",
+   "title": "Unlock the Value of Your Data with the PULSE Debit Dashboard",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-dd-peer",
+   "network": "pulse",
+   "claim": "The Debit Dashboard includes a Peer Comparison feature for approval and decline rates, spend and volume.",
+   "quote": "a “Peer Comparison” feature also allows issuers to gauge how they stack up to industry peers",
+   "url": "https://content.pulsenetwork.com/recent-news/unlock-the-value-of-your-data-with-the-pulse-debit-dashboard",
+   "title": "Unlock the Value of Your Data with the PULSE Debit Dashboard",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-dd-access",
+   "network": "pulse",
+   "claim": "Every PULSE issuing participant can request Debit Dashboard access through the PULSE site's registration page.",
+   "quote": "Network participants may request access to the dashboard on the PULSE website registration page.",
+   "url": "https://content.pulsenetwork.com/recent-news/unlock-the-value-of-your-data-with-the-pulse-debit-dashboard",
+   "title": "Unlock the Value of Your Data with the PULSE Debit Dashboard",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-dd-ae",
+   "network": "pulse",
+   "claim": "A PULSE account executive says most issuers do not know the exact interchange they earn or their total costs.",
+   "quote": "most issuers are unaware of the exact interchange they are earning and their total costs",
+   "url": "https://content.pulsenetwork.com/recent-news/unlock-the-value-of-your-data-with-the-pulse-debit-dashboard",
+   "title": "Unlock the Value of Your Data with the PULSE Debit Dashboard",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-pss-contract",
+   "network": "pulse",
+   "claim": "PULSE frames its Partner Support Services as the relationship after signing: analytics, fraud, marketing, disputes and research.",
+   "quote": "We don’t rest easy once the contract is signed. In fact, we’re just getting started.",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "title": "Partner Support Services",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "node tools/text.js 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-choice-reeval",
+   "network": "pulse",
+   "claim": "PULSE invites issuers to re-evaluate their debit programme and promises a dedicated account rep for launch and growth.",
+   "quote": "You’ll receive a dedicated account rep and team of experts to be with you every step of the way",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/choice/",
+   "title": "Discover Debit is designed for community banks",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pulse-cases-switch",
+   "network": "pulse",
+   "claim": "PULSE publishes three brand-switch case studies (TEXAR FCU, Extraco Banks, Colony Bank), each downloaded through a form.",
+   "quote": "improved net economics and member value by switching its debit card brand to Discover",
+   "url": "https://content.pulsenetwork.com/discover-debit-success-stories/texar-federal-credit-union-case-study",
+   "title": "TEXAR Federal Credit Union case study",
+   "publisher": "PULSE",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-amex-train-custom",
+   "network": "amex",
+   "claim": "Amex Network Partner Learning assigns training according to each user's Knowledge Base profile.",
+   "quote": "Customized learning tailored and assigned according to your Knowledge Base profile.",
+   "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+   "title": "Partner Learning Solutions",
+   "publisher": "American Express",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-amex-train-list",
+   "network": "amex",
+   "claim": "The public Amex partner webinar list runs from March 2021 to June 2022 and includes Navigating the Partner Analytics Center and a card acquisition campaign session.",
+   "quote": "Growing Card Acquistition With Member-Get-Member Campaigns",
+   "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+   "title": "Partner Learning Solutions",
+   "publisher": "American Express",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-amex-train-service-enrol",
+   "network": "amex",
+   "claim": "Amex describes Service Enrollment as one place to read about each service and enrol directly.",
+   "quote": "Find out more about each service available and enrol directly for the services you require all in one place.",
+   "url": "https://network.americanexpress.com/globalnetwork/partner-training",
+   "title": "Partner Learning Solutions",
+   "publisher": "American Express",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-optblue-2026",
+   "network": "amex",
+   "claim": "From 17 April 2026 Amex's US OptBlue ceiling rose to USD 3 million of estimated annual charge volume, with some industries uncapped.",
+   "quote": "$3,000,000 for all eligible industry categories (excluding those listed below)",
+   "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-945_OptBlue_SA_ProgramUpdates_2026_April.pdf?v=0",
+   "title": "OptBlue Program Update, April 2026",
+   "publisher": "American Express",
+   "published": "2026-04",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (pypdf text)"
+  },
+  {
+   "key": "t7-fcac-cancel",
+   "network": "cross",
+   "claim": "Canada's Code lets merchants cancel acquiring agreements without penalty within 70 days after a fee increase or new fee takes effect.",
+   "quote": "without any form of penalty, within 70 calendar days after the effective date",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2024-10-30",
+   "label": "Verified",
+   "fetch": "WebFetch 2026-09-26 (curl blocked)"
+  },
+  {
+   "key": "t7-fcac-notice",
+   "network": "cross",
+   "claim": "Canada's Code requires card networks to give acquirers 120 days' notice of non-structural fee changes and 210 days for structural ones.",
+   "quote": "PCNOs will provide at least 120 calendar days' notice to Acquirers for domestic Non-Structural Fees changes",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2024-10-30",
+   "label": "Verified",
+   "fetch": "WebFetch 2026-09-26 (curl blocked)"
+  },
+  {
+   "key": "t7-doj-clawback",
+   "network": "cross",
+   "claim": "DOJ alleges Visa's merchant routing contracts let Visa end the deal early and claw back paid incentives as termination fees.",
+   "quote": "allows Visa to terminate the entire contract early and claw back as early termination fees incentives that Visa had previously paid the merchant",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-doj-issuer-etf",
+   "network": "cross",
+   "claim": "DOJ alleges an issuer missing Visa's growth requirement could owe earned benefits back plus a fixed early termination fee.",
+   "quote": "required to pay an early termination fee comprised of a percentage of the benefits it has already earned plus a multimillion-dollar fixed fee",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-doj-rarely-change",
+   "network": "cross",
+   "claim": "DOJ alleges issuers rarely change front-of-card network, partly because reissuing cards is costly.",
+   "quote": "Issuers rarely change their front-of-card network due, in part, to significant switching costs, such as the costs of re-issuing new debit cards",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-doj-1000",
+   "network": "cross",
+   "claim": "DOJ alleges nearly 1,000 Visa issuing contracts carry volume incentives that deter adding debit networks.",
+   "quote": "Visa has nearly 1,000 issuing contracts that contain significant volume incentives, which strongly deter the issuer putting more debit networks",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-doj-shazam",
+   "network": "shazam",
+   "claim": "DOJ quotes Visa material saying an issuer's only way to protect volume was to drop SHAZAM.",
+   "quote": "dump[] their debit network (Shazam) if it starts shifting volume.",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-cardtronics-priority",
+   "network": "mastercard",
+   "claim": "Cardtronics alleges Mastercard paid banks incentives to designate it the priority ATM network that operators must route to.",
+   "quote": "banks designate Mastercard as the “priority” ATM network over which the independent ATM operator must route transactions or face significant fines",
+   "url": "https://storage.courtlistener.com/recap/gov.uscourts.dcd.283907/gov.uscourts.dcd.283907.1.0.pdf",
+   "title": "Cardtronics v. Mastercard, Complaint (D.D.C.)",
+   "publisher": "CourtListener RECAP",
+   "published": "",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (allegation)"
+  },
+  {
+   "key": "t7-i3-sponsor",
+   "network": "cross",
+   "claim": "i3 Verticals says losing its bank sponsor without migrating its payfac portfolio to a new sponsor would stop its business.",
+   "quote": "successfully migrate our payment facilitator customer portfolio to a new bank sponsor, we will not be able to conduct our business",
+   "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+   "title": "i3 Verticals Form 10-K for fiscal 2025",
+   "publisher": "i3 Verticals via SEC EDGAR",
+   "published": "2025-11",
+   "label": "Verified",
+   "fetch": "curl with declared user agent 2026-09-26"
+  },
+  {
+   "key": "t7-esq-liquidate",
+   "network": "cross",
+   "claim": "Esquire Bank can recover merchant losses from an ISO's reserves and residuals, or by liquidating the ISO's merchant portfolio.",
+   "quote": "deduct from the ISO monthly residual on an ongoing basis until fully recovered; and liquidate all or a portion of the ISO merchant portfolio",
+   "url": "https://www.sec.gov/Archives/edgar/data/1531031/000110465926027706/esq-20251231x10k.htm",
+   "title": "Esquire Financial Holdings Form 10-K for 2025",
+   "publisher": "Esquire via SEC EDGAR",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with declared user agent 2026-09-26"
+  },
+  {
+   "key": "t7-teya-billing",
+   "network": "cross",
+   "claim": "Teya told the PSR that schemes sell billing-explanation services it says belong in participant manuals.",
+   "quote": "schemes sell services such as ‘how to understand our billings’, which ought to be included in participant manuals as basic information",
+   "url": "https://www.psr.org.uk/media/y0tl1lrj/mr22-16-consultation-responses-nov-2024.pdf",
+   "title": "MR22/1.6 consultation responses",
+   "publisher": "Payment Systems Regulator",
+   "published": "2024-11",
+   "label": "Verified",
+   "fetch": "curl 2026-09-26 (pypdf text)"
+  },
+  {
+   "key": "t7-galileo-bin",
+   "network": "cross",
+   "claim": "SoFi Tech Solutions says US fintechs changing sponsor bank must change BINs unless the old sponsor transfers the BIN.",
+   "quote": "fintechs and program managers will have to change BINs if switching sponsor banks, unless the current sponsor bank is willing to transfer the BIN",
+   "url": "https://www.galileo-ft.com/blog/bin-sponsorship-what-fintechs-should-know-when-choosing-or-changing-sponsor-banks/",
+   "title": "BIN Sponsorship: What Fintechs Should Know When Choosing or Changing Sponsor Banks",
+   "publisher": "SoFi Tech Solutions (Galileo)",
+   "published": "2023-08-28",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-marqeta-mig",
+   "network": "cross",
+   "claim": "Marqeta's portfolio migration service lists payment network engagement among its workstreams.",
+   "quote": "we proactively help you to address regulatory requirements, payment network engagement and inventory management",
+   "url": "https://www.marqeta.com/blog/simplifying-the-process-of-card-portfolio-migration",
+   "title": "Simplifying the process of card portfolio migration",
+   "publisher": "Marqeta",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-bilt-keep-number",
+   "network": "cross",
+   "claim": "Bilt told cardholders moving from Wells Fargo to Column-issued cards they would keep their card numbers if they chose by 1 February 2026.",
+   "quote": "they would keep their existing card number",
+   "url": "https://fintechbusinessweekly.substack.com/p/bilt-users-revolt-over-rocky-transition",
+   "title": "Bilt Users Revolt Over Rocky Transition",
+   "publisher": "Fintech Business Weekly",
+   "published": "2026-03-08",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-bilt-wind-down",
+   "network": "cross",
+   "claim": "Wells Fargo ended the Bilt partnership early, with Wells Fargo-issued Bilt cards sunsetting on 6 February 2026.",
+   "quote": "the bank announced the partnership would wind down early",
+   "url": "https://fintechbusinessweekly.substack.com/p/bilt-users-revolt-over-rocky-transition",
+   "title": "Bilt Users Revolt Over Rocky Transition",
+   "publisher": "Fintech Business Weekly",
+   "published": "2026-03-08",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pymnts-cof-test",
+   "network": "dgn",
+   "claim": "Capital One's chief executive said it is testing both new originations and conversions of existing credit accounts on the Discover network.",
+   "quote": "testing the conversion of existing Capital One accounts to the Discover network",
+   "url": "https://www.pymnts.com/earnings/2026/capital-one-tests-moving-credit-cards-to-discover-network/",
+   "title": "Capital One Tests Moving Credit Cards to Discover Network",
+   "publisher": "PYMNTS",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pymnts-cof-intl",
+   "network": "dgn",
+   "claim": "Capital One is closing domestic acceptance gaps and raising acceptance in its customers' four leading destinations.",
+   "quote": "Mexico, the Caribbean, Canada and the United Kingdom",
+   "url": "https://www.pymnts.com/earnings/2026/capital-one-tests-moving-credit-cards-to-discover-network/",
+   "title": "Capital One Tests Moving Credit Cards to Discover Network",
+   "publisher": "PYMNTS",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pj-cof-venture",
+   "network": "dgn",
+   "claim": "Capital One's Venture X and several co-brand cards remain on Visa while credit testing runs.",
+   "quote": "The flagship Venture X card has remained on Visa, along with co-branded cards for T-Mobile, Kohl’s, and Bass Pro Shops/Cabela’s",
+   "url": "https://www.paymentsjournal.com/after-moving-debit-cards-to-discover-capital-one-turns-to-credit-card-migration/",
+   "title": "After Moving Debit Cards to Discover, Capital One Turns to Credit Card Migration",
+   "publisher": "PaymentsJournal",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-pd-mc-cof",
+   "network": "mastercard",
+   "claim": "Mastercard renewed its credit partnership with Capital One after the Discover purchase and will carry a large portion of newly acquired credit accounts.",
+   "quote": "we renewed our partnership in credit and we will be the network for a large portion of newly acquired credit accounts",
+   "url": "https://www.paymentsdive.com/news/mastercard-reworks-cap-one-pact/810868/",
+   "title": "Mastercard reworks Cap One pact",
+   "publisher": "Payments Dive",
+   "published": "2026-01-29",
+   "label": "Reported",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-engagefi-give-take",
+   "network": "cross",
+   "claim": "A bank consultancy says networks negotiate incentive offers with banks and credit unions in give-and-take fashion.",
+   "quote": "the networks make incentive offerings and deals and negotiate in a give-and-take fashion",
+   "url": "https://engagefi.com/consulting/payments/card-networks",
+   "title": "Payments Card Networks Advisors",
+   "publisher": "Engage fi",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-engagefi-doubled",
+   "network": "cross",
+   "claim": "Engage fi cites a client that got more than twice its previous card brand incentives at renewal.",
+   "quote": "we received more than twice the incentives compared to our previous agreement",
+   "url": "https://engagefi.com/consulting/payments/card-networks",
+   "title": "Payments Card Networks Advisors",
+   "publisher": "Engage fi",
+   "published": "",
+   "label": "Vendor",
+   "fetch": "curl 2026-09-26"
+  },
+  {
+   "key": "t7-dev-discover-invite",
+   "network": "dgn",
+   "claim": "Discover adds developer partners only by a representative's invite, and shows products only after access is granted.",
+   "quote": "Currently, developer partners can only be added with an invite from a Discover® representative.",
+   "url": "https://developer.discover.com/faq",
+   "title": "Discover Developer Center FAQ",
+   "publisher": "Discover",
+   "published": "",
+   "label": "Verified",
+   "fetch": "node tools/text.js 2026-09-26"
+  }
+ ],
+ "stage_id": "7"
+}

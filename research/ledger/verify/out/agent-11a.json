@@ -1,0 +1,292 @@
+{
+ "results": [
+  {
+   "id": "amex-457",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "Business Type options: 'Acquirer, Developer, Issuer, Solution or Service Provider' - no fintech or ATM operator option.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-471",
+   "result": "qualified",
+   "qualification": "Source says contact your AEGNS Operations Manager for information on forms/requesting access; it does not say the Operations Manager coordinates each request.",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Sec. on access: 'requested through an approved American Express user access form or online enrollment process'; 'valid business justification and manager approval'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-473",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "10.5.5 'AEGNS will assess a fee to Issuers for each active BIN assigned to them'; Table 10-10 '$175 USD Per active BIN Monthly'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-503",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-17 'AEGNS-Led Issuer Personalization Certification Testing Fees': 'Per Certification Fee $15,000'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-512",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "'Fees are detailed on the Participant's monthly settlement advisement and/or appear on the Fee Detail Section of the Daily Activity Report.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-513",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-11 'Manual Funds Exchange Processing Fee $500 Monthly'; 'All Participants processing settlements manually will be assessed a monthly service fee'. 'Cannot use automated' is a fair paraphrase.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-514",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-13 Late Settlement Fee: 'Participant $500 Per late Settlement Per incident'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-515",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-10 Active BIN Rental Fees: '$175 USD Per active BIN Monthly'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-516",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "'Reports are available in Reporting Center.' 'This mandatory fee is assessed to all Participants. The initial Portfolio Reporting available will be the Enhanced Dispute Reports'; $250 Monthly.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-517",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-22 'Portfolio Reporting Fee $250 Monthly'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-564",
+   "result": "qualified",
+   "qualification": "Filing $150/review $250/penalty $100 confirmed, but penalties 'may be assessed' only when policy/submission requirements are not followed; not automatically charged.",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Table 10-2 'Arbitration $150 $250 $100'; 'Penalty fees may be assessed against either Participant regardless of whether the ruling is in their favor.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-567",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "8.7 'Issuers must report all of their Confirmed Fraud activity... by the next Business Day after the verification'; Fraud Type Codes used.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-568",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "8.6.1 'all Participants must register for and utilize FraudNet'; issuers UIR and PCP; acquirers 'UIR, S/E Actioning System (SEAS), and the ... PCP'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-570",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "10.2.1 'A fee of $100 will be assessed monthly to each Participant'; 'NDM Disputes Online functionality at no extra cost.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "amex-579",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "8.9 'notified of S/Es identified as potential High Risk S/Es via the S/E Actioning System (SEAS)'; actions include probation subject to 'Fraud Full Recourse Chargeback'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-269",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page (plain curl HTML lacked listings)",
+   "archive_url": "",
+   "note": "'ABA Credit Card provides members a full-service Visa and MasterCard program'; 'Discover Debit: Debit Card Program' listed alongside.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-278",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "'Velera leverages the collective scale of over 200 clients to negotiate higher interchange revenue on behalf of your credit union' (debit network management).",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-284",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20160331230710",
+   "archive_url": "https://web.archive.org/web/20160331230710/https://www.sec.gov/Archives/edgar/data/1144354/000114435413000008/hpyexhibit101tbbsponsorban.htm",
+   "note": "'Merchant BIN and ICA Sponsorship and Services Agreement' between The Bancorp Bank and Heartland; 'Bancorp will provide VISA BIN sponsorship and MasterCard ICA sponsorship'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-290",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260402064656 (gzip body)",
+   "archive_url": "https://web.archive.org/web/20260402064656/https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "note": "'route transactions under the sponsor bank's control and identification number (referred to as a BIN for Visa and ICA for Mastercard)'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-291",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260402064656",
+   "archive_url": "https://web.archive.org/web/20260402064656/https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "note": "'To register with a card network in the U.S., acquirers must maintain relationships with banks willing to sponsor'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-292",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260814163148",
+   "archive_url": "https://web.archive.org/web/20260814163148/https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+   "note": "'our bank sponsor retains substantial discretion in approving certain aspects of our business practices... and the terms of our agreements with customers'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-293",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260314172145 of full submission .txt (10-K htm snapshot returned 404)",
+   "archive_url": "https://web.archive.org/web/20260314172145/https://www.sec.gov/Archives/edgar/data/1531031/000110465926027706/0001104659-26-027706.txt",
+   "note": "'the Bank and the ISO jointly enter into the merchant agreement with each merchant'; 'At December 31, 2025, we had 28 active ISOs'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-295",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260907072619 (gzip body)",
+   "archive_url": "https://web.archive.org/web/20260907072619/https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "note": "'In this model, the standards of the card networks restrict us from performing funds settlement or accessing merchant settlement funds'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-360",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 (Akamai), Wayback 403; WebFetch retrieved live PDF (239 pp), text via pypdf",
+   "archive_url": "",
+   "note": "EFT070R01 'all transactions occurring at an institution's terminals for that network business day'; purpose 'assist with daily balancing or problem resolution'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-361",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 (Akamai), Wayback 403; WebFetch retrieved live PDF (239 pp), text via pypdf",
+   "archive_url": "",
+   "note": "EFT075R01 Network Totals: 'settlement totals for cardholders and ATMs'; 'To provide daily settlement and adjustment reconciliation information'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-362",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 (Akamai), Wayback 403; WebFetch retrieved live PDF (239 pp), text via pypdf",
+   "archive_url": "",
+   "note": "'Reports can be accessed up to 90 days after the run date'; date range 'only... 60 days apart'; accessed via iQ Reports tab; samples for bank and credit union.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-395",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260907072619",
+   "archive_url": "https://web.archive.org/web/20260907072619/https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "note": "'the standards of the card networks restrict us from performing funds settlement or accessing merchant settlement funds' (sponsorship model).",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-445",
+   "result": "qualified",
+   "qualification": "Page sells a disputes platform (Resolution Center, 'end-to-end solution'), but does not describe it as outsourced; 'outsourced' appears only for collections.",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "'disputes and chargeback processes are often inefficient and riddled with challenges for credit unions'; 'Velera's Resolution Center is a powerful, digitally integrated platform'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-458",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260402064656",
+   "archive_url": "https://web.archive.org/web/20260402064656/https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "note": "'changed from time to time by each payment network as they may determine in their sole discretion and with or without advance notice'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-459",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260402064656",
+   "archive_url": "https://web.archive.org/web/20260402064656/https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "note": "'timelines imposed by the payment networks or sponsor banks for expected compliance with new rules have historically been... highly compressed'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-483",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260814163148",
+   "archive_url": "https://web.archive.org/web/20260814163148/https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+   "note": "'If our bank sponsorship is terminated and we are not able to secure or successfully migrate our payment facilitator customer portfolio... we will not be able to conduct our business.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "cross-484",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl 403 from sec.gov; read Wayback snapshot 20260314172145 of full submission .txt",
+   "archive_url": "https://web.archive.org/web/20260314172145/https://www.sec.gov/Archives/edgar/data/1531031/000110465926027706/0001104659-26-027706.txt",
+   "note": "'charge the ISO reserve account; deduct from the ISO monthly residual...; and liquidate all or a portion of the ISO merchant portfolio'.",
+   "date": "2026-09-26"
+  }
+ ]
+}

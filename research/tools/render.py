@@ -100,6 +100,9 @@ def build(name):
         C.update({'cards': str(len(CD['cards'])), 'decisions': str(len(CD['map']['decisions'])), 'gaps': str(len(CD['map']['gaps'])),
                   'advantages': str(len(CD['map']['advantages'])), 'cited': f"{len([i for i in ids if i in S]):,}",
                   'cited_verified': f"{round(100 * sum(1 for i in ids if (S.get(i) or {}).get('confidence') == 'Verified') / max(1, len([i for i in ids if i in S])))}%"})
+    tp = os.path.join(ROOT, 'parts', 'td-counts.json')
+    if os.path.exists(tp):
+        TD = json.load(open(tp)); C.update({'td_' + k: (f"{v:,}" if isinstance(v, int) else str(v)) for k, v in TD.items()}); C['td_verified_pc'] = f"{TD['verified_share']}%"
     t = re.sub(r'<!-- count:(\w+) -->', lambda m: C.get(m.group(1), '?'), t)
     t = re.sub(r'<!-- table:register(?::(\w+))? -->', lambda m: register(m.group(1)), t)
     t = re.sub(r'<!-- figs:([\w-]+):([\w,]+) -->', lambda m: figs(m.group(1), m.group(2)), t)
@@ -137,5 +140,5 @@ def build(name):
     t = re.sub(r'\{\{rcite:([\w+-]+)\}\}', rcite, t)
     t = re.sub(r'\{\{ref:([\w+-]+)\}\}', ref, t)
     open(os.path.join(ROOT, name), 'w').write(t); print(f'rendered {name}: {len(t)//1024} KB')
-for n in (sys.argv[1:] or ['competitive-networks.html', 'prototype-insights.html']):
+for n in (sys.argv[1:] or ['partner-experience.html', 'competitive-networks.html', 'prototype-insights.html']):
     if os.path.exists(os.path.join(ROOT, 'src', n)): build(n)

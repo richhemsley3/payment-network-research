@@ -1,0 +1,2795 @@
+{
+ "stage": "6c. Run day to day: change, support and incidents",
+ "summary": [
+  {
+   "text": "Every network pushes change through gated bulletins on a fixed calendar. Visa emails weekly Visa Business News to two named roles, Mastercard posts numbered announcements on its login-only Technical Resource Center.",
+   "ids": [
+    "visa-166",
+    "visa-379",
+    "mastercard-180",
+    "mastercard-351"
+   ]
+  },
+  {
+   "text": "American Express publishes a monthly Network Participant Updates bulletin and April and October manuals. Discover updates its programme documents twice a year, and processors report dated April Discover and PULSE releases.",
+   "ids": [
+    "amex-404",
+    "new:t6c-amex-bop-cadence",
+    "dgn-107",
+    "new:t6c-mq-discover-rel",
+    "new:t6c-mq-pulse-rel"
+   ]
+  },
+  {
+   "text": "The primary bulletins are private. Visa says its Business News articles are not public, Mastercard bulletins reach only members through Mastercard Connect, and PULSE publishes no rules or bulletins on its public site.",
+   "ids": [
+    "new:t6c-vmbnd-notpublic",
+    "mastercard-353",
+    "pulse-017"
+   ]
+  },
+  {
+   "text": "Most partners meet change second hand. Issuer processors republish each mandate with an impact note, and merchant processors count continued use as acceptance. One credit union CUSO asks clients to forward network mail.",
+   "ids": [
+    "new:t6c-sofi-impact",
+    "new:t6c-mq-invisible",
+    "new:t6c-fiserv-cbu-deemed",
+    "new:t6c-cua-forward"
+   ]
+  },
+  {
+   "text": "American Express types each change as policy, legal or information only and publishes a route to a three-month extension. Visa waivers go through a representative and Mastercard variances through Variance Manager.",
+   "ids": [
+    "new:t6c-amex-bop-types",
+    "new:t6c-amex-bop-extension",
+    "visa-293",
+    "mastercard-190"
+   ]
+  },
+  {
+   "text": "Support runs through phone desks, mailboxes and named account executives. Mastercard and Visa describe 24x7 client support teams, Discover splits a 24x7 command centre from a business-hours operations centre, and PULSE publishes Central-time business hours only.",
+   "ids": [
+    "new:t6c-mc-cts-247",
+    "new:t6c-visa-clientcare",
+    "dgn-147",
+    "dgn-146",
+    "pulse-047"
+   ]
+  },
+  {
+   "text": "No public status page for core authorisation and settlement was found for any of the four networks. Public status pages cover developer APIs and gateway products, and Amex posts urgent bulletins inside its Knowledge Base.",
+   "ids": [
+    "mastercard-040",
+    "visa-376",
+    "mastercard-392",
+    "amex-371"
+   ]
+  },
+  {
+   "text": "The clearest public account of incident communication failure is Visa's June 2018 outage. An independent review found its communications were not timely, regular or actionable, and the UK regulator now requires annual testing with participants.",
+   "ids": [
+    "new:t6c-psr-sd9-ey",
+    "new:t6c-psr-sd9-annual"
+   ]
+  },
+  {
+   "text": "Acquirers feel the strain most. The UK regulator found acquirers holding over 65 percent of the market struggle to get timely answers, and a US payfac filing calls network compliance timelines highly compressed.",
+   "ids": [
+    "new:t6c-psr25-65pct",
+    "new:t6c-prth-compressed"
+   ]
+  },
+  {
+   "text": "Discover and PULSE change lightly. Two issuer processors say recent Discover and PULSE mandates did not affect them or their clients, which is an asset the network does not yet present.",
+   "ids": [
+    "dgn-298",
+    "new:t6c-mq-oct-none",
+    "new:t6c-mq-invisible"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Large issuers (national and regional banks)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa sends weekly Visa Business News by email to each member's Primary Center Manager and Senior Officer. The Primary Center Manager must distribute it inside the bank.",
+       "ids": [
+        "visa-166",
+        "visa-379"
+       ]
+      },
+      {
+       "text": "Members register these roles in the My Organization's Contacts module of the Client Directory in Visa Access. Updates are due within 10 business days of a change.",
+       "ids": [
+        "new:t6c-visa-clientdir"
+       ]
+      },
+      {
+       "text": "A Business News article carries an article ID, a region and audience line, a brand line and an overview with the effective date.",
+       "ids": [
+        "new:t6c-vbn-anatomy"
+       ]
+      },
+      {
+       "text": "Visa corrects an article by republishing it with a note on what changed.",
+       "ids": [
+        "new:t6c-vbn-reissue"
+       ]
+      },
+      {
+       "text": "A Visa Notification takes effect when Visa sends it, so a missed email is still a received notice.",
+       "ids": [
+        "new:t6c-visa-notif"
+       ]
+      },
+      {
+       "text": "Regional implementation analysts project-manage the twice-yearly business enhancement releases and Visa mandates for clients and processors.",
+       "ids": [
+        "visa-387"
+       ]
+      },
+      {
+       "text": "A bank that cannot comply asks for a waiver through its Visa representative. Visa answers in writing, each waiver is unique, and an extension carries an assessment.",
+       "ids": [
+        "visa-293",
+        "new:t6c-visa-waiver-writing"
+       ]
+      },
+      {
+       "text": "For log-in and technical issues users go to their own delegated administrators first, then a regional Visa Access Support team by email or phone.",
+       "ids": [
+        "new:t6c-vaccess-admins",
+        "new:t6c-vaccess-regional"
+       ]
+      },
+      {
+       "text": "Issuers and acquirers without Visa Access are told to contact their Visa account executive or manager.",
+       "ids": [
+        "new:t6c-vaccess-am"
+       ]
+      },
+      {
+       "text": "A Client Success manager owns post-sale service and a Client Success Plan, separate from the account team.",
+       "ids": [
+        "visa-386"
+       ]
+      },
+      {
+       "text": "During issuer outages Visa's Smarter Stand-In Processing authorises on the issuer's behalf.",
+       "ids": [
+        "visa-079"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access (formerly Visa Online)",
+       "what_it_shows": "Password-protected client site for members and processors, claiming 150+ services, with a built-in help centre and AI search.",
+       "ids": [
+        "visa-378",
+        "visa-164",
+        "new:t6c-vaccess-help"
+       ]
+      },
+      {
+       "name": "Client Directory: My Organization's Contacts",
+       "what_it_shows": "Where a member names its Primary Center Manager and Senior Officer, who then receive Visa Business News.",
+       "ids": [
+        "new:t6c-visa-clientdir"
+       ]
+      },
+      {
+       "name": "Visa Business News",
+       "what_it_shows": "Weekly email bulletin with article ID, region, audience, brand and effective-dated overview.",
+       "ids": [
+        "visa-166",
+        "new:t6c-vbn-anatomy"
+       ]
+      },
+      {
+       "name": "Visa Resolve Online",
+       "what_it_shows": "Mandated web application for dispute life-cycle work by issuer and acquirer staff.",
+       "ids": [
+        "visa-171"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "There is no public archive of Visa Business News, so anyone outside the two named roles depends on internal forwarding.",
+       "ids": [
+        "visa-291",
+        "new:t6c-vmbnd-notpublic"
+       ]
+      },
+      {
+       "text": "During the June 2018 outage Visa's methods for reaching clients were found not effective or efficient.",
+       "ids": [
+        "new:t6c-psr-sd9-methods"
+       ]
+      },
+      {
+       "text": "Waiver extensions cost money and set no precedent, so each bank relitigates similar requests.",
+       "ids": [
+        "visa-293"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard defines its Standards to include announcements and bulletins, which is how rule changes take effect.",
+       "ids": [
+        "mastercard-179"
+       ]
+      },
+      {
+       "text": "Announcements are posted in the Technical Resource Center on Mastercard Connect. Each has a structured header with type, audience, region, action indicator, published and effective dates.",
+       "ids": [
+        "mastercard-180",
+        "mastercard-351"
+       ]
+      },
+      {
+       "text": "Each rulebook edition opens with a summary of changes mapped to numbered announcements with regional prefixes.",
+       "ids": [
+        "mastercard-181"
+       ]
+      },
+      {
+       "text": "Network releases are named by year and quarter, with major releases in April and October.",
+       "ids": [
+        "mastercard-345"
+       ]
+      },
+      {
+       "text": "Urgent issues go by phone to Customer Technical Services. Non-urgent ones go to a Support Case Management tool.",
+       "ids": [
+        "mastercard-183",
+        "mastercard-318"
+       ]
+      },
+      {
+       "text": "Customer Technical Services is described as a single point of contact giving first and second level support around the clock.",
+       "ids": [
+        "new:t6c-mc-cts-spoc",
+        "new:t6c-mc-cts-levels",
+        "new:t6c-mc-cts-247"
+       ]
+      },
+      {
+       "text": "Technology account managers run Quarterly Operational Reviews for key accounts and train customers on releases.",
+       "ids": [
+        "new:t6c-mc-tam-qor",
+        "new:t6c-mc-tam-releases"
+       ]
+      },
+      {
+       "text": "In an incident the account manager joins the response team, relays updates, and later shares Mastercard's Post Incident Report.",
+       "ids": [
+        "new:t6c-mc-tam-trt",
+        "new:t6c-mc-tam-pir"
+       ]
+      },
+      {
+       "text": "A bank that cannot meet a Standard requests a variance through Variance Manager on Mastercard Connect.",
+       "ids": [
+        "mastercard-190"
+       ]
+      },
+      {
+       "text": "Noncompliance assessments can be appealed to the Chief Franchise Officer within 30 days, for a fee of up to USD 500.",
+       "ids": [
+        "mastercard-189"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect",
+       "what_it_shows": "Sign-in wall with RSA SecurID for Mastercom, Technical Resource Center, My Company Manager and Variance Manager.",
+       "ids": [
+        "mastercard-227"
+       ]
+      },
+      {
+       "name": "Technical Resource Center",
+       "what_it_shows": "Announcements and bulletins, plus guides such as the Chargeback Guide and Mastercom User Guide.",
+       "ids": [
+        "mastercard-317",
+        "mastercard-386"
+       ]
+      },
+      {
+       "name": "Support Case Management",
+       "what_it_shows": "Case application on Mastercard Connect for non-urgent support.",
+       "ids": [
+        "mastercard-318"
+       ]
+      },
+      {
+       "name": "Variance Manager",
+       "what_it_shows": "Tool for requesting a variance from a Standard.",
+       "ids": [
+        "mastercard-190"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Technical Resource Center returns a 404 to unauthenticated visitors, so change news reaches the public only through practitioners.",
+       "ids": [
+        "mastercard-317",
+        "mastercard-353"
+       ]
+      },
+      {
+       "text": "Mastercard's Atlassian status page appears to be an unpopulated template.",
+       "ids": [
+        "mastercard-392"
+       ]
+      },
+      {
+       "text": "Quarterly reviews appear in postings for key accounts only, so smaller issuers may never see one. That is inference.",
+       "ids": [
+        "new:t6c-mc-tam-qor"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Network Participant Updates publish monthly on the second Friday, and Special Bulletins cover urgent issues.",
+       "ids": [
+        "amex-404"
+       ]
+      },
+      {
+       "text": "The Business and Operational Policies manual is republished every April and October and posted to Knowledge Base.",
+       "ids": [
+        "new:t6c-amex-bop-cadence"
+       ]
+      },
+      {
+       "text": "Each change is typed Policy, Legally required or Information only.",
+       "ids": [
+        "new:t6c-amex-bop-types"
+       ]
+      },
+      {
+       "text": "Policy changes take effect on publication. A participant that cannot comply documents the impact and requests up to three months' extension, which Amex says it will not unreasonably withhold.",
+       "ids": [
+        "new:t6c-amex-bop-effective",
+        "new:t6c-amex-bop-extension",
+        "new:t6c-amex-bop-notwithheld"
+       ]
+      },
+      {
+       "text": "Technical specification changes are announced six months ahead in a twice-yearly Notification of Specification Changes.",
+       "ids": [
+        "amex-251"
+       ]
+      },
+      {
+       "text": "Participants sign an annual attestation of accuracy for Program Progress Reports.",
+       "ids": [
+        "new:t6c-amex-bop-attest"
+       ]
+      },
+      {
+       "text": "An issuer schedules its own outages by phoning the AEGNS Help Desk, ideally 30 days ahead, and must report unscheduled outages at once.",
+       "ids": [
+        "new:t6c-amex-bop-helpdesk",
+        "new:t6c-amex-bop-unsched"
+       ]
+      },
+      {
+       "text": "Violations follow a determination, notification and Action Plan process with escalating fees.",
+       "ids": [
+        "amex-264"
+       ]
+      },
+      {
+       "text": "Training is requested through the Amex representative or a named mailbox and assigned by Knowledge Base profile.",
+       "ids": [
+        "amex-367",
+        "amex-364"
+       ]
+      },
+      {
+       "text": "Amex commits to process Knowledge Base access requests within three business days.",
+       "ids": [
+        "new:t6c-amex-kb-3days"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Login-gated portal with search, bookmarks, Participant Directory and a 'Request Additional Services' route to OpsNet, File Tracker and FraudNet.",
+       "ids": [
+        "amex-362",
+        "new:t6c-amex-kb-services"
+       ]
+      },
+      {
+       "name": "Urgent Bulletins page",
+       "what_it_shows": "Inside Knowledge Base, where urgent operational communications are posted.",
+       "ids": [
+        "amex-371"
+       ]
+      },
+      {
+       "name": "Participant Directory",
+       "what_it_shows": "Shared directory of participants' key contacts, which participants must keep current.",
+       "ids": [
+        "new:t6c-amex-bop-contacts"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The public GNS contact route is a web form that issues a case number, with no phone or hours.",
+       "ids": [
+        "amex-361"
+       ]
+      },
+      {
+       "text": "The public webinar list has not been updated since 2022.",
+       "ids": [
+        "amex-369"
+       ]
+      },
+      {
+       "text": "The manual describes how participants must report their outages to Amex, and says little about how Amex reports its own.",
+       "ids": [
+        "new:t6c-amex-bop-unsched",
+        "new:t6c-amex-bop-acqout"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover publishes updates to its programme documents twice a year, or more often when needed.",
+       "ids": [
+        "dgn-107"
+       ]
+      },
+      {
+       "text": "Processors report a dated April 2026 Discover Release with numbered sections.",
+       "ids": [
+        "new:t6c-mq-discover-rel"
+       ]
+      },
+      {
+       "text": "Issuer client support is split by product line, with separate toll-free numbers for credit, debit and prepaid issuers.",
+       "ids": [
+        "dgn-150"
+       ]
+      },
+      {
+       "text": "Unresolved fraud questions go through a named Discover Network Relationship Manager.",
+       "ids": [
+        "dgn-149"
+       ]
+      },
+      {
+       "text": "Partners must phone Discover Global Network Security within 48 hours of a data compromise.",
+       "ids": [
+        "dgn-152"
+       ]
+      },
+      {
+       "text": "Diners Club issuers use a ServiceNow-hosted portal limited to existing issuers.",
+       "ids": [
+        "diners-042"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Service Center login",
+       "what_it_shows": "Single MFA login for fraud tooling and client portals, with a fraud-specialist hotline.",
+       "ids": [
+        "dgn-160"
+       ]
+      },
+      {
+       "name": "Fraud and Risk Center enrolments",
+       "what_it_shows": "Application PDFs and web forms for Account Incident Manager, Confirmed Fraud Portal, Fraud Alerts and High Brand Risk.",
+       "ids": [
+        "dgn-176"
+       ]
+      },
+      {
+       "name": "Diners Club issuer portal",
+       "what_it_shows": "ServiceNow site for current Diners Club issuers.",
+       "ids": [
+        "diners-042"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Client services are spread across function-specific mailboxes.",
+       "ids": [
+        "dgn-153"
+       ]
+      },
+      {
+       "text": "Non-US partners get a single contact mailbox.",
+       "ids": [
+        "dgn-154"
+       ]
+      },
+      {
+       "text": "No public source shows a Discover issuer bulletin, so its format and lead times cannot be judged.",
+       "ids": [
+        "dgn-107"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "American Express types every change and states a documented extension route with a three-month ceiling. It is the clearest published model of what a change asks and what to do when a partner cannot comply.",
+    "ids": [
+     "new:t6c-amex-bop-types",
+     "new:t6c-amex-bop-extension",
+     "new:t6c-amex-bop-notwithheld"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover offers segmented phone lines and a relationship manager, but its issuer change channel is not public and its contact model leans on many mailboxes.",
+    "ids": [
+     "dgn-150",
+     "dgn-149",
+     "dgn-153",
+     "dgn-107"
+    ]
+   }
+  },
+  {
+   "partner_type": "Community banks and credit unions (small issuers, through processors and CUSOs)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa still routes community banks and credit unions to Visa Online for enrolment in products and the Merchant Offers Program.",
+       "ids": [
+        "visa-169",
+        "visa-090"
+       ]
+      },
+      {
+       "text": "An Associate member operates under a Principal for settlement, reporting and fees.",
+       "ids": [
+        "visa-122"
+       ]
+      },
+      {
+       "text": "Visa Business News goes to each member's Primary Center Manager, a role a small card team may share with other duties. That is inference.",
+       "ids": [
+        "visa-166",
+        "new:t6c-job-lcfcu-liaison"
+       ]
+      },
+      {
+       "text": "Processors read the bulletins on their behalf. A Velera dispute supervisor reviews Visa, Mastercard and other network mandates for its credit union clients.",
+       "ids": [
+        "new:t6c-job-velera-disputes"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online community issuer enrolment",
+       "what_it_shows": "Product enrolment portal at secure.visaonline.com, still called Visa Online on the community issuer page.",
+       "ids": [
+        "visa-169"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "New network features wait on the core provider. One community bank said debit tokenisation was stalled while it waited.",
+       "ids": [
+        "new:t6c-fdic-cbs-token"
+       ]
+      },
+      {
+       "text": "Smaller institutions struggle to absorb core provider charges for updates.",
+       "ids": [
+        "new:t6c-kc-small"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Issuer processors certify against each Mastercard release and republish the bulletins they support by GLB number and effective date.",
+       "ids": [
+        "mastercard-265",
+        "mastercard-340"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Processor mandate pages",
+       "what_it_shows": "Public processor pages listing each Mastercard bulletin with its effective date and an impact note.",
+       "ids": [
+        "mastercard-340",
+        "new:t6c-sofi-impact"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A small issuer sees Mastercard change only as its processor frames it. That is inference.",
+       "ids": [
+        "mastercard-353",
+        "mastercard-340"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE runs persona support desks, including a PULSE Issuer Support line, a separate Discover Debit issuer line and an account-management mailbox.",
+       "ids": [
+        "pulse-043",
+        "pulse-044"
+       ]
+      },
+      {
+       "text": "Published PULSE hours are business hours in Central time. The only response commitment is a two-business-day callback on web requests.",
+       "ids": [
+        "pulse-047",
+        "pulse-048"
+       ]
+      },
+      {
+       "text": "Portal credentials are issued within five business days through a manual three-step process.",
+       "ids": [
+        "pulse-049"
+       ]
+      },
+      {
+       "text": "PULSE releases are dated. Processors report an April 2026 PULSE Release effective 12 April.",
+       "ids": [
+        "new:t6c-mq-pulse-rel"
+       ]
+      },
+      {
+       "text": "PULSE runs an annual Voice of the Client survey and a client newsletter.",
+       "ids": [
+        "pulse-052",
+        "pulse-057"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE client tools",
+       "what_it_shows": "Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange behind one Log In / Register.",
+       "ids": [
+        "pulse-038",
+        "dgn-183"
+       ]
+      },
+      {
+       "name": "PULSE Client Support page",
+       "what_it_shows": "Public page naming desks, phone numbers and mailboxes by partner type.",
+       "ids": [
+        "dgn-184"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "PULSE operating rules and bulletins are not public, and its news page has not been updated since August 2024.",
+       "ids": [
+        "pulse-017",
+        "pulse-058"
+       ]
+      },
+      {
+       "text": "There is no published 24x7 line or formal service level.",
+       "ids": [
+        "pulse-047"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:shazam",
+     "how_it_works": [
+      {
+       "text": "SHAZAM, a member-owned network and processor, staffs client service 24/7/365 and takes Service Expert requests in its SHAZAM Access portal.",
+       "ids": [
+        "shazam-017"
+       ]
+      },
+      {
+       "text": "Its login menu includes a status tool, SHAZAM SystemChek, beside file and ATM monitoring tools.",
+       "ids": [
+        "shazam-011"
+       ]
+      },
+      {
+       "text": "A client learning team runs live webinars and on-demand courses inside SHAZAM Access.",
+       "ids": [
+        "shazam-018"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "SHAZAM Access and SystemChek",
+       "what_it_shows": "Client portal with service requests, and a gated system status tool.",
+       "ids": [
+        "shazam-017",
+        "shazam-011"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "SystemChek is gated, so its content could not be inspected.",
+       "ids": [
+        "shazam-011"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:cuso-relay",
+     "how_it_works": [
+      {
+       "text": "CU*Answers, a core CUSO, says network vendors send mandates with required programming changes and short deadlines.",
+       "ids": [
+        "new:t6c-cua-deadlines"
+       ]
+      },
+      {
+       "text": "It asks credit unions to forward network communications to its Cards and Payments team so it can keep everyone informed.",
+       "ids": [
+        "new:t6c-cua-forward"
+       ]
+      },
+      {
+       "text": "A credit union card services manager is the primary liaison with processors, networks and rewards providers.",
+       "ids": [
+        "new:t6c-job-lcfcu-liaison"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "CUSO mandate review page",
+       "what_it_shows": "Public page explaining mandates, with a forwarding mailbox and client news.",
+       "ids": [
+        "new:t6c-cua-forward"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A mandate can reach a credit union through its EFT processor, its core CUSO and its own inbox, and the CUSO relies on forwarded copies.",
+       "ids": [
+        "new:t6c-cua-forward",
+        "new:t6c-cua-deadlines"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "SHAZAM pairs round-the-clock client service with an in-portal status tool. Issuer processors that state per release what changed and that no action is needed give small teams the clearest signal.",
+    "ids": [
+     "shazam-017",
+     "shazam-011",
+     "new:t6c-mq-invisible",
+     "new:t6c-sofi-impact"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE offers named issuer desks and dated releases, but business-hours support, stale public news and no public bulletins leave small issuers reliant on their processor.",
+    "ids": [
+     "pulse-043",
+     "pulse-047",
+     "pulse-058",
+     "new:t6c-mq-pulse-rel"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Acquirers must retrieve the Visa Acceptance Risk Standards and risk communications from Visa Online themselves.",
+       "ids": [
+        "visa-168"
+       ]
+      },
+      {
+       "text": "Visa's own processing arm, Visa Acceptance Solutions, supports clients by chat, case or phone depending on agreement.",
+       "ids": [
+        "visa-374"
+       ]
+      },
+      {
+       "text": "It runs a public Atlassian status page with email and SMS subscriptions and a monthly incident history.",
+       "ids": [
+        "visa-376",
+        "visa-471"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Acceptance status page",
+       "what_it_shows": "Production and sandbox components with subscriptions and incident history.",
+       "ids": [
+        "visa-376",
+        "visa-456"
+       ]
+      },
+      {
+       "name": "Business Center support cases",
+       "what_it_shows": "Case types General Support Request and MID Configuration Request.",
+       "ids": [
+        "visa-374"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The retrieval duty sits with the acquirer, with no public signal when a standard changes.",
+       "ids": [
+        "visa-168"
+       ]
+      },
+      {
+       "text": "Visa Acceptance asks clients to open a sandbox case only after two hours of instability with no incident posted.",
+       "ids": [
+        "visa-189"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Product change notices on the developer portal give separate test and production effective dates and point to the gated announcement.",
+       "ids": [
+        "mastercard-182"
+       ]
+      },
+      {
+       "text": "Mastercard Send publishes a quarterly release calendar with notes three months ahead and a peak-season change freeze.",
+       "ids": [
+        "mastercard-319"
+       ]
+      },
+      {
+       "text": "At implementation a named Delivery Manager is assigned.",
+       "ids": [
+        "mastercard-382"
+       ]
+      },
+      {
+       "text": "Ethoca support splits response by severity, two to four hours for a production outage.",
+       "ids": [
+        "mastercard-401"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "API Status page",
+       "what_it_shows": "Per-service Sandbox and Production health for about 100 services, polled about once a minute.",
+       "ids": [
+        "mastercard-040",
+        "mastercard-305"
+       ]
+      },
+      {
+       "name": "Mastercom announcements",
+       "what_it_shows": "Dated API change notices with test and production dates.",
+       "ids": [
+        "mastercard-182"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Rule bulletins stay behind Mastercard Connect, so large acquirers staff teams to translate them into system requirements.",
+       "ids": [
+        "mastercard-353",
+        "new:t6c-ni-mandates"
+       ]
+      },
+      {
+       "text": "UK acquirers said pricing bulletin codes in the scheme portals do not match the codes on invoices.",
+       "ids": [
+        "new:t6c-psr25-portals"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Specification changes are pre-announced six months ahead in the twice-yearly NOSC, with Technical Bulletins for off-cycle items.",
+       "ids": [
+        "amex-251",
+        "amex-426"
+       ]
+      },
+      {
+       "text": "If the network stops responding, the acquirer is told to phone the AEGNS technical Help Desk.",
+       "ids": [
+        "new:t6c-amex-bop-acqout"
+       ]
+      },
+      {
+       "text": "OptBlue programme changes reach acquirers' sales agents through a public site with update PDFs and an email list.",
+       "ids": [
+        "amex-394"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue Sales Agent site",
+       "what_it_shows": "Public training resources, programme-update PDFs and opt-in email list.",
+       "ids": [
+        "amex-394"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Detection of a network outage is left to the acquirer.",
+       "ids": [
+        "new:t6c-amex-bop-acqout"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Acquirers and processors use the EASI Portal for specifications, test card kits, announcements and a Message Center to operations.",
+       "ids": [
+        "dgn-135",
+        "dgn-155"
+       ]
+      },
+      {
+       "text": "The Operations Center keeps US business hours, while connectivity incidents go to a 24x7 Network Command Center with a second-escalation manager.",
+       "ids": [
+        "dgn-146",
+        "dgn-147"
+       ]
+      },
+      {
+       "text": "A named Account Executive is the escalation point for daily operations and owns contracts, upgrades and configuration changes.",
+       "ids": [
+        "dgn-148"
+       ]
+      },
+      {
+       "text": "The detailed IIN range table sits in the EASI Document Library for companies with an NDA.",
+       "ids": [
+        "new:t6c-dgn-iin-nda"
+       ]
+      },
+      {
+       "text": "Discover periodically sends acquirers a short compliance questionnaire.",
+       "ids": [
+        "new:t6c-dgn-acq-q"
+       ]
+      },
+      {
+       "text": "PULSE processors and acquirers share one support number with separate mailboxes.",
+       "ids": [
+        "pulse-046"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI Portal",
+       "what_it_shows": "Specifications, test card kits, product announcements, Document Library and Message Center, behind registration.",
+       "ids": [
+        "dgn-164",
+        "new:t6c-dgn-iin-nda"
+       ]
+      },
+      {
+       "name": "Release Compliance Tool",
+       "what_it_shows": "Gated Discover test and certification tool listed on Partner Resources.",
+       "ids": [
+        "dgn-024"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The operations desk closes on twelve US holidays and keeps Eastern business hours.",
+       "ids": [
+        "dgn-146"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Regulated notice periods set the bar: six months for UK fee changes and 120 days in Canada. Braintree's table of type, network, region and date shows the format acquirers relay.",
+    "ids": [
+     "new:t6c-psr26-notice",
+     "new:t6c-canada-notice",
+     "new:t6c-braintree-format"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover gives acquirers a portal message centre, a 24x7 command centre and a named account executive. Public evidence of its change notices is limited to processor reports.",
+    "ids": [
+     "dgn-155",
+     "dgn-147",
+     "dgn-148",
+     "new:t6c-mq-discover-rel"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Most agents are registered by a sponsoring issuer or acquirer, which acts as liaison with Visa.",
+       "ids": [
+        "visa-371"
+       ]
+      },
+      {
+       "text": "Merchants and agents are told to contact their acquirer about Business News items.",
+       "ids": [
+        "new:t6c-vbn-downstream"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Program Request Management",
+       "what_it_shows": "Acquirer application in Visa Access used to register each payment facilitator.",
+       "ids": [
+        "visa-032"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Payfacs learn of Visa changes through their sponsor, and filings describe compressed timelines.",
+       "ids": [
+        "new:t6c-prth-compressed",
+        "visa-371"
+       ]
+      },
+      {
+       "text": "A payfac filing says networks can change rules with or without advance notice.",
+       "ids": [
+        "new:t6c-prth-rules"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mandates that change payfac monitoring, such as sub-merchant level chargeback monitoring from April 2027, are known publicly only through practitioner reports.",
+       "ids": [
+        "mastercard-354",
+        "mastercard-353"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Large payment firms staff a card network office to read releases and run waiver requests.",
+       "ids": [
+        "new:t6c-stripe-cno",
+        "new:t6c-stripe-cno-waiver"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex's international merchant regulations give at least 30 days' notice of rule changes and treat continued acceptance as agreement.",
+       "ids": [
+        "amex-245"
+       ]
+      },
+      {
+       "text": "The October 2025 rules added portfolio accountability and escalating fees for intermediaries.",
+       "ids": [
+        "amex-281",
+        "amex-191"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue Sales Agent site",
+       "what_it_shows": "Public programme-update PDFs and email list for agents.",
+       "ids": [
+        "amex-394"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Intermediaries face fees of up to USD 20,000 for repeat violations.",
+       "ids": [
+        "amex-191"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Payment enablers that handle Discover card data must submit a PCI attestation every year, by email to the DISC team.",
+       "ids": [
+        "new:t6c-dgn-aoc-annual",
+        "new:t6c-dgn-aoc-email"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Compliance filing runs through a shared mailbox with no status view. That is inference.",
+       "ids": [
+        "new:t6c-dgn-aoc-email"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's public OptBlue agent site with update PDFs and an email list reaches sales agents who have no network login.",
+    "ids": [
+     "amex-394"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's payfac relationship shows publicly only as PCI filing by email. No public payfac change channel was found.",
+    "ids": [
+     "new:t6c-dgn-aoc-email"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Processor CDS relayed Visa's 18 October 2025 operator rules and warned of suspension and network fines.",
+       "ids": [
+        "new:t6c-cds-visa"
+       ]
+      },
+      {
+       "text": "No public PLUS rulebook or ATM-operator surface was found.",
+       "ids": [
+        "visa-183"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Processor news notices",
+       "what_it_shows": "CDS news posts that restate network rules for independent operators.",
+       "ids": [
+        "new:t6c-cds-visa"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Operators receive rules and fines second hand, and CDS passes network fines through to the ISO.",
+       "ids": [
+        "new:t6c-cds-cashless-fines"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE offers an ATM List Manager among its client tools.",
+       "ids": [
+        "pulse-038"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "ATM List Manager",
+       "what_it_shows": "Gated PULSE tool named on the Client Support page.",
+       "ids": [
+        "pulse-038"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "PULSE publishes no operating rules, so operators cannot see the obligations directly.",
+       "ids": [
+        "pulse-017"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:nac",
+     "how_it_works": [
+      {
+       "text": "The National ATM Council's jackpotting guidance lists police and federal agencies as contacts and names no card network.",
+       "ids": [
+        "new:t6c-nac-rms"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "No network incident contact appears in the operators' own security guidance.",
+       "ids": [
+        "new:t6c-nac-rms"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "No strong public pattern was found. The processor notice that names rules, dates and consequences is the closest usable format.",
+    "ids": [
+     "new:t6c-cds-visa"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE reaches operators through gated tools and processors, with no public rules.",
+    "ids": [
+     "pulse-038",
+     "pulse-017"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Partner support is a single email alias for website and account questions.",
+       "ids": [
+        "visa-366"
+       ]
+      },
+      {
+       "text": "Issuer processors certify each VisaNet Business Enhancements release and tell programme managers what they changed.",
+       "ids": [
+        "visa-109",
+        "new:t6c-mq-cadence"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Processor certification pages",
+       "what_it_shows": "Per-release list of mandates, what the processor did and whether client action is needed.",
+       "ids": [
+        "new:t6c-mq-cadence",
+        "new:t6c-sofi-impact"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa's peer developer community no longer resolves.",
+       "ids": [
+        "visa-365"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "SoFi Tech Solutions lists each Mastercard bulletin by number with an impact paragraph naming the API field affected.",
+       "ids": [
+        "mastercard-340",
+        "new:t6c-sofi-impact"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Networks send processors technical documents four times a year, and the programme manager relies on the processor's reading.",
+       "ids": [
+        "new:t6c-mq-cadence"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Marqeta certifies Discover and PULSE releases and labels them changes with no impact on the card programme.",
+       "ids": [
+        "new:t6c-mq-invisible"
+       ]
+      },
+      {
+       "text": "For October 2026 Marqeta records no applicable Discover or PULSE changes.",
+       "ids": [
+        "new:t6c-mq-oct-none"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Developer Center access and collaborator invites depend on a Discover representative.",
+       "ids": [
+        "dgn-156"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "A per-release impact note that names the field, states whether the client must act and says when nothing is needed.",
+    "ids": [
+     "new:t6c-sofi-impact",
+     "new:t6c-mq-invisible"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's light mandate load reaches fintechs as a line saying nothing applies, which processors write and Discover does not.",
+    "ids": [
+     "new:t6c-mq-oct-none",
+     "dgn-298"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Developer publishes monthly release notes back to 2017, and the newest entry was May 2026 when checked.",
+       "ids": [
+        "visa-362",
+        "visa-212"
+       ]
+      },
+      {
+       "text": "The home page carried a mandatory certificate renewal notice with dated cutovers, and Visa emails owners of production projects before certificates expire.",
+       "ids": [
+        "visa-145",
+        "visa-361"
+       ]
+      },
+      {
+       "text": "The only published support channel is developer@visa.com, with no hours or response commitment.",
+       "ids": [
+        "visa-350",
+        "visa-353"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Release notes",
+       "what_it_shows": "Monthly entries tagged Public or Restricted.",
+       "ids": [
+        "visa-146"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Terms say Visa has no obligation to provide support.",
+       "ids": [
+        "visa-354"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A public API Status page shows Sandbox and Production health per service.",
+       "ids": [
+        "mastercard-040"
+       ]
+      },
+      {
+       "text": "Direct tickets require sign-in, while the forum is readable logged out.",
+       "ids": [
+        "mastercard-041"
+       ]
+      },
+      {
+       "text": "Mastercom keys expire every 13 months and customers must track expiry and subscribe several users to notices.",
+       "ids": [
+        "mastercard-385"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "API Status",
+       "what_it_shows": "Healthy, Partially Degraded, Unreachable and Not available states with a last 24 hours column.",
+       "ids": [
+        "mastercard-305"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Change cadence differs by product.",
+       "ids": [
+        "mastercard-031"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Developer support is a ServiceNow ticket system with published hours and certificate turnaround commitments.",
+       "ids": [
+        "amex-383",
+        "amex-382",
+        "amex-385"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Create Support Ticket",
+       "what_it_shows": "Form with seven categories and two attachments, usable without login.",
+       "ids": [
+        "amex-383"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Nothing in the portal references a status page.",
+       "ids": [
+        "amex-420"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Partner Product Portal specs are public and include a healthcheck operation.",
+       "ids": [
+        "dgn-008"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Partner Product Portal API Specs tab",
+       "what_it_shows": "Public OpenAPI documents per product.",
+       "ids": [
+        "dgn-008"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "There is no published developer support service level.",
+       "ids": [
+        "dgn-156"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard's public per-service status page and severity-based response times give developers a live view and a stated clock.",
+    "ids": [
+     "mastercard-040",
+     "mastercard-401"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover exposes public specs but gates access and support on a representative.",
+    "ids": [
+     "dgn-008",
+     "dgn-156"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants dealing with the network directly",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa publishes a merchant digest of Business News with month and region tags and a subscription form.",
+       "ids": [
+        "visa-174",
+        "new:t6c-vmbnd-latest"
+       ]
+      },
+      {
+       "text": "Readers are told to contact a Visa representative or their acquirer.",
+       "ids": [
+        "new:t6c-vmbnd-route"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Merchant Business News Digest",
+       "what_it_shows": "Public list of summaries by month and region, newest May 2026 when checked.",
+       "ids": [
+        "new:t6c-vmbnd-latest"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The public merchant support page is a document library with no contact channel.",
+       "ids": [
+        "visa-380"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Directly signed merchants get a phone line on weekday hours, a 24/7 authorisation line and chat after login.",
+       "ids": [
+        "amex-389",
+        "amex-390"
+       ]
+      },
+      {
+       "text": "Rule changes come in a Notification of Changes document each April and October, with overview, effective date and implications.",
+       "ids": [
+        "amex-247"
+       ]
+      },
+      {
+       "text": "Data incidents go to the Enterprise Incident Response Program within 72 hours.",
+       "ids": [
+        "amex-396"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Online Merchant Account",
+       "what_it_shows": "Settlements, disputes, statements and chat for direct merchants.",
+       "ids": [
+        "amex-314",
+        "amex-435"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Full merchant regulations sit behind the merchant login.",
+       "ids": [
+        "amex-395"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover runs a 24/7 voice line for authorisations and address checks.",
+       "ids": [
+        "dgn-151"
+       ]
+      },
+      {
+       "text": "Chip-enabled merchants with a tested incident plan can apply for relief from PCI paperwork through SCIP.",
+       "ids": [
+        "new:t6c-dgn-scip"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Merchants acquired elsewhere must go to their acquirer for compliance questions.",
+       "ids": [
+        "new:t6c-dgn-scip"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:processor-relay",
+     "how_it_works": [
+      {
+       "text": "Fiserv's merchant notice lists network fee changes and says continued use after 30 days means acceptance.",
+       "ids": [
+        "new:t6c-fiserv-cbu-deemed"
+       ]
+      },
+      {
+       "text": "Braintree says most updates need no merchant action but some force integration work or fees.",
+       "ids": [
+        "new:t6c-braintree-noaction"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Processor card brand update pages",
+       "what_it_shows": "Public notices restating network fee and rule changes for merchants.",
+       "ids": [
+        "new:t6c-fiserv-cbu-deemed",
+        "new:t6c-braintree-format"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Fiserv notice opens with a general warning and does not state which merchants are affected.",
+       "ids": [
+        "new:t6c-fiserv-cbu-hedge"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's Notification of Changes gives each change an overview, effective date, merchant implications and the new text in one document.",
+    "ids": [
+     "amex-247"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover offers merchants a 24/7 voice line and PCI relief, with no public merchant change digest found.",
+    "ids": [
+     "dgn-151",
+     "new:t6c-dgn-scip"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "Change ledger with a verdict per partner",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Publish every rule, fee and specification change as one ledger item typed action, legal or information, with audience, region and effective date. Show each partner a verdict: acts, processor has handled it, or nothing needed.",
+   "why_advantage": "Amex types changes and Mastercard headers carry action indicators, but no network tells a partner whether its processor has already absorbed the work. Processors write that sentence today.",
+   "ids": [
+    "new:t6c-amex-bop-types",
+    "mastercard-351",
+    "new:t6c-braintree-format",
+    "new:t6c-sofi-impact",
+    "new:t6c-mq-invisible"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Notices built to be forwarded",
+   "partner_types": [
+    "community banks",
+    "credit unions",
+    "ATM operators",
+    "payment facilitators and ISOs",
+    "merchants"
+   ],
+   "move": "Render each change as a shareable page with a public summary and role-specific views for processor, institution and merchant. Let a processor or CUSO subscribe clients and see who opened it.",
+   "why_advantage": "Visa and Mastercard bulletins are private, and a CUSO relies on clients forwarding network mail. A forwardable notice makes the relay chain part of the network's own product.",
+   "ids": [
+    "new:t6c-vmbnd-notpublic",
+    "mastercard-353",
+    "new:t6c-cua-forward",
+    "new:t6c-cds-visa",
+    "new:t6c-fiserv-cbu-hedge"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Stated lead times on every change",
+   "partner_types": [
+    "acquirers and processors",
+    "payment facilitators and ISOs",
+    "issuers"
+   ],
+   "move": "Commit to a minimum notice period for fee and mandate changes worldwide, show it on each item, and flag any item that falls short with the reason.",
+   "why_advantage": "Acquirers and payfacs describe compressed timelines. The UK now requires six months and Canada 120 days, so a global commitment turns regulation into a promise.",
+   "ids": [
+    "new:t6c-psr26-notice",
+    "new:t6c-canada-notice",
+    "cross-256",
+    "new:t6c-prth-compressed",
+    "amex-251"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Extension request inside the change",
+   "partner_types": [
+    "issuers",
+    "acquirers and processors",
+    "payment facilitators and ISOs"
+   ],
+   "move": "Attach a request-more-time action to each change, with the decision rule stated up front and a tracked status.",
+   "why_advantage": "Amex publishes a three-month extension route that will not be unreasonably withheld. Visa routes waivers through a representative with a fee, and large PSPs staff people to chase waivers.",
+   "ids": [
+    "new:t6c-amex-bop-extension",
+    "new:t6c-amex-bop-notwithheld",
+    "visa-293",
+    "mastercard-190",
+    "new:t6c-stripe-cno-waiver"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Partner status for the core network",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Run a partner status view for authorisation, settlement, portals and APIs, with subscriptions, a declared update rhythm during incidents and a post-incident report every partner can read.",
+   "why_advantage": "Networks publish status only for APIs and gateway products. Visa's 2018 communications failed, while Mastercard shares post-incident reports only through account managers.",
+   "ids": [
+    "mastercard-040",
+    "mastercard-392",
+    "amex-371",
+    "visa-376",
+    "new:t6c-psr-sd9-ey",
+    "new:t6c-psr-sd9-trigger",
+    "new:t6c-mc-tam-pir",
+    "new:t6c-finbrand-meyer",
+    "new:t6c-bdive-fis"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "One support map with hours and clocks",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Publish one support map by partner type and problem, each route with hours and a response commitment, and a round-the-clock path for small institutions.",
+   "why_advantage": "Discover and PULSE spread support across many mailboxes and business-hours desks. Acquirers struggle to get timely answers, and SHAZAM shows small institutions value 24/7 service.",
+   "ids": [
+    "dgn-153",
+    "dgn-146",
+    "pulse-047",
+    "shazam-017",
+    "new:t6c-psr25-65pct",
+    "mastercard-401"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Contacts that stay current",
+   "partner_types": [
+    "issuers",
+    "acquirers and processors"
+   ],
+   "move": "Let partners assign roles for change, incident and compliance notices, send each notice to several people, and prompt a review when a contact bounces or goes quiet.",
+   "why_advantage": "Visa's rules treat a notice as received when sent and rely on two named roles. Mastercard leaves credential expiry tracking to customers.",
+   "ids": [
+    "new:t6c-visa-clientdir",
+    "new:t6c-visa-notif",
+    "new:t6c-amex-bop-contacts",
+    "mastercard-385"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "A quiet cycle, said plainly",
+   "partner_types": [
+    "fintechs and programme managers",
+    "community banks",
+    "credit unions"
+   ],
+   "move": "When a release asks nothing of a partner, say so from the network, by name and date.",
+   "why_advantage": "Processors report that recent Discover and PULSE releases needed nothing from clients. A light change burden is a real benefit that only processors voice today.",
+   "ids": [
+    "new:t6c-mq-oct-none",
+    "dgn-298",
+    "new:t6c-mq-invisible"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Operational review for every partner",
+   "partner_types": [
+    "issuers",
+    "acquirers and processors",
+    "community banks",
+    "credit unions"
+   ],
+   "move": "Assemble a periodic review from each partner's own record: changes applied, incidents, open cases and attestations due. Offer it to partners without an account manager.",
+   "why_advantage": "Mastercard runs quarterly operational reviews for key accounts and Visa writes client success plans. Small card teams rarely get either. That last point is inference.",
+   "ids": [
+    "new:t6c-mc-tam-qor",
+    "visa-386",
+    "dgn-148",
+    "new:t6c-job-lcfcu-liaison"
+   ],
+   "evidence_strength": "thin"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "The Visa Business News library and notification settings inside Visa Access.",
+   "why": "Visa says the articles are not public and the portal needs a Business ID.",
+   "how_to_see_it": "Look for Visa Access help-centre videos, Visa University course outlines and articles that banks or processors republish, such as the AI09108 PDF."
+  },
+  {
+   "what": "Mastercard's Technical Resource Center announcement list, filters and email subscriptions.",
+   "why": "The site returns 404 without login, and a public training video sits behind a bot check.",
+   "how_to_see_it": "Search for customer training decks and processor onboarding guides that include TRC screenshots."
+  },
+  {
+   "what": "How Discover and PULSE write and send their bulletins, and the lead times they give.",
+   "why": "No Discover or PULSE bulletin is public, and processors only confirm the releases exist.",
+   "how_to_see_it": "Check court exhibits, state procurement records and credit union processor notices that quote Discover or PULSE release text."
+  },
+  {
+   "what": "The EASI Message Center and Document Library, and the Release Compliance Tool.",
+   "why": "All three need registration or an NDA.",
+   "how_to_see_it": "Look for processor certification guides and job postings that describe EASI or RCT work."
+  },
+  {
+   "what": "What networks send issuers and acquirers during their own outages.",
+   "why": "Only the 2018 Visa case is documented, and manuals describe partners reporting to the network.",
+   "how_to_see_it": "Read Bank of England and PSR post-incident material, and trade press on later outages."
+  },
+  {
+   "what": "Business review agendas, scorecards and client success plans.",
+   "why": "They are contractual and appear only in job postings.",
+   "how_to_see_it": "Search public-sector card programme contracts and RFP responses that attach account management plans."
+  },
+  {
+   "what": "Waiver, variance and extension request forms and their decision times.",
+   "why": "Forms sit in Visa Access, Mastercard Connect and Knowledge Base.",
+   "how_to_see_it": "Look for court exhibits and regulator filings that quote waiver correspondence, such as the DOJ's Visa case."
+  },
+  {
+   "what": "Discover and Amex account-team job descriptions from 2026.",
+   "why": "The live Capital One posting had expired and this session's web search budget ran out.",
+   "how_to_see_it": "Rerun a job-board sweep for Discover Global Network and Amex GNS account roles."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t6c-fiserv-cbu-deemed",
+   "network": "cross",
+   "claim": "Fiserv's merchant notice of June 2026 network fee changes tells merchants that keeping the account open for 30 days counts as accepting the changes.",
+   "quote": "Continuing your merchant account with us or use of your merchant account after 30 days will represent your acceptance of these terms.",
+   "url": "https://merchants.fiserv.com/en-us/partner-solutions/card-brand-updates/",
+   "title": "June 2026 Card Brand Updates",
+   "publisher": "Fiserv (Clover merchant site)",
+   "published": "2026-06",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-fiserv-cbu-hedge",
+   "network": "cross",
+   "claim": "Fiserv opens its merchant card brand notice with a general warning rather than a per-merchant impact statement.",
+   "quote": "This notice is to inform you that effective June 2026, qualification criteria categories may be changed.",
+   "url": "https://merchants.fiserv.com/en-us/partner-solutions/card-brand-updates/",
+   "title": "June 2026 Card Brand Updates",
+   "publisher": "Fiserv (Clover merchant site)",
+   "published": "2026-06",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-braintree-format",
+   "network": "cross",
+   "claim": "Braintree's public release guide tags each network change by type, network and region, with an effective date, in one table.",
+   "quote": "The updates provide the nature of the update (fee change, mandate, new feature/update), the network implementing the change, and the regions in scope.",
+   "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2026",
+   "title": "April 2026 Release Guide: Card Network updates",
+   "publisher": "PayPal Braintree",
+   "published": "2026-03",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-braintree-noaction",
+   "network": "cross",
+   "claim": "Braintree tells merchants that most network updates need no action but some force integration work, fees or service adoption.",
+   "quote": "While many of the updates require no action for merchants, some updates can require integration changes, fee impact, or forced adoption of services.",
+   "url": "https://developer.paypal.com/braintree/articles/risk-and-security/compliance/network-updates/2026",
+   "title": "April 2026 Release Guide: Card Network updates",
+   "publisher": "PayPal Braintree",
+   "published": "2026-03",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-sofi-impact",
+   "network": "cross",
+   "claim": "SoFi Tech Solutions republishes each network mandate with a labelled 'Impact to SoFi Tech Solutions' paragraph that states what it changed and which API field carries it.",
+   "quote": "Impact to SoFi Tech Solutions: SoFi Tech Solutions has added support for kV and kD, so transactions carrying this code are no longer incorrectly declined.",
+   "url": "https://docs.tech.sofi.com/pro/docs/card-network-mandates",
+   "title": "Card Network Mandates",
+   "publisher": "SoFi Tech Solutions",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mq-cadence",
+   "network": "cross",
+   "claim": "Marqeta says networks send it technical documents four times a year, two major and two minor.",
+   "quote": "communicated through technical documents provided by the card networks to Marqeta four times a year (two major and two minor updates)",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mq-discover-rel",
+   "network": "dgn",
+   "claim": "Marqeta names an April 2026 Discover Release with its own effective date, confirming a dated Discover release cycle for issuer processors.",
+   "quote": "The Marqeta platform is certified with the April 2026 Discover Release, effective 17 April 2026.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mq-pulse-rel",
+   "network": "pulse",
+   "claim": "Marqeta names an April 2026 PULSE Release effective five days before the Visa and Discover dates, with numbered sections.",
+   "quote": "The Marqeta platform is certified with the April 2026 Pulse Release, effective 12 April 2026.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mq-invisible",
+   "network": "cross",
+   "claim": "Marqeta groups Discover and PULSE items under 'changes with no impact on your card program' and absorbs the work for its clients.",
+   "quote": "Marqeta has completed the development work required for these mandates, although the modifications are not visible to you.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mq-oct-none",
+   "network": "dgn",
+   "claim": "For the October 2026 cycle Marqeta records no Discover or PULSE changes, while it lists Visa and Mastercard items.",
+   "quote": "No applicable changes were communicated to Marqeta by Discover.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vmbnd-notpublic",
+   "network": "visa",
+   "claim": "Visa's public merchant digest states that the Visa Business News articles themselves are not public.",
+   "quote": "Actual Visa Business News articles are not public materials and should not be treated as public documents",
+   "url": "https://www.visa.com/en-us/resources/visa-merchant-business-news-digest",
+   "title": "Visa Merchant Business News Digest",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vmbnd-route",
+   "network": "visa",
+   "claim": "The merchant digest routes follow-up questions to a Visa representative or the acquirer.",
+   "quote": "Contact your Visa rep or acquirer.",
+   "url": "https://www.visa.com/en-us/resources/visa-merchant-business-news-digest",
+   "title": "Visa Merchant Business News Digest",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vmbnd-latest",
+   "network": "visa",
+   "claim": "On 26 September 2026 the newest digest entry was dated May 2026, tagged only by month and region.",
+   "quote": "Enablement of Visa Credential Enrichment Service for Card-on-File Token Requestors",
+   "url": "https://www.visa.com/en-us/resources/visa-merchant-business-news-digest",
+   "title": "Visa Merchant Business News Digest",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vbn-anatomy",
+   "network": "visa",
+   "claim": "A Visa Business News article that Visa republished publicly carries an article ID, a region and audience line, a brand line, an effective-dated overview and a contact route.",
+   "quote": "Global | Acquirers, Issuers, Processors, Agents",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/ai09108.pdf",
+   "title": "Article ID AI09108: Expanded Eligibility for Estimates and Incremental Authorizations",
+   "publisher": "Visa (Visa Business News)",
+   "published": "2019-07-12",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-vbn-reissue",
+   "network": "visa",
+   "claim": "Visa corrects a Business News article by republishing it with a note on what changed, rather than showing a tracked revision.",
+   "quote": "This article originally ran in the 11 July 2019 edition of the Visa Business News.",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/ai09108.pdf",
+   "title": "Article ID AI09108: Expanded Eligibility for Estimates and Incremental Authorizations",
+   "publisher": "Visa (Visa Business News)",
+   "published": "2019-07-12",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-vbn-downstream",
+   "network": "visa",
+   "claim": "The article sends merchants and agents to their acquirer rather than to Visa.",
+   "quote": "Merchants and third party agents should contact their acquirer.",
+   "url": "https://usa.visa.com/dam/VCOM/global/support-legal/documents/ai09108.pdf",
+   "title": "Article ID AI09108: Expanded Eligibility for Estimates and Incremental Authorizations",
+   "publisher": "Visa (Visa Business News)",
+   "published": "2019-07-12",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-visa-clientdir",
+   "network": "visa",
+   "claim": "Members must name a Primary Center Manager and a Senior Officer in the Client Directory in Visa Access, and update contacts within 10 business days of a change.",
+   "quote": "My Organization’s Contacts module of the Client Directory via Visa Access",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-visa-notif",
+   "network": "visa",
+   "claim": "Under the Visa Rules a Notification takes effect when Visa sends it, so the burden of receiving it sits with the Member.",
+   "quote": "Notification is effective when posted, sent, or transmitted by Visa to the Member or its Agent.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-visa-waiver-writing",
+   "network": "visa",
+   "claim": "Visa decides each waiver in writing and the waiver's effective date is set in that notification.",
+   "quote": "Visa will notify the Member in writing of its decision on a Waiver request.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-vaccess-am",
+   "network": "visa",
+   "claim": "Visa Access support tells issuers and acquirers without portal access to go to their Visa account executive or manager.",
+   "quote": "Issuers and Acquirers who don’t have access to Visa Access should contact their Visa Account Executive/Manager",
+   "url": "https://www.visaonline.com/support/",
+   "title": "Visa Access Support",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vaccess-regional",
+   "network": "visa",
+   "claim": "Visa Access support is regional, with one mailbox and three phone numbers for the Americas, AP and CEMEA, and Europe.",
+   "quote": "For technical or log in issues, contact the Visa Access Support team for your region.",
+   "url": "https://www.visaonline.com/support/",
+   "title": "Visa Access Support",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vaccess-admins",
+   "network": "visa",
+   "claim": "Visa Access sends users to their own organisation's delegated administrators before Visa's support team.",
+   "quote": "Users with local administrators within your organization should contact them first.",
+   "url": "https://www.visaonline.com/support/",
+   "title": "Visa Access Support",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-vaccess-help",
+   "network": "visa",
+   "claim": "The Visa Access landing page promises a built-in help centre, self-service tools and AI search inside the portal.",
+   "quote": "Access guided support and resources designed to assist you when you need additional help.",
+   "url": "https://www.visaonline.com/about/",
+   "title": "Visa Access",
+   "publisher": "Visa",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-visa-clientcare",
+   "network": "visa",
+   "claim": "Visa describes its Client Care function as round-the-clock payments and technical support for clients.",
+   "quote": "Provide superior client experiences via 24/7 global payments and technical support.",
+   "url": "https://corporate.visa.com/en/careers/teams/client-services-and-support.html",
+   "title": "Client Services and Support Team",
+   "publisher": "Visa Careers",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr-sd9-ey",
+   "network": "visa",
+   "claim": "An independent review found Visa's communications during its June 2018 outage were not timely, regular or actionable.",
+   "quote": "Visa’s communications with internal and external stakeholders during the incident were not timely, regular or actionable.",
+   "url": "https://www.psr.org.uk/media/zgldcj50/may19-psr-specific-direction-9-visa-crisis-communications.pdf",
+   "title": "Specific Direction 9 (Crisis communications: Visa)",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2019-05",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr-sd9-methods",
+   "network": "visa",
+   "claim": "The same review found Visa's methods for reaching clients were not effective or efficient.",
+   "quote": "Methods used to communicate with clients were not effective or efficient.",
+   "url": "https://www.psr.org.uk/media/zgldcj50/may19-psr-specific-direction-9-visa-crisis-communications.pdf",
+   "title": "Specific Direction 9 (Crisis communications: Visa)",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2019-05",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr-sd9-annual",
+   "network": "visa",
+   "claim": "The PSR direction requires Visa Europe to test its crisis communications plan with participants every year and report the outcome.",
+   "quote": "annually testing its effectiveness with participants and reporting to the PSR",
+   "url": "https://www.psr.org.uk/media/zgldcj50/may19-psr-specific-direction-9-visa-crisis-communications.pdf",
+   "title": "Specific Direction 9 (Crisis communications: Visa)",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2019-05",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr-sd9-trigger",
+   "network": "visa",
+   "claim": "The direction requires Visa to define which incidents trigger its crisis communications plan.",
+   "quote": "Setting out Visa’s criteria for which incidents will trigger the use of the crisis communications plan",
+   "url": "https://www.psr.org.uk/media/zgldcj50/may19-psr-specific-direction-9-visa-crisis-communications.pdf",
+   "title": "Specific Direction 9 (Crisis communications: Visa)",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2019-05",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-cts-spoc",
+   "network": "mastercard",
+   "claim": "A Mastercard job posting describes Customer Technical Services as the single point of contact that owns customer issues end to end.",
+   "quote": "acts as a single point of contact for Schemes, Participants, business, and internal business partners",
+   "url": "https://builtin.com/job/customer-technical-services-analyst-ii/8781470",
+   "title": "Customer Technical Services Analyst II (Singapore)",
+   "publisher": "Mastercard via Built In (job removed 2 May 2026)",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-cts-levels",
+   "network": "mastercard",
+   "claim": "Customer Technical Services gives first and second level support and makes system processing changes for customers.",
+   "quote": "CTS provides first and second level technical support as well as drives system processing changes on behalf of Mastercard customers.",
+   "url": "https://builtin.com/job/customer-technical-services-analyst-ii/8781470",
+   "title": "Customer Technical Services Analyst II (Singapore)",
+   "publisher": "Mastercard via Built In (job removed 2 May 2026)",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-cts-247",
+   "network": "mastercard",
+   "claim": "Customer Technical Services runs as a 24x7 team on rotating 12-hour shifts.",
+   "quote": "As this is a 24x7 team, candidate must be able to do rotational shift work",
+   "url": "https://builtin.com/job/customer-technical-services-analyst-ii/8781470",
+   "title": "Customer Technical Services Analyst II (Singapore)",
+   "publisher": "Mastercard via Built In (job removed 2 May 2026)",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-tam-qor",
+   "network": "mastercard",
+   "claim": "A Mastercard Technology Account Management director prepares and runs Quarterly Operational Reviews for key accounts.",
+   "quote": "Preparing and conducting Quarterly Operational Review for the key accounts.",
+   "url": "https://www.dreamworkhq.com/job/cab1261f-452e-4047-aaab-85d0ffd49478",
+   "title": "Director, Technology Account Management (Tokyo)",
+   "publisher": "Mastercard via Dreamwork job aggregator",
+   "published": "2026-07",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-tam-trt",
+   "network": "mastercard",
+   "claim": "During an incident the technology account manager joins the response team and relays updates to the customer.",
+   "quote": "Join TRT, explain situation to customer, provide update.",
+   "url": "https://www.dreamworkhq.com/job/cab1261f-452e-4047-aaab-85d0ffd49478",
+   "title": "Director, Technology Account Management (Tokyo)",
+   "publisher": "Mastercard via Dreamwork job aggregator",
+   "published": "2026-07",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-tam-pir",
+   "network": "mastercard",
+   "claim": "After an incident the account manager shares Mastercard's Post Incident Report with the customer and leads follow-up.",
+   "quote": "Post-Incident: Review Post Incident Report and share with customer, lead follow-up meetings.",
+   "url": "https://www.dreamworkhq.com/job/cab1261f-452e-4047-aaab-85d0ffd49478",
+   "title": "Director, Technology Account Management (Tokyo)",
+   "publisher": "Mastercard via Dreamwork job aggregator",
+   "published": "2026-07",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-mc-tam-releases",
+   "network": "mastercard",
+   "claim": "The same role delivers training on Mastercard products, implementations and releases to customers.",
+   "quote": "Execute the training and delivery of Mastercard products, implementations and releases.",
+   "url": "https://www.dreamworkhq.com/job/cab1261f-452e-4047-aaab-85d0ffd49478",
+   "title": "Director, Technology Account Management (Tokyo)",
+   "publisher": "Mastercard via Dreamwork job aggregator",
+   "published": "2026-07",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-cadence",
+   "network": "amex",
+   "claim": "The Amex network's Business and Operational Policies manual is republished every April and October and posted to Knowledge Base.",
+   "quote": "The Business and Operational Policies manual will be published twice each year, in April and October.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-types",
+   "network": "amex",
+   "claim": "Every Amex network change is typed as Policy (P), Legally required (L) or Information only (I).",
+   "quote": "Information only (I) - No changes are necessary and the article is provided for information only.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-effective",
+   "network": "amex",
+   "claim": "Amex network policy changes take effect on publication unless stated otherwise.",
+   "quote": "All policy in this manual is effective at the date of publication, unless otherwise stated.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-extension",
+   "network": "amex",
+   "claim": "A participant that cannot implement a policy change can document the impact and ask for up to three months' extension.",
+   "quote": "request an extension of up to three (3) months from the publication date.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-notwithheld",
+   "network": "amex",
+   "claim": "Amex commits that such extensions will not be unreasonably withheld.",
+   "quote": "This extension would not be unreasonably withheld.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-attest",
+   "network": "amex",
+   "claim": "Amex network participants sign an annual attestation of accuracy for their Program Progress Reports.",
+   "quote": "Participants must provide AEGNS with an attestation of accuracy for Program Progress Reports on an annual basis.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-contacts",
+   "network": "amex",
+   "claim": "Participants must keep key contacts current, and Amex shares them with other participants through the Participant Directory.",
+   "quote": "Participants must promptly update AEGNS when contact information changes.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-helpdesk",
+   "network": "amex",
+   "claim": "Issuers schedule their own outages by phoning the AEGNS Help Desk, ideally 30 days ahead.",
+   "quote": "Participants must call the AEGNS Help Desk at +1-602-794-9903 to notify the Network of a scheduled outage.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-unsched",
+   "network": "amex",
+   "claim": "An issuer with an unscheduled outage must tell the Help Desk at once.",
+   "quote": "An Issuer, upon experiencing an unscheduled outage, must immediately notify the AEGNS Help Desk.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-bop-acqout",
+   "network": "amex",
+   "claim": "When the Amex network stops responding, the manual puts the duty to raise it on the acquirer.",
+   "quote": "In the event that the AEGN fails to respond to an Authorization Request, the Acquirer should immediately notify the AEGNS technical Help Desk.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "Business and Operational Policies, October 2023",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-kb-services",
+   "network": "amex",
+   "claim": "Knowledge Base is the gateway to OpsNet, File Tracker, FraudNet and the Token Requester Management Portal, requested through a 'Request Additional Services' button.",
+   "quote": "Knowledge Base access is required to apply for additional services such as FraudNet, OpsNet, File Tracker and Token Requester Management Portal.",
+   "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+   "title": "Welcome to Knowledge Base",
+   "publisher": "American Express Global Network Services",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-amex-kb-3days",
+   "network": "amex",
+   "claim": "Amex commits to process Knowledge Base access requests within three business days.",
+   "quote": "All requests for access will be processed within 3 business days by GNS User Services.",
+   "url": "https://network.americanexpress.com/globalnetwork/de/v4/secure/knowledge-base/",
+   "title": "Welcome to Knowledge Base",
+   "publisher": "American Express Global Network Services",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-cua-forward",
+   "network": "cross",
+   "claim": "CU*Answers, a credit union core CUSO, asks its credit unions to forward network mandate communications to its card team.",
+   "quote": "Please forward these communications to the Cards & Payments Team at CardsandPayments@cuanswers.com so we can keep everyone informed!",
+   "url": "https://www.cuanswers.com/solutions/cards-payments/mandate-review/",
+   "title": "Cards & Payments: Network Vendor Mandate Review",
+   "publisher": "CU*Answers",
+   "published": "2026-07-07",
+   "label": "Vendor",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-cua-deadlines",
+   "network": "cross",
+   "claim": "The CUSO describes mandates as communications from network vendors that carry required programming changes, sometimes with short deadlines.",
+   "quote": "can contain required programming changes and important information, sometimes with short deadline dates.",
+   "url": "https://www.cuanswers.com/solutions/cards-payments/mandate-review/",
+   "title": "Cards & Payments: Network Vendor Mandate Review",
+   "publisher": "CU*Answers",
+   "published": "2026-07-07",
+   "label": "Vendor",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-dgn-iin-nda",
+   "network": "dgn",
+   "claim": "Discover's detailed IIN range table sits in the EASI Portal Document Library, open only to companies with an NDA on file.",
+   "quote": "Companies with an NDA on file can directly access the DGN IIN Range Table in the EASI Portal Document Library.",
+   "url": "https://www.discoverglobalnetwork.com/content/dam/discover/en_us/dgn/docs/IPP-VAR-Enabler-Compliance.pdf",
+   "title": "Global Payment Network: IIN Range Summary",
+   "publisher": "Discover Global Network",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-dgn-aoc-email",
+   "network": "dgn",
+   "claim": "Discover collects PCI attestations and relief applications by email to its DISC compliance mailbox.",
+   "quote": "Please send all forms to DISCCompliance@discover.com",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "title": "Validation and Reporting Requirements",
+   "publisher": "Discover Global Network",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-dgn-aoc-annual",
+   "network": "dgn",
+   "claim": "A PCI Attestation of Compliance is due to Discover every year unless it approves otherwise.",
+   "quote": "a PCI DSS Attestation of Compliance (AOC) must be submitted annually.",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "title": "Validation and Reporting Requirements",
+   "publisher": "Discover Global Network",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-dgn-scip",
+   "network": "dgn",
+   "claim": "Discover offers merchants a relief programme, SCIP, that waives routine PCI documentation for chip-enabled merchants with a tested incident plan.",
+   "quote": "merchants are able to obtain relief from providing PCI Compliance documentation",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/validation-reporting-requirements/",
+   "title": "Validation and Reporting Requirements",
+   "publisher": "Discover Global Network",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-dgn-acq-q",
+   "network": "dgn",
+   "claim": "Discover periodically sends acquirers a short compliance questionnaire on its operating regulations and merchant portfolio.",
+   "quote": "on a periodic basis to answer a short list of questions regarding Acquirer Operating Regulation and Merchant Portfolio compliance",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/acquirer-compliance/",
+   "title": "PCI Acquirer Compliance",
+   "publisher": "Discover Global Network",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr25-65pct",
+   "network": "cross",
+   "claim": "The PSR found acquirers holding over 65 percent of the UK market had difficulty getting timely and adequate answers from the schemes.",
+   "quote": "acquirers accounting for over 65% of the total acquiring market face difficulties in obtaining, in a timely and adequate manner, responses",
+   "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+   "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2025-03-06",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr25-portals",
+   "network": "cross",
+   "claim": "UK acquirers said pricing bulletin codes in the schemes' portals do not match invoice codes.",
+   "quote": "the pricing bulletin codes used by one or both schemes’ portals do not match those used on invoices",
+   "url": "https://www.psr.org.uk/media/sogjjvl4/mr22-110-card-sp-fees-mr-final-report-publication-redacted-mar-2025-updated.pdf",
+   "title": "MR22/1.10 Market review of card scheme and processing fees: final report",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2025-03-06",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-psr26-notice",
+   "network": "cross",
+   "claim": "Under the PSR's 2026 direction, schemes must explain new fees and their triggers to acquirers six months before implementation.",
+   "quote": "understand new and modified scheme and processing fees and how they are triggered six months before they are implemented",
+   "url": "https://www.psr.org.uk/media/kajnh5wc/ps26-1-final-decision-itc-and-pg-jul-2026-v3.pdf",
+   "title": "PS26/1 Market review of card scheme and processing fees: Final decision",
+   "publisher": "Payment Systems Regulator (UK)",
+   "published": "2026-07-30",
+   "label": "Verified",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-prth-rules",
+   "network": "cross",
+   "claim": "Priority says payment networks change rules at their discretion, with or without advance notice.",
+   "quote": "with or without advance notice to their participants",
+   "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "title": "Priority Technology Holdings, Inc. Form 10-K for fiscal year 2025",
+   "publisher": "Priority Technology Holdings via SEC EDGAR",
+   "published": "2026-03-10",
+   "label": "Verified",
+   "fetch": "curl of SEC EDGAR copy with declared user agent, 2026-09-26. Quote found verbatim."
+  },
+  {
+   "key": "t6c-prth-compressed",
+   "network": "cross",
+   "claim": "Priority says network and sponsor bank timelines for new rules have been highly compressed.",
+   "quote": "sponsor banks for expected compliance with new rules have historically been, and may continue to be, highly compressed",
+   "url": "https://www.sec.gov/Archives/edgar/data/1653558/000165355826000066/prth-20251231.htm",
+   "title": "Priority Technology Holdings, Inc. Form 10-K for fiscal year 2025",
+   "publisher": "Priority Technology Holdings via SEC EDGAR",
+   "published": "2026-03-10",
+   "label": "Verified",
+   "fetch": "curl of SEC EDGAR copy with declared user agent, 2026-09-26. Quote found verbatim."
+  },
+  {
+   "key": "t6c-stripe-cno",
+   "network": "cross",
+   "claim": "Stripe staffs a Card Network Office role to review twice-yearly network releases for business impact.",
+   "quote": "Review, analyze, and assess biannual card network releases to identify key initiatives that will significantly impact Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8081754",
+   "title": "Program Manager, Card Network Office (Card Networks)",
+   "publisher": "Stripe (job posting)",
+   "published": "2026-07-27",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-stripe-cno-waiver",
+   "network": "cross",
+   "claim": "The same Stripe role manages waiver requests between compliance and operations teams.",
+   "quote": "Lead the proactive management of waiver requests, liaising between compliance and operational teams for resolution.",
+   "url": "https://stripe.com/jobs/search?gh_jid=8081754",
+   "title": "Program Manager, Card Network Office (Card Networks)",
+   "publisher": "Stripe (job posting)",
+   "published": "2026-07-27",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-ni-mandates",
+   "network": "cross",
+   "claim": "Network International asks an acquiring architect to turn scheme mandates and bulletins into system requirements.",
+   "quote": "Translate scheme mandates, compliance bulletins, and regulatory changes into architecture and system requirements",
+   "url": "https://freehire.me/jobs/solution-architect-acquirer-processing-network-international-76e7rwzk",
+   "title": "Solution Architect - Acquirer Processing, Network International",
+   "publisher": "Network International (job posting on freehire.me aggregator)",
+   "published": "2026",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-cds-visa",
+   "network": "visa",
+   "claim": "ATM processor CDS relayed Visa's 18 October 2025 operator rules and warned operators of suspension and network fines.",
+   "quote": "are subject to suspension of service, EFT Network fines, and further action",
+   "url": "https://www.cdsatm.com/news/visa-rules-update-affecting-all-atm-operators",
+   "title": "Visa Rules Update Affecting All ATM Operators",
+   "publisher": "CDS (Columbus Data Services), NCR Atleos",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-cds-cashless-fines",
+   "network": "cross",
+   "claim": "CDS passes any network fine for cashless devices through to the ISO.",
+   "quote": "Any assessed fees and/or fines will be passed through to the ISO.",
+   "url": "https://www.cdsatm.com/news/network-rules-regarding-cashless-atms",
+   "title": "Network rules regarding cashless devices",
+   "publisher": "CDS (Columbus Data Services), NCR Atleos",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-job-velera-disputes",
+   "network": "cross",
+   "claim": "A Velera dispute supervisor reviews network notifications and mandates for its credit union clients.",
+   "quote": "Reviews Visa, Mastercard and other network notifications/mandates to support compliance with Chargeback processing requirements.",
+   "url": "https://builtin.com/job/supervisor-dispute-operations/8373827",
+   "title": "Supervisor, Dispute Operations (Velera)",
+   "publisher": "Built In (Velera job posting)",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-job-lcfcu-liaison",
+   "network": "cross",
+   "claim": "A credit union card services manager is the primary liaison with processors, networks and rewards providers.",
+   "quote": "This position is the primary liaison with third-party processors, networks and reward providers.",
+   "url": "https://www.mddccua.org/career/card-services-manager/",
+   "title": "Card Services Manager (Library of Congress FCU)",
+   "publisher": "MD|DC Credit Union Association careers board",
+   "published": "2026-02-23",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-fdic-cbs-token",
+   "network": "cross",
+   "claim": "A community bank executive said debit tokenisation was stalled waiting on the core provider.",
+   "quote": "We have many initiatives (e.g., debit card tokenization) that are effectively stalled while we wait for [core service provider].",
+   "url": "https://www.fdic.gov/resources/community-banking/report/2020/2020-cbi-study-full.pdf",
+   "title": "FDIC Community Banking Study, December 2020",
+   "publisher": "Federal Deposit Insurance Corporation",
+   "published": "2020-12",
+   "label": "Reported",
+   "fetch": "curl PDF with Chrome user agent, pypdf, 2026-09-26"
+  },
+  {
+   "key": "t6c-kc-small",
+   "network": "cross",
+   "claim": "Smaller institutions struggle to absorb core provider charges for updates and new rails.",
+   "quote": "Smaller DIs often struggle to absorb the costs charged by their core providers to implement updates or adopt new payment rails.",
+   "url": "https://www.kansascityfed.org/research/payments-system-research-briefings/market-structure-of-core-banking-services-providers/",
+   "title": "Market Structure of Core Banking Services Providers",
+   "publisher": "Federal Reserve Bank of Kansas City",
+   "published": "2024-03-27",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-bdive-fis",
+   "network": "cross",
+   "claim": "A power loss and hardware failure at FIS caused a several-day Capital One service interruption in January 2025.",
+   "quote": "A local power loss and hardware failure at third-party vendor FIS appears to be at the root of a several-day service interruption",
+   "url": "https://www.bankingdive.com/news/capital-one-outage-fis-bank-of-oklahoma-citi/737847/",
+   "title": "Capital One outage spans days, hits thousands",
+   "publisher": "Banking Dive",
+   "published": "2025-01-21",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-finbrand-meyer",
+   "network": "cross",
+   "claim": "A Cornerstone Advisors director described setting outage update frequency by service tier.",
+   "quote": "For critical services, we sent communications hourly; important services, every four hours; exempt services, once a day",
+   "url": "https://thefinancialbrand.com/news/bank-culture/communication-during-third-party-failure-what-to-learn-from-capital-ones-outage-186370",
+   "title": "When Your Partners Fail: Hard Lessons from the Capital One Outage",
+   "publisher": "The Financial Brand",
+   "published": "2025-02-03",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-nac-rms",
+   "network": "cross",
+   "claim": "NAC's jackpotting guidance names police, the Secret Service, the FBI and NAC's database as contacts and names no card network.",
+   "quote": "TURN OFF YOUR RMS SYSTEM",
+   "url": "https://www.natmc.org/post/rms-jackpotting-attacks-continue-how-can-you-protect-your-atms",
+   "title": "RMS Jackpotting Attacks Continue! How can YOU protect your ATMs?",
+   "publisher": "National ATM Council",
+   "published": "2025-04-25",
+   "label": "Reported",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  },
+  {
+   "key": "t6c-canada-notice",
+   "network": "cross",
+   "claim": "Canada's Code requires at least 120 days' notice to acquirers of non-structural domestic fee changes.",
+   "quote": "PCNOs will provide at least 120 calendar days’ notice to Acquirers for domestic Non-Structural Fees changes",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/industry/laws-regulations/credit-debit-code-conduct.html",
+   "title": "Code of Conduct for the Payment Card Industry in Canada",
+   "publisher": "Financial Consumer Agency of Canada",
+   "published": "2025-09-24",
+   "label": "Verified",
+   "fetch": "curl or node tools/text.js, 2026-09-26"
+  }
+ ],
+ "stage_id": "6c"
+}

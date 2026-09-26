@@ -1,0 +1,2804 @@
+{
+ "stage": "4. Build and integrate",
+ "summary": [
+  {
+   "text": "Visa and Mastercard let any registered developer create a project and call a sandbox the same day, and production waits on a contract or company verification.",
+   "ids": [
+    "visa-190",
+    "mastercard-002",
+    "visa-201",
+    "mastercard-005"
+   ]
+  },
+  {
+   "text": "American Express reviews every product request before keys appear, and Discover's Developer Center admits developers only by a representative's invitation.",
+   "ids": [
+    "amex-007",
+    "amex-386",
+    "dgn-034",
+    "new:t4-s4-dgn-gl-invite"
+   ]
+  },
+  {
+   "text": "The ISO 8583 host specifications that acquirers build to are confidential at all four networks. They sit behind Visa Online, Mastercard Connect, the Amex Knowledge Base or EASI.",
+   "ids": [
+    "new:t4-s4-visa-rules-conf",
+    "new:t4-s4-mc-rules-cis",
+    "mastercard-409",
+    "amex-041",
+    "dgn-164",
+    "new:t4-s4-dgn-easi-scope"
+   ]
+  },
+  {
+   "text": "Host certification is representative-led everywhere. Discover and American Express hand out forms and test plans through a named manager, and Mastercard needs licensed simulators ordered on Mastercard Connect.",
+   "ids": [
+    "new:t4-s4-uspf-dgn-forms",
+    "amex-042",
+    "new:t4-s4-uspf-mc-sim",
+    "new:t4-s4-uspf-visa-scripts"
+   ]
+  },
+  {
+   "text": "Token services are the least self-serve surface. Visa's VTS page routes to an account executive or acquirer, MDES issuer work runs through a Mastercard delivery manager, and Amex notification tests need a representative.",
+   "ids": [
+    "new:t4-s4-visa-vts-page",
+    "new:t4-s4-mc-mdes-cdm",
+    "new:t4-s4-amex-ats-outbound"
+   ]
+  },
+  {
+   "text": "Processors and programme managers carry most integration for smaller partners. Host testing runs once per platform, and Marqeta certifies each network release for all its clients.",
+   "ids": [
+    "new:t4-s4-uspf-once-per-platform",
+    "new:t4-s4-marqeta-certified",
+    "new:t4-s4-marqeta-noaction",
+    "cross-255"
+   ]
+  },
+  {
+   "text": "Discover's strongest public asset is twelve readable OpenAPI specifications on the Partner Product Portal, but the credentials, test cases and certification behind them are released by people.",
+   "ids": [
+    "dgn-385",
+    "dgn-021",
+    "new:t4-s4-dgn-gl-boarding"
+   ]
+  },
+  {
+   "text": "The public record is thin for PULSE, which publishes no developer portal, API reference or interface specification.",
+   "ids": [
+    "pulse-006",
+    "pulse-007"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Developers building on network APIs (independent developers, fintech engineering teams, integrators)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A developer registers on developer.visa.com with name, email, organisation and company website, then signs in through Visa's Universal Login with MFA or a passkey.",
+       "ids": [
+        "visa-w-dev",
+        "visa-219"
+       ]
+      },
+      {
+       "text": "From the dashboard the developer clicks Add new project, names it, picks an API such as Visa Transaction Controls, selects 'Generate a CSR for me' and clicks Create project.",
+       "ids": [
+        "new:t4-s4-visa-vid-create"
+       ]
+      },
+      {
+       "text": "A pop-up then offers the certificate private key, which can be downloaded only once.",
+       "ids": [
+        "new:t4-s4-visa-vid-create"
+       ]
+      },
+      {
+       "text": "The Credentials tab shows the project client certificate, common certificates including the Visa Developer Platform root, and a user ID and password for HTTP Basic authentication.",
+       "ids": [
+        "new:t4-s4-visa-vid-2wayssl",
+        "visa-195"
+       ]
+      },
+      {
+       "text": "The first call is Hello World over Two-Way SSL, tested in Postman or in SoapUI after building a keystore with OpenSSL.",
+       "ids": [
+        "new:t4-s4-visa-vid-2wayssl",
+        "new:t4-s4-visa-vid-keystore",
+        "visa-196"
+       ]
+      },
+      {
+       "text": "Each API authenticates with Two-Way SSL or X-Pay Token, and some add message level encryption with JWE.",
+       "ids": [
+        "visa-192",
+        "visa-197"
+       ]
+      },
+      {
+       "text": "Mock test data sits in a Test Data table per API inside the project, and it never touches VisaNet.",
+       "ids": [
+        "new:t4-s4-visa-vid-testdata",
+        "visa-191"
+       ]
+      },
+      {
+       "text": "Restricted products carry a lock and need a Request Access application that a Visa admin reviews before the API can join a project.",
+       "ids": [
+        "visa-206",
+        "visa-205"
+       ]
+      },
+      {
+       "text": "To go live the developer opens Going live in the project, registers the company or enters a Visa BID, adds contacts and beneficial owners, and describes the use case.",
+       "ids": [
+        "new:t4-s4-visa-vid-golive-bid",
+        "new:t4-s4-visa-vid-golive-bo",
+        "new:t4-s4-visa-vid-golive-usecase"
+       ]
+      },
+      {
+       "text": "A product team reviews the request with no stated timeline, then sends a contract with pricing and terms.",
+       "ids": [
+        "new:t4-s4-visa-vid-golive-timeline",
+        "new:t4-s4-visa-vid-golive-contract"
+       ]
+      },
+      {
+       "text": "Certification and production credentials need a new CSR per environment and appear only after signature, behind an emailed one-time password.",
+       "ids": [
+        "visa-201",
+        "visa-202"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "API browser (/apibrowser)",
+       "what_it_shows": "73 product cards with Overview and Docs links, filters by audience and capability, and lock icons on 20 restricted products.",
+       "ids": [
+        "visa-205",
+        "visa-w-dev"
+       ]
+      },
+      {
+       "name": "Project dashboard",
+       "what_it_shows": "Left navigation with Summary, Credentials, Configurations, Test Data, Users, Project Settings and Sample Code.",
+       "ids": [
+        "visa-221",
+        "new:t4-s4-visa-vid-create",
+        "new:t4-s4-visa-vid-users"
+       ]
+      },
+      {
+       "name": "Going live form and Onboarding Dashboard",
+       "what_it_shows": "Company registration or Visa BID, contacts, beneficial ownership, use case questions, geography, then Submit going live request.",
+       "ids": [
+        "new:t4-s4-visa-vid-golive-bid",
+        "new:t4-s4-visa-vid-golive-usecase",
+        "visa-150",
+        "visa-220"
+       ]
+      },
+      {
+       "name": "VDC Playground",
+       "what_it_shows": "A Windows-only Java tester downloaded from Asset Management inside a signed-in project.",
+       "ids": [
+        "visa-210"
+       ]
+      },
+      {
+       "name": "Release notes",
+       "what_it_shows": "Monthly entries by year from 2017, each tagged Public or Restricted.",
+       "ids": [
+        "visa-146",
+        "visa-212"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The private key can be downloaded only once, so a lost key means a new project.",
+       "ids": [
+        "new:t4-s4-visa-vid-create"
+       ]
+      },
+      {
+       "text": "APIs cannot be removed from a sandbox project, so a wrong pick also means a new project.",
+       "ids": [
+        "visa-221"
+       ]
+      },
+      {
+       "text": "SDKs, sample code and implementation guides are downloads behind sign-in.",
+       "ids": [
+        "visa-148",
+        "visa-207"
+       ]
+      },
+      {
+       "text": "Visa says onboarding can take two weeks or several months, and its product team states no review timeline.",
+       "ids": [
+        "visa-218",
+        "new:t4-s4-visa-vid-golive-timeline"
+       ]
+      },
+      {
+       "text": "Visa says timing is the first question on nearly every client's mind.",
+       "ids": [
+        "visa-427"
+       ]
+      },
+      {
+       "text": "No numeric rate limits are published and load testing is prohibited.",
+       "ids": [
+        "visa-204",
+        "visa-216"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A developer signs up with email, password, name, company and country, verifies the email and logs in.",
+       "ids": [
+        "new:t4-s4-mc-qs-client",
+        "mastercard-w-dev"
+       ]
+      },
+      {
+       "text": "On My Projects the developer clicks Create new project, enters details, says whether the project is built for a client, selects APIs and clicks Proceed.",
+       "ids": [
+        "new:t4-s4-mc-qs-client"
+       ]
+      },
+      {
+       "text": "The portal generates credentials, often a consumer key and an RSA key pair made in the browser, and Open Project starts Sandbox testing.",
+       "ids": [
+        "mastercard-002",
+        "mastercard-008"
+       ]
+      },
+      {
+       "text": "Mastercard's own video shows sandbox keys on the dashboard straight after project creation.",
+       "ids": [
+        "mastercard-v01"
+       ]
+      },
+      {
+       "text": "Most services use OAuth 1.0a with RSA-SHA256 signing, and a few use OAuth 2.0 with FAPI 2.0 or mutual TLS.",
+       "ids": [
+        "mastercard-007",
+        "mastercard-010"
+       ]
+      },
+      {
+       "text": "The quick start offers three routes: an API tool such as Postman or Insomnia, Mastercard SDK samples, or a client generated from the downloadable OpenAPI spec.",
+       "ids": [
+        "new:t4-s4-mc-qs-client",
+        "mastercard-022",
+        "mastercard-024"
+       ]
+      },
+      {
+       "text": "Before production the developer verifies the company, instant when linked to Mastercard Connect or a Company ID, and declares commercial countries.",
+       "ids": [
+        "mastercard-075",
+        "mastercard-300"
+       ]
+      },
+      {
+       "text": "Request Production access generates credentials at once, and they activate only after Mastercard approves.",
+       "ids": [
+        "mastercard-005"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Product catalogue (/products)",
+       "what_it_shows": "91 products with category and 'Used by' filters, each with Overview and Documentation links.",
+       "ids": [
+        "mastercard-032"
+       ]
+      },
+      {
+       "name": "Documentation sidebar",
+       "what_it_shows": "Overview, Announcements, Quick Start Guide, API Basics, API Reference, Developer Tools, Testing, Onboarding Checklist, Tutorials and Support, with a Copy to Markdown control.",
+       "ids": [
+        "mastercard-w-dev"
+       ]
+      },
+      {
+       "name": "Create new project screen",
+       "what_it_shows": "Project details, an 'on behalf of a client' question, API selection and credential generation.",
+       "ids": [
+        "new:t4-s4-mc-qs-client"
+       ]
+      },
+      {
+       "name": "Project Summary page",
+       "what_it_shows": "Production access prerequisites for company verification and commercial countries, then Request Production access.",
+       "ids": [
+        "mastercard-300"
+       ]
+      },
+      {
+       "name": "API Status page",
+       "what_it_shows": "Per-service health for Sandbox and Production, polled about once a minute.",
+       "ids": [
+        "mastercard-040"
+       ]
+      },
+      {
+       "name": "Agent toolkit",
+       "what_it_shows": "A public MCP server and llms.txt so coding assistants can read docs and specs.",
+       "ids": [
+        "mastercard-034",
+        "mastercard-001"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Some sandboxes sit 'Under Review' until a service team approves, and a forum post shows a correctly signed call failing at 'SANDBOX Pending'.",
+       "ids": [
+        "mastercard-003",
+        "mastercard-044"
+       ]
+      },
+      {
+       "text": "There is no portal-wide set of test cards, and some products need a representative to configure them.",
+       "ids": [
+        "mastercard-016"
+       ]
+      },
+      {
+       "text": "Keys expire after 13 months, and two documents disagree on the reminder schedule.",
+       "ids": [
+        "mastercard-004"
+       ]
+      },
+      {
+       "text": "Direct support tickets need sign-in.",
+       "ids": [
+        "mastercard-041"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "A developer clicks Sign Up, creates an Amex OneID login and sets a six-to-nine-digit security code.",
+       "ids": [
+        "amex-028"
+       ]
+      },
+      {
+       "text": "On My Projects the developer clicks Add Project, and the Project Dashboard lists To Do items: certificate upload, OAuth details and a questionnaire.",
+       "ids": [
+        "amex-007"
+       ]
+      },
+      {
+       "text": "The product then sits in Requested until Amex approves it, and only then do the Client ID and Client Secret appear.",
+       "ids": [
+        "amex-007",
+        "amex-008"
+       ]
+      },
+      {
+       "text": "Partner applications use mutual TLS with Amex-signed certificates from an uploaded CSR, plus OAuth 2 or HMAC request signing.",
+       "ids": [
+        "amex-014",
+        "amex-011",
+        "amex-013"
+       ]
+      },
+      {
+       "text": "An Approved sandbox integration shows a Move to Production link, which reopens the To Do list and a second review.",
+       "ids": [
+        "new:t4-s4-amex-gs-move",
+        "amex-069"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Products menu",
+       "what_it_shows": "Sixteen products, each with overview, guide and API reference, some locked for invited readers.",
+       "ids": [
+        "amex-001",
+        "amex-003"
+       ]
+      },
+      {
+       "name": "Project Dashboard",
+       "what_it_shows": "To Do items, product status Requested or Approved, keys per product per environment, and Move to Production.",
+       "ids": [
+        "amex-007",
+        "amex-418",
+        "new:t4-s4-amex-gs-move"
+       ]
+      },
+      {
+       "name": "Create Support Ticket",
+       "what_it_shows": "A form usable signed out, with seven categories and two 1 MB attachments.",
+       "ids": [
+        "amex-029",
+        "amex-420"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No product offers instant sandbox access, although the documentation says some do.",
+       "ids": [
+        "amex-005"
+       ]
+      },
+      {
+       "text": "Five products hide their specification behind an invitation.",
+       "ids": [
+        "amex-003"
+       ]
+      },
+      {
+       "text": "The Java and .NET SDKs are header helpers last updated in 2020 and 2018.",
+       "ids": [
+        "amex-017",
+        "amex-018"
+       ]
+      },
+      {
+       "text": "The portal's What's New log stopped in May 2024.",
+       "ids": [
+        "amex-021"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "The Developer Center home at developer.discover.com is a login gate with one link to the Partner Product Portal.",
+       "ids": [
+        "dgn-001",
+        "dgn-170"
+       ]
+      },
+      {
+       "text": "A new developer fills in the Contact Us form and waits for a Discover representative to send an invitation.",
+       "ids": [
+        "dgn-002",
+        "dgn-034"
+       ]
+      },
+      {
+       "text": "Discover's own guide says partners self-register, then says access is by invitation only.",
+       "ids": [
+        "new:t4-s4-dgn-gl-invite"
+       ]
+      },
+      {
+       "text": "After approval Discover creates a Developer Center organisation and an application with client credentials and a Sandbox, Certification or Prod API Plan.",
+       "ids": [
+        "dgn-013"
+       ]
+      },
+      {
+       "text": "The same process repeats for production and issues new credentials.",
+       "ids": [
+        "new:t4-s4-dgn-gl-repeat"
+       ]
+      },
+      {
+       "text": "Requests carry an OAuth 2 token plus an X-DFS-API-PLAN header, and many APIs add a second factor, mutual TLS and JWE or JWS payload protection.",
+       "ids": [
+        "dgn-010",
+        "dgn-011",
+        "dgn-014",
+        "dgn-015",
+        "new:t4-s4-dgn-gl-dsts"
+       ]
+      },
+      {
+       "text": "The Partner Product Portal publishes an OpenAPI document for each of its twelve products to signed-out readers.",
+       "ids": [
+        "dgn-385",
+        "dgn-007"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Partner Product Portal, Explore our APIs",
+       "what_it_shows": "Twelve products in six groups, each with Overview and API Specs tabs.",
+       "ids": [
+        "dgn-007",
+        "dgn-w-partner"
+       ]
+      },
+      {
+       "name": "Going Live with Discover",
+       "what_it_shows": "A Business Users Guide with a four-phase activity table and a twelve-section Developers Guide on registration, keys, OAuth and encryption.",
+       "ids": [
+        "dgn-310",
+        "new:t4-s4-dgn-gl-toc"
+       ]
+      },
+      {
+       "name": "Developer Center FAQ and Contact Us",
+       "what_it_shows": "Answers that route every new user to a representative.",
+       "ids": [
+        "dgn-002",
+        "dgn-w-dev"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Developer Center documentation pages return 403 to signed-out readers.",
+       "ids": [
+        "dgn-203"
+       ]
+      },
+      {
+       "text": "No sandbox is reachable without an invitation, and no changelog, status page or llms.txt was found.",
+       "ids": [
+        "dgn-034",
+        "dgn-018",
+        "dgn-205",
+        "dgn-w-dev"
+       ]
+      },
+      {
+       "text": "The Consumer Application Certificate downloads only once, and a replacement needs a request.",
+       "ids": [
+        "dgn-014"
+       ]
+      },
+      {
+       "text": "Rate limits come from a per-partner API Plan and are not published.",
+       "ids": [
+        "dgn-011"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:unionpay",
+     "how_it_works": [
+      {
+       "text": "UnionPay's Open Platform signs members in with their institution portal account and pre-fills onboarding tasks with data UnionPay holds.",
+       "ids": [
+        "unionpay-016",
+        "unionpay-043"
+       ]
+      },
+      {
+       "text": "Its test tasks are generated from the project's confirmed business, technical and network information.",
+       "ids": [
+        "unionpay-039"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "UnionPay Open Platform project",
+       "what_it_shows": "Project nodes that activate once a support manager is assigned, with test reports linked from the testing platform.",
+       "ids": [
+        "unionpay-038",
+        "unionpay-041"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A new project's steps stay inactive until the local office assigns a project support manager.",
+       "ids": [
+        "unionpay-038"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard gives the shortest path to a first call. It pairs a same-day sandbox with open markdown docs and an MCP server, and keys the production gate to an existing client identity.",
+    "ids": [
+     "mastercard-002",
+     "mastercard-001",
+     "mastercard-034",
+     "mastercard-075"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover publishes readable OpenAPI specifications but gates the sandbox behind a representative's invitation, so a developer cannot make a first call unaided. Inference: the Partner Product Portal already has projects and credentials switched on to build from.",
+    "ids": [
+     "dgn-385",
+     "dgn-034",
+     "new:t4-s4-dgn-gl-invite",
+     "dgn-204"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers, acquirer processors and gateways (host integration and certification)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A member that uses a processor submits a regional client information questionnaire, and a non-member processor signs a VisaNet Letter of Agreement before touching V.I.P. or BASE II.",
+       "ids": [
+        "new:t4-s4-visa-rules-cq",
+        "new:t4-s4-visa-rules-loa"
+       ]
+      },
+      {
+       "text": "Large acquiring platforms hire engineers to build Visa and Mastercard authorisation and clearing flows in ISO 8583.",
+       "ids": [
+        "new:t4-s4-stripe-swe"
+       ]
+      },
+      {
+       "text": "VisaNet documentation is confidential, and members must stop staff sharing it with third parties.",
+       "ids": [
+        "new:t4-s4-visa-rules-conf",
+        "visa-434"
+       ]
+      },
+      {
+       "text": "BASE I, the V.I.P. authorisation format, is ISO 8583:1987 with many Visa additions, according to a third-party tooling site.",
+       "ids": [
+        "new:t4-s4-iso8583info"
+       ]
+      },
+      {
+       "text": "For chip host certification the acquirer establishes a project with Visa and pulls host test scripts from Visa Online.",
+       "ids": [
+        "new:t4-s4-uspf-visa-scripts"
+       ]
+      },
+      {
+       "text": "Terminal testing connects to the Visa Certification Management Service or a Visa-confirmed simulator, and a completion letter closes host testing.",
+       "ids": [
+        "new:t4-s4-uspf-vcms",
+        "new:t4-s4-uspf-visa-letter"
+       ]
+      },
+      {
+       "text": "Visa's newer VisaNet Connect Acceptance offers a REST authorisation API on ISO 20022, with no ISO 8583 mapping on its public pages.",
+       "ids": [
+        "visa-433"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online, now Visa Access",
+       "what_it_shows": "The gated client site holding host test scripts, risk standards and service enrolment, granted at BID level.",
+       "ids": [
+        "new:t4-s4-uspf-visa-scripts",
+        "visa-164",
+        "visa-168"
+       ]
+      },
+      {
+       "name": "Visa Digital Partner Services",
+       "what_it_shows": "Approval Services Portal and Tap to Phone Certification Portal for chip product testing.",
+       "ids": [
+        "visa-180"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Level 3 testing is mandatory and separate from vendor approvals.",
+       "ids": [
+        "visa-027"
+       ]
+      },
+      {
+       "text": "Several POS systems, devices and acquirers multiply the certifications one software version needs.",
+       "ids": [
+        "new:t4-s4-usp-multiplier"
+       ]
+      },
+      {
+       "text": "Visa Ready Tap to Phone certification takes 6 to 12 months with lab costs of USD 50,000 or more, by Visa's own account.",
+       "ids": [
+        "visa-024"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard's rules point customers to the Customer Interface Specification, Single Message System Specifications and IPM Clearing Formats manuals.",
+       "ids": [
+        "new:t4-s4-mc-rules-cis"
+       ]
+      },
+      {
+       "text": "Those manuals and bulletins live in the Technical Resource Center on Mastercard Connect, which needs an account set up through a Mastercard representative.",
+       "ids": [
+        "mastercard-317",
+        "mastercard-083",
+        "mastercard-409"
+       ]
+      },
+      {
+       "text": "Connections run through Mastercard-owned equipment such as the Mastercard Interface Processor.",
+       "ids": [
+        "new:t4-s4-mc-rules-mip"
+       ]
+      },
+      {
+       "text": "Host validation (NIV) tests the ISO 8583 interface using a licensed Mastercard simulator ordered from the Simulator Suite on Mastercard Connect.",
+       "ids": [
+        "new:t4-s4-uspf-mc-niv",
+        "new:t4-s4-uspf-mc-sim"
+       ]
+      },
+      {
+       "text": "An implementation project manager builds each session's case list, and the Test Selection Engine builds terminal plans from the configuration.",
+       "ids": [
+        "mastercard-405",
+        "mastercard-406"
+       ]
+      },
+      {
+       "text": "Mastercard also serves a public 64-page mapping from an ISO 20022 authorisation response to ISO 8583 data elements.",
+       "ids": [
+        "mastercard-425"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect Store",
+       "what_it_shows": "Where customers request applications such as the Technical Resource Center, Simulator Suite and Mastercard Move.",
+       "ids": [
+        "mastercard-315",
+        "new:t4-s4-uspf-mc-sim"
+       ]
+      },
+      {
+       "name": "Mastercard Test Facility (MTF)",
+       "what_it_shows": "A production-like test environment reached through an implementation manager.",
+       "ids": [
+        "mastercard-015"
+       ]
+      },
+      {
+       "name": "Support Case Management",
+       "what_it_shows": "The Connect application for technical cases.",
+       "ids": [
+        "mastercard-318"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Connect sign-in needs a User ID and an RSA SecurID token.",
+       "ids": [
+        "mastercard-037"
+       ]
+      },
+      {
+       "text": "M-TIP Self-Approval and Fast Track let enrolled acquirers approve terminals themselves or reuse another acquirer's approval.",
+       "ids": [
+        "mastercard-407",
+        "mastercard-408"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Network Specifications ship as confidential manuals twice a year, in April and October, on signing an agreement.",
+       "ids": [
+        "amex-403",
+        "amex-041"
+       ]
+      },
+      {
+       "text": "Merchant and processor specifications such as GCAG sit on the password-protected merchantspecs site, and changes are announced six months ahead in a NOSC.",
+       "ids": [
+        "amex-425",
+        "amex-251",
+        "new:t4-s4-amex-ats-gcag"
+       ]
+      },
+      {
+       "text": "Host certification is eight steps: the acquirer says it is ready, Amex opens a project, assigns a resource, reviews the plan and specs, and issues a certification summary.",
+       "ids": [
+        "amex-042"
+       ]
+      },
+      {
+       "text": "Amex's ATS host simulator is free, and other simulators must meet its approved provider rules.",
+       "ids": [
+        "amex-045"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "The gated gateway to specifications, Participant Directory and service enrolment, with a three-business-day access turnaround.",
+       "ids": [
+        "amex-400",
+        "amex-401",
+        "amex-410"
+       ]
+      },
+      {
+       "name": "merchantspecs login",
+       "what_it_shows": "Technical specifications and BIN files for merchants and processors.",
+       "ids": [
+        "amex-425"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No specification is public, and the certification page gates specs behind Knowledge Base.",
+       "ids": [
+        "amex-041",
+        "amex-410"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "The published on-ramp is EASI: click Join Now, enter contact and company details, invite colleagues, state a business purpose, verify and submit.",
+       "ids": [
+        "new:t4-s4-dgn-easi-steps",
+        "dgn-031"
+       ]
+      },
+      {
+       "text": "Discover says the EASI team typically reviews registration within two business days, then emails credentials.",
+       "ids": [
+        "new:t4-s4-dgn-easi-sla"
+       ]
+      },
+      {
+       "text": "EASI holds Program Documents, technical specifications and test card requests, and the fuller IIN table needs an NDA on file.",
+       "ids": [
+        "new:t4-s4-dgn-easi-scope",
+        "dgn-164",
+        "dgn-248"
+       ]
+      },
+      {
+       "text": "For D-PAS host certification the acquirer connects to Discover's test simulator and files a Host Certification Request Form, from which Discover assigns cases.",
+       "ids": [
+        "dgn-200",
+        "new:t4-s4-uspf-dgn-dpas"
+       ]
+      },
+      {
+       "text": "Every form comes from a Discover implementation manager, and certificate authority keys can arrive by encrypted email.",
+       "ids": [
+        "new:t4-s4-uspf-dgn-forms",
+        "new:t4-s4-uspf-dgn-ca"
+       ]
+      },
+      {
+       "text": "Acquirers see simulator results as they test and need not submit test logs.",
+       "ids": [
+        "dgn-198",
+        "dgn-391"
+       ]
+      },
+      {
+       "text": "PULSE offers one message format to many POS and ATM networks through its gateway, but publishes no specification.",
+       "ids": [
+        "pulse-007",
+        "pulse-006"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI registration form",
+       "what_it_shows": "Contact and company blocks, eighteen company types, colleague invites, business purpose, NDA signatory and a verification code.",
+       "ids": [
+        "dgn-032",
+        "new:t4-s4-dgn-easi-steps"
+       ]
+      },
+      {
+       "name": "Release Compliance Tool",
+       "what_it_shows": "A login-only tool listed under Test and Certify on Partner Resources.",
+       "ids": [
+        "dgn-024"
+       ]
+      },
+      {
+       "name": "Discover designated host simulator",
+       "what_it_shows": "Shows certification results to the acquirer immediately.",
+       "ids": [
+        "dgn-198"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Personal email addresses are rejected at EASI registration.",
+       "ids": [
+        "new:t4-s4-dgn-easi-email"
+       ]
+      },
+      {
+       "text": "Certification forms and test keys need a person at Discover.",
+       "ids": [
+        "new:t4-s4-uspf-dgn-forms",
+        "new:t4-s4-uspf-dgn-ca"
+       ]
+      },
+      {
+       "text": "Moving to a platform with a different message format brings the networks back into testing.",
+       "ids": [
+        "new:t4-s4-uspf-platform"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Discover's own host simulator already shows acquirers results as they test and drops test-log submission, which is the most self-serve certification step found.",
+    "ids": [
+     "dgn-198",
+     "dgn-391"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover runs a self-registering EASI with a stated two-day review, but its certification forms and keys still pass through an implementation manager.",
+    "ids": [
+     "new:t4-s4-dgn-easi-sla",
+     "new:t4-s4-uspf-dgn-forms",
+     "new:t4-s4-uspf-dgn-ca"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators, ISOs, ISVs and technology partners",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Acceptance, the former CyberSource developer centre, offers a public sandbox form and emails test credentials.",
+       "ids": [
+        "visa-184",
+        "visa-226"
+       ]
+      },
+      {
+       "text": "It publishes test card numbers and amount triggers for declines, with processor-specific guides.",
+       "ids": [
+        "visa-227"
+       ]
+      },
+      {
+       "text": "Technology partners register through a separate form and a Visa team member then follows up.",
+       "ids": [
+        "visa-185"
+       ]
+      },
+      {
+       "text": "Go-live and MID configuration are requested in the gated Business Center.",
+       "ids": [
+        "visa-187"
+       ]
+      },
+      {
+       "text": "Agents register once per acquirer on Visa Partner and receive a TPA Business ID.",
+       "ids": [
+        "visa-161",
+        "visa-009"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Acceptance Developer Center",
+       "what_it_shows": "Sandbox, API reference with live console, SDKs in six languages, testing guide and response codes.",
+       "ids": [
+        "visa-184",
+        "visa-232",
+        "visa-w-acceptance"
+       ]
+      },
+      {
+       "name": "Visa Acceptance status page",
+       "what_it_shows": "Public component status with email, SMS and feed subscriptions.",
+       "ids": [
+        "visa-188"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa Acceptance warns that its sandbox can be unstable with 502 and 504 timeouts.",
+       "ids": [
+        "visa-189"
+       ]
+      },
+      {
+       "text": "Two branded portals, Visa Acceptance and CyberSource, cover one platform.",
+       "ids": [
+        "visa-186"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Network Enablement Partners enrol for a direct Mastercard relationship in several tiers, listed on a public registry.",
+       "ids": [
+        "mastercard-326"
+       ]
+      },
+      {
+       "text": "Engage lists qualified implementation partners, and its directory sits behind the developer login.",
+       "ids": [
+        "mastercard-328",
+        "mastercard-036"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Gateway integration guides",
+       "what_it_shows": "Regional public guides for Hosted Checkout, Hosted Session and Direct Payment, with test cards.",
+       "ids": [
+        "mastercard-335",
+        "mastercard-v18"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Merchant Cloud appears on the developer portal as documentation only, with no API or sandbox.",
+       "ids": [
+        "mastercard-047"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The Integrated Payments Providers Program gives ISOs, ISVs, VARs and PSP aggregators specs, a relationship manager and certification under NDA.",
+       "ids": [
+        "amex-345"
+       ]
+      },
+      {
+       "text": "Its five steps are register online, accept terms, enrol users, open the AMEX Enabled Dashboard, then test and certify.",
+       "ids": [
+        "amex-053"
+       ]
+      },
+      {
+       "text": "Test cards and certification requests go to a Payment Vendor Relations mailbox.",
+       "ids": [
+        "amex-409"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "AMEX Enabled Dashboard",
+       "what_it_shows": "Step-by-step certification journey, document library, Messaging Center and DocuSign contracting.",
+       "ids": [
+        "amex-342",
+        "amex-406"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Registration is not approval, and each product must still pass certification.",
+       "ids": [
+        "amex-049"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "EASI self-registration lists payment facilitators, ISOs and ISVs among its company types.",
+       "ids": [
+        "dgn-032"
+       ]
+      },
+      {
+       "text": "Type-approved products appear in a public Partner Directory of 43 entries.",
+       "ids": [
+        "dgn-181",
+        "dgn-366"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Web Merchant Boarding",
+       "what_it_shows": "A gated boarding link listed on Partner Resources.",
+       "ids": [
+        "dgn-024"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Terminal end-to-end certification runs through accredited service providers.",
+       "ids": [
+        "new:t4-s4-uspf-dgn-e2e"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa Acceptance's open sandbox form, published test cards and public status page let a software vendor test without a sales conversation.",
+    "ids": [
+     "visa-226",
+     "visa-227",
+     "visa-188"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover lets payfacs and ISVs self-register on EASI but publishes no sandbox or test cards for them.",
+    "ids": [
+     "dgn-032",
+     "dgn-022"
+    ]
+   }
+  },
+  {
+   "partner_type": "Large issuers (token services, issuer host and product certification)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Under Visa's rules an issuer using VTS owns cardholder identity checks, provisioning decisions and credential updates.",
+       "ids": [
+        "visa-081"
+       ]
+      },
+      {
+       "text": "The VTS developer page offers no sandbox and sends readers to an account executive, acquirer or Visa Ready, and its documentation is restricted.",
+       "ids": [
+        "new:t4-s4-visa-vts-page",
+        "visa-430"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "None of the VTS enrolment screens is public.",
+       "ids": [
+        "visa-430"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Issuers start MDES Pre-Digitization by adding it to a portal project and asking a Customer Delivery Manager to open a Customer Integration Services project.",
+       "ids": [
+        "new:t4-s4-mc-mdes-cdm"
+       ]
+      },
+      {
+       "text": "The issuer API has no sandbox and runs only in the Mastercard Test Facility and production.",
+       "ids": [
+        "new:t4-s4-mc-mdes-nosandbox"
+       ]
+      },
+      {
+       "text": "Issuer endpoints are configured on Mastercard Developers at Customer ID level.",
+       "ids": [
+        "new:t4-s4-mc-mdes-cid"
+       ]
+      },
+      {
+       "text": "Before MTF testing the issuer sends an Excel file of test case IDs, requests and responses to the CIS representative.",
+       "ids": [
+        "new:t4-s4-mc-mdes-excel"
+       ]
+      },
+      {
+       "text": "MDES Customer Service follows a five-step path from sandbox to MTF and production.",
+       "ids": [
+        "new:t4-s4-mc-mdescs-steps",
+        "mastercard-242"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "MDES documentation set",
+       "what_it_shows": "Getting Started, Configuring Services, Testing with test data preparation and result submission, release notes.",
+       "ids": [
+        "new:t4-s4-mc-mdes-cdm",
+        "new:t4-s4-mc-mdes-excel"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Test evidence travels as a spreadsheet by email.",
+       "ids": [
+        "new:t4-s4-mc-mdes-excel"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Issuers must complete host and payment product certification with Amex test tools and custom test plans.",
+       "ids": [
+        "amex-040",
+        "amex-295"
+       ]
+      },
+      {
+       "text": "The Token Requester Management Portal is applied for after Knowledge Base access is granted.",
+       "ids": [
+        "amex-400"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base, Request Additional Services",
+       "what_it_shows": "Where existing users add FraudNet, OpsNet, File Tracker and the Token Requester Management Portal.",
+       "ids": [
+        "amex-400",
+        "amex-401"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Every tool beyond the Knowledge Base is a further application.",
+       "ids": [
+        "amex-400"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "DDX gives issuers one connection to Apple Pay, Google Pay, Samsung Pay and Garmin Pay and network tokens for stored credentials.",
+       "ids": [
+        "dgn-131"
+       ]
+      },
+      {
+       "text": "Its APIs sit in the invitation-only Developer Center.",
+       "ids": [
+        "dgn-132",
+        "dgn-034"
+       ]
+      },
+      {
+       "text": "Implementation runs four phases: certification boarding, certification, production boarding and end-to-end testing, with Discover's team boarding each client profile.",
+       "ids": [
+        "dgn-310",
+        "new:t4-s4-dgn-gl-boarding"
+       ]
+      },
+      {
+       "text": "Diners Club issuer resources sit on a separate ServiceNow instance for current issuers.",
+       "ids": [
+        "dgn-180"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Issuer Card Account Services",
+       "what_it_shows": "A public OpenAPI spec for issuer card updates using the ICAS_CARDUPDATE_V1 scope.",
+       "ids": [
+        "dgn-020",
+        "dgn-385"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Discover supplies test cases during certification boarding, and partners cannot fetch them themselves.",
+       "ids": [
+        "dgn-021"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard publishes the MDES issuer path, its test steps and release notes openly, even though the work itself runs through a delivery manager.",
+    "ids": [
+     "new:t4-s4-mc-mdes-cdm",
+     "new:t4-s4-mc-mdes-excel",
+     "mastercard-001"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover documents its issuer phases and ICAS spec publicly, and every step past reading needs a Discover person.",
+    "ids": [
+     "dgn-310",
+     "dgn-020",
+     "dgn-021"
+    ]
+   }
+  },
+  {
+   "partner_type": "Community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Associate members hold their own licence but rely on a principal for settlement and reporting.",
+       "ids": [
+        "visa-003"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online product enrolment portal",
+       "what_it_shows": "Where community issuers enrol in programmes.",
+       "ids": [
+        "visa-169"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A community bank told the FDIC that debit tokenisation stalled while it waited on its core provider.",
+       "ids": [
+        "new:t4-s4-fdic-token"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE processes Discover Debit, Mastercard and Visa debit programmes through one point of access.",
+       "ids": [
+        "new:t4-s4-pulse-gateway"
+       ]
+      },
+      {
+       "text": "PULSE portal registration is a form with credentials promised within five business days.",
+       "ids": [
+        "pulse-049"
+       ]
+      },
+      {
+       "text": "Processor support runs through a named mailbox.",
+       "ids": [
+        "pulse-008"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE secure website",
+       "what_it_shows": "PULSE Debit Dashboard, ATM List Manager, Marketing Hub and PULSE Exchange behind one login.",
+       "ids": [
+        "dgn-183"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "PULSE publishes no API reference or sandbox.",
+       "ids": [
+        "pulse-006"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Issuer processors that certify each network release once and tell clients no action is needed remove build work from small issuers.",
+    "ids": [
+     "new:t4-s4-marqeta-certified",
+     "new:t4-s4-marqeta-noaction",
+     "new:t4-s4-uspf-once-per-platform"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE already acts as a processor and gateway for small issuers. Inference: Discover's build experience for these institutions is PULSE's and the core provider's.",
+    "ids": [
+     "new:t4-s4-pulse-gateway",
+     "pulse-007",
+     "new:t4-s4-lcfcu-liaison"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers (via issuer processors and sponsors)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa describes a sponsor model of BIN sponsor, issuer processor and programme manager, and Visa Ready lists certified processors.",
+       "ids": [
+        "visa-019",
+        "visa-163"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Partner directory",
+       "what_it_shows": "Certified partners filterable by country.",
+       "ids": [
+        "visa-160"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa's going-live form asks whether the project will be resold or white-labelled.",
+       "ids": [
+        "new:t4-s4-visa-vid-golive-usecase"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Since May 2025 a principal needs Mastercard approval before sponsoring a programme manager.",
+       "ids": [
+        "mastercard-051"
+       ]
+      },
+      {
+       "text": "Marqeta documents certification against each quarterly Mastercard release for its clients.",
+       "ids": [
+        "mastercard-265"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Networks send processors change documents four times a year.",
+       "ids": [
+        "new:t4-s4-marqeta-quarterly"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex admits processors such as Lithic and Marqeta to its Agile Partnership Platform so their fintech clients can issue without a direct licence.",
+       "ids": [
+        "amex-074",
+        "amex-097"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "American Banker reports Amex stresses selectivity in this route.",
+       "ids": [
+        "amex-073"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover describes a sponsor model and names no processor on its fintech page.",
+       "ids": [
+        "dgn-133",
+        "dgn-365"
+       ]
+      },
+      {
+       "text": "Marqeta certifies Discover releases, while Stripe, Adyen and Lithic issuing document no Discover issuing.",
+       "ids": [
+        "dgn-363",
+        "dgn-265",
+        "dgn-267"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "SoFi Tech Solutions says a programme's primary network is usually Mastercard or Visa.",
+       "ids": [
+        "dgn-269"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Processor mandate logs, such as Marqeta's and SoFi's, translate each network release into client impact.",
+    "ids": [
+     "mastercard-340",
+     "cross-255",
+     "new:t4-s4-marqeta-noaction"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover reaches fintechs only where a processor has built for it, and several leading issuing platforms have not.",
+    "ids": [
+     "dgn-363",
+     "dgn-265",
+     "dgn-267",
+     "dgn-268"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants, wallets and other token requestors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Acceptance's partner model boards a merchant by API, then asks the partner to email merchant details to support to enable network tokens.",
+       "ids": [
+        "new:t4-s4-vas-tms-email"
+       ]
+      },
+      {
+       "text": "Visa Acceptance sends the request to each card brand, which returns a token requestor ID.",
+       "ids": [
+        "new:t4-s4-vas-tms-trid"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Token Management Service guide",
+       "what_it_shows": "Network Token Enablement, Partner Model onboarding, Token Requestor IDs and webhook subscriptions.",
+       "ids": [
+        "new:t4-s4-vas-tms-email"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "An email step sits in the middle of an otherwise API-driven flow.",
+       "ids": [
+        "new:t4-s4-vas-tms-email"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard will retire MDES for Merchants on 31 December 2026 and move merchants to Secure Card on File.",
+       "ids": [
+        "new:t4-s4-mc-m4m-decom"
+       ]
+      },
+      {
+       "text": "Merchant tokenisation is sold directly or through PSPs.",
+       "ids": [
+        "mastercard-271"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Existing merchant integrations must migrate before the retirement date.",
+       "ids": [
+        "new:t4-s4-mc-m4m-decom"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The Amex Token Service guide is readable signed out and publishes sample test cards.",
+       "ids": [
+        "amex-w-dev",
+        "new:t4-s4-amex-ats-testcards"
+       ]
+      },
+      {
+       "text": "Testing token notifications needs a representative to register the merchant's endpoint, certificates and IP addresses.",
+       "ids": [
+        "new:t4-s4-amex-ats-outbound"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Amex Token Service API reference",
+       "what_it_shows": "Six endpoints including provisionings, purchasetokens and outbound notifications, HMAC security and a spec download.",
+       "ids": [
+        "amex-w-dev"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Sandbox does not save token state, so lifecycle tests always return Active.",
+       "ids": [
+        "new:t4-s4-amex-ats-testcards"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Stored Token Services needs OAuth 2 with a second-factor JWT and JWE encryption.",
+       "ids": [
+        "new:t4-s4-dgn-gl-dsts"
+       ]
+      },
+      {
+       "text": "Token requestors must expose a webhook endpoint for issuer notifications.",
+       "ids": [
+        "dgn-017"
+       ]
+      },
+      {
+       "text": "PULSE's Side-by-Side token service is enrolled by a contact form.",
+       "ids": [
+        "pulse-005"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Stored Token Services API Specs tab",
+       "what_it_shows": "A public OpenAPI 3.0.1 document with operations such as getCardAsset and lcmNotifications.",
+       "ids": [
+        "dgn-008"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No retry or signing detail is published for the notification webhook.",
+       "ids": [
+        "dgn-017"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex publishes token test cards in the guide itself, which lets a merchant test provisioning without a request.",
+    "ids": [
+     "new:t4-s4-amex-ats-testcards"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's token API is fully specified in public, and it adds a second-factor JWT and JWE encryption on top of OAuth.",
+    "ids": [
+     "dgn-008",
+     "new:t4-s4-dgn-gl-dsts"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators and ATM processors",
+   "networks": [
+    {
+     "network": "other:cross-network",
+     "how_it_works": [
+      {
+       "text": "Network rules require any sender of ATM transactions to be a bank or a bank-approved processor.",
+       "ids": [
+        "new:t4-s4-atleos-sponsor"
+       ]
+      },
+      {
+       "text": "Level 3 terminal testing covers ATMs, and it is the acquirer's responsibility.",
+       "ids": [
+        "new:t4-s4-uspf-atm",
+        "new:t4-s4-uspf-l3-acq"
+       ]
+      },
+      {
+       "text": "Operators work in their processor's web platform for set-up, alerts and cash forecasting.",
+       "ids": [
+        "new:t4-s4-cds-amp"
+       ]
+      },
+      {
+       "text": "The processor relays network rules and warns of suspension and fines.",
+       "ids": [
+        "new:t4-s4-cds-visa"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE ATM List Manager",
+       "what_it_shows": "A gated PULSE tool for ATM listings.",
+       "ids": [
+        "dgn-183"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Operators meet networks second-hand through processors and sponsors.",
+       "ids": [
+        "new:t4-s4-cds-visa",
+        "new:t4-s4-atleos-sponsor"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "No network was found offering ATM operators a direct build surface, so the processor portal is the pattern.",
+    "ids": [
+     "new:t4-s4-cds-amp"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE offers ATM acquirers a gated ATM List Manager and no public technical path.",
+    "ids": [
+     "dgn-183",
+     "pulse-006"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "A sandbox key on the first visit",
+   "partner_types": [
+    "developers",
+    "fintechs",
+    "payfacs and ISVs",
+    "merchants"
+   ],
+   "move": "Let a signed-up developer create a project, get sandbox credentials and published test cards, and call the twelve existing APIs without a representative.",
+   "why_advantage": "It reaches Visa and Mastercard parity and moves ahead of American Express's key review. It replaces Discover's invitation step, the largest gap found.",
+   "ids": [
+    "visa-190",
+    "mastercard-002",
+    "amex-386",
+    "dgn-034",
+    "new:t4-s4-dgn-gl-invite",
+    "dgn-385",
+    "visa-227"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Certification as a shared project record",
+   "partner_types": [
+    "acquirers and processors",
+    "issuers",
+    "token requestors"
+   ],
+   "move": "Generate the case list from the partner's stated configuration, collect results in the portal, and show who owns each step.",
+   "why_advantage": "Mastercard's MDES asks for an Excel file by email and Discover's forms come from a manager. UnionPay already links tests and confirmations in one project.",
+   "ids": [
+    "new:t4-s4-mc-mdes-excel",
+    "new:t4-s4-uspf-dgn-forms",
+    "unionpay-039",
+    "unionpay-041",
+    "unionpay-042",
+    "dgn-198",
+    "dgn-200"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Build for the processor as the customer",
+   "partner_types": [
+    "processors",
+    "community banks and credit unions",
+    "fintechs and programme managers"
+   ],
+   "move": "Let a processor create projects on behalf of clients, manage them through an API, and show which clients inherit its certification.",
+   "why_advantage": "Host testing runs once per platform and processors already publish per-release impact. Among the portals read, Mastercard offers an 'on behalf of a client' flag and a portal API.",
+   "ids": [
+    "new:t4-s4-mc-qs-client",
+    "mastercard-038",
+    "new:t4-s4-uspf-once-per-platform",
+    "new:t4-s4-marqeta-noaction",
+    "cross-255"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Specifications by entitlement, versioned and diffable",
+   "partner_types": [
+    "acquirers and processors",
+    "issuers"
+   ],
+   "move": "Serve the host specification to entitled users as searchable pages with a per-release change list, and publish a public field map for feasibility.",
+   "why_advantage": "All four networks gate specs as manuals, while Mastercard shows a public mapping works. Processors staff teams to turn releases into requirements.",
+   "ids": [
+    "new:t4-s4-visa-rules-conf",
+    "new:t4-s4-mc-rules-cis",
+    "amex-403",
+    "dgn-164",
+    "mastercard-425",
+    "new:t4-s4-stripe-tpam",
+    "amex-251"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Token requestor onboarding without email",
+   "partner_types": [
+    "merchants",
+    "wallets",
+    "PSPs"
+   ],
+   "move": "Issue a token requestor ID and register notification endpoints in the portal, and route to PULSE Side-by-Side from the same flow.",
+   "why_advantage": "Visa Acceptance, Amex and Mastercard each insert an email or representative step. Discover owns a routable debit token others lack.",
+   "ids": [
+    "new:t4-s4-vas-tms-email",
+    "new:t4-s4-amex-ats-outbound",
+    "new:t4-s4-mc-mdes-cdm",
+    "pulse-005",
+    "pulse-029"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "One entry for every Discover build surface",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Put the Developer Center, Partner Product Portal, EASI, Release Compliance Tool and Advanced Payments behind one sign-in and one project.",
+   "why_advantage": "Visa and Mastercard link identities, and two Discover portals already share an identity provider. The study classes this as parity. It removes friction without giving a partner a reason to join.",
+   "ids": [
+    "dgn-024",
+    "dgn-174",
+    "dgn-196",
+    "visa-031",
+    "mastercard-006"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Credentials that do not strand the developer",
+   "partner_types": [
+    "developers",
+    "token requestors"
+   ],
+   "move": "Allow re-download or self-service reissue of keys and certificates, with renewal reminders in every environment.",
+   "why_advantage": "Visa and Discover make keys one-time downloads, and Visa reminds only certification and production projects. Mastercard now automates production mTLS certificates.",
+   "ids": [
+    "new:t4-s4-visa-vid-create",
+    "dgn-014",
+    "visa-203",
+    "mastercard-311",
+    "mastercard-004"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Docs readable by coding assistants",
+   "partner_types": [
+    "developers"
+   ],
+   "move": "Publish llms.txt, markdown twins of each page and a documentation MCP server.",
+   "why_advantage": "Mastercard and Visa already do this, and Discover's portals return 404 or a bare title to a fetching tool.",
+   "ids": [
+    "mastercard-001",
+    "mastercard-034",
+    "visa-224",
+    "visa-440",
+    "dgn-205",
+    "dgn-393"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "State the network's own service levels",
+   "partner_types": [
+    "all"
+   ],
+   "move": "Show Discover's commitments on its own steps, such as registration review, and give each an escalation route.",
+   "why_advantage": "Discover already states a two-day EASI review and PULSE five days. Mastercard pairs its service levels with escalation channels. Rich's rule allows network commitments.",
+   "ids": [
+    "new:t4-s4-dgn-easi-sla",
+    "pulse-049",
+    "mastercard-418",
+    "amex-385"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Public status and webhook contracts",
+   "partner_types": [
+    "developers",
+    "processors",
+    "token requestors"
+   ],
+   "move": "Publish API status per environment and document webhook retries, signing and subscriptions.",
+   "why_advantage": "Mastercard and Visa Acceptance run public status pages and document retries. Discover publishes no webhook retry detail, and no Discover status page was found.",
+   "ids": [
+    "mastercard-040",
+    "visa-188",
+    "mastercard-026",
+    "visa-230",
+    "dgn-017",
+    "dgn-w-dev"
+   ],
+   "evidence_strength": "moderate"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Visa Online screens for VTS issuer enrolment, host test scripts and VCMS scheduling",
+   "why": "They sit behind Visa Access and the only public trace of VTS enrolment is a 2014 deck.",
+   "how_to_see_it": "Ask a friendly issuer or processor for a screen share, or watch Visa University and DPS conference sessions for demos."
+  },
+  {
+   "what": "Visa's Onboarding Dashboard launched in September 2025",
+   "why": "The official videos show the earlier going-live form and may predate it.",
+   "how_to_see_it": "Register a sandbox account yourself as a Discover employee and walk it, within Visa's terms."
+  },
+  {
+   "what": "Mastercard Connect Store, Technical Resource Center, Simulator Suite and Access Manager",
+   "why": "Connect needs an RSA token and a company administrator's approval.",
+   "how_to_see_it": "Ask an acquirer partner for a walkthrough, or mine Mastercard Academy course outlines."
+  },
+  {
+   "what": "Amex Knowledge Base, merchantspecs and the AMEX Enabled Dashboard",
+   "why": "All three are login-only and nothing in the public record shows their screens beyond marketing copy.",
+   "how_to_see_it": "Interview an OptBlue processor or an AMEX Enabled vendor."
+  },
+  {
+   "what": "Discover Developer Center signed in, EASI Document Library, Release Compliance Tool and the host simulator UI",
+   "why": "Every one is behind invitation or login, and this study may not use internal material.",
+   "how_to_see_it": "Rich's team can review them internally and compare against this benchmark."
+  },
+  {
+   "what": "PULSE interface specifications and the processor portal",
+   "why": "No public document, job posting or processor guide describing them was found.",
+   "how_to_see_it": "Interview a PULSE processor client or a credit union card services manager."
+  },
+  {
+   "what": "Real elapsed times from sandbox to production",
+   "why": "Networks publish ranges or none, and partner reports of actual time are rare.",
+   "how_to_see_it": "Survey processors and developer forums, and track dated forum threads."
+  },
+  {
+   "what": "How processors split one certification across many clients",
+   "why": "Processors describe outcomes, not their internal network testing workflow.",
+   "how_to_see_it": "Interview a processor's network certification lead."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t4-s4-visa-vid-create",
+   "network": "visa",
+   "claim": "Visa's official tutorial shows a sandbox project created from the dashboard: Add new project, name, description, pick an API, choose 'Generate a CSR for me', then Create project.",
+   "quote": "you can only download this key once when you create a project",
+   "url": "https://www.youtube.com/watch?v=crxdAEvZlfo",
+   "title": "Visa Developer Tutorial: How to Create a Visa Developer Project",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-testdata",
+   "network": "visa",
+   "claim": "The same tutorial says sandbox test data sits in a Test Data table per API in the project dashboard and never touches VisaNet.",
+   "quote": "sandbox data is limited to what's provided in the test data tables and is not integrated to the visa network",
+   "url": "https://www.youtube.com/watch?v=crxdAEvZlfo",
+   "title": "Visa Developer Tutorial: How to Create a Visa Developer Project",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-users",
+   "network": "visa",
+   "claim": "Colleagues are added from a Users tab in the project dashboard with an Invite users control and a role, and accept by email.",
+   "quote": "at the top right corner click on invite users",
+   "url": "https://www.youtube.com/watch?v=crxdAEvZlfo",
+   "title": "Visa Developer Tutorial: How to Create a Visa Developer Project",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-golive-bid",
+   "network": "visa",
+   "claim": "Visa's going-live tutorial starts with Register your company, asks whether the developer has an existing Visa relationship, and accepts a Visa BID in place of company details.",
+   "quote": "If you already have an existing business relationship with Visa, you don't have to provide your company information, just your Visa BID.",
+   "url": "https://www.youtube.com/watch?v=qMTJTnhfly8",
+   "title": "Visa Developer Tutorial: How to Submit a Going Live Request",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-golive-bo",
+   "network": "visa",
+   "claim": "The going-live form collects contact details and beneficial ownership information so Visa can screen the company and its owners.",
+   "quote": "This is needed to perform a screening on the company name and all beneficial owners.",
+   "url": "https://www.youtube.com/watch?v=qMTJTnhfly8",
+   "title": "Visa Developer Tutorial: How to Submit a Going Live Request",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-golive-usecase",
+   "network": "visa",
+   "claim": "The project information step asks about end users, functionality, resale or white-labelling, expected annual API calls, release date and geographic distribution.",
+   "quote": "Do you intend to sell or white label the project to other entities?",
+   "url": "https://www.youtube.com/watch?v=qMTJTnhfly8",
+   "title": "Visa Developer Tutorial: How to Submit a Going Live Request",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-golive-timeline",
+   "network": "visa",
+   "claim": "After submission a Visa product team reviews the request case by case, and Visa states no review timeline.",
+   "quote": "there's no set timeline on how long the review takes",
+   "url": "https://www.youtube.com/watch?v=qMTJTnhfly8",
+   "title": "Visa Developer Tutorial: How to Submit a Going Live Request",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-golive-contract",
+   "network": "visa",
+   "claim": "Approval returns instructions and a contract with pricing and terms, and certification and production credentials follow signature.",
+   "quote": "If the product team approves the request, it will send you a set of instructions and a contract with pricing and terms.",
+   "url": "https://www.youtube.com/watch?v=qMTJTnhfly8",
+   "title": "Visa Developer Tutorial: How to Submit a Going Live Request",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-2wayssl",
+   "network": "visa",
+   "claim": "Visa's Two-Way SSL tutorial lists three artefacts a developer must assemble before the first sandbox call: private key, project client certificate and the Visa root certificate.",
+   "quote": "you need one a private key two a client certificate and three a certificate authority root certificate",
+   "url": "https://www.youtube.com/watch?v=jFnUqWKXMS0",
+   "title": "Tutorial: How to Connect to Visa APIs using Two-way SSL and Postman",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vid-keystore",
+   "network": "visa",
+   "claim": "A second Visa tutorial has developers combine key and certificate into a keystore with OpenSSL before SoapUI can reach the Hello World endpoint.",
+   "quote": "you need to combine your private key and your certificate into one file uh that's called key store",
+   "url": "https://www.youtube.com/watch?v=V5FQHtLOp1o",
+   "title": "Get Credentials to Start Building with Mutual SSL",
+   "publisher": "Visa (YouTube)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "YouTube auto-generated captions via youtube-transcript-api, 2026-09-26 (captions only, no video downloaded)"
+  },
+  {
+   "key": "t4-s4-visa-vts-page",
+   "network": "visa",
+   "claim": "The Visa Token Service product page on Visa Developer sends interested parties to a Visa Account Executive, a gateway or acquirer, or Visa Ready, rather than to a sandbox.",
+   "quote": "please contact either your Visa Account Executive, Gateway or Acquiring partner and/or visit our detailed product page at Visa Ready",
+   "url": "https://developer.visa.com/capabilities/vts",
+   "title": "Visa Token Service | Visa Developer Center",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-visa-rules-loa",
+   "network": "visa",
+   "claim": "A non-member processor may use the V.I.P. System or BASE II only after delivering a VisaNet Letter of Agreement to Visa.",
+   "quote": "unless the non-Member VisaNet Processor has delivered to Visa a completed VisaNet Letter of Agreement",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26, page 75"
+  },
+  {
+   "key": "t4-s4-visa-rules-cq",
+   "network": "visa",
+   "claim": "A member using any VisaNet Processor must first submit the regional client information questionnaire to Visa.",
+   "quote": "must submit to Visa the applicable regional client information questionnaire before using the VisaNet Processor",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26, section 1.9.8.1"
+  },
+  {
+   "key": "t4-s4-visa-rules-conf",
+   "network": "visa",
+   "claim": "Members and processors must stop staff from disclosing VisaNet systems and documentation to third parties.",
+   "quote": "Providing access to or disclosing these systems and documentation to any third party",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules, 18 April 2026",
+   "publisher": "Visa",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26, section 1.1.5.4"
+  },
+  {
+   "key": "t4-s4-uspf-visa-scripts",
+   "network": "visa",
+   "claim": "For Visa acquirer host certification, acquirers establish a project with Visa and download host test scripts from Visa Online.",
+   "quote": "Obtain the host test scripts available on Visa Online.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-visa-letter",
+   "network": "visa",
+   "claim": "Visa issues a testing completion letter when host testing succeeds.",
+   "quote": "A testing completion letter is provided when host testing is completed successfully.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-vcms",
+   "network": "visa",
+   "claim": "Visa L3 testing needs the acquirer host connected to the Visa Certification Management Service or a Visa-confirmed host simulator.",
+   "quote": "The acquirer host must be connected to the Visa Certification Management Service (VCMS) or a Visa-confirmed host simulator.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-once-per-platform",
+   "network": "cross",
+   "claim": "Acquirer host testing is performed once per processing platform, so clients on a certified platform do not each repeat it.",
+   "quote": "The required testing is to be performed once for each platform.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-mc-sim",
+   "network": "mastercard",
+   "claim": "Mastercard host validation needs a licensed Mastercard Authorization Simulator or Debit Financial Simulator, ordered on Mastercard Connect.",
+   "quote": "The Mastercard simulators can be ordered (or upgraded) on Mastercard Connect under Simulator Suite.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-mc-niv",
+   "network": "mastercard",
+   "claim": "Mastercard's network interface validation tests the ISO 8583 interface between the customer host and Mastercard for authorisation and clearing.",
+   "quote": "validate the interface between the customer host and the Mastercard network(s)",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-dgn-forms",
+   "network": "dgn",
+   "claim": "For Discover D-PAS host certification, acquirers obtain the request and security forms from a Discover implementation manager.",
+   "quote": "All forms can be obtained by contacting your Discover implementation manager.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-dgn-ca",
+   "network": "dgn",
+   "claim": "Discover certificate authority public keys for testing can arrive by encrypted email from the implementation manager.",
+   "quote": "CA public keys can also be obtained through encrypted email from your Discover implementation manager.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-dgn-dpas",
+   "network": "dgn",
+   "claim": "Discover acquirer host certification comprises a D-PAS online authorisation test and a D-PAS clearing test.",
+   "quote": "Discover acquirer host certification includes the D-PAS Acquirer Network Online Test and the D-PAS Acquirer Clearing Test.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-dgn-e2e",
+   "network": "dgn",
+   "claim": "Discover terminal end-to-end certification runs through accredited service providers.",
+   "quote": "Discover acquirer terminal end-to-end (E2E) certification is managed by accredited E2E service providers.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-platform",
+   "network": "cross",
+   "claim": "Moving to a platform with a different message format is a major change that brings the networks into testing again.",
+   "quote": "This is a major change as it impacts the message format, and the payment networks should be involved in this process.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-atm",
+   "network": "cross",
+   "claim": "Level 3 terminal testing covers ATMs and branch terminals as well as POS devices.",
+   "quote": "including POS devices, ATMs, bank branch terminals, unattended devices",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-uspf-l3-acq",
+   "network": "cross",
+   "claim": "Level 3 testing is the acquirer's responsibility.",
+   "quote": "L3 testing is the responsibility of the acquirer.",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2024/04/Payment-Network-Host-and-Level-3-Requirements-Final-09292023.pdf",
+   "title": "EMV Testing and Certification White Paper: Current Global Payment Network Requirements for the U.S. Acquiring Community, Version 5.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2023-09-29",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-usp-multiplier",
+   "network": "cross",
+   "claim": "Combinations of POS systems, devices and acquirers multiply the certifications one software version needs.",
+   "quote": "The combination of multiple POS solutions, multiple EMV devices and multiple acquirers can result in a multiplier effect",
+   "url": "https://www.uspaymentsforum.org/wp-content/uploads/2020/05/EPS-EMV-L3-Certification-FINALV2-May-2020.pdf",
+   "title": "Options for Reducing Level 3 EMV Certification Time for Retailer Systems using Electronic Payment Servers (EPS), Version 2.0",
+   "publisher": "U.S. Payments Forum",
+   "published": "2020-05",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-qs-client",
+   "network": "mastercard",
+   "claim": "The Create new project screen asks whether the project is built on behalf of a client, which lets an integrator build for another company.",
+   "quote": "only if you are building the integration for another company",
+   "url": "https://developer.mastercard.com/platform/documentation/quick-start-guide/index.md",
+   "title": "Quick Start Guide | Mastercard Developers",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-mdes-cdm",
+   "network": "mastercard",
+   "claim": "Issuers starting MDES Pre-Digitization add the service to a portal project and ask their Mastercard Customer Delivery Manager to open a Customer Integration Services project.",
+   "quote": "Contact your Mastercard Customer Delivery Manager to open a Customer Integration Services (CIS) project for your MDES implementation",
+   "url": "https://developer.mastercard.com/mdes-pre-digitization/documentation/getting-started/index.md",
+   "title": "Getting Started | MDES Pre-Digitization",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-mdes-nosandbox",
+   "network": "mastercard",
+   "claim": "The issuer-side MDES Pre-Digitization API runs only in the Mastercard Test Facility and production, with no sandbox.",
+   "quote": "Pre-Digitization API is not available in Sandbox environment",
+   "url": "https://developer.mastercard.com/mdes-pre-digitization/documentation/getting-started/index.md",
+   "title": "Getting Started | MDES Pre-Digitization",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-mdes-excel",
+   "network": "mastercard",
+   "claim": "Before MTF testing, issuers compile test results in a two-sheet Excel file and send it to their CIS implementation manager.",
+   "quote": "Copy the captured test case ID, request and response per endpoint that you test in this excel sheet and send it to you CIS representative.",
+   "url": "https://developer.mastercard.com/mdes-pre-digitization/documentation/testing/submit-test-result/index.md",
+   "title": "Test Result Submission | MDES Pre-Digitization",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-mdes-cid",
+   "network": "mastercard",
+   "claim": "Issuer endpoints for MDES Pre-Digitization are configured on Mastercard Developers at Customer ID level, and a CIS operator can override them per BIN range.",
+   "quote": "Mastercard Developers supports default Pre-Digitization API endpoints configuration at the CID (Customer Identifier) level.",
+   "url": "https://developer.mastercard.com/mdes-pre-digitization/documentation/configuring-services/connectivity-reqs/index.md",
+   "title": "Connectivity Requirements | MDES Pre-Digitization",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-m4m-decom",
+   "network": "mastercard",
+   "claim": "Mastercard is retiring MDES for Merchants on 31 December 2026 and moving merchant token requestors to Secure Card on File.",
+   "quote": "Mastercard will globally decommission MDES for Merchants effective 31 December 2026.",
+   "url": "https://developer.mastercard.com/mdes-digital-enablement/documentation/index.md",
+   "title": "MDES Digital Enablement API | Mastercard Developers",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-mdescs-steps",
+   "network": "mastercard",
+   "claim": "MDES Customer Service onboarding runs in five steps from sign-up and a portal project to Sandbox validation and then MTF and production.",
+   "quote": "Move an MDES Customer Service Project to MTF",
+   "url": "https://developer.mastercard.com/mdes-customer-service/documentation/getting-started/index.md",
+   "title": "Getting Started | MDES Customer Service",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-mc-rules-cis",
+   "network": "mastercard",
+   "claim": "Mastercard's rules point processors to the Single Message System Specifications, Customer Interface Specification and IPM Clearing Formats manuals for technical requirements.",
+   "quote": "Refer to the Single Message System Specifications, Customer Interface Specification and IPM Clearing Formats manuals",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 2026-09-20 read with pypdf on 2026-09-26, direct curl returned a 483-byte block page"
+  },
+  {
+   "key": "t4-s4-mc-rules-mip",
+   "network": "mastercard",
+   "claim": "Service providers connect to Mastercard's Interchange System through Mastercard-owned equipment such as the Mastercard Interface Processor and must use it only for their programme service.",
+   "quote": "any Mastercard Interface Processor (MIP) or Network Interface Processor (NIU) used to connect to the Interchange System",
+   "url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules, 2 June 2026",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 2026-09-20 read with pypdf on 2026-09-26, direct curl returned a 483-byte block page"
+  },
+  {
+   "key": "t4-s4-amex-gs-move",
+   "network": "amex",
+   "claim": "In the Amex portal, an Approved sandbox integration shows a Move to Production link on the Project Dashboard, which reopens To Do items for review.",
+   "quote": "you can find a link called \"Move to Production\" in your Project's Dashboard.",
+   "url": "https://developer.americanexpress.com/documentation/getting-started",
+   "title": "Getting Started | American Express Developers",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-amex-ats-testcards",
+   "network": "amex",
+   "claim": "The Amex Token Service guide publishes sample test cards whose PAN, expiry and input method must match exactly.",
+   "quote": "The following are sample cards to facilitate endpoint testing.",
+   "url": "https://developer.americanexpress.com/products/amex-token-service/guide",
+   "title": "Amex Token Service Guide | American Express Developers",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-amex-ats-outbound",
+   "network": "amex",
+   "claim": "Testing outbound token-state notifications needs the merchant to contact an Amex representative with endpoint URLs, SSL certificates and IP addresses.",
+   "quote": "To execute these test scenarios you must contact your American Express representative and specify the endpoint to which outbound notifications should be directed.",
+   "url": "https://developer.americanexpress.com/products/amex-token-service/guide",
+   "title": "Amex Token Service Guide | American Express Developers",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-amex-ats-gcag",
+   "network": "amex",
+   "claim": "Token Service partners must follow the Global Credit Authorization Guide, which is obtained through a relationship manager or the merchant portal.",
+   "quote": "For more information about GCAG, please contact your American Express relationship manager or visit our Merchants Portal.",
+   "url": "https://developer.americanexpress.com/products/amex-token-service/guide",
+   "title": "Amex Token Service Guide | American Express Developers",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-gl-invite",
+   "network": "dgn",
+   "claim": "Discover's developer guide tells partners to self-register on the Developer Center and in the next sentence says access is by invitation only.",
+   "quote": "Currently, portal access is by invitation only.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover, Developers Guide, section 2 Partner Registration",
+   "publisher": "Discover Global Network (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent of server-rendered page data, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-gl-repeat",
+   "network": "dgn",
+   "claim": "Moving from test to production repeats the registration and issues a new credential set.",
+   "quote": "This process is repeated when moving from test to production.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover, Developers Guide, section 2 Partner Registration",
+   "publisher": "Discover Global Network (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent of server-rendered page data, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-gl-boarding",
+   "network": "dgn",
+   "claim": "Discover's implementation team boards each client profile into the certification environment after the client supplies certificates and an endpoint URL.",
+   "quote": "Discover Implementation team onboards the Client profile in the certification environment.",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover, Business Users Guide, Our Process",
+   "publisher": "Discover Global Network (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-gl-dsts",
+   "network": "dgn",
+   "claim": "Discover Stored Token Services requires OAuth 2 client credentials plus a Second Factor JWT, with JWE payload encryption.",
+   "quote": "OAuth 2 - Client Credentials + Second Factor JWT",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover, Developers Guide, section 3 Security Methods Overview",
+   "publisher": "Discover Global Network (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent of server-rendered page data, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-gl-toc",
+   "network": "dgn",
+   "claim": "The public developer guide runs to twelve numbered sections, from API access and registration through keys, OAuth, second-factor JWT, payload encryption, error codes and hashing.",
+   "quote": "How to use Payload signature and encryption",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover, Developers Guide",
+   "publisher": "Discover Global Network (DFS Services LLC)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent of server-rendered page data, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-easi-steps",
+   "network": "dgn",
+   "claim": "EASI registration is an eight-step form: Join Now, contact, company, invite colleagues, business purpose, verification code, review and submit.",
+   "quote": "Step 6: Describe your Business Purpose.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "Discover Network (DFS Services LLC)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-easi-sla",
+   "network": "dgn",
+   "claim": "Discover states that the EASI team typically reviews a registration within two business days, and credentials then arrive by separate emails.",
+   "quote": "The EASI team typically completes the review process within 2 business days.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "Discover Network (DFS Services LLC)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-easi-scope",
+   "network": "dgn",
+   "claim": "EASI is where acquirers and processors obtain Program Documents and request test cards.",
+   "quote": "obtain Program Documents and collateral, request Test Cards, and receive news and announcements",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "Discover Network (DFS Services LLC)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-dgn-easi-email",
+   "network": "dgn",
+   "claim": "EASI registration rejects personal email addresses and some domains.",
+   "quote": "Personal email addresses and certain email domains are not allowed.",
+   "url": "https://www.discovereasi.com/easi/docs/EASI_Registration_Guide.pdf",
+   "title": "EASI Portal Registration Guide",
+   "publisher": "Discover Network (DFS Services LLC)",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-vas-tms-email",
+   "network": "visa",
+   "claim": "In Visa Acceptance's partner model for network tokens, the partner boards a merchant by API, then requests tokenisation by emailing merchant details to support.",
+   "quote": "The partner provides merchant details via email to enable network tokenization and submits email to Visa Acceptance Solutions support.",
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/tms/developer/ctv/rest/tms/tms-net-tkn-onboard/tms-workflow-net-tkn-onboard-aggregator.html",
+   "title": "Network Token Onboarding, Partner Model | Token Management Service Developer Guide",
+   "publisher": "Visa Acceptance Solutions",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-vas-tms-trid",
+   "network": "visa",
+   "claim": "Visa Acceptance forwards the request to each card brand, which registers the merchant and returns a token requestor ID.",
+   "quote": "The card brand completes the registration process and responds to Visa Acceptance Solutions with the confirmation and token requestor ID (TRID).",
+   "url": "https://developer.visaacceptance.com/docs/vas/en-us/tms/developer/ctv/rest/tms/tms-net-tkn-onboard/tms-workflow-net-tkn-onboard-aggregator.html",
+   "title": "Network Token Onboarding, Partner Model | Token Management Service Developer Guide",
+   "publisher": "Visa Acceptance Solutions",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-marqeta-quarterly",
+   "network": "cross",
+   "claim": "Marqeta says the networks send it technical change documents four times a year, two major and two minor.",
+   "quote": "Changes to these certifications are typically communicated through technical documents provided by the card networks to Marqeta four times a year",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl of the markdown twin (.md) with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-marqeta-certified",
+   "network": "visa",
+   "claim": "Marqeta certifies its platform against each Visa release on behalf of its clients.",
+   "quote": "Marqeta is certified with the October 2026 VisaNet Business Enhancements, effective 23 October 2026.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl of the markdown twin (.md) with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-marqeta-noaction",
+   "network": "visa",
+   "claim": "For additive network changes Marqeta tells clients nothing changes on their side.",
+   "quote": "Processing behavior doesn't change, and no action is required.",
+   "url": "https://www.marqeta.com/docs/developer-guides/card-network-certifications",
+   "title": "Card Network Certifications 2026",
+   "publisher": "Marqeta",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "curl of the markdown twin (.md) with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-pulse-gateway",
+   "network": "pulse",
+   "claim": "PULSE sells debit processing for Discover Debit, Mastercard and Visa programmes through one point of access, alongside its gateway to other debit networks.",
+   "quote": "We provide full-service processing for Discover® Debit, Mastercard and Visa debit card programs, all through a single point of access.",
+   "url": "https://www.pulsenetwork.com/public/processing-and-gateways/",
+   "title": "Debit Processing and Gateways | PULSE Network",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-iso8583info",
+   "network": "visa",
+   "claim": "A third-party ISO 8583 tooling site describes Visa's BASE I messages as ISO 8583:1987 with many Visa-specific additions.",
+   "quote": "The messages based on ISO8583:1987 standard with many specific additions.",
+   "url": "http://blog.iso8583.info/2015/11/done-visa-base-i-messages.html",
+   "title": "[DONE] Visa BASE I messages",
+   "publisher": "iso8583.info",
+   "published": "2015-11-29",
+   "label": "Vendor",
+   "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-stripe-swe",
+   "network": "cross",
+   "claim": "A Stripe card network engineering role asks for ISO 8583 work on Visa and Mastercard authorisation and clearing flows.",
+   "quote": "Working with ISO 8583 messages, and data warehouse queries",
+   "url": "https://stripe.com/jobs/search?gh_jid=8198207",
+   "title": "Software Engineer, Payins Card Networks (job posting)",
+   "publisher": "Stripe",
+   "published": "2026-09-14",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-stripe-tpam",
+   "network": "cross",
+   "claim": "Stripe's Card Network Office role brokers between its engineers and the networks' Technical Partner Managers on mandates.",
+   "quote": "Facilitate communication between engineering teams and the card networks' Technical Partner Managers (TPaMs)",
+   "url": "https://stripe.com/jobs/search?gh_jid=8081754",
+   "title": "Program Manager, Card Network Office (job posting)",
+   "publisher": "Stripe",
+   "published": "2026-07-27",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-fdic-token",
+   "network": "cross",
+   "claim": "A community bank executive told the FDIC that debit card tokenisation was stalled while the bank waited on its core provider.",
+   "quote": "We have many initiatives (e.g., debit card tokenization) that are effectively stalled while we wait for [core service provider].",
+   "url": "https://www.fdic.gov/resources/community-banking/report/2020/2020-cbi-study-full.pdf",
+   "title": "FDIC Community Banking Study, December 2020",
+   "publisher": "Federal Deposit Insurance Corporation",
+   "published": "2020-12",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-lcfcu-liaison",
+   "network": "cross",
+   "claim": "A credit union card services manager is the primary liaison with processors and networks.",
+   "quote": "This position is the primary liaison with third-party processors, networks and reward providers.",
+   "url": "https://www.mddccua.org/career/card-services-manager/",
+   "title": "Card Services Manager, Library of Congress FCU (job posting)",
+   "publisher": "MD|DC Credit Union Association careers board",
+   "published": "2026-02-23",
+   "label": "Reported",
+   "fetch": "node tools/text.js, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-atleos-sponsor",
+   "network": "cross",
+   "claim": "NCR Atleos says network rules require any sender of ATM transactions to be a bank or a bank-approved processor.",
+   "quote": "a technical service processor that is approved and monitored by a bank",
+   "url": "https://www.sec.gov/Archives/edgar/data/1974138/000162828026012576/ncr-20251231.htm",
+   "title": "NCR Atleos Corporation Form 10-K for fiscal year 2025",
+   "publisher": "NCR Atleos via SEC EDGAR",
+   "published": "2026-02-27",
+   "label": "Verified",
+   "fetch": "curl of SEC EDGAR, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-cds-visa",
+   "network": "visa",
+   "claim": "ATM processor CDS relays Visa operator rules to its ATM clients and warns of suspension and network fines.",
+   "quote": "are subject to suspension of service, EFT Network fines, and further action",
+   "url": "https://www.cdsatm.com/news/visa-rules-update-affecting-all-atm-operators",
+   "title": "Visa Rules Update Affecting All ATM Operators",
+   "publisher": "CDS (Columbus Data Services), NCR Atleos",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, re-verified 2026-09-26"
+  },
+  {
+   "key": "t4-s4-cds-amp",
+   "network": "cross",
+   "claim": "CDS runs the web platform ATM operators use for terminal set-up, alerts and cash forecasting.",
+   "quote": "forecasting and alerts for low-cash and out-of-cash situations",
+   "url": "https://www.cdsatm.com/solutions/atm-processing-solutions",
+   "title": "ATM Processing Solutions",
+   "publisher": "CDS (Columbus Data Services), NCR Atleos",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js, re-verified 2026-09-26"
+  }
+ ],
+ "stage_id": "4"
+}

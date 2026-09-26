@@ -1,0 +1,111 @@
+{
+ "network": "diners",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Diners Club's card programme page sends would-be country partners to a contact form.",
+   "quote": "Want to partner with us? Let's work together to offer these products in your country.",
+   "url": "https://www.dinersclub.com/businesses/cardprograms/",
+   "title": "Card Programs",
+   "publisher": "Diners Club International",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Discover promises Diners Club issuers implementation support, co-created products and turnkey marketing programmes.",
+   "quote": "We provide extensive implementation support and insights from our global network of partners to help your business succeed.",
+   "url": "https://www.discoverglobalnetwork.com/solutions/issuing-commerce-collaboration/diners-club-issuing/",
+   "title": "Diners Club International Issuing",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The flykk Diners Club debit card release is datelined 14 January 2025, earlier than the September 2026 date a ledger row inferred from the listing.",
+   "quote": "NICOSIA, Cyprus, Jan. 14, 2025",
+   "url": "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+   "title": "ISX Financial and Diners Club International Launch flykk Debit Card",
+   "publisher": "Diners Club International (Club Connections)",
+   "published": "2025-01-14",
+   "label": "Vendor",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Cross-border Diners Club transactions are routed and settled through a centralised service centre.",
+   "quote": "transactions are routed and settled over the Diners Club network through its centralized service center",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+   "title": "Discover Financial Services Form 10-K FY2024",
+   "publisher": "Discover Financial Services",
+   "published": "2025-02",
+   "label": "Verified",
+   "fetch": "curl sec.gov 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Diners Club licensees, not the network, hold primary liability to settle with their merchants.",
+   "quote": "The licensees hold the primary liability to settle the transactions of their customers with these merchants.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1393612/000139361225000009/dfs-20241231.htm",
+   "title": "Discover Financial Services Form 10-K FY2024",
+   "publisher": "Discover Financial Services",
+   "published": "2025-02",
+   "label": "Verified",
+   "fetch": "curl sec.gov 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Diners Club franchises enrol in Discover Account Incident Manager with a dedicated form section and a separate DCIFraud mailbox.",
+   "quote": "all fields required for Diners Club International® franchises",
+   "url": "https://servicecenter.discovernetwork.com/fraud-product-enrollment/account-incident-manager-application.pdf",
+   "title": "Account Incident Manager (AIM) Application",
+   "publisher": "Discover Global Network",
+   "published": "2024",
+   "label": "Verified",
+   "fetch": "curl + pypdf (read only, not submitted) 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Diners Club ODR is limited to cardholders whose Diners cards were issued by banks in India, not to network partners.",
+   "quote": "Only Diners Club card holders to whom the Diners Club cards have been issued by an issuing bank in India",
+   "url": "https://odr.dinersclub.com/static/js/main.f3489f4a.js",
+   "title": "Online Dispute Resolution Portal (public JavaScript bundle)",
+   "publisher": "Diners Club International",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl (public JS bundle, UI strings) 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "ODR exists to handle failed-transaction grievances under the Reserve Bank of India 2019 turnaround time and compensation circular.",
+   "quote": "resolving disputes and grievances arising out of failed transactions of any of the India Cardholders",
+   "url": "https://odr.dinersclub.com/static/js/main.f3489f4a.js",
+   "title": "Online Dispute Resolution Portal (public JavaScript bundle)",
+   "publisher": "Diners Club International",
+   "published": "2022",
+   "label": "Verified",
+   "fetch": "curl (public JS bundle, UI strings) 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  }
+ ]
+}

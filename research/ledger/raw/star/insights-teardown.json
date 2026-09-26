@@ -1,0 +1,46 @@
+{
+ "network": "star",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "STAR tells issuers it settles interchange daily.",
+   "quote": "Realize revenue immediately because we settle your interchange daily",
+   "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+   "title": "STAR issuer brochure",
+   "publisher": "Fiserv",
+   "published": "2023-01",
+   "label": "Vendor",
+   "fetch": "curl + pypdf 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "STAR adds quarterly business reporting by merchant category with gross interchange and fees.",
+   "quote": "STAR provides quarterly business reporting, so you can evaluate the health of your debit program",
+   "url": "https://www.fiserv.com/content/dam/fiserv-ent/final-files/marketing-collateral/brochures/star-issuer-brochure-0123.pdf",
+   "title": "STAR issuer brochure",
+   "publisher": "Fiserv",
+   "published": "2023-01",
+   "label": "Vendor",
+   "fetch": "curl + pypdf 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "For STAR and Accel, Adyen gives merchants 30 days from notification to upload a single defence, with no later chance to add material.",
+   "quote": "There is no opportunity later in the process to provide information or to update information you provided.",
+   "url": "https://docs.adyen.com/risk-management/chargeback-guidelines/accel-star-chargebacks",
+   "title": "Accel & STAR chargebacks",
+   "publisher": "Adyen",
+   "published": "unknown",
+   "label": "Vendor",
+   "fetch": "curl + local text extraction, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  }
+ ]
+}

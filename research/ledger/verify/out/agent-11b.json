@@ -1,0 +1,292 @@
+{
+ "results": [
+  {
+   "id": "dgn-422",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (desktop UA) live 200; text in Next.js page payload (Developers Guide tab, not in rendered default tab)",
+   "archive_url": "",
+   "note": "Section 2: \"Partners are required to self-register on the Discover Developer Center\" then \"Currently, portal access is by invitation only.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-423",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (desktop UA) live 200; text in Next.js page payload (Developers Guide tab, not in rendered default tab)",
+   "archive_url": "",
+   "note": "\"This process is repeated when moving from test to production. A new set of credentials is generated for production access\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-425",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (desktop UA) live 200; text in Next.js page payload (Developers Guide tab, not in rendered default tab)",
+   "archive_url": "",
+   "note": "Security table row: \"Discover Stored Token Services (DSTS) | OAuth 2 - Client Credentials + Second Factor JWT | JWE | mTLS\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-426",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (desktop UA) live 200; text in Next.js page payload (Developers Guide tab, not in rendered default tab)",
+   "archive_url": "",
+   "note": "Headings 1-12: API Access Overview ... \"8. How to use Payload signature and encryption\" ... 11. Gateway error codes, 12. Discover hashing mechanism.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "dgn-475",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch saved live PDF (239 pp), text extracted with pypdf; curl timed out; matches local scratchpad/v11a/fis.txt",
+   "archive_url": "",
+   "note": "EFSURNET-R01 purpose: surcharge totals \"by terminal and transaction type for each acquired network ... monthly income balancing and network profitability\"; sample lists STAR, NYCE, CIRRUS, DISCOVER, PLUS.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-431",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.5: interim participation; losses from interim participation and disapproval are \"solely at the applicant's risk and expense\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-432",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"ICA number and BIN/IIN or BIN range ... must reflect the country, from among those in the Customer's Area of Use\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-433",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.7.1: \"must apply ... to extend the Area of Use\"; \"If the application is approved, the Corporation will amend the License\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-434",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"Each Principal and Association must provide ... contact information for itself and on behalf of its Sponsored Affiliates ... in the My Company Manager\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-435",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"The Customer must receive the Corporation's written confirmation of the registration before using a Service Provider for Program Service.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-436",
+   "result": "qualified",
+   "qualification": "The matrix spans two landscape pages (page 2 carries the PCI validation rows and footnotes), not one; document dated 30 January 2019; only archived copy is May 2025.",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text",
+   "archive_url": "https://web.archive.org/web/20250505133843/https://www.mastercard.com/content/dam/public/mastercardcom/globalrisk/pdf/Service-Provider-Categories-and-PCI-Updated.pdf",
+   "note": "Header on both pages: \"All Service Providers registered with Mastercard that store, process, or transmit cardholder data must validate compliance annually.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-437",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot 13 Aug 2026 HTML",
+   "archive_url": "https://web.archive.org/web/20260813142344/https://www.mastercard.com/how_to_guide/membership.html",
+   "note": "\"All eligibility criteria must be satisfied ... The three types of membership are MasterCard, Maestro and Cirrus\"; region tables for Maestro and Cirrus.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-439",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 7.10.7: \"subject to noncompliance assessments of up to USD 25,000 for each 30-day period of noncompliance.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-482",
+   "result": "qualified",
+   "qualification": "The pointer sits in Rule 3.3 Transaction Requirements, addressed to Customers about Processed Transactions and cross-border processing arrangements, not to processors or service providers specifically.",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "\"Refer to the Single Message System Specifications, Customer Interface Specification and IPM Clearing Formats manuals for technical requirements relating to Processed Transactions.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-483",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"Mastercard Rules 2 June 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Service Provider must \"Use any of the Corporation's Systems, including ... Mastercard Interface Processor (MIP) ... solely in order to perform Program Service\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-559",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch saved live PDF (239 pp), text extracted with pypdf; curl timed out; matches local scratchpad/v11a/fis.txt",
+   "archive_url": "",
+   "note": "BIMCBSM001: \"Monthly Mastercard fees detailed out by service and event code\"; fields QUANTITY, RATE, BILLING AMOUNT \"quantity multiplied by the rate\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-560",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch saved live PDF (239 pp), text extracted with pypdf; curl timed out; matches local scratchpad/v11a/fis.txt",
+   "archive_url": "",
+   "note": "PURPOSE: \"To provide service and event code detail that will assist in reconciliation of the monthly bill and problem resolution\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-565",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"4 August 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "\"notify Mastercard within 24 hours\"; Agents by contract; \"no later than within twenty-four (24) hours, identify and preserve all information\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-566",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "\"Within 15-calendar days of the Rejected Date ... If the issuer does not file an arbitration case within time frame the issuer will have accepted the financial responsibility\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-567",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Sender Memo reason \"is \"POI-ATM\" , \"17\" , \"34\" , \"59\", \"4834\" , \"4859\" , or similar phrase describing the issue.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-568",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Pre-arbitration optional for ATM/Maestro; arbitration \"within 45-calendar days\"; \"Mastercard strongly recommends skipping the optional pre-arbitration case step\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-574",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page (curl HTML lacked article body)",
+   "archive_url": "",
+   "note": "\"Mastercard has published the end date without publishing the replacement\"; \"names no platform\"; \"There is no stated migration path\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-575",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page (curl HTML lacked article body)",
+   "archive_url": "",
+   "note": "\"Registered descriptors take the direct path... Unregistered descriptors take the acquirer path. Issuer to Mastercom, then along Ethoca rails to the acquirer\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-576",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page (curl HTML lacked article body)",
+   "archive_url": "",
+   "note": "\"decommission Acquirer Collaboration in the US and Canada on January 4, 2027, per bulletin CAN/US 14059.1. New enrollment closed on July 21, 2026\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-578",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "\"For Maestro transactions: Within 10-calendar days\"; others \"Eight-calendar days\"; late docs mean liability \"solely for failing to provide supporting documentation\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-579",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"4 August 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "\"Acquirers of Merchants that exceed the ECM and HECM thresholds must monitor their Merchants through the Data Integrity application on Mastercard Connect.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-588",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Second presentment \"Not Reported to the Fraud and Loss Database\"; met when reporting date \"is within three days of the chargeback date\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-590",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Invalid: approved after FNS date (\"after submitting two or more chargebacks\" same account) or \"FNS Counter that exceeds 35 fraud-related chargebacks\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-591",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "US BINs: \"Form 0830 ... notarized by a Notary Public\"; conditions include \"The Mastercard card account is closed\" and \"The issuer blocked the account\".",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-594",
+   "result": "qualified",
+   "qualification": "The manual confirms GMAP is suspended; the practitioner reports of a new GMAP from April 2027 are not in this source (no April 2027 mention).",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"4 August 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260919122811/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "8.2: \"The Global Merchant Audit Program (GMAP) has been suspended until further notice.\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-597",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Pre-arbitration: issuer includes reason \"in the Sender Memo field\"; \"Within 30-calendar days of the Settlement Date or Central Site Business Date of the second presentment\"",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-598",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "live curl 403 (host blocks scripts); Wayback snapshot PDF, pypdf text, edition \"19 May 2026\" matches",
+   "archive_url": "https://web.archive.org/web/20260724162432/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "\"automatically accept the pre-arbitration case on behalf of the acquirer after 30-calendar days\"; \"Mastercard will automatically move funds\"",
+   "date": "2026-09-26"
+  }
+ ]
+}

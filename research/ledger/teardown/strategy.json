@@ -1,0 +1,1846 @@
+{
+ "thesis": [
+  {
+   "text": "Across the journey, the card networks run partner experiences through people, gated portals and daily files, and most of what matters sits behind a contract or a login.",
+   "ids": [
+    "visa-250",
+    "amex-038",
+    "mastercard-064",
+    "dgn-035",
+    "new:t4-s4-visa-rules-conf",
+    "new:t4-s4-mc-rules-cis",
+    "amex-041",
+    "dgn-164"
+   ]
+  },
+  {
+   "text": "Most partners never meet the network directly, since sponsor banks, processors and programme managers register them, certify for them, relay change and translate disputes.",
+   "ids": [
+    "visa-003",
+    "visa-008",
+    "mastercard-057",
+    "new:t2-s2-prth-sponsor",
+    "new:t4-s4-uspf-once-per-platform",
+    "new:t4-s4-marqeta-certified",
+    "new:t6c-sofi-impact",
+    "new:t6c-cua-forward",
+    "new:t6b-6b-pt-lithic-status"
+   ]
+  },
+  {
+   "text": "Money is where partners have least certainty, because invoice lines rarely trace to transactions, downgrades surface after the fact and no partner-facing incentive tracker was found.",
+   "ids": [
+    "new:t6a-a-psr-codes",
+    "cross-229",
+    "new:t6a-a-ts-dgrep",
+    "new:t6a-b-gcms-irdfall",
+    "new:t7-visa-cipfa-dash",
+    "new:t7-mc-dealmgr-tracking",
+    "new:t7-mc-dealmgr-customer"
+   ]
+  },
+  {
+   "text": "Visa and Mastercard lead on open developer sandboxes, published rulebooks and incentive budgets of 15.75 and 20.5 billion dollars in their 2025 years.",
+   "ids": [
+    "visa-190",
+    "mastercard-002",
+    "mastercard-171",
+    "visa-313",
+    "visa-267",
+    "mastercard-105"
+   ]
+  },
+  {
+   "text": "The Discover family already holds pieces of a better experience, such as PULSE's one-page invoice and Debit Dashboard, a live host simulator and a light change load.",
+   "ids": [
+    "pulse-012",
+    "new:t7-pulse-dd-overview",
+    "dgn-198",
+    "dgn-391",
+    "new:t6c-mq-oct-none",
+    "dgn-298"
+   ]
+  },
+  {
+   "text": "The study infers that Discover cannot outbid incumbent incentives, so its opening lies in certainty the incumbents do not give: traceable money, one shared record and plain change.",
+   "ids": [
+    "dgn-383",
+    "dgn-293",
+    "cross-229",
+    "new:t6a-d-sd22-billingid",
+    "unionpay-042",
+    "new:t6c-mq-invisible"
+   ]
+  }
+ ],
+ "patterns": [
+  {
+   "title": "The partner meets the network through intermediaries",
+   "text": [
+    {
+     "text": "Most partners join through a sponsor bank or principal that registers them and carries their liability.",
+     "ids": [
+      "visa-003",
+      "visa-008",
+      "mastercard-057",
+      "mastercard-063",
+      "new:t2-s2-prth-sponsor",
+      "new:t2-s2-ffiec-iso"
+     ]
+    },
+    {
+     "text": "Banks and credit unions often evaluate networks through paid negotiators who run incentive bids between Visa and Mastercard.",
+     "ids": [
+      "new:t1-s1-cornerstone",
+      "new:t1-s1-cornerstone-bids",
+      "new:t1-s1-engagefi"
+     ]
+    },
+    {
+     "text": "Processors test hosts once per platform, and Marqeta certifies each network release for all its clients and tells them when nothing is needed.",
+     "ids": [
+      "new:t4-s4-uspf-once-per-platform",
+      "new:t4-s4-marqeta-certified",
+      "new:t4-s4-marqeta-noaction"
+     ]
+    },
+    {
+     "text": "Small issuers, fintechs and most merchants never touch a network dispute tool, because processors translate network stages into their own states and codes.",
+     "ids": [
+      "new:t6b-6b-pt-azfcu-job",
+      "new:t6b-6b-pt-lithic-status",
+      "new:t6b-6b-pt-unit-statuses",
+      "new:t6b-6b-pt-worldpay-codes"
+     ]
+    },
+    {
+     "text": "Amex arms OptBlue sales agents with an objection guide and comparative spend data, so its case reaches merchants through the channel.",
+     "ids": [
+      "amex-302",
+      "new:t1-s1-amex-objections",
+      "new:t1-s1-amex-spend"
+     ]
+    },
+    {
+     "text": "The study infers that the intermediary is the customer the experience must serve first, with the end partner given a view of its own record.",
+     "ids": [
+      "new:t4-s4-mc-qs-client",
+      "new:t6b-6b-amex-tpp-rawdata",
+      "new:t6c-cua-forward"
+     ]
+    }
+   ],
+   "stages": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6b",
+    "6c"
+   ]
+  },
+  {
+   "title": "The real tools sit behind login and people",
+   "text": [
+    {
+     "text": "The ISO 8583 host specifications that acquirers build to are confidential at all four networks.",
+     "ids": [
+      "new:t4-s4-visa-rules-conf",
+      "new:t4-s4-mc-rules-cis",
+      "mastercard-409",
+      "amex-041",
+      "dgn-164",
+      "new:t4-s4-dgn-easi-scope"
+     ]
+    },
+    {
+     "text": "Host certification is led by a network representative everywhere, and token services are the least self-serve surface.",
+     "ids": [
+      "new:t4-s4-uspf-dgn-forms",
+      "amex-042",
+      "new:t4-s4-uspf-mc-sim",
+      "new:t4-s4-visa-vts-page",
+      "new:t4-s4-mc-mdes-cdm",
+      "new:t4-s4-amex-ats-outbound"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard hand user set-up to administrators inside the partner, and Mastercard names them on a form sent by email.",
+     "ids": [
+      "new:t3-s3-mcc-roles",
+      "new:t3-s3-mc1145-sa",
+      "new:t3-s3-vaccess-admins"
+     ]
+    },
+    {
+     "text": "Visa keeps its dispute screens restricted, so what partners see is inferred from processor portals that mirror them.",
+     "ids": [
+      "new:t6b-6b-visa-vrol-docs-restricted",
+      "new:t6b-6b-visa-wp-case-status",
+      "new:t6b-6b-visa-wp-buttons"
+     ]
+    },
+    {
+     "text": "After go-live, growth runs through a named relationship owner at every network, and self-service ordering exists only in patches such as Mastercard's Connect Store.",
+     "ids": [
+      "visa-386",
+      "visa-370",
+      "new:t7-mc-am-contract",
+      "amex-377",
+      "dgn-148",
+      "new:t7-mc-connect-store",
+      "amex-079"
+     ]
+    }
+   ],
+   "stages": [
+    "1",
+    "3",
+    "4",
+    "6b",
+    "7"
+   ]
+  },
+  {
+   "title": "Change arrives second hand",
+   "text": [
+    {
+     "text": "Every network pushes change through gated bulletins on a fixed calendar.",
+     "ids": [
+      "visa-166",
+      "visa-379",
+      "mastercard-180",
+      "mastercard-351"
+     ]
+    },
+    {
+     "text": "Visa says its Business News articles are not public, and Mastercard bulletins reach only members through Mastercard Connect.",
+     "ids": [
+      "new:t6c-vmbnd-notpublic",
+      "mastercard-353"
+     ]
+    },
+    {
+     "text": "Issuer processors republish each mandate with an impact note, and one credit union CUSO asks clients to forward network mail.",
+     "ids": [
+      "new:t6c-sofi-impact",
+      "new:t6c-mq-invisible",
+      "new:t6c-cua-forward"
+     ]
+    },
+    {
+     "text": "Some Visa bulletins omitted the billing event, so new fees appeared first on invoices.",
+     "ids": [
+      "new:t6a-a-psr-13",
+      "new:t6a-o-teya-billing"
+     ]
+    },
+    {
+     "text": "UK acquirers holding over 65 percent of the market struggle to get timely answers, and a US payfac filing calls network compliance timelines highly compressed.",
+     "ids": [
+      "new:t6c-psr25-65pct",
+      "new:t6c-prth-compressed"
+     ]
+    },
+    {
+     "text": "In certification, retest triggers when anything in the chain changes are a named friction.",
+     "ids": [
+      "new:t3-s3-eps-mult",
+      "new:t3-s3-vai-90",
+      "new:t3-s3-uspf-portfolio"
+     ]
+    }
+   ],
+   "stages": [
+    "3",
+    "6a",
+    "6c"
+   ]
+  },
+  {
+   "title": "Money arrives as files the partner must reconcile",
+   "text": [
+    {
+     "text": "On every network studied, money runs on daily files and reports that the partner reconciles itself, with billing in a separate stream.",
+     "ids": [
+      "new:t6a-a-ts-visalist",
+      "new:t6a-a-mq-vss-files",
+      "new:t6a-b-gcms-six",
+      "new:t6a-c-amx-bop2",
+      "new:t6a-b-syn-weekly",
+      "new:t6a-a-vbs-voip"
+     ]
+    },
+    {
+     "text": "Portal bulletin codes do not match invoice codes, and Visa and Mastercard told the UK regulator they could not supply fee logic within a year.",
+     "ids": [
+      "new:t6a-a-psr-codes",
+      "cross-229",
+      "new:t6a-d-ps261-mclegacy",
+      "new:t6a-d-ps261-visatxn"
+     ]
+    },
+    {
+     "text": "Interchange downgrades are found after the fact in processor reports, and Mastercard's parameter file lists rate designators without the rates.",
+     "ids": [
+      "new:t6a-a-ts-dgdef",
+      "new:t6a-a-ts-dgrep",
+      "new:t6a-b-gcms-irdfall",
+      "new:t6a-b-gcms-mpe"
+     ]
+    },
+    {
+     "text": "The UK regulator found issuers generally cope with fee information while acquirers do not, and large UK acquirers buy scheme services to understand their own fees.",
+     "ids": [
+      "new:t6a-p-psr-issuers",
+      "cross-191",
+      "new:t6a-b-psr-65",
+      "new:t7-teya-billing"
+     ]
+    },
+    {
+     "text": "Stripe and Lithic turn raw network files into settlement records with states, and vendors sell invoice analysis to acquirers and issuers.",
+     "ids": [
+      "new:t6a-a-st-status",
+      "new:t6a-a-li-incident",
+      "new:t6a-d-torus-acq",
+      "new:t6a-d-cardtraq-ingest"
+     ]
+    },
+    {
+     "text": "American Express is the clearest counterexample, publishing settlement timing, fee amounts and the net payment arithmetic.",
+     "ids": [
+      "new:t6a-c-amx-bop8",
+      "new:t6a-c-amx-bop11",
+      "new:t6a-c-amx-grrcn1",
+      "new:t6a-c-amx-grrcn3"
+     ]
+    }
+   ],
+   "stages": [
+    "6a",
+    "7"
+   ]
+  },
+  {
+   "title": "Price and terms stay hidden until a negotiation",
+   "text": [
+    {
+     "text": "No network publishes a self-serve way for a prospective issuer, acquirer or ATM operator to see its price.",
+     "ids": [
+      "visa-250",
+      "amex-038",
+      "dgn-063",
+      "mastercard-064",
+      "new:t1-s1-visa-contact-form",
+      "new:t1-s1-amex-contact",
+      "dgn-035",
+      "pulse-002"
+     ]
+    },
+    {
+     "text": "Participants told the RBA that confidentiality terms stop them comparing network prices or understanding their own bills.",
+     "ids": [
+      "cross-075",
+      "cross-231"
+     ]
+    },
+    {
+     "text": "Joining fees are mostly unpublished, with exceptions such as no-fee OptBlue payment facilitator and AMEX Enabled registration.",
+     "ids": [
+      "visa-014",
+      "mastercard-064",
+      "amex-057",
+      "amex-047"
+     ]
+    },
+    {
+     "text": "Incentives are the main commercial lever, and Mastercard contracts carry clawbacks while DOJ alleges Visa can claw back incentives as early termination fees.",
+     "ids": [
+      "visa-267",
+      "mastercard-105",
+      "new:t7-mc-dealmgr-clawbacks",
+      "new:t7-doj-clawback",
+      "new:t7-doj-issuer-etf"
+     ]
+    },
+    {
+     "text": "Interac and eftpos publish network fees, and the RBA is forcing publication in Australia.",
+     "ids": [
+      "interac-011",
+      "interac-015",
+      "eftpos-014",
+      "cross-078"
+     ]
+    }
+   ],
+   "stages": [
+    "1",
+    "2",
+    "7"
+   ]
+  },
+  {
+   "title": "No single record says where a partner stands",
+   "text": [
+    {
+     "text": "Identifiers arrive through several tools and deadlines, such as Visa's temporary UVID followed by a Business ID.",
+     "ids": [
+      "visa-004",
+      "new:t2-s2-amex-bop-prelaunch",
+      "new:t2-s2-mc-icacountry"
+     ]
+    },
+    {
+     "text": "At the partner, joining work is case work that sponsor staff track in Excel.",
+     "ids": [
+      "new:t2-s2-citizens-tpa",
+      "new:t2-s2-citizens-tools"
+     ]
+    },
+    {
+     "text": "Each network closes certification with a different artefact, from Mastercard's TAN letter to Amex's summary with live terminal parameters.",
+     "ids": [
+      "mastercard-400",
+      "new:t3-s3-uspf-vletter",
+      "dgn-197",
+      "amex-042",
+      "new:t3-s3-uspf-aparams"
+     ]
+    },
+    {
+     "text": "The clearest progress tracking in public view belongs to Amex's AMEX Enabled dashboard and UnionPay's project record.",
+     "ids": [
+      "new:t3-s3-ae-journey",
+      "unionpay-038",
+      "unionpay-041",
+      "unionpay-042"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard rules never use the word pilot, and their go-live is a string of approvals with no single live moment.",
+     "ids": [
+      "new:t5-visa-r-nopilot",
+      "new:t5-mc-r-nopilot"
+     ]
+    },
+    {
+     "text": "Amex is the only network whose public rules define an issuer launch gate, ending in a written go-ahead.",
+     "ids": [
+      "new:t5-amex-gns-beta",
+      "new:t5-amex-gns-notify"
+     ]
+    }
+   ],
+   "stages": [
+    "2",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "title": "Disputes share one skeleton and hide the ratio",
+   "text": [
+    {
+     "text": "Every network runs the same dispute skeleton from claim to ruling, wrapped in its own tool, vocabulary and clock.",
+     "ids": [
+      "visa-313",
+      "mastercard-211",
+      "amex-259",
+      "new:t6b-6b-dgn-trr-notice",
+      "new:t6b-6b-pulse-timeframes"
+     ]
+    },
+    {
+     "text": "The contest has moved before the chargeback, with Visa's Rapid Dispute Resolution switched on for issuers by default.",
+     "ids": [
+      "new:t6b-6b-visa-rdr-auto-activate",
+      "new:t6b-6b-visa-oi-issuer-mandate",
+      "mastercard-215"
+     ]
+    },
+    {
+     "text": "Monitoring counts fraud and disputes together at portfolio level, and merchants and payfacs cannot see the items behind their own ratio.",
+     "ids": [
+      "visa-337",
+      "visa-338",
+      "new:t6b-6b-visa-vamp-blind",
+      "new:t6b-stripe-vamp-lag"
+     ]
+    },
+    {
+     "text": "Amex's merchant screen sorts cases by whose move it is and shows the days left to respond.",
+     "ids": [
+      "new:t6b-6b-amex-oma-tabs",
+      "new:t6b-6b-amex-oma-case-detail"
+     ]
+    }
+   ],
+   "stages": [
+    "6b"
+   ]
+  },
+  {
+   "title": "Commitments are rare and cover the network's own steps",
+   "text": [
+    {
+     "text": "Published turnarounds are few, such as EASI review in two business days and PULSE credentials in five.",
+     "ids": [
+      "new:t3-s3-easi-2d",
+      "pulse-001",
+      "amex-401",
+      "new:t3-s3-mc-cis",
+      "mastercard-078"
+     ]
+    },
+    {
+     "text": "Amex writes review windows into its launch policies, and Mastercard pairs its service levels with escalation channels.",
+     "ids": [
+      "new:t5-amex-gns-adsla",
+      "new:t5-amex-gns-cobrand",
+      "mastercard-418"
+     ]
+    },
+    {
+     "text": "Visa says onboarding time is the first question clients ask.",
+     "ids": [
+      "visa-427"
+     ]
+    },
+    {
+     "text": "No public status page for core authorisation and settlement was found for any of the four networks.",
+     "ids": [
+      "mastercard-040",
+      "visa-376",
+      "mastercard-392",
+      "amex-371"
+     ]
+    },
+    {
+     "text": "An independent review found Visa's 2018 outage communications were not timely, regular or actionable.",
+     "ids": [
+      "new:t6c-psr-sd9-ey"
+     ]
+    }
+   ],
+   "stages": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6c"
+   ]
+  }
+ ],
+ "discover_position": [
+  {
+   "text": "The family leads for small issuers, where PULSE offers a scheduled portfolio analysis backed by an ABA due diligence report and a one-page all-in invoice.",
+   "ids": [
+    "new:t1-s1-pulse-advantage",
+    "new:t1-s1-aba-dd",
+    "pulse-012",
+    "pulse-034"
+   ]
+  },
+  {
+   "text": "It also leads with the PULSE Debit Dashboard, open to every PULSE issuer with interchange by category and a peer comparison.",
+   "ids": [
+    "new:t7-pulse-dd-overview",
+    "new:t7-pulse-dd-peer",
+    "new:t7-pulse-dd-access"
+   ]
+  },
+  {
+   "text": "It is level or ahead in certification, with self-certification routes, a self-registering acquirer portal with a stated review time and a simulator that shows results live.",
+   "ids": [
+    "dgn-202",
+    "dgn-200",
+    "dgn-023",
+    "new:t3-s3-easi-2d",
+    "dgn-198",
+    "dgn-391"
+   ]
+  },
+  {
+   "text": "It is behind at the door, where developers need an invitation, fintechs find no named provider and every partner type is routed to a contact form.",
+   "ids": [
+    "dgn-034",
+    "new:t4-s4-dgn-gl-invite",
+    "dgn-365",
+    "dgn-267",
+    "dgn-035",
+    "dgn-036"
+   ]
+  },
+  {
+   "text": "It is behind in running the relationship, with a fully gated Disputes Portal, private PULSE rules and bulletins, and US acquirer rates behind a code.",
+   "ids": [
+    "dgn-177",
+    "new:t6b-6b-pulse-rules-gated",
+    "pulse-017",
+    "dgn-063",
+    "dgn-064"
+   ]
+  },
+  {
+   "text": "The Fed found Discover misclassified cards for sixteen years without telling merchants, and its owner's move of about 25 million debit cards put visible costs on merchants.",
+   "ids": [
+    "new:t6a-c-dgn-fed1",
+    "dgn-244",
+    "dgn-055",
+    "dgn-216",
+    "dgn-215",
+    "dgn-262"
+   ]
+  }
+ ],
+ "principles": [
+  {
+   "title": "Make every sum traceable",
+   "text": [
+    {
+     "text": "Tie each fee, interchange line and settlement total to its transactions, card class and rule, because that is where acquirers struggle most.",
+     "ids": [
+      "new:t6a-a-psr-codes",
+      "new:t6a-p-psr-issuers",
+      "cross-191"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard told the UK regulator they could not supply this within a year. The study infers that a free trace is a lead they cannot close quickly.",
+     "ids": [
+      "cross-229",
+      "new:t6a-d-ps261-mclegacy"
+     ]
+    },
+    {
+     "text": "Amex already publishes the net payment arithmetic, which shows the promise can be kept.",
+     "ids": [
+      "new:t6a-c-amx-grrcn1",
+      "new:t6a-c-amx-grrcn3"
+     ]
+    }
+   ],
+   "stages": [
+    "6a",
+    "7"
+   ]
+  },
+  {
+   "title": "Serve the intermediary, show the end partner",
+   "text": [
+    {
+     "text": "Design first for the sponsor, processor or programme manager that acts for many clients, because that is how most partners reach a network.",
+     "ids": [
+      "new:t2-s2-prth-sponsor",
+      "new:t4-s4-uspf-once-per-platform",
+      "new:t6b-6b-pt-azfcu-job"
+     ]
+    },
+    {
+     "text": "Give each end partner a read-only view of its own record, since small issuers and fintechs learn dispute outcomes late or never.",
+     "ids": [
+      "new:t6b-6b-pt-unit-tollfree",
+      "new:t6b-job-velera-disputes"
+     ]
+    }
+   ],
+   "stages": [
+    "2",
+    "3",
+    "4",
+    "6b",
+    "6c"
+   ]
+  },
+  {
+   "title": "Let partners see and try before they sign",
+   "text": [
+    {
+     "text": "Open specifications, sandbox keys, provider lists and joining steps to strangers, as Visa and Mastercard do for developers and fintechs.",
+     "ids": [
+      "visa-190",
+      "mastercard-002",
+      "new:t1-s1-visa-dir-filters",
+      "new:t1-s1-visa-lic-steps"
+     ]
+    },
+    {
+     "text": "The study infers that Discover's invitation-only Developer Center and contact-form doors remove it from shortlists before any conversation.",
+     "ids": [
+      "dgn-034",
+      "dgn-035",
+      "new:t1-s1-ftt-closed"
+     ]
+    }
+   ],
+   "stages": [
+    "1",
+    "2",
+    "4"
+   ]
+  },
+  {
+   "title": "Prove value on the partner's own numbers",
+   "text": [
+    {
+     "text": "Lead with money, reach and yield shown on the partner's own data, and keep process in the background.",
+     "ids": [
+      "new:t7-pulse-dd-overview",
+      "new:t1-s1-amex-spend",
+      "new:t1-s1-visa-direct-calc"
+     ]
+    },
+    {
+     "text": "PULSE's account executive says most issuers do not know their interchange, and Discover's merchant pages give no spend figure.",
+     "ids": [
+      "new:t7-pulse-dd-ae",
+      "dgn-357"
+     ]
+    }
+   ],
+   "stages": [
+    "1",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "title": "Keep one record from joining to exit",
+   "text": [
+    {
+     "text": "Hold identifiers, owners, certification letters, commitments and orders in one record that partner and network staff both read.",
+     "ids": [
+      "unionpay-040",
+      "unionpay-042",
+      "new:t3-s3-ae-journey",
+      "new:t2-s2-amex-bop-prelaunch"
+     ]
+    },
+    {
+     "text": "The earlier study classes one sign-in as parity, so the advantage lies in what the record holds.",
+     "ids": [
+      "visa-031",
+      "mastercard-075",
+      "mastercard-q17",
+      "visa-q11"
+     ]
+    }
+   ],
+   "stages": [
+    "2",
+    "3",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "title": "Tell each partner what a change means for it",
+   "text": [
+    {
+     "text": "Type each change, state its effective date and give each partner a verdict, including when its processor has handled it or nothing is needed.",
+     "ids": [
+      "new:t6c-amex-bop-types",
+      "new:t6c-sofi-impact",
+      "new:t6c-mq-invisible"
+     ]
+    },
+    {
+     "text": "Discover's light change load is a real benefit that only processors voice today.",
+     "ids": [
+      "new:t6c-mq-oct-none",
+      "dgn-298"
+     ]
+    }
+   ],
+   "stages": [
+    "6a",
+    "6c"
+   ]
+  },
+  {
+   "title": "Show whose move it is and what the network promises",
+   "text": [
+    {
+     "text": "Every case, step and order should show its owner and next action, as Amex does with days left on each dispute.",
+     "ids": [
+      "new:t6b-6b-amex-oma-case-detail",
+      "new:t6b-6b-pulse-mq-nextactor"
+     ]
+    },
+    {
+     "text": "Commit to service levels on the network's own steps with an escalation route, and keep estimated durations out of the product.",
+     "ids": [
+      "mastercard-078",
+      "mastercard-418",
+      "visa-427"
+     ]
+    }
+   ],
+   "stages": [
+    "2",
+    "3",
+    "5",
+    "6b",
+    "6c"
+   ]
+  },
+  {
+   "title": "Publish the rules, including how to leave",
+   "text": [
+    {
+     "text": "Publish dispute rules, monitoring lines, money rules and exit terms with dated changes, as Mastercard and Amex do for parts of theirs.",
+     "ids": [
+      "mastercard-171",
+      "new:t6a-c-amx-bop8",
+      "new:t7-mc-rules-term-notice"
+     ]
+    },
+    {
+     "text": "Discover and PULSE keep dispute rules gated, and Discover publishes no exit terms while its owner competes with partner issuers.",
+     "ids": [
+      "new:t6b-6b-pulse-rules-gated",
+      "dgn-288",
+      "dgn-106",
+      "dgn-208"
+     ]
+    }
+   ],
+   "stages": [
+    "6a",
+    "6b",
+    "7"
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "rank": 1,
+   "title": "Every fee line traces to its transactions and card class",
+   "stage": "6a",
+   "partner_types": [
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "Issuers",
+    "Merchants where they touch the network directly"
+   ],
+   "what": "Give each invoice and interchange line a stable billing identifier, its trigger rule and a link to its transactions. Show each transaction's card class, the programme it was priced at and any downgrade reason. Correct errors for every affected partner beside the original line.",
+   "why_advantage": [
+    {
+     "text": "Visa and Mastercard each told the UK regulator they could not supply fee logic within a year.",
+     "ids": [
+      "cross-229",
+      "new:t6a-d-ps261-visatxn",
+      "new:t6a-d-ps261-mclegacy"
+     ]
+    },
+    {
+     "text": "Portal codes that differ from invoice codes are a documented acquirer complaint, and UK acquirers buy scheme services to understand their own fees.",
+     "ids": [
+      "new:t6a-a-psr-codes",
+      "cross-191",
+      "new:t7-teya-billing"
+     ]
+    },
+    {
+     "text": "UK rules require a unique billing identifier and fee logic from July 2027, and the study infers that doing this worldwide would put Discover ahead of that floor.",
+     "ids": [
+      "new:t6a-d-sd22-billingid",
+      "new:t6a-d-sd22-12m"
+     ]
+    },
+    {
+     "text": "The Fed found Discover charged a commercial rate for sixteen years without telling merchants, and the Fed's order now requires classification controls for each acquirer and merchant.",
+     "ids": [
+      "new:t6a-c-dgn-fed1",
+      "new:t6a-c-dgn-fed2",
+      "dgn-245"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Brightline story",
+    "Value proposition",
+    "Developer site"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Every fee line traces to its trigger",
+    "Show the class and rate each transaction was billed at",
+    "Fix billing errors for everyone"
+   ],
+   "relates_to": "d1-fee-trace"
+  },
+  {
+   "rank": 2,
+   "title": "Settlement totals that tie to the funds moved",
+   "stage": "6a",
+   "partner_types": [
+    "Issuers",
+    "Fintechs and programme managers",
+    "Acquirers and processors",
+    "ATM operators",
+    "Developers"
+   ],
+   "what": "State the settlement arithmetic on screen and show each day's tie-out between report totals and funds moved. Show each settlement day and file as pending or complete, with a notice when a network file is late. Offer the same data as files and an API, and keep PULSE's one-page invoice as the default view.",
+   "why_advantage": [
+    {
+     "text": "Issuers rebuild Mastercard fund reconciliation from fragments, while Amex, Mastercard Send and Discover's own old report show a tie-out can be promised.",
+     "ids": [
+      "new:t6a-b-riv-frag",
+      "new:t6a-b-riv-396",
+      "new:t6a-b-send-sum",
+      "new:t6a-c-amx-grrcn1",
+      "new:t6a-c-dgn-dar2"
+     ]
+    },
+    {
+     "text": "Late network files are the main cause of processor settlement delays, and Stripe and Lithic already treat completeness as a state.",
+     "ids": [
+      "new:t6a-a-li-delay",
+      "new:t6a-a-st-status",
+      "new:t6a-d-lithic-iscomplete"
+     ]
+    },
+    {
+     "text": "Mastercard's public catalogue has no settlement or billing API, and programme managers each build their own wrapper.",
+     "ids": [
+      "new:t6a-b-dev-cat",
+      "new:t6a-d-lithic-settleapi",
+      "new:t6a-a-mq-30min"
+     ]
+    },
+    {
+     "text": "Community banks and credit unions complain of long, error-prone bills, and PULSE already sells a one-page invoice with single-point settlement.",
+     "ids": [
+      "new:t6a-o-icba26-billing",
+      "new:t6a-o-occ25-billing",
+      "pulse-012",
+      "new:t6a-c-pul-gw1"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Developer site",
+    "Agent portal",
+    "Brightline story"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Totals that tie to the wire",
+    "Settlement day as a status",
+    "The same data as file and API",
+    "Keep the short bill"
+   ],
+   "relates_to": "new"
+  },
+  {
+   "rank": 3,
+   "title": "Build for the processor as the customer",
+   "stage": "4",
+   "partner_types": [
+    "Acquirers and processors",
+    "Processors, gateways and platforms certifying for many clients",
+    "Community banks and credit unions",
+    "Fintechs and programme managers",
+    "Payment facilitators and ISOs"
+   ],
+   "what": "Let a processor, CUSO or programme manager act for many clients in one place. It creates projects, passes on its certification, works dispute queues and subscribes clients to notices. Each client sees its own record read-only.",
+   "why_advantage": [
+    {
+     "text": "Host testing runs once per platform, and Marqeta certifies each network release for all its clients.",
+     "ids": [
+      "new:t4-s4-uspf-once-per-platform",
+      "new:t4-s4-marqeta-certified"
+     ]
+    },
+    {
+     "text": "Visa registers an agent separately per acquirer, while Mastercard's Modular M-TIP and Product Express show certification reuse works.",
+     "ids": [
+      "new:t3-s3-visa-tpa-peracq",
+      "new:t3-s3-uspf-modular",
+      "mastercard-408",
+      "mastercard-274"
+     ]
+    },
+    {
+     "text": "Among the portals read, Mastercard offers an on-behalf-of-a-client flag and a portal API.",
+     "ids": [
+      "new:t4-s4-mc-qs-client",
+      "mastercard-038"
+     ]
+    },
+    {
+     "text": "Small issuers and fintechs reach networks through processors and learn dispute outcomes late or never.",
+     "ids": [
+      "new:t6b-6b-pt-azfcu-job",
+      "new:t6b-6b-pt-unit-tollfree",
+      "new:t6b-job-velera-disputes"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Developer site",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Build for the processor as the customer",
+    "Certify once, inherit across clients",
+    "Give intermediaries a multi-institution queue and give the client a view"
+   ],
+   "relates_to": "new"
+  },
+  {
+   "rank": 4,
+   "title": "Publish the platforms that carry Discover",
+   "stage": "1",
+   "partner_types": [
+    "Fintechs and programme managers",
+    "Developers"
+   ],
+   "what": "Publish the processors, sponsor banks and programme managers that carry the network, by product and country. Start the fintech path inside one of them, and show which of its clients inherit that platform's certification.",
+   "why_advantage": [
+    {
+     "text": "Visa and Mastercard court fintechs through enabler directories, and Visa's can be filtered before any contact.",
+     "ids": [
+      "new:t1-s1-visa-dir-filters",
+      "new:t1-s1-engage-202",
+      "visa-018"
+     ]
+    },
+    {
+     "text": "Four of six issuing platforms checked document no Discover issuing, and a fintech guide drops Discover from the network choice.",
+     "ids": [
+      "dgn-265",
+      "dgn-266",
+      "dgn-267",
+      "dgn-268",
+      "new:t1-s1-ftt-closed"
+     ]
+    },
+    {
+     "text": "Discover's fintech page names no processor, sponsor bank or programme manager, although Marqeta states it is certified on Discover's current release.",
+     "ids": [
+      "dgn-365",
+      "dgn-037",
+      "dgn-363"
+     ]
+    },
+    {
+     "text": "Amex lets fintechs issue on its network through the issuing platforms they already use.",
+     "ids": [
+      "amex-074"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Value proposition",
+    "Developer site",
+    "Clearway",
+    "Brightline story"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "A provider shelf for fintechs"
+   ],
+   "relates_to": "d9-fintech-path"
+  },
+  {
+   "rank": 5,
+   "title": "Free early resolution and a published dispute line",
+   "stage": "6b",
+   "partner_types": [
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "Merchants where they touch the network directly",
+    "Issuers: large banks"
+   ],
+   "what": "Route each new claim through a merchant resolution step at no per-alert fee, and count resolved claims as prevented. Publish Discover's dispute and fraud thresholds and dated dispute rules. Give acquirers a live ratio per merchant and sub-merchant with every counted item listed.",
+   "why_advantage": [
+    {
+     "text": "Visa switched Rapid Dispute Resolution on for issuers by default and excludes pre-dispute resolutions from monitoring.",
+     "ids": [
+      "new:t6b-6b-visa-rdr-auto-activate",
+      "visa-337"
+     ]
+    },
+    {
+     "text": "Merchants pay per alert elsewhere, and Mastercard's acquirer collaboration route is reported to be ending.",
+     "ids": [
+      "cross-210",
+      "new:t6b-6b-pt-alert-overlap",
+      "new:t6b-6b-mc-collab-sunset"
+     ]
+    },
+    {
+     "text": "Merchants cannot see the items behind Visa's monitoring ratio, and the data arrives a month late.",
+     "ids": [
+      "new:t6b-6b-visa-vamp-blind",
+      "new:t6b-stripe-vamp-lag"
+     ]
+    },
+    {
+     "text": "Discover's dispute line surfaces only through vendors, and a practitioner guide finds no Discover equivalent of the main pre-dispute tools.",
+     "ids": [
+      "dgn-288",
+      "dgn-376",
+      "dgn-291"
+     ]
+    },
+    {
+     "text": "Discover's Fraud Alerts already has a free standard tier to build from.",
+     "ids": [
+      "dgn-292"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Value proposition",
+    "Agent portal",
+    "Brightline story"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Offer free pre-dispute resolution and count it as prevented",
+    "Publish the monitoring line and show the items behind the ratio",
+    "Make the dispute rules public and dated"
+   ],
+   "relates_to": "d7-disputes-line"
+  },
+  {
+   "rank": 6,
+   "title": "Tell each partner what a change means for it",
+   "stage": "6c",
+   "partner_types": [
+    "Issuers",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators",
+    "Fintechs and programme managers",
+    "Developers",
+    "Merchants where they touch the network directly"
+   ],
+   "what": "Publish every rule, fee and specification change as one ledger item typed action, legal or information, with audience, region and effective date. Show each partner a verdict: act, your processor has handled it, or nothing needed. Commit to a minimum notice period, name the billing line a fee change will use and attach a request-more-time action.",
+   "why_advantage": [
+    {
+     "text": "Amex types changes and Mastercard headers carry action indicators, yet no network tells a partner whether its processor has already absorbed the work.",
+     "ids": [
+      "new:t6c-amex-bop-types",
+      "mastercard-351",
+      "new:t6c-sofi-impact",
+      "new:t6c-mq-invisible"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard bulletins are private, and a CUSO relies on clients forwarding network mail.",
+     "ids": [
+      "new:t6c-vmbnd-notpublic",
+      "mastercard-353",
+      "new:t6c-cua-forward"
+     ]
+    },
+    {
+     "text": "Some Visa bulletins omitted the billing event, so fees first appeared on invoices.",
+     "ids": [
+      "new:t6a-a-psr-13",
+      "new:t6a-o-teya-billing"
+     ]
+    },
+    {
+     "text": "The UK now requires six months' notice of fee changes and Canada 120 days, so a worldwide commitment turns regulation into a promise.",
+     "ids": [
+      "new:t6c-psr26-notice",
+      "new:t6c-canada-notice"
+     ]
+    },
+    {
+     "text": "Processors report that recent Discover and PULSE releases needed nothing from clients, a benefit the network does not yet state itself.",
+     "ids": [
+      "new:t6c-mq-oct-none",
+      "dgn-298",
+      "new:t6c-mq-invisible"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Brightline story",
+    "Developer site",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Change ledger with a verdict per partner",
+    "Notices built to be forwarded",
+    "Stated lead times on every change",
+    "Extension request inside the change",
+    "A quiet cycle, said plainly",
+    "Change notice names the billing line"
+   ],
+   "relates_to": "d10-live-partner-comms"
+  },
+  {
+   "rank": 7,
+   "title": "A sandbox key on the first visit",
+   "stage": "4",
+   "partner_types": [
+    "Developers",
+    "Fintechs and programme managers",
+    "Payment facilitators and ISOs",
+    "Merchants"
+   ],
+   "what": "Let a signed-up developer create a project, get sandbox credentials and published test cards, and call the existing APIs with no representative. Publish specifications, a pricing model page and markdown twins for coding assistants before any contact. Let developers reissue their own keys.",
+   "why_advantage": [
+    {
+     "text": "Visa and Mastercard let any registered developer create a project and call a sandbox the same day.",
+     "ids": [
+      "visa-190",
+      "mastercard-002"
+     ]
+    },
+    {
+     "text": "Discover's Developer Center admits developers only by a representative's invitation, the largest build gap the study found.",
+     "ids": [
+      "dgn-034",
+      "new:t4-s4-dgn-gl-invite"
+     ]
+    },
+    {
+     "text": "Discover already publishes twelve readable OpenAPI specifications, yet test cases arrive only during certification boarding.",
+     "ids": [
+      "dgn-385",
+      "dgn-021"
+     ]
+    },
+    {
+     "text": "Mastercard and Visa publish documentation for coding assistants, while Discover's portals return 404 or a bare title to a fetching tool.",
+     "ids": [
+      "mastercard-001",
+      "mastercard-034",
+      "visa-224",
+      "visa-440",
+      "dgn-205",
+      "dgn-393"
+     ]
+    },
+    {
+     "text": "This reaches parity with Visa and Mastercard and moves ahead of the American Express key review.",
+     "ids": [
+      "amex-386",
+      "visa-190",
+      "mastercard-002"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Developer site",
+    "Clearway"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "A sandbox key on the first visit",
+    "Open evaluation for developers",
+    "Docs readable by coding assistants",
+    "Credentials that do not strand the developer"
+   ],
+   "relates_to": "d11-developer-access"
+  },
+  {
+   "rank": 8,
+   "title": "Partner economics in one shared view",
+   "stage": "7",
+   "partner_types": [
+    "Issuers: large banks",
+    "Community banks and credit unions",
+    "Acquirers and processors"
+   ],
+   "what": "Extend the PULSE Debit Dashboard across the family, with each partner's own economics and a peer comparison. Show each incentive commitment, its measure, the partner's standing and payment status, including any clawback trigger. Build the business review and renewal from this shared data.",
+   "why_advantage": [
+    {
+     "text": "PULSE already gives every issuer its economics with a peer comparison, and its account executive says most issuers do not know their interchange.",
+     "ids": [
+      "new:t7-pulse-dd-overview",
+      "new:t7-pulse-dd-peer",
+      "new:t7-pulse-dd-access",
+      "new:t7-pulse-dd-ae"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard track incentives in internal files, billing systems and quarterly reviews, and the study found no partner-facing tracker.",
+     "ids": [
+      "new:t7-visa-cipfa-dash",
+      "new:t7-visa-cio-ormb",
+      "new:t7-mc-dealmgr-tracking",
+      "new:t7-mc-dealmgr-customer"
+     ]
+    },
+    {
+     "text": "Both networks estimate earned incentives partly from forecasts and client-reported data, which the study infers a partner cannot check from outside.",
+     "ids": [
+      "new:t7-visa-10k-incentive-estimate",
+      "new:t7-ma-10k-card-conversion",
+      "new:t7-visa-10k-client-reported"
+     ]
+    },
+    {
+     "text": "Consultants win renewals by negotiating, and regulators are forcing fee clarity.",
+     "ids": [
+      "new:t7-engagefi-give-take",
+      "new:t7-engagefi-doubled",
+      "cross-075",
+      "new:t7-fcac-notice"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Agent portal",
+    "Brightline story",
+    "Value proposition"
+   ],
+   "evidence_strength": "moderate",
+   "stage_move_titles": [
+    "Business review built on shared data",
+    "Incentive ledger in the partner record",
+    "Renewal workspace over the whole term",
+    "Fee explanation included, consulting on request"
+   ],
+   "relates_to": "d4-partner-economics"
+  },
+  {
+   "rank": 9,
+   "title": "Every dispute case shows whose move it is",
+   "stage": "6b",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers",
+    "Acquirers and processors",
+    "Merchants where they touch the network directly"
+   ],
+   "what": "Make each case status a next action with an owner and a day count drawn from the condition's own time limit. Let one issuer action file the fraud report and open the dispute. Show Reg E deadlines beside network deadlines, and publish the same states through the API.",
+   "why_advantage": [
+    {
+     "text": "Amex shows merchants the days left to respond, and a PULSE processor wrapper shows next actor and days left.",
+     "ids": [
+      "new:t6b-6b-amex-oma-case-detail",
+      "new:t6b-6b-pulse-mq-nextactor"
+     ]
+    },
+    {
+     "text": "Each fintech processor invents its own dispute states, so one network vocabulary would travel across all of them.",
+     "ids": [
+      "new:t6b-6b-pt-lithic-status",
+      "new:t6b-6b-pt-unit-statuses",
+      "new:t6b-6b-visa-marq-states"
+     ]
+    },
+    {
+     "text": "Visa and Mastercard require the fraud report before the dispute, and Mastercard already files it from inside the claim.",
+     "ids": [
+      "new:t6b-6b-visa-fraud-report-first",
+      "new:t6b-6b-mc-fld-before-cb",
+      "new:t6b-6b-mc-fraud-item"
+     ]
+    },
+    {
+     "text": "The only public tool found that warns on the Reg E deadline is a processor portal.",
+     "ids": [
+      "new:t6b-6b-pt-mq-rege-warning",
+      "new:t6b-cfpb-rege"
+     ]
+    },
+    {
+     "text": "Discover's fraud reporting sits in a separate portal enrolled by signed forms, and its public merchant help describes a legacy interface.",
+     "ids": [
+      "new:t6b-6b-dgn-confirmed-fraud",
+      "new:t6b-6b-dgn-aim-signoff",
+      "new:t6b-6b-dgn-dsi-legacy"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Developer site",
+    "Brightline story"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Show whose move it is and the days left, on every case",
+    "Fold fraud reporting into the dispute",
+    "Put the partner's own legal clock beside the network clock",
+    "Let evidence be checked before it is final",
+    "One sign-in and self-serve enrolment for dispute and fraud tools"
+   ],
+   "relates_to": "new"
+  },
+  {
+   "rank": 10,
+   "title": "A conversion kit for issuers moving in",
+   "stage": "5",
+   "partner_types": [
+    "Converting issuers (portfolio conversions and reissues between networks)",
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "what": "Package conversion as a tracked plan covering pilot waves, the overlap window, account updater coverage, merchant and payroll notices, PIN changes and acceptance where cardholders travel. Show which major acquirers have loaded the new ranges before cards ship.",
+   "why_advantage": [
+    {
+     "text": "Capital One's move of about 25 million debit cards is the one large conversion with public detail, and it began with pilot populations in June 2025.",
+     "ids": [
+      "new:t5-pj-25m",
+      "new:t5-cof-pilot",
+      "dgn-055"
+     ]
+    },
+    {
+     "text": "Its friction landed on cardholders and merchants through new numbers, a 130-day overlap, instant-transfer gaps and travel acceptance warnings.",
+     "ids": [
+      "dgn-322",
+      "new:t5-stripe-130",
+      "dgn-299",
+      "dgn-275"
+     ]
+    },
+    {
+     "text": "Costco's single-day cutover produced 1.5 million service calls, while Walmart's phased move let old cards work until new ones were active.",
+     "ids": [
+      "new:t5-costco-calls",
+      "new:t5-costco-cutover",
+      "new:t5-walmart-phased"
+     ]
+    },
+    {
+     "text": "Visa Account Updater carries other networks' portfolios into Visa and, outside Latin America, carries none out.",
+     "ids": [
+      "new:t7-vau-faq-conversions",
+      "new:t7-vau-faq-lac"
+     ]
+    },
+    {
+     "text": "Every network sets a table-load deadline, and no public source shows a network telling issuers whether acceptance is ready.",
+     "ids": [
+      "new:t5-visa-r-ardef",
+      "new:t5-mc-8bin-6days",
+      "dgn-248"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Agent portal",
+    "Value proposition",
+    "Brightline story"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "A conversion kit built from the Capital One reissue",
+    "Conversion desk for issuers moving in",
+    "Range readiness before cards ship"
+   ],
+   "relates_to": "new"
+  },
+  {
+   "rank": 11,
+   "title": "A yield model and price a prospect can see",
+   "stage": "1",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers",
+    "Acquirers and processors",
+    "ATM operators",
+    "Issuers: large banks"
+   ],
+   "what": "Turn the Debit Advantage Analysis into a model a prospect runs on its own mix, with assumptions visible. Show a standard acquirer and ATM schedule before sign-up, with incentives on a separate line. Publishing US rates is a business decision.",
+   "why_advantage": [
+    {
+     "text": "No network publishes a self-serve way for a prospective issuer, acquirer or ATM operator to see its price.",
+     "ids": [
+      "visa-250",
+      "amex-038",
+      "dgn-063",
+      "mastercard-064"
+     ]
+    },
+    {
+     "text": "Visa publishes exempt debit rates and runs a public calculator, while every number a small issuer needs from PULSE arrives after a call.",
+     "ids": [
+      "visa-445",
+      "new:t1-s1-visa-direct-calc",
+      "new:t1-s1-pulse-advantage",
+      "pulse-034"
+     ]
+    },
+    {
+     "text": "Discover already publishes its Canadian standard acquirer schedule, and Interac and eftpos publish network fees.",
+     "ids": [
+      "dgn-065",
+      "interac-011",
+      "eftpos-014"
+     ]
+    },
+    {
+     "text": "Banks already buy due diligence from the ABA and advisers, and the study infers that a network supplying it first sets the terms of comparison.",
+     "ids": [
+      "new:t1-s1-aba-dd",
+      "new:t1-s1-cornerstone-bids",
+      "new:t1-s1-advantage-bench"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Value proposition",
+    "Clearway",
+    "Agent portal",
+    "Brightline story"
+   ],
+   "evidence_strength": "moderate",
+   "stage_move_titles": [
+    "A self-serve debit yield model",
+    "Price visible to a stranger",
+    "An evaluation pack per partner type",
+    "Publish the money rulebook"
+   ],
+   "relates_to": "d2-debit-positioning"
+  },
+  {
+   "rank": 12,
+   "title": "One front door and a join map with network commitments",
+   "stage": "2",
+   "partner_types": [
+    "Issuers: large banks (direct licensees)",
+    "Issuers: community banks and credit unions (sponsored or associate)",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators (independent deployers and bank fleets)",
+    "Fintechs and programme managers",
+    "Developers and technology service providers"
+   ],
+   "what": "Replace scattered forms and mailboxes with one intake that routes by partner type. Each path states who signs, whether a sponsor is needed, the documents asked for, the identifiers issued and who owns the next step. Show the network's committed response time on its own steps, with an escalation route.",
+   "why_advantage": [
+    {
+     "text": "Only Visa publishes the steps for a direct licence, and Discover routes every partner type to a contact form.",
+     "ids": [
+      "visa-004",
+      "visa-005",
+      "dgn-035",
+      "dgn-036"
+     ]
+    },
+    {
+     "text": "Most partners join through a sponsor, and sponsor staff track registrations as case work in Excel.",
+     "ids": [
+      "new:t2-s2-prth-sponsor",
+      "new:t2-s2-citizens-tools"
+     ]
+    },
+    {
+     "text": "Published service levels for joining are rare, with PULSE's five-day credential promise and Elo's reconsideration window as exceptions.",
+     "ids": [
+      "pulse-001",
+      "elo-019",
+      "mastercard-078"
+     ]
+    },
+    {
+     "text": "Visa says timing is the first question clients ask, and Mastercard pairs its service levels with escalation channels.",
+     "ids": [
+      "visa-427",
+      "mastercard-418"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Value proposition",
+    "Clearway",
+    "Developer site",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "One front door that names the next step",
+    "One join map per partner type",
+    "Service levels on the network's own steps",
+    "A sponsor console for third-party registration",
+    "Named roles captured once at joining",
+    "Publish the network's own service levels"
+   ],
+   "relates_to": "d6-timings-ruling"
+  },
+  {
+   "rank": 13,
+   "title": "One certification record with live results",
+   "stage": "3",
+   "partner_types": [
+    "Acquirers and acquirer processors",
+    "Processors, gateways and platforms certifying for many clients",
+    "Issuers: large banks",
+    "Payment facilitators and ISOs",
+    "Merchants connecting directly"
+   ],
+   "what": "Keep one project record per partner that partner and network staff both read, with an owner, state and sign-off on each step. Generate cases from the partner's stated configuration and show simulator results live. Store each certification letter with its tested configuration, and check before a change whether it needs retesting.",
+   "why_advantage": [
+    {
+     "text": "Amex's AMEX Enabled dashboard and UnionPay's project record show certification progress, while public sources show Visa and Mastercard tracking only access orders and admin tasks.",
+     "ids": [
+      "new:t3-s3-ae-journey",
+      "unionpay-038",
+      "unionpay-042",
+      "new:t3-s3-mcc-track"
+     ]
+    },
+    {
+     "text": "Discover's designated simulator already lets acquirers test at any time and see results immediately.",
+     "ids": [
+      "dgn-198",
+      "dgn-391"
+     ]
+    },
+    {
+     "text": "Mastercard's MDES asks for an Excel file by email, and Discover's certification forms come through an implementation manager.",
+     "ids": [
+      "new:t4-s4-mc-mdes-excel",
+      "new:t4-s4-uspf-dgn-forms"
+     ]
+    },
+    {
+     "text": "A vendor reports that failed certification windows are costly elsewhere, and retest triggers are a named friction.",
+     "ids": [
+      "new:t3-s3-neapay-window",
+      "new:t3-s3-eps-mult",
+      "new:t3-s3-uspf-portfolio"
+     ]
+    },
+    {
+     "text": "The earlier study classes a shared record as parity, so the study infers the advantage rests on the live results and portable letters it holds.",
+     "ids": [
+      "unionpay-040",
+      "visa-031",
+      "mastercard-075"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Developer site",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "One certification record with an owner on every step",
+    "Live simulator results with a committed review",
+    "A wallet of certification letters",
+    "A retest check before any change",
+    "Certification as a shared project record",
+    "One door for the Discover family"
+   ],
+   "relates_to": "i1"
+  },
+  {
+   "rank": 14,
+   "title": "Status and incident reports for the core network",
+   "stage": "6c",
+   "partner_types": [
+    "Issuers",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators",
+    "Fintechs and programme managers",
+    "Developers"
+   ],
+   "what": "Run a partner status view for authorisation, settlement, portals and APIs, with subscriptions. Declare an update rhythm during incidents and publish a post-incident report every partner can read. Publish one support map by partner type and problem, with hours and response commitments.",
+   "why_advantage": [
+    {
+     "text": "No public status page for core authorisation and settlement was found for any of the four networks.",
+     "ids": [
+      "mastercard-040",
+      "visa-376",
+      "mastercard-392",
+      "amex-371"
+     ]
+    },
+    {
+     "text": "An independent review found Visa's 2018 outage communications were not timely, regular or actionable, and the UK regulator now requires annual testing with participants.",
+     "ids": [
+      "new:t6c-psr-sd9-ey",
+      "new:t6c-psr-sd9-annual"
+     ]
+    },
+    {
+     "text": "Mastercard shares post-incident reports only through account managers.",
+     "ids": [
+      "new:t6c-mc-tam-pir"
+     ]
+    },
+    {
+     "text": "Discover and PULSE spread support across many mailboxes and business-hours desks, and no Discover status page was found.",
+     "ids": [
+      "dgn-153",
+      "dgn-146",
+      "pulse-047",
+      "dgn-017",
+      "dgn-w-dev"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Developer site",
+    "Clearway",
+    "Brightline story",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "Partner status for the core network",
+    "One support map with hours and clocks",
+    "Public status and webhook contracts",
+    "Contacts that stay current"
+   ],
+   "relates_to": "i6"
+  },
+  {
+   "rank": 15,
+   "title": "A written go-ahead and a shared launch view",
+   "stage": "5",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers",
+    "Acquirers and processors",
+    "Developers"
+   ],
+   "what": "Make go-live a single network-issued notice listing what was certified, the sample card or test result approved, the effective date and the first live transactions seen. After go-live, open a shared view of approvals, declines by reason and disputes with the named implementation lead.",
+   "why_advantage": [
+    {
+     "text": "Visa and Mastercard rules define no pilot and no single live moment.",
+     "ids": [
+      "new:t5-visa-r-nopilot",
+      "new:t5-mc-r-nopilot"
+     ]
+    },
+    {
+     "text": "Amex issues a written go-ahead before launch, and Mastercard Send asks partners to find their first transactions in reconciliation reports.",
+     "ids": [
+      "new:t5-amex-gns-notify",
+      "new:t5-mc-send-validate"
+     ]
+    },
+    {
+     "text": "Discover already promises launch support and monitoring and names an implementation project manager for Discover Debit.",
+     "ids": [
+      "new:t5-dgn-golive-launch",
+      "new:t5-dgn-dd-impl-pm"
+     ]
+    },
+    {
+     "text": "Visa's rule for day-31 new-merchant exception reports carries an end date of 17 April 2026, so a shared early view would fill a gap.",
+     "ids": [
+      "new:t5-visa-r-newmerchant-sunset"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Clearway",
+    "Brightline story",
+    "Agent portal"
+   ],
+   "evidence_strength": "strong",
+   "stage_move_titles": [
+    "A written go-ahead that says you are live",
+    "A shared first-weeks launch room"
+   ],
+   "relates_to": "new"
+  },
+  {
+   "rank": 16,
+   "title": "Arm the channel with merchant value",
+   "stage": "1",
+   "partner_types": [
+    "Payment facilitators and ISOs",
+    "Acquirers and processors",
+    "ATM operators",
+    "Merchants (direct touchpoints)"
+   ],
+   "what": "Give acquirers, ISOs and ATM processors a seller kit with merchant-level value evidence, dated peer proof and objection answers. Put mark rules, bulk signage ordering and post-launch deadlines in the same kit.",
+   "why_advantage": [
+    {
+     "text": "Amex gives OptBlue sales agents an objection guide and comparative spend data.",
+     "ids": [
+      "amex-302",
+      "new:t1-s1-amex-objections",
+      "new:t1-s1-amex-spend"
+     ]
+    },
+    {
+     "text": "Discover's pages give merchants reach claims and no figure for what network cardholders spend with them.",
+     "ids": [
+      "dgn-357",
+      "dgn-231"
+     ]
+    },
+    {
+     "text": "ISOs and payfacs can register on EASI for technical material, yet get no sales kit.",
+     "ids": [
+      "new:t1-s1-dgn-easi-types",
+      "dgn-231"
+     ]
+    },
+    {
+     "text": "PULSE's exclusive card access is its strongest ATM pitch, yet operators rarely see it because processors decide.",
+     "ids": [
+      "new:t1-s1-pulse-atm",
+      "new:t1-s1-nas-networks"
+     ]
+    },
+    {
+     "text": "Amex gives agents bulk signage ordering, while Discover's signage site needs a separate login.",
+     "ids": [
+      "amex-434",
+      "new:t5-dgn-signage-login"
+     ]
+    }
+   ],
+   "surfaces": [
+    "Value proposition",
+    "Brightline story",
+    "Clearway",
+    "Agent portal"
+   ],
+   "evidence_strength": "moderate",
+   "stage_move_titles": [
+    "Arm the channel that sells",
+    "Dated proof from peers",
+    "Marks and deadlines inside the launch checklist"
+   ],
+   "relates_to": "d8-merchant-value"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Signed-in screens of the incumbents' partner tools, such as Visa Access, VROL and VSS, Mastercard Connect and Mastercom, and the Amex Knowledge Base.",
+   "how_to_see_it": "Ask an acquirer or processor partner for a screen walk, and mine bank and processor guides, Visa University and Mastercard Academy course outlines and webinar captions."
+  },
+  {
+   "what": "The invoices, settlement reports and billing analytics screens partners actually receive from each network.",
+   "how_to_see_it": "Ask an ISO partner or NAC member for a redacted statement, and watch for the UK schemes' fee logic letters and Standard A fee guides due by July 2027."
+  },
+  {
+   "what": "Partner-facing incentive statements, business review decks and scorecards at any network.",
+   "how_to_see_it": "Watch Amex's 2021 Partner Analytics Center replay captions, and search court exhibits in United States v. Visa and credit union board minutes."
+  },
+  {
+   "what": "How large banks run network selections and what network sales teams present.",
+   "how_to_see_it": "Interview advisers such as Cornerstone or Engage fi and bank card executives, and read DOJ trial exhibits as they are filed."
+  },
+  {
+   "what": "Discover's own gated surfaces: the signed-in Developer Center, EASI Message Center and Document Library, the Disputes Portal, the host simulator and PULSE rules.",
+   "how_to_see_it": "Rich's team can review them internally through proper channels and compare them against this benchmark."
+  }
+ ]
+}

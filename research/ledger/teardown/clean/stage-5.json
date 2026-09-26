@@ -1,0 +1,3199 @@
+{
+ "stage": "5. Launch",
+ "summary": [
+  {
+   "text": "Amex is the only network whose public rules define a launch gate for issuers. A Beta Test of up to 60 days, a sample card check and a written go-ahead come first.",
+   "ids": [
+    "new:t5-amex-gns-beta",
+    "new:t5-amex-gns-beta60",
+    "new:t5-amex-gns-notify"
+   ]
+  },
+  {
+   "text": "Amex also commits to review windows at launch. Final advertising gets an answer in 7 to 10 business days and co-brand partners in 10 business days.",
+   "ids": [
+    "new:t5-amex-gns-adsla",
+    "new:t5-amex-gns-cobrand"
+   ]
+  },
+  {
+   "text": "Visa and Mastercard rules never use the word pilot. Their go-live is a string of approvals and table loads with no single moment that says a partner is live.",
+   "ids": [
+    "new:t5-visa-r-nopilot",
+    "new:t5-mc-r-nopilot"
+   ]
+  },
+  {
+   "text": "Mastercard's clearest live signal sits in product onboarding. Mastercard Send ends MTF testing with a TAN letter and asks partners to find their first transactions in reconciliation reports.",
+   "ids": [
+    "mastercard-081",
+    "new:t5-mc-send-validate"
+   ]
+  },
+  {
+   "text": "Card design approval is gated everywhere. Visa wants every design before production, Mastercard routes proofs from the manufacturer through CDAS, and both keep the standards behind a login.",
+   "ids": [
+    "new:t5-visa-r-design",
+    "new:t5-mc-r-cds",
+    "new:t5-mc-brand-cds"
+   ]
+  },
+  {
+   "text": "Going live for acquirers means loading the network's range tables fast. Visa gives 6 business days and Mastercard 6 calendar days, and Discover needs an NDA for its full table.",
+   "ids": [
+    "new:t5-visa-r-ardef",
+    "new:t5-mc-8bin-6days",
+    "dgn-248"
+   ]
+  },
+  {
+   "text": "Marks carry published deadlines after launch. PULSE gives issuers 9 and 24 months and ATMs 45 days, Mastercard gives debit issuers 9 and 36 months, and Visa gives ATMs 30 days.",
+   "ids": [
+    "new:t5-pulse-gsm-9m",
+    "new:t5-pulse-gsm-24m",
+    "new:t5-pulse-gsm-atm45",
+    "new:t5-mc-r-debit9",
+    "new:t5-mc-r-debit36",
+    "new:t5-visa-r-atm-marks"
+   ]
+  },
+  {
+   "text": "Capital One's move of about 25 million debit cards from Mastercard to Discover is the one large conversion with public detail. It began with pilot populations in June 2025.",
+   "ids": [
+    "new:t5-pj-25m",
+    "new:t5-cof-pilot",
+    "dgn-055"
+   ]
+  },
+  {
+   "text": "The conversion's friction landed on cardholders and merchants. New numbers, a 130-day overlap, instant-transfer gaps, travel acceptance warnings and higher debit interchange all appear in public notices.",
+   "ids": [
+    "dgn-322",
+    "new:t5-stripe-130",
+    "dgn-299",
+    "dgn-275",
+    "dgn-313"
+   ]
+  },
+  {
+   "text": "Costco's single-day cutover from Amex to Visa in 2016 produced 1.5 million service calls. Walmart's phased 2014 move let old cards work until new ones were active.",
+   "ids": [
+    "new:t5-costco-calls",
+    "new:t5-costco-cutover",
+    "new:t5-walmart-phased"
+   ]
+  },
+  {
+   "text": "Discover's strongest public launch pattern is human. Discover Debit names an implementation project manager for launch, and its API go-live ends in launch support and monitoring.",
+   "ids": [
+    "new:t5-dgn-dd-impl-pm",
+    "new:t5-dgn-golive-launch"
+   ]
+  },
+  {
+   "text": "Early transaction monitoring after launch is thin in public. Visa's rule for day-31 new-merchant exception reports carries an end date of 17 April 2026.",
+   "ids": [
+    "new:t5-visa-r-newmerchant-sunset"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Issuers: large banks",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "The issuer submits every card design, physical or digital, for Visa's written approval before production and again after any change.",
+       "ids": [
+        "new:t5-visa-r-design"
+       ]
+      },
+      {
+       "text": "In Europe the issuer self-certifies each design on a Card Design Member Self-Certification Form.",
+       "ids": [
+        "new:t5-visa-r-design-eu"
+       ]
+      },
+      {
+       "text": "Visa's training describes a four-step approval run through the Brand Management Approval System, which card vendors reach on Visa Online.",
+       "ids": [
+        "new:t5-visa-bmas-course"
+       ]
+      },
+      {
+       "text": "Restricted-use programmes need an approved Program Information Form and a unique account range before launch.",
+       "ids": [
+        "new:t5-visa-r-spi-prelaunch"
+       ]
+      },
+      {
+       "text": "Within 10 business days of a BIN going live, the issuer must load its contacts into the Client Directory on Visa Access.",
+       "ids": [
+        "new:t5-visa-r-directory"
+       ]
+      },
+      {
+       "text": "The issuer hands Visa its card art for wallets and token requestors, or Visa shows default art.",
+       "ids": [
+        "new:t5-visa-r-token-art"
+       ]
+      },
+      {
+       "text": "Regional implementation analysts project-manage new product launches and the twice-yearly release cycle.",
+       "ids": [
+        "visa-387"
+       ]
+      },
+      {
+       "text": "Visa's 10-K says client incentive estimates rest on forecasts of card issuance and card conversion.",
+       "ids": [
+        "new:t5-visa-10k-conversion"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Access (formerly Visa Online)",
+       "what_it_shows": "Gated client portal that hosts the Client Directory, BMAS and other launch tools, entered with a Business ID.",
+       "ids": [
+        "visa-378",
+        "visa-164"
+       ]
+      },
+      {
+       "name": "Client Portfolio Management Self-Service Tools",
+       "what_it_shows": "Program Request Management, the electronic Client Information Questionnaire and the Visa Client Support Application, used to manage profile and programme data.",
+       "ids": [
+        "new:t5-visa-r-cpm"
+       ]
+      },
+      {
+       "name": "Brand Management Approval System (BMAS)",
+       "what_it_shows": "Card design submission and approval cases. Screens were not seen because the public copy of the user guide sits behind a CAPTCHA.",
+       "ids": [
+        "new:t5-visa-bmas-course"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The rules name no pilot phase and no notice that a programme is live, so the issuer's own directory update is the nearest confirmation.",
+       "ids": [
+        "new:t5-visa-r-nopilot",
+        "new:t5-visa-r-directory"
+       ]
+      },
+      {
+       "text": "Visa says its design approval gives no legal protection, so issuers still run their own legal review in parallel.",
+       "ids": [
+        "new:t5-visa-r-design-nolegal"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Card rules live in the Card Design Standards, which sit on Mastercard Connect and are incorporated into the rules.",
+       "ids": [
+        "new:t5-mc-r-cds",
+        "new:t5-mc-brand-cds"
+       ]
+      },
+      {
+       "text": "Each co-brand, prepaid or virtual product was registered on a Special Issuer Registration Form in that guide. Prepaid now uses a registration tool on Mastercard Connect.",
+       "ids": [
+        "new:t5-mc-r-prepaid-reg"
+       ]
+      },
+      {
+       "text": "Mastercard asks issuers to put new programmes on unused account ranges of existing BINs before requesting new ones.",
+       "ids": [
+        "new:t5-mc-8bin-ranges"
+       ]
+      },
+      {
+       "text": "A new debit issuer has nine months to start issuing compliant cards and 36 months to bring the whole portfolio into line.",
+       "ids": [
+        "new:t5-mc-r-debit9",
+        "new:t5-mc-r-debit36"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect",
+       "what_it_shows": "Gated portal holding Card Design Standards, My Company Manager and registration applications.",
+       "ids": [
+        "new:t5-mc-r-cds",
+        "new:t5-mc-r-prepaid-reg"
+       ]
+      },
+      {
+       "name": "Mastercard Brand Center",
+       "what_it_shows": "Public logo artwork, branding requirements and decal ordering, which sends issuers to Connect for card artwork.",
+       "ids": [
+        "mastercard-334",
+        "new:t5-mc-brand-cds"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The rules contain no pilot or soft-launch concept.",
+       "ids": [
+        "new:t5-mc-r-nopilot"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Before launch Amex explains the specifications, certifies the issuer, assigns settlement parameters and number ranges and works with its marketing agency.",
+       "ids": [
+        "new:t5-amex-gns-assist",
+        "new:t5-amex-gns-mktassist"
+       ]
+      },
+      {
+       "text": "Issuers certify host messaging and each payment product with Amex teams, test simulators and custom test plans.",
+       "ids": [
+        "new:t5-amex-cert-issuer"
+       ]
+      },
+      {
+       "text": "Amex and the issuer run a Beta Test of up to 60 days before any sales for each card type or design change.",
+       "ids": [
+        "new:t5-amex-gns-beta",
+        "new:t5-amex-gns-beta60"
+       ]
+      },
+      {
+       "text": "After the Beta Test and a sample card check, Amex tells the issuer in writing that it may start selling.",
+       "ids": [
+        "new:t5-amex-gns-notify"
+       ]
+      },
+      {
+       "text": "The issuer should launch within 45 days of the Beta Test ending.",
+       "ids": [
+        "new:t5-amex-gns-launch45"
+       ]
+      },
+      {
+       "text": "Mass-media launch campaigns go to Amex 30 days ahead, and the final review comes back in 7 to 10 business days.",
+       "ids": [
+        "new:t5-amex-gns-30days",
+        "new:t5-amex-gns-adsla"
+       ]
+      },
+      {
+       "text": "Co-brand partners go to Amex at least 60 business days before launch, with an answer in 10 business days.",
+       "ids": [
+        "new:t5-amex-gns-cobrand"
+       ]
+      },
+      {
+       "text": "From launch the issuer files monthly Program Progress Reports within 15 days of month-end.",
+       "ids": [
+        "new:t5-amex-gns-ppr"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Gated library of Network Specifications, card design guidelines and the Issuer Personalization Certification Guide.",
+       "ids": [
+        "new:t5-amex-cert-issuer"
+       ]
+      },
+      {
+       "name": "FraudNet, Network Disputes Manager, Program Progress Report",
+       "what_it_shows": "Operational systems a partner's staff can open only after finishing training.",
+       "ids": [
+        "new:t5-amex-gns-training"
+       ]
+      },
+      {
+       "name": "Partner Learning",
+       "what_it_shows": "Webinars and six modules covering over fifty network policies.",
+       "ids": [
+        "new:t5-amex-learning"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Amex-led personalisation certification costs 15,000 dollars per certification, charged to the issuer.",
+       "ids": [
+        "new:t5-amex-gns-certfee"
+       ]
+      },
+      {
+       "text": "Every design change reopens the Beta Test, which slows card refreshes.",
+       "ids": [
+        "new:t5-amex-gns-beta"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Capital One is the one large issuer launched onto the network in public view, and it is the network's owner.",
+       "ids": [
+        "dgn-055",
+        "cross-120"
+       ]
+      },
+      {
+       "text": "Discover publishes no application steps, timelines or fees for new issuing partners.",
+       "ids": [
+        "dgn-036"
+       ]
+      },
+      {
+       "text": "Capital One lists limited third-party card issuance on its networks as a risk.",
+       "ids": [
+        "dgn-211"
+       ]
+      },
+      {
+       "text": "For Diners Club issuers, Discover promises extensive implementation support and turnkey marketing programmes.",
+       "ids": [
+        "new:t5-dgn-dci-impl"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Service Center login",
+       "what_it_shows": "One MFA login for fraud tools and client portals, with EASI and dispute portals listed alongside.",
+       "ids": [
+        "dgn-160"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No public document shows how Discover approves card designs for Discover or Diners Club issuers.",
+       "ids": [
+        "new:t5-dgn-cpv"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's written sequence of certification, a capped Beta Test, a sample card check and a go-ahead notice gives both sides one shared definition of launched.",
+    "ids": [
+     "new:t5-amex-gns-beta",
+     "new:t5-amex-gns-beta60",
+     "new:t5-amex-gns-notify",
+     "new:t5-amex-gns-launch45"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover shows no public issuer launch path beyond its owner's conversion. Third-party issuance is a stated risk and application steps are unpublished.",
+    "ids": [
+     "dgn-036",
+     "dgn-211",
+     "dgn-055"
+    ]
+   }
+  },
+  {
+   "partner_type": "Issuers: community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Associate clients hold their own licence and BIN but depend on a principal sponsor for settlement and reporting.",
+       "ids": [
+        "visa-003"
+       ]
+      },
+      {
+       "text": "Visa's community-issuer page sends banks and credit unions to a product enrolment portal on Visa Online.",
+       "ids": [
+        "visa-169"
+       ]
+      },
+      {
+       "text": "In practice the brand flip follows the processor. Liberty Bay moved to Visa because a new debit processor allowed it.",
+       "ids": [
+        "new:t5-lbcu-flip"
+       ]
+      },
+      {
+       "text": "Clearwater Credit Union reissued every debit card over six months and used Visa Account Updater for saved card details.",
+       "ids": [
+        "new:t5-clearwater-reissue",
+        "new:t5-clearwater-vau"
+       ]
+      },
+      {
+       "text": "Visa Account Updater enrolment is mandatory for most issuer BINs.",
+       "ids": [
+        "visa-085"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Product enrollment portal (secure.visaonline.com)",
+       "what_it_shows": "Enrolment for Visa products, reached after logging in to Visa Online.",
+       "ids": [
+        "visa-169"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Every card changes number, expiry, code and often PIN, and saved payments must be updated by hand where Account Updater does not reach.",
+       "ids": [
+        "new:t5-clearwater-reissue",
+        "new:t5-clearwater-vau"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A US affiliate can join through a Type I processor's ICAs and BINs, so the processor carries most launch work.",
+       "ids": [
+        "mastercard-060"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Connect Store and Prepaid Program Registration tool",
+       "what_it_shows": "Where products are ordered and prepaid programmes are registered.",
+       "ids": [
+        "mastercard-079",
+        "new:t5-mc-r-prepaid-reg"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A debit issuer must bring its whole portfolio into line with card standards within 36 months of first access.",
+       "ids": [
+        "new:t5-mc-r-debit36"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover Debit names a launch team: a marketing consultant, an account manager and an implementation project manager who sets processes and trains staff.",
+       "ids": [
+        "new:t5-dgn-dd-impl-pm",
+        "new:t5-dgn-dd-team"
+       ]
+      },
+      {
+       "text": "Every Discover Debit issuer gets the Marketing Hub for banners, social posts, emails and card art.",
+       "ids": [
+        "new:t5-dgn-dd-hub",
+        "new:t5-pulse-pss-cardart"
+       ]
+      },
+      {
+       "text": "PULSE issuers must issue compliant new cards within nine months of the first transaction and be fully compliant within 24 months.",
+       "ids": [
+        "new:t5-pulse-gsm-9m",
+        "new:t5-pulse-gsm-24m"
+       ]
+      },
+      {
+       "text": "Old PULSE marks may stay on cards until they expire or are reissued.",
+       "ids": [
+        "new:t5-pulse-gsm-legacy"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE Client Support page",
+       "what_it_shows": "Public mark files, the Graphic Standards Manual and separate issuer, processor and acquirer contacts.",
+       "ids": [
+        "pulse-043",
+        "new:t5-pulse-gsm-download"
+       ]
+      },
+      {
+       "name": "Marketing Hub (debitmarketinghub.com)",
+       "what_it_shows": "Customisable campaigns, card art and cardholder education for Discover Debit issuers.",
+       "ids": [
+        "new:t5-pulse-pss-cardart"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The PULSE Operating Rules are not public, so only the rule excerpts quoted in the graphic manual can be read.",
+       "ids": [
+        "pulse-017",
+        "new:t5-pulse-gsm-9m"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:NYCE",
+     "how_it_works": [
+      {
+       "text": "NYCE markets joining through the existing EFT processor with no card reissue.",
+       "ids": [
+        "nyce-019"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Discover Debit's named implementation project manager for launch is the clearest public promise of a person who carries a small issuer to go-live.",
+    "ids": [
+     "new:t5-dgn-dd-impl-pm"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover Debit and PULSE already publish a named launch team, a Marketing Hub with card art and public mark rules with deadlines.",
+    "ids": [
+     "new:t5-dgn-dd-impl-pm",
+     "new:t5-dgn-dd-hub",
+     "new:t5-pulse-gsm-9m"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "An acquirer that routes by Visa's Account Range table must install each new table within 6 business days.",
+       "ids": [
+        "new:t5-visa-r-ardef"
+       ]
+      },
+      {
+       "text": "A member files a regional client information questionnaire before using a VisaNet processor.",
+       "ids": [
+        "new:t5-visa-r-vnp-ciq"
+       ]
+      },
+      {
+       "text": "Chip acquirers report terminal test results through the Chip Compliance Reporting Tool on Visa Online.",
+       "ids": [
+        "new:t5-visa-chip-ccrt"
+       ]
+      },
+      {
+       "text": "Tap to Phone solutions and Visa Direct programmes each need Visa approval before launch.",
+       "ids": [
+        "new:t5-visa-r-ttp",
+        "new:t5-visa-r-vd-pif"
+       ]
+      },
+      {
+       "text": "Visa does not accept vendor self-testing for terminal approval and uses accredited labs.",
+       "ids": [
+        "visa-026"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Chip Compliance Reporting Tool (CCRT)",
+       "what_it_shows": "Submission and management of ADVT test results for deployed chip terminals.",
+       "ids": [
+        "new:t5-visa-chip-ccrt"
+       ]
+      },
+      {
+       "name": "Approval Services Portal",
+       "what_it_shows": "Chip product testing and approval, one of four sign-in portals on Visa Digital Partner Services.",
+       "ids": [
+        "visa-180"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Visa's new-merchant exception monitoring rule from day 31 carries an end date of 17 April 2026, leaving no prescriptive early-life check in the public rules.",
+       "ids": [
+        "new:t5-visa-r-newmerchant-sunset"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Acquirers and anyone holding BIN files for them must apply each Mastercard update within 6 calendar days.",
+       "ids": [
+        "new:t5-mc-8bin-6days"
+       ]
+      },
+      {
+       "text": "The Member Parameter Extract arrives by Global File Transfer with daily add, change and delete updates.",
+       "ids": [
+        "new:t5-mc-8bin-mpe"
+       ]
+      },
+      {
+       "text": "Host validation ends in a TAN letter, and enrolled acquirers can self-approve terminals or reuse another acquirer's approval.",
+       "ids": [
+        "mastercard-400",
+        "mastercard-407",
+        "mastercard-408"
+       ]
+      },
+      {
+       "text": "In the EEA and UK, routing tables must be filed at least five business days before going live.",
+       "ids": [
+        "mastercard-073"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Member Parameter Extract (MPE)",
+       "what_it_shows": "Daily BIN and account range table updates for issuers, acquirers and processors.",
+       "ids": [
+        "new:t5-mc-8bin-mpe"
+       ]
+      },
+      {
+       "name": "Testing Acknowledgement Notification (TAN) letter",
+       "what_it_shows": "Record of a completed validation session, used as the go-ahead for production.",
+       "ids": [
+        "mastercard-400"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Stale tables cause wrong routing and declines, and Mastercard puts the fix on the acquirer.",
+       "ids": [
+        "new:t5-mc-8bin-declines"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Acquirers must finish Amex certification before merchant acquiring, covering host and POS terminals.",
+       "ids": [
+        "new:t5-amex-gns-acqcert",
+        "new:t5-amex-cert-issuer"
+       ]
+      },
+      {
+       "text": "To certify a POS device, the acquirer sends a request form, interaction logs and receipts to its relationship manager and runs the cases it receives.",
+       "ids": [
+        "new:t5-amex-cert-pos"
+       ]
+      },
+      {
+       "text": "Each capability path on the certification page ends with the product being AMEX Enabled.",
+       "ids": [
+        "new:t5-amex-cert-enabled"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Knowledge Base",
+       "what_it_shows": "Network Specifications and implementation guides needed for host certification.",
+       "ids": [
+        "new:t5-amex-cert-issuer"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Test cases arrive from a relationship manager, so the path depends on one named contact.",
+       "ids": [
+        "new:t5-amex-cert-pos"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Acquirers register for the EASI portal to get specifications, test card kits and a Message Center to operations.",
+       "ids": [
+        "dgn-031"
+       ]
+      },
+      {
+       "text": "The EASI form asks the company type and the NDA signatory, then emails login credentials.",
+       "ids": [
+        "new:t5-dgn-easi-types",
+        "new:t5-dgn-easi-nda",
+        "new:t5-dgn-easi-cred"
+       ]
+      },
+      {
+       "text": "The public BIN file shows only start, end and length. The full table with product detail sits in EASI under NDA.",
+       "ids": [
+        "dgn-248"
+       ]
+      },
+      {
+       "text": "Accepting alliance cards and Discover Debit depends on the acquirer loading every Discover range.",
+       "ids": [
+        "dgn-189",
+        "new:t5-dgn-bin-debit"
+       ]
+      },
+      {
+       "text": "Discover's terminal letter of certification lists completed cases, tested interfaces and excluded cases, and accredited acquirers have self-certified since 2013.",
+       "ids": [
+        "dgn-197",
+        "dgn-202"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI Portal registration",
+       "what_it_shows": "Form fields for contact, company, company type from acquirer to payment facilitator, regions, business purpose and NDA signatory, with an image verification step.",
+       "ids": [
+        "new:t5-dgn-easi-types",
+        "new:t5-dgn-easi-nda"
+       ]
+      },
+      {
+       "name": "Discover host test simulator",
+       "what_it_shows": "Lets acquirers test at any time and see results immediately.",
+       "ids": [
+        "dgn-198"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Discover reviews host results within service levels agreed privately, so no public commitment exists.",
+       "ids": [
+        "dgn-199"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard pairs a firm table-update deadline with a named TAN letter and lets proven acquirers self-approve terminals.",
+    "ids": [
+     "new:t5-mc-8bin-6days",
+     "mastercard-400",
+     "mastercard-407"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover offers EASI, a live test simulator and self-certification, but range data needs an NDA and review service levels are private.",
+    "ids": [
+     "dgn-031",
+     "dgn-198",
+     "dgn-202",
+     "dgn-248",
+     "dgn-199"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "OptBlue sales agents get a public site with a Merchant Activation Guide, welcome kit and bulk signage ordering.",
+       "ids": [
+        "amex-302",
+        "amex-431"
+       ]
+      },
+      {
+       "text": "The activation guide tells agents to get new merchants to post Amex signage on door, register and website.",
+       "ids": [
+        "new:t5-amex-optblue-activation"
+       ]
+      },
+      {
+       "text": "Merchant Service Providers order signage in bulk on Marketing Corner.",
+       "ids": [
+        "amex-434"
+       ]
+      },
+      {
+       "text": "A processor tells Amex Direct merchants to expect processing 2 to 3 business days after sending their merchant ID.",
+       "ids": [
+        "new:t5-toast-amex-direct"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue Sales Agent site",
+       "what_it_shows": "Public PDFs for activation, objections, disputes and welcome kits, plus programme updates.",
+       "ids": [
+        "amex-431"
+       ]
+      },
+      {
+       "name": "Marketing Corner",
+       "what_it_shows": "Bulk point-of-purchase signage orders for providers serving many merchants.",
+       "ids": [
+        "amex-434"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Under OptBlue the acquirer, not Amex, services the merchant, so Amex sees launch only through the partner.",
+       "ids": [
+        "amex-438"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A payfac must register high-risk sponsored merchants on Mastercard Connect before they accept transactions.",
+       "ids": [
+        "new:t5-mc-r-specialty"
+       ]
+      },
+      {
+       "text": "Payfacs must monitor every sponsored merchant on an ongoing basis.",
+       "ids": [
+        "new:t5-mc-r-pf-monitor"
+       ]
+      },
+      {
+       "text": "Network Enablement Partner tiers include an Acceptance-Lite package for small payfacs with test ICAs and BINs.",
+       "ids": [
+        "mastercard-261"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Specialty Merchant Registration (My Company Performance)",
+       "what_it_shows": "Pre-launch registration of high-risk sponsored merchants.",
+       "ids": [
+        "new:t5-mc-r-specialty"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa's acquirer monitoring flags whole portfolios at 50 and 70 basis points of fraud and disputes.",
+       "ids": [
+        "visa-338"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Per-item fees began when VAMP enforcement started in October 2025.",
+       "ids": [
+        "visa-347"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Payfacs and ISOs register for EASI under their own company type.",
+       "ids": [
+        "new:t5-dgn-easi-types"
+       ]
+      },
+      {
+       "text": "An acquirer training video tells sales reps to send merchants to the Discover signage site.",
+       "ids": [
+        "dgn-v05"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Signage Site",
+       "what_it_shows": "Complimentary signage orders behind a login or registration.",
+       "ids": [
+        "new:t5-dgn-signage-login"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The public site offers merchants four resources and no agent hub like Amex's.",
+       "ids": [
+        "dgn-231"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's OptBlue agent site gives the sales channel a public launch kit with activation guide, welcome kit and bulk signage in one place.",
+    "ids": [
+     "amex-431",
+     "new:t5-amex-optblue-activation",
+     "amex-434"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover reaches payfacs and ISOs through EASI and a login-gated signage site. No public activation kit for sales agents was found.",
+    "ids": [
+     "new:t5-dgn-easi-types",
+     "new:t5-dgn-signage-login",
+     "dgn-231"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "ATM acquirers install the Visa Account Range table within 6 business days and the Plus table within 3.",
+       "ids": [
+        "new:t5-visa-r-plus-table"
+       ]
+      },
+      {
+       "text": "Visa and Plus marks must be on every ATM within 30 days of starting to accept the cards.",
+       "ids": [
+        "new:t5-visa-r-atm-marks"
+       ]
+      },
+      {
+       "text": "Issuers pass Visa certification before their cards work in the Global ATM Network.",
+       "ids": [
+        "new:t5-visa-r-atm-issuer"
+       ]
+      },
+      {
+       "text": "Independent deployers join as ISO-ATM agents registered by a Visa or Plus client.",
+       "ids": [
+        "visa-017"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard, Maestro and Cirrus marks must appear on every ATM that accepts them.",
+       "ids": [
+        "new:t5-mc-r-atm-marks"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE acquirers must put PULSE signage on or near each terminal within 45 days of it going live.",
+       "ids": [
+        "new:t5-pulse-gsm-atm45"
+       ]
+      },
+      {
+       "text": "PULSE pitches ATM acquirers exclusive Discover and Diners Club cards and a MoneyPass surcharge-free option.",
+       "ids": [
+        "pulse-013"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE Graphic Standards Manual",
+       "what_it_shows": "Public ATM and POS signage rules, quoting PULSE Operating Rules 4.13 and 8.1.7.",
+       "ids": [
+        "new:t5-pulse-gsm-atm45"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "other:independent ATM deployers",
+     "how_it_works": [
+      {
+       "text": "A bank guide for new ATM operators puts network access in the processor's hands.",
+       "ids": [
+        "new:t5-herring-atm"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Inference: an independent operator reaches networks only through its processor and sponsor, so the network sees little of its launch.",
+       "ids": [
+        "new:t5-herring-atm",
+        "visa-017"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa and PULSE state go-live deadlines for ATM marks and tables in public rules, which lets operators plan their first 30 to 45 days.",
+    "ids": [
+     "new:t5-visa-r-atm-marks",
+     "new:t5-visa-r-plus-table",
+     "new:t5-pulse-gsm-atm45"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE publishes ATM signage rules and a 45-day deadline but no public participation steps for ATM acquirers.",
+    "ids": [
+     "new:t5-pulse-gsm-atm45",
+     "pulse-013"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Non-bank and crypto issuers file a Core Product Program Information Form and need Visa's written approval before issuing.",
+       "ids": [
+        "visa-020"
+       ]
+      },
+      {
+       "text": "Fintech Fast Track screens entrants on funding and card experience.",
+       "ids": [
+        "visa-018"
+       ]
+      },
+      {
+       "text": "Visa Ready certified partners are offered an integration manager and pilot testing frameworks.",
+       "ids": [
+        "visa-369"
+       ]
+      },
+      {
+       "text": "Visa Agentic Ready tests agent transactions in controlled production before wider release.",
+       "ids": [
+        "visa-409"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Partner",
+       "what_it_shows": "Programme applications including the Core Product PIF.",
+       "ids": [
+        "visa-020"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Platform guides quote 1 to 3 weeks for design approval and 8 to 10 weeks of card production.",
+       "ids": [
+        "new:t5-synctera-design",
+        "new:t5-unit-production"
+       ]
+      },
+      {
+       "text": "Platforms add the sponsor bank's approval of all card art and a proof sign-off as launch steps.",
+       "ids": [
+        "new:t5-sofi-bank-approve",
+        "new:t5-synctera-checklist"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Product Express is a digital onboarding platform with pre-certified partners, sold through BIN sponsorship.",
+       "ids": [
+        "mastercard-274",
+        "mastercard-275"
+       ]
+      },
+      {
+       "text": "Since May 2025 a principal needs Mastercard approval before acting as BIN sponsor for a programme manager.",
+       "ids": [
+        "mastercard-051"
+       ]
+      },
+      {
+       "text": "Processors carry each network release for their fintech clients.",
+       "ids": [
+        "mastercard-265"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Product Express portal",
+       "what_it_shows": "Packaged plans and pre-certified partners for launch.",
+       "ids": [
+        "mastercard-274"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A launch press release naming the network needs the network's pre-approval.",
+       "ids": [
+        "new:t5-lithic-press"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Amex fintech cards launch through programme managers and partner banks, as with Hypercard and Coinbase.",
+       "ids": [
+        "amex-085",
+        "amex-098",
+        "amex-099"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover assembles BIN sponsors, processors and programme managers and publishes no steps or timeline.",
+       "ids": [
+        "dgn-133"
+       ]
+      },
+      {
+       "text": "Diners Club launches such as flykk and Nium are announced on Club Connections.",
+       "ids": [
+        "new:t5-diners-flykk-date",
+        "diners-045"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "One issuing platform's card design docs cover only Visa and Mastercard.",
+       "ids": [
+        "dgn-268"
+       ]
+      },
+      {
+       "text": "The flykk release is datelined 14 January 2025, so the listing's relative dates mislead readers about recency.",
+       "ids": [
+        "new:t5-diners-flykk-date",
+        "diners-011"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa Ready offers certified partners pilot testing frameworks and an integration manager, a named bridge from build to launch.",
+    "ids": [
+     "visa-369"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's fintech route runs through sponsors with no published launch steps, and platform card-design docs often omit Discover.",
+    "ids": [
+     "dgn-133",
+     "dgn-268"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Certification and production credentials need a signed contract and a separate CSR for each environment.",
+       "ids": [
+        "visa-201",
+        "visa-132"
+       ]
+      },
+      {
+       "text": "The Onboarding Dashboard collects entity, project, environment and credential details.",
+       "ids": [
+        "visa-150"
+       ]
+      },
+      {
+       "text": "Visa says some projects reach production in two weeks and others take months.",
+       "ids": [
+        "visa-151"
+       ]
+      },
+      {
+       "text": "Certificate expiry emails go out only for certification and production projects.",
+       "ids": [
+        "visa-203"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Onboarding Dashboard",
+       "what_it_shows": "In-project steps for entity, contact, project, environment request, API registration, users and credentials.",
+       "ids": [
+        "visa-150"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Production credentials are issued at once but stay inactive until Mastercard approves.",
+       "ids": [
+        "mastercard-005"
+       ]
+      },
+      {
+       "text": "Mastercom publishes onboarding service levels, including production key approval in 3 business days.",
+       "ids": [
+        "mastercard-322"
+       ]
+      },
+      {
+       "text": "Send assigns a Delivery Manager and a CIS Implementation Manager, and ends MTF with a TAN letter.",
+       "ids": [
+        "new:t5-mc-send-assign",
+        "mastercard-081"
+       ]
+      },
+      {
+       "text": "Partners confirm go-live by finding production transactions in reconciliation reports and the Customer Portal.",
+       "ids": [
+        "new:t5-mc-send-validate"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "API status page",
+       "what_it_shows": "Per-service health for Sandbox and Production, refreshed about once a minute.",
+       "ids": [
+        "mastercard-040"
+       ]
+      },
+      {
+       "name": "Send Customer Portal",
+       "what_it_shows": "Where partners check their first production transactions.",
+       "ids": [
+        "new:t5-mc-send-validate"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Delivery Manager monitors the project, so escalation depends on one person.",
+       "ids": [
+        "new:t5-mc-send-monitor"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Going Live with Discover runs certification boarding, API development, certification, production boarding and end-to-end testing.",
+       "ids": [
+        "dgn-310"
+       ]
+      },
+      {
+       "text": "The last step is Provisioning and Launch, where Discover provides support and monitoring.",
+       "ids": [
+        "new:t5-dgn-golive-launch"
+       ]
+      },
+      {
+       "text": "Test cases come from Discover during certification boarding.",
+       "ids": [
+        "dgn-021"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Partner Product Portal: Going Live with Discover",
+       "what_it_shows": "Phase table with client and Discover roles, and a sample timeline without durations.",
+       "ids": [
+        "dgn-310"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Developer accounts are by invitation from a Discover representative.",
+       "ids": [
+        "dgn-034"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard Send tells partners how to prove they are live, by checking first transactions in reports and the portal.",
+    "ids": [
+     "new:t5-mc-send-validate"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover's go-live table already names a launch phase with Discover support and monitoring, but access is by invitation.",
+    "ids": [
+     "new:t5-dgn-golive-launch",
+     "dgn-034"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants (acceptance marks and signage)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Merchants must show Visa marks at every point of sale, including websites and apps.",
+       "ids": [
+        "new:t5-visa-r-merchant-marks"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Signage follows standards posted on the Brand Center, where decals are ordered.",
+       "ids": [
+        "new:t5-mc-r-signage",
+        "new:t5-mc-brand-decal",
+        "mastercard-334"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Mastercard Brand Center",
+       "what_it_shows": "Public artwork, branding requirements and an Order Decals route.",
+       "ids": [
+        "mastercard-334"
+       ]
+      }
+     ],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Network acquirers must make every merchant show at least one Amex decal on parity with other networks.",
+       "ids": [
+        "new:t5-amex-gns-decal"
+       ]
+      },
+      {
+       "text": "OptBlue merchants are pointed to free Amex signage.",
+       "ids": [
+        "new:t5-amex-optblue-activation",
+        "amex-438"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover offers free in-store signage and downloadable acceptance marks.",
+       "ids": [
+        "new:t5-dgn-signage",
+        "dgn-230"
+       ]
+      },
+      {
+       "text": "Ordering happens on a separate signage site that needs a login or registration.",
+       "ids": [
+        "new:t5-dgn-signage-login"
+       ]
+      },
+      {
+       "text": "Converted Capital One cardholders are told to look for Discover, PULSE or Diners Club logos.",
+       "ids": [
+        "new:t5-cof-logos"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "discoversignage.com",
+       "what_it_shows": "Login and registration, then complimentary signage ordering.",
+       "ids": [
+        "new:t5-dgn-signage-login"
+       ]
+      }
+     ],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex and Mastercard pair a mark rule with a free ordering route that the acquirer channel can use in bulk.",
+    "ids": [
+     "new:t5-amex-gns-decal",
+     "amex-434",
+     "new:t5-mc-brand-decal"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover offers free signage and marks, and asks merchants to register on a separate site to order.",
+    "ids": [
+     "new:t5-dgn-signage",
+     "new:t5-dgn-signage-login"
+    ]
+   }
+  },
+  {
+   "partner_type": "Converting issuers (portfolio conversions and reissues between networks)",
+   "networks": [
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Capital One told regulators it would move all debit and a meaningful share of credit to its networks by 2027.",
+       "ids": [
+        "cross-117",
+        "cross-108"
+       ]
+      },
+      {
+       "text": "Reissue began with pilot populations in June 2025 and ran in phases into early 2026.",
+       "ids": [
+        "new:t5-cof-pilot"
+       ]
+      },
+      {
+       "text": "Cards went out account by account. Account number and PIN stayed the same, while card number, code and expiry changed.",
+       "ids": [
+        "new:t5-cof-waves",
+        "new:t5-cof-keep",
+        "dgn-322"
+       ]
+      },
+      {
+       "text": "Activating the new card turned off the old one, and old cards kept working for 130 days if not activated.",
+       "ids": [
+        "new:t5-cof-cutover",
+        "new:t5-stripe-130"
+       ]
+      },
+      {
+       "text": "By February 2026 the reissue was substantially complete, and trade press counted about 25 million cards.",
+       "ids": [
+        "dgn-055",
+        "new:t5-pj-25m"
+       ]
+      },
+      {
+       "text": "Stripe told merchants the debit migration would finish in 2026.",
+       "ids": [
+        "new:t5-stripe-2026"
+       ]
+      },
+      {
+       "text": "Credit is next. Capital One is testing conversions and planned waves in July, October and January.",
+       "ids": [
+        "dgn-249",
+        "new:t5-pj-waves"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Capital One 'My debit card' page",
+       "what_it_shows": "Cardholder view of the switch: new card, activation, recurring payments, network changes and FAQs.",
+       "ids": [
+        "new:t5-cof-switch"
+       ]
+      },
+      {
+       "name": "Stripe service notice",
+       "what_it_shows": "Merchant view: account updater fees, higher interchange, 130-day overlap and country coverage.",
+       "ids": [
+        "new:t5-stripe-130",
+        "new:t5-stripe-cau"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Mastercard network benefits ended on activation, and some payroll and earned-wage providers dropped instant transfers.",
+       "ids": [
+        "new:t5-cof-benefits",
+        "dgn-299",
+        "dgn-300"
+       ]
+      },
+      {
+       "text": "Travellers were told to plan for acceptance and cash abroad, and Stripe warned of declines outside Discover coverage.",
+       "ids": [
+        "dgn-275",
+        "dgn-262"
+       ]
+      },
+      {
+       "text": "Merchants saw new Discover BINs with Discover as issuer and uncapped debit rates they cannot avoid.",
+       "ids": [
+        "dgn-317",
+        "dgn-313",
+        "dgn-316"
+       ]
+      },
+      {
+       "text": "Venture X and several co-brands stayed on Visa, so one bank now runs two networks for its customers.",
+       "ids": [
+        "new:t5-pj-visa-stay"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Costco's Amex cards stopped for new purchases on one day in June 2016 when Citi's Visa cards replaced them.",
+       "ids": [
+        "new:t5-costco-cutover"
+       ]
+      },
+      {
+       "text": "Credit union flips to Visa follow processor changes and use Visa Account Updater.",
+       "ids": [
+        "new:t5-lbcu-flip",
+        "new:t5-clearwater-vau"
+       ]
+      },
+      {
+       "text": "Visa prices conversion into client incentives.",
+       "ids": [
+        "new:t5-visa-10k-conversion"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Citi logged over 1.5 million calls about cards not arriving, activation and online access.",
+       "ids": [
+        "new:t5-costco-calls"
+       ]
+      },
+      {
+       "text": "DOJ alleges reissue cost keeps issuers from switching. This is an allegation.",
+       "ids": [
+        "new:t5-doj-switching"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Walmart's 2014 move from Discover to Mastercard ran in phases, with old cards working until new ones were active.",
+       "ids": [
+        "new:t5-walmart-phased"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "A new debit portfolio has 36 months to meet card standards, which sets the pace of a reissue.",
+       "ids": [
+        "new:t5-mc-r-debit36"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:issuer processors and token vendors",
+     "how_it_works": [
+      {
+       "text": "Processors sell migration as a service covering regulation, network engagement, inventory and cardholder communication.",
+       "ids": [
+        "new:t5-marqeta-mig"
+       ]
+      },
+      {
+       "text": "Token vendors pitch keeping stored credentials alive when network identifiers change.",
+       "ids": [
+        "new:t5-vgs-reissue"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Reissuing a whole BIN range at once breaks stored credentials.",
+       "ids": [
+        "new:t5-pbrief-bin"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "A phased reissue with pilot groups and an overlap window, as Walmart and Capital One ran, avoids the one-day cutover that swamped Citi.",
+    "ids": [
+     "new:t5-walmart-phased",
+     "new:t5-cof-pilot",
+     "new:t5-stripe-130",
+     "new:t5-costco-calls"
+    ]
+   },
+   "discover_today": {
+    "text": "Discover has just absorbed the largest recent debit conversion. Its public record shows cardholder and merchant notices but no network-side conversion kit for other issuers.",
+    "ids": [
+     "dgn-055",
+     "new:t5-cof-switch",
+     "new:t5-stripe-130"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "A written go-ahead that says you are live",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers",
+    "Acquirers and processors"
+   ],
+   "move": "Make go-live a single network-issued notice. It lists what was certified, the sample card or test result approved, the effective date and the first live transactions seen.",
+   "why_advantage": "Visa and Mastercard rules define no pilot and no live moment. Amex's go-ahead notice and Mastercard's TAN letter show partners value a formal artefact.",
+   "ids": [
+    "new:t5-amex-gns-notify",
+    "mastercard-400",
+    "new:t5-visa-r-nopilot",
+    "new:t5-mc-r-nopilot",
+    "unionpay-021"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "A shared first-weeks launch room",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "Developers"
+   ],
+   "move": "Open a launch view for the first weeks after go-live. It shows approval rates, declines by reason, disputes and the named implementation lead, then hands over to account management.",
+   "why_advantage": "Discover already promises launch monitoring and a named implementation manager. Visa's prescriptive new-merchant checks are ending, so a shared early view fills a gap.",
+   "ids": [
+    "new:t5-dgn-golive-launch",
+    "new:t5-dgn-dd-impl-pm",
+    "new:t5-visa-r-newmerchant-sunset",
+    "new:t5-mc-send-validate"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "A conversion kit built from the Capital One reissue",
+   "partner_types": [
+    "Converting issuers (portfolio conversions and reissues between networks)",
+    "Issuers: community banks and credit unions",
+    "Issuers: large banks"
+   ],
+   "move": "Package conversion as a product. Plan pilot waves, set the overlap window, push account updater, warn merchants and payroll providers, and show acceptance where cardholders travel.",
+   "why_advantage": "Discover is the only network that has just run a large public conversion. The known pain points map to steps a kit can pre-empt.",
+   "ids": [
+    "new:t5-cof-pilot",
+    "new:t5-stripe-130",
+    "new:t5-stripe-cau",
+    "dgn-299",
+    "dgn-275",
+    "new:t5-costco-calls",
+    "new:t5-walmart-phased"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Card art once, used everywhere",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Take one card art submission that drives design approval, wallet and token art and Marketing Hub collateral, with status visible to the issuer, processor and card vendor.",
+   "why_advantage": "Visa and Mastercard route design approval through vendors and gated systems. Token art is a separate duty and wallet updates take days to spread.",
+   "ids": [
+    "new:t5-visa-r-design",
+    "new:t5-visa-r-token-art",
+    "new:t5-sofi-token-art",
+    "new:t5-pulse-pss-cardart"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Range readiness before cards ship",
+   "partner_types": [
+    "Acquirers and processors",
+    "Converting issuers (portfolio conversions and reissues between networks)"
+   ],
+   "move": "Publish new BIN ranges with effective dates and show issuers which major acquirers have loaded them before cards go out.",
+   "why_advantage": "Every network sets a table-load deadline. No public source shows a network telling issuers whether acceptance is ready, and Discover's full table needs an NDA.",
+   "ids": [
+    "new:t5-visa-r-ardef",
+    "new:t5-mc-8bin-6days",
+    "dgn-189",
+    "dgn-248",
+    "dgn-317"
+   ],
+   "evidence_strength": "thin"
+  },
+  {
+   "title": "Marks and deadlines inside the launch checklist",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "ATM operators",
+    "Merchants (acceptance marks and signage)",
+    "Payment facilitators and ISOs"
+   ],
+   "move": "Put mark rules, downloads, signage ordering and the post-launch deadlines into the partner's launch checklist, with bulk ordering for acquirers and agents.",
+   "why_advantage": "PULSE already publishes its manual and deadlines openly. Amex gives agents bulk signage, while Discover's signage site needs a separate login.",
+   "ids": [
+    "new:t5-pulse-gsm-9m",
+    "new:t5-pulse-gsm-atm45",
+    "amex-434",
+    "new:t5-dgn-signage-login",
+    "new:t5-visa-r-atm-marks"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Show committed review service levels",
+   "partner_types": [
+    "Issuers: large banks",
+    "Fintechs and programme managers",
+    "Acquirers and processors"
+   ],
+   "move": "Where the network commits to a review time, show it on the task, for example card art, marketing or co-brand review. Leave estimates out.",
+   "why_advantage": "Amex writes review windows into its policies and Mastercom publishes key approval times. Discover's host review service levels exist but are private.",
+   "ids": [
+    "new:t5-amex-gns-adsla",
+    "new:t5-amex-gns-cobrand",
+    "mastercard-322",
+    "dgn-199"
+   ],
+   "evidence_strength": "moderate"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Visa BMAS screens for card design submission and approval",
+   "why": "The only public user guide copy found sits on Slideshare behind a CAPTCHA, which this study does not bypass.",
+   "how_to_see_it": "Ask a card vendor or issuer partner for a screen walk, or find a card bureau's published BMAS guide."
+  },
+  {
+   "what": "Mastercard Card Design Standards and current CDAS workflow",
+   "why": "Both sit on Mastercard Connect, and the only public description is a 2011 guide.",
+   "how_to_see_it": "Review an issuer or card bureau's copy under NDA, or a recent Mastercard issuer welcome kit."
+  },
+  {
+   "what": "How Discover and Diners Club approve issuer card designs",
+   "why": "No public document describes it. Only card vendor compliance rules are public.",
+   "how_to_see_it": "Ask the Discover issuing team for the internal card design approval steps and turnaround."
+  },
+  {
+   "what": "Network-side early monitoring of newly launched issuers and acquirers",
+   "why": "No network publishes a first-weeks monitoring view, and Visa's new-merchant rules are sunsetting.",
+   "how_to_see_it": "Interview implementation and account managers at processors about what they watch after go-live."
+  },
+  {
+   "what": "Merchant and acquirer communications Discover sent during the Capital One debit move",
+   "why": "Only processor and consultancy notices are public, not Discover's own bulletins.",
+   "how_to_see_it": "Look for acquirer bulletins in the EASI Message Center or ask acquirer partners."
+  },
+  {
+   "what": "Visa merchant signage ordering",
+   "why": "No public Visa signage order site was located, and the web search budget ran out before a wider search.",
+   "how_to_see_it": "Search Visa merchant resources pages or ask an acquirer how its merchants get Visa decals."
+  },
+  {
+   "what": "ATM operator go-live with each network",
+   "why": "Independent operators launch through processors and sponsors, and networks publish no operator path.",
+   "how_to_see_it": "Interview an ATM processor about network set-up steps, terminal IDs and signage deadlines."
+  },
+  {
+   "what": "PULSE Operating Rules in full",
+   "why": "Only the rule excerpts quoted in the Graphic Standards Manual are public.",
+   "how_to_see_it": "Request the rules from PULSE or read them through a participating issuer."
+  },
+  {
+   "what": "Mastercard Connect implementation tracking screens",
+   "why": "Customer Implementation Services and Delivery Manager tools are gated.",
+   "how_to_see_it": "Look for processor or bank training material that shows implementation status screens."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t5-visa-r-design",
+   "network": "visa",
+   "claim": "Visa requires prior written approval of every card design, physical or digital, before production and again whenever the design changes.",
+   "quote": "These must be submitted to Visa before production and each time the design is changed.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-design-eu",
+   "network": "visa",
+   "claim": "In Europe a Visa issuer instead files a Card Design Member Self-Certification Form for the product.",
+   "quote": "An Issuer must submit a completed Card Design Member Self-Certification Form",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-design-nolegal",
+   "network": "visa",
+   "claim": "Visa states that its approval of a card design gives the member no legal protection and does not replace its own counsel.",
+   "quote": "Visa review or approval of a Card design or brand or marketing-related materials does not:",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-token-art",
+   "network": "visa",
+   "claim": "Issuers must give Visa their card artwork for token requestors and wallets, and Visa substitutes default artwork if they do not.",
+   "quote": "Where an Issuer does not supply its Card artwork, Visa will provide default Card artwork to all of the above entities.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-directory",
+   "network": "visa",
+   "claim": "A member must load its service contacts into the Client Directory on Visa Access within 10 business days of a BIN going live.",
+   "quote": "All directory data: Within 10 business days of a BIN or an Acquiring Identifier implementation",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-cpm",
+   "network": "visa",
+   "claim": "Visa's Client Portfolio Management Self-Service Tools on Visa Access comprise Program Request Management, the electronic Client Information Questionnaire and the Visa Client Support Application.",
+   "quote": "providing the ability to manage and support Visa profile information and associated programs",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-ardef",
+   "network": "visa",
+   "claim": "An acquirer that routes by Visa's Account Range table must install each new table within 6 business days of receipt.",
+   "quote": "must install and use the table within 6 business days of receipt.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-plus-table",
+   "network": "visa",
+   "claim": "An ATM acquirer that does not route all Plus cards to Visa must install the Plus Account Range table within 3 business days.",
+   "quote": "Install and use the Plus Account Range table within 3 business days of its receipt from Visa",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-atm-issuer",
+   "network": "visa",
+   "claim": "An issuer must pass Visa certification before its cards work in the Visa Global ATM Network.",
+   "quote": "To participate in the Visa Global ATM Network, an Issuer must successfully complete certification with Visa.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-atm-marks",
+   "network": "visa",
+   "claim": "A Visa ATM acquirer must put Visa and Plus marks on all its ATMs within 30 days of starting to accept the cards.",
+   "quote": "Display Visa ATM and Plus acceptance Marks on all ATMs within 30 days from the date the Acquirer begins accepting Visa Cards",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-merchant-marks",
+   "network": "visa",
+   "claim": "Merchants must display Visa marks at every point of sale, including websites and apps, as the Visa Product Brand Standards specify.",
+   "quote": "A Merchant must display and use the Visa-Owned Marks at the POS (physical location, Acceptance Device, website, application)",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-spi-prelaunch",
+   "network": "visa",
+   "claim": "Restricted-use card programmes need Visa approval before launch through a Program Information Form, on a unique account range.",
+   "quote": "Ensure that any new program is approved by Visa prior to launch",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-ttp",
+   "network": "visa",
+   "claim": "An acquirer deploying Tap to Phone must register the solution with Visa and get approval before launch.",
+   "quote": "Register a Tap to Phone Solution with Visa and obtain approval before launch",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-vd-pif",
+   "network": "visa",
+   "claim": "Any new or amended Visa Direct programme needs an approved Program Information Form before launch.",
+   "quote": "An Acquirer must submit to Visa a Program Information Form (PIF) for approval prior to launch of any amended or new Visa Direct program.",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-vnp-ciq",
+   "network": "visa",
+   "claim": "A member must file a regional client information questionnaire before using a VisaNet processor.",
+   "quote": "must submit to Visa the applicable regional client information questionnaire before using the VisaNet Processor",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-newmerchant-sunset",
+   "network": "visa",
+   "claim": "Visa's US rule starting new-merchant exception monitoring on day 31 after first deposit carries an end date of 17 April 2026.",
+   "quote": "Effective through 17 April 2026 In the US Region: Beginning with Merchant Outlet Deposit activity processed on the 31st calendar day from the first Deposit",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-r-nopilot",
+   "network": "visa",
+   "claim": "A text search of the April 2026 Visa rules finds no use of the word pilot, so no general pilot or soft-launch gate is written into the public rules.",
+   "quote": "Visa Core Rules and Visa Product and Service Rules",
+   "url": "https://usa.visa.com/dam/VCOM/download/about-visa/visa-rules-public.pdf",
+   "title": "Visa Core Rules and Visa Product and Service Rules (18 April 2026)",
+   "publisher": "Visa Inc.",
+   "published": "2026-04-18",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26. Observation: case-insensitive count of 'pilot' in the extracted text is 0"
+  },
+  {
+   "key": "t5-visa-bmas-course",
+   "network": "visa",
+   "claim": "Visa's own training describes card design approval as a four-step process run through the Brand Management Approval System.",
+   "quote": "getting your card design approved from working with the Brand Management Approval System (BMAS) to finalizing card design",
+   "url": "https://web.archive.org/web/20191024054329/https://www.visabusinessschool.com/en/course/fd983ef4-bbbb-4465-a341-87c8c91f5906",
+   "title": "Payment Device Design Approval (Visa Business School course page)",
+   "publisher": "Visa Business School",
+   "published": "2019 (Wayback capture 2019-10-24)",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture via curl, read 2026-09-26 (live page reset the connection)"
+  },
+  {
+   "key": "t5-visa-10k-conversion",
+   "network": "visa",
+   "claim": "Visa's FY2025 10-K says its client incentive estimates rest on forecasts of card issuance and card conversion.",
+   "quote": "Estimation of client incentives relies on forecasts of payments and transaction volume, card issuance and card conversion.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+   "title": "Visa Inc. Form 10-K for fiscal year ended 30 September 2025",
+   "publisher": "Visa Inc. via SEC EDGAR",
+   "published": "2025-11",
+   "label": "Verified",
+   "fetch": "curl of SEC EDGAR with a generic research user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-visa-chip-ccrt",
+   "network": "visa",
+   "claim": "Visa's Chip Compliance Reporting Tool is where chip acquirers report their terminal test results.",
+   "quote": "Chip Compliance Report Tool (CCRT) is a Visa web-based tool that enables chip acquirers to streamline the reporting of",
+   "url": "https://usa.visa.com/dam/VCOM/regional/na/us/partner-with-us/documents/building-chip-card-payment-acceptance-in-us.pdf",
+   "title": "Building Chip Card Payment Acceptance in the U.S.",
+   "publisher": "Visa Inc.",
+   "published": "c. 2017",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-r-cds",
+   "network": "mastercard",
+   "claim": "Mastercard's rules incorporate the Card Design Standards, which are published only on Mastercard Connect.",
+   "quote": "are set forth in the Card Design Standards, available on Mastercard Connect®, which are incorporated into these Rules by reference.",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-debit9",
+   "network": "mastercard",
+   "claim": "An issuer whose debit cards gain Mastercard network access must start issuing compliant Maestro or Cirrus cards within nine months.",
+   "quote": "must begin issuing debit cards in compliance with the Standards for Maestro and/or Cirrus Cards, as applicable, no later than nine months after",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-debit36",
+   "network": "mastercard",
+   "claim": "The whole debit portfolio must comply with Mastercard's card standards within 36 months of first network access.",
+   "quote": "The Portfolios must be in full compliance with the Standards no later than 36 months after the date",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-atm-marks",
+   "network": "mastercard",
+   "claim": "Mastercard requires its Mastercard, Maestro and Cirrus marks on every ATM terminal that accepts them.",
+   "quote": "The Mastercard, Maestro, and Cirrus Marks must be displayed on an ATM Terminal.",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-signage",
+   "network": "mastercard",
+   "claim": "Mastercard ties merchant signage to standards posted on the Mastercard Brand Center.",
+   "quote": "The Marks must be displayed as set forth in the Standards, including those posted on the Mastercard Brand Center.",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-prepaid-reg",
+   "network": "mastercard",
+   "claim": "Prepaid programmes are registered in a Prepaid Program Registration tool on Mastercard Connect.",
+   "quote": "Identify the Prepaid Card Program as nonreloadable when using the Prepaid Program Registration tool on Mastercard Connect",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-specialty",
+   "network": "mastercard",
+   "claim": "A payment facilitator's high-risk sponsored merchants must be registered on Mastercard Connect before they accept transactions.",
+   "quote": "must register such Sponsored Merchant using the Specialty Merchant Registration application within My Company Performance on Mastercard Connect® before accepting Transactions",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-pf-monitor",
+   "network": "mastercard",
+   "claim": "Mastercard requires payment facilitators to monitor every sponsored merchant on an ongoing basis.",
+   "quote": "Each Payment Facilitator must monitor on an ongoing basis the Activity and use of the Marks of each of such Payment Facilitator's Sponsored Merchants",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl)"
+  },
+  {
+   "key": "t5-mc-r-nopilot",
+   "network": "mastercard",
+   "claim": "A text search of the June 2026 Mastercard Rules finds no use of the word pilot.",
+   "quote": "Mastercard Rules",
+   "url": "https://web.archive.org/web/20260920203706/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "title": "Mastercard Rules (2 June 2026)",
+   "publisher": "Mastercard",
+   "published": "2026-06-02",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl). Observation: case-insensitive count of 'pilot' in the extracted text is 0"
+  },
+  {
+   "key": "t5-mc-brand-cds",
+   "network": "mastercard",
+   "claim": "The public Mastercard Brand Center sends issuers to Mastercard Connect for card guidelines and artwork.",
+   "quote": "For cards, please get guidelines and artwork from the Card Design Standards at mastercardconnect.com",
+   "url": "https://web.archive.org/web/20260904203339/https://www.mastercard.com/brandcenter/us/en/brand-requirements/mastercard.html",
+   "title": "Mastercard Branding Requirements (Brand Center)",
+   "publisher": "Mastercard",
+   "published": "n.d. (Wayback capture 2026-09-04)",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture via curl, read 2026-09-26 (live page returns Akamai Access Denied)"
+  },
+  {
+   "key": "t5-mc-brand-decal",
+   "network": "mastercard",
+   "claim": "Mastercard defines the decal sticker as the physical acceptance signage for doors, terminals and ATMs.",
+   "quote": "Decal stickers are physically printed signage used to signify acceptance at retail locations such as on door decals, card terminals or ATMs.",
+   "url": "https://web.archive.org/web/20260904203339/https://www.mastercard.com/brandcenter/us/en/brand-requirements/mastercard.html",
+   "title": "Mastercard Branding Requirements (Brand Center)",
+   "publisher": "Mastercard",
+   "published": "n.d. (Wayback capture 2026-09-04)",
+   "label": "Verified",
+   "fetch": "Wayback Machine capture via curl, read 2026-09-26"
+  },
+  {
+   "key": "t5-mc-8bin-6days",
+   "network": "mastercard",
+   "claim": "Acquirers and everyone handling BIN files for them must apply each Mastercard table update within 6 calendar days.",
+   "quote": "within 6 calendar days from the date that each update file is made available by Mastercard.",
+   "url": "https://www.icba.org/documents/45248/1005567/8-Digit+BIN+Migration+Toolkit+for+Acquirers+and+Issuers.pdf/610897fd-6226-95b5-d216-801ef1b5d9c6?version=1.0&t=1753987106341&download=true",
+   "title": "8-Digit BIN Migration Toolkit for Acquirers and Issuers",
+   "publisher": "Mastercard, hosted by ICBA",
+   "published": "2021",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-8bin-mpe",
+   "network": "mastercard",
+   "claim": "Mastercard's Member Parameter Extract reaches issuers, acquirers and processors by Global File Transfer with daily add, change and delete updates.",
+   "quote": "Daily add, change, delete updates",
+   "url": "https://www.icba.org/documents/45248/1005567/8-Digit+BIN+Migration+Toolkit+for+Acquirers+and+Issuers.pdf/610897fd-6226-95b5-d216-801ef1b5d9c6?version=1.0&t=1753987106341&download=true",
+   "title": "8-Digit BIN Migration Toolkit for Acquirers and Issuers",
+   "publisher": "Mastercard, hosted by ICBA",
+   "published": "2021",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-8bin-declines",
+   "network": "mastercard",
+   "claim": "Mastercard names declines from wrong routing among the harms of stale BIN tables.",
+   "quote": "Declined transaction due to incorrectly routed transactions.",
+   "url": "https://www.icba.org/documents/45248/1005567/8-Digit+BIN+Migration+Toolkit+for+Acquirers+and+Issuers.pdf/610897fd-6226-95b5-d216-801ef1b5d9c6?version=1.0&t=1753987106341&download=true",
+   "title": "8-Digit BIN Migration Toolkit for Acquirers and Issuers",
+   "publisher": "Mastercard, hosted by ICBA",
+   "published": "2021",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-8bin-ranges",
+   "network": "mastercard",
+   "claim": "Mastercard asks issuers to launch new programmes on unused account ranges of existing BINs before requesting new BINs.",
+   "quote": "Mastercard recommends that Issuers utilize the unused portions or ranges of existing BINs before requesting new BINs.",
+   "url": "https://www.icba.org/documents/45248/1005567/8-Digit+BIN+Migration+Toolkit+for+Acquirers+and+Issuers.pdf/610897fd-6226-95b5-d216-801ef1b5d9c6?version=1.0&t=1753987106341&download=true",
+   "title": "8-Digit BIN Migration Toolkit for Acquirers and Issuers",
+   "publisher": "Mastercard, hosted by ICBA",
+   "published": "2021",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-send-assign",
+   "network": "mastercard",
+   "claim": "After Mastercard Send registration is approved, Mastercard assigns a Delivery Manager and a CIS Implementation Manager.",
+   "quote": "A Mastercard Delivery Manager and Customer Implementation Service (CIS) Implementation Manager will be assigned to your implementation project.",
+   "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md",
+   "title": "Mastercard Send Onboarding Checklist",
+   "publisher": "Mastercard Developers",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-send-validate",
+   "network": "mastercard",
+   "claim": "Mastercard Send tells partners to confirm go-live by finding their production transactions in reconciliation reports and the Customer Portal.",
+   "quote": "Check that your Mastercard Send transactions appear in the reconciliation reports and Customer Portal.",
+   "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md",
+   "title": "Mastercard Send Onboarding Checklist",
+   "publisher": "Mastercard Developers",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-send-monitor",
+   "network": "mastercard",
+   "claim": "The Mastercard Send Delivery Manager monitors the project and is the escalation route when durations slip.",
+   "quote": "Your Mastercard Delivery Manager will monitor your project.",
+   "url": "https://developer.mastercard.com/mastercard-send-disbursements/documentation/tutorials-and-guides/onboarding-checklist/index.md",
+   "title": "Mastercard Send Onboarding Checklist",
+   "publisher": "Mastercard Developers",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-beta",
+   "network": "amex",
+   "claim": "American Express and each network issuer run a Beta Test before any sales or marketing of each new card type or design change.",
+   "quote": "AEGNS and the Issuer shall conduct a Beta Test before the Issuer begins any sales or marketing activity with respect to each type of Card",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-beta60",
+   "network": "amex",
+   "claim": "Each Beta Test is capped at 60 days unless problems need fixing.",
+   "quote": "The initial Beta Test and any subsequent Beta Test shall take no longer than sixty (60) days",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-notify",
+   "network": "amex",
+   "claim": "After the Beta Test and approval of a sample card, American Express tells the issuer it may start selling.",
+   "quote": "AEGNS will notify the Issuer that it may begin sales and marketing or release of such Cards.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-launch45",
+   "network": "amex",
+   "claim": "The issuer should launch within 45 days of the Beta Test ending.",
+   "quote": "the Launch Date for Cards or Expresspay Mobile shall be no later than forty-five (45) days from the end of the applicable Beta Test.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-assist",
+   "network": "amex",
+   "claim": "Before launch American Express assigns settlement parameters, currency code and participant number ranges.",
+   "quote": "Assigning Settlement parameters, currency code and Participant number ranges,",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-mktassist",
+   "network": "amex",
+   "claim": "Pre-launch assistance includes working with the partner's marketing staff and agency on brand compliance.",
+   "quote": "Working with Participants’ marketing staff and advertising agency to help ensure compliance with marketing, advertising, and public relations guidelines.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-training",
+   "network": "amex",
+   "claim": "Partner staff must finish training before they get access to FraudNet, Network Disputes Manager and Program Progress Report.",
+   "quote": "complete training prior to gaining access to the following:",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-adsla",
+   "network": "amex",
+   "claim": "American Express commits to review final advertising within 7 to 10 business days and answer approve, approve with changes or not approve.",
+   "quote": "within at least seven (7) Business Days, but no more than ten (10) Business Days of receipt, review",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-30days",
+   "network": "amex",
+   "claim": "Mass-media campaigns go to American Express 30 days before launch for staged approval.",
+   "quote": "Participants must submit to AEGNS thirty (30) days prior to the campaign launch date for review and approval by AEGNS:",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-cobrand",
+   "network": "amex",
+   "claim": "Co-brand partners go to American Express at least 60 business days before launch, and American Express answers within 10 business days.",
+   "quote": "at least sixty (60) Business Days prior to the intended launch of the Co-Brand or Affinity Card.",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-ppr",
+   "network": "amex",
+   "claim": "After launch, partners file Program Progress Reports each month within 15 calendar days of month-end.",
+   "quote": "submitted (including approval by the Participant) to AEGNS no later than fifteen (15) calendar days after month-end",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-decal",
+   "network": "amex",
+   "claim": "Network acquirers must make every merchant display at least one Amex decal on parity with other networks.",
+   "quote": "Acquirers shall ensure that all S/Es display at least one (1) decal denoting acceptance of American Express® Cards on parity terms",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-certfee",
+   "network": "amex",
+   "claim": "American Express publishes a fee of 15,000 dollars per issuer personalisation certification it leads.",
+   "quote": "Per Certification Fee $15,000",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-gns-acqcert",
+   "network": "amex",
+   "claim": "Acquirers must complete American Express certification before they start merchant acquiring.",
+   "quote": "Prior to engaging in the Merchant Acquiring Business, Acquirers must complete the Certification process",
+   "url": "https://network.americanexpress.com/globalnetwork/dam/jcr:6d138b21-c76b-4244-aa39-3bd134aca031/Business%20and%20Operational%20Policies%20Manual%20-%20October%202023.pdf",
+   "title": "American Express Global Network Services Business and Operational Policies (October 2023)",
+   "publisher": "American Express Global Network Services",
+   "published": "2023-10",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-cert-issuer",
+   "network": "amex",
+   "claim": "Amex network issuers perform host and payment product certification with American Express teams, simulators and custom test plans.",
+   "quote": "American Express issuers must perform host and payment product certification, collaborating with the American Express certification teams",
+   "url": "https://network.americanexpress.com/globalnetwork/certification/",
+   "title": "American Express Certification",
+   "publisher": "American Express Global Network",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-cert-pos",
+   "network": "amex",
+   "claim": "An acquirer certifies a POS device by sending a request form, device logs and receipts to its relationship manager.",
+   "quote": "Submit the certification request form, including device information, to American Express relationship manager",
+   "url": "https://network.americanexpress.com/globalnetwork/certification/",
+   "title": "American Express Certification",
+   "publisher": "American Express Global Network",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-cert-enabled",
+   "network": "amex",
+   "claim": "The certification page ends each capability path with the product becoming AMEX Enabled.",
+   "quote": "Get your product or solution AMEX Enabled.",
+   "url": "https://network.americanexpress.com/globalnetwork/certification/",
+   "title": "American Express Certification",
+   "publisher": "American Express Global Network",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-optblue-activation",
+   "network": "amex",
+   "claim": "The OptBlue Merchant Activation Guide asks sales agents to get new merchants to put up Amex signage.",
+   "quote": "Be sure to have your merchants add American Express signage to their door, register and website",
+   "url": "https://www.americanexpress.com/en-us/business/optblue/agent/agent-resources/WRQ-944_OptBlue_MerchantActivationGuide_2026.pdf",
+   "title": "OptBlue Merchant Activation Guide (Rev. April 2026)",
+   "publisher": "American Express",
+   "published": "2026-04",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-amex-learning",
+   "network": "amex",
+   "claim": "Amex Partner Learning teaches the Business and Operational Policies in six modules.",
+   "quote": "Learn more about the key Business and Operational Policies in six modules that cover more than fifty Network policies.",
+   "url": "https://globalnetwork2.americanexpress.com/globalnetwork/partner-training/",
+   "title": "Partner Learning",
+   "publisher": "American Express Global Network",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-toast-amex-direct",
+   "network": "amex",
+   "claim": "Toast tells Amex Direct merchants to expect Amex processing 2 to 3 business days after they send their merchant ID.",
+   "quote": "You can expect to begin processing Amex cards within 2-3 business days after submitting your Merchant ID to Toast.",
+   "url": "https://support.toasttab.com/en/article/Accepting-American-Express",
+   "title": "Accepting American Express",
+   "publisher": "Toast",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-golive-launch",
+   "network": "dgn",
+   "claim": "Discover's API implementation ends in a Provisioning and Launch step in which Discover provides support and monitoring.",
+   "quote": "Production launch activities and support between the Client and Discover",
+   "url": "https://partner.discoverglobalnetwork.com/going-live-with-discover",
+   "title": "Going Live with Discover",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-signage",
+   "network": "dgn",
+   "claim": "Discover's signage page offers in-store signage orders and downloadable acceptance marks for digital checkouts.",
+   "quote": "Order signage for your store or download acceptance marks for digital checkouts.",
+   "url": "https://www.discoverglobalnetwork.com/resources/businesses/signage/",
+   "title": "Get Free Signage and Logos",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-signage-login",
+   "network": "dgn",
+   "claim": "The Discover signage ordering site asks visitors to log in or register before ordering.",
+   "quote": "If you already have an account, Login here.",
+   "url": "https://www.discoversignage.com/",
+   "title": "Discover Signage Site",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-bin-debit",
+   "network": "dgn",
+   "claim": "Discover's BIN page asks acquirers to include its debit BIN ranges.",
+   "quote": "Include our debit BIN ranges to capitalize on this popular payment method.",
+   "url": "https://www.discoverglobalnetwork.com/resources/payments-providers/bin-ranges/",
+   "title": "BIN Ranges",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-easi-cred",
+   "network": "dgn",
+   "claim": "EASI access is by a registration form that returns login credentials by email.",
+   "quote": "Please complete the form below to receive login credentials via email.",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal: Register for Access",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26, read only, nothing typed or submitted)",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-easi-nda",
+   "network": "dgn",
+   "claim": "EASI registration asks for the company's NDA signatory, so technical access runs through a signed NDA.",
+   "quote": "Please provide the contact information of the individual who has the authority to sign the NDA.",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal: Register for Access",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26, read only, nothing typed or submitted)",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-easi-types",
+   "network": "dgn",
+   "claim": "The EASI form asks what type of company is registering, with options from acquirer and ISO to payment facilitator and issuer processor.",
+   "quote": "What type of company are you?",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal: Register for Access",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26, read only, nothing typed or submitted)",
+   "label": "Verified",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-dci-impl",
+   "network": "diners",
+   "claim": "Discover promises Diners Club issuers implementation support, co-created products and turnkey marketing programmes.",
+   "quote": "We provide extensive implementation support and insights from our global network of partners to help your business succeed.",
+   "url": "https://www.discoverglobalnetwork.com/solutions/issuing-commerce-collaboration/diners-club-issuing/",
+   "title": "Diners Club International Issuing",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-dd-impl-pm",
+   "network": "pulse",
+   "claim": "Discover Debit names an implementation project manager who owns launch, process set-up and staff training.",
+   "quote": "Tremayne Lewis is an implementation project manager and your go-to for all things launch related, including setting processes and training staff.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit | PULSE Network",
+   "publisher": "PULSE Network LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-dd-team",
+   "network": "pulse",
+   "claim": "Discover Debit promises a team for creating, launching, marketing and growing each issuer's programme.",
+   "quote": "Our team will help you create, launch, market, and grow a successful debit program.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit | PULSE Network",
+   "publisher": "PULSE Network LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-dd-hub",
+   "network": "pulse",
+   "claim": "Every Discover Debit issuer gets the Marketing Hub for customising banners, social posts and email templates.",
+   "quote": "All Discover Debit issuers receive access to the Marketing Hub, an online resource where you can customize web banners, social media posts, email templates",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit | PULSE Network",
+   "publisher": "PULSE Network LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-pss-cardart",
+   "network": "pulse",
+   "claim": "PULSE's Marketing Hub for Discover Debit issuers includes card art as well as campaigns and cardholder education.",
+   "quote": "Our Marketing Hub for Discover® Debit issuers offers custom campaigns, card art and cardholder education materials.",
+   "url": "https://www.pulsenetwork.com/public/partner-support-services/",
+   "title": "Partner Support Services | PULSE Network",
+   "publisher": "PULSE Network LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-gsm-9m",
+   "network": "pulse",
+   "claim": "A new PULSE issuer must issue compliant new and replacement cards within nine months of its first transaction.",
+   "quote": "Each Issuer must begin issuing all new and replacement cards in compliance with the PULSE Graphic Standards Manual and encoding standards within nine (9) months",
+   "url": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf",
+   "title": "PULSE Graphic Standards Manual (March 2026)",
+   "publisher": "PULSE Network LLC",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-gsm-24m",
+   "network": "pulse",
+   "claim": "All of a PULSE issuer's cards must comply within 24 months of its first PULSE transaction.",
+   "quote": "all cards issued by such Issuer must be in full compliance with the PULSE Graphic Standards Manual and encoding standards within twenty-four (24) months",
+   "url": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf",
+   "title": "PULSE Graphic Standards Manual (March 2026)",
+   "publisher": "PULSE Network LLC",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-gsm-atm45",
+   "network": "pulse",
+   "claim": "PULSE acquirers must put PULSE signage on or near each terminal within 45 days of it starting to accept transactions.",
+   "quote": "within forty-five (45) calendar days after the date the Terminal begins accepting Transactions.",
+   "url": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf",
+   "title": "PULSE Graphic Standards Manual (March 2026)",
+   "publisher": "PULSE Network LLC",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-gsm-legacy",
+   "network": "pulse",
+   "claim": "PULSE lets old marks stay on cards and terminals until cards are reissued or signage is refreshed.",
+   "quote": "display of previous versions of the PULSE acceptance Mark on cards or terminals or in other media until cards expire or are reissued",
+   "url": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf",
+   "title": "PULSE Graphic Standards Manual (March 2026)",
+   "publisher": "PULSE Network LLC",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-pulse-gsm-download",
+   "network": "pulse",
+   "claim": "PULSE mark files are downloadable from the public Client Support page in .ai and .png formats.",
+   "quote": "Multiple versions of the PULSE Mark are available there in .ai and .png file formats.",
+   "url": "https://www.pulsenetwork.com/content/dam/discover/en_us/pulse/docs/PULSE-Graphic-Standards-Manual-2026.pdf",
+   "title": "PULSE Graphic Standards Manual (March 2026)",
+   "publisher": "PULSE Network LLC",
+   "published": "2026-03",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-dgn-cpv",
+   "network": "dgn",
+   "claim": "Discover issuers may choose any card production vendor that complies with PCI card production requirements.",
+   "quote": "Issuers can choose their own Card Production Vendors to provide them with goods and services related to the production of cards",
+   "url": "https://www.discoverglobalnetwork.com/solutions/pci-compliance/card-production-vendor-compliance/",
+   "title": "Card Production Vendor Compliance",
+   "publisher": "DFS Services LLC",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-diners-flykk-date",
+   "network": "diners",
+   "claim": "The flykk Diners Club debit card release is datelined 14 January 2025, earlier than the September 2026 date a ledger row inferred from the listing.",
+   "quote": "NICOSIA, Cyprus, Jan. 14, 2025",
+   "url": "https://resources.dinersclub.com/home/flykk-debit-card-launch",
+   "title": "ISX Financial and Diners Club International Launch flykk Debit Card",
+   "publisher": "Diners Club International (Club Connections)",
+   "published": "2025-01-14",
+   "label": "Vendor",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-cof-switch",
+   "network": "dgn",
+   "claim": "Capital One tells debit customers it is switching its debit and ATM card network from Mastercard to Discover.",
+   "quote": "Capital One is switching its debit and ATM card network from Mastercard to Discover.",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-keep",
+   "network": "dgn",
+   "claim": "Account number and PIN stay the same on the converted card.",
+   "quote": "Your account number and PIN will stay the same for a smooth transition",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-logos",
+   "network": "dgn",
+   "claim": "Capital One tells converted cardholders to look for Discover, PULSE or Diners Club International logos.",
+   "quote": "Keep an eye out for the Discover, PULSE® or Diners Club International® logos.",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-cutover",
+   "network": "dgn",
+   "claim": "Activating the new card switches off the old one, and some saved recurring payments later fail.",
+   "quote": "Once you activate the new card, your current debit card will no longer work.",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-benefits",
+   "network": "dgn",
+   "claim": "Mastercard network benefits end for the cardholder once the new Discover card is activated.",
+   "quote": "network benefits provided by Mastercard will no longer be available once you activate your new Capital One debit card on the Discover network",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-waves",
+   "network": "dgn",
+   "claim": "New cards go out account by account, so one customer's cards can arrive at different times.",
+   "quote": "New cards will be issued on an account-by-account basis.",
+   "url": "https://www.capitalone.com/bank/debit-card/my-debit-card/",
+   "title": "Your new Capital One debit card",
+   "publisher": "Capital One",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-cof-pilot",
+   "network": "dgn",
+   "claim": "Capital One's chief executive said debit reissue began with pilot populations in June 2025 and would run in phases into early 2026.",
+   "quote": "We began reissuing Capital One debit cards onto the Discover Network with early pilot populations in June",
+   "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/capital-one-cof-q2-2025-earnings-call-transcript/",
+   "title": "Capital One (COF) Q2 2025 Earnings Call Transcript",
+   "publisher": "The Motley Fool",
+   "published": "2025-07-23",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-stripe-130",
+   "network": "dgn",
+   "claim": "Stripe told merchants old Capital One cards keep working for 130 days after reissue, after which they may fail.",
+   "quote": "Existing cards will work for 130 days after a new card has been issued, after which they may fail.",
+   "url": "https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+   "title": "Changes following Capital One's acquisition of Discover Financial Services",
+   "publisher": "Stripe",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Reported",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-stripe-cau",
+   "network": "dgn",
+   "claim": "Stripe told merchants to keep card account updater on to avoid declines on reissued cards.",
+   "quote": "If you use CAU, keep it enabled to prevent declines for reissued cards.",
+   "url": "https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+   "title": "Changes following Capital One's acquisition of Discover Financial Services",
+   "publisher": "Stripe",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Reported",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-stripe-2026",
+   "network": "dgn",
+   "claim": "Stripe expected the debit migration to finish in 2026, with parts of the credit portfolio later.",
+   "quote": "Debit card migration is expected to be completed in 2026.",
+   "url": "https://support.stripe.com/questions/changes-following-capital-one-s-acquisition-of-discover-financial-services",
+   "title": "Changes following Capital One's acquisition of Discover Financial Services",
+   "publisher": "Stripe",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Reported",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-pj-25m",
+   "network": "dgn",
+   "claim": "Trade press reports Capital One completed converting roughly 25 million debit cards to the Discover network.",
+   "quote": "Capital One has completed the conversion of roughly 25 million debit cards into the Discover Network.",
+   "url": "https://www.paymentsjournal.com/after-moving-debit-cards-to-discover-capital-one-turns-to-credit-card-migration/",
+   "title": "After Moving Debit Cards to Discover, Capital One Turns to Credit Card Migration",
+   "publisher": "PaymentsJournal",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-pj-waves",
+   "network": "dgn",
+   "claim": "Capital One planned conversion waves in July and October 2026 and January 2027 for the Discover back book.",
+   "quote": "with additional migration waves scheduled for October and January",
+   "url": "https://www.paymentsjournal.com/after-moving-debit-cards-to-discover-capital-one-turns-to-credit-card-migration/",
+   "title": "After Moving Debit Cards to Discover, Capital One Turns to Credit Card Migration",
+   "publisher": "PaymentsJournal",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-pj-visa-stay",
+   "network": "dgn",
+   "claim": "Venture X and several co-brand cards stayed on Visa while debit moved.",
+   "quote": "The flagship Venture X card has remained on Visa, along with co-branded cards for T-Mobile, Kohl’s, and Bass Pro Shops/Cabela’s",
+   "url": "https://www.paymentsjournal.com/after-moving-debit-cards-to-discover-capital-one-turns-to-credit-card-migration/",
+   "title": "After Moving Debit Cards to Discover, Capital One Turns to Credit Card Migration",
+   "publisher": "PaymentsJournal",
+   "published": "2026-07-22",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-costco-calls",
+   "network": "cross",
+   "claim": "Citi logged more than 1.5 million service calls when Costco's cards moved from Amex to Visa in June 2016.",
+   "quote": "Citigroup has logged more than 1.5 million customer service calls about problems with the cards",
+   "url": "https://www.chron.com/business/retail/article/Costco-s-transition-to-Visa-cards-riddled-with-8322248.php",
+   "title": "Costco's transition to Visa cards riddled with problems (New York Times, syndicated)",
+   "publisher": "Houston Chronicle / New York Times (Stacy Cowley)",
+   "published": "2016-06-23",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-costco-cutover",
+   "network": "cross",
+   "claim": "The Costco Amex cards stopped working for new purchases on a single day.",
+   "quote": "As of Monday, their Costco-branded American Express cards stopped working for all new purchases",
+   "url": "https://www.chron.com/business/retail/article/Costco-s-transition-to-Visa-cards-riddled-with-8322248.php",
+   "title": "Costco's transition to Visa cards riddled with problems (New York Times, syndicated)",
+   "publisher": "Houston Chronicle / New York Times (Stacy Cowley)",
+   "published": "2016-06-23",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-walmart-phased",
+   "network": "cross",
+   "claim": "Walmart's 2014 move from Discover to Mastercard ran in phases, with old cards usable until new ones were activated.",
+   "quote": "was done in phases, and customers were able to continue using their existing cards until they received and activated their new ones",
+   "url": "https://www.chron.com/business/retail/article/Costco-s-transition-to-Visa-cards-riddled-with-8322248.php",
+   "title": "Costco's transition to Visa cards riddled with problems (New York Times, syndicated)",
+   "publisher": "Houston Chronicle / New York Times (Stacy Cowley)",
+   "published": "2016-06-23",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-lbcu-flip",
+   "network": "visa",
+   "claim": "Liberty Bay Credit Union moved debit from Mastercard to Visa because a new processor allowed the brand change.",
+   "quote": "a new debit card processor which allowed LBCU to make a brand change",
+   "url": "https://lbcu.org/help-center/new-visa-debit-card/",
+   "title": "Our New Visa Debit Card Is Here",
+   "publisher": "Liberty Bay Credit Union",
+   "published": "n.d. (cards mailed from April 2025)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-clearwater-reissue",
+   "network": "visa",
+   "claim": "Clearwater Credit Union reissues every debit card from Mastercard to Visa over six months with new number, expiry, code and PIN.",
+   "quote": "We’ll reissue all debit cards between September 2025 and February 2026.",
+   "url": "https://clearwatercreditunion.org/debit-card-update/",
+   "title": "Debit Card Update",
+   "publisher": "Clearwater Credit Union",
+   "published": "n.d. (reissue September 2025 to February 2026)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-clearwater-vau",
+   "network": "visa",
+   "claim": "Clearwater uses Visa Account Updater to refresh saved card details at participating merchants.",
+   "quote": "we’ll use Visa’s Account Updater tool to automatically update your card information on file",
+   "url": "https://clearwatercreditunion.org/debit-card-update/",
+   "title": "Debit Card Update",
+   "publisher": "Clearwater Credit Union",
+   "published": "n.d. (reissue September 2025 to February 2026)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-doj-switching",
+   "network": "visa",
+   "claim": "DOJ alleges issuers rarely change front-of-card network, partly because reissuing debit cards is costly. This is an allegation.",
+   "quote": "Issuers rarely change their front-of-card network due, in part, to significant switching costs, such as the costs of re-issuing new debit cards",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "Complaint, United States v. Visa Inc., No. 1:24-cv-07214 (S.D.N.Y.)",
+   "publisher": "U.S. Department of Justice, Antitrust Division",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-pbrief-bin",
+   "network": "cross",
+   "claim": "Portfolio conversions reissue a whole BIN range at once, which can break stored credentials.",
+   "quote": "portfolio conversions that reissue a whole BIN range at once",
+   "url": "https://paymentbrief.com/articles/card-credential-lifecycle-account-updater-operations/",
+   "title": "Card Credential Lifecycle: What Actually Keeps a Stored Card Working",
+   "publisher": "PaymentBrief",
+   "published": "2026-08-21 (updated 2026-09-12)",
+   "label": "Reported",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-vgs-reissue",
+   "network": "dgn",
+   "claim": "A token vendor says the Capital One network migration changes card number, security code, expiry and network identifiers.",
+   "quote": "network identifiers will change",
+   "url": "https://www.verygoodsecurity.com/blog/posts/capital-one-migration-from-mastercard-to-discover-how-vgs-solves-network-migration-challenges",
+   "title": "Capital One Migration from Mastercard to Discover: How VGS Solves Network Migration Challenges",
+   "publisher": "Very Good Security",
+   "published": "2025-12-12",
+   "label": "Vendor",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-marqeta-mig",
+   "network": "cross",
+   "claim": "Marqeta sells portfolio migration with work streams for regulation, network engagement, inventory and cardholder communication.",
+   "quote": "payment network engagement and inventory management, with clear communication for cardholders throughout",
+   "url": "https://www.marqeta.com/blog/simplifying-the-process-of-card-portfolio-migration",
+   "title": "Simplifying the process of card portfolio migration",
+   "publisher": "Marqeta",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node tools/text.js (headless Chromium, desktop Chrome user agent), 2026-09-26"
+  },
+  {
+   "key": "t5-synctera-design",
+   "network": "cross",
+   "claim": "Synctera tells programmes to allow 1 to 3 weeks for design approval and proofing on standard cards.",
+   "quote": "1 - 3 weeks for design approval and proofing",
+   "url": "https://docs.synctera.com/docs/mobile-wallet-resources",
+   "title": "Physical Card Art & Collateral",
+   "publisher": "Synctera",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-synctera-checklist",
+   "network": "cross",
+   "claim": "Synctera's physical card launch checklist runs from agreement and card art to approving proofs for launch.",
+   "quote": "Review and approve the proofs for launch",
+   "url": "https://docs.synctera.com/docs/mobile-wallet-resources",
+   "title": "Physical Card Art & Collateral",
+   "publisher": "Synctera",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-unit-production",
+   "network": "visa",
+   "claim": "Unit quotes 8 to 10 weeks of typical card production for custom designs.",
+   "quote": "Typical production time is 8-10 weeks but varies based on design and materials",
+   "url": "https://www.unit.co/docs/card-and-collateral-design/",
+   "title": "Custom card and collateral design",
+   "publisher": "Unit",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-sofi-token-art",
+   "network": "cross",
+   "claim": "A new tokenised card image can take up to 10 days to reach cardholders' wallets after it goes to the network.",
+   "quote": "it can take up to 10 days for the new image to be propagated to individual cardholder wallets.",
+   "url": "https://docs.tech.sofi.com/pro/docs/design-a-card",
+   "title": "Design a Card",
+   "publisher": "SoFi Technology Platform (Galileo)",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-sofi-bank-approve",
+   "network": "cross",
+   "claim": "SoFi's platform requires the issuing bank to approve all card art.",
+   "quote": "All card art for all formats must be approved by your issuing bank.",
+   "url": "https://docs.tech.sofi.com/pro/docs/design-a-card",
+   "title": "Design a Card",
+   "publisher": "SoFi Technology Platform (Galileo)",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-lithic-press",
+   "network": "cross",
+   "claim": "Lithic tells programmes that a press release naming a card network needs that network's pre-approval.",
+   "quote": "Any press release that mentions a card network (e.g., Mastercard) requires the network’s pre-approval.",
+   "url": "https://docs.lithic.com/docs/marketing-guidelines",
+   "title": "Marketing Guidelines",
+   "publisher": "Lithic",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t5-herring-atm",
+   "network": "cross",
+   "claim": "A bank's guide for new ATM operators puts network access in the processor's hands.",
+   "quote": "Your processor must connect to Visa/Plus, Mastercard/Cirrus, and regional networks (NYCE, Pulse, Star).",
+   "url": "https://www.herringbank.com/learn/how-to-start-an-atm-business/",
+   "title": "How to Start an ATM Business: Step-by-Step Guide",
+   "publisher": "Herring Bank",
+   "published": "n.d. (observed 2026-09-26)",
+   "label": "Vendor",
+   "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  }
+ ],
+ "stage_id": "5"
+}

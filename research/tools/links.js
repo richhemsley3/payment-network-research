@@ -7,7 +7,7 @@ const NOHTTP = process.argv.includes('--no-http');
 const sources = JSON.parse(fs.readFileSync(path.join(ROOT, 'sources.json'), 'utf8'));
 const byId = Object.fromEntries(sources.map(s => [s.id, s]));
 const norm = u => (u || '').replace(/&amp;/g, '&').replace(/[?&]t=\d+s?$/, '').replace(/&#x27;/g, "'").replace(/&quot;/g, '"').replace(/#.*$/, '').replace(/[?&](utm_[^&]*|ref=[^&]*)/g, '').replace(/\/$/, '').toLowerCase();
-const pages = ['competitive-networks.html', 'prototype-insights.html'].filter(f => fs.existsSync(path.join(ROOT, f)));
+const pages = ['partner-experience.html', 'competitive-networks.html', 'prototype-insights.html'].filter(f => fs.existsSync(path.join(ROOT, f)));
 const problems = [], used = new Set(), urls = new Set();
 const anchors = {};
 for (const p of pages) {

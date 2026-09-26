@@ -1,0 +1,46 @@
+{
+ "network": "shazam",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "SHAZAM's Sure Pass single-message pathway offers real-time authorization and settlement.",
+   "quote": "Sure Pass® is SHAZAM's pathway for single-message transactions, delivering real-time authorization and settlement for high-volume debit activity.",
+   "url": "https://www.shazam.net/products/payments-network",
+   "title": "Payments Network",
+   "publisher": "SHAZAM",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node text.js (headless) 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "SHAZAM markets the lowest issuer switch fee in the industry.",
+   "quote": "The industry’s lowest issuer switch fee",
+   "url": "https://www.shazam.net/products/payments-network",
+   "title": "Payments Network",
+   "publisher": "SHAZAM",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "node text.js (headless) 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "DOJ quotes Visa material saying an issuer's only way to protect volume was to drop SHAZAM.",
+   "quote": "dump[] their debit network (Shazam) if it starts shifting volume.",
+   "url": "https://www.justice.gov/opa/media/1370421/dl?inline",
+   "title": "United States v. Visa Inc., Complaint, 1:24-cv-07214",
+   "publisher": "U.S. Department of Justice",
+   "published": "2024-09-24",
+   "label": "Verified",
+   "fetch": "curl, cached copy fetched 2026-09-25, re-read 2026-09-26 (allegation)",
+   "accessed": "2026-09-25",
+   "note": "Added by the insight work (teardown), accessed 2026-09-25. "
+  }
+ ]
+}

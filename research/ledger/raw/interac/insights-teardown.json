@@ -1,0 +1,33 @@
+{
+ "network": "interac",
+ "dimension": "insights",
+ "accessed": "2026-09-25",
+ "claims": [
+  {
+   "dimension": "insights",
+   "claim": "Interac says its cost-recovery switch fee is the only fee it charges on Interac Cash transactions, and publishes ABM interchange at $0.75.",
+   "quote": "it is the only fee charged by Interac Corp. in connection with Interac Cash transactions.",
+   "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+   "title": "Understanding Fees",
+   "publisher": "Interac Corp.",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl/headless text, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Interac publishes its switch fees and effective dates, including an ABM withdrawal switch fee and a debit rise effective 1 November 2026.",
+   "quote": "Interac Debit (Chip & PIN, card contactless): $0.013985 (increasing to $0.014438 effective Nov. 1, 2026)",
+   "url": "https://www.interac.ca/en/payments/business/understanding-fees/",
+   "title": "Understanding Fees",
+   "publisher": "Interac Corp.",
+   "published": "2026",
+   "label": "Verified",
+   "fetch": "curl/headless text, 2026-09-26",
+   "accessed": "2026-09-26",
+   "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  }
+ ]
+}

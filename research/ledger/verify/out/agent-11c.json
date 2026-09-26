@@ -1,0 +1,292 @@
+{
+ "results": [
+  {
+   "id": "mastercard-602",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (4 August 2026 edition, captured 19 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260919122811id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "Rule 7.2.1: 'Within 72 hours of at least one of the following criteria being met ... must initiate an investigation'; criterion 1 is approval rate falling 50 points.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-603",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (4 August 2026 edition, captured 19 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260919122811id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/SPME-Manual.pdf",
+   "note": "'Acquirers must check the FLD daily for new scam Merchant listings, using Fraud Insights online report alerts and/or the daily Acquirer Loss File'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-604",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (19 May 2026 edition, captured 24 Jul 2026)",
+   "archive_url": "https://web.archive.org/web/20260724162432id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Acquirer Second Presentment time frame: 'For all other transactions: Within 45-calendar days of the Settlement Date or Central Site Business Date'; Costa Rica, Nigeria etc. shorter.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-605",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (19 May 2026 edition, captured 24 Jul 2026)",
+   "archive_url": "https://web.archive.org/web/20260724162432id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/chargeback-guide.pdf",
+   "note": "Hardship variance 'removes the GCMS time frame edits in the dual message system'; 'Hardship variances are not supported in the Single Message System.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-607",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403; read Wayback capture of 25 Aug 2026 (page updated June 8, 2026)",
+   "archive_url": "https://web.archive.org/web/20260825193245id_/https://www.mastercard.com/us/en/news-and-trends/Insights/2025/what-s-the-true-cost-of-a-chargeback-in-2025.html",
+   "note": "Citing Datos Insights: 'more than 200 back-office staff' and 'each disputed transaction costs those FIs $9.08 to $10.32 to process.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-608",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Under 7.8.2 Obligations as Sponsor of Sponsored Merchants: 'A Sponsored Merchant Agreement may provide for a Payment Facilitator to withhold amounts for chargeback reserves'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-616",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.11: 'The Corporation must receive written notice at least 30 days before the effective date of any proposed transfer or assignment of a Mastercard Portfolio.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-617",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.11: 'at least six months prior written notice'; certify 'no Cards will be in circulation, unless the Corporation has approved a plan for the phased withdrawal'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-618",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.13.1 table: Mastercard License 30 days; Principal Maestro/Cirrus One year; Affiliate Maestro/Cirrus Six months; Digital Activity Agreement 60 days.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-619",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "'not entitled to any refund of dues, fees, assessments' and liable for amounts 'whether arising, due, accrued, or owing before or after termination.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-620",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "'must promptly cancel all Cards then outstanding'; chip Payment Applications 'eradicated or disabled no more than six months after'; Cardholders notified 'in writing'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-621",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "'must give prompt notice of its termination to any Merchants'; must 'cooperate with the Corporation and other Customers in facilitating the transfer of such Merchant'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-622",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Sponsored Affiliates take terminated-Customer actions unless one 'becomes an Affiliate Sponsored by a different Principal or Association within a period of time acceptable'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-623",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.13.2: 'fails to engage in Activity for 26 consecutive weeks'; item 12: 'materially fails to operate at a scale or volume ... consistent with the business plan'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-624",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.7.1: 'must apply to the Corporation for permission to extend the Area of Use'; 'If the application is approved, the Corporation will amend the License'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-625",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 1.7.2: 'At least 14 calendar days before' Activity, submit Form 1336 'by sending an email message to certification@mastercard.com'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-626",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403 on mastercard.com; read the Wayback copy with pypdf (2 June 2026 edition, captured 20 Sep 2026)",
+   "archive_url": "https://web.archive.org/web/20260920203706id_/https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-rules.pdf",
+   "note": "Rule 2.1.1: 'The request must be submitted to the Corporation using the Variance Manager tool on Mastercard Connect'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-633",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF, text via pypdf",
+   "archive_url": "",
+   "note": "Store items: 'Pricing and Billing Resource Center ... including Mastercard's Pricing Guide and the Transaction Detail tool', 'Operational Reports', 'Mastercard Market Trends'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-639",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403; read Wayback capture of 20 May 2026",
+   "archive_url": "https://web.archive.org/web/20260520224555id_/https://www.mastercard.com/us/en/business/insights-intelligence/advanced-analytics/solutions/portfolio-advisor.html",
+   "note": "'A frictionless self-service platform providing actionable recommendations based on competitive benchmarks'; 'Access Portfolio Advisor via Mastercard Business Intelligence.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "mastercard-640",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "WebFetch, text.js and curl (Chrome UA) all 403; read Wayback capture of 9 Sep 2026",
+   "archive_url": "https://web.archive.org/web/20260909011058id_/https://www.mastercard.com/us/en/business/insights-intelligence/advisors-transformation.html",
+   "note": "'Harness Mastercard's 20+ years of advisory experience, unrivalled data insights and technology to deliver lasting outcomes.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "pulse-131",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl got no response; WebFetch saved the live PDF (239 pages, dated 7/31/20), text via pypdf",
+   "archive_url": "",
+   "note": "EFFEERPT: 'PULSE PIN network billing fees and transaction counts', run monthly; 'Refer to the latest PULSE Issuer Fee Schedule ... for details on the various switch fees'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-483",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "'Portfolio Insights is an on-demand analytical tool ... review peer benchmarks'; 'enables the identification of top interchange revenue sources'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-485",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "Stats 4.1B cards, 200+ countries, $14.1T, 80M+ merchant locations, footnoted '1Source - 2022 Visa Fact Sheet'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-494",
+   "result": "qualified",
+   "qualification": "Live directory now reads '1 to 12 of 73', not 72; the 500+ Visa Ready figure is not on this page (it says 'hundreds of partners').",
+   "fetch": "text.js rendered live page",
+   "archive_url": "",
+   "note": "Pager shows '1 to 12 of 73'; program filters are 'Fintech Partner Connect' and 'Visa Ready'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-501",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "curl (Chrome UA) of live PDF (18 April 2026 edition), text via pypdf",
+   "archive_url": "",
+   "note": "Senior Officer: 'receives the same email communications as the Primary Center Manager, including the weekly Visa Business News.' ID# 0031042",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-542",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/crxdAEvZlfo.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "'click on add new project', name, description, 'select an API', 'generate a CSR for me then click create project'; 'you can only download this key once'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-543",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/crxdAEvZlfo.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "'one table per API'; 'sandbox data is limited to what's provided in the test data tables and is not integrated to the visa network'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-544",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/crxdAEvZlfo.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "'clicking on users on the Left tab'; 'at the top right corner click on invite users' with a user role; invitee gets 'an email prompt'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-545",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/qMTJTnhfly8.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "'The first step is to register your company'; asked about existing relationship; 'you don't have to provide your company information, just your Visa BID.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-546",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/qMTJTnhfly8.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "Contact info then beneficial ownership: 'This is needed to perform a screening on the company name and all beneficial owners.'",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-547",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/qMTJTnhfly8.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "Asks intended end users, functionality, 'sell or white label', 'API calls per year', 'scheduled release date', then 'geographic distribution'.",
+   "date": "2026-09-26"
+  },
+  {
+   "id": "visa-548",
+   "result": "supports",
+   "qualification": "",
+   "fetch": "Read the saved caption transcript at scratchpad/teardown/s4/tx/qMTJTnhfly8.txt; YouTube itself not fetched",
+   "archive_url": "",
+   "note": "'our product team, which will review your request'; 'since requests are reviewed case-by-case, there's no set timeline on how long the review takes.'",
+   "date": "2026-09-26"
+  }
+ ]
+}

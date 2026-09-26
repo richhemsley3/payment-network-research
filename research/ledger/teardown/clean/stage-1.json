@@ -1,0 +1,2870 @@
+{
+ "stage": "1. Evaluate",
+ "summary": [
+  {
+   "text": "No network publishes a self-serve way for a prospective issuer, acquirer or ATM operator to see its price. Every route ends in a form, a mailbox or an account executive.",
+   "ids": [
+    "visa-250",
+    "amex-038",
+    "dgn-063",
+    "mastercard-064",
+    "new:t1-s1-visa-contact-form",
+    "new:t1-s1-amex-contact",
+    "dgn-035",
+    "pulse-002"
+   ]
+  },
+  {
+   "text": "Of the four, only Visa was found to publish licensing steps, tools and review criteria for a new issuer or acquirer before any contact.",
+   "ids": [
+    "new:t1-s1-visa-lic-steps",
+    "new:t1-s1-visa-lic-access",
+    "new:t1-s1-visa-lic-review",
+    "new:t1-s1-visa-lic-tiers"
+   ]
+  },
+  {
+   "text": "Banks and credit unions often evaluate networks through paid negotiators who run bids between Visa and Mastercard for incentives.",
+   "ids": [
+    "new:t1-s1-cornerstone",
+    "new:t1-s1-cornerstone-bids",
+    "new:t1-s1-engagefi",
+    "new:t1-s1-advantage",
+    "new:t1-s1-velera"
+   ]
+  },
+  {
+   "text": "The only neutral cross-network comparison found is the Fed's debit interchange table, and the Fed warns it does not show what any issuer would earn.",
+   "ids": [
+    "new:t1-s1-fed-table",
+    "new:t1-s1-fed-caveat",
+    "cross-240"
+   ]
+  },
+  {
+   "text": "Participants told the RBA that confidentiality terms stop them comparing network prices or understanding their own bills.",
+   "ids": [
+    "cross-075",
+    "cross-231"
+   ]
+  },
+  {
+   "text": "Discover's strongest evaluation assets sit with PULSE: a named team, a portfolio review, switcher case studies and an ABA endorsement with a due diligence report.",
+   "ids": [
+    "new:t1-s1-pulse-advantage",
+    "new:t1-s1-pulse-team",
+    "new:t1-s1-pulse-extraco",
+    "new:t1-s1-aba-discount",
+    "new:t1-s1-aba-dd"
+   ]
+  },
+  {
+   "text": "For fintechs, Visa and Mastercard run named programmes with directories of enablers, while Discover's fintech page names no processor, sponsor bank or programme manager.",
+   "ids": [
+    "visa-018",
+    "mastercard-085",
+    "new:t1-s1-engage-202",
+    "new:t1-s1-visa-dir-filters",
+    "dgn-365",
+    "dgn-037"
+   ]
+  },
+  {
+   "text": "Four of six issuing platforms checked document no Discover issuing, and a fintech guide drops Discover and Amex from the network choice altogether.",
+   "ids": [
+    "dgn-265",
+    "dgn-266",
+    "dgn-267",
+    "dgn-268",
+    "new:t1-s1-ftt-closed"
+   ]
+  },
+  {
+   "text": "Developers can judge Mastercard and Visa from open documentation and a free sandbox, while Discover's Developer Center admits developers only by invitation.",
+   "ids": [
+    "mastercard-001",
+    "mastercard-002",
+    "visa-190",
+    "visa-426",
+    "dgn-002",
+    "dgn-034"
+   ]
+  },
+  {
+   "text": "Selling is often done by third parties the networks arm: Amex gives OptBlue sales agents an objection guide and comparative spend data.",
+   "ids": [
+    "amex-302",
+    "new:t1-s1-amex-objections",
+    "new:t1-s1-amex-spend",
+    "visa-074",
+    "mastercard-292"
+   ]
+  },
+  {
+   "text": "Evaluation pages go stale: Visa's Fast Track cites a 2022 fact sheet and Amex's issuer page a 2022 ranking.",
+   "ids": [
+    "new:t1-s1-visa-fft-stale",
+    "new:t1-s1-amex-issuer-2022"
+   ]
+  }
+ ],
+ "by_partner": [
+  {
+   "partner_type": "Issuers: large banks",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A prospect first emails a regional licensing team, then receives Visa Access credentials once Visa confirms eligibility.",
+       "ids": [
+        "new:t1-s1-visa-lic-steps",
+        "new:t1-s1-visa-lic-access"
+       ]
+      },
+      {
+       "text": "The application is completed in the Client Lifecycle Management tool under a temporary UVID, and approval issues a final Business ID.",
+       "ids": [
+        "new:t1-s1-visa-lic-steps"
+       ]
+      },
+      {
+       "text": "Visa publishes the four review areas: regulatory permissions, AML and ATF programmes, credit and settlement risk, and risk management.",
+       "ids": [
+        "new:t1-s1-visa-lic-review"
+       ]
+      },
+      {
+       "text": "Principal clients are pitched as larger institutions working directly with Visa on product and marketing, and paying service fees whose amounts are unpublished.",
+       "ids": [
+        "new:t1-s1-visa-lic-tiers",
+        "visa-265"
+       ]
+      },
+      {
+       "text": "Economics are negotiated. Visa recorded 15.75 billion dollars of client incentives in fiscal 2025 and amortises up-front payments over each contract.",
+       "ids": [
+        "visa-267",
+        "visa-451"
+       ]
+      },
+      {
+       "text": "Visa Consulting and Analytics sells advisory work to issuers, including portfolio migration results.",
+       "ids": [
+        "new:t1-s1-visa-vca-migration"
+       ]
+      },
+      {
+       "text": "Visa Payments Forum is Visa's largest annual client and partner event.",
+       "ids": [
+        "visa-177",
+        "visa-178"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Licensing Program page (partner.visa.com)",
+       "what_it_shows": "Principal and Associate capability lists, regional licensing mailboxes, four application steps and review areas",
+       "ids": [
+        "new:t1-s1-visa-lic-steps",
+        "new:t1-s1-visa-lic-review"
+       ]
+      },
+      {
+       "name": "Visa Access / Client Lifecycle Management Tool",
+       "what_it_shows": "Where a licence application is completed after eligibility, under a temporary UVID",
+       "ids": [
+        "new:t1-s1-visa-lic-steps"
+       ]
+      },
+      {
+       "name": "Visa Consulting and Analytics page",
+       "what_it_shows": "Outcome figures and a contact route to consultants",
+       "ids": [
+        "new:t1-s1-visa-vca-migration"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Regional fee schedules are named in the public rules but not published.",
+       "ids": [
+        "visa-250"
+       ]
+      },
+      {
+       "text": "DOJ alleges Visa's debit contracts use cliff pricing that applies rack rates to all volume if a threshold is missed. These are allegations.",
+       "ids": [
+        "visa-275"
+       ]
+      },
+      {
+       "text": "Analysts expect Visa to claw back discounts across a defecting bank's portfolio. This is opinion.",
+       "ids": [
+        "visa-453",
+        "cross-253"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "A new licensee applies on the Universal Onboarding Template, form 1400, a public Qualtrics form.",
+       "ids": [
+        "mastercard-082"
+       ]
+      },
+      {
+       "text": "Mastercard Connect access for an unlisted company needs a Connect Access Form obtained from a Mastercard representative.",
+       "ids": [
+        "mastercard-083"
+       ]
+      },
+      {
+       "text": "Mastercard paid 20.5 billion dollars of rebates and incentives in 2025 and capitalises fixed incentives over the agreement.",
+       "ids": [
+        "mastercard-105",
+        "mastercard-415",
+        "mastercard-422"
+       ]
+      },
+      {
+       "text": "In 2026 Mastercard merged customer-facing sales, partnerships and digital commercialisation into one go-to-market structure.",
+       "ids": [
+        "mastercard-380"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Form 1400 Universal Onboarding Template",
+       "what_it_shows": "New licensed customer application",
+       "ids": [
+        "mastercard-082"
+       ]
+      },
+      {
+       "name": "Mastercard Connect",
+       "what_it_shows": "Gated client portal where pricing, registration fees and technical documents sit",
+       "ids": [
+        "mastercard-037",
+        "mastercard-064"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Registration fees are billed but their amounts sit in the gated Pricing and Billing Center.",
+       "ids": [
+        "mastercard-064"
+       ]
+      },
+      {
+       "text": "Mastercard's public business pages returned Access Denied to automated fetches, so this study could not read its issuer pitch.",
+       "ids": [
+        "new:t1-s1-mc-403"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The network site addresses issuers, acquirers and fintechs, and routes interest through a short contact form.",
+       "ids": [
+        "new:t1-s1-amex-home-audiences",
+        "new:t1-s1-amex-contact"
+       ]
+      },
+      {
+       "text": "The issuer pages sell brand, marketing solutions, risk tools, data and implementation support, with no economics.",
+       "ids": [
+        "new:t1-s1-amex-issuer-2022",
+        "new:t1-s1-amex-issuer-power",
+        "amex-193"
+       ]
+      },
+      {
+       "text": "Participants are classed as licence issuers, independent operators or joint ventures in Amex's policy manual.",
+       "ids": [
+        "amex-212"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "American Express Global Network contact form",
+       "what_it_shows": "Name, email, company, country, business type (Acquirer, Developer, Issuer, Solution or Service Provider), product and description",
+       "ids": [
+        "new:t1-s1-amex-contact",
+        "new:t1-s1-amex-contact-bt"
+       ]
+      },
+      {
+       "name": "Backing Our Partners",
+       "what_it_shows": "Business and training webinars with live Q&A, online training modules and articles",
+       "ids": [
+        "new:t1-s1-amex-webinars"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The issuer page supports its main claim with a 2022 Nilson ranking.",
+       "ids": [
+        "new:t1-s1-amex-issuer-2022"
+       ]
+      },
+      {
+       "text": "Fee schedules sit only in the confidential policy manual.",
+       "ids": [
+        "amex-038"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "How We Partner promises consultation and co-creation, then sends prospects to a contact form with nine US categories.",
+       "ids": [
+        "dgn-036",
+        "dgn-161",
+        "dgn-035"
+       ]
+      },
+      {
+       "text": "The page claims competitive pricing from a direct relationship and gives no figures.",
+       "ids": [
+        "new:t1-s1-dgn-pricing-claim"
+       ]
+      },
+      {
+       "text": "Diners Club sends would-be country issuing partners to a contact form.",
+       "ids": [
+        "new:t1-s1-diners-contact",
+        "diners-006"
+       ]
+      },
+      {
+       "text": "Discover's owner says rivals pay large signing bonuses and hold long-term, sometimes exclusive, bank deals.",
+       "ids": [
+        "dgn-383",
+        "dgn-384"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Contact Us (servicecenter.discoverglobalnetwork.com)",
+       "what_it_shows": "US or non-US split, then a partner category choice",
+       "ids": [
+        "dgn-035"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Capital One warns it may be unable to offer adequate pricing to network partners.",
+       "ids": [
+        "dgn-293"
+       ]
+      },
+      {
+       "text": "The owner competes with banks for deposits, and neither merger approval set a condition on network access.",
+       "ids": [
+        "pulse-076",
+        "cross-177"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa's licensing page is the only public view of steps, tools and review criteria for a new issuer before contact.",
+    "ids": [
+     "new:t1-s1-visa-lic-steps",
+     "new:t1-s1-visa-lic-review"
+    ]
+   },
+   "discover_today": {
+    "text": "A large bank sees reach claims and a contact form, and must weigh incumbent incentives it would forfeit against unpublished Discover economics.",
+    "ids": [
+     "dgn-035",
+     "dgn-036",
+     "dgn-383",
+     "dgn-293"
+    ]
+   }
+  },
+  {
+   "partner_type": "Issuers: community banks and credit unions",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "A dedicated community page pitches Visa as an extension of the institution's team and leads on brand preference and share of wallet.",
+       "ids": [
+        "new:t1-s1-visa-extension",
+        "new:t1-s1-visa-sow"
+       ]
+      },
+      {
+       "text": "Its call to action is an Account Executive conversation.",
+       "ids": [
+        "new:t1-s1-visa-ae"
+       ]
+      },
+      {
+       "text": "The Community Growth Acceleration Program bundles products and research, with enrolment behind a Visa Online login.",
+       "ids": [
+        "new:t1-s1-visa-cgap",
+        "new:t1-s1-visa-cgap-vol"
+       ]
+      },
+      {
+       "text": "Portfolio Insights gives peer benchmarks and interchange revenue sources, free to programme participants.",
+       "ids": [
+        "new:t1-s1-visa-portfolio-insights",
+        "new:t1-s1-visa-cardinal"
+       ]
+      },
+      {
+       "text": "A credit union case study reports its Account Executive introduced the tool and quarterly reviews followed.",
+       "ids": [
+        "new:t1-s1-visa-cardinal",
+        "new:t1-s1-visa-cardinal-results"
+       ]
+      },
+      {
+       "text": "Visa publishes its exempt debit interchange rates.",
+       "ids": [
+        "visa-445"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Community banks and credit unions page",
+       "what_it_shows": "Product carousel of 16 items, Account Executive contact",
+       "ids": [
+        "new:t1-s1-visa-ae"
+       ]
+      },
+      {
+       "name": "Community issuers contact form (globalclient.visa.com)",
+       "what_it_shows": "A newsletter sign-up with name, company, work email, phone and a free-text help field",
+       "ids": [
+        "new:t1-s1-visa-contact-form"
+       ]
+      },
+      {
+       "name": "Portfolio Insights in Visa Analytics Platform",
+       "what_it_shows": "Ad-hoc portfolio analysis and peer benchmarks",
+       "ids": [
+        "new:t1-s1-visa-portfolio-insights"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The 'Contact our team' route opens a marketing sign-up form, so intent is captured as a newsletter lead.",
+       "ids": [
+        "new:t1-s1-visa-contact-form"
+       ]
+      },
+      {
+       "text": "The benchmark tool is available only after joining the programme through Visa Online.",
+       "ids": [
+        "new:t1-s1-visa-cgap-vol",
+        "new:t1-s1-visa-cardinal"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "This study could not read Mastercard's community pages because its business site refused automated fetches.",
+       "ids": [
+        "new:t1-s1-mc-403"
+       ]
+      },
+      {
+       "text": "Consultants advertise negotiating card brand agreements with Mastercard as well as Visa.",
+       "ids": [
+        "new:t1-s1-cornerstone",
+        "new:t1-s1-advantage"
+       ]
+      },
+      {
+       "text": "ABA endorses a full-service credit card programme running on Visa and Mastercard.",
+       "ids": [
+        "new:t1-s1-aba-visa-mc"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The public record on Mastercard's community issuer sales is thin in this study.",
+       "ids": [
+        "new:t1-s1-mc-403"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The Amex network contact form offers no community bank or credit union path. Its business types are acquirer, developer, issuer and service provider.",
+       "ids": [
+        "new:t1-s1-amex-contact-bt"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Discover's network site sends debit and ATM prospects to PULSE.",
+       "ids": [
+        "new:t1-s1-dgn-atm"
+       ]
+      },
+      {
+       "text": "Discover Debit is sold on an all-in programme fee, a one-page invoice and a named team for launch, marketing and account management.",
+       "ids": [
+        "pulse-034",
+        "new:t1-s1-pulse-team",
+        "new:t1-s1-pulse-hub"
+       ]
+      },
+      {
+       "text": "PULSE offers a scheduled Debit Advantage Analysis of the prospect's portfolio.",
+       "ids": [
+        "new:t1-s1-pulse-advantage"
+       ]
+      },
+      {
+       "text": "A landing page invites issuers to re-evaluate their programme and links three case studies, one claiming a 45 percent higher contribution after switching.",
+       "ids": [
+        "new:t1-s1-pulse-reeval",
+        "new:t1-s1-pulse-extraco"
+       ]
+      },
+      {
+       "text": "ABA endorses Discover Debit, gives members 2 basis points off the all-in fee and offers a due diligence report on request.",
+       "ids": [
+        "new:t1-s1-aba-discount",
+        "new:t1-s1-aba-dd"
+       ]
+      },
+      {
+       "text": "PULSE publishes an annual Debit Issuer Study with a results webinar, and its content hub carries an Account Executive lead form.",
+       "ids": [
+        "pulse-053",
+        "pulse-055",
+        "new:t1-s1-pulse-study-webinar",
+        "new:t1-s1-pulse-hub-lead"
+       ]
+      },
+      {
+       "text": "Sales requests get a callback within two business days, and the line keeps weekday Central hours.",
+       "ids": [
+        "dgn-158",
+        "pulse-002"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Discover Debit page (pulsenetwork.com)",
+       "what_it_shows": "Named team roles, billing claims, Marketing Hub, cardholder benefits, Debit Advantage Analysis scheduling",
+       "ids": [
+        "new:t1-s1-pulse-team",
+        "new:t1-s1-pulse-reconcile",
+        "new:t1-s1-pulse-advantage"
+       ]
+      },
+      {
+       "name": "Discover Debit choice landing page",
+       "what_it_shows": "Profitability, support, billing and security claims, ABA endorsement, three case studies",
+       "ids": [
+        "new:t1-s1-pulse-reeval",
+        "new:t1-s1-pulse-extraco"
+       ]
+      },
+      {
+       "name": "ABA Endorsed Solutions listing",
+       "what_it_shows": "Member discount, due diligence report request, provider contact",
+       "ids": [
+        "new:t1-s1-aba-discount",
+        "new:t1-s1-aba-dd"
+       ]
+      },
+      {
+       "name": "Payments & You content hub",
+       "what_it_shows": "Study, case studies, webinar recaps and a lead form",
+       "ids": [
+        "new:t1-s1-pulse-hub-lead",
+        "pulse-053"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The all-in fee and exempt rates are not published, so yield is modelled only inside a sales analysis.",
+       "ids": [
+        "pulse-034",
+        "visa-445"
+       ]
+      },
+      {
+       "text": "A Datos analyst expected banks that see Capital One as a competitor to drop PULSE. This is opinion.",
+       "ids": [
+        "pulse-061"
+       ]
+      },
+      {
+       "text": "The reconciliation and switching claims are PULSE's own and are not independently checked.",
+       "ids": [
+        "new:t1-s1-pulse-reconcile",
+        "new:t1-s1-pulse-extraco"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:velera-and-advisers",
+     "how_it_works": [
+      {
+       "text": "Velera pools more than 200 credit union clients to negotiate debit interchange with networks.",
+       "ids": [
+        "new:t1-s1-velera"
+       ]
+      },
+      {
+       "text": "Advisers such as Cornerstone, Engage fi and ADVANTAGE sell network bids and incentive negotiation to banks and credit unions.",
+       "ids": [
+        "new:t1-s1-cornerstone-bids",
+        "new:t1-s1-engagefi",
+        "new:t1-s1-engagefi-result",
+        "new:t1-s1-advantage"
+       ]
+      },
+      {
+       "text": "One adviser says many community institutions sign without benchmark data.",
+       "ids": [
+        "new:t1-s1-advantage-bench"
+       ]
+      },
+      {
+       "text": "The Fed publishes average debit interchange per network, the only neutral comparison found.",
+       "ids": [
+        "new:t1-s1-fed-table",
+        "new:t1-s1-fed-caveat",
+        "cross-240"
+       ]
+      },
+      {
+       "text": "SHAZAM sells a member-owned network with one member one vote, and STAR names two issuer pricing programmes in a brochure.",
+       "ids": [
+        "shazam-013",
+        "star-013"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Fed table: Average Debit Card Interchange Fee by Payment Card Network",
+       "what_it_shows": "2024 averages per network split by exempt and covered transactions, with CSV and Excel downloads",
+       "ids": [
+        "new:t1-s1-fed-table",
+        "new:t1-s1-fed-caveat"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Fed says its table does not show what an issuer would earn on a network.",
+       "ids": [
+        "new:t1-s1-fed-caveat"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "PULSE's scheduled portfolio analysis, backed by an ABA due diligence report, gives a small issuer a structured evaluation artefact that no rival shows publicly.",
+    "ids": [
+     "new:t1-s1-pulse-advantage",
+     "new:t1-s1-aba-dd"
+    ]
+   },
+   "discover_today": {
+    "text": "Strong human-led pitch through PULSE, but every number an issuer needs arrives only after a call.",
+    "ids": [
+     "new:t1-s1-pulse-advantage",
+     "new:t1-s1-pulse-team",
+     "pulse-034",
+     "dgn-158"
+    ]
+   }
+  },
+  {
+   "partner_type": "Acquirers and processors",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Acquirers license through the same Principal or Associate route as issuers.",
+       "ids": [
+        "new:t1-s1-visa-lic-tiers",
+        "new:t1-s1-visa-lic-steps"
+       ]
+      },
+      {
+       "text": "US interchange is published as a dated PDF, while network fee schedules are not.",
+       "ids": [
+        "visa-238",
+        "visa-250"
+       ]
+      },
+      {
+       "text": "Visa Acceptance Solutions offers a self-serve sandbox and referral, enablement or reseller partner types.",
+       "ids": [
+        "visa-034",
+        "visa-185"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa U.S.A. Interchange Reimbursement Fees PDF",
+       "what_it_shows": "Published interchange by programme, dated April 2026",
+       "ids": [
+        "visa-238"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "UK acquirers told the PSR that fee information was poor and that some bought scheme services by accident.",
+       "ids": [
+        "cross-060",
+        "cross-214",
+        "cross-256"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard publishes US merchant interchange and sends questions to acquirers.",
+       "ids": [
+        "mastercard-325"
+       ]
+      },
+      {
+       "text": "Merchant Cloud is pitched to acquirers, PSPs and payfacs as one acceptance integration.",
+       "ids": [
+        "mastercard-089"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Merchant interchange rates page",
+       "what_it_shows": "Rate PDF and semiannual update note",
+       "ids": [
+        "mastercard-325"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Participants told the RBA that confidentiality terms stop them comparing prices.",
+       "ids": [
+        "cross-075"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Acquirer pages sell closed-loop fraud tools, portfolio data, implementation support and merchant marketing.",
+       "ids": [
+        "amex-306",
+        "amex-307"
+       ]
+      },
+      {
+       "text": "Amex publishes no process for becoming an OptBlue Participant.",
+       "ids": [
+        "amex-061"
+       ]
+      },
+      {
+       "text": "Canada publishes a wholesale discount schedule.",
+       "ids": [
+        "amex-154"
+       ]
+      },
+      {
+       "text": "POS software vendors get a single contact for specifications and certification through the Integrated Payments Providers programme.",
+       "ids": [
+        "new:t1-s1-amex-ipp"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Integrated Payments Providers Program page",
+       "what_it_shows": "Programme overview, Payment Vendor Relations contact, AMEX Enabled registration steps",
+       "ids": [
+        "new:t1-s1-amex-ipp"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The US OptBlue route for a new acquirer is invisible on the public site.",
+       "ids": [
+        "amex-061"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Acquirers self-register for the EASI Portal on a form that names a signing authority and an NDA, and receive credentials after review.",
+       "ids": [
+        "dgn-023",
+        "dgn-165",
+        "new:t1-s1-dgn-easi-form"
+       ]
+      },
+      {
+       "text": "EASI holds specifications, test card kits and a Message Center.",
+       "ids": [
+        "dgn-135"
+       ]
+      },
+      {
+       "text": "The US acquirer schedule sits behind an acquirer-issued code and is confidential, while Canada's is public.",
+       "ids": [
+        "dgn-063",
+        "dgn-064",
+        "dgn-065",
+        "dgn-066"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI registration form",
+       "what_it_shows": "Contact, company, signing authority, company type checkboxes, regions, invited users and an NDA block",
+       "ids": [
+        "new:t1-s1-dgn-easi-form",
+        "new:t1-s1-dgn-easi-types"
+       ]
+      },
+      {
+       "name": "Acquirer interchange verification page",
+       "what_it_shows": "Code entry before the US schedule",
+       "ids": [
+        "dgn-063"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "A prospective acquirer cannot see US economics before signing up and being issued a code.",
+       "ids": [
+        "dgn-063",
+        "dgn-064"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:interac-eftpos",
+     "how_it_works": [
+      {
+       "text": "Interac publishes switch fees and direct and indirect connection fees, and eftpos publishes its interchange schedule.",
+       "ids": [
+        "interac-011",
+        "interac-015",
+        "eftpos-014"
+       ]
+      },
+      {
+       "text": "The RBA will require eftpos, Mastercard, Visa and large acquirers to publish their fees.",
+       "ids": [
+        "cross-078"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "Interac lets a new participant price connection and switching before any call.",
+    "ids": [
+     "interac-011",
+     "interac-015"
+    ]
+   },
+   "discover_today": {
+    "text": "Self-registration to EASI is open, but US economics stay behind a code and an NDA.",
+    "ids": [
+     "dgn-023",
+     "dgn-063",
+     "new:t1-s1-dgn-easi-form"
+    ]
+   }
+  },
+  {
+   "partner_type": "Payment facilitators and ISOs",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa Partner lists Third Party Agent Registration as a programme, and Visa Ready accepts acquirers and gateways.",
+       "ids": [
+        "visa-159",
+        "new:t1-s1-visa-ready-eligible"
+       ]
+      },
+      {
+       "text": "Visa Ready publishes six steps ending in a directory listing and offers sales collateral and joint marketing.",
+       "ids": [
+        "new:t1-s1-visa-ready-steps"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Visa Ready page",
+       "what_it_shows": "Eligibility, six steps, go-to-market support, directory link",
+       "ids": [
+        "new:t1-s1-visa-ready-steps",
+        "new:t1-s1-visa-ready-eligible"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The directory listed 73 partners in September 2026, while Visa's pages speak of hundreds.",
+       "ids": [
+        "new:t1-s1-visa-dir-count",
+        "new:t1-s1-visa-ready-500"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "The Engage directory is public and filters by audience, including payment facilitators.",
+       "ids": [
+        "mastercard-330",
+        "new:t1-s1-engage-202"
+       ]
+      },
+      {
+       "text": "Registration fees for third parties are billed but unpublished.",
+       "ids": [
+        "mastercard-064"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Engage partner directory",
+       "what_it_shows": "202 partners with geography, solution and audience filters",
+       "ids": [
+        "new:t1-s1-engage-202",
+        "new:t1-s1-engage-dd"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Mastercard tells users to run their own due diligence on listed partners.",
+       "ids": [
+        "new:t1-s1-engage-dd"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Payfacs join through a certified OptBlue Participant, and ISOs are registered by their Participant acquirer.",
+       "ids": [
+        "amex-057",
+        "amex-060",
+        "amex-062"
+       ]
+      },
+      {
+       "text": "The OptBlue agent hub gives sellers an objection guide, activation guide, disputes guide, welcome kit and signage ordering.",
+       "ids": [
+        "amex-302",
+        "new:t1-s1-amex-objections"
+       ]
+      },
+      {
+       "text": "It arms sellers with Nilson-sourced spend and ticket comparisons against other networks.",
+       "ids": [
+        "new:t1-s1-amex-spend"
+       ]
+      },
+      {
+       "text": "The US merchant threshold rose to 3 million dollars in April 2026.",
+       "ids": [
+        "amex-095"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue sales agent hub",
+       "what_it_shows": "Programme updates, eligibility thresholds, seller guides, email sign-up",
+       "ids": [
+        "new:t1-s1-amex-objections",
+        "amex-302"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Sellers work under non-public Operating Regulations held by the Participant.",
+       "ids": [
+        "amex-059"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "EASI registration lists ISO and payfac as company types.",
+       "ids": [
+        "new:t1-s1-dgn-easi-types"
+       ]
+      },
+      {
+       "text": "PULSE participants may sponsor ISOs into its debit service.",
+       "ids": [
+        "dgn-026"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "EASI registration form",
+       "what_it_shows": "Company type checkboxes including ISO, ISV and PayFac",
+       "ids": [
+        "new:t1-s1-dgn-easi-types"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No seller kit or objection guide for Discover acceptance was found on the public sites.",
+       "ids": [
+        "dgn-231"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex's OptBlue hub equips the third-party seller with guides and comparative data, so the network's case reaches merchants through the channel.",
+    "ids": [
+     "amex-302",
+     "new:t1-s1-amex-objections",
+     "new:t1-s1-amex-spend"
+    ]
+   },
+   "discover_today": {
+    "text": "ISOs and payfacs can register for technical material, but get no sales kit.",
+    "ids": [
+     "new:t1-s1-dgn-easi-types",
+     "dgn-231"
+    ]
+   }
+  },
+  {
+   "partner_type": "ATM operators",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Deployers join as ISO-ATM agents registered by a Visa or Plus client, and ATMs must be sponsored by a member.",
+       "ids": [
+        "visa-017",
+        "visa-053"
+       ]
+      },
+      {
+       "text": "Plus Alliance surcharge-free access is referenced only on a cardholder page.",
+       "ids": [
+        "visa-120"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Cardtronics alleges Visa's and Mastercard's access fee rules let rival ATM networks raise fees. This is a plaintiff's allegation.",
+       "ids": [
+        "cross-252"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Members may join other ATM networks unless they are competing ATM networks.",
+       "ids": [
+        "mastercard-072"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "Mastercard's ATM access fee rule is in litigation.",
+       "ids": [
+        "mastercard-111"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Cash access grows through market-by-market bank partnerships, with no global ATM acquirer application.",
+       "ids": [
+        "amex-077",
+        "amex-238"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "PULSE's ATM acquirer page sells domestic reach, exclusive Discover and Diners Club card access and a MoneyPass link.",
+       "ids": [
+        "new:t1-s1-pulse-atm"
+       ]
+      },
+      {
+       "text": "It states competitive fees without figures and closes on a contact route.",
+       "ids": [
+        "new:t1-s1-pulse-atm",
+        "pulse-002"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "PULSE ATM Acquirers page",
+       "what_it_shows": "Overview, solutions and support tabs, connect button",
+       "ids": [
+        "new:t1-s1-pulse-atm"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "One ATM ISO's public network list omits PULSE and Discover.",
+       "ids": [
+        "new:t1-s1-nas-networks"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "other:processors",
+     "how_it_works": [
+      {
+       "text": "Independent operators buy processing that bundles all PIN debit networks, so the processor makes the network choice.",
+       "ids": [
+        "new:t1-s1-switchcommerce",
+        "new:t1-s1-nas-networks"
+       ]
+      },
+      {
+       "text": "NYCE lets an ATM owner choose which machines join its surcharge-free programme.",
+       "ids": [
+        "nyce-012"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    }
+   ],
+   "best_pattern": {
+    "text": "NYCE publishes optional ATM programmes an owner can pick machine by machine.",
+    "ids": [
+     "nyce-012"
+    ]
+   },
+   "discover_today": {
+    "text": "PULSE's exclusive card access is the strongest pitch, yet the ATM operator rarely sees it because processors decide.",
+    "ids": [
+     "new:t1-s1-pulse-atm",
+     "new:t1-s1-nas-networks"
+    ]
+   }
+  },
+  {
+   "partner_type": "Fintechs and programme managers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Fintech Fast Track publishes its eligibility test. A fintech must be registered, solvent, new to issuing, not already a member and have raised at least 3 million dollars.",
+       "ids": [
+        "visa-018"
+       ]
+      },
+      {
+       "text": "Visa and the enablement partner both review the application.",
+       "ids": [
+        "visa-018",
+        "new:t1-s1-visa-fft-partners"
+       ]
+      },
+      {
+       "text": "The call to action is a Visa Partner account, followed by Visa outreach.",
+       "ids": [
+        "new:t1-s1-visa-fft-account"
+       ]
+      },
+      {
+       "text": "A public directory filters partners by country and by capability such as BIN sponsor, issuer processor and programme manager.",
+       "ids": [
+        "visa-160",
+        "new:t1-s1-visa-dir-filters"
+       ]
+      },
+      {
+       "text": "A public Visa Direct calculator returns a five-year revenue range from three answers.",
+       "ids": [
+        "new:t1-s1-visa-direct-calc",
+        "new:t1-s1-visa-direct-calc-caveat"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Fintech Fast Track page",
+       "what_it_shows": "Benefits, four-step approval path, eligibility, Apply Now",
+       "ids": [
+        "visa-018",
+        "new:t1-s1-visa-fft-account"
+       ]
+      },
+      {
+       "name": "Find a Partner directory",
+       "what_it_shows": "Filters by region and capability, programme tags",
+       "ids": [
+        "new:t1-s1-visa-dir-filters",
+        "new:t1-s1-visa-dir-disclaim"
+       ]
+      },
+      {
+       "name": "Visa Direct Revenue Calculator",
+       "what_it_shows": "Three questions, a five-year range chart and an illustrative-only caveat",
+       "ids": [
+        "new:t1-s1-visa-direct-calc"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No fee waivers or incentive amounts are published.",
+       "ids": [
+        "visa-266"
+       ]
+      },
+      {
+       "text": "The page's statistics cite a 2022 fact sheet.",
+       "ids": [
+        "new:t1-s1-visa-fft-stale"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard runs Start Path for growth-stage fintechs and Product Express for card launches through pre-certified partners.",
+       "ids": [
+        "mastercard-279",
+        "mastercard-086",
+        "new:t1-s1-mc-productexpress"
+       ]
+      },
+      {
+       "text": "Engage is a free marketplace of qualified enablers with a public directory of 202 partners.",
+       "ids": [
+        "mastercard-328",
+        "mastercard-329",
+        "new:t1-s1-engage-202"
+       ]
+      },
+      {
+       "text": "Mastercard Send is open only through a licensed originating institution.",
+       "ids": [
+        "mastercard-080"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Engage partner directory",
+       "what_it_shows": "Tile and table views with geography, solution and audience filters",
+       "ids": [
+        "new:t1-s1-engage-202"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The Engage link on the developer portal is gated behind login.",
+       "ids": [
+        "mastercard-036",
+        "mastercard-228"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Fintechs can apply to issue on Amex through Lithic under Amex's Agile Partnership Platform.",
+       "ids": [
+        "amex-097",
+        "new:t1-s1-amex-lithic"
+       ]
+      },
+      {
+       "text": "The fintech page sells premium economics without figures.",
+       "ids": [
+        "amex-193"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "The network contact form has no fintech business type.",
+       "ids": [
+        "new:t1-s1-amex-contact-bt"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "The fintech page describes a sponsor model and names three client firms, but no processor, sponsor bank or programme manager.",
+       "ids": [
+        "dgn-037",
+        "dgn-365"
+       ]
+      },
+      {
+       "text": "It closes on a contact route to experts.",
+       "ids": [
+        "new:t1-s1-dgn-fintech-contact"
+       ]
+      },
+      {
+       "text": "Marqeta says it is certified on Discover's 2026 release.",
+       "ids": [
+        "dgn-363"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Partner Directory",
+       "what_it_shows": "43 type-approved products in two solution types, tap on mobile and stored tokens",
+       "ids": [
+        "dgn-366",
+        "dgn-181"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Stripe, Adyen, Lithic and Highnote document no Discover issuing.",
+       "ids": [
+        "dgn-265",
+        "dgn-266",
+        "dgn-267",
+        "dgn-268"
+       ]
+      },
+      {
+       "text": "SoFi Tech Solutions says the primary network is usually Visa or Mastercard.",
+       "ids": [
+        "dgn-269"
+       ]
+      },
+      {
+       "text": "A fintech guide drops Discover and Amex from the choice as three-party networks.",
+       "ids": [
+        "new:t1-s1-ftt-closed"
+       ]
+      },
+      {
+       "text": "The same guide says winning Visa or Mastercard incentives is hard for startups without deep relationships.",
+       "ids": [
+        "new:t1-s1-ftt-incentive"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Visa pairs published eligibility with a filterable enabler directory, so a fintech can find its route before talking to Visa.",
+    "ids": [
+     "visa-018",
+     "new:t1-s1-visa-dir-filters"
+    ]
+   },
+   "discover_today": {
+    "text": "A fintech cannot find a platform that carries Discover from Discover's own pages.",
+    "ids": [
+     "dgn-365",
+     "dgn-366",
+     "dgn-267"
+    ]
+   }
+  },
+  {
+   "partner_type": "Developers",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Documentation is readable signed out, the sandbox is free and the commercial track runs in parallel.",
+       "ids": [
+        "visa-431",
+        "visa-190",
+        "visa-426"
+       ]
+      },
+      {
+       "text": "A pricing page explains three fee models without amounts.",
+       "ids": [
+        "visa-152",
+        "visa-030"
+       ]
+      },
+      {
+       "text": "Visa says onboarding time is the first question nearly every client asks.",
+       "ids": [
+        "visa-427"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "API browser",
+       "what_it_shows": "73 products, 20 restricted, audience filters",
+       "ids": [
+        "visa-205"
+       ]
+      },
+      {
+       "name": "Contact Us form",
+       "what_it_shows": "Subject options include Pricing",
+       "ids": [
+        "visa-459"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Restricted products need an access request reviewed by Visa.",
+       "ids": [
+        "visa-206"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "All documentation is readable signed out, with llms.txt and an MCP server for assistants.",
+       "ids": [
+        "mastercard-001",
+        "mastercard-034"
+       ]
+      },
+      {
+       "text": "Sandbox keys are self-service for most APIs.",
+       "ids": [
+        "mastercard-002"
+       ]
+      },
+      {
+       "text": "A public forum and status page let a developer judge support before signing up.",
+       "ids": [
+        "mastercard-304",
+        "mastercard-040"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Products catalogue",
+       "what_it_shows": "91 products with audience filters",
+       "ids": [
+        "mastercard-032"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "No API pricing is published.",
+       "ids": [
+        "mastercard-033"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "Some documentation is public, but five of 18 products hold specifications for invited readers.",
+       "ids": [
+        "amex-001",
+        "amex-003"
+       ]
+      },
+      {
+       "text": "Sandbox keys are requested and reviewed.",
+       "ids": [
+        "amex-005"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": [
+      {
+       "text": "No API price list exists.",
+       "ids": [
+        "amex-025"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "The Developer Center admits developers by representative invitation after a contact form.",
+       "ids": [
+        "dgn-002",
+        "dgn-034"
+       ]
+      },
+      {
+       "text": "The Partner Product Portal shows twelve products with OpenAPI specifications signed out.",
+       "ids": [
+        "dgn-007",
+        "dgn-008"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Developer Center home",
+       "what_it_shows": "A noindex login page pointing to Enablement Resources",
+       "ids": [
+        "dgn-001"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The catalogue is partial, pricing is absent and no llms.txt is published.",
+       "ids": [
+        "dgn-004",
+        "dgn-086",
+        "dgn-205"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Mastercard lets a developer read everything, test in a free sandbox and check live status before any commercial talk.",
+    "ids": [
+     "mastercard-001",
+     "mastercard-002",
+     "mastercard-040"
+    ]
+   },
+   "discover_today": {
+    "text": "A developer can read specs on the partner portal but cannot get a key without a representative.",
+    "ids": [
+     "dgn-008",
+     "dgn-002"
+    ]
+   }
+  },
+  {
+   "partner_type": "Merchants (direct touchpoints)",
+   "networks": [
+    {
+     "network": "visa",
+     "how_it_works": [
+      {
+       "text": "Visa publishes interchange and leaves merchant pricing to acquirers.",
+       "ids": [
+        "visa-238",
+        "visa-249"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "mastercard",
+     "how_it_works": [
+      {
+       "text": "Mastercard publishes rates and points merchants to their acquirer.",
+       "ids": [
+        "mastercard-325"
+       ]
+      }
+     ],
+     "tools_and_screens": [],
+     "friction": []
+    },
+    {
+     "network": "amex",
+     "how_it_works": [
+      {
+       "text": "The merchant page lists OptBlue providers and a phone number, and says the provider sets the rate.",
+       "ids": [
+        "amex-227",
+        "amex-159"
+       ]
+      },
+      {
+       "text": "It cites Nilson for 99 percent US acceptance parity.",
+       "ids": [
+        "amex-225"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "OptBlue merchant page",
+       "what_it_shows": "Benefits, provider list and phone line",
+       "ids": [
+        "amex-227"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "Direct merchant discount rates are listed as varying.",
+       "ids": [
+        "amex-190"
+       ]
+      }
+     ]
+    },
+    {
+     "network": "discover-family",
+     "how_it_works": [
+      {
+       "text": "Merchants are told to ask their acquirer or pick one from a regional list.",
+       "ids": [
+        "new:t1-s1-dgn-find-acquirer",
+        "dgn-273"
+       ]
+      },
+      {
+       "text": "The acceptance page sells reach and incremental sales without a price or spend per card.",
+       "ids": [
+        "dgn-224",
+        "dgn-357"
+       ]
+      },
+      {
+       "text": "PULSE's merchant page sells routing savings without figures.",
+       "ids": [
+        "new:t1-s1-pulse-merchant"
+       ]
+      }
+     ],
+     "tools_and_screens": [
+      {
+       "name": "Find an Acquirer",
+       "what_it_shows": "Region selector, POS test and signage links",
+       "ids": [
+        "new:t1-s1-dgn-find-acquirer"
+       ]
+      }
+     ],
+     "friction": [
+      {
+       "text": "The US acquirer list omits Adyen, Chase and Worldpay.",
+       "ids": [
+        "dgn-273"
+       ]
+      },
+      {
+       "text": "Capital One's chief executive says merchants ask how much volume a network brings.",
+       "ids": [
+        "dgn-359"
+       ]
+      }
+     ]
+    }
+   ],
+   "best_pattern": {
+    "text": "Amex gives merchants and their sellers a comparative spend figure with its source.",
+    "ids": [
+     "new:t1-s1-amex-spend",
+     "amex-225"
+    ]
+   },
+   "discover_today": {
+    "text": "A merchant sees reach counts but no evidence of what network cardholders would spend with them.",
+    "ids": [
+     "dgn-357",
+     "dgn-231"
+    ]
+   }
+  }
+ ],
+ "design_moves": [
+  {
+   "title": "An evaluation pack per partner type",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Acquirers and processors"
+   ],
+   "move": "Give each prospect a downloadable pack: participation model, fee structure lines, service levels the network commits to, ownership separation terms and endorsements.",
+   "why_advantage": "Banks already buy due diligence from ABA and advisers. A network that supplies it first shortens their work and sets the terms of comparison.",
+   "ids": [
+    "new:t1-s1-aba-dd",
+    "new:t1-s1-cornerstone-bids",
+    "new:t1-s1-advantage-bench",
+    "cross-177",
+    "cross-179"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "A self-serve debit yield model",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Fintechs and programme managers"
+   ],
+   "move": "Turn the Debit Advantage Analysis into a model a prospect runs on its own mix, showing exempt yield after routing with its assumptions visible.",
+   "why_advantage": "Visa publishes exempt rates and runs a public calculator. Discover hides yield behind a call, and the Fed table cannot answer an issuer's own case.",
+   "ids": [
+    "visa-445",
+    "new:t1-s1-pulse-advantage",
+    "new:t1-s1-visa-direct-calc",
+    "new:t1-s1-fed-caveat",
+    "cross-075"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "One front door that names the next step",
+   "partner_types": [
+    "Issuers: large banks",
+    "Issuers: community banks and credit unions",
+    "Acquirers and processors",
+    "Payment facilitators and ISOs",
+    "ATM operators",
+    "Fintechs and programme managers"
+   ],
+   "move": "Replace scattered forms and mailboxes with one intake that routes by partner type, states the next step, who owns it and the committed reply time.",
+   "why_advantage": "Rivals end in newsletter forms, mailboxes or representatives. A clear first step is a service level, which Rich's rules allow in the product.",
+   "ids": [
+    "new:t1-s1-visa-contact-form",
+    "new:t1-s1-amex-contact",
+    "new:t1-s1-amex-contact-bt",
+    "new:t1-s1-visa-lic-steps",
+    "dgn-035",
+    "dgn-158"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "A provider shelf for fintechs",
+   "partner_types": [
+    "Fintechs and programme managers"
+   ],
+   "move": "Publish the processors, sponsor banks and programme managers that carry the network, by product and country, and start the fintech path inside one of them.",
+   "why_advantage": "Visa and Mastercard win fintechs through enabler directories. Discover names none, so fintechs never see it as an option.",
+   "ids": [
+    "new:t1-s1-visa-dir-filters",
+    "new:t1-s1-engage-202",
+    "new:t1-s1-ftt-closed",
+    "dgn-365",
+    "dgn-267",
+    "dgn-269",
+    "dgn-363"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Arm the channel that sells",
+   "partner_types": [
+    "Payment facilitators and ISOs",
+    "Acquirers and processors",
+    "ATM operators",
+    "Merchants (direct touchpoints)"
+   ],
+   "move": "Give acquirers, ISOs and ATM processors a seller kit with merchant-level value evidence and objection answers, modelled on the OptBlue hub pattern.",
+   "why_advantage": "Merchants ask what volume a network brings. Amex answers through sellers, while Discover's pages give no spend figure.",
+   "ids": [
+    "amex-302",
+    "new:t1-s1-amex-objections",
+    "new:t1-s1-amex-spend",
+    "new:t1-s1-nas-networks",
+    "dgn-357",
+    "dgn-359"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Price visible to a stranger",
+   "partner_types": [
+    "Acquirers and processors",
+    "ATM operators",
+    "Issuers: community banks and credit unions"
+   ],
+   "move": "Show a standard acquirer schedule and fee structure before sign-up, as Discover already does in Canada, with incentives on a separate line.",
+   "why_advantage": "No major US network publishes the network fees a prospect would pay. Interac and eftpos do, and the RBA is forcing publication in Australia.",
+   "ids": [
+    "dgn-063",
+    "dgn-065",
+    "cross-163",
+    "interac-011",
+    "interac-015",
+    "eftpos-014",
+    "cross-078"
+   ],
+   "evidence_strength": "moderate"
+  },
+  {
+   "title": "Open evaluation for developers",
+   "partner_types": [
+    "Developers"
+   ],
+   "move": "Make specifications, sandbox keys and a pricing model page available before any representative contact, with markdown twins for assistants.",
+   "why_advantage": "Mastercard and Visa already allow this, so Discover's invite-only door removes it from developer shortlists.",
+   "ids": [
+    "mastercard-001",
+    "mastercard-002",
+    "visa-152",
+    "visa-426",
+    "dgn-002",
+    "dgn-205"
+   ],
+   "evidence_strength": "strong"
+  },
+  {
+   "title": "Dated proof from peers",
+   "partner_types": [
+    "Issuers: community banks and credit unions",
+    "Issuers: large banks",
+    "Fintechs and programme managers"
+   ],
+   "move": "Carry case studies and client survey quotes by partner type, each dated and sourced, and keep every headline figure current.",
+   "why_advantage": "Visa and PULSE use peer case studies, while Visa and Amex pages show figures years old. Fresh proof reads as care.",
+   "ids": [
+    "new:t1-s1-visa-cardinal-results",
+    "new:t1-s1-pulse-extraco",
+    "new:t1-s1-pulse-voc",
+    "new:t1-s1-visa-fft-stale",
+    "new:t1-s1-amex-issuer-2022"
+   ],
+   "evidence_strength": "moderate"
+  }
+ ],
+ "unseen": [
+  {
+   "what": "Mastercard's fintech, issuer and community pages",
+   "why": "mastercard.com returned Access Denied to every automated fetch on 26 September 2026, and Wayback holds only partial captures.",
+   "how_to_see_it": "Read the pages in an ordinary browser session, or use Wayback captures from 2025 and 2026."
+  },
+  {
+   "what": "How large banks run network selections",
+   "why": "Bids, RFPs and incentive terms are private, and only advisers' marketing describes them.",
+   "how_to_see_it": "Interview advisers such as Cornerstone or Engage fi, or bank card executives, and read DOJ trial exhibits as they are filed."
+  },
+  {
+   "what": "Sales decks and first-call materials",
+   "why": "No network publishes what its account executives present.",
+   "how_to_see_it": "Conference talk recordings, bank board minutes published by credit unions, and former employees' portfolios."
+  },
+  {
+   "what": "The content of Visa's CGAP enrolment portal and Portfolio Insights",
+   "why": "Both sit behind Visa Online.",
+   "how_to_see_it": "Credit union league webinars and Visa University course outlines."
+  },
+  {
+   "what": "The ABA due diligence report on Discover Debit and the Debit Advantage Analysis output",
+   "why": "Both are issued on request to members or prospects.",
+   "how_to_see_it": "Ask a friendly ABA member bank, or look for bank board packets that attach them."
+  },
+  {
+   "what": "Discover family events for prospects",
+   "why": "No partner summit or client conference was found beyond PULSE webinars and a Diners hospitality event.",
+   "how_to_see_it": "Search Money20/20 and ICBA Capital Summit sponsor lists and PULSE's YouTube channel."
+  },
+  {
+   "what": "Analyst comparisons of networks",
+   "why": "Nilson rankings and Datos or Mercator reports are paywalled.",
+   "how_to_see_it": "Library or subscriber access to Nilson and Datos Insights."
+  },
+  {
+   "what": "Amex's route for a bank to become a network issuer in the US",
+   "why": "The site offers only a general contact form and marketing pages.",
+   "how_to_see_it": "Press releases of recent GNS issuer signings and Amex investor day materials."
+  }
+ ],
+ "evidence": [
+  {
+   "key": "t1-s1-visa-cgap",
+   "network": "visa",
+   "claim": "Visa's community bank and credit union page says participants in its Community Growth Acceleration Program get a curated suite of products, assets and thought leadership.",
+   "quote": "participating in the Community Growth Acceleration Program, you get access to a suite of products, assets, thought leadership and more",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/community-solutions.html",
+   "title": "Community Solutions",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-cgap-vol",
+   "network": "visa",
+   "claim": "Enrolment in Visa's community programme runs through a product enrolment portal that needs a Visa Online login first.",
+   "quote": "Visit the product enrollment portal today. You must first be logged in to VisaOnline.com",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/resources.html",
+   "title": "Visa community issuer resources",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-ae",
+   "network": "visa",
+   "claim": "Visa's community issuer page closes on a call to talk to an Account Executive rather than any published terms.",
+   "quote": "Connect with one of our Account Executives to see how Visa can help you grow.",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers.html",
+   "title": "Community banks and credit unions",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-extension",
+   "network": "visa",
+   "claim": "Visa pitches its community offer as an extension of the institution's own team.",
+   "quote": "We aim to be an extension of your team",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers.html",
+   "title": "Community banks and credit unions",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-sow",
+   "network": "visa",
+   "claim": "Visa's community issuer pitch leads on brand preference and share of wallet, with no figures.",
+   "quote": "Our strong brand preference can lead to a higher share of wallet.",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers.html",
+   "title": "Community banks and credit unions",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-contact-form",
+   "network": "visa",
+   "claim": "The 'Contact our team' link for community issuers opens a newsletter sign-up form with name, company, work email, optional phone and a free-text help field.",
+   "quote": "Sign up to stay updated on the latest news and information about Community Issuers and other Visa news.",
+   "url": "https://globalclient.visa.com/community-issuers-contact-us",
+   "title": "Community Issuers contact form",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-cardinal",
+   "network": "visa",
+   "claim": "Visa's Cardinal Credit Union case study says Portfolio Insights comes at no extra cost to community programme participants and was introduced by the credit union's Visa Account Executive.",
+   "quote": "available at no additional cost to Community Growth Acceleration Program participants",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/community-solutions/cardinal-credit-union-case-study.html",
+   "title": "Turning insights into action for Cardinal Credit Union",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-cardinal-results",
+   "network": "visa",
+   "claim": "The Cardinal case study reports a 21 percent rise in new active cards, a 3 percent lift in active cards and 9 percent higher transaction amounts.",
+   "quote": "+21% in new active cards",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/community-solutions/cardinal-credit-union-case-study.html",
+   "title": "Turning insights into action for Cardinal Credit Union",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-portfolio-insights",
+   "network": "visa",
+   "claim": "Visa describes Portfolio Insights as an on-demand tool for portfolio analysis against peer benchmarks, including top interchange revenue sources.",
+   "quote": "an on-demand analytical tool designed for clients to conduct ad-hoc analysis of their portfolio and review peer benchmarks",
+   "url": "https://usa.visa.com/partner-with-us/community-issuers/community-solutions/cardinal-credit-union-case-study.html",
+   "title": "Turning insights into action for Cardinal Credit Union",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-fft-partners",
+   "network": "visa",
+   "claim": "Fintech Fast Track promises faster onboarding by leaning on Visa's relationships with BIN sponsors, processors and programme managers.",
+   "quote": "Leverage Visa’s relationships with enablement partners (e.g., BIN sponsors, processors, and/or program managers) for accelerated program review and ramp.",
+   "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+   "title": "Fintech Fast Track",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-fft-stale",
+   "network": "visa",
+   "claim": "The Fintech Fast Track page's network statistics are footnoted to Visa's 2022 fact sheet, four years old when read.",
+   "quote": "1Source - 2022 Visa Fact Sheet",
+   "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+   "title": "Fintech Fast Track",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-fft-account",
+   "network": "visa",
+   "claim": "Fast Track's call to action is to create a Visa Partner account, after which Visa follows up with next steps.",
+   "quote": "Create an account. It just takes a few minutes.",
+   "url": "https://partner.visa.com/content/gpp/programs/fintech-program.html",
+   "title": "Fintech Fast Track",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-lic-steps",
+   "network": "visa",
+   "claim": "Visa's licensing page gives four steps: contact a regional licensing mailbox, receive Visa Access credentials, apply in the Client Lifecycle Management tool under a temporary UVID, then receive a Business ID.",
+   "quote": "Complete your application in the Visa Client Lifecyle Management Tool, found in Visa Access.",
+   "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+   "title": "Licensing Program",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-lic-access",
+   "network": "visa",
+   "claim": "A prospective licensee receives Visa Access credentials only after eligibility is confirmed.",
+   "quote": "Once eligible, you'll receive Visa Access credentials to begin your licensing application.",
+   "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+   "title": "Licensing Program",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-lic-review",
+   "network": "visa",
+   "claim": "Visa publishes the four review areas for a licence: regulatory permissions, AML and ATF compliance, credit and settlement risk, and risk management.",
+   "quote": "Visa licensing applications are reviewed by regional teams to ensure they meet Visa requirements, local regulations, and your role in the payments ecosystem.",
+   "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+   "title": "Licensing Program",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-lic-tiers",
+   "network": "visa",
+   "claim": "Visa's licensing page compares Principal and Associate clients by capability, with Associates typically smaller credit unions and startups sponsored by a Principal.",
+   "quote": "These clients are typically smaller credit unions, startups, or other entities.",
+   "url": "https://partner.visa.com/content/gpp/programs/licensing-program.html",
+   "title": "Licensing Program",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-ready-eligible",
+   "network": "visa",
+   "claim": "Visa Ready is open to technology partners, issuer processors, BIN sponsors, programme managers, acquirers and gateways, and claims 500+ partners.",
+   "quote": "Technology partners, issuer processors, BIN sponsors, program managers, acquirers, and gateways are eligible to apply to the Visa Ready program.",
+   "url": "https://partner.visa.com/content/gpp/programs/visa-ready.html",
+   "title": "Visa Ready",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-ready-500",
+   "network": "visa",
+   "claim": "The Visa Ready page claims more than 500 partners.",
+   "quote": "500+ partners",
+   "url": "https://partner.visa.com/content/gpp/programs/visa-ready.html",
+   "title": "Visa Ready",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-ready-steps",
+   "network": "visa",
+   "claim": "Visa Ready publishes a six-step path ending in a partner directory listing, and lists go-to-market support such as sales collateral and joint marketing.",
+   "quote": "Get your company listed in the partner directory",
+   "url": "https://partner.visa.com/content/gpp/programs/visa-ready.html",
+   "title": "Visa Ready",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-dir-count",
+   "network": "visa",
+   "claim": "The public Visa Partner directory showed 72 listings across Visa Ready and Fintech Partner Connect when read, against the 500+ Visa Ready partners claimed.",
+   "quote": "1 to 12 of 72",
+   "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+   "title": "Find a Partner",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-dir-filters",
+   "network": "visa",
+   "claim": "The Visa Partner directory filters by country and by capability, including BIN Sponsors, Issuer Processor and Program Manager.",
+   "quote": "BIN Sponsors",
+   "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+   "title": "Find a Partner",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-dir-disclaim",
+   "network": "visa",
+   "claim": "Visa's directory disclaims responsibility for the partners it lists.",
+   "quote": "Visa is not endorsing, nor is it responsible for the actions of a client/partner listed on this site.",
+   "url": "https://partner.visa.com/content/gpp/partner-directory.html",
+   "title": "Find a Partner",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-direct-calc",
+   "network": "visa",
+   "claim": "Visa runs a public Visa Direct revenue calculator that takes three answers and returns a five-year revenue range for cross-border remittances, with no sign-in.",
+   "quote": "Find out how much potential revenue your business could generate over five years",
+   "url": "https://visadirectremittancecalculator.visa.com/",
+   "title": "Visa Direct Revenue Calculator",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-direct-calc-caveat",
+   "network": "visa",
+   "claim": "The calculator labels its estimates illustrative and not guarantees.",
+   "quote": "Revenue estimates are for illustrative purposes only and are not guarantees of actual performance.",
+   "url": "https://visadirectremittancecalculator.visa.com/",
+   "title": "Visa Direct Revenue Calculator",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-visa-vca-migration",
+   "network": "visa",
+   "claim": "Visa Consulting and Analytics markets portfolio migration results to issuers, among other outcome figures.",
+   "quote": "Cards migrated in first 6 months at 85% activation",
+   "url": "https://usa.visa.com/partner-with-us/visa-consulting-analytics.html",
+   "title": "Visa Consulting and Analytics",
+   "publisher": "Visa",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-contact",
+   "network": "amex",
+   "claim": "The American Express Global Network contact form asks for name, email, company, country, one of four business types (Acquirer, Developer, Issuer, Solution or Service Provider) and a product.",
+   "quote": "If you would like to know more about the American Express Global Network then please provide some brief information below.",
+   "url": "https://network.americanexpress.com/globalnetwork/contact-us/",
+   "title": "Contact Us",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-contact-bt",
+   "network": "amex",
+   "claim": "The form's business types omit fintech and ATM operator.",
+   "quote": "Solution or Service Provider",
+   "url": "https://network.americanexpress.com/globalnetwork/contact-us/",
+   "title": "Contact Us",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-webinars",
+   "network": "amex",
+   "claim": "Amex runs business webinars with senior executives and training webinars for network participants, both with live Q&A.",
+   "quote": "Business Webinars, invites senior executives from Amex and the payments industry to provide their perspectives on key topics and trends.",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/backing-our-partners/",
+   "title": "Backing Our Partners",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-issuer-2022",
+   "network": "amex",
+   "claim": "The Amex issuer partner page supports its largest-issuer claim with a 2022 Nilson ranking.",
+   "quote": "American Express was ranked as the largest credit card issuer measured by global purchase volume in 2022",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/",
+   "title": "Issuers",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-home-audiences",
+   "network": "amex",
+   "claim": "The Amex network home page addresses card issuers, merchant acquirers and fintechs, and says partner means licensed issuer or acquirer.",
+   "quote": "Whether you are a Card Issuer, Merchant Acquirer or Fintech, American Express has the experience to help you connect the dots",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/",
+   "title": "American Express Network",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-objections",
+   "network": "amex",
+   "claim": "Amex gives OptBlue sales agents an objection-handling guide for selling Amex acceptance to merchants.",
+   "quote": "Be ready with answers to merchants’ most asked questions about American Express Card acceptance.",
+   "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+   "title": "Welcome to OptBlue",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-spend",
+   "network": "amex",
+   "claim": "Amex's OptBlue agent page arms sellers with Nilson-sourced comparisons of spend per card against other networks.",
+   "quote": "The annual spend on American Express® Cards was, on average, 3.1X that of cards on other networks.",
+   "url": "https://www.americanexpress.com/en-us/business/optblue/agent/",
+   "title": "Welcome to OptBlue",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-ipp",
+   "network": "amex",
+   "claim": "Amex's Integrated Payments Providers programme gives POS software vendors a single contact for specifications, certification and production support.",
+   "quote": "The program provides a central point of contact for technical and specification guidance, certification assistance, and production support.",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/integrated-payments-providers-program/",
+   "title": "Integrated Payments Providers Program",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-lithic",
+   "network": "amex",
+   "claim": "Lithic says fintechs can apply to issue on the Amex network through its platform, which joined Amex's Agile Partnership Platform.",
+   "quote": "Fintechs of all sizes now have the opportunity to apply to develop and scale innovative payments solutions",
+   "url": "https://www.lithic.com/blog/amex-announcement",
+   "title": "Lithic Expands Platform to Offer More Payment Options for Fintechs on the American Express Network",
+   "publisher": "Lithic",
+   "published": "2025-05-14",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-pricing-claim",
+   "network": "dgn",
+   "claim": "Discover's how-we-partner page claims competitive pricing from a direct relationship with the network, with no figures.",
+   "quote": "With a direct relationship with our network, you can take advantage of economic efficiencies",
+   "url": "https://www.discoverglobalnetwork.com/our-network/how-we-partner/",
+   "title": "How We Partner",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-find-acquirer",
+   "network": "dgn",
+   "claim": "Discover's merchant route is to contact a current acquirer or pick one from a regional list.",
+   "quote": "contact your current acquirer or find one from our list.",
+   "url": "https://www.discoverglobalnetwork.com/resources/businesses/find-an-acquirer/",
+   "title": "Find an Acquirer",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-fintech-contact",
+   "network": "dgn",
+   "claim": "Discover's fintech page ends on a contact route to its experts, with no programme steps.",
+   "quote": "Reach out to our team of experts to learn more about how our Fintech solutions can help grow your business.",
+   "url": "https://www.discoverglobalnetwork.com/solutions/issuing-commerce-collaboration/fintech-partnerships/",
+   "title": "Fintech Partnerships",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-advantage",
+   "network": "pulse",
+   "claim": "PULSE offers regional banks and credit unions a Debit Advantage Analysis, a scheduled review of their debit portfolio.",
+   "quote": "Get a Debit Advantage Analysis to spot ways to save you time and money.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-reconcile",
+   "network": "pulse",
+   "claim": "PULSE claims Discover Debit bills can be reconciled in ten minutes against up to eight hours on other networks.",
+   "quote": "our transparent billing and all-in fee structure can allow you to reconcile your bill in as little as 10 minutes.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-team",
+   "network": "pulse",
+   "claim": "The Discover Debit page names a marketing consultant, an account manager and an implementation project manager as the issuer's team.",
+   "quote": "Our team will help you create, launch, market, and grow a successful debit program.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-hub",
+   "network": "pulse",
+   "claim": "Every Discover Debit issuer gets a Marketing Hub for customising banners, social posts and email templates.",
+   "quote": "All Discover Debit issuers receive access to the Marketing Hub",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/",
+   "title": "Discover Debit",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-extraco",
+   "network": "pulse",
+   "claim": "PULSE's Discover Debit landing page cites a switcher case study with a 45 percent higher bottom-line contribution.",
+   "quote": "Discover Debit’s contribution to Extraco’s bottom line has been 45% higher than it would have been if it hadn’t made the switch.",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/choice/",
+   "title": "Discover Debit gives you the advantage",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-reeval",
+   "network": "pulse",
+   "claim": "The Discover Debit landing page invites issuers to re-evaluate their debit programme and lists three case studies.",
+   "quote": "Let’s re-evaluate your debit program",
+   "url": "https://www.pulsenetwork.com/public/discover-debit/choice/",
+   "title": "Discover Debit gives you the advantage",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-voc",
+   "network": "pulse",
+   "claim": "PULSE quotes issuers from its 2025 Voice of the Client Survey on account management.",
+   "quote": "The number one thing about PULSE is my interactions with my Account Executive",
+   "url": "https://www.pulsenetwork.com/public/why-pulse/",
+   "title": "Why PULSE",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-study-webinar",
+   "network": "pulse",
+   "claim": "PULSE pairs its annual Debit Issuer Study with a webinar analysing the results.",
+   "quote": "Watch a webinar presented by Steve Sievert for in-depth analysis of the results",
+   "url": "https://www.pulsenetwork.com/public/debit-issuer-study/",
+   "title": "2026 PULSE Debit Issuer Study",
+   "publisher": "PULSE",
+   "published": "2026",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-hub-lead",
+   "network": "pulse",
+   "claim": "PULSE's content hub carries a lead form inviting readers to chat with an Account Executive.",
+   "quote": "Want to chat with an Account Executive?",
+   "url": "https://content.pulsenetwork.com/",
+   "title": "Payments & You",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-atm",
+   "network": "pulse",
+   "claim": "PULSE's ATM acquirer page sells domestic reach, exclusive access to Discover and Diners Club cards and a link to MoneyPass, and states no fee figures.",
+   "quote": "exclusive access to Discover® credit, Discover Debit, and Diners Club International® cards",
+   "url": "https://www.pulsenetwork.com/public/atm-acquirers/",
+   "title": "ATM Acquirers",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-pulse-merchant",
+   "network": "pulse",
+   "claim": "PULSE's merchant page sells debit routing choice and potential savings, with no figures beyond a ten-point authorisation claim.",
+   "quote": "Debit routing could result in significant savings for your business.",
+   "url": "https://www.pulsenetwork.com/public/merchants/",
+   "title": "Merchants",
+   "publisher": "PULSE",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-aba-discount",
+   "network": "pulse",
+   "claim": "ABA's endorsement page for Discover Debit gives ABA members 2 basis points off the all-in programme fee and names that fee as the network fee.",
+   "quote": "ABA Members receive 2 basis points off of their All In Program Fee, which is the network fee based on portfolio volume paid to Discover.",
+   "url": "https://www.aba.com/experts-peers/partner-network/endorsed-solutions/discover-debit-signature-debit-program",
+   "title": "Discover Debit: Debit Card Program",
+   "publisher": "American Bankers Association",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-aba-dd",
+   "network": "pulse",
+   "claim": "The same ABA page lets a bank request a due diligence report on Discover Debit, backed by ABA's evaluation by experts and bankers.",
+   "quote": "ABA-endorsed products and services are evaluated by industry experts and bankers.",
+   "url": "https://www.aba.com/experts-peers/partner-network/endorsed-solutions/discover-debit-signature-debit-program",
+   "title": "Discover Debit: Debit Card Program",
+   "publisher": "American Bankers Association",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-aba-visa-mc",
+   "network": "cross",
+   "claim": "ABA's endorsed solutions list includes an ABA Credit Card programme on Visa and MasterCard alongside Discover Debit.",
+   "quote": "ABA Credit Card provides members a full-service Visa and MasterCard program",
+   "url": "https://www.aba.com/experts-peers/partner-network/endorsed-solutions",
+   "title": "Endorsed Solutions",
+   "publisher": "American Bankers Association",
+   "published": "n.d.",
+   "label": "Reported",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-fed-caveat",
+   "network": "cross",
+   "claim": "The Fed's per-network debit interchange table warns it does not show what any issuer would earn on a network.",
+   "quote": "does not reflect what a particular issuer will earn by participating in a particular network or combination of networks.",
+   "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "title": "Average Debit Card Interchange Fee by Payment Card Network",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "published": "2025-12-19",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-fed-table",
+   "network": "cross",
+   "claim": "The Fed table lists 2024 averages for each debit network, the only neutral cross-network comparison found, with Discover's exempt average at 83 cents and PULSE's at 29 cents.",
+   "quote": "Discover\t100.0%\t100.0%\t$68.57\t$0.83\t1.22%",
+   "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+   "title": "Average Debit Card Interchange Fee by Payment Card Network",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "published": "2025-12-19",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-cornerstone",
+   "network": "cross",
+   "claim": "Cornerstone Advisors sells card brand negotiation to banks and credit unions, soliciting bids from Visa and Mastercard.",
+   "quote": "Cornerstone negotiates with Visa and Mastercard to assist our clients in benefiting from substantially higher incentives and lower fees.",
+   "url": "https://www.crnrstone.com/bold-solutions/contract-negotiations",
+   "title": "Contract Negotiations",
+   "publisher": "Cornerstone Advisors",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-cornerstone-bids",
+   "network": "cross",
+   "claim": "Cornerstone's card branding negotiators run a bid process between networks.",
+   "quote": "Our card branding negotiators assist our clients by soliciting bids and negotiating with the vendor(s)",
+   "url": "https://www.crnrstone.com/bold-solutions/contract-negotiations",
+   "title": "Contract Negotiations",
+   "publisher": "Cornerstone Advisors",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-engagefi",
+   "network": "cross",
+   "claim": "Engage fi describes network selection as a give-and-take incentive negotiation.",
+   "quote": "To gain bank and credit union business, the networks make incentive offerings and deals and negotiate in a give-and-take fashion.",
+   "url": "https://engagefi.com/consulting/payments/card-networks",
+   "title": "Card Networks",
+   "publisher": "Engage fi",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-engagefi-result",
+   "network": "cross",
+   "claim": "Engage fi claims one negotiation more than doubled a client's card brand incentives.",
+   "quote": "The financial institution received more than twice the card brand incentives compared to their previous agreement.",
+   "url": "https://engagefi.com/consulting/payments/card-networks",
+   "title": "Card Networks",
+   "publisher": "Engage fi",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-advantage",
+   "network": "cross",
+   "claim": "A JMFA consultancy says Visa and Mastercard are offering unusually aggressive incentives since Capital One's purchase of Discover.",
+   "quote": "Visa and Mastercard are offering some of the most aggressive marketing and growth incentives in years.",
+   "url": "https://advantage-fi.com/the-rising-value-of-card-brand-agreements/",
+   "title": "The Rising Value of Card Brand Agreements",
+   "publisher": "ADVANTAGE, powered by JMFA",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-advantage-bench",
+   "network": "cross",
+   "claim": "The same firm says many community institutions sign network agreements without benchmark data.",
+   "quote": "many community financial institutions enter into these agreements without the benchmarking data, performance analytics, or negotiation expertise",
+   "url": "https://advantage-fi.com/the-rising-value-of-card-brand-agreements/",
+   "title": "The Rising Value of Card Brand Agreements",
+   "publisher": "ADVANTAGE, powered by JMFA",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-velera",
+   "network": "cross",
+   "claim": "Velera's Pay Network pools more than 200 credit union clients to negotiate debit interchange with networks.",
+   "quote": "Velera leverages the collective scale of over 200 clients to negotiate higher interchange revenue on behalf of your credit union",
+   "url": "https://www.velera.com/pay-network",
+   "title": "Pay Network",
+   "publisher": "Velera",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-ftt-incentive",
+   "network": "cross",
+   "claim": "A fintech analyst advises card programme founders to get Visa or Mastercard to bid with incentives, which is hard without deep relationships.",
+   "quote": "When choosing between Visa and Mastercard, you ideally want one of the networks to offer you financial incentives in order to win your business.",
+   "url": "https://fintechtakes.com/articles/2022-12-15/choose-adventure/",
+   "title": "Choose Your Own (Card Issuing) Adventure",
+   "publisher": "Fintech Takes",
+   "published": "2022-12-15",
+   "label": "Reported",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-ftt-closed",
+   "network": "cross",
+   "claim": "The same guide drops American Express and Discover from a fintech's network choice as three-party networks.",
+   "quote": "American Express and Discover mostly operate a three-party model, which means that they are the only issuing banks on their networks.",
+   "url": "https://fintechtakes.com/articles/2022-12-15/choose-adventure/",
+   "title": "Choose Your Own (Card Issuing) Adventure",
+   "publisher": "Fintech Takes",
+   "published": "2022-12-15",
+   "label": "Reported",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-nas-networks",
+   "network": "cross",
+   "claim": "An ATM ISO lists the networks it processes through Columbus Data Services, a list that names neither PULSE nor Discover.",
+   "quote": "licensed to perform ATM transaction processing with all major ATM networks including Visa, MasterCard, American Express, Maestro, Cirrus, Plus, Star, NYCE, UnionPay",
+   "url": "https://www.nasatm.com/pages/atm-processing",
+   "title": "ATM Processing",
+   "publisher": "National ATM Systems",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-switchcommerce",
+   "network": "cross",
+   "claim": "An ATM processor sells its service to operators as connections to all PIN debit networks, PULSE included.",
+   "quote": "we provide connections to all PIN debit networks including: AFFN, Cirrus, CU24, EBT, Exchange, Plus, Pulse, NYCE, Star, SHAZAM and more.",
+   "url": "https://www.atmia.com/showrooms/switch-commerce-llc/1131/",
+   "title": "Switch Commerce, LLC showroom",
+   "publisher": "ATM Industry Association",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-engage-202",
+   "network": "mastercard",
+   "claim": "The public Engage partner directory showed 202 partners when read and disclaims their quality.",
+   "quote": "Displaying (1-48 of 202)",
+   "url": "https://engagepartners.mastercard.com/english/directory/",
+   "title": "Mastercard Engage Partner Directory",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-engage-dd",
+   "network": "mastercard",
+   "claim": "Mastercard tells directory users to do their own due diligence on Engage partners.",
+   "quote": "we recommend you to perform a due diligence before engaging with a partner listed on this website.",
+   "url": "https://engagepartners.mastercard.com/english/directory/",
+   "title": "Mastercard Engage Partner Directory",
+   "publisher": "Mastercard",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-mc-403",
+   "network": "mastercard",
+   "claim": "Mastercard's fintech programme pages returned an Access Denied page to automated fetches on 26 September 2026.",
+   "quote": "You don't have permission to access",
+   "url": "https://www.mastercard.com/us/en/business/industry-segment/fintech.html",
+   "title": "Access Denied",
+   "publisher": "Mastercard (Akamai edge)",
+   "published": "2026-09-26",
+   "label": "Verified",
+   "fetch": "curl with Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "t1-s1-mc-productexpress",
+   "network": "mastercard",
+   "claim": "Mastercard's fintech programmes page offered account management, Start Path and Product Express, which handles licensing, onboarding and partnerships.",
+   "quote": "Product Express gets your card program up and running quickly",
+   "url": "https://web.archive.org/web/20250915054640/https://www.mastercard.com/global/en/business/fintech/fintech-programs.html",
+   "title": "Mastercard Fintech Program",
+   "publisher": "Mastercard via Wayback Machine",
+   "published": "2025-09-15",
+   "label": "Vendor",
+   "fetch": "Wayback Machine raw capture 20250915054640, curl, 2026-09-26"
+  },
+  {
+   "key": "t1-s1-diners-contact",
+   "network": "diners",
+   "claim": "Diners Club's card programme page sends would-be country partners to a contact form.",
+   "quote": "Want to partner with us? Let's work together to offer these products in your country.",
+   "url": "https://www.dinersclub.com/businesses/cardprograms/",
+   "title": "Card Programs",
+   "publisher": "Diners Club International",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-atm",
+   "network": "dgn",
+   "claim": "Discover's network site routes debit, ATM issuer and ATM acquirer prospects to PULSE pages.",
+   "quote": "Partner with our debit network PULSE and let our expertise and solutions help empower your business to get more from debit.",
+   "url": "https://www.discoverglobalnetwork.com/solutions/debit-network-atm-solutions/",
+   "title": "Debit Network and ATM Solutions",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-easi-form",
+   "network": "dgn",
+   "claim": "The EASI registration form issues login credentials by email after review and asks for a signing authority and NDA details.",
+   "quote": "Please complete the form below to receive login credentials via email.",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal registration",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-dgn-easi-types",
+   "network": "dgn",
+   "claim": "EASI's company types include Independent Sales Organization and Payment Facilitator, so ISOs and payfacs can register for Discover enablement material directly.",
+   "quote": "Payment Facilitator - PayFac",
+   "url": "https://www.discovereasi.com/easi/getregistration",
+   "title": "EASI Portal registration",
+   "publisher": "Discover Global Network",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  },
+  {
+   "key": "t1-s1-amex-issuer-power",
+   "network": "amex",
+   "claim": "The Amex issuer page offers risk solutions, data and analytics with benchmarking, and implementation support, and states no economics.",
+   "quote": "Our Issuers can leverage our risk solutions to optimize authorizations, protect high value customers and manage their risk.",
+   "url": "https://network.americanexpress.com/globalnetwork/v4/partners/issuers/power-of-the-network/",
+   "title": "Power of the Network (Issuers)",
+   "publisher": "American Express",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "rendered text via tools/text.js (headless Chrome UA), 2026-09-26"
+  }
+ ],
+ "stage_id": "1"
+}
