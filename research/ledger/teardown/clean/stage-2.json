@@ -28,7 +28,9 @@
    "text": "Third-party registration is the sponsor's paperwork. The routes are Visa Program Request Management, Mastercard My Company Manager, and OptBlue registration forms emailed to American Express.",
    "ids": [
     "visa-303",
-    "mastercard-063"
+    "mastercard-063",
+    "new:t2-s2-amex-ob-isoform",
+    "new:t2-s2-amex-ob-pfform"
    ]
   },
   {
@@ -36,6 +38,7 @@
    "ids": [
     "visa-010",
     "visa-305",
+    "new:t2-s2-amex-ob-pfdd",
     "mastercard-065",
     "new:t2-s2-amex-bop-sp"
    ]
@@ -746,14 +749,40 @@
        ]
       },
       {
+       "text": "OptBlue participants must meet launch conditions. These include a Program Agreement, Authorized Processor status matched with Visa and Mastercard, written certification, a financial statement review and a compliance questionnaire.",
+       "ids": [
+        "new:t2-s2-amex-ob-launch"
+       ]
+      },
+      {
+       "text": "OptBlue participants then enrol at connect.amex360.com for regulations, training and sales tools.",
+       "ids": [
+        "new:t2-s2-amex-ob-360"
+       ]
+      },
+      {
        "text": "Processors and gateways register through AMEX Enabled under a click-through NDA, with no fee.",
        "ids": [
         "amex-046",
         "amex-047"
        ]
+      },
+      {
+       "text": "An OptBlue Participant pays a wholesale fee on every charge, set from the Appendix A rate table plus additional fees. Changes need 180 days' notice.",
+       "ids": [
+        "new:tM-M-ob-wholesale",
+        "new:tM-M-ob-180"
+       ]
       }
      ],
      "tools_and_screens": [
+      {
+       "name": "American Express 360Connect",
+       "what_it_shows": "OptBlue regulations, forms, training and bulletins, opened after enrolment is verified.",
+       "ids": [
+        "new:t2-s2-amex-ob-360"
+       ]
+      },
       {
        "name": "AMEX Enabled Dashboard",
        "what_it_shows": "Specifications, product enrolment, DocuSign contracts and up to five extra users.",
@@ -768,6 +797,14 @@
        "text": "American Express publishes no route for an acquirer to become an OptBlue participant.",
        "ids": [
         "amex-061"
+       ]
+      },
+      {
+       "text": "Participants may not publish the wholesale fee. Processor pricing guides marked confidential are still posted openly by a bank and a reseller.",
+       "ids": [
+        "new:tM-M-ob-nopublish",
+        "new:tM-M-fs-mark",
+        "new:tM-M-fd-mark"
        ]
       }
      ]
@@ -825,7 +862,12 @@
      ]
     }
    ],
-   "best_pattern": {},
+   "best_pattern": {
+    "text": "American Express writes its OptBlue launch conditions as a checklist that a processor can plan against.",
+    "ids": [
+     "new:t2-s2-amex-ob-launch"
+    ]
+   },
    "discover_today": {
     "text": "EASI gives acquirers and processors self-service registration that captures signing authority and company type. It opens specifications and test kits, and Discover publishes no licensing steps.",
     "ids": [
@@ -997,10 +1039,73 @@
         "amex-057",
         "amex-271"
        ]
+      },
+      {
+       "text": "The participant checks eligibility with its American Express representative first.",
+       "ids": [
+        "new:t2-s2-amex-ob-rep"
+       ]
+      },
+      {
+       "text": "For an ISO, the participant runs due diligence and background checks, generates an ISO Registration Number and emails the form to a programme oversight mailbox.",
+       "ids": [
+        "new:t2-s2-amex-ob-isoid",
+        "new:t2-s2-amex-ob-isoform"
+       ]
+      },
+      {
+       "text": "For a payment facilitator, the participant sends a form 30 days before launch. American Express must approve it in writing.",
+       "ids": [
+        "new:t2-s2-amex-ob-pfform",
+        "new:t2-s2-amex-ob-pf30",
+        "new:t2-s2-amex-ob-pffields"
+       ]
+      },
+      {
+       "text": "The participant must also run KYC and AML checks and a site visit or name match.",
+       "ids": [
+        "new:t2-s2-amex-ob-pfdd"
+       ]
+      },
+      {
+       "text": "A payfac joining through a Participant takes that Participant's OptBlue price, built from tiers by MCC industry, ticket size, card origin and entry mode.",
+       "ids": [
+        "new:tM-M-fs-mcc",
+        "new:tM-M-fd-three",
+        "new:tM-M-fd-costly"
+       ]
+      },
+      {
+       "text": "Fiserv's Fall 2025 guide splits US debit into regulated and unregulated tiers, with regulated debit at 0.04% plus USD 0.25.",
+       "ids": [
+        "new:tM-M-fs-regdebit"
+       ]
       }
      ],
-     "tools_and_screens": [],
+     "tools_and_screens": [
+      {
+       "name": "ISO Registration and Certification Form, Appendix F",
+       "what_it_shows": "A signed certification by the participant plus an ISO list, emailed in.",
+       "ids": [
+        "new:t2-s2-amex-ob-isoform"
+       ]
+      },
+      {
+       "name": "Payment Facilitator Registration Form, Appendix G",
+       "what_it_shows": "An editable PDF with New, Change or Terminated submission types, an account manager, CAP number, launch date and V/MC registration status.",
+       "ids": [
+        "new:t2-s2-amex-ob-pffields"
+       ]
+      }
+     ],
      "friction": [
+      {
+       "text": "Registration runs on PDFs and a shared mailbox, and no status view is published.",
+       "ids": [
+        "new:t2-s2-amex-ob-isoform",
+        "new:t2-s2-amex-ob-pfform"
+       ]
+      },
       {
        "text": "ISOs usually sign merchants on the sponsor's own application, and the sponsor bank co-signs each ISO merchant agreement.",
        "ids": [
@@ -1456,6 +1561,12 @@
        "ids": [
         "amex-312"
        ]
+      },
+      {
+       "text": "OptBlue merchants see a Participant's price. The Participant must tell them that it, not American Express, sets the cost of acceptance.",
+       "ids": [
+        "new:tM-M-ob-convey"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1521,6 +1632,8 @@
    "move": "Give the sponsoring bank one registration record per ISO, payment facilitator or ATM deployer. It holds the diligence checklist, PCI evidence and identifiers, with a visible status up to written approval.",
    "why_advantage": "American Express takes these registrations as emailed PDFs and Mastercard takes them in My Company Manager. Sponsor staff track the work in Excel, and Discover publishes no network step.",
    "ids": [
+    "new:t2-s2-amex-ob-isoform",
+    "new:t2-s2-amex-ob-pfform",
     "mastercard-063",
     "new:t2-s2-citizens-tools",
     "new:t2-s2-dgn-pfroadmap"
@@ -1585,13 +1698,16 @@
     "Issuers: community banks and credit unions (sponsored or associate)"
    ],
    "move": "Publish registration and participation fees, or state that a step carries no fee, on the join map.",
-   "why_advantage": "Visa's last public agent fee is from 2016, Mastercard's sit behind Connect, and PULSE states participation fees exist without amounts. American Express states that OptBlue payment facilitator and AMEX Enabled registration carry no fee.",
+   "why_advantage": "Visa's last public agent fee is from 2016, Mastercard's sit behind Connect, and PULSE states participation fees exist without amounts. American Express states that OptBlue payment facilitator and AMEX Enabled registration carry no fee. OptBlue forbids Participants to publish the wholesale fee, yet Fiserv and First Data guides listing every tier sit openly on bank and reseller sites.",
    "ids": [
     "visa-014",
     "mastercard-064",
     "dgn-028",
     "amex-047",
-    "amex-057"
+    "amex-057",
+    "new:tM-M-ob-nopublish",
+    "new:tM-M-fs-mark",
+    "new:tM-M-fd-mark"
    ],
    "evidence_strength": "moderate"
   },
@@ -1674,11 +1790,6 @@
    "what": "Elapsed time from application to licence",
    "why": "No network publishes a licensing timeline.",
    "how_to_see_it": "Compare signing and launch dates in partner press releases."
-  },
-  {
-   "what": "How the OptBlue regulations should be treated",
-   "why": "The copy used is marked confidential by American Express and was republished by a processor.",
-   "how_to_see_it": "Ask Rich whether to keep or drop the s2-amex-ob rows."
   }
  ],
  "evidence": [
@@ -1813,6 +1924,114 @@
    "published": "2023-10",
    "label": "Verified",
    "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Extraction splits \"Trademark\" as \"T rademark\"."
+  },
+  {
+   "key": "t2-s2-amex-ob-launch",
+   "network": "amex",
+   "claim": "OptBlue launch conditions include a Program Agreement, Authorized Processor status matched by Visa and Mastercard processor status, written certification, a financial statement review and a compliance and ethics questionnaire.",
+   "quote": "a completed review of the Participant’s most recent certified financial statements",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-360",
+   "network": "amex",
+   "claim": "OptBlue participants enrol at connect.amex360.com for the regulations, training and sales tools, and secured publications open only after enrolment is verified.",
+   "quote": "Participant must enroll at connect.amex360.com, and once enrollment has been verified, Participant's access to secured online publications will be granted.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-rep",
+   "network": "amex",
+   "claim": "Before bringing on an ISO or payment facilitator, an OptBlue participant must first check eligibility with its American Express representative.",
+   "quote": "Prior to onboarding an ISO or a Payment Facilitator, a Participant must contact its American Express representative",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-isoform",
+   "network": "amex",
+   "claim": "ISO registration is a form from Appendix F or 360Connect, emailed by the participant to a programme oversight mailbox before the ISO is onboarded.",
+   "quote": "Completed registration forms must be emailed to: program.oversight.management@aexp.com with the subject line entitled \"ISO Registration Form\".",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-isoid",
+   "network": "amex",
+   "claim": "The OptBlue participant itself generates each ISO Registration Number and reports it at registration and in semi-annual reporting.",
+   "quote": "Participant must generate a unique identification (ID) number for each ISO (ISO Registration Number)",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-pfform",
+   "network": "amex",
+   "claim": "A payment facilitator is registered on an editable PDF from connect.amex360.com, emailed in, and needs written American Express approval before it signs sponsored merchants.",
+   "quote": "must be approved in writing by American Express before the Payment Facilitator may solicit Sponsored Merchant Prospects",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-pf30",
+   "network": "amex",
+   "claim": "OptBlue asks for initial payment facilitator registrations 30 days before services start, which is the only lead time stated for this step.",
+   "quote": "For initial registration, send 30 days before providing services under the Program.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-pfdd",
+   "network": "amex",
+   "claim": "The participant must run KYC, AML, credit and background checks on each payment facilitator and its owners, and a site visit or phone, address and name match.",
+   "quote": "Participant must conduct a physical site visit to the business location (if applicable) or phone/ address/ name match",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
+  },
+  {
+   "key": "t2-s2-amex-ob-pffields",
+   "network": "amex",
+   "claim": "The payment facilitator form collects an account manager, a CAP number association, an anticipated launch date, tax ID, Visa and Mastercard registration status, volume and sponsored merchant count.",
+   "quote": "Payment Facilitator Anticipated Launch Date",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express, republished by Palmyra (UMPA), a processor",
+   "published": "2024-04-12",
+   "label": "Verified",
+   "fetch": "curl and pypdf text extraction, 2026-09-26. The document is marked confidential by American Express and is republished openly by a processor."
   },
   {
    "key": "t2-s2-visa-directory",
@@ -2389,6 +2608,126 @@
    "published": "2023-10",
    "label": "Verified",
    "fetch": "curl and pypdf text extraction, 2026-09-26. Confidential-marked manual served openly from network.americanexpress.com, the same file as ledger amex-212. Extraction splits \"Territory\" as \"T erritory\"."
+  },
+  {
+   "key": "tM-M-fs-regdebit",
+   "network": "amex",
+   "claim": "The Fall 2025 guide prices US regulated debit on Amex at 0.04% plus USD 0.25.",
+   "quote": "Card Types: U.S. Issued Consumer Regulated Debit",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-ob-convey",
+   "network": "amex",
+   "claim": "Participants must tell merchants that the acceptance price is set by the Participant.",
+   "quote": "Participant must convey to Program Merchants that the cost for Card acceptance is set by Participant, and not American Express.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ob-nopublish",
+   "network": "amex",
+   "claim": "Participants and their sales entities must not publish the wholesale fee or additional fees.",
+   "quote": "Participant must not, and must ensure its Participant Sales Entities do not, publish or disclose the Wholesale Fee",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-fd-three",
+   "network": "amex",
+   "claim": "Each OptBlue industry category has three pricing levels by ticket size.",
+   "quote": "Each industry category has three pricing levels.",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-fs-mark",
+   "network": "amex",
+   "claim": "Fiserv's Fall 2025 OptBlue guide is marked Fiserv Confidential on every page.",
+   "quote": "This document contains confidential and proprietary information of Fiserv, Inc.",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-ob-wholesale",
+   "network": "amex",
+   "claim": "Amex deducts a Wholesale Fee from every OptBlue charge, set from the Appendix A rate table plus additional fees.",
+   "quote": "American Express shall deduct a fee from each Charge from a Program Merchant submitted to American Express by Participant for settlement (Wholesale Fee).",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ob-180",
+   "network": "amex",
+   "claim": "Amex must give Participants at least 180 days' written notice of a wholesale fee change.",
+   "quote": "American Express may change Wholesale Fees by providing written notice to Participant at least one hundred eighty (180) days prior",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-fs-mcc",
+   "network": "amex",
+   "claim": "OptBlue pricing levels follow industry groups mapped to MCCs.",
+   "quote": "Pricing levels are based on industry levels that correspond to Merchant Category Codes",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-fd-costly",
+   "network": "amex",
+   "claim": "Keyed transactions and non-US cards can fall to dearer OptBlue levels.",
+   "quote": "transactions may be processed at a more costly pricing level solely as a result of not being swiped or the country of issuance",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-fd-mark",
+   "network": "amex",
+   "claim": "First Data's OptBlue pricing guide is marked confidential and proprietary.",
+   "quote": "This document contains confidential and proprietary information of First Data Corporation.",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
   }
  ],
  "stage_id": "2"

@@ -19,6 +19,7 @@
    "ids": [
     "new:t3-s3-mcc-roles",
     "new:t3-s3-mc1145-sa",
+    "new:t3-s3-vem-sor",
     "new:t3-s3-vaccess-admins"
    ]
   },
@@ -63,7 +64,8 @@
     "unionpay-038",
     "unionpay-041",
     "unionpay-042",
-    "new:t3-s3-mcc-track"
+    "new:t3-s3-mcc-track",
+    "new:t3-s3-vem-history"
    ]
   },
   {
@@ -137,6 +139,13 @@
        ]
       },
       {
+       "text": "The bank's own delegated administrators create users in Visa Enrollment Manager, add services and assign a role for each service.",
+       "ids": [
+        "new:t3-s3-vem-sor",
+        "new:t3-s3-vem-services"
+       ]
+      },
+      {
        "text": "Visa Token Service onboarding material on Visa Developer is restricted to entitled users, so the issuer path is not public.",
        "ids": [
         "new:t3-s3-vts-restricted"
@@ -153,6 +162,14 @@
        ]
       },
       {
+       "name": "Visa Enrollment Manager Delegated Admin",
+       "what_it_shows": "Inbox of pending tasks, a History area with activity status, Users menu and exportable inactivity and profile reports.",
+       "ids": [
+        "new:t3-s3-vem-history",
+        "new:t3-s3-vem-reports"
+       ]
+      },
+      {
        "name": "Program Request Management, eCIQ and VCSA",
        "what_it_shows": "Client Portfolio Management Self-Service Tools for profile, programme and agent records.",
        "ids": [
@@ -161,6 +178,12 @@
       }
      ],
      "friction": [
+      {
+       "text": "VEM shows the administrator a temporary password that must be passed to the new user by hand.",
+       "ids": [
+        "new:t3-s3-vem-password"
+       ]
+      },
       {
        "text": "Visa Access support sends users to their organisation's local administrators before Visa will help.",
        "ids": [
@@ -1909,6 +1932,7 @@
     "unionpay-040",
     "unionpay-042",
     "new:t3-s3-mcc-track",
+    "new:t3-s3-vem-history",
     "dgn-172"
    ],
    "evidence_strength": "strong"
@@ -2000,6 +2024,7 @@
    "why_advantage": "Mastercard uses an emailed form and Visa a hand-passed password. A BaaS platform publishes its own list of the Connect apps a bank needs.",
    "ids": [
     "new:t3-s3-mc1145-sa",
+    "new:t3-s3-vem-password",
     "new:t3-s3-syn-lat",
     "new:t3-s3-syn-sp",
     "new:t3-s3-pulse-super",
@@ -2364,6 +2389,66 @@
    "published": "n.d.",
    "label": "Verified",
    "fetch": "curl markdown twin, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vem-sor",
+   "network": "visa",
+   "claim": "Visa Enrollment Manager Delegated Admin is the system of record for extranet access, run by administrators inside the client organisation.",
+   "quote": "You can create users and establish an authoritative system of record for all Visa Extranet access using the VEM Delegated Admin tool.",
+   "url": "https://www.rbcroyalbank.com/business/credit-cards/commercial-cards-program/service-centre/VISA_Commercial_Delegated_Administrators_Guide_EN.pdf",
+   "title": "Visa Enrollment Manager (VEM) Delegated Admin (2025)",
+   "publisher": "Visa, republished by RBC Royal Bank",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vem-history",
+   "network": "visa",
+   "claim": "VEM has an Inbox of pending tasks and a History area showing the status of each administrative activity.",
+   "quote": "You can track the status of your activities in the History area.",
+   "url": "https://www.rbcroyalbank.com/business/credit-cards/commercial-cards-program/service-centre/VISA_Commercial_Delegated_Administrators_Guide_EN.pdf",
+   "title": "Visa Enrollment Manager (VEM) Delegated Admin (2025)",
+   "publisher": "Visa, republished by RBC Royal Bank",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vem-services",
+   "network": "visa",
+   "claim": "Administrators add services to each user from a menu and then pick a role per service.",
+   "quote": "Click on ADD SERVICE and the menu is displayed showing all the services that can be added to the user.",
+   "url": "https://www.rbcroyalbank.com/business/credit-cards/commercial-cards-program/service-centre/VISA_Commercial_Delegated_Administrators_Guide_EN.pdf",
+   "title": "Visa Enrollment Manager (VEM) Delegated Admin (2025)",
+   "publisher": "Visa, republished by RBC Royal Bank",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vem-password",
+   "network": "visa",
+   "claim": "VEM generates a temporary password that the administrator must pass to the new user by hand.",
+   "quote": "Administrators will need to share it directly with the user.",
+   "url": "https://www.rbcroyalbank.com/business/credit-cards/commercial-cards-program/service-centre/VISA_Commercial_Delegated_Administrators_Guide_EN.pdf",
+   "title": "Visa Enrollment Manager (VEM) Delegated Admin (2025)",
+   "publisher": "Visa, republished by RBC Royal Bank",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "t3-s3-vem-reports",
+   "network": "visa",
+   "claim": "VEM administrators can export user inactivity and user profile reports.",
+   "quote": "Visa Enrollment Manager administrators will be able to generate, view and download the following types of reports",
+   "url": "https://www.rbcroyalbank.com/business/credit-cards/commercial-cards-program/service-centre/VISA_Commercial_Delegated_Administrators_Guide_EN.pdf",
+   "title": "Visa Enrollment Manager (VEM) Delegated Admin (2025)",
+   "publisher": "Visa, republished by RBC Royal Bank",
+   "published": "2025",
+   "label": "Verified",
+   "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
   },
   {
    "key": "t3-s3-vaccess-admins",

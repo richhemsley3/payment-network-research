@@ -34,6 +34,7 @@
    "text": "Card design approval is gated everywhere. Visa wants every design before production, Mastercard routes proofs from the manufacturer through CDAS, and both keep the standards behind a login.",
    "ids": [
     "new:t5-visa-r-design",
+    "new:t5-mc-2011-cdas",
     "new:t5-mc-r-cds",
     "new:t5-mc-brand-cds"
    ]
@@ -204,9 +205,30 @@
        ]
       },
       {
+       "text": "In the 2011 new-issuer guide, the issuer's certified manufacturer sends a colour proof through CDAS and Card Design Management approves it before manufacture.",
+       "ids": [
+        "new:t5-mc-2011-cdas",
+        "new:t5-mc-2011-cdm"
+       ]
+      },
+      {
        "text": "Each co-brand, prepaid or virtual product was registered on a Special Issuer Registration Form in that guide. Prepaid now uses a registration tool on Mastercard Connect.",
        "ids": [
+        "new:t5-mc-2011-sirf",
         "new:t5-mc-r-prepaid-reg"
+       ]
+      },
+      {
+       "text": "Billing and settlement start the moment the ICA is assigned, before any card is live.",
+       "ids": [
+        "new:t5-mc-2011-billing"
+       ]
+      },
+      {
+       "text": "In 2011 each new institution had to register for a list of mandatory online products, and service provider registration took about 5 to 7 business days.",
+       "ids": [
+        "new:t5-mc-2011-mandatory",
+        "new:t5-mc-2011-mrp"
        ]
       },
       {
@@ -233,6 +255,13 @@
        ]
       },
       {
+       "name": "Card Design Approvals System (CDAS)",
+       "what_it_shows": "Manufacturer-side proof submission for card design approval, as described in 2011.",
+       "ids": [
+        "new:t5-mc-2011-cdas"
+       ]
+      },
+      {
        "name": "Mastercard Brand Center",
        "what_it_shows": "Public logo artwork, branding requirements and decal ordering, which sends issuers to Connect for card artwork.",
        "ids": [
@@ -242,6 +271,18 @@
       }
      ],
      "friction": [
+      {
+       "text": "The only public walk-through of issuer launch is a 2011 guide, so current screens and turnaround times cannot be confirmed.",
+       "ids": [
+        "new:t5-mc-2011-welcome"
+       ]
+      },
+      {
+       "text": "The 2011 guide pitched itself to issuers converting a portfolio, yet no later public version has been found.",
+       "ids": [
+        "new:t5-mc-2011-welcome"
+       ]
+      },
       {
        "text": "The rules contain no pilot or soft-launch concept.",
        "ids": [
@@ -473,6 +514,12 @@
        "text": "A US affiliate can join through a Type I processor's ICAs and BINs, so the processor carries most launch work.",
        "ids": [
         "mastercard-060"
+       ]
+      },
+      {
+       "text": "The 2011 guide told new issuers to ask their Mastercard or processor representative for help.",
+       "ids": [
+        "new:t5-mc-2011-rep"
        ]
       }
      ],
@@ -1674,6 +1721,12 @@
        "ids": [
         "new:t5-walmart-phased"
        ]
+      },
+      {
+       "text": "Mastercard's 2011 resource guide was written for issuers growing or converting a portfolio.",
+       "ids": [
+        "new:t5-mc-2011-welcome"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1802,6 +1855,7 @@
    "why_advantage": "Visa and Mastercard route design approval through vendors and gated systems. Token art is a separate duty and wallet updates take days to spread.",
    "ids": [
     "new:t5-visa-r-design",
+    "new:t5-mc-2011-cdas",
     "new:t5-visa-r-token-art",
     "new:t5-sofi-token-art",
     "new:t5-pulse-pss-cardart"
@@ -2257,6 +2311,102 @@
    "published": "2026-06-02",
    "label": "Verified",
    "fetch": "Wayback Machine capture of 20 September 2026 via curl and pypdf, 2026-09-26 (live URL returns Akamai Access Denied to curl). Observation: case-insensitive count of 'pilot' in the extracted text is 0"
+  },
+  {
+   "key": "t5-mc-2011-welcome",
+   "network": "mastercard",
+   "claim": "Mastercard's 2011 new-issuer resource guide was written for issuers growing or converting a portfolio.",
+   "quote": "Whether you are growing or converting your portfolio",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-rep",
+   "network": "mastercard",
+   "claim": "The 2011 guide told new issuers to contact their Mastercard or processor representative with questions.",
+   "quote": "please contact your MasterCard or Processor Representative",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-cdm",
+   "network": "mastercard",
+   "claim": "In 2011 Mastercard required Card Design Management approval of every branded card design before manufacture.",
+   "quote": "Any card design bearing any MasterCard Brand Mark must be approved by Card Design Management (CDM) prior to manufacturing.",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-cdas",
+   "network": "mastercard",
+   "claim": "The issuer's certified card manufacturer, not the issuer, submits the colour proof through the Card Design Approvals System.",
+   "quote": "The card manufacturer will submit a color proof electronically via the Card Design Approvals System (CDAS).",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-sirf",
+   "network": "mastercard",
+   "claim": "Mastercard required a Special Issuer Registration Form for each co-brand, prepaid, virtual or multi-application product.",
+   "quote": "Issuers are required to submit a registration form for each product they wish to offer.",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-mandatory",
+   "network": "mastercard",
+   "claim": "The 2011 guide lists online products each new institution had to register for to avoid non-compliance assessments.",
+   "quote": "MasterCard requires at least one user from each institution to register for the products below in order to avoid non-compliance assessments.",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-billing",
+   "network": "mastercard",
+   "claim": "Mastercard warned new issuers that billing and settlement start as soon as the ICA number is assigned.",
+   "quote": "Billing and settlement can begin as soon as the ICA is assigned.",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
+  },
+  {
+   "key": "t5-mc-2011-mrp",
+   "network": "mastercard",
+   "claim": "Registering a service provider in the Mastercard Registration Program took about 5 to 7 business days in 2011.",
+   "quote": "The approval process takes approximately 5-7 business days.",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (copy hosted by a credit union league)",
+   "publisher": "MasterCard (U.S. Product Delivery Team), hosted by cscu.net",
+   "published": "2011-12-20 (PDF metadata)",
+   "label": "Verified",
+   "fetch": "curl with desktop Chrome user agent and pypdf text extraction, 2026-09-26"
   },
   {
    "key": "t5-mc-brand-cds",

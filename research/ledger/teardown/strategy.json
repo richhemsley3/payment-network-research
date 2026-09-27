@@ -769,7 +769,7 @@
      ]
     },
     {
-     "text": "Commit to service levels on the network's own steps with an escalation route, and keep estimated durations out of the product.",
+     "text": "Commit to service levels on the network's own steps, each with an escalation route.",
      "ids": [
       "mastercard-078",
       "mastercard-418",
@@ -859,18 +859,16 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Brightline story",
-    "Value proposition",
-    "Developer site"
+    "Partner portal",
+    "Value proposition and sales",
+    "Developer experience"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "Every fee line traces to its trigger",
     "Show the class and rate each transaction was billed at",
     "Fix billing errors for everyone"
-   ],
-   "relates_to": "d1-fee-trace"
+   ]
   },
   {
    "rank": 2,
@@ -922,10 +920,10 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Developer site",
-    "Agent portal",
-    "Brightline story"
+    "Partner portal",
+    "Developer experience",
+    "Network operations tools",
+    "Value proposition and sales"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -933,8 +931,7 @@
     "Settlement day as a status",
     "The same data as file and API",
     "Keep the short bill"
-   ],
-   "relates_to": "new"
+   ]
   },
   {
    "rank": 3,
@@ -982,17 +979,16 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Developer site",
-    "Agent portal"
+    "Partner portal",
+    "Developer experience",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "Build for the processor as the customer",
     "Certify once, inherit across clients",
     "Give intermediaries a multi-institution queue and give the client a view"
-   ],
-   "relates_to": "new"
+   ]
   },
   {
    "rank": 4,
@@ -1038,16 +1034,14 @@
     }
    ],
    "surfaces": [
-    "Value proposition",
-    "Developer site",
-    "Clearway",
-    "Brightline story"
+    "Value proposition and sales",
+    "Developer experience",
+    "Partner portal"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "A provider shelf for fintechs"
-   ],
-   "relates_to": "d9-fintech-path"
+   ]
   },
   {
    "rank": 5,
@@ -1099,18 +1093,16 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Value proposition",
-    "Agent portal",
-    "Brightline story"
+    "Partner portal",
+    "Value proposition and sales",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "Offer free pre-dispute resolution and count it as prevented",
     "Publish the monitoring line and show the items behind the ratio",
     "Make the dispute rules public and dated"
-   ],
-   "relates_to": "d7-disputes-line"
+   ]
   },
   {
    "rank": 6,
@@ -1168,10 +1160,10 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Brightline story",
-    "Developer site",
-    "Agent portal"
+    "Partner portal",
+    "Value proposition and sales",
+    "Developer experience",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1181,8 +1173,7 @@
     "Extension request inside the change",
     "A quiet cycle, said plainly",
     "Change notice names the billing line"
-   ],
-   "relates_to": "d10-live-partner-comms"
+   ]
   },
   {
    "rank": 7,
@@ -1238,8 +1229,8 @@
     }
    ],
    "surfaces": [
-    "Developer site",
-    "Clearway"
+    "Developer experience",
+    "Partner portal"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1247,8 +1238,7 @@
     "Open evaluation for developers",
     "Docs readable by coding assistants",
     "Credentials that do not strand the developer"
-   ],
-   "relates_to": "d11-developer-access"
+   ]
   },
   {
    "rank": 8,
@@ -1298,10 +1288,9 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Agent portal",
-    "Brightline story",
-    "Value proposition"
+    "Partner portal",
+    "Network operations tools",
+    "Value proposition and sales"
    ],
    "evidence_strength": "moderate",
    "stage_move_titles": [
@@ -1309,8 +1298,7 @@
     "Incentive ledger in the partner record",
     "Renewal workspace over the whole term",
     "Fee explanation included, consulting on request"
-   ],
-   "relates_to": "d4-partner-economics"
+   ]
   },
   {
    "rank": 9,
@@ -1365,9 +1353,9 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Developer site",
-    "Brightline story"
+    "Partner portal",
+    "Developer experience",
+    "Value proposition and sales"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1376,8 +1364,7 @@
     "Put the partner's own legal clock beside the network clock",
     "Let evidence be checked before it is final",
     "One sign-in and self-serve enrolment for dispute and fraud tools"
-   ],
-   "relates_to": "new"
+   ]
   },
   {
    "rank": 10,
@@ -1433,18 +1420,16 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Agent portal",
-    "Value proposition",
-    "Brightline story"
+    "Partner portal",
+    "Network operations tools",
+    "Value proposition and sales"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "A conversion kit built from the Capital One reissue",
     "Conversion desk for issuers moving in",
     "Range readiness before cards ship"
-   ],
-   "relates_to": "new"
+   ]
   },
   {
    "rank": 11,
@@ -1495,10 +1480,9 @@
     }
    ],
    "surfaces": [
-    "Value proposition",
-    "Clearway",
-    "Agent portal",
-    "Brightline story"
+    "Value proposition and sales",
+    "Partner portal",
+    "Network operations tools"
    ],
    "evidence_strength": "moderate",
    "stage_move_titles": [
@@ -1506,8 +1490,7 @@
     "Price visible to a stranger",
     "An evaluation pack per partner type",
     "Publish the money rulebook"
-   ],
-   "relates_to": "d2-debit-positioning"
+   ]
   },
   {
    "rank": 12,
@@ -1557,10 +1540,10 @@
     }
    ],
    "surfaces": [
-    "Value proposition",
-    "Clearway",
-    "Developer site",
-    "Agent portal"
+    "Value proposition and sales",
+    "Partner portal",
+    "Developer experience",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1570,8 +1553,7 @@
     "A sponsor console for third-party registration",
     "Named roles captured once at joining",
     "Publish the network's own service levels"
-   ],
-   "relates_to": "d6-timings-ruling"
+   ]
   },
   {
    "rank": 13,
@@ -1627,9 +1609,9 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Developer site",
-    "Agent portal"
+    "Partner portal",
+    "Developer experience",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1639,8 +1621,7 @@
     "A retest check before any change",
     "Certification as a shared project record",
     "One door for the Discover family"
-   ],
-   "relates_to": "i1"
+   ]
   },
   {
    "rank": 14,
@@ -1690,10 +1671,10 @@
     }
    ],
    "surfaces": [
-    "Developer site",
-    "Clearway",
-    "Brightline story",
-    "Agent portal"
+    "Developer experience",
+    "Partner portal",
+    "Value proposition and sales",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
@@ -1701,8 +1682,7 @@
     "One support map with hours and clocks",
     "Public status and webhook contracts",
     "Contacts that stay current"
-   ],
-   "relates_to": "i6"
+   ]
   },
   {
    "rank": 15,
@@ -1746,16 +1726,15 @@
     }
    ],
    "surfaces": [
-    "Clearway",
-    "Brightline story",
-    "Agent portal"
+    "Partner portal",
+    "Value proposition and sales",
+    "Network operations tools"
    ],
    "evidence_strength": "strong",
    "stage_move_titles": [
     "A written go-ahead that says you are live",
     "A shared first-weeks launch room"
-   ],
-   "relates_to": "new"
+   ]
   },
   {
    "rank": 16,
@@ -1807,18 +1786,16 @@
     }
    ],
    "surfaces": [
-    "Value proposition",
-    "Brightline story",
-    "Clearway",
-    "Agent portal"
+    "Value proposition and sales",
+    "Partner portal",
+    "Network operations tools"
    ],
    "evidence_strength": "moderate",
    "stage_move_titles": [
     "Arm the channel that sells",
     "Dated proof from peers",
     "Marks and deadlines inside the launch checklist"
-   ],
-   "relates_to": "d8-merchant-value"
+   ]
   }
  ],
  "unseen": [
@@ -1840,7 +1817,7 @@
   },
   {
    "what": "Discover's own gated surfaces: the signed-in Developer Center, EASI Message Center and Document Library, the Disputes Portal, the host simulator and PULSE rules.",
-   "how_to_see_it": "Rich's team can review them internally through proper channels and compare them against this benchmark."
+   "how_to_see_it": "Discover's own teams can review them internally and compare them against this benchmark."
   }
  ]
 }

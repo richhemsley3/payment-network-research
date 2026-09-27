@@ -1393,6 +1393,71 @@
    "fetch": "node tools/text.js 2026-09-26",
    "accessed": "2026-09-26",
    "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Discover issuers need a separate Issuer Identification Code for each issuer and settlement currency.",
+   "quote": "You must obtain a separate Issuer Identification Code (IIC) from Discover for each issuer and issuer settlement currency you support.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Discover chargebacks and network fee details arrive in a separate daily file at 14:00.",
+   "quote": "Chargebacks and Network fee details are sent as a separate file at 2 pm daily.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "A bank account in each settlement currency must be open within two months of IIC registration.",
+   "quote": "You must have a bank account in each settlement currency you support, opened within two months of IIC registration.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Discover clearing files arrive between 10:00 and 14:00 in no set order.",
+   "quote": "All Discover files are received between 10 am to 2 pm in no particular order.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Discover runs one clearing release cycle per day.",
+   "quote": "Discover implement one release cycle per day",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
   }
  ]
 }

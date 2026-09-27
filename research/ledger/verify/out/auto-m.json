@@ -1,0 +1,837 @@
+{
+ "results": [
+  {
+   "id": "amex-613",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-617",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-620",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-625",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-627",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-633",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-637",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 149313 chars"
+  },
+  {
+   "id": "amex-614",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-615",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-618",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-619",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-623",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-624",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-626",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-628",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-629",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-630",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-631",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-632",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-634",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-636",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-639",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-640",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-641",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-642",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 583109 chars"
+  },
+  {
+   "id": "amex-616",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 62439 chars"
+  },
+  {
+   "id": "amex-621",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 62439 chars"
+  },
+  {
+   "id": "amex-622",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 62439 chars"
+  },
+  {
+   "id": "amex-635",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 62439 chars"
+  },
+  {
+   "id": "amex-638",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 62439 chars"
+  },
+  {
+   "id": "dgn-501",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": "http://web.archive.org/web/20260615204708/https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "note": "auto: quote found via pdf, page 202621 chars"
+  },
+  {
+   "id": "dgn-502",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": "http://web.archive.org/web/20260615204708/https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "note": "auto: quote found via pdf, page 202621 chars"
+  },
+  {
+   "id": "dgn-503",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": "http://web.archive.org/web/20260615204708/https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "note": "auto: quote found via pdf, page 202621 chars"
+  },
+  {
+   "id": "dgn-504",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": "http://web.archive.org/web/20260615204708/https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "note": "auto: quote found via pdf, page 202621 chars"
+  },
+  {
+   "id": "dgn-505",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": "http://web.archive.org/web/20260615204708/https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "note": "auto: quote found via pdf, page 202621 chars"
+  },
+  {
+   "id": "mastercard-653",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 416022 chars"
+  },
+  {
+   "id": "mastercard-672",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 416022 chars"
+  },
+  {
+   "id": "mastercard-674",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 416022 chars"
+  },
+  {
+   "id": "mastercard-654",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-655",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-656",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-657",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-659",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-661",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-662",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-663",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-666",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-667",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-668",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-671",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-676",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-677",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-682",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-683",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-684",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-685",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-686",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-687",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-688",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-689",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-690",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-691",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-692",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-693",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-695",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-696",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 497006 chars"
+  },
+  {
+   "id": "mastercard-658",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-664",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-665",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-670",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-673",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-675",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-678",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-679",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-680",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-681",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-694",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 171729 chars"
+  },
+  {
+   "id": "mastercard-660",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 2712 chars"
+  },
+  {
+   "id": "mastercard-669",
+   "result": "supports",
+   "fetch": "pdf",
+   "archive_url": null,
+   "note": "auto: quote found via pdf, page 2712 chars"
+  },
+  {
+   "id": "visa-780",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-781",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-782",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-783",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-785",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-786",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-787",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-788",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-789",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-790",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-791",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-792",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-794",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-795",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-796",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-797",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-799",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-800",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-801",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-802",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-803",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-804",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-805",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-806",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-807",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-808",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-809",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-810",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-811",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-812",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-813",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-814",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-815",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-816",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-817",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-818",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-819",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 339709 chars"
+  },
+  {
+   "id": "visa-784",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 734770 chars"
+  },
+  {
+   "id": "visa-793",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 734770 chars"
+  },
+  {
+   "id": "visa-798",
+   "result": "supports",
+   "fetch": "curl",
+   "archive_url": null,
+   "note": "auto: quote found via curl, page 734770 chars"
+  }
+ ]
+}

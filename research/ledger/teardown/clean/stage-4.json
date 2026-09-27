@@ -1201,9 +1201,23 @@
         "new:t4-s4-visa-vts-page",
         "visa-430"
        ]
+      },
+      {
+       "text": "A 2014 Visa deck for credit unions routed VTS information, a draft participation agreement and training to Visa Online.",
+       "ids": [
+        "new:t4-s4-cscu-vol"
+       ]
       }
      ],
-     "tools_and_screens": [],
+     "tools_and_screens": [
+      {
+       "name": "Visa Online",
+       "what_it_shows": "VTS service descriptions, FAQs and participation agreement, per the 2014 deck.",
+       "ids": [
+        "new:t4-s4-cscu-vol"
+       ]
+      }
+     ],
      "friction": [
       {
        "text": "None of the VTS enrolment screens is public.",
@@ -1376,6 +1390,12 @@
     {
      "network": "visa",
      "how_it_works": [
+      {
+       "text": "Visa built an 'On Behalf Of' VTS enrolment for issuers and readied the CSCU and FIS platforms, per a 2014 deck a credit union organisation republished.",
+       "ids": [
+        "new:t4-s4-cscu-obo"
+       ]
+      },
       {
        "text": "Associate members hold their own licence but rely on a principal for settlement and reporting.",
        "ids": [
@@ -1959,7 +1979,7 @@
     "all"
    ],
    "move": "Show Discover's commitments on its own steps, such as registration review, and give each an escalation route.",
-   "why_advantage": "Discover already states a two-day EASI review and PULSE five days. Mastercard pairs its service levels with escalation channels. Rich's rule allows network commitments.",
+   "why_advantage": "Discover already states a two-day EASI review and PULSE five days. Mastercard pairs its service levels with escalation channels.",
    "ids": [
     "new:t4-s4-dgn-easi-sla",
     "pulse-049",
@@ -2012,7 +2032,7 @@
   {
    "what": "Discover Developer Center signed in, EASI Document Library, Release Compliance Tool and the host simulator UI",
    "why": "Every one is behind invitation or login, and this study may not use internal material.",
-   "how_to_see_it": "Rich's team can review them internally and compare against this benchmark."
+   "how_to_see_it": "Discover's own teams can review them internally and compare them against this benchmark."
   },
   {
    "what": "PULSE interface specifications and the processor portal",
@@ -2702,6 +2722,30 @@
    "published": "n.d.",
    "label": "Vendor",
    "fetch": "node tools/text.js rendered text, 2026-09-26"
+  },
+  {
+   "key": "t4-s4-cscu-obo",
+   "network": "visa",
+   "claim": "In 2014 Visa told credit unions it would ready the CSCU and FIS processing platforms and deploy an 'On Behalf Of' enrolment tool for Visa Token Service.",
+   "quote": "Visa will be working with CSCU and FIS to ready their platforms for the service and to deploy the enrollment tools",
+   "url": "https://www.cscu.net/images/uploads/Webcasts/Introduction%20to%20Visa%20Digital%20Solutions%20and%20Tokenization%20issuer.pdf",
+   "title": "Visa Digital Solutions and Partnership with Apple (webcast deck republished by CSCU)",
+   "publisher": "Visa, republished by CSCU (credit union service organisation)",
+   "published": "2014-09",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26. Slides marked Visa Confidential but publicly hosted. Dated 2014, so the tooling may have changed."
+  },
+  {
+   "key": "t4-s4-cscu-vol",
+   "network": "visa",
+   "claim": "The same deck sent issuers to Visa Online for VTS FAQs, service descriptions, a draft participation agreement and training modules.",
+   "quote": "Go to Visa Online (VOL) for more information on the Visa Token Service",
+   "url": "https://www.cscu.net/images/uploads/Webcasts/Introduction%20to%20Visa%20Digital%20Solutions%20and%20Tokenization%20issuer.pdf",
+   "title": "Visa Digital Solutions and Partnership with Apple (webcast deck republished by CSCU)",
+   "publisher": "Visa, republished by CSCU (credit union service organisation)",
+   "published": "2014-09",
+   "label": "Reported",
+   "fetch": "curl with desktop Chrome user agent and pypdf, 2026-09-26"
   },
   {
    "key": "t4-s4-iso8583info",

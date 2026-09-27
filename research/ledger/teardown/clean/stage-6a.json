@@ -160,6 +160,73 @@
         "new:t6a-d-fis-sd056",
         "new:t6a-d-fis-iq"
        ]
+      },
+      {
+       "text": "A member sets up each funds transfer point on paper Settlement Funds Transfer forms. Visa processes complete forms in about 30 days.",
+       "ids": [
+        "new:tM-M-vss-sft"
+       ]
+      },
+      {
+       "text": "The settlement account must be open, funded and able to take Visa drawdowns before settlement starts. Visa moves no money for positions under USD 1.",
+       "ids": [
+        "new:tM-M-vss-account",
+        "new:tM-M-vss-1usd"
+       ]
+      },
+      {
+       "text": "A new settlement bank, account, currency or post-merger name needs a fresh set of forms. ABA or SWIFT changes go by signed letter on letterhead.",
+       "ids": [
+        "new:tM-M-vss-sftchange",
+        "new:tM-M-vss-letter"
+       ]
+      },
+      {
+       "text": "Non-dollar settlement pays two currency business days after processing. Visa's settlement bank sends the SWIFT debit request two days before value date.",
+       "ids": [
+        "new:tM-M-vss-mc",
+        "new:tM-M-vss-swift"
+       ]
+      },
+      {
+       "text": "A national settlement service may set a domestic cut-off between 01:00 and 10:00 GMT. Every member in that country must agree the time.",
+       "ids": [
+        "new:tM-M-vss-natcut",
+        "new:tM-M-vss-natagree"
+       ]
+      },
+      {
+       "text": "Members in those countries then receive two report sets a day. National reports arrive about an hour after the national cut-off.",
+       "ids": [
+        "new:tM-M-vss-natrep"
+       ]
+      },
+      {
+       "text": "A trial balance service gives settlement agents interim reports from an earlier cut-off, before the final international run.",
+       "ids": [
+        "new:tM-M-vss-trial"
+       ]
+      },
+      {
+       "text": "VSS reports run seven days a week. Monthly fees and charges are calculated daily and held until the last calendar day of the month.",
+       "ids": [
+        "new:tM-M-vss-7days",
+        "new:tM-M-vss-defer"
+       ]
+      },
+      {
+       "text": "Visa asks three months' notice for a first VSS set-up and two months for a new funds transfer. Choices are recorded on paper worksheets.",
+       "ids": [
+        "new:tM-M-vss-advance",
+        "new:tM-M-vss-worksheet"
+       ]
+      },
+      {
+       "text": "Single Message System members can take an 0620 funds transfer totals message when settlement completes. First-time recipients certify over two days.",
+       "ids": [
+        "new:tM-M-vss-0620",
+        "new:tM-M-vss-0620cert"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -195,6 +262,47 @@
         "new:t6a-a-vvo-iss",
         "new:t6a-a-vvo-hist"
        ]
+      },
+      {
+       "name": "VSS report subscription",
+       "what_it_shows": "Each SRE picks its own reports. Only VSS-110 is mandatory, for funds transfer points, and optional reports appear only when subscribed.",
+       "ids": [
+        "new:tM-M-vss-mandatory",
+        "new:tM-M-vss-optional"
+       ]
+      },
+      {
+       "name": "VSS-110 print layout",
+       "what_it_shows": "Header names the reporting SRE, its roll-up SRE and the funds transfer entity. A funds transfer amount shows only for a funds transfer SRE.",
+       "ids": [
+        "new:tM-M-vss2-110hdr",
+        "new:tM-M-vss2-110ft"
+       ]
+      },
+      {
+       "name": "VSS-100-W and VSS-100-R hierarchy lists",
+       "what_it_shows": "The settlement hierarchy under each SRE, with YES in a Funds Transfer column. Delivered on Thursdays and Sundays.",
+       "ids": [
+        "new:tM-M-vss-hierlist",
+        "new:tM-M-vss-ftcol"
+       ]
+      },
+      {
+       "name": "VSS-300, VSS-135, VSS-610, VSS-640 and VSS-950",
+       "what_it_shows": "Financial recap per subordinate SRE, month-to-date reimbursement fees, pending fees and charges before month end, and a no-data notice for quiet subscribed reports.",
+       "ids": [
+        "new:tM-M-vss-300",
+        "new:tM-M-vss-135",
+        "new:tM-M-vss-pending",
+        "new:tM-M-vss-950"
+       ]
+      },
+      {
+       "name": "Customised hierarchy checklist",
+       "what_it_shows": "An implementation checklist requiring, among other rules, a unique 15-character name for every SRE in a custom hierarchy.",
+       "ids": [
+        "new:tM-M-vss-checklist"
+       ]
       }
      ],
      "friction": [
@@ -220,6 +328,15 @@
        "text": "Visa's rules make every US issuer pay Advanced Authorization fees whether or not it uses the data.",
        "ids": [
         "visa-454"
+       ]
+      },
+      {
+       "text": "Settlement set-up and bank changes run on paper forms, letters and worksheets with lead times of weeks to months.",
+       "ids": [
+        "new:tM-M-vss-sft",
+        "new:tM-M-vss-letter",
+        "new:tM-M-vss-advance",
+        "new:tM-M-vss-worksheet"
        ]
       }
      ]
@@ -249,6 +366,13 @@
        ]
       },
       {
+       "text": "A new issuer signs a Net Settlement Agreement and must fund settlement and billing from the day its ICA is assigned, or face assessments.",
+       "ids": [
+        "new:t6a-b-cscu-nsa",
+        "new:t6a-b-cscu-now"
+       ]
+      },
+      {
        "text": "MCBS bills weekly to each ICA and covers Mastercard, Cirrus and Maestro fees. US banks authorise ACH drafts for it.",
        "ids": [
         "new:t6a-b-syn-weekly",
@@ -268,6 +392,63 @@
        "ids": [
         "new:t6a-d-fis-mcbs",
         "new:t6a-d-fis-mcbs-purpose"
+       ]
+      },
+      {
+       "text": "A principal joins settlement by filing the online Net Settlement Information Form in Mastercard Connect, under Support, Forms, Clearing & Settlement.",
+       "ids": [
+        "new:tM-M-sm-nsif",
+        "new:tM-M-sm-nsifpath"
+       ]
+      },
+      {
+       "text": "Mastercard wants the form 30 days before launch and needs ten business days to review, test and implement the parameters.",
+       "ids": [
+        "new:tM-M-sm-nsif30",
+        "new:tM-M-sm-nsif10"
+       ]
+      },
+      {
+       "text": "US dollar settlement cuts off at 08:00 St. Louis time, and funds owed are due by 14:00 the same day.",
+       "ids": [
+        "new:tM-M-sm-uscut",
+        "new:tM-M-sm-usdue"
+       ]
+      },
+      {
+       "text": "Funds transfers usually reach the settlement agent two to three hours after cut-off.",
+       "ids": [
+        "new:tM-M-sm-2to3h"
+       ]
+      },
+      {
+       "text": "Positions under USD 1,000 can be held for up to ten business days. Some services opt in on Form 829, and others opt out on Form 814.",
+       "ids": [
+        "new:tM-M-sm-thresh",
+        "new:tM-M-sm-hold10",
+        "new:tM-M-sm-form829"
+       ]
+      },
+      {
+       "text": "Principals must pay the exact advised amount, one payment per ICA and value date.",
+       "ids": [
+        "new:tM-M-sm-exact",
+        "new:tM-M-sm-combine"
+       ]
+      },
+      {
+       "text": "A disputed advisement must be raised in writing within one business day. The advised amount must still be paid on time.",
+       "ids": [
+        "new:tM-M-sm-dispute",
+        "new:tM-M-sm-paywhile"
+       ]
+      },
+      {
+       "text": "Missed settlement draws a daily assessment from the first day, from USD 250 up to USD 10,000 by amount.",
+       "ids": [
+        "new:tM-M-sm-assess",
+        "new:tM-M-sm-assesstab",
+        "new:tM-M-sm-assess10k"
        ]
       }
      ],
@@ -302,6 +483,45 @@
         "new:t6a-b-mcom-estats",
         "new:t6a-b-riv-t5g2"
        ]
+      },
+      {
+       "name": "Transfer Agent Advisement Detail (BSADV308-AA)",
+       "what_it_shows": "Daily net position for the transfer agent bank, one section per member ID. Sent by Connect, email, fax or SWIFT MT998.",
+       "ids": [
+        "new:tM-M-sm-308",
+        "new:tM-M-sm-advch"
+       ]
+      },
+      {
+       "name": "Member Advisement Detail (BSADV303-AA)",
+       "what_it_shows": "A reconciliation copy for members in a consolidated arrangement. It is not a payment instruction.",
+       "ids": [
+        "new:tM-M-sm-303"
+       ]
+      },
+      {
+       "name": "Transfer Agent Advisement Exception Report (BSADV309-AA)",
+       "what_it_shows": "Payments held under the minimum threshold, with dates, amounts and cumulative value.",
+       "ids": [
+        "new:tM-M-sm-309",
+        "new:tM-M-sm-hold10"
+       ]
+      },
+      {
+       "name": "NSIF online form and NSIF Super User role",
+       "what_it_shows": "Current settlement parameters on view. The role is ordered in the Connect Store and approved by the customer's Security Administrator.",
+       "ids": [
+        "new:tM-M-sm-superuser",
+        "new:tM-M-sm-secadmin",
+        "new:tM-M-sm-nsifpath"
+       ]
+      },
+      {
+       "name": "Open Settlement Invoices email",
+       "what_it_shows": "An opt-in courtesy email about open or outstanding settlement positions and unapplied funds.",
+       "ids": [
+        "new:tM-M-sm-courtesy"
+       ]
       }
      ],
      "friction": [
@@ -335,6 +555,32 @@
        "text": "Sponsor banks learn MCBS service codes, such as AB for issuer authorisation, from BaaS guides.",
        "ids": [
         "new:t6a-b-syn-ab"
+       ]
+      },
+      {
+       "text": "Missing a courtesy notice does not excuse non-compliance fees.",
+       "ids": [
+        "new:tM-M-sm-nonotice"
+       ]
+      },
+      {
+       "text": "Held credit funds are released only on a written request carrying an original signature from the principal.",
+       "ids": [
+        "new:tM-M-sm-holdcr"
+       ]
+      },
+      {
+       "text": "Settlement services are themselves billed monthly. In 2006 Mastercard even billed principal members for the debit settlement manual.",
+       "ids": [
+        "new:tM-M-sm-fees",
+        "new:tM-M-mds-billed"
+       ]
+      },
+      {
+       "text": "Mastercard Academy sold a two-day MCBS billing seminar for USD 900, invoiced through MCBS under its own billing event.",
+       "ids": [
+        "new:tM-M-mcbs-course",
+        "new:tM-M-mcbs-bill"
        ]
       }
      ]
@@ -599,6 +845,19 @@
         "new:t6a-a-ps26-abg",
         "new:t6a-d-ps261-visaguide"
        ]
+      },
+      {
+       "text": "Processors can have each member's BIN stamped into VSS report records, so they can split the reports and pass them to client banks.",
+       "ids": [
+        "new:tM-M-vss-destbin"
+       ]
+      },
+      {
+       "text": "Reports reach BASE II members through the Edit Package, which prints them. Direct Access Service users receive file types such as SETLR.",
+       "ids": [
+        "new:tM-M-vss-edit",
+        "new:tM-M-vss-das"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -629,6 +888,15 @@
        "what_it_shows": "Monthly detail explaining integrity fees, which Fiserv's pass-through schedule prices per item.",
        "ids": [
         "new:t6a-a-fhb-idr"
+       ]
+      },
+      {
+       "name": "VCMS settlement test environment",
+       "what_it_shows": "Test VSS reports delivered with TEST in the header. Requests need three weeks' notice, and BASE II acquirers may send 3,000 test transactions a day.",
+       "ids": [
+        "new:tM-M-vss-testhdr",
+        "new:tM-M-vss-test3w",
+        "new:tM-M-vss-3000"
        ]
       }
      ],
@@ -664,6 +932,18 @@
        "ids": [
         "new:t6a-d-adyen-nts-fanf"
        ]
+      },
+      {
+       "text": "Member names on Edit Package reports come from a local setting and may not match the VSS report, which complicates matching.",
+       "ids": [
+        "new:tM-M-vss-centrname"
+       ]
+      },
+      {
+       "text": "A processor left out of the settlement hierarchy cannot receive the VSS-900 reconciliation reports.",
+       "ids": [
+        "new:tM-M-vss-notinhier"
+       ]
       }
      ]
     },
@@ -696,6 +976,13 @@
         "new:t6a-b-a12-tools",
         "new:t6a-b-a12-invoice"
        ]
+      },
+      {
+       "text": "File exchange is set up through a parameters spreadsheet passed back and forth with Mastercard. The live list of bulk types arrives daily in the T007 file.",
+       "ids": [
+        "new:tM-M-ftm-params",
+        "new:tM-M-ftm-t007"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -720,6 +1007,22 @@
        "ids": [
         "new:t6a-b-psr-connect",
         "new:t6a-b-a12-tools"
+       ]
+      },
+      {
+       "name": "Mastercard File Express Client and Scheduler",
+       "what_it_shows": "Upload and download of production and test files, 30 days of archive retrieval, and a daily transfer log by result and endpoint.",
+       "ids": [
+        "new:tM-M-ftm-archive",
+        "new:tM-M-ftm-log"
+       ]
+      },
+      {
+       "name": "Mastercard Data Exchange",
+       "what_it_shows": "Browser file exchange with an Endpoint Summary Page of bulk file types. Users pick the endpoint by hand for each file.",
+       "ids": [
+        "new:tM-M-ftm-esp",
+        "new:tM-M-ftm-endpoint"
        ]
       }
      ],
@@ -755,6 +1058,20 @@
        "ids": [
         "new:t6a-d-adyen-nts-mc2m"
        ]
+      },
+      {
+       "text": "File Express takes two to three weeks to implement. Mastercard warns that leaving file naming until network work ends causes delay.",
+       "ids": [
+        "new:tM-M-ftm-impl",
+        "new:tM-M-ftm-parallel"
+       ]
+      },
+      {
+       "text": "A second SFTP session on the same user ID makes the first fail, and Mastercard gives no support for third-party SFTP software.",
+       "ids": [
+        "new:tM-M-ftm-session",
+        "new:tM-M-ftm-nosupport"
+       ]
       }
      ]
     },
@@ -782,6 +1099,47 @@
         "new:t6a-c-amx-bop20",
         "new:t6a-c-amx-bop19"
        ]
+      },
+      {
+       "text": "OptBlue settlement is wired to the Participant the business day after submission. Friday to Sunday submissions arrive as three payments on Monday.",
+       "ids": [
+        "new:tM-M-ob-wire",
+        "new:tM-M-ob-cal"
+       ]
+      },
+      {
+       "text": "Submission files sent after 11:59:59 pm Mountain time count as the next business day.",
+       "ids": [
+        "new:tM-M-ob-cutoff"
+       ]
+      },
+      {
+       "text": "Amex deducts the wholesale fee, chargebacks and credits from face value. Shortfalls are taken by ACH debit, then invoiced.",
+       "ids": [
+        "new:tM-M-ob-wholesale",
+        "new:tM-M-ob-withhold"
+       ]
+      },
+      {
+       "text": "Amex keeps wholesale and additional fees on chargebacks and credits.",
+       "ids": [
+        "new:tM-M-ob-retain"
+       ]
+      },
+      {
+       "text": "Both sides reconcile daily from the GRRCN file, where most fees land. Where records conflict, Amex records prevail.",
+       "ids": [
+        "new:tM-M-ob-daily",
+        "new:tM-M-ob-grrcn",
+        "new:tM-M-ob-records"
+       ]
+      },
+      {
+       "text": "A Participant that pays the wrong merchant must correct it within ten days. Merchant funding must match the speed of other networks.",
+       "ids": [
+        "new:tM-M-ob-misdirect",
+        "new:tM-M-ob-parity"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -791,19 +1149,33 @@
        "ids": [
         "new:t6a-c-amx-grrcn4"
        ]
+      },
+      {
+       "name": "OptBlue Additional Fees table",
+       "what_it_shows": "Assessment, Acquirer Transaction, Inbound, CAPN Non-Compliance, Data Quality, data security and Excessive Chargeback fees, each described with its trigger.",
+       "ids": [
+        "new:tM-M-ob-grrcn",
+        "new:tM-M-ob-contact"
+       ]
       }
      ],
      "friction": [
       {
-       "text": "The OptBlue Operating Regulations are named but not public.",
-       "ids": [
-        "amex-432"
-       ]
-      },
-      {
        "text": "A bank acquirer republished OptBlue pricing tiers to merchants with its own network fee added on top.",
        "ids": [
         "new:t6a-c-amx-dol1"
+       ]
+      },
+      {
+       "text": "The OptBlue Operating Regulations are marked confidential, yet an October 2024 copy is openly posted by a third party.",
+       "ids": [
+        "new:tM-M-ob-mark"
+       ]
+      },
+      {
+       "text": "That posted copy describes each additional fee yet gives every amount only as a referral to the Participant.",
+       "ids": [
+        "new:tM-M-ob-contact"
        ]
       }
      ]
@@ -1069,6 +1441,27 @@
        "ids": [
         "new:t6a-c-amx-grrcn4"
        ]
+      },
+      {
+       "text": "Processor guides price OptBlue charges by MCC industry and ticket size, with three levels per industry and dearer levels for keyed or non-US cards.",
+       "ids": [
+        "new:tM-M-fs-mcc",
+        "new:tM-M-fd-three",
+        "new:tM-M-fd-costly"
+       ]
+      },
+      {
+       "text": "The Amex network fee on OptBlue settled sales rose from 0.15% in First Data's 2018 guide to 0.165% in Fiserv's Fall 2025 guide.",
+       "ids": [
+        "new:tM-M-fd-netfee",
+        "new:tM-M-fs-netfee"
+       ]
+      },
+      {
+       "text": "Participants must give merchants statements whose pricing disclosures are clear and easy to understand.",
+       "ids": [
+        "new:tM-M-ob-stmt"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1077,6 +1470,19 @@
        "text": "An OptBlue merchant bears the loss if its provider misprograms the POS and settlement goes to the wrong party.",
        "ids": [
         "new:t6a-c-amx-mog3"
+       ]
+      },
+      {
+       "text": "Fiserv's Fall 2025 guide calls the Amex rates interchange, although the OptBlue regulations say the wholesale fee is not interchange.",
+       "ids": [
+        "new:tM-M-fs-title",
+        "new:tM-M-ob-notic"
+       ]
+      },
+      {
+       "text": "Processor guides warn that terminals or software sending data wrongly can cost merchants the best pricing level.",
+       "ids": [
+        "new:tM-M-fd-software"
        ]
       }
      ]
@@ -1195,6 +1601,13 @@
        "ids": [
         "new:t6a-d-cds-visa-ej"
        ]
+      },
+      {
+       "text": "Visa's guide shows single message acquirers how to reconcile the SMS601C acquirer detail report to VSS-900-S, field by field.",
+       "ids": [
+        "new:tM-M-vss-sms601",
+        "new:tM-M-vss2-sms"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1229,6 +1642,18 @@
        "text": "In Europe a late presentment fee applies to ATM first presentments older than 45 days.",
        "ids": [
         "new:t6a-b-gcms-atmlate"
+       ]
+      },
+      {
+       "text": "On Mastercard's debit switch, processors settle with terminal owners themselves. The switch settles only with each processor, per the 2006 manual.",
+       "ids": [
+        "new:tM-M-mds-proc"
+       ]
+      },
+      {
+       "text": "Debit switch transactions received after day end settle on the next business day.",
+       "ids": [
+        "new:tM-M-mds-nextday"
        ]
       }
      ],
@@ -1533,6 +1958,21 @@
         "dgn-296",
         "dgn-297"
        ]
+      },
+      {
+       "text": "A Discover issuer needs a separate Issuer Identification Code for each settlement currency, and a bank account in that currency within two months.",
+       "ids": [
+        "new:tM-M-th-iic",
+        "new:tM-M-th-acct"
+       ]
+      },
+      {
+       "text": "Discover runs one clearing cycle a day. Files arrive between 10:00 and 14:00, with chargebacks and network fees in a separate 14:00 file.",
+       "ids": [
+        "new:tM-M-th-cycle",
+        "new:tM-M-th-files",
+        "new:tM-M-th-fees"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1646,6 +2086,12 @@
        "ids": [
         "new:t6a-b-cardutil",
         "new:t6a-b-aff"
+       ]
+      },
+      {
+       "text": "Every Mastercard file name encodes environment, bulk type, mechanism, endpoint, creation date and time, for example MCI.AR.T112.M.E0090000.D040928.T095115.A001.",
+       "ids": [
+        "new:tM-M-ftm-naming"
        ]
       }
      ],
@@ -1777,6 +2223,19 @@
        "ids": [
         "new:t6a-c-amx-grrcn1",
         "new:t6a-c-amx-grrcn3"
+       ]
+      },
+      {
+       "text": "Under OptBlue a keyed sale costs more. Retail Tier 1 was 1.45% plus USD 0.10 swiped and 1.75% keyed in Fall 2025.",
+       "ids": [
+        "new:tM-M-fs-retail1",
+        "new:tM-M-fs-retail1ns"
+       ]
+      },
+      {
+       "text": "Fiserv's Fall 2025 guide prices US regulated debit on Amex at 0.04% plus USD 0.25.",
+       "ids": [
+        "new:tM-M-fs-regdebit"
        ]
       }
      ],
@@ -2018,7 +2477,7 @@
     "Merchants where they touch the network directly"
    ],
    "move": "Per transaction, show the card class, the interchange programme priced and cleared, and the reason for any downgrade, kept for the retention period.",
-   "why_advantage": "The Fed found Discover charged a commercial rate for sixteen years without telling merchants. Cybersource already shows priced against cleared with a reason code.",
+   "why_advantage": "The Fed found Discover charged a commercial rate for sixteen years without telling merchants. Cybersource already shows priced against cleared with a reason code. OptBlue puts most fees in the GRRCN file, while the rate table stays in an appendix Participants may not publish.",
    "ids": [
     "new:t6a-c-dgn-fed1",
     "new:t6a-c-dgn-fed2",
@@ -2026,7 +2485,9 @@
     "new:t6a-a-cb-fee",
     "new:t6a-a-cb-fee2",
     "new:t6a-a-ts-retro",
-    "new:t6a-b-gcms-mpe"
+    "new:t6a-b-gcms-mpe",
+    "new:tM-M-ob-grrcn",
+    "new:tM-M-ob-nopublish"
    ],
    "evidence_strength": "strong"
   },
@@ -2038,13 +2499,14 @@
     "Fintechs and programme managers"
    ],
    "move": "State the settlement arithmetic on screen and guarantee that report totals equal the funds moved, with the tie-out shown for each day.",
-   "why_advantage": "Issuers rebuild Mastercard fund reconciliation from fragments. Amex, Mastercard Send and Discover's own old report show the tie-out can be promised.",
+   "why_advantage": "Issuers rebuild Mastercard fund reconciliation from fragments. Amex, Mastercard Send and Discover's own old report show the tie-out can be promised. Mastercard's Transfer Agent Advisement Detail shows one section per member ID within one payment, a working model for tying ledgers to a single wire.",
    "ids": [
     "new:t6a-b-riv-frag",
     "new:t6a-b-riv-396",
     "new:t6a-b-send-sum",
     "new:t6a-c-amx-grrcn1",
-    "new:t6a-c-dgn-dar2"
+    "new:t6a-c-dgn-dar2",
+    "new:tM-M-sm-308"
    ],
    "evidence_strength": "strong"
   },
@@ -2056,14 +2518,17 @@
     "Acquirers and processors"
    ],
    "move": "Show each settlement day as pending or complete, with each file's delivery state and a proactive notice when a network file is late. Show committed service levels only.",
-   "why_advantage": "Late network files are the main cause of processor delays, and Mastercard makes senders phone to confirm a file. Stripe and Lithic already treat completeness as a state.",
+   "why_advantage": "Late network files are the main cause of processor delays, and Mastercard makes senders phone to confirm a file. Stripe and Lithic already treat completeness as a state. Mastercard already emails opt-in open settlement notices, yet a missed notice does not stop daily assessments from USD 250.",
    "ids": [
     "new:t6a-a-li-delay",
     "new:t6a-d-lithic-iscomplete",
     "new:t6a-a-li-incident",
     "new:t6a-a-st-status",
     "new:t6a-b-gcms-confirm",
-    "new:t6a-b-send-late"
+    "new:t6a-b-send-late",
+    "new:tM-M-sm-courtesy",
+    "new:tM-M-sm-nonotice",
+    "new:tM-M-sm-assesstab"
    ],
    "evidence_strength": "moderate"
   },
@@ -2075,13 +2540,14 @@
     "Payment facilitators and ISOs"
    ],
    "move": "Announce each fee change six months ahead with the billing identifier it will appear under, and offer an impact estimate on the partner's own past volume.",
-   "why_advantage": "Visa bulletins omitted billing events, so fees appeared first on invoices. UK rules now require six months' notice and on-request impact models.",
+   "why_advantage": "Visa bulletins omitted billing events, so fees appeared first on invoices. UK rules now require six months' notice and on-request impact models. OptBlue already commits to 180 days' written notice before wholesale fees change, a lead time a network could publish per fee line.",
    "ids": [
     "new:t6a-a-psr-13",
     "new:t6a-o-teya-billing",
     "new:t6a-d-sd22-6m",
     "new:t6a-d-sd22-stdD",
-    "new:t6a-d-rba-freeze"
+    "new:t6a-d-rba-freeze",
+    "new:tM-M-ob-180"
    ],
    "evidence_strength": "strong"
   },
@@ -2110,7 +2576,7 @@
     "ATM operators"
    ],
    "move": "Carry the one-page invoice and single-point gateway settlement into the portal as the default view, with one line per network and detail on demand.",
-   "why_advantage": "Community banks and credit unions complain of long, error-prone bills and thin teams. Estimated reconciliation times stay out of the product under Rich's rules.",
+   "why_advantage": "Community banks and credit unions complain of long, error-prone bills and thin teams.",
    "ids": [
     "pulse-012",
     "new:t6a-c-pul-dd1",
@@ -2130,7 +2596,7 @@
     "ATM operators"
    ],
    "move": "Publish one public page of settlement timing, exception handling, fee amounts and standard acquirer and ATM rates, with dated future changes. Publishing US rates is a business decision.",
-   "why_advantage": "Amex GNS and Interac already publish this. Discover keeps US acquirer rates behind a code, and PULSE gives no ATM amounts.",
+   "why_advantage": "Amex GNS and Interac already publish this. Discover keeps US acquirer rates behind a code, and PULSE gives no ATM amounts. Visa's VSS guide and Mastercard's Settlement Manual are marked confidential or proprietary, yet 2018 and 2020 copies are openly readable on a document-sharing site.",
    "ids": [
     "new:t6a-c-amx-bop8",
     "new:t6a-c-amx-bop11",
@@ -2138,7 +2604,9 @@
     "dgn-063",
     "dgn-064",
     "dgn-065",
-    "dgn-085"
+    "dgn-085",
+    "new:tM-M-vss-mark",
+    "new:tM-M-sm-mark"
    ],
    "evidence_strength": "moderate"
   },
@@ -2166,13 +2634,15 @@
     "Acquirers and processors"
    ],
    "move": "Offer settlement, invoice and interchange data both as files and as an API with completeness flags, so processors stop rebuilding it for each client.",
-   "why_advantage": "Mastercard's public catalogue has no settlement or billing API, and Adyen's delayed-fee report has none. Programme managers each build their own wrapper.",
+   "why_advantage": "Mastercard's public catalogue has no settlement or billing API, and Adyen's delayed-fee report has none. Programme managers each build their own wrapper. Mastercard sends the same advisement by Connect, email, fax or SWIFT MT998, and Visa offers every VSS report as TC 46 data or TC 47 print.",
    "ids": [
     "new:t6a-b-dev-cat",
     "new:t6a-d-fivetran-nts-api",
     "new:t6a-d-lithic-settleapi",
     "new:t6a-a-mq-30min",
-    "new:t6a-a-hn-inv"
+    "new:t6a-a-hn-inv",
+    "new:tM-M-sm-advch",
+    "new:tM-M-vss-tc46"
    ],
    "evidence_strength": "moderate"
   }
@@ -2189,8 +2659,8 @@
    "how_to_see_it": "Watch for the schemes' ITC Compliance Policy letters due about end of October 2026 and the Standard A fee guides due July 2027."
   },
   {
-   "what": "Current Mastercard Settlement Manual, MCBS manual, invoice layout and Billing Analytic Tool screens",
-   "why": "All sit behind Mastercard Connect. Public sources name the tools but show no fields.",
+   "what": "The current Mastercard MCBS manual, invoice layout and Billing Analytic Tool screens",
+   "why": "They sit behind Mastercard Connect. A 2020 Settlement Manual is openly readable, but the billing tools show no fields in public.",
    "how_to_see_it": "Sponsor bank onboarding guides, Mastercard Academy seminar material or PSR compliance publications from mid 2027."
   },
   {
@@ -2209,8 +2679,8 @@
    "how_to_see_it": "An acquirer login, or processor manuals republished by banks or state agencies."
   },
   {
-   "what": "OptBlue Operating Regulations, participant settlement files and the US wholesale bill",
-   "why": "Amex does not publish them. Only Canada's wholesale schedule and bank republications are public.",
+   "what": "The OptBlue participant settlement files and the US wholesale bill as a participant receives it",
+   "why": "The 2024 regulations and two processors' pricing guides are openly posted, but no actual bill or file layout is.",
    "how_to_see_it": "An OptBlue Participant contract or a procurement bid that attaches it."
   },
   {
@@ -3198,6 +3668,30 @@
    "publisher": "GitHub (open source project)",
    "published": "2025-09",
    "label": "Reported",
+   "fetch": "curl+pypdf 2026-09-26"
+  },
+  {
+   "key": "t6a-b-cscu-now",
+   "network": "mastercard",
+   "claim": "Billing and settlement start as soon as an ICA is assigned, with penalties for unfunded accounts.",
+   "quote": "Customers must be prepared to do the following immediately to avoid assessments or penalties",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (issuer welcome kit)",
+   "publisher": "MasterCard, republished by CSCU",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl+pypdf 2026-09-26"
+  },
+  {
+   "key": "t6a-b-cscu-nsa",
+   "network": "mastercard",
+   "claim": "New issuers sign a Net Settlement Agreement with written settlement instructions.",
+   "quote": "Submit written settlement instructions to MasterCard via a binding agreement called a Net Settlement Agreement (NSA)",
+   "url": "https://www.cscu.net/images/uploads/Marketing%20Resource%20Guide/IssuerWelcomeKit.pdf",
+   "title": "MasterCard Resource Guide: Information for New Users (issuer welcome kit)",
+   "publisher": "MasterCard, republished by CSCU",
+   "published": "n.d.",
+   "label": "Verified",
    "fetch": "curl+pypdf 2026-09-26"
   },
   {
@@ -5995,6 +6489,1398 @@
    "published": "2025-03",
    "label": "Verified",
    "fetch": "curl with Chrome user agent, pypdf text, 2026-09-26"
+  },
+  {
+   "key": "tM-M-vss-swift",
+   "network": "visa",
+   "claim": "For non-US-dollar debit positions Visa's settlement bank sends a SWIFT debit request two business days before value date.",
+   "quote": "This request is sent via SWIFT message types MT 101 or MT 103 two Settlement Currency business days prior to the Value Date.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-mds-nextday",
+   "network": "mastercard",
+   "claim": "Debit switch transactions received after day end settle on the next business day.",
+   "quote": "The MDS settles transactions received after the settlement day end on the next MDS business day.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-misdirect",
+   "network": "amex",
+   "claim": "A Participant that misdirects merchant funds must fix it within ten days of notice.",
+   "quote": "it must correct the issue within ten (10) days of receiving notice from American Express",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ob-cutoff",
+   "network": "amex",
+   "claim": "Submission files sent after 11:59:59 pm Mountain time count as the next business day.",
+   "quote": "If Participant transmits a Submission file to American Express later than 11.59.59 P.M. Mountain Standard Time (MST) on any day",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-fs-retail1ns",
+   "network": "amex",
+   "claim": "The same Retail Tier 1 transaction keyed prices at 1.75% plus USD 0.10.",
+   "quote": "Rate: 1.75% + $0.10",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-vss-ftcol",
+   "network": "visa",
+   "claim": "On the hierarchy list, SREs that move funds show YES in a Funds Transfer column.",
+   "quote": "The SREs that perform funds transfers include YES under the column title",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-testhdr",
+   "network": "visa",
+   "claim": "Test VSS reports reach the member's VisaNet Access Point with TEST in the header.",
+   "quote": "The VSS reports and files are delivered to the member's VAP with TEST displayed in the header.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-th-iic",
+   "network": "dgn",
+   "claim": "Discover issuers need a separate Issuer Identification Code for each issuer and settlement currency.",
+   "quote": "You must obtain a separate Issuer Identification Code (IIC) from Discover for each issuer and issuer settlement currency you support.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site."
+  },
+  {
+   "key": "tM-M-sm-mark",
+   "network": "mastercard",
+   "claim": "Every page of the 2020 Settlement Manual is marked Mastercard Proprietary.",
+   "quote": "Mastercard. Proprietary. All rights reserved. Settlement Manual • 21 July 2020",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-th-fees",
+   "network": "dgn",
+   "claim": "Discover chargebacks and network fee details arrive in a separate daily file at 14:00.",
+   "quote": "Chargebacks and Network fee details are sent as a separate file at 2 pm daily.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site."
+  },
+  {
+   "key": "tM-M-vss-1usd",
+   "network": "visa",
+   "claim": "Visa makes no funds transfer for settlement amounts under the equivalent of USD 1.",
+   "quote": "no funds transfer debits or credits will occur for Settlement amounts less than the equivalent of U.S. $1.00",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss2-110hdr",
+   "network": "visa",
+   "claim": "The VSS-110 print layout heads each report with the reporting SRE, its roll-up SRE and the funds transfer entity.",
+   "quote": "REPORTING FOR: 1234567890 B OF ANTARCT N ROLLUP TO: 1234567890 B OF ANTARCT N FUNDS XFER ENTITY:",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-contact",
+   "network": "amex",
+   "claim": "In the posted copy, each additional fee amount is shown only as a referral to the Participant.",
+   "quote": "Please contact Participant for fee amount.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-vss-sms601",
+   "network": "visa",
+   "claim": "Visa's guide shows field by field how the SMS601C acquirer detail report reconciles to the VSS-900-S report.",
+   "quote": "Example 2 shows how fields on the Acquirer Transaction Detail by Cardholder Number (SMS601C) report reconcile to the fields on the Summary Reconciliation Report (VSS–900–S).",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-paywhile",
+   "network": "mastercard",
+   "claim": "The customer must still pay the advised amount on time while a dispute is open.",
+   "quote": "the customer must effect the timely transfer of funds as reflected in the advisement to avoid settlement penalties",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-das",
+   "network": "visa",
+   "claim": "Members on Direct Access Service delivery receive settlement reports in file types such as SETLR.",
+   "quote": "Members using DAS delivery have their settlement reports in the file type SETLR.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-nsif",
+   "network": "mastercard",
+   "claim": "A principal enters Mastercard settlement by submitting a Net Settlement Information Form.",
+   "quote": "To initially participate in Mastercard Settlement, a principal must complete and submit an NSIF to Mastercard.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-courtesy",
+   "network": "mastercard",
+   "claim": "Mastercard offers courtesy emails about open or outstanding settlement positions.",
+   "quote": "Mastercard enabled courtesy email notifications alerting customers of open or outstanding settlement positions and funds, or both, not yet applied.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fs-netfee",
+   "network": "amex",
+   "claim": "Fiserv's Fall 2025 guide lists a 0.165% Amex Network Fee on settled sales.",
+   "quote": "An American Express Network Fee of 0.165% will be assessed on all American Express settled sales",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-vss-account",
+   "network": "visa",
+   "claim": "The settlement account must be open, funded and able to process Visa drawdown requests before settlement begins.",
+   "quote": "the account must be open and funded before settlement begins. The account must be set up to receive and process drawdown requests.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-endpoint",
+   "network": "mastercard",
+   "claim": "Data Exchange users must pick the right endpoint by hand for each upload or download.",
+   "quote": "they must manually select the endpoint associated with the files they want to upload or download.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-notinhier",
+   "network": "visa",
+   "claim": "A processor outside the settlement hierarchy cannot receive the VSS-900 reconciliation series.",
+   "quote": "A processor that is not included in the settlement hierarchy does not receive the VSS–900 series",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-retain",
+   "network": "amex",
+   "claim": "Amex keeps wholesale and additional fees on chargebacks and credits.",
+   "quote": "American Express will retain Wholesale Fees and Additional American Express Fees on all Chargebacks and Credits.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-vss-mark",
+   "network": "visa",
+   "claim": "Visa marks its VSS user guide confidential and proprietary, for use by clients, VisaNet processors and parties under a participation agreement.",
+   "quote": "The Visa Confidential label signifies that the information in this document is confidential and proprietary to Visa",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-exact",
+   "network": "mastercard",
+   "claim": "Mastercard tells principals to pay the exact advised amount for debit positions.",
+   "quote": "Pay the exact amount listed on settlement advisements for debit positions.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-mcbs-bill",
+   "network": "mastercard",
+   "claim": "The seminar fee is itself invoiced through MCBS under a billing event.",
+   "quote": "Participants with an account at the Settlement Bank will be invoiced automatically via the MasterCard Consolidated Billing System (MCBS).",
+   "url": "https://na.eventscloud.com/file_uploads/1b3c80d220c3b797a4031c355a442e68_MCBSOverview_Eng.pdf",
+   "title": "Course: MasterCard Consolidated Billing System (MCBS) Overview",
+   "publisher": "MasterCard Academy (event registration site)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen."
+  },
+  {
+   "key": "tM-M-vss-sftchange",
+   "network": "visa",
+   "claim": "Changes to settlement bank, account, correspondent, currency or name after a merger need a new set of SFT forms.",
+   "quote": "A new set of Settlement Funds Transfer (SFT) forms must be completed to amend the original forms",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-letter",
+   "network": "visa",
+   "claim": "A change of ABA number or SWIFT address can go to Visa's Treasury as a signed letter on bank letterhead.",
+   "quote": "the new information can be submitted to Visa's Treasury in letter format on the bank's letterhead",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-950",
+   "network": "visa",
+   "claim": "VSS-950 No Data Report lists subscribed reports that had no data that day.",
+   "quote": "Provides daily VSS report(s) to which a member subscribes but has no data.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fd-costly",
+   "network": "amex",
+   "claim": "Keyed transactions and non-US cards can fall to dearer OptBlue levels.",
+   "quote": "transactions may be processed at a more costly pricing level solely as a result of not being swiped or the country of issuance",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-ob-nopublish",
+   "network": "amex",
+   "claim": "Participants and their sales entities must not publish the wholesale fee or additional fees.",
+   "quote": "Participant must not, and must ensure its Participant Sales Entities do not, publish or disclose the Wholesale Fee",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-vss2-110ft",
+   "network": "visa",
+   "claim": "The VSS-110 shows a funds transfer amount only when the reporting SRE is a funds transfer SRE.",
+   "quote": "Shown if the Reporting for SRE is a funds transfer SRE. The amount is the funds transfer amount for that entity.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-secadmin",
+   "network": "mastercard",
+   "claim": "Ordering the role in the Connect Store triggers an approval email to the customer's Security Administrator.",
+   "quote": "Connect will send an email to your Security Administrator to let him or her know that the order is awaiting approval.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-fees",
+   "network": "mastercard",
+   "claim": "Settlement services themselves are billed on a monthly schedule.",
+   "quote": "Mastercard uses a standard monthly billing schedule to assess fees to customers for facilitating settlement services.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-th-acct",
+   "network": "dgn",
+   "claim": "A bank account in each settlement currency must be open within two months of IIC registration.",
+   "quote": "You must have a bank account in each settlement currency you support, opened within two months of IIC registration.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site."
+  },
+  {
+   "key": "tM-M-ob-180",
+   "network": "amex",
+   "claim": "Amex must give Participants at least 180 days' written notice of a wholesale fee change.",
+   "quote": "American Express may change Wholesale Fees by providing written notice to Participant at least one hundred eighty (180) days prior",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ob-grrcn",
+   "network": "amex",
+   "claim": "Most OptBlue adjustments and fees, including non-compliance fees, appear in the GRRCN reconciliation file.",
+   "quote": "Most adjustments and fees, including Non-Compliance fees and other Program-related fees, will appear in the Global Raw Data Reconciliation (GRRCN) File.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-sm-nsifpath",
+   "network": "mastercard",
+   "claim": "The NSIF is an online form in Mastercard Connect under Support, Forms, Clearing & Settlement.",
+   "quote": "Under Support, select Forms. In the View Forms by Category field, select Clearing & Settlement.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-parallel",
+   "network": "mastercard",
+   "claim": "Mastercard warns that leaving file naming until network work ends delays implementation.",
+   "quote": "Waiting until the network issues are resolved before focusing on file naming issues will delay the implementation",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-test3w",
+   "network": "visa",
+   "claim": "Members must request VCMS settlement testing three weeks before the Monday testing starts.",
+   "quote": "Members must request testing three (3) weeks prior to the Monday of the week they want testing to begin.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-th-files",
+   "network": "dgn",
+   "claim": "Discover clearing files arrive between 10:00 and 14:00 in no set order.",
+   "quote": "All Discover files are received between 10 am to 2 pm in no particular order.",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site."
+  },
+  {
+   "key": "tM-M-ftm-params",
+   "network": "mastercard",
+   "claim": "Setting up or changing file exchange runs on a parameters spreadsheet passed between Mastercard and the customer.",
+   "quote": "much of the communication for starting or changing a file exchange relationship between Mastercard and a customer is driven by a parameters spreadsheet.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-centrname",
+   "network": "visa",
+   "claim": "The member name on Edit Package reports comes from a local run option and may differ from the VSS report name.",
+   "quote": "It might not match the value on the VSS report, which comes from VSS.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-cal",
+   "network": "amex",
+   "claim": "Weekend submissions produce three separate payments on Monday.",
+   "quote": "Submissions sent on Friday, Saturday, and Sunday will result in Participant receiving three individual payments on Monday.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-sm-nsif10",
+   "network": "mastercard",
+   "claim": "Mastercard needs at least ten business days after a complete NSIF to set up settlement parameters.",
+   "quote": "allow at least ten business days for Mastercard to review, test, notify and implement the settlement parameters.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-2to3h",
+   "network": "mastercard",
+   "claim": "Funds transfers usually reach the Mastercard settlement agent two to three hours after the service cut-off.",
+   "quote": "Funds transfers are generally communicated to the Mastercard settlement agent within two to three hours from the settlement service cutoff time.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-assess10k",
+   "network": "mastercard",
+   "claim": "The daily assessment reaches USD 10,000 for amounts of USD 5 million or more.",
+   "quote": "USD 5,000,000 or more USD 10,000",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-mcbs-course",
+   "network": "mastercard",
+   "claim": "Mastercard Academy ran a two-day MCBS seminar on billing, fees and MCBS reports for USD 900.",
+   "quote": "The seminar fee for 2 days training is USD900.",
+   "url": "https://na.eventscloud.com/file_uploads/1b3c80d220c3b797a4031c355a442e68_MCBSOverview_Eng.pdf",
+   "title": "Course: MasterCard Consolidated Billing System (MCBS) Overview",
+   "publisher": "MasterCard Academy (event registration site)",
+   "published": "n.d.",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen."
+  },
+  {
+   "key": "tM-M-ftm-impl",
+   "network": "mastercard",
+   "claim": "File Express Client typically takes two to three weeks to implement.",
+   "quote": "If using the Client program, implementation time is typically 2-3 weeks.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-309",
+   "network": "mastercard",
+   "claim": "Held payments are reported on the Transfer Agent Advisement Exception Report with dates, amounts and cumulative value.",
+   "quote": "Mastercard will communicate the dates, amounts, and cumulative value associated with the payments that Mastercard is holding through a Transfer Agent Advisement Exception report.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-mds-billed",
+   "network": "mastercard",
+   "claim": "Mastercard billed principal members for the 2006 debit settlement manual itself.",
+   "quote": "MasterCard will bill principal members for this document.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-mandatory",
+   "network": "visa",
+   "claim": "VSS-110 is the only mandatory report, and only for funds transfer SREs.",
+   "quote": "The Settlement Summary Report (VSS–110) is mandatory for any SRE that is a funds transfer point.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-daily",
+   "network": "amex",
+   "claim": "Amex and the Participant each reconcile payments, chargebacks, credits and adjustments daily.",
+   "quote": "American Express and Participant will individually reconcile payments, Chargebacks, Credits, adjustments, and other accounting with respect to the Program on a daily basis.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-log",
+   "network": "mastercard",
+   "claim": "File Express prints a daily transfer log showing each attempt, its result and the endpoint.",
+   "quote": "The transfer log report includes the transfer date and time, if the transfer was successful or unsuccessful, the endpoint",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-defer",
+   "network": "visa",
+   "claim": "Monthly fees and charges are calculated daily but held for settlement on the last calendar day of the month.",
+   "quote": "The clearing system calculates fees and charges daily with a future settlement date (the last calendar date of the month)",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss2-sms",
+   "network": "visa",
+   "claim": "Volume 2 carries layouts for SMS detail reports and V.I.P. raw data records.",
+   "quote": "This appendix includes report layouts for SMS detail reports and record layouts for V.I.P. Raw Data Release 2.2 (VSS version)",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-mds-proc",
+   "network": "mastercard",
+   "claim": "On Mastercard's debit switch, processors settle with terminal owners and issuers, and the switch settles only with each processor.",
+   "quote": "Acquirer and issuer processors are responsible for individual settlement with terminal owners and card issuers; the MDS settles only with each processor",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-esp",
+   "network": "mastercard",
+   "claim": "Mastercard Data Exchange offers an Endpoint Summary Page listing bulk file types.",
+   "quote": "MDE provides an Endpoint Summary Page that provides summary information about bulk file types",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-trial",
+   "network": "visa",
+   "claim": "A trial balance service gives settlement agents interim reports from an early cut-off before the international cut-off.",
+   "quote": "Settlement agents in these countries receive interim reports that are based on an early interim cutoff time",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-worksheet",
+   "network": "visa",
+   "claim": "Implementation decisions are recorded on paper worksheets such as the VSS Reporting Options Worksheet.",
+   "quote": "Record the information in the VSS Reporting Options Worksheet.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-notic",
+   "network": "amex",
+   "claim": "The regulations state the wholesale fee is not interchange.",
+   "quote": "The Wholesale Fee is not interchange.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-sm-uscut",
+   "network": "mastercard",
+   "claim": "The US dollar regional settlement service cuts off at 08:00 St. Louis time.",
+   "quote": "Settlement Service Cutoff in St. Louis Time 08:00",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-pending",
+   "network": "visa",
+   "claim": "Pending fee and charge reports VSS-610 and VSS-640 are available by subscription.",
+   "quote": "Members' fees and charges-pending reports are available for subscription, VSS–610 and VSS–640.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fs-retail1",
+   "network": "amex",
+   "claim": "Retail Tier 1 swiped transactions up to USD 75 price at 1.45% plus USD 0.10 in Fall 2025.",
+   "quote": "Rate: 1.45% + $0.10",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-vss-hierlist",
+   "network": "visa",
+   "claim": "The VSS-100-W Weekly Settlement Reporting Hierarchy List shows the hierarchy under each SRE and arrives on Thursdays and Sundays.",
+   "quote": "Lists the settlement reporting hierarchy below each given SRE. The report is delivered on Thursdays and Sundays.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-parity",
+   "network": "amex",
+   "claim": "Participants must fund OptBlue merchants no slower than for other networks.",
+   "quote": "payment timing will be at parity to Other Payment Networks.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-vss-0620cert",
+   "network": "visa",
+   "claim": "Certifying for the 0620 funds transfer totals message takes two days of online testing.",
+   "quote": "The certification process for the 0620 funds transfer totals message takes two (2) days.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-wholesale",
+   "network": "amex",
+   "claim": "Amex deducts a Wholesale Fee from every OptBlue charge, set from the Appendix A rate table plus additional fees.",
+   "quote": "American Express shall deduct a fee from each Charge from a Program Merchant submitted to American Express by Participant for settlement (Wholesale Fee).",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-th-cycle",
+   "network": "dgn",
+   "claim": "Discover runs one clearing release cycle per day.",
+   "quote": "Discover implement one release cycle per day",
+   "url": "https://docs.thredd.ai/pdf/Discover_Getting_Started_Guide_1.2.pdf",
+   "title": "Discover Getting Started Guide, Version 1.2",
+   "publisher": "Thredd",
+   "published": "2026-05-26",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Public documentation site."
+  },
+  {
+   "key": "tM-M-vss-0620",
+   "network": "visa",
+   "claim": "Single Message System members can receive an 0620 funds transfer totals message when settlement completes.",
+   "quote": "SMS-connected members can receive an 0620 funds transfer totals message that is delivered to the member on completion of settlement.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-3000",
+   "network": "visa",
+   "claim": "BASE II acquirers can generate at most 3,000 test transactions a day in VCMS.",
+   "quote": "BASE II-connected acquirers can generate a maximum of 3,000 test transactions per day.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-usdue",
+   "network": "mastercard",
+   "claim": "US dollar funds due to Mastercard must arrive by 14:00 St. Louis time on the settlement date.",
+   "quote": "Funds due to Mastercard must be paid by 14:00 St. Louis time on the same open business day as the settlement date",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-session",
+   "network": "mastercard",
+   "claim": "A second SFTP session on the same user ID causes the current session to fail.",
+   "quote": "If user tries to create an additional session with an active user ID, the last session would be hijacked causing the current session to fail.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fd-netfee",
+   "network": "amex",
+   "claim": "First Data's 2018 guide lists a 0.15% Amex Network Fee on settled sales.",
+   "quote": "An American Express Network Fee of 0.15% will be assessed on all American Express settled sales",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-vss-tc46",
+   "network": "visa",
+   "claim": "Every VSS report can be delivered as machine-readable TC 46 records, print-ready TC 47, or both.",
+   "quote": "All VSS reports are available in machine-readable (TC 46) and print-ready (TC 47) formats.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-archive",
+   "network": "mastercard",
+   "claim": "File Express lets customers retrieve archived files for 30 calendar days.",
+   "quote": "Archived files are available for retrieval for 30 calendar days",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-t007",
+   "network": "mastercard",
+   "claim": "The current list of bulk file types arrives daily in the Member Profile Extract (T007) file.",
+   "quote": "The most current listing of the bulk file types appears daily in the Member Profile Extract (T007) file.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-naming",
+   "network": "mastercard",
+   "claim": "Mastercard file names encode environment, bulk type, mechanism, endpoint, date, time and sequence.",
+   "quote": "Here is an example: MCI.AR.T112.M.E0090000.D040928.T095115.A001",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-thresh",
+   "network": "mastercard",
+   "claim": "Net settlement payments below USD 1,000 equivalent fall under a minimum threshold.",
+   "quote": "The payment is a minimum of USD 1,000 equivalent for net settlement to or from Mastercard.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-wire",
+   "network": "amex",
+   "claim": "Amex pays OptBlue settlement funds by wire to the Participant account after its submission cut-off.",
+   "quote": "American Express will make payments of these Settlement Funds by wire transfer to the appropriate Participant Account",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-fd-three",
+   "network": "amex",
+   "claim": "Each OptBlue industry category has three pricing levels by ticket size.",
+   "quote": "Each industry category has three pricing levels.",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-fs-title",
+   "network": "amex",
+   "claim": "Fiserv subtitles its OptBlue guide as a reference for interchange requirements and rates.",
+   "quote": "Reference guide for Interchange Program Requirements & Rates",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-vss-advance",
+   "network": "visa",
+   "claim": "Visa's advance notice guideline is three months for a first VSS implementation and two months for a new funds transfer.",
+   "quote": "Original implementation Three months New funds transfer Two months",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-destbin",
+   "network": "visa",
+   "claim": "Processors can have the member BIN placed in report records so they can split and pass VSS reports to each member.",
+   "quote": "Processors that want to distribute VSS reports directly to members can have the BIN identified in their report records.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-advch",
+   "network": "mastercard",
+   "claim": "Transfer agent banks can receive advisements by Mastercard Connect, email, fax or SWIFT MT998.",
+   "quote": "The transfer agent bank may receive the advisement through Mastercard Connect, email message, fax, or SWIFT MT998.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-natagree",
+   "network": "visa",
+   "claim": "Every member in a national settlement service must agree the national cut-off time.",
+   "quote": "If a national settlement cutoff time is defined, all members participating in the national settlement service must agree on the cutoff time.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-308",
+   "network": "mastercard",
+   "claim": "The Transfer Agent Advisement Detail (BSADV308-AA) tells the transfer agent bank its net position, with a section per member ID.",
+   "quote": "Each Customer (Member) ID will appear as a separate section in the Transfer Agent Advisement Detail.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-holdcr",
+   "network": "mastercard",
+   "claim": "Held credit funds are released only on a written request with an original signature from the principal.",
+   "quote": "an original signature from the principal, and the payee name, address, amount, and advisement date",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fd-software",
+   "network": "amex",
+   "claim": "Third-party terminals or software that mis-send data can cost merchants the best pricing level.",
+   "quote": "failure by these systems to correctly and accurately transmit information in the required formats may result in your transactions not qualifying",
+   "url": "https://www.mscmerchant.com/staging/1108/wp-content/uploads/2024/04/AMEX-OPT-BLUE-PRICING.pdf",
+   "title": "American Express OptBlue Pricing Guide",
+   "publisher": "First Data (posted by MSC Merchant)",
+   "published": "2018",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked confidential and proprietary information of First Data Corporation. Openly posted on a merchant services reseller site, no login needed."
+  },
+  {
+   "key": "tM-M-sm-nsif30",
+   "network": "mastercard",
+   "claim": "Mastercard wants the completed NSIF at least 30 days before the customer goes live.",
+   "quote": "Mastercard recommends that Mastercard receive a completed NSIF at least 30 days before the customer intends to become active",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-records",
+   "network": "amex",
+   "claim": "Where records conflict, Amex records prevail.",
+   "quote": "If there is a conflict between Participant's records and American Express' records concerning Transactions, American Express' records will control.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-vss-7days",
+   "network": "visa",
+   "claim": "VSS reports are produced and delivered every day of the week.",
+   "quote": "VSS reports are produced and delivered seven days a week.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-hold10",
+   "network": "mastercard",
+   "claim": "Mastercard holds sub-threshold transfers for up to ten business days while the cumulative amount stays below the minimum.",
+   "quote": "Mastercard will retain the funds transfer for 10 business days if the cumulative net settlement amount remains less than the threshold minimum.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-sft",
+   "network": "visa",
+   "claim": "A member sets up each funds transfer point by completing paper Settlement Funds Transfer forms, which Visa processes in about 30 days.",
+   "quote": "Visa accepts and processes SFT forms within approximately 30 days, provided that the forms are complete and accurate",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-natrep",
+   "network": "visa",
+   "claim": "National settlement reports arrive about an hour after the national cut-off, separate from the international set.",
+   "quote": "Settlement reports are produced approximately one hour after the national settlement cutoff time.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-nonotice",
+   "network": "mastercard",
+   "claim": "Missing a courtesy notice does not excuse non-compliance fees.",
+   "quote": "Failure to receive a courtesy notice does not relieve a customer from being assessed non-compliance fees",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-form829",
+   "network": "mastercard",
+   "claim": "Some regional services opt in to the threshold on Form 829, and others opt out on Form 814.",
+   "quote": "may choose to opt in by completing the Participant of Transfer Funds Order Minimum Thresholds (Form 829).",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-assesstab",
+   "network": "mastercard",
+   "claim": "For US dollar settlement the daily assessment starts at USD 250 for amounts under USD 250,000.",
+   "quote": "USD 0.01 to USD 249,999.99 USD 250",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-checklist",
+   "network": "visa",
+   "claim": "Visa's customised hierarchy checklist requires a unique 15-character name for every SRE.",
+   "quote": "Every SRE has a unique 15-character name.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-135",
+   "network": "visa",
+   "claim": "VSS-135 gives daily and month-to-date reimbursement fees by fee level and business mode.",
+   "quote": "Provides daily and month-to-date reimbursement fees summarized by fee level and business mode.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-edit",
+   "network": "visa",
+   "claim": "Members on the BASE II Edit Package get their settlement reports printed by the Edit Package software.",
+   "quote": "Members using a BASE II Edit Package have their settlement reports printed by the Edit Package.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-optional",
+   "network": "visa",
+   "claim": "Visa generates optional VSS reports for an SRE only when the member has subscribed to them.",
+   "quote": "Optional reports are only generated by Visa for an SRE when a member subscribes to that report.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-assess",
+   "network": "mastercard",
+   "claim": "Non-compliance assessments apply from the first day of a missed settlement and every day after.",
+   "quote": "Assessments are applied on the first day, and each subsequent day thereafter, that a customer fails to transfer funds in a timely manner",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-mark",
+   "network": "amex",
+   "claim": "The October 2024 OptBlue Operating Regulations are marked sensitive, confidential and trade secret.",
+   "quote": "This document contains sensitive, confidential, and trade secret information, and must not be disclosed to third",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-ob-withhold",
+   "network": "amex",
+   "claim": "Shortfalls are taken by ACH debit and then invoiced if the debit fails.",
+   "quote": "American Express will have the right to deduct such amounts by debit ACH funds transfer. If this fails, American Express will invoice Participant",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-sm-superuser",
+   "network": "mastercard",
+   "claim": "The optional NSIF Super User role lets a principal view its current settlement parameters.",
+   "quote": "Customers may view their current settlement parameters.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-natcut",
+   "network": "visa",
+   "claim": "Countries in a National Net Settlement Service can set a domestic cut-off between 01:00 and 10:00 GMT.",
+   "quote": "National Net Settlement Service cutoff times can be defined between 0100 GMT and 1000 GMT.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-vss-300",
+   "network": "visa",
+   "claim": "VSS-300 SRE Financial Recap totals interchange, fees and charges for each subordinate SRE.",
+   "quote": "Provides summarized totals of the interchange values, reimbursement fees, and Visa charges for each immediately subordinate SRE.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fs-regdebit",
+   "network": "amex",
+   "claim": "The Fall 2025 guide prices US regulated debit on Amex at 0.04% plus USD 0.25.",
+   "quote": "Card Types: U.S. Issued Consumer Regulated Debit",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-vss-mc",
+   "network": "visa",
+   "claim": "Non-US-dollar settlement pays two settlement-currency business days after the VisaNet Central Processing Date.",
+   "quote": "Funds transfers occur two Settlement Currency business days after the VisaNet Central Processing Date (CPD)",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-1-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 1, Specifications (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ob-stmt",
+   "network": "amex",
+   "claim": "Participants must make pricing disclosures on merchant statements clear.",
+   "quote": "All pricing disclosures in the account statements must be clear and easy to understand.",
+   "url": "https://umpa-us.com/pdf/OptBlue_Guide_Oct2024.pdf",
+   "title": "OptBlue Program Operating Regulations, United States Region, October 2024",
+   "publisher": "American Express (posted by UMPA)",
+   "published": "2024-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Marked sensitive, confidential and trade secret by American Express. Openly posted by a payments company, no login needed."
+  },
+  {
+   "key": "tM-M-sm-303",
+   "network": "mastercard",
+   "claim": "The Member Advisement Detail (BSADV303-AA) is a reconciliation report for consolidated customers and is not a payment instruction.",
+   "quote": "The Member Advisement Detail is a reconciliation report and is not intended to be used to initiate payment to or from Mastercard.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-ftm-nosupport",
+   "network": "mastercard",
+   "claim": "Mastercard does not support third-party SFTP software.",
+   "quote": "As SFTP software is a third-party product, Mastercard will not be able to provide technical support for it.",
+   "url": "https://pdfcoffee.com/file-transfer-manual-pdf-free.html",
+   "title": "Mastercard File Transfer Manual, Version 1.1, 22 June 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-22",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-fs-mcc",
+   "network": "amex",
+   "claim": "OptBlue pricing levels follow industry groups mapped to MCCs.",
+   "quote": "Pricing levels are based on industry levels that correspond to Merchant Category Codes",
+   "url": "https://www.fhb.com/sites/default/files/2025-10/25.2_American_Express_OptBlue_Program_Pricing_Guide.pdf",
+   "title": "American Express OptBlue Pricing Guide 25.2, Fall 2025",
+   "publisher": "Fiserv (posted by First Hawaiian Bank)",
+   "published": "2025-10",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed."
+  },
+  {
+   "key": "tM-M-sm-combine",
+   "network": "mastercard",
+   "claim": "Payments must not be combined across ICAs or value dates.",
+   "quote": "Do not combine payments for many member IDs/ICAs or value dates into one payment.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tM-M-sm-dispute",
+   "network": "mastercard",
+   "claim": "A customer disputing an advised amount must ask Global Customer Service in writing within one business day.",
+   "quote": "the customer must, upon discovery and in writing within one business day, request of the Global Customer Service team an investigation of the matter.",
+   "url": "https://pdfcoffee.com/settlementmanual-pdf-pdf-free.html",
+   "title": "Mastercard Settlement Manual, 21 July 2020",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2020-07-21",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
   }
  ],
  "stage_id": "6a"
