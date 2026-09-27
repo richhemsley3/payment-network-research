@@ -1,0 +1,2127 @@
+{
+ "tasks": [
+  {
+   "id": "6a-1",
+   "stage": "6a",
+   "title": "Collect the day's clearing and settlement files",
+   "cadence": "daily",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "fintech",
+    "developer"
+   ],
+   "does": {
+    "text": "Operations staff pull each network's daily settlement reports and clearing files, often forwarded by a processor. Visa sends VSS reports, Mastercard six GCMS cycles and Amex a Daily Activity Report.",
+    "ids": [
+     "new:t6a-a-mq-30min",
+     "new:t6a-b-pmy-raw",
+     "new:t6a-a-ts-visalist",
+     "new:t6a-a-mq-vss-files",
+     "new:t6a-b-gcms-six",
+     "new:t6a-c-amx-bop2"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "VSS report family (VSS-110, 115, 120, 130, 140)",
+     "network": "visa"
+    },
+    {
+     "name": "GCMS cycle reports IP727010-AA, IP727020-AA, IP728010-AA",
+     "network": "mastercard"
+    },
+    {
+     "name": "Mastercard File Express Client and Scheduler",
+     "network": "mastercard"
+    },
+    {
+     "name": "Daily Activity Report and Daily Activity File",
+     "network": "amex"
+    },
+    {
+     "name": "Discover daily clearing file and 14:00 fee file",
+     "network": "discover-family"
+    },
+    {
+     "name": "Lithic Settlement API",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Late network files are the main cause of settlement data delays at one processor, and a Mastercard sender without a confirmation file must phone to check.",
+     "ids": [
+      "new:t6a-a-li-delay",
+      "new:t6a-b-gcms-confirm"
+     ]
+    },
+    "points": [
+     {
+      "text": "Mastercard stopped phoning acquirers about risk rejects, and a sender with no confirmation file must phone to learn whether its file was processed.",
+      "ids": [
+       "new:t6a-b-gcms-2202",
+       "new:t6a-b-gcms-confirm"
+      ]
+     },
+     {
+      "text": "Downgrade and reject reports missing from a daily package cannot be recreated later, and recreating expired Mastercard clearing data costs a per-file fee.",
+      "ids": [
+       "new:t6a-a-ts-retro",
+       "new:t6a-b-gcms-recreate"
+      ]
+     },
+     {
+      "text": "Programmes behind a processor cannot choose their own Visa reports. Marqeta tells customers to ask their Visa representative which VSS reports they can receive.",
+      "ids": [
+       "new:t6a-a-mq-askrep"
+      ]
+     },
+     {
+      "text": "Processor guides disagree on the calendar. Paymentology says there is no Sunday clearing, while the 2021 GCMS manual schedules Sunday cycles.",
+      "ids": [
+       "new:t6a-b-pmy-sunday",
+       "new:t6a-b-gcms-weekend"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "unknown",
+    "text": "Discover runs one clearing cycle a day, with files arriving between 10:00 and 14:00 and network fees in a separate 14:00 file.",
+    "ids": [
+     "new:tM-M-th-cycle",
+     "new:tM-M-th-files",
+     "new:tM-M-th-fees"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Each settlement day shown as a status",
+    "text": "Show each settlement day and each file as pending or complete, with a notice when a network file is late. Stripe and Lithic already treat completeness as a state, while Mastercard makes senders phone to confirm a file.",
+    "stage_move": "Settlement day as a status",
+    "strategy_rank": 2,
+    "ids": [
+     "new:t6a-d-lithic-iscomplete",
+     "new:t6a-a-st-status",
+     "new:t6a-b-gcms-confirm",
+     "new:t6a-a-li-delay"
+    ]
+   }
+  },
+  {
+   "id": "6a-2",
+   "stage": "6a",
+   "title": "Reconcile the daily settlement to the funds moved",
+   "cadence": "daily",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "fintech"
+   ],
+   "does": {
+    "text": "The partner ties clearing records and settlement reports, layer by layer, to the net amount wired that day. A payfac also funds and reconciles each sub-merchant daily.",
+    "ids": [
+     "new:t6a-b-riv-396",
+     "new:t6a-b-riv-t5g2",
+     "new:t6a-o-merrick-daily",
+     "new:t6a-o-cardworks-recon"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "VSS-110 Settlement Summary",
+     "network": "visa"
+    },
+    {
+     "name": "Transfer Agent Advisement Detail (BSADV308-AA)",
+     "network": "mastercard"
+    },
+    {
+     "name": "SWCHD363 Daily Control Report",
+     "network": "mastercard"
+    },
+    {
+     "name": "GRRCN reconciliation file",
+     "network": "amex"
+    },
+    {
+     "name": "PULSE Gateway single-point settlement",
+     "network": "discover-family"
+    },
+    {
+     "name": "FIS iQ Reports tab",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Issuers rebuild Mastercard fund reconciliation from documentation fragments and spreadsheets, and Visa and Mastercard sell training on the task.",
+     "ids": [
+      "new:t6a-b-riv-frag",
+      "new:t6a-a-vbs-rec",
+      "new:t6a-b-acad"
+     ]
+    },
+    "points": [
+     {
+      "text": "A disputed Mastercard advisement must be raised in writing within one business day and still paid in full, with daily assessments from USD 250 for missed settlement.",
+      "ids": [
+       "new:tM-M-sm-dispute",
+       "new:tM-M-sm-paywhile",
+       "new:tM-M-sm-assess",
+       "new:tM-M-sm-assesstab"
+      ]
+     },
+     {
+      "text": "Clearing that arrives after the Visa cut-off is reported under a different settlement service heading, which a reconciler must know to match totals.",
+      "ids": [
+       "new:t6a-a-mq-iss"
+      ]
+     },
+     {
+      "text": "Mastercard expects its debit switch totals and processor totals to differ at times, and its reports omit transaction types with no activity.",
+      "ids": [
+       "new:tN-N-mds-zero",
+       "new:tN-N-mds-unrec"
+      ]
+     },
+     {
+      "text": "A sponsor bank says funding reconciliation is more burdensome under the payfac model.",
+      "ids": [
+       "new:t6a-o-cardworks-recon"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "unknown",
+    "text": "PULSE Gateway settles many ATM and POS networks through one system on one cutoff, with exception items for all of them in PULSE PIX2.",
+    "ids": [
+     "new:t6a-c-pul-gw1",
+     "new:t6a-c-pul-gw3",
+     "dgn-140"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Totals guaranteed to tie to the wire",
+    "text": "State the settlement arithmetic on screen and show each day that report totals equal the funds moved. Amex, Mastercard Send and Discover's own old report show the tie-out can be promised.",
+    "stage_move": "Totals that tie to the wire",
+    "strategy_rank": 2,
+    "ids": [
+     "new:t6a-c-amx-grrcn1",
+     "new:t6a-b-send-sum",
+     "new:t6a-c-dgn-dar2",
+     "new:t6a-b-riv-frag"
+    ]
+   }
+  },
+  {
+   "id": "6a-3",
+   "stage": "6a",
+   "title": "Balance ATM settlement terminal by terminal",
+   "cadence": "daily",
+   "partner_types": [
+    "atm",
+    "issuer"
+   ],
+   "does": {
+    "text": "Operators reconcile each terminal, matching withdrawals, surcharge and settlement dates to deposits and allowing for funds in transit. Vault cash and surcharge settle the next banking day, and interchange arrives monthly.",
+    "ids": [
+     "new:t6a-d-atmdepot-stmt-three",
+     "new:t6a-d-atmdepot-intransit",
+     "new:t6a-d-switch-settle",
+     "new:t6a-d-atmdepot-nextday",
+     "new:t6a-d-atm101-categories"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "CDS ATM Management Platform",
+     "network": "processor"
+    },
+    {
+     "name": "Switch Commerce Terminal Management System",
+     "network": "processor"
+    },
+    {
+     "name": "FIS EFSURNET-R01 surcharge report",
+     "network": "processor"
+    },
+    {
+     "name": "SMS601C acquirer detail report",
+     "network": "visa"
+    },
+    {
+     "name": "PULSE Debit Dashboard, PULSE ATM module",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Operator statements stack several layers of fees, and a software vendor says many operators reconcile in separate systems with spreadsheets filling the gaps.",
+     "ids": [
+      "new:t6a-d-atmtrader-lines",
+      "new:t6a-o-tco-spreadsheets"
+     ]
+    },
+    "points": [
+     {
+      "text": "Network fees on surcharged withdrawals and EMV fallback fees reach operators only if their processor passes them through.",
+      "ids": [
+       "new:t6a-d-atmdepot-netfees",
+       "new:t6a-d-atmdepot-fallback"
+      ]
+     },
+     {
+      "text": "Cardtronics alleges Visa deducts its acquirer fee from issuer-paid interchange, and that Visa raised that fee from 6 to 16 cents in 2012.",
+      "ids": [
+       "new:t6a-a-ct-net",
+       "new:t6a-a-ct-fee"
+      ]
+     },
+     {
+      "text": "A processor tells operators network penalties can reach $50,000 per event per device.",
+      "ids": [
+       "new:t6a-o-E95"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "PULSE settles gateway activity at a single point, yet publishes no ATM interchange amounts for operators to check their statements against.",
+    "ids": [
+     "new:t6a-c-pul-gw1",
+     "dgn-085",
+     "pulse-085"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "A per-terminal statement by network",
+    "text": "Give operators and their processors a per-terminal view of interchange by network, net of network fees, with each fee named. The study found no network offering operators this view directly.",
+    "stage_move": "An ATM statement by terminal and network",
+    "strategy_rank": null,
+    "ids": [
+     "cross-196",
+     "new:t6a-o-tco-spreadsheets",
+     "new:t6a-d-fis-surnet"
+    ]
+   }
+  },
+  {
+   "id": "6a-4",
+   "stage": "6a",
+   "title": "Check interchange qualification and chase downgrades",
+   "cadence": "daily",
+   "partner_types": [
+    "acquirer",
+    "payfac",
+    "merchant",
+    "developer"
+   ],
+   "does": {
+    "text": "Acquirers and their processors pre-qualify each transaction, then find network downgrades after the fact in processor reports. Merchants ask their processor for downgrade reports.",
+    "ids": [
+     "new:t6a-a-ts-dgdef",
+     "new:t6a-a-ts-dgrep",
+     "new:t6a-a-mcc-ask"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Interchange Downgrade Detail (TSAD50F-1)",
+     "network": "processor"
+    },
+    {
+     "name": "TSYS e-Connections exception reports",
+     "network": "processor"
+    },
+    {
+     "name": "Cybersource Fee Details Report",
+     "network": "visa"
+    },
+    {
+     "name": "Mastercard parameter file",
+     "network": "mastercard"
+    },
+    {
+     "name": "DGN service centre acquirer interchange page",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "severe",
+    "why": {
+     "text": "The Fed found acquirers and merchants paid commercial interchange on about five million Discover consumer cards from 2007 to at least 2023 without being told.",
+     "ids": [
+      "new:t6a-c-dgn-fed1",
+      "new:t6a-c-dgn-fed3"
+     ]
+    },
+    "points": [
+     {
+      "text": "Mastercard's parameter file lists rate designators but omits the rates, so acquirers cannot compute expected interchange from it.",
+      "ids": [
+       "new:t6a-b-gcms-mpe"
+      ]
+     },
+     {
+      "text": "A failing Mastercard rate designator falls to the next one, and US consumer credit failures land at a Standard rate of 3.15% plus USD 0.10.",
+      "ids": [
+       "new:t6a-b-gcms-irdfall",
+       "new:t6a-b-usr-standard"
+      ]
+     },
+     {
+      "text": "The interchange fee line on Visa SMS detail reports is off by default, and changing it means contacting a Visa Member Services representative.",
+      "ids": [
+       "new:tN-N-sms-line5",
+       "new:tN-N-sms-default",
+       "new:tN-N-sms-lines"
+      ]
+     },
+     {
+      "text": "Finix warns poor CEDP data can downgrade past transactions, and Stripe's CEDP reports carry data from two months earlier.",
+      "ids": [
+       "new:t6a-o-finix-downgrade",
+       "new:t6a-o-stripe-nci"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover's US acquirer rates open only with an acquirer-issued code, and the Fed now requires controls that classify interchange for each acquirer and merchant.",
+    "ids": [
+     "dgn-063",
+     "dgn-064",
+     "dgn-245"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Class, rate and downgrade reason per transaction",
+    "text": "Show each transaction's card class, the programme it was priced and cleared at, and any downgrade reason. Cybersource already shows priced against cleared interchange with a reason code per transaction.",
+    "stage_move": "Show the class and rate each transaction was billed at",
+    "strategy_rank": 1,
+    "ids": [
+     "new:t6a-a-cb-fee",
+     "new:t6a-a-cb-fee2",
+     "new:t6a-c-dgn-fed2",
+     "new:t6a-b-gcms-mpe"
+    ]
+   }
+  },
+  {
+   "id": "6a-5",
+   "stage": "6a",
+   "title": "Review and pay the network invoice",
+   "cadence": "monthly",
+   "partner_types": [
+    "issuer",
+    "fintech"
+   ],
+   "does": {
+    "text": "The card team checks each network's bill against its processor's fee reports and pays it, usually by ACH. Mastercard bills weekly through MCBS, Visa invoices through its portal and Amex fees settle on the 26th.",
+    "ids": [
+     "new:t6a-d-fis-mcbs-purpose",
+     "new:t6a-b-syn-ach",
+     "new:t6a-a-rul-ach",
+     "new:t6a-b-syn-weekly",
+     "new:t6a-a-vbs-voip",
+     "new:t6a-c-amx-bop4",
+     "new:t6a-c-amx-bop10"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Visa Online Invoice Portal (VOIP)",
+     "network": "visa"
+    },
+    {
+     "name": "Pricing and Billing Resource Center (Mastercard Connect)",
+     "network": "mastercard"
+    },
+    {
+     "name": "FIS report BIMCBSM001",
+     "network": "processor"
+    },
+    {
+     "name": "Daily Activity Report Fee Detail Section",
+     "network": "amex"
+    },
+    {
+     "name": "PULSE one-page all-in invoice",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "The UK regulator found issuers generally cope with scheme fee information, while US community banks describe long provider bills and retain billing consultants.",
+     "ids": [
+      "new:t6a-p-psr-issuers",
+      "new:t6a-o-icba26-billing"
+     ]
+    },
+    "points": [
+     {
+      "text": "Reading a Visa invoice needs knowledge of settlement and collection entities, which Visa teaches as a course.",
+      "ids": [
+       "new:t6a-a-vbs-entities"
+      ]
+     },
+     {
+      "text": "Every US issuer pays Visa Advanced Authorization fees whether or not it uses the data.",
+      "ids": [
+       "visa-454"
+      ]
+     },
+     {
+      "text": "Mastercard reports are themselves billed, and Mastercard Academy sold a two-day MCBS billing seminar for USD 900.",
+      "ids": [
+       "new:t6a-b-syn-reportfee",
+       "new:tM-M-mcbs-course"
+      ]
+     },
+     {
+      "text": "ICBA told the Fed that most community banks struggled to get network and processing fee data from their technology providers. This is advocacy.",
+      "ids": [
+       "new:t6a-o-icba24-provider"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "ahead",
+    "text": "PULSE sells Discover Debit on an all-in fee with a one-page invoice, and claims an issuer can reconcile it in about ten minutes.",
+    "ids": [
+     "pulse-012",
+     "new:t6a-c-pul-dd1",
+     "new:t6a-c-pul-dd2"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "The one-page bill as the default view",
+    "text": "Carry the one-page invoice into the portal as the default view, one line per network with detail on demand. Community banks and credit unions complain of long bills that are hard to interpret.",
+    "stage_move": "Keep the short bill",
+    "strategy_rank": 2,
+    "ids": [
+     "pulse-012",
+     "new:t6a-c-pul-dd1",
+     "new:t6a-o-icba26-billing",
+     "new:t6a-o-occ25-billing"
+    ]
+   }
+  },
+  {
+   "id": "6a-6",
+   "stage": "6a",
+   "title": "Trace scheme fees to their triggers and pass them on",
+   "cadence": "monthly",
+   "partner_types": [
+    "acquirer",
+    "payfac",
+    "merchant"
+   ],
+   "does": {
+    "text": "Acquirer analysts trace each scheme invoice line to the events behind it, allocate fees to merchants and model new fees. Payfacs and merchants see these costs only as their acquirer passes them on.",
+    "ids": [
+     "new:t6a-d-job-shift4",
+     "new:t6a-o-stripe-netcost",
+     "new:t6a-b-psr-misbill",
+     "new:t6a-p-psr-merchants"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Visa Acquirer Billing Guide",
+     "network": "visa"
+    },
+    {
+     "name": "Mastercard Connect billing tools",
+     "network": "mastercard"
+    },
+    {
+     "name": "GRRCN Seller ID",
+     "network": "amex"
+    },
+    {
+     "name": "Torus and CardTraq network fee analytics",
+     "network": "any"
+    },
+    {
+     "name": "Stripe IC+ plan-level report for connected accounts",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "severe",
+    "why": {
+     "text": "UK acquirers with over 90% of the market struggled with behavioural fees, and one firm's review team found several million pounds of incorrect scheme charges in a year.",
+     "ids": [
+      "cross-191",
+      "new:t6a-d-ps261-team"
+     ]
+    },
+    "points": [
+     {
+      "text": "Portal bulletin codes do not match invoice codes, and 13 Visa bulletins in 2024 omitted the billing event, so new fees surfaced first on the invoice.",
+      "ids": [
+       "new:t6a-a-psr-codes",
+       "new:t6a-a-psr-13"
+      ]
+     },
+     {
+      "text": "Teya said a scheme billing line can hold several hundred events, each taking hours to trace.",
+      "ids": [
+       "new:t6a-o-teya-billing"
+      ]
+     },
+     {
+      "text": "UK acquirers could not identify which merchants triggered behavioural fees, so the cost spreads across all their merchants.",
+      "ids": [
+       "new:t6a-p-psr-merchants",
+       "cross-215"
+      ]
+     },
+     {
+      "text": "One acquirer had eight Mastercard fee trigger misalignments in two years, and another faced a multi-year clawback after Mastercard's own error.",
+      "ids": [
+       "new:t6a-b-psr-misbill",
+       "new:t6a-b-a12-claw"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Payfacs and ISOs see Discover through acquirer pricing, often a blended rate, and merchants on flat plans cannot see migrated Discover debit rates.",
+    "ids": [
+     "dgn-272",
+     "dgn-315"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Every fee line traced to its trigger",
+    "text": "Give each invoice line a stable billing identifier, its trigger rule and a link to its transactions, free to download as data. Visa and Mastercard told the UK regulator they cannot supply this within a year.",
+    "stage_move": "Every fee line traces to its trigger",
+    "strategy_rank": 1,
+    "ids": [
+     "new:t6a-d-sd22-billingid",
+     "cross-229",
+     "new:t6a-d-ps261-visatxn",
+     "new:t6a-d-ps261-mclegacy",
+     "new:t6a-c-amx-grrcn4"
+    ]
+   }
+  },
+  {
+   "id": "6a-7",
+   "stage": "6a",
+   "title": "File quarterly and monthly programme reports",
+   "cadence": "quarterly",
+   "partner_types": [
+    "issuer",
+    "fintech"
+   ],
+   "does": {
+    "text": "Issuers and programme managers compile portfolio returns for the networks, such as Mastercard's QMR due by the 15th. Amex GNS partners file monthly Program Progress Reports within 15 days, with an annual attestation.",
+    "ids": [
+     "new:t6a-d-lithic-qmr",
+     "new:t6a-c-amx-bop16"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Mastercard QMR",
+     "network": "mastercard"
+    },
+    {
+     "name": "Visa quarterly reports",
+     "network": "visa"
+    },
+    {
+     "name": "Knowledge Base: Reporting Center, File Tracker, Program Progress Reports",
+     "network": "amex"
+    },
+    {
+     "name": "Lithic quarterly network reporting",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "minor",
+    "why": {
+     "text": "The evidence shows fixed deadlines and fees, such as $250 a month for Amex portfolio reporting, and the study found no partner complaint about the work.",
+     "ids": [
+      "new:t6a-c-amx-bop16",
+      "new:t6a-c-amx-bop15"
+     ]
+    },
+    "points": [
+     {
+      "text": "Amex GNS partners must file Program Progress Reports within 15 days of month end and attest to their accuracy each year.",
+      "ids": [
+       "new:t6a-c-amx-bop16"
+      ]
+     },
+     {
+      "text": "Programmes on a processor rely on it to compile quarterly network reports, which Lithic delivers by the fifth business day after quarter end.",
+      "ids": [
+       "new:t6a-d-lithic-qmr"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "ahead",
+    "text": "Discover Debit is sold to community banks and credit unions with no quarterly reporting requirement, alongside its one-page invoice.",
+    "ids": [
+     "pulse-012",
+     "pulse-034",
+     "new:t6a-c-pul-dd1"
+    ]
+   },
+   "opportunity": {
+    "kind": "none",
+    "title": "Keep the no-reporting promise",
+    "text": "Discover Debit already spares small issuers quarterly reporting, so the study drew no separate design move for this task.",
+    "stage_move": "",
+    "strategy_rank": null,
+    "ids": [
+     "new:t6a-c-pul-dd1"
+    ]
+   }
+  },
+  {
+   "id": "6b-1",
+   "stage": "6b",
+   "title": "Take in a cardholder claim and start the clocks",
+   "cadence": "per event",
+   "partner_types": [
+    "issuer",
+    "fintech"
+   ],
+   "does": {
+    "text": "Front-line staff take the cardholder's call, judge chargeback rights across network rules and pass the claim to a back-office specialist. Regulation E runs its own clock beside the network's.",
+    "ids": [
+     "new:t6b-6b-pt-azfcu-job",
+     "new:t6b-cfpb-rege",
+     "new:t6b-rege-provisional"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Fiserv Dispute Expert and FIS CBK processor dispute products",
+     "network": "processor"
+    },
+    {
+     "name": "Marqeta Disputes portal",
+     "network": "processor"
+    },
+    {
+     "name": "Lithic Chargebacks API",
+     "network": "processor"
+    },
+    {
+     "name": "Visa Resolve Online (VROL)",
+     "network": "visa"
+    },
+    {
+     "name": "PULSE Disputes System",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "ICBA's magazine says 74 per cent of consumers go straight to their bank and each dispute takes 2.5 calls.",
+     "ids": [
+      "new:t6b-ib26-bankfirst",
+      "new:t6b-ib26-calls"
+     ]
+    },
+    "points": [
+     {
+      "text": "Regulation E asks for a decision in 10 business days, or provisional credit and up to 45 days, on top of network limits.",
+      "ids": [
+       "new:t6b-cfpb-rege",
+       "new:t6b-rege-provisional"
+      ]
+     },
+     {
+      "text": "Unit learns of disputes a day later from a daily file, after cardholders phone the processor.",
+      "ids": [
+       "new:t6b-6b-pt-unit-tollfree"
+      ]
+     },
+     {
+      "text": "A Jack Henry case study says members once had to visit a branch in set hours to fill in dispute forms.",
+      "ids": [
+       "new:t6b-6b-pt-finboa-branch"
+      ]
+     },
+     {
+      "text": "ICBA says network dispute changes help merchants deny claims and leave banks with harder customer conversations.",
+      "ids": [
+       "new:t6b-icba25-disputes"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "unknown",
+    "text": "PULSE tells issuers to send cardholders to the merchant first, and Discover's issuer claim screens sit behind a sign-in.",
+    "ids": [
+     "new:t6b-6b-pulse-disputes-system",
+     "dgn-177"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "The legal clock beside the network clock",
+    "text": "Show Reg E provisional credit and decision deadlines next to chargeback deadlines on each case, from the cardholder contact date. The only public tool found that warns on the Reg E deadline is a processor portal.",
+    "stage_move": "Put the partner's own legal clock beside the network clock",
+    "strategy_rank": 9,
+    "ids": [
+     "new:t6b-6b-pt-mq-rege-warning",
+     "new:t6b-cfpb-rege",
+     "new:t6b-rege-provisional"
+    ]
+   }
+  },
+  {
+   "id": "6b-2",
+   "stage": "6b",
+   "title": "Resolve the claim before it becomes a chargeback",
+   "cadence": "daily",
+   "partner_types": [
+    "merchant",
+    "acquirer",
+    "payfac",
+    "issuer"
+   ],
+   "does": {
+    "text": "Before a chargeback exists, the issuer's tool checks merchant data and resolution services, and enrolled merchants answer alerts or refund. Visa switched Rapid Dispute Resolution on for issuers by default.",
+    "ids": [
+     "new:t6b-6b-visa-oi-issuer-mandate",
+     "new:t6b-6b-visa-rdr-queue-status",
+     "new:t6b-6b-mc-ethoca-outcomes",
+     "new:t6b-6b-visa-rdr-auto-activate"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Verifi MyCDRN portal",
+     "network": "visa"
+    },
+    {
+     "name": "Ethoca Alerts",
+     "network": "mastercard"
+    },
+    {
+     "name": "Accelerated Dispute Resolution Dispute Alert",
+     "network": "amex"
+    },
+    {
+     "name": "Discover Fraud Alerts",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Merchants pay per alert whatever the outcome, and Ethoca and CDRN overlap on Visa orders.",
+     "ids": [
+      "cross-210",
+      "new:t6b-6b-pt-alert-overlap"
+     ]
+    },
+    "points": [
+     {
+      "text": "Merchants pay a fee for each alert whatever the outcome, and Ethoca and CDRN overlap on Visa orders.",
+      "ids": [
+       "cross-210",
+       "new:t6b-6b-pt-alert-overlap"
+      ]
+     },
+     {
+      "text": "A consultancy reports Mastercard's acquirer Collaboration route ends in the US and Canada on 4 January 2027 with no named replacement.",
+      "ids": [
+       "new:t6b-6b-mc-collab-sunset",
+       "new:t6b-6b-mc-collab-no-replacement"
+      ]
+     },
+     {
+      "text": "Mastercard Collaboration requests auto-reject after 72 hours, and merchants should acknowledge Ethoca alerts within 24 hours.",
+      "ids": [
+       "new:t6b-6b-mc-collab-auto-reject",
+       "new:t6b-6b-mc-ethoca-24h"
+      ]
+     },
+     {
+      "text": "Acquirers had to stop counting or billing RDR credits as disputes once Visa flagged them.",
+      "ids": [
+       "new:t6b-6b-visa-rdr-not-dispute"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "A practitioner guide finds no Discover equivalent of the main pre-dispute and compelling-evidence tools.",
+    "ids": [
+     "dgn-291"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Free pre-dispute resolution, counted as prevented",
+    "text": "Route each new claim through a merchant resolution step at no per-alert fee, and show resolved claims as prevented on partner reports. Visa already excludes pre-dispute resolutions from its monitoring ratio.",
+    "stage_move": "Offer free pre-dispute resolution and count it as prevented",
+    "strategy_rank": 5,
+    "ids": [
+     "cross-210",
+     "new:t6b-6b-visa-rdr-auto-activate",
+     "visa-337",
+     "dgn-291"
+    ]
+   }
+  },
+  {
+   "id": "6b-3",
+   "stage": "6b",
+   "title": "Report confirmed fraud and act on compromise alerts",
+   "cadence": "daily",
+   "partner_types": [
+    "issuer",
+    "fintech"
+   ],
+   "does": {
+    "text": "Fraud staff report each confirmed fraud to the network before disputing it, and turn compromised-card alert lists into block, monitor and reissue work.",
+    "ids": [
+     "new:t6b-6b-visa-fraud-report-first",
+     "new:t6b-6b-mc-fld-before-cb",
+     "new:t6b-6b-pt-cutek-cams",
+     "new:t6b-6b-pt-velera-ram"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Visa Risk Manager",
+     "network": "visa"
+    },
+    {
+     "name": "CAMS alert files",
+     "network": "visa"
+    },
+    {
+     "name": "Fraud and Loss Database",
+     "network": "mastercard"
+    },
+    {
+     "name": "GNS FraudNet",
+     "network": "amex"
+    },
+    {
+     "name": "Fraud and Risk Center",
+     "network": "discover-family"
+    },
+    {
+     "name": "Account Incident Manager",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Visa can suspend fraud dispute rights for 90 or 180 days after reporting failures, and credit unions reformat alert lists by hand several times a week.",
+     "ids": [
+      "visa-329",
+      "new:t6b-6b-pt-cuanswers-cams",
+      "new:t6b-6b-pt-cutek-cams"
+     ]
+    },
+    "points": [
+     {
+      "text": "Visa needs the fraud report within 60 days of the transaction before a fraud dispute can be raised.",
+      "ids": [
+       "new:t6b-6b-visa-fraud-report-first",
+       "new:t6b-6b-visa-frs-timing"
+      ]
+     },
+     {
+      "text": "Visa compromise alerts arrive only inside Visa Risk Manager, and loss recovery needs fraud reported within 120 days of the alert.",
+      "ids": [
+       "new:t6b-6b-visa-cams-vrm",
+       "new:t6b-6b-visa-gcar-120"
+      ]
+     },
+     {
+      "text": "Mastercard's Fraud Notification Service caps fraud chargebacks at 35 per card account.",
+      "ids": [
+       "new:t6b-6b-mc-fns-35"
+      ]
+     },
+     {
+      "text": "Discover fraud tool enrolment needs two named administrators, a Director or VP signature and an emailed form.",
+      "ids": [
+       "new:t6b-6b-dgn-aim-signoff"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover takes confirmed fraud through a separate portal enrolled by signed form, apart from its Disputes Portal.",
+    "ids": [
+     "new:t6b-6b-dgn-confirmed-fraud",
+     "dgn-176",
+     "new:t6b-6b-dgn-aim-signoff"
+    ]
+   },
+   "opportunity": {
+    "kind": "parity",
+    "title": "One action files the fraud report and the dispute",
+    "text": "Let one issuer action file the fraud report and open the dispute. Mastercom already lists the fraud report among claim actions, while Discover's portal offers only retrieval, chargeback and compliance tabs.",
+    "stage_move": "Fold fraud reporting into the dispute",
+    "strategy_rank": 9,
+    "ids": [
+     "new:t6b-6b-mc-fraud-item",
+     "new:tD-D-mcom-actions",
+     "new:tD-D-dnp-initiation"
+    ]
+   }
+  },
+  {
+   "id": "6b-4",
+   "stage": "6b",
+   "title": "Work the dispute queue to deadline",
+   "cadence": "daily",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "fintech",
+    "merchant"
+   ],
+   "does": {
+    "text": "Analysts clear network work queues each day, accepting, answering or escalating each case inside its time limit. A missed deadline closes the cycle against the silent party.",
+    "ids": [
+     "new:t6b-6b-mc-queues",
+     "new:t6b-6b-mc-ack-moves-queue",
+     "new:t6b-6b-visa-silence-closes",
+     "new:t6b-6b-mc-prearb-auto-accept"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Mastercom work queues",
+     "network": "mastercard"
+    },
+    {
+     "name": "VROL acquirer queue",
+     "network": "visa"
+    },
+    {
+     "name": "AEGNS Network Disputes Manager (NDM)",
+     "network": "amex"
+    },
+    {
+     "name": "DN Disputes Portal My Queue",
+     "network": "discover-family"
+    },
+    {
+     "name": "Worldpay Disputes API",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Mastercard, which sells dispute tools, puts US issuer cost at about USD 9 to 10 per dispute, and one payfac analyst posting lists four network portals plus fax.",
+     "ids": [
+      "new:t6b-K37",
+      "new:t6b-6b-visa-payfac-portals"
+     ]
+    },
+    "points": [
+     {
+      "text": "Vendors say that since April 2025 Visa acquirer fees rise with each day a dispute sits.",
+      "ids": [
+       "new:t6b-6b-visa-fee-arb-600"
+      ]
+     },
+     {
+      "text": "Discover status values such as Unable to Process describe the system result and say nothing about who acts next.",
+      "ids": [
+       "new:tD-D-dnp-status"
+      ]
+     },
+     {
+      "text": "A processor or CUSO analyst needs a separate Discover user ID for each institution, and saved queues are visible only to their creator.",
+      "ids": [
+       "new:tD-D-dnp-multiorg",
+       "new:tD-D-dnp-queuedyn"
+      ]
+     },
+     {
+      "text": "When VROL is down, a processor portal blocks every Visa action on the case until it reconnects.",
+      "ids": [
+       "new:t6b-6b-visa-wp-vrol-down"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover's portal shows a Stage Expiration date, yet its status values name system results and never the next actor.",
+    "ids": [
+     "new:tD-D-dnp-stageexp",
+     "new:tD-D-dnp-status"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Whose move it is and the days left",
+    "text": "Make each case status a next action with an owner and a day count from the condition's own limit, with the same states in the API. Amex and a PULSE processor wrapper already show this to their users.",
+    "stage_move": "Show whose move it is and the days left, on every case",
+    "strategy_rank": 9,
+    "ids": [
+     "new:t6b-6b-amex-oma-case-detail",
+     "new:t6b-6b-pulse-mq-nextactor",
+     "new:t6b-6b-pt-lithic-status",
+     "new:t6b-6b-visa-marq-states"
+    ]
+   }
+  },
+  {
+   "id": "6b-5",
+   "stage": "6b",
+   "title": "Answer retrievals and submit evidence",
+   "cadence": "per event",
+   "partner_types": [
+    "acquirer",
+    "merchant",
+    "payfac",
+    "atm"
+   ],
+   "does": {
+    "text": "Acquirers and merchants answer retrieval requests and chargebacks with documents inside each network's window. ATM acquirers answer non-receipt of cash claims with the disbursement record.",
+    "ids": [
+     "new:tD-D-itr-action",
+     "new:t6b-6b-mc-docs-8-days",
+     "new:t6b-6b-visa-atm-13-9"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Mastercom evidence upload",
+     "network": "mastercard"
+    },
+    {
+     "name": "Mastercom Extended Pending Documentation Report",
+     "network": "mastercard"
+    },
+    {
+     "name": "VROL dispute questionnaire",
+     "network": "visa"
+    },
+    {
+     "name": "Case detail and response modal",
+     "network": "amex"
+    },
+    {
+     "name": "Dispute System Interface",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Compelling Evidence 3.0 gets one attempt and incomplete submissions are declined, while upload limits range from three images to 18 MB.",
+     "ids": [
+      "new:t6b-6b-visa-ce3-one-shot",
+      "new:t6b-6b-dgn-dsi-3-images",
+      "new:t6b-6b-mc-doc-limits"
+     ]
+    },
+    "points": [
+     {
+      "text": "A processor gives merchants nine days to defend against the acquirer's 30.",
+      "ids": [
+       "new:t6b-6b-visa-adyen-9days"
+      ]
+     },
+     {
+      "text": "Amex attachments can take up to seven days to load, with caps of 5MB per file and 25MB per case.",
+      "ids": [
+       "new:t6b-6b-amex-lac-attach-lag",
+       "new:t6b-6b-amex-oma-upload-limits"
+      ]
+     },
+     {
+      "text": "Discover conditional fields can turn mandatory as other fields are filled, and the error appears only on submit.",
+      "ids": [
+       "new:tD-D-dnp-cond"
+      ]
+     },
+     {
+      "text": "Mastercard codes ATM cases as free-text memos, while Visa names the journal fields an ATM acquirer returns.",
+      "ids": [
+       "new:t6b-6b-mc-atm-memo",
+       "new:t6b-6b-visa-atm-13-9"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover's public merchant help lists Internet Explorer 6 and a three-image representment cap, though its issuer portal now takes 15 MB files.",
+    "ids": [
+     "new:t6b-6b-dgn-dsi-legacy",
+     "new:t6b-6b-dgn-dsi-3-images",
+     "new:tD-D-dnp-docs"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "Evidence checked before it is final",
+    "text": "Check evidence against the reason code before submission, show limits up front and list items still missing inside the window. Mastercom's Pending Documentation Report shows the value of flagging gaps early.",
+    "stage_move": "Let evidence be checked before it is final",
+    "strategy_rank": 9,
+    "ids": [
+     "new:t6b-6b-mc-ext-pending-docs",
+     "new:t6b-6b-visa-ce3-one-shot",
+     "new:t6b-6b-pt-stripe-iss-once"
+    ]
+   }
+  },
+  {
+   "id": "6b-6",
+   "stage": "6b",
+   "title": "Escalate a case to pre-arbitration and arbitration",
+   "cadence": "per event",
+   "partner_types": [
+    "issuer",
+    "acquirer"
+   ],
+   "does": {
+    "text": "When a response fails, the issuer or acquirer files pre-arbitration and then arbitration, where Visa rules on prior exchanges only.",
+    "ids": [
+     "new:t6b-6b-visa-alloc-prearb",
+     "new:t6b-6b-mc-arb-15",
+     "new:t6b-6b-visa-arb-10days",
+     "new:t6b-6b-visa-arb-no-new-docs"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Mastercom case filing",
+     "network": "mastercard"
+    },
+    {
+     "name": "Visa Resolve Online (VROL)",
+     "network": "visa"
+    },
+    {
+     "name": "NDM Disputes Online",
+     "network": "amex"
+    },
+    {
+     "name": "DN Disputes Portal Dispute Details page",
+     "network": "discover-family"
+    },
+    {
+     "name": "PULSE Disputes System",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Arbitration carries fees and short windows, such as USD 150 to file and USD 250 for review at Amex and a reported USD 600 for losing at Visa.",
+     "ids": [
+      "new:t6b-6b-amex-arb-fees",
+      "new:t6b-6b-visa-fee-arb-600"
+     ]
+    },
+    "points": [
+     {
+      "text": "Visa arbitration must be filed within 10 days and is decided on prior exchanges, and an appeal needs new evidence and USD 5,000 at stake.",
+      "ids": [
+       "new:t6b-6b-visa-arb-10days",
+       "new:t6b-6b-visa-arb-no-new-docs",
+       "new:t6b-6b-visa-appeal-5000"
+      ]
+     },
+     {
+      "text": "A Mastercard issuer has 15 days to escalate a rejected pre-arbitration, and an acquirer silent for 30 days is deemed to accept.",
+      "ids": [
+       "new:t6b-6b-mc-arb-15",
+       "new:t6b-6b-mc-prearb-auto-accept"
+      ]
+     },
+     {
+      "text": "Discover's Dispute Rules Manual is not public, so time limits come from practitioners.",
+      "ids": [
+       "new:t6b-6b-dgn-rep-30",
+       "dgn-291"
+      ]
+     },
+     {
+      "text": "PULSE issuers cannot take card-not-present fraud to pre-arbitration, per Adyen.",
+      "ids": [
+       "new:t6b-6b-pulse-adyen-noprearb-cnp",
+       "new:t6b-6b-pt-adyen-pulse"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover and PULSE keep their dispute rules behind a login, while Mastercard publishes its Chargeback Guide and Visa its core rules.",
+    "ids": [
+     "new:t6b-6b-pulse-rules-gated",
+     "new:t6b-6b-dgn-rep-30",
+     "mastercard-171",
+     "mastercard-175",
+     "visa-313"
+    ]
+   },
+   "opportunity": {
+    "kind": "parity",
+    "title": "Public, dated dispute rules",
+    "text": "Publish the Discover and PULSE dispute rules and time limits with an effective date on each change, and one code list shared with the screens. Visa and Mastercard already publish theirs.",
+    "stage_move": "Make the dispute rules public and dated",
+    "strategy_rank": 5,
+    "ids": [
+     "mastercard-171",
+     "mastercard-175",
+     "visa-313",
+     "new:t6b-6b-pulse-rules-gated",
+     "new:tD-D-dnp-codes"
+    ]
+   }
+  },
+  {
+   "id": "6b-7",
+   "stage": "6b",
+   "title": "Monitor fraud and chargeback ratios",
+   "cadence": "monthly",
+   "partner_types": [
+    "acquirer",
+    "payfac",
+    "merchant",
+    "issuer"
+   ],
+   "does": {
+    "text": "Acquirers track each merchant's fraud and dispute ratio against network programmes every month, and payfacs meet those programmes through their acquirer. Issuers face their own Visa programme for excessive disputes or fraud.",
+    "ids": [
+     "visa-337",
+     "visa-338",
+     "new:t6b-6b-mc-ecm-data-integrity",
+     "visa-307",
+     "new:t6b-checkout-am",
+     "new:t6b-6b-visa-vimp-thresholds"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "VAMP fact sheet",
+     "network": "visa"
+    },
+    {
+     "name": "Data Integrity application on Mastercard Connect",
+     "network": "mastercard"
+    },
+    {
+     "name": "MATCH Pro and FLD scam listings",
+     "network": "mastercard"
+    },
+    {
+     "name": "S/E Actioning System (SEAS)",
+     "network": "amex"
+    },
+    {
+     "name": "Stripe VAMP estimates",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "severe",
+    "why": {
+     "text": "Merchants cannot see the items behind their VAMP ratio, and the FTC's 2026 orders against Nuvei and Humboldt centre on chargeback screening failures.",
+     "ids": [
+      "new:t6b-6b-visa-vamp-blind",
+      "new:t6b-ftc-nuvei",
+      "new:t6b-ftc-humboldt"
+     ]
+    },
+    "points": [
+     {
+      "text": "Stripe tells merchants VAMP data is reported a month late and shows its own daily estimates alongside.",
+      "ids": [
+       "new:t6b-stripe-vamp-lag"
+      ]
+     },
+     {
+      "text": "VAMP fee amounts are absent from the public rulebook, and a European acquirer's guidance contradicted Visa's fact sheet on RDR exclusion.",
+      "ids": [
+       "visa-308",
+       "new:t6b-6b-visa-trust-confusion"
+      ]
+     },
+     {
+      "text": "Issuers in Visa's VIMP face assessments rising to USD 100,000 a month.",
+      "ids": [
+       "new:t6b-6b-visa-vimp-thresholds",
+       "visa-310"
+      ]
+     },
+     {
+      "text": "Practitioners report Mastercard moves chargeback and fraud monitoring to the sub-merchant ID from April 2027.",
+      "ids": [
+       "mastercard-354"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "The study found no public Discover monitoring line, and vendors cite about 1 per cent and 100 chargebacks a month.",
+    "ids": [
+     "dgn-288",
+     "dgn-376"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "A published line with every counted item",
+    "text": "Publish Discover's dispute and fraud thresholds, and give acquirers a live ratio per merchant and sub-merchant with every counted item listed.",
+    "stage_move": "Publish the monitoring line and show the items behind the ratio",
+    "strategy_rank": 5,
+    "ids": [
+     "dgn-288",
+     "new:t6b-6b-visa-vamp-blind",
+     "new:t6b-stripe-vamp-lag",
+     "mastercard-354"
+    ]
+   }
+  },
+  {
+   "id": "6c-1",
+   "stage": "6c",
+   "title": "Triage the week's network bulletins",
+   "cadence": "weekly",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "atm",
+    "fintech",
+    "merchant"
+   ],
+   "does": {
+    "text": "A named contact reads each network's bulletins, judges which apply and passes them on inside the firm or to clients. Visa emails weekly Business News, Mastercard posts announcements and Amex publishes monthly updates.",
+    "ids": [
+     "visa-166",
+     "visa-379",
+     "mastercard-180",
+     "amex-404",
+     "new:t6c-cua-forward",
+     "new:t6c-sofi-impact"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Visa Business News",
+     "network": "visa"
+    },
+    {
+     "name": "Client Directory: My Organization's Contacts",
+     "network": "visa"
+    },
+    {
+     "name": "Technical Resource Center",
+     "network": "mastercard"
+    },
+    {
+     "name": "Network Participant Updates",
+     "network": "amex"
+    },
+    {
+     "name": "EASI Portal Message Center",
+     "network": "discover-family"
+    },
+    {
+     "name": "Processor mandate pages",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "The primary bulletins are private, so most partners meet change second hand through processors and forwarded mail.",
+     "ids": [
+      "new:t6c-vmbnd-notpublic",
+      "mastercard-353",
+      "pulse-017",
+      "new:t6c-cua-forward",
+      "new:t6c-mq-invisible"
+     ]
+    },
+    "points": [
+     {
+      "text": "A Visa Notification takes effect when sent, and Business News reaches only two named roles who must distribute it.",
+      "ids": [
+       "new:t6c-visa-notif",
+       "visa-166",
+       "visa-379"
+      ]
+     },
+     {
+      "text": "A mandate can reach a credit union through its EFT processor, its core CUSO and its own inbox.",
+      "ids": [
+       "new:t6c-cua-forward",
+       "new:t6c-cua-deadlines"
+      ]
+     },
+     {
+      "text": "Fiserv's merchant notice opens with a general warning and does not state which merchants are affected.",
+      "ids": [
+       "new:t6c-fiserv-cbu-hedge"
+      ]
+     },
+     {
+      "text": "Large acquirers staff people to turn scheme mandates and bulletins into system requirements.",
+      "ids": [
+       "new:t6c-ni-mandates",
+       "mastercard-353"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "unknown",
+    "text": "No Discover or PULSE bulletin is public, so their format and lead times cannot be judged.",
+    "ids": [
+     "dgn-107",
+     "pulse-017"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "A change ledger with a verdict for each partner",
+    "text": "Publish each change as one ledger item typed action, legal or information, and tell each partner whether it acts, its processor has handled it, or nothing is needed. Processors write that verdict today.",
+    "stage_move": "Change ledger with a verdict per partner",
+    "strategy_rank": 6,
+    "ids": [
+     "new:t6c-amex-bop-types",
+     "mastercard-351",
+     "new:t6c-sofi-impact",
+     "new:t6c-mq-invisible"
+    ]
+   }
+  },
+  {
+   "id": "6c-2",
+   "stage": "6c",
+   "title": "Implement a twice-yearly release or mandate",
+   "cadence": "per project",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "fintech",
+    "developer"
+   ],
+   "does": {
+    "text": "Processors certify each April and October release and tell clients what changed, while acquirers turn mandates into requirements for their own systems.",
+    "ids": [
+     "mastercard-345",
+     "visa-387",
+     "mastercard-265",
+     "new:t6c-mq-cadence",
+     "new:t6c-ni-mandates"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Mastercom announcements",
+     "network": "mastercard"
+    },
+    {
+     "name": "Notification of Specification Changes (NOSC)",
+     "network": "amex"
+    },
+    {
+     "name": "Visa Developer release notes",
+     "network": "visa"
+    },
+    {
+     "name": "Release Compliance Tool",
+     "network": "discover-family"
+    },
+    {
+     "name": "Processor certification pages",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Acquirers and payfacs describe compressed timelines, and a core CUSO says mandates arrive with required programming changes and short deadlines.",
+     "ids": [
+      "new:t6c-prth-compressed",
+      "new:t6c-cua-deadlines"
+     ]
+    },
+    "points": [
+     {
+      "text": "Smaller institutions struggle to absorb core provider charges for updates, and one community bank's tokenisation stalled while it waited on its core.",
+      "ids": [
+       "new:t6c-kc-small",
+       "new:t6c-fdic-cbs-token"
+      ]
+     },
+     {
+      "text": "A payfac filing says networks can change rules with or without advance notice.",
+      "ids": [
+       "new:t6c-prth-rules"
+      ]
+     },
+     {
+      "text": "Stripe staffs a Card Network Office role to review twice-yearly releases for business impact.",
+      "ids": [
+       "new:t6c-stripe-cno"
+      ]
+     },
+     {
+      "text": "Mastercard's change cadence differs by product.",
+      "ids": [
+       "mastercard-031"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "ahead",
+    "text": "Processors say recent Discover and PULSE releases asked nothing of their clients, and Marqeta records no applicable changes for October 2026.",
+    "ids": [
+     "dgn-298",
+     "new:t6c-mq-invisible",
+     "new:t6c-mq-oct-none"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "A quiet cycle, said by the network",
+    "text": "When a release asks nothing of a partner, the network says so by name and date. Today only processors voice Discover's light change burden.",
+    "stage_move": "A quiet cycle, said plainly",
+    "strategy_rank": 6,
+    "ids": [
+     "new:t6c-mq-oct-none",
+     "dgn-298",
+     "new:t6c-mq-invisible"
+    ]
+   }
+  },
+  {
+   "id": "6c-3",
+   "stage": "6c",
+   "title": "Request a waiver or extension",
+   "cadence": "per event",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac"
+   ],
+   "does": {
+    "text": "A partner that cannot meet a mandate on time asks for a waiver, variance or extension. Visa routes it through a representative, Mastercard through Variance Manager and Amex through a published extension route.",
+    "ids": [
+     "visa-293",
+     "mastercard-190",
+     "new:t6c-amex-bop-extension"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Visa waiver request through the Visa representative",
+     "network": "visa"
+    },
+    {
+     "name": "Variance Manager",
+     "network": "mastercard"
+    },
+    {
+     "name": "Business and Operational Policies extension route",
+     "network": "amex"
+    },
+    {
+     "name": "Discover Account Executive",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Visa waivers carry an assessment and set no precedent, and large payment firms staff roles to manage waiver requests.",
+     "ids": [
+      "visa-293",
+      "new:t6c-visa-waiver-writing",
+      "new:t6c-stripe-cno-waiver"
+     ]
+    },
+    "points": [
+     {
+      "text": "Each Visa waiver is unique and answered in writing, so each bank relitigates similar requests.",
+      "ids": [
+       "visa-293",
+       "new:t6c-visa-waiver-writing"
+      ]
+     },
+     {
+      "text": "Mastercard noncompliance assessments can be appealed within 30 days for a fee of up to USD 500.",
+      "ids": [
+       "mastercard-189"
+      ]
+     },
+     {
+      "text": "Amex policy changes take effect on publication, and a participant must document the impact to ask for up to three months.",
+      "ids": [
+       "new:t6c-amex-bop-effective",
+       "new:t6c-amex-bop-extension"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "unknown",
+    "text": "Discover's account executive owns contracts and configuration changes, and the study found no public Discover extension route.",
+    "ids": [
+     "dgn-148",
+     "dgn-107"
+    ]
+   },
+   "opportunity": {
+    "kind": "parity",
+    "title": "Request more time from inside the change",
+    "text": "Attach a request-more-time action to each change, with the decision rule stated and a tracked status. Amex already publishes a three-month route it says it will not unreasonably withhold.",
+    "stage_move": "Extension request inside the change",
+    "strategy_rank": 6,
+    "ids": [
+     "new:t6c-amex-bop-extension",
+     "new:t6c-amex-bop-notwithheld",
+     "visa-293",
+     "mastercard-190"
+    ]
+   }
+  },
+  {
+   "id": "6c-4",
+   "stage": "6c",
+   "title": "Raise a support case and chase the answer",
+   "cadence": "per event",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "atm",
+    "fintech",
+    "developer",
+    "merchant"
+   ],
+   "does": {
+    "text": "Staff raise problems by phone, case tool, mailbox or account executive, depending on the network and urgency. Mastercard sends urgent issues to Customer Technical Services by phone and others to Support Case Management.",
+    "ids": [
+     "mastercard-183",
+     "mastercard-318",
+     "new:t6c-vaccess-admins",
+     "new:t6c-vaccess-regional",
+     "dgn-148",
+     "dgn-153"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Support Case Management",
+     "network": "mastercard"
+    },
+    {
+     "name": "Visa Access Support",
+     "network": "visa"
+    },
+    {
+     "name": "GNS contact web form",
+     "network": "amex"
+    },
+    {
+     "name": "Discover Operations Center and Network Command Center",
+     "network": "discover-family"
+    },
+    {
+     "name": "PULSE Client Support page",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "UK acquirers holding over 65 percent of the market had difficulty getting timely and adequate answers from the schemes.",
+     "ids": [
+      "new:t6c-psr25-65pct"
+     ]
+    },
+    "points": [
+     {
+      "text": "Discover client services are spread across function-specific mailboxes, and its operations desk keeps Eastern business hours and closes on twelve holidays.",
+      "ids": [
+       "dgn-153",
+       "dgn-146"
+      ]
+     },
+     {
+      "text": "PULSE publishes Central-time business hours only, with a two-business-day callback as its one response commitment.",
+      "ids": [
+       "pulse-047",
+       "pulse-048"
+      ]
+     },
+     {
+      "text": "The public Amex GNS contact route is a web form that issues a case number, with no phone or hours.",
+      "ids": [
+       "amex-361"
+      ]
+     },
+     {
+      "text": "Visa's developer terms say Visa has no obligation to provide support.",
+      "ids": [
+       "visa-354"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "behind",
+    "text": "Discover splits a 24x7 Network Command Center from a business-hours Operations Center, and PULSE publishes no 24x7 line, where Mastercard and Visa describe round-the-clock client support.",
+    "ids": [
+     "dgn-147",
+     "dgn-146",
+     "pulse-047",
+     "new:t6c-mc-cts-247",
+     "new:t6c-visa-clientcare"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "One support map with hours and response times",
+    "text": "Publish one support map by partner type and problem, each route with hours and a response commitment, including a round-the-clock path for small institutions. SHAZAM already staffs client service 24/7/365.",
+    "stage_move": "One support map with hours and clocks",
+    "strategy_rank": 14,
+    "ids": [
+     "shazam-017",
+     "dgn-153",
+     "pulse-047",
+     "mastercard-401"
+    ]
+   }
+  },
+  {
+   "id": "6c-5",
+   "stage": "6c",
+   "title": "Live through a network incident",
+   "cadence": "per event",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "atm",
+    "fintech",
+    "developer",
+    "merchant"
+   ],
+   "does": {
+    "text": "During an outage the partner detects the problem, phones the network help desk and relays updates to its own customers. Partners must also report their own outages and data compromises to the network.",
+    "ids": [
+     "new:t6c-amex-bop-acqout",
+     "new:t6c-mc-tam-trt",
+     "new:t6c-amex-bop-unsched",
+     "dgn-152",
+     "amex-396"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "API Status page",
+     "network": "mastercard"
+    },
+    {
+     "name": "Visa Acceptance status page",
+     "network": "visa"
+    },
+    {
+     "name": "Visa Smarter Stand-In Processing",
+     "network": "visa"
+    },
+    {
+     "name": "Urgent Bulletins page",
+     "network": "amex"
+    },
+    {
+     "name": "Discover Network Command Center",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "severe",
+    "why": {
+     "text": "An independent review found Visa's 2018 outage communications were not timely, regular or actionable, and the UK regulator now requires yearly testing with participants.",
+     "ids": [
+      "new:t6c-psr-sd9-ey",
+      "new:t6c-psr-sd9-annual"
+     ]
+    },
+    "points": [
+     {
+      "text": "No public status page for core authorisation and settlement was found for any of the four networks.",
+      "ids": [
+       "mastercard-040",
+       "visa-376",
+       "mastercard-392",
+       "amex-371"
+      ]
+     },
+     {
+      "text": "Amex leaves detection of a network outage to the acquirer, which is told to phone the help desk.",
+      "ids": [
+       "new:t6c-amex-bop-acqout"
+      ]
+     },
+     {
+      "text": "Mastercard shares its Post Incident Report through the customer's account manager.",
+      "ids": [
+       "new:t6c-mc-tam-pir"
+      ]
+     },
+     {
+      "text": "The National ATM Council's jackpotting guidance lists police and federal agencies and names no card network contact.",
+      "ids": [
+       "new:t6c-nac-rms"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "parity",
+    "text": "Discover runs a 24x7 Network Command Center with a second-escalation manager, and like its peers publishes no core network status page.",
+    "ids": [
+     "dgn-147",
+     "mastercard-040",
+     "visa-376",
+     "mastercard-392",
+     "amex-371"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "A partner status view for the core network",
+    "text": "Run a partner status view for authorisation, settlement, portals and APIs, with subscriptions, a declared update rhythm and a post-incident report every partner can read. Networks publish status today only for APIs and gateway products.",
+    "stage_move": "Partner status for the core network",
+    "strategy_rank": 14,
+    "ids": [
+     "mastercard-040",
+     "visa-376",
+     "new:t6c-psr-sd9-trigger",
+     "new:t6c-finbrand-meyer",
+     "new:t6c-mc-tam-pir"
+    ]
+   }
+  },
+  {
+   "id": "6c-6",
+   "stage": "6c",
+   "title": "Attest compliance and answer network questionnaires",
+   "cadence": "yearly",
+   "partner_types": [
+    "issuer",
+    "acquirer",
+    "payfac",
+    "atm"
+   ],
+   "does": {
+    "text": "Partners sign yearly attestations and answer periodic network questionnaires. Amex wants an annual attestation for Program Progress Reports, and Discover a yearly PCI attestation from payment enablers.",
+    "ids": [
+     "new:t6c-amex-bop-attest",
+     "new:t6c-dgn-acq-q",
+     "new:t6c-dgn-aoc-annual",
+     "new:t6c-dgn-aoc-email"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Knowledge Base",
+     "network": "amex"
+    },
+    {
+     "name": "DISC team email filing",
+     "network": "discover-family"
+    },
+    {
+     "name": "Discover acquirer compliance questionnaire",
+     "network": "discover-family"
+    },
+    {
+     "name": "Processor news notices",
+     "network": "processor"
+    }
+   ],
+   "friction": {
+    "level": "notable",
+    "why": {
+     "text": "Violations draw escalating fees, up to USD 20,000 for repeat intermediary violations at Amex, and a processor passes network fines through to ATM ISOs.",
+     "ids": [
+      "amex-264",
+      "amex-191",
+      "new:t6c-cds-cashless-fines"
+     ]
+    },
+    "points": [
+     {
+      "text": "Amex violations follow a determination, notification and Action Plan process with escalating fees.",
+      "ids": [
+       "amex-264"
+      ]
+     },
+     {
+      "text": "Amex's October 2025 rules added portfolio accountability and fees of up to USD 20,000 for repeat intermediary violations.",
+      "ids": [
+       "amex-281",
+       "amex-191"
+      ]
+     },
+     {
+      "text": "CDS relayed Visa's October 2025 operator rules with warnings of suspension and fines, and passes network fines through to the ISO.",
+      "ids": [
+       "new:t6c-cds-visa",
+       "new:t6c-cds-cashless-fines"
+      ]
+     },
+     {
+      "text": "Discover compliance filing runs through a shared mailbox with no status view. That is the study's inference.",
+      "ids": [
+       "new:t6c-dgn-aoc-email"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "parity",
+    "text": "Discover asks payment enablers for a yearly PCI attestation by email, and offers chip merchants with a tested incident plan relief through SCIP.",
+    "ids": [
+     "new:t6c-dgn-aoc-annual",
+     "new:t6c-dgn-aoc-email",
+     "new:t6c-dgn-scip"
+    ]
+   },
+   "opportunity": {
+    "kind": "none",
+    "title": "No separate move drawn",
+    "text": "The study drew no design move for attestation itself. Its operational review move lists attestations due as one input.",
+    "stage_move": "",
+    "strategy_rank": null,
+    "ids": []
+   }
+  },
+  {
+   "id": "6c-7",
+   "stage": "6c",
+   "title": "Prepare the operational business review",
+   "cadence": "quarterly",
+   "partner_types": [
+    "issuer",
+    "acquirer"
+   ],
+   "does": {
+    "text": "Key Mastercard accounts get a Quarterly Operational Review from a technology account manager, who also trains them on releases. Visa assigns a Client Success manager who owns a Client Success Plan.",
+    "ids": [
+     "new:t6c-mc-tam-qor",
+     "new:t6c-mc-tam-releases",
+     "visa-386"
+    ]
+   },
+   "touchpoints": [
+    {
+     "name": "Quarterly Operational Review",
+     "network": "mastercard"
+    },
+    {
+     "name": "Client Success Plan",
+     "network": "visa"
+    },
+    {
+     "name": "Discover Account Executive",
+     "network": "discover-family"
+    },
+    {
+     "name": "PULSE Voice of the Client survey",
+     "network": "discover-family"
+    }
+   ],
+   "friction": {
+    "level": "minor",
+    "why": {
+     "text": "Reviews appear in job postings for key accounts only, and the study infers that smaller issuers may never see one.",
+     "ids": [
+      "new:t6c-mc-tam-qor"
+     ]
+    },
+    "points": [
+     {
+      "text": "Quarterly reviews appear in postings for key accounts only, so smaller issuers may never get one. That is the study's inference.",
+      "ids": [
+       "new:t6c-mc-tam-qor"
+      ]
+     },
+     {
+      "text": "At a credit union one card services manager is the main liaison with processors, networks and rewards providers.",
+      "ids": [
+       "new:t6c-job-lcfcu-liaison"
+      ]
+     }
+    ]
+   },
+   "discover": {
+    "position": "parity",
+    "text": "Discover names an Account Executive as the escalation point for daily operations, and PULSE runs a yearly Voice of the Client survey.",
+    "ids": [
+     "dgn-148",
+     "pulse-052"
+    ]
+   },
+   "opportunity": {
+    "kind": "differentiator",
+    "title": "An operational review for every partner",
+    "text": "Assemble a periodic review from each partner's own record of changes applied, incidents, open cases and attestations due. Offer it to partners without an account manager.",
+    "stage_move": "Operational review for every partner",
+    "strategy_rank": 8,
+    "ids": [
+     "new:t6c-mc-tam-qor",
+     "visa-386",
+     "dgn-148",
+     "new:t6c-job-lcfcu-liaison"
+    ]
+   }
+  }
+ ]
+}

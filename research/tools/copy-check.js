@@ -2,7 +2,7 @@
 // copy-check.js — reads the reports' text and flags the tells that copy-lint flags in the prototype, plus the report's own rules.
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
-const pages = ['partner-experience.html', 'competitive-networks.html', 'prototype-insights.html'].filter(f => fs.existsSync(path.join(ROOT, f)));
+const pages = ['partner-experience.html', 'journey-map.html', 'competitive-networks.html', 'prototype-insights.html'].filter(f => fs.existsSync(path.join(ROOT, f)));
 const out = [];
 for (const p of pages) {
   let html = fs.readFileSync(path.join(ROOT, p), 'utf8');

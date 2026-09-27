@@ -1,0 +1,2214 @@
+{
+  "tasks": [
+    {
+      "id": "4-1",
+      "stage": "4",
+      "title": "Open a developer account and get sandbox keys",
+      "cadence": "once",
+      "partner_types": [
+        "developer",
+        "fintech",
+        "payfac",
+        "merchant"
+      ],
+      "does": {
+        "text": "A developer registers on the network's portal, creates a project, picks APIs and receives sandbox credentials for a first call. At Visa and Mastercard this happens the same day without a representative.",
+        "ids": [
+          "visa-190",
+          "mastercard-002",
+          "new:t4-s4-visa-vid-create",
+          "new:t4-s4-mc-qs-client"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Developer project dashboard",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Acceptance sandbox form",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Developers Create new project screen",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Project Dashboard",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Developer Center Contact Us form",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Discover and American Express put a person between sign-up and a first call, and some Mastercard sandboxes wait for a service team.",
+          "ids": [
+            "dgn-034",
+            "new:t4-s4-dgn-gl-invite",
+            "amex-007",
+            "amex-386",
+            "mastercard-003"
+          ]
+        },
+        "points": [
+          {
+            "text": "Discover admits developers only when a representative sends an invitation, and its own guide says both self-register and invitation only.",
+            "ids": [
+              "dgn-034",
+              "new:t4-s4-dgn-gl-invite"
+            ]
+          },
+          {
+            "text": "American Express keeps each product in Requested until it approves, and no product offers instant sandbox access.",
+            "ids": [
+              "amex-007",
+              "amex-008",
+              "amex-005"
+            ]
+          },
+          {
+            "text": "Some Mastercard sandboxes sit Under Review, and a forum post shows a correctly signed call failing at SANDBOX Pending.",
+            "ids": [
+              "mastercard-003",
+              "mastercard-044"
+            ]
+          },
+          {
+            "text": "Mastercard has no portal-wide set of test cards, and Visa's SDKs and sample code sit behind sign-in.",
+            "ids": [
+              "mastercard-016",
+              "visa-148",
+              "visa-207"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover publishes twelve readable OpenAPI specifications, yet no developer can reach its sandbox without a representative's invitation.",
+        "ids": [
+          "dgn-385",
+          "dgn-034",
+          "new:t4-s4-dgn-gl-invite"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Sandbox key on the first visit",
+        "text": "A signed-up developer would create a project, get sandbox credentials and published test cards, and call the twelve existing APIs with no representative. This matches Visa and Mastercard and passes the American Express key review.",
+        "stage_move": "A sandbox key on the first visit",
+        "strategy_rank": 7,
+        "ids": [
+          "visa-190",
+          "mastercard-002",
+          "amex-386",
+          "dgn-385",
+          "visa-227"
+        ]
+      }
+    },
+    {
+      "id": "4-2",
+      "stage": "4",
+      "title": "Obtain the host interface specifications",
+      "cadence": "per project",
+      "partner_types": [
+        "acquirer",
+        "issuer"
+      ],
+      "does": {
+        "text": "An acquirer or issuer processor fetches the confidential ISO 8583 host specifications from the network's gated site and builds authorisation and clearing to them. Networks reissue them with release-named changes.",
+        "ids": [
+          "new:t4-s4-visa-rules-conf",
+          "new:t4-s4-mc-rules-cis",
+          "mastercard-409",
+          "amex-041",
+          "amex-403",
+          "dgn-164",
+          "new:tB-B-cis-release",
+          "new:tB-B-vts-rel"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Online, now Visa Access",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Technical Resource Center on Mastercard Connect",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Knowledge Base",
+          "network": "amex"
+        },
+        {
+          "name": "EASI Portal",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "All four networks keep the specifications as confidential manuals behind a login, and Mastercard readers track changes by PDF search.",
+          "ids": [
+            "new:t4-s4-visa-rules-conf",
+            "new:t4-s4-mc-rules-cis",
+            "amex-041",
+            "dgn-164",
+            "new:tB-B-cis-chg"
+          ]
+        },
+        "points": [
+          {
+            "text": "Mastercard Connect needs an account set up through a representative and an RSA SecurID token to sign in.",
+            "ids": [
+              "mastercard-317",
+              "mastercard-037"
+            ]
+          },
+          {
+            "text": "Readers find Mastercard specification changes by searching the PDF for *chg* markers.",
+            "ids": [
+              "new:tB-B-cis-chg"
+            ]
+          },
+          {
+            "text": "Hosts must process new DE 48 subelements that Mastercard has not announced.",
+            "ids": [
+              "new:tB-B-cis-unannounced"
+            ]
+          },
+          {
+            "text": "EASI rejects personal email addresses, and Discover's fuller IIN table needs an NDA on file.",
+            "ids": [
+              "new:t4-s4-dgn-easi-email",
+              "dgn-248"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Discover gates its specifications in EASI like its rivals, and EASI self-registers with a stated two-day review.",
+        "ids": [
+          "dgn-164",
+          "new:t4-s4-dgn-easi-scope",
+          "new:t4-s4-dgn-easi-sla"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Specifications as versioned, diffable pages",
+        "text": "Entitled users would read the host specification as searchable pages with a per-release change list, and anyone could read a public field map for feasibility. All four networks ship manuals today, while Mastercard shows a public mapping works.",
+        "stage_move": "Specifications by entitlement, versioned and diffable",
+        "strategy_rank": 6,
+        "ids": [
+          "new:t4-s4-visa-rules-conf",
+          "new:t4-s4-mc-rules-cis",
+          "amex-403",
+          "dgn-164",
+          "mastercard-425",
+          "new:tB-B-cis-chg",
+          "new:tB-B-dor-techweb"
+        ]
+      }
+    },
+    {
+      "id": "4-3",
+      "stage": "4",
+      "title": "Set up and renew keys and certificates",
+      "cadence": "per project",
+      "partner_types": [
+        "developer",
+        "fintech",
+        "merchant"
+      ],
+      "does": {
+        "text": "The developer generates keys and certificates for each environment, builds keystores and adds layers such as mutual TLS and JWE encryption. It renews them before they expire.",
+        "ids": [
+          "new:t4-s4-visa-vid-2wayssl",
+          "new:t4-s4-visa-vid-keystore",
+          "visa-192",
+          "visa-197",
+          "mastercard-007",
+          "dgn-010",
+          "dgn-014",
+          "dgn-015",
+          "visa-201",
+          "mastercard-004",
+          "visa-203"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa project Credentials tab",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Developers project dashboard",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Project Dashboard To Do items",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Developer Center application credentials",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "minor",
+        "why": {
+          "text": "The friction falls at occasional moments, a lost one-time key or an expiry, which cost a new project or a request.",
+          "ids": [
+            "new:t4-s4-visa-vid-create",
+            "dgn-014",
+            "mastercard-004"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's private key downloads only once, so a lost key means a new project.",
+            "ids": [
+              "new:t4-s4-visa-vid-create"
+            ]
+          },
+          {
+            "text": "Discover's Consumer Application Certificate downloads only once, and a replacement needs a request.",
+            "ids": [
+              "dgn-014"
+            ]
+          },
+          {
+            "text": "Mastercard keys expire after 13 months, and two of its documents disagree on the reminder schedule.",
+            "ids": [
+              "mastercard-004"
+            ]
+          },
+          {
+            "text": "Visa sends certificate expiry emails only for certification and production projects.",
+            "ids": [
+              "visa-203"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover matches Visa's one-time certificate download, while Mastercard now automates production mutual TLS certificates.",
+        "ids": [
+          "dgn-014",
+          "new:t4-s4-visa-vid-create",
+          "mastercard-311"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Self-service key reissue with reminders",
+        "text": "Developers would re-download or reissue their own keys and certificates, with renewal reminders in every environment. Mastercard already automates production certificates, so this closes a gap.",
+        "stage_move": "Credentials that do not strand the developer",
+        "strategy_rank": 7,
+        "ids": [
+          "new:t4-s4-visa-vid-create",
+          "dgn-014",
+          "visa-203",
+          "mastercard-311",
+          "mastercard-004"
+        ]
+      }
+    },
+    {
+      "id": "4-4",
+      "stage": "4",
+      "title": "Run host tests against the network simulator",
+      "cadence": "per project",
+      "partner_types": [
+        "acquirer",
+        "issuer"
+      ],
+      "does": {
+        "text": "The acquirer or issuer connects its host to a network simulator or test facility, runs the assigned cases and receives a completion letter. Every network runs this through a named person.",
+        "ids": [
+          "new:t4-s4-uspf-visa-scripts",
+          "new:t4-s4-uspf-vcms",
+          "new:t4-s4-uspf-visa-letter",
+          "new:t4-s4-uspf-mc-niv",
+          "new:t4-s4-uspf-mc-sim",
+          "amex-042",
+          "dgn-200",
+          "new:t4-s4-uspf-dgn-forms",
+          "mastercard-405"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Certification Management Service",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Simulator Suite",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Test Facility (MTF)",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex ATS host simulator",
+          "network": "amex"
+        },
+        {
+          "name": "Discover designated host simulator",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Host certification is representative-led everywhere, and Mastercard adds licensed simulators ordered on Mastercard Connect.",
+          "ids": [
+            "new:t4-s4-uspf-dgn-forms",
+            "amex-042",
+            "new:t4-s4-uspf-mc-sim",
+            "new:t4-s4-uspf-visa-scripts"
+          ]
+        },
+        "points": [
+          {
+            "text": "Combinations of POS systems, devices and acquirers multiply the certifications one software version needs.",
+            "ids": [
+              "new:t4-s4-usp-multiplier"
+            ]
+          },
+          {
+            "text": "Visa says Tap to Phone certification takes 6 to 12 months with lab costs of USD 50,000 or more.",
+            "ids": [
+              "visa-024"
+            ]
+          },
+          {
+            "text": "Discover's certification forms and test keys come from an implementation manager, and keys can arrive by encrypted email.",
+            "ids": [
+              "new:t4-s4-uspf-dgn-forms",
+              "new:t4-s4-uspf-dgn-ca"
+            ]
+          },
+          {
+            "text": "Moving to a platform with a different message format brings the networks back into testing.",
+            "ids": [
+              "new:t4-s4-uspf-platform"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "Discover's designated simulator shows acquirers results as they test and drops test-log submission, the most self-serve certification step the study found.",
+        "ids": [
+          "dgn-198",
+          "dgn-391"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Certification as a shared project record",
+        "text": "Case lists would come from the partner's stated configuration, with live simulator results collected in the portal and an owner shown on each step. Mastercard's issuer token evidence still travels as a spreadsheet by email.",
+        "stage_move": "Certification as a shared project record",
+        "strategy_rank": 13,
+        "ids": [
+          "new:t4-s4-mc-mdes-excel",
+          "new:t4-s4-uspf-dgn-forms",
+          "unionpay-039",
+          "unionpay-041",
+          "unionpay-042",
+          "dgn-198",
+          "dgn-200",
+          "new:tB-B-mtc-sim",
+          "new:tB-B-mtc-profile"
+        ]
+      }
+    },
+    {
+      "id": "4-5",
+      "stage": "4",
+      "title": "Enable token services and wallet provisioning",
+      "cadence": "per project",
+      "partner_types": [
+        "issuer",
+        "merchant",
+        "fintech"
+      ],
+      "does": {
+        "text": "An issuer connects to the network's token service for wallets and stored credentials, and a merchant or PSP registers as a token requestor with notification endpoints. Most steps run through a network or processor contact.",
+        "ids": [
+          "new:t4-s4-visa-vts-page",
+          "new:t4-s4-mc-mdes-cdm",
+          "new:t4-s4-amex-ats-outbound",
+          "new:t4-s4-vas-tms-email",
+          "dgn-131",
+          "dgn-017"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Token Service developer page",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Acceptance Token Management Service guide",
+          "network": "visa"
+        },
+        {
+          "name": "MDES documentation set",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Token Service API reference",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Stored Token Services API Specs tab",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Token services are the least self-serve build surface, with an account executive, delivery manager or representative in the path at each network.",
+          "ids": [
+            "new:t4-s4-visa-vts-page",
+            "new:t4-s4-mc-mdes-cdm",
+            "new:t4-s4-amex-ats-outbound"
+          ]
+        },
+        "points": [
+          {
+            "text": "Mastercard's issuer token API has no sandbox, and test evidence travels as an Excel file by email.",
+            "ids": [
+              "new:t4-s4-mc-mdes-nosandbox",
+              "new:t4-s4-mc-mdes-excel"
+            ]
+          },
+          {
+            "text": "Visa Acceptance asks partners to email merchant details to support in the middle of an API-driven flow.",
+            "ids": [
+              "new:t4-s4-vas-tms-email"
+            ]
+          },
+          {
+            "text": "A community bank told the FDIC its debit tokenisation stalled while it waited on its core provider.",
+            "ids": [
+              "new:t4-s4-fdic-token"
+            ]
+          },
+          {
+            "text": "The Amex sandbox does not save token state, so lifecycle tests always return Active.",
+            "ids": [
+              "new:t4-s4-amex-ats-testcards"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Discover's token API is fully specified in public, yet it sits in the invitation-only Developer Center with no published webhook retry or signing detail.",
+        "ids": [
+          "dgn-008",
+          "dgn-132",
+          "dgn-034",
+          "dgn-017"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Token requestor onboarding without email",
+        "text": "A merchant or wallet would get a token requestor ID and register notification endpoints in the portal, with PULSE Side-by-Side offered in the same flow. Visa Acceptance, Amex and Mastercard each insert an email or representative step.",
+        "stage_move": "Token requestor onboarding without email",
+        "strategy_rank": null,
+        "ids": [
+          "new:t4-s4-vas-tms-email",
+          "new:t4-s4-amex-ats-outbound",
+          "new:t4-s4-mc-mdes-cdm",
+          "pulse-005",
+          "pulse-029"
+        ]
+      }
+    },
+    {
+      "id": "4-6",
+      "stage": "4",
+      "title": "Certify the processing platform for its clients",
+      "cadence": "quarterly",
+      "partner_types": [
+        "acquirer",
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "A processor certifies its platform once against each network release, and its client issuers and programme managers inherit the result. The processor then tells clients whether they need to act.",
+        "ids": [
+          "new:t4-s4-uspf-once-per-platform",
+          "new:t4-s4-marqeta-certified",
+          "mastercard-265",
+          "new:t4-s4-marqeta-noaction",
+          "new:t4-s4-marqeta-quarterly"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Developers 'on behalf of a client' project flag",
+          "network": "mastercard"
+        },
+        {
+          "name": "Processor mandate logs such as Marqeta's and SoFi's",
+          "network": "processor"
+        },
+        {
+          "name": "Visa Partner directory",
+          "network": "visa"
+        },
+        {
+          "name": "PULSE secure website",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Networks send processors change documents four times a year, and small issuers wait on their processor or core provider for new capabilities.",
+          "ids": [
+            "new:t4-s4-marqeta-quarterly",
+            "new:t4-s4-fdic-token"
+          ]
+        },
+        "points": [
+          {
+            "text": "Among the portals read, only Mastercard lets an integrator flag a project as built for a client.",
+            "ids": [
+              "new:t4-s4-mc-qs-client",
+              "mastercard-038"
+            ]
+          },
+          {
+            "text": "Thredd applies 100 to 200 new Visa token requestor updates a month without client input.",
+            "ids": [
+              "new:tB-B-thr-trupd",
+              "new:tB-B-thr-noinput"
+            ]
+          },
+          {
+            "text": "Many Thredd clients test in production instead of wiring up network test services.",
+            "ids": [
+              "new:tB-B-thr-prod"
+            ]
+          },
+          {
+            "text": "Several leading issuing platforms have not built for Discover, so their fintech clients cannot reach it.",
+            "ids": [
+              "dgn-363",
+              "dgn-265",
+              "dgn-267",
+              "dgn-268"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Marqeta certifies Discover releases, while Stripe, Adyen and Lithic issuing document no Discover issuing.",
+        "ids": [
+          "dgn-363",
+          "dgn-265",
+          "dgn-267"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Build for the processor as the customer",
+        "text": "A processor would create projects for its clients, manage them through an API and show which clients inherit its certification. Host testing already runs once per platform, and processors already publish per-release impact.",
+        "stage_move": "Build for the processor as the customer",
+        "strategy_rank": 3,
+        "ids": [
+          "new:t4-s4-mc-qs-client",
+          "mastercard-038",
+          "new:t4-s4-uspf-once-per-platform",
+          "new:t4-s4-marqeta-noaction",
+          "cross-255"
+        ]
+      }
+    },
+    {
+      "id": "4-7",
+      "stage": "4",
+      "title": "Request production access and credentials",
+      "cadence": "once",
+      "partner_types": [
+        "developer",
+        "fintech",
+        "payfac"
+      ],
+      "does": {
+        "text": "The developer submits company, ownership and use-case details, waits for review and a contract, then generates production credentials. Discover repeats its registration for production and issues a new credential set.",
+        "ids": [
+          "new:t4-s4-visa-vid-golive-bid",
+          "new:t4-s4-visa-vid-golive-bo",
+          "new:t4-s4-visa-vid-golive-usecase",
+          "new:t4-s4-visa-vid-golive-contract",
+          "mastercard-075",
+          "mastercard-005",
+          "new:t4-s4-dgn-gl-repeat"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Going live form and Onboarding Dashboard",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Project Summary page",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Move to Production link",
+          "network": "amex"
+        },
+        {
+          "name": "Going Live with Discover guide",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Timing is uncertain, with Visa stating no review timeline and quoting two weeks to several months for onboarding.",
+          "ids": [
+            "new:t4-s4-visa-vid-golive-timeline",
+            "visa-218"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa says timing is the first question on nearly every client's mind.",
+            "ids": [
+              "visa-427"
+            ]
+          },
+          {
+            "text": "The Amex Move to Production link reopens the To Do list for a second review.",
+            "ids": [
+              "new:t4-s4-amex-gs-move",
+              "amex-069"
+            ]
+          },
+          {
+            "text": "Visa certification and production credentials need a new CSR per environment and appear only after signature.",
+            "ids": [
+              "visa-201",
+              "visa-202"
+            ]
+          },
+          {
+            "text": "Discover repeats the registration process for production and issues new credentials.",
+            "ids": [
+              "new:t4-s4-dgn-gl-repeat"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover repeats its representative-led process for production, while Mastercard verifies a company instantly when it is linked to Mastercard Connect.",
+        "ids": [
+          "new:t4-s4-dgn-gl-repeat",
+          "dgn-034",
+          "mastercard-075"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Committed times on the network's own steps",
+        "text": "Each Discover step, such as registration or production review, would show its committed time and an escalation route. Discover already states a two-day EASI review and PULSE five days, and Mastercard pairs service levels with escalation.",
+        "stage_move": "State the network's own service levels",
+        "strategy_rank": 12,
+        "ids": [
+          "new:t4-s4-dgn-easi-sla",
+          "pulse-049",
+          "mastercard-418",
+          "amex-385"
+        ]
+      }
+    },
+    {
+      "id": "5-1",
+      "stage": "5",
+      "title": "Get card designs and wallet art approved",
+      "cadence": "per project",
+      "partner_types": [
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "The issuer, often through its card manufacturer, submits each card design for network approval and loads separate art for wallets and token requestors. Fintech programmes add the sponsor bank's approval of all card art.",
+        "ids": [
+          "new:t5-visa-r-design",
+          "new:t5-mc-2011-cdas",
+          "new:t5-visa-r-token-art",
+          "new:tB-B-thr-vcmm",
+          "new:tB-B-thr-mcart",
+          "new:t5-sofi-bank-approve"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Brand Management Approval System (BMAS)",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Cardholder Metadata Manager (VCMM)",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Card Design Approvals System (CDAS)",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Card Design Standards on Mastercard Connect",
+          "network": "mastercard"
+        },
+        {
+          "name": "Marketing Hub",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Visa and Mastercard gate design approval and its standards behind a login, and platforms quote weeks for approval plus months of production.",
+          "ids": [
+            "new:t5-visa-r-design",
+            "new:t5-mc-r-cds",
+            "new:t5-mc-brand-cds",
+            "new:t5-synctera-design",
+            "new:t5-unit-production"
+          ]
+        },
+        "points": [
+          {
+            "text": "Platform guides quote 1 to 3 weeks for design approval and 8 to 10 weeks of card production.",
+            "ids": [
+              "new:t5-synctera-design",
+              "new:t5-unit-production"
+            ]
+          },
+          {
+            "text": "A new tokenised card image can take up to 10 days to reach cardholders' wallets.",
+            "ids": [
+              "new:t5-sofi-token-art"
+            ]
+          },
+          {
+            "text": "Processors load wallet art separately in Visa's VCMM and the Mastercard portal, keyed to the manufacturer's reference.",
+            "ids": [
+              "new:tB-B-thr-vcmm",
+              "new:tB-B-thr-mcart",
+              "new:tB-B-thr-mcref"
+            ]
+          },
+          {
+            "text": "Visa says its design approval gives no legal protection, so issuers still run their own legal review.",
+            "ids": [
+              "new:t5-visa-r-design-nolegal"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "unknown",
+        "text": "No public document shows how Discover approves Discover or Diners Club card designs, though Discover Debit issuers get card art through the Marketing Hub.",
+        "ids": [
+          "new:t5-dgn-cpv",
+          "new:t5-pulse-pss-cardart"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Card art once, used everywhere",
+        "text": "One card art submission would drive design approval, wallet and token art and Marketing Hub collateral. The issuer, processor and card vendor would all see its status.",
+        "stage_move": "Card art once, used everywhere",
+        "strategy_rank": null,
+        "ids": [
+          "new:t5-visa-r-design",
+          "new:t5-mc-2011-cdas",
+          "new:t5-visa-r-token-art",
+          "new:t5-sofi-token-art",
+          "new:t5-pulse-pss-cardart",
+          "new:tB-B-thr-vcmm",
+          "new:tB-B-thr-mcart"
+        ]
+      }
+    },
+    {
+      "id": "5-2",
+      "stage": "5",
+      "title": "Register the programme and clear launch marketing",
+      "cadence": "per project",
+      "partner_types": [
+        "issuer",
+        "fintech",
+        "payfac"
+      ],
+      "does": {
+        "text": "Before launch the partner registers the programme, or its riskier merchants, with the network. It then submits campaigns, co-brand partners and press releases for review.",
+        "ids": [
+          "new:t5-visa-r-spi-prelaunch",
+          "visa-020",
+          "new:t5-mc-r-prepaid-reg",
+          "new:t5-mc-r-specialty",
+          "new:t5-amex-gns-30days",
+          "new:t5-amex-gns-cobrand",
+          "new:t5-lithic-press"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Program Information Form on Visa Partner",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Prepaid Program Registration tool",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Specialty Merchant Registration",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex advertising and co-brand review",
+          "network": "amex"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Each network adds its own pre-launch approvals, with co-brand submissions due at American Express 60 business days ahead.",
+          "ids": [
+            "new:t5-visa-r-spi-prelaunch",
+            "new:t5-mc-r-specialty",
+            "new:t5-amex-gns-cobrand",
+            "new:t5-lithic-press"
+          ]
+        },
+        "points": [
+          {
+            "text": "Co-brand partners go to American Express at least 60 business days before launch.",
+            "ids": [
+              "new:t5-amex-gns-cobrand"
+            ]
+          },
+          {
+            "text": "A launch press release naming the network needs the network's pre-approval.",
+            "ids": [
+              "new:t5-lithic-press"
+            ]
+          },
+          {
+            "text": "Mastercard warned new issuers that billing and settlement start once the ICA is assigned, before any card is live.",
+            "ids": [
+              "new:t5-mc-2011-billing"
+            ]
+          },
+          {
+            "text": "Registering a Mastercard service provider took about 5 to 7 business days in 2011.",
+            "ids": [
+              "new:t5-mc-2011-mrp"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover publishes no application steps, timelines or fees for new issuing partners, and its fintech route names no launch steps.",
+        "ids": [
+          "dgn-036",
+          "dgn-133"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Committed review times on each launch task",
+        "text": "Where Discover commits to a review time, for card art, marketing or co-brand review, the task would show it and leave estimates out. American Express already writes such windows into its policies.",
+        "stage_move": "Show committed review service levels",
+        "strategy_rank": 12,
+        "ids": [
+          "new:t5-amex-gns-adsla",
+          "new:t5-amex-gns-cobrand",
+          "mastercard-322",
+          "dgn-199"
+        ]
+      }
+    },
+    {
+      "id": "5-3",
+      "stage": "5",
+      "title": "Load new card ranges into routing tables",
+      "cadence": "per event",
+      "partner_types": [
+        "acquirer",
+        "atm"
+      ],
+      "does": {
+        "text": "The acquirer or ATM acquirer receives each network's range table and installs it within the deadline, so new cards route correctly and avoid declines.",
+        "ids": [
+          "new:t5-visa-r-ardef",
+          "new:t5-visa-r-plus-table",
+          "new:t5-mc-8bin-6days",
+          "new:t5-mc-8bin-mpe",
+          "new:t5-mc-8bin-declines",
+          "dgn-189"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Account Range table",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Member Parameter Extract (MPE)",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Global File Transfer",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover BIN file and EASI range table",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Deadlines run from 3 to 6 days, and Mastercard puts the fix for stale-table declines on the acquirer.",
+          "ids": [
+            "new:t5-visa-r-plus-table",
+            "new:t5-visa-r-ardef",
+            "new:t5-mc-8bin-6days",
+            "new:t5-mc-8bin-declines"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa gives 6 business days and Mastercard 6 calendar days to install each update.",
+            "ids": [
+              "new:t5-visa-r-ardef",
+              "new:t5-mc-8bin-6days"
+            ]
+          },
+          {
+            "text": "Stale tables cause wrong routing and declines.",
+            "ids": [
+              "new:t5-mc-8bin-declines"
+            ]
+          },
+          {
+            "text": "Discover's public BIN file shows only start, end and length, and the full table sits in EASI under NDA.",
+            "ids": [
+              "dgn-248"
+            ]
+          },
+          {
+            "text": "Accepting alliance cards and Discover Debit depends on the acquirer loading every Discover range.",
+            "ids": [
+              "dgn-189",
+              "new:t5-dgn-bin-debit"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's full range table needs an NDA, and its public file lacks product detail.",
+        "ids": [
+          "dgn-248"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Range readiness before cards ship",
+        "text": "Discover would publish new ranges with effective dates and show issuers which major acquirers have loaded them before cards go out. No public source shows a network telling issuers whether acceptance is ready.",
+        "stage_move": "Range readiness before cards ship",
+        "strategy_rank": 10,
+        "ids": [
+          "new:t5-visa-r-ardef",
+          "new:t5-mc-8bin-6days",
+          "dgn-189",
+          "dgn-248",
+          "dgn-317"
+        ]
+      }
+    },
+    {
+      "id": "5-4",
+      "stage": "5",
+      "title": "Run a pilot and get the go-ahead to launch",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "fintech",
+        "acquirer",
+        "developer"
+      ],
+      "does": {
+        "text": "The partner finishes certification, runs any pilot or beta test and waits for confirmation that it may go live. American Express is the only network whose public rules define this gate for issuers.",
+        "ids": [
+          "new:t5-amex-gns-beta",
+          "new:t5-amex-gns-beta60",
+          "new:t5-amex-gns-notify",
+          "new:t5-visa-r-nopilot",
+          "new:t5-mc-r-nopilot",
+          "mastercard-400"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Amex Beta Test and go-ahead notice",
+          "network": "amex"
+        },
+        {
+          "name": "Mastercard TAN letter",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Client Directory on Visa Access",
+          "network": "visa"
+        },
+        {
+          "name": "Discover Letter of Certification",
+          "network": "discover-family"
+        },
+        {
+          "name": "Going Live with Discover phase table",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Visa and Mastercard define no pilot and no single live moment, so partners piece together their own proof of launch.",
+          "ids": [
+            "new:t5-visa-r-nopilot",
+            "new:t5-mc-r-nopilot",
+            "new:t5-visa-r-directory",
+            "new:t5-mc-send-validate"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's rules name no notice that a programme is live, so the issuer's own directory update is the nearest confirmation.",
+            "ids": [
+              "new:t5-visa-r-nopilot",
+              "new:t5-visa-r-directory"
+            ]
+          },
+          {
+            "text": "Mastercard Send asks partners to confirm go-live by finding their transactions in reconciliation reports.",
+            "ids": [
+              "new:t5-mc-send-validate"
+            ]
+          },
+          {
+            "text": "Every American Express design change reopens a Beta Test of up to 60 days.",
+            "ids": [
+              "new:t5-amex-gns-beta",
+              "new:t5-amex-gns-beta60"
+            ]
+          },
+          {
+            "text": "American Express charges 15,000 dollars for each issuer personalisation certification it leads.",
+            "ids": [
+              "new:t5-amex-gns-certfee"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Discover's Letter of Certification records scope, versions and waivers, and its API go-live ends in a launch step with Discover support and monitoring.",
+        "ids": [
+          "new:tB-B-dloc-letter",
+          "new:tB-B-dloc-certtype",
+          "new:t5-dgn-golive-launch"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "A written go-ahead that says you are live",
+        "text": "Go-live would become one network-issued notice listing what was certified, the sample card or test result approved, the effective date and the first live transactions seen. It would extend the Letter of Certification partners already know.",
+        "stage_move": "A written go-ahead that says you are live",
+        "strategy_rank": 15,
+        "ids": [
+          "new:t5-amex-gns-notify",
+          "mastercard-400",
+          "new:t5-visa-r-nopilot",
+          "new:t5-mc-r-nopilot",
+          "new:tB-B-dloc-letter",
+          "new:tB-B-dloc-certtype"
+        ]
+      }
+    },
+    {
+      "id": "5-5",
+      "stage": "5",
+      "title": "Put up acceptance marks and signage",
+      "cadence": "once",
+      "partner_types": [
+        "merchant",
+        "atm",
+        "payfac",
+        "issuer"
+      ],
+      "does": {
+        "text": "Merchants and ATM acquirers display network marks within set deadlines, and issuers bring cards into line with mark rules. Acquirers and sales agents order signage for the merchants they sign.",
+        "ids": [
+          "new:t5-visa-r-atm-marks",
+          "new:t5-pulse-gsm-atm45",
+          "new:t5-visa-r-merchant-marks",
+          "new:t5-pulse-gsm-9m",
+          "new:t5-mc-r-debit9",
+          "amex-434",
+          "new:t5-amex-optblue-activation"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Brand Center",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Marketing Corner",
+          "network": "amex"
+        },
+        {
+          "name": "OptBlue Sales Agent site",
+          "network": "amex"
+        },
+        {
+          "name": "discoversignage.com",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE Graphic Standards Manual",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "minor",
+        "why": {
+          "text": "Deadlines are published and signage is free, so the effort lies in separate ordering sites and rules that are partly private.",
+          "ids": [
+            "new:t5-visa-r-atm-marks",
+            "new:t5-pulse-gsm-atm45",
+            "new:t5-dgn-signage",
+            "new:t5-dgn-signage-login",
+            "pulse-017"
+          ]
+        },
+        "points": [
+          {
+            "text": "Discover's signage ordering site needs a separate login or registration.",
+            "ids": [
+              "new:t5-dgn-signage-login"
+            ]
+          },
+          {
+            "text": "The PULSE Operating Rules are not public, so only excerpts quoted in the graphic manual can be read.",
+            "ids": [
+              "pulse-017",
+              "new:t5-pulse-gsm-9m"
+            ]
+          },
+          {
+            "text": "Under Discover's 2011 rules, improper mark use cost 2,500 dollars per violation after any cure period.",
+            "ids": [
+              "new:tB-B-dor-markfee"
+            ]
+          },
+          {
+            "text": "Mastercard debit issuers have nine months to issue compliant cards and 36 months to bring the portfolio into line.",
+            "ids": [
+              "new:t5-mc-r-debit9",
+              "new:t5-mc-r-debit36"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "PULSE publishes its mark files and deadlines openly, while Discover merchants and agents order signage on a separate gated site with no agent hub.",
+        "ids": [
+          "pulse-043",
+          "new:t5-pulse-gsm-download",
+          "new:t5-pulse-gsm-9m",
+          "new:t5-dgn-signage-login",
+          "dgn-231"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Marks and deadlines inside the launch checklist",
+        "text": "Mark rules, downloads, signage ordering and post-launch deadlines would sit in the partner's launch checklist, with bulk ordering for acquirers and agents. American Express already gives agents bulk signage ordering.",
+        "stage_move": "Marks and deadlines inside the launch checklist",
+        "strategy_rank": 16,
+        "ids": [
+          "new:t5-pulse-gsm-9m",
+          "new:t5-pulse-gsm-atm45",
+          "amex-434",
+          "new:t5-dgn-signage-login",
+          "new:t5-visa-r-atm-marks",
+          "new:tB-B-dor-zip"
+        ]
+      }
+    },
+    {
+      "id": "5-6",
+      "stage": "5",
+      "title": "Watch the first weeks of live traffic",
+      "cadence": "daily",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "payfac",
+        "developer"
+      ],
+      "does": {
+        "text": "After go-live the partner checks its first transactions, approvals and early disputes and reports progress to the network, at times with a named implementation lead.",
+        "ids": [
+          "new:t5-mc-send-validate",
+          "new:t5-amex-gns-ppr",
+          "new:t5-mc-send-monitor",
+          "new:t5-dgn-dd-impl-pm",
+          "new:t5-dgn-golive-launch",
+          "new:t5-mc-r-pf-monitor"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Send Customer Portal",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Program Progress Report",
+          "network": "amex"
+        },
+        {
+          "name": "Mastercard API status page",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover implementation project manager",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Early-life monitoring is thin in public, and Visa's day-31 new-merchant exception rule carries an end date of 17 April 2026.",
+          "ids": [
+            "new:t5-visa-r-newmerchant-sunset"
+          ]
+        },
+        "points": [
+          {
+            "text": "The Mastercard Send Delivery Manager monitors the project, so escalation depends on one person.",
+            "ids": [
+              "new:t5-mc-send-monitor"
+            ]
+          },
+          {
+            "text": "Amex issuers file monthly Program Progress Reports within 15 days of month-end from launch.",
+            "ids": [
+              "new:t5-amex-gns-ppr"
+            ]
+          },
+          {
+            "text": "Payfacs must monitor every sponsored merchant, and Visa's per-item VAMP fees began in October 2025.",
+            "ids": [
+              "new:t5-mc-r-pf-monitor",
+              "visa-347"
+            ]
+          },
+          {
+            "text": "Visa's acquirer monitoring flags whole portfolios at 50 and 70 basis points of fraud and disputes.",
+            "ids": [
+              "visa-338"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "Discover already promises launch support and monitoring and names an implementation project manager for Discover Debit issuers.",
+        "ids": [
+          "new:t5-dgn-golive-launch",
+          "new:t5-dgn-dd-impl-pm"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A shared first-weeks launch room",
+        "text": "A launch view would show approval rates, declines by reason, disputes and the named implementation lead, then hand over to account management. Visa's prescriptive new-merchant checks are ending, which leaves the gap open.",
+        "stage_move": "A shared first-weeks launch room",
+        "strategy_rank": 15,
+        "ids": [
+          "new:t5-dgn-golive-launch",
+          "new:t5-dgn-dd-impl-pm",
+          "new:t5-visa-r-newmerchant-sunset",
+          "new:t5-mc-send-validate"
+        ]
+      }
+    },
+    {
+      "id": "5-7",
+      "stage": "5",
+      "title": "Reissue a converted portfolio in waves",
+      "cadence": "per project",
+      "partner_types": [
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "An issuer moving networks reissues cards in pilot groups and waves, runs an overlap window and pushes new details through account updaters. Processors and token vendors sell help with the move.",
+        "ids": [
+          "new:t5-cof-pilot",
+          "new:t5-cof-waves",
+          "new:t5-stripe-130",
+          "new:t5-stripe-cau",
+          "new:t5-clearwater-vau",
+          "new:t5-marqeta-mig",
+          "new:t5-vgs-reissue"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Account Updater",
+          "network": "visa"
+        },
+        {
+          "name": "Stripe service notice to merchants",
+          "network": "processor"
+        },
+        {
+          "name": "Marqeta portfolio migration service",
+          "network": "processor"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "Public conversions show cardholders and merchants repeatedly losing money and service, from 1.5 million calls at one cutover to uncapped debit rates.",
+          "ids": [
+            "new:t5-costco-calls",
+            "dgn-299",
+            "dgn-275",
+            "dgn-313",
+            "dgn-316"
+          ]
+        },
+        "points": [
+          {
+            "text": "Citi logged over 1.5 million service calls when Costco's cards moved on a single day.",
+            "ids": [
+              "new:t5-costco-calls",
+              "new:t5-costco-cutover"
+            ]
+          },
+          {
+            "text": "Capital One cardholders lost Mastercard benefits on activation, and some payroll and earned-wage providers dropped instant transfers.",
+            "ids": [
+              "new:t5-cof-benefits",
+              "dgn-299",
+              "dgn-300"
+            ]
+          },
+          {
+            "text": "Reissuing a whole BIN range at once breaks stored credentials, and account updaters reach participating merchants only.",
+            "ids": [
+              "new:t5-pbrief-bin",
+              "new:t5-clearwater-vau"
+            ]
+          },
+          {
+            "text": "Travellers were told to plan for acceptance abroad, and merchants met uncapped debit rates they cannot avoid.",
+            "ids": [
+              "dgn-275",
+              "dgn-262",
+              "dgn-313",
+              "dgn-316"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's public record shows its owner's cardholder and merchant notices but no conversion kit for other issuers, while Visa's updater serves moves into Visa.",
+        "ids": [
+          "dgn-055",
+          "new:t5-cof-switch",
+          "new:t5-stripe-130",
+          "new:t5-clearwater-vau"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A conversion kit built from the Capital One reissue",
+        "text": "Conversion would come as a tracked plan covering pilot waves, the overlap window, updater coverage, merchant and payroll notices and acceptance where cardholders travel. Discover is the only network that has just run a large public conversion.",
+        "stage_move": "A conversion kit built from the Capital One reissue",
+        "strategy_rank": 10,
+        "ids": [
+          "new:t5-cof-pilot",
+          "new:t5-stripe-130",
+          "new:t5-stripe-cau",
+          "dgn-299",
+          "dgn-275",
+          "new:t5-costco-calls",
+          "new:t5-walmart-phased",
+          "dgn-055"
+        ]
+      }
+    },
+    {
+      "id": "7-1",
+      "stage": "7",
+      "title": "Prepare and hold the business review",
+      "cadence": "quarterly",
+      "partner_types": [
+        "issuer",
+        "acquirer"
+      ],
+      "does": {
+        "text": "The partner reviews portfolio performance, benchmarks and plans with its named relationship owner. Network tools such as the PULSE Debit Dashboard and Visa Analytics Platform supply peer comparisons.",
+        "ids": [
+          "visa-386",
+          "new:t7-mc-am-contract",
+          "new:t7-mc-dealmgr-customer",
+          "amex-377",
+          "dgn-148",
+          "new:t7-pulse-dd-peer",
+          "new:t7-vap"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "PULSE Debit Dashboard",
+          "network": "discover-family"
+        },
+        {
+          "name": "Visa Analytics Platform",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Business Intelligence (Portfolio Advisor)",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Partner Analytics Center",
+          "network": "amex"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "A PULSE account executive says most issuers do not know their own interchange or costs, and review content is thin in the public record.",
+          "ids": [
+            "new:t7-pulse-dd-ae",
+            "amex-035",
+            "dgn-106",
+            "amex-370"
+          ]
+        },
+        "points": [
+          {
+            "text": "Most issuers do not know the exact interchange they earn or their total costs, according to a PULSE account executive.",
+            "ids": [
+              "new:t7-pulse-dd-ae"
+            ]
+          },
+          {
+            "text": "UK acquirers told the regulator they buy extra scheme services to understand their own fees.",
+            "ids": [
+              "cross-191",
+              "new:t7-teya-billing"
+            ]
+          },
+          {
+            "text": "Visa and Mastercard sell consulting and advisory work as paid lines.",
+            "ids": [
+              "visa-137",
+              "mastercard-396"
+            ]
+          },
+          {
+            "text": "The Amex Partner Analytics Center is known only from a 2021 training title, so its current content cannot be seen.",
+            "ids": [
+              "amex-370",
+              "new:t7-amex-train-list"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "The PULSE Debit Dashboard is open to every PULSE issuer, with revenue, expense and approvals by BIN, interchange by category and a peer comparison.",
+        "ids": [
+          "new:t7-pulse-dd-overview",
+          "new:t7-pulse-dd-peer",
+          "new:t7-pulse-dd-access"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Business review built on shared data",
+        "text": "The Debit Dashboard model would extend across the family, and the review would be generated from what the partner already sees. PULSE already gives every issuer its economics with peers.",
+        "stage_move": "Business review built on shared data",
+        "strategy_rank": 8,
+        "ids": [
+          "new:t7-pulse-dd-overview",
+          "new:t7-pulse-dd-peer",
+          "new:t7-pulse-dd-ae",
+          "new:t7-vap",
+          "new:t7-mc-pa-mbi"
+        ]
+      }
+    },
+    {
+      "id": "7-2",
+      "stage": "7",
+      "title": "Track incentive commitments and payments",
+      "cadence": "quarterly",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "merchant"
+      ],
+      "does": {
+        "text": "A partner on an incentive contract works to volume, issuance or conversion commitments and receives payments the network calculates. The network checks with the client whether obligations were met.",
+        "ids": [
+          "new:t7-visa-10k-long-term-incentive",
+          "new:t7-ma-10k-volume-thresholds",
+          "new:t7-visa-cio-ormb",
+          "new:t7-mc-dealmgr-tracking",
+          "new:t7-visa-cio-merchant"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Client Incentive Operations",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard deal manager reviews",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Pricing and Billing Resource Center",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover Global Network account executive",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "The study found no public partner-facing tracker at any network, and DOJ alleges Visa can claw back paid incentives as termination fees.",
+          "ids": [
+            "new:t7-mc-dealmgr-customer",
+            "new:t7-visa-cio-ormb",
+            "new:t7-doj-clawback",
+            "new:t7-doj-issuer-etf"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa and Mastercard estimate earned incentives from forecasts, and Visa uses client-reported data as one input.",
+            "ids": [
+              "new:t7-visa-10k-incentive-estimate",
+              "new:t7-ma-10k-card-conversion",
+              "new:t7-visa-10k-client-reported"
+            ]
+          },
+          {
+            "text": "Mastercard checks drafted contracts for term, clawbacks and customer commitments.",
+            "ids": [
+              "new:t7-mc-dealmgr-clawbacks"
+            ]
+          },
+          {
+            "text": "DOJ alleges a debit issuer missing Visa's growth requirement could owe earned benefits back plus a fixed fee.",
+            "ids": [
+              "new:t7-doj-issuer-etf"
+            ]
+          },
+          {
+            "text": "DOJ alleges nearly 1,000 Visa issuing contracts carry volume incentives that deter adding debit networks.",
+            "ids": [
+              "new:t7-doj-1000"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "unknown",
+        "text": "Discover runs fixed-term incentive deals without publishing amounts, and no partner-facing tracker was seen at any network.",
+        "ids": [
+          "dgn-070",
+          "dgn-071",
+          "new:t7-mc-dealmgr-customer",
+          "new:t7-visa-cio-ormb"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Incentive ledger in the partner record",
+        "text": "Each commitment would show its measure, the partner's standing, who supplied the data and payment status, including any clawback trigger. Visa and Mastercard track these in internal files, billing systems and quarterly reviews.",
+        "stage_move": "Incentive ledger in the partner record",
+        "strategy_rank": 8,
+        "ids": [
+          "new:t7-visa-cipfa-dash",
+          "new:t7-visa-cio-ormb",
+          "new:t7-mc-dealmgr-tracking",
+          "new:t7-mc-dealmgr-clawbacks",
+          "new:t7-visa-10k-client-reported"
+        ]
+      }
+    },
+    {
+      "id": "7-3",
+      "stage": "7",
+      "title": "Add a service or product",
+      "cadence": "per event",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "atm",
+        "developer"
+      ],
+      "does": {
+        "text": "The partner asks for a new network service, tool or API and waits for enrolment, approval or a contract change. Self-service ordering exists only in patches, such as the Mastercard Connect Store and Amex Service Enrollment.",
+        "ids": [
+          "new:t7-mc-connect-store",
+          "new:t7-mc-connect-order",
+          "amex-079",
+          "new:t7-amex-train-service-enrol",
+          "visa-217",
+          "dgn-176",
+          "pulse-004"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Connect Store",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Knowledge Base Service Enrollment",
+          "network": "amex"
+        },
+        {
+          "name": "Visa Online product enrolment portal",
+          "network": "visa"
+        },
+        {
+          "name": "Discover Service Center enrolment forms",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE account executive",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Discover enrols by PDF, web form or account executive, and a new Visa API means a new commercial step.",
+          "ids": [
+            "dgn-176",
+            "pulse-004",
+            "new:t7-dev-discover-invite",
+            "visa-217"
+          ]
+        },
+        "points": [
+          {
+            "text": "Discover enrols fraud products through application PDFs and web forms.",
+            "ids": [
+              "dgn-176"
+            ]
+          },
+          {
+            "text": "New DebitProtect clients enrol through a PULSE account executive with no self-service route.",
+            "ids": [
+              "pulse-004"
+            ]
+          },
+          {
+            "text": "Adding a Discover API depends on a representative and an agreement change.",
+            "ids": [
+              "new:t7-dev-discover-invite",
+              "dgn-011"
+            ]
+          },
+          {
+            "text": "Adding a Visa API sets production pricing per use case in a VDP API Agreement.",
+            "ids": [
+              "visa-217",
+              "visa-220"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover enrols by PDF, form or account executive, while the Mastercard Connect Store offers Request, checkout scoped by BIN and Track Orders.",
+        "ids": [
+          "dgn-176",
+          "pulse-004",
+          "new:t7-mc-connect-store",
+          "new:t7-mc-connect-order"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "One catalogue with Request and order tracking",
+        "text": "Every service would carry an Included or Priced marker and a Request action scoped to BINs, with approver sign-off and a tracked order. The Mastercard Connect Store sets this pattern.",
+        "stage_move": "One catalogue with Request and order tracking",
+        "strategy_rank": null,
+        "ids": [
+          "new:t7-mc-connect-store",
+          "new:t7-mc-connect-order",
+          "dgn-176",
+          "pulse-004",
+          "new:t7-dev-discover-invite"
+        ]
+      }
+    },
+    {
+      "id": "7-4",
+      "stage": "7",
+      "title": "Expand into a new market or role",
+      "cadence": "per event",
+      "partner_types": [
+        "acquirer",
+        "payfac",
+        "fintech"
+      ],
+      "does": {
+        "text": "An acquirer applies to extend its licence into a new country, a payfac moves large merchants to direct agreements, and a sponsor seeks approval for each new programme manager.",
+        "ids": [
+          "new:t7-mc-rules-area-of-use",
+          "new:t7-visa-rules-acquirer-jurisdiction",
+          "new:t7-visa-rules-pf-1m",
+          "new:t7-optblue-2026",
+          "mastercard-051"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Area of Use application",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Form 1336",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex OptBlue Program Update notice",
+          "network": "amex"
+        },
+        {
+          "name": "Visa Program Request Management",
+          "network": "visa"
+        },
+        {
+          "name": "Discover Global Network account executive",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Growth rules exist at Mastercard, Visa and Amex, and each adds an application, certification or approval.",
+          "ids": [
+            "new:t7-mc-rules-area-of-use",
+            "new:t7-mc-rules-form1336",
+            "new:t7-visa-rules-pf-1m",
+            "amex-440"
+          ]
+        },
+        "points": [
+          {
+            "text": "A Visa payfac must move any sponsored merchant above 1 million dollars a year onto a direct acquirer agreement.",
+            "ids": [
+              "new:t7-visa-rules-pf-1m"
+            ]
+          },
+          {
+            "text": "A consultancy says crossing the OptBlue threshold means signing a direct agreement with its own review.",
+            "ids": [
+              "amex-440"
+            ]
+          },
+          {
+            "text": "Since May 2025 a BIN sponsor needs Mastercard's approval per programme manager, revocable without notice.",
+            "ids": [
+              "mastercard-051"
+            ]
+          },
+          {
+            "text": "The study found no public Discover procedure for expanding into a market.",
+            "ids": [
+              "dgn-106"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's growth runs case by case through an account executive and the EASI Message Center, with no public expansion path.",
+        "ids": [
+          "dgn-148",
+          "dgn-155",
+          "dgn-106"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Growth paths inside the record",
+        "text": "The partner record would show the next step, such as a new country, role or threshold, with eligibility and what changes. Mastercard and Amex already publish growth steps and thresholds.",
+        "stage_move": "Growth paths inside the record",
+        "strategy_rank": null,
+        "ids": [
+          "new:t7-mc-rules-area-of-use",
+          "new:t7-optblue-2026",
+          "new:t7-visa-rules-pf-1m",
+          "diners-030"
+        ]
+      }
+    },
+    {
+      "id": "7-5",
+      "stage": "7",
+      "title": "Negotiate the renewal",
+      "cadence": "per event",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "merchant"
+      ],
+      "does": {
+        "text": "Before a fixed term ends, the network seeks renewal and the partner renegotiates incentives and commitments with its relationship owner. Some banks hire consultants to bargain.",
+        "ids": [
+          "new:t7-axp-10k-fixed-period",
+          "new:t7-axp-10k-renew-advance",
+          "new:t7-engagefi-give-take",
+          "new:t7-ma-10k-reassess",
+          "new:t7-mc-am-contract"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard account management",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa account team and Client Success manager",
+          "network": "visa"
+        },
+        {
+          "name": "Amex relationship manager",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Global Network account executive",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Terms are negotiated privately, and a consultancy cites a client that more than doubled its incentives at renewal.",
+          "ids": [
+            "amex-168",
+            "new:t7-engagefi-give-take",
+            "new:t7-engagefi-doubled"
+          ]
+        },
+        "points": [
+          {
+            "text": "A bank consultancy says networks negotiate incentive offers with banks and credit unions in give-and-take fashion.",
+            "ids": [
+              "new:t7-engagefi-give-take"
+            ]
+          },
+          {
+            "text": "Engage fi cites a client that got more than twice its previous card brand incentives at renewal.",
+            "ids": [
+              "new:t7-engagefi-doubled"
+            ]
+          },
+          {
+            "text": "DOJ alleges over 180 large merchants and acquirers hold de facto exclusive Visa deals.",
+            "ids": [
+              "cross-033"
+            ]
+          },
+          {
+            "text": "From April 2026 Mastercard added services to a US bundle fee and raised its rate, per a merchant advisory.",
+            "ids": [
+              "mastercard-421"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's deferred incentive balance was 28 million dollars at end-2024 against billions at Visa and Mastercard, and its owner says rivals pay large signing bonuses.",
+        "ids": [
+          "dgn-382",
+          "visa-451",
+          "mastercard-415",
+          "dgn-383"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Renewal workspace over the whole term",
+        "text": "Renewal would open early with term economics, services used, commitments met and an incumbent-incentive line the partner fills in. Networks renew in advance, and regulators are forcing fee clarity.",
+        "stage_move": "Renewal workspace over the whole term",
+        "strategy_rank": 8,
+        "ids": [
+          "new:t7-axp-10k-renew-advance",
+          "new:t7-engagefi-give-take",
+          "new:t7-engagefi-doubled",
+          "cross-075",
+          "new:t7-fcac-notice"
+        ]
+      }
+    },
+    {
+      "id": "7-6",
+      "stage": "7",
+      "title": "Plan a brand conversion to another network",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "An issuer switching networks, sometimes after a processor change, reissues cards, refreshes stored credentials through account updaters and tells members to reset PINs and recurring payments.",
+        "ids": [
+          "new:t7-lbcu-processor",
+          "new:t7-clearwater-vau",
+          "new:t7-navigant-pin",
+          "new:t7-cobalt-disable",
+          "new:t7-mc-abu-brandflips"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Account Updater",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Automatic Billing Updater",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Consulting and Analytics",
+          "network": "visa"
+        },
+        {
+          "name": "PULSE brand-switch case studies",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "DOJ alleges reissue cost keeps issuers from switching, and members bear new numbers, PIN resets and failed recurring payments.",
+          "ids": [
+            "new:t7-doj-rarely-change",
+            "new:t7-navigant-pin",
+            "new:t7-clearwater-vau"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa Account Updater carries Mastercard, Amex and Discover portfolios into Visa, and outside Latin America it carries none out.",
+            "ids": [
+              "new:t7-vau-faq-conversions",
+              "new:t7-vau-faq-lac"
+            ]
+          },
+          {
+            "text": "Navigant told members some merchants would now ask for a PIN, calling the matter beyond its control.",
+            "ids": [
+              "new:t7-navigant-pin"
+            ]
+          },
+          {
+            "text": "Credit unions tell members to update recurring payments themselves, since the updater covers participating merchants only.",
+            "ids": [
+              "new:t7-clearwater-vau"
+            ]
+          },
+          {
+            "text": "US fintechs changing sponsor bank must change BINs unless the old sponsor transfers the BIN.",
+            "ids": [
+              "new:t7-galileo-bin"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "PULSE invites issuers to re-evaluate with a dedicated rep and gates its switch case studies, while outside Latin America Visa's updater carries portfolios only into Visa.",
+        "ids": [
+          "new:t7-pulse-choice-reeval",
+          "new:t7-pulse-cases-switch",
+          "new:t7-vau-faq-conversions",
+          "new:t7-vau-faq-lac"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Conversion desk for issuers moving in",
+        "text": "Reissue waves, updater coverage, merchant notices, PIN changes and country acceptance gaps would run as one tracked conversion plan. Visa tools and consults for inbound conversion, and credit unions leave members to fix stored cards and PINs.",
+        "stage_move": "Conversion desk for issuers moving in",
+        "strategy_rank": 10,
+        "ids": [
+          "new:t7-vau-faq-conversions",
+          "new:t7-vca-migration",
+          "new:t7-clearwater-vau",
+          "new:t7-navigant-pin",
+          "dgn-262",
+          "new:t7-pymnts-cof-intl"
+        ]
+      }
+    },
+    {
+      "id": "7-7",
+      "stage": "7",
+      "title": "Exit the network or sell the portfolio",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "fintech",
+        "atm",
+        "payfac"
+      ],
+      "does": {
+        "text": "A leaving partner gives notice, cancels cards or helps merchants move, and releases its identifiers. A partner selling a portfolio notifies the network first.",
+        "ids": [
+          "new:t7-mc-rules-term-notice",
+          "new:t7-mc-rules-cancel-cards",
+          "new:t7-mc-rules-merchant-transfer",
+          "new:t7-visa-rules-bin-release",
+          "new:t7-mc-rules-portfolio-notice",
+          "new:t7-visa-rules-portfolio-sale"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Rules termination provisions",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Rules BIN release",
+          "network": "visa"
+        },
+        {
+          "name": "Amex Business and Operational Policies",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Global Network account executive",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "Exit rules keep partners liable and waiting for months, and DOJ alleges early termination fees and clawbacks at Visa.",
+          "ids": [
+            "new:t7-visa-rules-120days",
+            "new:t7-visa-rules-liability-remains",
+            "new:t7-mc-rules-term-notice",
+            "new:t7-doj-issuer-etf",
+            "new:t7-doj-clawback"
+          ]
+        },
+        "points": [
+          {
+            "text": "A Visa member cannot finish leaving until every BIN is released, and each must sit inactive for 120 days first.",
+            "ids": [
+              "new:t7-visa-rules-bin-release",
+              "new:t7-visa-rules-120days"
+            ]
+          },
+          {
+            "text": "Maestro and Cirrus principals give a year's notice, cancel all cards and get no refund of fees.",
+            "ids": [
+              "new:t7-mc-rules-term-notice",
+              "new:t7-mc-rules-cancel-cards",
+              "new:t7-mc-rules-no-refund"
+            ]
+          },
+          {
+            "text": "When a Mastercard principal leaves, each sponsored affiliate must wind down unless another principal sponsors it in time.",
+            "ids": [
+              "new:t7-mc-rules-affiliate-responsor"
+            ]
+          },
+          {
+            "text": "i3 Verticals says losing its sponsor without migrating its payfac portfolio would stop its business.",
+            "ids": [
+              "new:t7-i3-sponsor"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover publishes no exit terms, and its owner competes with partner issuers.",
+        "ids": [
+          "dgn-106",
+          "dgn-208",
+          "dgn-209"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Written exit terms with a leaving checklist",
+        "text": "Discover would publish what leaving requires and what survives, including BIN release, cardholder and merchant notices, data export and transfer help. Mastercard and Visa already publish exit rules.",
+        "stage_move": "Written exit terms with a leaving checklist",
+        "strategy_rank": null,
+        "ids": [
+          "new:t7-mc-rules-term-notice",
+          "new:t7-mc-rules-merchant-transfer",
+          "new:t7-visa-rules-bin-release",
+          "dgn-106",
+          "dgn-208"
+        ]
+      }
+    }
+  ]
+}

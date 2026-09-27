@@ -9,8 +9,10 @@ September 25, 2026.
 ## What is here
 
 ```
-competitive-networks.html   Report 1, the research
-prototype-insights.html     Report 2, what it means for the prototypes
+partner-experience.html     the lead report, the partner experience stage by stage
+journey-map.html            the partner lifecycle journey map, task by task
+competitive-networks.html   Report 1, the network profiles and the source register
+prototype-insights.html     Report 2, superseded, framed on the prototypes
 research.css / research.js  placement and the contents rail, tokens only
 ledger/README.md            id scheme, columns, confidence labels
 ledger/<slug>.md            one ledger per network, the source of truth
@@ -31,7 +33,7 @@ dist/                       single-file builds for the Artifact, gitignored
 5. `node tools/ledger.js` emits `sources.json`. `node tools/links.js` checks every citation, anchor, image and URL.
 6. Reports are written from the ledgers. `node tools/copy-check.js` reads the copy.
 7. `node ../design-system/tools/check.js ../research/competitive-networks.html ../research/prototype-insights.html`
-8. `REPORT1_URL=<Report 1 link> node tools/build.js` writes `dist/`. Publish the `dist/artifact-*.html` files.
+8. `REPORT1_URL=… REPORT2_URL=… REPORT3_URL=<lead report> REPORT4_URL=<journey map> node tools/build.js` writes `dist/`. Publish the `dist/artifact-*.html` files.
 
 Preview: server `network-research` on port 8097, open `/research/competitive-networks.html`.
 
@@ -45,13 +47,25 @@ Report 2 is rendered from `parts/cards.json`, the settled output of three multi-
 
 New evidence from each round enters the ledger with `tools/insights-ingest.py <round> <rows.json> [accessed]`, is checked with `tools/verify-auto.py --ids <ids.json> --out auto-<round>.json`, and the residue goes to agents, whose verdicts land in `ledger/verify/out/agent-*.json`. `tools/cards-build.py` writes the decision blocks, gaps and advantages, cards, open questions and the record of the first twelve, and fails on any uncited observed sentence or unknown id. Citations in Report 2 are `{{rcite:id}}` markers that link into Report 1's register. A reference that starts with `proto:` points at a prototype file and renders as a plain pointer, never as evidence about a network.
 
+## The journey map
+
+`journey-map.html` is built by `tools/journey-build.py` from `ledger/journey/tasks.json`, which is
+`meta.json` (stages and phases) plus the 58 tasks in `tasks-calibrated.json`. Three drafting agents wrote
+`tasks-A/B/C.json` from the lead report's evidence, and a calibration pass merged duplicates and held
+the friction levels and design moves to one standard, recorded in `calibration-log.md`. Severe means
+partners repeatedly lose money, time or control, or a regulator or court stepped in. A differentiator
+needs all three: no incumbent offers a good version, the evidence shows it matters to partners, and no
+incumbent could match it within a release or two. The builder fails on an unknown id or uncited friction.
+
 ## Published
 
-Both reports are private Artifacts. They were first published from the Global
+All four are private Artifacts. Reports 1 and 2 were first published from the Global
 Network repo's path, so update them by passing the link as `url`.
 
 - Report 1, Card Network Partner Study: https://claude.ai/artifact/PK46s4NK5N48ehy2mTgsL4
 - Report 2, Partner Desk Research Insights: https://claude.ai/artifact/BxFGKe3NZSCHgs59L4WZG2
+- Lead report, Partner Experience Teardown: https://claude.ai/artifact/GciXHjyxfFi2hw9zDrNttf
+- Journey map, Partner Journey Map: https://claude.ai/artifact/2vKRF8JcZZ5fPib7TWhBRJ
 
 ## Rules
 

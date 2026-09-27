@@ -1,0 +1,2120 @@
+{
+  "tasks": [
+    {
+      "id": "1-1",
+      "stage": "1",
+      "title": "Scan the pitch and find the way in",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "payfac",
+        "atm",
+        "fintech"
+      ],
+      "does": {
+        "text": "A prospect reads each network's partner pages, then writes to a regional mailbox, fills a contact form or books an account executive to start talks.",
+        "ids": [
+          "new:t1-s1-visa-lic-steps",
+          "new:t1-s1-visa-ae",
+          "new:t1-s1-amex-contact",
+          "dgn-035"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Licensing Program page",
+          "network": "visa"
+        },
+        {
+          "name": "Visa community issuers contact form",
+          "network": "visa"
+        },
+        {
+          "name": "American Express Global Network contact form",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Contact Us form",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE sales callback line",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Every route ends in a form, a mailbox or an account executive, and only Visa publishes licensing steps before contact.",
+          "ids": [
+            "new:t1-s1-visa-contact-form",
+            "new:t1-s1-amex-contact",
+            "dgn-035",
+            "pulse-002",
+            "new:t1-s1-visa-lic-steps"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's community contact route opens a newsletter sign-up, so intent is captured as a marketing lead.",
+            "ids": [
+              "new:t1-s1-visa-contact-form"
+            ]
+          },
+          {
+            "text": "The Amex network form offers no community bank, credit union or fintech business type.",
+            "ids": [
+              "new:t1-s1-amex-contact-bt"
+            ]
+          },
+          {
+            "text": "Discover's partnering page promises consultation and co-creation, then ends at a contact form with nine US categories.",
+            "ids": [
+              "dgn-036",
+              "dgn-161",
+              "dgn-035"
+            ]
+          },
+          {
+            "text": "Evaluation pages go stale, with Visa's Fast Track citing a 2022 fact sheet and Amex's issuer page a 2022 ranking.",
+            "ids": [
+              "new:t1-s1-visa-fft-stale",
+              "new:t1-s1-amex-issuer-2022"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover sends every partner type to a contact form, while PULSE promises a sales callback within two business days.",
+        "ids": [
+          "dgn-035",
+          "dgn-036",
+          "dgn-158",
+          "pulse-002"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "One front door that names the next step",
+        "text": "One intake routes each prospect by partner type and states the next step, who owns it and the committed reply time. The prospect no longer guesses which form or mailbox fits.",
+        "stage_move": "One front door that names the next step",
+        "strategy_rank": 12,
+        "ids": [
+          "new:t1-s1-visa-contact-form",
+          "new:t1-s1-amex-contact",
+          "new:t1-s1-amex-contact-bt",
+          "new:t1-s1-visa-lic-steps",
+          "dgn-035",
+          "dgn-158"
+        ]
+      }
+    },
+    {
+      "id": "1-2",
+      "stage": "1",
+      "title": "Shortlist a platform that carries the network",
+      "cadence": "once",
+      "partner_types": [
+        "fintech"
+      ],
+      "does": {
+        "text": "A fintech looks for a BIN sponsor, issuer processor or programme manager that can issue on each network, often through network enabler directories.",
+        "ids": [
+          "visa-018",
+          "new:t1-s1-visa-dir-filters",
+          "new:t1-s1-engage-202",
+          "mastercard-085"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Find a Partner directory",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Fintech Fast Track page",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Engage partner directory",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover Partner Directory",
+          "network": "discover-family"
+        },
+        {
+          "name": "Issuing platform network documentation",
+          "network": "processor"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Visa and Mastercard directories help a fintech shortlist enablers, while four of six issuing platforms checked document no Discover issuing.",
+          "ids": [
+            "new:t1-s1-visa-dir-filters",
+            "new:t1-s1-engage-202",
+            "dgn-265",
+            "dgn-266",
+            "dgn-267",
+            "dgn-268"
+          ]
+        },
+        "points": [
+          {
+            "text": "Stripe, Adyen, Lithic and Highnote document no Discover issuing, and SoFi Tech Solutions says the primary network is usually Visa or Mastercard.",
+            "ids": [
+              "dgn-265",
+              "dgn-266",
+              "dgn-267",
+              "dgn-268",
+              "dgn-269"
+            ]
+          },
+          {
+            "text": "A fintech guide drops Discover and Amex as three-party networks and says incumbent incentives are hard for startups to win.",
+            "ids": [
+              "new:t1-s1-ftt-closed",
+              "new:t1-s1-ftt-incentive"
+            ]
+          },
+          {
+            "text": "Visa's directory listed 73 partners in September 2026, while its pages speak of hundreds.",
+            "ids": [
+              "new:t1-s1-visa-dir-count",
+              "new:t1-s1-visa-ready-500"
+            ]
+          },
+          {
+            "text": "Mastercard tells users to run their own due diligence on the partners it lists.",
+            "ids": [
+              "new:t1-s1-engage-dd"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's fintech page names no processor, sponsor bank or programme manager, although Marqeta says it is certified on Discover's 2026 release.",
+        "ids": [
+          "dgn-365",
+          "dgn-037",
+          "dgn-363"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "A provider shelf for fintechs",
+        "text": "Publish the processors, sponsor banks and programme managers that carry the network, by product and country. The fintech then starts its path inside a platform it can already use.",
+        "stage_move": "A provider shelf for fintechs",
+        "strategy_rank": 4,
+        "ids": [
+          "new:t1-s1-visa-dir-filters",
+          "new:t1-s1-engage-202",
+          "new:t1-s1-ftt-closed",
+          "dgn-365",
+          "dgn-267",
+          "dgn-269",
+          "dgn-363"
+        ]
+      }
+    },
+    {
+      "id": "1-3",
+      "stage": "1",
+      "title": "Read the specifications and try a sandbox",
+      "cadence": "once",
+      "partner_types": [
+        "developer",
+        "fintech"
+      ],
+      "does": {
+        "text": "A developer reads the API documentation, gets sandbox keys and calls test endpoints to judge the build before any commercial talk.",
+        "ids": [
+          "mastercard-001",
+          "mastercard-002",
+          "visa-190",
+          "visa-426"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa API browser",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard products catalogue",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex sandbox key request",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Developer Center login page",
+          "network": "discover-family"
+        },
+        {
+          "name": "Discover Partner Product Portal",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Visa and Mastercard open documentation and sandboxes, while Amex reviews key requests and Discover admits developers only by invitation.",
+          "ids": [
+            "visa-431",
+            "mastercard-002",
+            "amex-005",
+            "dgn-002",
+            "dgn-034"
+          ]
+        },
+        "points": [
+          {
+            "text": "Discover's Developer Center admits developers by representative invitation after a contact form.",
+            "ids": [
+              "dgn-002",
+              "dgn-034"
+            ]
+          },
+          {
+            "text": "Discover's catalogue is partial, pricing is absent and no llms.txt is published.",
+            "ids": [
+              "dgn-004",
+              "dgn-086",
+              "dgn-205"
+            ]
+          },
+          {
+            "text": "Five of 18 Amex products hold specifications for invited readers, and Amex reviews each sandbox key request.",
+            "ids": [
+              "amex-003",
+              "amex-005"
+            ]
+          },
+          {
+            "text": "No API prices are published, and Visa's pricing page explains three fee models without amounts.",
+            "ids": [
+              "mastercard-033",
+              "amex-025",
+              "visa-152"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Twelve Partner Product Portal products show OpenAPI specifications signed out, yet a key still needs a representative.",
+        "ids": [
+          "dgn-007",
+          "dgn-008",
+          "dgn-002"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Open evaluation for developers",
+        "text": "Specifications, sandbox keys and a pricing model page open before any representative contact, with markdown twins for coding assistants. The developer can judge the build alone.",
+        "stage_move": "Open evaluation for developers",
+        "strategy_rank": 7,
+        "ids": [
+          "mastercard-001",
+          "mastercard-002",
+          "visa-152",
+          "visa-426",
+          "dgn-002",
+          "dgn-205"
+        ]
+      }
+    },
+    {
+      "id": "1-4",
+      "stage": "1",
+      "title": "Model the yield and weigh incumbent incentives",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "An issuer models interchange yield against incumbent incentives, often through paid advisers or pooled buyers who run bids between Visa and Mastercard.",
+        "ids": [
+          "new:t1-s1-cornerstone-bids",
+          "new:t1-s1-engagefi",
+          "new:t1-s1-advantage",
+          "new:t1-s1-velera",
+          "visa-267",
+          "mastercard-105"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Fed average debit interchange table",
+          "network": "any"
+        },
+        {
+          "name": "Adviser-run network bid",
+          "network": "any"
+        },
+        {
+          "name": "Visa exempt debit interchange rates",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Portfolio Insights",
+          "network": "visa"
+        },
+        {
+          "name": "Discover Debit Advantage Analysis",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "The DOJ alleges cliff pricing in Visa's debit contracts, and participants told the RBA that confidentiality terms stop them comparing prices.",
+          "ids": [
+            "visa-275",
+            "cross-075"
+          ]
+        },
+        "points": [
+          {
+            "text": "One adviser says many community institutions sign without benchmark data.",
+            "ids": [
+              "new:t1-s1-advantage-bench"
+            ]
+          },
+          {
+            "text": "The Fed says its interchange table does not show what an issuer would earn on a network.",
+            "ids": [
+              "new:t1-s1-fed-caveat"
+            ]
+          },
+          {
+            "text": "Analysts expect Visa to claw back discounts across a defecting bank's portfolio, which is opinion.",
+            "ids": [
+              "visa-453",
+              "cross-253"
+            ]
+          },
+          {
+            "text": "Visa's benchmark tool opens only after an issuer joins its programme through Visa Online.",
+            "ids": [
+              "new:t1-s1-visa-cgap-vol",
+              "new:t1-s1-visa-cardinal"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "PULSE offers a scheduled Debit Advantage Analysis and switcher case studies, though the all-in fee and exempt rates stay unpublished.",
+        "ids": [
+          "new:t1-s1-pulse-advantage",
+          "new:t1-s1-pulse-extraco",
+          "pulse-034"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A self-serve debit yield model",
+        "text": "Turn the Debit Advantage Analysis into a model a prospect runs on its own mix, with assumptions visible. The issuer sees exempt yield after routing before any call.",
+        "stage_move": "A self-serve debit yield model",
+        "strategy_rank": 11,
+        "ids": [
+          "visa-445",
+          "new:t1-s1-pulse-advantage",
+          "new:t1-s1-visa-direct-calc",
+          "new:t1-s1-fed-caveat",
+          "cross-075"
+        ]
+      }
+    },
+    {
+      "id": "1-5",
+      "stage": "1",
+      "title": "See the acceptance price before signing",
+      "cadence": "once",
+      "partner_types": [
+        "acquirer",
+        "payfac",
+        "atm"
+      ],
+      "does": {
+        "text": "An acquirer, ISO or ATM operator looks for interchange, network fees and connection costs to price a new acceptance line.",
+        "ids": [
+          "visa-238",
+          "mastercard-325",
+          "dgn-063",
+          "new:t1-s1-pulse-atm",
+          "interac-011"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa U.S.A. Interchange Reimbursement Fees PDF",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard merchant interchange rates page",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Connect Pricing and Billing Center",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover acquirer interchange verification page",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE ATM Acquirers page",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "UK acquirers told the PSR that fee information was poor and that some bought scheme services by accident.",
+          "ids": [
+            "cross-060",
+            "cross-214",
+            "cross-256"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa publishes interchange as a dated PDF, while its network fee schedules stay unpublished.",
+            "ids": [
+              "visa-238",
+              "visa-250"
+            ]
+          },
+          {
+            "text": "Mastercard bills registration fees whose amounts sit in the gated Pricing and Billing Center.",
+            "ids": [
+              "mastercard-064"
+            ]
+          },
+          {
+            "text": "A prospective acquirer cannot see Discover's US economics before signing up and being issued a code.",
+            "ids": [
+              "dgn-063",
+              "dgn-064"
+            ]
+          },
+          {
+            "text": "PULSE's ATM page states competitive fees without figures and closes on a contact route.",
+            "ids": [
+              "new:t1-s1-pulse-atm",
+              "pulse-002"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover's US acquirer schedule sits behind an acquirer-issued code, while its Canadian schedule is public.",
+        "ids": [
+          "dgn-063",
+          "dgn-064",
+          "dgn-065",
+          "dgn-066"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Price visible to a stranger",
+        "text": "An acquirer or ATM operator sees a standard schedule and fee structure before sign-up, as Discover already shows in Canada. Incentives sit on a separate line.",
+        "stage_move": "Price visible to a stranger",
+        "strategy_rank": 11,
+        "ids": [
+          "dgn-063",
+          "dgn-065",
+          "cross-163",
+          "interac-011",
+          "interac-015",
+          "eftpos-014",
+          "cross-078"
+        ]
+      }
+    },
+    {
+      "id": "1-6",
+      "stage": "1",
+      "title": "Run due diligence on the network and its owner",
+      "cadence": "once",
+      "partner_types": [
+        "issuer"
+      ],
+      "does": {
+        "text": "An issuer's team checks the network's standing, endorsements and ownership, often with a trade body report or a paid adviser.",
+        "ids": [
+          "new:t1-s1-aba-dd",
+          "new:t1-s1-aba-discount",
+          "new:t1-s1-cornerstone"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "ABA Endorsed Solutions listing",
+          "network": "any"
+        },
+        {
+          "name": "Discover Debit choice landing page",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE Debit Issuer Study",
+          "network": "discover-family"
+        },
+        {
+          "name": "Visa Consulting and Analytics page",
+          "network": "visa"
+        },
+        {
+          "name": "Amex issuer pages",
+          "network": "amex"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Issuers weigh an owner that competes with banks for deposits, and much of the proof on offer is dated or self-reported.",
+          "ids": [
+            "pulse-076",
+            "new:t1-s1-pulse-reconcile",
+            "new:t1-s1-amex-issuer-2022"
+          ]
+        },
+        "points": [
+          {
+            "text": "Discover's owner competes with banks for deposits, and neither merger approval set a condition on network access.",
+            "ids": [
+              "pulse-076",
+              "cross-177"
+            ]
+          },
+          {
+            "text": "Capital One warns it may be unable to offer adequate pricing to network partners.",
+            "ids": [
+              "dgn-293"
+            ]
+          },
+          {
+            "text": "A Datos analyst expected banks that see Capital One as a competitor to drop PULSE, which is opinion.",
+            "ids": [
+              "pulse-061"
+            ]
+          },
+          {
+            "text": "PULSE's reconciliation and switching claims are its own and are not independently checked.",
+            "ids": [
+              "new:t1-s1-pulse-reconcile",
+              "new:t1-s1-pulse-extraco"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "ABA endorses Discover Debit and offers a due diligence report, a structured evaluation artefact no rival shows publicly.",
+        "ids": [
+          "new:t1-s1-aba-discount",
+          "new:t1-s1-aba-dd",
+          "new:t1-s1-pulse-advantage"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "An evaluation pack per partner type",
+        "text": "Each prospect downloads a pack with the participation model, fee structure lines, committed service levels, ownership separation terms and endorsements. The study infers the network then sets the terms of comparison.",
+        "stage_move": "An evaluation pack per partner type",
+        "strategy_rank": 11,
+        "ids": [
+          "new:t1-s1-aba-dd",
+          "new:t1-s1-cornerstone-bids",
+          "new:t1-s1-advantage-bench",
+          "cross-177",
+          "cross-179"
+        ]
+      }
+    },
+    {
+      "id": "1-7",
+      "stage": "1",
+      "title": "Make the merchant case for carrying the brand",
+      "cadence": "per event",
+      "partner_types": [
+        "acquirer",
+        "payfac",
+        "atm",
+        "merchant"
+      ],
+      "does": {
+        "text": "Acquirers, ISOs and ATM processors decide whether to sell a network's acceptance, and merchants ask what volume it brings.",
+        "ids": [
+          "amex-302",
+          "new:t1-s1-nas-networks",
+          "dgn-359"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "OptBlue sales agent hub",
+          "network": "amex"
+        },
+        {
+          "name": "OptBlue merchant page",
+          "network": "amex"
+        },
+        {
+          "name": "Visa Ready page",
+          "network": "visa"
+        },
+        {
+          "name": "Discover Find an Acquirer page",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE ATM Acquirers page",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Merchants ask what volume a network brings, and Discover's public pages give reach counts without a spend figure.",
+          "ids": [
+            "dgn-359",
+            "dgn-357",
+            "dgn-231"
+          ]
+        },
+        "points": [
+          {
+            "text": "No seller kit or objection guide for Discover acceptance was found on the public sites.",
+            "ids": [
+              "dgn-231"
+            ]
+          },
+          {
+            "text": "Independent ATM operators buy processing that bundles the PIN debit networks, so the processor makes the network choice.",
+            "ids": [
+              "new:t1-s1-switchcommerce",
+              "new:t1-s1-nas-networks"
+            ]
+          },
+          {
+            "text": "Discover's US acquirer list omits Adyen, Chase and Worldpay.",
+            "ids": [
+              "dgn-273"
+            ]
+          },
+          {
+            "text": "OptBlue sellers work under non-public Operating Regulations held by the Participant.",
+            "ids": [
+              "amex-059"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "ISOs and payfacs can register on EASI for technical material, yet get no sales kit.",
+        "ids": [
+          "new:t1-s1-dgn-easi-types",
+          "dgn-231"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Arm the channel that sells",
+        "text": "Acquirers, ISOs and ATM processors get a seller kit with merchant-level value evidence, dated peer proof and objection answers. The network's case then reaches merchants through the channel.",
+        "stage_move": "Arm the channel that sells",
+        "strategy_rank": 16,
+        "ids": [
+          "amex-302",
+          "new:t1-s1-amex-objections",
+          "new:t1-s1-amex-spend",
+          "new:t1-s1-nas-networks",
+          "dgn-357",
+          "dgn-359"
+        ]
+      }
+    },
+    {
+      "id": "2-1",
+      "stage": "2",
+      "title": "Choose the join route and secure a sponsor",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "payfac",
+        "atm",
+        "fintech"
+      ],
+      "does": {
+        "text": "Most partners join through a sponsor bank or principal, which registers them, carries their liability and sets its own terms.",
+        "ids": [
+          "visa-003",
+          "visa-008",
+          "mastercard-057",
+          "new:t2-s2-prth-sponsor",
+          "new:t2-s2-ffiec-iso",
+          "new:t2-s2-iiiv-discretion"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Licensing Program page, Associate tier",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Engage portal",
+          "network": "mastercard"
+        },
+        {
+          "name": "Sponsor bank BIN sponsorship agreement",
+          "network": "any"
+        },
+        {
+          "name": "Discover payment facilitator roadmap article",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE sales callback form",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Sponsors keep wide discretion over terms, and a route can close, as Mastercard's Type I processor route did in May 2025.",
+          "ids": [
+            "new:t2-s2-iiiv-discretion",
+            "mastercard-062"
+          ]
+        },
+        "points": [
+          {
+            "text": "Only banks, or processors a bank approves, may send ATM transactions, so losing a sponsor can halt operations.",
+            "ids": [
+              "new:t2-s2-atleos-sponsor"
+            ]
+          },
+          {
+            "text": "Network standards stop a sponsored acquirer settling funds itself, which binds it to the sponsor bank.",
+            "ids": [
+              "new:t2-s2-gpn-model",
+              "new:t2-s2-prth-sponsor"
+            ]
+          },
+          {
+            "text": "A Mastercard principal needs approval to sponsor a programme manager, and that approval is revocable without notice.",
+            "ids": [
+              "mastercard-051"
+            ]
+          },
+          {
+            "text": "A former ISO owner says vertical software firms do not know how to structure a sponsor bank relationship.",
+            "ids": [
+              "new:t2-s2-gs-lacoste"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover tells payment facilitators to find an acquiring bank in each market, and PULSE publishes no membership types or sponsor model.",
+        "ids": [
+          "new:t2-s2-dgn-pfroadmap",
+          "pulse-002",
+          "pulse-001"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "One join map per partner type",
+        "text": "Each partner type gets a path stating who signs, whether a sponsor is needed, the documents asked for and the identifiers issued. A payfac or credit union sees its route before any call.",
+        "stage_move": "One join map per partner type",
+        "strategy_rank": 12,
+        "ids": [
+          "visa-003",
+          "visa-004",
+          "visa-005",
+          "amex-035",
+          "dgn-035",
+          "dgn-036"
+        ]
+      }
+    },
+    {
+      "id": "2-2",
+      "stage": "2",
+      "title": "Apply for a direct licence and pass the review",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer"
+      ],
+      "does": {
+        "text": "A bank confirms eligibility, completes the application and answers the network's review of regulatory permissions, AML, credit and settlement risk.",
+        "ids": [
+          "visa-004",
+          "visa-005",
+          "mastercard-082",
+          "mastercard-049"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Access Client Lifecycle Management Tool",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard form 1400 Universal Onboarding Template",
+          "network": "mastercard"
+        },
+        {
+          "name": "Diners Club brand mailbox",
+          "network": "discover-family"
+        },
+        {
+          "name": "Discover Partner Product Portal, Going Live",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Applicants cannot self-assess eligibility or timing, since eligibility rules sit outside the public rulebook and no licensing timeline was found.",
+          "ids": [
+            "visa-007",
+            "visa-015",
+            "visa-004",
+            "amex-035",
+            "dgn-036"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's eligibility rules live in charter documents outside the public rulebook.",
+            "ids": [
+              "visa-007"
+            ]
+          },
+          {
+            "text": "The study found no licensing timeline from any of the four networks.",
+            "ids": [
+              "visa-015",
+              "visa-004",
+              "amex-035",
+              "dgn-036"
+            ]
+          },
+          {
+            "text": "Mastercard may demand capital, collateral or escrow, and Amex asks for an investment-grade rating or a guarantee.",
+            "ids": [
+              "mastercard-054",
+              "new:t2-s2-amex-bop-financial"
+            ]
+          },
+          {
+            "text": "Amex hands over its rulebooks only after the agreement is signed.",
+            "ids": [
+              "amex-035",
+              "amex-036"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover routes issuers to a contact form or a Diners mailbox, and its five-stage Going Live flow is not a readable page.",
+        "ids": [
+          "dgn-035",
+          "diners-004",
+          "dgn-172"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Service levels on the network's own steps",
+        "text": "State the network's response time for credentials, registration review and reconsideration of a refusal, and show it on each step. The applicant can plan against a date.",
+        "stage_move": "Service levels on the network's own steps",
+        "strategy_rank": 12,
+        "ids": [
+          "elo-019",
+          "pulse-001",
+          "visa-015",
+          "mastercard-078"
+        ]
+      }
+    },
+    {
+      "id": "2-3",
+      "stage": "2",
+      "title": "Register as a technology provider",
+      "cadence": "once",
+      "partner_types": [
+        "developer",
+        "acquirer"
+      ],
+      "does": {
+        "text": "A processor, gateway or software vendor registers its company, accepts terms and gets its first user into the network's provider portal.",
+        "ids": [
+          "amex-046",
+          "amex-047",
+          "visa-023",
+          "dgn-032"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "AMEX Enabled Dashboard",
+          "network": "amex"
+        },
+        {
+          "name": "Visa Onboarding Dashboard",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Customer Onboarding Platform questionnaire",
+          "network": "mastercard"
+        },
+        {
+          "name": "Discover EASI registration",
+          "network": "discover-family"
+        },
+        {
+          "name": "Discover Developer Center",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Visa says developer onboarding can take two weeks or several months, and Discover splits access across two doors.",
+          "ids": [
+            "visa-029",
+            "dgn-034",
+            "dgn-023"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa Developer credentials beyond sandbox need a signed contract, collected in an Onboarding Dashboard.",
+            "ids": [
+              "visa-028",
+              "visa-150"
+            ]
+          },
+          {
+            "text": "Discover's Developer Center is invite-only, while EASI is self-service.",
+            "ids": [
+              "dgn-034",
+              "dgn-023"
+            ]
+          },
+          {
+            "text": "The EASI Registration Guide PDF returned a server error on 26 September 2026.",
+            "ids": [
+              "dgn-165"
+            ]
+          },
+          {
+            "text": "Mastercard routes a company it cannot link to a Connect profile into due diligence with a reference number.",
+            "ids": [
+              "mastercard-075",
+              "mastercard-076"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "EASI offers self-registration across eighteen company types, while API access still needs an invitation.",
+        "ids": [
+          "dgn-032",
+          "dgn-034"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "Carry one application record forward",
+        "text": "Later onboarding tasks pre-fill from what the partner gave at registration, so EASI data flows into the Going Live stages. The partner enters its company once.",
+        "stage_move": "Carry one application record forward",
+        "strategy_rank": null,
+        "ids": [
+          "unionpay-043",
+          "dgn-023",
+          "dgn-034",
+          "dgn-172"
+        ]
+      }
+    },
+    {
+      "id": "2-4",
+      "stage": "2",
+      "title": "Sign the agreement and brand licence",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer"
+      ],
+      "does": {
+        "text": "The partner signs a participation agreement and a marks licence, with fees negotiated inside the contract.",
+        "ids": [
+          "new:t2-s2-amex-bop-agreement",
+          "new:t2-s2-amex-bop-bilateral",
+          "cross-150",
+          "new:t2-s2-amex-bop-tla",
+          "dgn-028"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Amex Trademark Licensing Agreement",
+          "network": "amex"
+        },
+        {
+          "name": "Visa-owned marks licence",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Connect Pricing and Billing Center",
+          "network": "mastercard"
+        },
+        {
+          "name": "PULSE participation agreement",
+          "network": "discover-family"
+        },
+        {
+          "name": "Diners Club Network Participation Agreement",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Most joining fees are unpublished, and Amex obligations cannot be read before signing.",
+          "ids": [
+            "visa-014",
+            "mastercard-064",
+            "amex-036",
+            "dgn-028"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's last public agent fee dates from 2016, and Mastercard's registration fees sit behind Connect.",
+            "ids": [
+              "visa-014",
+              "mastercard-064"
+            ]
+          },
+          {
+            "text": "PULSE agreements usually auto-renew and add participation and membership fees whose amounts are not published.",
+            "ids": [
+              "dgn-028"
+            ]
+          },
+          {
+            "text": "OptBlue forbids Participants to publish the wholesale fee, yet processor guides listing every tier sit openly on bank and reseller sites.",
+            "ids": [
+              "new:tM-M-ob-nopublish",
+              "new:tM-M-fs-mark",
+              "new:tM-M-fd-mark"
+            ]
+          },
+          {
+            "text": "Amex issuers pay a monthly rental fee for each active BIN, USD 175 in the 2023 manual.",
+            "ids": [
+              "new:t2-s2-amex-bop-binfee"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Like its rivals, the Discover family keeps fees inside agreements, with PULSE fees named in filings without amounts and Diners interchange negotiated per issuer.",
+        "ids": [
+          "dgn-028",
+          "diners-014",
+          "visa-014",
+          "mastercard-064"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Say plainly what joining costs",
+        "text": "Publish registration and participation fees on the join map, or state that a step carries no fee. The partner can budget before it signs.",
+        "stage_move": "Say plainly what joining costs",
+        "strategy_rank": null,
+        "ids": [
+          "visa-014",
+          "mastercard-064",
+          "dgn-028",
+          "amex-047",
+          "amex-057",
+          "new:tM-M-ob-nopublish"
+        ]
+      }
+    },
+    {
+      "id": "2-5",
+      "stage": "2",
+      "title": "Register agents and third parties",
+      "cadence": "per event",
+      "partner_types": [
+        "acquirer",
+        "issuer",
+        "payfac",
+        "atm"
+      ],
+      "does": {
+        "text": "The sponsor vets each ISO, payment facilitator or ATM deployer, then registers it with each network before any service starts.",
+        "ids": [
+          "visa-008",
+          "visa-010",
+          "visa-305",
+          "mastercard-063",
+          "new:t2-s2-amex-ob-isoform",
+          "new:t2-s2-visa-atmsite"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Program Request Management",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Global Registry of Service Providers",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard My Company Manager",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Payment Facilitator Registration Form, Appendix G",
+          "network": "amex"
+        },
+        {
+          "name": "Discover EASI",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Registration runs on per-acquirer cases, emailed PDFs and sponsor spreadsheets, with assessments for missed steps.",
+          "ids": [
+            "visa-009",
+            "new:t2-s2-amex-ob-isoform",
+            "new:t2-s2-citizens-tools",
+            "new:t2-s2-mc-regfee"
+          ]
+        },
+        "points": [
+          {
+            "text": "An agent serving several acquirers is registered separately by each.",
+            "ids": [
+              "visa-009"
+            ]
+          },
+          {
+            "text": "Amex registration runs on PDFs and a shared mailbox, and no status view is published.",
+            "ids": [
+              "new:t2-s2-amex-ob-isoform",
+              "new:t2-s2-amex-ob-pfform"
+            ]
+          },
+          {
+            "text": "Missing a Mastercard registration step can cost the sponsor up to USD 25,000 for each 30 days.",
+            "ids": [
+              "new:t2-s2-mc-regfee"
+            ]
+          },
+          {
+            "text": "Sponsor job postings describe the work as case work tracked in Excel.",
+            "ids": [
+              "new:t2-s2-citizens-tpa",
+              "new:t2-s2-citizens-tools"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover publishes no network-level registration step, form or fee for ISOs or payment facilitators, and no registration status to check.",
+        "ids": [
+          "new:t2-s2-dgn-pfroadmap",
+          "dgn-036",
+          "dgn-032"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A sponsor console for third-party registration",
+        "text": "The sponsor keeps one record per ISO, payment facilitator or ATM deployer, holding the diligence checklist, PCI evidence and identifiers. Status stays visible up to written approval.",
+        "stage_move": "A sponsor console for third-party registration",
+        "strategy_rank": 12,
+        "ids": [
+          "new:t2-s2-amex-ob-isoform",
+          "new:t2-s2-amex-ob-pfform",
+          "mastercard-063",
+          "new:t2-s2-citizens-tools",
+          "new:t2-s2-dgn-pfroadmap"
+        ]
+      }
+    },
+    {
+      "id": "2-6",
+      "stage": "2",
+      "title": "Receive identifiers and name the contacts",
+      "cadence": "per event",
+      "partner_types": [
+        "issuer",
+        "acquirer"
+      ],
+      "does": {
+        "text": "At approval the partner receives its BIN, ICA or participant numbers, then enters named contacts in each network's directory.",
+        "ids": [
+          "visa-004",
+          "new:t2-s2-amex-bop-prelaunch",
+          "mastercard-059",
+          "new:t2-s2-visa-directory"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Client Directory",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Partner Universal Login",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard My Company Manager",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Knowledge Base Participant Directory",
+          "network": "amex"
+        },
+        {
+          "name": "Discover EASI registration",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Identifiers and contacts arrive through several tools, each with its own deadline.",
+          "ids": [
+            "visa-004",
+            "new:t2-s2-visa-directory",
+            "new:t2-s2-amex-bop-prelaunch",
+            "new:t2-s2-mc-icacountry"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa members must enter named contacts in the Client Directory within 10 business days of a BIN going live.",
+            "ids": [
+              "new:t2-s2-visa-directory",
+              "new:t2-s2-visa-senior"
+            ]
+          },
+          {
+            "text": "Mastercard ties each ICA and BIN to a country, and adding a country means a new application.",
+            "ids": [
+              "new:t2-s2-mc-icacountry",
+              "new:t2-s2-mc-areause"
+            ]
+          },
+          {
+            "text": "When a portfolio changes hands, the new owner has 10 calendar days to file or Visa may delete the BINs.",
+            "ids": [
+              "new:t2-s2-visa-merger"
+            ]
+          },
+          {
+            "text": "Several Visa pages still name Visa Online after its rename to Visa Access, leaving two names for one portal.",
+            "ids": [
+              "visa-013"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "unknown",
+        "text": "EASI captures a signing authority at registration, and Going Live names an Organization Identification stage with no public detail.",
+        "ids": [
+          "new:t2-s2-dgn-easi-signing",
+          "dgn-172"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Named roles captured once at joining",
+        "text": "Collect the signing authority, senior officer, operations lead and portal administrator in the first form. The network reuses them for access, bulletins and escalation.",
+        "stage_move": "Named roles captured once at joining",
+        "strategy_rank": 12,
+        "ids": [
+          "new:t2-s2-visa-senior",
+          "new:t2-s2-mc-contacts",
+          "new:t2-s2-amex-bop-contacts",
+          "new:t2-s2-dgn-easi-signing"
+        ]
+      }
+    },
+    {
+      "id": "3-1",
+      "stage": "3",
+      "title": "Get portal access and set up administrators",
+      "cadence": "once",
+      "partner_types": [
+        "issuer",
+        "acquirer",
+        "payfac",
+        "fintech"
+      ],
+      "does": {
+        "text": "The partner registers for each network portal, names its administrators and provisions staff to each application and data scope.",
+        "ids": [
+          "new:t3-s3-mc1145-sa",
+          "new:t3-s3-mcc-store",
+          "new:t3-s3-vem-sor",
+          "dgn-032",
+          "pulse-001"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard form 1145",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Connect Store",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Enrollment Manager Delegated Admin",
+          "network": "visa"
+        },
+        {
+          "name": "Amex Knowledge Base",
+          "network": "amex"
+        },
+        {
+          "name": "Discover EASI Portal",
+          "network": "discover-family"
+        },
+        {
+          "name": "PULSE client support page",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Set-up runs on emailed forms, hand-passed passwords and separate entry routes, each with its own turnaround.",
+          "ids": [
+            "new:t3-s3-mc1145-sa",
+            "new:t3-s3-vem-password",
+            "dgn-174",
+            "dgn-176",
+            "pulse-001"
+          ]
+        },
+        "points": [
+          {
+            "text": "Mastercard's form 1145 names Security Administrators by email, and their RSA tokens arrive by encrypted email.",
+            "ids": [
+              "new:t3-s3-mc1145-sa",
+              "new:t3-s3-mc1145-token"
+            ]
+          },
+          {
+            "text": "Visa Enrollment Manager shows a temporary password that the administrator passes to the new user by hand.",
+            "ids": [
+              "new:t3-s3-vem-password"
+            ]
+          },
+          {
+            "text": "A small bank inherits the same two-administrator model and form process as a large one.",
+            "ids": [
+              "new:t3-s3-mcc-roles",
+              "new:t3-s3-syn-1145"
+            ]
+          },
+          {
+            "text": "A company already on EASI cannot register again, and the user must email to join the existing profile.",
+            "ids": [
+              "new:t3-s3-easi-dup"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "EASI, PULSE and the Service Center fraud products each have their own entry route, though EASI review usually takes two business days.",
+        "ids": [
+          "dgn-174",
+          "dgn-176",
+          "pulse-001",
+          "new:t3-s3-easi-2d"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "One door for the Discover family",
+        "text": "EASI, PULSE, the Developer Center and fraud product enrolment sit behind one registration and one record. The partner signs in once and sees every tool it holds.",
+        "stage_move": "One door for the Discover family",
+        "strategy_rank": 13,
+        "ids": [
+          "dgn-023",
+          "pulse-001",
+          "dgn-002",
+          "dgn-176",
+          "visa-031",
+          "mastercard-075"
+        ]
+      }
+    },
+    {
+      "id": "3-2",
+      "stage": "3",
+      "title": "Configure the programme and enrol in services",
+      "cadence": "per project",
+      "partner_types": [
+        "issuer",
+        "fintech"
+      ],
+      "does": {
+        "text": "The issuer gives the network its processing parameters and enrols in optional services, often through forms and guides from its representative.",
+        "ids": [
+          "new:tB-B-vipov-params",
+          "new:tB-B-vipov-guides",
+          "new:tB-B-cis-posbi",
+          "visa-165"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Program Request Management, eCIQ and VCSA",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Stand-In application",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Customer Operations Services participation form",
+          "network": "mastercard"
+        },
+        {
+          "name": "Amex Knowledge Base Service Enrollment",
+          "network": "amex"
+        },
+        {
+          "name": "Thredd Program Information Form",
+          "network": "processor"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Key guides and forms come through representatives, and a programme manager may own a token project that spans networks, wallets and processor.",
+          "ids": [
+            "new:tB-B-vipov-guides",
+            "new:t3-s3-vts-restricted",
+            "new:tB-B-thr-owner"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's regional implementation guides for optional services come from the Visa representative.",
+            "ids": [
+              "new:tB-B-vipov-enrol",
+              "new:tB-B-vipov-guides"
+            ]
+          },
+          {
+            "text": "Visa Token Service onboarding material is restricted to entitled users, so the issuer path is not public.",
+            "ids": [
+              "new:t3-s3-vts-restricted"
+            ]
+          },
+          {
+            "text": "For MDES Token Connect the issuer first sends wireframes for Mastercard to review against a design checklist.",
+            "ids": [
+              "new:t3-s3-mc-wire"
+            ]
+          },
+          {
+            "text": "Thredd tells a programme manager it owns the token project and must manage the networks, wallets and processor itself.",
+            "ids": [
+              "new:tB-B-thr-owner"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "unknown",
+        "text": "Discover's issuer certification steps are not public, and the D-PAS Certification Manual is referenced without being published.",
+        "ids": [
+          "new:t3-s3-uspf-dpasman"
+        ]
+      },
+      "opportunity": {
+        "kind": "parity",
+        "title": "One certification record with an owner on every step",
+        "text": "One project record, read by partner and network staff, shows each step's owner, state and sign-off. The partner sees who holds the next move.",
+        "stage_move": "One certification record with an owner on every step",
+        "strategy_rank": 13,
+        "ids": [
+          "new:t3-s3-ae-journey",
+          "unionpay-038",
+          "unionpay-040",
+          "unionpay-042",
+          "new:t3-s3-mcc-track",
+          "dgn-172",
+          "new:tB-B-vts-rcsr2",
+          "new:tB-B-vts-rtr"
+        ]
+      }
+    },
+    {
+      "id": "3-3",
+      "stage": "3",
+      "title": "Certify the host with the network",
+      "cadence": "per project",
+      "partner_types": [
+        "acquirer",
+        "issuer",
+        "merchant"
+      ],
+      "does": {
+        "text": "The acquirer, issuer processor or direct merchant runs authorisation and clearing tests against a network simulator, usually scheduled or reviewed by network staff.",
+        "ids": [
+          "new:t3-s3-vai-attended",
+          "new:t3-s3-uspf-mcsim",
+          "amex-042",
+          "new:t3-s3-uspf-dhost",
+          "new:t3-s3-uspf-ddcm"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa VCMS and VTS-VIP",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard Simulator Suite on Connect",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Test Facility",
+          "network": "mastercard"
+        },
+        {
+          "name": "American Express Test System",
+          "network": "amex"
+        },
+        {
+          "name": "Discover designated host test simulator",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "severe",
+        "why": {
+          "text": "A simulator vendor says a failed certification costs weeks or months, and a fee analytics firm reports merchants losing CEDP rates to unfinished certification.",
+          "ids": [
+            "new:t3-s3-neapay-window",
+            "new:t3-s3-op-cedp"
+          ]
+        },
+        "points": [
+          {
+            "text": "Visa's host path waits on a representative to schedule attended testing through VCMS.",
+            "ids": [
+              "new:t3-s3-vai-attended"
+            ]
+          },
+          {
+            "text": "Getting a Mastercard CIS project number usually takes several days, and MTF access waits on it.",
+            "ids": [
+              "new:t3-s3-mc-cis",
+              "new:t3-s3-mc-cis-mtf"
+            ]
+          },
+          {
+            "text": "Mastercard acquirers send simulator logs to an implementation specialist for review.",
+            "ids": [
+              "mastercard-405",
+              "new:t3-s3-uspf-mclogs"
+            ]
+          },
+          {
+            "text": "An acquirer not activated for a response code receives a generic decline, so activation gaps look like issuer declines.",
+            "ids": [
+              "new:tB-B-vnao-activate"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "ahead",
+        "text": "Discover's designated simulator shows results immediately with no logs to submit, and Discover reviews within agreed service levels.",
+        "ids": [
+          "dgn-198",
+          "dgn-391",
+          "dgn-199"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Live simulator results with a committed review",
+        "text": "Partners self-test at any time, see each case pass or fail and hand the batch to review under a stated service level. The request form's colour checks run as the partner types.",
+        "stage_move": "Live simulator results with a committed review",
+        "strategy_rank": 13,
+        "ids": [
+          "dgn-198",
+          "dgn-391",
+          "dgn-199",
+          "amex-045",
+          "new:t3-s3-neapay-window",
+          "new:tB-B-dloc-colours",
+          "new:tB-B-dloc-determine"
+        ]
+      }
+    },
+    {
+      "id": "3-4",
+      "stage": "3",
+      "title": "Certify terminals and file for the letter",
+      "cadence": "per project",
+      "partner_types": [
+        "acquirer",
+        "payfac",
+        "merchant"
+      ],
+      "does": {
+        "text": "The acquirer describes each terminal configuration, runs L3 or end-to-end tests, often through an accredited provider, and files results for a letter.",
+        "ids": [
+          "new:t3-s3-uspf-tse",
+          "new:t3-s3-vdps-self",
+          "new:t3-s3-uspf-mtipsp",
+          "new:t3-s3-uspf-ddraft",
+          "new:tB-B-dloc-crf"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Test Selection Engine",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Chip Compliance Reporting Tool",
+          "network": "visa"
+        },
+        {
+          "name": "Amex Payment Test Emulator",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Terminal E2E Certification Request Form",
+          "network": "discover-family"
+        },
+        {
+          "name": "D-PAS Terminal E2E Letter of Certification",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Combinations of devices, software and acquirers multiply the certifications, and scheduling and reviews drive the calendar time.",
+          "ids": [
+            "new:t3-s3-eps-mult",
+            "new:t3-s3-eps-weeks"
+          ]
+        },
+        "points": [
+          {
+            "text": "Each network closes with a different artefact, and Visa issues no letter for L3, so the CCRT email is the only proof.",
+            "ids": [
+              "mastercard-400",
+              "new:t3-s3-uspf-vnoloa"
+            ]
+          },
+          {
+            "text": "Discover's forms and qualified tool list come only from the implementation manager.",
+            "ids": [
+              "new:t3-s3-uspf-dforms"
+            ]
+          },
+          {
+            "text": "Discover waivers expire and cover only terminal certification, so an open host fix is tracked outside the letter.",
+            "ids": [
+              "new:tB-B-dloc-waiverexp",
+              "new:tB-B-dloc-scope"
+            ]
+          },
+          {
+            "text": "Amex's published certification steps all start with the relationship manager.",
+            "ids": [
+              "new:t3-s3-amex-posform",
+              "amex-377",
+              "amex-042"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Discover matches peers on self-certification and per-acquirer test cases, and gives up to ten full sets of test cards free.",
+        "ids": [
+          "dgn-202",
+          "dgn-200",
+          "new:t3-s3-uspf-dcards"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A wallet of certification letters",
+        "text": "Every letter sits in the record with its tested configuration, waivers and expiry dates. The partner shares proof with a client or reuses it on a new implementation.",
+        "stage_move": "A wallet of certification letters",
+        "strategy_rank": 13,
+        "ids": [
+          "new:t3-s3-uspf-tanreuse",
+          "new:t3-s3-uspf-vnoloa",
+          "dgn-197",
+          "new:t3-s3-uspf-aparams",
+          "new:tB-B-dloc-letter",
+          "new:tB-B-dloc-waiverexp"
+        ]
+      }
+    },
+    {
+      "id": "3-5",
+      "stage": "3",
+      "title": "Certify once for many clients",
+      "cadence": "per project",
+      "partner_types": [
+        "acquirer",
+        "payfac",
+        "fintech",
+        "developer"
+      ],
+      "does": {
+        "text": "A processor, gateway or programme manager certifies its platform so clients inherit the result, then gets registered by each acquirer or bank it serves.",
+        "ids": [
+          "new:t3-s3-uspf-platform",
+          "new:t3-s3-uspf-modular",
+          "mastercard-408",
+          "dgn-270",
+          "new:t3-s3-visa-tpa-peracq"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Visa Ready and Visa Partner",
+          "network": "visa"
+        },
+        {
+          "name": "Mastercard My Company Manager",
+          "network": "mastercard"
+        },
+        {
+          "name": "Mastercard Product Express",
+          "network": "mastercard"
+        },
+        {
+          "name": "AMEX Enabled Dashboard",
+          "network": "amex"
+        },
+        {
+          "name": "Discover Partner Directory",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Mastercard supports reuse, while Visa registers agents per acquirer and Tap to Phone certification can take a year.",
+          "ids": [
+            "new:t3-s3-uspf-modular",
+            "mastercard-408",
+            "new:t3-s3-visa-tpa-peracq",
+            "visa-024"
+          ]
+        },
+        "points": [
+          {
+            "text": "Each acquirer registers an agent separately, so a processor serving many acquirers is registered many times.",
+            "ids": [
+              "new:t3-s3-visa-tpa-peracq"
+            ]
+          },
+          {
+            "text": "Visa Ready Tap to Phone certification typically takes six to twelve months, and lab testing can cost 50,000 dollars or more.",
+            "ids": [
+              "visa-024"
+            ]
+          },
+          {
+            "text": "Mastercard charges initial and annual service provider registration fees whose amounts are not published in the rules.",
+            "ids": [
+              "mastercard-064"
+            ]
+          },
+          {
+            "text": "Discover accredits acquirers for AMTC case by case, and its type approval process is not described publicly.",
+            "ids": [
+              "new:t3-s3-uspf-dcase",
+              "diners-009"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "behind",
+        "text": "Discover accredits processors indirectly and case by case, though processors report few Discover mandate changes.",
+        "ids": [
+          "new:t3-s3-uspf-dindirect",
+          "new:t3-s3-uspf-dcase",
+          "cross-247"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "Certify once, inherit across clients",
+        "text": "Show which clients inherit a processor's certification and which need their own tests. A client accepts a processor registration without re-entering it.",
+        "stage_move": "Certify once, inherit across clients",
+        "strategy_rank": 3,
+        "ids": [
+          "new:t3-s3-visa-tpa-peracq",
+          "new:t3-s3-uspf-modular",
+          "mastercard-408",
+          "new:t3-s3-uspf-dindirect",
+          "mastercard-274",
+          "dgn-270",
+          "new:tB-B-thr-notest"
+        ]
+      }
+    },
+    {
+      "id": "3-6",
+      "stage": "3",
+      "title": "Certify ATMs and keep locations current",
+      "cadence": "quarterly",
+      "partner_types": [
+        "atm"
+      ],
+      "does": {
+        "text": "An ATM acquirer or its ISO runs L3 testing on its machines, certifies added services and updates location records every quarter.",
+        "ids": [
+          "new:t3-s3-uspf-l3atm",
+          "new:t3-s3-uspf-atmsvc",
+          "new:t3-s3-mc-lat"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Mastercard Location Administration Tool",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa Chip Compliance Reporting Tool",
+          "network": "visa"
+        },
+        {
+          "name": "Visa Global ATM Planning Guide",
+          "network": "visa"
+        },
+        {
+          "name": "PULSE ATM List Manager",
+          "network": "discover-family"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "ATM work stacks L3 testing, service certification and quarterly location updates across a sponsor and ISO chain.",
+          "ids": [
+            "new:t3-s3-uspf-l3atm",
+            "new:t3-s3-uspf-atmsvc",
+            "new:t3-s3-mc-lat",
+            "new:t3-s3-ffiec-iso"
+          ]
+        },
+        "points": [
+          {
+            "text": "A test-tool vendor estimates ATM end-to-end PCI certification effort at 40 to 50 percent, overlapping Windows 10 migration.",
+            "ids": [
+              "new:t3-s3-paragon"
+            ]
+          },
+          {
+            "text": "Adding cash advance or balance inquiry to an ATM needs specific network testing, including host testing.",
+            "ids": [
+              "new:t3-s3-uspf-atmsvc"
+            ]
+          },
+          {
+            "text": "Mastercard requires quarterly ATM location updates in a separate Connect tool.",
+            "ids": [
+              "new:t3-s3-mc-lat"
+            ]
+          },
+          {
+            "text": "Cirrus forwards ATM balance inquiries only to issuers certified for them by Customer Operations Services.",
+            "ids": [
+              "new:tB-B-cis-biatm",
+              "new:tB-B-cis-cirrus"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "unknown",
+        "text": "PULSE gives ATM acquirers a list tool and gateway access, and no public source describes PULSE or Discover ATM certification.",
+        "ids": [
+          "new:t3-s3-pulse-tools",
+          "new:t3-s3-pulse-gw",
+          "new:t3-s3-uspf-nodebit"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "The ATM chain in one view",
+        "text": "Show the sponsor bank, ISO, processor and each network registration for an operator's fleet. Location upkeep sits in the same record.",
+        "stage_move": "The ATM chain in one view",
+        "strategy_rank": null,
+        "ids": [
+          "new:t3-s3-ffiec-iso",
+          "new:t3-s3-ffiec-rules",
+          "new:t3-s3-mc-lat",
+          "new:t3-s3-pulse-tools",
+          "new:t3-s3-ctx-affiliate"
+        ]
+      }
+    },
+    {
+      "id": "3-7",
+      "stage": "3",
+      "title": "Check whether a change needs retesting",
+      "cadence": "per event",
+      "partner_types": [
+        "acquirer",
+        "atm",
+        "payfac",
+        "merchant"
+      ],
+      "does": {
+        "text": "Before changing a kernel, gateway, device or message format, the partner works out whether the change needs network testing or only internal regression.",
+        "ids": [
+          "new:tB-B-dloc-triggers",
+          "new:t3-s3-uspf-atmminor",
+          "new:t3-s3-uspf-biannual",
+          "new:t3-s3-uspf-switch"
+        ]
+      },
+      "touchpoints": [
+        {
+          "name": "Discover Terminal E2E Certification Request Form",
+          "network": "discover-family"
+        },
+        {
+          "name": "Cross-network certification guide",
+          "network": "any"
+        },
+        {
+          "name": "Mastercard Test Selection Engine",
+          "network": "mastercard"
+        },
+        {
+          "name": "Visa host certification guide",
+          "network": "visa"
+        }
+      ],
+      "friction": {
+        "level": "notable",
+        "why": {
+          "text": "Retest triggers when anything in the chain changes are a named friction, and the agreed rules sit in a forum FAQ with no interactive check.",
+          "ids": [
+            "new:t3-s3-eps-mult",
+            "new:t3-s3-uspf-portfolio",
+            "new:t3-s3-uspf-atmminor"
+          ]
+        },
+        "points": [
+          {
+            "text": "When an ISO buys a portfolio and routes devices through a new gateway, the terminals must be retested.",
+            "ids": [
+              "new:t3-s3-uspf-portfolio"
+            ]
+          },
+          {
+            "text": "Visa's 2016 guide requires a retest if production starts more than 90 days after testing.",
+            "ids": [
+              "new:t3-s3-vai-90"
+            ]
+          },
+          {
+            "text": "A move to a new message format is a major change that needs the networks involved.",
+            "ids": [
+              "new:t3-s3-uspf-switch"
+            ]
+          },
+          {
+            "text": "Under Discover's 2011 rules a direct merchant certified every new data link, processor switch and large system rewrite.",
+            "ids": [
+              "new:tB-B-dor-links",
+              "new:tB-B-dor-switch",
+              "new:tB-B-dor-rewrite"
+            ]
+          }
+        ]
+      },
+      "discover": {
+        "position": "parity",
+        "text": "Discover's request form lists the events that trigger terminal recertification, which matches the networks' jointly agreed retest rules.",
+        "ids": [
+          "new:tB-B-dloc-triggers",
+          "new:t3-s3-uspf-atmminor"
+        ]
+      },
+      "opportunity": {
+        "kind": "differentiator",
+        "title": "A retest check before any change",
+        "text": "The partner describes a change and sees whether it is minor, needs internal regression or needs network testing. Discover's listed triggers give the check a ready rule set.",
+        "stage_move": "A retest check before any change",
+        "strategy_rank": 13,
+        "ids": [
+          "new:t3-s3-uspf-atmminor",
+          "new:t3-s3-uspf-portfolio",
+          "new:t3-s3-uspf-switch",
+          "new:t3-s3-uspf-biannual",
+          "new:t3-s3-eps-mult",
+          "new:t3-s3-vai-90",
+          "new:tB-B-dloc-triggers"
+        ]
+      }
+    }
+  ]
+}

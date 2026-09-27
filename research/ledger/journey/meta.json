@@ -1,0 +1,71 @@
+{
+ "stages": [
+  {
+   "id": "1",
+   "title": "Evaluate"
+  },
+  {
+   "id": "2",
+   "title": "Join and contract"
+  },
+  {
+   "id": "3",
+   "title": "Onboard and certify"
+  },
+  {
+   "id": "4",
+   "title": "Build and integrate"
+  },
+  {
+   "id": "5",
+   "title": "Launch"
+  },
+  {
+   "id": "6a",
+   "title": "Money"
+  },
+  {
+   "id": "6b",
+   "title": "Disputes and fraud"
+  },
+  {
+   "id": "6c",
+   "title": "Change, support and incidents"
+  },
+  {
+   "id": "7",
+   "title": "Grow, renew and leave"
+  }
+ ],
+ "phases": [
+  {
+   "title": "Before joining",
+   "stages": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "title": "Onboarding",
+   "stages": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "title": "Business as usual",
+   "stages": [
+    "6a",
+    "6b",
+    "6c"
+   ]
+  },
+  {
+   "title": "Grow and renew",
+   "stages": [
+    "7"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>The partner lifecycle, mapped</title>
+<link rel="stylesheet" href="../design-system/tokens/colors.css">
+<link rel="stylesheet" href="../design-system/tokens/typography.css">
+<link rel="stylesheet" href="../design-system/tokens/spacing.css">
+<link rel="stylesheet" href="../design-system/gn.css">
+<link rel="stylesheet" href="../design-system/shared/doc.css">
+<link rel="stylesheet" href="research.css">
+<style>
+.jm{padding:0 40px 64px}
+.jm-h{max-width:1100px; padding-top:48px}
+.jm-h h1{margin:8px 0 16px}
+.jm-h p.lede{font-size:var(--gn-type-subhead); line-height:var(--gn-leading-subhead); color:var(--gn-text-secondary); max-width:62ch; margin:0}
+.jm-read{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin:32px 0 0; max-width:1100px}
+.jm-read h4{margin:0 0 8px; font-size:var(--gn-type-label); font-weight:var(--gn-weight-regular); color:var(--gn-text-caption)}
+.jm-read ol{margin:0; padding-left:20px}
+.jm-read li{font-size:var(--gn-type-body); margin:0 0 4px}
+.jm-read a{color:var(--gn-interactive-text); text-decoration:none; border-bottom:1px solid var(--gn-outline)}
+.jm-bar{position:sticky; top:0; z-index:5; background:var(--gn-bg-page); padding:16px 0; margin-top:32px; border-bottom:1px solid var(--gn-rule); display:flex; gap:24px; align-items:center; flex-wrap:wrap}
+.jm-bar .gn-seg button{font:inherit; font-size:var(--gn-type-label); border:0; background:transparent; color:var(--gn-text-secondary); padding:4px 12px; border-radius:var(--gn-radius-pill); cursor:pointer}
+.jm-bar .gn-seg button[aria-pressed="true"]{background:var(--gn-bg-page); color:var(--gn-text); box-shadow:none}
+.jm-key{display:flex; gap:16px; font-size:var(--gn-type-label); color:var(--gn-text-caption); flex-wrap:wrap}
+.jm-key i{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:4px; vertical-align:middle}
+.jm-scroll{overflow-x:auto; margin-top:24px; border-top:1px solid var(--gn-rule)}
+.jm-grid{display:grid; position:relative; width:max-content}
+.jm-lab{position:sticky; left:0; z-index:3; grid-column:1 / -1; justify-self:start; width:152px; box-sizing:border-box; background:var(--gn-bg-page); font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:12px 16px 12px 0; border-bottom:1px solid var(--gn-rule)}
+.jm-phase{font-size:var(--gn-type-label); color:var(--gn-text-caption); padding:12px 12px 4px; border-left:1px solid var(--gn-rule-strong)}
+.jm-stage{font-size:var(--gn-type-body); font-weight:var(--gn-weight-semibold); padding:4px 12px 12px; border-left:1px solid var(--gn-rule-strong); border-bottom:1px solid var(--gn-rule)}
+.jm-stage a{color:var(--gn-text); text-decoration:none}
+.jm-cell{padding:12px; border-bottom:1px solid var(--gn-rule); border-left:1px solid var(--gn-rule); font-size:var(--gn-type-label); line-height:var(--gn-leading-body); color:var(--gn-text-secondary); cursor:pointer; transition:opacity .15s}
+.jm-cell.first{border-left:1px solid var(--gn-rule-strong)}
+.jm-cell.dim{opacity:.25}
+.jm-cell.sel{background:var(--gn-bg-selected)}
+.jm-cell:hover{background:var(--gn-bg-hover)}
+.jm-task b{display:block; font-size:var(--gn-type-body); color:var(--gn-text); font-weight:var(--gn-weight-semibold); line-height:var(--gn-leading-heading)}
+.jm-task span{display:block; margin-top:4px; color:var(--gn-text-caption)}
+.jm-curve{grid-column:2 / -1; height:112px; border-bottom:1px solid var(--gn-rule); position:relative}
+.jm-curve svg{display:block; width:100%; height:100%}
+.jm-pos b{font-weight:var(--gn-weight-semibold)}
+.jm-pos .ahead{color:var(--gn-good)} .jm-pos .behind{color:var(--gn-bad)} .jm-pos .parity{color:var(--gn-text)} .jm-pos .unknown{color:var(--gn-text-caption)}
+.jm-opp b{display:block; color:var(--gn-text); font-weight:var(--gn-weight-semibold)}
+.jm-opp .kind{display:block; margin-top:4px}
+.jm-opp .kind.differentiator{color:var(--gn-interactive-text)}
+.jm-lvl{display:block; font-weight:var(--gn-weight-semibold); margin-bottom:4px}
+.lvl-severe{color:var(--gn-bad)} .lvl-notable{color:var(--gn-warn)} .lvl-minor{color:var(--gn-text-caption)} .lvl-none{color:var(--gn-good)}
+.jm-panel .gn-panel-body h4{font-size:var(--gn-type-label); color:var(--gn-text-caption); font-weight:var(--gn-weight-regular); margin:24px 0 8px}
+.jm-panel .gn-panel-body p, .jm-panel .gn-panel-body li{font-size:var(--gn-type-body); line-height:var(--gn-leading-prose); color:var(--gn-text)}
+.jm-panel .gn-panel-body ul{padding-left:20px; margin:0}
+.jm-panel h2{font-size:var(--gn-type-subhead); line-height:var(--gn-leading-subhead); margin:0}
+.jm-panel .rs-cite a{color:var(--gn-text-caption); text-decoration:underline; text-decoration-color:var(--gn-outline); text-underline-offset:3px}
+.jm-scrim{position:fixed; inset:0; background:var(--gn-scrim); z-index:20; display:none}
+.jm-scrim.on{display:block}
+.gn-panel.on{visibility:visible; transform:none; transition:transform .22s var(--gn-ease)}
+.jm-foot{max-width:1100px; margin-top:48px; font-size:var(--gn-type-body); color:var(--gn-text-secondary)}
+.jm-foot a{color:var(--gn-interactive-text)}
+@media (max-width:760px){ .jm{padding:0 16px 48px} .jm-read{grid-template-columns:1fr} }
+@media print{ .jm-bar{position:static} .jm-scroll{overflow:visible} }
+</style>
+</head>
+<body>
+<main class="jm">
+<div class="jm-h">
+<div class="gn-eyebrow">Research · the partner lifecycle at the card networks</div>
+<h1>Where the partner journey hurts, and where design can win</h1>
+<p class="lede">Every task a partner does with a card network, from evaluating it to leaving it, including the daily, monthly and yearly work after launch. Each task shows the friction partners meet, where the Discover family stands, and the design move that would change it.</p>
+<p class="doc-rev"><!-- count:tasks --> tasks · <!-- count:severe --> with severe friction · <!-- count:diff --> where design can differentiate · <!-- count:cited --> sources cited · public sources only · September 2026</p>
+</div>
+<div class="jm-bar">
+<div class="gn-seg" role="group" aria-label="Show the path for" id="jm-filter"></div>
+<div class="jm-key"><span><i style="background:var(--gn-bad)"></i>Severe friction</span><span><i style="background:var(--gn-warn)"></i>Notable</span><span><i style="background:var(--gn-text-quiet)"></i>Minor</span><span><i style="background:var(--gn-good)"></i>None found</span><span>Select a task for its evidence</span></div>
+</div>
+<div class="jm-scroll"><div class="jm-grid" id="jm-grid"></div></div>
+<h2 class="doc-s" style="max-width:1100px">Reading the map</h2>
+<div class="jm-read" id="jm-read"></div>
+<div class="jm-foot"><p>Friction levels rest on the evidence: severe means partners repeatedly lose money, time or control, or regulators and courts have stepped in. A differentiator is a move no incumbent offers well, that the evidence shows matters, and that would be hard to match quickly. Parity means incumbents already do it well or could match it within a release or two, so it is worth doing but gives no lasting edge. Every source opens in the register of <a href="competitive-networks.html#register">Twenty-five networks, read as a partner would</a>, and each stage links to its chapter in <a href="partner-experience.html">How the networks' partner experiences work</a>.</p></div>
+</main>
+<div class="jm-scrim" id="jm-scrim"></div>
+<aside class="gn-panel jm-panel" id="jm-panel" aria-hidden="true">
+<div class="gn-panel-top"><span id="jm-p-stage"></span><button class="gn-panel-x" id="jm-p-x" aria-label="Close">✕</button></div>
+<div class="gn-panel-ttl"><h2 id="jm-p-title"></h2><div class="gn-panel-meta" id="jm-p-meta"></div></div>
+<div class="gn-panel-body" id="jm-p-body"></div>
+</aside>
+<script>
+const D = /*JOURNEY_DATA*/null;
+const TYPES = [['all','All partners'],['issuer','Issuers'],['acquirer','Acquirers'],['payfac','Payment facilitators'],['atm','ATM operators'],['fintech','Fintechs'],['developer','Developers'],['merchant','Merchants']];
+const LV = {'severe':3,'notable':2,'minor':1,'none found':0};
+const LVC = {'severe':'var(--gn-bad)','notable':'var(--gn-warn)','minor':'var(--gn-text-quiet)','none found':'var(--gn-good)'};
+const COL = 216, LAB = 152;
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const NET = {amex: 'American Express', any: 'every network', 'discover-family': 'Discover family', mastercard: 'Mastercard', processor: 'processor', visa: 'Visa'};
+const cite = ids => {
+  if (!ids || !ids.length) return '';
+  const a = (i, text) => { const s = D.src[i] || {}; return `<a class="rs-src" data-ref="${esc(i)}" href="competitive-networks.html#src-${esc(i)}" target="_blank" rel="noopener" title="${esc(s.t)} · ${esc(s.p)} · ${esc(s.c)}">${esc(text)}</a>`; };
+  const groups = new Map();
+  ids.forEach(i => { const l = (D.src[i] || {}).l || i; groups.has(l) ? groups.get(l).push(i) : groups.set(l, [i]); });
+  return ' <span class="rs-cite">(' + [...groups].map(([l, g]) => a(g[0], l) + g.slice(1).map((i, n) => ', ' + a(i, String(n + 2))).join('')).join(' · ') + ')</span>';
+};
+const stageOf = id => D.stages.find(s => s.id === id);
+let filter = 'all';
+const inPath = t => filter === 'all' || t.partner_types.includes(filter);
+
+function read(){
+  const sev = D.tasks.filter(t => t.friction.level === 'severe');
+  const dif = D.tasks.filter(t => t.opportunity.kind === 'differentiator');
+  const pos = k => D.tasks.filter(t => t.discover.position === k).length;
+  const li = t => `<li><a href="#" data-task="${esc(t.id)}">${esc(t.title)}</a></li>`;
+  document.getElementById('jm-read').innerHTML =
+    `<div><h4>Where friction is severe</h4><ol>${sev.map(li).join('')}</ol></div>` +
+    `<div><h4>Where design can differentiate</h4><ol>${dif.map(li).join('')}</ol></div>` +
+    `<div><h4>Where the Discover family stands</h4><p style="margin:0; font-size:var(--gn-type-body)">Ahead on ${pos('ahead')} tasks, level on ${pos('parity')} and behind on ${pos('behind')}. The public record does not show ${pos('unknown')}. Filter by partner type to see one path, and select any task for its evidence.</p></div>`;
+}
+function filterBar(){
+  document.getElementById('jm-filter').innerHTML = TYPES.map(([k,l]) => `<button type="button" data-f="${k}" aria-pressed="${k===filter}">${l}</button>`).join('');
+}
+function grid(){
+  const g = document.getElementById('jm-grid'); const n = D.tasks.length;
+  g.style.gridTemplateColumns = `${LAB}px repeat(${n}, ${COL}px)`;
+  let h = '';
+  // phases
+  h += `<div class="jm-lab" style="grid-row:1">Phase</div>`;
+  let col = 2;
+  for (const ph of D.phases){ const tasks = D.tasks.filter(t => ph.stages.includes(t.stage)); if (!tasks.length) continue;
+    h += `<div class="jm-phase" style="grid-row:1; grid-column:${col} / span ${tasks.length}">${esc(ph.title)}</div>`; col += tasks.length; }
+  h += `<div class="jm-lab" style="grid-row:2">Stage</div>`; col = 2;
+  for (const st of D.stages){ const k = D.tasks.filter(t => t.stage === st.id).length; if (!k) continue;
+    h += `<div class="jm-stage" style="grid-row:2; grid-column:${col} / span ${k}"><a href="partner-experience.html#stage-${esc(st.id)}">${esc(st.title)}</a></div>`; col += k; }
+  const rows = [['Task','task'],['Friction',''],['What gets in the way','fr'],['Tools and screens','tp'],['Discover today','pos'],['Design move','opp']];
+  rows.forEach(([lab,kind], r) => {
+    const row = r + 3;
+    h += `<div class="jm-lab" style="grid-row:${row}">${lab}</div>`;
+    if (lab === 'Friction'){ h += `<div class="jm-curve" style="grid-row:${row}" id="jm-curve"></div>`; return; }
+    D.tasks.forEach((t, i) => {
+      const first = i === 0 || D.tasks[i-1].stage !== t.stage ? ' first' : '';
+      let c = '';
+      if (kind === 'task') c = `<div class="jm-task"><b>${esc(t.title)}</b><span>${esc(t.cadence)}</span></div>`;
+      if (kind === 'fr'){ const lv = t.friction.level; c = `<span class="jm-lvl lvl-${lv === 'none found' ? 'none' : lv}">${esc(lv[0].toUpperCase() + lv.slice(1))}</span>${esc((t.friction.points[0] || {}).text || t.friction.why.text)}`; }
+      if (kind === 'tp') c = esc(t.touchpoints.map(x => x.name).join(' · '));
+      if (kind === 'pos') c = `<div class="jm-pos"><b class="${esc(t.discover.position)}">${esc(t.discover.position[0].toUpperCase() + t.discover.position.slice(1))}.</b> ${esc(t.discover.text)}</div>`;
+      if (kind === 'opp') c = `<div class="jm-opp"><b>${esc(t.opportunity.title)}</b><span class="kind ${esc(t.opportunity.kind)}">${t.opportunity.kind === 'differentiator' ? 'Differentiator' : t.opportunity.kind === 'parity' ? 'Parity' : 'No move'}</span></div>`;
+      h += `<div class="jm-cell${first}" style="grid-row:${row}; grid-column:${i+2}" data-task="${esc(t.id)}" tabindex="0" role="button" aria-label="${esc(t.title)}">${c}</div>`;
+    });
+  });
+  g.innerHTML = h; curve(); dim();
+}
+function curve(){
+  const el = document.getElementById('jm-curve'); const n = D.tasks.length; const W = n * COL, H = 112, pad = 16;
+  const y = lv => pad + (3 - LV[lv]) * ((H - 2*pad) / 3);
+  const pts = D.tasks.map((t, i) => ({x: i*COL + COL/2, y: y(t.friction.level), t}));
+  const on = pts.filter(p => inPath(p.t));
+  let d = ''; on.forEach((p, i) => { if (!i) { d = `M${p.x},${p.y}`; return; } const q = on[i-1], mx = (q.x + p.x)/2; d += ` C${mx},${q.y} ${mx},${p.y} ${p.x},${p.y}`; });
+  const guides = [3,2,1,0].map(l => `<line x1="0" x2="${W}" y1="${pad + (3-l)*((H-2*pad)/3)}" y2="${pad + (3-l)*((H-2*pad)/3)}" stroke="var(--gn-rule)" stroke-width="1"/>`).join('');
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="width:${W}px" role="img" aria-label="Friction across the journey">${guides}<path d="${d}" fill="none" stroke="var(--gn-text)" stroke-width="2"/>` +
+    pts.map(p => `<circle cx="${p.x}" cy="${p.y}" r="${inPath(p.t) ? 6 : 3}" fill="${inPath(p.t) ? LVC[p.t.friction.level] : 'var(--gn-track)'}" data-task="${esc(p.t.id)}" style="cursor:pointer"><title>${esc(p.t.title)}: ${esc(p.t.friction.level)}</title></circle>`).join('') + `</svg>`;
+}
+function dim(){ document.querySelectorAll('.jm-cell').forEach(c => { const t = D.tasks.find(x => x.id === c.dataset.task); c.classList.toggle('dim', !inPath(t)); }); }
+function open(id){
+  const t = D.tasks.find(x => x.id === id); if (!t) return; const st = stageOf(t.stage);
+  document.querySelectorAll('.jm-cell').forEach(c => c.classList.toggle('sel', c.dataset.task === id));
+  document.getElementById('jm-p-stage').textContent = st ? st.title : '';
+  document.getElementById('jm-p-title').textContent = t.title;
+  const who = t.partner_types.map(k => (TYPES.find(x => x[0] === k) || [k,k])[1]).join(', ');
+  document.getElementById('jm-p-meta').innerHTML = `<span>${esc(t.cadence)}</span><span>·</span><span>${esc(who)}</span>`;
+  const lv = t.friction.level;
+  document.getElementById('jm-p-body').innerHTML =
+    `<h4>What the partner does</h4><p>${esc(t.does.text)}${cite(t.does.ids)}</p>` +
+    `<h4>Tools and screens</h4><ul>${t.touchpoints.map(x => `<li>${esc(x.name)} <span style="color:var(--gn-text-caption)">${esc(NET[x.network] ?? x.network)}</span></li>`).join('')}</ul>` +
+    `<h4>Friction: <span class="lvl-${lv === 'none found' ? 'none' : lv}">${esc(lv)}</span></h4><p>${esc(t.friction.why.text)}${cite(t.friction.why.ids)}</p><ul>${t.friction.points.map(p => `<li>${esc(p.text)}${cite(p.ids)}</li>`).join('')}</ul>` +
+    `<h4>Discover today: ${esc(t.discover.position)}</h4><p>${esc(t.discover.text)}${cite(t.discover.ids)}</p>` +
+    `<h4>Design move: ${t.opportunity.kind === 'differentiator' ? 'a differentiator' : t.opportunity.kind === 'parity' ? 'parity' : 'none'}</h4><p><b>${esc(t.opportunity.title)}.</b> ${esc(t.opportunity.text)}${cite(t.opportunity.ids)}</p>` +
+    (t.opportunity.strategy_rank ? `<p style="color:var(--gn-text-caption)">Serves ranked move M${esc(t.opportunity.strategy_rank)} in <a href="partner-experience.html#move-${esc(t.opportunity.strategy_rank)}">the design strategy</a>.</p>` : '') +
+    `<p><a href="partner-experience.html#stage-${esc(t.stage)}">Read the ${esc(st ? st.title : '')} chapter</a></p>`;
+  const p = document.getElementById('jm-panel'); p.classList.add('on'); p.setAttribute('aria-hidden','false'); document.getElementById('jm-scrim').classList.add('on');
+}
+function close(){ const p = document.getElementById('jm-panel'); p.classList.remove('on'); p.setAttribute('aria-hidden','true'); document.getElementById('jm-scrim').classList.remove('on'); document.querySelectorAll('.jm-cell.sel').forEach(c => c.classList.remove('sel')); }
+document.addEventListener('click', e => {
+  const f = e.target.closest('[data-f]'); if (f){ filter = f.dataset.f; filterBar(); curve(); dim(); return; }
+  const t = e.target.closest('[data-task]'); if (t){ e.preventDefault(); open(t.dataset.task); return; }
+  if (e.target.id === 'jm-scrim' || e.target.closest('#jm-p-x')) close();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('jm-cell')) { e.preventDefault(); open(e.target.dataset.task); } });
+read(); filterBar(); grid();
+</script>
+</body>
+</html>

@@ -8,7 +8,7 @@ work, its rules and its loop are described in `research/README.md`.
 ## Layout
 
 ```
-research/        the two reports, the evidence ledger and the tools
+research/        the reports, the journey map, the evidence ledger and the tools
 design-system/   the slice of the Global Network design system the reports load
 package.json     Playwright, used by the walk, fetch, shot and check tools
 ```
