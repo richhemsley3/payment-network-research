@@ -143,7 +143,7 @@
    "title": "The real tools sit behind login and people",
    "text": [
     {
-     "text": "The ISO 8583 host specifications that acquirers build to are confidential at all four networks.",
+     "text": "The ISO 8583 host specifications that acquirers build to are marked confidential at all four networks.",
      "ids": [
       "new:t4-s4-visa-rules-conf",
       "new:t4-s4-mc-rules-cis",

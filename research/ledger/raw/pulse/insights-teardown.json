@@ -795,6 +795,84 @@
    "fetch": "curl 2026-09-26",
    "accessed": "2026-09-26",
    "note": "Added by the insight work (teardown), accessed 2026-09-26. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "PULSE card-not-present fraud code 4868 allows 60 days from a retrieval closing.",
+   "quote": "PULSE 4868 Within 60 calendar days from the close date of the TRR",
+   "url": "https://www.hancockwhitney.com/hubfs/Merchant%20Dispute%20Guide%20Nov%202024.pdf",
+   "title": "Dispute Best Practices: A merchant's user guide to help manage disputes (October 2024)",
+   "publisher": "Fiserv, posted by Hancock Whitney Bank",
+   "published": "2024-10",
+   "label": "Reported",
+   "fetch": "curl and pypdf, 2026-09-27. Every page is marked Fiserv Confidential. Posted openly on hancockwhitney.com by the bank, no login.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The PULSE Disputes System replaced PIX 2 with transaction research, lifecycle actions, batch dispute files and search queues.",
+   "quote": "perform searches to locate settled transactions; initiate and respond to disputes throughout the transaction lifecycle; upload batch dispute files; and create search queues.",
+   "url": "https://web.archive.org/web/20190921092126id_/https://content.pulsenetwork.com/fraud-prevention/new-system-simplifies-disputs-and-adds-research-capabilities",
+   "title": "New System Simplifies Disputes and Adds Research Capabilities",
+   "publisher": "PULSE Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of Wayback id_ capture 20190921092126 and HTML text extraction, 2026-09-27. Public article, no marking.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "The same portal serves PULSE transactions, searched by Retrieval Reference Number.",
+   "quote": "A Retrieval Reference Number, or RRN, is a unique ID assigned for PULSE transactions only.",
+   "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+   "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+   "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+   "published": "2021-07-01",
+   "label": "Verified",
+   "fetch": "curl 2026-09-27. The hub link redirects to an open PDF on content.cdntwrk.com with no login, then pypdf. No confidential or proprietary marking found. Hub listing dated 25 February 2021, archived by the Wayback Machine 2021-04-10.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "PULSE Good Faith responses are due within 15 days of the initiated item.",
+   "quote": "These responses must be made within 15 days from the initiated item.",
+   "url": "https://web.archive.org/web/20190921092113id_/https://content.pulsenetwork.com/fraud-prevention/best-practices-for-good-faith-disputes",
+   "title": "Best Practices for Good Faith Disputes",
+   "publisher": "PULSE Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of Wayback id_ capture 20190921092113 and HTML text extraction, 2026-09-27. Public article, no marking.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "PULSE supports the system with on-demand webinars and an Account Executive, not a public manual.",
+   "quote": "Webinars are available on demand to help you use the system.",
+   "url": "https://web.archive.org/web/20190921092126id_/https://content.pulsenetwork.com/fraud-prevention/new-system-simplifies-disputs-and-adds-research-capabilities",
+   "title": "New System Simplifies Disputes and Adds Research Capabilities",
+   "publisher": "PULSE Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of Wayback id_ capture 20190921092126 and HTML text extraction, 2026-09-27. Public article, no marking.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "A missed Good Faith response settles automatically for the initiator with no appeal.",
+   "quote": "the Disputes System will automatically settle the transaction with no ability to appeal, settling in favor of the initiator.",
+   "url": "https://web.archive.org/web/20190921092113id_/https://content.pulsenetwork.com/fraud-prevention/best-practices-for-good-faith-disputes",
+   "title": "Best Practices for Good Faith Disputes",
+   "publisher": "PULSE Network",
+   "published": "unknown",
+   "label": "Verified",
+   "fetch": "curl of Wayback id_ capture 20190921092113 and HTML text extraction, 2026-09-27. Public article, no marking.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
   }
  ]
 }

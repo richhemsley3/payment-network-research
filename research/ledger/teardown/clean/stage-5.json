@@ -152,6 +152,14 @@
        "ids": [
         "new:t5-visa-10k-conversion"
        ]
+      },
+      {
+       "text": "Regions set response time limits, and a request the issuer misses goes to stand-in processing using the issuer's parameters.",
+       "ids": [
+        "new:tB-B-vipov-atr",
+        "new:tB-B-vipov-stip",
+        "new:tB-B-vipov-params"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -665,6 +673,12 @@
        "ids": [
         "visa-026"
        ]
+      },
+      {
+       "text": "Token go-live follows attended testing, since only acquirers that pass may implement the Visa Token Service.",
+       "ids": [
+        "new:tB-B-vts-passimpl"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -823,6 +837,13 @@
        "ids": [
         "dgn-197",
         "dgn-202"
+       ]
+      },
+      {
+       "text": "Discover's Letter of Certification is the go-ahead for a terminal set. It records scope, terminal, software, test plan versions and any waivers.",
+       "ids": [
+        "new:tB-B-dloc-letter",
+        "new:tB-B-dloc-certtype"
        ]
       }
      ],
@@ -1184,6 +1205,14 @@
        "ids": [
         "visa-020"
        ]
+      },
+      {
+       "name": "Visa Cardholder Metadata Manager (VCMM)",
+       "what_it_shows": "Online portal for wallet card art, static per account range or dynamic against a 32-character Profile ID.",
+       "ids": [
+        "new:tB-B-thr-vcmm",
+        "new:tB-B-thr-profileid"
+       ]
       }
      ],
      "friction": [
@@ -1199,6 +1228,13 @@
        "ids": [
         "new:t5-sofi-bank-approve",
         "new:t5-synctera-checklist"
+       ]
+      },
+      {
+       "text": "Adding tokenisation to an existing product takes about three months, and Thredd gets no wallet test updates.",
+       "ids": [
+        "new:tB-B-thr-3m",
+        "new:tB-B-thr-norel"
        ]
       }
      ]
@@ -1224,6 +1260,21 @@
        "ids": [
         "mastercard-265"
        ]
+      },
+      {
+       "text": "Mastercard wallet art is uploaded to the Mastercard portal under the card manufacturer's product reference.",
+       "ids": [
+        "new:tB-B-thr-mcart",
+        "new:tB-B-thr-mcref"
+       ]
+      },
+      {
+       "text": "Some wallets require testing before go-live. Apple Pay runs formal certification and Google sends test scripts.",
+       "ids": [
+        "new:tB-B-thr-trtest",
+        "new:tB-B-thr-apple",
+        "new:tB-B-thr-google"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -1240,6 +1291,12 @@
        "text": "A launch press release naming the network needs the network's pre-approval.",
        "ids": [
         "new:t5-lithic-press"
+       ]
+      },
+      {
+       "text": "Apple Pay certification documents are not public, so partners rely on Apple or their issuer.",
+       "ids": [
+        "new:tB-B-thr-applepub"
        ]
       }
      ]
@@ -1540,6 +1597,19 @@
        "ids": [
         "new:t5-cof-logos"
        ]
+      },
+      {
+       "text": "Under the 2011 rules the contactless Zip mark could be shown only after Discover certified the merchant's POS devices.",
+       "ids": [
+        "new:tB-B-dor-zip"
+       ]
+      },
+      {
+       "text": "Advertising with Discover marks, press releases and public statements about the relationship needed Discover's prior written approval.",
+       "ids": [
+        "new:tB-B-dor-markads",
+        "new:tB-B-dor-press"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -1551,7 +1621,14 @@
        ]
       }
      ],
-     "friction": []
+     "friction": [
+      {
+       "text": "Improper mark use cost 2,500 dollars per violation after any cure period.",
+       "ids": [
+        "new:tB-B-dor-markfee"
+       ]
+      }
+     ]
     }
    ],
    "best_pattern": {
@@ -1795,13 +1872,15 @@
     "Acquirers and processors"
    ],
    "move": "Make go-live a single network-issued notice. It lists what was certified, the sample card or test result approved, the effective date and the first live transactions seen.",
-   "why_advantage": "Visa and Mastercard rules define no pilot and no live moment. Amex's go-ahead notice and Mastercard's TAN letter show partners value a formal artefact.",
+   "why_advantage": "Visa and Mastercard rules define no pilot and no live moment. Amex's go-ahead notice and Mastercard's TAN letter show partners value a formal artefact. Discover's letter already names scope, tools and waivers, so the go-ahead can extend a document partners know.",
    "ids": [
     "new:t5-amex-gns-notify",
     "mastercard-400",
     "new:t5-visa-r-nopilot",
     "new:t5-mc-r-nopilot",
-    "unionpay-021"
+    "unionpay-021",
+    "new:tB-B-dloc-letter",
+    "new:tB-B-dloc-certtype"
    ],
    "evidence_strength": "strong"
   },
@@ -1852,13 +1931,16 @@
     "Fintechs and programme managers"
    ],
    "move": "Take one card art submission that drives design approval, wallet and token art and Marketing Hub collateral, with status visible to the issuer, processor and card vendor.",
-   "why_advantage": "Visa and Mastercard route design approval through vendors and gated systems. Token art is a separate duty and wallet updates take days to spread.",
+   "why_advantage": "Visa and Mastercard route design approval through vendors and gated systems. Token art is a separate duty and wallet updates take days to spread. Processors load wallet art separately in Visa's VCMM and the Mastercard portal, keyed to the manufacturer's reference.",
    "ids": [
     "new:t5-visa-r-design",
     "new:t5-mc-2011-cdas",
     "new:t5-visa-r-token-art",
     "new:t5-sofi-token-art",
-    "new:t5-pulse-pss-cardart"
+    "new:t5-pulse-pss-cardart",
+    "new:tB-B-thr-vcmm",
+    "new:tB-B-thr-mcart",
+    "new:tB-B-thr-mcref"
    ],
    "evidence_strength": "moderate"
   },
@@ -1888,13 +1970,14 @@
     "Payment facilitators and ISOs"
    ],
    "move": "Put mark rules, downloads, signage ordering and the post-launch deadlines into the partner's launch checklist, with bulk ordering for acquirers and agents.",
-   "why_advantage": "PULSE already publishes its manual and deadlines openly. Amex gives agents bulk signage, while Discover's signage site needs a separate login.",
+   "why_advantage": "PULSE already publishes its manual and deadlines openly. Amex gives agents bulk signage, while Discover's signage site needs a separate login. The 2011 rules tied the contactless mark to device certification, so mark downloads can unlock when certification passes.",
    "ids": [
     "new:t5-pulse-gsm-9m",
     "new:t5-pulse-gsm-atm45",
     "amex-434",
     "new:t5-dgn-signage-login",
-    "new:t5-visa-r-atm-marks"
+    "new:t5-visa-r-atm-marks",
+    "new:tB-B-dor-zip"
    ],
    "evidence_strength": "moderate"
   },
@@ -3343,6 +3426,246 @@
    "published": "n.d. (observed 2026-09-26)",
    "label": "Vendor",
    "fetch": "curl with desktop Chrome user agent, 2026-09-26"
+  },
+  {
+   "key": "tB-B-thr-3m",
+   "network": "cross",
+   "claim": "Adding tokenisation to an existing product takes about three months.",
+   "quote": "To add tokenisation to an existing product typically takes approximately 3 months.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-mcref",
+   "network": "mastercard",
+   "claim": "The art reference must match the card manufacturer's product reference.",
+   "quote": "Use the same product reference for your artwork as is used by your Card Manufacturer.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-trtest",
+   "network": "cross",
+   "claim": "Some wallet token requestors require testing before go-live.",
+   "quote": "Some Mobile Wallet Token Requestors require completion of testing before go-live.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-dor-zip",
+   "network": "dgn",
+   "claim": "The contactless Zip mark licence followed certification of the merchant's POS devices.",
+   "quote": "After we Certify that your POS Devices comply with the requirements",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-certtype",
+   "network": "dgn",
+   "claim": "The letter records whether the work was full certification or recertification.",
+   "quote": "Certification Type Full Certification Recertification",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-thr-applepub",
+   "network": "cross",
+   "claim": "Apple Pay certification documentation is not public.",
+   "quote": "Documentation for this is not available publicly",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-vts-passimpl",
+   "network": "visa",
+   "claim": "Only acquirers that pass testing may implement the Visa Token Service.",
+   "quote": "Acquirers that have successfully completed testing may implement the Visa Token Service.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-mcart",
+   "network": "mastercard",
+   "claim": "Mastercard card art is uploaded to the Mastercard portal.",
+   "quote": "Upload your artwork to the Mastercard Portal.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-atr",
+   "network": "visa",
+   "claim": "Regions set Automated Response Time limits.",
+   "quote": "Regions establish Automated Response Time (ATR) time limits.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-params",
+   "network": "visa",
+   "claim": "The issuer centre supplies Visa with all processing parameters, including routing, PIN and CVV checks and stand-in decisions.",
+   "quote": "The issuer center or the issuer itself must provide Visa with all of the processing parameters that the V.I.P. System is to use",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-press",
+   "network": "dgn",
+   "claim": "Public statements about the relationship needed Discover's prior written approval.",
+   "quote": "you agree to obtain our prior written approval before making any disclosure to the public",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-thr-profileid",
+   "network": "visa",
+   "claim": "Dynamic art is uploaded to VCMM against a 32-character Profile ID.",
+   "quote": "The ProfileID is always 32 characters long.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-dor-markfee",
+   "network": "dgn",
+   "claim": "Improper mark use carried a noncompliance fee per violation after any cure period.",
+   "quote": "$2,500 per violation following expiration of any cure period",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-dor-markads",
+   "network": "dgn",
+   "claim": "Advertising using Discover marks, including press releases, went for prior written approval.",
+   "quote": "including any press release",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-stip",
+   "network": "visa",
+   "claim": "A request the issuer does not answer in time goes to stand-in processing.",
+   "quote": "V.I.P. routes the request or the reversal to STIP",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-letter",
+   "network": "dgn",
+   "claim": "The Letter of Certification lists waivers granted during D-PAS Terminal End-to-End Certification.",
+   "quote": "The following waivers were granted as part of D-PAS Terminal End-to-End Certification:",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-thr-vcmm",
+   "network": "visa",
+   "claim": "Static card art is configured per account range in the Visa Cardholder Metadata Manager portal.",
+   "quote": "You will need to configure your static card art per account range on the Visa Cardholder Metadata Manager (VCMM) online portal.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-norel",
+   "network": "cross",
+   "claim": "Thredd receives no updated wallet test requirements.",
+   "quote": "GPS do not receive updated test requirements from Mobile Wallet Token Requestors",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-google",
+   "network": "cross",
+   "claim": "Google Pay sends test scripts instead of a formal certification.",
+   "quote": "Google Pay does not have a formal certification process. Instead Google will send test scripts to you or your Issuer.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-apple",
+   "network": "cross",
+   "claim": "Some wallets such as Apple Pay run a formal certification.",
+   "quote": "Some Wallet providers, such as Apple Pay, have a formal certification process.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
   }
  ],
  "stage_id": "5"

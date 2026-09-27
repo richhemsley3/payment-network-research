@@ -303,6 +303,38 @@
        "ids": [
         "new:tM-M-vss-checklist"
        ]
+      },
+      {
+       "name": "SMS600 to SMS617 transaction and exception detail reports",
+       "what_it_shows": "Daily lists of single message transactions, chargebacks, representments, adjustments and reversals. Each can be sorted by card, retrieval reference, time or counterparty ID.",
+       "ids": [
+        "new:tN-N-sms-600",
+        "new:tN-N-sms-sorts",
+        "new:tN-N-sms-optional"
+       ]
+      },
+      {
+       "name": "SMS642 and SMS643 CRS Returned Exception Detail",
+       "what_it_shows": "Exception items returned unsettled after failing Chargeback Reduction Service checks, with up to five return reason codes, ready to correct and resubmit.",
+       "ids": [
+        "new:tN-N-sms-642",
+        "new:tN-N-sms-642codes"
+       ]
+      },
+      {
+       "name": "SMS660 No Activity Report",
+       "what_it_shows": "Each subscribed SMS report that had nothing to show in the cycle, so a missing report reads as no activity.",
+       "ids": [
+        "new:tN-N-sms-660"
+       ]
+      },
+      {
+       "name": "SMS detail report fee line",
+       "what_it_shows": "Fee jurisdiction, routing, fee level name and fee programme indicator for each transaction, all supplied by Visa on optional line 5.",
+       "ids": [
+        "new:tN-N-sms-feelevel",
+        "new:tN-N-sms-line5"
+       ]
       }
      ],
      "friction": [
@@ -337,6 +369,14 @@
         "new:tM-M-vss-letter",
         "new:tM-M-vss-advance",
         "new:tM-M-vss-worksheet"
+       ]
+      },
+      {
+       "text": "The interchange fee line on SMS detail reports is off by default. Changing report lines means contacting a Visa Member Services representative.",
+       "ids": [
+        "new:tN-N-sms-line5",
+        "new:tN-N-sms-default",
+        "new:tN-N-sms-lines"
        ]
       }
      ]
@@ -521,6 +561,14 @@
        "what_it_shows": "An opt-in courtesy email about open or outstanding settlement positions and unapplied funds.",
        "ids": [
         "new:tM-M-sm-courtesy"
+       ]
+      },
+      {
+       "name": "SWCHD412 Daily Interchange Report and SWCHM412 monthly",
+       "what_it_shows": "Interchange by product and fee line, with counts split into financial, percentage-based, non-financial and non-billable. A Net Interchange Summary page closes it.",
+       "ids": [
+        "new:tN-N-mds-412",
+        "new:tN-N-mds-412net"
        ]
       }
      ],
@@ -858,6 +906,20 @@
         "new:tM-M-vss-edit",
         "new:tM-M-vss-das"
        ]
+      },
+      {
+       "text": "SMS611 shows an acquirer each chargeback received, and Visa says it is used to decide whether to accept or represent.",
+       "ids": [
+        "new:tN-N-sms-611"
+       ]
+      },
+      {
+       "text": "Instead of reports, SMS members can take 130-byte raw data records. A settlement record per affiliate BIN carries the interchange total.",
+       "ids": [
+        "new:tN-N-sms-raw",
+        "new:tN-N-sms-130",
+        "new:tN-N-sms-v22120"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -897,6 +959,22 @@
         "new:tM-M-vss-testhdr",
         "new:tM-M-vss-test3w",
         "new:tM-M-vss-3000"
+       ]
+      },
+      {
+       "name": "SMS609 Transactions Incurring a Fine",
+       "what_it_shows": "Late adjustments, late deposit adjustments and chargebacks left unrepresented that drew a fine in the processing day.",
+       "ids": [
+        "new:tN-N-sms-609",
+        "new:tN-N-sms-609b"
+       ]
+      },
+      {
+       "name": "SMS608 Fee Collection and Funds Disbursement Detail",
+       "what_it_shows": "Fee collections and funds disbursements applied to settlement. Its totals feed the Other Transactions section of VSS-120, and its items appear on no other SMS report.",
+       "ids": [
+        "new:tN-N-sms-608",
+        "new:tN-N-sms-608only"
        ]
       }
      ],
@@ -944,6 +1022,20 @@
        "ids": [
         "new:tM-M-vss-notinhier"
        ]
+      },
+      {
+       "text": "SMS reports subtotal at every change of SRE, processor or affiliate BIN. An affiliate spread across several may need subtotals added by hand.",
+       "ids": [
+        "new:tN-N-sms-pagebreak",
+        "new:tN-N-sms-subtotal"
+       ]
+      },
+      {
+       "text": "Raw data version 2.3 is a partial subset for reconciliation and cannot be taken alongside a version 2.2 subscription.",
+       "ids": [
+        "new:tN-N-sms-v23",
+        "new:tN-N-sms-v23excl"
+       ]
       }
      ]
     },
@@ -982,6 +1074,32 @@
        "ids": [
         "new:tM-M-ftm-params",
         "new:tM-M-ftm-t007"
+       ]
+      },
+      {
+       "text": "Debit switch reports reach processors as Global File Transfer bulk files or on screen in MasterCard eService. Online copies stay viewable for 13 months.",
+       "ids": [
+        "new:tN-N-mds-access",
+        "new:tN-N-mds-13mo"
+       ]
+      },
+      {
+       "text": "Each processor must reconcile its own batch totals to the switch every day. Mastercard urges an automated compare of the switch batch file with internal records.",
+       "ids": [
+        "new:tN-N-mds-recon",
+        "new:tN-N-mds-auto"
+       ]
+      },
+      {
+       "text": "Processors settling by ACH give their bank, routing number and settlement account on a Processor Information Questionnaire during sign-up.",
+       "ids": [
+        "new:tN-N-mds-piq"
+       ]
+      },
+      {
+       "text": "A 2006 release added a BIN field to the daily control and interchange reports, so processors could sort settlement data by BIN.",
+       "ids": [
+        "new:tN-N-mds-bin"
        ]
       }
      ],
@@ -1023,6 +1141,24 @@
        "ids": [
         "new:tM-M-ftm-esp",
         "new:tM-M-ftm-endpoint"
+       ]
+      },
+      {
+       "name": "SWCHD363 Daily Control Report and SWCHM363 monthly",
+       "what_it_shows": "Net settlement position in the settlement currency, by transaction type within product. A Net Settlement Summary page nets transactions, exception items and interchange fees.",
+       "ids": [
+        "new:tN-N-mds-363",
+        "new:tN-N-mds-363sum",
+        "new:tN-N-mds-match"
+       ]
+      },
+      {
+       "name": "SWCHD586-A Debit Mastercard Inbound/Outbound Fee Report",
+       "what_it_shows": "Retrieval, record clearing, handling and compliance fees sent and received, grouped by message type and function code, with a net fees page per processor.",
+       "ids": [
+        "new:tN-N-mds-586",
+        "new:tN-N-mds-586codes",
+        "new:tN-N-mds-586net"
        ]
       }
      ],
@@ -1071,6 +1207,19 @@
        "ids": [
         "new:tM-M-ftm-session",
         "new:tM-M-ftm-nosupport"
+       ]
+      },
+      {
+       "text": "Mastercard warns that SWCHD412 interchange lines cannot be checked line by line where fees are percentage-based or acquirer generated.",
+       "ids": [
+        "new:tN-N-mds-412valid"
+       ]
+      },
+      {
+       "text": "Debit switch settlement reports leave out any transaction type with no activity that day. Mastercard also expects switch and processor totals to differ at times.",
+       "ids": [
+        "new:tN-N-mds-zero",
+        "new:tN-N-mds-unrec"
        ]
       }
      ]
@@ -1608,6 +1757,19 @@
         "new:tM-M-vss-sms601",
         "new:tM-M-vss2-sms"
        ]
+      },
+      {
+       "text": "SMS settlement cuts off at 8 pm Pacific for Interlink and 10 pm Pacific for Visa and Plus. Every SMS report header shows the online settlement date.",
+       "ids": [
+        "new:tN-N-sms-cutoff"
+       ]
+      },
+      {
+       "text": "Through the day the system keeps running totals of counts and amounts every 30 minutes. It stores them as 0520 advices for the processor to recover.",
+       "ids": [
+        "new:tN-N-sms-running",
+        "new:tN-N-sms-0520"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1655,14 +1817,42 @@
        "ids": [
         "new:tM-M-mds-nextday"
        ]
+      },
+      {
+       "text": "In 2006 the debit switch day ended at 07:00 New York time for Debit Mastercard and 15:00 for Maestro and Cirrus.",
+       "ids": [
+        "new:tN-N-mds-dayend"
+       ]
       }
      ],
-     "tools_and_screens": [],
+     "tools_and_screens": [
+      {
+       "name": "SWCHD53 Exception Audit and SWCHD55 Detailed Suspect Items",
+       "what_it_shows": "Every reversal, chargeback and representment settled that day, and transactions that failed, for representment research and chargeback monitoring.",
+       "ids": [
+        "new:tN-N-mds-53",
+        "new:tN-N-mds-55"
+       ]
+      }
+     ],
      "friction": [
       {
        "text": "When an issuer range moves from Cirrus to Visa and Plus, earlier transactions must still clear through Mastercard.",
        "ids": [
         "new:t6a-b-gcms-cirrus"
+       ]
+      },
+      {
+       "text": "The exception audit report came only as a bulk file. It was the one debit switch report missing from eService.",
+       "ids": [
+        "new:tN-N-mds-53online"
+       ]
+      },
+      {
+       "text": "In 2006 Mastercard retired two transaction audit reports and pointed members to the raw 250-byte batch data file instead.",
+       "ids": [
+        "new:tN-N-mds-57obs",
+        "new:tN-N-mds-57alt"
        ]
       }
      ]
@@ -2457,7 +2647,7 @@
     "Issuers"
    ],
    "move": "Give each invoice line a stable billing identifier, a plain description, its trigger rule and a link to the transactions behind it. Make it downloadable as data at no charge.",
-   "why_advantage": "Visa and Mastercard told the UK regulator they cannot supply this within a year. Portal codes that differ from invoice codes are a documented acquirer complaint.",
+   "why_advantage": "Visa and Mastercard told the UK regulator they cannot supply this within a year. Portal codes that differ from invoice codes are a documented acquirer complaint. Mastercard's SWCHD586-A already groups debit fees by message type and function code, with a net fees page for each processor.",
    "ids": [
     "new:t6a-d-sd22-billingid",
     "new:t6a-d-sd22-33",
@@ -2465,7 +2655,9 @@
     "new:t6a-d-ps261-visatxn",
     "new:t6a-d-ps261-mclegacy",
     "new:t6a-a-psr-codes",
-    "new:t6a-a-rba-mr"
+    "new:t6a-a-rba-mr",
+    "new:tN-N-mds-586codes",
+    "new:tN-N-mds-586net"
    ],
    "evidence_strength": "strong"
   },
@@ -2477,7 +2669,7 @@
     "Merchants where they touch the network directly"
    ],
    "move": "Per transaction, show the card class, the interchange programme priced and cleared, and the reason for any downgrade, kept for the retention period.",
-   "why_advantage": "The Fed found Discover charged a commercial rate for sixteen years without telling merchants. Cybersource already shows priced against cleared with a reason code. OptBlue puts most fees in the GRRCN file, while the rate table stays in an appendix Participants may not publish.",
+   "why_advantage": "The Fed found Discover charged a commercial rate for sixteen years without telling merchants. Cybersource already shows priced against cleared with a reason code. OptBlue puts most fees in the GRRCN file, while the rate table stays in an appendix Participants may not publish. Visa's SMS detail reports can print each transaction's fee level and jurisdiction, yet that line is off by default and changed only through a representative.",
    "ids": [
     "new:t6a-c-dgn-fed1",
     "new:t6a-c-dgn-fed2",
@@ -2487,7 +2679,10 @@
     "new:t6a-a-ts-retro",
     "new:t6a-b-gcms-mpe",
     "new:tM-M-ob-grrcn",
-    "new:tM-M-ob-nopublish"
+    "new:tM-M-ob-nopublish",
+    "new:tN-N-sms-feelevel",
+    "new:tN-N-sms-default",
+    "new:tN-N-sms-lines"
    ],
    "evidence_strength": "strong"
   },
@@ -2499,14 +2694,16 @@
     "Fintechs and programme managers"
    ],
    "move": "State the settlement arithmetic on screen and guarantee that report totals equal the funds moved, with the tie-out shown for each day.",
-   "why_advantage": "Issuers rebuild Mastercard fund reconciliation from fragments. Amex, Mastercard Send and Discover's own old report show the tie-out can be promised. Mastercard's Transfer Agent Advisement Detail shows one section per member ID within one payment, a working model for tying ledgers to a single wire.",
+   "why_advantage": "Issuers rebuild Mastercard fund reconciliation from fragments. Amex, Mastercard Send and Discover's own old report show the tie-out can be promised. Mastercard's Transfer Agent Advisement Detail shows one section per member ID within one payment, a working model for tying ledgers to a single wire. Mastercard's 2006 switch manual says SWCHD363 amounts should match the settlement records, and urges processors to automate the daily compare.",
    "ids": [
     "new:t6a-b-riv-frag",
     "new:t6a-b-riv-396",
     "new:t6a-b-send-sum",
     "new:t6a-c-amx-grrcn1",
     "new:t6a-c-dgn-dar2",
-    "new:tM-M-sm-308"
+    "new:tM-M-sm-308",
+    "new:tN-N-mds-match",
+    "new:tN-N-mds-auto"
    ],
    "evidence_strength": "strong"
   },
@@ -2518,7 +2715,7 @@
     "Acquirers and processors"
    ],
    "move": "Show each settlement day as pending or complete, with each file's delivery state and a proactive notice when a network file is late. Show committed service levels only.",
-   "why_advantage": "Late network files are the main cause of processor delays, and Mastercard makes senders phone to confirm a file. Stripe and Lithic already treat completeness as a state. Mastercard already emails opt-in open settlement notices, yet a missed notice does not stop daily assessments from USD 250.",
+   "why_advantage": "Late network files are the main cause of processor delays, and Mastercard makes senders phone to confirm a file. Stripe and Lithic already treat completeness as a state. Mastercard already emails opt-in open settlement notices, yet a missed notice does not stop daily assessments from USD 250. Visa's single message system already keeps 30-minute running totals as 0520 advices, a working base for an intraday settlement status.",
    "ids": [
     "new:t6a-a-li-delay",
     "new:t6a-d-lithic-iscomplete",
@@ -2528,7 +2725,9 @@
     "new:t6a-b-send-late",
     "new:tM-M-sm-courtesy",
     "new:tM-M-sm-nonotice",
-    "new:tM-M-sm-assesstab"
+    "new:tM-M-sm-assesstab",
+    "new:tN-N-sms-running",
+    "new:tN-N-sms-0520"
    ],
    "evidence_strength": "moderate"
   },
@@ -2634,7 +2833,7 @@
     "Acquirers and processors"
    ],
    "move": "Offer settlement, invoice and interchange data both as files and as an API with completeness flags, so processors stop rebuilding it for each client.",
-   "why_advantage": "Mastercard's public catalogue has no settlement or billing API, and Adyen's delayed-fee report has none. Programme managers each build their own wrapper. Mastercard sends the same advisement by Connect, email, fax or SWIFT MT998, and Visa offers every VSS report as TC 46 data or TC 47 print.",
+   "why_advantage": "Mastercard's public catalogue has no settlement or billing API, and Adyen's delayed-fee report has none. Programme managers each build their own wrapper. Mastercard sends the same advisement by Connect, email, fax or SWIFT MT998, and Visa offers every VSS report as TC 46 data or TC 47 print. Visa lets SMS members take the same activity as formatted reports or as 130-byte raw data records.",
    "ids": [
     "new:t6a-b-dev-cat",
     "new:t6a-d-fivetran-nts-api",
@@ -2642,7 +2841,9 @@
     "new:t6a-a-mq-30min",
     "new:t6a-a-hn-inv",
     "new:tM-M-sm-advch",
-    "new:tM-M-vss-tc46"
+    "new:tM-M-vss-tc46",
+    "new:tN-N-sms-raw",
+    "new:tN-N-sms-130"
    ],
    "evidence_strength": "moderate"
   }
@@ -2650,7 +2851,7 @@
  "unseen": [
   {
    "what": "Current Visa VSS user guides, the live VSS report catalogue and VOIP invoice screens",
-   "why": "Visa marks VSS guides confidential and keeps VOIP inside Visa Online. The only public copy found was a 2018 guide uploaded by a third party, which this stage excluded.",
+   "why": "Visa marks VSS guides confidential and keeps VOIP inside Visa Online. A 2018 guide posted openly by a third party shows the reports, but the current screens are not public.",
    "how_to_see_it": "A processor client manual that quotes current VSS layouts, or a Visa client partner under NDA."
   },
   {
@@ -7881,6 +8082,582 @@
    "published": "2020-07-21",
    "label": "Reported",
    "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tN-N-sms-v23excl",
+   "network": "visa",
+   "claim": "Version 2.3 raw data cannot be taken alongside a 2.2 subscription.",
+   "quote": "SMS Raw Data Version 2.3 cannot be subscribed to if there is an existing subscription to the V222xx Raw Data series of records.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-auto",
+   "network": "mastercard",
+   "claim": "Mastercard encourages processors to automate the comparison of switch batch files with their own records.",
+   "quote": "MasterCard encourages processors to develop an automated process to compare batch detail files (generated and transmitted by MDS) to the internal batch records",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-586",
+   "network": "mastercard",
+   "claim": "SWCHD586-A tracks miscellaneous fees sent and received through fee collection messages.",
+   "quote": "track and monitor miscellaneous inbound and outbound fees incurred through the submission of various fee collection messages.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-feelevel",
+   "network": "visa",
+   "claim": "The fee level field names the interchange fee applied to each transaction.",
+   "quote": "FEE LEVEL: The name of the IRF associated with the transaction.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-pagebreak",
+   "network": "visa",
+   "claim": "SMS reports subtotal and page-break whenever a reporting level changes.",
+   "quote": "SMS reports generate a total and force a page-break any time a reporting level changes",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-match",
+   "network": "mastercard",
+   "claim": "Amounts on the Daily Control Report should match the settlement records sent.",
+   "quote": "The settlement amounts on the report should match the amounts transmitted in the settlement records.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-600",
+   "network": "visa",
+   "claim": "SMS600 lists the single message transactions VisaNet processed for an issuer that day.",
+   "quote": "Lists 01xx, 02xx, and 04xx messages processed by VisaNet for the issuer.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-53online",
+   "network": "mastercard",
+   "claim": "The exception audit report is the one debit switch report not offered in eService.",
+   "quote": "SWCHD53 is not available via the MasterCard OnLine eService product.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-line5",
+   "network": "visa",
+   "claim": "Line 5 of SMS detail reports carries interchange reimbursement fee data.",
+   "quote": "Line 5—Interchange Reimbursement Fee (IRF) data",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-running",
+   "network": "visa",
+   "claim": "The system keeps running totals every 30 minutes, stored as 0520 advices the processor can recover.",
+   "quote": "A running total of counts and amounts is accumulated every 30 minutes.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-13mo",
+   "network": "mastercard",
+   "claim": "Debit switch reports stay viewable in eService for 13 months.",
+   "quote": "The online reports are available for viewing in eService for a period of 13 months from the original date of publication.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-412",
+   "network": "mastercard",
+   "claim": "SWCHD412 splits fee counts into financial, percentage-based, non-financial and non-billable.",
+   "quote": "The report shows all fee counts, separated by Financial, Percentage-based, Non-financial, and Non-billable categories.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-412valid",
+   "network": "mastercard",
+   "claim": "Interchange line calculations on SWCHD412 cannot be validated where fees are acquirer generated.",
+   "quote": "Line calculations for acquirer generated interchange cannot be validated because the interchange values differ for each transaction.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-586codes",
+   "network": "mastercard",
+   "claim": "SWCHD586-A groups fees by message type and function code, starting with retrieval request fees.",
+   "quote": "Retrieval Request Fees (1644 MTI-603 FNC)",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-412net",
+   "network": "mastercard",
+   "claim": "A Net Interchange Summary page gives acquirer and issuer net interchange fees.",
+   "quote": "The Net Interchange Summary page lists the acquirer and issuer’s net interchange fees.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-57obs",
+   "network": "mastercard",
+   "claim": "Mastercard retired the SWCHD57 and SWCHD108 transaction audit reports in 2006.",
+   "quote": "These reports are obsolete and will not be updated or modified in future releases.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-optional",
+   "network": "visa",
+   "claim": "Every SMS report is optional and taken by subscription.",
+   "quote": "Subscription is optional for all SMS reports.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-609b",
+   "network": "visa",
+   "claim": "SMS609 lists transactions that incurred a fine during the processing day.",
+   "quote": "This report lists transactions that have incurred a fine during the processing day.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-sorts",
+   "network": "visa",
+   "claim": "Members can take the same SMS report in several sort orders.",
+   "quote": "Members can subscribe to multiple sorts of the same report number.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-608",
+   "network": "visa",
+   "claim": "SMS608 amounts also appear in the Other Transactions section of VSS-120.",
+   "quote": "The amounts on this report are also included in the “Funds Disburse RC–0100” and “Fee Collection RC–0140” portion of the “Other Transactions” section",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-0520",
+   "network": "visa",
+   "claim": "Running totals are stored as 0520 advice messages for the processor.",
+   "quote": "The system stores these totals as advice messages (0520) for recovery by the processor.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-raw",
+   "network": "visa",
+   "claim": "SMS members can take raw data records to analyse in their own way.",
+   "quote": "Raw data allows the members to analyze and customize their Single Message System data in the way that best suits their business needs.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-660",
+   "network": "visa",
+   "claim": "SMS660 names subscribed reports that had no activity in the cycle.",
+   "quote": "an issuer subscribed to SMS610 and SMS660, who has no chargebacks in the current cycle, will see the SMS610 listed on the SMS660 report",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-default",
+   "network": "visa",
+   "claim": "By default members receive lines 1 to 4 only.",
+   "quote": "The default is to receive lines 1 through 4.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-bin",
+   "network": "mastercard",
+   "claim": "The October 2006 release added a BIN field so members could sort settlement reports by BIN.",
+   "quote": "This new field contains the six-digit BIN and allows members the ability to sort the report information by BIN",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-dayend",
+   "network": "mastercard",
+   "claim": "In 2006 the debit switch day ended at 07:00 New York time for Debit Mastercard and 15:00 for Maestro and Cirrus.",
+   "quote": "Debit MasterCard® 07:00 New York time Maestro®/Cirrus® 15:00 New York time",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-611",
+   "network": "visa",
+   "claim": "Acquirers use SMS611 to decide whether to accept a chargeback or represent it.",
+   "quote": "It is also used to determine whether to accept a chargeback or submit a representment.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-v22120",
+   "network": "visa",
+   "claim": "A settlement information record gives the interchange total at affiliate BIN level.",
+   "quote": "Contains the interchange total of all settled transactions at the Affiliate BIN level",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-unrec",
+   "network": "mastercard",
+   "claim": "Mastercard expects processor totals to differ from switch totals at times, and the processor must account for the gap.",
+   "quote": "Processors may find the settlement totals presented by the MDS differ from their calculated settlement totals.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-363sum",
+   "network": "mastercard",
+   "claim": "A Net Settlement Summary page nets transactions, exception items and interchange fees by debit, credit and net.",
+   "quote": "A Net Settlement Summary page lists the net settlement of transactions, exception items and interchange fees separated by debit, credit, and net",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-55",
+   "network": "mastercard",
+   "claim": "SWCHD55 shows why a transaction failed.",
+   "quote": "Processors should use this enriched report to determine why a transaction failed.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-642",
+   "network": "visa",
+   "claim": "Issuers use SMS642 to track, correct and resubmit exception items returned by the Chargeback Reduction Service.",
+   "quote": "The issuer uses this report to track, correct, and resubmit exception transactions.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-subtotal",
+   "network": "visa",
+   "claim": "An affiliate spread across SREs or processors may need subtotals added by hand.",
+   "quote": "it may be necessary to add the subtotals to obtain the total activity for an affiliate.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-access",
+   "network": "mastercard",
+   "claim": "Debit switch reports reach members by Global File Transfer or on MasterCard eService.",
+   "quote": "Members can access MDS reports through two methods: Global File Transfer or MasterCard eService.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-609",
+   "network": "visa",
+   "claim": "SMS609 lists late adjustments, late deposit adjustments and non-represented chargebacks.",
+   "quote": "Lists late adjustment, late deposit adjustment and non-represented chargeback transactions.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-53",
+   "network": "mastercard",
+   "claim": "Processors use SWCHD53 to start representment research and watch for chargeback levels that risk sanction.",
+   "quote": "Processors should use the report to initiate the research for representments and to monitor for excessive chargebacks that could be subject to sanction.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-363",
+   "network": "mastercard",
+   "claim": "SWCHD363 validates the daily net settlement position against the settlement account.",
+   "quote": "validate the processor’s daily net settlement position to the processor’s settlement account.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-zero",
+   "network": "mastercard",
+   "claim": "Debit switch settlement reports leave out transaction types with no activity.",
+   "quote": "This report is based upon activity. Therefore, if a transaction type has “0” activity, it is not reported.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-piq",
+   "network": "mastercard",
+   "claim": "ACH settlers give their settlement bank and account details on a Processor Information Questionnaire during sign-up.",
+   "quote": "Processors electing to receive settlement through the ACH service must provide the following settlement account information on the Processor Information Questionnaire (PIQ)",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-recon",
+   "network": "mastercard",
+   "claim": "Each processor must reconcile its internal batch totals to the switch settlement totals every day.",
+   "quote": "Each processor is responsible for a daily reconciliation of its internal batch totals to the settlement totals provided by MDS.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-130",
+   "network": "visa",
+   "claim": "SMS raw data records are 130 bytes long.",
+   "quote": "All records are 130 bytes in length.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-586net",
+   "network": "mastercard",
+   "claim": "SWCHD586-A ends with a Net Fees summary page per processor.",
+   "quote": "a Net Fees Report Summary page per processor, which lists the combined fee amounts incurred inbound and outbound",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-642codes",
+   "network": "visa",
+   "claim": "CRS returned exception reports carry up to five return reason codes.",
+   "quote": "The Return Reason Code column contains up to five return reason codes.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-608only",
+   "network": "visa",
+   "claim": "SMS608 items appear on no other SMS report.",
+   "quote": "Transactions displayed on this report do not appear on any other SMS report.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-lines",
+   "network": "visa",
+   "claim": "Changing optional report lines means contacting a Visa Member Services representative.",
+   "quote": "If a member asks to change the optional lines received on an SMS report, the member should contact their Visa Member Services Representative.",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-v23",
+   "network": "visa",
+   "claim": "Raw data version 2.3 is a partial subset meant for reconciliation.",
+   "quote": "(Version 2.3 Raw Data is a subset of Version 2.2 and is not intended to be a complete record of a transaction.)",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-mds-57alt",
+   "network": "mastercard",
+   "claim": "Members were pointed to the 250-byte batch data file in place of the retired audit reports.",
+   "quote": "Members may use the 250-byte Batch Data File as an alternate reference to locate information that was previously found in the Transaction Audit Reports.",
+   "url": "https://pdfcoffee.com/settlement-pdf-free.html",
+   "title": "MDS Settlement and Reports, October 2006",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2006-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader."
+  },
+  {
+   "key": "tN-N-sms-cutoff",
+   "network": "visa",
+   "claim": "SMS settlement cuts off at 8 pm Pacific for Interlink and 10 pm Pacific for Visa and Plus.",
+   "quote": "The cutoff time for transactions that affect settlement is 8:00 p.m. Pacific time for Interlink or 10:00 p.m. Pacific time",
+   "url": "https://pdfcoffee.com/vss-user-guide-volume-2-pdf-free.html",
+   "title": "VisaNet Settlement Service (VSS) User's Guide, Volume 2, Reports (effective 30 June 2018)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2018-06-30",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Page opened with no login, account, paywall or CAPTCHA. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader."
   }
  ],
  "stage_id": "6a"

@@ -1,0 +1,353 @@
+[
+ {
+  "id": "dgn-548",
+  "claim": "The Daily Issuer Disputes Report and Daily Issuer Processor Disputes Report each carry detail, reason code and notice type sections per IIN range.",
+  "quote": "The report data has three sections: Dispute Detail, Dispute Reason Code Summary, and the Disputes Notice Type (Case) Summary.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-549",
+  "claim": "Transaction Search offers four tabs: Account Number, Dispute ID or Case Number, Merchant Number, and NRID or RRN.",
+  "quote": "Account Number, Disputes ID/Case Number, Merchant Number, and NRID/RNN.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-550",
+  "claim": "Search results and queues show at most 1,000 results.",
+  "quote": "Shows the number of results on the current page out of the total number (maximum of 1000)",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-551",
+  "claim": "Some conditional fields become mandatory from other inputs and only error when left empty.",
+  "quote": "Some of these conditional fields are mandatory and might give an error if left empty.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-556",
+  "claim": "The portal shows some reason codes differently from the Dispute Rules Manual and technical specifications.",
+  "quote": "how certain Reason/Motive codes are referenced in the new DN Disputes Portal versus how they are referenced in the Dispute Rules Manual (DRM)",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-557",
+  "claim": "Each participant must name two System Administrators who add and remove users and set roles.",
+  "quote": "Each network participant is required to designate two System Administrators who are responsible to add/remove users",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-558",
+  "claim": "Users build saved Disputes search queues that update as cases change, visible only to their creator.",
+  "quote": "Disputes Search Queues are only viewable by the creator of the queue",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-563",
+  "claim": "Dispute Activity searches inbound or outbound actions by party ID over at most seven days.",
+  "quote": "Date ranges for Dispute Activity searches have a maximum range of seven days.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-565",
+  "claim": "Dispute Status values describe processing results such as Update Completed, Unable to Process and Case Closed.",
+  "quote": "Dispute Status: identifies the current state of the dispute (Example: Update Completed, Unable to Process, Case Closed).",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-566",
+  "claim": "Comments run from 1 to 750 characters with a limited set of special characters, and only three show by default.",
+  "quote": "Comments can range from 1 to 750 characters",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-568",
+  "claim": "Discover launched the DN Disputes Portal for network participants on 16 April 2021.",
+  "quote": "Discover Global Network launched a new disputes system on April 16, 2021.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-569",
+  "claim": "Issuers can start a case from three tabs: Document Retrieval, Chargeback and Compliance.",
+  "quote": "There are three potential Dispute Action tabs for Case Initiation that will be available under certain conditions for undisputed transactions",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-570",
+  "claim": "Chargeback follow-up actions are Update Chargeback Request, Cancel Chargeback Request and Chargeback Reversal.",
+  "quote": "(Update Chargeback Request, Cancel Chargeback Request, or Chargeback Reversal).",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-571",
+  "claim": "A person who works for several organisations needs a separate user ID in each.",
+  "quote": "If a user performs functions for multiple organizations, they will have a separate User ID for each organization.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-572",
+  "claim": "Every change one administrator makes must be approved by another, through My Requests and My Approvals.",
+  "quote": "Any changes made by a System Administrator must be approved by another System Administrator.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-573",
+  "claim": "After each submit the user must wait for a green Operation completed successfully message.",
+  "quote": "wait to receive a green pop-up message that says Operation completed successfully.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-575",
+  "claim": "ATM non-receipt of cash shows as 4590 in the portal and 4863 in the technical specification.",
+  "quote": "4590 – Non-Receipt of Cash from ATM 4863 – Non-Receipt of Cash from ATM",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-576",
+  "claim": "Acquirers get a Daily Summary Report (DFSA) and a Monthly Disputes Summary Report (MFSA) at Acquirer ID level.",
+  "quote": "This report provides a daily summary of Disputes at the Acquirer ID level.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-577",
+  "claim": "Security roles include Disputes-Admin, Admin-User, Checker-User, Account Number View and Global Disputes-User.",
+  "quote": "Global Disputes-User: Allows disputes users to view and initiate disputes, perform follow-up actions",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-578",
+  "claim": "The guide names an Acquirer Dispute Interface and a Dispute Webservices technical specification, neither public.",
+  "quote": "the Acquirer Dispute Interface and Dispute Webservices Technical Specifications.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-579",
+  "claim": "My Queue holds items assigned to a user, and only Disputes-Admin users can assign work to others.",
+  "quote": "My Queue is a personal queue of items that need attention.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-583",
+  "claim": "Dispute Notices download as PDFs, one at a time or up to 50 at once from Dispute Activity.",
+  "quote": "Select All allows a maximum of 50 results to be downloaded at once.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-585",
+  "claim": "A Global Disputes-Viewer role gives read-only access to case screens.",
+  "quote": "Global Disputes-Viewer: Allows disputes users \"view only\" access to screens as the Issuer and/or Acquirer in the transaction",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-586",
+  "claim": "For a period users reached both the old DNDS and the new portal, from the Account Center or a direct login.",
+  "quote": "Option 2 enables users to access both DNDS and the new DN Disputes Portal.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-588",
+  "claim": "Dispute reports sit in the separate Account Center under Operations Reports, not in the portal.",
+  "quote": "Reports for the DN Disputes Portal are located within the Account Centers.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-589",
+  "claim": "At launch acquirers could not search by their own case numbers.",
+  "quote": "Acquirer Case Numbers are not searchable at this time.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-591",
+  "claim": "Passwords expire every 30 days, lock at 60 days, and accounts are deleted after 90 days without a reset.",
+  "quote": "Users who haven't logged in/changed their password within the last 90 days will become 'Deleted.'",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-592",
+  "claim": "Documents can be up to 15 MB in formats from PDF and TIFF to WINFAX, each with a Document Type and description.",
+  "quote": "The maximum file size is 15 MB.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-593",
+  "claim": "Issuers can group transactions under one Issuer Case Number while each keeps its own Dispute ID.",
+  "quote": "an Issuer can assign one customized Issuer Case Number to several transactions so they can be tracked as one Dispute Case.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-594",
+  "claim": "Cases are worked through Dispute Action Tabs whose availability depends on role, stage, elapsed time and transaction conditions.",
+  "quote": "Dispute Action Tabs are the tabs where users initiate or respond to a Dispute.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-595",
+  "claim": "Users without the Account Number View role see card numbers masked to the first and last four digits.",
+  "quote": "Users without this role will see a masked account number with the first and last four digits viewable",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-596",
+  "claim": "Account and merchant searches are limited to a three-month date range.",
+  "quote": "The maximum date range is 3 months at a time.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-597",
+  "claim": "An issuer that disagrees with a representment files a Pre-Arbitration Inquiry, which it can later withdraw.",
+  "quote": "If an Issuer or Issuer Processor disagrees with a Representment, the Issuer or Issuer Processor may submit a Pre-Arbitration Inquiry.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-598",
+  "claim": "Users choose Okta Verify, voice call or email codes at first sign-in and are told extra methods cannot be added later.",
+  "quote": "It is strongly recommended that users select and set up at least two methods as you will not be able to do so later.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-600",
+  "claim": "Access is scoped by Root Node for a whole branch of the organisation or On Behalf Of for named party IDs.",
+  "quote": "Assigning an OBO allows the user to access one or more specific IDs, but not the information above or below it within the organization.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-603",
+  "claim": "The Dispute Details page shows a Stage Expiration date for the current stage, not the whole dispute.",
+  "quote": "Stage Expiration: the date when the current dispute stage expires, not the dispute",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-604",
+  "claim": "Issuers may raise a compliance case on an undisputed transaction or one already decided for the merchant.",
+  "quote": "Issuers may raise a Dispute Compliance case on an undisputed transaction or on a case previously decisioned in the Merchant's favor.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "dgn-605",
+  "claim": "Opening the Dispute Details page creates a Dispute ID before any dispute is submitted.",
+  "quote": "When you select a transaction and go to the Dispute Details page, a Dispute ID is created.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ },
+ {
+  "id": "pulse-151",
+  "claim": "The same portal serves PULSE transactions, searched by Retrieval Reference Number.",
+  "quote": "A Retrieval Reference Number, or RRN, is a unique ID assigned for PULSE transactions only.",
+  "url": "https://content.pulsenetwork.com/i/1344316-dn-disputes-portal-training-guide-for-system-users-and-administrators",
+  "title": "Discover Global Network Disputes System Training Guide: Training Guide for System Users and Administrators, Version 3.0",
+  "publisher": "Discover Global Network (hosted on the PULSE Payments & You content hub)",
+  "confidence": "Verified"
+ }
+]

@@ -150,6 +150,20 @@
        "ids": [
         "new:t3-s3-vts-restricted"
        ]
+      },
+      {
+       "text": "The issuer centre gives Visa every processing parameter, including routing, PIN and CVV checks and stand-in decisions. It must warn Visa well ahead of any change.",
+       "ids": [
+        "new:tB-B-vipov-params",
+        "new:tB-B-vipov-notify"
+       ]
+      },
+      {
+       "text": "Enrolment in optional V.I.P. services differs by region, and the regional implementation guides come from the Visa representative.",
+       "ids": [
+        "new:tB-B-vipov-enrol",
+        "new:tB-B-vipov-guides"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -242,6 +256,28 @@
         "new:t3-s3-mc-trc-guide",
         "mastercard-317"
        ]
+      },
+      {
+       "text": "Optional issuer services start with a participation form to Customer Operations Services, for example POS Balance Inquiry or Real-time Substantiation.",
+       "ids": [
+        "new:tB-B-cis-posbi",
+        "new:tB-B-cis-rts"
+       ]
+      },
+      {
+       "text": "For M/Chip processing services the issuer asks its Customer Implementation Services specialist to sign up and test, naming the account range covered.",
+       "ids": [
+        "new:tB-B-cis-mchip",
+        "new:tB-B-cis-obkm"
+       ]
+      },
+      {
+       "text": "Issuer test cases are chosen by business profile. An issuer adding chip runs only the chip cases, and contactless chip needs contact chip validated first.",
+       "ids": [
+        "new:tB-B-mtc-profile",
+        "new:tB-B-mtc-upgrade",
+        "new:tB-B-mtc-prereq"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -289,6 +325,22 @@
        "what_it_shows": "Issuer-set stand-in authorisation parameters and rules.",
        "ids": [
         "new:t3-s3-syn-standin"
+       ]
+      },
+      {
+       "name": "Issuer Mastercard and Debit Mastercard Test Cases",
+       "what_it_shows": "Case tables by message type and product, each marked for the simulator or MTF. Chapters cover dual message authorisation, clearing, integrated and single message.",
+       "ids": [
+        "new:tB-B-mtc-sim",
+        "new:tB-B-mtc-profile",
+        "new:tB-B-mtc-sms"
+       ]
+      },
+      {
+       "name": "Testing Reference Information Center (TRIC)",
+       "what_it_shows": "Document set whose Offline Validation and Online Validation manuals say when each test case is run.",
+       "ids": [
+        "new:tB-B-mtc-tric"
        ]
       }
      ],
@@ -692,6 +744,30 @@
        "ids": [
         "new:t3-s3-visa-tpa"
        ]
+      },
+      {
+       "text": "Visa tests and certifies each new processing centre before it uses V.I.P. The centre exchanges test messages while Visa checks every message type.",
+       "ids": [
+        "new:tB-B-vipov-certify",
+        "new:tB-B-vipov-monitor"
+       ]
+      },
+      {
+       "text": "Adding the Visa Token Service is a separate project opened through the regional client support representative. It includes a CIQ and PCR activation in the VisaNet Systems Tables.",
+       "ids": [
+        "new:tB-B-vts-project",
+        "new:tB-B-vts-rcsr",
+        "new:tB-B-vts-pcr",
+        "new:tB-B-vts-ciq"
+       ]
+      },
+      {
+       "text": "Token testing is attended by the Global Client Testing team and covers authorisations, clearing and settlement, and exception processing. Only acquirers that pass may go ahead.",
+       "ids": [
+        "new:tB-B-vts-attended",
+        "new:tB-B-vts-validates",
+        "new:tB-B-vts-passimpl"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -716,6 +792,23 @@
        "what_it_shows": "Public library of approved products and test tools, with portals for Approval Services, Tap to Phone and technology partners.",
        "ids": [
         "visa-180"
+       ]
+      },
+      {
+       "name": "VCMS test keys and loopback stations",
+       "what_it_shows": "Testing uses Visa-provided or endpoint-provided acquirer working keys. Test stations pair through loopback router sign-on and are rejected if paired with a production station.",
+       "ids": [
+        "new:tB-B-vnao-keys",
+        "new:tB-B-vnao-vtskeys",
+        "new:tB-B-b1-loopback"
+       ]
+      },
+      {
+       "name": "Regional Client Support and Regional Testing Representatives",
+       "what_it_shows": "Two named Visa contacts, one for VisaNet systems support and one for testing support.",
+       "ids": [
+        "new:tB-B-vts-rcsr2",
+        "new:tB-B-vts-rtr"
        ]
       }
      ],
@@ -748,6 +841,19 @@
        "text": "A fee analytics firm reports merchants losing CEDP rates where the acquirer had not finished CEDP certification.",
        "ids": [
         "new:t3-s3-op-cedp"
+       ]
+      },
+      {
+       "text": "Capabilities are switched on station by station. BASE I rejects a PIN or entry mode the station is not certified to send.",
+       "ids": [
+        "new:tB-B-b1-pin",
+        "new:tB-B-b1-code90"
+       ]
+      },
+      {
+       "text": "An acquirer not activated for a response code receives a generic decline instead, so gaps in activation look like issuer declines.",
+       "ids": [
+        "new:tB-B-vnao-activate"
        ]
       }
      ]
@@ -792,6 +898,13 @@
        "text": "An accredited M-TIP service provider validates the results and issues the letter of approval on Mastercard's behalf.",
        "ids": [
         "new:t3-s3-uspf-mtipsp"
+       ]
+      },
+      {
+       "text": "Mastercard holds an Acquirer Chip Testing Level for each acquirer. Chip messages from an acquirer not permitted get a format error, with notice before the edit starts.",
+       "ids": [
+        "new:tB-B-cis-chiplevel",
+        "new:tB-B-cis-notify"
        ]
       }
      ],
@@ -945,6 +1058,19 @@
        "ids": [
         "new:t3-s3-uspf-dcards"
        ]
+      },
+      {
+       "text": "The Terminal E2E Certification Request Form is filled in for each combination of kernel, payment application and terminal-to-acquirer interface. Its answers decide the assigned test cases.",
+       "ids": [
+        "new:tB-B-dloc-crf",
+        "new:tB-B-dloc-determine"
+       ]
+      },
+      {
+       "text": "The form lists the events that need terminal certification, such as a new or changed kernel, payment application or chip-related peripheral.",
+       "ids": [
+        "new:tB-B-dloc-triggers"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -969,6 +1095,26 @@
        "ids": [
         "dgn-024"
        ]
+      },
+      {
+       "name": "Terminal E2E Certification Request Form (DN v7.2)",
+       "what_it_shows": "Colour-coded worksheet of customer details, scope, Quick Chip choice, expansion brands, kernel approvals, terminal set-up and deployment counts. Red marks wrong entries.",
+       "ids": [
+        "new:tB-B-dloc-colours",
+        "new:tB-B-dloc-quickchip",
+        "new:tB-B-dloc-expansion",
+        "new:tB-B-dloc-count"
+       ]
+      },
+      {
+       "name": "D-PAS Terminal E2E Letter of Certification",
+       "what_it_shows": "Project ID, full or recertification, scope, terminal and software, test tool, test plan versions, service provider and a waiver table with expiry dates.",
+       "ids": [
+        "new:tB-B-dloc-letter",
+        "new:tB-B-dloc-waivercols",
+        "new:tB-B-dloc-certtype",
+        "new:tB-B-dloc-projref"
+       ]
       }
      ],
      "friction": [
@@ -976,6 +1122,19 @@
        "text": "Forms and the qualified tool list are obtained from the implementation manager, not downloaded.",
        "ids": [
         "new:t3-s3-uspf-dforms"
+       ]
+      },
+      {
+       "text": "Waivers carry an expiry date and cover only terminal certification, so an open host fix must be tracked outside the letter.",
+       "ids": [
+        "new:tB-B-dloc-waiverexp",
+        "new:tB-B-dloc-scope"
+       ]
+      },
+      {
+       "text": "Errors in a letter are corrected through a named D-PAS Deployment Manager.",
+       "ids": [
+        "new:tB-B-dloc-deploy"
        ]
       }
      ]
@@ -1036,6 +1195,12 @@
        "text": "Visa Ready is the certification route for issuer processors, BIN sponsors, programme managers, acquirers and gateways.",
        "ids": [
         "visa-023"
+       ]
+      },
+      {
+       "text": "A non-client processor needs an executed Exhibit K on file before Visa shares its host specifications.",
+       "ids": [
+        "new:tB-B-b1-exhibitk"
        ]
       }
      ],
@@ -1203,6 +1368,18 @@
        "ids": [
         "dgn-270",
         "cross-247"
+       ]
+      },
+      {
+       "text": "The request form names the platform, merchants and VAR or gateway, and those details are printed on the letter.",
+       "ids": [
+        "new:tB-B-dloc-custinfo"
+       ]
+      },
+      {
+       "text": "Under the 2011 rules a processor had to be certified before settling funds to merchants.",
+       "ids": [
+        "new:tB-B-dor-settle"
        ]
       }
      ],
@@ -1472,6 +1649,12 @@
        "ids": [
         "new:t3-s3-vdps-self"
        ]
+      },
+      {
+       "text": "Visa's Global ATM Planning Guide sets out programme requirements, processing options and certification procedures for ATM participants.",
+       "ids": [
+        "new:tB-B-b1-atm"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -1498,6 +1681,13 @@
        "text": "Acquirers must update ATM locations in the Location Administration Tool on Connect every quarter.",
        "ids": [
         "new:t3-s3-mc-lat"
+       ]
+      },
+      {
+       "text": "Cirrus forwards ATM balance inquiries only to issuers certified by Customer Operations Services for them.",
+       "ids": [
+        "new:tB-B-cis-biatm",
+        "new:tB-B-cis-cirrus"
        ]
       }
      ],
@@ -1575,10 +1765,24 @@
        "ids": [
         "visa-023"
        ]
+      },
+      {
+       "text": "A programme manager tokenising through Thredd gets a Program Information Form and CIQ from its Visa project contact and completes them with Thredd.",
+       "ids": [
+        "new:tB-B-thr-forms",
+        "new:tB-B-thr-pif"
+       ]
       }
      ],
      "tools_and_screens": [],
-     "friction": []
+     "friction": [
+      {
+       "text": "Thredd tells the programme manager it owns the token project and must manage the networks, wallets and processor itself.",
+       "ids": [
+        "new:tB-B-thr-owner"
+       ]
+      }
+     ]
     },
     {
      "network": "mastercard",
@@ -1601,6 +1805,13 @@
        "text": "For Mastercard Send, fintechs must be registered by a licensed originating institution.",
        "ids": [
         "mastercard-080"
+       ]
+      },
+      {
+       "text": "The Mastercard equivalent is a BPMS Parameter Worksheet. Thredd also needs its own Digital Wallet Product Set Up Form.",
+       "ids": [
+        "new:tB-B-thr-bpms",
+        "new:tB-B-thr-psf"
        ]
       }
      ],
@@ -1884,10 +2095,60 @@
        "ids": [
         "new:t3-s3-uspf-ddcm"
        ]
+      },
+      {
+       "text": "Under the 2011 rules a direct merchant certified every new data link, any switch to or between processors and any large system rewrite.",
+       "ids": [
+        "new:tB-B-dor-links",
+        "new:tB-B-dor-switch",
+        "new:tB-B-dor-rewrite"
+       ]
+      },
+      {
+       "text": "Discover sent certification test scripts with new releases. Chip acceptance and recurring payment data each needed certification before first use.",
+       "ids": [
+        "new:tB-B-dor-scripts",
+        "new:tB-B-dor-chip",
+        "new:tB-B-dor-recurring"
+       ]
+      },
+      {
+       "text": "Test cards arrived with an acknowledgement form for an officer to sign. Expired cards were destroyed and the destruction certified in writing.",
+       "ids": [
+        "new:tB-B-dor-testcard",
+        "new:tB-B-dor-destroy"
+       ]
+      },
+      {
+       "text": "Programme enrolment ran through the relationship manager. Discover judged each request and the manager relayed the decision.",
+       "ids": [
+        "new:tB-B-dcid-enrol",
+        "new:tB-B-dcid-decision"
+       ]
+      },
+      {
+       "text": "Programme merchants must stay on the current Authorization Interface release. Any exception needs Discover approval before participation is approved.",
+       "ids": [
+        "new:tB-B-dcid-release",
+        "new:tB-B-dcid-exception"
+       ]
       }
      ],
      "tools_and_screens": [],
-     "friction": []
+     "friction": [
+      {
+       "text": "Certification did not test every rule, so a certified merchant could still owe noncompliance fees.",
+       "ids": [
+        "new:tB-B-dor-notall"
+       ]
+      },
+      {
+       "text": "Programme documents came only on request from the relationship manager or account executive.",
+       "ids": [
+        "new:tB-B-dcid-docs"
+       ]
+      }
+     ]
     },
     {
      "network": "other:cross-network",
@@ -1925,7 +2186,7 @@
     "all"
    ],
    "move": "Keep one project record per partner that both the partner and network staff read. Each step shows its owner, state and sign-off. Show a service level only where the network commits to one.",
-   "why_advantage": "AMEX Enabled and UnionPay show certification progress. In public sources Visa and Mastercard track only access orders and admin tasks, so a shared record would lead them.",
+   "why_advantage": "AMEX Enabled and UnionPay show certification progress. In public sources Visa and Mastercard track only access orders and admin tasks, so a shared record would lead them. Visa splits ownership between a client support representative and a testing representative, so each step needs a named role.",
    "ids": [
     "new:t3-s3-ae-journey",
     "unionpay-038",
@@ -1933,7 +2194,9 @@
     "unionpay-042",
     "new:t3-s3-mcc-track",
     "new:t3-s3-vem-history",
-    "dgn-172"
+    "dgn-172",
+    "new:tB-B-vts-rcsr2",
+    "new:tB-B-vts-rtr"
    ],
    "evidence_strength": "strong"
   },
@@ -1945,14 +2208,16 @@
     "Merchants connecting directly"
    ],
    "move": "Build on Discover's designated simulator. Let partners self-test any time, see each case pass or fail, and hand the batch to Discover review under a stated service level.",
-   "why_advantage": "Discover and Amex already give live results, and a vendor reports that failed certification windows cost weeks or months elsewhere.",
+   "why_advantage": "Discover and Amex already give live results, and a vendor reports that failed certification windows cost weeks or months elsewhere. The request form already flags wrong and unexpected entries by colour, so that validation can run in the portal as the partner types.",
    "ids": [
     "dgn-198",
     "dgn-391",
     "dgn-199",
     "amex-045",
     "new:t3-s3-vdps-self",
-    "new:t3-s3-neapay-window"
+    "new:t3-s3-neapay-window",
+    "new:tB-B-dloc-colours",
+    "new:tB-B-dloc-determine"
    ],
    "evidence_strength": "strong"
   },
@@ -1964,14 +2229,17 @@
     "Payment facilitators and ISOs"
    ],
    "move": "Store every letter, its tested configuration and its expiry in the record. Let a partner share proof with a client or reuse it on a new implementation.",
-   "why_advantage": "Letters differ by network, Visa gives none for L3, and Mastercard's TAN is reusable. One portable record would save repeat proof.",
+   "why_advantage": "Letters differ by network, Visa gives none for L3, and Mastercard's TAN is reusable. One portable record would save repeat proof. A real D-PAS letter carries a project ID, test plan versions and waivers with expiry dates, so the wallet should track waiver expiry too.",
    "ids": [
     "new:t3-s3-uspf-tanreuse",
     "new:t3-s3-uspf-vnoloa",
     "dgn-197",
     "new:t3-s3-uspf-aparams",
     "new:t3-s3-vdps-loa",
-    "new:t3-s3-uspf-platform"
+    "new:t3-s3-uspf-platform",
+    "new:tB-B-dloc-letter",
+    "new:tB-B-dloc-waivercols",
+    "new:tB-B-dloc-waiverexp"
    ],
    "evidence_strength": "moderate"
   },
@@ -1984,14 +2252,15 @@
     "Payment facilitators and ISOs"
    ],
    "move": "Turn the networks' agreed retest rules into a check. The partner describes a change and sees whether it is minor, needs internal regression or needs network testing.",
-   "why_advantage": "The rules are published as a forum FAQ with no interactive check. Retest triggers and multiplied certifications are named friction points.",
+   "why_advantage": "The rules are published as a forum FAQ with no interactive check. Retest triggers and multiplied certifications are named friction points. Discover's request form already lists the events that trigger terminal recertification, which gives the check a ready rule set.",
    "ids": [
     "new:t3-s3-uspf-atmminor",
     "new:t3-s3-uspf-portfolio",
     "new:t3-s3-uspf-switch",
     "new:t3-s3-uspf-biannual",
     "new:t3-s3-eps-mult",
-    "new:t3-s3-vai-90"
+    "new:t3-s3-vai-90",
+    "new:tB-B-dloc-triggers"
    ],
    "evidence_strength": "moderate"
   },
@@ -2002,14 +2271,15 @@
     "Fintechs and programme managers"
    ],
    "move": "Show which clients inherit a processor's certification and which need their own tests. Let a client accept a processor registration without re-entering it.",
-   "why_advantage": "Visa registers an agent separately per acquirer, while Mastercard's Modular M-TIP and Product Express show reuse works.",
+   "why_advantage": "Visa registers an agent separately per acquirer, while Mastercard's Modular M-TIP and Product Express show reuse works. Thredd's standard token set-up needs no network testing by clients, which shows inheritance already working at processor level.",
    "ids": [
     "new:t3-s3-visa-tpa-peracq",
     "new:t3-s3-uspf-modular",
     "mastercard-408",
     "new:t3-s3-uspf-dindirect",
     "mastercard-274",
-    "dgn-270"
+    "dgn-270",
+    "new:tB-B-thr-notest"
    ],
    "evidence_strength": "moderate"
   },
@@ -3481,6 +3751,882 @@
    "published": "2023-09-29",
    "label": "Reported",
    "fetch": "curl desktop Chrome UA and pypdf, 2026-09-26"
+  },
+  {
+   "key": "tB-B-vnao-keys",
+   "network": "visa",
+   "claim": "VCMS testing uses Visa-provided or endpoint-provided acquirer working keys.",
+   "quote": "Acquirers must use Visa-provided AWK or endpoint-provided AWK for testing in VisaNet Certification Management Service (VCMS).",
+   "url": "https://pdfcoffee.com/visanet-authorization-only-online-messages-technical-specifications-volume-1-3-pdf-free.html",
+   "title": "VisaNet Authorization-Only Online Messages Technical Specifications, Volume 1 (1 June 2020)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-enrol",
+   "network": "visa",
+   "claim": "Enrolment in optional V.I.P. services varies by region.",
+   "quote": "Service enrollment processes differ for each region.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-profile",
+   "network": "mastercard",
+   "claim": "Issuer test cases are set per business profile for testing and validation of the issuer application.",
+   "quote": "test cases applicable to the Issuer Mastercard and Debit Mastercard business profile during individual application testing and validation",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-forms",
+   "network": "cross",
+   "claim": "After sign-up, the Visa or Mastercard project manager sends documents for completion.",
+   "quote": "your assigned Visa/Mastercard project manager or contact will send you a number of documents for completion.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-dor-scripts",
+   "network": "dgn",
+   "claim": "Discover sent detailed certification requirements such as test scripts with new releases.",
+   "quote": "we may notify you and your Merchant Processor of detailed Certification requirements (e.g., Certification test scripts)",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-b1-atm",
+   "network": "visa",
+   "claim": "The Visa Global ATM Planning Guide includes certification procedures for the ATM programme.",
+   "quote": "It includes an overview of the program, its business requirements, optional services, risk management, processing options, certification procedures, and back-office management.",
+   "url": "https://idoc.pub/documents/vip-system-base-i-technical-specifications-volume-ii-qn85836r0kn1",
+   "title": "V.I.P. System BASE I Technical Specifications, Volume 2 (effective 1 June 2011)",
+   "publisher": "Visa (third-party upload to idoc.pub)",
+   "published": "2011-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible full text, 2026-09-27. Marked Visa Confidential. Posted on idoc.pub by a third-party uploader, no login needed. The same edition is open on kupdf.net."
+  },
+  {
+   "key": "tB-B-dor-destroy",
+   "network": "dgn",
+   "claim": "Expired test cards had to be destroyed and the destruction certified in writing.",
+   "quote": "certify such destruction to us in writing",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vts-ciq",
+   "network": "visa",
+   "claim": "Acquirers complete a Client Information Questionnaire with Visa staff to implement the token service.",
+   "quote": "acquirers should work closely with Visa staff to complete the Client Information Questionnaire (CIQ).",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dcid-decision",
+   "network": "dgn",
+   "claim": "The relationship manager relays Discover's enrolment decision.",
+   "quote": "Relationship Managers or Account Executives will notify Merchants of Discover Network’s enrollment decisions.",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Card_Present_CID_Guide.pdf",
+   "title": "Card Present CID Program Merchant Implementation Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2009",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Hosted on a Discover domain, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-certtype",
+   "network": "dgn",
+   "claim": "The letter records whether the work was full certification or recertification.",
+   "quote": "Certification Type Full Certification Recertification",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-thr-pif",
+   "network": "visa",
+   "claim": "Visa's token documents include a Program Information Form and a CIQ.",
+   "quote": "Visa Token Service Program Information Form (PIF)",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-dcid-exception",
+   "network": "dgn",
+   "claim": "Discover must approve any exception to the Authorization Interface before approving participation.",
+   "quote": "Exceptions to compliance with the Authorization Interface must be approved by Discover Network before Discover Network will approve participation",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Card_Present_CID_Guide.pdf",
+   "title": "Card Present CID Program Merchant Implementation Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2009",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Hosted on a Discover domain, no login needed."
+  },
+  {
+   "key": "tB-B-vts-validates",
+   "network": "visa",
+   "claim": "Attended testing covers authorisations, clearing and settlement, and exception processing.",
+   "quote": "Visa validates the following key messages and services between Visa and the acquirer:",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-passimpl",
+   "network": "visa",
+   "claim": "Only acquirers that pass testing may implement the Visa Token Service.",
+   "quote": "Acquirers that have successfully completed testing may implement the Visa Token Service.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-tric",
+   "network": "mastercard",
+   "claim": "The Testing Reference Information Center document set says when each case is run.",
+   "quote": "The following manuals in the Testing Reference Information Center (TRIC) document set provide references to these test cases",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-switch",
+   "network": "dgn",
+   "claim": "Moving from a direct link to a processor, or changing processor, required certification.",
+   "quote": "You must obtain Certification from us if you change from the use of a direct electronic link to the use of a Merchant Processor",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-thr-psf",
+   "network": "cross",
+   "claim": "The processor needs its own Digital Wallet Product Set Up Form.",
+   "quote": "You must complete the GPS Digital Wallet Product Set Up Form (PSF) to confirm your tokenisation service configuration options.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-dcid-docs",
+   "network": "dgn",
+   "claim": "Programme documents are obtained from the relationship manager or account executive.",
+   "quote": "Contact your Relationship Manager or Account Executive to receive your copy of any of the documents listed above.",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Card_Present_CID_Guide.pdf",
+   "title": "Card Present CID Program Merchant Implementation Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2009",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Hosted on a Discover domain, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-count",
+   "network": "dgn",
+   "claim": "The form asks how many terminals will be deployed.",
+   "quote": "Total number of terminals to be deployed",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dor-settle",
+   "network": "dgn",
+   "claim": "A processor had to be certified before settling to merchants.",
+   "quote": "Before performing Settlement Services, you shall obtain Certification of your ability to perform the Settlement Services from us.",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-cis-cirrus",
+   "network": "mastercard",
+   "claim": "Cirrus forwards balance inquiries only to issuers certified to receive them.",
+   "quote": "It forwards Balance Inquiry requests only to issuers who are certified for receipt.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-notify",
+   "network": "visa",
+   "claim": "Issuer centres must tell Visa well in advance of any change to processing requirements or parameters.",
+   "quote": "Issuer centers must establish procedures for notifying Visa, well in advance, whenever any processing requirements or parameters change.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-obkm",
+   "network": "mastercard",
+   "claim": "The issuer names the account range each M/Chip service will support.",
+   "quote": "Issuers must contact MasterCard and identify the account range that the service will support.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-b1-pin",
+   "network": "visa",
+   "claim": "BASE I rejects a PIN message from a source station not certified for PIN processing.",
+   "quote": "The message contains a PIN but the Source Station ID is not certified for PIN processing.",
+   "url": "https://idoc.pub/documents/vip-system-base-i-technical-specifications-volume-ii-qn85836r0kn1",
+   "title": "V.I.P. System BASE I Technical Specifications, Volume 2 (effective 1 June 2011)",
+   "publisher": "Visa (third-party upload to idoc.pub)",
+   "published": "2011-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible full text, 2026-09-27. Marked Visa Confidential. Posted on idoc.pub by a third-party uploader, no login needed. The same edition is open on kupdf.net."
+  },
+  {
+   "key": "tB-B-dor-links",
+   "network": "dgn",
+   "claim": "Every merchant and processor data link had to be certified before use.",
+   "quote": "All Merchant and Merchant Processor Data Links to us must be Certified by us prior to any use",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-expansion",
+   "network": "dgn",
+   "claim": "An expansion section covers Discover Debit, JCB, UnionPay, Quick Chip and online PIN.",
+   "quote": "Expansion Certification Type",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dor-chip",
+   "network": "dgn",
+   "claim": "Chip acceptance required prior certification.",
+   "quote": "Before you accept a Chip Card Transaction, you must obtain Certification from us of your ability to support Chip Card Transactions.",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-cis-notify",
+   "network": "mastercard",
+   "claim": "Mastercard notifies each acquirer before activating a chip format edit.",
+   "quote": "MasterCard will notify each acquirer before activating an edit.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-waivercols",
+   "network": "dgn",
+   "claim": "Each waiver row gives the excluded case, rationale, reference number and expiry date.",
+   "quote": "Test Case Excluded Rationale Waiver Reference Number and Expiration Date",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dor-rewrite",
+   "network": "dgn",
+   "claim": "A systems rewrite or large-scale change by a merchant or its processor required recertification.",
+   "quote": "If you or your Merchant Processor experiences a systems rewrite or large scale change, you must Certify these new systems with us.",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vts-attended",
+   "network": "visa",
+   "claim": "Acquirers must pass attended testing with the Visa Global Client Testing team.",
+   "quote": "Acquirers are required to successfully complete attended testing with the Visa Global Client Testing team to participate in the Visa Token Service.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-quickchip",
+   "network": "dgn",
+   "claim": "The form asks whether the certification is standard EMV or Discover Quick Chip.",
+   "quote": "Is this a Standard EMV or Discover Quick Chip certification?",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dloc-triggers",
+   "network": "dgn",
+   "claim": "The form lists the events that require terminal end-to-end certification, such as a new or changed kernel or payment application.",
+   "quote": "Discover Network Acquirer Terminal End-to-End Certification is required when one or combination of the following events occurs:",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-vipov-params",
+   "network": "visa",
+   "claim": "The issuer centre supplies Visa with all processing parameters, including routing, PIN and CVV checks and stand-in decisions.",
+   "quote": "The issuer center or the issuer itself must provide Visa with all of the processing parameters that the V.I.P. System is to use",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-recurring",
+   "network": "dgn",
+   "claim": "Recurring payment data required certification before first submission.",
+   "quote": "you must contact us to obtain Certification from us before you submit Sales Data related to a Recurring Payments Plan",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vts-rcsr",
+   "network": "visa",
+   "claim": "The acquirer opens the project through its regional client support representative.",
+   "quote": "Contact your regional client support representative to initiate a new project.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-scope",
+   "network": "dgn",
+   "claim": "Waivers and exclusions apply only to terminal end-to-end certification.",
+   "quote": "such Waivers and Test Case Exclusions are applicable only to the End-to-End terminal Certification requirements",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dcid-release",
+   "network": "dgn",
+   "claim": "Participating merchants must stay on the most current Authorization Interface release.",
+   "quote": "Maintain compliance with the most current release of Authorization Interface of the Technical Specifications.",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Card_Present_CID_Guide.pdf",
+   "title": "Card Present CID Program Merchant Implementation Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2009",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Hosted on a Discover domain, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-projref",
+   "network": "dgn",
+   "claim": "A recertification letter references the project ID of the original certification.",
+   "quote": "Reference to Project ID of the original D-PAS certification (if applicable)",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-cis-biatm",
+   "network": "mastercard",
+   "claim": "Issuers joining ATM balance inquiry request certification from the Customer Operations Services team.",
+   "quote": "Issuers that participate in this service must request certification from the Customer Operations Services team.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-b1-loopback",
+   "network": "visa",
+   "claim": "VCMS test stations pair through loopback router sign-on and are rejected if they try to pair with a production station.",
+   "quote": "attempted to establish a loopback partnership with a production station",
+   "url": "https://idoc.pub/documents/vip-system-base-i-technical-specifications-volume-ii-qn85836r0kn1",
+   "title": "V.I.P. System BASE I Technical Specifications, Volume 2 (effective 1 June 2011)",
+   "publisher": "Visa (third-party upload to idoc.pub)",
+   "published": "2011-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible full text, 2026-09-27. Marked Visa Confidential. Posted on idoc.pub by a third-party uploader, no login needed. The same edition is open on kupdf.net."
+  },
+  {
+   "key": "tB-B-dloc-colours",
+   "network": "dgn",
+   "claim": "Form cells are colour-coded, with red for wrong entries and orange for unexpected values.",
+   "quote": "red = wrongly filled out",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-cis-chiplevel",
+   "network": "mastercard",
+   "claim": "An Acquirer Chip Testing Level on Mastercard's side decides whether an acquirer may send chip transactions.",
+   "quote": "Acquirer Chip Testing Level associated with the acquirer indicates the acquirer is not permitted to send chip transactions",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-prereq",
+   "network": "mastercard",
+   "claim": "Contactless chip validation requires prior contact chip validation.",
+   "quote": "If customers intend to support contactless ICC-based operations, they must have been previously validated for upgrade to contact ICC-based operations.",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-custinfo",
+   "network": "dgn",
+   "claim": "Customer details on the form, including platform, merchants and VAR or gateway, are printed on the letter.",
+   "quote": "Customer Information (to be presented on Letter of Certification)",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dloc-deploy",
+   "network": "dgn",
+   "claim": "Corrections to the letter go to the D-PAS Deployment Manager.",
+   "quote": "Please contact your D-PAS Deployment Manager if any of the information in this Letter is incorrect.",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-vipov-certify",
+   "network": "visa",
+   "claim": "Visa tests and certifies each processing centre before it may use the V.I.P. System.",
+   "quote": "Visa must test and certify centers’ message processing capabilities before they can use the V.I.P. System.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-posbi",
+   "network": "mastercard",
+   "claim": "POS balance inquiry participation starts with a form to Customer Operations Services.",
+   "quote": "issuers must submit the Point-of-Sale (POS) Balance Inquiry Participation form to Customer Operations Services.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dcid-enrol",
+   "network": "dgn",
+   "claim": "Eligible merchants send a programme enrolment request to their relationship manager or account executive.",
+   "quote": "Eligible Merchants may submit an enrollment request to their Relationship Manager or Account Executive.",
+   "url": "https://servicecenter.discovernetwork.com/accountcenter/pdf/Card_Present_CID_Guide.pdf",
+   "title": "Card Present CID Program Merchant Implementation Guide",
+   "publisher": "DFS Services LLC (Discover Network)",
+   "published": "2009",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. No confidentiality marking seen. Hosted on a Discover domain, no login needed."
+  },
+  {
+   "key": "tB-B-vts-project",
+   "network": "visa",
+   "claim": "Implementing the Visa Token Service needs a separate acquirer project.",
+   "quote": "A separate project is required to implement the Visa Token Service.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-determine",
+   "network": "dgn",
+   "claim": "The form's answers decide which test cases are assigned.",
+   "quote": "The information submitted on this form will determine the test cases assigned during certification.",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-cis-mchip",
+   "network": "mastercard",
+   "claim": "Issuers sign up for and test M/Chip processing services through a Customer Implementation Services specialist.",
+   "quote": "Issuers should contact their Customer Implementation Services specialist to sign-up and test the M/Chip Processing services.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vnao-activate",
+   "network": "visa",
+   "claim": "An acquirer not activated for a response code receives a generic decline code instead.",
+   "quote": "V.I.P. converts this code to 05 (Do not honor), if an acquirer is not activated to receive this code.",
+   "url": "https://pdfcoffee.com/visanet-authorization-only-online-messages-technical-specifications-volume-1-3-pdf-free.html",
+   "title": "VisaNet Authorization-Only Online Messages Technical Specifications, Volume 1 (1 June 2020)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-monitor",
+   "network": "visa",
+   "claim": "During certification the centre sends and receives test messages while Visa monitors every message type.",
+   "quote": "Visa monitors the transactions to ensure that the processing center is able to process all message types correctly.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-waiverexp",
+   "network": "dgn",
+   "claim": "The sample waiver carried a fixed expiry date.",
+   "quote": "valid until 10/31/2017",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dloc-letter",
+   "network": "dgn",
+   "claim": "The Letter of Certification lists waivers granted during D-PAS Terminal End-to-End Certification.",
+   "quote": "The following waivers were granted as part of D-PAS Terminal End-to-End Certification:",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-vipov-guides",
+   "network": "visa",
+   "claim": "Region-specific implementation guides for each service come from the member's Visa representative.",
+   "quote": "Members can ask their Visa representatives for regional guides.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-rts",
+   "network": "mastercard",
+   "claim": "Real-time substantiation needs a participation form sent to the COS representative.",
+   "quote": "completing the Real-time Substantiation Participation form and providing the form to their Customer Operations Services (COS) representative",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-pcr",
+   "network": "visa",
+   "claim": "Participation requirements and PCR activation in the VisaNet Systems Tables go through the regional client support representative.",
+   "quote": "For acquirer participation requirements and PCR activation in the VisaNet Systems Tables, contact your regional client support representative.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-rcsr2",
+   "network": "visa",
+   "claim": "The Regional Client Support Representative is the primary regional contact for VisaNet systems support.",
+   "quote": "This is your organization’s primary regional contact for VisaNet systems support.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-rtr",
+   "network": "visa",
+   "claim": "A separate Regional Testing Representative is the contact for testing support.",
+   "quote": "This is your organization’s regional contact for testing support.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-b1-code90",
+   "network": "visa",
+   "claim": "BASE I rejects an entry mode the acquirer station is not certified to use.",
+   "quote": "acquirer station not certified to use code 90",
+   "url": "https://idoc.pub/documents/vip-system-base-i-technical-specifications-volume-ii-qn85836r0kn1",
+   "title": "V.I.P. System BASE I Technical Specifications, Volume 2 (effective 1 June 2011)",
+   "publisher": "Visa (third-party upload to idoc.pub)",
+   "published": "2011-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible full text, 2026-09-27. Marked Visa Confidential. Posted on idoc.pub by a third-party uploader, no login needed. The same edition is open on kupdf.net."
+  },
+  {
+   "key": "tB-B-mtc-sms",
+   "network": "mastercard",
+   "claim": "The test case book has a chapter for single message issuers alongside the dual message chapters.",
+   "quote": "Chapter 4: Single Message—Issuer Mastercard and Debit Mastercard",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-owner",
+   "network": "cross",
+   "claim": "The programme manager owns the token project and manages every party.",
+   "quote": "Essentially, you are the owner of the project and need to manage all parties involved in the setup of the service",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-sim",
+   "network": "mastercard",
+   "claim": "Each case shows whether testing is recommended or available on the simulator and in MTF.",
+   "quote": "Where it appears in a SIM or MTF column, indicates testing is recommended for that environment.",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dloc-crf",
+   "network": "dgn",
+   "claim": "A request form is completed for each combination of kernel, payment application and terminal-to-acquirer interface.",
+   "quote": "Complete this form for each unique combination of terminal kernel, payment application, and terminal-to-acquirer interface.",
+   "url": "https://www.c9pg.com/cert/EMV/TSYS/Telium2%20LOA/E2E_20151218_201601023_LOC_E_Final.pdf",
+   "title": "D-PAS Terminal End-to-End Letter of Certification, with Acquirer Terminal E2E Certification Request Form DN v7.2 (letter dated 10 October 2017)",
+   "publisher": "Discover Network (posted by Cloud9 Payment Gateway)",
+   "published": "2017-10-10",
+   "label": "Verified",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. The letter says agreement confidentiality obligations apply to it. Openly posted by a payment gateway named on the form, no login needed. Personal contact details on the form were not used."
+  },
+  {
+   "key": "tB-B-dor-notall",
+   "network": "dgn",
+   "claim": "Certification did not test every rule, so noncompliance fees could still apply.",
+   "quote": "Certification does not test compliance with each provision of the Program Documents",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vnao-vtskeys",
+   "network": "visa",
+   "claim": "The Visa Test System needs Visa-provided test encryption keys in its configuration.",
+   "quote": "Acquirers that use Visa Test System (VTS-V.I.P.) must use Visa-provided test encryption keys in their VTS-V.I.P. configuration.",
+   "url": "https://pdfcoffee.com/visanet-authorization-only-online-messages-technical-specifications-volume-1-3-pdf-free.html",
+   "title": "VisaNet Authorization-Only Online Messages Technical Specifications, Volume 1 (1 June 2020)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-testcard",
+   "network": "dgn",
+   "claim": "An authorised officer signed an acknowledgement form on receiving test cards.",
+   "quote": "You must have an authorized officer sign and return to us the accompanying acknowledgement form upon receipt of the test Cards.",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-thr-bpms",
+   "network": "mastercard",
+   "claim": "Mastercard's token document is a BPMS Parameter Worksheet.",
+   "quote": "MasterCard BPMS guide (Parameter Worksheet)",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-upgrade",
+   "network": "mastercard",
+   "claim": "An issuer already validated for magnetic stripe runs only the chip cases when upgrading.",
+   "quote": "only those test cases provided in the Test Cases—ICC-based Operations section must be conducted",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-b1-exhibitk",
+   "network": "visa",
+   "claim": "Visa host specifications are for clients, non-client processors with a valid Exhibit K on file, and NDA holders.",
+   "quote": "non-Client Third Party Processors that have an executed and valid Exhibit K on file with Visa",
+   "url": "https://idoc.pub/documents/vip-system-base-i-technical-specifications-volume-ii-qn85836r0kn1",
+   "title": "V.I.P. System BASE I Technical Specifications, Volume 2 (effective 1 June 2011)",
+   "publisher": "Visa (third-party upload to idoc.pub)",
+   "published": "2011-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible full text, 2026-09-27. Marked Visa Confidential. Posted on idoc.pub by a third-party uploader, no login needed. The same edition is open on kupdf.net."
+  },
+  {
+   "key": "tB-B-thr-notest",
+   "network": "cross",
+   "claim": "Clients on Thredd's standard token service need no testing with Visa or Mastercard.",
+   "quote": "Testing with Visa and Mastercard is not required if you are using the out of the box tokenisation service provided by GPS.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
   }
  ],
  "stage_id": "3"

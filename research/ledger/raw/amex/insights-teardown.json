@@ -2524,6 +2524,19 @@
    "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked FISERV CONFIDENTIAL. Openly posted on a bank website, no login needed.",
    "accessed": "2026-09-27",
    "note": "Added by the insight work (teardown), accessed 2026-09-27. "
+  },
+  {
+   "dimension": "insights",
+   "claim": "Fiserv shows no exception stages for American Express.",
+   "quote": "American Express No Exceptions Apply",
+   "url": "https://www.hancockwhitney.com/hubfs/Merchant%20Dispute%20Guide%20Nov%202024.pdf",
+   "title": "Dispute Best Practices: A merchant's user guide to help manage disputes (October 2024)",
+   "publisher": "Fiserv, posted by Hancock Whitney Bank",
+   "published": "2024-10",
+   "label": "Reported",
+   "fetch": "curl and pypdf, 2026-09-27. Every page is marked Fiserv Confidential. Posted openly on hancockwhitney.com by the bank, no login.",
+   "accessed": "2026-09-27",
+   "note": "Added by the insight work (teardown), accessed 2026-09-27. "
   }
  ]
 }

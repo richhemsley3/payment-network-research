@@ -20,7 +20,7 @@
    ]
   },
   {
-   "text": "The ISO 8583 host specifications that acquirers build to are confidential at all four networks. They sit behind Visa Online, Mastercard Connect, the Amex Knowledge Base or EASI.",
+   "text": "The ISO 8583 host specifications that acquirers build to are marked confidential at all four networks. The networks distribute them behind Visa Online, Mastercard Connect, the Amex Knowledge Base or EASI.",
    "ids": [
     "new:t4-s4-visa-rules-conf",
     "new:t4-s4-mc-rules-cis",
@@ -682,6 +682,19 @@
        "ids": [
         "visa-433"
        ]
+      },
+      {
+       "text": "Each Visa guide names the Business Enhancements release it reflects. Changes arrive through Global Technical Letters and Implementation Guides.",
+       "ids": [
+        "new:tB-B-vts-rel",
+        "new:tB-B-vts-gtl"
+       ]
+      },
+      {
+       "text": "A centre must sign off from VisaNet whenever its authorisation system is down.",
+       "ids": [
+        "new:tB-B-vipov-signoff"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -699,6 +712,13 @@
        "what_it_shows": "Approval Services Portal and Tap to Phone Certification Portal for chip product testing.",
        "ids": [
         "visa-180"
+       ]
+      },
+      {
+       "name": "Visa testing guides",
+       "what_it_shows": "Client versions of the VCMS V.I.P. Testing Guide, VCMS Testing Guide for BASE II and VisaNet Testing Guide.",
+       "ids": [
+        "new:tB-B-vts-guides"
        ]
       }
      ],
@@ -719,6 +739,18 @@
        "text": "Visa Ready Tap to Phone certification takes 6 to 12 months with lab costs of USD 50,000 or more, by Visa's own account.",
        "ids": [
         "visa-024"
+       ]
+      },
+      {
+       "text": "Key exchange fails unless Visa lists the institution as a Dynamic Key Exchange participant.",
+       "ids": [
+        "new:tB-B-vnao-dke"
+       ]
+      },
+      {
+       "text": "A first subscription to an optional file such as the enhanced TC 33 capture file triggers full implementation activities.",
+       "ids": [
+        "new:tB-B-vts-tc33"
        ]
       }
      ]
@@ -765,6 +797,21 @@
        "ids": [
         "mastercard-425"
        ]
+      },
+      {
+       "text": "File Express is ordered in the Connect Store. The company's Security Administrator approves, then Mastercard, and each user needs a SecurID.",
+       "ids": [
+        "new:tB-B-mfe-order",
+        "new:tB-B-mfe-securid"
+       ]
+      },
+      {
+       "text": "The CIS is reissued with a summary of changes since the last edition. Changes carry release names such as 10.2 or 19.Q2.",
+       "ids": [
+        "new:tB-B-cis-release",
+        "new:tB-B-cis19-summary",
+        "new:tB-B-cis19-release"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -789,6 +836,22 @@
        "ids": [
         "mastercard-318"
        ]
+      },
+      {
+       "name": "File Express Client",
+       "what_it_shows": "Windows application for production and test file exchange, with separate MTF hosts, archive retrieval and a transfer log by endpoint and bulk type.",
+       "ids": [
+        "new:tB-B-mfe-exchange",
+        "new:tB-B-mfe-mtf",
+        "new:tB-B-mfe-log"
+       ]
+      },
+      {
+       "name": "File Express file profile",
+       "what_it_shows": "Mastercard-held list of the endpoints and bulk types each licensed user may exchange.",
+       "ids": [
+        "new:tB-B-mfe-profile"
+       ]
       }
      ],
      "friction": [
@@ -803,6 +866,18 @@
        "ids": [
         "mastercard-407",
         "mastercard-408"
+       ]
+      },
+      {
+       "text": "Readers find specification changes by searching the PDF for *chg* markers.",
+       "ids": [
+        "new:tB-B-cis-chg"
+       ]
+      },
+      {
+       "text": "Hosts must process new DE 48 subelements that Mastercard has not announced.",
+       "ids": [
+        "new:tB-B-cis-unannounced"
        ]
       }
      ]
@@ -917,6 +992,21 @@
         "pulse-007",
         "pulse-006"
        ]
+      },
+      {
+       "text": "In 2011 Discover posted its Technical Specifications on its website. Updates came each April and October with at least 30 days' notice.",
+       "ids": [
+        "new:tB-B-dor-techweb",
+        "new:tB-B-dor-release",
+        "new:tB-B-dor-30d"
+       ]
+      },
+      {
+       "text": "Data links had to be redundant, and planned maintenance needed 72 hours' notice.",
+       "ids": [
+        "new:tB-B-dor-redundant",
+        "new:tB-B-dor-72h"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -940,6 +1030,13 @@
        "what_it_shows": "Shows certification results to the acquirer immediately.",
        "ids": [
         "dgn-198"
+       ]
+      },
+      {
+       "name": "Third-party Discover AI tools",
+       "what_it_shows": "A tooling site offers a Discover Authorization Interface message parser and host simulator, built on ISO 8583-1987.",
+       "ids": [
+        "new:tB-B-isod-sim"
        ]
       }
      ],
@@ -1068,6 +1165,27 @@
        "ids": [
         "mastercard-328",
         "mastercard-036"
+       ]
+      },
+      {
+       "text": "Transit systems integrators join the Transit Partner Program and receive Mastercard documents after signing the Transit Partner Agreement.",
+       "ids": [
+        "new:tB-B-gtig-tp",
+        "new:tB-B-gtig-tpa"
+       ]
+      },
+      {
+       "text": "The Customer Delivery team leads transit projects. The plan covers payment model, suppliers, risk parameters, message data, testing and certification, and milestones.",
+       "ids": [
+        "new:tB-B-gtig-cdt",
+        "new:tB-B-gtig-plan"
+       ]
+      },
+      {
+       "text": "Terminal vendors start design review early and receive a Letter of Approval after contactless type approval.",
+       "ids": [
+        "new:tB-B-gtig-review",
+        "new:tB-B-gtig-loa"
        ]
       }
      ],
@@ -1260,6 +1378,13 @@
         "new:t4-s4-mc-mdescs-steps",
         "mastercard-242"
        ]
+      },
+      {
+       "text": "Issuer files use separate bulk IDs for MTF and production. A Customer Implementation Services specialist sets up each new file.",
+       "ids": [
+        "new:tB-B-cis-mtfbulk",
+        "new:tB-B-cis-cisfile"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -1277,6 +1402,12 @@
        "text": "Test evidence travels as a spreadsheet by email.",
        "ids": [
         "new:t4-s4-mc-mdes-excel"
+       ]
+      },
+      {
+       "text": "The issuer test case book is reissued with a change summary, so an issuer must recheck which cases apply.",
+       "ids": [
+        "new:tB-B-mtc-summary"
        ]
       }
      ]
@@ -1491,6 +1622,25 @@
         "visa-019",
         "visa-163"
        ]
+      },
+      {
+       "text": "Thredd sets out five steps: sign up with the network, complete its forms, configure the processor, test, then finish wallet certification.",
+       "ids": [
+        "new:tB-B-thr-steps"
+       ]
+      },
+      {
+       "text": "Visa and the processor exchange JWE and JWS public certificates during the implementation project.",
+       "ids": [
+        "new:tB-B-thr-keys"
+       ]
+      },
+      {
+       "text": "Visa sends Thredd 100 to 200 new token requestor updates a month, and Thredd applies them without client input.",
+       "ids": [
+        "new:tB-B-thr-trupd",
+        "new:tB-B-thr-noinput"
+       ]
       }
      ],
      "tools_and_screens": [
@@ -1525,6 +1675,12 @@
        "ids": [
         "mastercard-265"
        ]
+      },
+      {
+       "text": "For MDES a programme manager can add a phone to MTF, which connects to Thredd's test environment.",
+       "ids": [
+        "new:tB-B-thr-mtf"
+       ]
       }
      ],
      "tools_and_screens": [],
@@ -1533,6 +1689,18 @@
        "text": "Networks send processors change documents four times a year.",
        "ids": [
         "new:t4-s4-marqeta-quarterly"
+       ]
+      },
+      {
+       "text": "Thredd's standard token set-up needs no network testing, while custom features need a separate processor project.",
+       "ids": [
+        "new:tB-B-thr-notest"
+       ]
+      },
+      {
+       "text": "Many Thredd clients test in production instead of wiring up network test services.",
+       "ids": [
+        "new:tB-B-thr-prod"
        ]
       }
      ]
@@ -1856,7 +2024,7 @@
     "token requestors"
    ],
    "move": "Generate the case list from the partner's stated configuration, collect results in the portal, and show who owns each step.",
-   "why_advantage": "Mastercard's MDES asks for an Excel file by email and Discover's forms come from a manager. UnionPay already links tests and confirmations in one project.",
+   "why_advantage": "Mastercard's MDES asks for an Excel file by email and Discover's forms come from a manager. UnionPay already links tests and confirmations in one project. Mastercard's issuer case tables already mark each case for simulator or MTF, which a record could turn into a checklist.",
    "ids": [
     "new:t4-s4-mc-mdes-excel",
     "new:t4-s4-uspf-dgn-forms",
@@ -1864,7 +2032,9 @@
     "unionpay-041",
     "unionpay-042",
     "dgn-198",
-    "dgn-200"
+    "dgn-200",
+    "new:tB-B-mtc-sim",
+    "new:tB-B-mtc-profile"
    ],
    "evidence_strength": "strong"
   },
@@ -1893,7 +2063,7 @@
     "issuers"
    ],
    "move": "Serve the host specification to entitled users as searchable pages with a per-release change list, and publish a public field map for feasibility.",
-   "why_advantage": "All four networks gate specs as manuals, while Mastercard shows a public mapping works. Processors staff teams to turn releases into requirements.",
+   "why_advantage": "All four networks gate specs as manuals, while Mastercard shows a public mapping works. Processors staff teams to turn releases into requirements. Mastercard marks changes with *chg* tags found by PDF search, and Discover posted specifications on its website in 2011.",
    "ids": [
     "new:t4-s4-visa-rules-conf",
     "new:t4-s4-mc-rules-cis",
@@ -1901,7 +2071,9 @@
     "dgn-164",
     "mastercard-425",
     "new:t4-s4-stripe-tpam",
-    "amex-251"
+    "amex-251",
+    "new:tB-B-cis-chg",
+    "new:tB-B-dor-techweb"
    ],
    "evidence_strength": "moderate"
   },
@@ -2842,6 +3014,498 @@
    "published": "n.d.",
    "label": "Vendor",
    "fetch": "node tools/text.js, re-verified 2026-09-26"
+  },
+  {
+   "key": "tB-B-thr-trupd",
+   "network": "visa",
+   "claim": "Thredd receives 100 to 200 new token requestor updates a month from Visa.",
+   "quote": "GPS receives around 100-200 new Token Requestor updates a month from Visa.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-profile",
+   "network": "mastercard",
+   "claim": "Issuer test cases are set per business profile for testing and validation of the issuer application.",
+   "quote": "test cases applicable to the Issuer Mastercard and Debit Mastercard business profile during individual application testing and validation",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-rel",
+   "network": "visa",
+   "claim": "The guide states the Business Enhancements release its content reflects.",
+   "quote": "The technical, implementation, and testing information provided in this document consists of changes up through the April 2017 Business Enhancements Release.",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-securid",
+   "network": "mastercard",
+   "claim": "File Express users need a SecurID token.",
+   "quote": "Users must have a SecurID® to use File Express Client.",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-redundant",
+   "network": "dgn",
+   "claim": "Data links to Discover had to be redundant.",
+   "quote": "The Data Links you establish to us must be redundant",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-dor-release",
+   "network": "dgn",
+   "claim": "Rule and specification updates could be released each April and October and in between.",
+   "quote": "may be released every April and October and on an interim basis as we deem appropriate",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-dor-techweb",
+   "network": "dgn",
+   "claim": "In 2011 Discover made Technical Specifications available on its website.",
+   "quote": "We will make Technical Specifications available to you on our Web site at DiscoverNetwork.com periodically during the term of your Agreement.",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-cis19-summary",
+   "network": "mastercard",
+   "claim": "The April 2019 CIS summarises changes since the October 2018 edition.",
+   "quote": "This document reflects changes since the 9 October 2018 publication.",
+   "url": "https://pdfcoffee.com/customerinterfacespecificationpdf-pdf-free.html",
+   "title": "Customer Interface Specification (9 April 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-04-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Only a partial preview is open, and only that part was used. Mastercard proprietary document. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-review",
+   "network": "mastercard",
+   "claim": "Mastercard urges terminal vendors to start design review early in development.",
+   "quote": "Mastercard highly recommends terminal vendors to start the terminal design review early in the product development phase.",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-unannounced",
+   "network": "mastercard",
+   "claim": "Hosts must handle new DE 48 subelements that Mastercard has not announced.",
+   "quote": "MasterCard requires members to be able to successfully process various online messages that may contain new unannounced DE 48 subelements.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-order",
+   "network": "mastercard",
+   "claim": "File Express is ordered in the Connect Store, approved by the Security Administrator, then approved by Mastercard.",
+   "quote": "After the appropriate Security Administrator approves the order, it is routed to Mastercard for processing.",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vts-tc33",
+   "network": "visa",
+   "claim": "First-time subscribers to the enhanced TC 33 Acquirer Capture File need full implementation activities.",
+   "quote": "Acquirers that choose to subscribe to the TC 33 enhanced Acquirer Capture File for the first time will require full implementation activities",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-profile",
+   "network": "mastercard",
+   "claim": "A file profile held by Mastercard lists the endpoints and bulk types each user may exchange.",
+   "quote": "includes the list of endpoints that the user is authorized to access and the list of bulk types",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-log",
+   "network": "mastercard",
+   "claim": "A transfer log report shows each transfer's time, result, endpoint, bulk type and failure reason.",
+   "quote": "The transfer log report includes the transfer date and time, if the transfer was successful or unsuccessful",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-prod",
+   "network": "cross",
+   "claim": "Many Thredd clients prefer to test in production.",
+   "quote": "Many GPS clients prefer to complete tests in the production environment.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-thr-keys",
+   "network": "visa",
+   "claim": "Public JWE and JWS certificates are shared between Thredd and Visa during the implementation project.",
+   "quote": "The public certificates of these keys will be shared between GPS and Visa during the implementation project.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-exchange",
+   "network": "mastercard",
+   "claim": "The client moves production and test files between Mastercard and the customer host.",
+   "quote": "Exchange (download and upload) production and test files between Mastercard and your host.",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-isod-sim",
+   "network": "dgn",
+   "claim": "A third-party site offers a Discover Authorization Interface message parser and host simulator.",
+   "quote": "Discover AI host simulator",
+   "url": "https://iso8583.info/lib/DFS/AI/",
+   "title": "Discover Authorization Interface Technical Specifications at iso8583.info",
+   "publisher": "iso8583.info",
+   "published": "n.d.",
+   "label": "Vendor",
+   "fetch": "curl and HTML text extraction, 2026-09-27. Library page open without login. Third-party tooling site."
+  },
+  {
+   "key": "tB-B-thr-steps",
+   "network": "cross",
+   "claim": "Thredd gives five indicative steps to enable tokenisation: sign up, forms, processor set-up, testing and wallet certification.",
+   "quote": "This section provides an indicative guide to the steps that you need to complete to enable the tokenisation service",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-mfe-mtf",
+   "network": "mastercard",
+   "claim": "File Express has separate production and MTF test hosts.",
+   "quote": "Test: mtf.mfe.mastercard.com",
+   "url": "https://pdfcoffee.com/mastercard-file-express-client-users-guide-pdf-free.html",
+   "title": "File Express Client User Guide v7.1 (26 September 2017)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2017-09-26",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-tpa",
+   "network": "mastercard",
+   "claim": "Systems integrators receive Mastercard documents after signing the Transit Partner Agreement.",
+   "quote": "made available to Systems Integrators within a reasonable period after the Systems Integrator and Mastercard have duly executed the Mastercard Transit Partner Agreement",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-release",
+   "network": "mastercard",
+   "claim": "Each CIS edition lists changes for a named authorisation and clearing release.",
+   "quote": "This document reflects changes associated with Authorization and Clearing Release 10.2 and out-of-release updates.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vnao-dke",
+   "network": "visa",
+   "claim": "Key change requests fail unless Visa lists the institution as a Dynamic Key Exchange participant.",
+   "quote": "A key change request cannot be accepted if the identifying institution is not listed at Visa as a Dynamic Key Exchange participant",
+   "url": "https://pdfcoffee.com/visanet-authorization-only-online-messages-technical-specifications-volume-1-3-pdf-free.html",
+   "title": "VisaNet Authorization-Only Online Messages Technical Specifications, Volume 1 (1 June 2020)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2020-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-chg",
+   "network": "mastercard",
+   "claim": "Readers find changes by searching the PDF for *chg* markers.",
+   "quote": "In the Find box, type *chg*, and then press ENTER.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-noinput",
+   "network": "visa",
+   "claim": "Thredd adds new merchant token requestors without client input.",
+   "quote": "GPS will continue to add these new merchants without further input from you to ensure you remain compliant.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-vts-gtl",
+   "network": "visa",
+   "claim": "Changes arrive in VisaNet Business Enhancements Global Technical Letters and Implementation Guides.",
+   "quote": "April 2015 VisaNet Business Enhancements Global Technical Letter and Implementation Guide",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-cisfile",
+   "network": "mastercard",
+   "claim": "A Customer Implementation Services specialist sets up each new file for testing and production.",
+   "quote": "A Customer Implementation Services specialist will assist issuers with setting up a file or adding new files for testing and production.",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-tp",
+   "network": "mastercard",
+   "claim": "A Transit Partner Program supports technology partners building transit solutions.",
+   "quote": "The Transit Partner Program helps technology partners develop EMV® transit solutions.",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-vipov-signoff",
+   "network": "visa",
+   "claim": "A centre whose authorisation system is down must sign off from VisaNet.",
+   "quote": "When the center’s authorization system is down, it must sign off from VisaNet.",
+   "url": "https://pdfcoffee.com/vip-system-overview-pdf-free.html",
+   "title": "V.I.P. System Overview (1 June 2005)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2005-06-01",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-loa",
+   "network": "mastercard",
+   "claim": "Passing contactless terminal type approval earns the vendor a Letter of Approval.",
+   "quote": "Vendor will receive a Letter of Approval (LoA) upon successful completion of either Mastercard or EMVCo Contactless Terminal Type Approval.",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-30d",
+   "network": "dgn",
+   "claim": "Discover gave at least 30 days' written notice of published changes.",
+   "quote": "We will provide you with not less than thirty (30) calendar days advance written notice of the publication of changes",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-vts-guides",
+   "network": "visa",
+   "claim": "Visa's process is described in client versions of the VCMS V.I.P. Testing Guide, VCMS Testing Guide for BASE II and VisaNet Testing Guide.",
+   "quote": "For more information on the Visa testing process and requirements, refer to the client versions of the following:",
+   "url": "https://pdfcoffee.com/vts-technical-specifications-guide-for-acquirers-pdf-free.html",
+   "title": "Visa Token Service Technical Specifications Guide for Acquirers (effective 10 January 2019)",
+   "publisher": "Visa (third-party upload to pdfcoffee.com)",
+   "published": "2019-01-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Visa Confidential. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-cis-mtfbulk",
+   "network": "mastercard",
+   "claim": "Issuer PIN offset files use separate bulk IDs for production and MTF.",
+   "quote": "The following bulk file IDs have been established for use when submitting PVV/PIN Offset files: RM29 (Production), RM31 (MTF).",
+   "url": "https://pdfcoffee.com/customer-interface-specification-pdf-free.html",
+   "title": "Customer Interface Specification (10 September 2010)",
+   "publisher": "MasterCard (third-party upload to pdfcoffee.com)",
+   "published": "2010-09-10",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked proprietary and confidential to MasterCard. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-plan",
+   "network": "mastercard",
+   "claim": "Mastercard lists the components of a transit implementation project plan, including testing and certification and milestones.",
+   "quote": "The key components to a transit-implementation project plan are",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-sim",
+   "network": "mastercard",
+   "claim": "Each case shows whether testing is recommended or available on the simulator and in MTF.",
+   "quote": "Where it appears in a SIM or MTF column, indicates testing is recommended for that environment.",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-dor-72h",
+   "network": "dgn",
+   "claim": "Planned maintenance affecting links needed 72 hours' notice.",
+   "quote": "You shall notify us seventy-two (72) hours in advance of any planned maintenance",
+   "url": "https://cdn2.hubspot.net/hubfs/400547/2011_Discover_Operating_Regulations.pdf",
+   "title": "Discover Merchant Operating Regulations, Release 11.1 (effective 15 April 2011)",
+   "publisher": "DFS Services LLC (posted on a third-party HubSpot file host)",
+   "published": "2011-04-15",
+   "label": "Reported",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Every page marked proprietary and confidential. Openly posted on a third-party company file host, no login needed."
+  },
+  {
+   "key": "tB-B-gtig-cdt",
+   "network": "mastercard",
+   "claim": "The Customer Delivery team is the key Mastercard contact for transit operators and systems integrators.",
+   "quote": "The Mastercard Customer Delivery team acts as the key contact between transit operators or systems integrators and other Mastercard business units",
+   "url": "https://pdfcoffee.com/mastercard-global-transit-implementation-guide-13-june-2019-pdf-free.html",
+   "title": "Mastercard Global Transit Implementation Guide (13 June 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-06-13",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-mtf",
+   "network": "mastercard",
+   "claim": "A programme manager can add a phone to MTF to send test token messages to the processor.",
+   "quote": "You can add your phone to MTF to send test tokenisation messages to GPS.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
+  },
+  {
+   "key": "tB-B-cis19-release",
+   "network": "mastercard",
+   "claim": "Changes take effect with quarter-named releases such as 19.Q2.",
+   "quote": "effective with Release 19.Q2",
+   "url": "https://pdfcoffee.com/customerinterfacespecificationpdf-pdf-free.html",
+   "title": "Customer Interface Specification (9 April 2019)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2019-04-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Only a partial preview is open, and only that part was used. Mastercard proprietary document. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-mtc-summary",
+   "network": "mastercard",
+   "claim": "The test case book is reissued with a summary of changes since the previous edition.",
+   "quote": "This document reflects changes associated since the 15 February 2018 publication.",
+   "url": "https://pdfcoffee.com/issuer-mastercard-and-debit-mastercard-test-cases-pdf-free.html",
+   "title": "Issuer Mastercard and Debit Mastercard Test Cases (9 August 2018)",
+   "publisher": "Mastercard (third-party upload to pdfcoffee.com)",
+   "published": "2018-08-09",
+   "label": "Reported",
+   "fetch": "curl and HTML text extraction of the openly visible citation preview, 2026-09-27. Marked Mastercard Proprietary. Posted on pdfcoffee.com by a third-party uploader, no login needed."
+  },
+  {
+   "key": "tB-B-thr-notest",
+   "network": "cross",
+   "claim": "Clients on Thredd's standard token service need no testing with Visa or Mastercard.",
+   "quote": "Testing with Visa and Mastercard is not required if you are using the out of the box tokenisation service provided by GPS.",
+   "url": "https://docs.thredd.com/pdf/Tokenisation_Service_Guide_1.8.pdf",
+   "title": "Tokenisation Service Guide, Version 1.8 (23 February 2023)",
+   "publisher": "Global Processing Services (now Thredd)",
+   "published": "2023-02-23",
+   "label": "Vendor",
+   "fetch": "curl PDF download and pypdf text extraction, 2026-09-27. Copyright notice only, no confidentiality marking seen. Public documentation site, no login needed."
   }
  ],
  "stage_id": "4"
